@@ -164,3 +164,15 @@ Each row is a likely action and the world's clear answer. Wrong branches cost ti
 | Harrock | God makes war on the Harrock | Winnable at cost over ten years. Cairn Hollow comes into the god's hands with the stone. The priesthood, if it exists, becomes martyrs who dream the god's wound in secret. |
 | Harrock | God makes them tributary with the bowl custom extended | Raids stop. The stone stays theirs. They bring the god things from the cairn: dreams, told badly. |
 | Any | God does nothing for a decade | The world goes on. Years 1 to 7 are quiet anyway. From 8 on, the clocks run and the god hears of them. Nothing is lost that cannot be reached late, except the Longwalkers' first visit and the Year 15 star reading. |
+
+## Keeper notes added in play
+
+2026-11-14 (resolving Round 1, Years 11 to 20). New fixed facts, derived conservatively from deep lore where the world above did not specify:
+
+- The bare circle south of Ninefield is a long bowshot across, perfectly round, with an edge sharp as a wall. It is spent ground, a closed wound, not a drain. Standing in it, speaking in it, or reciting in it costs nothing to anyone. No beetle, bird or mouse lives in it; the grass is alive and all one kind. It never changes.
+- The Shorefolk do not use visitors' names either. Told a name, they nod and point. They will not let a visitor wade past the knee. They take and keep words for things from visitors gladly.
+- A cairn road now exists from the high pasture above Hollin Ford to the Still's shore, one cairn per day's walk, laid in Year 13.
+- Hask's recruitment: the Year 16 answer invited Kessvale's knotters south; a second Ostrel envoy in Year 19 repeated the invitation with a three-summer deadline. Hask told the truth as it understands it: the circle predates Hask (Ostrel knotters, a dry-year working) and the Longwalkers were not Hask's; they refused to stay awake with Hask and went south onto the salt.
+- Harrock after the player touched the Remainder (Year 14): a grey elder offered in Year 15 at the Threnn oak no raids on Threnn or Quarry so long as the god "keeps its hand off the Lamp," left a lamb, and awaits an answer. Bowl exchanges resumed (knife, horn cup). In the dry summer of Year 20 the Harrock raided Sellen outliers instead of Threnn. The Year 25 raid is still gated: it fires on Threnn only if the Harrock offer is refused or the god takes the stone.
+- Wenna took a pupil in Year 17 (the shearer's daughter). Knotters under the god's roof: three.
+- Lake Hollow froze all at once and shallow in the hard winter of Year 16, crushing two boats at Cold Harbour. A fading effect, no new mechanism.
