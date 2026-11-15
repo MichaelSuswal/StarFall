@@ -176,3 +176,14 @@ Each row is a likely action and the world's clear answer. Wrong branches cost ti
 - Harrock after the player touched the Remainder (Year 14): a grey elder offered in Year 15 at the Threnn oak no raids on Threnn or Quarry so long as the god "keeps its hand off the Lamp," left a lamb, and awaits an answer. Bowl exchanges resumed (knife, horn cup). In the dry summer of Year 20 the Harrock raided Sellen outliers instead of Threnn. The Year 25 raid is still gated: it fires on Threnn only if the Harrock offer is refused or the god takes the stone.
 - Wenna took a pupil in Year 17 (the shearer's daughter). Knotters under the god's roof: three.
 - Lake Hollow froze all at once and shallow in the hard winter of Year 16, crushing two boats at Cold Harbour. A fading effect, no new mechanism.
+
+2026-11-14 (resolving Round 2, Years 21 to 30). New fixed facts:
+
+- The god's own wanting (small acts: rain held, fevers broken, ropes kept) spends only the god and does not move the fading clock. A god who stops wanting changes nothing in the valley's rate of loss and loses the help it would have given.
+- A working done in a bare stone room costs the knotter more and the patient a little (a day of not knowing a name, recovered). Stone cannot pay. Wenna lost her sister's name in Year 22; the sister wrote a name for herself.
+- The Shorefolk take invented names as words and attach them to huts, not persons. Named, a Shorefolk person looks at the water. They dream the counting every night whether or not the thread comes. One visit does not count as acting on the Still for the Year 36 gate; the names branch requires Cold Harbour people living among them.
+- The Remainder's dream holds no personal name. The crowd says one word, the address a follower gives the followed, which is also in the player god's fog. Saying it at the stone does nothing. The Harrock near the stone dream the river that night.
+- Oldmark, asked "what does a full cup pay, and to whom," answered: "A cup pays nothing. The one who carries it pays, with the hand." "Ask the ground; it keeps a better tally than I do." "A stone set down is still counted." Oldmark returned the one-line stone. Relations: good.
+- Hask's Year 22 working was done without Kessvale knotters; the dead circle is wholly Ostrel. About two hundred Ostrel refugees are settled at Wick and Ninefield, among them one knotter who will not tie. Year 29: Hask sent a quiet request for the god of the Kess to come or send a listener.
+- The Harrock peace holds: no raid on Threnn or Quarry in Years 25 to 30; the clans raid Sellen outliers instead and lose horses to camps that do not fight.
+- Hesk, the shearer's daughter, is Brae's third knotter. The Judge heron died in Year 21; a Dorrin child was named for it in Year 30. Dorrin built its bridge in Year 24.
