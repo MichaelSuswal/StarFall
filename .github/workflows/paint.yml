@@ -1,0 +1,22 @@
+name: paint
+on:
+  push:
+    paths: ["images/requests/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: paint
+jobs:
+  paint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/paint.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+      - run: |
+          git config user.name "starfall-painter"
+          git config user.email "starfall-painter@users.noreply.github.com"
+          git add images/out
+          git diff --cached --quiet || (git commit -m "Paint new images" && git push)
