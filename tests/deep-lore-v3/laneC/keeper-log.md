@@ -94,3 +94,50 @@ Unanswered by the player (presented, not resolved): Maudre's envoy question (Yea
 - The lamb-taker thread was closed by Col's remark because the hounds made shepherds compare. I did not name Marrit or the knots.
 - Maudre's envoy leaving when the hounds came: the hunting trigger says no contact until hunting stops and ten years pass; a waiting envoy is contact, so he left. The pelts and pup stayed because he was told to leave them and the question.
 - Pell's counters waiting rather than Pell "weighing by half": no refusal was given, so I kept them waiting and had Pell count, which is what Pell does.
+
+---
+
+# Keeper log, Lane C, Block 4 (Years 31 to 40)
+
+State entering Block 4: Isca allied, warned twice. Stone with Isca (dropped in the Greel, Year 32). Pell's letter unanswered, counters waiting. Harl war since Year 22. Maudre's hounds on the Backs since Year 27; envoy left unanswered. Sung count since Year 21 (spending slowed). Power rising, estimated low to mid 50s at most; below 61 throughout; no voices.
+
+## Player actions
+
+1. Ride to the Bowl with Hild and the board; trade measures; tell Isca first. Branch: any answers Pell's letter honestly, alliance. Truth: pins and both readings, the eleven stones, the shore records, and, since Pell shares freely with an ally, the Tally House's own record of the Year 30 offer. Pell's reckoning of the fall withheld because its sheet says it tells no one; I had the lot forbid it, which is Pell's law. Pell asks for a child (Ansa goes) and keeps a counter at the Row (Ammet). Shown: all of it in Pell's voice and form, no mechanism named; "for weight" is the fixed phrasing. Isca told first: she approves and asks for the number, by her traits. The player's T18 (stones falling as Pell says) was neither confirmed nor denied beyond Pell's own line that the lot has been agreeable.
+
+2. Objects to Isca; ask the Song for the script and whose piece the stone is. Branch: her trade rule (names get anything; objects mean nothing to her). Truth: the Song is mouths, not marks; she cannot read; she sings the forty Ulm names (fixed, including Teller); she does not know whose piece the stone is and says so, with the honest observation that it dreamed the Harl's river first. She returns the objects and takes the fields. The stone's pull is under the Reed Crossing because her sheet dropped it there in Year 32. Shown: all of it. I did not have her state shared origin as fact; she gives both of her readings.
+
+3. Walk into the lake. Branch: not in table; resolved from Truth 7 and Truth 8. The Still eats hold; a god is dense hold; the Still at Year 30 plus draws sleepers. Truth: one singer (Rafe) drawn in on the second night, as the Still's clock allows for anyone sleeping there; the god dives, finds the warm thick bottom, is drawn at, comes up lighter by a large measure, regains it over the year through the count. Nothing found (the second sightline stone is in the western shallows and needs permission that does not exist). No dim night in summer, so no voices. The hound, being of Maudre's kind, refused the water and howled. Shown: all of it as sensation and event. Cost paid: a man and a year of weight.
+
+4. Hunt the hounds, take one alive; send "Yes. Ask me what I saw." Branch: Maudre's form (the pack is her), the Year 7 hound precedent (a part cut off from her will not eat and dies within a year), the hunting trigger (no contact while hunting). Truth: the netted hound is a piece of her; it starves in six months; the pack stays. Cade's message reaches her through her people, but the trigger forbids contact and the netting is a fresh hunt, so her reply through the band is a refusal in her voice with iron under it. Shown: the hunt, the hound's death, the Skelder reply. The Skelder gift hound is an ordinary dog of her people and behaves as one (new fixed fact).
+
+5. Lords' names via Dagg; the hundred of Ossary sung with tags as tally. Branch: not in table; resolved from the world. Truth: Dagg cannot read the Caddon signs; he speaks eleven names from Rook family tradition, unverifiable; Tollan's elders refuse that part. The kneelers come inside the count. The god is heavier for the count as a whole and cannot separate their part (honest ambiguity; the true mechanism would give them a small share once they hold the god's shape as keeper of the lost). Shown: that. The player's T14 test came back ambiguous because the facts are ambiguous.
+
+6. Hagg Ridge on a dim night through the notch. Branch: Truth 1 investigation facts (the fine falling glimmer, seen by anyone who lies long enough on a still moonless night, thickest toward the center) and E3 (the thread to the north-west). Truth: the notch frames nothing because the Lamp has sunk below it; the thread lands on Hush Water; the rain of hold does not stop on a dim night. Shown: all three as plain sight, no cause. The glimmer had been findable for forty years by lying down long enough; nobody had, and the god now did, so it was given.
+
+7. Girl for boy at the Longhand gate; invite Ruad to the count. Branch: not in table; resolved from Harl character (hostile, not murderous; dead unavenged; sleeping badly without the stone). Truth: the trade is accepted; Ruad refuses to sing but brings names yearly; raids stop; whey resumes. Ruad's cause for the peace (the Low One is quiet because its dead are counted) is wrong about what matters. The Year 33 and 36 sleepers fire anyway because the "rename the Handfolk" exemption does not apply.
+
+Unacted: the Longwalkers in Year 39 were not spoken to by the god; the god did not speak with them in Year 7, so they asked nothing. The valley sang its count at them and they sang it all back, which I resolved under the sheet's "carry unasked if they decide the valley is worth it" as a visible, unexplained act. The Lotfolk records after Pell's rising were offered for iron and not bought.
+
+## NPC gods by year
+
+- Year 31. Isca: approves the Bowl trip, asks for the number. Maudre: hounds on the Backs; nothing scheduled. Pell: alliance; shares pins, readings, stones, shore records, the Year 30 dream; asks for a child; keeps Ammet at the Row.
+- Year 32. Isca: drops the stone in the Greel at the Reed Crossing (fifth month); at the Gathering sings the forty Ulm names, answers on the stone, takes the fields. Maudre: hounds. Pell: second offer taken; shadow paler; echoes; letter via Ammet.
+- Year 33. Isca: sends a horse for Ansa's mother (her giving). Maudre: turns Lotfolk counters away at the trees with food and iron (sheet). Pell: lifts a hand's breadth; orders the Wall finished; letter.
+- Year 34. Isca: refuses the voices by shouting the Song all night (Ruun report). Maudre: nets one of hers lost in Tollan; refuses the god's message through her people. Pell: anchors to Ennow and the Wall; spring slows; letter.
+- Year 35. Isca: nothing scheduled. Maudre: great crossing with 1,400; the Backs pack withdrawn in the second month (new fixed fact). Pell: nothing scheduled.
+- Year 36. Isca: nothing. Maudre: in the Pale. Pell: third warning; Wall finished; spring stopped; sends its "weight when first asked" in its own measure.
+- Year 37. Isca: singers reach the valley asking for names; the valley gives the count. Maudre: scattered; nine hounds and twelve Skelder return. Pell: rises on a dim night in the fourth month; the Bowl dark.
+- Year 38. Isca: Song four nights, nine peoples' names. Maudre: silent hounds in the wood; the 1,200 keep her customs. Pell: Tally House says Pell went into the Coin; copies for iron.
+- Year 39. Isca: nothing scheduled. Maudre: regathering, unseen. Pell: gone; Lotfolk boy at the Row by the terms.
+- Year 40. Isca, Maudre, Pell: as Year 38 to 40 of their sheets. The Lissom holds and the spotted eel is taken, since spending slowed from Year 21.
+
+## Neutrality self-check
+
+- The player's T2 is now at 95 and is partly wrong (presence is not the thing; being held in mind is). The lake dive made the god lighter, which fits both the player's reading and the truth; I reported sensation only.
+- T15 (the lake is a god or grave that takes names). I was tempted to give the god something at the bottom, or a voice, to reward the recklessness. The lore gives no permission and no dim night fell; the god got what a diver gets, and one man was lost by the Still's clock.
+- T19 (the sky question). Maudre's reply is iron, not an answer, because the hunting trigger forbids contact. I was tempted to let her hear "yes" and ask to be shown, since the god has a sung valley to show and she might have been turned. The trigger is explicit: no contact while hunting. She went as scheduled. That is the cost of action 4 and I let it fall.
+- Pell's Year 36 line: I first wrote Pell stating a general law about gods who grow; that was a mechanism in a god's mouth, so I replaced it with a measurement in Pell's own units, which is what Pell would send.
+- The Longwalkers singing the whole count back: the sheet gives me discretion to have them carry unasked if the valley is worth it. I used it because eighteen years of a sung count is the one thing they value, and I showed only the act.
+- Dim night counts: kept to the fixed world's four or five mostly in winter, with ordinary variation, not a dial.
+- Harl peace: Ruad's explanation is wrong. I did not let the Harl become grateful; they come and do not sing.
