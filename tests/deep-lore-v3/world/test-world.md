@@ -206,3 +206,18 @@ Read before every session.
 - 2026-11-15, LANE C. A party of six sent east with the caravan in Year 11 (Dace of Tollan, Hob and Sim of Weir, Alun of Ferrow Ford, Jory of Lissom, Ebb of Greyholt), singing their names nightly and carrying knotted name-cords: four return in Year 13 knowing their own names and each other's and nothing else; the cords are unchanged; Alun dies of thirst beyond the last well; Ebb walks on east and does not return. The caravaners say the salt did it.
 - 2026-11-15, LANE C. With the Remainder left in place after a god's visit, Brude's clan posts two sleepers at the cairn from Year 14; after Haddo's month there in Year 15 they learn his song; by Year 20 four "stone-men" live at the cairn and the Harl chant the dream above Ferrow Ford and Greyholt before raiding, in the fourth and ninth months of Year 20.
 - 2026-11-15, LANE C. The Harl stop leaving whey bowls at Greyholt after the Year 11 raid and resume in the drought of Year 17.
+
+## 7. New fixed facts (appended by Keepers when a player action reached something unspecified)
+
+**LANE B, 2026-11-15, Block 2 (Years 11 to 20).** Resolved conservatively from the deep lore. The same facts bind every lane from this date.
+
+- The Ruun Gathering at the Fire Hollow is held in the tenth month; the Long Song is sung on its last night.
+- The caravan track from the Reed Crossing to Tollan runs along the Greel's west bank to the Olm mouth, then up the Olm's north side along the fen's dry northern edge under the Backs' southern end, past Dun Mere's turning to Weir and Tollan. About nine days.
+- Ket, the Harl captive of Year 3, is of Gorm Longhand's clan.
+- The valley's count, as the written tags record it: Year 12, 1,094 households. Year 14, 1,101 households; 4,340 sheep; 610 goats; 270 cattle. Year 16, 1,108 households (the pebble cairn that year: 1,106). Year 19, 1,117 households; 4,580 sheep; 840 goats; 310 cattle; 23 horses. Total people about 5,000 throughout.
+- Vell to Greyholt cannot be channeled: the goat path climbs and falls four times. Goats can be driven up and kept in Vell's stone yard on the cisterns.
+- A written household count kept yearly is one kept thing toward the fading clock's slowing condition. Alone it does not move the Year 20 mark; with other keeping it bears on Years 30 and 40.
+- Plain-world mortals named in Lane B: Dall, a Greyholt hauler, drowned Year 12 at the Ferrow Ford piers. Tam Rook, Aldo's cousin, began the quarry fight Year 12 and died at the Scarrow scar Year 16. Hodd, a quarryman of the nephew's half, killed Year 12. Reyn, a Ruun rider, married into Weir Year 14. Ede of Lissom, one of Hemma's three tag-keepers. Col's nephew, a shepherd, killed in the Year 20 Harl raid.
+- In Lane B the eight Olm village names are in the Long Song from Year 13. Isca holds the Olm god as an ally from Year 13 and gave twenty horses (Year 13) and forty cattle (Year 19).
+- In Lane B the Rooks opened a second quarry in the cuts above the nephew's after Year 16, selling cheaper and worse stone.
+- Maudre's strayed hound, kept by the Weir man who bought it in Year 7, died in the winter of Year 8 without eating, and is buried under the Weir mill wall.
