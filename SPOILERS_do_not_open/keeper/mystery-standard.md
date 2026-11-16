@@ -9,3 +9,6 @@ The rules every mystery, clue and morning story must satisfy. Keeper material.
 5. Confidence target: a careful player sits at 40 to 60 on the central questions for most of a campaign and reaches 80 only by acting on a theory and seeing the result.
 6. The world answers actions clearly, including wrong branches and restraint. A wrong branch costs time and teaches something. It does not punish forever.
 7. Every truth has a body (a place, a being, an event). Every mystery has a cost if ignored, tied to a clock or trigger. Every event has a traceable cause.
+8. Clues and secrets are never held back. Everything is placed at creation and is findable from the moment it exists. A god that focuses more energy on a problem, or is cleverer, finds things sooner. The pacing spine is a forecast, not a gate.
+9. The world neither guides a god away from a bad conclusion nor supports it. Facts fall as they may. No second wrong cause is planted beside a true sighting to reopen it, and no clue is added later to rescue a line that went quiet. A god discovers its own errors by acting on them.
+10. The DM never corrects a god's beliefs about the world. It may, out of game, challenge the player's musings with questions, so the player thinks again. It does not supply the answer.
