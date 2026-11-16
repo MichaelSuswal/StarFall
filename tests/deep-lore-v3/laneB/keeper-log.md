@@ -124,3 +124,69 @@ State entering Year 21: eight Olm village names in the Long Song; Isca's allianc
 - Maudre's envoy and Pell's letter were both put to him exactly as written and left for him to answer. I did not have the god answer either, and I did not have the envoy leave "with no answer," which would have decided it for him.
 - Gorm's refusal to enter the wall was decided by what the Harl are, not by any wish to keep the Notch out of the player's hands. Gorm's fold is where it has been for five grandfathers and the player did not ask about it.
 - Isca invited the god to ride with her. His round 2 said twice that he would not go to the stone, so I resolved the invitation declined. Had he not stated it, I would have left it open like the other two.
+
+---
+
+# Lane B Keeper log. Block 4 (Years 31 to 40)
+
+State entering Year 31: eight village names in the Long Song; Isca ally; Pell's counters waiting since Year 25; Maudre's envoy answered in Year 24 (the player stated the answer in round 3: "a light and a fall and a meadow, nothing before the meadow; I keep my people's names in a stone house; she is welcome at my Row"); stone at the Fire Hollow; Fallow Dip empty; the valley's spending slowed since Year 22; power about 45.
+
+## Rulings on the two open answers
+
+- Maudre. The answer says the god remembers a fall and offers a kept valley as the thing it has, with an invitation to see it. Under the test-world trigger this is "yes with evidence": she asks to be shown, and a sung valley shown delays the crossing and makes her sing it, and more come back. The alternative reading ("nothing before the meadow" is a no) was weighed; the trigger's evidence list names a sung valley exactly, and the god offered one. She trusts nothing she has not seen, so she sent watchers rather than coming: six Skelder at the Year 31 festival, more each year, learning the manner. Fixed for Lane B: the great crossing is Year 36, not 35; 1,400 go singing nightly; in autumn Year 38 nine hounds and 140 Skelder return knowing their names and nothing else; Maudre returns thinned to nine, speaks little, says there is no high star, and once that "the singing was right and the walking was wrong." The Year 24 answer also starts her count of acts she can see; by Year 34 it is ten years, which earns one honest answer to one question if the player ever asks one. He has not.
+- Pell. The player answered honestly in Year 31 and gave the count freely. Alliance by Pell's sheet: pins, both readings, the eleven stones, the shore records shared in full at once; a counter stays; a valley child goes to Ennow. Pell's Year 30 to 37 arc runs unchanged (it takes the offers whatever anyone tells it). The valley learns the lift from a trader in Year 34, the anchoring from the child's letter in Year 35, the softening from the Tally House in Year 36, the rising from a trader in Year 37, and the whole from the child in Year 38, with lead copies of the readings and the stones.
+
+## Actions
+
+| Action | Branch | Truth | What the player was shown |
+|---|---|---|---|
+| 1. Answer Pell; give the count; take the readings and the stones; ask Pell to carry the count; the message about counting gods | "Answers Pell's letter honestly" | Alliance. E18 and L2-9 delivered as Pell's letter promised: the two readings (less than a pin's eye by Year 9; a pin's eye in thirteen years by Year 22; second interval greater), the eleven names, the forty shore households through Year 30 including nine walked into the water. Pell's computation of the fall is not shared because Pell tells no one. Pell's Year 32 letter answers the message in its own voice and despair and reports the first offer's effect (lots falling as it wills) as a curiosity. The counter stays till his death in Year 39; the child Nell comes home Year 38 with lead copies and an eyewitness account of the lift, the anchor and the rising. | All of the above, as read aloud by counters in Pell's form. |
+| 2. Face 400 paces above Ossary; second chamber; read the recovered dead | Builder builds | Stone holds in Year 35. The recovered tags cannot be read by anyone in the valley (Caddon pictographs), so Ossary counts them: 212. The headman's "the number is the names" is the mortal workaround. | Stone, chamber, count said at the Row. |
+| 3. Stone arches on the four piers | Builder builds | The valley has never turned an arch; the first falls when struck (Year 32), nobody hurt; the second holds; four arches by Year 34. Took the Year 35 heavy flood untouched. Wat dies Year 35, 42, of the chest. | All of the above. |
+| 4. Horses to thirty; sell the rest east; tell Isca horses enough, as information | Builder trades; Isca's Trade line | Sold at Ruun prices (locusts, the fire). Isca is told through Reyn's daughter; she gives cattle afterward, sixty for eight names, which is her scale, not a rebuke. | The sale, the message, the sixty cattle. |
+| 5. Greyholt hill steading; Ket's stone house; speaker for life with salt stipend | Builder builds | Plain works. The Still's clock is unaffected: Year 33 and Year 36 sleepers on Hagg Ridge fire as fixed (the renaming exemption applies to the Handfolk, not to the valley). Greyholt stops cutting on the ridge. | The steading, Ket's house and stipend, Ord and his cousin found standing in the tarn, plain; Gorm's wrong explanation; Ket's true observation that it never did before. |
+| 6. Lord's Hill contract: hall as count house for both Scarrows; Driving at the Row by Tollan; their own telling in the hall | Not in table; from the Rooks' sheet | Scarrow Hill accepts hall, tags and reading; the nephew's half refuses to put tags under the bird; so the hall is Scarrow Hill's count house only. The Rooks' Driving as told in the hall is their reading of the board: a witch made the lords forget. Wrong about the cause, right that there was no battle. Nobody dies. | All of the above. |
+| 7. Thirty sheep to Gorm as a gift | Harl customs | Accepted "between folds," a ewe returned so it is not a debt. Gorm dies Year 39; his son keeps rate and runner. | As written. |
+| Free hand. Harl dead on tags to Isca as a gift | Isca's Trade line ("gives names, gets anything") | She sings them (she already sang the men she killed in Year 27; the eight tags add Ket's rendering). Whether she is "reminded" is not shown; nothing in the world would show it. | The riders' acceptance in form and the sixty cattle. |
+| Inferred. Opening the count house to Isca's singers in Year 37 | Isca's Year 36 plan; "god gives names for the Song" | Not an action the player listed, since the singers come in Year 37 and the player wrote in Year 30. Resolved from his stated policy and acts: names read aloud to Pell's counters for eleven days, Harl names sent to Isca unasked, names as "food and shield." The Olm valley's places and fifteen years of dead are in the Long Song from autumn Year 37. This is the densest storage available in the region and it happened by the player's own hand without the player knowing what it is for. | Ede looked at the god and opened the house; three nights of reading; the herald's words. |
+
+## Fixed schedule as it reached the valley
+
+- Year 31: Hard winter (shown). Maudre's watchers begin (consequence of the Year 24 answer).
+- Year 32: Isca drops the stone in the Greel at the Reed Crossing (shown by carters; the pull moves and stops nine days east and does not answer). Pell takes the second offer (not visible; its letter mentions the first).
+- Year 33: Greyholt burner into the tarn, plain (shown). Lotfolk counters turned from the wood (shown via the Tollan counter). Pell lifts (reported Year 34).
+- Year 34: Isca refuses the voices (not visible). Pell anchors (child's letter Year 35). Lotfolk trader reports the lift (shown).
+- Year 35: Heavy flood (plain world; the stone works all pass). Herd year (one clause). Lane B: no crossing this year; the Skelder announce it for Year 36.
+- Year 36: Second sleeper (shown). Maudre's crossing, singing, 1,400 (shown by Skelder in spring). Pell's third warning (shown via Tally House letter).
+- Year 37: Pell rises on a dim night (shown by trader; the god feels the south-western pull stop). Isca's singers ask for names (shown; the house opened).
+- Year 38: Lane B: Maudre and 140 return in autumn (reported Year 39). Nell home with the Tally House copies and her account (shown). Isca's riders sing the Olm entire (shown).
+- Year 39: Longwalkers pass and ask nothing of the god, since the god did not speak with them in Year 7 (shown exactly). The 140 reported (shown). Gorm dies.
+- Year 40: Spending slowed since Year 22: the Lissom holds and the spotted eel is taken (shown; Dun Mere and Lissom each wrong about why). Greyholt's "thee" holds (shown in one plain sentence because the player has visited the fact of Greyholt's speech before, in Block 1's custom list; stated, not explained).
+- Power: about 45 at Year 30, about 52 at Year 40. Under 61. No voices, no shadow change. The player's power is now the highest of any god left on the ground except Isca.
+
+## NPC gods by year
+
+| Year | Isca | Maudre | Pell |
+|---|---|---|---|
+| 31 | Hears the horses message; gives nothing that year. | Sends six to see the stone house; begins ten years of watching the Olm. | Receives the Olm's count by alliance; sends lead; takes Nell to Ennow; counter stays. |
+| 32 | Drops the stone in the Greel at the Reed Crossing. | Twelve watchers; they sing. | Letter to the Olm; takes the second offer; shadow pales. |
+| 33 | Gathering. | Turns Lotfolk counters away with food and iron. Twenty-two watchers learn the singing. | Lifts a hand above the Bowl; orders the Wall finished. |
+| 34 | Refuses the voices; shouts the Song at them all night. Takes the Harl tags; gives sixty cattle. | Thirty watchers; announces the crossing for Year 36. | Binds itself to Ennow and the Wall; the spring slows. |
+| 35 | Gathering. | Final year of preparation; all 1,400 singing nightly. | Anchored; cisterns hold. |
+| 36 | Concludes that what is sung stays; sends singers to every people. | Great crossing, 1,400, singing. | Third warning: rim smooth, face forgotten. |
+| 37 | Singers reach the Olm; the count house is read to them; the Song takes three nights. | In the Pale. | Rises on a dim night. Tally House runs the lots in its name. |
+| 38 | Riders sing the Olm entire at Tollan. | Returns in autumn with nine hounds and 140 who know their names; says there is no high star. | Tally House; spring dry; Wall of 6,000 names. |
+| 39 | Gathering of three nights. | Counts the camps in a low voice; feeds the 140 first. | Priests sell copies for iron; the Tollan counter dies and is not replaced. |
+| 40 | Holds the Ruun, the Ulm names, Haddo, the Harl, the Olm entire. | A pack of nine in the wood, smallest she has been. | Gone. |
+
+## Neutrality self-check
+
+- The player's round 3 called the dim-night line a metronome and asked to see its face. I kept the line at its true rate and did not give it a face, because the world has none to give at this power level. The one dim night that mattered (Pell's rising) was marked only by the pull going out, which the god feels, and a trader's report.
+- I was tempted to treat the player's Year 24 answer as "no" to keep Maudre on the written schedule, and tempted the other way to treat it as a rescue. I read the trigger's own evidence list, which names a sung valley, and ruled by it. The delay is one year and the crossing still fails to find a high star; what changed is how many came back and whether she did. I wrote the alternative reading into the log so an auditor can disagree.
+- The Year 37 opening of the count house to Isca's singers was the one place I acted for the player on a consequential matter without an explicit instruction. I did it because every stated action of his for twenty years gives names freely to any god who asks, and because the alternative (leaving it open) would have been impossible in the last block. I have marked it as inferred.
+- I did not have anyone tell the player that the Lissom holding, the spotted eel's return and Greyholt's "thee" are the result of his naming. Dun Mere says the pike died out; Lissom says the channel and the grafts. He is shown a yes without being told it is a yes, as the response table says.
+- I did not have Nell, the counters, Isca's herald or the Skelder connect the readings, the stones, the shore families, the sleepers and the Song to one another. Each told what its people know. The player has every piece on his count house floor and no one has assembled them for him.
+- Pell's despairing letter is in Pell's voice and answers the player's message in kind. I checked that it does not teach: it says Pell's second column is longer, which Pell believes, and nothing about why.
+- The Longwalkers passed without asking, as the fixed world says for a god who did not speak to them in Year 7. I did not soften it by having them notice the count house or the valley's singing.
+- The stone's second move (Year 32) is reported because the god feels pulls; I kept it to the sensation and the carters' plain report, and did not have anyone remark that the Olm god's road ends where the stone lies.
+- The pull vanishing in Year 37 and Maudre's pull fading and returning are sensations the god has had since Year 1; reporting them is honesty, not steering. I did not say what they mean.
