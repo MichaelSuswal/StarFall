@@ -1,0 +1,3 @@
+> SPOILER WARNING. Dry run mysteries (minimal).
+Short 1: the drowned village. Under the marsh at Oxmouth lie posts of a village older than the Riverfolk. Clues: posts seen at low water (seen, any year); elders' tale of "the ones who went under" (rumored); a bronze pin in the mud (seen, if anyone digs). Truth: a people who came from the south two centuries ago and were drowned by a flood like the one due in Year 2.
+Long 1: the Carn in the hills keep a count of the sky-lights going back forty generations on notched poles. Clues: their watcher carries a notched staff (seen, Year 2 if triggered); traders say the hill people "count the sky" (reported, Year 5). Truth: the count shows the lights were once far more frequent.

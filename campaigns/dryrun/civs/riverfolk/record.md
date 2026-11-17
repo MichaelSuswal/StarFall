@@ -1,0 +1,2 @@
+# The Riverfolk
+About 5,000 people in twelve villages along forty miles of the river Ald, from Oxmouth at the marsh to Fallstead below the first falls. Fishers, reed-cutters, barley farmers. Code: no one takes from the river without giving back (a fish returned, a reed bundle left). They name their villages but not their river god; they call it the Weir-King. Hierarchy: a headman per village and a council of headmen at Oxmouth each autumn. Mood: wary of the new god, curious, glad of the spring.

@@ -1,0 +1,64 @@
+# The Night Turn
+
+How one year of the world is resolved. Runs in the overnight session, which starts fresh and knows only what is in the repository. Begins after the play chat's 1:30 save and handoff. Must finish, with the morning story and painting committed, before 6:30; if it cannot, the 6:30 wake posts a notice and the story follows when done.
+
+The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_not_open/campaigns/<name>/`. NNN is the year being resolved.
+
+## 0. Setup
+
+- Pull the repository. Confirm `player/decisions-NNN.md` and `player/rolling-save.md` are present and that `state/clock.md` says year NNN is open. If the save is missing, the year still turns: the god continues its last decided course and the morning story says the save was missing.
+- Start `years/NNN/` and `releases/NNN/`.
+- Spawn agents as needed. Each agent gets only its own files. Use the models set in `state/models.md`.
+
+## 1. Decisions in
+
+- The DM's handoff holds decisions only. Musings stayed with the DM.
+- Each NPC god agent reads last year's release for it, updates its record and goals, and writes `gods/<god>/decisions-NNN.md`. Seven agents, run in parallel.
+- Each god's decisions go to its civ agent.
+
+## 2. Keeper pass one: the year's world events
+
+- Advance the clock: which clocked events fire this year, which triggers have been met by last year's state and this year's decisions.
+- Weather, seasons, natural events, the godless peoples' actions, and anything else not tied to a god's people.
+- Random events: rolled with `tools/roll.py`, weighted down in Years 1 to 7 as the event schedule says.
+- Recurring phenomena: counted by `tools/phenomena.py` from the record.
+- Write for each civ agent what its people would experience this year (`releases/NNN/civ-<x>-pass1.md`), and for the Keeper itself a list of every world event with its cause.
+
+## 3. Civ agents act
+
+- Eight civ agents, in parallel. Each works out its people's year from its god's decisions and pass one, per `engine/roles/civ.md`, and reports to the Keeper what touches anyone else.
+- Unplayed time for the player's god: the avatar follows standing conduct (`player/conduct.md`, then the conduct profile). Minor encounters resolve by conduct. Major encounters are held: note the moment of contact and stop that thread.
+
+## 4. Keeper pass two: resolution
+
+- Overlay every civ's actions and reactions with the world events. Resolve contests by factors and `tools/roll.py`. Deliver messages per `engine/rules/messages.md` and log each one's fate.
+- Check the sealed ruling ledger before any ruling; record every ruling made.
+- Record new fixed facts in the keeper log when an action reached something unspecified.
+- Update `state/` (population, stores, messages, map knowledge per god) and `world/` where public facts changed through the world.
+- Write `years/NNN/year.md`: everything that happened, with causes, sealed.
+- Write the keeper log for the year, including the neutrality self-check.
+
+## 5. The check
+
+- The checker agent runs `engine/roles/checker.md` against the year and writes `years/NNN/flags.md`.
+- The Keeper reworks anything flagged and reruns the check. Loop until clean or until 6:00; anything left goes into the morning notice.
+
+## 6. Releases
+
+- For each NPC god and each civ: `releases/NNN/<agent>.md`, only what it could know.
+- For the DM: `releases/NNN/dm.md`, everything the player's god would know: what it saw and sensed, what its people report, messages received with their state, held encounters with their moment of contact, deaths of significant people, and the map knowledge gained.
+
+## 7. The morning story
+
+- The DM agent reads its release and writes `years/NNN+1/morning-story.md` per `engine/rules/morning-story.md`: the return sequence, the summary with hooks, the held encounter if any, and the painting prompt.
+- Write `images/requests/<campaign>-NNN+1-morning.json` as early as possible so the painting is back by 6:30.
+- Update the chronicle: the civ agent's people side, the DM's god side, condensed per `engine/rules/chronicle.md`.
+
+## 8. Close
+
+- Set `state/clock.md` to year NNN+1 open.
+- Commit everything and push. The 6:30 wake in the play chat reads the morning story and the painting from the repository and posts them.
+
+## Timing record
+
+Append to `state/timing.md`: when the turn started, when each stage finished, which models ran, and the token usage if known. Stage B uses this to choose the night model.
