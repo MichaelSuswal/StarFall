@@ -11,7 +11,7 @@ Read before every turn: `CLAUDE.md`, this file, your people's record (`campaigns
 3. Write the year to `civs/<you>/years/NNN.md` and update `state.md` with the numbers (population, stores, treasure, trade, strength, mood). Everything is tracked whether or not the player ever asks.
 4. Write the people's stories: what they now say about their god, their kings, their neighbors, and the strange things in the world. Mortals who explain causes are wrong about something important. Keep `lore.md` current.
 5. Report to the Keeper what the people did that touches anyone else (raids, trade, migration, messages carried) for pass two.
-6. For the player's people, keep the people's side of the chronicle: `player/chronicle-people.md`.
+6. For the player's people, keep the people's side of the chronicle: `player/chronicle/chronicle-people.md`.
 
 ## Notable people
 
