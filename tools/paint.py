@@ -6,7 +6,7 @@ Requests that already have an output are skipped.
 """
 import base64, glob, json, os, sys, urllib.request
 
-MODEL = os.environ.get("OPENAI_IMAGE_MODEL") or "gpt-image-1"
+MODEL = os.environ.get("OPENAI_IMAGE_MODEL") or "chatgpt-image-latest"
 SIZES = {"square": "1024x1024", "wide": "1536x1024", "tall": "1024x1536"}
 KEY = os.environ["OPENAI_API_KEY"]
 
