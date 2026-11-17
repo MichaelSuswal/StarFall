@@ -58,6 +58,7 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
 16. Day 3, the people: ordinary culture, customs and skills are described. Anything giving a real edge over other peoples (a rare skill, unusual longevity) is priced against a weakness. Guide: `engine/creation/day3-the-people.md`.
 17. How a god meets its people (already there, waiting for it, or arrived with it) comes from the world's history and the player together, worked out in the Day 3 negotiation and reconciled with the deep history.
 18. Follow-up questions on Days 2 and 3 are woven into the conversation and kept few. The DM may switch to (oog) when needed.
+19. Survey answers carry equal weight: the player is one voice in eight. Every answer is blended into one world with one set of rules; special places may exist, but no wish creates a local exception to the rules. Keeper notes: `SPOILERS_do_not_open/keeper/survey-keeper-notes.md`.
 
 ## 4. The world
 
