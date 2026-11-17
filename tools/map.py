@@ -285,9 +285,14 @@ class Sheet:
 
 # ---------------------------------------------------------------- drawing
 
+def terrain_kind(terrain):
+    """The first word of the terrain, letters only: 'hill, sheep country' gives 'hill'."""
+    word = (terrain or "").strip().split()[0].lower() if (terrain or "").strip() else ""
+    return "".join(ch for ch in word if ch.isalpha())
+
+
 def terrain_wash(terrain):
-    first = (terrain or "").split()[0].lower() if terrain else ""
-    return TERRAIN_WASH.get(first, "#e3dcbb")
+    return TERRAIN_WASH.get(terrain_kind(terrain), "#e3dcbb")
 
 
 def grid_points(poly, step, rng, jitter=0.35):
@@ -360,7 +365,7 @@ def draw_region(sh, k, rng):
     sh.add(f'<polygon points="{sh.pts(poly)}" fill="{wash}" opacity="{op}"/>')
     sh.add(f'<path d="{sh.wavy_path(poly, rng, amp=1.0, close=True)}" fill="none" stroke="{INK}" '
            f'stroke-width="{0.8 if reported else 1.2}" stroke-dasharray="{"4 3" if reported else "none"}" stroke-linejoin="round"/>')
-    first = (k["terrain"] or "").split()[0].lower() if k["terrain"] else ""
+    first = terrain_kind(k["terrain"])
     tex_op = 0.5 if reported else 0.9
     if first in ("mountain", "highland"):
         for p in grid_points(poly, extent_across(poly) / 7, rng):
@@ -368,7 +373,9 @@ def draw_region(sh, k, rng):
     elif first == "hill":
         for p in grid_points(poly, extent_across(poly) / 6, rng):
             x, y = sh.px(p)
-            sh.add(f'<path d="M{x - 6:.1f},{y:.1f} Q{x:.1f},{y - 6:.1f} {x + 6:.1f},{y:.1f}" fill="none" stroke="{INK_LIGHT}" stroke-width="0.8" opacity="{tex_op}"/>')
+            w = 9 * rng.uniform(0.8, 1.2)
+            sh.add(f'<path d="M{x - w:.1f},{y:.1f} Q{x:.1f},{y - w * 0.8:.1f} {x + w:.1f},{y:.1f}" fill="none" stroke="{INK}" stroke-width="0.9" opacity="{tex_op}"/>')
+            sh.add(f'<path d="M{x - w * 0.3:.1f},{y:.1f} Q{x + w * 0.3:.1f},{y - w * 0.5:.1f} {x + w:.1f},{y:.1f}" fill="none" stroke="{INK}" stroke-width="0.6" opacity="{tex_op * 0.7:.2f}"/>')
     elif first == "forest":
         for p in grid_points(poly, extent_across(poly) / 9, rng):
             draw_tree_mark(sh, p, 3.5, rng, opacity=tex_op)
@@ -383,12 +390,15 @@ def draw_region(sh, k, rng):
         for p in grid_points(poly, extent_across(poly) / 8, rng, jitter=0.45):
             x, y = sh.px(p)
             sh.add(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="0.7" fill="{INK_FAINT}" opacity="{tex_op}"/>')
+    # the region's name runs along the top of its ground, leaving the middle for features
     c = centroid(poly)
+    x0, y0, x1, y1 = bbox(poly)
+    lab = (c[0], y1 - (y1 - y0) * 0.12)
     size = 15 if not reported else 13
-    sh.text(c, k["name"], size=size, caps=True, color=INK if not reported else INK_LIGHT, dy=-2)
-    sh.text(c, k["terrain"], size=9, italic=True, color=INK_LIGHT, dy=11)
+    sh.text(lab, k["name"], size=size, caps=True, color=INK if not reported else INK_LIGHT, dy=-2)
+    sh.text(lab, k["terrain"], size=9, italic=True, color=INK_LIGHT, dy=11)
     if reported:
-        sh.text(c, f"reported: {k['source']}", size=8.5, italic=True, color=INK_FAINT, dy=22)
+        sh.text(lab, f"reported: {k['source']}", size=8.5, italic=True, color=INK_FAINT, dy=22)
 
 
 def draw_rumored_region(sh, k):
@@ -413,8 +423,8 @@ def draw_feature(sh, k, rng, dim=1.0):
             # widen toward the mouth (the last point)
             n = len(coords)
             for i in range(n - 1):
-                w = 0.9 + 1.8 * (i + 1) / n
-                d = sh.wavy_path(coords[i:i + 2], rng, amp=2.2, seg=10)
+                w = 1.0 + 2.2 * (i + 1) / n
+                d = sh.wavy_path(coords[i:i + 2], rng, amp=1.3, seg=12)
                 sh.add(f'<path d="{d}" fill="none" stroke="{WATER_INK}" stroke-width="{w:.1f}" opacity="{op}" stroke-linecap="round"/>')
             mid = coords[len(coords) // 2]
             sh.text(mid, k["name"], size=10.5, italic=True, color=WATER_INK, opacity=op, dy=-6)
@@ -446,9 +456,11 @@ def draw_feature(sh, k, rng, dim=1.0):
             mid = coords[len(coords) // 2]
             sh.text(mid, k["name"], size=11, caps=True, color=label_color, opacity=op, dy=-16)
         else:
-            d = sh.wavy_path(coords, rng)
-            sh.add(f'<path d="{d}" fill="none" stroke="{INK}" stroke-width="1" opacity="{op}"/>')
-            sh.text(coords[len(coords) // 2], k["name"], size=10, color=label_color, opacity=op, dy=-5)
+            # a cave gallery or any other line: a double hairline, as passages are drawn on mine charts
+            d = sh.wavy_path(coords, rng, amp=1.0)
+            sh.add(f'<path d="{d}" fill="none" stroke="{INK}" stroke-width="2.6" opacity="{op}"/>')
+            sh.add(f'<path d="{d}" fill="none" stroke="{PARCHMENT}" stroke-width="1.2" opacity="{op}"/>')
+            sh.text(coords[len(coords) // 2], k["name"], size=10, color=label_color, opacity=op, dy=-6)
     elif k["shape"] == "area" and len(coords) >= 3:
         c = centroid(coords)
         if t in ("lake", "sea"):
@@ -618,14 +630,15 @@ def draw_sheets(world, knowledge, out_dir, zoom):
         draw_scale_bar(sh, frame)
         draw_compass(sh)
         depth = layer.get("depth", 1)
-        sh.text(((frame[0] + frame[2]) / 2, frame[3]), f"Below, layer {depth}: {layer.get('name', '')}", size=14, caps=True, dy=-20)
+        sh.text(((frame[0] + frame[2]) / 2, frame[3]), f"Below, layer {depth}: {layer.get('name', '')}", size=14, caps=True, dy=22)
         p = os.path.join(out_dir, f"map-under-{depth}.svg")
         with open(p, "w") as f:
             f.write(sh.render(f"{title}, below layer {depth}", ["The surface is drawn faintly for bearings. Only known ground below is drawn."]))
         written.append(p)
 
     meta = {"frame_miles": {"x": [frame[0], frame[2]], "y": [frame[1], frame[3]]}, "zoom": zoom or "full",
-            "regions_drawn": sorted(regions_k), "features_drawn": sorted(features_k),
+            "regions_drawn": {g: sum(1 for k in regions_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
+            "features_drawn": {g: sum(1 for k, _ in features_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "drawn": datetime.date.today().isoformat(), "files": [os.path.basename(w) for w in written]}
     save_json(os.path.join(out_dir, "map-meta.json"), meta)
     return written
@@ -731,7 +744,7 @@ def gazetteer(world, knowledge, out_dir, log_path):
 
     lines.append("## Distances")
     lines.append("")
-    lines.append("As the crow flies, in miles, from the positions the god believes; a reported endpoint makes the distance reported. The pace table (`engine/rules/pace.md`) turns miles into days.")
+    lines.append("As the crow flies, in miles, from the positions the god believes; a reported endpoint makes the distance reported. The pace table (`engine/rules/time-and-pace.md`) turns miles into days.")
     lines.append("")
     for p in sorted(points, key=lambda k: k["name"]):
         others = sorted(((math.dist(p["coords"][0], q["coords"][0]), q) for q in points if q is not p), key=lambda t: t[0])[:4]
@@ -830,6 +843,18 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
         elif "told" in old and grade_rank(args.grade) >= grade_rank(old_grade):
             # keep what was told before if the new teller adds nothing
             entry["told"] = old["told"]
+        elif "told" in old:
+            # lowered to rumored: keep the old telling as a rough place, never the truth
+            kept = {k: v for k, v in old["told"].items() if k in ("name", "type", "terrain")}
+            shape_key = "coords" if "coords" in old["told"] else ("polygon" if "polygon" in old["told"] else None)
+            if shape_key:
+                kept["near"] = [round(v, 1) for v in centroid(old["told"][shape_key])]
+            elif "near" in old["told"]:
+                kept["near"] = old["told"]["near"]
+            if kept:
+                entry["told"] = kept
+        if args.grade == "rumored" and "near" not in entry.get("told", {}):
+            print("note: no near given; the faint label will sit at the true centroid. Give --told '{\"near\": [x, y]}' when the rumor is vague.", file=sys.stderr)
     table[ident] = entry
     save_json(knowledge_path, knowledge)
     os.makedirs(os.path.dirname(log_path) or ".", exist_ok=True)

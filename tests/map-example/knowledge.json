@@ -1,0 +1,38 @@
+{
+  "campaign": "map-example",
+  "regions": {
+    "ald-valley":   {"grade": "seen", "source": "walked, the first year", "year": 1},
+    "sea-marsh":    {"grade": "seen", "source": "walked to the shore", "year": 1},
+    "drover-hills": {"grade": "reported", "source": "Orrin the drover", "year": 1,
+                     "told": {"name": "the Drover's Hills", "terrain": "hill, sheep country"}},
+    "north-wood":   {"grade": "reported", "source": "seen from the Ald bank", "year": 1,
+                     "told": {"name": "the north wood", "terrain": "forest",
+                              "polygon": [[20, 85], [96, 85], [96, 125], [20, 125]]}},
+    "greywall":     {"grade": "rumored", "source": "shepherds at Aldford", "year": 1,
+                     "told": {"name": "the grey wall", "near": [130, 120]}}
+  },
+  "features": {
+    "ald":         {"grade": "seen", "source": "walked", "year": 1},
+    "grey-sea":    {"grade": "seen", "source": "the landing", "year": 1},
+    "reed-marsh":  {"grade": "seen", "source": "walked", "year": 1},
+    "weirtown":    {"grade": "seen", "source": "the landing", "year": 1},
+    "aldford":     {"grade": "seen", "source": "walked", "year": 1},
+    "black-mere":  {"grade": "seen", "source": "walked to its shore", "year": 2},
+    "salt-road":   {"grade": "reported", "source": "a trader's chart bought in Weirtown", "year": 2,
+                    "told": {"coords": [[62, 54], [95, 58], [125, 35], [158, 20]]}},
+    "drover-road": {"grade": "reported", "source": "Orrin the drover", "year": 1},
+    "hollin-cave": {"grade": "reported", "source": "a miner at Aldford", "year": 2,
+                    "told": {"coords": [[125, 92]]}},
+    "oakhanger":   {"grade": "reported", "source": "seen from the Ald bank", "year": 1,
+                    "told": {"coords": [[28, 90], [85, 88], [85, 120], [28, 122]]}},
+    "kings-stair": {"grade": "rumored", "source": "Orrin the drover", "year": 1,
+                    "told": {"name": "a king's fort in the hills", "near": [142, 72]}},
+    "greywall-range": {"grade": "rumored", "source": "shepherds at Aldford", "year": 1,
+                    "told": {"name": "mountains, a wall of grey", "near": [128, 112]}},
+    "the-shelf":   {"grade": "rumored", "source": "own sense", "year": 2,
+                    "told": {"name": "a way through, to the east", "near": [162, 95]}},
+    "salt-gallery": {"grade": "reported", "source": "a miner at Aldford", "year": 2},
+    "drowned-hall": {"grade": "rumored", "source": "a miner at Aldford", "year": 2,
+                    "told": {"name": "a drowned hall under the hills", "near": [148, 102]}}
+  }
+}

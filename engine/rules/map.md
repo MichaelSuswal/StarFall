@@ -119,7 +119,7 @@ The Keeper, during pass two of the night turn, for everything the god saw, was t
 ```
 python3 tools/map.py reveal <campaign> --region hill-country --grade seen --source "walked in autumn" --year 3
 python3 tools/map.py reveal <campaign> --feature salt-road --grade reported --source "a trader's chart" --year 2 --told '{"coords": [[118,72],[200,40],[290,45]]}'
-python3 tools/map.py reveal <campaign> --feature old-fort --grade rumored --source "Orrin the drover" --year 1 --told '{"name": "a king's fort", "near": [190,110]}'
+python3 tools/map.py reveal <campaign> --feature old-fort --grade rumored --source "Orrin the drover" --year 1 --told '{"name": "the old kings fort", "near": [190,110]}'
 ```
 
 The command refuses to lower a grade (use `--force` with a reason, logged, for the false chart case) and refuses ids not in the sealed map, so a typo cannot create ground. On raising to `seen` it drops `told` and records the correction. Every change appends a line to `player/map-log.md`: date, year, id, old grade, new grade, source. That log is the history the gazetteer reads.
@@ -144,6 +144,12 @@ When a seen truth contradicts a reported entry badly (wrong region, a river that
 python3 tools/map.py draw <campaign>                 # the whole frame; unknown ground is parchment
 python3 tools/map.py draw <campaign> --zoom known    # cropped to the known regions, with a margin
 python3 tools/map.py gazetteer <campaign>            # writes player/gazetteer.md
+```
+
+For a world outside the campaign layout (tests, examples), `--world`, `--knowledge` and `--out` give the three paths directly. The example in `tests/map-example/` (6 regions, 15 features, one underground layer, mixed grades) is drawn with:
+
+```
+python3 tools/map.py draw map-example --world tests/map-example/map.json --knowledge tests/map-example/knowledge.json --out tests/map-example/out
 ```
 
 `draw` reads the sealed `map.json` and the player's `map-knowledge.json` and writes `campaigns/<name>/player/map.svg`, plus `map-under-N.svg` for each underground layer with a known feature. It also writes `player/map-meta.json` with the frame used, so the DM can say what the frame covers. The tool prints nothing from the sealed file except what the knowledge file allows; the SVG contains no hidden elements, no unknown names, and no comments carrying the truth.
@@ -179,7 +185,7 @@ The map is on request and always ready. The DM redraws it whenever the knowledge
 2. **Places**: every point feature (towns, ruins, caves, passes) with position as known, region, grade, source, year, and corrections ("reported at 290,45 by the trader's chart in year 2; seen at 262,58 in year 3").
 3. **Waters and ranges**: rivers, lakes, seas, mountains, marshes, forests, with length (lines) or extent (areas) as known.
 4. **Routes**: every known road and river as a route, with its length as known in miles and the known places along it in order.
-5. **Distances**: for every known place, its straight-line distance in miles to its nearest known places (up to four), each distance graded by the lower of the two endpoints' grades. Distances use the positions the god believes, so a reported distance may be wrong. A note at the top says that these are as the crow flies and that the pace table (`engine/rules/pace.md`) turns them into days.
+5. **Distances**: for every known place, its straight-line distance in miles to its nearest known places (up to four), each distance graded by the lower of the two endpoints' grades. Distances use the positions the god believes, so a reported distance may be wrong. A note at the top says that these are as the crow flies and that the pace table (`engine/rules/time-and-pace.md`) turns them into days.
 6. **Rumors**: everything rumored, with source and year, in the words of the `told.name`.
 7. **Below**: the same for every underground layer with any known feature.
 
