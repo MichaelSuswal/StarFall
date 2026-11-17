@@ -51,6 +51,13 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
 9. Every god, player and NPC, gets two hidden powers fitted to its backstory: one cool, one minor, both weaker than its main power, discovered through play. The player's god has no Keeper trait.
 10. The DM keeps the gods at roughly equal power, as far as it can foresee. Loopholes belong to whoever finds them.
 11. The people: a civilization with a town or city is assumed, not forced. The god talks about the people it wants to lead; the actual people is negotiated. Every god starts with about 5,000 followers in its land.
+12. Day 2 is mainly a discussion. The player describes the god freely; the DM follows, asks, prices and rules, then fills any gaps from its hidden checklist before the day closes. Guide: `engine/creation/day2-the-god.md`.
+13. How many bodies a god may have is set per campaign through the surveys.
+14. There is no fixed number of powers. A god may have one enormous power or several smaller ones; the DM balances total power across gods from the interviews, like a budget whose size is not set in advance.
+15. Gods are roughly balanced but not exactly. Some campaigns have a noticeably stronger god, and the world's politics deal with it.
+16. Day 3, the people: ordinary culture, customs and skills are described. Anything giving a real edge over other peoples (a rare skill, unusual longevity) is priced against a weakness. Guide: `engine/creation/day3-the-people.md`.
+17. How a god meets its people (already there, waiting for it, or arrived with it) comes from the world's history and the player together, worked out in the Day 3 negotiation and reconciled with the deep history.
+18. Follow-up questions on Days 2 and 3 are woven into the conversation and kept few. The DM may switch to (oog) when needed.
 
 ## 4. The world
 
