@@ -169,7 +169,8 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
 3. A chronicle for each player, holding only what their god knows and readable any time: year by year, canon, who's who, threads, messages. The civ agent keeps the people's side; the DM keeps the god's side and assembles both after each night.
 4. Nothing is ever deleted. The chronicle condenses with age; canon (power cards, rulings, the people's code, who's who) never condenses. Agents read the condensed version first and open full logs only when needed.
 5. A failures checklist, built from the 703 DM mistakes logged in the original game, ships with the engine. The continuity checker runs it every night and the DM runs it before any report. When a kind of mistake recurs, a new check is proposed in (oog), approved by the player, and added to the Change List.
-6. A shared ruling ledger: every ruling the Keeper or DM makes is recorded and checked before any later ruling on the same matter (lesson from lore test v3).
+6. Rolls: dice are hidden from the player, who sees only outcomes. Odds are worked out from factors and can be argued with the DM in (oog). Odds start at even (50), move by fixed steps for each factor (numbers, ground, preparation, surprise, skill and craft, powers, condition, and any other circumstance, which may be added or negated as it arises), and are clamped between 5 and 95; certain or impossible things are not rolled. Factors and odds are logged before the roll. A successful appeal recalculates the odds; a roll is never redone after its result is known. Only `tools/roll.py` rolls, and it logs every call to `state/rolls.jsonl`. The continuity checker flags any contested outcome without a logged roll and anything rolled twice.
+7. A shared ruling ledger: every ruling the Keeper or DM makes is recorded and checked before any later ruling on the same matter (lesson from lore test v3).
 
 ## 13. Narrator boundaries
 
