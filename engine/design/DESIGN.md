@@ -183,7 +183,7 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
 
 ## 14. The daily painting
 
-1. One house style for every campaign: 19th-century oil on canvas with rich, smooth brushwork; strong light and shadow from a single warm source (lamp, torch, fire, low sun) or heavy overcast; umber, ochre, gold, olive and near-black with occasional cool accents. Romantic landscapes, grand historical scenes, and natural-history studies of creatures painted as if real. Low, close views; wet reflective stone; ancient architecture; a saturated subject against darkness; scale shown by something small beside something vast. Quiet, watchful, ominous. Never text, borders, grid texture or a photographic look.
+1. One house style for every campaign: a 19th-century academic oil painting with a smooth, finely blended surface (soft glazed transitions, fine detail, minimal visible brushstrokes, no heavy impasto or rough texture); strong light and shadow from a single warm source (lamp, torch, fire, low sun) or heavy overcast; umber, ochre, gold, olive and near-black with occasional cool accents. Romantic landscapes, grand historical scenes, and natural-history studies of creatures painted as if real. Low, close views; wet reflective stone; ancient architecture; a saturated subject against darkness; scale shown by something small beside something vast. Quiet, watchful, ominous. Never text, borders, grid texture or a photographic look.
 2. References: Michael's first five fox paintings are primary; the later batch is secondary. The photographic beast image is excluded.
 3. Appearance cards in the repo keep the avatar, significant characters, creatures and places looking the same every time.
 4. Paintings show only what the god knows.
