@@ -21,7 +21,7 @@ The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_
 - Advance the clock: which clocked events fire this year, which triggers have been met by last year's state and this year's decisions.
 - Weather, seasons, natural events, the godless peoples' actions, and anything else not tied to a god's people.
 - Random events: rolled with `tools/roll.py`, weighted down in Years 1 to 7 as the event schedule says.
-- Recurring phenomena: counted by `tools/phenomena.py` from the record.
+- Recurring phenomena: counted by `tools/phenomena.py` from the sealed record (`SPOILERS_do_not_open/campaigns/<name>/state/phenomena.json`).
 - Write for each civ agent what its people would experience this year (`releases/NNN/civ-<x>-pass1.md`), and for the Keeper itself a list of every world event with its cause.
 
 ## 3. Civ agents act

@@ -37,9 +37,9 @@ Few, woven in. (oog) when needed.
 ## At the close
 
 Read the people back to the player in plain words, including every priced edge and its weakness, and get a yes. Then write to the repo:
-- the people's record: who they are, how many, how they live, their code, their skills, priced edges and weaknesses, their magic, their beliefs
-- how the god meets them, reconciled with the deep history
-- the hierarchy, or the record that the god rejected one
-- any rejected premise, for the Keeper
+- the people's record: `civs/<people>/record.md` and `state.md`: who they are, how many, how they live, their code, their skills, priced edges and weaknesses, their magic, their beliefs
+- how the god meets them, reconciled with the deep history: `player/people-meeting.md`
+- the hierarchy, or the record that the god rejected one: `player/hierarchy.md`
+- any rejected premise, for the Keeper: `player/rejected-premises.md`
 
 Then Night 3: the Keeper builds the world and locks it. At 6:30 the next morning, the god wakes in its land.

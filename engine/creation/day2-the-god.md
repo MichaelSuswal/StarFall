@@ -48,11 +48,11 @@ Few. Woven into the conversation, in the voice of The Between. (oog) when the qu
 ## At the close
 
 Read the power card back to the player in plain words, every power, drawback, edge-case ruling and trade, and get a yes. Then write to the repo:
-- the power card
-- the appearance card
-- the backstory outline, in the player's words
-- the first lines of the conduct profile
-- any lean in the god's total power, for the Keeper
-- a note of any premise the player rejected, for the Keeper's follow-ups
+- the power card: `player/power-card.md`
+- the appearance card: `player/appearance-card.md`
+- the backstory outline, in the player's words: `player/backstory.md`
+- the first lines of the conduct profile: `player/conduct-profile.md`
+- any lean in the god's total power, for the Keeper: `player/power-lean.md`
+- a note of any premise the player rejected, for the Keeper's follow-ups: `player/rejected-premises.md`
 
 Then the night falls, and the god keeps falling.
