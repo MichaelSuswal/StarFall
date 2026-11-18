@@ -1,0 +1,7 @@
+> SPOILER WARNING. Keeper release to the god Ashwake, at landing (before Year 1).
+
+You came down in the burning hills, a country of bare ochre slopes split by vents that breathe hot air and sulphur, forty days' walk east of a river valley you have not seen. Charcoal-burners and potters live under the hill of vents, about five thousand of them in scattered steadings and one clay-walled town around the largest vent. They call themselves the Kiln. They had no god and did not expect one. They are quick to anger and quick to forget it, and they already feed you: the first night, a potter banked her kiln and left a bowl of coals at your feet without being asked.
+
+What you sense: you need no food or sleep. You can speak the Kiln's tongue and the god-tongue. God-sense: two pulls, both to the west. One is nearer and a little north of west; the other is farther and a little south of west, in the direction the land falls away toward lower, wetter country. Neither pull carries words. You know only that others like you exist, that they arrived when you did, and that none of you has walls or a hall yet.
+
+Your land: the vents, the hill, the clay pits in the valley below, a dry riverbed that floods in spring, scrub and thorn. Timber is thin; the Kiln burn scrub and buy wood from people to the north they do not like. To the west the hills fall toward passes that the Kiln say are held by a pass people. You have no map; what you know is what you have seen from the hill of vents.

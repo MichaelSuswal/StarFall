@@ -1,0 +1,7 @@
+> SPOILER WARNING. Keeper release to the god Thornmere, at landing (before Year 1).
+
+You came down on a saddle in the hill passes, a high dry country of grey stone and short grass where every valley ends in a notch between two heights. A pass town sits under you: about five thousand people in and around a walled town of stacked stone at the meeting of three passes, who live by letting travelers through and taking a toll of what they carry. They call themselves the Gatefolk. Every house has a door that bars; the town has three gates and shuts them at dusk. They were not waiting for a god. They have been quiet around you since you came.
+
+What you sense: you need no food or sleep. You can speak the Gatefolk's tongue and the god-tongue. God-sense: two pulls. One is to the east, in the direction of a brown smudge on the far sky that the Gatefolk say is the burning hills. One is to the west and a little south, where the land falls through hill country toward a river valley you have not seen; the Gatefolk say hill people called the Carn live in that direction and below them, on a river, a people of fishers. Neither pull carries words. You know only that others like you exist and arrived when you did.
+
+Your land: the three passes, the town, the goat pastures, a spring under the town that never fails. West of you the Carn hold the hill country for many days' walk; the Gatefolk trade with them and do not trust them. You have no map; what you know is what you have seen from the saddle.
