@@ -14,3 +14,4 @@
 - Stage 8, close: clock set to Year 2 open at 03:01. Turn total about 1 hour 15 minutes from wake to close, most of it the check loop.
 - Tokens: subagents about 65k + 66k (gods), 86k + 58k + 51k (civs), 184k + a second run (checker), 134k + a second pass (DM); the Keeper session's own usage not visible to it.
 - Lessons for Stage B: the NPC god and civ agents could have run in parallel (the Keeper ran them one at a time); the checker is the costly stage and the first run found real rule conflicts (r-001, god-sense bearing only, the hold's timing belonging to the NPC agent) worth keeping in the rules rather than re-finding each night.
+- Third check 03:02 to 03:08: one flag (the DM release's wording), fixed 03:09. Clean at close.
