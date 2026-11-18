@@ -39,3 +39,5 @@
 - Temptation: to hold the Wellbrook petition and stop the year at week 5, or to resolve it with an answer the player had not given. Did instead: ruled r-001 after the arguments, met it with the god's standing silence, and sent it to pending.
 - Temptation: to tie the midsummer light to the posts' discovery for effect. The civ agent put them on the same night; the light's moment was fixed in pass one before the civ wrote, and the posts' week came from the civ's labor plan. Left as it fell; Oxmouth's belief that the posts called it up is a mortal error.
 - Temptation: to give Thornmere's contact earlier or later to suit the morning story. Did instead: timed it from her decisions (watch first, patient temper) and the god's walking pace.
+- New fixed facts in Thornmere's release: eleven notches and nine fords between the Gatefolk passes and the Ald valley along the line she walked; Carn steadings of stone and turf with more dogs than people; the Carn questioner of Kiln party two was an old man who smiled (from the Kiln walker's words).
+- Stage timing: decisions in 01:58; pass one 02:00; civ agents done 02:06; pass two and releases 02:13.
