@@ -1,0 +1,4 @@
+- 2026-11-18 | year 1 | region north-wood | rumored -> reported | walked for ten days by the boatmen Hask and Brin; seen from the falls
+- 2026-11-18 | year 1 | feature kings-fort | rumored -> reported | the boatmen Hask and Brin, who passed below it
+- 2026-11-18 | year 1 | region drover-hills | reported -> reported | the boatmen Hask and Brin, who walked it; the hill people there call it theirs
+- 2026-11-18 | year 1 | feature black-mere | reported -> reported | the boatmen Hask and Brin, who stood on its shore

@@ -1,22 +1,83 @@
 {
   "campaign": "dryrun",
   "regions": {
-    "ald-valley":   {"grade": "seen", "source": "walked, the first year", "year": 1},
-    "sea-marsh":    {"grade": "seen", "source": "the landing on the shingle bar", "year": 1},
-    "drover-hills": {"grade": "reported", "source": "boatmen past the falls", "year": 1,
-                     "told": {"terrain": "hill country"}},
-    "north-wood":   {"grade": "rumored", "source": "the Riverfolk", "year": 1,
-                     "told": {"name": "the wood above the falls", "near": [250, 150]}}
+    "ald-valley": {
+      "grade": "seen",
+      "source": "walked, the first year",
+      "year": 1
+    },
+    "sea-marsh": {
+      "grade": "seen",
+      "source": "the landing on the shingle bar",
+      "year": 1
+    },
+    "drover-hills": {
+      "grade": "reported",
+      "source": "the boatmen Hask and Brin, who walked it; the hill people there call it theirs",
+      "year": 1,
+      "told": {
+        "terrain": "hill country, sheep and heather"
+      }
+    },
+    "north-wood": {
+      "grade": "reported",
+      "source": "walked for ten days by the boatmen Hask and Brin; seen from the falls",
+      "year": 1,
+      "told": {
+        "name": "the wood above the falls",
+        "terrain": "forest, old oak and pine"
+      }
+    }
   },
   "features": {
-    "ald":        {"grade": "seen", "source": "walked its bank", "year": 1},
-    "reed-flats": {"grade": "seen", "source": "the landing", "year": 1},
-    "oxmouth":    {"grade": "seen", "source": "the landing", "year": 1},
-    "wellbrook":  {"grade": "seen", "source": "walked", "year": 1},
-    "aldford":    {"grade": "seen", "source": "walked", "year": 1},
-    "fallstead":  {"grade": "seen", "source": "walked to the falls", "year": 1},
-    "black-mere": {"grade": "reported", "source": "boatmen past the falls", "year": 1},
-    "kings-fort": {"grade": "rumored", "source": "boatmen past the falls", "year": 1,
-                   "told": {"name": "an old king's fort in the hills", "near": [780, 400]}}
+    "ald": {
+      "grade": "seen",
+      "source": "walked its bank",
+      "year": 1
+    },
+    "reed-flats": {
+      "grade": "seen",
+      "source": "the landing",
+      "year": 1
+    },
+    "oxmouth": {
+      "grade": "seen",
+      "source": "the landing",
+      "year": 1
+    },
+    "wellbrook": {
+      "grade": "seen",
+      "source": "walked",
+      "year": 1
+    },
+    "aldford": {
+      "grade": "seen",
+      "source": "walked",
+      "year": 1
+    },
+    "fallstead": {
+      "grade": "seen",
+      "source": "walked to the falls",
+      "year": 1
+    },
+    "black-mere": {
+      "grade": "reported",
+      "source": "the boatmen Hask and Brin, who stood on its shore",
+      "year": 1
+    },
+    "kings-fort": {
+      "grade": "reported",
+      "source": "the boatmen Hask and Brin, who passed below it",
+      "year": 1,
+      "told": {
+        "name": "an old king's fort",
+        "coords": [
+          [
+            770,
+            410
+          ]
+        ]
+      }
+    }
   }
 }
