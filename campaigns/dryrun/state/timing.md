@@ -8,10 +8,10 @@
 - Stage 2, Keeper pass one: done 02:00.
 - Stage 3, civ agents (3, sonnet): done 02:06.
 - Stage 4, Keeper pass two, releases, sealed year record: done 02:13.
-- Stage 5, check (opus): first run 02:14 to 02:22, 19 flags; Keeper rework with the Thornmere and Riverfolk agents 02:22 to 02:33; second run 02:46 to 02:52, 10 flags, all worked by 02:58; a third run follows the close.
+- Stage 5, check (opus): first run 02:14 to 02:22, 19 flags; Keeper rework with the Thornmere and Riverfolk agents 02:22 to 02:33; second run 02:44 to 02:49, 10 flags, all worked by 02:51; a third run followed the close.
 - Stage 6, releases: with stage 4, rewritten 02:33.
 - Stage 7, morning story and painting request (DM, fable): 02:34 to 02:44; painting request pushed 02:44; painting back in images/out at 02:51 (the GitHub job took about seven minutes).
-- Stage 8, close: clock set to Year 2 open at 03:01. Turn total about 1 hour 15 minutes from wake to close, most of it the check loop.
+- Stage 8, close: clock set to Year 2 open at 02:52. Turn total about 1 hour 10 minutes from wake to close, most of it the check loop.
 - Tokens: subagents about 65k + 66k (gods), 86k + 58k + 51k (civs), 184k + a second run (checker), 134k + a second pass (DM); the Keeper session's own usage not visible to it.
 - Lessons for Stage B: the NPC god and civ agents could have run in parallel (the Keeper ran them one at a time); the checker is the costly stage and the first run found real rule conflicts (r-001, god-sense bearing only, the hold's timing belonging to the NPC agent) worth keeping in the rules rather than re-finding each night.
-- Third check 03:02 to 03:08: one flag (the DM release's wording), fixed 03:09. Clean at close.
+- Third check 02:52 to 02:53: one flag (the DM release's wording), fixed 02:53. Clean at close. (Times in this file are from the session clock; two lines first written with estimated times were corrected.)
