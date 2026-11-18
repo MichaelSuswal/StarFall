@@ -1,4 +1,9 @@
-- 2026-11-18 | year 1 | region north-wood | rumored -> reported | walked for ten days by the boatmen Hask and Brin; seen from the falls
-- 2026-11-18 | year 1 | feature kings-fort | rumored -> reported | the boatmen Hask and Brin, who passed below it
-- 2026-11-18 | year 1 | region drover-hills | reported -> reported | the boatmen Hask and Brin, who walked it; the hill people there call it theirs
-- 2026-11-18 | year 1 | feature black-mere | reported -> reported | the boatmen Hask and Brin, who stood on its shore
+- 2026-11-18 | year 1 | region north-wood | rumored -> reported | seen from the falls (entry written early by the Keeper; corrected below)
+- 2026-11-18 | year 1 | feature kings-fort | rumored -> reported | (entry written early by the Keeper; withdrawn below)
+- 2026-11-18 | year 1 | region drover-hills | reported -> reported | (entry written early by the Keeper; corrected below)
+- 2026-11-18 | year 1 | feature black-mere | reported -> reported | (entry written early by the Keeper; withdrawn below)
+- 2026-11-18 | year 1 | region drover-hills | reported -> reported | seen from the Ald bank at Wellbrook and Aldford, rising to the east; forced: pre-turn test entries and the Keeper's early reveals ran ahead of the god's knowledge; the year is held at week 16 and the hills are known only by sight from the valley (told name set)
+- 2026-11-18 | year 1 | region north-wood | reported -> reported | seen from the falls at Fallstead; forced: source corrected as above
+- 2026-11-18 | year 1 | region greywall | none -> reported | seen from the valley on clear days, snow to the north-east
+- 2026-11-18 | year 1 | feature black-mere | reported -> none | forced: removed; the god has not been told of it by week 16; it was a pre-turn test entry
+- 2026-11-18 | year 1 | feature kings-fort | reported -> none | forced: removed; same reason

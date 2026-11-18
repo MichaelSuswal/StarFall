@@ -13,19 +13,29 @@
     },
     "drover-hills": {
       "grade": "reported",
-      "source": "the boatmen Hask and Brin, who walked it; the hill people there call it theirs",
+      "source": "seen from the Ald bank at Wellbrook and Aldford, rising to the east",
       "year": 1,
       "told": {
-        "terrain": "hill country, sheep and heather"
+        "name": "the hills east of the valley",
+        "terrain": "hill"
       }
     },
     "north-wood": {
       "grade": "reported",
-      "source": "walked for ten days by the boatmen Hask and Brin; seen from the falls",
+      "source": "seen from the falls at Fallstead, where the Ald comes out of it",
       "year": 1,
       "told": {
         "name": "the wood above the falls",
-        "terrain": "forest, old oak and pine"
+        "terrain": "forest"
+      }
+    },
+    "greywall": {
+      "grade": "reported",
+      "source": "seen from the valley on clear days, snow to the north-east",
+      "year": 1,
+      "told": {
+        "name": "the grey snow range",
+        "terrain": "mountain, snow"
       }
     }
   },
@@ -59,25 +69,6 @@
       "grade": "seen",
       "source": "walked to the falls",
       "year": 1
-    },
-    "black-mere": {
-      "grade": "reported",
-      "source": "the boatmen Hask and Brin, who stood on its shore",
-      "year": 1
-    },
-    "kings-fort": {
-      "grade": "reported",
-      "source": "the boatmen Hask and Brin, who passed below it",
-      "year": 1,
-      "told": {
-        "name": "an old king's fort",
-        "coords": [
-          [
-            770,
-            410
-          ]
-        ]
-      }
     }
   }
 }

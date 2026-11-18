@@ -8,5 +8,5 @@ Known land: the Ald valley from the marsh to the first falls (three days' walk).
 
 Season each year opens on: early spring.
 
-## Year 1 (added through the world)
-A weir and fish-trap of oak posts, stone and wicker now crosses the Ald about 300 yards above the shingle bar at Oxmouth, with a giving gate on the west side. Two Riverfolk boatmen walked ten days into the wood above the falls and the hill country east of it in the summer and came back: hill country of sheep and heather, a dark mere in a fold of the hills, old earthworks on a crest above it, and a hill people called the Carn who turned them back. The Riverfolk now count the sky-lights by their elders.
+## Year 1 (added through the world, to the held moment in week 16)
+A weir and fish-trap of oak posts is being raised across the Ald about 300 yards above the shingle bar at Oxmouth, begun in the sixteenth week, with a giving gate on the west side. Two Riverfolk boatmen went up past the falls into the wood in the fourteenth week on the god's errand. From the valley the god has seen the hills rising to the east, the wood the Ald comes out of above the falls, and a grey snow range to the north-east on clear days. The Riverfolk count the sky-lights by their elders at the god's asking.
