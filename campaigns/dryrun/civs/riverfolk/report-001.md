@@ -1,7 +1,7 @@
 # Riverfolk report to the Keeper, Year 1 (revised after pass two)
 
 ## For the Keeper to resolve
-- Boatmen: Hask and Brin left Fallstead at first light, week 14 (about day 94), by dugout round the falls, then east on foot. They returned unhurt in week 17 (Keeper ruling). Hask told it to the god and the village at Fallstead the day they came home; Brin told it at Aldford in week 18. The council in week 27 discussed the Carn and set a watch at the last ash grove above Fallstead, with no one sent to the wood's edge.
+- Boatmen: Hask and Brin left Fallstead at first light, week 14 (about day 94), by dugout round the falls, then east on foot. They returned unhurt in week 17 (Keeper ruling). Hask told it to the village at Fallstead the day they came home; Brin told it at Aldford in week 18. Whether the god heard it then waits on the scene. The council in week 27 discussed the Carn and set a watch at the last ash grove above Fallstead, with no one sent to the wood's edge.
 - Weir: line 300 yards above the shingle bar, 60 yards wide, 8 yards below the old posts (east bank). Two rows of 60 oak posts, stone and brush fill, wicker upstream face, wicker trap-pen midstream, 4-yard giving gate on the west side. Built weeks 16 to 19, about 990 worker-days, 60 at a time, 17 work days. It held through the autumn run and both gales (Keeper).
 - Old posts: two rows of black, square-cut oak at the east bank, struck week 17. Left untouched. The people's explanations are theirs; the truth is the Keeper's.
 - Sky-lights: all twelve villages counted the same, three before autumn and a fourth in winter. The third was in week 20, three weeks after the posts.
@@ -15,7 +15,7 @@
 4. What are the lights, and are watchers wanted?
 5. What are the Carn to him, and may the river people go to the wood's edge?
 
-## Asks the god met with silence (pending questions, ruling r-001)
+## Asks the god met with silence (ruling r-001; only the Wellbrook ask is still a pending question, the Aldford plea having been answered by events)
 - Wellbrook, week 5: a headman and fishers asked for a law of giving at the weir.
 - Aldford, week 9: Tam begged the god at the water for Ede in a hard labor. He stood in the river and said nothing.
 
