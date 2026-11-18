@@ -21,7 +21,7 @@ Waiting on: the next light; the elders' counts.
 
 ### The woman at the falls
 Opened: Year 1, week 16, dusk, the held moment.
-State: a woman in a hill traveler's grey wool and leather has walked openly down the east bank path and stopped on the stones at the water's edge, ten paces from the god, and looks at him. Her hands are wet though she has not touched the river. The moving pull is where she is. She has not spoken. Two children on the Fallstead staithe have seen her. Nothing else has happened.
+State: a woman in a hill traveler's grey wool and leather has walked openly down the east bank path and stopped on the stones at the water's edge, ten paces from the god, and looks at him. Her hands are wet though she has not touched the river. The first pull is where she is. She has not spoken. Two children on the Fallstead staithe have seen her. Nothing else has happened.
 Waiting on: the god.
 
 ## Closed

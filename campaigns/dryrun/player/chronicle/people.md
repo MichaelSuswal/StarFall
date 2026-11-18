@@ -39,8 +39,8 @@ Who he is to the god: a boatman of about twenty-two, lean and quick-eyed; the se
 
 ## The figure on the rock shoulder
 Status: unknown.
-Seen once, Year 1, week 15, at dusk, from the pool below the falls: standing on the rock shoulder at the top of the falls on the east side, against the last light, upright and still, too far and too dark for a face or a sex, for about the time it takes to draw a net; gone when the god looked again. The moving pull lay north-east, toward the shoulder, at that moment. Year 1.
+Seen once, Year 1, week 15, at dusk, from the pool below the falls: standing on the rock shoulder at the top of the falls on the east side, against the last light, upright and still, too far and too dark for a face or a sex, for about the time it takes to draw a net; gone when the god looked again. The first pull lay north-east, toward the shoulder, at that moment. Year 1.
 
 ## The woman at the water
 Status: unknown; present at the held moment.
-Seen Year 1, week 16, at dusk, walking openly down the east bank path from the wood's edge to the stones at the pool's side below the falls, and stopping at the water's edge ten paces from the god. Tall and plain-faced, in a hill traveler's grey wool and leather, a pack and a staff, no weapon the god can see. Her hands hang at her sides and are wet, though she has not touched the river. The moving pull is where she is. She has not spoken. Year 1.
+Seen Year 1, week 16, at dusk, walking openly down the east bank path from the wood's edge to the stones at the pool's side below the falls, and stopping at the water's edge ten paces from the god. Tall and plain-faced, in a hill traveler's grey wool and leather, a pack and a staff, no weapon the god can see. Her hands hang at her sides and are wet, though she has not touched the river. The first pull is where she is. She has not spoken. Year 1.
