@@ -41,3 +41,18 @@
 - Temptation: to give Thornmere's contact earlier or later to suit the morning story. Did instead: timed it from her decisions (watch first, patient temper) and the god's walking pace.
 - New fixed facts in Thornmere's release: eleven notches and nine fords between the Gatefolk passes and the Ald valley along the line she walked; Carn steadings of stone and turf with more dogs than people; the Carn questioner of Kiln party two was an old man who smiled (from the Kiln walker's words).
 - Stage timing: decisions in 01:58; pass one 02:00; civ agents done 02:06; pass two and releases 02:13.
+
+### Rework after the check (flags.md, 19 flags), 02:25 to 02:50
+- Thornmere's agent, asked when she comes down under her decisions, answered week 16 at the falls at dusk, a threshold, after watching him settle; recorded as the cause of the hold's moment. The hold moved from week 23 (the Keeper's timing, flagged) to week 16.
+- r-001 rescoped to this dry run and put to Michael in the morning notice (flag 1). r-002 ruled on the brook (flag 9); the week 6 river-sense struck.
+- Aldford week 9 reworked: the god stayed in the water and said nothing; the civ agent rewrote Aldford's reaction (flag 2). Outcomes of the two rolls stand.
+- God-sense told as bearing only in every release (flag 3).
+- The third light fixed at week 20 (midsummer by the Keeper's week reckoning), the four lights' visibilities fixed in world-events.md with their causes, the cloud over Wellbrook removed (flags 4 and 12). Correction to the earlier self-check line: the pass-one file had fixed "midsummer" but not the week; the civ agent chose the night. Now fixed by the Keeper.
+- chronicle-people.md cut to week 16 by the civ agent (flag 5).
+- Map knowledge reset to week 16: hills, wood and snow range reported by the god's own sight from the valley with told names; the mere and the fort removed; two early map-log lines reworded so the gazetteer does not leak the boatmen's report; corrections.md written (flags 6 and 18). The boatmen's reveals are in the DM release part C to run after the scene.
+- Ashwake's release: the Kiln's own belief from lore.md, no verdict (flag 7).
+- The god's pace fixed at a week per village, Fallstead week 13, then at the falls (flag 15); the watcher sighting moved to week 15 from the pool, the figure on the shoulder above the falls.
+- Decision 1 and 4 conflict stated in the DM release for the DM to raise (flag 10). Hask's mother's ask dropped by the civ agent, who gave her reed bundles instead (flag 11).
+- Five more rolls (flag 13): Carn did not stop the night-walker; both Kiln parties' hard-country rolls failed (delayed, an ankle and a broken arm; message log lines added; Kiln and Gatefolk files edited by the Keeper in the one passage each, noted in their pass-two releases); word of the Gatefolk god walking west reached the Carn by autumn; no timber-people reprisal. Gatefolk's third question (word carried east) was certain: the walkers told Ashwake of the toll-takers.
+- pending.md written with the one real pending question; the headmen's held questions told as the people's talk (flag 14). The two guiding phrases struck from the Riverfolk pass-one release (flag 16). The boatmen now speak first of the god before the Carn ask (flag 17). Week and day figures aligned (flag 19).
+- New fixed facts: the four lights' heights and visibilities; Thornmere watched from the shoulder above the falls at dusk more than once; the Carn connect the night-walker with the pass people's god by autumn.
