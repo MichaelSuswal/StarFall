@@ -1,0 +1,3 @@
+> SPOILER WARNING. NPC people (dry run): the Kiln. Written by the Keeper at the start of Year 1 from Ashwake's sheet and landing release.
+# The Kiln
+About 5,000 charcoal-burners and potters in scattered steadings and one clay-walled town around the largest vent of the burning hills, forty days east of the Ald. Timber is thin; they burn scrub and buy wood from a timber people to the north whom they dislike. Quick to anger and quick to forget it. They had no god and did not expect one; on the first night a potter banked her kiln and left a bowl of coals at Ashwake's feet. Hierarchy: steading heads and a town council of the oldest potters. Mood: startled, warming to him, a few afraid.

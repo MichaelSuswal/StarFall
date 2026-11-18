@@ -1,0 +1,9 @@
+> SPOILER WARNING. Keeper release to the Gatefolk civ agent, Year 1, pass one.
+
+Season opens in early spring. Ordinary weather in the passes: late snow in the first weeks, passes open by mid-spring, a dry summer, early snow in late autumn that shuts the north pass for the winter as it does most years. The spring under the town runs as always.
+
+Things the people see: a sky-light at midsummer, a single steady pale light rising slowly from below the western horizon, climbing for about as long as it takes to walk two hundred paces, dimming and gone high up; a second at midwinter, also in the west. (Two others this year are below the hills from here.)
+
+The god's decisions for the year are in SPOILERS_do_not_open/campaigns/dryrun/gods/thornmere/decisions-001.md. She leaves the Gatefolk to themselves and walks west into the Carn hills in the first days of spring; she does not return this year. The people may say she walks the passes.
+
+Travelers this year, beyond the ordinary: about the twentieth day of spring two pairs of laden strangers from the east, dusty people carrying lidded clay pots of live coals and bundles of fired pots and charcoal, came to the east gate a day apart and asked to pass west. They said they carried a god's word to someone in the west and paid their toll in pots. Decide in character how the gate-wardens dealt with them and what they asked; the Keeper has resolved that they were let through on payment, as the Gatefolk do with anyone who pays. Both pairs came back east through the town about forty days later and paid again; the second pair said hill people had turned them back. Report what the Gatefolk made of this, what they said about the pots, and whether the council thought it worth telling anyone.
