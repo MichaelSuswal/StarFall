@@ -162,7 +162,9 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
 
 ## 11. The map
 
-1. Two views: a drawn map built from the repo's data by script, styled like an old hand-inked chart but readable; and a gazetteer of exact facts. The map is redrawn from the record every time, so ground cannot be lost.
+1. Two views: a painted map and a gazetteer of exact facts. The world is painted once, by the image model, on Night 3 (the surface, each underground layer, and a cloud layer for fog), from the Keeper's placement plan, after the gods and peoples exist and their land preferences are known. The Keeper then traces the map data onto the paintings in painting coordinates and checks every feature lands where the painting shows it. The paintings never change; the map is composed from them and the record every time, so ground cannot be lost.
+1a. The map shows topography and the names of areas, with towns marked. No armies, characters, routes or other markers.
+1b. Every map segment is labeled for out-of-game reference: a letter-number grid on all four edges, and each region's name with its grid cell, so "the hills in D3" and "the Drover's Hills" both work.
 2. The whole world exists from Day 1, underground layers included, and changes only through the world.
 3. Terrain is revealed a region at a time. Regions are smaller than in the original; entering one reveals its general topography with some uncertainty.
 4. Three grades of knowledge: seen (drawn exactly), reported (drawn as told, possibly wrong, with its source), rumored (a faint note, given generously). Ground corrects to the truth once seen.

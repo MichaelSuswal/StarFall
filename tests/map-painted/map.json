@@ -1,0 +1,44 @@
+{
+  "campaign": "map-painted",
+  "painting": {"size": [1024, 1024], "miles_per_pixel": 0.25, "grid_cell_px": 128},
+  "regions": [
+    {"id": "grey-sea", "name": "The Grey Sea", "terrain": "sea",
+     "polygon": [[0, 0], [190, 0], [230, 180], [200, 420], [250, 640], [200, 900], [170, 1024], [0, 1024]],
+     "notes": "Cold, grey, shoaling toward the marsh."},
+    {"id": "sea-marsh", "name": "The Sea Marsh", "terrain": "marsh, reed and tidal creek",
+     "polygon": [[200, 420], [250, 640], [200, 900], [170, 1024], [470, 1024], [440, 760], [380, 560]]},
+    {"id": "ald-valley", "name": "The Ald Valley", "terrain": "valley, water meadow",
+     "polygon": [[230, 180], [200, 420], [380, 560], [440, 760], [470, 1024], [700, 1024], [660, 700], [620, 460], [560, 260]]},
+    {"id": "drover-hills", "name": "The Drover's Hills", "terrain": "hill, sheep country",
+     "polygon": [[620, 460], [660, 700], [700, 1024], [1024, 1024], [1024, 520], [860, 420]]},
+    {"id": "north-wood", "name": "The North Wood", "terrain": "forest, old oak",
+     "polygon": [[190, 0], [230, 180], [560, 260], [620, 460], [860, 420], [760, 220], [700, 0]]},
+    {"id": "greywall", "name": "The Greywall", "terrain": "mountain",
+     "polygon": [[700, 0], [760, 220], [860, 420], [1024, 520], [1024, 0]]}
+  ],
+  "features": [
+    {"id": "grey-sea-water", "name": "The Grey Sea", "type": "sea", "shape": "area",
+     "coords": [[0, 0], [190, 0], [230, 180], [200, 420], [250, 640], [200, 900], [170, 1024], [0, 1024]], "regions": ["grey-sea"]},
+    {"id": "ald", "name": "River Ald", "type": "river", "shape": "line",
+     "coords": [[760, 300], [690, 380], [600, 480], [520, 560], [470, 640], [420, 720], [360, 800], [300, 860], [240, 900]],
+     "regions": ["greywall", "north-wood", "ald-valley", "sea-marsh"]},
+    {"id": "black-mere", "name": "Black Mere", "type": "lake", "shape": "area",
+     "coords": [[560, 300], [640, 300], [640, 360], [560, 360]], "regions": ["north-wood"]},
+    {"id": "oxmouth", "name": "Oxmouth", "type": "town", "shape": "point", "coords": [[262, 884]], "regions": ["sea-marsh"],
+     "notes": "The god's landing, on the last firm ground before the mouth."},
+    {"id": "wellbrook", "name": "Wellbrook", "type": "village", "shape": "point", "coords": [[400, 740]], "regions": ["ald-valley"]},
+    {"id": "aldford", "name": "Aldford", "type": "town", "shape": "point", "coords": [[505, 575]], "regions": ["ald-valley"]},
+    {"id": "fallstead", "name": "Fallstead", "type": "village", "shape": "point", "coords": [[705, 372]], "regions": ["north-wood"],
+     "notes": "Below the falls where the Ald leaves the wood."},
+    {"id": "greywall-pass", "name": "Greywall Pass", "type": "pass", "shape": "point", "coords": [[880, 250]], "regions": ["greywall"]},
+    {"id": "kings-fort", "name": "the King's Fort", "type": "ruin", "shape": "point", "coords": [[840, 700]], "regions": ["drover-hills"]},
+    {"id": "salt-cave", "name": "Salt Cave", "type": "cave", "shape": "point", "coords": [[300, 860]], "regions": ["sea-marsh"]}
+  ],
+  "layers": [
+    {"id": "under-1", "name": "The Salt Roads", "depth": 1, "painting": "under-1.png",
+     "features": [
+       {"id": "salt-gallery", "name": "The Salt Gallery", "type": "cave", "shape": "line",
+        "coords": [[300, 860], [420, 760], [520, 660], [640, 560]], "regions": ["sea-marsh", "ald-valley"]}
+     ]}
+  ]
+}

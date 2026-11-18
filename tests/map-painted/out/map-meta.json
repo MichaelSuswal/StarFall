@@ -1,0 +1,38 @@
+{
+  "frames_px": {
+    "surface": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "under-1": [
+      0,
+      0,
+      1024,
+      1024
+    ]
+  },
+  "painting_px": [
+    1024,
+    1024
+  ],
+  "miles_per_pixel": 0.25,
+  "grid_cell_px": 128,
+  "zoom": "full",
+  "regions_drawn": {
+    "seen": 2,
+    "reported": 2,
+    "rumored": 1
+  },
+  "features_drawn": {
+    "seen": 4,
+    "reported": 4,
+    "rumored": 2
+  },
+  "drawn": "2026-11-17",
+  "files": [
+    "map.png",
+    "map-under-1.png"
+  ]
+}

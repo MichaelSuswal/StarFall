@@ -228,6 +228,12 @@ Per mystery standard rule 13 and the Q18 and Q19 pools. Write `S/mysteries.md`, 
 - [ ] `P/state/rolls.jsonl` begins empty. Creation rolls stay in `S/state/rolls.jsonl`.
 - [ ] Log that Night 3 closed, and the time.
 
+### Night 3 map order (binding)
+1. Write the placement plan first: the gods spaced evenly, each in the terrain it asked for, realistic transitions between, the godless peoples between them, rivers, seas, ranges, the underground layers. This is a written geography, not a drawing.
+2. Only then write the painting prompts from the plan (surface, each underground layer, the cloud layer) in the house style, with no text, labels, figures, buildings or borders in the paintings, and send them through images/requests/.
+3. When the paintings return, trace the data onto them per engine/rules/map.md: region polygons and features in painting pixels; check every feature lands where the painting shows it; fix mismatches in the data, never by repainting.
+4. Lock. Then hand the map down: the sealed whole stays with the Keeper; each civ and god agent receives its region's knowledge; the DM receives the player's map-knowledge.json and draws the first morning's map with tools/map.py.
+
 ## 4. The lock checklist
 
 Every line must be yes before `LOCKED.md` is written.
