@@ -182,3 +182,17 @@ Drawback: each time it speaks through a stone, one hand-laid cairn somewhere on 
 **It lands** in a valley under the tops, at the head, where the valley narrows toward a pass.
 
 Is this your god? Yes, or tell me what to change.
+
+## Player:
+
+Yes. That's my god.
+
+## DM:
+
+"Then that is what falls."
+
+The voice does not say anything more. It was never going to follow you down, and you understand now that it has already begun to stay behind. What it leaves you with is a weight you did not have at dusk: slabs where there was only falling, seams with a little light in them, and a word you cannot make false.
+
+Below, the cold has come on harder. Night falls, and you keep falling.
+
+(oog) Day 2 is closed. Your card is in the record as you accepted it. Tomorrow is the people.

@@ -28,3 +28,26 @@ These are the DM's observations, not the player's statements. Nothing here has b
 - Question 6: the player asked for magic that is rare overall, with "a few valleys" where it is commonly known. That is a wish about uneven spread, which the Keeper weighs against the rule that no wish creates a local exception to the rules (DESIGN 3.19).
 - Question 7: "Nothing that works as a clean power meter" is a constraint on how magic's cost is designed, not an answer to what it costs.
 - Question 11: two answers given in order of preference, salt first, iron second.
+
+## Day 2, the god
+
+No premise was rejected. The player took the day's assumptions as given: one body, the campaign's god-sense, the campaign's rule on sworn words, and a drawback on every power.
+
+Two things were bent, one by the player and one by the DM.
+
+1. **Backstory, "who the god was".** The guide asks who the god was and what it lost. The player answered that it was never a person: "Before this, I was a marker. I don't remember being a person." The outline in `backstory.md` is of a made thing, a stone on a line of stones, not of a someone.
+   For the Keeper: the secret rest of the backstory is being written for a thing that other hands built and prayed at.
+
+2. **Follow-up 2, being known.** The question offered hiding what it is from others like it, as something to build and price. The player set that aside and answered about mortals instead: "Another god will know me the moment we're near, and I can't help that, but nobody else needs to." No means of hiding from gods was asked for or built.
+
+Bent by the DM, recorded so it is not mistaken for the player's wish:
+
+- **The price of the voice.** The player offered to pay in memory of the old road. The DM moved the cost onto the new line (one hand-laid cairn goes out per speaking). The player accepted without argument. Both versions are on the power card.
+- **What honesty buys.** The player asked to be believed without proof. The DM declined belief as a power over minds and gave a felt weight of sincerity. The player accepted.
+
+## Not rejections, noted for Day 3
+
+The DM's observations. Each is a thing to ask on Day 3, not to assume.
+
+- "I don't want mortals deciding what I am before I've had a chance to be useful to them." Together with Day 1's "I want to earn whatever place I get", this may bear on how the god meets its people and on whether it wants a hierarchy under it. The player has rejected neither.
+- The god wants roads and passes marked "so that people can cross without dying". It spoke of travelers throughout, and has not yet said anything about a people of its own.
