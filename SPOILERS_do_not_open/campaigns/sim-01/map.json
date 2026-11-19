@@ -1,0 +1,6144 @@
+{
+ "campaign": "sim-01",
+ "painting": {
+  "size": [
+   1024,
+   1024
+  ],
+  "miles_per_pixel": 1.6,
+  "grid_cell_px": 128
+ },
+ "regions": [
+  {
+   "id": "skarn-west",
+   "name": "the Wester Skarn",
+   "terrain": "mountain, snow range",
+   "polygon": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     141
+    ],
+    [
+     115,
+     104
+    ],
+    [
+     139,
+     125
+    ],
+    [
+     228,
+     107
+    ],
+    [
+     233,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "skarn-sallow",
+   "name": "the Sallow Skarn",
+   "terrain": "mountain, snow range",
+   "polygon": [
+    [
+     233,
+     1
+    ],
+    [
+     229,
+     107
+    ],
+    [
+     256,
+     137
+    ],
+    [
+     359,
+     105
+    ],
+    [
+     347,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "skarn-high",
+   "name": "the High Skarn",
+   "terrain": "mountain, the highest of the range",
+   "polygon": [
+    [
+     348,
+     0
+    ],
+    [
+     359,
+     102
+    ],
+    [
+     362,
+     107
+    ],
+    [
+     452,
+     116
+    ],
+    [
+     467,
+     102
+    ],
+    [
+     534,
+     97
+    ],
+    [
+     567,
+     129
+    ],
+    [
+     610,
+     129
+    ],
+    [
+     634,
+     111
+    ],
+    [
+     644,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "skarn-east",
+   "name": "the Easter Skarn",
+   "terrain": "mountain, snow range",
+   "polygon": [
+    [
+     645,
+     0
+    ],
+    [
+     635,
+     102
+    ],
+    [
+     636,
+     112
+    ],
+    [
+     694,
+     130
+    ],
+    [
+     751,
+     103
+    ],
+    [
+     749,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "vorn",
+   "name": "Vorn",
+   "terrain": "mountain, one bare dry peak standing apart",
+   "polygon": [
+    [
+     750,
+     0
+    ],
+    [
+     752,
+     103
+    ],
+    [
+     793,
+     142
+    ],
+    [
+     874,
+     112
+    ],
+    [
+     880,
+     0
+    ]
+   ],
+   "notes": "No springs on it. The Abiders' mountain."
+  },
+  {
+   "id": "skarn-far",
+   "name": "the Far Skarn",
+   "terrain": "mountain, snow range",
+   "polygon": [
+    [
+     881,
+     0
+    ],
+    [
+     875,
+     113
+    ],
+    [
+     904,
+     141
+    ],
+    [
+     1024,
+     117
+    ],
+    [
+     1024,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "underskarn-west",
+   "name": "the Wester Underskarn",
+   "terrain": "hill, brown foothills",
+   "polygon": [
+    [
+     0,
+     142
+    ],
+    [
+     1,
+     159
+    ],
+    [
+     83,
+     203
+    ],
+    [
+     139,
+     169
+    ],
+    [
+     143,
+     172
+    ],
+    [
+     163,
+     200
+    ],
+    [
+     243,
+     187
+    ],
+    [
+     254,
+     180
+    ],
+    [
+     256,
+     138
+    ],
+    [
+     229,
+     108
+    ],
+    [
+     139,
+     126
+    ],
+    [
+     115,
+     105
+    ]
+   ]
+  },
+  {
+   "id": "underskarn",
+   "name": "the Underskarn",
+   "terrain": "hill, brown foothills",
+   "polygon": [
+    [
+     257,
+     138
+    ],
+    [
+     255,
+     168
+    ],
+    [
+     256,
+     181
+    ],
+    [
+     333,
+     210
+    ],
+    [
+     339,
+     210
+    ],
+    [
+     367,
+     201
+    ],
+    [
+     373,
+     206
+    ],
+    [
+     440,
+     213
+    ],
+    [
+     465,
+     198
+    ],
+    [
+     453,
+     119
+    ],
+    [
+     451,
+     116
+    ],
+    [
+     368,
+     109
+    ],
+    [
+     358,
+     106
+    ]
+   ],
+   "notes": "The foothill track from the Sallow to Stair runs here."
+  },
+  {
+   "id": "stair-heights",
+   "name": "the Stair Heights",
+   "terrain": "mountain, bare rock and snow above a valley head",
+   "polygon": [
+    [
+     567,
+     130
+    ],
+    [
+     534,
+     98
+    ],
+    [
+     467,
+     103
+    ],
+    [
+     453,
+     116
+    ],
+    [
+     466,
+     198
+    ],
+    [
+     470,
+     199
+    ],
+    [
+     551,
+     160
+    ]
+   ],
+   "notes": "g1-stone lands here."
+  },
+  {
+   "id": "stair",
+   "name": "Stair",
+   "terrain": "valley, steep and terraced, pine on the slopes",
+   "polygon": [
+    [
+     563,
+     221
+    ],
+    [
+     552,
+     161
+    ],
+    [
+     471,
+     199
+    ],
+    [
+     506,
+     235
+    ]
+   ],
+   "notes": "The Stairfolk."
+  },
+  {
+   "id": "hask",
+   "name": "Hask",
+   "terrain": "valley, steep, empty",
+   "polygon": [
+    [
+     568,
+     130
+    ],
+    [
+     552,
+     160
+    ],
+    [
+     564,
+     221
+    ],
+    [
+     613,
+     251
+    ],
+    [
+     632,
+     216
+    ],
+    [
+     609,
+     130
+    ]
+   ],
+   "notes": "Dead since the Winter of the Shut Stair."
+  },
+  {
+   "id": "upper-ennvale",
+   "name": "Upper Ennvale",
+   "terrain": "valley, widening, pine and meadow",
+   "polygon": [
+    [
+     564,
+     222
+    ],
+    [
+     506,
+     236
+    ],
+    [
+     511,
+     290
+    ],
+    [
+     550,
+     309
+    ],
+    [
+     603,
+     274
+    ],
+    [
+     612,
+     258
+    ],
+    [
+     611,
+     251
+    ]
+   ]
+  },
+  {
+   "id": "ennvale",
+   "name": "Ennvale",
+   "terrain": "valley, broad river meadow",
+   "polygon": [
+    [
+     510,
+     291
+    ],
+    [
+     482,
+     305
+    ],
+    [
+     463,
+     349
+    ],
+    [
+     512,
+     402
+    ],
+    [
+     552,
+     352
+    ],
+    [
+     553,
+     347
+    ],
+    [
+     551,
+     310
+    ]
+   ]
+  },
+  {
+   "id": "skarnwood",
+   "name": "the Skarnwood",
+   "terrain": "forest, conifer under the range",
+   "polygon": [
+    [
+     793,
+     143
+    ],
+    [
+     752,
+     104
+    ],
+    [
+     694,
+     131
+    ],
+    [
+     690,
+     131
+    ],
+    [
+     635,
+     112
+    ],
+    [
+     610,
+     130
+    ],
+    [
+     633,
+     217
+    ],
+    [
+     698,
+     200
+    ],
+    [
+     737,
+     225
+    ],
+    [
+     787,
+     192
+    ]
+   ]
+  },
+  {
+   "id": "deep-dimmet",
+   "name": "the Deep Dimmet",
+   "terrain": "forest, dense dark conifer",
+   "polygon": [
+    [
+     794,
+     143
+    ],
+    [
+     788,
+     191
+    ],
+    [
+     851,
+     242
+    ],
+    [
+     903,
+     237
+    ],
+    [
+     916,
+     240
+    ],
+    [
+     1024,
+     209
+    ],
+    [
+     1024,
+     118
+    ],
+    [
+     904,
+     142
+    ],
+    [
+     874,
+     113
+    ]
+   ]
+  },
+  {
+   "id": "easter-dimmet",
+   "name": "the Easter Dimmet",
+   "terrain": "forest, dense dark conifer",
+   "polygon": [
+    [
+     1024,
+     210
+    ],
+    [
+     917,
+     240
+    ],
+    [
+     982,
+     314
+    ],
+    [
+     1024,
+     321
+    ]
+   ]
+  },
+  {
+   "id": "hallwood",
+   "name": "Hallwood",
+   "terrain": "forest, conifer with birch",
+   "polygon": [
+    [
+     851,
+     243
+    ],
+    [
+     788,
+     192
+    ],
+    [
+     738,
+     225
+    ],
+    [
+     734,
+     261
+    ],
+    [
+     761,
+     285
+    ],
+    [
+     766,
+     285
+    ],
+    [
+     832,
+     271
+    ]
+   ]
+  },
+  {
+   "id": "wester-dimmet",
+   "name": "the Wester Dimmet",
+   "terrain": "forest, dense dark conifer",
+   "polygon": [
+    [
+     737,
+     226
+    ],
+    [
+     700,
+     202
+    ],
+    [
+     695,
+     201
+    ],
+    [
+     633,
+     218
+    ],
+    [
+     615,
+     248
+    ],
+    [
+     613,
+     255
+    ],
+    [
+     702,
+     285
+    ],
+    [
+     733,
+     262
+    ]
+   ]
+  },
+  {
+   "id": "edge",
+   "name": "the Edge",
+   "terrain": "forest, birch and pine giving out onto grass",
+   "polygon": [
+    [
+     832,
+     272
+    ],
+    [
+     762,
+     286
+    ],
+    [
+     771,
+     324
+    ],
+    [
+     830,
+     330
+    ]
+   ],
+   "notes": "g7-beasts lands here. The Edgefolk."
+  },
+  {
+   "id": "wester-edge",
+   "name": "the Wester Edge",
+   "terrain": "forest, forest edge",
+   "polygon": [
+    [
+     613,
+     256
+    ],
+    [
+     606,
+     272
+    ],
+    [
+     644,
+     348
+    ],
+    [
+     696,
+     321
+    ],
+    [
+     731,
+     358
+    ],
+    [
+     751,
+     359
+    ],
+    [
+     770,
+     326
+    ],
+    [
+     762,
+     287
+    ],
+    [
+     734,
+     262
+    ],
+    [
+     701,
+     286
+    ]
+   ]
+  },
+  {
+   "id": "easter-edge",
+   "name": "the Easter Edge",
+   "terrain": "forest, forest edge",
+   "polygon": [
+    [
+     980,
+     313
+    ],
+    [
+     915,
+     240
+    ],
+    [
+     903,
+     238
+    ],
+    [
+     852,
+     243
+    ],
+    [
+     833,
+     270
+    ],
+    [
+     831,
+     332
+    ],
+    [
+     839,
+     343
+    ],
+    [
+     858,
+     339
+    ],
+    [
+     892,
+     339
+    ],
+    [
+     924,
+     345
+    ],
+    [
+     931,
+     349
+    ]
+   ]
+  },
+  {
+   "id": "sere-grass",
+   "name": "the Sere Grass",
+   "terrain": "steppe, pale grass round a salt lake",
+   "polygon": [
+    [
+     1024,
+     413
+    ],
+    [
+     1024,
+     322
+    ],
+    [
+     981,
+     314
+    ],
+    [
+     932,
+     349
+    ],
+    [
+     938,
+     357
+    ],
+    [
+     933,
+     364
+    ],
+    [
+     924,
+     369
+    ],
+    [
+     892,
+     375
+    ],
+    [
+     858,
+     375
+    ],
+    [
+     827,
+     369
+    ],
+    [
+     816,
+     363
+    ],
+    [
+     812,
+     356
+    ],
+    [
+     819,
+     349
+    ],
+    [
+     830,
+     344
+    ],
+    [
+     838,
+     343
+    ],
+    [
+     830,
+     331
+    ],
+    [
+     773,
+     325
+    ],
+    [
+     769,
+     328
+    ],
+    [
+     751,
+     360
+    ],
+    [
+     793,
+     417
+    ],
+    [
+     819,
+     402
+    ],
+    [
+     899,
+     439
+    ],
+    [
+     928,
+     392
+    ]
+   ],
+   "notes": "Tarsk wintering ground."
+  },
+  {
+   "id": "wester-grass",
+   "name": "the Wester Grass",
+   "terrain": "steppe, open grass",
+   "polygon": [
+    [
+     645,
+     349
+    ],
+    [
+     635,
+     384
+    ],
+    [
+     638,
+     395
+    ],
+    [
+     695,
+     395
+    ],
+    [
+     748,
+     465
+    ],
+    [
+     780,
+     449
+    ],
+    [
+     792,
+     420
+    ],
+    [
+     792,
+     416
+    ],
+    [
+     751,
+     361
+    ],
+    [
+     731,
+     359
+    ],
+    [
+     696,
+     322
+    ]
+   ]
+  },
+  {
+   "id": "high-grass",
+   "name": "the High Grass",
+   "terrain": "steppe, open rolling grass",
+   "polygon": [
+    [
+     1024,
+     414
+    ],
+    [
+     928,
+     393
+    ],
+    [
+     899,
+     440
+    ],
+    [
+     819,
+     403
+    ],
+    [
+     793,
+     418
+    ],
+    [
+     780,
+     450
+    ],
+    [
+     809,
+     474
+    ],
+    [
+     903,
+     482
+    ],
+    [
+     908,
+     488
+    ],
+    [
+     929,
+     497
+    ],
+    [
+     1024,
+     434
+    ]
+   ]
+  },
+  {
+   "id": "far-grass",
+   "name": "the Far Grass",
+   "terrain": "steppe, dry open grass",
+   "polygon": [
+    [
+     1024,
+     435
+    ],
+    [
+     929,
+     498
+    ],
+    [
+     961,
+     553
+    ],
+    [
+     995,
+     569
+    ],
+    [
+     1024,
+     567
+    ]
+   ]
+  },
+  {
+   "id": "south-grass",
+   "name": "the South Grass",
+   "terrain": "steppe, grass going to scrub",
+   "polygon": [
+    [
+     748,
+     548
+    ],
+    [
+     797,
+     566
+    ],
+    [
+     826,
+     545
+    ],
+    [
+     856,
+     547
+    ],
+    [
+     907,
+     488
+    ],
+    [
+     903,
+     483
+    ],
+    [
+     809,
+     475
+    ],
+    [
+     779,
+     451
+    ],
+    [
+     748,
+     467
+    ]
+   ]
+  },
+  {
+   "id": "north-moors",
+   "name": "the North Moors",
+   "terrain": "highland, upland moor",
+   "polygon": [
+    [
+     0,
+     266
+    ],
+    [
+     64,
+     270
+    ],
+    [
+     92,
+     242
+    ],
+    [
+     153,
+     256
+    ],
+    [
+     157,
+     260
+    ],
+    [
+     215,
+     257
+    ],
+    [
+     245,
+     187
+    ],
+    [
+     163,
+     201
+    ],
+    [
+     139,
+     170
+    ],
+    [
+     83,
+     204
+    ],
+    [
+     0,
+     159
+    ]
+   ]
+  },
+  {
+   "id": "sallow",
+   "name": "the Sallow",
+   "terrain": "highland, a pale salt basin with a brine mere",
+   "polygon": [
+    [
+     217,
+     255
+    ],
+    [
+     271,
+     260
+    ],
+    [
+     273,
+     262
+    ],
+    [
+     274,
+     294
+    ],
+    [
+     279,
+     300
+    ],
+    [
+     318,
+     290
+    ],
+    [
+     327,
+     279
+    ],
+    [
+     372,
+     279
+    ],
+    [
+     373,
+     207
+    ],
+    [
+     367,
+     202
+    ],
+    [
+     339,
+     211
+    ],
+    [
+     333,
+     211
+    ],
+    [
+     254,
+     181
+    ],
+    [
+     245,
+     188
+    ]
+   ],
+   "notes": "The Sallowmen."
+  },
+  {
+   "id": "sallowdown",
+   "name": "Sallowdown",
+   "terrain": "plain, dry gold grassland",
+   "polygon": [
+    [
+     279,
+     301
+    ],
+    [
+     282,
+     331
+    ],
+    [
+     334,
+     371
+    ],
+    [
+     356,
+     378
+    ],
+    [
+     363,
+     383
+    ],
+    [
+     368,
+     383
+    ],
+    [
+     389,
+     358
+    ],
+    [
+     392,
+     302
+    ],
+    [
+     372,
+     280
+    ],
+    [
+     327,
+     280
+    ],
+    [
+     318,
+     291
+    ]
+   ]
+  },
+  {
+   "id": "harrow-fell",
+   "name": "Harrow Fell",
+   "terrain": "hill, a bare massif standing alone",
+   "polygon": [
+    [
+     439,
+     214
+    ],
+    [
+     374,
+     207
+    ],
+    [
+     373,
+     280
+    ],
+    [
+     393,
+     302
+    ],
+    [
+     433,
+     273
+    ]
+   ]
+  },
+  {
+   "id": "dun-levels",
+   "name": "the Dun Levels",
+   "terrain": "plain, dun grass and scattered wood",
+   "polygon": [
+    [
+     470,
+     200
+    ],
+    [
+     464,
+     199
+    ],
+    [
+     440,
+     214
+    ],
+    [
+     434,
+     273
+    ],
+    [
+     393,
+     303
+    ],
+    [
+     390,
+     356
+    ],
+    [
+     461,
+     348
+    ],
+    [
+     481,
+     305
+    ],
+    [
+     484,
+     302
+    ],
+    [
+     510,
+     290
+    ],
+    [
+     505,
+     235
+    ]
+   ]
+  },
+  {
+   "id": "pass-tops",
+   "name": "the Pass Tops",
+   "terrain": "highland, bare tops and a notch",
+   "polygon": [
+    [
+     215,
+     258
+    ],
+    [
+     224,
+     275
+    ],
+    [
+     268,
+     297
+    ],
+    [
+     274,
+     296
+    ],
+    [
+     271,
+     261
+    ],
+    [
+     217,
+     256
+    ]
+   ],
+   "notes": "The Carrow Pass and the slab cairns."
+  },
+  {
+   "id": "carrow",
+   "name": "Carrow",
+   "terrain": "valley, a long upland valley, birch on the floor",
+   "polygon": [
+    [
+     267,
+     297
+    ],
+    [
+     223,
+     275
+    ],
+    [
+     215,
+     324
+    ],
+    [
+     217,
+     326
+    ]
+   ],
+   "notes": "The player lands at its head. The Carrowfolk."
+  },
+  {
+   "id": "windlow",
+   "name": "Windlow Moor",
+   "terrain": "highland, bare ridge moor",
+   "polygon": [
+    [
+     158,
+     261
+    ],
+    [
+     157,
+     269
+    ],
+    [
+     182,
+     316
+    ],
+    [
+     214,
+     324
+    ],
+    [
+     222,
+     275
+    ],
+    [
+     215,
+     259
+    ]
+   ],
+   "notes": "The High Road and the Shut House."
+  },
+  {
+   "id": "carrowfoot",
+   "name": "Carrowfoot",
+   "terrain": "valley, the valley's lower end, opening south-east",
+   "polygon": [
+    [
+     277,
+     299
+    ],
+    [
+     274,
+     297
+    ],
+    [
+     267,
+     298
+    ],
+    [
+     218,
+     327
+    ],
+    [
+     225,
+     348
+    ],
+    [
+     228,
+     352
+    ],
+    [
+     242,
+     360
+    ],
+    [
+     281,
+     332
+    ],
+    [
+     279,
+     304
+    ]
+   ]
+  },
+  {
+   "id": "broken-hills",
+   "name": "the Broken Hills",
+   "terrain": "hill, broken hills and long valleys",
+   "polygon": [
+    [
+     156,
+     268
+    ],
+    [
+     101,
+     330
+    ],
+    [
+     157,
+     352
+    ],
+    [
+     172,
+     387
+    ],
+    [
+     225,
+     351
+    ],
+    [
+     218,
+     329
+    ],
+    [
+     215,
+     325
+    ],
+    [
+     181,
+     316
+    ]
+   ]
+  },
+  {
+   "id": "far-moors",
+   "name": "the Far Moors",
+   "terrain": "highland, upland moor",
+   "polygon": [
+    [
+     156,
+     259
+    ],
+    [
+     153,
+     257
+    ],
+    [
+     92,
+     243
+    ],
+    [
+     64,
+     271
+    ],
+    [
+     0,
+     267
+    ],
+    [
+     0,
+     377
+    ],
+    [
+     64,
+     374
+    ],
+    [
+     96,
+     332
+    ],
+    [
+     107,
+     323
+    ],
+    [
+     155,
+     269
+    ]
+   ]
+  },
+  {
+   "id": "wend-heads",
+   "name": "the Wend Heads",
+   "terrain": "hill, stream heads and rough pasture",
+   "polygon": [
+    [
+     242,
+     361
+    ],
+    [
+     251,
+     385
+    ],
+    [
+     333,
+     371
+    ],
+    [
+     282,
+     332
+    ]
+   ]
+  },
+  {
+   "id": "wendvale",
+   "name": "Wendvale",
+   "terrain": "valley, a river valley between wood and hill",
+   "polygon": [
+    [
+     363,
+     384
+    ],
+    [
+     356,
+     379
+    ],
+    [
+     335,
+     372
+    ],
+    [
+     252,
+     385
+    ],
+    [
+     246,
+     415
+    ],
+    [
+     242,
+     425
+    ],
+    [
+     261,
+     453
+    ],
+    [
+     325,
+     441
+    ],
+    [
+     328,
+     439
+    ],
+    [
+     347,
+     403
+    ]
+   ]
+  },
+  {
+   "id": "moorfoot",
+   "name": "Moorfoot",
+   "terrain": "hill, the moor's southern skirts",
+   "polygon": [
+    [
+     65,
+     374
+    ],
+    [
+     70,
+     381
+    ],
+    [
+     149,
+     408
+    ],
+    [
+     152,
+     408
+    ],
+    [
+     171,
+     395
+    ],
+    [
+     219,
+     426
+    ],
+    [
+     240,
+     424
+    ],
+    [
+     245,
+     415
+    ],
+    [
+     250,
+     388
+    ],
+    [
+     242,
+     362
+    ],
+    [
+     226,
+     351
+    ],
+    [
+     171,
+     388
+    ],
+    [
+     157,
+     353
+    ],
+    [
+     101,
+     331
+    ],
+    [
+     97,
+     332
+    ]
+   ]
+  },
+  {
+   "id": "holt",
+   "name": "the Holt",
+   "terrain": "forest, old dark wood",
+   "polygon": [
+    [
+     151,
+     410
+    ],
+    [
+     136,
+     481
+    ],
+    [
+     177,
+     493
+    ],
+    [
+     192,
+     508
+    ],
+    [
+     250,
+     505
+    ],
+    [
+     255,
+     503
+    ],
+    [
+     260,
+     496
+    ],
+    [
+     261,
+     454
+    ],
+    [
+     241,
+     424
+    ],
+    [
+     219,
+     427
+    ],
+    [
+     171,
+     396
+    ],
+    [
+     166,
+     398
+    ]
+   ]
+  },
+  {
+   "id": "wester-holt",
+   "name": "the Wester Holt",
+   "terrain": "forest, old dark wood",
+   "polygon": [
+    [
+     0,
+     378
+    ],
+    [
+     0,
+     497
+    ],
+    [
+     90,
+     501
+    ],
+    [
+     100,
+     492
+    ],
+    [
+     135,
+     481
+    ],
+    [
+     151,
+     409
+    ],
+    [
+     70,
+     382
+    ],
+    [
+     64,
+     375
+    ]
+   ]
+  },
+  {
+   "id": "corr-gorge",
+   "name": "the Corr Gorge",
+   "terrain": "hill, water-cut cliffs",
+   "polygon": [
+    [
+     327,
+     441
+    ],
+    [
+     262,
+     454
+    ],
+    [
+     261,
+     495
+    ],
+    [
+     325,
+     494
+    ],
+    [
+     330,
+     488
+    ]
+   ]
+  },
+  {
+   "id": "corrford",
+   "name": "Corrford",
+   "terrain": "valley, a stony ford below a gorge",
+   "polygon": [
+    [
+     325,
+     495
+    ],
+    [
+     261,
+     496
+    ],
+    [
+     254,
+     505
+    ],
+    [
+     275,
+     562
+    ],
+    [
+     325,
+     539
+    ]
+   ],
+   "notes": "g2-law lands here. The Sworn."
+  },
+  {
+   "id": "rust-hills",
+   "name": "the Rust Hills",
+   "terrain": "hill, red broken hills",
+   "polygon": [
+    [
+     91,
+     501
+    ],
+    [
+     110,
+     599
+    ],
+    [
+     186,
+     584
+    ],
+    [
+     207,
+     596
+    ],
+    [
+     271,
+     575
+    ],
+    [
+     274,
+     560
+    ],
+    [
+     253,
+     505
+    ],
+    [
+     192,
+     509
+    ],
+    [
+     177,
+     494
+    ],
+    [
+     138,
+     482
+    ],
+    [
+     133,
+     482
+    ],
+    [
+     100,
+     493
+    ]
+   ]
+  },
+  {
+   "id": "wester-breaks",
+   "name": "the Wester Breaks",
+   "terrain": "hill, red broken hills",
+   "polygon": [
+    [
+     0,
+     498
+    ],
+    [
+     0,
+     675
+    ],
+    [
+     109,
+     674
+    ],
+    [
+     117,
+     668
+    ],
+    [
+     111,
+     602
+    ],
+    [
+     109,
+     599
+    ],
+    [
+     90,
+     502
+    ]
+   ]
+  },
+  {
+   "id": "low-breaks",
+   "name": "the Low Breaks",
+   "terrain": "hill, red broken hills falling to the south",
+   "polygon": [
+    [
+     295,
+     608
+    ],
+    [
+     271,
+     577
+    ],
+    [
+     207,
+     597
+    ],
+    [
+     186,
+     585
+    ],
+    [
+     111,
+     600
+    ],
+    [
+     117,
+     667
+    ],
+    [
+     180,
+     704
+    ],
+    [
+     192,
+     696
+    ],
+    [
+     218,
+     662
+    ],
+    [
+     266,
+     663
+    ],
+    [
+     298,
+     639
+    ]
+   ]
+  },
+  {
+   "id": "corr-plain",
+   "name": "the Corr Plain",
+   "terrain": "plain, stony flood plain, shifting channels",
+   "polygon": [
+    [
+     275,
+     563
+    ],
+    [
+     271,
+     576
+    ],
+    [
+     296,
+     608
+    ],
+    [
+     299,
+     639
+    ],
+    [
+     351,
+     667
+    ],
+    [
+     383,
+     658
+    ],
+    [
+     394,
+     631
+    ],
+    [
+     376,
+     578
+    ],
+    [
+     377,
+     570
+    ],
+    [
+     326,
+     540
+    ]
+   ]
+  },
+  {
+   "id": "wester-ennerwold",
+   "name": "the Wester Ennerwold",
+   "terrain": "hill, old worn hills, the bowl's west rim",
+   "polygon": [
+    [
+     364,
+     384
+    ],
+    [
+     348,
+     403
+    ],
+    [
+     328,
+     440
+    ],
+    [
+     331,
+     488
+    ],
+    [
+     326,
+     494
+    ],
+    [
+     326,
+     539
+    ],
+    [
+     377,
+     569
+    ],
+    [
+     415,
+     523
+    ],
+    [
+     410,
+     519
+    ],
+    [
+     401,
+     505
+    ],
+    [
+     398,
+     488
+    ],
+    [
+     402,
+     473
+    ],
+    [
+     410,
+     461
+    ],
+    [
+     424,
+     449
+    ],
+    [
+     368,
+     384
+    ]
+   ],
+   "notes": "Ennermere."
+  },
+  {
+   "id": "norther-ennerwold",
+   "name": "the Norther Ennerwold",
+   "terrain": "hill, old worn hills, the bowl's north rim",
+   "polygon": [
+    [
+     644,
+     349
+    ],
+    [
+     605,
+     273
+    ],
+    [
+     552,
+     310
+    ],
+    [
+     554,
+     350
+    ],
+    [
+     512,
+     403
+    ],
+    [
+     462,
+     348
+    ],
+    [
+     390,
+     357
+    ],
+    [
+     369,
+     384
+    ],
+    [
+     425,
+     449
+    ],
+    [
+     449,
+     435
+    ],
+    [
+     470,
+     428
+    ],
+    [
+     497,
+     423
+    ],
+    [
+     521,
+     421
+    ],
+    [
+     548,
+     422
+    ],
+    [
+     580,
+     427
+    ],
+    [
+     605,
+     435
+    ],
+    [
+     622,
+     444
+    ],
+    [
+     637,
+     397
+    ],
+    [
+     634,
+     384
+    ]
+   ],
+   "notes": "Ennermere. The Sighting Stones and the Leaf Halls."
+  },
+  {
+   "id": "easter-ennerwold",
+   "name": "the Easter Ennerwold",
+   "terrain": "hill, old worn hills, the bowl's east rim",
+   "polygon": [
+    [
+     638,
+     396
+    ],
+    [
+     623,
+     445
+    ],
+    [
+     644,
+     461
+    ],
+    [
+     654,
+     478
+    ],
+    [
+     656,
+     488
+    ],
+    [
+     654,
+     502
+    ],
+    [
+     642,
+     522
+    ],
+    [
+     701,
+     581
+    ],
+    [
+     747,
+     548
+    ],
+    [
+     748,
+     466
+    ],
+    [
+     695,
+     396
+    ]
+   ],
+   "notes": "Ennermere."
+  },
+  {
+   "id": "lave-rim",
+   "name": "the Lave Rim",
+   "terrain": "hill, old worn hills, the bowl's south-east rim",
+   "polygon": [
+    [
+     641,
+     522
+    ],
+    [
+     617,
+     539
+    ],
+    [
+     592,
+     549
+    ],
+    [
+     590,
+     611
+    ],
+    [
+     622,
+     642
+    ],
+    [
+     700,
+     591
+    ],
+    [
+     701,
+     582
+    ]
+   ],
+   "notes": "Ennermere. The Sworn Door."
+  },
+  {
+   "id": "sarn-rim",
+   "name": "the Sarn Rim",
+   "terrain": "hill, old worn hills, the bowl's south-west rim",
+   "polygon": [
+    [
+     484,
+     554
+    ],
+    [
+     470,
+     552
+    ],
+    [
+     449,
+     545
+    ],
+    [
+     428,
+     534
+    ],
+    [
+     415,
+     524
+    ],
+    [
+     377,
+     571
+    ],
+    [
+     377,
+     578
+    ],
+    [
+     395,
+     632
+    ],
+    [
+     464,
+     620
+    ],
+    [
+     485,
+     569
+    ]
+   ],
+   "notes": "Ennermere. The Ringing Stair."
+  },
+  {
+   "id": "gap-of-enner",
+   "name": "the Gap of Enner",
+   "terrain": "valley, the one low way through the south rim",
+   "polygon": [
+    [
+     589,
+     611
+    ],
+    [
+     591,
+     549
+    ],
+    [
+     569,
+     555
+    ],
+    [
+     534,
+     559
+    ],
+    [
+     497,
+     557
+    ],
+    [
+     485,
+     554
+    ],
+    [
+     485,
+     565
+    ],
+    [
+     488,
+     571
+    ],
+    [
+     556,
+     620
+    ]
+   ],
+   "notes": "Ennerhold."
+  },
+  {
+   "id": "murk-shore",
+   "name": "the Murk Shore",
+   "terrain": "coast, low shore of a foggy bay",
+   "polygon": [
+    [
+     179,
+     705
+    ],
+    [
+     118,
+     669
+    ],
+    [
+     107,
+     676
+    ],
+    [
+     0,
+     676
+    ],
+    [
+     0,
+     721
+    ],
+    [
+     41,
+     727
+    ],
+    [
+     93,
+     743
+    ],
+    [
+     139,
+     773
+    ],
+    [
+     141,
+     777
+    ],
+    [
+     157,
+     770
+    ],
+    [
+     170,
+     755
+    ]
+   ]
+  },
+  {
+   "id": "sarnvale",
+   "name": "Sarnvale",
+   "terrain": "valley, a slow brown river in wet meadow",
+   "polygon": [
+    [
+     351,
+     668
+    ],
+    [
+     298,
+     640
+    ],
+    [
+     266,
+     664
+    ],
+    [
+     218,
+     663
+    ],
+    [
+     191,
+     698
+    ],
+    [
+     295,
+     750
+    ],
+    [
+     304,
+     759
+    ]
+   ],
+   "notes": "The Ribs."
+  },
+  {
+   "id": "cuts",
+   "name": "the Cuts",
+   "terrain": "marsh, raised islands, cuts and causeways",
+   "polygon": [
+    [
+     179,
+     706
+    ],
+    [
+     172,
+     753
+    ],
+    [
+     240,
+     784
+    ],
+    [
+     246,
+     784
+    ],
+    [
+     302,
+     760
+    ],
+    [
+     302,
+     758
+    ],
+    [
+     295,
+     751
+    ],
+    [
+     191,
+     699
+    ]
+   ],
+   "notes": "g3-song lands here. The Cutfolk."
+  },
+  {
+   "id": "sarnmoss",
+   "name": "the Sarnmoss",
+   "terrain": "marsh, reed, alder and standing water",
+   "polygon": [
+    [
+     157,
+     771
+    ],
+    [
+     214,
+     864
+    ],
+    [
+     216,
+     880
+    ],
+    [
+     254,
+     883
+    ],
+    [
+     318,
+     803
+    ],
+    [
+     312,
+     769
+    ],
+    [
+     304,
+     760
+    ],
+    [
+     243,
+     786
+    ],
+    [
+     172,
+     754
+    ]
+   ]
+  },
+  {
+   "id": "murk-strand",
+   "name": "the Murk Strand",
+   "terrain": "coast, fogbound beach and dune",
+   "polygon": [
+    [
+     143,
+     777
+    ],
+    [
+     142,
+     783
+    ],
+    [
+     151,
+     831
+    ],
+    [
+     136,
+     869
+    ],
+    [
+     197,
+     879
+    ],
+    [
+     215,
+     880
+    ],
+    [
+     213,
+     864
+    ],
+    [
+     156,
+     771
+    ]
+   ]
+  },
+  {
+   "id": "sarnmouth",
+   "name": "Sarnmouth",
+   "terrain": "coast, a river mouth among sandbars",
+   "polygon": [
+    [
+     353,
+     840
+    ],
+    [
+     318,
+     804
+    ],
+    [
+     255,
+     883
+    ],
+    [
+     294,
+     887
+    ],
+    [
+     353,
+     885
+    ]
+   ],
+   "notes": "The Three Havens."
+  },
+  {
+   "id": "westwild",
+   "name": "the Westwild",
+   "terrain": "forest, uncut scrub and wood",
+   "polygon": [
+    [
+     383,
+     660
+    ],
+    [
+     352,
+     668
+    ],
+    [
+     305,
+     759
+    ],
+    [
+     313,
+     769
+    ],
+    [
+     319,
+     803
+    ],
+    [
+     353,
+     839
+    ],
+    [
+     419,
+     822
+    ],
+    [
+     421,
+     820
+    ],
+    [
+     428,
+     797
+    ],
+    [
+     385,
+     759
+    ],
+    [
+     411,
+     699
+    ]
+   ]
+  },
+  {
+   "id": "scrub-coast",
+   "name": "the Scrub Coast",
+   "terrain": "coast, low wooded shore",
+   "polygon": [
+    [
+     447,
+     879
+    ],
+    [
+     420,
+     822
+    ],
+    [
+     354,
+     840
+    ],
+    [
+     354,
+     885
+    ],
+    [
+     388,
+     883
+    ],
+    [
+     447,
+     883
+    ]
+   ]
+  },
+  {
+   "id": "maundhead",
+   "name": "the Maundhead",
+   "terrain": "valley, springs and the young river below the Gap",
+   "polygon": [
+    [
+     485,
+     570
+    ],
+    [
+     466,
+     620
+    ],
+    [
+     506,
+     678
+    ],
+    [
+     556,
+     621
+    ]
+   ]
+  },
+  {
+   "id": "upper-plain",
+   "name": "the Upper Plain",
+   "terrain": "plain, dark farmland",
+   "polygon": [
+    [
+     624,
+     665
+    ],
+    [
+     622,
+     643
+    ],
+    [
+     590,
+     612
+    ],
+    [
+     557,
+     621
+    ],
+    [
+     506,
+     679
+    ],
+    [
+     503,
+     677
+    ],
+    [
+     465,
+     620
+    ],
+    [
+     395,
+     633
+    ],
+    [
+     383,
+     659
+    ],
+    [
+     412,
+     699
+    ],
+    [
+     462,
+     711
+    ],
+    [
+     500,
+     689
+    ],
+    [
+     507,
+     687
+    ],
+    [
+     534,
+     710
+    ],
+    [
+     541,
+     712
+    ],
+    [
+     603,
+     691
+    ]
+   ]
+  },
+  {
+   "id": "bankland",
+   "name": "the Bankland",
+   "terrain": "plain, deep black soil on both banks of a broad river",
+   "polygon": [
+    [
+     504,
+     688
+    ],
+    [
+     462,
+     712
+    ],
+    [
+     457,
+     781
+    ],
+    [
+     506,
+     796
+    ],
+    [
+     541,
+     749
+    ],
+    [
+     541,
+     740
+    ],
+    [
+     537,
+     713
+    ],
+    [
+     507,
+     688
+    ]
+   ],
+   "notes": "g4-harvest lands here. The Bankfolk."
+  },
+  {
+   "id": "wester-plain",
+   "name": "the Wester Plain",
+   "terrain": "plain, dark farmland going to scrub",
+   "polygon": [
+    [
+     411,
+     700
+    ],
+    [
+     386,
+     759
+    ],
+    [
+     428,
+     795
+    ],
+    [
+     430,
+     795
+    ],
+    [
+     456,
+     781
+    ],
+    [
+     461,
+     712
+    ]
+   ]
+  },
+  {
+   "id": "easter-plain",
+   "name": "the Easter Plain",
+   "terrain": "plain, dark farmland",
+   "polygon": [
+    [
+     507,
+     796
+    ],
+    [
+     586,
+     839
+    ],
+    [
+     596,
+     824
+    ],
+    [
+     683,
+     824
+    ],
+    [
+     653,
+     761
+    ],
+    [
+     625,
+     761
+    ],
+    [
+     598,
+     783
+    ],
+    [
+     542,
+     748
+    ]
+   ],
+   "notes": "The Three Bins."
+  },
+  {
+   "id": "barrow-down",
+   "name": "Barrow Down",
+   "terrain": "hill, one great lone hill on the plain",
+   "polygon": [
+    [
+     538,
+     713
+    ],
+    [
+     542,
+     747
+    ],
+    [
+     598,
+     782
+    ],
+    [
+     624,
+     761
+    ],
+    [
+     602,
+     692
+    ]
+   ]
+  },
+  {
+   "id": "low-plain",
+   "name": "the Low Plain",
+   "terrain": "plain, dark farmland, ditched",
+   "polygon": [
+    [
+     429,
+     796
+    ],
+    [
+     421,
+     822
+    ],
+    [
+     448,
+     879
+    ],
+    [
+     500,
+     835
+    ],
+    [
+     545,
+     880
+    ],
+    [
+     582,
+     877
+    ],
+    [
+     586,
+     840
+    ],
+    [
+     507,
+     797
+    ],
+    [
+     493,
+     794
+    ],
+    [
+     458,
+     782
+    ]
+   ],
+   "notes": "Maundsea's own land."
+  },
+  {
+   "id": "maundsea",
+   "name": "Maundsea",
+   "terrain": "coast, a river mouth and a city's shore",
+   "polygon": [
+    [
+     544,
+     880
+    ],
+    [
+     500,
+     836
+    ],
+    [
+     448,
+     880
+    ],
+    [
+     448,
+     883
+    ],
+    [
+     507,
+     883
+    ]
+   ]
+  },
+  {
+   "id": "wester-long-coast",
+   "name": "the Wester Long Coast",
+   "terrain": "coast, long pale beaches",
+   "polygon": [
+    [
+     583,
+     877
+    ],
+    [
+     641,
+     871
+    ],
+    [
+     718,
+     849
+    ],
+    [
+     684,
+     825
+    ],
+    [
+     596,
+     825
+    ],
+    [
+     587,
+     839
+    ]
+   ]
+  },
+  {
+   "id": "midhills",
+   "name": "the Midhills",
+   "terrain": "hill, low wild hills between two rivers",
+   "polygon": [
+    [
+     625,
+     665
+    ],
+    [
+     603,
+     692
+    ],
+    [
+     625,
+     760
+    ],
+    [
+     654,
+     760
+    ],
+    [
+     693,
+     722
+    ],
+    [
+     695,
+     706
+    ]
+   ]
+  },
+  {
+   "id": "lave-heads",
+   "name": "the Lave Heads",
+   "terrain": "hill, stream heads under the rim",
+   "polygon": [
+    [
+     700,
+     593
+    ],
+    [
+     623,
+     643
+    ],
+    [
+     624,
+     660
+    ],
+    [
+     627,
+     666
+    ],
+    [
+     696,
+     706
+    ],
+    [
+     745,
+     669
+    ],
+    [
+     743,
+     657
+    ]
+   ],
+   "notes": "The Dry Loft."
+  },
+  {
+   "id": "lavedale",
+   "name": "Lavedale",
+   "terrain": "valley, a quiet river in settled low country",
+   "polygon": [
+    [
+     742,
+     673
+    ],
+    [
+     696,
+     707
+    ],
+    [
+     694,
+     721
+    ],
+    [
+     751,
+     800
+    ],
+    [
+     787,
+     759
+    ],
+    [
+     744,
+     673
+    ]
+   ],
+   "notes": "g6-dreams lands here. The Lavefolk."
+  },
+  {
+   "id": "easter-lave-hills",
+   "name": "the Easter Lave Hills",
+   "terrain": "hill, gentle hills",
+   "polygon": [
+    [
+     746,
+     669
+    ],
+    [
+     744,
+     672
+    ],
+    [
+     787,
+     758
+    ],
+    [
+     791,
+     759
+    ],
+    [
+     824,
+     751
+    ],
+    [
+     834,
+     738
+    ],
+    [
+     824,
+     681
+    ],
+    [
+     821,
+     679
+    ]
+   ]
+  },
+  {
+   "id": "wester-lave-hills",
+   "name": "the Wester Lave Hills",
+   "terrain": "hill, gentle hills",
+   "polygon": [
+    [
+     694,
+     722
+    ],
+    [
+     654,
+     762
+    ],
+    [
+     684,
+     824
+    ],
+    [
+     719,
+     849
+    ],
+    [
+     740,
+     843
+    ],
+    [
+     743,
+     839
+    ],
+    [
+     750,
+     800
+    ]
+   ]
+  },
+  {
+   "id": "braidvale",
+   "name": "Braidvale",
+   "terrain": "valley, a braided gravel river",
+   "polygon": [
+    [
+     745,
+     660
+    ],
+    [
+     746,
+     668
+    ],
+    [
+     823,
+     679
+    ],
+    [
+     825,
+     681
+    ],
+    [
+     835,
+     738
+    ],
+    [
+     900,
+     733
+    ],
+    [
+     912,
+     708
+    ],
+    [
+     909,
+     702
+    ],
+    [
+     858,
+     646
+    ],
+    [
+     859,
+     638
+    ],
+    [
+     801,
+     601
+    ]
+   ]
+  },
+  {
+   "id": "lavemouths",
+   "name": "the Lavemouths",
+   "terrain": "marsh, delta marsh of many mouths",
+   "polygon": [
+    [
+     900,
+     734
+    ],
+    [
+     834,
+     739
+    ],
+    [
+     822,
+     753
+    ],
+    [
+     788,
+     760
+    ],
+    [
+     751,
+     801
+    ],
+    [
+     743,
+     842
+    ],
+    [
+     759,
+     837
+    ],
+    [
+     801,
+     834
+    ],
+    [
+     849,
+     810
+    ],
+    [
+     900,
+     771
+    ],
+    [
+     913,
+     769
+    ]
+   ]
+  },
+  {
+   "id": "pans-coast",
+   "name": "the Pans Coast",
+   "terrain": "coast, long beaches and pale salt pans",
+   "polygon": [
+    [
+     901,
+     732
+    ],
+    [
+     914,
+     769
+    ],
+    [
+     958,
+     761
+    ],
+    [
+     1021,
+     756
+    ],
+    [
+     928,
+     701
+    ],
+    [
+     913,
+     707
+    ]
+   ],
+   "notes": "Whitepans."
+  },
+  {
+   "id": "easter-marches",
+   "name": "the Easter Marches",
+   "terrain": "plain, grass and thorn between steppe and river country",
+   "polygon": [
+    [
+     856,
+     548
+    ],
+    [
+     826,
+     546
+    ],
+    [
+     797,
+     567
+    ],
+    [
+     747,
+     549
+    ],
+    [
+     703,
+     580
+    ],
+    [
+     701,
+     583
+    ],
+    [
+     700,
+     592
+    ],
+    [
+     745,
+     659
+    ],
+    [
+     800,
+     600
+    ],
+    [
+     860,
+     638
+    ],
+    [
+     887,
+     608
+    ],
+    [
+     888,
+     603
+    ]
+   ]
+  },
+  {
+   "id": "norther-folds",
+   "name": "the Norther Folds",
+   "terrain": "hill, low rounded hills",
+   "polygon": [
+    [
+     909,
+     489
+    ],
+    [
+     902,
+     494
+    ],
+    [
+     857,
+     547
+    ],
+    [
+     888,
+     602
+    ],
+    [
+     960,
+     554
+    ],
+    [
+     929,
+     499
+    ]
+   ],
+   "notes": "The Debt Door."
+  },
+  {
+   "id": "folds",
+   "name": "the Folds",
+   "terrain": "valley, a middling river folded round by low hills",
+   "polygon": [
+    [
+     961,
+     554
+    ],
+    [
+     888,
+     604
+    ],
+    [
+     888,
+     608
+    ],
+    [
+     958,
+     653
+    ],
+    [
+     960,
+     653
+    ],
+    [
+     997,
+     570
+    ]
+   ],
+   "notes": "g5-fate lands here. The River Households."
+  },
+  {
+   "id": "souther-folds",
+   "name": "the Souther Folds",
+   "terrain": "hill, low rounded hills",
+   "polygon": [
+    [
+     861,
+     637
+    ],
+    [
+     859,
+     646
+    ],
+    [
+     913,
+     706
+    ],
+    [
+     928,
+     700
+    ],
+    [
+     1024,
+     756
+    ],
+    [
+     1024,
+     687
+    ],
+    [
+     960,
+     656
+    ],
+    [
+     888,
+     609
+    ]
+   ]
+  },
+  {
+   "id": "ishe-reach",
+   "name": "Ishe Reach",
+   "terrain": "valley, the lower river, widening eastward",
+   "polygon": [
+    [
+     998,
+     570
+    ],
+    [
+     960,
+     655
+    ],
+    [
+     1024,
+     686
+    ],
+    [
+     1024,
+     568
+    ]
+   ]
+  },
+  {
+   "id": "murk",
+   "name": "the Murk",
+   "terrain": "sea, a shallow fogbound bay",
+   "polygon": [
+    [
+     0,
+     722
+    ],
+    [
+     0,
+     1024
+    ],
+    [
+     151,
+     1024
+    ],
+    [
+     158,
+     880
+    ],
+    [
+     161,
+     874
+    ],
+    [
+     139,
+     871
+    ],
+    [
+     135,
+     869
+    ],
+    [
+     150,
+     831
+    ],
+    [
+     140,
+     775
+    ],
+    [
+     93,
+     744
+    ],
+    [
+     41,
+     728
+    ]
+   ]
+  },
+  {
+   "id": "south-water-west",
+   "name": "the Wester South Water",
+   "terrain": "sea",
+   "polygon": [
+    [
+     160,
+     876
+    ],
+    [
+     152,
+     1024
+    ],
+    [
+     385,
+     1024
+    ],
+    [
+     385,
+     885
+    ],
+    [
+     294,
+     888
+    ],
+    [
+     197,
+     880
+    ],
+    [
+     164,
+     874
+    ]
+   ]
+  },
+  {
+   "id": "south-water",
+   "name": "the South Water",
+   "terrain": "sea",
+   "polygon": [
+    [
+     638,
+     872
+    ],
+    [
+     565,
+     880
+    ],
+    [
+     507,
+     884
+    ],
+    [
+     386,
+     885
+    ],
+    [
+     386,
+     1024
+    ],
+    [
+     650,
+     1024
+    ]
+   ]
+  },
+  {
+   "id": "south-water-east",
+   "name": "the Easter South Water",
+   "terrain": "sea",
+   "polygon": [
+    [
+     835,
+     818
+    ],
+    [
+     801,
+     835
+    ],
+    [
+     759,
+     838
+    ],
+    [
+     639,
+     872
+    ],
+    [
+     651,
+     1024
+    ],
+    [
+     900,
+     1024
+    ]
+   ]
+  },
+  {
+   "id": "east-water",
+   "name": "the East Water",
+   "terrain": "sea",
+   "polygon": [
+    [
+     1024,
+     757
+    ],
+    [
+     958,
+     762
+    ],
+    [
+     900,
+     772
+    ],
+    [
+     849,
+     811
+    ],
+    [
+     836,
+     817
+    ],
+    [
+     901,
+     1024
+    ],
+    [
+     1024,
+     1024
+    ]
+   ]
+  },
+  {
+   "id": "lake-enner",
+   "name": "Lake Enner",
+   "terrain": "sea, a great dark still lake in a bowl of hills",
+   "polygon": [
+    [
+     399,
+     488
+    ],
+    [
+     403,
+     507
+    ],
+    [
+     411,
+     519
+    ],
+    [
+     428,
+     533
+    ],
+    [
+     449,
+     544
+    ],
+    [
+     470,
+     551
+    ],
+    [
+     497,
+     556
+    ],
+    [
+     521,
+     558
+    ],
+    [
+     557,
+     556
+    ],
+    [
+     580,
+     552
+    ],
+    [
+     605,
+     544
+    ],
+    [
+     626,
+     533
+    ],
+    [
+     643,
+     519
+    ],
+    [
+     652,
+     505
+    ],
+    [
+     655,
+     492
+    ],
+    [
+     651,
+     473
+    ],
+    [
+     643,
+     461
+    ],
+    [
+     626,
+     447
+    ],
+    [
+     605,
+     436
+    ],
+    [
+     584,
+     429
+    ],
+    [
+     557,
+     424
+    ],
+    [
+     534,
+     422
+    ],
+    [
+     497,
+     424
+    ],
+    [
+     474,
+     428
+    ],
+    [
+     449,
+     436
+    ],
+    [
+     428,
+     447
+    ],
+    [
+     411,
+     461
+    ],
+    [
+     402,
+     475
+    ]
+   ],
+   "notes": "The point under the star. The hoarder."
+  },
+  {
+   "id": "lake-sere",
+   "name": "Lake Sere",
+   "terrain": "sea, a white-rimmed salt lake",
+   "polygon": [
+    [
+     813,
+     356
+    ],
+    [
+     816,
+     362
+    ],
+    [
+     827,
+     368
+    ],
+    [
+     858,
+     374
+    ],
+    [
+     892,
+     374
+    ],
+    [
+     916,
+     370
+    ],
+    [
+     930,
+     365
+    ],
+    [
+     937,
+     357
+    ],
+    [
+     933,
+     351
+    ],
+    [
+     924,
+     346
+    ],
+    [
+     892,
+     340
+    ],
+    [
+     858,
+     340
+    ],
+    [
+     834,
+     344
+    ],
+    [
+     819,
+     350
+    ]
+   ],
+   "notes": "Held by the Tarsk."
+  }
+ ],
+ "features": [
+  {
+   "id": "enner",
+   "name": "Lake Enner",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     655,
+     490
+    ],
+    [
+     652,
+     505
+    ],
+    [
+     642,
+     520
+    ],
+    [
+     627,
+     532
+    ],
+    [
+     607,
+     543
+    ],
+    [
+     583,
+     551
+    ],
+    [
+     555,
+     556
+    ],
+    [
+     527,
+     558
+    ],
+    [
+     499,
+     556
+    ],
+    [
+     471,
+     551
+    ],
+    [
+     447,
+     543
+    ],
+    [
+     427,
+     532
+    ],
+    [
+     412,
+     520
+    ],
+    [
+     402,
+     505
+    ],
+    [
+     399,
+     490
+    ],
+    [
+     402,
+     475
+    ],
+    [
+     412,
+     460
+    ],
+    [
+     427,
+     448
+    ],
+    [
+     447,
+     437
+    ],
+    [
+     471,
+     429
+    ],
+    [
+     499,
+     424
+    ],
+    [
+     527,
+     422
+    ],
+    [
+     555,
+     424
+    ],
+    [
+     583,
+     429
+    ],
+    [
+     607,
+     437
+    ],
+    [
+     627,
+     448
+    ],
+    [
+     642,
+     460
+    ],
+    [
+     652,
+     475
+    ]
+   ],
+   "regions": [
+    "lake-enner"
+   ],
+   "notes": "The hoarder. Does not freeze, does not ripple, warm at the bottom."
+  },
+  {
+   "id": "sere",
+   "name": "Lake Sere",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     937,
+     357
+    ],
+    [
+     935,
+     361
+    ],
+    [
+     931,
+     364
+    ],
+    [
+     923,
+     368
+    ],
+    [
+     914,
+     370
+    ],
+    [
+     902,
+     372
+    ],
+    [
+     889,
+     374
+    ],
+    [
+     875,
+     374
+    ],
+    [
+     861,
+     374
+    ],
+    [
+     848,
+     372
+    ],
+    [
+     836,
+     370
+    ],
+    [
+     827,
+     368
+    ],
+    [
+     819,
+     364
+    ],
+    [
+     815,
+     361
+    ],
+    [
+     813,
+     357
+    ],
+    [
+     815,
+     353
+    ],
+    [
+     819,
+     350
+    ],
+    [
+     827,
+     346
+    ],
+    [
+     836,
+     344
+    ],
+    [
+     848,
+     342
+    ],
+    [
+     861,
+     340
+    ],
+    [
+     875,
+     340
+    ],
+    [
+     889,
+     340
+    ],
+    [
+     902,
+     342
+    ],
+    [
+     914,
+     344
+    ],
+    [
+     923,
+     346
+    ],
+    [
+     931,
+     350
+    ],
+    [
+     935,
+     353
+    ]
+   ],
+   "regions": [
+    "lake-sere"
+   ],
+   "notes": "Salt. Held by the Tarsk."
+  },
+  {
+   "id": "brine-mere",
+   "name": "the Brine Mere",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     349,
+     250
+    ],
+    [
+     348,
+     253
+    ],
+    [
+     344,
+     256
+    ],
+    [
+     338,
+     259
+    ],
+    [
+     329,
+     261
+    ],
+    [
+     320,
+     263
+    ],
+    [
+     309,
+     264
+    ],
+    [
+     297,
+     264
+    ],
+    [
+     285,
+     264
+    ],
+    [
+     274,
+     263
+    ],
+    [
+     265,
+     261
+    ],
+    [
+     256,
+     259
+    ],
+    [
+     250,
+     256
+    ],
+    [
+     246,
+     253
+    ],
+    [
+     245,
+     250
+    ],
+    [
+     246,
+     247
+    ],
+    [
+     250,
+     244
+    ],
+    [
+     256,
+     241
+    ],
+    [
+     265,
+     239
+    ],
+    [
+     274,
+     237
+    ],
+    [
+     285,
+     236
+    ],
+    [
+     297,
+     236
+    ],
+    [
+     309,
+     236
+    ],
+    [
+     320,
+     237
+    ],
+    [
+     329,
+     239
+    ],
+    [
+     338,
+     241
+    ],
+    [
+     344,
+     244
+    ],
+    [
+     348,
+     247
+    ]
+   ],
+   "regions": [
+    "sallow"
+   ],
+   "notes": "Shallow brine and salt flats; the Sallowmen's pans ring it."
+  },
+  {
+   "id": "the-murk",
+   "name": "the Murk",
+   "type": "sea",
+   "shape": "area",
+   "coords": [
+    [
+     0,
+     735
+    ],
+    [
+     90,
+     750
+    ],
+    [
+     138,
+     780
+    ],
+    [
+     146,
+     830
+    ],
+    [
+     130,
+     875
+    ],
+    [
+     60,
+     1000
+    ],
+    [
+     0,
+     1000
+    ]
+   ],
+   "regions": [
+    "murk"
+   ]
+  },
+  {
+   "id": "south-water-sea",
+   "name": "the South Water",
+   "type": "sea",
+   "shape": "area",
+   "coords": [
+    [
+     140,
+     900
+    ],
+    [
+     500,
+     895
+    ],
+    [
+     760,
+     850
+    ],
+    [
+     900,
+     790
+    ],
+    [
+     1024,
+     770
+    ],
+    [
+     1024,
+     1024
+    ],
+    [
+     140,
+     1024
+    ]
+   ],
+   "regions": [
+    "south-water-west",
+    "south-water",
+    "south-water-east",
+    "east-water"
+   ]
+  },
+  {
+   "id": "carrow-water",
+   "name": "the Carrow Water",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     236,
+     291
+    ],
+    [
+     240,
+     305
+    ],
+    [
+     256,
+     330
+    ],
+    [
+     275,
+     358
+    ],
+    [
+     290,
+     385
+    ]
+   ],
+   "regions": [
+    "carrow",
+    "carrowfoot",
+    "wend-heads"
+   ]
+  },
+  {
+   "id": "wend",
+   "name": "the Wend",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     290,
+     385
+    ],
+    [
+     282,
+     420
+    ],
+    [
+     292,
+     455
+    ],
+    [
+     297,
+     500
+    ]
+   ],
+   "regions": [
+    "wend-heads",
+    "wendvale",
+    "corr-gorge"
+   ]
+  },
+  {
+   "id": "corr",
+   "name": "the Corr",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     297,
+     500
+    ],
+    [
+     300,
+     525
+    ],
+    [
+     318,
+     570
+    ],
+    [
+     338,
+     605
+    ],
+    [
+     332,
+     650
+    ]
+   ],
+   "regions": [
+    "corr-gorge",
+    "corrford",
+    "corr-plain"
+   ],
+   "notes": "The same water as the Wend above and the Sarn below."
+  },
+  {
+   "id": "sarn",
+   "name": "the Sarn",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     332,
+     650
+    ],
+    [
+     290,
+     690
+    ],
+    [
+     232,
+     724
+    ],
+    [
+     216,
+     745
+    ],
+    [
+     260,
+     775
+    ],
+    [
+     320,
+     800
+    ],
+    [
+     355,
+     830
+    ],
+    [
+     335,
+     870
+    ],
+    [
+     300,
+     887
+    ]
+   ],
+   "regions": [
+    "corr-plain",
+    "sarnvale",
+    "cuts",
+    "sarnmoss",
+    "sarnmouth"
+   ]
+  },
+  {
+   "id": "enn-upper",
+   "name": "the Stair Water",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     530,
+     190
+    ],
+    [
+     538,
+     230
+    ],
+    [
+     545,
+     270
+    ]
+   ],
+   "regions": [
+    "stair",
+    "upper-ennvale"
+   ]
+  },
+  {
+   "id": "enn",
+   "name": "the Enn",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     545,
+     270
+    ],
+    [
+     535,
+     310
+    ],
+    [
+     510,
+     350
+    ],
+    [
+     500,
+     395
+    ],
+    [
+     500,
+     424
+    ]
+   ],
+   "regions": [
+    "upper-ennvale",
+    "ennvale",
+    "norther-ennerwold"
+   ],
+   "notes": "Ends in Lake Enner over a fall at the north rim."
+  },
+  {
+   "id": "maund",
+   "name": "the Maund",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     545,
+     570
+    ],
+    [
+     520,
+     600
+    ],
+    [
+     500,
+     640
+    ],
+    [
+     500,
+     700
+    ],
+    [
+     497,
+     760
+    ],
+    [
+     500,
+     830
+    ],
+    [
+     503,
+     884
+    ]
+   ],
+   "regions": [
+    "gap-of-enner",
+    "maundhead",
+    "upper-plain",
+    "bankland",
+    "low-plain",
+    "maundsea"
+   ],
+   "notes": "Rises from warm springs under the south rim. No water is seen to leave the lake."
+  },
+  {
+   "id": "lave",
+   "name": "the Lave",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     668,
+     655
+    ],
+    [
+     700,
+     695
+    ],
+    [
+     735,
+     725
+    ],
+    [
+     765,
+     760
+    ],
+    [
+     800,
+     800
+    ],
+    [
+     806,
+     832
+    ]
+   ],
+   "regions": [
+    "lave-heads",
+    "lavedale",
+    "lavemouths"
+   ]
+  },
+  {
+   "id": "braid",
+   "name": "the Braid",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     790,
+     625
+    ],
+    [
+     840,
+     665
+    ],
+    [
+     880,
+     700
+    ],
+    [
+     872,
+     750
+    ],
+    [
+     865,
+     778
+    ]
+   ],
+   "regions": [
+    "braidvale",
+    "lavemouths"
+   ]
+  },
+  {
+   "id": "ishe",
+   "name": "the Ishe",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     882,
+     562
+    ],
+    [
+     925,
+     595
+    ],
+    [
+     960,
+     620
+    ],
+    [
+     1000,
+     660
+    ],
+    [
+     1024,
+     676
+    ]
+   ],
+   "regions": [
+    "norther-folds",
+    "folds",
+    "ishe-reach"
+   ]
+  },
+  {
+   "id": "tarrow",
+   "name": "the Tarrow",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     1024,
+     318
+    ],
+    [
+     985,
+     326
+    ],
+    [
+     938,
+     346
+    ]
+   ],
+   "regions": [
+    "easter-edge",
+    "sere-grass"
+   ],
+   "notes": "Runs west into Lake Sere."
+  },
+  {
+   "id": "skarn",
+   "name": "the Skarn",
+   "type": "mountain",
+   "shape": "line",
+   "coords": [
+    [
+     40,
+     90
+    ],
+    [
+     250,
+     75
+    ],
+    [
+     490,
+     52
+    ],
+    [
+     700,
+     85
+    ],
+    [
+     960,
+     90
+    ]
+   ],
+   "regions": [
+    "skarn-west",
+    "skarn-sallow",
+    "skarn-high",
+    "skarn-east",
+    "skarn-far"
+   ]
+  },
+  {
+   "id": "vorn-peak",
+   "name": "Vorn",
+   "type": "mountain",
+   "shape": "area",
+   "coords": [
+    [
+     782,
+     112
+    ],
+    [
+     812,
+     48
+    ],
+    [
+     846,
+     112
+    ]
+   ],
+   "regions": [
+    "vorn"
+   ],
+   "notes": "Dry: no spring, no stream, no snow-melt runnel on it."
+  },
+  {
+   "id": "harrow",
+   "name": "Harrow Fell",
+   "type": "mountain",
+   "shape": "area",
+   "coords": [
+    [
+     365,
+     275
+    ],
+    [
+     400,
+     235
+    ],
+    [
+     440,
+     272
+    ]
+   ],
+   "regions": [
+    "harrow-fell"
+   ]
+  },
+  {
+   "id": "barrow",
+   "name": "Barrow Down",
+   "type": "mountain",
+   "shape": "area",
+   "coords": [
+    [
+     562,
+     752
+    ],
+    [
+     590,
+     718
+    ],
+    [
+     620,
+     752
+    ]
+   ],
+   "regions": [
+    "barrow-down"
+   ]
+  },
+  {
+   "id": "howe",
+   "name": "the Howe",
+   "type": "mountain",
+   "shape": "area",
+   "coords": [
+    [
+     496,
+     743
+    ],
+    [
+     499,
+     740
+    ],
+    [
+     502,
+     743
+    ]
+   ],
+   "regions": [
+    "bankland"
+   ],
+   "notes": "A low grassed hill, 150 feet. Too small for the paint. A barrow of the Old Maund kings."
+  },
+  {
+   "id": "ennerwold",
+   "name": "the Ennerwold",
+   "type": "mountain",
+   "shape": "line",
+   "coords": [
+    [
+     380,
+     470
+    ],
+    [
+     450,
+     395
+    ],
+    [
+     600,
+     340
+    ],
+    [
+     700,
+     440
+    ],
+    [
+     700,
+     530
+    ],
+    [
+     640,
+     590
+    ],
+    [
+     430,
+     590
+    ],
+    [
+     370,
+     520
+    ]
+   ],
+   "regions": [
+    "wester-ennerwold",
+    "norther-ennerwold",
+    "easter-ennerwold",
+    "lave-rim",
+    "sarn-rim"
+   ]
+  },
+  {
+   "id": "the-folds",
+   "name": "the Folds",
+   "type": "mountain",
+   "shape": "area",
+   "coords": [
+    [
+     870,
+     540
+    ],
+    [
+     960,
+     545
+    ],
+    [
+     1000,
+     700
+    ],
+    [
+     900,
+     660
+    ]
+   ],
+   "regions": [
+    "norther-folds",
+    "folds",
+    "souther-folds"
+   ]
+  },
+  {
+   "id": "rust",
+   "name": "the Rust Hills",
+   "type": "mountain",
+   "shape": "area",
+   "coords": [
+    [
+     10,
+     490
+    ],
+    [
+     320,
+     490
+    ],
+    [
+     330,
+     640
+    ],
+    [
+     240,
+     690
+    ],
+    [
+     10,
+     700
+    ]
+   ],
+   "regions": [
+    "rust-hills",
+    "wester-breaks",
+    "low-breaks"
+   ]
+  },
+  {
+   "id": "dimmet",
+   "name": "the Dimmet",
+   "type": "forest",
+   "shape": "area",
+   "coords": [
+    [
+     610,
+     135
+    ],
+    [
+     1024,
+     135
+    ],
+    [
+     1024,
+     330
+    ],
+    [
+     900,
+     335
+    ],
+    [
+     780,
+     300
+    ],
+    [
+     640,
+     310
+    ]
+   ],
+   "regions": [
+    "skarnwood",
+    "deep-dimmet",
+    "easter-dimmet",
+    "hallwood",
+    "wester-dimmet",
+    "edge",
+    "wester-edge",
+    "easter-edge"
+   ]
+  },
+  {
+   "id": "holt-wood",
+   "name": "the Holt",
+   "type": "forest",
+   "shape": "area",
+   "coords": [
+    [
+     0,
+     390
+    ],
+    [
+     240,
+     390
+    ],
+    [
+     250,
+     490
+    ],
+    [
+     0,
+     490
+    ]
+   ],
+   "regions": [
+    "holt",
+    "wester-holt"
+   ]
+  },
+  {
+   "id": "westwild-wood",
+   "name": "the Westwild",
+   "type": "forest",
+   "shape": "area",
+   "coords": [
+    [
+     345,
+     690
+    ],
+    [
+     400,
+     690
+    ],
+    [
+     410,
+     860
+    ],
+    [
+     350,
+     860
+    ]
+   ],
+   "regions": [
+    "westwild",
+    "scrub-coast"
+   ]
+  },
+  {
+   "id": "sarnmoss-marsh",
+   "name": "the Sarnmoss",
+   "type": "marsh",
+   "shape": "area",
+   "coords": [
+    [
+     175,
+     765
+    ],
+    [
+     260,
+     760
+    ],
+    [
+     340,
+     800
+    ],
+    [
+     330,
+     870
+    ],
+    [
+     180,
+     870
+    ]
+   ],
+   "regions": [
+    "cuts",
+    "sarnmoss",
+    "sarnmouth"
+   ]
+  },
+  {
+   "id": "lavemouths-marsh",
+   "name": "the Lavemouths",
+   "type": "marsh",
+   "shape": "area",
+   "coords": [
+    [
+     780,
+     790
+    ],
+    [
+     880,
+     755
+    ],
+    [
+     900,
+     772
+    ],
+    [
+     850,
+     812
+    ],
+    [
+     790,
+     835
+    ]
+   ],
+   "regions": [
+    "lavemouths"
+   ]
+  },
+  {
+   "id": "carrow-pass",
+   "name": "the Carrow Pass",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     247,
+     282
+    ]
+   ],
+   "regions": [
+    "pass-tops"
+   ],
+   "notes": "Shut by snow from the eleventh month to the fourth. Sallow side beyond."
+  },
+  {
+   "id": "high-stair",
+   "name": "the High Stair",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     522,
+     160
+    ]
+   ],
+   "regions": [
+    "stair-heights"
+   ],
+   "notes": "Leads north over the Skarn and off the sheet. Open ten weeks a year."
+  },
+  {
+   "id": "the-gap",
+   "name": "the Gap of Enner",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     543,
+     573
+    ]
+   ],
+   "regions": [
+    "gap-of-enner"
+   ]
+  },
+  {
+   "id": "upper-hamlet",
+   "name": "the Upper Hamlet",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     237,
+     293
+    ]
+   ],
+   "regions": [
+    "carrow"
+   ],
+   "notes": "Nine houses. The stone-wife lives here. The Carrowfolk call it Tophouses."
+  },
+  {
+   "id": "stonefold",
+   "name": "Stonefold",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     238,
+     299
+    ]
+   ],
+   "regions": [
+    "carrow"
+   ]
+  },
+  {
+   "id": "birch-end",
+   "name": "Birch End",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     241,
+     305
+    ]
+   ],
+   "regions": [
+    "carrow"
+   ]
+  },
+  {
+   "id": "flockmeet",
+   "name": "Flockmeet",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     242,
+     308
+    ]
+   ],
+   "regions": [
+    "carrow"
+   ],
+   "notes": "The lowest and largest hamlet, about 160 people. The autumn gathering is held on its green."
+  },
+  {
+   "id": "brinehall",
+   "name": "Brinehall",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     292,
+     242
+    ]
+   ],
+   "regions": [
+    "sallow"
+   ],
+   "notes": "The Sallowmen's town on the north shore of the Brine Mere."
+  },
+  {
+   "id": "topsteading",
+   "name": "Topsteading",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     531,
+     196
+    ]
+   ],
+   "regions": [
+    "stair"
+   ]
+  },
+  {
+   "id": "middle-stair",
+   "name": "Middle Stair",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     535,
+     207
+    ]
+   ],
+   "regions": [
+    "stair"
+   ],
+   "notes": "The winter-count stone stands here."
+  },
+  {
+   "id": "low-stair",
+   "name": "Low Stair",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     538,
+     219
+    ]
+   ],
+   "regions": [
+    "stair"
+   ]
+  },
+  {
+   "id": "corrford-town",
+   "name": "Corrford",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     300,
+     518
+    ]
+   ],
+   "regions": [
+    "corrford"
+   ]
+  },
+  {
+   "id": "eelholm",
+   "name": "Eelholm",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     232,
+     749
+    ]
+   ],
+   "regions": [
+    "cuts"
+   ],
+   "notes": "The Long Roof."
+  },
+  {
+   "id": "sarnmouth-town",
+   "name": "Sarnmouth",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     303,
+     881
+    ]
+   ],
+   "regions": [
+    "sarnmouth"
+   ],
+   "notes": "Chief of the Three Havens."
+  },
+  {
+   "id": "murkhaven",
+   "name": "Murkhaven",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     152,
+     838
+    ]
+   ],
+   "regions": [
+    "murk-strand"
+   ]
+  },
+  {
+   "id": "westhaven",
+   "name": "Westhaven",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     70,
+     736
+    ]
+   ],
+   "regions": [
+    "murk-shore"
+   ]
+  },
+  {
+   "id": "stonesteading",
+   "name": "Stonesteading",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     494,
+     752
+    ]
+   ],
+   "regions": [
+    "bankland"
+   ]
+  },
+  {
+   "id": "reedditch",
+   "name": "Reedditch",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     490,
+     739
+    ]
+   ],
+   "regions": [
+    "bankland"
+   ]
+  },
+  {
+   "id": "maundsea-city",
+   "name": "Maundsea",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     504,
+     877
+    ]
+   ],
+   "regions": [
+    "maundsea"
+   ]
+  },
+  {
+   "id": "postlanding",
+   "name": "Postlanding",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     941,
+     613
+    ]
+   ],
+   "regions": [
+    "folds"
+   ],
+   "notes": "The flood post and the meeting house."
+  },
+  {
+   "id": "thornfold",
+   "name": "Thornfold",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     930,
+     624
+    ]
+   ],
+   "regions": [
+    "folds"
+   ]
+  },
+  {
+   "id": "piers",
+   "name": "Piers",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     746,
+     738
+    ]
+   ],
+   "regions": [
+    "lavedale"
+   ],
+   "notes": "The old bridge."
+  },
+  {
+   "id": "sallowbeck",
+   "name": "Sallowbeck",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     737,
+     724
+    ]
+   ],
+   "regions": [
+    "lavedale"
+   ]
+  },
+  {
+   "id": "whitepans",
+   "name": "Whitepans",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     948,
+     761
+    ]
+   ],
+   "regions": [
+    "pans-coast"
+   ],
+   "notes": "Free salt town."
+  },
+  {
+   "id": "antlerhall",
+   "name": "Antlerhall",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     802,
+     301
+    ]
+   ],
+   "regions": [
+    "edge"
+   ]
+  },
+  {
+   "id": "serewell",
+   "name": "Serewell",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     842,
+     373
+    ]
+   ],
+   "regions": [
+    "sere-grass"
+   ],
+   "notes": "The Tarsk wintering ground and salt market. Tents and a few timber stores."
+  },
+  {
+   "id": "ennerhold",
+   "name": "Ennerhold",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     541,
+     576
+    ]
+   ],
+   "regions": [
+    "gap-of-enner"
+   ],
+   "notes": "The city of Ennermere, in the Gap."
+  },
+  {
+   "id": "fallwater",
+   "name": "Fallwater",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     497,
+     414
+    ]
+   ],
+   "regions": [
+    "norther-ennerwold"
+   ],
+   "notes": "Where the Enn falls to the lake."
+  },
+  {
+   "id": "hithe",
+   "name": "Hithe-under-Hill",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     668,
+     500
+    ]
+   ],
+   "regions": [
+    "easter-ennerwold"
+   ],
+   "notes": "East shore."
+  },
+  {
+   "id": "old-men",
+   "name": "the Old Men",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     248,
+     280
+    ]
+   ],
+   "regions": [
+    "pass-tops"
+   ],
+   "notes": "Three slab cairns on the Carrow Pass, each of slabs no valley team could move. High Road markers. About 6,000 years old."
+  },
+  {
+   "id": "walled-fold",
+   "name": "the Walled Fold",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     234,
+     290
+    ]
+   ],
+   "regions": [
+    "carrow"
+   ],
+   "notes": "A sheepfold with its gate walled shut, above the Upper Hamlet. The Hollin dead of the sickness winter lie in it under turf."
+  },
+  {
+   "id": "shut-house",
+   "name": "the Shut House",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     196,
+     296
+    ]
+   ],
+   "regions": [
+    "windlow"
+   ],
+   "notes": "A sealed door in an outcrop on Windlow Moor, on the High Road. An Abider lives behind it."
+  },
+  {
+   "id": "hask-steadings",
+   "name": "the Hask steadings",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     584,
+     194
+    ]
+   ],
+   "regions": [
+    "hask"
+   ],
+   "notes": "Four dead steadings and a burial ground of 212."
+  },
+  {
+   "id": "sighting-stones",
+   "name": "the Sighting Stones",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     602,
+     333
+    ]
+   ],
+   "regions": [
+    "norther-ennerwold"
+   ],
+   "notes": "Two pairs of stones a thousand years apart in age, each pair once framing the star."
+  },
+  {
+   "id": "leaf-halls",
+   "name": "the Leaf Halls",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     586,
+     346
+    ]
+   ],
+   "regions": [
+    "norther-ennerwold"
+   ],
+   "notes": "Buried halls with carved walls, leaf and trunk. The way in is a shaft in a sheepwalk."
+  },
+  {
+   "id": "soft-house",
+   "name": "the Soft House",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     612,
+     548
+    ]
+   ],
+   "regions": [
+    "lave-rim"
+   ],
+   "notes": "The temple of Enna, the god that went up. Its stones have gone soft at the edges."
+  },
+  {
+   "id": "ringing-stair",
+   "name": "the Ringing Stair",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     452,
+     566
+    ]
+   ],
+   "regions": [
+    "sarn-rim"
+   ],
+   "notes": "A well-shaft and stair through four layers of ruin to the Glass."
+  },
+  {
+   "id": "sworn-door",
+   "name": "the Sworn Door",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     643,
+     592
+    ]
+   ],
+   "regions": [
+    "lave-rim"
+   ],
+   "notes": "A door in the rock facing away from the lake, an oath cut round its frame in Abider script."
+  },
+  {
+   "id": "law-stones",
+   "name": "the Law Stones",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     320,
+     576
+    ]
+   ],
+   "regions": [
+    "corr-plain"
+   ],
+   "notes": "A field of fallen law stelae of the Corr kingdoms and a store of clay tablets no one can read."
+  },
+  {
+   "id": "old-bins",
+   "name": "the Old Bins",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     496,
+     759
+    ]
+   ],
+   "regions": [
+    "bankland"
+   ],
+   "notes": "Footings and one corner of an Old Maund granary. Barley grows inside."
+  },
+  {
+   "id": "three-bins",
+   "name": "the Three Bins",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     638,
+     797
+    ]
+   ],
+   "regions": [
+    "easter-plain"
+   ],
+   "notes": "Three Old Maund granaries still roofed, sealed and empty."
+  },
+  {
+   "id": "dry-loft",
+   "name": "the Dry Loft",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     684,
+     648
+    ]
+   ],
+   "regions": [
+    "lave-heads"
+   ],
+   "notes": "A sealed hill store of Old Maund. Jars of seed barley, still alive."
+  },
+  {
+   "id": "the-ribs",
+   "name": "the Ribs",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     254,
+     701
+    ]
+   ],
+   "regions": [
+    "sarnvale"
+   ],
+   "notes": "Seven long grassed ridges side by side that farmers plough around. Bones."
+  },
+  {
+   "id": "drowned-road",
+   "name": "the Drowned Road",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     218,
+     760
+    ]
+   ],
+   "regions": [
+    "cuts"
+   ],
+   "notes": "Squared stones running into the water toward the south-west."
+  },
+  {
+   "id": "singing-door",
+   "name": "the Singing Door",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     192,
+     812
+    ]
+   ],
+   "regions": [
+    "sarnmoss"
+   ],
+   "notes": "Under four feet of water at low summer level. A door that opens to a sung phrase."
+  },
+  {
+   "id": "debt-door",
+   "name": "the Debt Door",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     906,
+     549
+    ]
+   ],
+   "regions": [
+    "norther-folds"
+   ],
+   "notes": "A sealed door in a hillside, shut 380 years ago to keep a pledge."
+  },
+  {
+   "id": "highbank",
+   "name": "Highbank",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     933,
+     601
+    ]
+   ],
+   "regions": [
+    "folds"
+   ],
+   "notes": "Green banks of an older town on a hilltop."
+  },
+  {
+   "id": "edge-mounds",
+   "name": "the Edge Mounds",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     813,
+     321
+    ]
+   ],
+   "regions": [
+    "edge"
+   ],
+   "notes": "A line of nine grassed mounds."
+  },
+  {
+   "id": "king-mounds",
+   "name": "the King Mounds",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     902,
+     468
+    ]
+   ],
+   "regions": [
+    "high-grass"
+   ],
+   "notes": "Forty mounds of the mound-builders."
+  },
+  {
+   "id": "door-of-vorn",
+   "name": "the Door of Vorn",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     808,
+     104
+    ]
+   ],
+   "regions": [
+    "vorn"
+   ],
+   "notes": "The Abiders' door. It is not sealed. It is not easy to see."
+  },
+  {
+   "id": "marrowden",
+   "name": "Marrowden",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     702,
+     236
+    ]
+   ],
+   "regions": [
+    "wester-dimmet"
+   ],
+   "notes": "Lair of the old bear the Edgefolk call the Marrow-Eater."
+  }
+ ],
+ "layers": [
+  {
+   "id": "under-1",
+   "name": "the Low Ways",
+   "depth": 1,
+   "painting": "under-1.png",
+   "features": [
+    {
+     "id": "vorn-halls",
+     "name": "the Halls of Vorn",
+     "type": "cave",
+     "shape": "line",
+     "coords": [
+      [
+       808,
+       104
+      ],
+      [
+       812,
+       85
+      ],
+      [
+       820,
+       70
+      ]
+     ],
+     "regions": [
+      "vorn"
+     ],
+     "notes": "About 600 Abiders. The Count is cut on the walls of the lowest hall."
+    },
+    {
+     "id": "shut-hall",
+     "name": "the hall behind the Shut House",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       196,
+       296
+      ]
+     ],
+     "regions": [
+      "windlow"
+     ],
+     "notes": "One Abider, Ninth-of-the-Door."
+    },
+    {
+     "id": "sunk-hall",
+     "name": "the Sunk Hall",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       192,
+       812
+      ]
+     ],
+     "regions": [
+      "sarnmoss"
+     ],
+     "notes": "Flooded to the knee. Empty since the drowning of Halmer."
+    },
+    {
+     "id": "debt-hall",
+     "name": "the hall behind the Debt Door",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       906,
+       549
+      ]
+     ],
+     "regions": [
+      "norther-folds"
+     ],
+     "notes": "Holds the pledge of the Vane and Orrel houses: a bronze cauldron of split tallies."
+    },
+    {
+     "id": "leaf-hall-ways",
+     "name": "the Leaf Halls",
+     "type": "cave",
+     "shape": "line",
+     "coords": [
+      [
+       586,
+       346
+      ],
+      [
+       594,
+       340
+      ],
+      [
+       602,
+       335
+      ]
+     ],
+     "regions": [
+      "norther-ennerwold"
+     ],
+     "notes": "Five halls in a line. High Ennermere's, 900 years old. Anyone who spends a night inside comes out missing one small particular thing."
+    },
+    {
+     "id": "sworn-hall",
+     "name": "the hall behind the Sworn Door",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       643,
+       592
+      ]
+     ],
+     "regions": [
+      "lave-rim"
+     ],
+     "notes": "Empty. A stone bench facing the wall away from the lake."
+    },
+    {
+     "id": "dry-loft-store",
+     "name": "the Dry Loft",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       684,
+       648
+      ]
+     ],
+     "regions": [
+      "lave-heads"
+     ],
+     "notes": "Forty sealed jars; nine hold live seed."
+    }
+   ]
+  },
+  {
+   "id": "under-2",
+   "name": "the Glass",
+   "depth": 2,
+   "painting": "under-2.png",
+   "features": [
+    {
+     "id": "the-glass",
+     "name": "the Glass",
+     "type": "cave",
+     "shape": "area",
+     "coords": [
+      [
+       400,
+       440
+      ],
+      [
+       527,
+       410
+      ],
+      [
+       660,
+       440
+      ],
+      [
+       670,
+       540
+      ],
+      [
+       527,
+       575
+      ],
+      [
+       395,
+       545
+      ]
+     ],
+     "regions": [
+      "lake-enner",
+      "sarn-rim",
+      "wester-ennerwold",
+      "norther-ennerwold",
+      "easter-ennerwold",
+      "lave-rim",
+      "gap-of-enner"
+     ],
+     "notes": "Blue-grey glass that rings when struck, under everything in the bowl. Reached only by the Ringing Stair."
+    },
+    {
+     "id": "ringing-stair-foot",
+     "name": "the foot of the Ringing Stair",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       452,
+       566
+      ]
+     ],
+     "regions": [
+      "sarn-rim"
+     ]
+    }
+   ]
+  }
+ ],
+ "landings": {
+  "player": {
+   "point": [
+    236,
+    291
+   ],
+   "region": "carrow",
+   "season": "late autumn"
+  },
+  "g1-stone": {
+   "point": [
+    512,
+    158
+   ],
+   "region": "stair-heights",
+   "season": "spring"
+  },
+  "g2-law": {
+   "point": [
+    298,
+    522
+   ],
+   "region": "corrford",
+   "season": "spring"
+  },
+  "g3-song": {
+   "point": [
+    230,
+    746
+   ],
+   "region": "cuts",
+   "season": "autumn"
+  },
+  "g4-harvest": {
+   "point": [
+    493,
+    750
+   ],
+   "region": "bankland",
+   "season": "autumn"
+  },
+  "g5-fate": {
+   "point": [
+    940,
+    611
+   ],
+   "region": "folds",
+   "season": "autumn"
+  },
+  "g6-dreams": {
+   "point": [
+    745,
+    737
+   ],
+   "region": "lavedale",
+   "season": "autumn"
+  },
+  "g7-beasts": {
+   "point": [
+    800,
+    304
+   ],
+   "region": "edge",
+   "season": "autumn"
+  }
+ }
+}
