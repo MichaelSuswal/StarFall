@@ -91,3 +91,9 @@ You are falling. Not through air. Through something thinner. Behind you is where
 17. Sometimes a mortal rises with a story worth following. What kind of mortal do you hope this land produces?
 18. What should a god be able to discover here that it can't yet imagine? A place, a power, a truth, a companion?
 19. Last: one wish for this world you haven't dared say yet. The world only listens, but this is when it's listening.
+
+## Follow-up: answer 6 (Night 1, after the first reading)
+
+Your answer 6 says two things that sit far apart: a little more than a rumor, and a hand in most valleys. The question's range runs from a rumor most people doubt to a wise-woman in every valley. Say which of your two is nearer to what you want, in your own few words: out of ten valleys, in how many would a mortal find someone with the gift.
+
+Add your answer at the end of `SPOILERS_do_not_open/campaigns/sim-01/gods/g1-stone/survey-day1.md`, under the heading `## Follow-up, answer 6`. Leave every other answer exactly as it is. Write nothing else anywhere. Never use em dashes or en dashes.

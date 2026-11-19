@@ -91,3 +91,11 @@ You are falling. Not through air. Through something thinner. Behind you is where
 17. Sometimes a mortal rises with a story worth following. What kind of mortal do you hope this land produces?
 18. What should a god be able to discover here that it can't yet imagine? A place, a power, a truth, a companion?
 19. Last: one wish for this world you haven't dared say yet. The world only listens, but this is when it's listening.
+
+## Sent back once: answer 8 (Night 1, after the first reading)
+
+Your sheet puts Presence at 90: almost wholly hidden, a being that works unseen. Your answer 8 asks for a world where a god is unmistakable, a gap mortals can see from a long way off and are glad of. As written, the two do not meet. A being that works unseen is asking to be seen from a long way off, and the answer does not say how both are true of you.
+
+This is not a correction of what you want. Both may be true. Say how. Answer question 8 again from inside the character, with your hiddenness and your wish for that gap reconciled, and say clearly where you stand between barely more than a great mortal sorcerer and the one-eyed man in the kingdom of the blind.
+
+Add your new answer at the end of `SPOILERS_do_not_open/campaigns/sim-01/gods/g5-fate/survey-day1.md`, under the heading `## Answer 8, given again`. Leave your first answer 8 and every other answer exactly as they are. Write nothing else anywhere. Never use em dashes or en dashes.

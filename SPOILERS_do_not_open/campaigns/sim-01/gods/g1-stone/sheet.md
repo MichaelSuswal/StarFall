@@ -61,4 +61,4 @@ speaks in very few words. Roll r-0017.
 
 ## Season it wakes into
 
-(Recorded from the god's own answer to survey question 3.)
+Spring. Recorded by the Keeper on Night 1 from the god's own answer to survey question 3.

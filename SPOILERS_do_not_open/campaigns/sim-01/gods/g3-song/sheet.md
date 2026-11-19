@@ -61,4 +61,4 @@ speaks in proverbs and old sayings. Roll r-0051.
 
 ## Season it wakes into
 
-(Recorded from the god's own answer to survey question 3.)
+Autumn. Recorded by the Keeper on Night 1 from the god's own answer to survey question 3.
