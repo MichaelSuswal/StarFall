@@ -68,3 +68,17 @@ So the line can run ahead of you, about three cairns a year at most, each one co
 Two questions on the cairns. The valley already raises them, and none of those were raised for you. I propose an old cairn becomes an honest cairn of yours when someone adds a stone and means it for you, by whatever they call you, or when you lay your own hand on it. Is that right? And should raising and keeping them be a thing every one of your people does, or left to whoever chooses? A custom spreads Not lost fastest. It also means more hands that can move a cairn wrong.
 
 Last: you asked the world for magic that is rare, a knack. Is there anyone in this valley who has it?
+
+## Player:
+
+"Accepted. The price is fair, and I'll take it as written: three stones out at most, a year for a new one to come into the light, toppled by ropes while any are out, half speed gathering. I'll be careful about who gets one. A dozen walkers is a calling, and three stones is a trust. I'd give a stone only to someone who has walked a season at my side and shown they can keep a true word. The no-lying clause on the walker stays, and I accept that one false marker costs me every cairn they built.
+
+Your cairn question: yes, that's right. An old cairn becomes an honest cairn of mine when someone adds a stone and means it for me, by any name, or when I lay my hand on it. Meaning it is what counts. Nobody gets it by accident.
+
+Raising them: left to whoever chooses. Adding a stone is already the habit, and I'd leave it that. Keeping a cairn, which means checking it, rebuilding it after a storm, and never moving it or letting it lie, I'd leave to the tally-walkers and to anyone who wants the job. I don't want a custom where everyone feels obliged and nobody feels it. More hands means more chance of a cairn moved wrong, and a wrong cairn with my weight on it kills people. I'd rather have fewer cairns that are kept than many that aren't.
+
+Someone to listen: yes, one or two who choose it. Not a servant, and not an advisor. Someone who sits quiet by me on the long evenings, and who may hear nothing for weeks, and may come to carry what I say to the others when they've heard it. They can leave whenever they like. I'd let them find me. I won't ask.
+
+How long in the valley, by their own telling: about ten generations, they say. They came up the valley from the lower country, or over the pass from the far side, and different hamlets tell it differently, and the disagreement doesn't trouble them. What they agree on is that the valley was already kept when they got here. The walls and the folds were standing. Somebody had been grazing it. They don't say who, and they don't say what became of them. Their word for those people is something like "the ones before" and they stop talking when it comes up. I'd like that to be true of them, and I'd like you to decide what it covers.
+
+Magic: yes, one. An old woman in the upper hamlet, past seventy, who the others call a stone-wife because she's said to know when a cairn has been moved, even if she's never seen it. She's mostly right, and she can't explain it. I'd leave the price to you, and I'd like it small and human, something that costs her in her ordinary days. She doesn't know about me yet. I'd like her to be the first to come and sit by the cairn at the valley head, and say nothing, and listen."
