@@ -69,3 +69,17 @@ On the cost, I am going to turn your offer rather than take it as given. The old
 That keeps your idea, the slow loss of a road, one stone at a time, not chosen. It moves it to a road you will have built and would miss.
 
 Two more things when you answer. If honesty is a thing you are and not only a thing you prefer, so that you cannot say a false word or set a false marker, that is a real weakness here, and it can buy you something. Tell me what you would want it to buy. And you lost your name on the way down. What do people call a thing like you when they do not know its name?
+
+## Player:
+
+"Pass for something smaller. I'd sit across the fire as a cairn, or as a stone-faced old drover who doesn't talk much, for as long as it holds. Another god will know me the moment we're near, and I can't help that, but nobody else needs to. I don't want mortals deciding what I am before I've had a chance to be useful to them. I won't lie about it if asked straight, though. I'd go quiet instead.
+
+Honesty is a thing I am, not a thing I prefer. I can't say a false word and I can't set a false marker. I could stay silent, or say something true that doesn't answer the question, or let someone draw their own wrong conclusion from a true word, but I can't say what I know to be false. I'll take that as a real weakness.
+
+What I'd want it to buy: a word of mine counts. When I speak through a hand-laid cairn, anyone who hears it knows without proof that I wouldn't say it unless it were so, and they can act on it in the snow without arguing. And when I swear something to another god, it binds me the way a debt binds, with force I can't talk my way out of. I'd like other gods to know that about me, because I think it makes me worth bargaining with, and a witness worth having. I'm not asking for a power over minds. I'm asking to be believed, and I accept that the same trait could be used against me.
+
+On your pricing, I'll take it. Two grades of cairn is right, and I like that the line has to be walked. Hand-laid stones for the sense and voice, any honest cairn for the not-being-lost. The sense drawback is fair, and being only a cairn while I listen far away is a real risk, so I'll be careful where I leave my body. The voice price is better than mine, because I'll miss a stone I built, and I couldn't miss one I never knew. I won't argue it.
+
+On the stone body: if I fall from a height or am pulled apart, I break into slabs and the light goes out of the seams. I don't die. The pieces want each other. If they lie within a few hundred paces I'd expect to gather in about a day, and the further apart they are, the slower it is, up to a season if they're scattered across a slope. A slab that's carried off is a piece I'm missing. I'd be smaller and a little less sure of myself until I got it back, or found another stone to take its place.
+
+As for a name, people who don't know it would call me whatever they've got. Herdsmen would say Old Cairn or the Grey Heap. Children would say the Stacked Man. Traders would say something shorter, probably Mark. Any of those is fine with me, and I'd like to hear which one sticks."
