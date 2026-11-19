@@ -82,3 +82,45 @@ Someone to listen: yes, one or two who choose it. Not a servant, and not an advi
 How long in the valley, by their own telling: about ten generations, they say. They came up the valley from the lower country, or over the pass from the far side, and different hamlets tell it differently, and the disagreement doesn't trouble them. What they agree on is that the valley was already kept when they got here. The walls and the folds were standing. Somebody had been grazing it. They don't say who, and they don't say what became of them. Their word for those people is something like "the ones before" and they stop talking when it comes up. I'd like that to be true of them, and I'd like you to decide what it covers.
 
 Magic: yes, one. An old woman in the upper hamlet, past seventy, who the others call a stone-wife because she's said to know when a cairn has been moved, even if she's never seen it. She's mostly right, and she can't explain it. I'd leave the price to you, and I'd like it small and human, something that costs her in her ordinary days. She doesn't know about me yet. I'd like her to be the first to come and sit by the cairn at the valley head, and say nothing, and listen."
+
+## DM:
+
+"The ones before. They stop talking when it comes up. I can give you that they say it and that they stop. What it covers is the world's, and it is not telling me either."
+
+(oog) The stone-wife, then the read-back.
+
+She exists as you described her: past seventy, in the upper hamlet, said to know when a cairn has been moved. I am pricing her, because someone who can tell a moved cairn is the one thing that answers the drawback on Not lost. Her knack: she knows only of cairns she has herself added a stone to. She knows that one of them is wrong, and roughly which way it lies, and she is mostly right, not always. Her price is that she has lost her own way. It came on slowly over the years. She can no longer keep a path beyond the walls of her own hamlet, and she has not left it alone in a long time. So she can say a cairn is wrong, and someone else must go and find it. This is my ruling on her, made to fit what you asked the world for, and it stands unless the world's own rule for mortal magic, which is settled tonight, says the knack works differently.
+
+What she does is hers. She is the kind of person who might climb to the valley head and sit by a new cairn and say nothing. I cannot promise you she will be the first. The same goes for your listeners: they will be people who find you or do not.
+
+Here are your people in plain words. Say yes, or tell me what to change.
+
+**Who they are.** Human. A herding people of about 1,200, scattered through one long valley in a dozen or so hamlets and summer shielings. No town, no lord, no granary, no wall. They are still deciding what they are.
+
+**How they live.** Sheep and a small hardy cattle. Up to the high pastures in summer, back down in autumn. Oats and barley on the valley floor where the birch gives way. In the short summer some of them, mostly the young and restless, cross the pass to trade wool and cheese for salt, iron and whatever else can be had. Salt is what ties the valley to the world beyond it. What lies over the pass is not settled here.
+
+**Their code.** They count: sheep, days, stones, favors. Debt is the glue of the valley, and everyone knows exactly who owes whom, down to a quarter of a cheese. They never leave a body unburied on the hill. They never turn a stranger out onto the tops after dark in winter. Those two are older than anything else they believe, and breaking either is the worst thing a person here can do.
+
+**Skills.** Herding, drystone work, wool and cheese, hill-walking, and exact reckoning of debts. Nothing here is priced.
+
+**What they believe.** Not much about gods, and not loudly. They have always raised cairns at the passes and on the hill tracks, a stone added by every traveler, for luck and for the dead who are still walking. They have no name for what the cairns are for.
+
+**What they remember.** About ten generations in the valley. Some hamlets say they came up from the lower country, some say over the pass from the far side, and the disagreement does not trouble them. They agree that the valley was already kept when they came: walls and folds standing, the ground grazed. They call those people something like "the ones before" and stop talking when it comes up. This is recorded as what they say. What is true is the world's.
+
+**How the god meets them.** They were here first, with their own history. The Cairn comes down in the night at the valley head, settles and stays still. It is found in the morning and left to be watched and tested. It does not walk down in the first week.
+
+**Hierarchy.** Refused. No advisors and no one who carries out the god's wishes. Anyone who helps chooses it and keeps choosing it, and may leave. One or two listeners may come to sit by it and may carry what they hear. It will not ask them.
+
+**Cairns.** An existing cairn becomes an honest cairn of the god's when someone adds a stone and means it for the god, by any name, or when the god lays its hand on it. No one gets it by accident. Raising and adding is left to whoever chooses. Keeping a cairn, which is checking it, rebuilding it after a storm and never moving it, is left to the tally-walkers and anyone who wants the work. There is no duty.
+
+**Edge 1, priced: the tally-walkers.** A calling of a dozen or so who walk the passes and keep the line. They choose themselves and the god says yes or no. A walker cannot hand-lay a cairn, but can carry a stone from the god's own body, and where a walker builds it into an honest cairn that cairn is hand-laid.
+Price: no more than three of the god's stones out at one time. A stone is made good by taking a new one into the body, which takes a full year to come into the light. While any stone is out, Staying put does not hold, so enough people with ropes can pull the god over, and if broken it gathers at half speed. A carried stone lost before it is built in is gone and still counts as out for its year. A walker is held to the god's honesty: if one says what they know to be false, or sets a false marker, while they carry the title, every stone-bearing cairn that walker built goes out of the god at once, unfelt, until it walks to each and sets its hand on it.
+Your own practice, recorded as conduct and not as a rule: a stone only to someone who has walked a season at your side and shown they can keep a true word.
+
+**Edge 2, priced: the stone-wife.** One person with the knack, as above. Price: she has lost her own way and cannot keep a path beyond her hamlet.
+
+**Weaknesses chosen.** About 1,200 where the game gives 5,000. No town. No hierarchy. These were counted toward the two edges.
+
+**Magic otherwise.** None in the valley but hers.
+
+Two things you have not said, and I will not fill in. Tell me in your answer, or I record them as unsaid and the people decide. What do they call themselves, or their valley? And with no lord, who settles it when two houses quarrel over a debt?
