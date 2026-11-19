@@ -124,3 +124,13 @@ Your own practice, recorded as conduct and not as a rule: a stone only to someon
 **Magic otherwise.** None in the valley but hers.
 
 Two things you have not said, and I will not fill in. Tell me in your answer, or I record them as unsaid and the people decide. What do they call themselves, or their valley? And with no lord, who settles it when two houses quarrel over a debt?
+
+## Player:
+
+Yes. That's my people, and the stone-wife's price is right. She can say a cairn is wrong and someone else has to go and find it. I like that she needs the walkers as much as they need her.
+
+The two I hadn't said:
+
+Their name for themselves is the Carrowfolk, and the valley is Carrow. Nobody can say what it means. It's just the word, and the hamlets pronounce it a little differently.
+
+When two houses quarrel over a debt, they hold a reckoning. It happens at the autumn gathering when the flocks come down, or any time within a day's walk of both houses if it can't wait. Each side names one person from a third hamlet they both trust, and the two of them count the debt aloud, item by item, in front of whoever turns up to listen. Nobody judges. The counting is the judgment. If the two counters disagree, they add a third, and the majority holds. Whoever loses pays in sheep, work or cheese, and anyone who refuses to be counted becomes someone nobody in the valley will owe or lend to again. It's slow and public, and it works because everyone's own debts are open to the same counting.
