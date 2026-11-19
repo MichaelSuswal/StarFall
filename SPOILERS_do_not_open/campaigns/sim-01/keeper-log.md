@@ -220,3 +220,41 @@ NPC gods with a gap of their own: g1-stone (answer 6). With g5-fate's send-back 
 ### Night 1 paused a second time
 
 Paused 2026-11-18 at about 23:14 Pacific, waiting on two answers: g5-fate (`## Answer 8, given again`) and g1-stone (`## Follow-up, answer 6`), each to be added at the end of the god's own `survey-day1.md`. Still to do when they return: place both answers, blend Q6 and Q8 with their rolls, fill the two PENDING lines in `S/world-draft.md`, run the neutrality self-check, and log that Night 1 closed. Night 1 is not closed.
+
+### Night 1 resumed a second time
+
+Resumed 2026-11-18 at 23:13 Pacific. Both gods answered, each adding one section to the end of its own survey file and changing nothing else.
+
+- g1-stone, follow-up on answer 6: three valleys in ten, a rumor in the rest. Its first answer 6 stays in the file and now reads against the follow-up; the follow-up is the answer, as the god chose the nearer of its two points. Placed at 3.
+- g5-fate, answer 8 given again: reconciled. Hidden is how it works and unmistakable is what it is; a gap of kind, not of display; no mortal able to point at it, none able to doubt it is there. It stands four parts in five toward the one-eyed man. The character check now holds. Placed at 8 (the first answer had been read as 9). One send-back used; none remains for this god.
+
+### 1.4 The blend, completed
+
+**Q6 mortal magic. Scale, 1 a rumor most doubt to 10 a wise-woman in every valley. Provisional until the star.**
+P 2 (rare but real, a rumor most doubt, a few valleys where everyone knows one). g1 3 (three valleys in ten). g2 6 (one valley in three, the other two unsure). g3 7 (nearer a wise woman in many valleys). g4 3 (low, a few valleys). g5 6 (past the rumor, toward the wise woman, rationed). g6 3 (nearer the rumor end, not at it). g7 7 (one in every few valleys, known by name).
+Sorted 2,3,3,3,6,6,7,7. Median 4.5. Half settled by r-0129 (roll 53, failure): 4. Variation r-0130 (roll 81): raise by one. Result 5.
+Built: a middle level, provisional. Across the whole world a mortal with the gift is found in something under half the valleys, known by name where she is, sought out and feared a little, doubted a few valleys off. Still an event, not a trade. Spread is uneven under one rule. On Night 3 the star's range is rolled (step 3.4); if 5 lies outside it, it clamps to the nearest end and the clamp is logged.
+
+**Q8 how much a god stands out. Scale, 1 barely more than a great sorcerer to 10 the one-eyed man among the blind.**
+P 7. g1 2. g2 8. g3 3. g4 6. g5 8 (answer given again). g6 3. g7 6.
+Sorted 2,3,3,6,6,7,8,8. Median 6. Variation r-0131 (roll 42): leave. Result 6.
+Built: a god is plainly more than any mortal and not beyond all answer. Mortals meeting one feel awe and wariness, not helplessness. A god can be wrong, and mortals can oppose a god and damage its work. The 6 shades the ceiling roll on Night 3 as the Keeper notes direct.
+
+Both PENDING lines in `S/world-draft.md` are filled. No line in the draft is open.
+
+Roll count for Night 1: r-0001 to r-0131. 121 for the seven gods (two of them rerolls with reasons), 10 for the blend (three half-median rolls, seven variation rolls; Q8 needed no half roll). Nothing rolled twice.
+
+### Neutrality self-check, Night 1
+
+Each place where the Keeper could have leaned, and what was done.
+- The player's voice. Counted once in every scale, pool and vote. The player lost on Q4 (asked for wild, the world came out more held than open), was softened on Q6 (asked for 2, the world is at 5 for now) and was kept only in part on Q15. None was adjusted.
+- Scale placements are the Keeper's reading of free prose, and several medians sat one step from changing. Each was placed before its roll and none was moved after a roll was seen.
+- g5-fate's first answer 8 was read as 9 and its second as 8. The median was 6 either way, so the send-back did not move the result.
+- g1-stone's follow-up moved the Q6 median from 5.5 (had the unclear answer been read as the midpoint of its two places) to 4.5. The follow-up was asked before any Q6 roll was made, and the god's own number was used.
+- The Q15 ruling is the one decision tonight that the files did not make for the Keeper. It keeps the vote as each god's ordinary experience and keeps the deep lore's pull as something to be found. It favors no god: the three who asked for a distance sense and the five who did not all land under the same rule. Marked for Michael.
+- The rules section added to the player's follow-up file tells the player only what the seven other gods will be told on Night 2, in the same substance.
+- No answer of any agent was rewritten. No candidate was placed. No wish was granted whole.
+
+### Night 1 closed
+
+Night 1 closed 2026-11-18 at about 23:16 Pacific (2026-11-19 07:16 UTC). All checkboxes of runbook sections 1.1 to 1.6 are done. Open for Night 2: the player's answers to the three follow-ups; the Q15 ruling awaiting Michael's eye; the magic level provisional until Night 3.

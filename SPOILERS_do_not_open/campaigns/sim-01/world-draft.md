@@ -4,7 +4,7 @@
 
 Built from eight surveys, one voice each. Every number and every choice is traced in `keeper-log.md`, Night 1, step 1.4, with its roll ids. Vote counts are in the log and nowhere else. The deep lore wins over everything here. Nothing in this file is placed: placement is Night 3.
 
-Two lines are still open tonight and are marked PENDING. They close when two gods answer what was put back to them.
+Night 1 closed with every line filled. The magic level stays provisional until the star is rolled on Night 3.
 
 ## Tone
 
@@ -18,7 +18,7 @@ Waking seasons are personal and are kept per god on each sheet. The player wakes
 
 ## Magic
 
-Level: PENDING (one god's follow-up on question 6). Provisional in any case until the star's range is rolled on Night 3; if the blend falls outside the range it clamps to the nearest end.
+Level: 5 on a scale where 1 is a rumor most people doubt and 10 is a wise-woman in every valley. Provisional until the star's range is rolled on Night 3; if 5 falls outside the range it clamps to the nearest end and the clamp is logged. At 5, taken across the whole world, a mortal with the gift is found in something under half of the valleys, known by name where she is, sought out and a little feared, and doubted by people who live a few valleys off.
 
 Spread: one rule, unevenly spread. Most people in most places doubt it; in some places everyone knows someone. The unevenness follows the deep lore, not any wish.
 
@@ -43,7 +43,7 @@ Bodies. One body. A default, since no survey spoke to it.
 
 ## How much gods stand out
 
-Level: PENDING (one god's answer 8, given again). Feeds the ceiling roll on Night 3 and mortals' first reactions.
+Level: 6 on a scale where 1 is barely more than a great mortal sorcerer and 10 is the one-eyed man in the kingdom of the blind. A god is plainly more than any mortal, a different order of thing to those who meet it, and not beyond all answer. Feeds the ceiling roll on Night 3 and mortals' first reactions: awe and wariness on first sight, not helplessness.
 
 Fixed whatever the level: a god can be wrong about things, and mortals can oppose a god and damage its work.
 
