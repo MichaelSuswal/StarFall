@@ -542,7 +542,7 @@ Spacing. Neighbor distances round the ring: 493, 461, 544, 371, 405, 419, 376, 3
 
 ### 3.3 The godless peoples
 
-Five, from the Q4 blend of 6: the Sallowmen (9,000), Ennermere (40,000), the Three Havens (15,000), the Tarsk clans (20,000), Maundsea (30,000). Each has `record.md` and `state.md` in `S/civs/godless/`. Held land is somewhat more than open: about 38 of 84 land regions are held or claimed by one of the thirteen peoples. Whitepans is a free town, not a sixth people. The Abiders are not a godless people in this sense; they are cast.
+Five, from the Q4 blend of 6: the Sallowmen (9,000), Ennermere (40,000), the Three Havens (15,000), the Tarsk clans (20,000), Maundsea (30,000). Each has `record.md` and `state.md` in `S/civs/godless/`. Held against open, counted by eye from the gazetteer and not by script: roughly 38 of 84 land regions are held or claimed by one of the thirteen peoples. By count that is under half; the held regions include most of the largest (the grass, the bowl, the plain), so by area the Q4 blend's "somewhat more held than open" is met only roughly. Left as it fell. Whitepans is a free town, not a sixth people. The Abiders are not a godless people in this sense; they are cast.
 
 ### 3.4 The star (remaining boxes)
 
@@ -620,3 +620,17 @@ Ten tonight, r-0132 to r-0141, all for the star, one of them a reroll with its r
 ### Open for Michael, from all three nights
 
 Night 1: the god-sense ruling. Night 2: the shared name; where hidden powers and secret backstories are kept. Night 3: the order of the star roll; how Q8 shades the ceiling; how rain density bounds the magic blend; the map's scale; where the sealed map lives; where the ceiling is written; starting map knowledge for gods no one has met; an earlier, risen god in the history; the models file; the convergence of all seven NPC peoples on small, priestless builds.
+
+### 3.10 Lock written, and the version
+
+`S/LOCKED.md` written. The whole repository was committed as `sim-01 Night 3: world locked (creation-locked)` and pushed to `main`. A git tag `creation-locked` was made on that commit; pushing the tag to the remote was refused (HTTP 403). It was not retried. The tag exists in this working copy only, and the commit message carries the version name. For Michael: the runbook says "commit as the version" and does not say whether a version is a tag, a branch or a message.
+
+Two lines of this log were written after the lock commit: the correction to the held-land count in 3.3, and this section. Neither changes the world.
+
+### Hand-down (map order, step 4)
+
+The sealed whole stays with the Keeper. Each god's folder holds its own starting map knowledge; each people's record holds what that people knows of the land. The DM has `P/player/map-knowledge.json` and draws the first morning's map with `tools/map.py draw sim-01 --zoom known`; the draw was tested to a scratch folder and deleted.
+
+### Night 3 closed
+
+Night 3 closed at 00:21 Pacific on 2026-11-19. Every checkbox of runbook sections 3.1 to 3.11 and the fourteen lines of section 4 are done, with the departures logged above. Stop D was not used. Nothing is added after the lock.
