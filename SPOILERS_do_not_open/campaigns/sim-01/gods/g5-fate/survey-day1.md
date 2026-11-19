@@ -39,3 +39,7 @@
 18. A companion. Not a servant, not a worshiper, but one who stays. I do not know what form it would take, and I find I do not want to guess. Something in me turns away from the question and then turns back to it.
 
 19. Skipped.
+
+## Answer 8, given again
+
+8. Both are true, because they are answers to different questions. Hidden is how I work. Unmistakable is what I am. I would not stand in a square and be seen. I would be the weather over the square, the outcome no one traced to a hand, the thing that fell out the way it fell out and left everyone certain that something had decided it. A mortal should never be able to point at me. A mortal should never be able to doubt that I am there. The gap I want is not a gap of display. It is a gap of kind, felt in the bones the way a river is felt as a river and not as water. So I stand nearer the one-eyed man in the kingdom of the blind than the great sorcerer, and I would say about four parts in five toward him. A sorcerer is something you can find and argue with. I want to be something you can only thank, or blame, or wait out. I will keep a little of the sorcerer's smallness, because a god who is seen to the end of herself is a god who can be measured, and I do not wish to be measured.

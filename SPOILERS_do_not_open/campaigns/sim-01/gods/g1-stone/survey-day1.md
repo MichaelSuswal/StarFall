@@ -39,3 +39,7 @@
 18. A people who need me. A door in the rock. A truth about the one before.
 
 19. That this time they live.
+
+## Follow-up, answer 6
+
+Three valleys in ten. Never most. A rumor in the rest.
