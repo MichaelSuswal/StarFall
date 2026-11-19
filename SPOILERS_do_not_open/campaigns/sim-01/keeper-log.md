@@ -443,3 +443,52 @@ Each place where the Keeper could have leaned, and what was done.
 ### Night 2 closed
 
 Night 2 closed 2026-11-18 at 23:47 Pacific (2026-11-19 07:47 UTC). All checkboxes of runbook sections 2.1 to 2.9 are done, with the departures logged above. Open for Night 3: the Q15 ruling and the three Night 2 rulings marked for Michael (the shared name; where the hidden powers and secret backstories are kept; the correction of this log's clock is a note, not a ruling); every card's Ceiling; the magic level; the placement of everything.
+
+## Night 3
+
+Night 3 began 2026-11-18 at 23:52 Pacific (2026-11-19 07:52 UTC). A fresh Keeper session, working from the repository alone. Clock times in this section are taken from the system clock at each stage.
+
+Read: `CLAUDE.md`, DESIGN.md, the keeper, npc-god and civ role files, `engine/rules/map.md` in full, the pace table, the Day 3 guide, the house style, the deep lore, the mystery standard, the rubric, the survey notes, the clue design, this log, the world draft, the placement draft, the balance file, the ruling ledger, the sealed country file and the player's sealed files, each god's sheet, goals, hoped-for people and wants, and the player's Day 3 outputs. Read in part only, to keep room for the night's work: the Night 1 and Night 2 releases and negotiation files (their content is summarized above), the seven surveys (likewise), the rules files not bearing on creation (chronicle, encounters, messages, failures checklist), and the Day 3 transcript (the record and the DM's notes carry its results).
+
+Found on reading, before any work:
+- The player's people are the Carrowfolk: about 1,200, no town, hierarchy refused, two priced edges (the tally-walkers, the stone-wife). Three matters are left to the Keeper: "the ones before", old slab cairns on the pass, and what lies over the pass.
+- The four rulings marked for Michael on Nights 1 and 2 still stand unanswered. Night 3 builds on them as logged.
+
+### Order of work, changed from the runbook, and why
+
+The runbook rolls the star at step 3.4, after the land is laid out (3.2). The binding map order has the placement plan written before the paintings. One star roll (the center body) decides a thing that must be in the surface painting, and another (rain density) decides the magic level each god must be told before it describes its people's magic in 3.1. So the star was rolled first tonight, before the releases. Nothing else of 3.4 was moved. Marked for Michael as a fault of the runbook's order.
+
+### 3.4 (first two boxes, done early) The star
+
+Mappings set before any roll: d100 is the roll. d10 as the standing rules give. d6 and d8, which the standing rules do not give: reroll above 96, else ((roll - 1) mod 6) + 1 or ((roll - 1) mod 8) + 1.
+
+Ruling for Michael, step 3.4, how the Q8 blend shades the ceiling. The survey notes say the Q8 scale "feeds" the ceiling roll and give no method. Set before the roll: Q8 of 1 to 3, roll twice and keep the lower; 4 to 7, one roll; 8 to 10, roll twice and keep the higher. Q8 is 6, so one roll.
+
+Ruling for Michael, step 3.4, how rain density bounds the Q6 blend. The lore gives rain density on d6 and the notes say the blend picks a point "within the star's allowed range"; no file gives the range. Set before the roll: density d allows 2d - 2 to 2d on the 1 to 10 scale, with a floor of 1 (so 1 allows 1 to 2, 3 allows 4 to 6, 6 allows 10).
+
+Rolls, r-0132 to r-0141 (ten rolls, one a reroll):
+- Phase [r-0132, roll 73]: mature. A medium star, strong rain, fading in the oldest places only, descent not yet measurable.
+- Ceiling [r-0133, roll 64, d10 = 4]: 74.
+- Rain density [r-0134, roll 98, above 96, rerolled as r-0141, roll 85, d6 = 1]: 1. One known worker in a region.
+- Living radius [r-0135, roll 79, d8 = 7]: 110 days' walk.
+- Center body [r-0136, roll 62, d6 = 2]: a lake.
+- Long-game presence [r-0137, roll 48, d6 = 6]: all three.
+- Remainder [r-0138, roll 10, d10 = 10]: none fell.
+- Star content [r-0139, roll 12, d10 = 2]: one enormous forest.
+- Ascended temper [r-0140, roll 69, d6 = 3]: mixed.
+
+Clamp. The Q6 blend was 5. Rain density 1 allows 1 to 2. The blend clamps to 2, the nearest end. Mortal magic in this world is rare: commonly one known worker in a whole country, known by name, doubted a few valleys off. The feel and cost from Night 1 stand. The world draft is updated when the land is written.
+
+Consequences noted for the build: with no Remainder, the deep lore's Truth 5 has no touchable body in this world except the gods themselves; nothing is invented to stand in for it. With a living radius of 110 days' walk, the whole mapped region lies inside the rain and the Pale is far beyond every edge of it.
+
+### 3.1 Releases written (first box)
+
+Wrote `S/releases/creation/<label>-night3.md` for all seven: the country as the god first sees it in its own waking season, with what the land itself shows; what is true in the world that bears on a people (magic at its final level, in words; bronze; the climate; the usual number); the rule that culture is free and every real edge is priced; the god's one Day 3 question from Night 2's list; and the Day 3 checklist turned toward an NPC as ten fixed sections.
+
+Choices made in writing the releases, because the files did not give them or gave them two ways:
+- Where the agent writes. The runbook has each agent write `S/civs/<people>/record.md`. The standing rule gives an agent its own folder and nothing else, and the people has no name until the god names its hope. Each agent writes `S/gods/<label>/people-hoped.md`. The Keeper writes the agreed record to `S/civs/<people>/record.md` after pricing.
+- Each god is told that whoever lives below was there before it and has a history that is the world's. This is the world's answer to "already there, waiting, or arrived with it" for all seven, from the Q4 and Q5 blends (a held, very old world). What the god hopes about the meeting is still asked.
+- The countries follow the Night 2 placement draft. Each description shows only what a god coming down would see.
+- A length limit of about 900 words was set so seven records can be priced in two rounds.
+
+Paused for the seven agents at 23:57 Pacific.
