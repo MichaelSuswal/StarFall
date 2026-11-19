@@ -133,3 +133,52 @@ Body: accepted, including no sense or voice while I'm in pieces and no knowledge
 Edges, all fine as written. Walker's pace, no running, no tiring, an ox's load slowly. No air needed, firm beds crossable, bog and silt are dangerous. Settled means mortals can only take me apart slab by slab with levers and time, and you rule on gods when it happens. An hour of attention to hand-lay a cairn with no cap on number. A thrown-down or moved hand-laid cairn goes out of me until I set it right, and I take it that I don't feel it happen. I find out when I reach for it, same as the voice price. Distance doesn't matter to reach, but far stones take longer to get to and longer to come back from. Other gods and anything with ears hear the voice. My people can raise honest cairns in my name but can't hand-lay one.
 
 "The Cairn" is fine for the file."
+
+## DM:
+
+"The line itself, behind every word. Narrow, with a named thing and a named time. I have it."
+
+(oog) Your clause is ruled as you asked. Where a sworn word and the ban on falsehood collide, the ban on falsehood wins. You stay silent or leave the false marker unset, the oath goes unkept, and whatever follows from an unkept oath in this world follows for you. That is the only way you can fail a sworn word.
+
+Here is the whole card, in plain words. Nothing is final until you say yes. If anything is wrong or missing, say so now.
+
+**Filed as:** the Cairn. Its own name is lost. Mortals will call it what they call it.
+
+**Form.** One body. A figure built like a cairn: flat grey slabs balanced on one another, lichen in orange and pale green, a bit taller than a tall man, never quite finished. Seams of dim light like banked coals between the stones. Two hollows near the top for eyes, no mouth. It speaks by the sound of stones settling, and people hear words if they have been quiet for a while. It needs no air, food or sleep. It walks at a steady walker's pace, never runs, never tires, and can carry or drag about an ox's load, slowly.
+
+- Still and attending to nothing, the light banks to nothing and it looks like a cairn. The moment it attends, the light shows. A watching cairn can be caught watching.
+- It has no other shape. Cloak, dusk and distance are ordinary attempts in play.
+- Other gods: it knows that others like it came down when it did, and nothing more. It feels nothing of them at a distance. At speaking distance it knows plainly that one is like itself, and is known the same way. Nothing else is learned that way. It has no means of hiding this.
+
+**Power 1. Knowing where it is laid.** At any hand-laid cairn it can feel what a blind man leaning there would know: weather, ground, footfalls, how many, heavy or light, beast or person, about a stone's throw around. No faces, no words. One cairn at a time. A cairn holds about a day of what it felt, fading. Any distance, but a far cairn takes longer to reach and longer to come back from.
+Drawback: while it listens at a far stone, its body is only a cairn, knowing nothing of what is around it, and coming back is not quick.
+
+**Power 2. Not lost.** Anyone who passes an honest cairn raised in its name and adds a stone, understanding or not, is a little harder to lose: they find the way back or the way on. It does nothing against storm, cold, hunger or a bad step. This works at any honest cairn in its name, raised by anyone.
+Drawback: it holds only while the cairn tells the truth. A cairn that is moved or raised to mislead leads people wrong with the Cairn's weight behind it, and the Cairn does not feel that from afar.
+
+**Power 3. Staying put.** Once it settles, no mortal effort shifts it. Enough people with levers and time can still take it apart slab by slab. What another god can do to it is unruled until it happens.
+Drawback: it is as heavy as it looks. It sinks and does not swim. Thin ice, small boats, rope bridges and rotten floors will not hold it, and it rides nothing. It can walk a firm riverbed or lake bed. Deep mud, bog and silt hold it, for days or until helped.
+
+**Power 4. The voice in the stones.** It can speak through any hand-laid cairn, at any distance, one or many at the same moment. One breath of words, a sentence, said once. One way only: it hears no answer. Anyone nearby who has been quiet hears it, gods and beasts included. It cannot choose the ears.
+Drawback: each time it speaks through a stone, one hand-laid cairn somewhere on its line goes out of it, not chosen. Speaking through many at once, one goes out for every three that spoke, rounded up. A cairn that has gone out still stands and still keeps travelers from being lost, but the Cairn can neither feel nor speak there until it walks back and sets its hand on it. It does not learn which one went until it reaches for it and finds nothing.
+
+**Cairns, two grades.** An honest cairn is any true marker raised in its name by anyone; it carries power 2 only. A hand-laid cairn is one the Cairn built or set a stone on itself, about an hour of its attention; it carries powers 1, 2 and 4. No limit on number. Its people can raise honest cairns and cannot make one hand-laid. A hand-laid cairn that is thrown down or moved goes out of it, unfelt, until it sets it right by hand.
+
+**Broken.** Fallen from a height or pulled apart, it breaks into slabs and the light goes out. It does not die. Pieces within a few hundred paces gather in about a day; wider scatter takes longer, up to a season across a slope. A slab carried off leaves it smaller and less sure until it recovers the slab or takes a new stone in its place. While in pieces it has no sense and no voice at its cairns and knows nothing of the time that passes. Honest cairns go on working.
+
+**Weaknesses taken, and what they bought.**
+
+- It cannot say what it knows to be false, by body or by cairn, and cannot set, or leave standing by its own hand, a marker it knows to be false. Silence, a true word beside the point, and letting someone mislead themselves are open to it. A straight question, and its silence read as an answer, can be used against it.
+  Bought: its word carries weight a hearer can feel. Whoever hears it, at its body or at a cairn, mortal or god, feels plainly that the speaker means it. Not that it is right. It can be wrong, and hearers stay free to doubt, disagree or ignore it. Reliance on its word is reputation, earned in the world. The weight cannot be counterfeited at its stones: a voice that is not its own, speaking at one of its cairns, does not carry it.
+- It cannot swear what it does not mean to keep, and cannot knowingly act against a word it has sworn. A badly worded oath holds it until the other party releases it. The one exception is the clause above: it never has to speak falsely or set a false marker to keep an oath.
+  Bought: only that this is true of it, and that it can truthfully say so. The world's own rule on sworn words between gods is the same for it as for every god: such a word is a real thing, nothing stops a god from breaking one, and what comes of breaking one is not written anywhere a god can read.
+
+**What it sets behind its word, and what it will not swear** (your words, kept for the record of who this god is, not a rule): the line itself, behind any oath. Never anything that needs a lie to keep, that closes a road for good, or that leaves a traveler lost on purpose. Never obedience without end or terms. Never anything open-ended. Narrow, a named thing and a named time.
+
+**Past, in outline.** It was a marker, one stone on a long line of stones across another country, touched by travelers, each added rock a small prayer that someone had been there and got through. It knew where the line went. The line and the country are gone and it does not know how. It lost its name and the end of the road. It can still feel that the road ran to a place where something was waiting. The rest is fog.
+
+**What it wants.** To put a line across this country, with roads and passes marked so people can cross without dying, and the marking true. To find out where the old roads here go.
+
+**It lands** in a valley under the tops, at the head, where the valley narrows toward a pass.
+
+Is this your god? Yes, or tell me what to change.
