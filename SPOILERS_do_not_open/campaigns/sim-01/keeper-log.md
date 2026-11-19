@@ -258,3 +258,25 @@ Each place where the Keeper could have leaned, and what was done.
 ### Night 1 closed
 
 Night 1 closed 2026-11-18 at about 23:16 Pacific (2026-11-19 07:16 UTC). All checkboxes of runbook sections 1.1 to 1.6 are done. Open for Night 2: the player's answers to the three follow-ups; the Q15 ruling awaiting Michael's eye; the magic level provisional until Night 3.
+
+## Night 2
+
+Night 2 began 2026-11-18 at 23:24 Pacific (2026-11-19 07:24 UTC). A fresh Keeper session, working from the repository alone. Read: `CLAUDE.md`, DESIGN.md, the keeper and npc-god role files, every file in `engine/rules/`, every file in `SPOILERS_do_not_open/keeper/`, everything in `S/`, and the player's Day 2 outputs in `P/player/`.
+
+Found on reading, before any work:
+- The player's three follow-ups are answered in `P/player/followups-day2.md`. The player took the campaign's three rules as given and asked for no means of hiding from other gods.
+- The player's card says two hidden powers exist and no more, and its Ceiling line reads `Set by the world. Not shown.` No correction is needed under 2.5.
+- The Q15 ruling from Night 1 still awaits Michael's eye. Night 2 builds on it as logged.
+
+### 2.1 Releases written
+
+Wrote `S/releases/creation/<label>-night2.md` for all seven. Each holds: the rules that bear on a god's build (one body; god-sense as set; a sworn word; how far a god stands above mortals, at the blended 6, in words and without the number; mortal magic at its provisional level and its feel and cost, in words, the common understanding only), the god's own follow-up answers (g1-stone answer 6, g5-fate answer 8 given again; the other five were asked nothing), its waking season, and the Day 2 checklist turned toward an NPC as eight fixed sections of `self.md` (name, form, traits, backstory outline, what it wants, proposed powers with drawback and edge cases, trades, the people it hopes to lead), plus `goals.md` and `record-of-gods.md`. Nothing of other gods beyond the rule that they exist, no vote, no pool, no number from the blend, nothing of the player, nothing of the deep lore.
+
+Choices made in writing the releases, because the files did not give them:
+- Bodies, as an item of the checklist, is folded into the rules block and the Form section. The rule is one body; there is nothing for the god to choose.
+- Added to the rules block, from DESIGN.md and the role file and not from the blend, so that proposals come in at a scale that can be priced: gods need no food and sleep is a choice; a god moves at the pace of its form; a god cannot die; gods speak mortal tongues; the peoples work bronze and no steel; every power carries a drawback; there is no set number of powers; nothing over the top. A god would know all of these of itself.
+- Holding its presence in from another god is offered as something to ask for and pay for, the same offer the player received in follow-up 2. A god that does not ask cannot.
+- The mortal magic paragraph gives only the common understanding. The part of the cost that is the deep lore's is left out.
+- Each agent is told to stop after its three files. Pricing follows in a negotiation file, at most three rounds.
+
+Night 2 paused here for the seven agents (step 2.2). This Keeper session has no tool for spawning agents; the coordinator runs them.
