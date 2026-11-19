@@ -102,6 +102,6 @@ I do not ask to hide what I am from another god. I want to be seen, and I want t
 
 I would take on this weakness: any word I swear freely, with something of my own named behind it, binds me in the body as hard as it binds anyone, and if I break it, a crack opens on me at once and I cannot use the Breaking Hand for a season. I would want this to buy the reach of the Ear for Oaths: the hearing extended from sixty paces to the whole of a hall or a market square, about two hundred paces, and the feeling of a snap extended from a day's walk to the whole of a valley.
 
-## The people I hope to live among
+## The people I hope to lead
 
 I hope to find a rooted people in river country, with old walls, old grudges and a long memory, who swear to things and take their oaths seriously. They would have a custom of judgment, a place for witnesses, and a name for the one who breaks his word. I would ask them to swear in public, to keep what they swear, and to bring me the oaths that are broken so I may test them. I would give them a judge who will not look away first, a voice that carries over the crowd, and a hand that will break an unjust door. I do not need them to love me. I need them to try me, and to keep the hard sentence when I give it.
