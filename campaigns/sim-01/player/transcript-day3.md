@@ -35,3 +35,36 @@ How they learn I'm here: a cairn at the valley head that wasn't there the night 
 Now an edge, and I'm going to ask for too much. I'd like the people to have a trade, a calling. I'll call them tally-walkers: a small order of men and women, a dozen or so at first, who walk the passes and carry the line. Each one is trained by me to lay a cairn the way I do, so that it counts as hand-laid. Their cairns carry my sense and my voice. That means I'd have a dozen people who can extend my line across the whole country at the pace of their own feet, and I'd get the sense and the voice at any stone they lay without having to walk there myself.
 
 I know that's stronger than a god should get. A hand-laid line that I don't walk breaks the one thing you said kept this fair. So I'd expect a real price, and I'll offer one to start. Each tally-walker has to be honest in the same way I am. They can't say a false word or set a false marker while they carry the title, and if one of them breaks that, every cairn they laid goes out of me at once, not one at a time, and stays out until I walk it back by hand. I'd also take a cap on how many there can be, and I'd accept that I can't pick them. They pick themselves, by being the sort of person who'd do it, and I only get to say yes or no. If you want it harsher, name it. I'd rather see the price before I'm attached to the idea."
+
+## DM:
+
+"Twelve hundred, in hamlets and shielings, who count everything and bury their dead and turn no one out onto the tops. Then that is who is under the smoke. And you come down in the night and are found."
+
+"Two things you said are the land's and not the people's, so I will not answer for them. What lies over the pass, and what comes up from the other side, you will learn by who crosses it. And the old cairns of great slabs: I heard the wish. Whether they stand there is for the world to say, and you will know when you look up at the pass in daylight. The habit is theirs, though. They raise cairns and add a stone and call it luck. That I can give you."
+
+"Your words come as stones settling, and only the quiet hear them. A people is rarely quiet. You have refused servants. Is there someone among them you would still have listen for you and carry what you say, if they chose to, or would you sooner each of them had to come and be still?"
+
+"And how long have they been in this valley, by their own telling? What do they say came before them?"
+
+(oog) First the plain record, then the edge.
+
+No town, no advisors, about 1,200: taken as you gave them. From here on the game remembers that this god has no one who carries out its wishes, only people who choose to help and keep choosing. The counting, the debts, the two things they never do, the transhumance, the pass trade: all ordinary culture, no price. The small number and the lack of a town are real costs you chose, and I am counting them toward what follows.
+
+The tally-walkers. As a calling, a dozen or so who walk the passes and keep the line, yes, freely. As you priced it, no, and you named the reason yourself: a hand-laid line you do not walk undoes what made the voice fair. Yesterday's card also says your people cannot make a cairn hand-laid, and I would rather build on that than undo it a day later. Here is what I offer in its place.
+
+A walker cannot hand-lay a cairn. A walker can carry a stone of yours. You take a slab from your own body and give it, and where a tally-walker builds it into an honest cairn, that cairn is hand-laid, because the stone in it is you. This uses what the card already says: a slab carried off is a piece you are missing.
+
+The price is in your body.
+
+- No more than three of your stones may be out at one time. Out means given and not yet made good.
+- You make one good by taking a new stone into yourself, and a new stone takes a full year to become yours. Until the light comes into its seams it does not count.
+- While any stone is out, you are less. Staying put does not hold: enough people with ropes can pull you over. And if you are broken, you gather at half the speed.
+- A carried stone that is lost, stolen or thrown in a river before it is built in is simply gone, and still counts as out for its year.
+
+And your own price, which I take as you offered it: a tally-walker is held to your honesty. Nothing stops them lying. They are mortal. But if one says what they know to be false, or sets a false marker, while they carry the title, every stone-bearing cairn that walker built goes out of you at once, unfelt, until you walk to each and set your hand on it. They choose themselves and you say yes or no. No cap on how many walkers there are. The cap is your stones.
+
+So the line can run ahead of you, about three cairns a year at most, each one costing you a year of being easier to topple. I think that keeps what you wanted, people who carry the line, and leaves the country something you mostly still have to walk. Argue it if you think it is wrong in either direction.
+
+Two questions on the cairns. The valley already raises them, and none of those were raised for you. I propose an old cairn becomes an honest cairn of yours when someone adds a stone and means it for you, by whatever they call you, or when you lay your own hand on it. Is that right? And should raising and keeping them be a thing every one of your people does, or left to whoever chooses? A custom spreads Not lost fastest. It also means more hands that can move a cairn wrong.
+
+Last: you asked the world for magic that is rare, a knack. Is there anyone in this valley who has it?
