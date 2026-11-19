@@ -56,7 +56,7 @@ Choices made in writing the releases:
 
 This Keeper session has no tool for spawning agents. Per the instruction for this run, the night stops after the sheets and the releases. Steps 1.1 and 1.2 are complete. Step 1.3 is complete for its first box only. Still to do, in order: spawn the seven agents and collect `S/gods/<label>/survey-day1.md` (1.3), read all seven and send back once where an answer breaks character (1.3), the blend (1.4), the world draft (1.5), the follow-ups (1.6), and the closing line. Night 1 is not closed.
 
-Paused 2026-11-18 at about 23:20 Pacific.
+Paused 2026-11-18 at about 23:06 Pacific (2026-11-19 07:06 UTC).
 
 Notes carried forward for the blend, so they are not lost:
 - Q15 god-sense. The deep lore states as a truth that the gods feel each other at a distance, as a pull, and its clue tables use that pull. The runbook makes god-sense a vote. If the vote goes against a pull at distance, the deep lore wins by the runbook's own rule, and the vote can only set how the pull is felt and how sure a god is of what it means. To be decided and logged at 1.4.
