@@ -492,3 +492,131 @@ Choices made in writing the releases, because the files did not give them or gav
 - A length limit of about 900 words was set so seven records can be priced in two rounds.
 
 Paused for the seven agents at 23:57 Pacific.
+
+### Night 3 resumed
+
+Resumed 2026-11-18 at 23:59 Pacific. The coordinator ran the seven agents. Each wrote `S/gods/<label>/people-hoped.md` with the ten sections asked for, 756 to 859 words. No file names or quotes its seed. No dashes.
+
+### 3.1 Reading the seven, pricing, records, states, meetings
+
+What each hoped for, in brief: g1 about 800 highlanders in steadings, no town, keepers of the door in place of a throne. g2 about 3,000 in a walled ford town and holdings, a Bench of witnesses. g3 about 1,500 marsh households with a long roof, no ruler. g4 about 3,000 plain farmers in villages, a Counter to each. g5 about 3,000 river households, a council and a Reckoner, the god unseen. g6 about 2,000 river farmers, no priesthood, a lamp-keeper at the bridge only. g7 about 2,000 herders and hunters, a headwoman who keeps her own seat. All seven hoped for fewer than five thousand, all hoped the people were already there, and all refused a priesthood. This is logged as a pattern of this run for Michael: seven agents built apart converged on small, kingless, priestless peoples.
+
+Edges proposed: two. g3-song, the lineage singers (word-for-word memory of lineage and law), with the weakness that the singers are short-lived, sickly and forgetful outside song. g5-fate, exact books (reliable tallies and tokens), with the weakness that the people are grudge-bearing and litigious and feuds over inherited debts tie households up. The other five proposed none.
+
+Pricing. Both offered weaknesses were judged a fair price as written, against the player's two priced edges (a carried-stone calling paid for with the god's own safety; a knack paid for with the worker's sense of direction). Each was accepted without change, and one measurable line was added to each so the price can be run: no singer in memory has passed fifty; about one River household in five is in open dispute at any time. No counter-offer was made, so no round was needed and Stop D was not used; the coordinator allowed this. The lineage singers are ruled a trained skill and its price, not mortal magic. No dispute, so no ledger entry.
+
+Records. Wrote `S/civs/<people>/record.md` and `state.md` for seven: the Stairfolk (g1), the Sworn of Corrford (g2), the Cutfolk (g3), the Bankfolk (g4), the River Households (g5, folder `ishefolk`), the Lavefolk (g6), the Edgefolk (g7). Each is the god's hope fitted to what the land and its past hold. The world listened and did not obey: every people has a name, a history, neighbors and a trouble that its god did not ask for (a salt road, a levy, a toll quarrel, a failing singer, a feud, a salt price). Each has exactly one worker of magic, named, with what she has spent, since rain density 1 gives one to a country. Where a god hoped for an office (keepers of the door, a Bench, Counters), the record gives what already exists and says the rest is the people's to choose.
+
+The player's people. `P/civs/carrowfolk/state.md` had been left "not set on Day 3" by the DM. The Keeper set the starting numbers there, in words the player may read. The world's side of the Carrowfolk (who "the ones before" were, the stone-wife's name and descent, the first shepherd's name) is in `S/civs/carrowfolk-sealed.md`. The DM's ruling on the stone-wife's knack stands under the world's rule for magic.
+
+Meetings, all eight. Already there, in every case, by each god's own hope and by the Q4 and Q5 blends. The player's agreed meeting is kept whole: no change, so no line goes to `P/player/corrections.md` and that file was not written. The three matters the DM passed up are reconciled in the deep history: "the ones before" were the Hollin, dead of a fever in 253 BA; three slab cairns of the Abiders' High Road stand on the pass; over the pass is the Sallow and its salt people.
+
+### 3.2 The land, and the binding map order
+
+1. Placement plan written first: `S/world/placement-plan.md`, a written geography: frame of sea and land, high ground, the center, eight rivers, low ground, the eight seats with aims, the godless peoples between them, the underground layers, climate.
+
+2. Painting prompts written from the plan and sent. Two requests only, as Michael approved for this run: `images/requests/sim-01-map-surface.json` and `sim-01-map-clouds.json`, pushed at 00:00 Pacific on 2026-11-19. Both paintings were back by 00:02. The action did not fail. No other request was made. The underground layers were not painted: this is a limit of the test, logged here and in the world bible and the gazetteer. The prompts follow the dry run's map prompts (a view from directly above, the house palette and surface) and not the house style block word for word, because that block is written for scenes.
+
+3. Traced onto the paint, per `engine/rules/map.md` 1.3. The surface painting differed from the plan in large ways, and the data followed the paint in every case:
+- No western sea was painted. The west edge is land. The Three Havens moved to the bay and the western river's mouth.
+- The lake was painted about four times the planned width. It is taken as painted: about 400 miles across.
+- One river drains the west, where two were planned. It is one water with three names.
+- A river was painted leaving the lake's south rim, against the prompt. It is traced from just outside the rim and is the Maund, rising from springs there. No water is seen to leave the lake.
+- The western forest was painted further west and the red hills reach the west edge.
+- The lone hill on the plain was painted far from the river. It is Barrow Down. The small hill the Night 3 release showed g4 is in the data as the Howe, too small for the paint.
+- The top of the painting shows the range in profile under a strip of sky. The strip is traced as high mountain.
+- The seats were re-set on the painted ground. Compass words in three releases (g2, g3, g4) no longer match exactly; the gods have not yet landed and will be told the ground as it is.
+- The player's coast is about 800 miles off, not a few weeks. The wish was kept less well than planned because the paint has no western sea.
+
+Method. Regions were traced by assigning every pixel to its nearest seed point (one or several seeds to a region), with the sea, the great lake and the salt lake cut by hand along the paint, then turned into polygons. 91 regions, no fragments. Features were placed by hand on the painted things: 85 on the surface, nine in two underground layers. A test sheet was drawn with everything seen, from a scratch knowledge file, looked at, and deleted; labels fell on the painted things they name. The scripts are kept sealed as `S/world/trace-regions.py` and `trace-features.py`.
+
+Ruling for Michael, step 3.2, the map's scale. `engine/rules/map.md` assumes a sheet about 256 miles across (0.25 miles to a pixel) and regions 20 to 60 miles wide. DESIGN 4.6 and the runbook ask for a region the size of Europe at least. One 1024-pixel painting cannot be both. Decided: one sheet at 1.6 miles to the pixel (1,638 miles a side, grid cells of 205 miles), with regions of uneven size: about 40 miles across at the player's seat, 60 to 100 at the other seats, up to 250 in empty country. Consequences Michael should see: the first morning's map is a clear patch about thirty pixels wide; a painted hill or river is far out of scale; anything smaller than a mile or two cannot be painted and exists as data only. A fix for the engine would be a second, close painting of each seat's home country.
+
+Ruling for Michael, step 3.2, where the sealed map lives. The runbook says `S/world/map.json`; `map.md` and `tools/map.py` say `S/map.json` with paintings in `S/map/`. The tool was followed. The gazetteer and the plan are in `S/world/`.
+
+Added to `map.json` beyond the format in `map.md`, because the runbook asks for them: on each region, `elevation`, `water`, `climate`, and `neighbors` with miles and days between centers at the pace table; and a top-level `landings` block. The tool ignores them.
+
+Spacing. Neighbor distances round the ring: 493, 461, 544, 371, 405, 419, 376, 381 miles; 27 to 39 days' walking with no rest. The lake's shore is nearest g2 (about 160 miles) and farthest from g7. No two seats are crowded; none is cut off. Every terrain on the Night 1 list is on the sheet: mountains with peopled valleys (Stair), upland moor and broken hills (the Westermoor), four river systems of the kinds asked (gorge and shifting channels; flood plain with a hill; folded hills; marsh and delta), marsh and river-mouth marsh, a fog coast (the Murk), a long coast, deep forest, forest edge, steppe.
+
+`S/world/gazetteer.md` written from the traced map: every region with terrain, elevation, climate, water, neighbors and days, its places, and its ordinary wonders with no mystery attached.
+
+### 3.3 The godless peoples
+
+Five, from the Q4 blend of 6: the Sallowmen (9,000), Ennermere (40,000), the Three Havens (15,000), the Tarsk clans (20,000), Maundsea (30,000). Each has `record.md` and `state.md` in `S/civs/godless/`. Held land is somewhat more than open: about 38 of 84 land regions are held or claimed by one of the thirteen peoples. Whitepans is a free town, not a sixth people. The Abiders are not a godless people in this sense; they are cast.
+
+### 3.4 The star (remaining boxes)
+
+`S/star.md` written with all nine results, each with its roll id, and the hidden form of the oath rule. World draft updated with the clamp.
+
+Ruling for Michael, step 3.4, where the ceiling is written. The runbook says to fill `Ceiling` on every NPC power card. The NPC role file has each agent read its own card every turn, and the deep lore says a god learns the ceiling only by approaching it. Decided, on the pattern of Night 2's ruling on hidden powers: the number (74) is in each god's sealed file `S/gods-sealed/<label>/hidden-powers.md` and in `S/player/hidden-powers.md`. Each NPC card's Ceiling line now reads that it is set by the world and not shown.
+
+The Night 1 ruling on god-sense, made concrete as it promised: the lore's pull between gods can be felt at two places only, the shore of Lake Enner and the Door of Vorn, where a god feels faintly which way each other god lies. It is a fact of those places and not a second rule.
+
+### 3.5 The deep history
+
+`S/deep-history.md`, to depth 10: the fall before (about 9,000 BA) and what came through it; the Abiders' High Roads and the First Oath; Old Maund and the Seven Lean Years; nine Corr kingdoms; drowned Halmer; Ennermere and its god Enna, who rose in 312 BA; the east and the Debt Door; the south-east and the traveler Issan Vey; the Hollin, the fever of 253 BA and the coming of the Carrowfolk; Hask; the Longwalkers; the pale herds; fifteen named mortals with traces. Checked against the deep lore (nothing contradicts a truth; nothing explains what the lore keeps open) and against every record (each meeting is possible).
+
+Decisions the files did not make:
+- With no Remainder rolled, nothing of the gods' origin lies on the ground. The one trace is seven names in the Longwalkers' oldest list, from a country their forebears walked out of generations before it fell. None of the seven is a name any god of this campaign chose except "Orrun". Night 2 left this open to the star; the long-game roll (all three kinds) put carriers here, and carriers carry names. It is found only by a god that goes to their road and asks for the oldest thing they have. No road of this world is the player's Line.
+- An earlier god. Ennermere had a god that rose 312 years ago. The design says seven NPC gods arrive with the player and says nothing against older ones; the deep lore's Truths 6 and 8 need a body for "the one who lifted", and a mature star has had time. It is in the star, not on the ground. Marked for Michael.
+- The non-human kind. One, the Abiders, a people of the country before the last fall who came through it. The player asked not to be told what they are and is not.
+
+### 3.6 The mysteries
+
+`S/mysteries.md`: one epic (the Counting Water), four long (the First Oath, the One Who Went Up, the Dry Mountain, the Names in the Song), thirteen short. Each has truth, body, cost with its clock or trigger, placed clues with their readings, branches with the world's answers, and what is never found. The epic's measurements and every way to earn them are listed; none is a scheduled visitor. The checks at the foot of that file were run and are recorded there: rules 1, 2, 3, 4, 7, 11, 14, and each undared wish off its own god's certain path, with distances.
+
+### 3.7 The event schedule
+
+`S/event-schedule.md`: clocked events to Year 39 with cause, lead time, signs and who could notice; the lake's own clock; twenty triggers; a random table with odds for `tools/roll.py`, base 30, stepped down in Years 1 to 7 (25, 20, 15, 12, 9, 6, 3); four recurring phenomena with true counts for twelve years in `S/state/phenomena.json`, read by `tools/phenomena.py` (tested for Year 1). No event herds the gods; no way exists for the plot.
+
+### 3.8 Cast and names
+
+`S/cast.md`: twelve figures, three of them not mortal and two of them peoples. `S/world-bible.md`: the Keeper's name for the world (Brennoch), what each people calls it and the star, the rules made final, pointers to every file, where each Night 1 candidate went or why it was left out, and the limits of this test.
+
+### 3.9 Starting map knowledge
+
+Wrote `S/gods/<label>/map-knowledge.json` for seven and `P/player/map-knowledge.json`.
+
+Ruling for Michael, step 3.9. The runbook says to draw starting knowledge from what the god's people would know and tell it. No god in this campaign has spoken to anyone at the moment of landing, and the player's god means to stand unknown for a week. Decided: each starting file holds only what the god sees from where it lands (the landing region seen; what is in view reported, with its own sight as source). What each people knows is written beside its record ("What they know of the land" in each `S/civs/<people>/record.md`; `P/civs/carrowfolk/land-knowledge.md` for the player's) and enters a god's map only when someone tells it. The player's file was checked: it holds the valley, its stream, and the tops, the pass and three shapes on the skyline as seen from below. Nothing in it is beyond the god's own eyes. The valley stream was split into two features so the map does not show the god a river's course it has not seen.
+
+### 3.11 First morning inputs (written before the lock so the locked version holds them)
+
+`P/world/world.md`, `P/player/map-knowledge.json`, `P/state/clock.md` (Year 1, open, late autumn), `P/state/models.md`, `P/releases/000/dm.md`, `P/state/rolls.jsonl` (empty), and the two Carrowfolk files named above. The release gives the god's senses at landing and dawn, says that hearing was never settled on Day 2 and must be asked, and gives true counts for the year's recurring things. `P/state/models.md`: no file says which model runs which role in a real campaign; the dry run's were copied and marked as Michael's to change.
+
+Checked for sealed matter in `P/`: a search of the new public files for the names of sealed peoples, places, beings, gods, the ceiling and the fever found one line, a Carrowfolk rumor of a people who once had a god; it was cut. Map ids appear in the land-knowledge file because the reveal tool needs them; a few ids are the Keeper's names for places the valley knows by other names.
+
+### Rolls
+
+Ten tonight, r-0132 to r-0141, all for the star, one of them a reroll with its reason. Placement, pricing and history used no roll. `S/state/rolls.jsonl` stands at 141 lines.
+
+### 3.10 The lock checklist
+
+1. Seven NPC gods, no shared seed, no shared domain, each with sheet, self, goals, record-of-gods, power card (Description and Drawback frozen, two hidden powers, Ceiling filled), secret backstory, map knowledge. Yes, with the two sealed-file rulings: hidden powers and the ceiling's number are in `S/gods-sealed/`.
+2. The player's god has a sealed secret backstory and two sealed hidden powers; its public card names neither and its Ceiling line is `Set by the world. Not shown.` Yes.
+3. Eight peoples with records and starting state. Every edge priced. Every meeting reconciled with the deep history. Yes.
+4. Three to five godless peoples with backstories and starting state. Yes, five.
+5. `map.json` holds every region, settlement, ruin, road, site, underground layer and landing point referred to anywhere in the deep history, mysteries, schedule or cast. Yes. Every bracketed id in those four files was checked against the map by script, and four places first named in prose were added before the lock (Under-Hithe, Gullet, the Tasteless Field, Farhall). Roads are not map features under `map.md`; the High Roads are held as their markers and halls.
+6. Gods spaced evenly; every terrain from Night 1 present; transitions realistic. Yes, in rough terms: 371 to 544 miles between neighbors. The paint set the transitions.
+7. `star.md` holds every per-star roll and the ceiling, each with a roll id. Yes.
+8. One epic, several long, many short mysteries, each passing rules 1 to 14 of the mystery standard, every clue placed. Yes: one, four, thirteen.
+9. Every event has a cause, every mystery a cost, every cost a clock or trigger. Random events weighted down for Years 1 to 7. Recurring phenomena in `phenomena.json` for at least ten years. Yes, twelve years.
+10. Every world rule is one rule for the whole world; no wish became a local exception. Yes. The two places where the pull between gods can be felt are places, as the Night 1 ruling allowed, and the rule is unchanged.
+11. Every creation roll is in `S/state/rolls.jsonl`; nothing rolled twice; every reroll has a reason. Yes: 141 lines, three rerolls in all.
+12. The keeper log records every blend with its eight answers, every vote count, every placement, every clamp, every leftover. Yes: Night 1 for the blends and votes; tonight for placements, the magic clamp, and the leftovers (world bible, "Where each Night 1 candidate went").
+13. Nothing in `P/` reveals a vote, a pool, another god, the deep history, the star, a mystery or the schedule. Yes, after the one cut noted above. The public sky is described as the people see it.
+14. Nothing in any file contradicts the deep lore, and no file explains what the deep lore keeps mysterious. Yes.
+
+### Neutrality self-check, Night 3
+
+- The player's three wishes about the land (the ones before, slab cairns on the pass, trade over the pass) were all held. Each was already in the Night 2 placement draft's paragraph for that country or follows from the world's scarcity; none was added to reward the player. The slab cairns are a marker of an old road, and the player's hidden power reads old road markers. That was noted on Night 2 and is left as it falls: the road leads to a door and an old solitary being, not to any answer.
+- The star's magic clamp landed on the player's own Day 1 number. It was a roll.
+- The paint took the player's coast away. Not repaired.
+- The nearest strange things to the player (the Shut House, the Walled Fold) are near because the High Road and the valley's history are there, as the Night 2 draft had them. The epic sits in the middle, about equally far from all eight; g2 is nearest it by the accident of the paint.
+- Two NPC edges were accepted at the price the gods themselves offered. Easy pricing favors them; each price was checked against the player's and made measurable.
+- The seven names in the Longwalkers' list touch every god's sealed past alike and the player's no more than the others.
+- A rumor of an earlier god was cut from a public file. A small yellow light burning all night in the valley was cut from the DM's release, because a lamp in a window is on the list of ways one god's past might surface and the Keeper does not point.
+- No agent's text was rewritten. Nothing was placed on any god's certain path that was its own undared wish.
+
+### Open for Michael, from all three nights
+
+Night 1: the god-sense ruling. Night 2: the shared name; where hidden powers and secret backstories are kept. Night 3: the order of the star roll; how Q8 shades the ceiling; how rain density bounds the magic blend; the map's scale; where the sealed map lives; where the ceiling is written; starting map knowledge for gods no one has met; an earlier, risen god in the history; the models file; the convergence of all seven NPC peoples on small, priestless builds.

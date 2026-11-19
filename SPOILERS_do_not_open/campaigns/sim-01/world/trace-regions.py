@@ -139,6 +139,33 @@ def f(id,name,type,shape,coords,regs,notes=""):
 exec(open("features.py").read())
 world={"campaign":"sim-01","painting":{"size":[N,N],"miles_per_pixel":1.6,"grid_cell_px":128},"regions":regions,"features":F,"layers":LAYERS,"landings":LANDINGS}
 json.dump(world,open(S+"/map.json","w"),indent=1)
+
+# neighbors with travel time, elevation, climate band (runbook 3.2)
+PACE={"plain":14,"valley":14,"coast":14,"steppe":14,"hill":12,"highland":10,"forest":10,"mountain":8,"marsh":6}
+ELEV={"plain":"low","valley":"low to middling","coast":"sea level","steppe":"high plain","hill":"middling","highland":"high","forest":"middling","mountain":"very high","marsh":"sea level","sea":"water"}
+cent={}
+for i,k in enumerate(ids):
+    ys,xs=np.nonzero(lab==i); cent[k]=(xs.mean(),ys.mean())
+adj={k:set() for k in ids}
+for a,b_ in ((lab[:,:-1],lab[:,1:]),(lab[:-1,:],lab[1:,:])):
+    m=a!=b_
+    for u,v in set(zip(a[m].tolist(),b_[m].tolist())):
+        adj[ids[u]].add(ids[v]); adj[ids[v]].add(ids[u])
+tw=lambda r: r["terrain"].split(",")[0].split()[0]
+rmap={r["id"]:r for r in regions}
+for r in regions:
+    k=r["id"]; t=tw(r); cy=cent[k][1]
+    r["elevation"]=ELEV[t]
+    r["water"]=[x["name"] for x in F if x["type"] in("river","lake","sea","marsh") and k in x["regions"]]
+    r["climate"]="water" if t=="sea" else ("hardest: winter five months or more" if (t in("mountain","highland") or cy<270 or t=="steppe") else ("less hard: winter three to four months" if cy>640 else "hard: winter four to five months"))
+    nb=[]
+    for n in sorted(adj[k]):
+        tn=tw(rmap[n])
+        if t=="sea" or tn=="sea": nb.append({"id":n,"days":None,"by":"water"}); continue
+        d=math.dist(cent[k],cent[n])*1.6
+        nb.append({"id":n,"miles":round(d),"days":round(d/((PACE[t]+PACE[tn])/2),1)})
+    r["neighbors"]=nb
+json.dump(world,open(S+"/map.json","w"),indent=1)
 np.save("lab.npy",lab); json.dump(ids,open("ids.json","w"))
 # check features against regions
 rid={r["id"] for r in regions}

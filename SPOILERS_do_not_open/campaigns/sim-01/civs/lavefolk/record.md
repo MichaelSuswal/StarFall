@@ -39,3 +39,9 @@ Elders in each hamlet. A lamp-keeper at Piers for the bridge lamp, chosen by the
 
 ## How the god meets them
 Already there, not waiting. Reconciled with the deep history. The god lands at dusk in autumn and watches before it comes to any door.
+
+## What they know of the land
+
+By `map.json` id. Released to the god as it is told; raised on its map only then.
+
+Reported: lavedale, both Lave hills, lavemouths, lave, sallowbeck, piers. Rumored: Whitepans along the coast; Maundsea west; the lake people up beyond the river's head (lave-heads, lave-rim, enner); the Braid; the Midhills, "empty country".

@@ -37,4 +37,4 @@ Growth: none open
 
 ## Ceiling
 
-pending Night 3
+74. Rolled on Night 3, r-0133 (70 plus a d10 of 4), unshaded because the Q8 blend of 6 lies in the middle band. On the deep lore's density scale, where this god sits near 20 on arrival. Never released.

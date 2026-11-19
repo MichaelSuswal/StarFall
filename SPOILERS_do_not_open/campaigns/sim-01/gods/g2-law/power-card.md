@@ -74,4 +74,4 @@ Bought: The Ear for Oaths at two hundred paces, and the witnessed thread at any 
 
 ## Ceiling
 
-pending Night 3
+Set by the world. Not shown. The number is in the sealed file beside the hidden powers.

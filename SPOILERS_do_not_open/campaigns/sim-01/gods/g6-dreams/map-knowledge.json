@@ -1,0 +1,50 @@
+{
+ "campaign": "sim-01",
+ "regions": {
+  "lavedale": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "easter-lave-hills": {
+   "grade": "reported",
+   "source": "a dark line seen at dusk",
+   "year": 1,
+   "told": {
+    "terrain": "hill"
+   }
+  },
+  "wester-lave-hills": {
+   "grade": "reported",
+   "source": "a dark line seen at dusk",
+   "year": 1,
+   "told": {
+    "terrain": "hill"
+   }
+  }
+ },
+ "features": {
+  "lave": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "piers": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "lavemouths-marsh": {
+   "grade": "rumored",
+   "source": "own sense, the smell of salt and mud downstream",
+   "year": 1,
+   "told": {
+    "name": "marsh, and the sea beyond",
+    "near": [
+     800,
+     790
+    ]
+   }
+  }
+ }
+}

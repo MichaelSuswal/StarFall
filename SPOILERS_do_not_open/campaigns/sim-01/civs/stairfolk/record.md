@@ -40,3 +40,9 @@ Elders in each steading. The god refused a throne and a priesthood and hopes for
 
 ## How the god meets them
 Already there, with their own history, not waiting. Reconciled with the deep history: nothing in it forbids the meeting. The god lands in early spring above Topsteading, the passes still shut, the granaries at their lowest of the year.
+
+## What they know of the land
+
+By `map.json` id. Released to the god as it is told; raised on its map only then.
+
+Reported (they go there): stair, hask, upper-ennvale, stair-heights, high-stair, hask-steadings, all six steadings. Rumored: the Underskarn track west to the salt people (underskarn, sallow, brinehall); Ennvale and "the lake people who had a god" (ennvale, fallwater, enner); the Backlands over the High Stair (off the sheet); a dry mountain far east that ravens will not land on (vorn-peak); a deep wood east (skarnwood).

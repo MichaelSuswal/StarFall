@@ -1,0 +1,38 @@
+{
+ "campaign": "sim-01",
+ "regions": {
+  "edge": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "hallwood": {
+   "grade": "reported",
+   "source": "seen from the edge",
+   "year": 1,
+   "told": {
+    "terrain": "forest"
+   }
+  },
+  "sere-grass": {
+   "grade": "reported",
+   "source": "seen from the edge",
+   "year": 1,
+   "told": {
+    "terrain": "steppe"
+   }
+  }
+ },
+ "features": {
+  "antlerhall": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "edge-mounds": {
+   "grade": "reported",
+   "source": "seen from the edge",
+   "year": 1
+  }
+ }
+}

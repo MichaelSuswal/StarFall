@@ -18,7 +18,7 @@ Waking seasons are personal and are kept per god on each sheet. The player wakes
 
 ## Magic
 
-Level: 5 on a scale where 1 is a rumor most people doubt and 10 is a wise-woman in every valley. Provisional until the star's range is rolled on Night 3; if 5 falls outside the range it clamps to the nearest end and the clamp is logged. At 5, taken across the whole world, a mortal with the gift is found in something under half of the valleys, known by name where she is, sought out and a little feared, and doubted by people who live a few valleys off.
+Level: 2 after the Night 3 clamp (the blend was 5; the star's rain density of 1 allows 1 to 2; keeper log, step 3.4). The Night 1 text is kept below as blended. Level as blended: 5 on a scale where 1 is a rumor most people doubt and 10 is a wise-woman in every valley. Provisional until the star's range is rolled on Night 3; if 5 falls outside the range it clamps to the nearest end and the clamp is logged. At 5, taken across the whole world, a mortal with the gift is found in something under half of the valleys, known by name where she is, sought out and a little feared, and doubted by people who live a few valleys off.
 
 Spread: one rule, unevenly spread. Most people in most places doubt it; in some places everyone knows someone. The unevenness follows the deep lore, not any wish.
 
@@ -185,3 +185,7 @@ Truths about a god's own past are served by the secret backstories on Night 2.
 ## Left out
 
 Listed with reasons in the keeper log, step 1.4, under "Left out, and why".
+
+## Night 3 note
+
+This draft is superseded by `world-bible.md`. Every candidate marked unplaced above was placed, or left out, on Night 3; the keeper log lists each.

@@ -90,4 +90,4 @@ Bought: Holding in, with no limit on how long it is held.
 
 ## Ceiling
 
-pending Night 3
+Set by the world. Not shown. The number is in the sealed file beside the hidden powers.

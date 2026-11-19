@@ -38,6 +38,21 @@
      233,
      0
     ]
+   ],
+   "elevation": "very high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "skarn-sallow",
+     "miles": 286,
+     "days": 35.8
+    },
+    {
+     "id": "underskarn-west",
+     "miles": 156,
+     "days": 15.6
+    }
    ]
   },
   {
@@ -65,6 +80,31 @@
      347,
      0
     ]
+   ],
+   "elevation": "very high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "skarn-high",
+     "miles": 335,
+     "days": 41.9
+    },
+    {
+     "id": "skarn-west",
+     "miles": 286,
+     "days": 35.8
+    },
+    {
+     "id": "underskarn",
+     "miles": 198,
+     "days": 19.8
+    },
+    {
+     "id": "underskarn-west",
+     "miles": 284,
+     "days": 28.4
+    }
    ]
   },
   {
@@ -112,6 +152,41 @@
      644,
      0
     ]
+   ],
+   "elevation": "very high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "hask",
+     "miles": 256,
+     "days": 23.2
+    },
+    {
+     "id": "skarn-east",
+     "miles": 311,
+     "days": 38.9
+    },
+    {
+     "id": "skarn-sallow",
+     "miles": 335,
+     "days": 41.9
+    },
+    {
+     "id": "skarnwood",
+     "miles": 369,
+     "days": 41.0
+    },
+    {
+     "id": "stair-heights",
+     "miles": 137,
+     "days": 17.1
+    },
+    {
+     "id": "underskarn",
+     "miles": 272,
+     "days": 27.2
+    }
    ]
   },
   {
@@ -143,6 +218,26 @@
      749,
      0
     ]
+   ],
+   "elevation": "very high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "skarn-high",
+     "miles": 311,
+     "days": 38.9
+    },
+    {
+     "id": "skarnwood",
+     "miles": 165,
+     "days": 18.4
+    },
+    {
+     "id": "vorn",
+     "miles": 192,
+     "days": 23.9
+    }
    ]
   },
   {
@@ -171,7 +266,32 @@
      0
     ]
    ],
-   "notes": "No springs on it. The Abiders' mountain."
+   "notes": "No springs on it. The Abiders' mountain.",
+   "elevation": "very high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "deep-dimmet",
+     "miles": 240,
+     "days": 26.6
+    },
+    {
+     "id": "skarn-east",
+     "miles": 192,
+     "days": 23.9
+    },
+    {
+     "id": "skarn-far",
+     "miles": 216,
+     "days": 27.1
+    },
+    {
+     "id": "skarnwood",
+     "miles": 239,
+     "days": 26.6
+    }
+   ]
   },
   {
    "id": "skarn-far",
@@ -198,6 +318,21 @@
      1024,
      0
     ]
+   ],
+   "elevation": "very high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "deep-dimmet",
+     "miles": 193,
+     "days": 21.4
+    },
+    {
+     "id": "vorn",
+     "miles": 216,
+     "days": 27.1
+    }
    ]
   },
   {
@@ -253,6 +388,36 @@
      115,
      105
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "north-moors",
+     "miles": 120,
+     "days": 10.9
+    },
+    {
+     "id": "sallow",
+     "miles": 295,
+     "days": 26.8
+    },
+    {
+     "id": "skarn-sallow",
+     "miles": 284,
+     "days": 28.4
+    },
+    {
+     "id": "skarn-west",
+     "miles": 156,
+     "days": 15.6
+    },
+    {
+     "id": "underskarn",
+     "miles": 365,
+     "days": 30.4
+    }
    ]
   },
   {
@@ -313,7 +478,47 @@
      106
     ]
    ],
-   "notes": "The foothill track from the Sallow to Stair runs here."
+   "notes": "The foothill track from the Sallow to Stair runs here.",
+   "elevation": "middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "dun-levels",
+     "miles": 241,
+     "days": 18.6
+    },
+    {
+     "id": "harrow-fell",
+     "miles": 153,
+     "days": 12.8
+    },
+    {
+     "id": "sallow",
+     "miles": 164,
+     "days": 14.9
+    },
+    {
+     "id": "skarn-high",
+     "miles": 272,
+     "days": 27.2
+    },
+    {
+     "id": "skarn-sallow",
+     "miles": 198,
+     "days": 19.8
+    },
+    {
+     "id": "stair-heights",
+     "miles": 222,
+     "days": 22.2
+    },
+    {
+     "id": "underskarn-west",
+     "miles": 365,
+     "days": 30.4
+    }
+   ]
   },
   {
    "id": "stair-heights",
@@ -349,7 +554,37 @@
      160
     ]
    ],
-   "notes": "g1-stone lands here."
+   "notes": "g1-stone lands here.",
+   "elevation": "very high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "dun-levels",
+     "miles": 243,
+     "days": 22.0
+    },
+    {
+     "id": "hask",
+     "miles": 159,
+     "days": 14.4
+    },
+    {
+     "id": "skarn-high",
+     "miles": 137,
+     "days": 17.1
+    },
+    {
+     "id": "stair",
+     "miles": 101,
+     "days": 9.2
+    },
+    {
+     "id": "underskarn",
+     "miles": 222,
+     "days": 22.2
+    }
+   ]
   },
   {
    "id": "stair",
@@ -373,7 +608,34 @@
      235
     ]
    ],
-   "notes": "The Stairfolk."
+   "notes": "The Stairfolk.",
+   "elevation": "low to middling",
+   "water": [
+    "the Stair Water"
+   ],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "dun-levels",
+     "miles": 174,
+     "days": 12.4
+    },
+    {
+     "id": "hask",
+     "miles": 112,
+     "days": 8.0
+    },
+    {
+     "id": "stair-heights",
+     "miles": 101,
+     "days": 9.2
+    },
+    {
+     "id": "upper-ennvale",
+     "miles": 110,
+     "days": 7.8
+    }
+   ]
   },
   {
    "id": "hask",
@@ -405,7 +667,42 @@
      130
     ]
    ],
-   "notes": "Dead since the Winter of the Shut Stair."
+   "notes": "Dead since the Winter of the Shut Stair.",
+   "elevation": "low to middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "skarn-high",
+     "miles": 256,
+     "days": 23.2
+    },
+    {
+     "id": "skarnwood",
+     "miles": 183,
+     "days": 15.2
+    },
+    {
+     "id": "stair",
+     "miles": 112,
+     "days": 8.0
+    },
+    {
+     "id": "stair-heights",
+     "miles": 159,
+     "days": 14.4
+    },
+    {
+     "id": "upper-ennvale",
+     "miles": 137,
+     "days": 9.8
+    },
+    {
+     "id": "wester-dimmet",
+     "miles": 168,
+     "days": 14.0
+    }
+   ]
   },
   {
    "id": "upper-ennvale",
@@ -440,6 +737,49 @@
      611,
      251
     ]
+   ],
+   "elevation": "low to middling",
+   "water": [
+    "the Stair Water",
+    "the Enn"
+   ],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "dun-levels",
+     "miles": 165,
+     "days": 11.8
+    },
+    {
+     "id": "ennvale",
+     "miles": 143,
+     "days": 10.2
+    },
+    {
+     "id": "hask",
+     "miles": 137,
+     "days": 9.8
+    },
+    {
+     "id": "norther-ennerwold",
+     "miles": 188,
+     "days": 14.5
+    },
+    {
+     "id": "stair",
+     "miles": 110,
+     "days": 7.8
+    },
+    {
+     "id": "wester-dimmet",
+     "miles": 206,
+     "days": 17.2
+    },
+    {
+     "id": "wester-edge",
+     "miles": 234,
+     "days": 19.5
+    }
    ]
   },
   {
@@ -475,6 +815,28 @@
      551,
      310
     ]
+   ],
+   "elevation": "low to middling",
+   "water": [
+    "the Enn"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "dun-levels",
+     "miles": 130,
+     "days": 9.3
+    },
+    {
+     "id": "norther-ennerwold",
+     "miles": 65,
+     "days": 5.0
+    },
+    {
+     "id": "upper-ennvale",
+     "miles": 143,
+     "days": 10.2
+    }
    ]
   },
   {
@@ -522,6 +884,46 @@
      787,
      192
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "deep-dimmet",
+     "miles": 328,
+     "days": 32.8
+    },
+    {
+     "id": "hallwood",
+     "miles": 185,
+     "days": 18.5
+    },
+    {
+     "id": "hask",
+     "miles": 183,
+     "days": 15.2
+    },
+    {
+     "id": "skarn-east",
+     "miles": 165,
+     "days": 18.4
+    },
+    {
+     "id": "skarn-high",
+     "miles": 369,
+     "days": 41.0
+    },
+    {
+     "id": "vorn",
+     "miles": 239,
+     "days": 26.6
+    },
+    {
+     "id": "wester-dimmet",
+     "miles": 131,
+     "days": 13.1
+    }
    ]
   },
   {
@@ -565,6 +967,41 @@
      874,
      113
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "easter-dimmet",
+     "miles": 183,
+     "days": 18.3
+    },
+    {
+     "id": "easter-edge",
+     "miles": 188,
+     "days": 18.8
+    },
+    {
+     "id": "hallwood",
+     "miles": 220,
+     "days": 22.0
+    },
+    {
+     "id": "skarn-far",
+     "miles": 193,
+     "days": 21.4
+    },
+    {
+     "id": "skarnwood",
+     "miles": 328,
+     "days": 32.8
+    },
+    {
+     "id": "vorn",
+     "miles": 240,
+     "days": 26.6
+    }
    ]
   },
   {
@@ -588,6 +1025,26 @@
      1024,
      321
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "deep-dimmet",
+     "miles": 183,
+     "days": 18.3
+    },
+    {
+     "id": "easter-edge",
+     "miles": 153,
+     "days": 15.3
+    },
+    {
+     "id": "sere-grass",
+     "miles": 226,
+     "days": 18.8
+    }
    ]
   },
   {
@@ -623,6 +1080,41 @@
      832,
      271
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "deep-dimmet",
+     "miles": 220,
+     "days": 22.0
+    },
+    {
+     "id": "easter-edge",
+     "miles": 192,
+     "days": 19.2
+    },
+    {
+     "id": "edge",
+     "miles": 97,
+     "days": 9.7
+    },
+    {
+     "id": "skarnwood",
+     "miles": 185,
+     "days": 18.5
+    },
+    {
+     "id": "wester-dimmet",
+     "miles": 171,
+     "days": 17.1
+    },
+    {
+     "id": "wester-edge",
+     "miles": 181,
+     "days": 18.1
+    }
    ]
   },
   {
@@ -662,6 +1154,36 @@
      733,
      262
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "hallwood",
+     "miles": 171,
+     "days": 17.1
+    },
+    {
+     "id": "hask",
+     "miles": 168,
+     "days": 14.0
+    },
+    {
+     "id": "skarnwood",
+     "miles": 131,
+     "days": 13.1
+    },
+    {
+     "id": "upper-ennvale",
+     "miles": 206,
+     "days": 17.2
+    },
+    {
+     "id": "wester-edge",
+     "miles": 104,
+     "days": 10.4
+    }
    ]
   },
   {
@@ -686,7 +1208,32 @@
      330
     ]
    ],
-   "notes": "g7-beasts lands here. The Edgefolk."
+   "notes": "g7-beasts lands here. The Edgefolk.",
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "easter-edge",
+     "miles": 152,
+     "days": 15.2
+    },
+    {
+     "id": "hallwood",
+     "miles": 97,
+     "days": 9.7
+    },
+    {
+     "id": "sere-grass",
+     "miles": 193,
+     "days": 16.1
+    },
+    {
+     "id": "wester-edge",
+     "miles": 172,
+     "days": 17.2
+    }
+   ]
   },
   {
    "id": "wester-edge",
@@ -733,6 +1280,46 @@
      701,
      286
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "edge",
+     "miles": 172,
+     "days": 17.2
+    },
+    {
+     "id": "hallwood",
+     "miles": 181,
+     "days": 18.1
+    },
+    {
+     "id": "norther-ennerwold",
+     "miles": 289,
+     "days": 26.2
+    },
+    {
+     "id": "sere-grass",
+     "miles": 345,
+     "days": 28.7
+    },
+    {
+     "id": "upper-ennvale",
+     "miles": 234,
+     "days": 19.5
+    },
+    {
+     "id": "wester-dimmet",
+     "miles": 104,
+     "days": 10.4
+    },
+    {
+     "id": "wester-grass",
+     "miles": 140,
+     "days": 11.7
+    }
    ]
   },
   {
@@ -784,6 +1371,43 @@
      931,
      349
     ]
+   ],
+   "elevation": "middling",
+   "water": [
+    "the Tarrow"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "deep-dimmet",
+     "miles": 188,
+     "days": 18.8
+    },
+    {
+     "id": "easter-dimmet",
+     "miles": 153,
+     "days": 15.3
+    },
+    {
+     "id": "edge",
+     "miles": 152,
+     "days": 15.2
+    },
+    {
+     "id": "hallwood",
+     "miles": 192,
+     "days": 19.2
+    },
+    {
+     "id": "lake-sere",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "sere-grass",
+     "miles": 126,
+     "days": 10.5
+    }
    ]
   },
   {
@@ -884,7 +1508,49 @@
      392
     ]
    ],
-   "notes": "Tarsk wintering ground."
+   "notes": "Tarsk wintering ground.",
+   "elevation": "high plain",
+   "water": [
+    "the Tarrow"
+   ],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "easter-dimmet",
+     "miles": 226,
+     "days": 18.8
+    },
+    {
+     "id": "easter-edge",
+     "miles": 126,
+     "days": 10.5
+    },
+    {
+     "id": "edge",
+     "miles": 193,
+     "days": 16.1
+    },
+    {
+     "id": "high-grass",
+     "miles": 111,
+     "days": 7.9
+    },
+    {
+     "id": "lake-sere",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-edge",
+     "miles": 345,
+     "days": 28.7
+    },
+    {
+     "id": "wester-grass",
+     "miles": 290,
+     "days": 20.7
+    }
+   ]
   },
   {
    "id": "wester-grass",
@@ -935,6 +1601,41 @@
      696,
      322
     ]
+   ],
+   "elevation": "high plain",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "easter-ennerwold",
+     "miles": 152,
+     "days": 11.7
+    },
+    {
+     "id": "high-grass",
+     "miles": 309,
+     "days": 22.1
+    },
+    {
+     "id": "norther-ennerwold",
+     "miles": 304,
+     "days": 23.4
+    },
+    {
+     "id": "sere-grass",
+     "miles": 290,
+     "days": 20.7
+    },
+    {
+     "id": "south-grass",
+     "miles": 242,
+     "days": 17.3
+    },
+    {
+     "id": "wester-edge",
+     "miles": 140,
+     "days": 11.7
+    }
    ]
   },
   {
@@ -986,6 +1687,36 @@
      1024,
      434
     ]
+   ],
+   "elevation": "high plain",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "far-grass",
+     "miles": 172,
+     "days": 12.3
+    },
+    {
+     "id": "norther-folds",
+     "miles": 163,
+     "days": 12.5
+    },
+    {
+     "id": "sere-grass",
+     "miles": 111,
+     "days": 7.9
+    },
+    {
+     "id": "south-grass",
+     "miles": 182,
+     "days": 13.0
+    },
+    {
+     "id": "wester-grass",
+     "miles": 309,
+     "days": 22.1
+    }
    ]
   },
   {
@@ -1013,6 +1744,31 @@
      1024,
      567
     ]
+   ],
+   "elevation": "high plain",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "folds",
+     "miles": 160,
+     "days": 11.4
+    },
+    {
+     "id": "high-grass",
+     "miles": 172,
+     "days": 12.3
+    },
+    {
+     "id": "ishe-reach",
+     "miles": 191,
+     "days": 13.6
+    },
+    {
+     "id": "norther-folds",
+     "miles": 142,
+     "days": 10.9
+    }
    ]
   },
   {
@@ -1056,6 +1812,36 @@
      748,
      467
     ]
+   ],
+   "elevation": "high plain",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "easter-ennerwold",
+     "miles": 196,
+     "days": 15.1
+    },
+    {
+     "id": "easter-marches",
+     "miles": 137,
+     "days": 9.8
+    },
+    {
+     "id": "high-grass",
+     "miles": 182,
+     "days": 13.0
+    },
+    {
+     "id": "norther-folds",
+     "miles": 165,
+     "days": 12.7
+    },
+    {
+     "id": "wester-grass",
+     "miles": 242,
+     "days": 17.3
+    }
    ]
   },
   {
@@ -1107,6 +1893,36 @@
      0,
      159
     ]
+   ],
+   "elevation": "high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "far-moors",
+     "miles": 154,
+     "days": 15.4
+    },
+    {
+     "id": "pass-tops",
+     "miles": 243,
+     "days": 24.3
+    },
+    {
+     "id": "sallow",
+     "miles": 312,
+     "days": 31.2
+    },
+    {
+     "id": "underskarn-west",
+     "miles": 120,
+     "days": 10.9
+    },
+    {
+     "id": "windlow",
+     "miles": 173,
+     "days": 17.3
+    }
    ]
   },
   {
@@ -1171,7 +1987,49 @@
      188
     ]
    ],
-   "notes": "The Sallowmen."
+   "notes": "The Sallowmen.",
+   "elevation": "high",
+   "water": [
+    "the Brine Mere"
+   ],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "carrowfoot",
+     "miles": 162,
+     "days": 13.5
+    },
+    {
+     "id": "harrow-fell",
+     "miles": 164,
+     "days": 14.9
+    },
+    {
+     "id": "north-moors",
+     "miles": 312,
+     "days": 31.2
+    },
+    {
+     "id": "pass-tops",
+     "miles": 98,
+     "days": 9.8
+    },
+    {
+     "id": "sallowdown",
+     "miles": 154,
+     "days": 12.8
+    },
+    {
+     "id": "underskarn",
+     "miles": 164,
+     "days": 14.9
+    },
+    {
+     "id": "underskarn-west",
+     "miles": 295,
+     "days": 26.8
+    }
+   ]
   },
   {
    "id": "sallowdown",
@@ -1222,6 +2080,51 @@
      318,
      291
     ]
+   ],
+   "elevation": "low",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "carrowfoot",
+     "miles": 145,
+     "days": 10.4
+    },
+    {
+     "id": "dun-levels",
+     "miles": 189,
+     "days": 13.5
+    },
+    {
+     "id": "harrow-fell",
+     "miles": 157,
+     "days": 12.0
+    },
+    {
+     "id": "norther-ennerwold",
+     "miles": 308,
+     "days": 23.7
+    },
+    {
+     "id": "sallow",
+     "miles": 154,
+     "days": 12.8
+    },
+    {
+     "id": "wend-heads",
+     "miles": 113,
+     "days": 8.7
+    },
+    {
+     "id": "wendvale",
+     "miles": 153,
+     "days": 10.9
+    },
+    {
+     "id": "wester-ennerwold",
+     "miles": 248,
+     "days": 19.1
+    }
    ]
   },
   {
@@ -1249,6 +2152,31 @@
      433,
      273
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "dun-levels",
+     "miles": 97,
+     "days": 7.5
+    },
+    {
+     "id": "sallow",
+     "miles": 164,
+     "days": 14.9
+    },
+    {
+     "id": "sallowdown",
+     "miles": 157,
+     "days": 12.0
+    },
+    {
+     "id": "underskarn",
+     "miles": 153,
+     "days": 12.8
+    }
    ]
   },
   {
@@ -1300,6 +2228,51 @@
      505,
      235
     ]
+   ],
+   "elevation": "low",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "ennvale",
+     "miles": 130,
+     "days": 9.3
+    },
+    {
+     "id": "harrow-fell",
+     "miles": 97,
+     "days": 7.5
+    },
+    {
+     "id": "norther-ennerwold",
+     "miles": 192,
+     "days": 14.8
+    },
+    {
+     "id": "sallowdown",
+     "miles": 189,
+     "days": 13.5
+    },
+    {
+     "id": "stair",
+     "miles": 174,
+     "days": 12.4
+    },
+    {
+     "id": "stair-heights",
+     "miles": 243,
+     "days": 22.0
+    },
+    {
+     "id": "underskarn",
+     "miles": 241,
+     "days": 18.6
+    },
+    {
+     "id": "upper-ennvale",
+     "miles": 165,
+     "days": 11.8
+    }
    ]
   },
   {
@@ -1332,7 +2305,37 @@
      256
     ]
    ],
-   "notes": "The Carrow Pass and the slab cairns."
+   "notes": "The Carrow Pass and the slab cairns.",
+   "elevation": "high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "carrow",
+     "miles": 49,
+     "days": 4.1
+    },
+    {
+     "id": "carrowfoot",
+     "miles": 89,
+     "days": 7.4
+    },
+    {
+     "id": "north-moors",
+     "miles": 243,
+     "days": 24.3
+    },
+    {
+     "id": "sallow",
+     "miles": 98,
+     "days": 9.8
+    },
+    {
+     "id": "windlow",
+     "miles": 92,
+     "days": 9.2
+    }
+   ]
   },
   {
    "id": "carrow",
@@ -1356,7 +2359,34 @@
      326
     ]
    ],
-   "notes": "The player lands at its head. The Carrowfolk."
+   "notes": "The player lands at its head. The Carrowfolk.",
+   "elevation": "low to middling",
+   "water": [
+    "the Carrow Water"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "broken-hills",
+     "miles": 120,
+     "days": 9.3
+    },
+    {
+     "id": "carrowfoot",
+     "miles": 53,
+     "days": 3.8
+    },
+    {
+     "id": "pass-tops",
+     "miles": 49,
+     "days": 4.1
+    },
+    {
+     "id": "windlow",
+     "miles": 70,
+     "days": 5.8
+    }
+   ]
   },
   {
    "id": "windlow",
@@ -1388,7 +2418,37 @@
      259
     ]
    ],
-   "notes": "The High Road and the Shut House."
+   "notes": "The High Road and the Shut House.",
+   "elevation": "high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "broken-hills",
+     "miles": 83,
+     "days": 7.5
+    },
+    {
+     "id": "carrow",
+     "miles": 70,
+     "days": 5.8
+    },
+    {
+     "id": "far-moors",
+     "miles": 211,
+     "days": 21.1
+    },
+    {
+     "id": "north-moors",
+     "miles": 173,
+     "days": 17.3
+    },
+    {
+     "id": "pass-tops",
+     "miles": 92,
+     "days": 9.2
+    }
+   ]
   },
   {
    "id": "carrowfoot",
@@ -1431,6 +2491,48 @@
      279,
      304
     ]
+   ],
+   "elevation": "low to middling",
+   "water": [
+    "the Lower Carrow Water"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "broken-hills",
+     "miles": 138,
+     "days": 10.6
+    },
+    {
+     "id": "carrow",
+     "miles": 53,
+     "days": 3.8
+    },
+    {
+     "id": "moorfoot",
+     "miles": 164,
+     "days": 12.6
+    },
+    {
+     "id": "pass-tops",
+     "miles": 89,
+     "days": 7.4
+    },
+    {
+     "id": "sallow",
+     "miles": 162,
+     "days": 13.5
+    },
+    {
+     "id": "sallowdown",
+     "miles": 145,
+     "days": 10.4
+    },
+    {
+     "id": "wend-heads",
+     "miles": 71,
+     "days": 5.5
+    }
    ]
   },
   {
@@ -1470,6 +2572,36 @@
      181,
      316
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "carrow",
+     "miles": 120,
+     "days": 9.3
+    },
+    {
+     "id": "carrowfoot",
+     "miles": 138,
+     "days": 10.6
+    },
+    {
+     "id": "far-moors",
+     "miles": 168,
+     "days": 15.3
+    },
+    {
+     "id": "moorfoot",
+     "miles": 78,
+     "days": 6.5
+    },
+    {
+     "id": "windlow",
+     "miles": 83,
+     "days": 7.5
+    }
    ]
   },
   {
@@ -1517,6 +2649,36 @@
      155,
      269
     ]
+   ],
+   "elevation": "high",
+   "water": [],
+   "climate": "hardest: winter five months or more",
+   "neighbors": [
+    {
+     "id": "broken-hills",
+     "miles": 168,
+     "days": 15.3
+    },
+    {
+     "id": "moorfoot",
+     "miles": 196,
+     "days": 17.8
+    },
+    {
+     "id": "north-moors",
+     "miles": 154,
+     "days": 15.4
+    },
+    {
+     "id": "wester-holt",
+     "miles": 210,
+     "days": 21.0
+    },
+    {
+     "id": "windlow",
+     "miles": 211,
+     "days": 21.1
+    }
    ]
   },
   {
@@ -1540,6 +2702,34 @@
      282,
      332
     ]
+   ],
+   "elevation": "middling",
+   "water": [
+    "the Lower Carrow Water",
+    "the Wend"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "carrowfoot",
+     "miles": 71,
+     "days": 5.5
+    },
+    {
+     "id": "moorfoot",
+     "miles": 192,
+     "days": 16.0
+    },
+    {
+     "id": "sallowdown",
+     "miles": 113,
+     "days": 8.7
+    },
+    {
+     "id": "wendvale",
+     "miles": 81,
+     "days": 6.2
+    }
    ]
   },
   {
@@ -1587,6 +2777,43 @@
      347,
      403
     ]
+   ],
+   "elevation": "low to middling",
+   "water": [
+    "the Wend"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corr-gorge",
+     "miles": 98,
+     "days": 7.5
+    },
+    {
+     "id": "holt",
+     "miles": 175,
+     "days": 14.6
+    },
+    {
+     "id": "moorfoot",
+     "miles": 221,
+     "days": 17.0
+    },
+    {
+     "id": "sallowdown",
+     "miles": 153,
+     "days": 10.9
+    },
+    {
+     "id": "wend-heads",
+     "miles": 81,
+     "days": 6.2
+    },
+    {
+     "id": "wester-ennerwold",
+     "miles": 158,
+     "days": 12.2
+    }
    ]
   },
   {
@@ -1654,6 +2881,46 @@
      97,
      332
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "broken-hills",
+     "miles": 78,
+     "days": 6.5
+    },
+    {
+     "id": "carrowfoot",
+     "miles": 164,
+     "days": 12.6
+    },
+    {
+     "id": "far-moors",
+     "miles": 196,
+     "days": 17.8
+    },
+    {
+     "id": "holt",
+     "miles": 139,
+     "days": 12.7
+    },
+    {
+     "id": "wend-heads",
+     "miles": 192,
+     "days": 16.0
+    },
+    {
+     "id": "wendvale",
+     "miles": 221,
+     "days": 17.0
+    },
+    {
+     "id": "wester-holt",
+     "miles": 182,
+     "days": 16.5
+    }
    ]
   },
   {
@@ -1709,6 +2976,41 @@
      166,
      398
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corr-gorge",
+     "miles": 157,
+     "days": 14.2
+    },
+    {
+     "id": "corrford",
+     "miles": 180,
+     "days": 15.0
+    },
+    {
+     "id": "moorfoot",
+     "miles": 139,
+     "days": 12.7
+    },
+    {
+     "id": "rust-hills",
+     "miles": 140,
+     "days": 12.7
+    },
+    {
+     "id": "wendvale",
+     "miles": 175,
+     "days": 14.6
+    },
+    {
+     "id": "wester-holt",
+     "miles": 215,
+     "days": 21.5
+    }
    ]
   },
   {
@@ -1748,6 +3050,36 @@
      64,
      375
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "far-moors",
+     "miles": 210,
+     "days": 21.0
+    },
+    {
+     "id": "holt",
+     "miles": 215,
+     "days": 21.5
+    },
+    {
+     "id": "moorfoot",
+     "miles": 182,
+     "days": 16.5
+    },
+    {
+     "id": "rust-hills",
+     "miles": 242,
+     "days": 22.0
+    },
+    {
+     "id": "wester-breaks",
+     "miles": 244,
+     "days": 22.2
+    }
    ]
   },
   {
@@ -1775,6 +3107,34 @@
      330,
      488
     ]
+   ],
+   "elevation": "middling",
+   "water": [
+    "the Wend",
+    "the Corr"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corrford",
+     "miles": 82,
+     "days": 6.3
+    },
+    {
+     "id": "holt",
+     "miles": 157,
+     "days": 14.2
+    },
+    {
+     "id": "wendvale",
+     "miles": 98,
+     "days": 7.5
+    },
+    {
+     "id": "wester-ennerwold",
+     "miles": 116,
+     "days": 9.6
+    }
    ]
   },
   {
@@ -1803,7 +3163,39 @@
      539
     ]
    ],
-   "notes": "g2-law lands here. The Sworn."
+   "notes": "g2-law lands here. The Sworn.",
+   "elevation": "low to middling",
+   "water": [
+    "the Corr"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corr-gorge",
+     "miles": 82,
+     "days": 6.3
+    },
+    {
+     "id": "corr-plain",
+     "miles": 148,
+     "days": 10.6
+    },
+    {
+     "id": "holt",
+     "miles": 180,
+     "days": 15.0
+    },
+    {
+     "id": "rust-hills",
+     "miles": 188,
+     "days": 14.4
+    },
+    {
+     "id": "wester-ennerwold",
+     "miles": 140,
+     "days": 10.8
+    }
+   ]
   },
   {
    "id": "rust-hills",
@@ -1858,6 +3250,41 @@
      100,
      493
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corr-plain",
+     "miles": 274,
+     "days": 21.1
+    },
+    {
+     "id": "corrford",
+     "miles": 188,
+     "days": 14.4
+    },
+    {
+     "id": "holt",
+     "miles": 140,
+     "days": 12.7
+    },
+    {
+     "id": "low-breaks",
+     "miles": 149,
+     "days": 12.4
+    },
+    {
+     "id": "wester-breaks",
+     "miles": 212,
+     "days": 17.7
+    },
+    {
+     "id": "wester-holt",
+     "miles": 242,
+     "days": 22.0
+    }
    ]
   },
   {
@@ -1893,6 +3320,31 @@
      90,
      502
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "low-breaks",
+     "miles": 244,
+     "days": 20.3
+    },
+    {
+     "id": "murk-shore",
+     "miles": 208,
+     "days": 16.0
+    },
+    {
+     "id": "rust-hills",
+     "miles": 212,
+     "days": 17.7
+    },
+    {
+     "id": "wester-holt",
+     "miles": 244,
+     "days": 22.2
+    }
    ]
   },
   {
@@ -1944,6 +3396,41 @@
      298,
      639
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corr-plain",
+     "miles": 224,
+     "days": 17.3
+    },
+    {
+     "id": "cuts",
+     "miles": 185,
+     "days": 20.5
+    },
+    {
+     "id": "murk-shore",
+     "miles": 209,
+     "days": 16.1
+    },
+    {
+     "id": "rust-hills",
+     "miles": 149,
+     "days": 12.4
+    },
+    {
+     "id": "sarnvale",
+     "miles": 159,
+     "days": 12.2
+    },
+    {
+     "id": "wester-breaks",
+     "miles": 244,
+     "days": 20.3
+    }
    ]
   },
   {
@@ -1991,6 +3478,54 @@
      326,
      540
     ]
+   ],
+   "elevation": "low",
+   "water": [
+    "the Corr",
+    "the Sarn"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corrford",
+     "miles": 148,
+     "days": 10.6
+    },
+    {
+     "id": "low-breaks",
+     "miles": 224,
+     "days": 17.3
+    },
+    {
+     "id": "rust-hills",
+     "miles": 274,
+     "days": 21.1
+    },
+    {
+     "id": "sarn-rim",
+     "miles": 151,
+     "days": 11.7
+    },
+    {
+     "id": "sarnvale",
+     "miles": 173,
+     "days": 12.3
+    },
+    {
+     "id": "upper-plain",
+     "miles": 288,
+     "days": 20.6
+    },
+    {
+     "id": "wester-ennerwold",
+     "miles": 205,
+     "days": 15.8
+    },
+    {
+     "id": "westwild",
+     "miles": 249,
+     "days": 20.8
+    }
    ]
   },
   {
@@ -2059,7 +3594,52 @@
      384
     ]
    ],
-   "notes": "Ennermere."
+   "notes": "Ennermere.",
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corr-gorge",
+     "miles": 116,
+     "days": 9.6
+    },
+    {
+     "id": "corr-plain",
+     "miles": 205,
+     "days": 15.8
+    },
+    {
+     "id": "corrford",
+     "miles": 140,
+     "days": 10.8
+    },
+    {
+     "id": "lake-enner",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "norther-ennerwold",
+     "miles": 302,
+     "days": 25.2
+    },
+    {
+     "id": "sallowdown",
+     "miles": 248,
+     "days": 19.1
+    },
+    {
+     "id": "sarn-rim",
+     "miles": 191,
+     "days": 15.9
+    },
+    {
+     "id": "wendvale",
+     "miles": 158,
+     "days": 12.2
+    }
+   ]
   },
   {
    "id": "norther-ennerwold",
@@ -2143,7 +3723,59 @@
      384
     ]
    ],
-   "notes": "Ennermere. The Sighting Stones and the Leaf Halls."
+   "notes": "Ennermere. The Sighting Stones and the Leaf Halls.",
+   "elevation": "middling",
+   "water": [
+    "the Enn"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "dun-levels",
+     "miles": 192,
+     "days": 14.8
+    },
+    {
+     "id": "easter-ennerwold",
+     "miles": 310,
+     "days": 25.8
+    },
+    {
+     "id": "ennvale",
+     "miles": 65,
+     "days": 5.0
+    },
+    {
+     "id": "lake-enner",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "sallowdown",
+     "miles": 308,
+     "days": 23.7
+    },
+    {
+     "id": "upper-ennvale",
+     "miles": 188,
+     "days": 14.5
+    },
+    {
+     "id": "wester-edge",
+     "miles": 289,
+     "days": 26.2
+    },
+    {
+     "id": "wester-ennerwold",
+     "miles": 302,
+     "days": 25.2
+    },
+    {
+     "id": "wester-grass",
+     "miles": 304,
+     "days": 23.4
+    }
+   ]
   },
   {
    "id": "easter-ennerwold",
@@ -2195,7 +3827,42 @@
      396
     ]
    ],
-   "notes": "Ennermere."
+   "notes": "Ennermere.",
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "easter-marches",
+     "miles": 241,
+     "days": 18.5
+    },
+    {
+     "id": "lake-enner",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "lave-rim",
+     "miles": 183,
+     "days": 15.3
+    },
+    {
+     "id": "norther-ennerwold",
+     "miles": 310,
+     "days": 25.8
+    },
+    {
+     "id": "south-grass",
+     "miles": 196,
+     "days": 15.1
+    },
+    {
+     "id": "wester-grass",
+     "miles": 152,
+     "days": 11.7
+    }
+   ]
   },
   {
    "id": "lave-rim",
@@ -2231,7 +3898,42 @@
      582
     ]
    ],
-   "notes": "Ennermere. The Sworn Door."
+   "notes": "Ennermere. The Sworn Door.",
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "easter-ennerwold",
+     "miles": 183,
+     "days": 15.3
+    },
+    {
+     "id": "easter-marches",
+     "miles": 248,
+     "days": 19.1
+    },
+    {
+     "id": "gap-of-enner",
+     "miles": 142,
+     "days": 11.0
+    },
+    {
+     "id": "lake-enner",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "lave-heads",
+     "miles": 136,
+     "days": 11.4
+    },
+    {
+     "id": "upper-plain",
+     "miles": 249,
+     "days": 19.1
+    }
+   ]
   },
   {
    "id": "sarn-rim",
@@ -2279,7 +3981,42 @@
      569
     ]
    ],
-   "notes": "Ennermere. The Ringing Stair."
+   "notes": "Ennermere. The Ringing Stair.",
+   "elevation": "middling",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "corr-plain",
+     "miles": 151,
+     "days": 11.7
+    },
+    {
+     "id": "gap-of-enner",
+     "miles": 192,
+     "days": 14.7
+    },
+    {
+     "id": "lake-enner",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "maundhead",
+     "miles": 140,
+     "days": 10.8
+    },
+    {
+     "id": "upper-plain",
+     "miles": 182,
+     "days": 14.0
+    },
+    {
+     "id": "wester-ennerwold",
+     "miles": 191,
+     "days": 15.9
+    }
+   ]
   },
   {
    "id": "gap-of-enner",
@@ -2323,7 +4060,39 @@
      620
     ]
    ],
-   "notes": "Ennerhold."
+   "notes": "Ennerhold.",
+   "elevation": "low to middling",
+   "water": [
+    "the Maund"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "lake-enner",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "lave-rim",
+     "miles": 142,
+     "days": 11.0
+    },
+    {
+     "id": "maundhead",
+     "miles": 95,
+     "days": 6.8
+    },
+    {
+     "id": "sarn-rim",
+     "miles": 192,
+     "days": 14.7
+    },
+    {
+     "id": "upper-plain",
+     "miles": 150,
+     "days": 10.7
+    }
+   ]
   },
   {
    "id": "murk-shore",
@@ -2374,6 +4143,41 @@
      170,
      755
     ]
+   ],
+   "elevation": "sea level",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "cuts",
+     "miles": 215,
+     "days": 21.5
+    },
+    {
+     "id": "low-breaks",
+     "miles": 209,
+     "days": 16.1
+    },
+    {
+     "id": "murk",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "murk-strand",
+     "miles": 231,
+     "days": 16.5
+    },
+    {
+     "id": "sarnmoss",
+     "miles": 282,
+     "days": 28.2
+    },
+    {
+     "id": "wester-breaks",
+     "miles": 208,
+     "days": 16.0
+    }
    ]
   },
   {
@@ -2410,7 +4214,39 @@
      759
     ]
    ],
-   "notes": "The Ribs."
+   "notes": "The Ribs.",
+   "elevation": "low to middling",
+   "water": [
+    "the Sarn"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "corr-plain",
+     "miles": 173,
+     "days": 12.3
+    },
+    {
+     "id": "cuts",
+     "miles": 116,
+     "days": 11.6
+    },
+    {
+     "id": "low-breaks",
+     "miles": 159,
+     "days": 12.2
+    },
+    {
+     "id": "sarnmoss",
+     "miles": 200,
+     "days": 20.0
+    },
+    {
+     "id": "westwild",
+     "miles": 171,
+     "days": 14.3
+    }
+   ]
   },
   {
    "id": "cuts",
@@ -2450,7 +4286,35 @@
      699
     ]
    ],
-   "notes": "g3-song lands here. The Cutfolk."
+   "notes": "g3-song lands here. The Cutfolk.",
+   "elevation": "sea level",
+   "water": [
+    "the Sarn",
+    "the Sarnmoss"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "low-breaks",
+     "miles": 185,
+     "days": 20.5
+    },
+    {
+     "id": "murk-shore",
+     "miles": 215,
+     "days": 21.5
+    },
+    {
+     "id": "sarnmoss",
+     "miles": 112,
+     "days": 18.6
+    },
+    {
+     "id": "sarnvale",
+     "miles": 116,
+     "days": 11.6
+    }
+   ]
   },
   {
    "id": "sarnmoss",
@@ -2493,6 +4357,49 @@
      172,
      754
     ]
+   ],
+   "elevation": "sea level",
+   "water": [
+    "the Sarn",
+    "the Sarnmoss"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "cuts",
+     "miles": 112,
+     "days": 18.6
+    },
+    {
+     "id": "murk-shore",
+     "miles": 282,
+     "days": 28.2
+    },
+    {
+     "id": "murk-strand",
+     "miles": 118,
+     "days": 11.8
+    },
+    {
+     "id": "sarnmouth",
+     "miles": 134,
+     "days": 13.4
+    },
+    {
+     "id": "sarnvale",
+     "miles": 200,
+     "days": 20.0
+    },
+    {
+     "id": "south-water-west",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "westwild",
+     "miles": 218,
+     "days": 27.3
+    }
    ]
   },
   {
@@ -2532,6 +4439,31 @@
      156,
      771
     ]
+   ],
+   "elevation": "sea level",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "murk",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "murk-shore",
+     "miles": 231,
+     "days": 16.5
+    },
+    {
+     "id": "sarnmoss",
+     "miles": 118,
+     "days": 11.8
+    },
+    {
+     "id": "south-water-west",
+     "days": null,
+     "by": "water"
+    }
    ]
   },
   {
@@ -2560,7 +4492,35 @@
      885
     ]
    ],
-   "notes": "The Three Havens."
+   "notes": "The Three Havens.",
+   "elevation": "sea level",
+   "water": [
+    "the Sarn",
+    "the Sarnmoss"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "sarnmoss",
+     "miles": 134,
+     "days": 13.4
+    },
+    {
+     "id": "scrub-coast",
+     "miles": 133,
+     "days": 9.5
+    },
+    {
+     "id": "south-water-west",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "westwild",
+     "miles": 179,
+     "days": 14.9
+    }
+   ]
   },
   {
    "id": "westwild",
@@ -2611,6 +4571,51 @@
      411,
      699
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "corr-plain",
+     "miles": 249,
+     "days": 20.8
+    },
+    {
+     "id": "low-plain",
+     "miles": 245,
+     "days": 20.4
+    },
+    {
+     "id": "sarnmoss",
+     "miles": 218,
+     "days": 27.3
+    },
+    {
+     "id": "sarnmouth",
+     "miles": 179,
+     "days": 14.9
+    },
+    {
+     "id": "sarnvale",
+     "miles": 171,
+     "days": 14.3
+    },
+    {
+     "id": "scrub-coast",
+     "miles": 171,
+     "days": 14.2
+    },
+    {
+     "id": "upper-plain",
+     "miles": 269,
+     "days": 22.4
+    },
+    {
+     "id": "wester-plain",
+     "miles": 101,
+     "days": 8.5
+    }
    ]
   },
   {
@@ -2642,6 +4647,41 @@
      447,
      883
     ]
+   ],
+   "elevation": "sea level",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "low-plain",
+     "miles": 167,
+     "days": 11.9
+    },
+    {
+     "id": "maundsea",
+     "miles": 159,
+     "days": 11.4
+    },
+    {
+     "id": "sarnmouth",
+     "miles": 133,
+     "days": 9.5
+    },
+    {
+     "id": "south-water",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "south-water-west",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "westwild",
+     "miles": 171,
+     "days": 14.2
+    }
    ]
   },
   {
@@ -2665,6 +4705,28 @@
      556,
      621
     ]
+   ],
+   "elevation": "low to middling",
+   "water": [
+    "the Maund"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "gap-of-enner",
+     "miles": 95,
+     "days": 6.8
+    },
+    {
+     "id": "sarn-rim",
+     "miles": 140,
+     "days": 10.8
+    },
+    {
+     "id": "upper-plain",
+     "miles": 67,
+     "days": 4.8
+    }
    ]
   },
   {
@@ -2736,6 +4798,68 @@
      603,
      691
     ]
+   ],
+   "elevation": "low",
+   "water": [
+    "the Maund"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "bankland",
+     "miles": 125,
+     "days": 8.9
+    },
+    {
+     "id": "barrow-down",
+     "miles": 168,
+     "days": 12.9
+    },
+    {
+     "id": "corr-plain",
+     "miles": 288,
+     "days": 20.6
+    },
+    {
+     "id": "gap-of-enner",
+     "miles": 150,
+     "days": 10.7
+    },
+    {
+     "id": "lave-heads",
+     "miles": 289,
+     "days": 22.2
+    },
+    {
+     "id": "lave-rim",
+     "miles": 249,
+     "days": 19.1
+    },
+    {
+     "id": "maundhead",
+     "miles": 67,
+     "days": 4.8
+    },
+    {
+     "id": "midhills",
+     "miles": 237,
+     "days": 18.3
+    },
+    {
+     "id": "sarn-rim",
+     "miles": 182,
+     "days": 14.0
+    },
+    {
+     "id": "wester-plain",
+     "miles": 180,
+     "days": 12.9
+    },
+    {
+     "id": "westwild",
+     "miles": 269,
+     "days": 22.4
+    }
    ]
   },
   {
@@ -2776,7 +4900,39 @@
      688
     ]
    ],
-   "notes": "g4-harvest lands here. The Bankfolk."
+   "notes": "g4-harvest lands here. The Bankfolk.",
+   "elevation": "low",
+   "water": [
+    "the Maund"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "barrow-down",
+     "miles": 137,
+     "days": 10.5
+    },
+    {
+     "id": "easter-plain",
+     "miles": 177,
+     "days": 12.7
+    },
+    {
+     "id": "low-plain",
+     "miles": 144,
+     "days": 10.3
+    },
+    {
+     "id": "upper-plain",
+     "miles": 125,
+     "days": 8.9
+    },
+    {
+     "id": "wester-plain",
+     "miles": 112,
+     "days": 8.0
+    }
+   ]
   },
   {
    "id": "wester-plain",
@@ -2807,6 +4963,31 @@
      461,
      712
     ]
+   ],
+   "elevation": "low",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "bankland",
+     "miles": 112,
+     "days": 8.0
+    },
+    {
+     "id": "low-plain",
+     "miles": 178,
+     "days": 12.7
+    },
+    {
+     "id": "upper-plain",
+     "miles": 180,
+     "days": 12.9
+    },
+    {
+     "id": "westwild",
+     "miles": 101,
+     "days": 8.5
+    }
    ]
   },
   {
@@ -2847,7 +5028,42 @@
      748
     ]
    ],
-   "notes": "The Three Bins."
+   "notes": "The Three Bins.",
+   "elevation": "low",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "bankland",
+     "miles": 177,
+     "days": 12.7
+    },
+    {
+     "id": "barrow-down",
+     "miles": 96,
+     "days": 7.4
+    },
+    {
+     "id": "low-plain",
+     "miles": 166,
+     "days": 11.8
+    },
+    {
+     "id": "midhills",
+     "miles": 152,
+     "days": 11.7
+    },
+    {
+     "id": "wester-lave-hills",
+     "miles": 175,
+     "days": 13.4
+    },
+    {
+     "id": "wester-long-coast",
+     "miles": 110,
+     "days": 7.9
+    }
+   ]
   },
   {
    "id": "barrow-down",
@@ -2874,6 +5090,31 @@
      602,
      692
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "bankland",
+     "miles": 137,
+     "days": 10.5
+    },
+    {
+     "id": "easter-plain",
+     "miles": 96,
+     "days": 7.4
+    },
+    {
+     "id": "midhills",
+     "miles": 106,
+     "days": 8.8
+    },
+    {
+     "id": "upper-plain",
+     "miles": 168,
+     "days": 12.9
+    }
    ]
   },
   {
@@ -2922,7 +5163,54 @@
      782
     ]
    ],
-   "notes": "Maundsea's own land."
+   "notes": "Maundsea's own land.",
+   "elevation": "low",
+   "water": [
+    "the Maund"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "bankland",
+     "miles": 144,
+     "days": 10.3
+    },
+    {
+     "id": "easter-plain",
+     "miles": 166,
+     "days": 11.8
+    },
+    {
+     "id": "maundsea",
+     "miles": 56,
+     "days": 4.0
+    },
+    {
+     "id": "scrub-coast",
+     "miles": 167,
+     "days": 11.9
+    },
+    {
+     "id": "south-water",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-long-coast",
+     "miles": 227,
+     "days": 16.2
+    },
+    {
+     "id": "wester-plain",
+     "miles": 178,
+     "days": 12.7
+    },
+    {
+     "id": "westwild",
+     "miles": 245,
+     "days": 20.4
+    }
+   ]
   },
   {
    "id": "maundsea",
@@ -2949,6 +5237,28 @@
      507,
      883
     ]
+   ],
+   "elevation": "sea level",
+   "water": [
+    "the Maund"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "low-plain",
+     "miles": 56,
+     "days": 4.0
+    },
+    {
+     "id": "scrub-coast",
+     "miles": 159,
+     "days": 11.4
+    },
+    {
+     "id": "south-water",
+     "days": null,
+     "by": "water"
+    }
    ]
   },
   {
@@ -2980,6 +5290,36 @@
      587,
      839
     ]
+   ],
+   "elevation": "sea level",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "easter-plain",
+     "miles": 110,
+     "days": 7.9
+    },
+    {
+     "id": "low-plain",
+     "miles": 227,
+     "days": 16.2
+    },
+    {
+     "id": "south-water",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "south-water-east",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-lave-hills",
+     "miles": 139,
+     "days": 10.7
+    }
    ]
   },
   {
@@ -3011,6 +5351,41 @@
      695,
      706
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "barrow-down",
+     "miles": 106,
+     "days": 8.8
+    },
+    {
+     "id": "easter-plain",
+     "miles": 152,
+     "days": 11.7
+    },
+    {
+     "id": "lave-heads",
+     "miles": 120,
+     "days": 10.0
+    },
+    {
+     "id": "lavedale",
+     "miles": 156,
+     "days": 12.0
+    },
+    {
+     "id": "upper-plain",
+     "miles": 237,
+     "days": 18.3
+    },
+    {
+     "id": "wester-lave-hills",
+     "miles": 152,
+     "days": 12.6
+    }
    ]
   },
   {
@@ -3047,7 +5422,49 @@
      657
     ]
    ],
-   "notes": "The Dry Loft."
+   "notes": "The Dry Loft.",
+   "elevation": "middling",
+   "water": [
+    "the Lave"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "braidvale",
+     "miles": 239,
+     "days": 18.4
+    },
+    {
+     "id": "easter-lave-hills",
+     "miles": 197,
+     "days": 16.4
+    },
+    {
+     "id": "easter-marches",
+     "miles": 194,
+     "days": 14.9
+    },
+    {
+     "id": "lave-rim",
+     "miles": 136,
+     "days": 11.4
+    },
+    {
+     "id": "lavedale",
+     "miles": 159,
+     "days": 12.2
+    },
+    {
+     "id": "midhills",
+     "miles": 120,
+     "days": 10.0
+    },
+    {
+     "id": "upper-plain",
+     "miles": 289,
+     "days": 22.2
+    }
+   ]
   },
   {
    "id": "lavedale",
@@ -3079,7 +5496,39 @@
      673
     ]
    ],
-   "notes": "g6-dreams lands here. The Lavefolk."
+   "notes": "g6-dreams lands here. The Lavefolk.",
+   "elevation": "low to middling",
+   "water": [
+    "the Lave"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "easter-lave-hills",
+     "miles": 94,
+     "days": 7.2
+    },
+    {
+     "id": "lave-heads",
+     "miles": 159,
+     "days": 12.2
+    },
+    {
+     "id": "lavemouths",
+     "miles": 156,
+     "days": 15.6
+    },
+    {
+     "id": "midhills",
+     "miles": 156,
+     "days": 12.0
+    },
+    {
+     "id": "wester-lave-hills",
+     "miles": 106,
+     "days": 8.1
+    }
+   ]
   },
   {
    "id": "easter-lave-hills",
@@ -3118,6 +5567,31 @@
      821,
      679
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "braidvale",
+     "miles": 88,
+     "days": 6.8
+    },
+    {
+     "id": "lave-heads",
+     "miles": 197,
+     "days": 16.4
+    },
+    {
+     "id": "lavedale",
+     "miles": 94,
+     "days": 7.2
+    },
+    {
+     "id": "lavemouths",
+     "miles": 128,
+     "days": 14.2
+    }
    ]
   },
   {
@@ -3153,6 +5627,41 @@
      750,
      800
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "easter-plain",
+     "miles": 175,
+     "days": 13.4
+    },
+    {
+     "id": "lavedale",
+     "miles": 106,
+     "days": 8.1
+    },
+    {
+     "id": "lavemouths",
+     "miles": 194,
+     "days": 21.5
+    },
+    {
+     "id": "midhills",
+     "miles": 152,
+     "days": 12.6
+    },
+    {
+     "id": "south-water-east",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-long-coast",
+     "miles": 139,
+     "days": 10.7
+    }
    ]
   },
   {
@@ -3204,6 +5713,43 @@
      801,
      601
     ]
+   ],
+   "elevation": "low to middling",
+   "water": [
+    "the Braid"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "easter-lave-hills",
+     "miles": 88,
+     "days": 6.8
+    },
+    {
+     "id": "easter-marches",
+     "miles": 144,
+     "days": 10.3
+    },
+    {
+     "id": "lave-heads",
+     "miles": 239,
+     "days": 18.4
+    },
+    {
+     "id": "lavemouths",
+     "miles": 180,
+     "days": 18.0
+    },
+    {
+     "id": "pans-coast",
+     "miles": 209,
+     "days": 14.9
+    },
+    {
+     "id": "souther-folds",
+     "miles": 180,
+     "days": 13.8
+    }
    ]
   },
   {
@@ -3255,6 +5801,50 @@
      913,
      769
     ]
+   ],
+   "elevation": "sea level",
+   "water": [
+    "the Lave",
+    "the Braid",
+    "the Lavemouths"
+   ],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "braidvale",
+     "miles": 180,
+     "days": 18.0
+    },
+    {
+     "id": "east-water",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "easter-lave-hills",
+     "miles": 128,
+     "days": 14.2
+    },
+    {
+     "id": "lavedale",
+     "miles": 156,
+     "days": 15.6
+    },
+    {
+     "id": "pans-coast",
+     "miles": 207,
+     "days": 20.7
+    },
+    {
+     "id": "south-water-east",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-lave-hills",
+     "miles": 194,
+     "days": 21.5
+    }
    ]
   },
   {
@@ -3287,7 +5877,32 @@
      707
     ]
    ],
-   "notes": "Whitepans."
+   "notes": "Whitepans.",
+   "elevation": "sea level",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "braidvale",
+     "miles": 209,
+     "days": 14.9
+    },
+    {
+     "id": "east-water",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "lavemouths",
+     "miles": 207,
+     "days": 20.7
+    },
+    {
+     "id": "souther-folds",
+     "miles": 95,
+     "days": 7.3
+    }
+   ]
   },
   {
    "id": "easter-marches",
@@ -3342,6 +5957,51 @@
      888,
      603
     ]
+   ],
+   "elevation": "low",
+   "water": [],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "braidvale",
+     "miles": 144,
+     "days": 10.3
+    },
+    {
+     "id": "easter-ennerwold",
+     "miles": 241,
+     "days": 18.5
+    },
+    {
+     "id": "folds",
+     "miles": 248,
+     "days": 17.7
+    },
+    {
+     "id": "lave-heads",
+     "miles": 194,
+     "days": 14.9
+    },
+    {
+     "id": "lave-rim",
+     "miles": 248,
+     "days": 19.1
+    },
+    {
+     "id": "norther-folds",
+     "miles": 199,
+     "days": 15.3
+    },
+    {
+     "id": "south-grass",
+     "miles": 137,
+     "days": 9.8
+    },
+    {
+     "id": "souther-folds",
+     "miles": 283,
+     "days": 21.7
+    }
    ]
   },
   {
@@ -3374,7 +6034,39 @@
      499
     ]
    ],
-   "notes": "The Debt Door."
+   "notes": "The Debt Door.",
+   "elevation": "middling",
+   "water": [
+    "the Ishe"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "easter-marches",
+     "miles": 199,
+     "days": 15.3
+    },
+    {
+     "id": "far-grass",
+     "miles": 142,
+     "days": 10.9
+    },
+    {
+     "id": "folds",
+     "miles": 110,
+     "days": 8.4
+    },
+    {
+     "id": "high-grass",
+     "miles": 163,
+     "days": 12.5
+    },
+    {
+     "id": "south-grass",
+     "miles": 165,
+     "days": 12.7
+    }
+   ]
   },
   {
    "id": "folds",
@@ -3406,7 +6098,39 @@
      570
     ]
    ],
-   "notes": "g5-fate lands here. The River Households."
+   "notes": "g5-fate lands here. The River Households.",
+   "elevation": "low to middling",
+   "water": [
+    "the Ishe"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "easter-marches",
+     "miles": 248,
+     "days": 17.7
+    },
+    {
+     "id": "far-grass",
+     "miles": 160,
+     "days": 11.4
+    },
+    {
+     "id": "ishe-reach",
+     "miles": 95,
+     "days": 6.8
+    },
+    {
+     "id": "norther-folds",
+     "miles": 110,
+     "days": 8.4
+    },
+    {
+     "id": "souther-folds",
+     "miles": 126,
+     "days": 9.7
+    }
+   ]
   },
   {
    "id": "souther-folds",
@@ -3445,6 +6169,41 @@
      888,
      609
     ]
+   ],
+   "elevation": "middling",
+   "water": [],
+   "climate": "less hard: winter three to four months",
+   "neighbors": [
+    {
+     "id": "braidvale",
+     "miles": 180,
+     "days": 13.8
+    },
+    {
+     "id": "east-water",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "easter-marches",
+     "miles": 283,
+     "days": 21.7
+    },
+    {
+     "id": "folds",
+     "miles": 126,
+     "days": 9.7
+    },
+    {
+     "id": "ishe-reach",
+     "miles": 120,
+     "days": 9.2
+    },
+    {
+     "id": "pans-coast",
+     "miles": 95,
+     "days": 7.3
+    }
    ]
   },
   {
@@ -3468,6 +6227,28 @@
      1024,
      568
     ]
+   ],
+   "elevation": "low to middling",
+   "water": [
+    "the Ishe"
+   ],
+   "climate": "hard: winter four to five months",
+   "neighbors": [
+    {
+     "id": "far-grass",
+     "miles": 191,
+     "days": 13.6
+    },
+    {
+     "id": "folds",
+     "miles": 95,
+     "days": 6.8
+    },
+    {
+     "id": "souther-folds",
+     "miles": 120,
+     "days": 9.2
+    }
    ]
   },
   {
@@ -3519,6 +6300,28 @@
      41,
      728
     ]
+   ],
+   "elevation": "water",
+   "water": [
+    "the Murk"
+   ],
+   "climate": "water",
+   "neighbors": [
+    {
+     "id": "murk-shore",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "murk-strand",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "south-water-west",
+     "days": null,
+     "by": "water"
+    }
    ]
   },
   {
@@ -3554,6 +6357,43 @@
      164,
      874
     ]
+   ],
+   "elevation": "water",
+   "water": [
+    "the South Water"
+   ],
+   "climate": "water",
+   "neighbors": [
+    {
+     "id": "murk",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "murk-strand",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "sarnmoss",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "sarnmouth",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "scrub-coast",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "south-water",
+     "days": null,
+     "by": "water"
+    }
    ]
   },
   {
@@ -3585,6 +6425,43 @@
      650,
      1024
     ]
+   ],
+   "elevation": "water",
+   "water": [
+    "the South Water"
+   ],
+   "climate": "water",
+   "neighbors": [
+    {
+     "id": "low-plain",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "maundsea",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "scrub-coast",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "south-water-east",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "south-water-west",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-long-coast",
+     "days": null,
+     "by": "water"
+    }
    ]
   },
   {
@@ -3616,6 +6493,38 @@
      900,
      1024
     ]
+   ],
+   "elevation": "water",
+   "water": [
+    "the South Water"
+   ],
+   "climate": "water",
+   "neighbors": [
+    {
+     "id": "east-water",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "lavemouths",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "south-water",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-lave-hills",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-long-coast",
+     "days": null,
+     "by": "water"
+    }
    ]
   },
   {
@@ -3651,6 +6560,33 @@
      1024,
      1024
     ]
+   ],
+   "elevation": "water",
+   "water": [
+    "the South Water"
+   ],
+   "climate": "water",
+   "neighbors": [
+    {
+     "id": "lavemouths",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "pans-coast",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "south-water-east",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "souther-folds",
+     "days": null,
+     "by": "water"
+    }
    ]
   },
   {
@@ -3771,7 +6707,44 @@
      475
     ]
    ],
-   "notes": "The point under the star. The hoarder."
+   "notes": "The point under the star. The hoarder.",
+   "elevation": "water",
+   "water": [
+    "Lake Enner"
+   ],
+   "climate": "water",
+   "neighbors": [
+    {
+     "id": "easter-ennerwold",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "gap-of-enner",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "lave-rim",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "norther-ennerwold",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "sarn-rim",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "wester-ennerwold",
+     "days": null,
+     "by": "water"
+    }
+   ]
   },
   {
    "id": "lake-sere",
@@ -3835,7 +6808,24 @@
      350
     ]
    ],
-   "notes": "Held by the Tarsk."
+   "notes": "Held by the Tarsk.",
+   "elevation": "water",
+   "water": [
+    "Lake Sere"
+   ],
+   "climate": "water",
+   "neighbors": [
+    {
+     "id": "easter-edge",
+     "days": null,
+     "by": "water"
+    },
+    {
+     "id": "sere-grass",
+     "days": null,
+     "by": "water"
+    }
+   ]
   }
  ],
  "features": [
@@ -4303,8 +7293,28 @@
      291
     ],
     [
-     240,
-     305
+     239,
+     301
+    ],
+    [
+     242,
+     311
+    ]
+   ],
+   "regions": [
+    "carrow"
+   ],
+   "notes": "The stream in Carrow itself, split from its lower course so that a god who has seen only the valley is not shown the rest."
+  },
+  {
+   "id": "lower-carrow-water",
+   "name": "the Lower Carrow Water",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     242,
+     311
     ],
     [
      256,
@@ -4320,7 +7330,6 @@
     ]
    ],
    "regions": [
-    "carrow",
     "carrowfoot",
     "wend-heads"
    ]
@@ -5518,6 +8527,70 @@
     "easter-ennerwold"
    ],
    "notes": "East shore."
+  },
+  {
+   "id": "under-hithe",
+   "name": "Under-Hithe",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     662,
+     492
+    ]
+   ],
+   "regions": [
+    "easter-ennerwold"
+   ],
+   "notes": "A shore hamlet of about thirty people with no house names."
+  },
+  {
+   "id": "gullet",
+   "name": "Gullet",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     533,
+     201
+    ]
+   ],
+   "regions": [
+    "stair"
+   ],
+   "notes": "About 110 people under a cracked slope."
+  },
+  {
+   "id": "tasteless-field",
+   "name": "the Tasteless Field",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     492,
+     740
+    ]
+   ],
+   "regions": [
+    "bankland"
+   ],
+   "notes": "Two miles of overdrawn ground where Old Maund's first city stood."
+  },
+  {
+   "id": "farhall",
+   "name": "Farhall",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     742,
+     316
+    ]
+   ],
+   "regions": [
+    "wester-edge"
+   ],
+   "notes": "The westernmost Edgefolk steading."
   },
   {
    "id": "old-men",

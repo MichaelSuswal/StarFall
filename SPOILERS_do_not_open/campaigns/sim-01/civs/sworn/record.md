@@ -40,3 +40,9 @@ A council of the guilds and holdings, called the Hall, with a speaker chosen yea
 
 ## How the god meets them
 Already there, not waiting. Reconciled with the deep history. The god lands in spring spate, with the lower holdings cut off and the ford guides busy.
+
+## What they know of the land
+
+By `map.json` id. Released to the god as it is told; raised on its map only then.
+
+Reported: corrford, corr-gorge, corr-plain, wendvale, law-stones, corr, wend. Rumored: the Sallow and Brinehall up the Wend; Sarnmouth and the Havens down the water (sarn, sarnmouth-town); the lake kingdom east over the hills (wester-ennerwold, enner, ennerhold); the dark wood north-west (holt); herders at the water's head (carrow, as "the high valleys").

@@ -89,4 +89,4 @@ Bought: The fog that comes at once and stands until sunrise in fog, rain, or aut
 
 ## Ceiling
 
-pending Night 3
+Set by the world. Not shown. The number is in the sealed file beside the hidden powers.

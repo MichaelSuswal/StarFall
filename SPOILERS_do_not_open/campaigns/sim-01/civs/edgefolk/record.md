@@ -40,3 +40,9 @@ The headwoman of Antlerhall holds the head of the long table; at the lock she is
 
 ## How the god meets them
 Already there, not waiting. Reconciled with the deep history. The god lands in autumn, eight days before the gathering at Antlerhall.
+
+## What they know of the land
+
+By `map.json` id. Released to the god as it is told; raised on its map only then.
+
+Reported: edge, wester-edge, easter-edge, hallwood, sere-grass, serewell, sere, edge-mounds, farhall, tarrow. Rumored: the deep wood north (deep-dimmet); a bear's ground west in the wood (marrowden); a dry grey mountain north-west (vorn-peak); river people far south who grow apples (folds); grass with no kinds in it, far east (off the sheet).

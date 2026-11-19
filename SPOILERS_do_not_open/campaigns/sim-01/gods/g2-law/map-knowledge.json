@@ -1,0 +1,38 @@
+{
+ "campaign": "sim-01",
+ "regions": {
+  "corrford": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "corr-gorge": {
+   "grade": "reported",
+   "source": "seen from the ford",
+   "year": 1,
+   "told": {
+    "terrain": "hill"
+   }
+  },
+  "corr-plain": {
+   "grade": "reported",
+   "source": "seen from the ford",
+   "year": 1,
+   "told": {
+    "terrain": "plain"
+   }
+  }
+ },
+ "features": {
+  "corr": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "corrford-town": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ }
+}

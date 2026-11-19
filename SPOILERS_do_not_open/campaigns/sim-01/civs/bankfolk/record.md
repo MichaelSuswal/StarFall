@@ -40,3 +40,9 @@ A moot in each village. The god hopes for one Counter to each village; four vill
 
 ## How the god meets them
 Already there, not waiting. Reconciled with the deep history. The god lands at the end of autumn harvest, eleven days before Maundsea's levy barges are due.
+
+## What they know of the land
+
+By `map.json` id. Released to the god as it is told; raised on its map only then.
+
+Reported: bankland, upper-plain, low-plain, wester-plain, maund, howe, old-bins, maundsea-city, barrow-down. Rumored: the Gap and the lake people upriver (the-gap, ennerhold, enner); the Westwild; three roofs on the east plain (three-bins); the sea; a salt town far east along the coast (whitepans).

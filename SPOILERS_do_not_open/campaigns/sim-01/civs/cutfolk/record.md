@@ -41,3 +41,9 @@ None, by the god's refusal and their own habit. Household heads decide at the ta
 
 ## How the god meets them
 Already there, not waiting. Reconciled with the deep history. The god lands in autumn, the households beginning to move stores to Eelholm.
+
+## What they know of the land
+
+By `map.json` id. Released to the god as it is told; raised on its map only then.
+
+Reported: cuts, sarnmoss, sarnvale, the-ribs, drowned-road, sarn, sarnmouth-town. Rumored: Murkhaven and Westhaven; the red hills north (low-breaks); a walled ford town far upriver (corrford-town); the black plain and its city east (wester-plain, maundsea-city); "a lintel under the water" (singing-door).

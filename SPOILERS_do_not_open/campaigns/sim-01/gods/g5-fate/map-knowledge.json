@@ -1,0 +1,43 @@
+{
+ "campaign": "sim-01",
+ "regions": {
+  "folds": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "norther-folds": {
+   "grade": "reported",
+   "source": "hilltops seen above the fog",
+   "year": 1,
+   "told": {
+    "terrain": "hill"
+   }
+  },
+  "souther-folds": {
+   "grade": "reported",
+   "source": "hilltops seen above the fog",
+   "year": 1,
+   "told": {
+    "terrain": "hill"
+   }
+  }
+ },
+ "features": {
+  "ishe": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "postlanding": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "highbank": {
+   "grade": "reported",
+   "source": "green banks seen on a hilltop",
+   "year": 1
+  }
+ }
+}

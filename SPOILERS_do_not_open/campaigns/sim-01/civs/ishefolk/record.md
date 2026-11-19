@@ -41,3 +41,9 @@ A council of household heads at the crossroads, and the Reckoner, chosen by them
 
 ## How the god meets them
 Already there, not waiting, and by the god's own wish not met: it means to stay unseen. Reconciled with the deep history. The god lands mid-harvest in morning fog.
+
+## What they know of the land
+
+By `map.json` id. Released to the god as it is told; raised on its map only then.
+
+Reported: folds, norther-folds, souther-folds, ishe-reach, ishe, highbank, thornfold, debt-door (as "the shut hill"). Rumored: the Tarsk and their salt lake (high-grass, sere, serewell); the east sea; the lake kingdom west (easter-ennerwold, hithe); the King Mounds; singers who came through in their grandparents' time.

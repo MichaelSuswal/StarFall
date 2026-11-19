@@ -1,0 +1,32 @@
+{
+ "campaign": "sim-01",
+ "regions": {
+  "bankland": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "maund": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "stonesteading": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "old-bins": {
+   "grade": "reported",
+   "source": "seen from the bank",
+   "year": 1
+  },
+  "howe": {
+   "grade": "reported",
+   "source": "seen from the bank",
+   "year": 1
+  }
+ }
+}

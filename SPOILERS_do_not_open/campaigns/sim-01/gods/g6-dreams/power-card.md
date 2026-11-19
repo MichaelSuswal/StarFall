@@ -79,4 +79,4 @@ Bought: The Quiet Door's reach to any mortal asleep in a held Lit House.
 
 ## Ceiling
 
-pending Night 3
+Set by the world. Not shown. The number is in the sealed file beside the hidden powers.

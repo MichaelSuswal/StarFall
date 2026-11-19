@@ -1,0 +1,35 @@
+{
+ "campaign": "sim-01",
+ "regions": {
+  "cuts": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "sarnmoss": {
+   "grade": "reported",
+   "source": "seen from the hummock",
+   "year": 1,
+   "told": {
+    "terrain": "marsh"
+   }
+  }
+ },
+ "features": {
+  "sarn": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "eelholm": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "drowned-road": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ }
+}

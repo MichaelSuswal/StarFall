@@ -1,3 +1,4 @@
 campaign: sim-01
-year: 0
-status: creation
+year: 1
+status: open
+season_opens: late autumn

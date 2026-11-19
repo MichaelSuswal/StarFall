@@ -1,0 +1,35 @@
+{
+ "campaign": "sim-01",
+ "regions": {
+  "stair-heights": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "stair": {
+   "grade": "reported",
+   "source": "seen from the rock above",
+   "year": 1,
+   "told": {
+    "terrain": "valley"
+   }
+  }
+ },
+ "features": {
+  "high-stair": {
+   "grade": "reported",
+   "source": "a notch seen in the ridge above",
+   "year": 1
+  },
+  "enn-upper": {
+   "grade": "reported",
+   "source": "seen from the rock above",
+   "year": 1
+  },
+  "topsteading": {
+   "grade": "reported",
+   "source": "smoke seen from the rock above",
+   "year": 1
+  }
+ }
+}
