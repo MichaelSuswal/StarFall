@@ -18,3 +18,9 @@
 12. Take it. Every mortal who sees me knows me for a god, and the account after a Salt Table runs a full year for both sides. A year is a fair length for a debt.
 13. Take it. At my own table, when a guest who has taken my salt puts a fair bargain to me by my own honest judgment, I cannot refuse it. I may haggle to fair, and I may not walk away from fair. I accept that anyone who learns this can bring me a fair offer I would rather not take. A merchant who walks away from fair is no merchant. In exchange, the Count of the Herd reaches a full day's walk.
 14. Understood.
+
+## Round 2 reply
+
+Confirmed.
+
+On the seat by the door: I will take it as I find it, and I will watch the body, and I think that is the thing under the hollow I cannot name.

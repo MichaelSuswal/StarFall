@@ -15,3 +15,9 @@
 9. Choose (a). Five houses held. My people are the point, and five roofs are a village.
 10. Take it. I cannot cross a threshold I have not been invited over. It buys (b): the Quiet Door opens on any mortal asleep in a Lit House I hold, met or not, at any distance. I know the cost, that the houses go dark when I arrive. I will use it sparingly. I ask that the Keeper write "invited" plainly, so that a spoken welcome, a hand held out at the door, or a lamp set in the window for me counts, and the terms are not left to argument later.
 11. Understood. Ruled when it happens.
+
+## Round 2 reply
+
+Confirmed.
+
+On the one thing more: I have no face in my own dreams and none in theirs, and I will not pretend that does not sit with the hollow I cannot explain.

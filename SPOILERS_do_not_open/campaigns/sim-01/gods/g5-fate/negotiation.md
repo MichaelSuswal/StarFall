@@ -19,3 +19,9 @@
 13. Take it as priced. I accept that it closes both ways and that I will be blind to a god at my elbow while I hold it. I will use it sparingly and only when I have reason to be unknown.
 14. Take it. I accept the thinning, the failing fog and the halved lean in dry, hot, bright air. For that I take the fog coming at once and standing until the next sunrise in fog, rain, or autumn near water. I understand that a fog I cannot end will then stand longer, and I accept that cost with it.
 15. Understood. I accept that it is ruled when it happens.
+
+## Round 2 reply
+
+Confirmed.
+
+On the closed hand: I take the weight as a fact and not a question, and I will not open the hand to learn what is lighter.

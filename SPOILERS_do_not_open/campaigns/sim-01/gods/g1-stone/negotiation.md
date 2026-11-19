@@ -27,3 +27,9 @@
 11. I take the trade, with one counter-offer. The slowing stacks three ways: a quarter always, half pace in winter, and more for each shelter. I ask that outside winter the total slowing never fall below half of a walking mortal's pace, however many shelters stand. In winter the stacking may run as you priced it, and I will not argue it. If you refuse the floor, I still take the trade as priced.
 
 12. Accept. Settle it when it happens.
+
+## Round 2 reply
+
+Confirmed.
+
+On the one thing more: I will count the empty place, and I will not say whose it is, because I do not know.

@@ -29,3 +29,9 @@
 12. Choice (a), the witness. It suits what I am. I will say "witnessed" aloud in the hearing of the swearer, so that the swearer knows the word is held and by whom, and I will carry that thread at any distance. I take the blow as usual. I would rather hold fewer oaths for certain than all oaths for a little way.
 
 13. Accept. Ruled when it happens.
+
+## Round 2 reply
+
+Confirmed.
+
+Left-handed in the blood and right-handed in the doing: so the hand I reach with is never the hand I would trust, and I have always known it.

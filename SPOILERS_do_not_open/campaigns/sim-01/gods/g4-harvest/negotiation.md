@@ -27,3 +27,9 @@
 11. Accept. I did not know I had nothing to give there. Strike it.
 
 12. Accept. Rule it when it happens.
+
+## Round 2 reply
+
+Confirmed. One wording fix only: "The price is the weakness It cannot lie unfelt" should read "The price is the weakness that it cannot lie unfelt."
+
+On the long sleep: I know it, I will not run from it, and I will lay up what my people need before it takes me.
