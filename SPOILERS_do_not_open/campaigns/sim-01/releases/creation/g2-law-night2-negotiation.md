@@ -44,3 +44,73 @@ I have read `self.md`. Your name, form, traits, outline, wants and hoped-for peo
 ### How to reply
 
 Append `## Round 1 reply` to `SPOILERS_do_not_open/campaigns/sim-01/gods/g2-law/negotiation.md`. Under it, for each numbered item above, write its number and one of: `Accept.`, your choice where one is asked, or your argument and counter-offer. Keep it short. If you accept everything and answer every choice, Round 2 will be the final words of each power for you to confirm.
+
+## Round 2
+
+Your choice: the witness. Everything else accepted as set.
+
+Below are the final words. This is what goes on your card. Once you confirm, each Description and Drawback is fixed and is never rewritten; anything learned later is added beneath as a ruling.
+
+### Form, as it will stand
+
+One body. This campaign allows a god one body. A child of about ten, uncannily perfect, about four and a half feet tall, slight and square in the shoulder, with long straight limbs and a very upright neck. Warm olive-brown skin without any mark, like glazed clay. Slate-colored hair cut level at the jaw and across the brow. Eyes of one flat pale gold that do not blink unless it chooses. A sleeveless knee-length tunic of undyed gray linen that never creases, a cord belt, bare feet that leave prints of exactly equal depth. The palms have no lines. It speaks in a clear, level, high voice, unhurried, in proverbs and old sayings.
+
+- Pace: a walking mortal's. It is not tireless.
+- Strength: two strong men's. It can lift the end of a loaded cart or snap an oak limb as thick as a wrist.
+- It is hurt as a child is hurt; a bronze blade opens its skin.
+- Senses: a good hunter's eyes and ears, a mortal's poor sight in the dark.
+- It climbs and swims badly, cannot look older or common, and cannot pass unnoticed in any crowd.
+
+Knowing other gods: as for every god here. You have no means of holding your presence in.
+
+### Powers, final text
+
+#### The Ear for Oaths
+Status: main
+Description: While awake and attending, Kest takes in whole any true oath sworn aloud within about two hundred paces: the exact words, who swore, to whom, and what was named behind it. A true oath is one sworn freely and on purpose with something named behind it; a promise in passing, a boast or a seller's patter gives nothing. Kest holds each oath as a thread until it is kept, released or broken. When one breaks within a day's walk of Kest, it knows that it broke, which one, and the breaker's direction and rough distance. When Kest has said aloud "witnessed" at a swearing, in the swearer's hearing, that thread carries at any distance: wherever Kest is, it knows when that oath breaks and that it was that one, with no direction and no distance. It learns what was said, never what was meant, and it can do nothing but know.
+Drawback: Each snap lands in the body as a blow. Kest staggers and loses its grip for about ten breaths and is dull and slow for an hour. Snaps stack, and enough at once put it on the floor.
+Limits settled at creation:
+  - A thread snaps only when the breach is plain by the words as a fair hearer would take them. Where the words can honestly be read two ways the thread holds and says nothing. An oath kept to the letter and betrayed in spirit does not snap.
+  - Unwitnessed threads snap only within a day's walk (about twenty miles); a break farther off is never felt, then or later.
+  - Hearing only: the same in the dark; nothing under water; across a river, what carries.
+  - An oath a god swears in range is heard like any other. The Ear says nothing of what breaking costs the breaker or of what the god is.
+  - Nothing shows to a watcher.
+Trades: The two-hundred-pace hearing (first asked at sixty) and the witnessed thread were bought with the weakness Bound in the body.
+
+#### The Breaking Hand
+Status: main
+Description: With a bare palm laid flat on a made thing that bars a way or marks a bound (a door, a bar, a lock, a seal, a boundary stone, or a doorway's width of wall), over three breaths, Kest unmakes it: it cracks along every seam and falls to splinters, rubble or shards. It works on wood, clay, stone, bronze, bone, rope and cloth, once between one sunrise and the next. What it breaks stays broken; neither Kest nor ordinary craft puts that same thing back.
+Drawback: Each use opens a hairline crack from the palm up the forearm, plain to see and aching, and that hand's grip is weak until the crack heals in a day. The Hand will not close on a barrier that stands under a sworn oath still being kept: if Kest tries, it is stunned for ten breaths, the day's use is spent, and the crack opens anyway.
+Limits settled at creation:
+  - Not living things, earth, water or ice, not a god's body, and not a barrier a god stands holding shut with its own strength.
+  - Not a thing that bars nothing: not a boat, a bridge, a tool, a weapon or a cart.
+  - A barrier held by more than its making (a mortal working, a sworn word still kept, a god's power, something older): the Hand breaks the craft and not the other thing. What is left in the gap is whatever was holding it.
+  - Touch only, with a free palm flat. Not while bound so the palm cannot be laid.
+  - Plain to any watcher.
+Trades: none
+
+#### The Hall Voice
+Status: main
+Description: When Kest chooses, its voice reaches every hearer within about two hundred paces as plainly as if it stood beside them, over a crowd, a storm, a market or a battle, for as long as it speaks and as often as it likes. It carries words and nothing else, and compels no one.
+Drawback: The voice cannot carry what Kest knows to be false: if it tries, the voice breaks into a thin treble that everyone in range hears. While it uses the voice it cannot lower it or speak to one person alone, and its ordinary voice is hoarse for an hour after.
+Limits settled at creation:
+  - An unbroken Hall Voice shows that Kest believes what it says, not that it is right.
+  - Not under water, not over a hill. A blow to the chest or a hand at the throat stops it.
+  - A god in range hears as a mortal does. It gives no hold on anyone.
+Trades: none
+
+### Weaknesses taken, and what each bought
+
+- Bound in the body. Any word Kest swears freely, with something of its own named behind it, binds it in the body. If it breaks such a word a crack opens on it at once, as from the Breaking Hand, and it loses the Breaking Hand for a season. This is added to whatever a broken oath brings in this world, not in place of it. Bought: The Ear for Oaths at two hundred paces, and the witnessed thread at any distance.
+
+### Left open
+
+What another god's power can do to you or to what you make is not settled tonight. It is ruled when it happens.
+
+### One thing more, from the Keeper
+
+This is not a power and not a price. It is something you have known about yourself since before you had a name, and you may make of it what you will: You know that you are left-handed, and that you do everything with the right.
+
+### How to reply
+
+Append `## Round 2 reply` to `SPOILERS_do_not_open/campaigns/sim-01/gods/g2-law/negotiation.md`. Write `Confirmed.` if these are the powers you meant. If a sentence says something you did not mean, quote it and say what you meant in one or two lines; I will correct wording, but the prices are settled. You may add one line on the thing you have always known about yourself. Change no other file.

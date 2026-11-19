@@ -323,3 +323,32 @@ Main trims and prices, by god:
 Left open with every god, as on the player's card: what another god's power can do to it is ruled when it happens.
 
 Paused for replies from all seven.
+
+### 2.3 Negotiation, round 1 replies and round 2
+
+Resumed about 23:50 Pacific. All seven replied in `S/gods/<label>/negotiation.md`. No god refused a price. Choices and requests, and what was done with each:
+- g1-stone. Chose the kept door. Took the trade. Asked for a floor of half pace outside winter. Granted in part: a floor of a quarter of a walking mortal's pace outside winter, none in winter. Half was refused because it would have made the second and third shelters free.
+- g2-law. Chose the witnessed thread. Accepted all else.
+- g3-song. Took holding in. Asked that the forgetting never take how to sing her powers, her own name, or the knowledge that she pays. Granted: a drawback that erased itself or the power would be an unmaking, not a price, which is not what she proposed.
+- g4-harvest. Took holding in. Asked that a Reckoning show a field thinned by a Keeping and by how much. Granted, as a natural reading of the Reckoning. Offered an unwalked headland furrow in The Cutting, sparing the life in it and the harm in it. Accepted as a limit.
+- g5-fate. Took both trades. Accepted all else.
+- g6-dreams. Chose five houses for mortal healing. Took the uninvited threshold, buying the Quiet Door's reach into a held Lit House. Asked that "invited" be written plainly. Written: a spoken welcome or a hand held out by one with the keeping of the place, or a lamp set for the god itself; a lamp set for travelers in general does not count, since the god's own hoped-for custom would otherwise void the weakness.
+- g7-beasts. Took both trades. Asked that a fresh pour be there whenever a table is laid. Confirmed.
+
+None of these was a dispute the Keeper had to settle against a god's argument, so no entry goes to the ruling ledger from the negotiation. The ledger is opened at 2.3's close with that noted.
+
+Round 2 written into each negotiation file: the final Form, each power's Description, Drawback, Limits and Trades in card format, the weaknesses and what each bought, the one open matter, the request to confirm, and the Keeper trait in one line (step 2.4, told with the confirmation as the coordinator directed).
+
+### 2.4 Keeper traits
+
+Each is something the god knows of itself that its rolls and own traits did not give, chosen to sharpen a contradiction on its sheet. Each will be written to `sheet.md` on confirmation.
+- g1-stone: it always knows how many are under its roof, and its count is always one more than are there. Against the wound (a people not saved) and the mercy that takes everyone in.
+- g2-law: it is left-handed and does everything with the right. Against the wound (a sibling killed) and the Breaking Hand; it explains nothing.
+- g3-song: it knows one song whole that it has never sung aloud and must not finish. Against the wound (an oath broken) and its own wish that nothing broken be finished being sung; ties to the world draft's candidate of a song still sung of something long broken.
+- g4-harvest: it knows the feeling of the long sleep coming on and that it has come before; it does not know whether it comes here. Against its fear and its patience. A knowledge only: nothing is promised about any sleep in this world.
+- g5-fate: it knows the weight of what is in its closed left hand to the grain, and that it is lighter than it was. Against the greed that lets no entry close.
+- g6-dreams: it has never seen its own face in a dream, and no mortal who dreams of it keeps the face. Against the wish to be remembered.
+- g7-beasts: it has never sat at the head of a table; the body takes the seat nearest the door unless watched. Against the wish to be served.
+The player's god gets none.
+
+Paused for seven confirmations.

@@ -43,3 +43,77 @@ I have read `self.md`. Your name, form, traits, outline, wants and hoped-for peo
 ### How to reply
 
 Append `## Round 1 reply` to `SPOILERS_do_not_open/campaigns/sim-01/gods/g7-beasts/negotiation.md`. Under it, for each numbered item above, write its number and one of: `Accept.`, your choice where one is asked, or your argument and counter-offer. Keep it short. If you accept everything and answer every choice, Round 2 will be the final words of each power for you to confirm.
+
+## Round 2
+
+Both trades taken. Your note on the horn: yes. A fresh pour is there whenever a table is laid.
+
+Below are the final words. This is what goes on your card. Once you confirm, each Description and Drawback is fixed and is never rewritten; anything learned later is added beneath as a ruling.
+
+### Form, as it will stand
+
+One body. This campaign allows a god one body. A very large old man, a head and a half over a tall man, built like an old bull, with a feaster's belly that has not gone soft. Weathered brown skin lined like tanned hide. Ash-grey hair and beard braided with bone beads and bits of fur. Small deep-set eyes of pale amber. Hands broad as spades, scarred across the knuckles, the first two fingers of the right stained dark. The left ear is notched. A long coat of stitched hides of many beasts hung with pouches, a salt horn at the left hip, a folding bronze balance with stone weights at the right, a belt of knotted tally cords, and an ash staff taller than he is with a bronze shoe. It speaks slowly and warmly, as a merchant does, naming the price first.
+
+- Pace: a walking mortal's, never faster. It does not tire. Not nimble; it climbs and swims badly.
+- Strength: past any mortal. It can lift an ox off its feet, carry a stag a day's walk, or wrestle a bull down.
+- Senses: an old hunter's ears, a hound's nose for blood, smoke, wet fur and fear, eyes good near and middling far.
+- Edges, cold and enough hands hurt it.
+- The balance weighs weight truly and nothing else. The staff and the cords are a staff and cords.
+- The salt horn holds enough for one table and fills again for the next table when one is laid. Salt from it seasons the meal it was poured for; by the next dawn what is left is grey grit without savor. It cannot be stored, carried off, sold, or used to cure meat.
+
+Knowing other gods: as for every god here. You have no means of holding your presence in.
+
+### Powers, final text
+
+#### The Count of the Herd
+Status: main
+Description: Standing still or walking slowly, with its attention on it, Orrun Tallow-Hand feels the beasts within about a day's walk: what kinds, roughly how many, which way they move, and whether they are calm, hungry or afraid. Wild beasts and kept ones, birds clearly, fish faintly. It tells of the beasts only; what is concluded from them is the god's own reckoning.
+Drawback: The herd is always at the edge of its mind and cannot be wholly shut out; among many beasts it finds mortal speech hard to follow. Every death of a beast in range, while it attends, tugs at it, and a slaughter, a great hunt or a winter die-off leaves it dazed for a day.
+Limits settled at creation:
+  - Not mortals, not gods, nothing made.
+  - A range of hills dims it.
+  - The same in light and dark. Nothing shows to a watcher.
+  - A beast bound or made by a god may be felt as a beast.
+Trades: The day's-walk reach (first asked at half a day) was bought with the weakness It cannot walk away from fair.
+
+#### Parley with Beasts
+Status: main
+Description: Orrun Tallow-Hand speaks with any beast within a spear's throw, one at a time, or a herd through its lead animal, and understands it as far as a beast can be understood: hunger, fear, ground, young, what passed and which way. It may put a bargain to the beast, a share of a kill, safe passage, a warning, a season's partnership, and the beast accepts or refuses as its nature allows. It cannot command.
+Drawback: Every bargain struck with a beast binds the god as a bargain with a mortal would. It names the price before the work and pays it. If it fails, that beast's kind in that country remembers for a generation of theirs and turns against the god and its people, in the fold, on the road and at the kill.
+Limits settled at creation:
+  - A beast cannot count past a few, tell one mortal from another except by smell, or carry words.
+  - A beast will not treat with it while it carries that kind's flesh or a raised weapon.
+  - A beast bound to another god does not bargain against its master, and nothing says that is why.
+  - Mortals who listen hear a beast's cry in an old man's mouth.
+  - Not on mortals.
+Trades: none
+
+#### The Salt Table
+Status: main
+Description: Orrun Tallow-Hand sets salt from its horn before a mortal and states the terms aloud first. If the mortal takes the salt freely, knowing the terms, the two are bound at that table, roof or fire until the next dawn: until then a blow struck by either against the other fails, the arm going weak as it falls. After dawn nothing stops either from breaking the terms, but if one does, the other knows it at once, and for a year knows the breaker's direction while within a day's walk of them.
+Drawback: The terms must always be stated before the salt is taken and can be neither hidden nor added to. It binds the god as it binds the guest: if the god breaks a term it stated, every mortal who took salt at that table knows it and knows where it stands, and for a season its strength is only a strong man's.
+Limits settled at creation:
+  - Between the god and each guest, not between guest and guest.
+  - It does not hold a mortal who was tricked, forced, or not told the terms.
+  - It does not stop harm done through other hands, poison, or fire set outside, though each breaks the terms and is known at once.
+  - It does not bind a god. A god who takes the salt has shared a meal.
+  - If the horn is taken, the power fails until it is returned.
+  - It is done openly.
+Trades: The year's account (first asked at a season) was bought with the weakness Known on sight.
+
+### Weaknesses taken, and what each bought
+
+- Known on sight. No mortal who sees Orrun Tallow-Hand can fail to know it for a god. Bought: The Salt Table's account running a full year.
+- It cannot walk away from fair. At its own table, when a mortal guest who has taken its salt puts a bargain to it that is fair by its own honest judgment, it cannot refuse. It may haggle to fair; it may not walk away from fair. Bought: The Count of the Herd at a full day's walk.
+
+### Left open
+
+What another god's power can do to you or to what you make is not settled tonight. It is ruled when it happens.
+
+### One thing more, from the Keeper
+
+This is not a power and not a price. It is something you have known about yourself since before you had a name, and you may make of it what you will: You know that you have never sat at the head of a table. The body does not know how, and takes the seat nearest the door unless you watch it.
+
+### How to reply
+
+Append `## Round 2 reply` to `SPOILERS_do_not_open/campaigns/sim-01/gods/g7-beasts/negotiation.md`. Write `Confirmed.` if these are the powers you meant. If a sentence says something you did not mean, quote it and say what you meant in one or two lines; I will correct wording, but the prices are settled. You may add one line on the thing you have always known about yourself. Change no other file.
