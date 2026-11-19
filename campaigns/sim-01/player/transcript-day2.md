@@ -113,3 +113,23 @@ The remaining edges. Say if any of these is wrong.
 - Your people. They can raise honest cairns in your name. They cannot make one hand-laid.
 
 Last, for the record I need something to file you under until the world settles on a name. I will write "the Cairn" unless you would rather something else.
+
+## Player:
+
+"What I set behind my word is the line itself. Every stone I've laid, and the truth every traveler leans on when they trust one. If I break a sworn word, I'd have made every cairn of mine a little less believable, and I'd feel that. That's the only collateral I have, and it's worth more to me than anything I could name. I'd put it behind any oath I give.
+
+Things I would never swear: anything that needs a lie to keep. Anything that closes a road for good, or leaves a traveler lost on purpose. Obedience, to a god or a mortal, with no end and no terms. And anything open-ended that I can't see the end of. If I swear, I want it narrow, with a named thing and a named time, because I'll be held to the words exactly.
+
+(oog) Rulings and edges.
+
+Passing for smaller: accepted. Seam-light banking to nothing when I'm still and attending to nothing, showing when I attend, is a good tell and I like being catchable. Fine to drop the drover. I'll use cloak, dusk and distance in play, and take whatever those get me.
+
+Honesty: accepted as written, including the weakness to a straight question and a silence read as an answer. The weight you give my word, the plain felt sense that I mean it without any guarantee that I'm right, is better than what I asked for. It keeps me fallible. Not being counterfeitable at my stones is a nice protection and I'll take it.
+
+Oaths: yes, I'll take the heavier weakness. I cannot knowingly act against a word I've sworn, same as I can't lie. I accept that a badly worded oath binds me until the other party lets me go, and it means I'll swear rarely and narrowly. One clarification I'd ask for in the write-up, not a new power: if keeping an oath would require me to say a false word or set a false marker, the oath doesn't make me do it. I'd stay silent and the oath goes unkept, and I'd bear whatever follows from that. Without this clause two of my own weaknesses could collide, and I'd rather you decide now than in the middle of a play.
+
+Body: accepted, including no sense or voice while I'm in pieces and no knowledge of time passing. Honest cairns still keeping travelers is the part I like.
+
+Edges, all fine as written. Walker's pace, no running, no tiring, an ox's load slowly. No air needed, firm beds crossable, bog and silt are dangerous. Settled means mortals can only take me apart slab by slab with levers and time, and you rule on gods when it happens. An hour of attention to hand-lay a cairn with no cap on number. A thrown-down or moved hand-laid cairn goes out of me until I set it right, and I take it that I don't feel it happen. I find out when I reach for it, same as the voice price. Distance doesn't matter to reach, but far stones take longer to get to and longer to come back from. Other gods and anything with ears hear the voice. My people can raise honest cairns in my name but can't hand-lay one.
+
+"The Cairn" is fine for the file."
