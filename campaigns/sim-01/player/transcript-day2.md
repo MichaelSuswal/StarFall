@@ -83,3 +83,33 @@ On your pricing, I'll take it. Two grades of cairn is right, and I like that the
 On the stone body: if I fall from a height or am pulled apart, I break into slabs and the light goes out of the seams. I don't die. The pieces want each other. If they lie within a few hundred paces I'd expect to gather in about a day, and the further apart they are, the slower it is, up to a season if they're scattered across a slope. A slab that's carried off is a piece I'm missing. I'd be smaller and a little less sure of myself until I got it back, or found another stone to take its place.
 
 As for a name, people who don't know it would call me whatever they've got. Herdsmen would say Old Cairn or the Grey Heap. Children would say the Stacked Man. Traders would say something shorter, probably Mark. Any of those is fine with me, and I'd like to hear which one sticks."
+
+## DM:
+
+"Then you will know them and they will know you, and the herdsmen will see a heap of stones. That much is yours without asking."
+
+"You said a sworn word should bind the way a debt binds, and now you say you cannot speak a false one. So: when you give your word to one like yourself, what do you set behind it? And is there a thing you would never swear to?"
+
+(oog) Rulings on what you brought, then the last edge cases. After your next answer I will read the whole card back.
+
+Passing for smaller. Holding still as a cairn is your form and costs nothing. I propose that the seam-light banks down to nothing when you are still and attending to nothing, and shows as soon as you attend. So a cairn that is watching can be caught watching, most easily in the dark. The drover I am declining as a shape. You are slabs, taller than a tall man, with no face. A cloak, dusk and distance are things you can try in play like anyone, and they will work as well as they would. Changing shape would be a separate power and you have not asked for one.
+
+What honesty buys. The weakness, as I will write it: you cannot say what you know to be false, by body or by cairn, and you cannot set or leave standing by your own hand a marker you know to be false. Silence, a true word beside the point, and letting someone mislead themselves are all open to you. Anyone who learns this can use it: a straight question, and your silence read as an answer.
+
+I cannot give you belief itself. Making a hearer know a thing is true is a power over minds, and it would also make you right, which you told the world a god should not always be. Here is what I will give. Your word carries weight a hearer can feel: whoever hears you, at your body or at a cairn, feels plainly that the speaker means it. Not that it is so. That you hold it to be so. A cold traveler at a pass will not take your voice for a trick of the wind or a liar's call. They can still judge you mistaken, or not for them, and you can be mistaken. Others like you feel the same weight and are as free to doubt. Whether mortals and gods come to rely on your word is reputation, and that is earned below, not granted here. One thing more comes with it: the weight cannot be counterfeited at your stones. A voice that is not yours, speaking at a cairn of yours, does not carry it.
+
+Oaths. What a sworn word between gods is in this world is fixed for all of you, and it is not mine to strengthen: such a word is a real thing, nothing stops a god from breaking one, and what comes of breaking one is not written anywhere a god can read. What I can settle is you. Two things follow from what you are. You cannot swear what you do not mean to keep, because that would be a false word. Whether you are able to break a word afterwards is your choice to make now. If you want it, I will write that you cannot knowingly act against a word you have sworn, in the same way you cannot lie. That is a second, heavier weakness: a bad oath, or one someone tricks you into wording badly, holds you until the other party lets you go. I would count it as paid for by the part you asked for, being known as a witness worth having, only to this extent: it is true of you and you can truthfully say so. Tell me yes or no.
+
+The body. Accepted as you described. Broken, you fall to slabs and the light goes out. Pieces within a few hundred paces gather in about a day, and wider scatter takes longer, up to a season across a slope. A slab carried off leaves you smaller and less sure until you recover it or take a new stone in its place. I add: while you are in pieces you have no sense and no voice at your cairns, and you know nothing of the time that passes. Honest cairns go on keeping travelers.
+
+The remaining edges. Say if any of these is wrong.
+
+- Pace and strength. You walk at a steady walker's pace and do not run. You do not tire. You can carry or drag about what a strong ox could, slowly.
+- Water. You need no air. You can cross a firm riverbed or lake bed on foot. Deep mud, bog and silt hold you, and getting out can take days or help.
+- Staying put. No mortal effort shifts you once settled. Enough people with levers and time can still take a settled cairn apart slab by slab. What another god can do to you is not settled today and will be ruled when it happens.
+- Laying a cairn. A cairn is hand-laid when you build it or set a stone on it yourself, which takes about an hour of your attention. There is no limit on how many. If a hand-laid cairn is thrown down or moved, it goes out of you, like one lost to the voice, until you set it right by hand.
+- Distance. The sense and the voice reach any hand-laid cairn however far. Reaching a far one takes longer than a near one, and so does coming back.
+- Who hears. Other gods, and anything else with ears that has been quiet, hear the voice at a cairn the same as a herdsman does.
+- Your people. They can raise honest cairns in your name. They cannot make one hand-laid.
+
+Last, for the record I need something to file you under until the world settles on a name. I will write "the Cairn" unless you would rather something else.
