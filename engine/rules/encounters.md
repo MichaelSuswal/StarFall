@@ -80,9 +80,11 @@ An encounter is major when any of these holds:
 - it would require a decision the player has not made (an offer, a demand, a question, a stranger god, a chance to use a power);
 - it threatens the god's body, freedom or people in a way that could change the year;
 - it involves another god, a god's envoy, or a world-level figure placed by the Keeper (9.1);
-- it is a pending question (12.9) reaching the god in person;
+- it is a pending question (12.9) from another god, a god's envoy, or a world-level figure, reaching the god in person;
 - the player has marked this kind of event as one they want to play;
 - the agent is unsure. Unsure means major.
+
+A petition from the god's own people in unplayed time (a request, a plea, a question of law) is not a held encounter. The god was not available to receive it: standing conduct answers it in the moment, usually by silence, the world goes on, and the people feel the answer. The petition becomes a pending question put to the player the next day (12.9), and the people's reaction to the god's silence stands as what happened. This is ruling r-001, accepted by Michael on 2026-11-18. It encourages a god to be a god and not only a sovereign; a player who wants to be asked in the moment can set standing conduct to say so.
 
 A major encounter is held (10.6). The civ agent and the Keeper resolve the year up to the moment of contact for that thread and stop it there. Everything else in the year that does not depend on the outcome continues. The Keeper writes the held encounter into the DM's release with the board as it stands: where the god is, what it can see, hear and know, who is present, what has just happened.
 

@@ -13,7 +13,7 @@ The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_
 ## 1. Decisions in
 
 - The DM's handoff holds decisions only. Musings stayed with the DM.
-- Each NPC god agent reads last year's release for it, updates its record and goals, and writes `gods/<god>/decisions-NNN.md`. Seven agents, run in parallel.
+- Each NPC god agent reads last year's release for it, updates its record and goals, and writes `gods/<god>/decisions-NNN.md`. Seven agents, run in parallel, never one after another.
 - Each god's decisions go to its civ agent.
 
 ## 2. Keeper pass one: the year's world events
@@ -26,7 +26,7 @@ The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_
 
 ## 3. Civ agents act
 
-- Eight civ agents, in parallel. Each works out its people's year from its god's decisions and pass one, per `engine/roles/civ.md`, and reports to the Keeper what touches anyone else.
+- Eight civ agents, in parallel, never one after another. Each works out its people's year from its god's decisions and pass one, per `engine/roles/civ.md`, and reports to the Keeper what touches anyone else.
 - Unplayed time for the player's god: the avatar follows standing conduct (`player/conduct.md`, then the conduct profile). Minor encounters resolve by conduct. Major encounters are held: note the moment of contact and stop that thread.
 
 ## 4. Keeper pass two: resolution
@@ -51,6 +51,7 @@ The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_
 ## 7. The morning story
 
 - The DM agent reads its release and writes `years/NNN+1/morning-story.md` per `engine/rules/morning-story.md`: the return sequence, the summary with hooks, the held encounter if any, and the painting prompt.
+- Write `years/NNN/closing.md`: the closing sequence for the year just resolved, three or four sentences in the DM's voice, unique to this god, written from what actually happened. The 6:30 wake posts it before the morning story.
 - Write `images/requests/<campaign>-NNN+1-morning.json` as early as possible so the painting is back by 6:30.
 - Update the chronicle: the civ agent's people side, the DM's god side, condensed per `engine/rules/chronicle.md`.
 
@@ -58,6 +59,10 @@ The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_
 
 - Set `state/clock.md` to year NNN+1 open.
 - Commit everything and push. The 6:30 wake in the play chat reads the morning story and the painting from the repository and posts them.
+
+## Sealed and public outputs
+
+Sealed, in `SPOILERS_do_not_open/campaigns/<name>/`: `years/NNN/year.md` (the full record), every NPC god's release and decisions, every NPC civ's record and years, the message log, the keeper log, the ruling ledger. Public, in `campaigns/<name>/`: the player's folder, the player's civ record, the DM release, the morning story, the closing, flags, and the state files the player may see (clock, timing, the player's map knowledge). The rolls log is sealed; the player sees only outcomes.
 
 ## Timing record
 

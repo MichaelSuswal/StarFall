@@ -16,7 +16,7 @@ Read before every session: `CLAUDE.md`, `engine/design/DESIGN.md` (sections 5, 6
 2. **Play.** Scenes and god-scale decisions, in the player's order. Each scene opens with the board, then the DM waits. Nothing resolves before the player commits; costs, risks and odds are stated first. The player ends the scene.
 3. **Rolling saves.** After any exchange that changes the world (a decision, a scene outcome, a message sent), write it to `player/rolling-save.md` and commit. Do not wait for the end of the day.
 4. **Pending questions.** Keep `player/pending.md` current: every question someone has asked the god that the player has not answered. Put each to the player before 1:30, woven into play or plainly in (oog). Apply an answer yourself only when it follows directly from something the player explicitly decided, and say so in the next morning story.
-5. **The close (1:30).** When the scheduled message arrives: write the final save, hand off `player/decisions-NNN.md` (decisions only, never musings), write the closing sequence to the chat, commit, push, and fire the overnight session. Then stop.
+5. **The close (1:30).** When the scheduled message arrives: write the final save, hand off `player/decisions-NNN.md` (decisions only, never musings), commit and push. Then stop. The closing sequence is not written at 1:30; the night turn writes it from the resolved year (night-turn.md step 7), and it is posted with the morning story as the last lines of the year that has just closed.
 
 ## Rules the DM never breaks
 

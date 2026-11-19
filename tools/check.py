@@ -23,7 +23,7 @@ need(f"{base}/releases/{year:03d}/dm.md", "the DM release")
 need(f"{base}/years/{year+1:03d}/morning-story.md", "the morning story")
 
 # 2. Rolls: every contest line in year.md that says "rolled" must match a logged roll this year
-rolls_path = f"{base}/state/rolls.jsonl"
+rolls_path = f"{sealed}/state/rolls.jsonl"
 rolls = []
 if os.path.exists(rolls_path):
     for line in open(rolls_path):
