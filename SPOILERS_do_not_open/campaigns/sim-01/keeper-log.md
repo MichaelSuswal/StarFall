@@ -352,3 +352,94 @@ Each is something the god knows of itself that its rolls and own traits did not 
 The player's god gets none.
 
 Paused for seven confirmations.
+
+### Correction to this log's clock
+
+The times written above for Night 2 after its start were the Keeper's estimates and ran late. This session has no clock of its own between checks. True times, from the repository's commit record, Pacific: releases written 23:25; the seven self files in by 23:28; round 1 written 23:33; round 1 replies in 23:34; round 2 written 23:37. The entries above that say "about 23:33" for the resumption, "about 23:50" for the round 1 replies are wrong by that margin. One sentence above is also wrong in substance: "no entry goes to the ruling ledger from the negotiation". Two requests were settled against part of a god's argument, and they are entered (see 2.3 closed, below).
+
+### 2.3 closed: confirmations and cards
+
+All seven wrote `## Round 2 reply`: Confirmed. g4-harvest asked one wording fix in the drawback line of its holding in ("the weakness that it cannot lie unfelt"); made, on the card only, as wording and not price. Each god added a line on its Keeper trait; none refused it. Two rounds were used of the three allowed.
+
+Wrote `S/gods/<label>/power-card.md` for all seven, generated from the same text each god confirmed: Form (with the bodies rule and god-sense as set), each main power with Status `main`, Description, Drawback, Limits settled at creation, empty Rulings, Trades, Growth; Weaknesses bought against powers; Ceiling `pending Night 3`. Descriptions and Drawbacks are frozen from tonight.
+
+Wrote `S/ruling-ledger.md` with four entries. L-0001 (g1, the floor on stacked slowing) and L-0002 (g6, what counts as invited) are the two matters where the Keeper settled against part of what a god asked; both arguments are recorded. L-0003 (what an unmaking power does to a thing held by more than its making) and L-0004 (the standing terms of holding presence in) were not disputed and are entered because each binds more than one card and any later ruling of the kind.
+
+Ruling for Michael, step 2.3 and 2.5, where the hidden powers and secret backstories are kept. The runbook says to write an NPC god's two hidden powers on its card under `Hidden powers` and its secret backstory in `S/gods/<god>/`, and also says the agent is not told and that no agent reads the backstory. The NPC role file tells each agent to read its own power card and its own folder every turn, and the runbook's standing rule gives it the whole folder. Those cannot all hold. Decision: the hidden powers and the secret backstory of each NPC god are kept in a new folder the agents are never given, `S/gods-sealed/<label>/` (`hidden-powers.md`, `backstory-secret.md`). The card's `Hidden powers` section says only that two exist and points there. Everything else the runbook asks for is on the card. If Michael prefers the letter of the runbook, the two files can be folded back in and the role file changed to keep agents off those sections.
+
+### 2.4 Keeper traits, written
+
+Each trait from the list above is on the god's `sheet.md` under `Keeper trait`. Its two own traits are copied onto the sheet from `self.md`, and its name is filled in. Each god was told its trait in one line in Round 2 and acknowledged it. The player's god has none.
+
+### 2.5 Hidden powers, all eight
+
+One cool and one minor each, both weaker than the god's main powers, each with a drawback, limits, the kind of trigger that would surface it, and what in the backstory it is fitted to. None is scheduled. No agent is told.
+
+- The player (`S/player/hidden-powers.md`). Cool: Where the Road Meant to Go (reads the next marker of an old made road in each direction; while it does, its own line is silent to it until it touches one of its own cairns again). Minor: The Count of Hands (stones added at a hand-laid cairn since its last touch; a removed stone spoils the count). Set at the fuller end, on the DM's lean note. Triggers: a place each.
+- g1-stone. Cool: One More (carries one dying of cold or hunger in its shelter through a night, at the cost of a piece of itself). Minor: The Weight of Snow (knows a slope, roof or wall over it will give within a day).
+- g2-law. Cool: The Hearth's Leave (the left hand mends a snapped thread when the wronged forgives aloud; the blow lands again doubled). Minor: True Level (sees whether a measure, balance or wall is true, and cannot keep quiet about a false one).
+- g3-song. Cool: The Roll (keeps freely given names past any forgetting, at the price of singing every one each year). Minor: Whole Once Heard (a song heard whole is never lost, and can never be altered).
+- g4-harvest. Cool: The Long Sleep (buried by its people, it keeps blight and spoilage from the land in sight, and is helpless until the named season or a call in need). Minor: Seed Knows Seed (where a seed was grown and how long kept; levied grain burns its palm).
+- g5-fate. Cool: The Lot Held (takes one chance out of the world and holds it in the left hand for up to a season; the hand must first be opened, and what was in it is lost). Minor: The Crossing (who crossed a ford or crossroads last, and which way).
+- g6-dreams. Cool: The Last Lamp (a lamp it lights itself and hangs on its hook burns till dawn and draws the lost; it cannot leave it, and its other powers sleep that night). Minor: Who Sleeps (who within a bowshot sleeps or wakes, at the cost of losing time in stillness).
+- g7-beasts. Cool: The Drive (a herd it walks behind goes where it means, tireless; it must walk behind, and one beast in ten is owed at the end). Minor: The Earmark (a beast it notches it can always find; that beast's death lands doubled).
+
+Check of the player's card: `P/player/power-card.md` says only "Two hidden powers exist (3.9). Discovered powers are added above as they surface." and its Ceiling line reads `Set by the world. Not shown.` Both are right. No `corrections.md` was written. The player's card was not touched.
+
+One thing the fitting brought out and the Keeper leaves as it fell: the player's cool power serves what the player said the god wants (to find where the old roads go). It was fitted to the backstory the player gave, which is the rule, and it gives only the next marker, never an end or a maker. It is no shortcut to any mystery; Night 3 places the old roads without regard to it.
+
+### 2.6 Secret backstories, all eight
+
+Wrote `S/gods-sealed/<label>/backstory-secret.md` for the seven and `S/player/backstory-secret.md` for the player, with the common ground in `S/gods-sealed/the-country-that-fell.md`. Under the deep lore's Truth 5 the eight are the most-held patterns of one far country that died. That country is given a name, a river, a mountain, a road, towns, and four events near its end, each event carried in pieces by several gods. Each file gives: what the god is a memory of; the rest of the story behind its own outline, with names and places; the wound and what it does not know; the Keeper trait explained; where its past touched others; and how the past might surface as a mark, a word or a likeness, each with other readings, never a mechanism.
+
+Where pasts touched, recorded in both files and here:
+- g1-stone and g7-beasts: master and servant of one house; the servant bore the master's name. This is how the shared name from step 2.2 is held.
+- g1-stone and g4-harvest: the two brother-kingdoms; what one called in, the other starved for.
+- g2-law and g5-fate: a lot leaned by the one ended the twin of the other.
+- g6-dreams and the player: the lamp at the end of the road the cairn stood on.
+- g7-beasts and the player: the last hands to add a stone to that cairn.
+- g1-stone and the player: the cairn stood under that mountain's pass.
+- g3-song and all seven others: it holds, whole, the song their names came from.
+
+Checked against the deep lore: the gods are patterns and not persons; none remembers the fall; none knows whose remainder it is; nothing explains why the plane keeps accounts or why remainders are shaped like leaders. Whether the closing of a song caused that country's end or only marked it is left unsaid on purpose. Nothing is placed in this campaign's world by these files; anything they suggest for Night 3 (a Remainder's dreams, carriers' lists) is conditional on the star rolls.
+
+On the player's belief that some old roads here were its own: recorded in its secret file as a belief. No road of this world is that road. Nothing will be placed to reward the belief or refute it.
+
+### 2.7 Balance
+
+Wrote `S/balance.md`. On the Keeper's rough 1 to 10 scale the eight sit between 4 and 5.5 at arrival: the player 4, rising with its line; g1, g4, g6 at 4.5; g2 at 5; g3, g5, g7 at 5.5. No god is far out of line. No card was adjusted after confirmation. No god stays noticeably stronger, so nothing is logged under DESIGN 3.15. The DM's one question in the lean note (the felt weight of the Cairn's word reaching other gods) raises no concern, and nothing goes to `corrections.md`.
+
+Facts of this campaign the balance brought out: five gods of eight can hold their presence in, and a god holding in is blind to gods in turn; three gods hear or carry oaths in some form; two unmake made things.
+
+### 2.8 Provisional placement and the Day 3 brief
+
+Wrote `S/placement-draft.md`. Eight seats on a rough ring in a region taken as about 1,600 by 1,300 miles, nearest neighbors 400 to 550 miles apart, the middle left open for Night 3. Seats: the player north-west (upland valley head under a pass); g1 north (the great range); g7 north-east (forest edge and high steppe); g5 east (river in low folded hills); g6 south-east (river to a long coast with marsh at its mouths); g4 south (broad flood plain, one low hill); g3 south-west (slow river to marsh and fog coast); g2 west (gorges, fords and shifting channels). A paragraph of deep history for each land, as draft. Where a Night 1 candidate was a god's own wish, the draft notes it must stay off that god's certain path. No roll was used: placement is by wish and spacing.
+
+Wrote `P/player/day3-brief.md` for the DM: the look of the valley head, the season, and what the land itself shows (thin smoke lower down, drystone walls, a worn way toward the pass, grazed turf, no town in sight). Nothing of who the people are, no history, no other god, no direction or name. Two lines were cut on a second reading because they said more than a landing god could know (the seat's compass position, and the age of the track).
+
+### 2.9 Follow-ups for Day 3
+
+Wrote `P/player/followups-day3.md`: three questions, each with a form for the fiction and an (oog) fallback. Sources: how its people first meet a god that passes for a cairn and cannot lie; who speaks for a god only the quiet can hear (the hierarchy premise); whether its people stay or walk, and whether raising honest cairns is a custom (the power that touches its followers). Nothing in the file shows a vote, a pool, another god or anything sealed.
+
+NPC gods' Day 3 questions, to go into their Night 3 releases: g1, whether its hoped-for people live in its shelters or only winter in them; g2, who may swear before it and who brings broken oaths to it; g3, whether she will sing the Gathering Song as a custom, knowing the price; g4, who names the true amount at a Keeping when it is not there to count; g5, whether her people know she is there at all; g6, who tends the lamps and who may invite; g7, who sits at the head of the hall.
+
+### Rolls
+
+None tonight. No step of Night 2 called for a random outcome. `S/state/rolls.jsonl` stands at r-0131.
+
+### Neutrality self-check, Night 2
+
+Each place where the Keeper could have leaned, and what was done.
+- The Night 2 release steered. It named the option of holding presence in twice, and five of seven asked for it. Not undone: the agents' choices stand, and all five were priced on one set of terms. Logged as a fault of the release for Michael's change list.
+- Pricing against the player. The player's card was the fixed point, and it was read as low at arrival. The temptation was to price the seven down to it. Instead each was priced on its own merits to a band around the middle, and the player's hidden powers were set at the fuller end, which is what the DM's note asked the Keeper to weigh.
+- The player's cool hidden power answers the player's stated wish. Noted above. It was fitted to the outline as the rule requires and limited to the next marker.
+- The shared name. Left as the agents chose. The backstories account for it; neither agent was told.
+- The secret backstories tie all eight to one country. That is the deep lore's own statement, not a convenience. The temptation was to make the player's past the hinge of the country's end. It is not: the player's cairn is a witness at the edge of the events, as it described itself.
+- g3-song's request to protect her name and her powers from her own forgetting was granted. It favors her. It was granted because the alternative was an unmaking she had not proposed, and fairness to original intent comes first in the judgment order.
+- g1-stone's floor was granted in part and g6-dreams's reading of "invited" was narrowed. Both against the god, both with reasons in the ledger.
+- No agent's text was rewritten except the one wording fix g4 asked for. No candidate was placed. No wish was granted whole.
+- The Day 3 brief was cut back twice where it said more than the land would show.
+
+### Night 2 closed
+
+Night 2 closed 2026-11-18 at 23:47 Pacific (2026-11-19 07:47 UTC). All checkboxes of runbook sections 2.1 to 2.9 are done, with the departures logged above. Open for Night 3: the Q15 ruling and the three Night 2 rulings marked for Michael (the shared name; where the hidden powers and secret backstories are kept; the correction of this log's clock is a note, not a ruling); every card's Ceiling; the magic level; the placement of everything.

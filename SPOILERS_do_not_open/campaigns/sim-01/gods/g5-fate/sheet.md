@@ -49,15 +49,21 @@ warm and mothering with iron under it. Roll r-0086.
 
 ## Traits (own)
 
-(Filled on Night 2.)
+Chosen by the god on Night 2, copied from `self.md`.
+
+**The Keeper of the Ledger.** Reconciles Mind 6 (intelligent), Order 16 (law), Making 7 (builder), Regard for mortals 95 (sovereign), and the flaw of greed. I reason before I act, I build rules and keep them, and I own what I build. The greed is not for gold. It is for holdings, promises, and the entries in my books, and the sovereign in me counts my people among the holdings. So I am orderly and exact, and I am also reluctant to let any entry close or any person leave the book. People will know me for being fair to the last grain and for never forgetting a debt, theirs or mine.
+
+**The Warm Hand With Iron Under It.** Reconciles Virtue mercy, Voice warm and mothering with iron under it, Trust 76 (wary), Company 70 (gathering), Presence 90 (hidden), and Temper 38 (leaning patient). I gather people in and shelter them, and I am merciful when a person has failed and is ashamed. Because I am wary, my mercy is given from behind the weather and not from a hearth in the open, and it comes with a condition that I name once, plainly. People will know me for the kindness that arrived unseen and for the quiet fact that it could not be bargained out of its terms.
 
 ## Keeper trait
 
-(Filled on Night 2.)
+Assigned by the Keeper on Night 2 and told to the god in one line with its confirmation request. Known to the god from arrival.
+
+You know the weight of what is in your closed left hand, to the grain, and you know it is lighter than it was.
 
 ## Name
 
-(Filled on Night 2. The god names itself.)
+Ivrenna. Chosen by the god on Night 2. What others call it is in `self.md`.
 
 ## Season it wakes into
 

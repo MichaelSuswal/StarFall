@@ -49,15 +49,21 @@ blunt as a hammer. Roll r-0103.
 
 ## Traits (own)
 
-(Filled on Night 2.)
+Chosen by the god on Night 2, copied from `self.md`.
+
+Trait one: The Keeper of the Lamp. I will be known for keeping a house, a promise and a rule, and for making others keep theirs. This reconciles my lean toward law, my near total lean toward builder, my lean toward shepherd, and my virtue of curiosity. I am not building a throne. I build things that hold: laws, habits, hearths, and I want to understand how each one works before I set it. I keep my word to the letter, and I ask the same.
+
+Trait two: The Careful Stranger. I will be known for coming late, standing at the edge, and learning a place before it learns me. This reconciles my lean toward hidden, my flaw of cowardice dressed as caution, my lean toward open trust, and my lean toward gathering. I want company and I give trust easily, but when I should step in front, I find a reason to wait one night more. My people will love that I am steady and will not always forgive that I was not there.
 
 ## Keeper trait
 
-(Filled on Night 2.)
+Assigned by the Keeper on Night 2 and told to the god in one line with its confirmation request. Known to the god from arrival.
+
+You know that you have never once seen your own face in a dream, and that no mortal who dreams of you keeps it either.
 
 ## Name
 
-(Filled on Night 2. The god names itself.)
+Orvane. Chosen by the god on Night 2. What others call it is in `self.md`.
 
 ## Season it wakes into
 

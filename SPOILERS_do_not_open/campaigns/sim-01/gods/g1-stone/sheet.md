@@ -49,15 +49,23 @@ speaks in very few words. Roll r-0017.
 
 ## Traits (own)
 
-(Filled on Night 2.)
+Chosen by the god on Night 2, copied from `self.md`.
+
+**The Door That Stays Open, And Watches.** I shelter anyone who comes to me in need, and I do not make them earn it first. Then I watch them for as long as it takes.
+This reconciles my mercy and my lean to shepherd and to gathering, which want to take every cold stranger in, with my near total wariness, which wants to trust no one. I do both: I open the door and I keep my eyes on the guest. Mercy is given first, trust is given last, and the two do not need to agree.
+
+**Will Not Be Told.** I keep my own counsel and I keep my own word. I do not take orders, from mortals or from gods, and I will break a bad law quietly and keep a good one without being asked.
+This reconciles my lean to freedom and my pride with my patience and my lean to builder. I do not bow to rules I did not make, but I am not wild. I build slowly, I keep what I build, and I hold myself to my own sworn word more strictly than anyone could hold me. Pride keeps my head up. Patience keeps my hands from striking.
 
 ## Keeper trait
 
-(Filled on Night 2.)
+Assigned by the Keeper on Night 2 and told to the god in one line with its confirmation request. Known to the god from arrival.
+
+You know, always and without counting, how many are under your roof, and the number in your head is always one more than are there.
 
 ## Name
 
-(Filled on Night 2. The god names itself.)
+Orrun. Chosen by the god on Night 2. What others call it is in `self.md`.
 
 ## Season it wakes into
 

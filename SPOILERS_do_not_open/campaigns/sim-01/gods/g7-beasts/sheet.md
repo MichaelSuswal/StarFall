@@ -49,15 +49,21 @@ speaks like a merchant with everything a bargain. Roll r-0121.
 
 ## Traits (own)
 
-(Filled on Night 2.)
+Chosen by the god on Night 2, copied from `self.md`.
+
+**The ledger keeper.** Known for honest weights and for the account that always comes due. This reconciles my virtue of justice with my lean toward freedom from rules and my open trust. I break custom and ignore law easily, but I keep one rule hard, that a bargain named is a bargain kept, and I give trust freely so there is something to be held to account. I trust first, and I collect afterward.
+
+**The full hall.** Known for a table that is always set and always crowded. This reconciles my almost wholly gathering company, my flaw of lust for being worshipped, my near-middle regard for mortals, and my content appetite. I want the hall full because I want to be seen in it and served by it, but I give as I take, because a hall that is only taken from empties. I do not hunger for more than a seat at the head of the long table, and that is a hunger I can name.
 
 ## Keeper trait
 
-(Filled on Night 2.)
+Assigned by the Keeper on Night 2 and told to the god in one line with its confirmation request. Known to the god from arrival.
+
+You know that you have never sat at the head of a table. The body does not know how, and takes the seat nearest the door unless you watch it.
 
 ## Name
 
-(Filled on Night 2. The god names itself.)
+Orrun Tallow-Hand. Chosen by the god on Night 2. What others call it is in `self.md`.
 
 ## Season it wakes into
 
