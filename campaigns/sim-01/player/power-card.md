@@ -106,3 +106,23 @@ Precedence, ruled on Day 2 at the player's request: where a sworn word and the b
 ## Ceiling
 
 Set by the world. Not shown.
+
+## Entries added after Day 2
+
+Nothing above is edited. Each entry below is dated and adds to the card.
+
+### Creation Day 3, 2026-11-19. Carried stones (the tally-walkers)
+
+Agreed with the player on Day 3 as a priced edge of its people. It touches the Cairn's body and two of its powers, so it is entered here as well as in `civs/carrowfolk/record.md`.
+
+- The Day 2 limit stands: the Cairn's people cannot make a cairn hand-laid.
+- The Cairn may take a slab from its own body and give it to a tally-walker. Where a tally-walker builds that stone into an honest cairn, the cairn is hand-laid, because the stone in it is the Cairn. It then carries Knowing where it is laid, Not lost and The voice in the stones like any hand-laid cairn.
+- No more than three of the Cairn's stones may be out at one time. Out means given and not yet made good.
+- A stone is made good by taking a new stone into the body. A new stone takes a full year to become the Cairn's own. Until the light comes into its seams it does not count.
+- While any stone is out, Staying put does not hold: enough people with ropes can pull the Cairn over. If it is broken while a stone is out, it gathers at half speed.
+- A carried stone that is lost, stolen or destroyed before it is built in is gone, and still counts as out for its year.
+- If a tally-walker says what they know to be false, or sets a false marker, while they carry the title, every stone-bearing cairn that walker built goes out of the Cairn at once, unfelt, until the Cairn walks to each and sets its hand on it.
+
+### Creation Day 3, 2026-11-19. When an existing cairn becomes the Cairn's
+
+An existing cairn becomes an honest cairn of the Cairn's when someone adds a stone and means it for the Cairn, by any name, or when the Cairn lays its own hand on it. The one who first means it must mean it. After that, Not lost works for anyone who passes and adds a stone, understanding or not, as first written.

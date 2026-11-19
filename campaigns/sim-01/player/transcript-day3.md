@@ -134,3 +134,15 @@ The two I hadn't said:
 Their name for themselves is the Carrowfolk, and the valley is Carrow. Nobody can say what it means. It's just the word, and the hamlets pronounce it a little differently.
 
 When two houses quarrel over a debt, they hold a reckoning. It happens at the autumn gathering when the flocks come down, or any time within a day's walk of both houses if it can't wait. Each side names one person from a third hamlet they both trust, and the two of them count the debt aloud, item by item, in front of whoever turns up to listen. Nobody judges. The counting is the judgment. If the two counters disagree, they add a third, and the majority holds. Whoever loses pays in sheep, work or cheese, and anyone who refuses to be counted becomes someone nobody in the valley will owe or lend to again. It's slow and public, and it works because everyone's own debts are open to the same counting.
+
+## DM:
+
+"Carrow, then, and the Carrowfolk, who settle a debt by counting it aloud."
+
+The voice is very faint now. There is ground under it that is not the ground of the place between.
+
+"That is everything I can ask you. The rest belongs to the valley. It is night down there, and the cold is coming on."
+
+The last of the falling goes out from under you.
+
+(oog) Day 3 is closed, and creation with it. Tonight the world is built and locked. The first morning story comes at 6:30.

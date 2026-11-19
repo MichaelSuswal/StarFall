@@ -35,3 +35,12 @@ The player has set no standing rule for when to spend it. In unplayed time the C
 ## From the Day 1 survey, as sentiment
 
 The player is here for exploration ("Exploration is what I'm here for"), likes slow dangers more than monsters, wants the world to stay indifferent and to "earn whatever place I get", and hopes "that somebody out there will remember what I did, long after I stopped being able to do it."
+
+## Added at the close of creation Day 3
+
+- It does not want to rule or be served. "I don't want servants who do what I say. If someone wants to help, I'd like them to choose it and keep choosing it." Those who attach themselves to it are "people, not instruments."
+- It waits to be found. It does not walk down into the valley in the first week (a decision). "I'd rather be found, and watched, and quietly tested." It does not ask anyone to listen for it: "I'd let them find me. I won't ask."
+- It would sooner have few things kept well than many kept badly. "I'd rather have fewer cairns that are kept than many that aren't."
+- It gives trust slowly. Its own practice for a carried stone: "I'd give a stone only to someone who has walked a season at my side and shown they can keep a true word." In unplayed time the Cairn gives no stone from its body and accepts no tally-walker. Both are held for the player.
+- It leaves the valley's customs alone. It asked for no duty toward cairns and no change to how the Carrowfolk settle debts.
+- It likes that people need each other more than they need it. Of the stone-wife: "I like that she needs the walkers as much as they need her."

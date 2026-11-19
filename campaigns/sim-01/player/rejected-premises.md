@@ -51,3 +51,24 @@ The DM's observations. Each is a thing to ask on Day 3, not to assume.
 
 - "I don't want mortals deciding what I am before I've had a chance to be useful to them." Together with Day 1's "I want to earn whatever place I get", this may bear on how the god meets its people and on whether it wants a hierarchy under it. The player has rejected neither.
 - The god wants roads and passes marked "so that people can cross without dying". It spoke of travelers throughout, and has not yet said anything about a people of its own.
+
+## Day 3, the people
+
+Three of the game's defaults were rejected outright. Each is given with what the player said instead.
+
+1. **A town or city.** Rejected. "I'll refuse the town." Instead: "Maybe 1,200 of them, scattered through the valley in a dozen or so hamlets and summer shielings, no town. A town would mean a lord and a granary and a wall, and I'd rather meet people who are still deciding what they are."
+
+2. **Advisors who carry out the god's wishes.** Rejected. "I'll refuse the advisors who carry out wishes, as I don't want servants who do what I say. If someone wants to help, I'd like them to choose it and keep choosing it." Instead: one or two listeners who choose it and may leave, and a calling (the tally-walkers) whose members choose themselves. Recorded in `hierarchy.md`. The game remembers out loud that this god does not play the usual way.
+
+3. **About 5,000 followers.** Reduced to about 1,200 by the player's choice.
+
+One premise was bent:
+
+4. **Leading a people.** The guide has the god talk about "the people it wants to lead." The player never used the word and described no wish to rule. It wants to be found, tested and useful first: "I'd rather be found, and watched, and quietly tested." Whether the Carrowfolk become followers at all is left to play. On Day 3 they have no god and do not know one has arrived.
+
+Gaps this leaves for the Keeper:
+
+- The design gives every god about 5,000 followers in its land (DESIGN 3.11). This god starts with none who know it, in a valley of about 1,200.
+- With no hierarchy, unplayed time has no one to be delegated to (DESIGN 10.4).
+- Three things the player said about the Carrowfolk reach into the land and its past: "the ones before," the wish for very old slab cairns on the pass, and the trade over the pass. The DM confirmed none of them as fact. See `people-meeting.md`.
+- The stone-wife's knack and its price were ruled by the DM without knowing the world's rule for mortal magic. See `civs/carrowfolk/record.md`.
