@@ -280,3 +280,46 @@ Choices made in writing the releases, because the files did not give them:
 - Each agent is told to stop after its three files. Pricing follows in a negotiation file, at most three rounds.
 
 Night 2 paused here for the seven agents (step 2.2). This Keeper session has no tool for spawning agents; the coordinator runs them.
+
+### Night 2 resumed
+
+Resumed 2026-11-18 at about 23:33 Pacific. The coordinator ran the seven agents. Each wrote `self.md`, `goals.md` and `record-of-gods.md` in its own folder.
+
+### 2.2 Reading the seven
+
+All seven `self.md` files hold the eight sections asked for. Each `record-of-gods.md` holds the one arrival entry. No file names or quotes its seed. No dashes.
+
+Names chosen: g1-stone Orrun. g2-law Kest. g3-song Amarreth. g4-harvest Garrow. g5-fate Ivrenna. g6-dreams Orvane. g7-beasts Orrun Tallow-Hand.
+
+Forms as described: g1 a granite giant near nine feet, frost in the creases, breath of fog, moss in spring. g2 a flawless child of about ten, gold unblinking eyes, lineless palms. g3 a broad stooped old woman in fog-colored wool, corded white hair, a hum felt in the breastbone, a hem always damp. g4 a broad man a hand over tall whose face no two viewers see alike; eyes and hands constant. g5 a tall woman of packed river fog in a mantle of rain, amber eyes, left hand always half closed. g6 a flawless man, eyes that give back lamplight, utter stillness, a bone lamp-hook. g7 a huge old man in a coat of many hides with a salt horn, a bronze balance, tally cords, a notched left ear.
+
+Powers proposed (three each): g1 Hearth of Stone, Stone Hearing, Return At Thaw. g2 The Ear for Oaths, The Breaking Hand, The Hall Voice. g3 The Unmaking Note, The Long Ear, The Gathering Song. g4 Reckoning of the Yield, Keeping, The Cutting. g5 Tilt the Odds, Draw the Fog, Hear the Oaths. g6 The Quiet Door, The Lit House, The Held Breath. g7 The Count of the Herd, Parley with Beasts, The Salt Table.
+
+Character check: all seven hold against their sheets. No send-back.
+
+Two things the files did not answer, decided here.
+
+Ruling for Michael, step 2.2, the shared name. g1-stone and g7-beasts, working apart, each named itself Orrun (g7 with the byname Tallow-Hand). The rubric forbids shared seeds and domains and says nothing of names. Decision: both names stand as chosen. Neither agent is told. Reasons: the Keeper does not rewrite an agent's answer; asking either to change would tell it something about another god; and under the deep lore's Truth 5 the gods are remainders of one dead country, so one name carried by two of them is something the world can hold. The secret backstories (2.6) must account for it, and it is recorded there in both files. Hazard noted for the checker and the DM: records must always tell the two apart by label or byname. If Michael prefers distinct names, the cleaner fix is to ask g7 for a new given name before the lock, with no reason given.
+
+Holding presence in. Five of the seven asked for it (g1, g3, g4, g5 as trades, g6 as a power). g2 and g7 refused it in so many words. The Night 2 release named the option twice, once in the rules block and once in the template's Trades section, and one agent wrote that it knew it "may ask for it". The release steered. This is recorded as a fault of the release, not of the agents. The requests are priced on their merits, on one set of standing terms for all five, with each god's own price on top.
+
+### 2.3 Negotiation, round 1
+
+Wrote `S/releases/creation/<label>-night2-negotiation.md`, Round 1, for all seven. Replies go to `S/gods/<label>/negotiation.md` under `## Round 1 reply`.
+
+The measure used. The player's card is the fixed point: four narrow powers that need built infrastructure, no power that harms, compels, hides or feeds, and two heavy weaknesses. NPC builds are priced to land near it, some a little above at arrival since the player's rises with years.
+
+Standing terms for holding presence in, the same for every god that buys it: taken up on purpose; closes both ways (the holder feels no god either); hides the feeling only, never the body; no power may be used while held, and using one ends it with a shock felt by any god in speaking distance; ends on a blow, a wound, a bad startle or sleep; nothing to mortals. Individual prices: g1 a permanent quarter-slower walk, no time limit. g3 tires as a mortal, a quarter day at most, equal rest after. g4 cannot lie without hearers feeling the wrongness, no time limit. g5 faint and visibly thinned, a quarter day at most, a night and a day of rest after. g6 only while quiet, senses fall to a mortal's, stammers on a lie.
+
+Main trims and prices, by god:
+- g1. Hearth of Stone limited to unworked natural rock, a blind room, never a way through; choice between an open doorway and a kept door with a heavier drawback. Stone Hearing trimmed: footfalls to a day's walk, voices and breath only to a bowshot, an hour to reach the far edge, body near deaf and dim while listening. Return At Thaw accepted with the winter drawback (half pace, dulled, powers weaker, frost to thaw). The stacked slowness of all three plus the trade was pointed out to the god.
+- g2. Ear for Oaths: true swearings only; a thread snaps only on a plain breach by the words; the blow drawback. Breaking Hand: only things that bar a way or mark a bound; both drawbacks together; on a barrier held by more than craft it breaks the craft and not the other thing. Hall Voice: both drawbacks together. Trade: self-binding oaths buy hearing at two hundred paces and a choice of a witnessed thread at any distance or a doubled snap range; a whole valley refused.
+- g3. Unmaking Note: one thing per singing up to a small hut, metal only when small, each singing costs a memory the Keeper removes from her record. Long Ear trimmed from all speech to what was sung or said in the manner of song, latest first, a living memory's depth per night, dead tongues heard as sound only; both drawbacks. Gathering Song: singers each lose a small thing, said beforehand, and she pays as they pay. Her second trade bought nothing.
+- g4. Reckoning, Keeping and The Cutting accepted at their first drawbacks, with edges set (Keeping borrowed from the next harvest; The Cutting kills all else in the field). The shifting face ruled form, not power, and not steerable.
+- g5. Tilt the Odds made exact: chance only, never a choice of a mind; a moderate step on a roll; three a day; The Debt. Draw the Fog once a day, fixed where drawn, both drawbacks. Hear the Oaths: "claimed ground" struck; within hearing, or in her name within a day's walk; The Weight. Second trade bought a small improvement.
+- g6. Quiet Door: a dream answers as dreams do; body senseless. Lit House: rest only, three houses, the snuffed-lamp drawback, and every house dark whenever he is senseless, the Quiet Door included. Two weaknesses offered, each buying one of two improvements.
+- g7. The salt horn ruled so that it is never a source of salt in a world where salt is the scarcity: one table's worth, savorless by dawn, no storing or selling. The balance weighs weight only. Count of the Herd, Parley and Salt Table accepted with both drawbacks where two were offered; the Salt Table binds host and each guest, not guest and guest, and stops a blow, not a will. First trade bought a year's account. Second offer cost nothing as written; a costing version was put back to him.
+
+Left open with every god, as on the player's card: what another god's power can do to it is ruled when it happens.
+
+Paused for replies from all seven.
