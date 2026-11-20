@@ -53,3 +53,17 @@ The first night. It works at any hearth of yours, burning on its own fuel as hea
 Either goes to the Keeper tonight for review, since it works across a people.
 
 Three things back from you. Which shape, if any. Her name. And this, which the Between asks because of the vow: a house has someone at its door, and a town has many. When you stand at the gate of Ostrey, whose word opens it to you? Any who live within, or one who keeps it? With no advisors under you, tell me also who the Haldren listen to among themselves, and how they settle it when the old houses disagree.
+
+## Player:
+
+**Which shape.** The first night, with one change. I want to take it, but I'd rather the hearth shut only on a night when it actually saved someone. As written, a hearth that lets in a traveler who would have lived anyway still goes dark to me until the thaw, which punishes me for ordinary hospitality. My counter is that the shape fires only when the person let in would otherwise die before dawn, and only then does the hearth close to me as window and door until the thaw. A hearth that took in someone merely cold stays open to me. I'd also want to be told on the night it fires, since a hearth that goes dark unannounced is dangerous. If that is too generous, then keep the shutdown on every use and I'll accept it. The cost still lands where I want it, on a night when a life was at stake.
+
+I decline the long room. The price of putting out one of my flames at random for every life saved is too heavy. It would cost me windows I couldn't choose to lose, and the people it saved would be thin and weak in spring anyway.
+
+**Her name.** Anwen Corve, called Old Corve by the neighbors. Her family has kept the ford lamp for longer than the family can account for. She's near the end of her working life, a widow, and the lamp is the one thing she's never let go out. What she does when the coat stops at her door is hers to decide, and I'll find out when you do.
+
+**Whose word opens the gate of Ostrey.** The one who keeps it. A house has someone at its door, and a town should have a single keeper at its gate, so that the vow has a name to answer to. I'd like the Haldren to appoint a gate-warden, chosen by the old houses for a year at a time, whose job is to decide who is let in and who isn't. That person's word opens the gate to me. A householder inside can then invite me over their own door once I'm within, but cannot open the gate. Any of them could still shut me out for good by refusing to ask, and I accept that.
+
+**Who the Haldren listen to.** No one person. They listen to a moot of householders, held at the autumn gathering and again whenever a matter can't wait. The old houses carry the most weight, and each has an elder whose word counts for more. For the year there's a speaker, chosen by lot from among the three houses so no house holds it long. The speaker has no power beyond running the meeting and carrying the moot's decision to the gate-warden.
+
+**How they settle disputes.** By hospitality, which is why I like it. Two houses in dispute must each host the other at a table before the moot will hear the matter. A feud isn't settled until each has eaten under the other's roof, and refusing to host is itself an admission of fault. It doesn't always work, but it's the custom, and it ties back to the strongest one, that no one is turned from a door.
