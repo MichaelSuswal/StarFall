@@ -1,0 +1,4417 @@
+{
+ "campaign": "sim-02",
+ "painting": {
+  "size": [
+   1024,
+   1024
+  ],
+  "miles_per_pixel": 2.5,
+  "grid": {
+   "cols": 5,
+   "rows": 4
+  }
+ },
+ "regions": [
+  {
+   "id": "r01",
+   "name": "The Hald Valley",
+   "terrain": "valley, a closed upland river valley under the range",
+   "elevation": "upland, 1,200 to 2,500 feet",
+   "water": "the Haldwater, cold and quick",
+   "climate": "cool temperate, hard winter",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 12
+    },
+    {
+     "id": "r04",
+     "days": 44
+    }
+   ],
+   "polygon": [
+    [
+     301,
+     288
+    ],
+    [
+     326,
+     279
+    ],
+    [
+     348,
+     268
+    ],
+    [
+     364,
+     268
+    ],
+    [
+     352,
+     288
+    ],
+    [
+     324,
+     301
+    ],
+    [
+     302,
+     299
+    ]
+   ],
+   "notes": "Held by: The Haldren. Other small dale peoples beyond the ridges."
+  },
+  {
+   "id": "r02",
+   "name": "The Folddales",
+   "terrain": "hill, upland cut into closed river valleys",
+   "elevation": "upland, 1,000 to 3,000 feet",
+   "water": "many small rivers running east to the Haldwater; low wet ground on the east",
+   "climate": "cool temperate, hard winter",
+   "neighbors": [
+    {
+     "id": "r01",
+     "days": 12
+    },
+    {
+     "id": "r03",
+     "days": 48
+    },
+    {
+     "id": "r04",
+     "days": 59
+    },
+    {
+     "id": "r10",
+     "days": 27
+    },
+    {
+     "id": "r11",
+     "days": 14
+    },
+    {
+     "id": "r15",
+     "days": 30
+    }
+   ],
+   "polygon": [
+    [
+     300,
+     240
+    ],
+    [
+     372,
+     222
+    ],
+    [
+     400,
+     170
+    ],
+    [
+     455,
+     215
+    ],
+    [
+     492,
+     232
+    ],
+    [
+     488,
+     300
+    ],
+    [
+     440,
+     335
+    ],
+    [
+     360,
+     345
+    ],
+    [
+     300,
+     330
+    ],
+    [
+     302,
+     299
+    ],
+    [
+     324,
+     301
+    ],
+    [
+     352,
+     288
+    ],
+    [
+     364,
+     268
+    ],
+    [
+     348,
+     268
+    ],
+    [
+     326,
+     279
+    ],
+    [
+     301,
+     288
+    ]
+   ],
+   "notes": "Held by: Small dale peoples, a few hundred to a valley, each shut from the next. Unheld as a whole."
+  },
+  {
+   "id": "r03",
+   "name": "The High Scarrow",
+   "terrain": "mountain, snow peaks and fir slopes",
+   "elevation": "high, to 14,000 feet",
+   "water": "snowfields; short streams east and west",
+   "climate": "alpine",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 48
+    },
+    {
+     "id": "r04",
+     "days": 61
+    },
+    {
+     "id": "r07",
+     "days": 21
+    },
+    {
+     "id": "r08",
+     "days": 42
+    },
+    {
+     "id": "r10",
+     "days": 66
+    },
+    {
+     "id": "r32",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     44,
+     140
+    ],
+    [
+     180,
+     120
+    ],
+    [
+     300,
+     135
+    ],
+    [
+     335,
+     122
+    ],
+    [
+     372,
+     138
+    ],
+    [
+     405,
+     128
+    ],
+    [
+     400,
+     170
+    ],
+    [
+     372,
+     222
+    ],
+    [
+     300,
+     240
+    ],
+    [
+     180,
+     250
+    ],
+    [
+     46,
+     262
+    ],
+    [
+     32,
+     190
+    ]
+   ],
+   "notes": "Held by: The pass folk on the heights. Unheld below."
+  },
+  {
+   "id": "r04",
+   "name": "The Deep Scarrow",
+   "terrain": "mountain, the heart of the range, high closed valleys",
+   "elevation": "high, to 13,000 feet",
+   "water": "the Withy rises here; tarns",
+   "climate": "alpine",
+   "neighbors": [
+    {
+     "id": "r01",
+     "days": 44
+    },
+    {
+     "id": "r02",
+     "days": 59
+    },
+    {
+     "id": "r03",
+     "days": 61
+    },
+    {
+     "id": "r05",
+     "days": 65
+    },
+    {
+     "id": "r06",
+     "days": 31
+    },
+    {
+     "id": "r11",
+     "days": 54
+    },
+    {
+     "id": "r32",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     46,
+     262
+    ],
+    [
+     180,
+     250
+    ],
+    [
+     300,
+     240
+    ],
+    [
+     301,
+     288
+    ],
+    [
+     302,
+     299
+    ],
+    [
+     300,
+     330
+    ],
+    [
+     296,
+     420
+    ],
+    [
+     262,
+     412
+    ],
+    [
+     232,
+     440
+    ],
+    [
+     238,
+     500
+    ],
+    [
+     270,
+     520
+    ],
+    [
+     150,
+     520
+    ],
+    [
+     46,
+     520
+    ],
+    [
+     30,
+     420
+    ],
+    [
+     48,
+     300
+    ]
+   ],
+   "notes": "Held by: The pass folk."
+  },
+  {
+   "id": "r05",
+   "name": "The Low Scarrow",
+   "terrain": "mountain, the range falling south, forested",
+   "elevation": "high to middling, to 9,000 feet",
+   "water": "streams to the Withy and the Sarn",
+   "climate": "cool temperate, wet",
+   "neighbors": [
+    {
+     "id": "r04",
+     "days": 65
+    },
+    {
+     "id": "r28",
+     "days": 80
+    },
+    {
+     "id": "r29",
+     "days": 45
+    },
+    {
+     "id": "r30",
+     "days": 47
+    },
+    {
+     "id": "r32",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r34",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     46,
+     520
+    ],
+    [
+     150,
+     520
+    ],
+    [
+     270,
+     520
+    ],
+    [
+     290,
+     600
+    ],
+    [
+     230,
+     650
+    ],
+    [
+     120,
+     668
+    ],
+    [
+     52,
+     640
+    ],
+    [
+     45,
+     540
+    ]
+   ],
+   "notes": "Held by: Unheld; charcoal burners and hill villages on the south side sell grain to Quillan."
+  },
+  {
+   "id": "r06",
+   "name": "The Underfell",
+   "terrain": "valley, a high valley at the mountain foot with one way in",
+   "elevation": "upland, 3,000 to 5,000 feet",
+   "water": "the Withy",
+   "climate": "alpine edge, long winter",
+   "neighbors": [
+    {
+     "id": "r04",
+     "days": 31
+    },
+    {
+     "id": "r12",
+     "days": 43
+    },
+    {
+     "id": "r13",
+     "days": 43
+    }
+   ],
+   "polygon": [
+    [
+     296,
+     420
+    ],
+    [
+     298,
+     450
+    ],
+    [
+     300,
+     480
+    ],
+    [
+     270,
+     520
+    ],
+    [
+     238,
+     500
+    ],
+    [
+     232,
+     440
+    ],
+    [
+     262,
+     412
+    ]
+   ],
+   "notes": "Held by: The Hodd."
+  },
+  {
+   "id": "r07",
+   "name": "The Corrow Hills",
+   "terrain": "hill, steep wooded hills at the range end",
+   "elevation": "hill, to 4,000 feet",
+   "water": "short streams north to the sea",
+   "climate": "cool, wet, foggy",
+   "neighbors": [
+    {
+     "id": "r03",
+     "days": 21
+    },
+    {
+     "id": "r08",
+     "days": 31
+    },
+    {
+     "id": "r09",
+     "days": 54
+    },
+    {
+     "id": "r31",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r32",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     60,
+     98
+    ],
+    [
+     105,
+     64
+    ],
+    [
+     230,
+     58
+    ],
+    [
+     322,
+     57
+    ],
+    [
+     322,
+     84
+    ],
+    [
+     335,
+     122
+    ],
+    [
+     300,
+     135
+    ],
+    [
+     180,
+     120
+    ],
+    [
+     44,
+     140
+    ]
+   ],
+   "notes": "Held by: Unheld; woodcutters and fog."
+  },
+  {
+   "id": "r08",
+   "name": "The Sennway",
+   "terrain": "hill, the gap in the northern hills",
+   "elevation": "low pass, 800 feet",
+   "water": "the Corra",
+   "climate": "cool, foggy",
+   "neighbors": [
+    {
+     "id": "r03",
+     "days": 42
+    },
+    {
+     "id": "r07",
+     "days": 31
+    },
+    {
+     "id": "r09",
+     "days": 23
+    },
+    {
+     "id": "r10",
+     "days": 24
+    }
+   ],
+   "polygon": [
+    [
+     322,
+     84
+    ],
+    [
+     352,
+     74
+    ],
+    [
+     405,
+     84
+    ],
+    [
+     415,
+     95
+    ],
+    [
+     405,
+     128
+    ],
+    [
+     372,
+     138
+    ],
+    [
+     335,
+     122
+    ]
+   ],
+   "notes": "Held by: The Senn."
+  },
+  {
+   "id": "r09",
+   "name": "The Corrant Strand",
+   "terrain": "coast, northern lowland and shore",
+   "elevation": "low",
+   "water": "the Corra mouth; salt pans",
+   "climate": "cool maritime",
+   "neighbors": [
+    {
+     "id": "r07",
+     "days": 54
+    },
+    {
+     "id": "r08",
+     "days": 23
+    },
+    {
+     "id": "r10",
+     "days": 13
+    },
+    {
+     "id": "r16",
+     "days": 34
+    },
+    {
+     "id": "r31",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     322,
+     57
+    ],
+    [
+     354,
+     57
+    ],
+    [
+     402,
+     56
+    ],
+    [
+     480,
+     54
+    ],
+    [
+     620,
+     56
+    ],
+    [
+     630,
+     105
+    ],
+    [
+     600,
+     118
+    ],
+    [
+     520,
+     112
+    ],
+    [
+     445,
+     120
+    ],
+    [
+     415,
+     95
+    ],
+    [
+     405,
+     84
+    ],
+    [
+     352,
+     74
+    ],
+    [
+     322,
+     84
+    ]
+   ],
+   "notes": "Held by: The Corrant."
+  },
+  {
+   "id": "r10",
+   "name": "The Greyspur",
+   "terrain": "hill, a grey stony spur and its dales",
+   "elevation": "hill, to 6,000 feet",
+   "water": "springs on its east end",
+   "climate": "cool temperate",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 27
+    },
+    {
+     "id": "r03",
+     "days": 66
+    },
+    {
+     "id": "r08",
+     "days": 24
+    },
+    {
+     "id": "r09",
+     "days": 13
+    },
+    {
+     "id": "r15",
+     "days": 25
+    },
+    {
+     "id": "r16",
+     "days": 33
+    }
+   ],
+   "polygon": [
+    [
+     405,
+     128
+    ],
+    [
+     415,
+     95
+    ],
+    [
+     445,
+     120
+    ],
+    [
+     520,
+     112
+    ],
+    [
+     600,
+     118
+    ],
+    [
+     610,
+     150
+    ],
+    [
+     560,
+     185
+    ],
+    [
+     512,
+     200
+    ],
+    [
+     455,
+     215
+    ],
+    [
+     400,
+     170
+    ]
+   ],
+   "notes": "Held by: Unheld; shepherds who answer to no one. The Tavrek use its east end."
+  },
+  {
+   "id": "r11",
+   "name": "The Hollow March",
+   "terrain": "hill, empty foreland between the dales and the rim",
+   "elevation": "hill and plain, 1,500 feet",
+   "water": "few streams",
+   "climate": "cool temperate, dry",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 14
+    },
+    {
+     "id": "r04",
+     "days": 54
+    },
+    {
+     "id": "r12",
+     "days": 21
+    },
+    {
+     "id": "r15",
+     "days": 33
+    }
+   ],
+   "polygon": [
+    [
+     300,
+     330
+    ],
+    [
+     360,
+     345
+    ],
+    [
+     440,
+     335
+    ],
+    [
+     488,
+     300
+    ],
+    [
+     530,
+     318
+    ],
+    [
+     500,
+     352
+    ],
+    [
+     420,
+     360
+    ],
+    [
+     352,
+     378
+    ],
+    [
+     296,
+     420
+    ]
+   ],
+   "notes": "Held by: Unheld; a few herders. Half-walked country."
+  },
+  {
+   "id": "r12",
+   "name": "The North Ashring",
+   "terrain": "hill, worn bare hills ringing the basin, north half",
+   "elevation": "hill, to 3,500 feet",
+   "water": "cisterns; no river leaves",
+   "climate": "dry temperate",
+   "neighbors": [
+    {
+     "id": "r06",
+     "days": 43
+    },
+    {
+     "id": "r11",
+     "days": 21
+    },
+    {
+     "id": "r13",
+     "days": 24
+    },
+    {
+     "id": "r14",
+     "days": 12
+    },
+    {
+     "id": "r15",
+     "days": 28
+    },
+    {
+     "id": "r19",
+     "days": 43
+    }
+   ],
+   "polygon": [
+    [
+     298,
+     450
+    ],
+    [
+     296,
+     420
+    ],
+    [
+     352,
+     378
+    ],
+    [
+     420,
+     360
+    ],
+    [
+     500,
+     352
+    ],
+    [
+     580,
+     362
+    ],
+    [
+     632,
+     395
+    ],
+    [
+     688,
+     440
+    ],
+    [
+     722,
+     500
+    ],
+    [
+     640,
+     490
+    ],
+    [
+     615,
+     432
+    ],
+    [
+     565,
+     402
+    ],
+    [
+     500,
+     394
+    ],
+    [
+     440,
+     402
+    ],
+    [
+     392,
+     428
+    ],
+    [
+     368,
+     470
+    ]
+   ],
+   "notes": "Held by: The people of the rim."
+  },
+  {
+   "id": "r13",
+   "name": "The South Ashring",
+   "terrain": "hill, worn bare hills ringing the basin, south half",
+   "elevation": "hill, to 3,500 feet",
+   "water": "cisterns; no river leaves",
+   "climate": "dry temperate",
+   "neighbors": [
+    {
+     "id": "r06",
+     "days": 43
+    },
+    {
+     "id": "r12",
+     "days": 24
+    },
+    {
+     "id": "r14",
+     "days": 11
+    },
+    {
+     "id": "r22",
+     "days": 54
+    },
+    {
+     "id": "r26",
+     "days": 34
+    },
+    {
+     "id": "r28",
+     "days": 36
+    }
+   ],
+   "polygon": [
+    [
+     298,
+     450
+    ],
+    [
+     368,
+     470
+    ],
+    [
+     392,
+     540
+    ],
+    [
+     455,
+     566
+    ],
+    [
+     550,
+     566
+    ],
+    [
+     618,
+     540
+    ],
+    [
+     640,
+     490
+    ],
+    [
+     722,
+     500
+    ],
+    [
+     700,
+     555
+    ],
+    [
+     640,
+     592
+    ],
+    [
+     560,
+     605
+    ],
+    [
+     470,
+     605
+    ],
+    [
+     390,
+     588
+    ],
+    [
+     335,
+     548
+    ],
+    [
+     270,
+     520
+    ],
+    [
+     300,
+     480
+    ]
+   ],
+   "notes": "Held by: The people of the rim."
+  },
+  {
+   "id": "r14",
+   "name": "The Bare Floor",
+   "terrain": "plain, a pale bare shallow basin",
+   "elevation": "low, flat",
+   "water": "none on the surface",
+   "climate": "dry, still",
+   "neighbors": [
+    {
+     "id": "r12",
+     "days": 12
+    },
+    {
+     "id": "r13",
+     "days": 11
+    }
+   ],
+   "polygon": [
+    [
+     368,
+     470
+    ],
+    [
+     392,
+     428
+    ],
+    [
+     440,
+     402
+    ],
+    [
+     500,
+     394
+    ],
+    [
+     565,
+     402
+    ],
+    [
+     615,
+     432
+    ],
+    [
+     640,
+     490
+    ],
+    [
+     618,
+     540
+    ],
+    [
+     550,
+     566
+    ],
+    [
+     455,
+     566
+    ],
+    [
+     392,
+     540
+    ]
+   ],
+   "notes": "Held by: No one. No one goes down."
+  },
+  {
+   "id": "r15",
+   "name": "The Rivermeet",
+   "terrain": "plain, grass and water meadow where the rivers gather",
+   "elevation": "low, 600 feet",
+   "water": "the Lowe, the Hornwater, the Longloop",
+   "climate": "temperate",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 30
+    },
+    {
+     "id": "r10",
+     "days": 25
+    },
+    {
+     "id": "r11",
+     "days": 33
+    },
+    {
+     "id": "r12",
+     "days": 28
+    },
+    {
+     "id": "r16",
+     "days": 31
+    },
+    {
+     "id": "r19",
+     "days": 30
+    }
+   ],
+   "polygon": [
+    [
+     455,
+     215
+    ],
+    [
+     512,
+     200
+    ],
+    [
+     560,
+     185
+    ],
+    [
+     650,
+     235
+    ],
+    [
+     655,
+     318
+    ],
+    [
+     612,
+     345
+    ],
+    [
+     580,
+     362
+    ],
+    [
+     500,
+     352
+    ],
+    [
+     530,
+     318
+    ],
+    [
+     488,
+     300
+    ],
+    [
+     492,
+     232
+    ]
+   ],
+   "notes": "Held by: Unheld; scattered farm villages that pay no crown."
+  },
+  {
+   "id": "r16",
+   "name": "The Hornfoot Grass",
+   "terrain": "steppe, grass under the spur and along the north shore",
+   "elevation": "low, rolling",
+   "water": "the Hornwater and the Longloop rise here",
+   "climate": "cool continental grass",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 34
+    },
+    {
+     "id": "r10",
+     "days": 33
+    },
+    {
+     "id": "r15",
+     "days": 31
+    },
+    {
+     "id": "r17",
+     "days": 24
+    },
+    {
+     "id": "r19",
+     "days": 35
+    },
+    {
+     "id": "r31",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     620,
+     56
+    ],
+    [
+     760,
+     58
+    ],
+    [
+     760,
+     150
+    ],
+    [
+     745,
+     218
+    ],
+    [
+     650,
+     235
+    ],
+    [
+     560,
+     185
+    ],
+    [
+     610,
+     150
+    ],
+    [
+     600,
+     118
+    ],
+    [
+     630,
+     105
+    ]
+   ],
+   "notes": "Held by: The Tavrek."
+  },
+  {
+   "id": "r17",
+   "name": "The Windward Grass",
+   "terrain": "steppe, open grass to the north-east shore",
+   "elevation": "low, rolling",
+   "water": "few streams",
+   "climate": "cool continental grass, windy",
+   "neighbors": [
+    {
+     "id": "r16",
+     "days": 24
+    },
+    {
+     "id": "r18",
+     "days": 24
+    },
+    {
+     "id": "r19",
+     "days": 37
+    },
+    {
+     "id": "r31",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     760,
+     58
+    ],
+    [
+     868,
+     72
+    ],
+    [
+     893,
+     105
+    ],
+    [
+     882,
+     146
+    ],
+    [
+     850,
+     165
+    ],
+    [
+     850,
+     240
+    ],
+    [
+     745,
+     218
+    ],
+    [
+     760,
+     150
+    ]
+   ],
+   "notes": "Held by: Unheld; the Tavrek hunt it in summer."
+  },
+  {
+   "id": "r18",
+   "name": "The Tern Shore",
+   "terrain": "coast, low stony hills and a cold bay",
+   "elevation": "low hills",
+   "water": "short streams",
+   "climate": "cool maritime",
+   "neighbors": [
+    {
+     "id": "r17",
+     "days": 24
+    },
+    {
+     "id": "r20",
+     "days": 31
+    },
+    {
+     "id": "r31",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     882,
+     146
+    ],
+    [
+     948,
+     148
+    ],
+    [
+     1024,
+     172
+    ],
+    [
+     1024,
+     240
+    ],
+    [
+     850,
+     240
+    ],
+    [
+     850,
+     165
+    ]
+   ],
+   "notes": "Held by: A few fishing hamlets."
+  },
+  {
+   "id": "r19",
+   "name": "The Noman Grass",
+   "terrain": "steppe, the wide middle grass",
+   "elevation": "low, flat",
+   "water": "the Lowe along its western side; the Dunwater",
+   "climate": "continental grass, dry summers",
+   "neighbors": [
+    {
+     "id": "r12",
+     "days": 43
+    },
+    {
+     "id": "r15",
+     "days": 30
+    },
+    {
+     "id": "r16",
+     "days": 35
+    },
+    {
+     "id": "r17",
+     "days": 37
+    },
+    {
+     "id": "r20",
+     "days": 34
+    },
+    {
+     "id": "r21",
+     "days": 40
+    },
+    {
+     "id": "r22",
+     "days": 46
+    }
+   ],
+   "polygon": [
+    [
+     650,
+     235
+    ],
+    [
+     745,
+     218
+    ],
+    [
+     850,
+     240
+    ],
+    [
+     835,
+     275
+    ],
+    [
+     812,
+     350
+    ],
+    [
+     762,
+     405
+    ],
+    [
+     752,
+     470
+    ],
+    [
+     722,
+     500
+    ],
+    [
+     688,
+     440
+    ],
+    [
+     632,
+     395
+    ],
+    [
+     580,
+     362
+    ],
+    [
+     612,
+     345
+    ],
+    [
+     655,
+     318
+    ]
+   ],
+   "notes": "Held by: No one."
+  },
+  {
+   "id": "r20",
+   "name": "The Rope Ridges",
+   "terrain": "hill, long parallel grass ridges",
+   "elevation": "hill, to 3,000 feet",
+   "water": "the Ropewater between the ridge lines",
+   "climate": "continental grass, storm country",
+   "neighbors": [
+    {
+     "id": "r18",
+     "days": 31
+    },
+    {
+     "id": "r19",
+     "days": 34
+    },
+    {
+     "id": "r21",
+     "days": 24
+    }
+   ],
+   "polygon": [
+    [
+     850,
+     240
+    ],
+    [
+     1024,
+     240
+    ],
+    [
+     1024,
+     470
+    ],
+    [
+     870,
+     488
+    ],
+    [
+     790,
+     470
+    ],
+    [
+     762,
+     405
+    ],
+    [
+     812,
+     350
+    ],
+    [
+     835,
+     275
+    ]
+   ],
+   "notes": "Held by: The Ushkai."
+  },
+  {
+   "id": "r21",
+   "name": "The Thornhollows",
+   "terrain": "steppe, the grass southern edge, thorn and sheltered hollows",
+   "elevation": "low",
+   "water": "winter pools; the Pellwater on the south",
+   "climate": "mild continental",
+   "neighbors": [
+    {
+     "id": "r19",
+     "days": 40
+    },
+    {
+     "id": "r20",
+     "days": 24
+    },
+    {
+     "id": "r22",
+     "days": 27
+    },
+    {
+     "id": "r23",
+     "days": 14
+    }
+   ],
+   "polygon": [
+    [
+     752,
+     470
+    ],
+    [
+     762,
+     405
+    ],
+    [
+     790,
+     470
+    ],
+    [
+     870,
+     488
+    ],
+    [
+     1024,
+     470
+    ],
+    [
+     1024,
+     508
+    ],
+    [
+     905,
+     535
+    ],
+    [
+     800,
+     535
+    ],
+    [
+     765,
+     520
+    ]
+   ],
+   "notes": "Held by: The Ushkai in winter; free farms along the Pellwater."
+  },
+  {
+   "id": "r22",
+   "name": "The Parting Woods",
+   "terrain": "forest, wooded lowland where the great river divides",
+   "elevation": "low",
+   "water": "the Lowe and the Sunder",
+   "climate": "mild temperate",
+   "neighbors": [
+    {
+     "id": "r13",
+     "days": 54
+    },
+    {
+     "id": "r19",
+     "days": 46
+    },
+    {
+     "id": "r21",
+     "days": 27
+    },
+    {
+     "id": "r23",
+     "days": 32
+    },
+    {
+     "id": "r24",
+     "days": 24
+    },
+    {
+     "id": "r26",
+     "days": 27
+    }
+   ],
+   "polygon": [
+    [
+     722,
+     500
+    ],
+    [
+     752,
+     470
+    ],
+    [
+     765,
+     520
+    ],
+    [
+     800,
+     535
+    ],
+    [
+     795,
+     600
+    ],
+    [
+     742,
+     606
+    ],
+    [
+     700,
+     555
+    ]
+   ],
+   "notes": "Held by: Unheld; woodsmen, and free farms that sell grain down both rivers."
+  },
+  {
+   "id": "r23",
+   "name": "The Pell Mouth",
+   "terrain": "coast, estuary, dyked ground and tidal flats",
+   "elevation": "low, at the tide",
+   "water": "the Pellwater estuary",
+   "climate": "mild maritime, fog",
+   "neighbors": [
+    {
+     "id": "r21",
+     "days": 14
+    },
+    {
+     "id": "r22",
+     "days": 32
+    },
+    {
+     "id": "r24",
+     "days": 26
+    },
+    {
+     "id": "r35",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     800,
+     535
+    ],
+    [
+     905,
+     535
+    ],
+    [
+     1024,
+     508
+    ],
+    [
+     1024,
+     598
+    ],
+    [
+     960,
+     588
+    ],
+    [
+     905,
+     592
+    ],
+    [
+     893,
+     606
+    ],
+    [
+     872,
+     612
+    ],
+    [
+     900,
+     650
+    ],
+    [
+     840,
+     640
+    ],
+    [
+     795,
+     600
+    ]
+   ],
+   "notes": "Held by: The Pellim."
+  },
+  {
+   "id": "r24",
+   "name": "The Saltmarket Plain",
+   "terrain": "plain, farmed lowland behind the drowned coast",
+   "elevation": "low",
+   "water": "creeks to the coast",
+   "climate": "mild maritime",
+   "neighbors": [
+    {
+     "id": "r22",
+     "days": 24
+    },
+    {
+     "id": "r23",
+     "days": 26
+    },
+    {
+     "id": "r25",
+     "days": 25
+    },
+    {
+     "id": "r26",
+     "days": 23
+    },
+    {
+     "id": "r35",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     742,
+     606
+    ],
+    [
+     795,
+     600
+    ],
+    [
+     840,
+     640
+    ],
+    [
+     900,
+     650
+    ],
+    [
+     850,
+     688
+    ],
+    [
+     790,
+     705
+    ],
+    [
+     745,
+     735
+    ],
+    [
+     740,
+     700
+    ],
+    [
+     712,
+     660
+    ]
+   ],
+   "notes": "Held by: The Thessend (the crown of Talcross)."
+  },
+  {
+   "id": "r25",
+   "name": "The Crownlands",
+   "terrain": "plain, farmed lowland on the lower great river",
+   "elevation": "low",
+   "water": "the lower Lowe and the Withy mouth",
+   "climate": "mild temperate",
+   "neighbors": [
+    {
+     "id": "r24",
+     "days": 25
+    },
+    {
+     "id": "r26",
+     "days": 16
+    },
+    {
+     "id": "r27",
+     "days": 26
+    },
+    {
+     "id": "r28",
+     "days": 51
+    }
+   ],
+   "polygon": [
+    [
+     598,
+     712
+    ],
+    [
+     665,
+     705
+    ],
+    [
+     712,
+     660
+    ],
+    [
+     740,
+     700
+    ],
+    [
+     745,
+     735
+    ],
+    [
+     700,
+     760
+    ],
+    [
+     640,
+     770
+    ],
+    [
+     590,
+     760
+    ],
+    [
+     575,
+     735
+    ]
+   ],
+   "notes": "Held by: The Thessend (the crowns of Vessany and Ardmoor)."
+  },
+  {
+   "id": "r26",
+   "name": "The Middle Reach",
+   "terrain": "valley, the great river middle course, terraces and water meadow",
+   "elevation": "low, 300 feet",
+   "water": "the Lowe",
+   "climate": "mild temperate",
+   "neighbors": [
+    {
+     "id": "r13",
+     "days": 34
+    },
+    {
+     "id": "r22",
+     "days": 27
+    },
+    {
+     "id": "r24",
+     "days": 23
+    },
+    {
+     "id": "r25",
+     "days": 16
+    },
+    {
+     "id": "r28",
+     "days": 51
+    }
+   ],
+   "polygon": [
+    [
+     640,
+     592
+    ],
+    [
+     700,
+     555
+    ],
+    [
+     742,
+     606
+    ],
+    [
+     712,
+     660
+    ],
+    [
+     665,
+     705
+    ],
+    [
+     598,
+     712
+    ],
+    [
+     580,
+     650
+    ]
+   ],
+   "notes": "Held by: The Loweth, who pay a due to Vessany."
+  },
+  {
+   "id": "r27",
+   "name": "The Reedsea",
+   "terrain": "marsh, the great delta marsh",
+   "elevation": "at the tide",
+   "water": "the mouths of the Lowe",
+   "climate": "mild, wet",
+   "neighbors": [
+    {
+     "id": "r25",
+     "days": 26
+    },
+    {
+     "id": "r28",
+     "days": 69
+    },
+    {
+     "id": "r34",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r35",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     575,
+     735
+    ],
+    [
+     590,
+     760
+    ],
+    [
+     640,
+     770
+    ],
+    [
+     700,
+     760
+    ],
+    [
+     745,
+     735
+    ],
+    [
+     722,
+     790
+    ],
+    [
+     695,
+     838
+    ],
+    [
+     650,
+     876
+    ],
+    [
+     585,
+     884
+    ],
+    [
+     512,
+     868
+    ],
+    [
+     520,
+     800
+    ]
+   ],
+   "notes": "Held by: The reed folk."
+  },
+  {
+   "id": "r28",
+   "name": "The Withywood",
+   "terrain": "forest, wide lowland forest, oak and beech",
+   "elevation": "low, rolling",
+   "water": "the Withy and the Edder",
+   "climate": "mild temperate",
+   "neighbors": [
+    {
+     "id": "r05",
+     "days": 80
+    },
+    {
+     "id": "r13",
+     "days": 36
+    },
+    {
+     "id": "r25",
+     "days": 51
+    },
+    {
+     "id": "r26",
+     "days": 51
+    },
+    {
+     "id": "r27",
+     "days": 69
+    },
+    {
+     "id": "r29",
+     "days": 42
+    },
+    {
+     "id": "r34",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     270,
+     520
+    ],
+    [
+     335,
+     548
+    ],
+    [
+     390,
+     588
+    ],
+    [
+     470,
+     605
+    ],
+    [
+     560,
+     605
+    ],
+    [
+     640,
+     592
+    ],
+    [
+     580,
+     650
+    ],
+    [
+     598,
+     712
+    ],
+    [
+     575,
+     735
+    ],
+    [
+     520,
+     800
+    ],
+    [
+     512,
+     868
+    ],
+    [
+     455,
+     866
+    ],
+    [
+     398,
+     848
+    ],
+    [
+     330,
+     878
+    ],
+    [
+     320,
+     790
+    ],
+    [
+     300,
+     690
+    ],
+    [
+     230,
+     650
+    ],
+    [
+     290,
+     600
+    ]
+   ],
+   "notes": "Held by: Unheld; woodsmen, charcoal burners, a few clearings."
+  },
+  {
+   "id": "r29",
+   "name": "The Bendlands",
+   "terrain": "hill, low wooded hills and bottomland on a looping river",
+   "elevation": "low hills",
+   "water": "the Sarn",
+   "climate": "mild temperate, winters that keep people in",
+   "neighbors": [
+    {
+     "id": "r05",
+     "days": 45
+    },
+    {
+     "id": "r28",
+     "days": 42
+    },
+    {
+     "id": "r30",
+     "days": 20
+    },
+    {
+     "id": "r34",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     230,
+     650
+    ],
+    [
+     300,
+     690
+    ],
+    [
+     320,
+     790
+    ],
+    [
+     330,
+     878
+    ],
+    [
+     245,
+     893
+    ],
+    [
+     170,
+     850
+    ],
+    [
+     150,
+     740
+    ],
+    [
+     120,
+     668
+    ]
+   ],
+   "notes": "Held by: The Brannow, and free farms upriver."
+  },
+  {
+   "id": "r30",
+   "name": "The Far Capes",
+   "terrain": "hill, wooded capes and cliff shore",
+   "elevation": "hill, to 2,500 feet",
+   "water": "short streams",
+   "climate": "mild, wet, windy",
+   "neighbors": [
+    {
+     "id": "r05",
+     "days": 47
+    },
+    {
+     "id": "r29",
+     "days": 20
+    },
+    {
+     "id": "r34",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     52,
+     640
+    ],
+    [
+     120,
+     668
+    ],
+    [
+     150,
+     740
+    ],
+    [
+     170,
+     850
+    ],
+    [
+     245,
+     893
+    ],
+    [
+     190,
+     928
+    ],
+    [
+     118,
+     892
+    ],
+    [
+     78,
+     842
+    ],
+    [
+     98,
+     800
+    ],
+    [
+     40,
+     722
+    ]
+   ],
+   "notes": "Held by: No one; a few coast fishers."
+  },
+  {
+   "id": "r31",
+   "name": "The Grey Reach",
+   "terrain": "sea, a cold northern sea",
+   "elevation": "sea",
+   "water": "salt",
+   "climate": "cold",
+   "neighbors": [
+    {
+     "id": "r07",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r09",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r16",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r17",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r18",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r32",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     0
+    ],
+    [
+     1024,
+     0
+    ],
+    [
+     1024,
+     172
+    ],
+    [
+     948,
+     148
+    ],
+    [
+     882,
+     146
+    ],
+    [
+     893,
+     105
+    ],
+    [
+     868,
+     72
+    ],
+    [
+     760,
+     58
+    ],
+    [
+     620,
+     56
+    ],
+    [
+     480,
+     54
+    ],
+    [
+     402,
+     56
+    ],
+    [
+     354,
+     57
+    ],
+    [
+     322,
+     57
+    ],
+    [
+     230,
+     58
+    ],
+    [
+     105,
+     64
+    ],
+    [
+     60,
+     98
+    ],
+    [
+     0,
+     98
+    ]
+   ]
+  },
+  {
+   "id": "r32",
+   "name": "The Sundown Sea",
+   "terrain": "sea, a narrow sea under cliffs",
+   "elevation": "sea",
+   "water": "salt",
+   "climate": "cool",
+   "neighbors": [
+    {
+     "id": "r03",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r04",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r05",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r07",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r31",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r34",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     98
+    ],
+    [
+     60,
+     98
+    ],
+    [
+     44,
+     140
+    ],
+    [
+     32,
+     190
+    ],
+    [
+     46,
+     262
+    ],
+    [
+     48,
+     300
+    ],
+    [
+     30,
+     420
+    ],
+    [
+     46,
+     520
+    ],
+    [
+     45,
+     540
+    ],
+    [
+     0,
+     540
+    ]
+   ]
+  },
+  {
+   "id": "r34",
+   "name": "The Southern Deep",
+   "terrain": "sea, the broad southern and south-western sea",
+   "elevation": "sea",
+   "water": "salt",
+   "climate": "mild",
+   "neighbors": [
+    {
+     "id": "r05",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r27",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r28",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r29",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r30",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r32",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r35",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     540
+    ],
+    [
+     45,
+     540
+    ],
+    [
+     52,
+     640
+    ],
+    [
+     40,
+     722
+    ],
+    [
+     98,
+     800
+    ],
+    [
+     78,
+     842
+    ],
+    [
+     118,
+     892
+    ],
+    [
+     190,
+     928
+    ],
+    [
+     245,
+     893
+    ],
+    [
+     330,
+     878
+    ],
+    [
+     398,
+     848
+    ],
+    [
+     455,
+     866
+    ],
+    [
+     512,
+     868
+    ],
+    [
+     585,
+     884
+    ],
+    [
+     650,
+     876
+    ],
+    [
+     640,
+     1024
+    ],
+    [
+     0,
+     1024
+    ]
+   ]
+  },
+  {
+   "id": "r35",
+   "name": "The Drowned Shelf",
+   "terrain": "sea, a pale shallow shelf with islands and flats",
+   "elevation": "sea, shoal",
+   "water": "salt, brackish inshore",
+   "climate": "mild, fog",
+   "neighbors": [
+    {
+     "id": "r23",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r24",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r27",
+     "by": "boat, coastwise"
+    },
+    {
+     "id": "r34",
+     "by": "boat, coastwise"
+    }
+   ],
+   "polygon": [
+    [
+     650,
+     876
+    ],
+    [
+     695,
+     838
+    ],
+    [
+     722,
+     790
+    ],
+    [
+     745,
+     735
+    ],
+    [
+     790,
+     705
+    ],
+    [
+     850,
+     688
+    ],
+    [
+     900,
+     650
+    ],
+    [
+     872,
+     612
+    ],
+    [
+     893,
+     606
+    ],
+    [
+     905,
+     592
+    ],
+    [
+     960,
+     588
+    ],
+    [
+     1024,
+     598
+    ],
+    [
+     1024,
+     1024
+    ],
+    [
+     640,
+     1024
+    ]
+   ]
+  }
+ ],
+ "features": [
+  {
+   "id": "f01",
+   "name": "Ostrey",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     343,
+     281
+    ]
+   ],
+   "regions": [
+    "r01"
+   ],
+   "known_to": "the Haldren; the dale peoples; salt carters",
+   "notes": "The Haldren town above the stepping stones. About 300."
+  },
+  {
+   "id": "f02",
+   "name": "The Haldwater",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     304,
+     296
+    ],
+    [
+     318,
+     294
+    ],
+    [
+     330,
+     289
+    ],
+    [
+     343,
+     281.4
+    ],
+    [
+     352,
+     276
+    ],
+    [
+     360,
+     270
+    ],
+    [
+     372,
+     258
+    ],
+    [
+     386,
+     251
+    ],
+    [
+     400,
+     246
+    ],
+    [
+     455,
+     245
+    ],
+    [
+     490,
+     226
+    ],
+    [
+     512,
+     206
+    ]
+   ],
+   "regions": [
+    "r01",
+    "r02",
+    "r15"
+   ],
+   "known_to": "everyone on it",
+   "notes": "Upper course of the great river. Cold and quick in the valley, slow through the wet ground."
+  },
+  {
+   "id": "f03",
+   "name": "The Lowe",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     512,
+     206
+    ],
+    [
+     522,
+     240
+    ],
+    [
+     560,
+     260
+    ],
+    [
+     590,
+     282
+    ],
+    [
+     592,
+     312
+    ],
+    [
+     604,
+     338
+    ],
+    [
+     650,
+     385
+    ],
+    [
+     690,
+     420
+    ],
+    [
+     740,
+     455
+    ],
+    [
+     746,
+     482
+    ],
+    [
+     742,
+     502
+    ],
+    [
+     762,
+     522
+    ],
+    [
+     790,
+     546
+    ],
+    [
+     760,
+     560
+    ],
+    [
+     725,
+     588
+    ],
+    [
+     700,
+     600
+    ],
+    [
+     690,
+     640
+    ],
+    [
+     650,
+     668
+    ],
+    [
+     610,
+     690
+    ],
+    [
+     598,
+     715
+    ],
+    [
+     590,
+     738
+    ],
+    [
+     612,
+     756
+    ],
+    [
+     640,
+     790
+    ],
+    [
+     650,
+     830
+    ],
+    [
+     650,
+     876
+    ]
+   ],
+   "regions": [
+    "r15",
+    "r19",
+    "r22",
+    "r26",
+    "r25",
+    "r27"
+   ],
+   "known_to": "everyone on it; the south knows it best",
+   "notes": "The long river. Braided above the Parting, navigable from the Rivermeet down."
+  },
+  {
+   "id": "f04",
+   "name": "The Fitted Way",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     362,
+     268.6
+    ],
+    [
+     352,
+     275.4
+    ],
+    [
+     343,
+     280.6
+    ],
+    [
+     330,
+     288.6
+    ],
+    [
+     312,
+     295.6
+    ],
+    [
+     302,
+     298.6
+    ]
+   ],
+   "regions": [
+    "r01"
+   ],
+   "known_to": "the Haldren, as a line of fitted stone under the turf",
+   "notes": "An Orsand road, under turf for most of its length."
+  },
+  {
+   "id": "f05",
+   "name": "The Wetfoot",
+   "type": "marsh",
+   "shape": "area",
+   "coords": [
+    [
+     448,
+     240
+    ],
+    [
+     470,
+     238
+    ],
+    [
+     486,
+     262
+    ],
+    [
+     484,
+     296
+    ],
+    [
+     462,
+     300
+    ],
+    [
+     452,
+     270
+    ]
+   ],
+   "regions": [
+    "r02"
+   ],
+   "known_to": "the dale peoples; carters on the Salt Road",
+   "notes": "Low wet ground where the dale rivers leave the hills."
+  },
+  {
+   "id": "f06",
+   "name": "The Highfold",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     342.6,
+     280.3
+    ]
+   ],
+   "regions": [
+    "r01"
+   ],
+   "known_to": "the Haldren",
+   "notes": "Roofless stone folds and a walled platform on the high ground above Ostrey, where the Haldren leave their dead."
+  },
+  {
+   "id": "f07",
+   "name": "The Knot Stair",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     275,
+     318
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the pass folk; a few Haldren by repute",
+   "notes": "High pass at the head of the Hald Valley. Kept by the pass folk."
+  },
+  {
+   "id": "f08",
+   "name": "The Kettle",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     240,
+     338
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the pass folk, who watch it",
+   "notes": "A high rock hollow with an overhang on its north side. The warm stone lies on its floor."
+  },
+  {
+   "id": "f09",
+   "name": "The High Way",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     302,
+     298.6
+    ],
+    [
+     275,
+     318
+    ],
+    [
+     215,
+     330
+    ],
+    [
+     150,
+     322
+    ],
+    [
+     62,
+     318
+    ]
+   ],
+   "regions": [
+    "r01",
+    "r04"
+   ],
+   "known_to": "the pass folk; no lowlander walks it whole",
+   "notes": "The Fitted Way continued over the range to the western shore. Broken by slides."
+  },
+  {
+   "id": "f10",
+   "name": "Westerhythe",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     61,
+     318
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the pass folk; coasting boats see it",
+   "notes": "An Orsand harbor under the western cliffs: a mole, a stair, a holed sighting stone on the cliff top."
+  },
+  {
+   "id": "f11",
+   "name": "The Marchway",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     362,
+     268.6
+    ],
+    [
+     380,
+     274
+    ],
+    [
+     420,
+     300
+    ],
+    [
+     455,
+     335
+    ],
+    [
+     478,
+     357
+    ]
+   ],
+   "regions": [
+    "r01",
+    "r02",
+    "r11",
+    "r12"
+   ],
+   "known_to": "herders of the Hollow March",
+   "notes": "The Fitted Way continued east to the rim."
+  },
+  {
+   "id": "f12",
+   "name": "The Withy",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     228,
+     326
+    ],
+    [
+     256,
+     336
+    ],
+    [
+     275,
+     356
+    ],
+    [
+     256,
+     386
+    ],
+    [
+     250,
+     402
+    ],
+    [
+     282,
+     422
+    ],
+    [
+     294,
+     440
+    ],
+    [
+     290,
+     462
+    ],
+    [
+     268,
+     505
+    ],
+    [
+     246,
+     540
+    ],
+    [
+     216,
+     570
+    ],
+    [
+     232,
+     592
+    ],
+    [
+     290,
+     610
+    ],
+    [
+     332,
+     625
+    ],
+    [
+     400,
+     626
+    ],
+    [
+     420,
+     650
+    ],
+    [
+     452,
+     662
+    ],
+    [
+     512,
+     690
+    ],
+    [
+     560,
+     720
+    ],
+    [
+     590,
+     738
+    ]
+   ],
+   "regions": [
+    "r04",
+    "r06",
+    "r05",
+    "r28",
+    "r25"
+   ],
+   "known_to": "the Hodd; woodsmen; the Crownlands",
+   "notes": "Rises under the Kettle, runs the trough between range and rim, then through the great wood to the Lowe."
+  },
+  {
+   "id": "f13",
+   "name": "Undercrag",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     258,
+     452
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the Hodd; valley traders",
+   "notes": "The Hodd walled seat. About 3,600 inside."
+  },
+  {
+   "id": "f14",
+   "name": "The Squared Doors",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     256.8,
+     450.6
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the Hodd; the pass folk, whose they are",
+   "notes": "Squared openings in the cliff above the terraces: pass-folk cut rooms, some in use."
+  },
+  {
+   "id": "f15",
+   "name": "The Lintel Door",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     255.6,
+     449.4
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the Hodd, as a blocked doorway; the pass folk",
+   "notes": "A doorway of dressed stone high on the slope, blocked with fitted blocks from outside. An Orsand sealed room."
+  },
+  {
+   "id": "f16",
+   "name": "The Hush",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     238,
+     424
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the pass folk; Hodd goatherds, by avoiding it",
+   "notes": "A high hollow and a deep cut room closed from outside. Nothing particular grows in the hollow."
+  },
+  {
+   "id": "f17",
+   "name": "Kinhold",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     205,
+     400
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the pass folk",
+   "notes": "The largest of the pass-folk winter houses, cut inside the mountain."
+  },
+  {
+   "id": "f18",
+   "name": "Dunmarrow",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     385,
+     101
+    ]
+   ],
+   "regions": [
+    "r08"
+   ],
+   "known_to": "the Senn; the Corrant; everyone who uses the Salt Road",
+   "notes": "The Senn walled town at the crossing. Two gates."
+  },
+  {
+   "id": "f19",
+   "name": "The Bare Gate",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     385.6,
+     101.7
+    ]
+   ],
+   "regions": [
+    "r08"
+   ],
+   "known_to": "the Senn; travelers",
+   "notes": "Two tall dressed stones either side of the road on open ground, with no wall."
+  },
+  {
+   "id": "f20",
+   "name": "The Corra",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     378,
+     128
+    ],
+    [
+     386,
+     112
+    ],
+    [
+     390,
+     96
+    ],
+    [
+     372,
+     78
+    ],
+    [
+     354,
+     57
+    ]
+   ],
+   "regions": [
+    "r08",
+    "r09"
+   ],
+   "known_to": "the Senn; the Corrant",
+   "notes": "Cold and quick in the gap, slow below it."
+  },
+  {
+   "id": "f21",
+   "name": "Gullwick",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     357,
+     62
+    ]
+   ],
+   "regions": [
+    "r09"
+   ],
+   "known_to": "the north; salt buyers everywhere",
+   "notes": "Port city of the Corrant at the mouth of the Corra. About 8,000. Built on an older harbor."
+  },
+  {
+   "id": "f22",
+   "name": "Panmouth",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     505,
+     66
+    ]
+   ],
+   "regions": [
+    "r09"
+   ],
+   "known_to": "the Corrant",
+   "notes": "Chief town of the north-shore salt pans."
+  },
+  {
+   "id": "f23",
+   "name": "The Salt Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     357,
+     62
+    ],
+    [
+     372,
+     80
+    ],
+    [
+     385,
+     101
+    ],
+    [
+     392,
+     130
+    ],
+    [
+     412,
+     172
+    ],
+    [
+     440,
+     215
+    ],
+    [
+     452,
+     244
+    ],
+    [
+     466,
+     300
+    ],
+    [
+     478,
+     357
+    ]
+   ],
+   "regions": [
+    "r09",
+    "r08",
+    "r03",
+    "r10",
+    "r02",
+    "r11",
+    "r12"
+   ],
+   "known_to": "the Senn; the Corrant; carters",
+   "notes": "In use from Gullwick to the Wetfoot; beyond that an old road only."
+  },
+  {
+   "id": "f24",
+   "name": "Old Orsa",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     478,
+     358
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the rim people, who take its stone; Thessend scribes, from records",
+   "notes": "Chief ruin of the road-making kingdom, on the north rim. Ruins over older ruins."
+  },
+  {
+   "id": "f25",
+   "name": "The Holed Stone",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     479.5,
+     359.5
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the rim people",
+   "notes": "A leaning slab with a hole bored through it, on the crest above Old Orsa, looking in over the basin."
+  },
+  {
+   "id": "f26",
+   "name": "The Measure House",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     478.6,
+     358.8
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "no one living",
+   "notes": "A sealed vault under Old Orsa. The lowest of the Orsand doors."
+  },
+  {
+   "id": "f27",
+   "name": "The Sleeper",
+   "type": "mountain",
+   "shape": "area",
+   "coords": [
+    [
+     474,
+     470
+    ],
+    [
+     497,
+     458
+    ],
+    [
+     522,
+     470
+    ],
+    [
+     528,
+     492
+    ],
+    [
+     505,
+     506
+    ],
+    [
+     478,
+     500
+    ]
+   ],
+   "regions": [
+    "r14"
+   ],
+   "known_to": "the rim people; anyone on the rim crest",
+   "notes": "The beast at the middle of the basin. The painted mound is the beast and the rise it lies on."
+  },
+  {
+   "id": "f28",
+   "name": "Goatsteps",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     668,
+     470
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the rim people; salt carters from the Lowe",
+   "notes": "The rim hamlet nearest the river, where outsiders trade salt for goats."
+  },
+  {
+   "id": "f29",
+   "name": "The Rib",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     607.6,
+     144.5
+    ]
+   ],
+   "regions": [
+    "r10"
+   ],
+   "known_to": "the Tavrek",
+   "notes": "A long pale curve standing out of the turf on the spur east hillside, with a hollow under it."
+  },
+  {
+   "id": "f30",
+   "name": "The Twin Spring",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     648.5,
+     150
+    ],
+    [
+     651.5,
+     150
+    ],
+    [
+     652,
+     152.5
+    ],
+    [
+     648,
+     152.5
+    ]
+   ],
+   "regions": [
+    "r16"
+   ],
+   "known_to": "the Tavrek",
+   "notes": "A wet saddle of springs under the spur from which two rivers run opposite ways."
+  },
+  {
+   "id": "f31",
+   "name": "The Hornwater",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     648,
+     152
+    ],
+    [
+     600,
+     168
+    ],
+    [
+     560,
+     182
+    ],
+    [
+     540,
+     196
+    ],
+    [
+     512,
+     206
+    ]
+   ],
+   "regions": [
+    "r16",
+    "r10",
+    "r15"
+   ],
+   "known_to": "the Tavrek; the Rivermeet",
+   "notes": "Runs west from the Twin Spring to the Lowe."
+  },
+  {
+   "id": "f32",
+   "name": "The Longloop",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     652,
+     152
+    ],
+    [
+     700,
+     160
+    ],
+    [
+     735,
+     185
+    ],
+    [
+     746,
+     215
+    ],
+    [
+     724,
+     245
+    ],
+    [
+     716,
+     270
+    ],
+    [
+     690,
+     290
+    ],
+    [
+     660,
+     306
+    ],
+    [
+     645,
+     322
+    ],
+    [
+     640,
+     340
+    ],
+    [
+     606,
+     340
+    ]
+   ],
+   "regions": [
+    "r16",
+    "r17",
+    "r19",
+    "r15"
+   ],
+   "known_to": "the Tavrek",
+   "notes": "Runs east and then south-west in a great loop from the Twin Spring to the Lowe."
+  },
+  {
+   "id": "f33",
+   "name": "The Dunwater",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     796,
+     300
+    ],
+    [
+     760,
+     282
+    ],
+    [
+     716,
+     270
+    ]
+   ],
+   "regions": [
+    "r19"
+   ],
+   "known_to": "herders of both peoples",
+   "notes": "A steppe stream from the middle grass to the Longloop."
+  },
+  {
+   "id": "f34",
+   "name": "The Ropewater",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     935,
+     356
+    ],
+    [
+     880,
+     366
+    ],
+    [
+     840,
+     356
+    ],
+    [
+     806,
+     346
+    ],
+    [
+     780,
+     370
+    ],
+    [
+     764,
+     392
+    ],
+    [
+     770,
+     420
+    ],
+    [
+     764,
+     446
+    ],
+    [
+     746,
+     458
+    ]
+   ],
+   "regions": [
+    "r20",
+    "r19",
+    "r21"
+   ],
+   "known_to": "the Ushkai",
+   "notes": "Runs west between the ridge lines, then south-west to the Lowe."
+  },
+  {
+   "id": "f35",
+   "name": "The Hardway",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     608.4,
+     145.2
+    ],
+    [
+     700,
+     140
+    ],
+    [
+     852,
+     158
+    ],
+    [
+     930,
+     156
+    ]
+   ],
+   "regions": [
+    "r10",
+    "r16",
+    "r17",
+    "r18"
+   ],
+   "known_to": "the Tavrek, as a straight stretch of thin grass",
+   "notes": "An Orsand road along the north grass to the Tern Shore."
+  },
+  {
+   "id": "f36",
+   "name": "The Rope Line",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     700,
+     446
+    ],
+    [
+     790,
+     372
+    ],
+    [
+     872,
+     304
+    ],
+    [
+     1000,
+     246
+    ]
+   ],
+   "regions": [
+    "r19",
+    "r20"
+   ],
+   "known_to": "the Ushkai, as the lines where the sky dragged its rope",
+   "notes": "An Orsand road from the rim across the ridges and off the sheet."
+  },
+  {
+   "id": "f37",
+   "name": "The Flat Banks",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     874,
+     306
+    ]
+   ],
+   "regions": [
+    "r20"
+   ],
+   "known_to": "the Ushkai",
+   "notes": "Banks and ditches worn nearly flat in a hollow, enclosing nothing: an Orsand road station."
+  },
+  {
+   "id": "f38",
+   "name": "Lastlight",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     932,
+     157
+    ]
+   ],
+   "regions": [
+    "r18"
+   ],
+   "known_to": "coasting boats of the north",
+   "notes": "A fishing hamlet on the Tern Shore that keeps a fire on an old stone tower every night."
+  },
+  {
+   "id": "f39",
+   "name": "The Sunder",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     790,
+     546
+    ],
+    [
+     850,
+     556
+    ],
+    [
+     886,
+     568
+    ]
+   ],
+   "regions": [
+    "r22",
+    "r23"
+   ],
+   "known_to": "the Pellim; the Loweth",
+   "notes": "The east arm of the Lowe, from the Parting to the Pellwater. A chain of pools in a dry summer."
+  },
+  {
+   "id": "f40",
+   "name": "The Pellwater",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     1024,
+     516
+    ],
+    [
+     1000,
+     516
+    ],
+    [
+     950,
+     530
+    ],
+    [
+     905,
+     546
+    ],
+    [
+     886,
+     568
+    ],
+    [
+     898,
+     590
+    ],
+    [
+     893,
+     606
+    ]
+   ],
+   "regions": [
+    "r23"
+   ],
+   "known_to": "the Pellim; the Ushkai on its upper course",
+   "notes": "Comes in from the east along the grass edge and reaches the sea through the estuary."
+  },
+  {
+   "id": "f41",
+   "name": "Saltstairs",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     884,
+     597
+    ]
+   ],
+   "regions": [
+    "r23"
+   ],
+   "known_to": "the whole south and every coast",
+   "notes": "The Pellim city on the tide. About 20,000."
+  },
+  {
+   "id": "f42",
+   "name": "The Dry Hull",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     881,
+     594
+    ]
+   ],
+   "regions": [
+    "r23"
+   ],
+   "known_to": "the Pellim",
+   "notes": "Ribs of a large old hull on dry ground, well back from the shore."
+  },
+  {
+   "id": "f43",
+   "name": "The Tide Stumps",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     886.5,
+     599.5
+    ]
+   ],
+   "regions": [
+    "r23"
+   ],
+   "known_to": "the Pellim",
+   "notes": "Lines of worked stone and pile stumps on the flats at low water: the lower old harbor."
+  },
+  {
+   "id": "f44",
+   "name": "Kessary",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     641,
+     672
+    ]
+   ],
+   "regions": [
+    "r26"
+   ],
+   "known_to": "the Loweth; the Crownlands",
+   "notes": "The Loweth walled seat and landing, on the footings of a river fort."
+  },
+  {
+   "id": "f45",
+   "name": "The Bankwater",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     645,
+     664
+    ],
+    [
+     650,
+     663
+    ],
+    [
+     651,
+     667
+    ],
+    [
+     646,
+     668
+    ]
+   ],
+   "regions": [
+    "r26"
+   ],
+   "known_to": "the Loweth",
+   "notes": "A wide still water in a side valley above Kessary, held behind a straight bank."
+  },
+  {
+   "id": "f46",
+   "name": "Sellnot",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     648,
+     665.5
+    ]
+   ],
+   "regions": [
+    "r26"
+   ],
+   "known_to": "the Loweth, as a tale; Crownlands records",
+   "notes": "The town drowned under the Bankwater."
+  },
+  {
+   "id": "f47",
+   "name": "The Springdoor",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     648.4,
+     665.9
+    ]
+   ],
+   "regions": [
+    "r26"
+   ],
+   "known_to": "no one living",
+   "notes": "A sealed Orsand door beside the old spring of Sellnot, under the Bankwater."
+  },
+  {
+   "id": "f48",
+   "name": "Wardwell",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     642.2,
+     670.8
+    ]
+   ],
+   "regions": [
+    "r26"
+   ],
+   "known_to": "the Loweth",
+   "notes": "A spring cased in old dressed stone on the hillside above Kessary."
+  },
+  {
+   "id": "f49",
+   "name": "The Stopped Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     640,
+     594
+    ],
+    [
+     641,
+     640
+    ],
+    [
+     641,
+     671
+    ]
+   ],
+   "regions": [
+    "r26"
+   ],
+   "known_to": "the Loweth",
+   "notes": "An Orsand road from the south rim that comes down to the river at Kessary and stops."
+  },
+  {
+   "id": "f50",
+   "name": "Vessany",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     601,
+     722
+    ]
+   ],
+   "regions": [
+    "r25"
+   ],
+   "known_to": "the south",
+   "notes": "The upriver crown of the Thessend. About 8,000."
+  },
+  {
+   "id": "f51",
+   "name": "Ardmoor",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     662,
+     740
+    ]
+   ],
+   "regions": [
+    "r25"
+   ],
+   "known_to": "the south",
+   "notes": "The middle crown of the Thessend. About 6,000."
+  },
+  {
+   "id": "f52",
+   "name": "Talcross",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     800,
+     668
+    ]
+   ],
+   "regions": [
+    "r24"
+   ],
+   "known_to": "the south",
+   "notes": "The coastal crown of the Thessend, the lowest and oldest. About 9,000."
+  },
+  {
+   "id": "f53",
+   "name": "The Drowned Streets",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     642,
+     826
+    ]
+   ],
+   "regions": [
+    "r27"
+   ],
+   "known_to": "the reed folk",
+   "notes": "Worked stone running out under the marsh water, under the oldest reed-folk villages."
+  },
+  {
+   "id": "f54",
+   "name": "The Eastflat",
+   "type": "marsh",
+   "shape": "area",
+   "coords": [
+    [
+     672,
+     790
+    ],
+    [
+     696,
+     788
+    ],
+    [
+     699,
+     812
+    ],
+    [
+     686,
+     828
+    ],
+    [
+     668,
+     826
+    ]
+   ],
+   "regions": [
+    "r27"
+   ],
+   "known_to": "the reed folk; Ardmoor eel buyers",
+   "notes": "The east reach of the marsh: wide, shallow, one kind of reed, no eels."
+  },
+  {
+   "id": "f55",
+   "name": "Quillan",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     240,
+     786
+    ]
+   ],
+   "regions": [
+    "r29"
+   ],
+   "known_to": "the south-west; river traders",
+   "notes": "The Brannow walled town on the rise in the great bend. About 6,500 inside."
+  },
+  {
+   "id": "f56",
+   "name": "The Sarn",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     128,
+     690
+    ],
+    [
+     170,
+     672
+    ],
+    [
+     205,
+     676
+    ],
+    [
+     240,
+     700
+    ],
+    [
+     256,
+     720
+    ],
+    [
+     270,
+     745
+    ],
+    [
+     250,
+     762
+    ],
+    [
+     216,
+     772
+    ],
+    [
+     202,
+     790
+    ],
+    [
+     226,
+     806
+    ],
+    [
+     245,
+     830
+    ],
+    [
+     226,
+     860
+    ],
+    [
+     236,
+     884
+    ],
+    [
+     245,
+     893
+    ]
+   ],
+   "regions": [
+    "r30",
+    "r29"
+   ],
+   "known_to": "the Brannow",
+   "notes": "A slow full river with one great bend."
+  },
+  {
+   "id": "f57",
+   "name": "The Underkeys",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     240.3,
+     786.4
+    ]
+   ],
+   "regions": [
+    "r29"
+   ],
+   "known_to": "the keyholders of Quillan",
+   "notes": "Fitted doors at the ends of the cellars of Quillan oldest quarter. Orsand sealed rooms."
+  },
+  {
+   "id": "f58",
+   "name": "The Bottom Mounds",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     243,
+     790
+    ]
+   ],
+   "regions": [
+    "r29"
+   ],
+   "known_to": "the Brannow",
+   "notes": "Regular mounds in the bottomland with trees grown over them."
+  },
+  {
+   "id": "f59",
+   "name": "The Banked Way",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     240,
+     786
+    ],
+    [
+     300,
+     700
+    ],
+    [
+     322,
+     620
+    ],
+    [
+     335,
+     549
+    ]
+   ],
+   "regions": [
+    "r29",
+    "r28"
+   ],
+   "known_to": "the Brannow, as old banked roads into the woods",
+   "notes": "An Orsand road from the bend town north-east through the great wood to the rim."
+  },
+  {
+   "id": "f60",
+   "name": "The Edder",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     300,
+     722
+    ],
+    [
+     340,
+     752
+    ],
+    [
+     418,
+     774
+    ],
+    [
+     442,
+     810
+    ],
+    [
+     408,
+     838
+    ],
+    [
+     398,
+     848
+    ]
+   ],
+   "regions": [
+    "r29",
+    "r28"
+   ],
+   "known_to": "woodsmen; coast fishers",
+   "notes": "A forest river to the southern sea."
+  },
+  {
+   "id": "f61",
+   "name": "The Lamp Hut",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     92,
+     848
+    ]
+   ],
+   "regions": [
+    "r30"
+   ],
+   "known_to": "no one living; a few coast fishers know a hut stands there",
+   "notes": "A stone hut and a fire platform on a cape. A carved lintel."
+  }
+ ],
+ "landings": {
+  "player": {
+   "region": "r01",
+   "at": [
+    344.0,
+    281.6
+   ]
+  },
+  "god-stone": {
+   "region": "r06",
+   "at": [
+    256.0,
+    450.0
+   ]
+  },
+  "god-thresholds": {
+   "region": "r08",
+   "at": [
+    385.3,
+    101.4
+   ]
+  },
+  "god-beasts": {
+   "region": "r16",
+   "at": [
+    609.6,
+    145.6
+   ]
+  },
+  "god-storms": {
+   "region": "r20",
+   "at": [
+    873.4,
+    305.2
+   ]
+  },
+  "god-sea": {
+   "region": "r23",
+   "at": [
+    884.6,
+    597.8
+   ]
+  },
+  "god-rivers": {
+   "region": "r26",
+   "at": [
+    642.6,
+    669.6
+   ]
+  },
+  "god-secrets": {
+   "region": "r29",
+   "at": [
+    240.8,
+    787.0
+   ]
+  }
+ },
+ "plane": {
+  "count_roll": "r-0147",
+  "starfalls": [
+   {
+    "id": "p01",
+    "bearing": "south-west",
+    "distance_years_walk": 460,
+    "age_years": 0,
+    "alive": true,
+    "phase": null,
+    "throw": true,
+    "rolls": [
+     "r-0144",
+     "r-0145",
+     "r-0146"
+    ]
+   },
+   {
+    "id": "p02",
+    "bearing": "east",
+    "distance_years_walk": 910,
+    "age_years": null,
+    "alive": "not yet fallen",
+    "phase": "mature (77)",
+    "throw": false,
+    "rolls": [
+     "r-0148",
+     "r-0149",
+     "r-0150",
+     "r-0151",
+     "r-0152"
+    ]
+   },
+   {
+    "id": "p03",
+    "bearing": "south",
+    "distance_years_walk": 730,
+    "age_years": 18000,
+    "alive": true,
+    "phase": null,
+    "throw": false,
+    "rolls": [
+     "r-0153",
+     "r-0154",
+     "r-0155",
+     "r-0156",
+     "r-0157",
+     "r-0158",
+     "r-0159"
+    ]
+   }
+  ]
+ }
+}
