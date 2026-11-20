@@ -8,17 +8,20 @@ line per check. Warnings are printed but do not fail. --counts-only prints the c
 alone (for records kept outside the spoiler folder). --root points at another repository
 layout (tests use a fixture).
 
-  --places     every bracketed id like [r12] or [f03] in a sealed file exists in map.json;
+  --places     every bracketed id like [r12], [f03] or [p01] in a sealed file exists in map.json;
                the map's own ids, neighbors and landings resolve; warns on a capitalized
                map name written with no id after it.
   --leaks      builds the sealed term list (god names and folder labels, the count of gods,
                place names the player has not seen or been told, phenomena yearly counts,
-               mystery and schedule titles, star values) and fails on any hit in
-               campaigns/<name>/. Also fails a public map-knowledge file that breaks the
+               mystery and schedule titles, star values, hidden power names, names in
+               the common past) and fails on any hit in campaigns/<name>/ or in the
+               campaign's public scene requests, images/requests/<name>-*.json. Also fails a public map-knowledge file that breaks the
                map rules. S/leak-allow.txt (one term per line, # for comments) exempts terms.
-  --mysteries  every mystery has Truth; Body; Cost if ignored; Clock or trigger; Clues;
-               Branches; Never found, with a clue carrying readings and a branch saying
-               what the world does.
+  --mysteries  every mystery follows runbook template 7.8: Truth; Body; Cost if ignored;
+               Clock or trigger; Clues; Branches; Never found, a Kind: line, each clue
+               with Location: and Readings:, each branch with What the world does:, a
+               Limit: line where a being answers questions (found by wording, so the
+               checker still reads); one epic, two or more long, three or more short.
   --rolls      every r-NNNN cited in a sealed file is in S/state/rolls.jsonl, nothing is
                rolled twice, every reroll has a reason; the public rolls log is empty.
   --dashes     no em or en dash in any campaign file, sealed or public.
@@ -122,6 +125,7 @@ class Campaign:
         for el, _ in list(mapt.all_regions(self.world)) + list(mapt.all_features(self.world)):
             ids.add(el["id"])
         ids |= {layer["id"] for layer in self.world.get("layers", []) if "id" in layer}
+        ids |= {i for i in mapt.plane_ids(self.world) if i}
         return ids
 
     def elements(self):
@@ -223,6 +227,21 @@ def leak_terms(c):
             gnames |= set(re.findall(r"\bI name myself ([A-Z][\w'-]+)", t))
     for n in sorted(gnames):
         phrase("god name", n, case=True)
+    # hidden power names, the player's and every NPC god's (their ### headings)
+    hp_files = [os.path.join(c.S, "player", "hidden-powers.md")]
+    hp_files += [os.path.join(c.S, "gods-sealed", g, "hidden-powers.md") for g in sorted(c.god_labels())]
+    for path in hp_files:
+        for m in re.finditer(r"^#{2,4}\s+(.+?)\s*$", read(path), re.M):
+            t = m.group(1).strip()
+            if t.lower() not in ("ceiling", "growth", "notes"):
+                for v in name_variants(t) or {t}:
+                    phrase("hidden power", v, case=True)
+    # names in the common past (S/gods-sealed/common-past.md, or any file at the top of gods-sealed)
+    gs = os.path.join(c.S, "gods-sealed")
+    for path in sorted(os.path.join(gs, f) for f in (os.listdir(gs) if os.path.isdir(gs) else []) if f.endswith(".md")):
+        for nm in common_names(read(path)):
+            for v in name_variants(nm) or {nm}:
+                phrase("common-past name", v, case=True)
     n = len(c.npc_gods())
     if n:
         for k in sorted({n, n + 1}):
@@ -302,14 +321,46 @@ def leak_terms(c):
     return terms
 
 
+STOP_CAPS = {"The", "This", "That", "These", "Those", "There", "Their", "They", "What", "When", "Where", "Which",
+             "While", "With", "Without", "From", "Into", "Over", "Under", "After", "Before", "Year", "Years",
+             "Night", "Day", "Days", "Keeper", "Truth", "Table", "God", "Gods", "None", "Each", "Every", "Some",
+             "Most", "Many", "Only", "Both", "Also", "Then", "Here", "Even", "Never", "Always", "Pacific"}
+
+
+def common_names(text):
+    """Proper names in a common-past file: the name after a colon in its title, and capitalized
+    words of four or more letters met mid-sentence that the file never writes in lower case."""
+    names = set()
+    m = re.search(r"^#\s+[^:\n]+:\s*(.+?)\s*$", text, re.M)
+    if m:
+        names.add(m.group(1).strip())
+    lower = set(re.findall(r"\b[a-z][a-z'-]+\b", text))
+    for m in re.finditer(r"(?<=[a-z,;] )([A-Z][a-z'-]{3,}(?: [A-Z][a-z'-]{3,})*)", text):
+        nm = m.group(1)
+        words = nm.split()
+        if any(w in STOP_CAPS for w in words) or all(w.lower() in lower for w in words):
+            continue
+        names.add(nm)
+    return names
+
+
+def public_files(c):
+    """Every text file under campaigns/<name>/, plus the public scene requests for the campaign."""
+    out = text_files(c.P) if os.path.isdir(c.P) else []
+    req = os.path.join(c.root, "images", "requests")
+    if os.path.isdir(req):
+        out += sorted(os.path.join(req, f) for f in os.listdir(req)
+                      if f.startswith(c.name + "-") and f.endswith(".json"))
+    return out
+
+
 def check_leaks(c, rep):
     terms = leak_terms(c)
     for p in mapt.knowledge_problems(c.world, c.knowledge) if c.world else []:
         rep.fail("leaks", f"{c.rel(os.path.join(c.P, 'player', 'map-knowledge.json'))}: {p}")
     if not os.path.isdir(c.P):
         rep.warn("leaks", f"no public folder {c.rel(c.P)}")
-        return
-    for path in text_files(c.P):
+    for path in public_files(c):
         for ln, line in enumerate(read(path).splitlines(), 1):
             for kind, label, rx in terms:
                 if rx.search(line):
@@ -355,7 +406,7 @@ def mystery_units(text):
         own = text[pos:min(end, nxt)]
         if title.strip(" .*") in REQUIRED or not any(r.search(own) for r in LABEL_RES.values()):
             continue
-        t = re.sub(r"^(?:EPIC|LONG\s*\d*|SHORT\s*\d*|[A-Z]{0,2}\d+)[.:]\s*", "", title.strip())
+        t = re.sub(r"^(?:EPIC|LONG\s*\d*|SHORT\s*\d*|[A-Z]{0,2}\d+)(?:[.:]\s*|\s+)", "", title.strip())
         units.append((t, body))
     return units
 
@@ -370,26 +421,71 @@ def section(body, label):
     return rest[:cut]
 
 
+KIND_RE = re.compile(r"^\s*Kind:\s*(epic|long|short)\b", re.I | re.M)
+ANSWERS_RE = re.compile(r"\banswers?\b[^.\n]{0,40}\bquestions?\b|\bcan be asked\b|\boracle\b|\banswers when asked\b", re.I)
+
+
+def chunks(sec):
+    """A section's #### sub-entries (clues or branches), or None when it has none."""
+    parts = re.split(r"^####\s+.*$", sec, flags=re.M)
+    heads = re.findall(r"^####\s+(.*)$", sec, flags=re.M)
+    return list(zip(heads, parts[1:])) if heads else None
+
+
 def check_mysteries(c, rep):
+    """Template 7.8 of the creation runbook: headings in order, a Kind line, clues with
+    Location and Readings, branches with What the world does, a Limit line for a being that
+    answers questions; one epic, two or more long, three or more short."""
     files = mystery_files(c)
     if not files:
         rep.fail("mysteries", "no mysteries file")
         return
     total = 0
+    kinds = {"epic": 0, "long": 0, "short": 0}
     for path in files:
         for title, body in mystery_units(read(path)):
             total += 1
+            where = f"{c.rel(path)}: \"{title}\""
             missing = [l for l in REQUIRED if not LABEL_RES[l].search(body)]
             if missing:
-                rep.fail("mysteries", f"{c.rel(path)}: \"{title}\" lacks {'; '.join(missing)}")
+                rep.fail("mysteries", f"{where} lacks {'; '.join(missing)}")
+            k = KIND_RE.search(body)
+            if k:
+                kinds[k.group(1).lower()] += 1
+            else:
+                rep.fail("mysteries", f"{where}: no Kind: line (epic, long or short)")
             clues = section(body, "Clues")
-            if clues is not None and not re.search(r"\breadings?\b", clues, re.I):
-                rep.fail("mysteries", f"{c.rel(path)}: \"{title}\": no clue carries readings")
+            if clues is not None:
+                items = chunks(clues)
+                if items:
+                    for name, text in items:
+                        if not re.search(r"^\s*Location:\s*\S", text, re.M):
+                            rep.fail("mysteries", f"{where}: clue \"{name.strip()}\" has no Location:")
+                        if not re.search(r"^\s*Readings:\s*\S", text, re.M):
+                            rep.fail("mysteries", f"{where}: clue \"{name.strip()}\" has no Readings:")
+                else:
+                    if not re.search(r"\breadings?\b", clues, re.I):
+                        rep.fail("mysteries", f"{where}: no clue carries readings")
+                    if not re.search(r"\bLocation:", clues):
+                        rep.fail("mysteries", f"{where}: no clue carries a Location:")
             branches = section(body, "Branches")
-            if branches is not None and not re.search(r"\bworld does\b", branches, re.I):
-                rep.fail("mysteries", f"{c.rel(path)}: \"{title}\": no branch says what the world does")
+            if branches is not None:
+                items = chunks(branches)
+                if items:
+                    for name, text in items:
+                        if not re.search(r"^\s*What the world does:\s*\S", text, re.M):
+                            rep.fail("mysteries", f"{where}: branch \"{name.strip()}\" has no What the world does:")
+                elif not re.search(r"\bworld does\b", branches, re.I):
+                    rep.fail("mysteries", f"{where}: no branch says what the world does")
+            being = (section(body, "Truth") or "") + (section(body, "Body") or "")
+            if ANSWERS_RE.search(being) and not re.search(r"^\s*Limit:\s*\S", being, re.M):
+                rep.fail("mysteries", f"{where}: a being answers questions but has no Limit: line")
     if total == 0:
         rep.fail("mysteries", "no mystery found")
+        return
+    if kinds["epic"] != 1 or kinds["long"] < 2 or kinds["short"] < 3:
+        rep.fail("mysteries", f"kinds: {kinds['epic']} epic, {kinds['long']} long, {kinds['short']} short; "
+                              "the lock needs one epic, two or more long, three or more short")
 
 
 # ---------------------------------------------------------------- rolls

@@ -24,5 +24,5 @@
      "features": [{"id": "u01", "name": "The Long Gallery", "type": "cave", "shape": "line", "coords": [[220, 260], [360, 330]], "regions": ["r01"]}]}
   ],
   "landings": {"player": "r01", "god-tide": {"point": [700, 120], "region": "r02", "season": "spring"}},
-  "plane": {"starfalls": [{"id": "sf1", "bearing": "south-east", "days": 300}], "to_fall": []}
+  "plane": {"starfalls": [{"id": "p01", "bearing": "south-east", "days": 300}], "to_fall": []}
 }

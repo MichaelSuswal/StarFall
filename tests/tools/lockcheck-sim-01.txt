@@ -13,12 +13,16 @@ leaks: 27 failure(s), 0 warning(s)
   unknown place names in public files: 10
   mystery titles in public files: 8 (one title accounts for 7)
   phenomena counts in public files: 4
-  god names, god labels, god count, schedule titles, star values: 0
-mysteries: 30 failure(s), 0 warning(s)
-  mysteries found: 18 (1 epic, 4 long, 13 short)
+  god names, god labels, god count, schedule titles, star values, hidden power names,
+  common-past names, public scene requests: 0
+mysteries: 67 failure(s), 0 warning(s) (rerun after the build check's template 7.8 rules)
+  mysteries found: 18 (1 epic, 4 long, 13 short by their headings)
   missing one or more template headings: 18
+  no Kind: line: 18, so the kind count fails once (0 epic, 0 long, 0 short)
+  no clue carrying a Location: 18
   no clue carrying readings: 6
   no branch saying what the world does: 6
+  a being that answers questions with no Limit: line: 0 found by wording
 rolls: 0 failure(s), 2 warning(s)
   cited ids missing from the log: 0; rolled twice: 0
   warnings, lines naming a reroll in `what` with no reason field (log written before --reason existed): 2

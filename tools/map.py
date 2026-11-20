@@ -44,6 +44,7 @@ a thin line) and a plane section, which the drawer ignores.
 """
 import argparse
 import datetime
+import subprocess
 import json
 import math
 import os
@@ -83,7 +84,19 @@ ROAD_INK = (112, 78, 44)
 
 REPORTED_BLEND = 0.45   # how much of the painting shows through on reported ground
 FEATHER_PX = 5          # blur radius on the fog masks, in painting pixels
-DEFAULT_MPP = 0.25      # miles per painting pixel when map.json does not say
+DEFAULT_MPP = 2.5       # miles per painting pixel when map.json does not say (a continent; validate fails a missing scale)
+
+
+def pacific_today():
+    """Today's date in America/Los_Angeles, the date every logged real time uses."""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    try:
+        from zoneinfo import ZoneInfo
+        return now.astimezone(ZoneInfo("America/Los_Angeles")).date().isoformat()
+    except Exception:
+        out = subprocess.run(["date", "+%Y-%m-%d"], env={**os.environ, "TZ": "America/Los_Angeles"},
+                             capture_output=True, text=True)
+        return out.stdout.strip() or now.date().isoformat()
 
 
 # ---------------------------------------------------------------- paths
@@ -396,12 +409,24 @@ def knowledge_problems(world, knowledge):
     return probs
 
 
+def plane_ids(world):
+    """Ids of every entry in the plane section, whatever lists it holds."""
+    plane = world.get("plane") or {}
+    out = []
+    for v in (plane.values() if isinstance(plane, dict) else [plane]):
+        if isinstance(v, list):
+            out += [e.get("id") for e in v if isinstance(e, dict)]
+    return out
+
+
 def check_world(world):
     """Problems in the sealed map: duplicate or missing ids, unknown types, neighbors and landings
     that do not resolve. Returns a list of strings."""
     probs = []
     seen_ids = {}
     region_ids = set()
+    if "miles_per_pixel" not in (world.get("painting") or {}):
+        probs.append("painting: no miles_per_pixel")
     for el, layer in list(all_regions(world)) + list(all_features(world)):
         i = el.get("id")
         if not i:
@@ -416,6 +441,9 @@ def check_world(world):
         region_ids.add(r["id"])
         if len(r.get("polygon", [])) < 3:
             probs.append(f"region {r['id']}: polygon has fewer than 3 points")
+        for field in ("elevation", "water", "climate", "neighbors"):
+            if field not in r:
+                probs.append(f"region {r['id']}: no {field}")
         for n in r.get("neighbors", []):
             nid = n.get("id") if isinstance(n, dict) else n
             if nid not in seen_ids:
@@ -430,6 +458,13 @@ def check_world(world):
         for rid in f.get("regions", []):
             if rid not in region_ids and rid not in seen_ids:
                 probs.append(f"feature {f['id']}: region {rid} is not in the map")
+    plane_seen = set()
+    for pid in plane_ids(world):
+        if not re.fullmatch(r"p[0-9]{2,4}", str(pid)):
+            probs.append(f"plane id {pid} is not opaque (use p01)")
+        if pid in plane_seen or pid in seen_ids:
+            probs.append(f"duplicate id {pid} (plane)")
+        plane_seen.add(pid)
     for god, land in (world.get("landings") or {}).items():
         rid = land.get("region") if isinstance(land, dict) else land
         if rid not in region_ids:
@@ -942,7 +977,7 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
             "zoom": zoom or "full",
             "regions_drawn": {g: sum(1 for k in regions_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "features_drawn": {g: sum(1 for k, _ in features_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
-            "drawn": datetime.date.today().isoformat(), "files": [os.path.basename(w) for w in written]}
+            "drawn": pacific_today(), "files": [os.path.basename(w) for w in written]}
     save_json(os.path.join(out_dir, "map-meta.json"), meta)
     return written
 
@@ -1176,7 +1211,8 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
         if shape and "cell" not in told:
             kept["cell"] = painting.cell_of(centroid(shape))  # lowered: the old telling as a rough place
         kept.update(told)
-        kept.setdefault("name", truth["name"])
+        if not kept.get("name"):
+            sys.exit("map.py: a rumor needs a name (--name): the name as told, never the Keeper's")
         if "cell" not in kept:
             sys.exit("map.py: a rumor needs a cell (--cell C2): where the teller places it, as loosely as they did")
         entry["told"] = kept
@@ -1185,7 +1221,7 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
     os.makedirs(os.path.dirname(log_path) or ".", exist_ok=True)
     reason = f"; forced: {args.force}" if args.force else ""
     with open(log_path, "a") as f:
-        f.write(f"- {datetime.date.today().isoformat()} | year {args.year} | {kind} {ident} | {old_grade} -> {args.grade} | {args.source}{correction}{reason}\n")
+        f.write(f"- {pacific_today()} | year {args.year} | {kind} {ident} | {old_grade} -> {args.grade} | {args.source}{correction}{reason}\n")
     print(f"{kind} {ident}: {old_grade} -> {args.grade} ({args.source}, year {args.year}){correction}")
 
 

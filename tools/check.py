@@ -5,11 +5,13 @@ Usage: python3 tools/check.py <campaign-name> <year> [--root DIR]
 Exit code 1 if any check fails. Prints one line per finding.
 
 The clock (campaigns/<name>/state/clock.md) carries campaign, year,
-status: creation|open|closed, creation_night: 1|2|3 while in creation, and season_opens.
-A day the world waited (no player post that day) leaves years/NNN/waited-YYYY-MM-DD.md
-(Pacific date) and no advance. In state/timing.md, no Pacific date may have both a line
-containing "waited" and a line containing "clock advanced" or "year N open". A line with
-no date of its own belongs to the last date above it (a heading, usually).
+status: creation|open|closed, creation_night: 1|2|3a|3b while in creation, and season_opens.
+During creation there is no resolved year: the script says so and exits 0.
+A year turns only on a day the player posted: a resolved year needs player/decisions-NNN.md
+or a waited note. A day the world waited leaves years/NNN/waited-YYYY-MM-DD.md (Pacific date)
+and no advance. In state/timing.md only lines that start with a Pacific date count (a list
+marker before the date is allowed); no date may have both a line containing "waited" and a
+line containing "clock advanced".
 Rolls are sealed: SPOILERS_do_not_open/campaigns/<name>/state/rolls.jsonl.
 """
 import argparse, json, os, re, sys
@@ -32,8 +34,8 @@ def clock_problems(clock):
     if status not in ("creation", "open", "closed"):
         out.append(f"clock: status is {clock.get('status')!r}, not creation, open or closed")
     if status == "creation":
-        if clock.get("creation_night") not in ("1", "2", "3"):
-            out.append(f"clock: status creation needs creation_night 1, 2 or 3 (has {clock.get('creation_night')!r})")
+        if clock.get("creation_night") not in ("1", "2", "3a", "3b"):
+            out.append(f"clock: status creation needs creation_night 1, 2, 3a or 3b (has {clock.get('creation_night')!r})")
     elif "creation_night" in clock:
         out.append("clock: creation_night is set but status is not creation")
     for key in ("campaign", "year", "season_opens"):
@@ -42,8 +44,8 @@ def clock_problems(clock):
     return out
 
 
-DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
-ADVANCE_RE = re.compile(r"clock advanced|\byear\s+0*\d+\s+open\b", re.I)
+DATE_RE = re.compile(r"^\s*(?:[-*]\s+)?(\d{4}-\d{2}-\d{2})\b")
+ADVANCE_RE = re.compile(r"clock advanced", re.I)
 
 
 def timing_conflicts(timing_path):
@@ -51,17 +53,14 @@ def timing_conflicts(timing_path):
     if not os.path.exists(timing_path):
         return []
     waited, advanced = set(), set()
-    current = None
     for line in open(timing_path, encoding="utf-8"):
-        m = DATE_RE.search(line)
-        if m:
-            current = m.group(1)
-        if current is None:
+        m = DATE_RE.match(line)
+        if not m:
             continue
         if re.search(r"\bwaited\b", line, re.I):
-            waited.add(current)
+            waited.add(m.group(1))
         if ADVANCE_RE.search(line):
-            advanced.add(current)
+            advanced.add(m.group(1))
     return [f"timing: {d} has both a waited line and a clock advance" for d in sorted(waited & advanced)]
 
 
@@ -102,8 +101,10 @@ def main(argv=None):
         findings += clock_problems(clock)
         status = (clock.get("status") or "").split()[0] if clock.get("status") else ""
         if status == "creation":
-            findings.append(f"clock: campaign is in creation (night {clock.get('creation_night')}); there is no resolved year to check")
-        elif waited:
+            print(f"check.py does not apply during creation (night {clock.get('creation_night')}); "
+                  "run tools/lockcheck.py for the lock")
+            return 0
+        if waited:
             if clock.get("year") != str(year):
                 findings.append(f"clock: the world waited in year {year}, so the clock stays on {year} (has {clock.get('year')})")
         elif clock.get("year") != str(year + 1):
@@ -113,6 +114,8 @@ def main(argv=None):
     findings += timing_conflicts(os.path.join(base, "state", "timing.md"))
 
     # 3. Required outputs for the year (a waited year has none)
+    if not notes and not os.path.exists(os.path.join(base, "player", f"decisions-{year:03d}.md")):
+        findings.append(f"engage: year {year} turned with no player/decisions-{year:03d}.md and no waited note")
     if not waited:
         need(os.path.join(sealed, "years", f"{year:03d}", "year.md"), "the year's sealed record")
         need(os.path.join(base, "releases", f"{year:03d}", "dm.md"), "the DM release")

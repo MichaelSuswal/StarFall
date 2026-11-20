@@ -108,6 +108,21 @@ def test_roll_ids_and_auto_reroll():
         shutil.rmtree(d)
 
 
+def test_d100_and_log_required():
+    d = tempfile.mkdtemp()
+    try:
+        log = os.path.join(d, "rolls.jsonl")
+        for _ in range(5):
+            run_quiet(roll.main, ["--log", log, "--who", "k", "--what", "lean", "--die", "d100"])
+        for e in read_lines(log):
+            assert e["die"] == "d100" and e["face"] == e["roll"] and 1 <= e["face"] <= 100
+            assert "odds" not in e and "success" not in e and "reason" not in e
+        code, _, err = run_quiet(roll.main, ["--who", "k", "--what", "x", "--die", "d6"])
+        assert code != 0 and "--campaign" in err
+    finally:
+        shutil.rmtree(d)
+
+
 def test_campaign_log_path():
     class A:
         log = None
@@ -141,6 +156,15 @@ def test_grid_and_validate():
     probs = mapt.check_world(bad)
     assert any("neighbor r99" in x for x in probs) and any("landing god-x" in x for x in probs)
     assert any("not opaque" in x for x in probs) and any("a road is a line" in x for x in probs)
+    bad = json.loads(json.dumps(world))
+    del bad["painting"]["miles_per_pixel"]
+    del bad["regions"][1]["climate"]
+    bad["plane"]["starfalls"].append({"id": "p01"})
+    bad["plane"]["to_fall"].append({"id": "star-x"})
+    probs = mapt.check_world(bad)
+    assert "painting: no miles_per_pixel" in probs and "region r02: no climate" in probs
+    assert "duplicate id p01 (plane)" in probs and any("plane id star-x" in x for x in probs)
+    assert mapt.DEFAULT_MPP == 2.5
 
 
 def reveal(repo, *args):
@@ -177,10 +201,13 @@ def test_reveal_rules():
         # lowering needs --force
         assert reveal(repo, "--feature", "f04", "--grade", "reported", "--source", "x", "--year", "2")[0] != 0
         code, out, _ = reveal(repo, "--feature", "f01", "--grade", "rumored", "--source", "x", "--year", "2",
-                              "--cell", "B2", "--force", "chart proved false")
+                              "--cell", "B2", "--name", "a market town", "--force", "chart proved false")
         assert code == 0
         log = open(os.path.join(os.path.dirname(know_p), "map-log.md")).read()
         assert "feature f05 | none -> rumored" in log and "forced: chart proved false" in log
+        assert log.splitlines()[-1].startswith(f"- {mapt.pacific_today()} |")
+        # a rumor needs the name as told; the Keeper's name is never filled in
+        assert reveal(repo, "--feature", "u01", "--grade", "rumored", "--source", "x", "--year", "2", "--cell", "B2")[0] != 0
         world = json.load(open(world_p))
         assert mapt.knowledge_problems(world, json.load(open(know_p))) == []
 
@@ -256,6 +283,10 @@ def test_lockcheck_places():
         code, out, _ = lock(repo, "--places")
         assert code == 1 and "[r77]" in out and "[f99]" in out and "[f01]" not in out
         assert 'WARN places' in out and '"Hollow Moor"' in out
+    with tmpcopy() as repo:
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/deep-history.md", "The first fall [p01]; a second [p02].\n")
+        code, out, _ = lock(repo, "--places")
+        assert code == 1 and "[p02]" in out and "[p01]" not in out
 
 
 def test_lockcheck_leaks():
@@ -268,12 +299,21 @@ def test_lockcheck_leaks():
              ("The ceiling here is 73.", "star value"),
              ("A drowned crystal orchard, they say.", "star value"),
              ("They whisper of the silent bell.", "mystery title"),
-             ("Remember the Founders' Quarrel.", "schedule title")]
+             ("Remember the Founders' Quarrel.", "schedule title"),
+             ("A lantern of brine? No, the Lantern of Brine.", "hidden power"),
+             ("They fear the Undertow Oath.", "hidden power"),
+             ("An old song about Saltreach.", "common-past name"),
+             ("The last of Orvanne.", "common-past name")]
     for text, kind in cases:
         with tmpcopy() as repo:
             append(repo, pub, text + "\n")
             code, out, _ = lock(repo, "--leaks")
             assert code == 1 and kind in out, (text, out)
+    with tmpcopy() as repo:  # the campaign's public scene requests are scanned too
+        append(repo, "images/requests/fx-002-morning.json", '{"id": "fx-002-morning", "prompt": "dawn over Hollow Moor"}\n')
+        append(repo, "images/requests/other-002-morning.json", '{"id": "other", "prompt": "Hollow Moor"}\n')
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "fx-002-morning.json" in out and "other-002" not in out
     with tmpcopy() as repo:  # the allowlist exempts a term
         append(repo, pub, "Beyond lies Hollow Moor.\n")
         append(repo, "SPOILERS_do_not_open/campaigns/fx/leak-allow.txt", "Hollow Moor\n")
@@ -294,11 +334,25 @@ def test_lockcheck_leaks():
 def test_lockcheck_mysteries():
     with tmpcopy() as repo:
         append(repo, "SPOILERS_do_not_open/campaigns/fx/mysteries.md",
-               "\n## SHORT 1. The Lost Ewe\n\n**Truth.** A fox.\n\n**Body.** The fold.\n\n**Clues.** Tufts of wool.\n\n**Branches.** Hunt it.\n")
+               "\n## SHORT 1. The Lost Ram\n\n**Truth.** A fox.\n\n**Body.** The fold.\n\n**Clues.** Tufts of wool.\n\n**Branches.** Hunt it.\n")
         code, out, _ = lock(repo, "--mysteries")
-        assert code == 1 and "The Lost Ewe" in out
+        assert code == 1 and "The Lost Ram" in out
         assert "Cost if ignored" in out and "Never found" in out and "readings" in out and "world does" in out
-        assert "The Silent Bell" not in out
+        assert "The Silent Bell" not in out and "no Kind: line" in out
+    with tmpcopy() as repo:
+        mp = os.path.join(repo, "SPOILERS_do_not_open/campaigns/fx/mysteries.md")
+        t = open(mp).read()
+        t = t.replace("Location: [f01]\n", "", 1)
+        t = t.replace("Limit: it knows only", "It knows only")
+        t = t.replace("Kind: short.", "Kind: long.", 1)
+        t = t.replace("What the world does: every dog", "Every dog", 1)
+        open(mp, "w").write(t)
+        code, out, _ = lock(repo, "--mysteries")
+        assert code == 1
+        assert 'clue "Founders refuse moor tin" has no Location:' in out
+        assert "a being answers questions but has no Limit: line" in out
+        assert "has no What the world does:" in out
+        assert "kinds: 1 epic, 3 long, 2 short" in out
 
 
 def test_lockcheck_rolls_and_dashes():
@@ -323,17 +377,28 @@ def test_check_waited_and_clock():
         base = os.path.join(repo, "campaigns", "fx")
         append(repo, "campaigns/fx/years/001/waited-2026-11-20.md", "The world waited.\n")
         append(repo, "campaigns/fx/state/timing.md",
-               "## Year 1, 2026-11-20 (Pacific)\n- 01:45 no decisions file; the world waited.\n"
-               "## Year 1, 2026-11-21 (Pacific)\n- 01:45 decisions found.\n- 03:10 clock advanced, year 2 open.\n")
+               "## Year 1 (Pacific)\n- 2026-11-20 01:45 no decisions file; the world waited.\n"
+               "- 2026-11-21 01:45 decisions found; turn started, year 1 open.\n"
+               "- 2026-11-21 03:10 clock advanced to year 2.\n"
+               "Notes for 2026-11-21: the world waited for nothing; clock advanced, as the heading says.\n")
         code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])
-        assert code == 0, out  # waited: clock stays on year 1, no outputs expected, dates differ
-        append(repo, "campaigns/fx/state/timing.md", "## 2026-11-22\n- 01:45 the world waited.\n- 03:00 year 2 open\n")
+        assert code == 0, out  # waited: clock stays on year 1; undated lines and "year 1 open" do not count
+        append(repo, "campaigns/fx/state/timing.md", "- 2026-11-22 01:45 the world waited.\n2026-11-22 03:00 clock advanced\n")
         code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])
         assert code == 1 and "timing: 2026-11-22 has both a waited line and a clock advance" in out
         assert "2026-11-20" not in out and "2026-11-21" not in out
         with open(os.path.join(base, "state", "clock.md"), "w") as f:
-            f.write("campaign: fx\nyear: 0\nstatus: creation\nseason_opens: spring\n")
+            f.write("campaign: fx\nyear: 0\nstatus: creation\ncreation_night: 3b\n")
         code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])
-        assert "creation needs creation_night" in out
-    assert check.clock_problems({"campaign": "x", "year": "0", "status": "creation", "creation_night": "2", "season_opens": "s"}) == []
+        assert code == 0 and out.strip().count("\n") == 0 and "does not apply during creation" in out
+    with tmpcopy() as repo:  # a year that turned needs the decisions file or a waited note
+        with open(os.path.join(repo, "campaigns", "fx", "state", "clock.md"), "w") as f:
+            f.write("campaign: fx\nyear: 2\nstatus: open\nseason_opens: spring\n")
+        code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])
+        assert code == 1 and "engage: year 1 turned with no player/decisions-001.md and no waited note" in out
+        append(repo, "campaigns/fx/player/decisions-001.md", "Go north.\n")
+        assert "engage:" not in run_quiet(check.main, ["fx", "1", "--root", repo])[1]
+    for night in ("1", "2", "3a", "3b"):
+        assert check.clock_problems({"campaign": "x", "year": "0", "status": "creation", "creation_night": night, "season_opens": "s"}) == []
+    assert check.clock_problems({"campaign": "x", "year": "0", "status": "creation", "creation_night": "3", "season_opens": "s"})
     assert check.clock_problems({"campaign": "x", "year": "1", "status": "open", "creation_night": "2", "season_opens": "s"})

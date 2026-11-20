@@ -21,9 +21,11 @@ Every roll draws 1..100. A die maps that draw to a face:
   d30: reroll above 90, else ((roll - 1) mod 30) + 1
   d6:  reroll above 96, else ((roll - 1) mod 6) + 1
   d8:  reroll above 96, else ((roll - 1) mod 8) + 1
+  d100: the draw itself (a plain roll: leans, the star's phase, d100 tables)
 An automatic reroll is its own logged line: the out-of-range draw is logged with no face,
 and the next draw is logged with reason "die reroll" and replaces the one before it.
 
+A roll needs --campaign NAME or --log PATH; the tool refuses to guess a log.
 Every line gets a roll id, r-NNNN, numbered per log file (existing lines plus one), and is
 appended to the log BEFORE the result is shown. With --campaign NAME the log is
 SPOILERS_do_not_open/campaigns/NAME/state/rolls.jsonl (sealed); otherwise state/rolls.jsonl
@@ -36,7 +38,8 @@ import argparse, datetime, json, os, re, secrets, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # die: (reroll when the draw is above this, or None; number of faces)
-DICE = {"d6": (96, 6), "d8": (96, 8), "d10": (None, 10), "d12": (96, 12), "d20": (None, 20), "d30": (90, 30)}
+DICE = {"d6": (96, 6), "d8": (96, 8), "d10": (None, 10), "d12": (96, 12), "d20": (None, 20), "d30": (90, 30),
+        "d100": (None, 100)}
 ID_RE = re.compile(r"^r-\d{4,}$")
 
 
@@ -120,13 +123,15 @@ def main(argv=None):
     p.add_argument("--what", required=True)
     p.add_argument("--factor", action="append", default=[], help="name=+10 (contest mode)")
     p.add_argument("--base", type=int, default=None, help="contest base odds, default 50")
-    p.add_argument("--die", choices=sorted(DICE, key=lambda d: int(d[1:])), help="die mode: d6, d8, d10, d12, d20 or d30")
+    p.add_argument("--die", choices=sorted(DICE, key=lambda d: int(d[1:])), help="die mode: d6, d8, d10, d12, d20, d30, or d100 for a plain roll")
     p.add_argument("--reason", help="why this is a reroll (needs --replaces)")
     p.add_argument("--replaces", help="the roll id this reroll replaces, r-NNNN")
     p.add_argument("--log", default=None, help="log file; default state/rolls.jsonl at the repo root, or the campaign's sealed state when --campaign is given")
     p.add_argument("--campaign", default=None)
     a = p.parse_args(argv)
 
+    if not a.campaign and not a.log:
+        p.error("give --campaign NAME (the campaign's sealed log) or --log PATH; a roll never lands in an unchecked log")
     if a.die and (a.factor or a.base is not None):
         p.error("--die takes no --factor or --base; a die returns a face, not a success")
     if bool(a.reason) != bool(a.replaces):
