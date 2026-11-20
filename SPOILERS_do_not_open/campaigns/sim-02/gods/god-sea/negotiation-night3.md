@@ -39,3 +39,19 @@ Accepted. I have heard "own history, own neighbors and a trouble you did not ask
 - Thirty thousand refused: accept.
 - World's to decide: accept.
 - Conduct line on grain routes and surges: added, free.
+
+## Round 2 reply
+
+Confirmed. I have read the final text as a bill and the total matches what I agreed: about 20,000, two weaknesses, nothing else bought, thirty thousand refused. I correct no wording.
+
+Reasons, point by point.
+
+1. The share. One in twenty to one in eight for the city, one in forty to one in twenty for a default town, set by the year's dice with factors. That is a measured price and a heavy one, and I said I would not contest a heavy number. The range stated against the default town is what makes it a fair coin. Accepted.
+
+2. One lever or two. Two acts, as I asked. A port closed for sickness shuts that port to the city's hulls and people and counts under the sickness weakness only. A seller's boats going on carrying grain, or stopping, is the seller's own act and counts under the grain weakness only if the seller makes it. I accept the plain follow-on that grain the city would have fetched in its own hulls from a closed port is not fetched, since it follows from the first act and is not a third price. Two months stays at two months. Accepted.
+
+3. Fog. Accepted in substance. A sickness comes in whichever year the world brings one, by ship or by people on the roads, and fog carries nothing. What the people believe about fog is theirs, which is all I wanted, and I will not argue it further.
+
+The conduct line on grain routes and surges stays mine, free, and I will keep it in play unless I change it for a reason I would say aloud.
+
+The final text states both weaknesses as the people's and says neither is on my card. I confirm that, and I confirm that the Keeper sets the exact number and the starting stores, trade, treasure and mood.

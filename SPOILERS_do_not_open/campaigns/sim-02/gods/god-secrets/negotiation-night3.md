@@ -30,3 +30,9 @@ I name no mortal and ask for none.
 
 ### Summary of choices
 Choice B at about nine thousand with the Keeper's draft weakness as written. Everything else accepted. Two write-up wordings asked: the weakness is the people's and not mine, and the hunger is a risk and not a promise.
+
+## Round 2 reply
+
+I confirm the final text as written. Nothing in it is wrong.
+
+Reasons. The weakness is stated as the town's and the sellers' hold is theirs, and the text says the god has no hand in it either way, which is what I asked. Hunger is written as a risk in a year the world brings a bad harvest, a closed road or a quarrel, and not as a promise, which is the second thing I asked. The eight months stands unsoftened, as I accepted. The weakness bought the size, about nine thousand in place of about five thousand, and nothing else was bought or paid. That matches my round 1 choice. I add no wording and ask for no change. The Keeper sets the exact number, stores, trade and mood, and I will meet the people as they are.
