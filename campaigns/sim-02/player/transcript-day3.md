@@ -123,3 +123,9 @@ They don't pray to anyone. If someone claims a god, they'd give it a polite hear
 **The houses.** Leave them unnamed for play.
 
 Yes, the card is right as read.
+
+## DM:
+
+(oog) Nothing in what you added needs a price. The stool and the cup, the dead on the high ground, the three nights' lamp and the shrugged-at stories are customs and are written as theirs. Where the cup "for the late visitor" comes from is the world's to say, and what the oldest Haldren feel when you come to a door is theirs. No knack is described, so none is priced; the rumor is written as a rumor. The houses stay unnamed. The Haldren, Ostrey, Anwen Corve, how you mean to be found, the first night and the gate are written as read.
+
+The ground is close now. There is frost in the shade of the walls and the wind is coming down off the heights. The smoke stands straight up along the valley floor, and somewhere down there a light is being lit, or is not. The world has heard everything it is going to hear from you before you land. You fall the last of the way with the lantern dark in your hand.

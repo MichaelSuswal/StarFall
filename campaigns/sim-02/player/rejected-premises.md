@@ -44,3 +44,29 @@ The DM's observations. Each is a thing to ask on Day 3, not to assume.
 
 - "It doesn't want a temple or a following. It wants one hearth kindled from its lantern, tended by someone who didn't ask for it and may not thank it." Together with Day 1's "They shouldn't be a faction I have to manage" (said of non-human peoples, not of its own), this may bear on the Day 3 defaults (about 5,000 followers, a town, advisors). The player has rejected none of them. Ask.
 - The player wants to land in "winter country" at a house whose fire is about to go out. That is a wish about where it lands and what it finds, recorded as a wish; the world decides.
+
+## Day 3, the people
+
+Two of the game's defaults were rejected or reduced. Each is given with what the player said instead.
+
+1. **About 5,000 followers.** Reduced to about eight hundred by the player's choice. "The default of five thousand with advisors who carry out my wishes is too much, so I'll shrink it."
+
+2. **Advisors who carry out the god's wishes.** Rejected. "I'll shrink it and refuse the advisors." Also refused: "worship, a temple or a priesthood." In its place the Haldren have their own moot, speaker and gate-warden, none of them the god's. Recorded in `hierarchy.md`. The game remembers out loud that this god does not play the usual way.
+
+One premise was bent.
+
+3. **Leading a people.** The guide has the god talk about "the people it wants to lead." The player wants "Neighbors I'm responsible for, and not subjects," who "should be able to get on without me." On Day 3 the Haldren have no god and do not know one has arrived. Whether they become followers is left to play.
+
+The town was kept: one town, Ostrey, as the default assumes, at a smaller size.
+
+One request not to be told something: none new. The player left the three old houses unnamed "for play"; that is a deferral, not a request.
+
+Bent by the DM, recorded so it is not mistaken for the player's wish:
+
+- **The edge.** The player asked that no Haldren sheltered at a hearth of the god's in winter could die of cold or hunger. The DM declined it as undoing a Day 2 limit and offered two smaller shapes. The player took one (the first night) with a counter the DM accepted, and declined the other (the long room). All versions are in `transcript-day3.md`; the card has the agreed one.
+
+Gaps this leaves for the Keeper:
+
+- The design gives every god about 5,000 followers (DESIGN 3.11). This god starts with none who know it, beside a people of about eight hundred.
+- With no hierarchy, unplayed time has no one to be delegated to (DESIGN 10.4).
+- The player's account of the Haldren reaches into the land and its past at many points. The DM confirmed none as fact. See `people-meeting.md`, "For the Keeper to reconcile."

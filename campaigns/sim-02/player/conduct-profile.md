@@ -34,3 +34,10 @@ The second refusal is also a weakness taken on the power card (the vow): the bod
 ## In unplayed time
 
 With what is known at the close of Day 2: it seeks one hearth, not many; it stands at doors and waits; it does not force, pay, or take payment; it keeps the lantern in hand except when it has chosen to light a room with it; it looks through its flames rather than walking into the dark. Anything beyond this is not in the profile and is held for the player.
+
+## Dated entries
+
+- 2026-11-19, creation Day 3. How it means to be found: "I arrive alone, unknown and unasked, and go first to a door, though I don't cross it until asked. If no one asks, I stand at the threshold and wait, and that waiting is the first scene."
+- 2026-11-19, creation Day 3. What it will not give in unplayed time: it does not tell anyone who keeps a flame of its own what that flame is. "I'd like the choice of telling to be mine, to be made once I've seen what kind of person is keeping the fire. If I ever tell Corve, it will be late and deliberate." It accepts being given away by the pale flame before it speaks.
+- 2026-11-19, creation Day 3. What the Haldren are to it: "Neighbors I'm responsible for, and not subjects." It wants no worship, temple or priesthood, and no one under it. With no hierarchy, unplayed time runs on this profile alone.
+- 2026-11-19, creation Day 3. It weighs cost by where it lands: it declined a price that would put out its flames at random ("windows I couldn't choose to lose") and asked that the first night cost it only "on a night when a life was at stake."
