@@ -78,3 +78,59 @@ Not rulings against anyone; recorded so the review is on the record.
 ## Creation, Night 2: the NPC gods
 
 Entries L-0011 onward are added as each negotiation settles a request against a god in whole or in part, or binds more than one card.
+
+All entries below: date 2026-11-19 Pacific, Year 0 (creation), Night 2, steps 2.3 and 2.4. Each was put to the god in round 1 with the Keeper's reasons, answered by the god in its round 1 reply, and settled in the round 2 final text. The god's confirmation, or its objection, is noted under each entry when it arrives. Arguments in full are in `S/releases/creation/<label>-night2-negotiation.md` (the Keeper's side) and `S/gods/<label>/negotiation-night2.md` (the god's).
+
+### L-0011
+All seven NPC cards and the creation table: how a price is set.
+Arguments: several gods offered a weakness or drawback that was already part of their form or lean (a fog scattered by wind, an honest god that cannot lie, a water-god moved only by water) and several asked two improvements for one weakness. The Keeper: a drawback or weakness that restates the god's form or voice costs nothing and is priced again (powers.md section 6); a weakness is priced by what it costs the god that the god does not already pay; a weakness of middling size buys one improvement of that size, a large one may buy two.
+Ruling: as argued. Applied alike to every god whatever its bargaining stance.
+Binds: every NPC card; every later trade at Night 3; the DM's Day 3 pricing is not bound by it but may be read against it.
+
+### L-0012
+Cards that pay in memory (god-thresholds, god-rivers, god-sea; and the fixed removals on god-storms and god-stone): how a memory-loss drawback is enacted.
+Arguments: round 1 wrote "one item from the record of gods or the goals, the Keeper's choice." god-thresholds: its record of gods is one entry long and its goals are what runs it; take an entry or a line, never a file; the record first, the goals only when the record is bare; never the last goal. god-sea: goals are a larger coin than a guess about a rival and it would not offer them. god-rivers accepted the Keeper's choice and said it would rather not lose its goals. The Keeper: the price is real only if it takes a piece and not the whole; the table prices every god alike.
+Ruling: one item is one entry of the record of other gods or one line of the goals. The Keeper takes from the record of gods while it has an entry to give, and from the goals only when it does not. The last line of the goals is never taken. The god does not choose and is not told. Rate: per closure opened (thresholds), per use, a use being one unbroken standing in the water (rivers), per night held (sea). god-storms loses the most recent item of its goals if its cord is lost or burned before its return; god-stone loses every item added to its goals and record in the season before a break.
+Binds: the five cards named; any later memory-loss drawback on any card.
+
+### L-0013
+god-beasts, the Turning of the Herd, and its trade.
+Arguments: the god asked that its weakness (cannot say a false thing) buy both once-a-moon use and no floor on the slowing. The Keeper: the Turning touches hunger, a standing fear; once a moon solves winter for a small people; the weakness costs the god only the bluff and the kind lie; it buys one. The god accepted, chose the slowing with no floor, and gave its own reason for keeping once a season (it wants its people to have to decide who eats). It offered a floor of two days; the Keeper declined it as unneeded.
+Ruling: once in a season; slowing exactly the days turned. The Tally of Ground counts beasts and never mortals. Settled against the god in part (one improvement, not two).
+Binds: god-beasts' card.
+
+### L-0014
+god-thresholds, Form, the wind, the Veil and the return.
+Arguments: the form said it "cannot be struck or cut in any way that matters." The Keeper: a god can be wounded (DESIGN 7.8); a body nothing reaches does a power's work, so the card must say what breaks it; under a body only scattering can break, the wind weakness restates form and buys nothing. The god chose the body that blows and fire can hurt, so the wind is a true weakness and buys the Veil. The hand-wide gap is form and free. The return by the next dusk was priced: the door returned through can never again be latched, locked or barred (the god's choice over a turn of the moon).
+Ruling: as on the card. Settled against the god in part (the form's immunity; a price on the return).
+Binds: god-thresholds' card. Precedent for any form that claims it cannot be harmed.
+
+### L-0015
+god-rivers, its trade, the toll's wording, and the return.
+Arguments: the god asked that its weakness buy both the Long Water's branches and the Gate at a second, unseen crossing. The Keeper: each is large; the weakness buys one. The god chose the branches. In its reply it asked that a keeper be only a person present and aware, that a true thing may be small and its own to judge, and that a ford with no gate or bridge not be a crossing under the weakness. The Keeper: the god's first wording named fords and claimed crossings; narrowing it so far would free a river god at most crossings of the river the weakness bought. The return "the next time a living person touches the stream" was priced as a wait; the god chose a turn of the moon.
+Ruling: a keeper is a person present and aware who stands at, guards, tends or claims the crossing; a gate or bar shut in a keeper's name is kept; a ford with a keeper is a kept crossing; open water waded or swum where no crossing is kept is not bound. A true thing may be small, is the god's to choose, and must be of its own knowing and not learnable by the keeper looking around. Settled against the god in part.
+Binds: god-rivers' card.
+
+### L-0016
+god-secrets, the Unmarked Hand and the Kept Word.
+Arguments: the god asked that the forgetting hold after three meetings; the Keeper read its first wording as already holding and offered instead a knowing by voice after three meetings, bought by the weakness. The god countered: recognition only, not describable, not a mark; and at two meetings, because it will be met seldom. The Keeper: recognition only follows from the power's own first line and is granted, with the bound that a knower may say "this is the one" while the god stands before them; two meetings refused, since the weakness is middling, has now bought more than round 1 offered, and a knowing at the second meeting starts before the god has chosen to be known. The Kept Word guards against mortal magic only, not ordinary means; the teller keeps the lightness and the memory of having told.
+Ruling: as on the card. Settled against the god in part (three meetings; pointing in presence).
+Binds: god-secrets' card.
+
+### L-0017
+god-storms, its trade.
+Arguments: the god asked that its weakness (the open sky) buy both Foreknowing's wider reach and the Tall Tree's hold against searchers. The Keeper: the weakness's size turns on whether a tent is a built shelter; both if it is, one if not; and the Tall Tree's stronger hold would not be written without a deeper cost to the god's own people. The god answered against its own interest that a tent is not a built shelter, took one improvement (Foreknowing's reach, at a day more of ache), and declined the Tall Tree's stronger form because of its cost.
+Ruling: a built shelter is a roof on walls fixed to the ground; a tent, windbreak, lean-to or cave mouth open to the sky is not. One improvement bought. Settled against the god in part, by its own account.
+Binds: god-storms' card.
+
+### L-0018
+god-sea, Slack Water's coin, the Bound Word's size, and pace in water.
+Arguments: the god chose the whole coast in sight at one item a night, bought by the Bound Word. It contested the coin's source (no goals; or, in the first year, an item of its own choosing) and the weakness's size (it binds at the moment of fear, a second edge that does not depend on its choosing), and asked for a swimmer's pace in water at twice a walker's, with a lesser fallback. The Keeper: goals granted in part under L-0012; a coin of the god's choosing refused, since its own drawback says the coin is not agreed to and a taste cannot be removed from a record; the weakness's size accepted as larger than middling; twice a walker's pace refused, since a mortal swimmer is slower than a walker and the world gives each god its form's pace; half again a walker's pace in the first ten fathoms granted, a walker's below. "Only water moves me" restates form and bought nothing; the god withdrew it.
+Ruling: as on the card. While the Bottom Walk's cold lasts only a false statement is barred. Settled against the god in part.
+Binds: god-sea's card.
+
+### L-0019
+god-stone, the Held Place's lasting, and the Winter Stillness.
+Arguments: the god asked that a place held a full season stay steadied for a year after. The Keeper: the power acting away from its drawback must be bounded in number or in time; one place for a year, or every place through the following winter. The god chose the winter, argued that its own body bounds the number (a full season's unbroken hold, one body), and the Keeper accepted that in place of a count. The god chose the longer stillness (through the frozen ground), declined a second improvement, and asked to be awake in the winter of its landing; granted.
+Ruling: the lasting runs through the winter that follows a full season's unbroken hold, with no count of places. The stillness binds from the first winter after landing. The return's "longer" is a second winter, and a third if the stone is broken. Settled against the god in part (a winter, not a year). The weakness is recorded as worth somewhat more than it bought, by the god's own choice.
+Binds: god-stone's card.
