@@ -16,7 +16,8 @@ Places:
 - The Highfold [f06], ruin, B2. Roofless stone folds and a walled platform on the high ground above Ostrey [f01], where the Haldren leave their dead. Known to: the Haldren.
 - The High Way [f09], road, B2, about 620 miles long. The Fitted Way [f04] continued over the range to the western shore. Broken by slides. Known to: the pass folk; no lowlander walks it whole.
 - The Marchway [f11], road, C2, about 370 miles long. The Fitted Way [f04] continued east to the rim. Known to: herders of the Hollow March [r11].
-Ordinary wonders: Mist lies on the river each morning and a wind comes down off the heights at dusk. The stepping stones at the crossing are older than the town and each carries a worn cup-mark. Stone walls climb the hillsides far above present grazing. A white thorn on the south side flowers a second time in a mild autumn. Red deer on the upper slopes; otter on the river. Unpainted, as data: five steadings on the valley floor within nine miles of the town, three upstream and two down; the house with the ford lamp, outside the wall, forty paces above the stepping stones; a flat night stone beside the old road, thirty miles above the town, where goods are left for the heights.
+- The Leaving Stone [f67], ruin, B2. A flat stone beside the old road thirty miles above Ostrey [f01], where goods are left by night for the people of the heights. Known to: the Haldren; the pass folk.
+Ordinary wonders: Mist lies on the river each morning and a wind comes down off the heights at dusk. The stepping stones at the crossing are older than the town and each carries a worn cup-mark. Stone walls climb the hillsides far above present grazing. A white thorn on the south side flowers a second time in a mild autumn. Red deer on the upper slopes; otter on the river. Unpainted, as data: five steadings on the valley floor within nine miles of the town, three upstream and two down; the house with the ford lamp, outside the wall, forty paces above the stepping stones; the flat stone of the night trade, beside the old road thirty miles above the town.
 
 ## The Folddales [r02], B2
 
@@ -49,7 +50,7 @@ Places:
 - The Kettle [f08], cave, B2. A high rock hollow with an overhang on its north side. The warm stone lies on its floor. Known to: the pass folk, who watch it.
 - The High Way [f09], road, B2, about 620 miles long. The Fitted Way [f04] continued over the range to the western shore. Broken by slides. Known to: the pass folk; no lowlander walks it whole.
 - Westerhythe [f10], ruin, A2. An Orsand harbor under the western cliffs: a mole, a stair, a holed sighting stone on the cliff top. Known to: the pass folk; coasting boats see it.
-- The Withy [f12], river, B3, about 1870 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
+- The Withy [f12], river, B3, about 1830 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
 - The Hush [f16], cave, B2. A high hollow and a deep cut room closed from outside. Nothing particular grows in the hollow. Known to: the pass folk; Hodd goatherds, by avoiding it.
 - Kinhold [f17], cave, B2. The largest of the pass-folk winter houses, cut inside the mountain. Known to: the pass folk.
 - The Stairfoot Door [f62], cave, B2. A sealed Orsand room cut under the Knot Stair [f07], beside the old road. Known to: the pass folk.
@@ -61,7 +62,7 @@ Terrain: mountain, the range falling south, forested. Elevation: high to middlin
 Held by: Unheld; charcoal burners and hill villages on the south side sell grain to Quillan [f55].
 Neighbors: The Deep Scarrow [r04], 65 days; The Withywood [r28], 80 days; The Bendlands [r29], 45 days; The Far Capes [r30], 47 days; The Sundown Sea [r32], boat, coastwise; The Southern Deep [r34], boat, coastwise.
 Places:
-- The Withy [f12], river, B3, about 1870 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
+- The Withy [f12], river, B3, about 1830 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
 Ordinary wonders: The range comes down in forested shoulders. Charcoal smoke, bee hives in hollow logs, chestnut woods on the south side. The hill villages here sell grain and chestnut flour down the river.
 
 ## The Underfell [r06], B2
@@ -70,10 +71,11 @@ Terrain: valley, a high valley at the mountain foot with one way in. Elevation: 
 Held by: The Hodd.
 Neighbors: The Deep Scarrow [r04], 31 days; The North Ashring [r12], 43 days; The South Ashring [r13], 43 days.
 Places:
-- The Withy [f12], river, B3, about 1870 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
+- The Withy [f12], river, B3, about 1830 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
 - Undercrag [f13], town, B2. The Hodd walled seat. About 3,600 inside. Known to: the Hodd; valley traders.
 - The Squared Doors [f14], cave, B2. Squared openings in the cliff above the terraces: pass-folk cut rooms, some in use. Known to: the Hodd; the pass folk, whose they are.
 - The Lintel Door [f15], cave, B2. A doorway of dressed stone high on the slope, blocked with fitted blocks from outside. An Orsand sealed room. Known to: the Hodd, as a blocked doorway; the pass folk.
+- The Night Table [f68], ruin, B2. A flat stone above the terraces of Undercrag [f13] where the silent trade is done. Known to: the Hodd; the pass folk.
 Ordinary wonders: A high trough between the range and the back of the rim hills, with one easy way in from the south. Deep-roofed stone houses. The sound of the mountain at night, which children are taught to read. Old slide fans; terraces older than the people on them.
 
 ## The Corrow Hills [r07], A1
@@ -278,9 +280,9 @@ Held by: The Thessend (the crowns of Vessany [f50] and Ardmoor [f51]).
 Neighbors: The Saltmarket Plain [r24], 25 days; The Middle Reach [r26], 16 days; The Reedsea [r27], 26 days; The Withywood [r28], 51 days.
 Places:
 - The Lowe [f03], river, D3, about 2300 miles long. The long river. Braided above the Parting, navigable from the Rivermeet [r15] down. Known to: everyone on it; the south knows it best.
-- The Withy [f12], river, B3, about 1870 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
+- The Withy [f12], river, B3, about 1830 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
 - Vessany [f50], city, C3. The upriver crown of the Thessend. About 8,000. Known to: the south.
-- Ardmoor [f51], city, D3. The middle crown of the Thessend. About 6,000. Known to: the south.
+- Ardmoor [f51], city, C3. The middle crown of the Thessend. About 6,000. Known to: the south.
 Ordinary wonders: The richest ground in the south: grain, flax, cattle, villages a morning's walk apart, stone cities built on older stone cities. Toll posts at every bridge.
 
 ## The Middle Reach [r26], D3
@@ -295,7 +297,7 @@ Places:
 - Sellnot [f46], ruin, D3. The town drowned under the Bankwater [f45]. Known to: the Loweth, as a tale; Crownlands [r25] records.
 - The Springdoor [f47], cave, D3. A sealed Orsand door beside the old spring of Sellnot [f46], under the Bankwater [f45]. Known to: no one living.
 - Wardwell [f48], ruin, D3. A spring cased in old dressed stone on the hillside above Kessary [f44]. Known to: the Loweth.
-- The Stopped Road [f49], road, D3, about 190 miles long. An Orsand road from the south rim that comes down to the river at Kessary [f44] and stops. Known to: the Loweth.
+- The Stopped Road [f49], road, D3, about 200 miles long. An Orsand road from the south rim that comes down to the river at Kessary [f44] and stops. Known to: the Loweth.
 Ordinary wonders: A broad valley with water meadows left to the river in spring, alder and willow on the banks, tilled terraces above the flood line. Marked poles at every landing show the height of each thaw.
 
 ## The Reedsea [r27], D4
@@ -315,8 +317,8 @@ Terrain: forest, wide lowland forest, oak and beech. Elevation: low, rolling. Cl
 Held by: Unheld; woodsmen, charcoal burners, a few clearings.
 Neighbors: The Low Scarrow [r05], 80 days; The South Ashring [r13], 36 days; The Crownlands [r25], 51 days; The Middle Reach [r26], 51 days; The Reedsea [r27], 69 days; The Bendlands [r29], 42 days; The Southern Deep [r34], boat, coastwise.
 Places:
-- The Withy [f12], river, B3, about 1870 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
-- The Banked Way [f59], road, B3, about 700 miles long. An Orsand road from the bend town north-east through the great wood to the rim. Known to: the Brannow, as old banked roads into the woods.
+- The Withy [f12], river, B3, about 1830 miles long. Rises under the Kettle [f08], runs the trough between range and rim, then through the great wood to the Lowe [f03]. Known to: the Hodd; woodsmen; the Crownlands [r25].
+- The Banked Way [f59], road, B3, about 710 miles long. An Orsand road from the bend town north-east through the great wood to the rim. Known to: the Brannow, as old banked roads into the woods.
 - The Edder [f60], river, C4, about 580 miles long. A forest river to the southern sea. Known to: woodsmen; coast fishers.
 - Emberholt [f65], ruin, B3. An Orsand provincial town gone to forest, on the Banked Way [f59]. Known to: woodsmen.
 Ordinary wonders: The great wood: oak and beech for many days' walk, clearings, charcoal smoke, boar and wolf. Old banked roads run through it straight and unused.
@@ -331,9 +333,9 @@ Places:
 - The Sarn [f56], river, B4, about 990 miles long. A slow full river with one great bend. Known to: the Brannow.
 - The Underkeys [f57], cave, B4. Fitted doors at the ends of the cellars of Quillan [f55] oldest quarter. Orsand sealed rooms. Known to: the keyholders of Quillan [f55].
 - The Bottom Mounds [f58], ruin, B4. Regular mounds in the bottomland with trees grown over them. Known to: the Brannow.
-- The Banked Way [f59], road, B3, about 700 miles long. An Orsand road from the bend town north-east through the great wood to the rim. Known to: the Brannow, as old banked roads into the woods.
+- The Banked Way [f59], road, B3, about 710 miles long. An Orsand road from the bend town north-east through the great wood to the rim. Known to: the Brannow, as old banked roads into the woods.
 - The Edder [f60], river, C4, about 580 miles long. A forest river to the southern sea. Known to: woodsmen; coast fishers.
-Ordinary wonders: Low wooded hills and wide bottomland on a slow looping river. Orchards, stubble, barns. Fog in the bottoms every autumn morning. Mountains stand off to the north with snow on them.
+Ordinary wonders: Low wooded hills and wide bottomland on a slow looping river. Orchards, stubble, barns. Fog in the bottoms every autumn morning.
 
 ## The Far Capes [r30], A4
 

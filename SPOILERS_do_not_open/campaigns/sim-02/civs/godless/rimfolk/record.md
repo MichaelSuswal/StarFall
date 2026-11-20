@@ -38,12 +38,12 @@ Where: the inner slopes of the North Ashring [r12] and the South Ashring [r13], 
 
 ### What they know of the land
 
-They know what can be seen from where they sit, and almost nothing else. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+They know what can be seen from where they sit, and almost nothing else. Distances are straight lines measured on the traced map. Days are on foot along that line, each stretch at the pace table's rate for the region it crosses (rough ground 14 miles a day for valley, hill, plain, grass and shore; forest 10; mountain 8; marsh 6), with the kinds of ground named in order of their share; a line that follows a used road is given at the road rate and says so. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
 
 - The North Ashring [r12] (seen): where they live. Goatsteps [f28] lies in it.
-- The South Ashring [r13] (seen): where they live. From Goatsteps [f28], the middle of it lies about 470 miles south-west, 34 days on foot over open ground.
-- The Bare Floor [r14] (seen): from above. They do not go down. From Goatsteps [f28], the middle of it lies about 410 miles west, 29 days on foot over open ground.
-- The Sleeper [f27] (seen): every evening. From Goatsteps [f28], lies about 420 miles west, 30 days on foot over open ground.
-- Old Orsa [f24] (seen): a place stone is taken from. From Goatsteps [f28], lies about 550 miles north-west, 39 days on foot over open ground.
-- The Holed Stone [f25] (seen): a slab with a hole; children look through it. From Goatsteps [f28], lies about 550 miles north-west, 39 days on foot over open ground.
-- The Lowe [f03] (reported): a river outside the hills, where the salt comes from. From Goatsteps [f28], its nearest reach lies about 130 miles north-east, 10 days on foot over open ground.
+- The South Ashring [r13] (seen): where they live. From Goatsteps [f28], the middle of it lies about 470 miles south-west, 34 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then hill country by share of the way).
+- The Bare Floor [r14] (seen): from above. They do not go down. From Goatsteps [f28], the middle of it lies about 410 miles west, 29 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then hill country by share of the way).
+- The Sleeper [f27] (seen): every evening. From Goatsteps [f28], lies about 420 miles west, 30 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then hill country by share of the way).
+- Old Orsa [f24] (seen): a place stone is taken from. From Goatsteps [f28], lies about 550 miles north-west, 39 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then open plain by share of the way).
+- The Holed Stone [f25] (seen): a slab with a hole; children look through it. From Goatsteps [f28], lies about 550 miles north-west, 39 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then open plain by share of the way).
+- The Lowe [f03] (reported): a river outside the hills, where the salt comes from. From Goatsteps [f28], its nearest reach lies about 130 miles north-east, 10 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then open grass by share of the way).

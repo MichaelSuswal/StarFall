@@ -63,28 +63,6 @@
    "told": {
     "name": "a blocked doorway high on a slope"
    }
-  },
-  "f12": {
-   "grade": "reported",
-   "source": "own sight, at the landing",
-   "year": 1,
-   "told": {
-    "name": "a frozen river down the trough",
-    "coords": [
-     [
-      291.7,
-      452.4
-     ],
-     [
-      291.0,
-      456.4
-     ],
-     [
-      290.3,
-      460.3
-     ]
-    ]
-   }
   }
  }
 }

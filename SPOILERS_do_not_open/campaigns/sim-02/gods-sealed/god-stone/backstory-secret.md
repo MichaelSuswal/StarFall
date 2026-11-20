@@ -20,7 +20,7 @@ Which child it is. Whether it killed or failed to save. The rider, and who carri
 
 ## How this past might surface
 
-Its counting of breaths in any room. A tall one, met face to face, whose shoulders it looks at too long. A plain perfect face before which it will not stand in a closed room. A sleeper beside it who lives through a night they should not have. A dream beside the warm stone of two children in a dark room, one counting. Nothing is scheduled.
+Its counting of breaths in any room. After it has dreamed beside the warm stone, a tall one whose shoulders it knows from the dream, and a plain perfect face it knows from the dream, before which it will not stand in a closed room. A sleeper beside it who lives through a night they should not have. A dream beside the warm stone of two children in a dark room, one counting. Nothing is scheduled.
 
 ## Shared links
 

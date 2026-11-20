@@ -37,25 +37,25 @@ Where: the Corrant Strand [r09], C1, the northern shore from the mouth of the Co
 
 ### What they know of the land
 
-A sea and river kingdom: it knows its shore, its road and its debtors. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+A sea and river kingdom: it knows its shore, its road and its debtors. Distances are straight lines measured on the traced map. Days are on foot along that line, each stretch at the pace table's rate for the region it crosses (rough ground 14 miles a day for valley, hill, plain, grass and shore; forest 10; mountain 8; marsh 6), with the kinds of ground named in order of their share; a line that follows a used road is given at the road rate and says so. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
 
 - The Corrant Strand [r09] (seen): their own. Gullwick [f21] lies in it.
 - Gullwick [f21] (seen): the port. At Gullwick [f21].
-- Panmouth [f22] (seen): the pans. From Gullwick [f21], lies about 370 miles east, 26 days on foot over open ground.
+- Panmouth [f22] (seen): the pans. From Gullwick [f21], lies about 370 miles east, 26 days on foot, at the pace table rate for each stretch of ground crossed (shore country by share of the way).
 - The Corra [f20] (seen): the river. From Gullwick [f21], lies about 2 miles north-east.
-- The Grey Reach [r31] (seen): their sea, coastwise. From Gullwick [f21], the middle of it lies about 540 miles east, 38 days on foot over open ground.
-- The Sennway [r08] (seen): the gap they claim. From Gullwick [f21], the middle of it lies about 110 miles south, 8 days on foot over open ground.
-- Dunmarrow [f18] (seen): the toll town. From Gullwick [f21], lies about 130 miles south-east, 6 days on foot by the road.
+- The Grey Reach [r31] (seen): their sea, coastwise. From Gullwick [f21], its near shore lies about 15 miles north, 1 day on foot, at the pace table rate for each stretch of ground crossed (shore country by share of the way).
+- The Sennway [r08] (seen): the gap they claim. From Gullwick [f21], the middle of it lies about 110 miles south, 8 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then shore country by share of the way).
+- Dunmarrow [f18] (seen): the toll town. From Gullwick [f21], lies about 130 miles south-east, 6 days on foot by the road, at the road rate.
 - The Salt Road [f23] (seen): as far as the wet ground. At Gullwick [f21].
-- The Corrow Hills [r07] (seen): the wet hills. From Gullwick [f21], the middle of it lies about 410 miles west, 29 days on foot over open ground.
-- The Greyspur [r10] (seen): the spur. From Gullwick [f21], the middle of it lies about 420 miles south-east, 30 days on foot over open ground.
-- The Hornfoot Grass [r16] (reported): the herd people's grass. From Gullwick [f21], the middle of it lies about 830 miles east, 59 days on foot over open ground.
-- Lastlight [f38] (seen): a hamlet with a night fire on the north-east shore; ships steer by it. From Gullwick [f21], lies about 1,460 miles east, 104 days on foot over open ground.
-- The Tern Shore [r18] (seen): that shore. From Gullwick [f21], the middle of it lies about 1,480 miles east, 106 days on foot over open ground.
-- The Folddales [r02] (reported): the dales. From Gullwick [f21], the middle of it lies about 530 miles south, 38 days on foot over open ground.
-- The Sundown Sea [r32] (reported): the cliff sea round the western hills; few go. From Gullwick [f21], the middle of it lies about 1,050 miles south-west, 75 days on foot over open ground.
-- Westerhythe [f10] (rumored): an old harbor under the western cliffs. From Gullwick [f21], lies about 980 miles south-west, 70 days on foot over open ground.
-- The Rivermeet [r15] (reported): the river plain. From Gullwick [f21], the middle of it lies about 740 miles south-east, 53 days on foot over open ground.
-- Old Orsa [f24] (rumored): the dead city. From Gullwick [f21], lies about 800 miles south, 57 days on foot over open ground.
-- The Sleeper [f27] (rumored): the sleeper. From Gullwick [f21], lies about 1,110 miles south, 79 days on foot over open ground.
-- Saltstairs [f41] (rumored): a great trading city on the southern sea. From Gullwick [f21], lies about 1,880 miles south-east, 134 days on foot over open ground.
+- The Corrow Hills [r07] (seen): the wet hills. From Gullwick [f21], the middle of it lies about 410 miles west, 29 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then shore country by share of the way).
+- The Greyspur [r10] (seen): the spur. From Gullwick [f21], the middle of it lies about 420 miles south-east, 30 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then shore country by share of the way).
+- The Hornfoot Grass [r16] (reported): the herd people's grass. From Gullwick [f21], the middle of it lies about 830 miles east, 59 days on foot, at the pace table rate for each stretch of ground crossed (shore country, then open grass by share of the way).
+- Lastlight [f38] (seen): a hamlet with a night fire on the north-east shore; ships steer by it. From Gullwick [f21], lies about 1,460 miles east, 104 days on foot, at the pace table rate for each stretch of ground crossed (shore country, then open grass by share of the way).
+- The Tern Shore [r18] (seen): that shore. From Gullwick [f21], the middle of it lies about 1,480 miles east, 106 days on foot, at the pace table rate for each stretch of ground crossed (shore country, then open grass by share of the way).
+- The Folddales [r02] (reported): the dales. From Gullwick [f21], the middle of it lies about 530 miles south, 46 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then mountain by share of the way).
+- The Sundown Sea [r32] (reported): the cliff sea round the western hills; few go. From Gullwick [f21], its near shore lies about 750 miles west, 53 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- Westerhythe [f10] (rumored): an old harbor under the western cliffs. From Gullwick [f21], lies about 980 miles south-west, 108 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then hill country by share of the way).
+- The Rivermeet [r15] (reported): the river plain. From Gullwick [f21], the middle of it lies about 740 miles south-east, 53 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then open plain by share of the way).
+- Old Orsa [f24] (rumored): the dead city. From Gullwick [f21], lies about 800 miles south, 62 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- The Sleeper [f27] (rumored): the sleeper. From Gullwick [f21], lies about 1,110 miles south, 85 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then open plain by share of the way).
+- Saltstairs [f41] (rumored): a great trading city on the southern sea. From Gullwick [f21], lies about 1,910 miles south-east, 136 days on foot, at the pace table rate for each stretch of ground crossed (open grass, then open plain, then hill country, then shore country by share of the way).

@@ -18,7 +18,7 @@ The face of its master. The gate itself, and that there was a second, greater do
 
 ## How this past might surface
 
-A made closure that will not open to Unlatching because it was closed by hands like the ones it served, if the night 3 history places such a likeness, logged. Another god met face to face who seems to have stood at the same gate, by the other door. Another who seems to have had the same master. A dream beside the warm stone of a small door standing open on a dark road. Each memory its own power takes from it is the fog doing by rule what it did by nature. Nothing is scheduled.
+A made closure that will not open to Unlatching because it was closed by hands like the ones it served, if the night 3 history places such a likeness, logged. After it has dreamed beside the warm stone, another god it knows from the dream as the one at the same gate, by the other door, and another it knows from the dream as having had the same master. A dream beside the warm stone of a small door standing open on a dark road. Each memory its own power takes from it is the fog doing by rule what it did by nature. Nothing is scheduled.
 
 ## Shared links
 

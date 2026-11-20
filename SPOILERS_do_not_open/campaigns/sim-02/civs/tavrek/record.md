@@ -51,29 +51,29 @@ Finished from the traced map (step 3a.6), in the section at the foot of this rec
 
 Written on creation Night 3a after the tracing, from `map.json`, never from the plan.
 
-Home: the Hornfoot Grass [r16], D1, the grass under the east end of the Greyspur [r10], running north to a low shore. Their autumn gathering ground lies on the grass under the spur's last hillside, where the Rib [f29] stands, three days north of the fords of the Hornwater [f31]. Their god lands there.
+Home: the Hornfoot Grass [r16], D1, the grass under the east end of the Greyspur [r10], running north to a low shore. Their autumn gathering ground lies on the grass under the spur's last hillside, where the Rib [f29] stands, about fifty miles and four days north of the fords of the Hornwater [f31]. Their god lands there.
 
 ### What they know of the land
 
-What the bands know among them. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+What the bands know among them. Distances are straight lines measured on the traced map. Days are on foot along that line, each stretch at the pace table's rate for the region it crosses (rough ground 14 miles a day for valley, hill, plain, grass and shore; forest 10; mountain 8; marsh 6), with the kinds of ground named in order of their share; a line that follows a used road is given at the road rate and says so. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
 
 - The Hornfoot Grass [r16] (seen): their own grass, every ford and hollow of it. The gathering ground lies in it.
-- The Rib [f29] (seen): the pale curve on the hillside, the dead Tall One of their tale. A strip of the first kill is left under it each autumn. From the gathering ground, lies about 9 miles north-west.
-- The Twin Spring [f30] (seen): the wet saddle where two rivers begin; they water there. From the gathering ground, lies about 100 miles east, 7 days on foot over open ground.
-- The Hornwater [f31] (seen): forded every autumn. From the gathering ground, its nearest reach lies about 40 miles south, 3 days on foot over open ground.
-- The Longloop [f32] (seen): forded in spring going out and in autumn coming in. From the gathering ground, its nearest reach lies about 110 miles east, 8 days on foot over open ground.
-- The Hardway [f35] (seen): the straight stretch where the grass grows thin over something hard. They ride along it and have never asked where it goes. From the gathering ground, lies about 5 miles north.
-- The Greyspur [r10] (seen): the broken hills; shepherds there trade with them at the hill fords. From the gathering ground, the middle of it lies about 290 miles west, 20 days on foot over open ground.
-- The Windward Grass [r17] (seen): summer hunting ground. From the gathering ground, the middle of it lies about 510 miles east, 36 days on foot over open ground.
-- The Noman Grass [r19] (reported): the middle grass, no one's; hunters go into its edge. From the gathering ground, the middle of it lies about 550 miles south-east, 39 days on foot over open ground.
-- The Rope Ridges [r20] (reported): where the other herd people are; headmen have met at the Dunwater [f33]. From the gathering ground, the middle of it lies about 930 miles south-east, 67 days on foot over open ground.
-- The Dunwater [f33] (reported): the meeting water between the two herd peoples. From the gathering ground, its nearest reach lies about 410 miles south-east, 29 days on foot over open ground.
-- The Corrant Strand [r09] (reported): the salt shore; salt comes from there, never enough. From the gathering ground, the middle of it lies about 320 miles north-west, 23 days on foot over open ground.
-- Panmouth [f22] (rumored): a town of steaming pans by a cold sea. From the gathering ground, lies about 330 miles north-west, 24 days on foot over open ground.
-- The Rivermeet [r15] (reported): the farm villages where bronze is had. From the gathering ground, the middle of it lies about 330 miles south, 24 days on foot over open ground.
-- The North Ashring [r12] (rumored): brown hills in the south where the people do not use names. From the gathering ground, the middle of it lies about 720 miles south-west, 51 days on foot over open ground.
-- The Sleeper [f27] (rumored): something that sleeps in the dead middle beyond those hills. From the gathering ground, lies about 880 miles south, 63 days on foot over open ground.
-- Dunmarrow [f18] (rumored): a gate town in the hills to the west that takes a toll. From the gathering ground, lies about 570 miles west, 40 days on foot over open ground.
+- The Rib [f29] (seen): the pale curve on the hillside, the dead Tall One of their tale. A strip of the first kill is left under it each autumn. From the gathering ground, lies about 2 miles west.
+- The Twin Spring [f30] (seen): the wet saddle where two rivers begin; they water there. From the gathering ground, lies about 100 miles east, 7 days on foot, at the pace table rate for each stretch of ground crossed (open grass by share of the way).
+- The Hornwater [f31] (seen): forded every autumn. From the gathering ground, its nearest reach lies about 50 miles south, 3 days on foot, at the pace table rate for each stretch of ground crossed (open grass by share of the way).
+- The Longloop [f32] (seen): forded in spring going out and in autumn coming in. From the gathering ground, its nearest reach lies about 110 miles east, 8 days on foot, at the pace table rate for each stretch of ground crossed (open grass by share of the way).
+- The Hardway [f35] (seen): the straight stretch where the grass grows thin over something hard. They ride along it and have never asked where it goes. From the gathering ground, lies about 1 mile south.
+- The Greyspur [r10] (seen): the broken hills; shepherds there trade with them at the hill fords. From the gathering ground, the middle of it lies about 280 miles west, 20 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- The Windward Grass [r17] (seen): summer hunting ground. From the gathering ground, the middle of it lies about 510 miles east, 37 days on foot, at the pace table rate for each stretch of ground crossed (open grass by share of the way).
+- The Noman Grass [r19] (reported): the middle grass, no one's; hunters go into its edge. From the gathering ground, the middle of it lies about 550 miles south-east, 39 days on foot, at the pace table rate for each stretch of ground crossed (open grass by share of the way).
+- The Rope Ridges [r20] (reported): where the other herd people are; headmen have met at the Dunwater [f33]. From the gathering ground, the middle of it lies about 940 miles south-east, 67 days on foot, at the pace table rate for each stretch of ground crossed (open grass, then hill country by share of the way).
+- The Dunwater [f33] (reported): the meeting water between the two herd peoples. From the gathering ground, its nearest reach lies about 410 miles south-east, 29 days on foot, at the pace table rate for each stretch of ground crossed (open grass by share of the way).
+- The Corrant Strand [r09] (reported): the salt shore; salt comes from there, never enough. From the gathering ground, the middle of it lies about 320 miles north-west, 23 days on foot, at the pace table rate for each stretch of ground crossed (shore country, then hill country by share of the way).
+- Panmouth [f22] (rumored): a town of steaming pans by a cold sea. From the gathering ground, lies about 330 miles north-west, 23 days on foot, at the pace table rate for each stretch of ground crossed (shore country, then hill country by share of the way).
+- The Rivermeet [r15] (reported): the farm villages where bronze is had. From the gathering ground, the middle of it lies about 340 miles south, 24 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then open grass by share of the way).
+- The North Ashring [r12] (rumored): brown hills in the south where the people do not use names. From the gathering ground, the middle of it lies about 720 miles south, 52 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then hill country, then open grass by share of the way).
+- The Sleeper [f27] (rumored): something that sleeps in the dead middle beyond those hills. From the gathering ground, lies about 890 miles south, 63 days on foot, at the pace table rate for each stretch of ground crossed (open plain by share of the way).
+- Dunmarrow [f18] (rumored): a gate town in the hills to the west that takes a toll. From the gathering ground, lies about 560 miles west, 40 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then shore country by share of the way).
 
 ### The god's hope and the ground
 

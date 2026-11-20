@@ -20,7 +20,7 @@ The shape of the place (a gate with two doors in a wall across a road). The face
 
 ## How this past might surface
 
-Never as a statement. A mortal turned from a door who looks at the hood-flame and flinches at being looked at by a lamp. The god's own ease, which it may notice and dislike, at saying who may not come in. A second god who, face to face, seems to have stood at the same gate. A dream beside the warm stone of an evening street of lit windows seen from a doorway, which is the god's own remembering dreamed by someone else. The word for the evening hour in a tongue no people here speaks, met carved on something old only if the night 3 history places such a likeness, logged. The fog clears by pieces through what the god does at doors, as the player asked; nothing is scheduled.
+Never as a statement. A mortal turned from a door who looks at the hood-flame and flinches at being looked at by a lamp. The god's own ease, which it may notice and dislike, at saying who may not come in. After it has dreamed beside the warm stone, a second god it knows from the dream as the one who stood at the same gate. A dream beside the warm stone of an evening street of lit windows seen from a doorway, which is the god's own remembering dreamed by someone else. The word for the evening hour in a tongue no people here speaks, met carved on something old only if the night 3 history places such a likeness, logged. The fog clears by pieces through what the god does at doors, as the player asked; nothing is scheduled.
 
 ## Shared links
 

@@ -18,7 +18,7 @@ Who the missing were. That it was right about the weather. That the count was sh
 
 ## How this past might surface
 
-Its cord, which it knots without deciding to. A count of its own people that will not come out the same twice. A tall one met face to face beside whom it feels it has walked the edge of the same herd. A lamp in a hood before which it feels, without reason, that someone was not let in. A dream beside the warm stone of a drove passing a great doorway while someone at the edge says a number again. Nothing is scheduled.
+Its cord, which it knots without deciding to. A count of its own people that will not come out the same twice. After it has dreamed beside the warm stone, a tall one it knows from the dream as walking the edge of the same herd, and a lamp in a hood it knows from the dream as the light by which someone was not let in. A dream beside the warm stone of a drove passing a great doorway while someone at the edge says a number again. Nothing is scheduled.
 
 ## Shared links
 

@@ -18,7 +18,7 @@ Its name, which the harbor deep still holds. That the forgetting was ordered. Wh
 
 ## How this past might surface
 
-A mortal who sets something in the water at a crossing for no reason they can give. A word the god cannot say. Another god, met face to face, in whose mouth something sits that the river god leans toward without knowing why. Another whose hands it mistrusts on sight. A dream beside the warm stone of a crowd kneeling at a ford on a river none of the dreamers has seen, which is its own river. Nothing is scheduled.
+A mortal who sets something in the water at a crossing for no reason they can give. A word the god cannot say. After it has dreamed beside the warm stone, another god in whose mouth it hears something from the dream, and another whose hands it knows from the dream and mistrusts. A dream beside the warm stone of a crowd kneeling at a ford on a river none of the dreamers has seen, which is its own river. Nothing is scheduled.
 
 ## Shared links
 

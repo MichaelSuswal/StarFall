@@ -1,6 +1,6 @@
 # Power lean: Vesper
 
-Campaign: sim-02. For the Keeper, from the DM, at the close of creation Day 2. The DM has seen no other god's build, so this is a judgment of the card on its own, not against the other seven.
+Campaign: sim-02. For the Keeper, from the DM, at the close of creation Day 2. The DM has seen no other god's build, so this is a judgment of the card on its own, not against any other.
 
 ## The lean
 

@@ -18,7 +18,7 @@ The face and name of its master. What the last room was for and who was in it. T
 
 ## How this past might surface
 
-A sealed door of the old world that it finds it understands the making of, if the night 3 history places such a likeness, logged. A small god with a child's face before whom it cannot bear to stand near a closed door. An old one at a ford it cannot look at for long. A fog at a gate that it knows, without reason, once answered to the same voice. A dream beside the warm stone of hands fitting a door into rock from the outside. Nothing is scheduled.
+A sealed door of the old world that it finds it understands the making of, if the night 3 history places such a likeness, logged. After it has dreamed beside the warm stone: a small god with a child's face, known from the dream, before whom it cannot bear to stand near a closed door; an old one at a ford, known from the dream, that it cannot look at for long; a fog at a gate that it knows from the dream once answered to the same voice. A dream beside the warm stone of hands fitting a door into rock from the outside. Nothing is scheduled.
 
 ## Shared links
 

@@ -20,7 +20,7 @@ The names of the herds, which were the names of Auren's families. Who rode its s
 
 ## How this past might surface
 
-A child who climbs onto its shoulders without asking, and the god's body knowing exactly how to carry one. Its flinch under a low bright sky. A second god met face to face beside whom it feels it has walked at the edge of the same herd. A dream beside the warm stone of a drive coming down a mountain with a small figure riding high at its head. Nothing is scheduled.
+A child who climbs onto its shoulders without asking, and the god's body knowing exactly how to carry one. Its flinch under a low bright sky. After it has dreamed beside the warm stone, a second god in whom it knows a figure from the dream, one who walked at the edge of the same herd. A dream beside the warm stone of a drive coming down a mountain with a small figure riding high at its head. Nothing is scheduled.
 
 ## Shared links
 

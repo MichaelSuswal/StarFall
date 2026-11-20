@@ -54,25 +54,25 @@ Home: the Sennway [r08], B1, the gap in the northern hills, and in it Dunmarrow 
 
 ### What they know of the land
 
-What a people of guides and carters know: more road than most. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+What a people of guides and carters know: more road than most. Distances are straight lines measured on the traced map. Days are on foot along that line, each stretch at the pace table's rate for the region it crosses (rough ground 14 miles a day for valley, hill, plain, grass and shore; forest 10; mountain 8; marsh 6), with the kinds of ground named in order of their share; a line that follows a used road is given at the road rate and says so. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
 
 - The Sennway [r08] (seen): their own gap, every path and cairn. Dunmarrow [f18] lies in it.
 - Dunmarrow [f18] (seen): the town. At Dunmarrow [f18].
-- The Bare Gate [f19] (seen): the two stones on the open ground east of the road, a few hundred paces from the north gate. Nothing is hung on them. From Dunmarrow [f18], lies about 2 miles south-east.
+- The Bare Gate [f19] (seen): the two stones on the open ground east of the road, a few hundred paces from the north gate. Nothing is hung on them. At Dunmarrow [f18].
 - The Corra [f20] (seen): the river in the gap. At Dunmarrow [f18].
 - The Salt Road [f23] (seen): north to the sea and south as far as the wet ground; guides have walked all of that. At Dunmarrow [f18].
-- Gullwick [f21] (seen): the queen's port at the river mouth; many Senn have been. From Dunmarrow [f18], lies about 130 miles north-west, 6 days on foot by the road.
-- The Corrant Strand [r09] (seen): the kingdom's shore. From Dunmarrow [f18], the middle of it lies about 280 miles east, 20 days on foot over open ground.
-- The Corrow Hills [r07] (seen): the wet hills west of the gap. From Dunmarrow [f18], the middle of it lies about 480 miles west, 34 days on foot over open ground.
-- The Greyspur [r10] (seen): the grey spur east of the gap. From Dunmarrow [f18], the middle of it lies about 300 miles south-east, 21 days on foot over open ground.
-- The High Scarrow [r03] (reported): the snow heights south-west; no one goes up. From Dunmarrow [f18], the middle of it lies about 500 miles south-west, 36 days on foot over open ground.
-- The Folddales [r02] (reported): the dales the wool and cheese come from; carters know the nearer ones. From Dunmarrow [f18], the middle of it lies about 430 miles south, 30 days on foot over open ground.
-- The Wetfoot [f05] (reported): the wet ground where the summer fair is held and the used road ends. From Dunmarrow [f18], lies about 460 miles south-east, 33 days on foot over open ground.
-- Ostrey [f01] (rumored): a small stone town in one of the far dales, under the mountains. From Dunmarrow [f18], lies about 460 miles south, 33 days on foot over open ground.
-- The Rivermeet [r15] (reported): the river plain south-east. From Dunmarrow [f18], the middle of it lies about 620 miles south-east, 44 days on foot over open ground.
-- The Hornfoot Grass [r16] (rumored): herd people on the grass beyond the spur. From Dunmarrow [f18], the middle of it lies about 730 miles east, 52 days on foot over open ground.
-- Old Orsa [f24] (rumored): a dead city on brown hills where the old road ends. From Dunmarrow [f18], lies about 680 miles south, 49 days on foot over open ground.
-- The Sleeper [f27] (rumored): a thing asleep in a bare country past that city. From Dunmarrow [f18], lies about 990 miles south, 71 days on foot over open ground.
+- Gullwick [f21] (seen): the queen's port at the river mouth; many Senn have been. From Dunmarrow [f18], lies about 130 miles north-west, 6 days on foot by the road, at the road rate.
+- The Corrant Strand [r09] (seen): the kingdom's shore. From Dunmarrow [f18], the middle of it lies about 280 miles east, 20 days on foot, at the pace table rate for each stretch of ground crossed (shore country, then hill country by share of the way).
+- The Corrow Hills [r07] (seen): the wet hills west of the gap. From Dunmarrow [f18], the middle of it lies about 480 miles west, 34 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- The Greyspur [r10] (seen): the grey spur east of the gap. From Dunmarrow [f18], the middle of it lies about 300 miles south-east, 21 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- The High Scarrow [r03] (reported): the snow heights south-west; no one goes up. From Dunmarrow [f18], the middle of it lies about 500 miles south-west, 56 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then hill country by share of the way).
+- The Folddales [r02] (reported): the dales the wool and cheese come from; carters know the nearer ones. From Dunmarrow [f18], the middle of it lies about 430 miles south, 37 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then mountain by share of the way).
+- The Wetfoot [f05] (reported): the wet ground where the summer fair is held and the used road ends. From Dunmarrow [f18], lies about 460 miles south-east, 34 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- Ostrey [f01] (rumored): a small stone town in one of the far dales, under the mountains. From Dunmarrow [f18], lies about 460 miles south, 46 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then hill country by share of the way).
+- The Rivermeet [r15] (reported): the river plain south-east. From Dunmarrow [f18], the middle of it lies about 620 miles south-east, 44 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then open plain by share of the way).
+- The Hornfoot Grass [r16] (rumored): herd people on the grass beyond the spur. From Dunmarrow [f18], the middle of it lies about 730 miles east, 52 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then open grass, then shore country by share of the way).
+- Old Orsa [f24] (rumored): a dead city on brown hills where the old road ends. From Dunmarrow [f18], lies about 680 miles south, 50 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- The Sleeper [f27] (rumored): a thing asleep in a bare country past that city. From Dunmarrow [f18], lies about 990 miles south, 74 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then open plain by share of the way).
 
 ### The god's hope and the ground
 

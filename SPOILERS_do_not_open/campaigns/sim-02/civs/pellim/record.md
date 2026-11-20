@@ -54,28 +54,28 @@ Home: the Pell Mouth [r23], E3, and in it Saltstairs [f41], the walled city on t
 
 ### What they know of the land
 
-What a trading city knows: the most of any people, and most of it secondhand. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+What a trading city knows: the most of any people, and most of it secondhand. Distances are straight lines measured on the traced map. Days are on foot along that line, each stretch at the pace table's rate for the region it crosses (rough ground 14 miles a day for valley, hill, plain, grass and shore; forest 10; mountain 8; marsh 6), with the kinds of ground named in order of their share; a line that follows a used road is given at the road rate and says so. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
 
 - The Pell Mouth [r23] (seen): their own estuary, every channel. Saltstairs [f41] lies in it.
 - Saltstairs [f41] (seen): the city. At Saltstairs [f41].
-- The Tide Stumps [f43] (seen): at every low water. From Saltstairs [f41], lies about 9 miles south-east.
-- The Dry Hull [f42] (seen): the old hull; children climb it. From Saltstairs [f41], lies about 11 miles north-west.
-- The Pellwater [f40] (seen): the river, a long way up. From Saltstairs [f41], its nearest reach lies about 30 miles east, 2 days on foot over open ground.
-- The Drowned Shelf [r35] (seen): the shelf and its islands, to where the color changes. From Saltstairs [f41], the middle of it lies about 620 miles south, 45 days on foot over open ground.
-- The Sunder [f39] (seen): the arm that links to the great river in a wet year. From Saltstairs [f41], its nearest reach lies about 75 miles north, 5 days on foot over open ground.
-- The Saltmarket Plain [r24] (seen): the crown's plain, where the grain comes from. From Saltstairs [f41], the middle of it lies about 290 miles south-west, 20 days on foot over open ground.
-- Talcross [f52] (seen): the coast crown, which asks for arrears. From Saltstairs [f41], lies about 270 miles south-west, 20 days on foot over open ground.
-- The Crownlands [r25] (reported): the river crowns. From Saltstairs [f41], the middle of it lies about 630 miles south-west, 45 days on foot over open ground.
-- Ardmoor [f51] (reported): the middle crown. From Saltstairs [f41], lies about 660 miles south-west, 47 days on foot over open ground.
-- Vessany [f50] (reported): the upriver crown. From Saltstairs [f41], lies about 770 miles south-west, 55 days on foot over open ground.
-- Kessary [f44] (reported): a ferry town up the great river. From Saltstairs [f41], lies about 640 miles west, 45 days on foot over open ground.
-- The Reedsea [r27] (reported): the reed country; eels come from it. From Saltstairs [f41], the middle of it lies about 870 miles south-west, 62 days on foot over open ground.
-- The Thornhollows [r21] (seen): the grass edge, where horses and felt come down. From Saltstairs [f41], the middle of it lies about 250 miles north, 18 days on foot over open ground.
-- The Rope Ridges [r20] (reported): the ridges where the herders live. From Saltstairs [f41], the middle of it lies about 580 miles north, 41 days on foot over open ground.
-- The Southern Deep [r34] (reported): the open southern sea; hulls coast along it to the reed country and beyond. From Saltstairs [f41], the middle of it lies about 1,710 miles south-west, 122 days on foot over open ground.
-- Quillan [f55] (rumored): a shut-mouthed town on a river bend, far west by the coast. From Saltstairs [f41], lies about 1,760 miles west, 126 days on foot over open ground.
-- Gullwick [f21] (rumored): a salt port on a cold sea at the top of the land. From Saltstairs [f41], lies about 1,880 miles north-west, 134 days on foot over open ground.
-- The Sleeper [f27] (rumored): the sleeper in the middle of the land, which river people talk of. From Saltstairs [f41], lies about 1,000 miles west, 72 days on foot over open ground.
+- The Tide Stumps [f43] (seen): at every low water. From Saltstairs [f41], lies about 1 mile west.
+- The Dry Hull [f42] (seen): the old hull; children climb it. From Saltstairs [f41], lies about 1 mile west.
+- The Pellwater [f40] (seen): the river, a long way up. At Saltstairs [f41].
+- The Drowned Shelf [r35] (seen): the shelf and its islands, to where the color changes. From Saltstairs [f41], lies about 1 mile south-east.
+- The Sunder [f39] (seen): the arm that links to the great river in a wet year. From Saltstairs [f41], its nearest reach lies about 95 miles north, 7 days on foot, at the pace table rate for each stretch of ground crossed (shore country by share of the way).
+- The Saltmarket Plain [r24] (seen): the crown's plain, where the grain comes from. From Saltstairs [f41], the middle of it lies about 300 miles south-west, 21 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then shore country by share of the way).
+- Talcross [f52] (seen): the coast crown, which asks for arrears. From Saltstairs [f41], lies about 280 miles south-west, 6 days coastwise by boat with a fair wind, at the coastal sailing rate.
+- The Crownlands [r25] (reported): the river crowns. From Saltstairs [f41], the middle of it lies about 640 miles south-west, 46 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then shore country by share of the way).
+- Ardmoor [f51] (reported): the middle crown. From Saltstairs [f41], lies about 800 miles south-west, 57 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then shore country by share of the way).
+- Vessany [f50] (reported): the upriver crown. From Saltstairs [f41], lies about 800 miles west, 57 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then valley floor, then shore country by share of the way).
+- Kessary [f44] (reported): a ferry town up the great river. From Saltstairs [f41], lies about 650 miles west, 47 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then valley floor, then shore country by share of the way).
+- The Reedsea [r27] (reported): the reed country; eels come from it. From Saltstairs [f41], the middle of it lies about 870 miles south-west, 83 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then marsh by share of the way).
+- The Thornhollows [r21] (seen): the grass edge, where horses and felt come down. From Saltstairs [f41], the middle of it lies about 270 miles north, 19 days on foot, at the pace table rate for each stretch of ground crossed (shore country, then open grass by share of the way).
+- The Rope Ridges [r20] (reported): the ridges where the herders live. From Saltstairs [f41], the middle of it lies about 600 miles north, 43 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then shore country, then open grass by share of the way).
+- The Southern Deep [r34] (reported): the open southern sea; hulls coast along it to the reed country and beyond. From Saltstairs [f41], its near shore lies about 910 miles south-west, 87 days on foot, at the pace table rate for each stretch of ground crossed (water, then marsh, then open plain by share of the way).
+- Quillan [f55] (rumored): a shut-mouthed town on a river bend, far west by the coast. From Saltstairs [f41], lies about 1,780 miles west, 147 days on foot, at the pace table rate for each stretch of ground crossed (forest, then valley floor, then hill country, then open plain by share of the way).
+- Gullwick [f21] (rumored): a salt port on a cold sea at the top of the land. From Saltstairs [f41], lies about 1,910 miles north-west, 136 days on foot, at the pace table rate for each stretch of ground crossed (open grass, then open plain, then hill country, then shore country by share of the way).
+- The Sleeper [f27] (rumored): the sleeper in the middle of the land, which river people talk of. From Saltstairs [f41], lies about 1,030 miles west, 81 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then shore country, then forest, then hill country by share of the way).
 
 ### The god's hope and the ground
 

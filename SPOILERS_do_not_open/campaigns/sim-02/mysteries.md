@@ -13,7 +13,7 @@ The star over this land is in its last age. It is coming down, slowly and faster
 ### Body
 The star, which hangs over the Sleeper [f27] and never moves against the land. The Sleeper [f27] on the Bare Floor [r14]. The Holed Stone [f25] above Old Orsa [f24] and the cliff-top stone at Westerhythe [f10]. The star tables in the Measure House [f26]. The Far Woman's rule in the weighing house at Saltstairs [f41]. The cords at Kinhold [f17]. The rim people, who watch.
 Limit: the rim people know only what they have themselves seen from the rim: the beast's shape, that it breathes about once in an hour, that a thread of light comes down to it on dim nights, that some of them walk down. They do not know what it is, how old it is, why they have no names, or anything of the star's height. They answer any plain question from anyone, at any time, truly and in few words; they cannot say when a thing happened or who did it; "that is not known" is their commonest answer.
-Limit: a cord-keeper of the pass folk knows what the cords count: winters, their own number, which rooms were closed and when, what crossed the passes, and in which winter the Lamp first stood below the notch of the peak they sight it over. The cords hold no causes and no measure of how far. A keeper answers only one who has traded fairly at a night stone for three winters, only at night, only at a stone, one question a meeting, and may decline without a reason.
+Limit: a cord-keeper of the pass folk knows what the cords count: winters, their own number, which rooms were closed and when, what crossed the passes, and in which winter the Lamp first stood below the notch of the peak they sight it over. The cords hold no causes and no measure of how far. A keeper answers only one who has traded fairly for three winters at the Leaving Stone [f67] or the Night Table [f68], only at night, only at that stone, one question a meeting, and may decline without a reason.
 
 ### Cost if ignored
 The fall, in Year 118, which ends every people and place on the sheet that has not been kept. Before it: the Sleeper [f27]'s reach widens. From Year 14 people outside the rim walk toward the Bare Floor [r14] in their sleep, first from the Hollow March [r11] and the Rivermeet [r15]; from Year 30, from the Underfell [r06] and the upper hamlets of the Middle Reach [r26]. A god that never measures the star is surprised by everything that already knows.
@@ -38,7 +38,7 @@ What is shown: RUMORED, from Year 1. The oldest songs place the Lamp "above the 
 Readings: poetry; the quay was rebuilt; masts are taller now; the Lamp has come down.
 
 #### The winter of the notch
-Location: the cord-keepers of the pass folk, at a night stone of the Deep Scarrow [r04]
+Location: the cord-keepers of the pass folk, at the Leaving Stone [f67] or the Night Table [f68]
 What is shown: REPORTED, from the third winter of fair trade at the earliest. A keeper asked will find the knot: the winter the Lamp first stood below the notch. It was 211 winters ago. A second knot, 60 winters ago, marks the winter it stood below the notch's foot.
 Readings: two marks and their years give a rate and a quickening; the peak has been worn by slides; the cords mark a custom of sighting from a different ledge; it counts fog years.
 
@@ -125,10 +125,10 @@ Location: the Lamp Hut [f61]
 What is shown: SEEN, by whoever goes there. Two words in an unknown script, a gate with two doors and a lamp over the taller, and a line of smaller writing. A god can read any mortal tongue: the words are Maunt and Issel, and the line is a joke about a ferryman who charged the river for crossing itself.
 Readings: a hermit's home country, real and far; a madman's invention; the same gate some dreamers describe; a coincidence of gates.
 
-#### What two gods feel at a meeting
-Location: wherever two gods first stand face to face
-What is shown: SEEN, by the gods only. Beside the sure knowing that the other is a god, which is the rule of this world, each god whose past touched the other's feels something it cannot place: that they have stood at the same door, counted the same herd, shut the same room.
-Readings: all gods feel so; this one is kin; this one is an old enemy; it is the other god's doing.
+#### Habits no god chose
+Location: on the gods themselves, wherever one is watched for a season
+What is shown: SEEN, by any patient watcher, mortal or god. Each of the gods has a habit it did not choose and does not explain: one knots a cord without deciding to, one counts the breathing in a room, one kneels to speak to anyone smaller, one keeps count of doors. A watcher who has also slept at the stone finds each habit in the dream. A meeting between gods tells neither of them any of this; the world's rule gives only that the other is a god.
+Readings: every god is strange in its own way; they are kin; they are pieces of one thing; the stone makes its dreams out of whoever comes near.
 
 ### Branches
 #### A god goes to the stone and sleeps beside it
@@ -228,6 +228,8 @@ Kind: long. Span: about 70 years. Related to: E01, L04.
 Gods came down here once before, four of them, about 3,900 years ago, and made Orsand. Three grew as their people grew, passed a weight no god can carry on the ground, went light and rose into the star, where they are still: not gods and not dead. They are most of whatever mind the star has, they are very old, and they speak as weather and want almost nothing. The fourth saw it, refused to grow, gave away what it had into springs and sealed rooms, and was at last prayed over the same weight by a frightened people. The weight is the same for the gods now on the land: 79, on a scale where a newly landed god stands near 20. A god past 63 begins to hear them. A god three years past 79 rises on the next dim night. A god may refuse to grow; may give itself away into people and places; or may bind itself to a mountain, a river or a people's one sung name and carry more.
 
 ### Body
+The voices that come in weather to a sleeper on the rim crest and to a god past 63.
+Limit: the voices know weather, counting, and the old images of where they were first kept. They do not know the year of the fall, the rate of the lowering, the weight any god stands at, what the star is or what the beast is, and they say so by saying nothing. They cannot be questioned: a god may speak to them and gets no answer to anything asked. They speak unasked, rarely, a few words at a time, to count or to name a weather; once or twice in decades one names a power to a god past 63, and never says what it costs.
 The carvings of Old Orsa [f24]: four crowned figures with their faces worn smooth and everything else sharp; the Reaper King a hand's breadth above a threshing floor. The feast lists in the archive at Ardmoor [f51]. The houses of ancestors in Vessany [f50], Ardmoor [f51] and Talcross [f52]. Wardwell [f48] and the other kept springs. The thread on dim nights. A god's own shadow.
 
 ### Cost if ignored
@@ -378,7 +380,7 @@ What is shown: SEEN, by any who go. A high hollow where the grass is one grass a
 Readings: bad air from the room; a haunting; something was done here; the same as the old lanes of the bend town.
 
 #### Eleven in and four out
-Location: the cords of Kinhold [f17], through a cord-keeper at a night stone
+Location: the cords of Kinhold [f17], through a cord-keeper at the Leaving Stone [f67] or the Night Table [f68]
 What is shown: REPORTED, to one who has earned a question. Eleven knotters went into the room at the Hush [f16]; four came out; none of the four could afterward be taught their own kin-knot.
 Readings: a fight in the dark; a collapse; a rite that went wrong; what a great working costs.
 
@@ -437,7 +439,7 @@ What the world does: she answers as she is. What she does is hers.
 What the world does: the lamp is kept. The rhyme is kept only if someone learned it.
 
 #### The god follows the road to the stair
-What the world does: thirty miles to the night stone, then the valley head, then the heights, the pass folk's country, where it is seen long before it sees anyone. The door is under rubble.
+What the world does: thirty miles to the Leaving Stone [f67], then the valley head, then the heights, the pass folk's country, where it is seen long before it sees anyone. The door is under rubble.
 
 #### No one asks
 What the world does: row C09.
@@ -735,9 +737,10 @@ The Hodd who come back from the high hollows slow, mild and unable to say what t
 
 ### Body
 The Hush [f16]. The count-keepers' rolls at Undercrag [f13], which list the mild as living. The cords at Kinhold [f17].
+Limit: the count-keepers of the Hodd know what their rolls hold: who is alive, who has died and in which winter, who owes and is owed, and a mark against anyone who came back changed. The rolls go back about 700 winters and hold no causes; a keeper asked why says the roll does not say. They do not know what the hollow is or what was done there. They answer any Hodd household head, by day, at the gate or the count-house, as often as asked; a stranger is answered only if a household head asks for them; they will not read out another household's debts.
 
 ### Cost if ignored
-One or two Hodd each winter, by the count in the phenomena record. By Year 10 the dead ground reaches the path to the night stone above the terraces, and the silent trade with the heights stops.
+Some Hodd each winter, by the count in the phenomena record: one or two a winter in the first six years and up to four by the twelfth. By Year 10 the dead ground reaches the path to the Night Table [f68] above the terraces, and the silent trade with the heights stops.
 
 ### Clock or trigger
 Clock. Row C12, in `event-schedule.md`.
@@ -838,7 +841,7 @@ Trigger and clock. Row T12 (the clerk reaches the upper ford in the summer of Ye
 
 ### Clues
 #### The fish with a crown
-Location: the upper ford, eight miles above Kessary [f44]
+Location: the upper ford, two miles above Kessary [f44]
 What is shown: SEEN, from Year 1. An old grave marker by the landing, with a small fish under three points, cut shallow.
 Readings: a fisherman's grave; a ferryman's jest; a royal mark; a boundary stone of the old kingdom.
 

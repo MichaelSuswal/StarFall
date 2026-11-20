@@ -3009,8 +3009,8 @@
    "shape": "line",
    "coords": [
     [
-     228,
-     326
+     240.2,
+     338.3
     ],
     [
      256,
@@ -3208,8 +3208,8 @@
    "shape": "point",
    "coords": [
     [
-     389.2,
-     101.7
+     388.68,
+     101.1
     ]
    ],
    "regions": [
@@ -3453,7 +3453,7 @@
    "shape": "point",
    "coords": [
     [
-     607.6,
+     608.0,
      144.5
     ]
    ],
@@ -3670,8 +3670,8 @@
    "shape": "line",
    "coords": [
     [
-     608.4,
-     145.2
+     608.3,
+     144.9
     ],
     [
      700,
@@ -3710,8 +3710,8 @@
      372
     ],
     [
-     872,
-     304
+     873.3,
+     305.1
     ],
     [
      1000,
@@ -3732,8 +3732,8 @@
    "shape": "point",
    "coords": [
     [
-     874,
-     306
+     873.5,
+     305.35
     ]
    ],
    "regions": [
@@ -3816,6 +3816,10 @@
      590
     ],
     [
+     894,
+     603
+    ],
+    [
      893,
      606
     ]
@@ -3833,8 +3837,8 @@
    "shape": "point",
    "coords": [
     [
-     884,
-     597
+     893.5,
+     605.0
     ]
    ],
    "regions": [
@@ -3850,8 +3854,8 @@
    "shape": "point",
    "coords": [
     [
-     881,
-     594
+     893.0,
+     604.8
     ]
    ],
    "regions": [
@@ -3867,8 +3871,8 @@
    "shape": "point",
    "coords": [
     [
-     886.5,
-     599.5
+     893.0,
+     605.2
     ]
    ],
    "regions": [
@@ -3885,7 +3889,7 @@
    "coords": [
     [
      641,
-     672
+     672.95
     ]
    ],
    "regions": [
@@ -3901,20 +3905,20 @@
    "shape": "area",
    "coords": [
     [
-     645,
-     664
+     641.6,
+     671.8
     ],
     [
-     650,
-     663
+     642.2,
+     671.7
     ],
     [
-     651,
-     667
+     642.3,
+     672.2
     ],
     [
-     646,
-     668
+     641.7,
+     672.3
     ]
    ],
    "regions": [
@@ -3930,8 +3934,8 @@
    "shape": "point",
    "coords": [
     [
-     648,
-     665.5
+     641.95,
+     672.0
     ]
    ],
    "regions": [
@@ -3947,8 +3951,8 @@
    "shape": "point",
    "coords": [
     [
-     648.4,
-     665.9
+     642.0,
+     672.05
     ]
    ],
    "regions": [
@@ -3964,8 +3968,8 @@
    "shape": "point",
    "coords": [
     [
-     642.2,
-     670.8
+     641.3,
+     672.3
     ]
    ],
    "regions": [
@@ -3990,7 +3994,7 @@
     ],
     [
      641,
-     671
+     672.9
     ]
    ],
    "regions": [
@@ -4006,7 +4010,7 @@
    "shape": "point",
    "coords": [
     [
-     601,
+     595.8,
      722
     ]
    ],
@@ -4023,8 +4027,8 @@
    "shape": "point",
    "coords": [
     [
-     662,
-     740
+     612,
+     756
     ]
    ],
    "regions": [
@@ -4107,8 +4111,8 @@
    "shape": "point",
    "coords": [
     [
-     207,
-     786
+     205.15,
+     786.0
     ]
    ],
    "regions": [
@@ -4194,8 +4198,8 @@
    "shape": "point",
    "coords": [
     [
-     207.3,
-     786.4
+     205.17,
+     786.02
     ]
    ],
    "regions": [
@@ -4211,8 +4215,8 @@
    "shape": "point",
    "coords": [
     [
-     210,
-     790
+     205.3,
+     786.2
     ]
    ],
    "regions": [
@@ -4228,8 +4232,8 @@
    "shape": "line",
    "coords": [
     [
-     207,
-     786
+     205.15,
+     786.0
     ],
     [
      300,
@@ -4390,6 +4394,40 @@
    ],
    "known_to": "herders of both peoples, as a place of dry wells",
    "notes": "A caravan town on the Rope Line, abandoned when its wells went flat."
+  },
+  {
+   "id": "f67",
+   "name": "The Leaving Stone",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     332.5,
+     287.2
+    ]
+   ],
+   "regions": [
+    "r01"
+   ],
+   "known_to": "the Haldren; the pass folk",
+   "notes": "A flat stone beside the old road thirty miles above Ostrey, where goods are left by night for the people of the heights."
+  },
+  {
+   "id": "f68",
+   "name": "The Night Table",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     257.6,
+     451.7
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the Hodd; the pass folk",
+   "notes": "A flat stone above the terraces of Undercrag where the silent trade is done."
   }
  ],
  "landings": {
@@ -4410,15 +4448,15 @@
   "god-thresholds": {
    "region": "r08",
    "at": [
-    388.9,
-    101.4
+    388.7,
+    101.15
    ]
   },
   "god-beasts": {
    "region": "r16",
    "at": [
-    610.0,
-    147.0
+    608.7,
+    144.6
    ]
   },
   "god-storms": {
@@ -4431,22 +4469,22 @@
   "god-sea": {
    "region": "r23",
    "at": [
-    884.6,
-    597.8
+    893.45,
+    605.3
    ]
   },
   "god-rivers": {
    "region": "r26",
    "at": [
-    644.0,
-    671.3
+    641.66,
+    672.59
    ]
   },
   "god-secrets": {
    "region": "r29",
    "at": [
-    207.8,
-    787.0
+    205.2,
+    786.1
    ]
   }
  },

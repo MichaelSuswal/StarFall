@@ -37,17 +37,17 @@ Where: the Reedsea [r27], D4, the delta marsh of the Lowe [f03]. Their oldest vi
 
 ### What they know of the land
 
-They know water and what stands in it. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+They know water and what stands in it. Distances are straight lines measured on the traced map. Days are on foot along that line, each stretch at the pace table's rate for the region it crosses (rough ground 14 miles a day for valley, hill, plain, grass and shore; forest 10; mountain 8; marsh 6), with the kinds of ground named in order of their share; a line that follows a used road is given at the road rate and says so. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
 
 - The Reedsea [r27] (seen): every channel. The Drowned Streets [f53] lies in it.
 - The Drowned Streets [f53] (seen): by touch. At the Drowned Streets [f53].
-- The Eastflat [f54] (seen): and left. From the Drowned Streets [f53], lies about 110 miles north-east, 8 days on foot over open ground.
-- The Lowe [f03] (seen): as far up as the first crown. From the Drowned Streets [f53], its nearest reach lies about 15 miles east, 1 day on foot over open ground.
-- The Crownlands [r25] (seen): the crowns' country, at its landings. From the Drowned Streets [f53], the middle of it lies about 260 miles north, 18 days on foot over open ground.
-- Ardmoor [f51] (seen): where eels are sold. From the Drowned Streets [f53], lies about 220 miles north, 16 days on foot over open ground.
-- Vessany [f50] (seen): the upriver crown. From the Drowned Streets [f53], lies about 280 miles north, 20 days on foot over open ground.
-- The Drowned Shelf [r35] (seen): the shelf, inshore. From the Drowned Streets [f53], the middle of it lies about 560 miles east, 40 days on foot over open ground.
-- The Southern Deep [r34] (seen): the open sea, from its edge. From the Drowned Streets [f53], the middle of it lies about 940 miles west, 67 days on foot over open ground.
-- Saltstairs [f41] (reported): the great city east along the coast. From the Drowned Streets [f53], lies about 830 miles north-east, 59 days on foot over open ground.
-- The Withywood [r28] (reported): the wood west of the marsh. From the Drowned Streets [f53], the middle of it lies about 620 miles north-west, 45 days on foot over open ground.
-- Kessary [f44] (rumored): a ferry town far up the river. From the Drowned Streets [f53], lies about 390 miles north, 28 days on foot over open ground.
+- The Eastflat [f54] (seen): and left. From the Drowned Streets [f53], lies about 110 miles north-east, 19 days on foot, at the pace table rate for each stretch of ground crossed (marsh by share of the way).
+- The Lowe [f03] (seen): as far up as the first crown. From the Drowned Streets [f53], its nearest reach lies about 15 miles east, 3 days on foot, at the pace table rate for each stretch of ground crossed (marsh by share of the way).
+- The Crownlands [r25] (seen): the crowns' country, at its landings. From the Drowned Streets [f53], the middle of it lies about 260 miles north, 33 days on foot, at the pace table rate for each stretch of ground crossed (marsh, then open plain by share of the way).
+- Ardmoor [f51] (seen): where eels are sold. From the Drowned Streets [f53], lies about 190 miles north-west, 29 days on foot, at the pace table rate for each stretch of ground crossed (marsh by share of the way).
+- Vessany [f50] (seen): the upriver crown. From the Drowned Streets [f53], lies about 280 miles north-west, 36 days on foot, at the pace table rate for each stretch of ground crossed (marsh, then open plain by share of the way).
+- The Drowned Shelf [r35] (seen): the shelf, inshore. From the Drowned Streets [f53], its near shore lies about 110 miles south-east, 18 days on foot, at the pace table rate for each stretch of ground crossed (marsh by share of the way).
+- The Southern Deep [r34] (seen): the open sea, from its edge. From the Drowned Streets [f53], its near shore lies about 130 miles south, 21 days on foot, at the pace table rate for each stretch of ground crossed (marsh by share of the way).
+- Saltstairs [f41] (reported): the great city east along the coast. From the Drowned Streets [f53], lies about 840 miles north-east, 92 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then marsh by share of the way).
+- The Withywood [r28] (reported): the wood west of the marsh. From the Drowned Streets [f53], the middle of it lies about 620 miles north-west, 81 days on foot, at the pace table rate for each stretch of ground crossed (forest, then marsh by share of the way).
+- Kessary [f44] (rumored): a ferry town far up the river. From the Drowned Streets [f53], lies about 380 miles north, 41 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then marsh, then valley floor by share of the way).

@@ -82,3 +82,7 @@ Write SPOILERS_do_not_open/campaigns/sim-02/gods/god-secrets/people-hoped.md in 
 ## Questions for you
 <your answers>
 ```
+
+## Correction after the tracing
+
+Added by the Keeper on creation Night 3, after the world was laid. The country section above says that mountains stand off behind the hills with snow on them. On the ground as traced, no mountains can be seen from the bend: the nearest are about 330 miles away. Everything else that section shows is so. The land as it is lies in the people's record and in `map-knowledge.json` in your folder.

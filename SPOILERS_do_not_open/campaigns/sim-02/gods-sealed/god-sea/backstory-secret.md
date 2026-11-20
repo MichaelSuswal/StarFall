@@ -18,7 +18,7 @@ What it swallowed, and that it is a name. Whose. That it was given the thing by 
 
 ## How this past might surface
 
-A word that comes up in its mouth when it is very afraid, which it swallows again. An old one at a ford, met face to face, before whom the water in it goes cold and still. A lead tablet scratched with a debt, in a wreck, if the night 3 history places such a likeness, logged. A dream beside the warm stone of something small and heavy sinking through green water onto grey metal. No one asks it what it swallowed unless a being in the world comes to wonder; nothing is scheduled.
+A word that comes up in its mouth when it is very afraid, which it swallows again. After it has dreamed beside the warm stone, an old one at a ford whom it knows from the dream, before whom the water in it goes cold and still. A lead tablet scratched with a debt, in a wreck, if the night 3 history places such a likeness, logged. A dream beside the warm stone of something small and heavy sinking through green water onto grey metal. No one asks it what it swallowed unless a being in the world comes to wonder; nothing is scheduled.
 
 ## Shared links
 

@@ -5,37 +5,6 @@
    "grade": "seen",
    "source": "the landing",
    "year": 1
-  },
-  "r05": {
-   "grade": "reported",
-   "source": "own sight, at the landing",
-   "year": 1,
-   "told": {
-    "name": "mountains behind the hills, with snow on them",
-    "terrain": "mountain",
-    "polygon": [
-     [
-      204.3,
-      782.1
-     ],
-     [
-      195.1,
-      769.0
-     ],
-     [
-      202.7,
-      765.6
-     ],
-     [
-      211.1,
-      765.3
-     ],
-     [
-      208.7,
-      781.1
-     ]
-    ]
-   }
   }
  },
  "features": {
@@ -56,16 +25,16 @@
     "name": "the river and its great bend",
     "coords": [
      [
-      208.1,
-      782.2
+      207.6,
+      782.9
      ],
      [
-      205.6,
-      785.3
+      205.1,
+      786.0
      ],
      [
-      203.2,
-      788.5
+      202.6,
+      789.2
      ]
     ]
    }
@@ -86,15 +55,15 @@
     "name": "an old banked road into the woods",
     "coords": [
      [
-      204.1,
+      202.2,
       788.7
      ],
      [
-      207,
-      786
+      205.2,
+      786.0
      ],
      [
-      209.9,
+      208.1,
       783.3
      ]
     ]

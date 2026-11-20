@@ -55,24 +55,24 @@ Home: the Bendlands [r29], B4, and in it Quillan [f55], the walled town on the r
 
 ### What they know of the land
 
-What a close town knows: its own bend, its sellers, and hearsay. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+What a close town knows: its own bend, its sellers, and hearsay. Distances are straight lines measured on the traced map. Days are on foot along that line, each stretch at the pace table's rate for the region it crosses (rough ground 14 miles a day for valley, hill, plain, grass and shore; forest 10; mountain 8; marsh 6), with the kinds of ground named in order of their share; a line that follows a used road is given at the road rate and says so. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
 
 - The Bendlands [r29] (seen): their own hills and bottomland. Quillan [f55] lies in it.
 - Quillan [f55] (seen): the town. At Quillan [f55].
-- The Sarn [f56] (seen): from the hill villages to the sea. From Quillan [f55], lies about 4 miles north-west.
+- The Sarn [f56] (seen): from the hill villages to the sea. At Quillan [f55].
 - The Underkeys [f57] (seen): by the keyholders only; everyone else knows that the cellars end in doors. At Quillan [f55].
-- The Bottom Mounds [f58] (seen): the mounds; no one digs there. From Quillan [f55], lies about 10 miles south-east, 1 day on foot over open ground.
+- The Bottom Mounds [f58] (seen): the mounds; no one digs there. From Quillan [f55], lies about 1 mile south-east.
 - The Banked Way [f59] (seen): as far as a day into the woods; beyond that no one follows it. At Quillan [f55].
-- The Low Scarrow [r05] (seen): the range's southern shoulders, where the hill villages sell grain and chestnut flour. From Quillan [f55], the middle of it lies about 510 miles north, 37 days on foot over open ground.
-- The Withywood [r28] (reported): the great wood east; woodsmen and charcoal burners come out of it to trade. From Quillan [f55], the middle of it lies about 580 miles east, 41 days on foot over open ground.
-- The Edder [f60] (reported): a forest river east of the bend. From Quillan [f55], its nearest reach lies about 280 miles north-east, 20 days on foot over open ground.
-- The Far Capes [r30] (reported): the capes south-west; empty. From Quillan [f55], the middle of it lies about 210 miles west, 15 days on foot over open ground.
-- The Deep Scarrow [r04] (rumored): the high snow mountains north, and small grey people in them who trade by night. From Quillan [f55], the middle of it lies about 1,030 miles north, 73 days on foot over open ground.
-- The Crownlands [r25] (reported): the crowned cities far east, where cloth is sold and lenders live. From Quillan [f55], the middle of it lies about 1,160 miles east, 83 days on foot over open ground.
-- Vessany [f50] (rumored): the nearest of those cities. From Quillan [f55], lies about 1,000 miles east, 71 days on foot over open ground.
-- The South Ashring [r13] (rumored): brown hills at the far end of the old road. From Quillan [f55], the middle of it lies about 940 miles north-east, 67 days on foot over open ground.
-- The Sleeper [f27] (rumored): something asleep in the middle of the land. From Quillan [f55], lies about 1,050 miles north-east, 75 days on foot over open ground.
+- The Low Scarrow [r05] (seen): the range's southern shoulders, where the hill villages sell grain and chestnut flour. From Quillan [f55], the middle of it lies about 510 miles north, 46 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then mountain by share of the way).
+- The Withywood [r28] (reported): the great wood east; woodsmen and charcoal burners come out of it to trade. From Quillan [f55], the middle of it lies about 580 miles east, 50 days on foot, at the pace table rate for each stretch of ground crossed (forest, then hill country by share of the way).
+- The Edder [f60] (reported): a forest river east of the bend. From Quillan [f55], its nearest reach lies about 290 miles north-east, 20 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- The Far Capes [r30] (reported): the capes south-west; empty. From Quillan [f55], the middle of it lies about 210 miles west, 15 days on foot, at the pace table rate for each stretch of ground crossed (hill country by share of the way).
+- The Deep Scarrow [r04] (rumored): the high snow mountains north, and small grey people in them who trade by night. From Quillan [f55], the middle of it lies about 1,020 miles north, 111 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then hill country by share of the way).
+- The Crownlands [r25] (reported): the crowned cities far east, where cloth is sold and lenders live. From Quillan [f55], the middle of it lies about 1,170 miles east, 103 days on foot, at the pace table rate for each stretch of ground crossed (forest, then hill country, then open plain by share of the way).
+- Vessany [f50] (rumored): the nearest of those cities. From Quillan [f55], lies about 990 miles east, 90 days on foot, at the pace table rate for each stretch of ground crossed (forest, then hill country by share of the way).
+- The South Ashring [r13] (rumored): brown hills at the far end of the old road. From Quillan [f55], the middle of it lies about 940 miles north-east, 79 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then forest by share of the way).
+- The Sleeper [f27] (rumored): something asleep in the middle of the land. From Quillan [f55], lies about 1,060 miles north-east, 86 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then forest, then open plain by share of the way).
 
 ### The god's hope and the ground
 
-The god hoped for river country with a walled town on a bend, and has it. Changed in this record: nothing.
+The god hoped for river country with a walled town on a bend, and has it. The release it was given before the tracing spoke of snow mountains standing off behind the hills. On the traced ground the nearest mountains are about 330 miles from the bend and cannot be seen from it; the god's starting map holds none, and a correction is appended to that release. Changed in this record: that view.
