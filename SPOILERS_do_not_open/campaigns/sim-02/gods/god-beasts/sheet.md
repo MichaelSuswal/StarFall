@@ -31,13 +31,18 @@ Leans toward a small people, one to three thousand, gathered close but moving wi
 Size score 37 (Company 75, Appetite 21, Regard 16). Shape: Order 17 with Regard under 50, written law and its keepers; Presence 54, no mark; Regard 16, it serves them; Making 70, scattered and moving with no fixed seat; Company 75, gathered close.
 
 ## Name
-(Night 2)
+It holds no name. Filed under the Hunt-Warden (its own word, `self.md`). The folder keeps the label god-beasts.
 
 ## Traits (own)
-(Night 2)
+In its own words, in full in `self.md`:
+### Plain and watchful
+Reconciles Virtue honesty, Trust 67 (wary), Presence 54 (leans hidden), and a voice of old sayings. I do not lie, and I do not offer. I answer what is asked and answer it true, and I hold the rest behind my teeth until I have measured the asker. I keep out of sight, not out of fear, but because a thing seen is a thing already judged. I speak in sayings because a saying says a true thing without saying whose it is. The wary and the honest are one mouth: a man can tell no lie and still keep a door shut.
+
+### The proud breaker who writes it down
+Reconciles Flaw pride, Making 70 (breaker), Order 17 (law), Regard 16 (shepherd), Appetite 21 (content), Company 75 (gathering). I take things apart to learn how they were made, and I do not always mind what is lost in the learning. I mean no harm by it. A thing that cannot be broken is a thing no one understands. But once I have broken it, I want the limits of the matter written, exact, so that the next hand knows where it will give way. I want many near me and I do not want to be leaned on. My pride will not ask for help, not even the help I would take from the weakest of my own. I serve those who gather under me, and I serve them standing up.
 
 ## Keeper trait
-(Night 2)
+You kneel to speak to anyone smaller than yourself, and you have never been able to stop. (Told on Night 2, round 2. A knowing of the body; it is not an item of any record and no memory price takes it.)
 
 ## Season it wakes into
 Autumn, when the herds are on the move (answer 3: "I wake into autumn.").

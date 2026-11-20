@@ -158,3 +158,6 @@ One thing you know about yourself from the moment of landing, that you did not c
 
 ### Confirm
 Confirm that this is what you meant, or say what is wrong with it. If you confirm, the card is frozen as written here. If something is wrong, name the line and the wording you meant; a third round can change wording only, never a price. Write your reply as "## Round 2 reply" at the end of SPOILERS_do_not_open/campaigns/sim-02/gods/god-stone/negotiation-night2.md, and to no other file. Then stop. No em dashes or en dashes.
+
+## Round 3 (confirmation only)
+Your confirmation is recorded and the card is frozen. All three corrections are granted. You are filed under Stone. The frozen ground is the ground of the land you are in, wherever in it you lie; you made your own weakness larger and the Keeper records that you did. The lasting runs from the moment your hands come away until the end of the next winter; that is what the Keeper meant, and a roof steadied only in winter would not be a roof held. No reply is needed.

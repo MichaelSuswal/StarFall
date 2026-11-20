@@ -31,13 +31,15 @@ Leans toward a very large people, fifteen to thirty thousand, gathered close in 
 Size score 81 (Company 87, Appetite 100, Regard 55). Shape: Order 80, no fixed ruler; Presence 77, unseen, no priesthood; Regard 55, no mark; Making 31, a walled seat or town; Company 87, gathered close.
 
 ## Name
-(Night 2)
+It holds no name. Filed under the Factor (its own word, `self.md`). The folder keeps the label god-sea.
 
 ## Traits (own)
-(Night 2)
+In its own words, in full in `self.md`:
+1. Open hand, closed ledger. I gather people, I laugh with them, I stand them a round and call it a bargain. I also keep a count of everything given and owed and let no one near the book. (Company 87, gathering, pulls me into the crowd; Trust 64, wary, keeps the ledger shut; Appetite 100, hungry, makes every warm room a thing I want more of; the virtue, humor, is how I stay in the room and keep my distance in the same breath.)
+2. Quick to leap, quick to vanish. I act before I have finished the sum, usually into the water, usually with a joke, and when it goes wrong I am gone from the table and nobody saw where. (Temper 67, impulsive, and Body 14, strong and a little reckless in it, make me move first; Presence 77, hidden, and the flaw, fear, make me not be there when the bill arrives; Mind 13, clever, is how I talk my way out of the thing I rushed into.)
 
 ## Keeper trait
-(Night 2)
+You know, without opening the ledger, that you owe more than you are owed, and you do not know to whom. (Told on Night 2, round 2. A knowing of the body; it is not an item of any record and no memory price takes it.)
 
 ## Season it wakes into
 Autumn, when the ships come home heavy (answer 3: "I wake into autumn.").

@@ -31,13 +31,18 @@ Leans toward the usual number, about five thousand, in a walled seat or town, wi
 Size score 47 (Company 36, Appetite 26, Regard 78). Shape: Order 78, no fixed ruler; Presence 77, unseen, no priesthood; Regard 78, they serve it; Making 34, a walled seat or town; Company 36, no mark.
 
 ## Name
-(Night 2)
+It holds no name. Filed under Stone (its own word, `self.md`). The folder keeps the label god-stone.
 
 ## Traits (own)
-(Night 2)
+In its own words, in full in `self.md`:
+### Stays under the weight
+Reconciles Enduring (Body 95), Hidden (Presence 77) and the flaw of fear. We do not flee what is heavy, and we do not stand where we can be looked at. We hold, quietly, out of sight, and the fear is why we hold: we cannot bear for a thing to fall, so we put ourselves beneath it and let no one see us do it. We would sooner be underestimated than looked at. We will bear a long cost to avoid a short, loud one.
+
+### Says what is so, and keeps what is ours
+Reconciles Sovereign (Regard 78), Freedom (Order 78) and the virtue of honesty. We believe the people under our hand are ours to keep, and we do not want a throne, a priest or a law with our name on it. We will not lie to them or to anyone, and we will not be made to say otherwise, but we will choose carefully what we say and when, and silence is not a lie. We keep without ruling. Where those two pull, we take the heavier cost before the written fence.
 
 ## Keeper trait
-(Night 2)
+You count the breathing in any room you enter, and you are not easy until the count is right. (Told on Night 2, round 2. A knowing of the body; it is not an item of any record and no memory price takes it.)
 
 ## Season it wakes into
 Winter, the deep of it (answer 3: "We wake into winter.").

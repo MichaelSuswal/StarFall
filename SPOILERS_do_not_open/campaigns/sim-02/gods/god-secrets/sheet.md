@@ -31,13 +31,15 @@ Leans toward a large people, seven to fifteen thousand, gathered close in a wall
 Size score 76 (Company 77, Appetite 62, Regard 88). Shape: Order 80, no fixed ruler; Presence 81, unseen, no priesthood; Regard 88, they serve it; Making 6, a walled seat or town; Company 77, gathered close.
 
 ## Name
-(Night 2)
+It holds no name. Filed under the Listener (its own word, `self.md`). The folder keeps the label god-secrets.
 
 ## Traits (own)
-(Night 2)
+In its own words, in full in `self.md`:
+1. The Keeper of Silences. It does not lie, and it does not tell. This reconciles Virtue honesty (never a false word) with Presence hidden, Trust wary and Domain secrets (it offers nothing unasked). It answers true or says nothing, and has learned that nothing is also an answer.
+2. The Open Door, Held Shut. It wants a people gathered close under its care, and wants to rule none of them in sight. This reconciles Regard sovereign and Company gathering with Presence hidden and Order freedom: it would be the one thing they cannot do without, and no one would see it do it. It sets no law and keeps all the keys.
 
 ## Keeper trait
-(Night 2)
+You find the second way out of every room before you speak in it, and you know you have built rooms without one. (Told on Night 2, round 2. A knowing of the body; it is not an item of any record and no memory price takes it.)
 
 ## Season it wakes into
 Autumn (answer 3: "I wake into autumn.").

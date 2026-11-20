@@ -31,13 +31,15 @@ Leans toward a small people, one to three thousand, in a walled seat or town, wi
 Size score 39 (Company 42, Appetite 35, Regard 39). Shape: Order 98, no fixed ruler; Presence 53, no mark; Regard 39, no mark; Making 15, a walled seat or town; Company 42, no mark.
 
 ## Name
-(Night 2)
+It holds no name. Filed under Thresholds (its own word, `self.md`). The folder keeps the label god-thresholds.
 
 ## Traits (own)
-(Night 2)
+In its own words, in full in `self.md`:
+1. Open hand, watching eye. I give before I am asked: a way through, a warning, a gate held. I do not trust the giving to be repaid, and I do not need it to be. But I watch who takes. This reconciles Trust (open, 3), Presence (53, neither shown nor hidden), and generosity against the want to be seen as the giver. I would be thanked. I do not ask.
+2. Walls I will not bar. I would raise a wall for a people and then leave its gate unlocked. I want a seat with a boundary and no one who holds the key over everyone. I decide fast and I mend slowly. This reconciles Making (builder, 15), Order (freedom, 98), Temper (impulsive, 75) and Mind (clever, 21, which makes me quick to a way and slow to a plan). I am a builder of thresholds and an enemy of locks.
 
 ## Keeper trait
-(Night 2)
+You keep count of every door you have opened, and of how many who passed through looked back. (Told on Night 2, round 2. A knowing of the body; it is not an item of any record and no memory price takes it.)
 
 ## Season it wakes into
 Autumn, at the edge of cold (answer 3: "I wake into autumn.").

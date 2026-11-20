@@ -134,3 +134,14 @@ god-stone, the Held Place's lasting, and the Winter Stillness.
 Arguments: the god asked that a place held a full season stay steadied for a year after. The Keeper: the power acting away from its drawback must be bounded in number or in time; one place for a year, or every place through the following winter. The god chose the winter, argued that its own body bounds the number (a full season's unbroken hold, one body), and the Keeper accepted that in place of a count. The god chose the longer stillness (through the frozen ground), declined a second improvement, and asked to be awake in the winter of its landing; granted.
 Ruling: the lasting runs through the winter that follows a full season's unbroken hold, with no count of places. The stillness binds from the first winter after landing. The return's "longer" is a second winter, and a third if the stone is broken. Settled against the god in part (a winter, not a year). The weakness is recorded as worth somewhat more than it bought, by the god's own choice.
 Binds: god-stone's card.
+
+## Confirmations, round 2 replies (2026-11-19, Night 2)
+
+All seven gods confirmed the round 2 final text. Wording corrections asked in the replies, each a wording matter and none a price:
+- L-0013, god-beasts: confirmed. Asked the Limits say where the slowing's count starts, proposing "when the turning begins." Ruled by the Keeper: the slowing begins at the day's end, when the herd is released, since the confirmed Drawback says "was turned" and a slowness paid while standing in the herd's path costs nothing. The god had said it would let the card stand on the Keeper's reading. Settled against its proposed wording.
+- L-0014, god-thresholds: confirmed. The Veil written as a state entered and left by choice, its drawback binding only while veiled. The Keeper trait ruled a knowing of the body, on the sheet, never taken by a memory price; this binds every god's Keeper trait.
+- L-0015, god-rivers: confirmed, accepting the kept-crossing and true-thing wordings. Asked the Keeper trait drop a clause that explained its laugh; granted.
+- L-0016, god-secrets: confirmed as written.
+- L-0017, god-storms: confirmed. Agreed reading: a tent overhead is a roof for the workings while the god is under it, and no part of the weakness.
+- L-0018, god-sea: confirmed. Corrected a Keeper error: the final text had widened Slack Water to fresh water; restored to salt water only, with an estuary counting as salt while the god can taste or smell salt. The Bound Word also ends when the terms lapse by their own words.
+- L-0019, god-stone: confirmed. Filed under Stone. The frozen ground redefined by the god to its own cost (the ground of the land it is in, wherever it lies). The lasting written as from the moment the hands come away until the end of the next winter.

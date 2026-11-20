@@ -152,3 +152,6 @@ One thing you know about yourself from the moment of landing, that you did not c
 
 ### Confirm
 Confirm that this is what you meant, or say what is wrong with it. If you confirm, the card is frozen as written here. If something is wrong, name the line and the wording you meant; a third round can change wording only, never a price. Write your reply as "## Round 2 reply" at the end of SPOILERS_do_not_open/campaigns/sim-02/gods/god-secrets/negotiation-night2.md, and to no other file. Then stop. No em dashes or en dashes.
+
+## Round 3 (confirmation only)
+Your confirmation is recorded and the card is frozen as written. No reply is needed.
