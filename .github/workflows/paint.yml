@@ -15,9 +15,29 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+      # Keep a copy of every painting made in this run before trying to push,
+      # so a rejected push never loses a paid image. Retained for 30 days.
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paintings-${{ github.run_id }}
+          path: |
+            images/out/*.png
+            SPOILERS_do_not_open/images/out/*.png
+          if-no-files-found: ignore
+          retention-days: 30
+      # Other sessions push to main while the job runs, so pull with rebase
+      # and retry the push until it lands.
       - run: |
           git config user.name "starfall-painter"
           git config user.email "starfall-painter@users.noreply.github.com"
           mkdir -p images/out SPOILERS_do_not_open/images/out
           git add images/out SPOILERS_do_not_open/images/out
-          git diff --cached --quiet || (git commit -m "Paint new images" && git push)
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Paint new images"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          echo "push failed after five tries; the paintings are in this run's artifact" >&2
+          exit 1
