@@ -136,7 +136,7 @@ Principle from run 01 (Night 3, step 3.4, shading): when one result is said to "
 
 Principle from run 01 (Night 1, Q15): a vote on a world rule stands whole. Where a sealed file seems to fix the same matter, the vote governs and the sealed file is read as yielding to it. Anything the lore keeps that touches the rule may live in the world only as a thing to be found (a being, an object, a power to be grown), never as a place where the rule itself reads differently, and never as a sense a god has without asking.
 
-**16. Bodies.** Rule, by vote: "Can a god be in more than one place at once? One body, or several, and if several, what is the cost?" Count one body against more than one; a bent answer counts with the nearer side. If more than one carries, the number allowed and the cost are sub-points from the answers on that side, and every god pays the same cost. If no answer speaks to it, one body, logged as a default. Given before Day 2.
+**16. Bodies.** Rule, by vote: "Can a god be in more than one place at once? One body, or several, and if several, what should it cost?" Count one body against more than one; a bent answer counts with the nearer side. If more than one carries, the number allowed and the cost are sub-points from the answers on that side, and every god pays the same cost. If no answer speaks to it, one body, logged as a default. Given before Day 2.
 
 There is no rule on oaths. A promise between gods is worth what the god who gave it is worth; nothing in the world enforces it or punishes breaking it, and reputation applies.
 
