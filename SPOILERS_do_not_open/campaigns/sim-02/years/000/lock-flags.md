@@ -125,3 +125,63 @@ What the record holds instead: "the other seven" tells the reader there are eigh
 Line 6: 1. Line 7: 7. Line 10: 3. Line 11: 1. Line 13: 1. Line 16: 1. Total 14. Every other line: yes.
 
 For the rerun: the Keeper fixes, commits, and asks for the flagged lines again; the checker reruns the scripts and every flagged line, and rechecks any line a fix touches (a moved landing point reopens lines 7 and 8 for every god).
+
+# Lock flags: sim-02, round 2
+
+Run by the continuity checker, 2026-11-20 09:53 Pacific, against commit 5fcebcfcab28a47b460bad23fc474f786b5cea58 ("lock round 1, fourteen flags fixed"). The one later commit, 33fd7e5, touches nothing under either campaign folder. Rerun: the scripts; every flagged line of round 1 (6, 7, 10, 11, 13, 16); lines 7 and 8 for every god, since five landing points moved; and line 3, since every secret backstory and the common past changed. Every land line in the twelve records and the Haldren's sealed file (181 lines) was measured again from `S/map.json` under the Keeper's new pace rule (each stretch at the rate of the region it crosses), with every god's starting view and the ring of seats.
+
+Result: 3 flags, on 3 lines. The lock does not pass. No public `lock.md` and no `LOCKED.md` are written.
+
+## Script output, round 2
+
+```
+tools/lockcheck.py sim-02 --all
+places: 4 failure(s), 9 warning(s)
+leaks: 0 failure(s), 0 warning(s)
+mysteries: 0 failure(s), 0 warning(s)
+rolls: 0 failure(s), 0 warning(s)
+dashes: 0 failure(s), 0 warning(s)
+
+tools/map.py validate sim-02
+0 problem(s)
+```
+
+Every one of the 4 place failures and 9 place warnings is in this flags file (round 1's bracketed pixel coordinates and map names written without ids). Findings inside `years/000/lock-flags.md` are not counted: the file is the checker's own record, not world content. With it set aside, `--places` has 0 failures and 0 warnings. The seven sealed knowledge files pass the knowledge check.
+
+## Round 1 flags, rechecked
+
+1. Night stones: fixed for the Haldren file, S01, S08, E01, L05, the cast, C12 and T14 (the Leaving Stone [f67], the Night Table [f68], both on the map where their records put them: 30.1 miles south-west of Ostrey [f01] beside the Fitted Way [f04], 1.2 miles north-west of Undercrag [f13]). Not fixed in the pass folk record: round 2 flag 1.
+2. Year 45: holds. Ostrey [f01] 638 miles from the Sleeper's middle, inside the 650 now written.
+3. Pace: holds. All 181 lines agree with the map within rounding, in distance, direction and days; the two road lines at the road rate; the one sea line marked coastwise.
+4. Saltstairs [f41]: holds, 0.4 miles from the Pellwater [f40].
+5. Ardmoor [f51]: holds, on the Lowe [f03]; Vessany [f50] 0.6 miles from it.
+6. The Withy [f12]: holds, its line 0.9 miles from the Kettle [f08].
+7. god-secrets' mountains: holds. Gone from its starting map; its release carries a correction; the Brannow record says what changed.
+8. Sight from the landings: holds for seven gods by the Keeper's written reading. Not for god-stone: round 2 flag 3.
+9, 10, 11. Rule 16: the voices, the Hodd count-keepers and Ikk now carry written limits in their mysteries and the cast. None can give the epic's measures. One new disagreement in the cord-keepers' limit: round 2 flag 2.
+12. The mild ones: holds; S08 now matches the phenomena record year by year.
+13. The meeting: holds. T13, L01, the common past and all eight backstories now give a meeting only that the other is a god, for every pair; recognition comes only through a dream at the stone. The links table is unchanged and still appears in both gods' backstories in the same terms (line 3 rechecked).
+14. The count in `power-lean.md`: holds. The public folder was read again for counts of gods in any wording; none.
+
+Lines 7 and 8 for every god: the ring is 465 to 850 miles between nearest seats, every seat in its wished terrain; the player's landing, Ostrey [f01], the river, the road, the Highfold [f06] and the valley's head and mouth measure as before, and `world/world.md` and `releases/000/dm.md` still hold.
+
+## Round 2 flags
+
+### Flag 1. Line 6, places: the pass folk record still names a trading stone with no id, in the wrong place
+Rule: mystery standard, writing down; runbook line 6; runbook line 7.
+Where: `S/civs/godless/passfolk/record.md`, The Hald Valley [r01] line: "from above, at night; a trading stone at its head". Also `S/civs/godless/passfolk/state.md`: "silent trade at night stones with the valleys at the range's foot", plural, with no ids.
+What the map holds: the only trading stone in the Hald Valley is the Leaving Stone [f67], 30 miles above Ostrey [f01] and about 79 miles below the valley's head, not at it. The state's plural stones are not on the map; the map holds two.
+
+### Flag 2. Line 10, rule 16: the cord-keepers carry two different limits
+Rule: mystery standard rule 16 and writing down (the being's limit in the mystery that uses it and in the cast).
+Where: `S/mysteries.md` E01 and `S/cast.md` (and T14) now say a keeper answers only one who has traded fairly for three winters "at the Leaving Stone [f67] or the Night Table [f68], only at that stone". `S/civs/godless/passfolk/record.md` still says "only at a trading stone", any stone, and the state speaks of stones at every valley at the range's foot.
+What the record holds instead: one being with two limits that disagree on where it may be asked. The pass folk's civ agent reads its own record, so in play the wider one would govern.
+
+### Flag 3. Line 7, sight lines: god-stone's starting view is not held to the reading the other seven were moved to meet
+Rule: runbook line 7; map.md 2.1; the Keeper's reading logged under "Lock, round 1" ("within two miles on open ground (valley, plain, grass, shore), within half a mile in hill or forest, and by line of sight in mountains ... applied to all eight alike").
+Where: `S/gods/god-stone/map-knowledge.json` and `S/releases/creation/god-stone-night3.md`: Undercrag [f13] reported from own sight at 7.1 miles ("a walled place at the valley foot, far down") and the Squared Doors [f14] at 2.5 miles, from a landing at [256.0, 450.0].
+What the map holds: that landing lies inside the Underfell [r06], terrain valley, 57 miles from the nearest edge of the Deep Scarrow [r04]. By the reading as written it is open ground and the limit is two miles; god-rivers' landing, also in valley ground, was moved six miles to meet it. Round 1 recorded god-stone's view as holding under line of sight in mountains; on the map's own terrain that was the checker's error, and it is corrected here. Either the reading says in words how a high valley under a range counts, and the same words hold for the player's valley, or god-stone's view keeps only what lies within two miles.
+
+## Counts, round 2
+
+Line 6: 1. Line 7: 1. Line 10: 1. Total 3. Every other line: yes.
