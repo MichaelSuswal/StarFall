@@ -68,6 +68,9 @@ CELL_RE = re.compile(r"^([A-Z]+)([0-9]+)$")
 OPAQUE_RE = re.compile(r"^[a-z][0-9]{2,4}$")
 TOLD_KEYS = {"name", "terrain", "type", "cell", "coords", "polygon"}
 PIXEL_KEYS = {"coords", "polygon", "near"}
+# Coordinator's rule for build 2: a region id enters the player's file only when seen or
+# reported. engine/rules/map.md's example also shows a rumored region; flip this to allow it.
+RUMORED_REGIONS_ALLOWED = False
 
 # Ink and paper.
 PARCHMENT = (239, 227, 196)
@@ -377,7 +380,7 @@ def knowledge_problems(world, knowledge):
                 probs.append(f"{kind} {ident}: grade {g!r}")
             if not OPAQUE_RE.match(ident):
                 probs.append(f"{kind} {ident}: id is not opaque")
-            if kind == "region" and g not in ("seen", "reported"):
+            if kind == "region" and g not in ("seen", "reported") and not (RUMORED_REGIONS_ALLOWED and g == "rumored"):
                 probs.append(f"{kind} {ident}: a region id appears only when seen or reported (grade {g})")
             if g == "seen" and t:
                 probs.append(f"{kind} {ident}: seen entries carry no told")
@@ -1119,7 +1122,7 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
     if hit is None or hit[0] != kind:
         sys.exit(f"map.py: no {kind} with id {ident!r} in the sealed map; a typo cannot create ground")
     truth = hit[1]
-    if kind == "region" and args.grade == "rumored":
+    if kind == "region" and args.grade == "rumored" and not RUMORED_REGIONS_ALLOWED:
         sys.exit("map.py: a region id enters the player's file only when seen or reported; attach the rumor to a feature, or keep it in the chronicle")
     if not OPAQUE_RE.match(ident):
         print(f"note: id {ident!r} is not opaque; new maps use ids like r01, f03, u01", file=sys.stderr)
@@ -1200,7 +1203,7 @@ def migrate(world, knowledge, painting):
                 del e["told"]
                 notes.append(f"{kind} {ident}: dropped told from a seen entry")
             if g == "rumored":
-                if kind == "region":
+                if kind == "region" and not RUMORED_REGIONS_ALLOWED:
                     del knowledge[table][ident]
                     notes.append(f"{kind} {ident}: rumored region removed (record the rumor in the chronicle or on a feature)")
                     continue

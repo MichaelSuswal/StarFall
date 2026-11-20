@@ -446,7 +446,7 @@ def check_dashes(c, rep):
             continue
         for path in text_files(base):
             for ln, line in enumerate(read(path).splitlines(), 1):
-                n = line.count("—") + line.count("–")
+                n = line.count("\u2014") + line.count("\u2013")
                 if n:
                     rep.fail("dashes", f"{c.rel(path)}:{ln}: {n} em or en dash(es)")
 

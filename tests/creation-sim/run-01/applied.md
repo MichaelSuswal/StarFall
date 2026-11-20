@@ -24,3 +24,12 @@ Each line names the change list items it applies.
 - failures-checklist.md: which checks apply during creation (8).
 - tests/creation-sim/README.md and stand-in.md: the run procedure and the player's no-write rule (11).
 - appearance-card.md: the avatar's card is written at creation, Day 2 (42). morning-story.md: growth as sensation only (100); the waited morning (decision 12).
+
+## Tools side
+
+- tools/roll.py: roll ids `r-NNNN` per log file, printed and logged; `--die d6|d8|d10|d12|d20|d30` with the runbook mapping, automatic rerolls logged as their own lines with reason "die reroll" and `replaces`, `face` and no `success` or `odds`; `--reason` and `--replaces` for manual rerolls; a `pacific` field beside the UTC `time` (12, 14, 59).
+- tools/map.py: opaque ids, regions with elevation, water, climate and neighbors (id, days); `landings`, a `road` feature type drawn as a thin line, a `plane` section the drawer ignores; `painting.grid` {"cols", "rows"}, 5 by 4 by default, labeled on all four edges; rumors carry `told.name` and `told.cell` only and are drawn at the cell's center; region ids only when seen or reported; gazetteer and map-meta give cells, never pixels, and list travel days between known neighbors; `validate` and `migrate` subcommands; underground sheets on the same grid and fog (79, 84, 85, 86, 78).
+- tools/lockcheck.py (new): `--places`, `--leaks`, `--mysteries`, `--rolls`, `--dashes`, `--all`, with `S/leak-allow.txt`; sim-01 counts in `tests/tools/lockcheck-sim-01.txt` (92, 94, 95, 12, 88).
+- tools/paint.py and .github/workflows/paint.yml: also read `SPOILERS_do_not_open/images/requests/` into `SPOILERS_do_not_open/images/out/`; the workflow triggers on both folders; scene requests stay public (74).
+- tools/check.py: sealed rolls and year record paths, root-relative; clock `status` creation|open|closed with `creation_night`; a waited year (`years/NNN/waited.md`) never also advances; the public rolls log must be empty (13, decision 12, decision 15).
+- tests/tools/: self-tests (`python3 -m pytest tests/tools` or `python3 tests/tools/run.py`), the fixture campaign `fx`, and the migration notes for sim-01 and dryrun data (12, 14, 86, 92, 94, 95).

@@ -136,7 +136,7 @@ def main(argv=None):
                  os.path.join(base, "years", f"{year:03d}", "waited.md")]:
         if os.path.exists(path):
             text = open(path, encoding="utf-8").read()
-            if "—" in text or "–" in text:
+            if "\u2014" in text or "\u2013" in text:
                 findings.append(f"dash in player-facing text: {rel(path)}")
 
     for f in findings:

@@ -1,0 +1,31 @@
+# lockcheck on sim-01 (build 2 tools, 2026-11-19)
+
+Run: python3 tools/lockcheck.py sim-01 --all
+Counts only; the findings name sealed terms and stay out of this file. Exit code 1.
+
+places: 185 failure(s), 519 warning(s)
+  bracketed ids missing from map.json: 0
+  map.json ids that are not opaque (name slugs, from before build 2): 185
+  map.json neighbors and landings that do not resolve: 0
+  warnings, map names written in a sealed file with no id after them: 519 (per file and name)
+leaks: 27 failure(s), 0 warning(s)
+  public map-knowledge ids that are not opaque: 5
+  unknown place names in public files: 10
+  mystery titles in public files: 8 (one title accounts for 7)
+  phenomena counts in public files: 4
+  god names, god labels, god count, schedule titles, star values: 0
+mysteries: 30 failure(s), 0 warning(s)
+  mysteries found: 18 (1 epic, 4 long, 13 short)
+  missing one or more template headings: 18
+  no clue carrying readings: 6
+  no branch saying what the world does: 6
+rolls: 0 failure(s), 2 warning(s)
+  cited ids missing from the log: 0; rolled twice: 0
+  warnings, lines naming a reroll in `what` with no reason field (log written before --reason existed): 2
+dashes: 0 failure(s), 0 warning(s)
+
+sim-01 was written before the build 2 templates, so the mystery and opaque-id failures
+are expected; the leak hits match the kinds item 92 found by hand (phenomena counts,
+sealed ids in the public knowledge file) plus place names and a mystery title that the
+check report did not list. Some single-word place hits may be ordinary words and would
+go in S/leak-allow.txt after a reading.
