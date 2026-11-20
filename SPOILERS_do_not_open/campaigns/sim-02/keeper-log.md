@@ -112,3 +112,15 @@ Decision the files did not make: template 7.9's `## Bodies` says "how many, and 
 Wrote `P/player/followups-day2.md`: no questions. No answer of the player's left a gap by the 1.8 bar: Q8 was placed by its words; Q16 was within the range; Q13 is a request not to be told and is honored. The file says so in words the player may read and names no reason that reveals a placement.
 NPC follow-ups: none (see 1.4). Each Night 2 release will carry `No follow-up.`
 `tools/lockcheck.py sim-02 --leaks --dashes` on the public folder: 0 failures, 0 warnings.
+
+### Close check, Night 1
+Files: `S/keeper-log.md` present; `S/state/rolls.jsonl` present, 142 lines; `S/star.md` present with every per-star item and the ceiling, each with its roll id; `S/gods/<label>/sheet.md` present for all seven, seasons filled; `S/gods/<label>/survey-day1.md` present for all seven, 19 answers each; `S/releases/creation/<label>-night1.md` present for all seven; `S/world-draft.md` present; `P/player/world-rules.md` present; `P/player/followups-day2.md` present. Rolls: r-0001 to r-0142. `tools/lockcheck.py sim-02 --rolls --leaks --dashes`: 0 failures, 0 warnings.
+Neutrality:
+- The player's Q8 was bent; I could have placed it high (10, "one-eyed man") or at a midpoint (5). Placed at 7 by its own words ("closer to the one-eyed man") and logged before the roll; the blend's median did not depend on it (6 either way with 7 or 5 in that slot would have been 6 or 5.5; it was placed before the median was computed and not revisited).
+- The player's Q15 extra (faint wrongness at a distance) and Q16 extra (a one-way split) were not written into the rule, because the winning side's majority said nothing at a distance and one body; the sea god's matching Q15 extra was treated the same way. Neither the player nor any god is told what was asked or kept.
+- Two gods asked for steppe and four for river country; I did not favor the player's river country over the others in the terrain list, and placement waits for 3a.
+- The player's Q11 "light" became one of the two world scarcities over "good water", which three gods named. Reason logged: the blended climate (long autumns, early dark, hard winters) makes light bite everywhere and water only locally; salt, which five named, is the other. I checked that this was a reading of the whole pool and not a favor; a water scarcity remains local where the coast and drought country are.
+- The player's Q13 don't-tell is honored: the non-human pool is in the draft only, and `world-rules.md` and `followups-day2.md` carry nothing of it.
+- One NPC domain sits near the player's stated interest for its own god; I changed nothing and told no one, as the rubric's run 01 principle requires.
+- `followups-day2.md` has no question; I checked that this was because no gap exists, not to spare the player a question.
+Closed 2026-11-19 23:02 Pacific.
