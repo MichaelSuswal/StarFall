@@ -67,3 +67,37 @@ I decline the long room. The price of putting out one of my flames at random for
 **Who the Haldren listen to.** No one person. They listen to a moot of householders, held at the autumn gathering and again whenever a matter can't wait. The old houses carry the most weight, and each has an elder whose word counts for more. For the year there's a speaker, chosen by lot from among the three houses so no house holds it long. The speaker has no power beyond running the meeting and carrying the moot's decision to the gate-warden.
 
 **How they settle disputes.** By hospitality, which is why I like it. Two houses in dispute must each host the other at a table before the moot will hear the matter. A feud isn't settled until each has eaten under the other's roof, and refusing to host is itself an admission of fault. It doesn't always work, but it's the custom, and it ties back to the strongest one, that no one is turned from a door.
+
+## DM:
+
+(oog) Your counter on the first night is fair and I take it. It was pricing ordinary hospitality, which is the one thing your god should never be charged for. Here it is as it will go on your card, as a Day 3 entry.
+
+The first night. At any hearth of yours, burning on its own fuel: a mortal who is let in out of the cold by whoever keeps that hearth, and who would otherwise die of cold or hunger before dawn, lives until dawn. It does not feed, heal or warm beyond what the fire does; at dawn they are in the hands of whoever let them in. Once per person each winter. Drawback: a hearth that has done this is shut to you, as window and as door, until the thaw. Limits: it fires only when a life was truly at stake that night; a hearth that takes in someone merely cold stays open to you. You are told: on the night it fires you feel that hearth close, and you know which hearth, not who was saved or why. A shut hearth cannot do it again that winter, so each hearth carries one life a winter and no more. A shut hearth stays in the chain and opens again at the thaw if it is still burning; while shut it is not a flame you can return through from absence. Any mortal, not only Haldren; the custom does not ask who is at the door and neither does the fire. It does nothing for a god. Winter is the hard months where the hearth stands, first hard frost to thaw. The Keeper reviews it tonight, since it works across a people.
+
+The long room is declined and is not on the card.
+
+The gate. The gate-warden's word opens Ostrey to you, and only the warden's. A householder inside may ask you over their own door once you are within, and cannot open the gate. This narrows the vow at that gate and goes on the card as a Day 3 entry. One edge I am settling so it cannot be argued later in your favor or against you: a town's gate is kept by the town, so if there is no warden for a time, the moot's word through its speaker stands in, and the gate is never "kept by no one." Whether Ostrey has a wall and a gate at all is still the world's to place.
+
+Now the Haldren, read back. Three places are still empty and I have marked them; fill those and say yes to the rest, or tell me what is wrong.
+
+Who they are. The Haldren, human, about eight hundred, hill and river folk. They keep sheep and some cattle on the lower slopes, grow barley and oats in walled fields, cut peat and wood for winter. They make wool, cheese, cured meat and rough cloth and trade what they can. They live in a few steadings along the valley floor and in Ostrey, their one town, above the stepping stones. Practical, a little stubborn, hard to impress.
+
+Their code. No one is turned from a door in the cold. No hearth is let go out in winter if it can be helped. Both customs are their own and older than any knowledge of you. Two houses in dispute must each host the other at table before the moot will hear the matter; a feud is not settled until each has eaten under the other's roof, and refusing to host is an admission of fault. It does not always work.
+
+How they are ordered. No advisors to the god, no temple, no priesthood; you refused them, and the game will remember out loud that this god does not play the usual way. On days you do not play there is no one under you to carry anything out; you run on your conduct profile alone. Among themselves: a moot of householders at the autumn gathering and whenever a matter cannot wait. Three old houses carry the most weight, each with an elder, and they disagree. A speaker for the year, chosen by lot from the three houses, who runs the moot and carries its decision to the gate-warden and has no other power. A gate-warden, chosen by the old houses for a year, who decides who enters Ostrey. A quiet divide between town and steadings.
+
+Edges. None on the people. Their skills and customs are ordinary and unpriced. The one edge asked for is priced on you, as the first night above.
+
+Named mortals. Anwen Corve, called Old Corve, a widow near the end of her working life. Her family has kept the ford lamp longer than it can account for, and it is the one thing she has never let go out. Who she is, is set. What she does is hers. You may name the three houses or leave them for play.
+
+What you are to them. Neighbors you are responsible for, not subjects. They can get on without you.
+
+Wishes and beliefs, for the world to decide: that the Haldren are a remnant in the shell of something larger, unsure whether heirs or squatters; that the far walls and the fitted stone are from that larger thing; that a few Haldren hold the road to be older than the walls; that Ostrey is stone, with a low wall and one gate, above the crossing; that the lit window is Old Corve's house near the ford; that they trade down the valley and over passes; no chosen heir; no enemy at the gate the first night.
+
+The three empty places.
+
+How you meet them. As I have understood you: the Haldren are already here with their own history, they are waiting for nothing, and they do not know a god has come down. You arrive alone and unknown and go first to a door. Is that right?
+
+What they believe about gods, before you. They do not pray much. Is there anything they do hold, about gods, the dead, things at the edge of the fire? And does any Haldren have a knack, magic of the small costly kind, or none that you describe?
+
+And the Between asks one thing more. Those who keep a fire of yours: do they know what they keep? Do you mean them to know that you can look out of it, and step out of it?
