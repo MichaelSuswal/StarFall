@@ -6,7 +6,7 @@ Written on creation Night 3a, after the tracing, from `map.json` and the history
 
 ## Where they are
 
-The Hald Valley [r01], B2: a closed upland valley about 165 miles long under the Deep Scarrow [r04], with the Haldwater [f02] running north-east along its floor. Ostrey [f01] stands above the stepping stones in its middle reach. Five steadings lie on the valley floor within nine miles of the town, three upstream and two down. The valley's upper and lower reaches are empty: old walls, turf, deer. Their god comes down on the south side of the valley, about three miles down the river from the town, at dusk in late autumn.
+The Hald Valley [r01], B2: a closed upland valley about 165 miles long under the Deep Scarrow [r04], with the Haldwater [f02] running north-east along its floor. Ostrey [f01] stands above the stepping stones in its middle reach. Five steadings lie on the valley floor within nine miles of the town, three upstream and two down. The valley's upper and lower reaches are empty: old walls, turf, deer. Their god comes down on the south side of the valley, about a mile and a half from the town and a little down the river from it, at dusk in late autumn.
 
 ## The fourteen items
 
@@ -23,7 +23,7 @@ The Hald Valley [r01], B2: a closed upland valley about 165 miles long under the
 11. Trade down the valley and over the passes. Down the valley: with the dale peoples of the Folddales [r02], and at the summer fair on the Wetfoot [f05], where carters off the Salt Road [f23] bring salt. Over the passes: across the north and south ridges into the next dales; and beside the old road, thirty miles above the town toward the valley head, a flat night stone where grain, cheese and cloth are left for the people of the heights and cord, horn and a little copper are found in their place. No Haldren has met one of them.
 12. The old women who know things. One exists: Maud Tarrow, about 68, at the highest steading, nine miles up the river from the town. She can tell where a strayed sheep lies. She has lost the names of her two brothers and has not noticed. The cost is the world's, the same for every people: something small and specific, unchosen, noticed afterward. The second old woman of the rumor died four winters ago.
 13. The three old houses. All three date from the first moot, about 690 years. In the town, the house of Hallin (from the last steward) and the house of Marsk (from the Rivermeet [r15] incomers); in the steadings, the house of Orrell (from the dale shepherds). The Corves are not one of the three. The names are the Keeper's and reach the DM when the god would hear them.
-14. The first night. Entered in the ruling ledger as L-0020 on this night, with the Keeper's review.
+14. The first night. Entered in the ruling ledger as L-0020 on this night, with the Keeper's review. The first hard frost of the landing year fell in the Hald Valley [r01] eleven nights before the god came down; the stools and cups were set out that night, and are put away.
 
 ## What the Haldren do not ask for
 

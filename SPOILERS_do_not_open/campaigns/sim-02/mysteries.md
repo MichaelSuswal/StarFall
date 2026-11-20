@@ -5,10 +5,10 @@
 Written on creation Night 3b in the runbook's template 7.8. One epic, five long, eleven short. Everything here exists from the lock and is findable from the first morning; nothing is held back and nothing is added. Rows named C or T are in `event-schedule.md`. Kinds of clue: SEEN (the god or its people witness it), REPORTED (a named mortal tells what they saw), RUMORED (secondhand or older).
 
 ## E01 The Lowering and the One Beneath
-Kind: epic. Span: the whole campaign, to Year 163. Related to: L01, L02, L03, L04, L05.
+Kind: epic. Span: the whole campaign, to Year 118. Related to: L01, L02, L03, L04, L05.
 
 ### Truth
-The star over this land is in its last age. It is coming down, slowly and faster each decade, and by the clock no one controls it reaches the ground in Year 163, on the Bare Floor [r14]. What grew under it is then pressed flat and written over, and new country pours out of it. The Sleeper [f27] lies exactly beneath, older than the last such night, grown on what the land has lost and fed from above on the nights the star dims; it will be under the fall and will take a great share of what comes out. Only what is kept densely enough comes through as itself: a name said yearly by many mouths, a breed kept true, a god bound to a mountain or a river. The rooms the Measurer sealed hold little, because no one has held them in mind for three thousand years. Nothing one god can do stops the fall. What can be done has to be done: things kept by many peoples at once, the beast's share cut by slowing the land's losses in its reach, a god anchored or shed. Most of this needs more than one god.
+The star over this land is in its last age. It is coming down, slowly and faster each decade, and by the clock no one controls it reaches the ground in Year 118, on the Bare Floor [r14]. What grew under it is then pressed flat and written over, and new country pours out of it. The Sleeper [f27] lies exactly beneath, older than the last such night, grown on what the land has lost and fed from above on the nights the star dims; it will be under the fall and will take a great share of what comes out. Only what is kept densely enough comes through as itself: a name said yearly by many mouths, a breed kept true, a god bound to a mountain or a river. The rooms the Measurer sealed hold little, because no one has held them in mind for three thousand years. Nothing one god can do stops the fall. What can be done has to be done: things kept by many peoples at once, the beast's share cut by slowing the land's losses in its reach, a god anchored or shed. Most of this needs more than one god.
 
 ### Body
 The star, which hangs over the Sleeper [f27] and never moves against the land. The Sleeper [f27] on the Bare Floor [r14]. The Holed Stone [f25] above Old Orsa [f24] and the cliff-top stone at Westerhythe [f10]. The star tables in the Measure House [f26]. The Far Woman's rule in the weighing house at Saltstairs [f41]. The cords at Kinhold [f17]. The rim people, who watch.
@@ -16,7 +16,7 @@ Limit: the rim people know only what they have themselves seen from the rim: the
 Limit: a cord-keeper of the pass folk knows what the cords count: winters, their own number, which rooms were closed and when, what crossed the passes, and in which winter the Lamp first stood below the notch of the peak they sight it over. The cords hold no causes and no measure of how far. A keeper answers only one who has traded fairly at a night stone for three winters, only at night, only at a stone, one question a meeting, and may decline without a reason.
 
 ### Cost if ignored
-The fall, in Year 163, which ends every people and place on the sheet that has not been kept. Before it: the Sleeper [f27]'s reach widens. From Year 14 people outside the rim walk toward the Bare Floor [r14] in their sleep, first from the Hollow March [r11] and the Rivermeet [r15]; from Year 30, from the Underfell [r06] and the upper hamlets of the Middle Reach [r26]. A god that never measures the star is surprised by everything that already knows.
+The fall, in Year 118, which ends every people and place on the sheet that has not been kept. Before it: the Sleeper [f27]'s reach widens. From Year 14 people outside the rim walk toward the Bare Floor [r14] in their sleep, first from the Hollow March [r11] and the Rivermeet [r15]; from Year 30, from the Underfell [r06] and the upper hamlets of the Middle Reach [r26]. A god that never measures the star is surprised by everything that already knows.
 
 ### Clock or trigger
 Clock. Rows C01 (the fall), C02 (the lowering made plain), C03 (the Sleeper [f27]'s reach), and the recurring dim nights, in `event-schedule.md`. Triggers T01 and T02 can bring C01 forward; T03 can hold C03 back.
@@ -81,7 +81,7 @@ What the world does: offerings left on the floor lie there. People brought to li
 What the world does: the world goes on. Rows C02 and C03 arrive on their years. By Year 8 old people in every country say the Lamp is larger than it was.
 
 #### The god keeps something on purpose: a name said yearly by many mouths, a breed, a rite
-What the world does: nothing visible for decades, except that the kept thing does not go plain when its neighbors do (rows of L02 skip it). This is the only branch whose result outlasts Year 163.
+What the world does: nothing visible for decades, except that the kept thing does not go plain when its neighbors do (rows of L02 skip it). This is the only branch whose result outlasts Year 118.
 
 #### The god seeks the other gods to act together
 What the world does: each answers as its own agent decides. A name or rite kept by several peoples at once is kept more surely than by one, and the Keeper counts it so.
@@ -89,14 +89,14 @@ What the world does: each answers as its own agent decides. A name or rite kept 
 ### Never found
 What the star is. Why the beast was not crushed by the last such night. Whether the beast knows anything. What the First Crowns are now. The exact night: even the Measure House [f26] tables, read with every other mark, give the fall only to within twenty years.
 
-## L01 The Stone in the Kettle [f08]
+## L01 The Dross of the Throw
 Kind: long. Span: about 60 years. Related to: E01, L03.
 
 ### Truth
 On the night the gods came down, a piece of the same throw that did not become a god fell into the Kettle [f08]: a blue-grey stone the size of a hay cart, warm to the hand, heavier than it should be. It holds, thinly, what the gods are made of, and dreams it at anyone who sleeps near: a crowd kneeling at a ford, a river no dreamer has seen, a gate with two doors and a lamp over the taller, a child riding on a tall one's shoulders, a count that comes out short, a room that opens only inward, a harbor with a deep in it. A god that sleeps there dreams its own part sharper than the rest. No dream says what any of it was.
 
 ### Body
-The stone in the Kettle [f08], in the Deep Scarrow [r04], 296 miles from the Hald Valley [r01] landing and 283 from the Underfell [r06] landing. The pass folk's two watchers. The lintel of the Lamp Hut [f61], on the Far Capes [r30], which carries two words and a gate cut by a man whose line came from the gods' own country.
+The stone in the Kettle [f08], in the Deep Scarrow [r04], 295 miles from the Hald Valley [r01] landing and 283 from the Underfell [r06] landing. The pass folk's two watchers. The lintel of the Lamp Hut [f61], on the Far Capes [r30], which carries two words and a gate cut by a man whose line came from the gods' own country.
 
 ### Cost if ignored
 If no god reaches it, the watchers become its keepers. By Year 20 a small priesthood of the heights exists that belongs to no god and chants what the stone dreams. It lends them a little of what it holds, and their workings are stronger than any on the land. If one god reaches it and others do not, that god holds the shape of every other god's wound.
@@ -146,7 +146,7 @@ What the world does: row C04 runs on its year.
 ### Never found
 Whose country it was. Why a throw makes gods of some of what it carries and stone of the rest. The name of the river in the dream, unless the lintel is read by one who has also dreamed.
 
-## L02 The Plainness
+## L02 Kind by Kind
 Kind: long. Span: about 80 years. Related to: E01, L05.
 
 ### Truth
@@ -221,7 +221,7 @@ What the world does: its country's rows fall two years later than written, and r
 ### Never found
 Where what is lost goes. Why the oldest ground goes first. Whether anything gone plain has ever come back.
 
-## L03 The First Crowns
+## L03 The Weight No God Carries
 Kind: long. Span: about 70 years. Related to: E01, L04.
 
 ### Truth
@@ -286,7 +286,7 @@ What the world does: they have little to say and mean it. Once or twice in decad
 ### Never found
 What the three are now. Whether the fourth meant to go. Why a god's weight is what it is.
 
-## L04 The Nine Rooms
+## L04 The Measurer's Rooms
 Kind: long. Span: about 50 years. Related to: E01, L03.
 
 ### Truth
@@ -398,7 +398,7 @@ What the world does: this is one of the ways a god finds a new power. The Keeper
 ### Never found
 Why some can find the grip and most cannot. What a hollowed worker still knows.
 
-## S01 The Trimming Rhyme
+## S01 Nine Lights Counted
 Kind: short. Span: 4 to 8 years. Related to: L04.
 
 ### Truth
@@ -445,7 +445,7 @@ What the world does: row C09.
 ### Never found
 The first Corve's own name. What the other eight lights were called.
 
-## S02 The Black Spur
+## S02 Black in the Ear
 Kind: short. Span: 3 to 9 years. Related to: none.
 
 ### Truth
@@ -497,7 +497,7 @@ What the world does: row C06.
 ### Never found
 Which store-pit door the tale is about. The name of the first household to sicken.
 
-## S03 The Open Morning
+## S03 Who Lifted the Bar
 Kind: short. Span: 3 to 6 years. Related to: none.
 
 ### Truth
@@ -591,7 +591,7 @@ What the world does: row C10.
 ### Never found
 What the wardens wanted the horn for. Why they cared that the Rib [f29] not be dug.
 
-## S05 The Bank at Sellnot [f46]
+## S05 The Queen's Bank Fails
 Kind: short. Span: 5 to 8 years. Related to: L04.
 
 ### Truth
@@ -638,7 +638,7 @@ What the world does: row C08.
 ### Never found
 Where Brid Sarrow went. What the canal was for, beyond the crown's pride.
 
-## S06 The Second Key
+## S06 Tessel's Pledge
 Kind: short. Span: 4 to 8 years. Related to: L04.
 
 ### Truth
@@ -727,7 +727,7 @@ What the world does: row C11, and row T11 by the odds written there.
 ### Never found
 Why she did not send it.
 
-## S08 The Mild Ones
+## S08 Listed as Living
 Kind: short. Span: 5 to 10 years. Related to: L05, L02.
 
 ### Truth
@@ -821,7 +821,7 @@ What the world does: row C13.
 ### Never found
 What the walkers called themselves. What lies east of the ridges.
 
-## S10 The Ferryman's Marker
+## S10 The Crowned Fish
 Kind: short. Span: 3 to 6 years. Related to: none.
 
 ### Truth
@@ -863,7 +863,7 @@ What the world does: row T12.
 ### Never found
 Why a boy of fourteen walked away from a crown.
 
-## S11 The First Eel
+## S11 The Untaken Eel
 Kind: short. Span: 5 to 9 years. Related to: L02.
 
 ### Truth
