@@ -1,0 +1,90 @@
+{
+ "campaign": "sim-02",
+ "regions": {
+  "r06": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r04": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "the peaks all round",
+    "terrain": "mountain",
+    "polygon": [
+     [
+      250.2,
+      448.4
+     ],
+     [
+      234.8,
+      444.2
+     ],
+     [
+      238.5,
+      436.7
+     ],
+     [
+      244.8,
+      431.1
+     ],
+     [
+      252.9,
+      444.8
+     ]
+    ]
+   }
+  }
+ },
+ "features": {
+  "f13": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a walled place at the valley foot, far down",
+    "type": "town"
+   }
+  },
+  "f14": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "squared openings in a cliff"
+   }
+  },
+  "f15": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a blocked doorway high on a slope"
+   }
+  },
+  "f12": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a frozen river down the trough",
+    "coords": [
+     [
+      291.7,
+      452.4
+     ],
+     [
+      291.0,
+      456.4
+     ],
+     [
+      290.3,
+      460.3
+     ]
+    ]
+   }
+  }
+ }
+}

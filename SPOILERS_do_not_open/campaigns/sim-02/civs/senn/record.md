@@ -45,3 +45,35 @@ Finished from the traced map (step 3a.6), in the section at the foot of this rec
 
 ## Named mortals
 - Ilse Brandoch, this year's toll-reeve, about forty, a carter's widow, careful with strangers and short with envoys.
+
+## The land, from the traced map
+
+Written on creation Night 3a after the tracing, from `map.json`, never from the plan.
+
+Home: the Sennway [r08], B1, the gap in the northern hills, and in it Dunmarrow [f18], the walled town at the crossing of the Corra [f20], on the Salt Road [f23]. The two dressed stones beside the road are the Bare Gate [f19]. Their god comes to the crossing itself.
+
+### What they know of the land
+
+What a people of guides and carters know: more road than most. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+
+- The Sennway [r08] (seen): their own gap, every path and cairn. Dunmarrow [f18] lies in it.
+- Dunmarrow [f18] (seen): the town. At Dunmarrow [f18].
+- The Bare Gate [f19] (seen): the two stones on the open ground east of the road, a few hundred paces from the north gate. Nothing is hung on them. From Dunmarrow [f18], lies about 2 miles south-east.
+- The Corra [f20] (seen): the river in the gap. At Dunmarrow [f18].
+- The Salt Road [f23] (seen): north to the sea and south as far as the wet ground; guides have walked all of that. At Dunmarrow [f18].
+- Gullwick [f21] (seen): the queen's port at the river mouth; many Senn have been. From Dunmarrow [f18], lies about 130 miles north-west, 6 days on foot by the road.
+- The Corrant Strand [r09] (seen): the kingdom's shore. From Dunmarrow [f18], the middle of it lies about 280 miles east, 20 days on foot over open ground.
+- The Corrow Hills [r07] (seen): the wet hills west of the gap. From Dunmarrow [f18], the middle of it lies about 480 miles west, 34 days on foot over open ground.
+- The Greyspur [r10] (seen): the grey spur east of the gap. From Dunmarrow [f18], the middle of it lies about 300 miles south-east, 21 days on foot over open ground.
+- The High Scarrow [r03] (reported): the snow heights south-west; no one goes up. From Dunmarrow [f18], the middle of it lies about 500 miles south-west, 36 days on foot over open ground.
+- The Folddales [r02] (reported): the dales the wool and cheese come from; carters know the nearer ones. From Dunmarrow [f18], the middle of it lies about 430 miles south, 30 days on foot over open ground.
+- The Wetfoot [f05] (reported): the wet ground where the summer fair is held and the used road ends. From Dunmarrow [f18], lies about 460 miles south-east, 33 days on foot over open ground.
+- Ostrey [f01] (rumored): a small stone town in one of the far dales, under the mountains. From Dunmarrow [f18], lies about 460 miles south, 33 days on foot over open ground.
+- The Rivermeet [r15] (reported): the river plain south-east. From Dunmarrow [f18], the middle of it lies about 620 miles south-east, 44 days on foot over open ground.
+- The Hornfoot Grass [r16] (rumored): herd people on the grass beyond the spur. From Dunmarrow [f18], the middle of it lies about 730 miles east, 52 days on foot over open ground.
+- Old Orsa [f24] (rumored): a dead city on brown hills where the old road ends. From Dunmarrow [f18], lies about 680 miles south, 49 days on foot over open ground.
+- The Sleeper [f27] (rumored): a thing asleep in a bare country past that city. From Dunmarrow [f18], lies about 990 miles south, 71 days on foot over open ground.
+
+### The god's hope and the ground
+
+The god hoped for hills and river country at a narrow pass where one land ends and another starts, and has it. The paint made the river short and brought the sea near: the queen's port is six days down the road, not a lowland's width away. Changed in this record: nothing but distance.

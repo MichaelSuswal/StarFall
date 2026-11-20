@@ -1,0 +1,126 @@
+{
+ "campaign": "sim-02",
+ "regions": {
+  "r01": {
+   "grade": "seen",
+   "source": "the landing, at dusk",
+   "year": 1
+  },
+  "r02": {
+   "grade": "reported",
+   "source": "own sight, from the valley side",
+   "year": 1,
+   "told": {
+    "name": "the ridges that shut the valley in",
+    "terrain": "hill",
+    "polygon": [
+     [
+      322,
+      273
+     ],
+     [
+      350,
+      262
+     ],
+     [
+      366,
+      262
+     ],
+     [
+      368,
+      272
+     ],
+     [
+      354,
+      294
+     ],
+     [
+      324,
+      307
+     ]
+    ]
+   }
+  },
+  "r04": {
+   "grade": "reported",
+   "source": "own sight, from the valley side",
+   "year": 1,
+   "told": {
+    "name": "the mountains at the head of the valley",
+    "terrain": "mountain",
+    "polygon": [
+     [
+      270,
+      286
+     ],
+     [
+      300,
+      284
+     ],
+     [
+      302,
+      300
+     ],
+     [
+      272,
+      312
+     ]
+    ]
+   }
+  }
+ },
+ "features": {
+  "f01": {
+   "grade": "reported",
+   "source": "own sight, from the valley side",
+   "year": 1,
+   "told": {
+    "type": "town"
+   }
+  },
+  "f02": {
+   "grade": "reported",
+   "source": "own sight, from the valley side",
+   "year": 1,
+   "told": {
+    "name": "the river on the valley floor",
+    "coords": [
+     [
+      338.5,
+      284.1
+     ],
+     [
+      343.6,
+      281.0
+     ],
+     [
+      348.8,
+      277.9
+     ]
+    ]
+   }
+  },
+  "f04": {
+   "grade": "reported",
+   "source": "own sight, from the valley side",
+   "year": 1,
+   "told": {
+    "name": "a line of fitted stone under the turf",
+    "coords": [
+     [
+      345.9,
+      278.9
+     ],
+     [
+      343.3,
+      280.4
+     ],
+     [
+      340.7,
+      281.9
+     ]
+    ]
+   }
+  }
+ }
+}

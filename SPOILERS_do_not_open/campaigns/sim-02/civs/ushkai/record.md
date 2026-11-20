@@ -46,3 +46,33 @@ Finished from the traced map (step 3a.6), in the section at the foot of this rec
 ## Named mortals
 - Oren Tash, headman of the largest camp, about fifty, who can hold a herd, a household and a quarrel in his head, is right too often to be loved, and drinks a little on a good night.
 - Kessa Tash, his daughter, about twenty-two, who is good with people, which he is not.
+
+## The land, from the traced map
+
+Written on creation Night 3a after the tracing, from `map.json`, never from the plan.
+
+Home: the Rope Ridges [r20], E2, and in winter the Thornhollows [r21] south of them. The long straight lines in the grass are the Rope Line [f36]. The worn banks in the hollow are the Flat Banks [f37]. The river between the ridge lines is the Ropewater [f34]. Their god comes to itself on the spring pasture beside the Flat Banks [f37].
+
+### What they know of the land
+
+What a herding people know: their grass, their trading edge, and what riders tell. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+
+- The Rope Ridges [r20] (seen): their own ridges. The spring pasture lies in it.
+- The Thornhollows [r21] (seen): their winter ground. From the spring pasture, the middle of it lies about 480 miles south, 34 days on foot over open ground.
+- The Ropewater [f34] (seen): the ridge river. From the spring pasture, its nearest reach lies about 140 miles south, 10 days on foot over open ground.
+- The Rope Line [f36] (seen): where the sky dragged its rope; ridden along, never to its end. From the spring pasture, lies about 4 miles north-west.
+- The Flat Banks [f37] (seen): banks enclosing nothing; a camp ground. From the spring pasture, lies about 3 miles south-east.
+- The Pellwater [f40] (seen): the river on the grass's southern edge, where horses and felt go for bronze, salt and grain. From the spring pasture, its nearest reach lies about 590 miles south, 42 days on foot over open ground.
+- The Noman Grass [r19] (seen): the middle grass, into its edge. From the spring pasture, the middle of it lies about 380 miles west, 27 days on foot over open ground.
+- The Dunwater [f33] (reported): the meeting water with the other herd people. From the spring pasture, its nearest reach lies about 190 miles west, 14 days on foot over open ground.
+- The Hornfoot Grass [r16] (reported): where the other herd people gather, north-west. From the spring pasture, the middle of it lies about 630 miles north-west, 45 days on foot over open ground.
+- The Tern Shore [r18] (reported): a stony shore north, with fishers. From the spring pasture, the middle of it lies about 310 miles north-east, 22 days on foot over open ground.
+- Saltstairs [f41] (reported): the great city on the tide; headmen have been to its edge. From the spring pasture, lies about 730 miles south, 52 days on foot over open ground.
+- The Pell Mouth [r23] (reported): the flat wet coast. From the spring pasture, the middle of it lies about 670 miles south, 48 days on foot over open ground.
+- The Lowe [f03] (rumored): a great river west of the grass. From the spring pasture, its nearest reach lies about 500 miles south-west, 36 days on foot over open ground.
+- The North Ashring [r12] (rumored): brown hills beyond that river. From the spring pasture, the middle of it lies about 970 miles west, 69 days on foot over open ground.
+- The Sleeper [f27] (rumored): something asleep past the brown hills. From the spring pasture, lies about 1,030 miles south-west, 74 days on foot over open ground.
+
+### The god's hope and the ground
+
+The god hoped for steppe breaking into ridges under an open sky, and has it. Changed in this record: nothing.

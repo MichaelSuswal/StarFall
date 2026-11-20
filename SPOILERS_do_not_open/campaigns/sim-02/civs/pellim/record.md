@@ -45,3 +45,38 @@ Finished from the traced map (step 3a.6), in the section at the foot of this rec
 
 ## Named mortals
 - Hanne Corsey, keeper of the harbor's weights and a bench-woman of the long quay, about fifty-eight, dry-humored, careful, who has kept every promise she ever made but one.
+
+## The land, from the traced map
+
+Written on creation Night 3a after the tracing, from `map.json`, never from the plan.
+
+Home: the Pell Mouth [r23], E3, and in it Saltstairs [f41], the walled city on the tide at the mouth of the Pellwater [f40]. The lines of stone and piles on the flats are the Tide Stumps [f43]. The old hull on dry ground is the Dry Hull [f42]. The shallow sea is the Drowned Shelf [r35]. Their god comes up at a quay.
+
+### What they know of the land
+
+What a trading city knows: the most of any people, and most of it secondhand. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+
+- The Pell Mouth [r23] (seen): their own estuary, every channel. Saltstairs [f41] lies in it.
+- Saltstairs [f41] (seen): the city. At Saltstairs [f41].
+- The Tide Stumps [f43] (seen): at every low water. From Saltstairs [f41], lies about 9 miles south-east.
+- The Dry Hull [f42] (seen): the old hull; children climb it. From Saltstairs [f41], lies about 11 miles north-west.
+- The Pellwater [f40] (seen): the river, a long way up. From Saltstairs [f41], its nearest reach lies about 30 miles east, 2 days on foot over open ground.
+- The Drowned Shelf [r35] (seen): the shelf and its islands, to where the color changes. From Saltstairs [f41], the middle of it lies about 620 miles south, 45 days on foot over open ground.
+- The Sunder [f39] (seen): the arm that links to the great river in a wet year. From Saltstairs [f41], its nearest reach lies about 75 miles north, 5 days on foot over open ground.
+- The Saltmarket Plain [r24] (seen): the crown's plain, where the grain comes from. From Saltstairs [f41], the middle of it lies about 290 miles south-west, 20 days on foot over open ground.
+- Talcross [f52] (seen): the coast crown, which asks for arrears. From Saltstairs [f41], lies about 270 miles south-west, 20 days on foot over open ground.
+- The Crownlands [r25] (reported): the river crowns. From Saltstairs [f41], the middle of it lies about 630 miles south-west, 45 days on foot over open ground.
+- Ardmoor [f51] (reported): the middle crown. From Saltstairs [f41], lies about 660 miles south-west, 47 days on foot over open ground.
+- Vessany [f50] (reported): the upriver crown. From Saltstairs [f41], lies about 770 miles south-west, 55 days on foot over open ground.
+- Kessary [f44] (reported): a ferry town up the great river. From Saltstairs [f41], lies about 640 miles west, 45 days on foot over open ground.
+- The Reedsea [r27] (reported): the reed country; eels come from it. From Saltstairs [f41], the middle of it lies about 870 miles south-west, 62 days on foot over open ground.
+- The Thornhollows [r21] (seen): the grass edge, where horses and felt come down. From Saltstairs [f41], the middle of it lies about 250 miles north, 18 days on foot over open ground.
+- The Rope Ridges [r20] (reported): the ridges where the herders live. From Saltstairs [f41], the middle of it lies about 580 miles north, 41 days on foot over open ground.
+- The Southern Deep [r34] (reported): the open southern sea; hulls coast along it to the reed country and beyond. From Saltstairs [f41], the middle of it lies about 1,710 miles south-west, 122 days on foot over open ground.
+- Quillan [f55] (rumored): a shut-mouthed town on a river bend, far west by the coast. From Saltstairs [f41], lies about 1,760 miles west, 126 days on foot over open ground.
+- Gullwick [f21] (rumored): a salt port on a cold sea at the top of the land. From Saltstairs [f41], lies about 1,880 miles north-west, 134 days on foot over open ground.
+- The Sleeper [f27] (rumored): the sleeper in the middle of the land, which river people talk of. From Saltstairs [f41], lies about 1,000 miles west, 72 days on foot over open ground.
+
+### The god's hope and the ground
+
+The god hoped for a drowned coast with flats, an estuary, a shelf and a city with its feet in the tide, and has it. The paint brought the estuary's river in from the east, along the grass edge, with an arm of the great river joining it. Changed in this record: nothing.

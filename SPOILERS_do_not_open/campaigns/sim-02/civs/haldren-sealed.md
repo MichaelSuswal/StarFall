@@ -1,0 +1,53 @@
+> SPOILER WARNING. Sealed. The world's side of the player's people. Players must never read this file.
+
+# The Haldren: the world's side
+
+Written on creation Night 3a, after the tracing, from `map.json` and the history the world holds. The public record (`campaigns/sim-02/civs/haldren/record.md`) is the people as the player agreed them; this file answers each item the DM left under "For the Keeper to reconcile" in `player/people-meeting.md`, and holds what the Haldren know that their god does not yet. Nothing the player agreed is changed, so no corrections file is written.
+
+## Where they are
+
+The Hald Valley [r01], B2: a closed upland valley about 165 miles long under the Deep Scarrow [r04], with the Haldwater [f02] running north-east along its floor. Ostrey [f01] stands above the stepping stones in its middle reach. Five steadings lie on the valley floor within nine miles of the town, three upstream and two down. The valley's upper and lower reaches are empty: old walls, turf, deer. Their god comes down on the south side of the valley, about three miles down the river from the town, at dusk in late autumn.
+
+## The fourteen items
+
+1. How long they have been in the valley. As the Haldren, about 690 years: since the first moot met at the stepping stones after the Blight Years. Their forebears were here some 1,100 years before that, as the common people of the Hallar, the terrace lords of the dales.
+2. Whether they are a remnant. They are. The larger thing was the Hallar lordship of the dales (about 1,800 to 700 years before the arrival), which held this valley with about 6,000 people, and which was itself built in the shell of the road-making kingdom of Orsand, fallen 2,900 years before the arrival. Heirs or squatters: both. One of the three old houses descends from the last Hallar steward; one from incomers who walked up from the Rivermeet [r15] after the valley emptied; one from dale shepherds who were always here. None of them knows which is which, and the houses' own stories disagree.
+3. The walls above present grazing. Hallar terraces and field walls, built between about 1,800 and 700 years before the arrival, when the valley fed ten times its present people. The player's reading, that there used to be more of them, is so.
+4. The line of fitted stone. An Orsand road, the Fitted Way [f04], laid about 3,700 years before the arrival: older than the walls by some two thousand years. It runs up the valley and over the Knot Stair [f07] as the High Way [f09], and east past the valley mouth as the Marchway [f11]. A few Haldren hold that the road is older than the walls. They are right, and do not know by how much.
+5. Ostrey [f01]. It exists as the player described it: a cluster of stone houses above the stepping stones, with a low wall, one gate and a gate-warden chosen for the year. About 300 live inside. It stands on the yard of an Orsand waystation, whose squared footings are the lowest course of the wall. The vow's reading at a town's gate (ledger L-0021) applies from the first morning.
+6. The lit window. It is Anwen Corve's house: outside the wall, forty paces above the stepping stones, with the ford lamp in a bronze bracket by the door. It is the lit window the land showed.
+7. The Corve family and the ford lamp. The first moot gave the lamp to a lame man of that name about 680 years before the arrival; the family has kept it for 27 generations and has a tally stick in the rafters with a notch for each keeper, which Anwen Corve has not counted. The lamp is kept so that anyone on the road at night can find the crossing, since the stones are under water in a spate. The Hallar kept a lamp there before them, and the waystation before the Hallar. The bronze bracket is waystation work and carries a worn mark of three lines. Anwen Corve has no child living in the valley and no one has been named to take the lamp after her. She knows a rhyme, taught with the lamp, that the family calls the trimming rhyme; see the mysteries file.
+8. The stool and the cup for the late visitor. In the Blight Years (720 to 690 years before the arrival) the last Hallar lord had his steward walk every house in the valley on the night of the first hard frost and count who was left alive. Houses set a stool by the hearth and something warm on it, so that he would sit and warm himself before he said the number. The steward's walks ended with the lordship; the stool and the cup did not. It is about 700 years older than the god's coming and has nothing to do with it. No Haldren knows this.
+9. The high ground. The Highfold [f06]: roofless Hallar sheepfolds and one walled platform, about two miles above the town. In the Blight winters the ground was frozen and the dead were many, and they were carried up and laid inside the folds. The custom stayed. There are bones, cairns and old walls there, and nothing else.
+10. The stories of doors and travelers. Stories. They grew out of the Blight Years, when the sickness was blamed on strangers on the road and on a store-pit door someone opened. One real door lies within the Haldren's reach and outside their knowledge: the Stairfoot Door [f62], under the Knot Stair [f07], which the trimming rhyme names and no one has understood.
+11. Trade down the valley and over the passes. Down the valley: with the dale peoples of the Folddales [r02], and at the summer fair on the Wetfoot [f05], where carters off the Salt Road [f23] bring salt. Over the passes: across the north and south ridges into the next dales; and beside the old road, thirty miles above the town toward the valley head, a flat night stone where grain, cheese and cloth are left for the people of the heights and cord, horn and a little copper are found in their place. No Haldren has met one of them.
+12. The old women who know things. One exists: Maud Tarrow, about 68, at the highest steading, nine miles up the river from the town. She can tell where a strayed sheep lies. She has lost the names of her two brothers and has not noticed. The cost is the world's, the same for every people: something small and specific, unchosen, noticed afterward. The second old woman of the rumor died four winters ago.
+13. The three old houses. All three date from the first moot, about 690 years. In the town, the house of Hallin (from the last steward) and the house of Marsk (from the Rivermeet [r15] incomers); in the steadings, the house of Orrell (from the dale shepherds). The Corves are not one of the three. The names are the Keeper's and reach the DM when the god would hear them.
+14. The first night. Entered in the ruling ledger as L-0020 on this night, with the Keeper's review.
+
+## What the Haldren do not ask for
+
+Each people has a trouble its god did not ask for. The Haldren's: the lamp has no next keeper. A second, which they do not know: the grain sickness of the Blight Years is a thing of wet summers and can come again; see the event schedule.
+
+## What the Haldren know of the land
+
+What the Haldren know among them, kept here because their record is public and these names are not. It reaches their god only as someone tells it. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+
+- The Hald Valley [r01] (seen): their own valley, end to end; they live along twenty miles of its middle. Ostrey [f01] lies in it.
+- Ostrey [f01] (seen): the town. At Ostrey [f01].
+- The Haldwater [f02] (seen): from its head to where it leaves the hills; a few have followed it to the wet ground. At Ostrey [f01].
+- The Fitted Way [f04] (seen): the line of fitted stone under the turf; a few know it is older than the walls. At Ostrey [f01].
+- The Highfold [f06] (seen): the high ground where the dead are left. From Ostrey [f01], lies about 2 miles north-west.
+- The Folddales [r02] (seen): the nearer dales over the north and south ridges, where wool and cheese are traded; the farther ones by report. From Ostrey [f01], the middle of it lies about 140 miles east, 10 days on foot over open ground.
+- The Wetfoot [f05] (reported): the wet ground far down the river where the summer fair is held and salt is had; five or six living Haldren have been. From Ostrey [f01], lies about 310 miles east, 22 days on foot over open ground.
+- The Salt Road [f23] (reported): a carters' road that brings salt to the fair from the north. From Ostrey [f01], its nearest reach lies about 290 miles east, 20 days on foot over open ground.
+- The Marchway [f11] (reported): that the old road goes on east past the valley mouth; no one follows it. From Ostrey [f01], its nearest reach lies about 55 miles north-east, 4 days on foot over open ground.
+- The Deep Scarrow [r04] (reported): the high mountains at the valley head; the people of the heights are known only by what they leave at the night stone. From Ostrey [f01], the middle of it lies about 510 miles south-west, 64 days on foot by mountain paths.
+- The Knot Stair [f07] (reported): a high stair over the mountains at the head of the old road; two living Haldren have seen it from below. From Ostrey [f01], lies about 190 miles south-west, 24 days on foot by mountain paths.
+- The High Way [f09] (rumored): that the old road goes over the mountains to a sea. From Ostrey [f01], its nearest reach lies about 110 miles south-west, 8 days on foot over open ground.
+- The Sundown Sea [r32] (rumored): a sea beyond the mountains, which no one living has seen. From Ostrey [f01], the middle of it lies about 810 miles west, 58 days on foot over open ground.
+- Dunmarrow [f18] (rumored): a gate town in the north where the salt comes through. From Ostrey [f01], lies about 460 miles north, 33 days on foot over open ground.
+- The Hollow March [r11] (rumored): empty country east of the dales. From Ostrey [f01], the middle of it lies about 220 miles south-east, 16 days on foot over open ground.
+- The North Ashring [r12] (rumored): brown hills beyond it where people do not use names. From Ostrey [f01], the middle of it lies about 510 miles south-east, 37 days on foot over open ground.
+- The Sleeper [f27] (rumored): something asleep in a dead country past those hills; a carters' tale. From Ostrey [f01], lies about 640 miles south-east, 46 days on foot over open ground.
+- Undercrag [f13] (rumored): a stone-house people behind the mountains to the south-west; a dale tale. From Ostrey [f01], lies about 480 miles south-west, 34 days on foot over open ground.

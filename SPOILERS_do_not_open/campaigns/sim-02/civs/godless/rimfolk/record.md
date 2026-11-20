@@ -29,3 +29,21 @@ Nothing they can say. To be left where they are.
 ## How they touch the great events
 They are the body of what the sleeper does to those who live in its sight. They can be asked what they have seen, and they answer plainly, and they have no word for when.
 Limit: they know only what they have themselves seen from the rim: the sleeper's shape, that it breathes slowly, that the light comes down to it on dim nights, that some walk down. They do not know what it is, how old it is, or why they have no names. They answer any plain question from anyone, at any time, truly, in few words, and "that is not known" is their commonest answer. They cannot say when a thing happened or who did it.
+
+## The land, from the traced map
+
+Written on creation Night 3a after the tracing, from `map.json`, never from the plan.
+
+Where: the inner slopes of the North Ashring [r12] and the South Ashring [r13], C2 and C3, round the Bare Floor [r14], and nowhere beyond. The beast is the Sleeper [f27]. Their hamlets have no names; outsiders call the one nearest the river Goatsteps [f28]. The great ruin on the north crest is Old Orsa [f24], and the leaning slab above it the Holed Stone [f25].
+
+### What they know of the land
+
+They know what can be seen from where they sit, and almost nothing else. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+
+- The North Ashring [r12] (seen): where they live. Goatsteps [f28] lies in it.
+- The South Ashring [r13] (seen): where they live. From Goatsteps [f28], the middle of it lies about 470 miles south-west, 34 days on foot over open ground.
+- The Bare Floor [r14] (seen): from above. They do not go down. From Goatsteps [f28], the middle of it lies about 410 miles west, 29 days on foot over open ground.
+- The Sleeper [f27] (seen): every evening. From Goatsteps [f28], lies about 420 miles west, 30 days on foot over open ground.
+- Old Orsa [f24] (seen): a place stone is taken from. From Goatsteps [f28], lies about 550 miles north-west, 39 days on foot over open ground.
+- The Holed Stone [f25] (seen): a slab with a hole; children look through it. From Goatsteps [f28], lies about 550 miles north-west, 39 days on foot over open ground.
+- The Lowe [f03] (reported): a river outside the hills, where the salt comes from. From Goatsteps [f28], its nearest reach lies about 130 miles north-east, 10 days on foot over open ground.

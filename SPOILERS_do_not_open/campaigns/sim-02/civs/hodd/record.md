@@ -46,3 +46,33 @@ Finished from the traced map (step 3a.6), in the section at the foot of this rec
 ## Named mortals
 - Garran Holt, eldest of the count-keepers, about sixty, slow, exact, trusted with the count and nothing else.
 - Mother Ansa of the upper terrace, the old woman with the grip, about seventy-five.
+
+## The land, from the traced map
+
+Written on creation Night 3a after the tracing, from `map.json`, never from the plan.
+
+Home: the Underfell [r06], B2, the high trough between the Deep Scarrow [r04] and the back of the rim hills, and in it Undercrag [f13], the walled seat, with the Withy [f12] running down the trough. The squared openings in the cliff are the Squared Doors [f14]. The blocked doorway high on the slope is the Lintel Door [f15]. The high hollows where the strayed goats go are toward the Hush [f16]. Their god comes down onto the slope above the seat.
+
+### What they know of the land
+
+What a people who stay know: their valley well, the heights by avoidance. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+
+- The Underfell [r06] (seen): their own valley. Undercrag [f13] lies in it.
+- Undercrag [f13] (seen): the seat. At Undercrag [f13].
+- The Withy [f12] (seen): down to where it leaves the valley. From Undercrag [f13], its nearest reach lies about 85 miles south-east, 6 days on foot over open ground.
+- The Squared Doors [f14] (seen): from below; left alone. From Undercrag [f13], lies about 5 miles north-west.
+- The Lintel Door [f15] (seen): from below; left alone. From Undercrag [f13], lies about 9 miles north-west.
+- The Hush [f16] (reported): the high hollow the herders avoid; those who came back mild had been near it. From Undercrag [f13], lies about 85 miles north-west, 6 days on foot over open ground.
+- The Deep Scarrow [r04] (reported): the heights; the people of the heights are known by their trade and never met. From Undercrag [f13], the middle of it lies about 300 miles north-west, 22 days on foot over open ground.
+- Kinhold [f17] (rumored): that the people of the heights winter inside the mountain, somewhere north-west. From Undercrag [f13], lies about 190 miles north-west, 13 days on foot over open ground.
+- The North Ashring [r12] (seen): the back of the brown hills east; goatherds go up to the crest and do not go over. From Undercrag [f13], the middle of it lies about 610 miles east, 44 days on foot over open ground.
+- The Sleeper [f27] (reported): what is seen from the crest: a dark shape in a pale floor. Those who looked did not look long. From Undercrag [f13], lies about 610 miles east, 44 days on foot over open ground.
+- The Withywood [r28] (seen): the great wood south, where wool, stone and cheese go down in summer. From Undercrag [f13], the middle of it lies about 760 miles south-east, 54 days on foot over open ground.
+- The Low Scarrow [r05] (reported): the range going south. From Undercrag [f13], the middle of it lies about 410 miles south-west, 30 days on foot over open ground.
+- Quillan [f55] (rumored): a walled town at the far end of the wood road. From Undercrag [f13], lies about 840 miles south, 60 days on foot over open ground.
+- The Knot Stair [f07] (rumored): a high stair over the mountains north, which the people of the heights keep. From Undercrag [f13], lies about 340 miles north, 24 days on foot over open ground.
+- The Folddales [r02] (rumored): dales beyond the mountains north, with small peoples in them. From Undercrag [f13], the middle of it lies about 570 miles north-east, 41 days on foot over open ground.
+
+### The god's hope and the ground
+
+The god hoped for mountains, a high valley with one way in, and places to be under, and has them. The paint set the range's foot against the back of the rim hills, so the valley is a trough between the two, open to the south. Changed in this record: nothing but the valley's shape.

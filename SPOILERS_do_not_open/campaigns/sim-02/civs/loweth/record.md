@@ -46,3 +46,39 @@ Finished from the traced map (step 3a.6), in the section at the foot of this rec
 ## Named mortals
 - Marda Ferrow, warden of the crossings, about sixty-five, exact, dry, twenty years in the office.
 - Tobin Ashe, keeper of the upper ford, about thirty, the loudest voice against the doubled due.
+
+## The land, from the traced map
+
+Written on creation Night 3a after the tracing, from `map.json`, never from the plan.
+
+Home: the Middle Reach [r26], D3, on the Lowe [f03] below the Parting Woods [r22], and in it Kessary [f44], the walled seat and landing. The still water in the side valley is the Bankwater [f45], over the drowned town of Sellnot [f46]. The cased spring on the hillside is Wardwell [f48]. The road that comes down to the water and stops is the Stopped Road [f49]. Their god comes to itself at the upper ford, eight miles above the seat.
+
+### What they know of the land
+
+What a boat people know: the river well, and little off it. Distances are straight lines measured on the traced map; days are at the pace table's rate for the ground named. Grades: seen (they have been there), reported (told by one who has), rumored (a name and a rough place).
+
+- The Middle Reach [r26] (seen): their own reach, every ford, landing and weir. Kessary [f44] lies in it.
+- Kessary [f44] (seen): the seat. At Kessary [f44].
+- The Lowe [f03] (seen): from the Parting down to the delta's edge; boatmen know every bar. From Kessary [f44], lies about 2 miles south-east.
+- The Bankwater [f45] (seen): fished, and not swum in. From Kessary [f44], lies about 25 miles north-east, 2 days on foot over open ground.
+- Sellnot [f46] (reported): the town under the water; told as a tale, and true. From Kessary [f44], lies about 25 miles north-east, 2 days on foot over open ground.
+- Wardwell [f48] (seen): the cased spring; its water is carried down for the sick. From Kessary [f44], lies about 4 miles north-east.
+- The Stopped Road [f49] (seen): the old road down from the hills. From Kessary [f44], lies about 2 miles north.
+- The Crownlands [r25] (seen): the crowns' country downriver, where the due is paid. From Kessary [f44], the middle of it lies about 150 miles south-east, 11 days on foot over open ground.
+- Vessany [f50] (seen): the nearest crown, where the due goes. From Kessary [f44], lies about 160 miles south-west, 11 days on foot over open ground.
+- Ardmoor [f51] (reported): the middle crown. From Kessary [f44], lies about 180 miles south, 13 days on foot over open ground.
+- Talcross [f52] (reported): the coast crown. From Kessary [f44], lies about 400 miles east, 28 days on foot over open ground.
+- The Parting Woods [r22] (seen): the woods upriver where the river divides. From Kessary [f44], the middle of it lies about 410 miles north-east, 29 days on foot over open ground.
+- The Sunder [f39] (reported): the east arm, which boats use in a wet year to reach the coast city. From Kessary [f44], its nearest reach lies about 490 miles north-east, 35 days on foot over open ground.
+- Saltstairs [f41] (reported): the great city on the tide; some boatmen have been. From Kessary [f44], lies about 640 miles east, 45 days on foot over open ground.
+- The Reedsea [r27] (reported): the reed country at the river's end; no one goes in without a guide. From Kessary [f44], the middle of it lies about 360 miles south, 26 days on foot over open ground.
+- The South Ashring [r13] (reported): the brown hills north, where goats are had for salt at one hamlet. From Kessary [f44], the middle of it lies about 490 miles north-west, 35 days on foot over open ground.
+- Goatsteps [f28] (reported): that hamlet. From Kessary [f44], lies about 510 miles north, 36 days on foot over open ground.
+- The Sleeper [f27] (rumored): the sleeping thing beyond those hills. From Kessary [f44], lies about 590 miles north-west, 42 days on foot over open ground.
+- The Withywood [r28] (reported): the great wood west. From Kessary [f44], the middle of it lies about 550 miles west, 39 days on foot over open ground.
+- The Noman Grass [r19] (rumored): the grass far up the river. From Kessary [f44], the middle of it lies about 870 miles north, 62 days on foot over open ground.
+- The Withy [f12] (reported): the forest river that joins below the first crown. From Kessary [f44], its nearest reach lies about 210 miles south-west, 15 days on foot over open ground.
+
+### The god's hope and the ground
+
+The god hoped for a long river from cold springs in hills to a slow mouth, with marsh at the bottom and crossings, and has it. The paint put the people's reach on the river's south-western arm, below where it divides; the springs are far up, beyond the middle grass, and the people have never seen them. Changed in this record: nothing but place.

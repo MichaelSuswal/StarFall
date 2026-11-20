@@ -1,0 +1,42 @@
+{
+ "campaign": "sim-02",
+ "regions": {
+  "r20": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f36": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "long straight lines in the grass",
+    "coords": [
+     [
+      869.1,
+      305.3
+     ],
+     [
+      872.7,
+      303.7
+     ],
+     [
+      876.4,
+      302.0
+     ]
+    ]
+   }
+  },
+  "f37": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "banks worn flat in a hollow"
+   }
+  }
+ }
+}

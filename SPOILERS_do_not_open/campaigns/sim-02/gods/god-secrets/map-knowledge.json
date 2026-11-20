@@ -1,0 +1,104 @@
+{
+ "campaign": "sim-02",
+ "regions": {
+  "r29": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r05": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "mountains behind the hills, with snow on them",
+    "terrain": "mountain",
+    "polygon": [
+     [
+      204.3,
+      782.1
+     ],
+     [
+      195.1,
+      769.0
+     ],
+     [
+      202.7,
+      765.6
+     ],
+     [
+      211.1,
+      765.3
+     ],
+     [
+      208.7,
+      781.1
+     ]
+    ]
+   }
+  }
+ },
+ "features": {
+  "f55": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a walled town on the rise in the bend",
+    "type": "town"
+   }
+  },
+  "f56": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "the river and its great bend",
+    "coords": [
+     [
+      208.1,
+      782.2
+     ],
+     [
+      205.6,
+      785.3
+     ],
+     [
+      203.2,
+      788.5
+     ]
+    ]
+   }
+  },
+  "f58": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "regular mounds in the bottomland"
+   }
+  },
+  "f59": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "an old banked road into the woods",
+    "coords": [
+     [
+      204.1,
+      788.7
+     ],
+     [
+      207,
+      786
+     ],
+     [
+      209.9,
+      783.3
+     ]
+    ]
+   }
+  }
+ }
+}

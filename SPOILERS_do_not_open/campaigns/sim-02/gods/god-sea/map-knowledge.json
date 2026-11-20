@@ -1,0 +1,90 @@
+{
+ "campaign": "sim-02",
+ "regions": {
+  "r23": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r35": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "shallow sea, a long way out",
+    "terrain": "sea",
+    "polygon": [
+     [
+      886.4,
+      603.5
+     ],
+     [
+      891.1,
+      618.8
+     ],
+     [
+      882.8,
+      619.7
+     ],
+     [
+      874.7,
+      617.5
+     ],
+     [
+      881.9,
+      603.2
+     ]
+    ]
+   }
+  }
+ },
+ "features": {
+  "f41": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a walled city at the water edge",
+    "type": "city"
+   }
+  },
+  "f43": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "lines of stone and stumps on the flats"
+   }
+  },
+  "f42": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "the ribs of an old hull on dry ground"
+   }
+  },
+  "f40": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "the river in its estuary",
+    "coords": [
+     [
+      895.8,
+      597.1
+     ],
+     [
+      894.6,
+      600.9
+     ],
+     [
+      893.4,
+      604.7
+     ]
+    ]
+   }
+  }
+ }
+}

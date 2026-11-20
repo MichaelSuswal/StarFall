@@ -3187,7 +3187,7 @@
    "shape": "point",
    "coords": [
     [
-     385,
+     388.6,
      101
     ]
    ],
@@ -3204,7 +3204,7 @@
    "shape": "point",
    "coords": [
     [
-     385.6,
+     389.2,
      101.7
     ]
    ],
@@ -3297,7 +3297,7 @@
      80
     ],
     [
-     385,
+     388.6,
      101
     ],
     [
@@ -4103,7 +4103,7 @@
    "shape": "point",
    "coords": [
     [
-     240,
+     207,
      786
     ]
    ],
@@ -4190,7 +4190,7 @@
    "shape": "point",
    "coords": [
     [
-     240.3,
+     207.3,
      786.4
     ]
    ],
@@ -4207,7 +4207,7 @@
    "shape": "point",
    "coords": [
     [
-     243,
+     210,
      790
     ]
    ],
@@ -4224,7 +4224,7 @@
    "shape": "line",
    "coords": [
     [
-     240,
+     207,
      786
     ],
     [
@@ -4301,6 +4301,91 @@
    ],
    "known_to": "no one living; a few coast fishers know a hut stands there",
    "notes": "A stone hut and a fire platform on a cape. A carved lintel."
+  },
+  {
+   "id": "f62",
+   "name": "The Stairfoot Door",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     276.2,
+     318.8
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the pass folk",
+   "notes": "A sealed Orsand room cut under the Knot Stair, beside the old road."
+  },
+  {
+   "id": "f63",
+   "name": "Lakewall",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     566,
+     438
+    ]
+   ],
+   "regions": [
+    "r14"
+   ],
+   "known_to": "the rim people, as stumps on the floor seen from above",
+   "notes": "Stumps of walls and a quay with no water, on the old shore line of the basin. First-age work."
+  },
+  {
+   "id": "f64",
+   "name": "Tollmere",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     562,
+     261
+    ]
+   ],
+   "regions": [
+    "r15"
+   ],
+   "known_to": "the farm villages of the Rivermeet",
+   "notes": "Grassed mounds and a burned layer on the bank of the Lowe: a market city of the broken provinces."
+  },
+  {
+   "id": "f65",
+   "name": "Emberholt",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     322,
+     621
+    ]
+   ],
+   "regions": [
+    "r28"
+   ],
+   "known_to": "woodsmen",
+   "notes": "An Orsand provincial town gone to forest, on the Banked Way."
+  },
+  {
+   "id": "f66",
+   "name": "Stonemeet",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     790,
+     372
+    ]
+   ],
+   "regions": [
+    "r19"
+   ],
+   "known_to": "herders of both peoples, as a place of dry wells",
+   "notes": "A caravan town on the Rope Line, abandoned when its wells went flat."
   }
  ],
  "landings": {
@@ -4321,15 +4406,15 @@
   "god-thresholds": {
    "region": "r08",
    "at": [
-    385.3,
+    388.9,
     101.4
    ]
   },
   "god-beasts": {
    "region": "r16",
    "at": [
-    609.6,
-    145.6
+    610.0,
+    147.0
    ]
   },
   "god-storms": {
@@ -4349,14 +4434,14 @@
   "god-rivers": {
    "region": "r26",
    "at": [
-    642.6,
-    669.6
+    644.0,
+    671.3
    ]
   },
   "god-secrets": {
    "region": "r29",
    "at": [
-    240.8,
+    207.8,
     787.0
    ]
   }
