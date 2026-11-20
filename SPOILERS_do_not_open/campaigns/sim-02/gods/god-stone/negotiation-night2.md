@@ -49,3 +49,22 @@ Accepted. The limits blocks answer light and dark, distance, falling, carrying, 
 
 ### Summary of our choices
 Form: accepted. Held Place: description, drawback and limits accepted, with choice (c), and a counter held in reserve. Listening Stone: accepted, two miles in winter declined. Unmarked Way: accepted. The Break: accepted. Winter Stillness: the larger one, through the frozen ground, with one wording request for the landing winter. Conduct: accepted.
+
+## Round 2 reply
+
+We confirm the final text, the substance and every price, with three corrections of wording only. None changes a price, and two of them are against our own advantage, which we say because we will not lie about it.
+
+### What we confirm
+The Held Place with choice (c), the Listening Stone at a mile with no winter reach, the Unmarked Way, the body broken with its winters and the forgotten season, the Winter Stillness through the frozen ground with the landing winter awake, and the conduct. Description and Drawback for the three powers are confirmed as written and may freeze. We confirm the Keeper's note that our year opens in winter and that in every year after the first we are still when it opens and act from the thaw. We confirm it knowingly. We confirm that the balance left over is ours to decline, and we decline it.
+
+We confirm the Keeper trait as written: we count the breathing in any room we enter, and we are not easy until the count is right. We did not choose it and cannot say why it is so, and it sits where we expected a quiet place to be.
+
+### Wording corrections
+1. Filing name. The card's Form says "Filed under the Still Child." We asked to be filed under Stone, and said we answer to the quiet child or the stone child. Please write "Filed under Stone. Those who do not know it call it the quiet child, or the stone child." We hold no name, and that is unchanged.
+
+2. The frozen ground, in Definitions. As written it is "the part of each winter in which the ground where the god lies is frozen shut." That lets a god lie down in a deep place where the ground never freezes and so never be stilled. That is not the weakness we offered, and we said it should be real. Please write: "The frozen ground: the part of each winter in which the ground of the land the god is in is frozen shut, wherever in that land the god lies." This makes the weakness larger, and it is what we meant.
+
+3. How long the hold lasts, in the Held Place Description. As written, "stays steadied through the winter that follows, and no longer," it is not clear from when. We meant from the moment our hands come away until the end of the winter that next comes, so that a place held through spring stays steadied through the summer and autumn and the winter after. Please write: "A place held for a full season stays steadied from the moment the god's hands come away until the end of the next winter, and no longer." Under this wording a hold that ends in autumn lasts the one winter, and a hold that ends in spring lasts about nine months. If the Keeper reads "the winter that follows" as a narrower thing, so that a spring hold is steadied only in the winter and not before it, we ask the Keeper to say so, and we would argue that on wording alone, because a roof that is steadied only in winter would fall in the summer after our hands left it, which is not a roof held.
+
+### Nothing else
+No other line is wrong. We ask for no change of price.

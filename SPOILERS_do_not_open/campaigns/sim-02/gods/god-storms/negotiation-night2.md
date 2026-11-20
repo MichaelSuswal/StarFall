@@ -32,3 +32,13 @@ Accept all four, and accept the Keeper's note that the Tall Tree is a power over
 
 ### Summary of choices
 Tent: does not count. Weakness: middling, buys one improvement. Improvement chosen: Foreknowing (b). Tall Tree: (a). All else accepted as drafted.
+
+## Round 2 reply
+
+I confirm the final text as written. Form, definitions, things carried, the three powers, the weakness and the Keeper trait are what I meant, and I ask for no change to Description or Drawback in any power. Each choice recorded is the one I made: the tent is not a built shelter, the weakness is middling and bought Foreknowing's reach, and the Tall Tree is as first written.
+
+One reading, stated so that both sides hold the same one, and not a request to change a word. In Foreknowing and the Small Turn, "under a roof" and "standing in the open" mean that the reading and the turning need open sky above me, so a tent over my head stops the working for as long as I am under it. That is separate from the weakness, which binds me only under a built shelter or underground for longer than one night. A night in a tent costs me the working while I am in it and costs me nothing after. I accept that cost, and I mean to stand outside the tent in any case.
+
+The Keeper trait I take as written. It fits what I am: the people I have counted, I learn by name, and the rest I do not.
+
+The card is frozen as written.

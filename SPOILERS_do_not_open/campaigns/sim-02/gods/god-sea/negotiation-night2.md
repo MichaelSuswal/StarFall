@@ -46,3 +46,13 @@ Accept as drafted. Slack Water over a coast is the one that could scale across a
 - Trades: Bound Word kept, size contested, counter for swimmer's pace in water, with a lesser fallback.
 - Conduct: accept.
 - Edge floor: accept.
+
+## Round 2 reply
+
+I have read the final text against what I accepted. The prices are as I bargained them, and I take the Keeper's rulings on the drawback source, the lesser pace and my fallback without further argument: a coin I choose is a coin I agreed to, and that was my own wording. I confirm everything not named below, including the Form, the Things carried, the broken-body text, Keeping What Sinks, the Bottom Walk, the Keeper trait and the what-it-bought line, and the drawback texts as written. I name two wording corrections, and neither moves a price.
+
+1. Slack Water, Limits, the line "It moves salt and fresh water alike and makes none sweet." This is not what the Keeper drafted in Round 1 and not what I accepted. Round 1 said it moves salt water and makes none sweet, and I accepted that gladly, since fresh water scarce is the world I asked for. Please restore it as "It moves salt water only and makes none sweet." I add, as wording and not a new power, that in an estuary where river and salt are mixed, the water counts as salt while the god can taste or smell the salt in it. I do not wish to carry a reach I did not pay for, and the extra reach would be priced.
+
+2. The Bound Word, What it is, the clause "until they are met or the other releases it." Please add "or the terms lapse by their own words", so that a bargain with a stated end, such as "until the tide turns", ends when it ends and does not bind my body for as long as the other party lives or forgets. This is the meaning I offered, "until they are met", and the added words only say it for terms that name their own end.
+
+If the Keeper judges either to be more than wording, I withdraw it and confirm the card as written, because the prices are settled and I would sooner be done.
