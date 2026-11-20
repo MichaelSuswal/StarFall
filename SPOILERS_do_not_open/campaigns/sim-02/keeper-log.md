@@ -291,7 +291,7 @@ Decision the files did not make: DESIGN 1.5 says all gods arrive at the same mom
 `S/star.md` holds every per-star item and the ceiling, each with its roll id (r-0001 to r-0009, r-0142). Nothing was left unrolled on Night 1.
 
 ### 3b.2 The plane (done early, needing no map)
-Rolled 00:15 Pacific by runbook section 8, r-0144 to r-0159, each roll named for its entry and item. The throw, p01: band very far (r-0144), bearing south-west (r-0145), 460 years' walk (r-0146); age 0, alive. Others: two (r-0147, face 2). p02: a star still hanging (r-0148), east (r-0149), very far (r-0150), 910 years' walk (r-0151), phase 77, mature (r-0152). p03: a starfall (r-0153), south (r-0154), very far (r-0155), 730 years' walk (r-0156), age band 10,000 to 50,000 (r-0157), 18,000 years (r-0158), alive (r-0159). No entry is near. Held in the scratch folder until `S/map.json` exists; written into its `plane` block at tracing.
+Rolled 00:15 Pacific (the rolls log's own times) by runbook section 8, r-0144 to r-0159, each roll named for its entry and item. The throw, p01: band very far (r-0144), bearing south-west (r-0145), 460 years' walk (r-0146); age 0, alive. Others: two (r-0147, face 2). p02: a star still hanging (r-0148), east (r-0149), very far (r-0150), 910 years' walk (r-0151), phase 77, mature (r-0152). p03: a starfall (r-0153), south (r-0154), very far (r-0155), 730 years' walk (r-0156), age band 10,000 to 50,000 (r-0157), 18,000 years (r-0158), alive (r-0159). No entry is near. Held in the scratch folder until `S/map.json` exists; written into its `plane` block at tracing.
 Decision the files did not make: section 8 gives the throw a distance band and no bearing or distance roll, while the entry format carries both. Decided: the throw's bearing and distance are rolled with the same dice as any entry. Marked for Michael.
 Noted for 3b.4: every entry is hundreds of years' walk away, so a traveler from afar is the last of a line that set out generations ago, or came by sea; none walked it in one life.
 
@@ -300,4 +300,5 @@ Written for all eight gods in template 7.10 (`S/player/growth.md`, `S/gods-seale
 
 ### 3b.8 (parts needing no map)
 `P/state/models.md` rewritten for this campaign: the last values Michael approved, copied, marked as his to change. `P/state/rolls.jsonl` created empty.
-`tools/lockcheck.py sim-02 --leaks --dashes --rolls` at 00:16: 0 failures, 0 warnings.
+`tools/lockcheck.py sim-02 --leaks --dashes --rolls` at 00:15: 0 failures, 0 warnings.
+Paused 00:16 Pacific for the two round 2 replies (STOP D round 2: secrets, sea) and for the paintings (STOP P).
