@@ -16,7 +16,7 @@ Cards for everything but the avatar live in `player/appearance-cards/<slug>.md`,
 ```
 # <Name>
 Kind: god | mortal | creature | place
-Written: Year NNN, from <what the god saw or who told it>
+Written: Year NNN (or "creation, Day 2" for the avatar), from <what the god saw or who told it>
 
 <The card text: 40 to 80 words, one paragraph.>
 
@@ -47,7 +47,7 @@ Invented for this file. No campaign uses them.
 ```
 # The Hearthmother (the avatar)
 Kind: god
-Written: Year 1, from the god's own form as negotiated on Day 2
+Written: creation, Day 2, from the god's own form as negotiated
 
 A tall woman of about forty with a long, plain face, grey eyes, and dark hair bound back in a single braid, wearing a hooded cloak of undyed grey wool over a brown dress, with bare feet. She stands a head above the tallest of her people. Her hands are large, red-knuckled, and always uncovered. She carries nothing. Where she stands for long, the ground beneath her feet dries.
 

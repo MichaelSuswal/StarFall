@@ -2,7 +2,7 @@
 
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
-All rolls are 1-100 unless stated. The agent for the god sees its rolls, then answers the world survey and creation questions from inside the character. Nothing from the archetype table is ever named in play.
+All rolls are 1 to 100 unless stated. The agent for the god sees its rolls, then answers the world survey and creation questions from inside the character. Nothing from the archetype table is ever named in play.
 
 ## 1. The ten leans
 Each is a lean between two ends. 1 = fully the first, 100 = fully the second.

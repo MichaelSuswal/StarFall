@@ -299,7 +299,7 @@ def known_feature(f, entry, painting=None):
          "source": entry.get("source", ""), "year": entry.get("year", ""), "regions": f.get("regions", [])}
     told = entry.get("told", {}) if g != "seen" else {}
     k["name"] = told.get("name", f["name"])
-    k["type"] = told.get("type", f["type"])
+    k["type"] = told.get("type", f["type"] if g != "rumored" else "")
     if g == "seen":
         k["coords"] = f["coords"]
     elif g == "reported":
@@ -1044,6 +1044,7 @@ def gazetteer(world, knowledge, out_dir, log_path):
     surface = [(k, l) for k, l in feats if l is None]
     place_block("Places", surface, POINT_TYPES)
     place_block("Waters, woods and ranges", surface, {"river", "lake", "sea", "mountain", "marsh", "forest"})
+    place_block("Roads", surface, {"road"})
 
     lines.append("## Rivers as routes")
     lines.append("")
@@ -1080,7 +1081,8 @@ def gazetteer(world, knowledge, out_dir, log_path):
     if not rum:
         lines.append("None.")
     for k in sorted(rum, key=lambda k: str(k["year"] or 0)):
-        lines.append(f"- **{k['name']}** ({k['type']}), somewhere near {fmt_pt(k['coords'][0], painting)}, by the telling of {k['source']}, year {k['year']}{hist_line(k['id'])}.")
+        kind = f" ({k['type']})" if k["type"] else ""
+        lines.append(f"- **{k['name']}**{kind}, somewhere near {fmt_pt(k['coords'][0], painting)}, by the telling of {k['source']}, year {k['year']}{hist_line(k['id'])}.")
     lines.append("")
 
     for layer in world.get("layers", []):

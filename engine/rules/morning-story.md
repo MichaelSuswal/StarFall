@@ -50,6 +50,7 @@ What the summary is and is not:
 - Recurring phenomena (DESIGN 12.8) appear only when the god or its people would have noticed them this year, and then at their true count, taken from `tools/phenomena.py`. "The lights came three times over the marsh this year" means three in the record. Never "a few," never a number the DM remembers.
 - Applied answers. If the DM applied a pending answer during the night because it followed directly from something the player had explicitly decided (dm.md, item 4), the summary says so plainly in the place where it mattered: "You had told the steward to refuse all such offers, so he refused this one."
 - The map. If map knowledge grew, the summary tells how (a scout came back, a trader described a pass) and reminds the player once, on the first morning only, that the map is on request.
+- Growth of a power (DESIGN 6.8) is told only as the god's own sensation, when the Keeper's release carries it: an attempt that went better than before, a cost paid, something near. Never a count, a tier, a ceiling, or the word growth.
 
 Length: a quiet year is a paragraph or two beyond the return sequence. An eventful year runs as long as it needs to, but stays digestible: sections of plain prose in the order things happened or in the order the god learned of them, no headings unless the year is so full that the player would otherwise lose the thread, and never bullets unless the content is in truth a list (a message's text, a count the steward gave).
 
@@ -69,7 +70,15 @@ If the night turn has not committed the morning story and the painting by 6:30, 
 
 > (oog) The world is still turning. The morning story will follow when it is done.
 
-If the turn finished but left checker flags unresolved at 6:00, the story posts on time and carries one plain (oog) line at the end naming what is still being checked, without saying what the answer might be. If the 1:30 save was missing, the story says so in (oog) in one line and the year is told as it turned: the god continued its last decided course.
+If the turn finished but left checker flags unresolved at 6:00, the story posts on time and carries one plain (oog) line at the end naming what is still being checked, without saying what the answer might be.
+
+## When the world waited
+
+If the player did not post in the game the day before, the DM wrote no decisions file at 1:30, the night turn wrote `years/NNN/waited.md` and the year did not turn (DESIGN 1.12). The 6:30 wake posts that file's one line and nothing else:
+
+> (oog) The world waited. Year NNN is still open.
+
+There is no return sequence, no painting and no summary on such a morning. Play resumes where it left off, in the same year.
 
 ## Worked example: a quiet year
 

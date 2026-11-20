@@ -82,7 +82,7 @@ God power is not this. A god does not borrow. A god is dense hold, and acts by s
 
 **What peoples believe.** The gods came down from the star. The gods were always here and have woken. The gods are the old kings returned. The gods are from beyond the empty country.
 
-**What investigation reveals.** The gods arrived in the same night, and that night a stone fell in the hills between two of them, warm, blue-grey, heavy for its size. People who sleep near it dream of a crowd kneeling and of a river none of them has seen. The gods' own memories are of being followed, of being wanted, of a wound they cannot place. Every god's power grows when more mortals hold it in mind and shrinks when it is forgotten. The gods feel each other at a distance, as a pull. None remembers being a child, or anything but a god.
+**What investigation reveals.** The gods arrived in the same night, and that night a stone fell in the hills between two of them, warm, blue-grey, heavy for its size. People who sleep near it dream of a crowd kneeling and of a river none of them has seen. The gods' own memories are of being followed, of being wanted, of a wound they cannot place. Every god's power grows when more mortals hold it in mind and shrinks when it is forgotten. What the gods sense of each other is set for each campaign (DESIGN 7.2); the lore fixes no sense between gods, and investigation finds whatever that campaign's god-sense gives and no more. None remembers being a child, or anything but a god.
 
 **What is true.** Gods are what a far starfall throws up. When a star lands somewhere across the plane, the impact drives the densest packets of hold clear off the ground, and some are thrown so far that they pass through the Between and come down under another star. These packets are not people. They are the most-held patterns of the country that died: a people's long memory of being led, a river's habit of being followed by roads, a dynasty's shape, a law that outlived its city. They land as gods. That is why they arrive expecting a people to lead: they are made of having been followed. That is why their pasts are foggy: they carry no single person's memory, only a people's memory of them. The wound each god feels is real and belonged to no one in particular. Several gods arrive at once because one fall throws them together, the remainder of a single world.
 
@@ -90,7 +90,7 @@ The Between is the long arc above the plane. Gods cannot die because hold does n
 
 Some throws do not compress into gods. They land as dross: warm blue-grey stone that holds the same memories at lower density and dreams them at anyone nearby. The Keeper calls this the Remainder. It is the god's own origin in a form that can be touched.
 
-**Bodies.** The Remainder. The gods' shared arrival night. The pull between gods. The dream of the kneeling crowd and the unseen river.
+**Bodies.** The Remainder. The gods' shared arrival night. The dream of the kneeling crowd and the unseen river.
 
 **Cost if ignored.** A trigger. The Remainder lies in godless country between two gods. If neither reaches it, the people around it begin to worship it, it lends them hold in return, and by Year 20 of the test world a small priesthood exists that is no god's and that chants the god's own wound. If a rival god reaches it first, the rival learns the shape of the other gods' pasts, which is a lever.
 

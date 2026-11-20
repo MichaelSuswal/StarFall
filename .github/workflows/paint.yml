@@ -1,7 +1,7 @@
 name: paint
 on:
   push:
-    paths: ["images/requests/**"]
+    paths: ["images/requests/**", "SPOILERS_do_not_open/images/requests/**"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,5 +18,6 @@ jobs:
       - run: |
           git config user.name "starfall-painter"
           git config user.email "starfall-painter@users.noreply.github.com"
-          git add images/out
+          mkdir -p images/out SPOILERS_do_not_open/images/out
+          git add images/out SPOILERS_do_not_open/images/out
           git diff --cached --quiet || (git commit -m "Paint new images" && git push)

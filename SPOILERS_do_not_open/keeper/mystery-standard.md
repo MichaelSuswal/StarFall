@@ -1,4 +1,6 @@
-# Mystery standard (v2)
+> SPOILER WARNING: Keeper material. Players should not read this file.
+
+# Mystery standard (v3)
 
 The rules every mystery, clue and morning story must satisfy. Keeper material.
 
@@ -17,3 +19,11 @@ The rules every mystery, clue and morning story must satisfy. Keeper material.
 13. Mysteries are layered by time scale and power. A campaign has about one epic mystery threaded through the whole of it, whose answer still has to be executed by someone once found; several long mysteries or quests at about half the epic's span, possibly related; and many short ones of 3 to 12 years, local and mortal. The epic and the long ones involve immortal power: the other gods, older beings, and the politics between them, and may not be solvable by one god alone.
 14. The epic's central measurements are earned, never delivered by a scheduled letter, envoy or visitor. A god learns them by its own instrument, a counter it sent, an alliance it made, or a place it went.
 15. The Keeper always reports the god's own senses when they would occur. On any open question that outlasts a session (an envoy's question, a letter, an offer), the Keeper asks the player rather than inferring an answer or supplying an intent. The Keeper never changes what it reports, or how often, because of anything the player said out of game. Recurring phenomena are reported at their true rate or not counted at all.
+16. Every being that answers questions (an oracle, an old thing that does not lie, a voice in a dream, a people that keeps records) has a written limit on what it knows and on how it may be asked: what lies outside its knowledge, what it will not say, who may ask, how often, and in what form. A true answer from a being that does not know is "I do not know." No being knows what the deep lore keeps mysterious across campaigns, and none can short-circuit the epic's central measurements.
+
+## Writing a mystery down
+
+- Every mystery is written in the template in `creation-runbook.md` section 7.8, with these headings in this order: Truth; Body; Cost if ignored; Clock or trigger; Clues (each with its location, what is shown, and its readings); Branches (each with what the world does); Never found. `tools/lockcheck.py --mysteries` fails the lock on a missing or empty heading.
+- Every cost if ignored appears in the event schedule as a clock or a trigger, naming the mystery.
+- A being that answers questions carries its rule 16 limit as a `Limit:` line in the mystery that uses it and in the cast.
+- Every place named in a sealed file carries its bracketed map id, like `[r12]` or `[f03]`: every body, every clue location, every site in the deep history, the schedule and the cast. A place that has no id has no ground, and nothing may point at ground the map does not hold. `tools/lockcheck.py --places` fails the lock on a bracketed id missing from `map.json` and warns on a capitalized map name written without its id.

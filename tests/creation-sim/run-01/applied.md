@@ -23,3 +23,4 @@ Each line names the change list items it applies.
 - house-style.md: the map block, the cloud block, the underground variant, sealed request paths (74, 89).
 - failures-checklist.md: which checks apply during creation (8).
 - tests/creation-sim/README.md and stand-in.md: the run procedure and the player's no-write rule (11).
+- appearance-card.md: the avatar's card is written at creation, Day 2 (42). morning-story.md: growth as sensation only (100); the waited morning (decision 12).

@@ -8,6 +8,10 @@ Kind codes: SEEN means the god or its people witness it directly. REPORTED means
 
 The rule under every clue: it shows an effect, an object, or a behavior. It never states a cause. Any mortal who states a cause is wrong about something that matters.
 
+In a campaign, these tables are written into the mystery template (`creation-runbook.md` section 7.8). Each clue row becomes a clue under `### Clues`: its location (with map id) from "How surfaced" and the place it sits, "What is shown" from the clue column, and "Readings" from "Also supports" together with the reading the clue points toward. Kind and Earliest stay in the clue's text. Each wrong branch and restraint branch goes under `### Branches` with what the world does. "Opens next" is the Keeper's own thread and needs no heading. Names in this file are the test world's and carry no map ids; names in a campaign file always do.
+
+God-sense is set per campaign (DESIGN 7.2) and nothing here fixes it. Rows that rest on gods feeling one another at a distance are marked; they exist only in a campaign whose god-sense gives that.
+
 ## Conclusion 1. The star is sinking, and the rate is quickening
 
 Truth 1 and 2.
@@ -93,7 +97,7 @@ Truth 5.
 | Clue | Kind | Earliest | How surfaced | Also supports | Opens next |
 |---|---|---|---|---|---|
 | The night the god arrived, Harrock clansmen saw a stone fall into Cairn Hollow, and it was warm for a season | RUMORED | 4 | A Harrock captive or a Threnn trader | A piece of the star; a sign; a weapon | Sending to the Hollow |
-| The god felt a third pull that night, between the pulls of Oldmark and Hask, and weaker, and it has not moved | SEEN | 1 | God's own sense | A fourth god, sleeping; a god that died | Going toward it |
+| Only where the campaign's god-sense gives a pull at a distance: the god felt a third pull that night, between the pulls of Oldmark and Hask, and weaker, and it has not moved | SEEN | 1 | God's own sense | A fourth god, sleeping; a god that died | Going toward it |
 | The Harrock built a cairn and sleep beside it before raids; they dream of a crowd kneeling and a river none of them has seen | REPORTED | 12 | Threnn, from a Harrock woman who married in | The stone is a god; the stone is cursed; the Harrock are liars | The god recognizes the river |
 | The god, touching the stone, dreams the kneeling crowd and knows the river: it is the one in the god's own wound fog | SEEN | When the god reaches it | God's own experience | The stone is a dead sibling; the stone is where the god came from; the stone is the god's own past | Asking the other gods what they dream |
 | Oldmark, asked, says "the stone and I came in the same cart" and nothing else | REPORTED | 20 | Only if the god asks directly | Oldmark lies; Oldmark knows more | Nothing; this is the limit |
@@ -135,7 +139,7 @@ Wrong branch: the god detains the Longwalkers to learn their songs by force. The
 
 Years are bare numbers. What each year carries is the earliest the world pushes it toward the god; the god may reach any of it sooner by going.
 
-1. Arrival. Three pulls felt. Nothing else. Plain world.
+1. Arrival. Whatever the campaign's god-sense gives on landing (in the test world, three pulls felt). Nothing else. Plain world.
 8. First cluster: the char have not run, the Longwalkers pass through, Ninefield's apples. Still mostly plain world.
 12. The Harrock cairn story reaches Threnn.
 15. First star reading possible, if marks were set by Year 8.
@@ -150,7 +154,7 @@ Years are bare numbers. What each year carries is the earliest the world pushes 
 55. Consequence turn: whichever branch the god chose on the Still, the stone, and the ceiling pays out plainly.
 60. End state. The star is lower. The god knows three or four things at 80 and the rest at 40 to 60.
 
-Years 1 to 7 carry no clue the god has not gone looking for, except the pulls on Year 1 and a shepherd's remark in Year 2. Random events are weighted toward weather, beasts, births, and quarrels in those years.
+Years 1 to 7 carry no clue the god has not gone looking for, except what god-sense gives on Year 1 and a shepherd's remark in Year 2. Random events are weighted toward weather, beasts, births, and quarrels in those years.
 
 ## Plain world
 
