@@ -34,7 +34,7 @@ The Keeper takes clock times from `TZ=America/Los_Angeles date`, never from memo
 
 - Reads from the day: `P/player/survey-day1.md`, `P/player/rejected-premises.md`.
 - Does: creates the sealed folder; rolls seven gods by the rubric (folders labeled by domain, never numbered); rolls the star; each god answers the survey; blends the eight surveys into one world draft; writes follow-ups for the player.
-- Leaves for Day 2: `P/player/followups-day2.md` (questions with an (oog) fallback), `P/player/world-rules.md` (what is innate and given: god-sense and bodies as set, and the magic level only as it bears on a god's build). Nothing about what was discovered, voted or pooled.
+- Leaves for Day 2: `P/player/followups-day2.md` (questions with an (oog) fallback), `P/player/world-rules.md` (what is innate and given: god-sense and bodies as set, and the pricing terms for mortal magic, that it is simple and costs the worker, never how common it is). Nothing about what was discovered, voted or pooled.
 
 ## Night 2: the gods make themselves
 
@@ -45,13 +45,13 @@ The Keeper takes clock times from `TZ=America/Los_Angeles date`, never from memo
 ## Night 3a: the peoples and the map
 
 - Reads from the day: `P/civs/<people>/record.md` and `state.md`, `P/player/people-meeting.md`, `hierarchy.md`, `rejected-premises.md`, `followups-day3.md` with answers, and the dated Day 3 entries on the power card and conduct profile.
-- Does: each NPC god describes the people it hopes for, in its own folder; the Keeper prices edges with reasons, writes the agreed records and starting states for all eight peoples (the player's starting numbers too), and reconciles every meeting; the godless peoples; the placement plan, written first; the two painting requests (surface and clouds), sealed, plus one underground sheet only if the world has one; the paintings traced per `engine/rules/map.md`, the data following the paint; only then every description of land, written from the map data; starting map knowledge for every god.
+- Does: each NPC god describes the people it hopes for, in its own folder; the Keeper prices edges with reasons, writes the agreed records and starting states for all eight peoples (the player's starting numbers too), and reconciles every meeting; the godless peoples; the placement plan, written first; the two painting requests (surface and clouds), sealed, plus one underground sheet only if the world has one; the paintings traced per `engine/rules/map.md`, the data following the paint (a repaint is requested only if the paint lost a god's asked-for country, and it is made only if Michael's go arrives before 3b ends; otherwise the sheet in hand is traced); only then every description of land, written from the map data; starting map knowledge for every god.
 - Ends by setting `creation_night: 3b` and running straight on.
 
 ## Night 3b: the history, the mysteries, the schedule, the lock
 
 - Does: the deep history to the depth the surveys set, every place with a bracketed map id; the mysteries, one epic, several long, many short, each to the template; the event schedule with every mystery's cost as a clock or trigger; recurring phenomena to `S/state/phenomena.json`; the cast; the world bible; the plane section of the map (other starfalls, data only); the growth files, empty; the Year 1 inputs (`P/world/world.md`, `P/state/models.md`, `P/releases/000/dm.md`, the player's map knowledge, an empty `P/state/rolls.jsonl`).
-- Then the continuity checker runs the lock (`engine/roles/checker.md`): the scripts, then the lock checklist line by line against the files. Flags go to `P/years/000/lock-flags.md`; the Keeper fixes; the checker reruns. When every line holds, the checker writes `S/LOCKED.md` with the lock commit id.
+- Then the continuity checker runs the lock (`engine/roles/checker.md`): the scripts, then the lock checklist line by line against the files. Flags go to `S/years/000/lock-flags.md`, sealed, since they name sealed things; the Keeper fixes; the checker reruns. The public `P/years/000/lock.md` says only that the lock passed and when. When every line holds, the checker writes `S/LOCKED.md` with the lock commit id.
 - Then the DM agent writes `P/years/001/morning-story.md` and the first painting request, and the clock is set to Year 1 open.
 
 ## What the player sees of creation

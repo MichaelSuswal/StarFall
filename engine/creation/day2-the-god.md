@@ -11,7 +11,7 @@ Before the day closes, the DM goes back over its checklist and raises anything s
 ## What the DM has from Night 1
 
 - `player/followups-day2.md`: the Keeper's follow-up questions, each in a form that can be woven into the fiction, with an (oog) fallback. The DM writes the player's answer under each question before the close.
-- `player/world-rules.md`: the world's rules that are innate to a god and are given, not discovered: god-sense as set for this campaign, how many bodies a god may have, and the magic level only as it bears on a god's build. These are stated to the player plainly when they come up. They are never framed as a vote or as which wishes the world kept. Everything the player must discover in play (how common magic is among mortals, how much gods stand out, the wild, the scarcities) is not in this file and is not told.
+- `player/world-rules.md`: the world's rules that are innate to a god and are given, not discovered: god-sense as set for this campaign, how many bodies a god may have, and the pricing terms for mortal magic (it is simple and it costs the worker), never how common it is. These are stated to the player plainly when they come up. They are never framed as a vote or as which wishes the world kept. Everything the player must discover in play (how common magic is among mortals, how much gods stand out, the wild, the scarcities) is not in this file and is not told.
 
 ## Opening
 

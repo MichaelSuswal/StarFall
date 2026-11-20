@@ -43,3 +43,4 @@ Each line names the change list items it applies.
 - clue-design.md: mapping to the mystery template (95); god-sense rows made conditional (6).
 - deep-lore.md: god-sense no longer fixed by the lore (6, 18).
 - Tools follow-up: rumored regions allowed with `told.name` and `told.cell` only (86); waited notes named `years/NNN/waited-YYYY-MM-DD.md` and check.py's waited rule read from `state/timing.md` by Pacific date (decision 12); root `.gitignore` for Python caches and the committed `.pyc` files removed from the index; lockcheck run notes in `tests/tools/README.md` (92).
+- creation-nights.md, day2, day3, checker.md: world-rules carries magic's pricing terms only, never its prevalence (decision 5, 66); repaint only if Michael's go arrives before 3b ends; lock flags sealed with a one-line public lock note.
