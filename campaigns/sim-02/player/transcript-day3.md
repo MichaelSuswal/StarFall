@@ -101,3 +101,25 @@ How you meet them. As I have understood you: the Haldren are already here with t
 What they believe about gods, before you. They do not pray much. Is there anything they do hold, about gods, the dead, things at the edge of the fire? And does any Haldren have a knack, magic of the small costly kind, or none that you describe?
 
 And the Between asks one thing more. Those who keep a fire of yours: do they know what they keep? Do you mean them to know that you can look out of it, and step out of it?
+
+## Player:
+
+Yes to the rest. The first night and the narrowed gate are as I want them on the card, and I accept the one hearth per winter limit, since it keeps me honest about what a hearth can carry.
+
+**How you meet them.** Yes, that's right. They're already here with their own history, they're waiting for nothing, and they don't know a god has come down. I arrive alone, unknown and unasked, and go first to a door, though I don't cross it until asked. If no one asks, I stand at the threshold and wait, and that waiting is the first scene.
+
+**What they believe about gods, before me.** Not much, and nothing grand. They hold a few small things at the edge of the fire:
+
+- On the first hard frost, many houses set a stool by the hearth and leave a cup of something warm on it overnight, "for the late visitor." Nobody can say who the visitor is. It's a custom, kept the way people keep a custom they've stopped explaining. I'd like that to be theirs and nothing to do with me, so that when a seven-foot coat comes to a door at dusk, the oldest people feel a small chill of recognition they can't account for.
+- The dead are carried up to the high ground and left, and a lamp is kept at the house for three nights. After that it's allowed to go out.
+- They tell stories about doors that shouldn't be opened and travelers who weren't what they seemed. They treat those as stories, with a shrug.
+
+They don't pray to anyone. If someone claims a god, they'd give it a polite hearing and a cold look.
+
+**Magic among them.** I describe none. At most, a rumor that one or two old women in the outlying steadings "know things" and that it costs them. If the world wants a hedge-witch somewhere in the valley, it can place her, and the cost of what she does should be the loss of small, specific memories, as I said on Day 1. None of the Haldren I've named has it. Corve certainly doesn't.
+
+**Do those who keep my fire know what they keep.** No, not at first. They know they were given a flame and nothing else. They'll keep it as they'd keep any fire, with oil and wood and care, because the custom says to. They shouldn't know that I can look out of it or step out of it, and I don't mean them to. I'd like them to learn it slowly, or not at all, and I'd like the choice of telling to be mine, to be made once I've seen what kind of person is keeping the fire. If I ever tell Corve, it will be late and deliberate. I accept that the pale, steady flame may give me away before I do.
+
+**The houses.** Leave them unnamed for play.
+
+Yes, the card is right as read.
