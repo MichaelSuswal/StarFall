@@ -274,3 +274,5 @@ Placement plan written to `S/world/placement-plan.md` before any painting: the s
 
 ### 3a.4 Paint the sheets
 Two requests written to `SPOILERS_do_not_open/images/requests/` (sealed; the folder is new, the public `images/requests/` is not used): `sim-02-map-surface.json` (the map block word for word, then the plan as a painter's brief with no names) and `sim-02-map-clouds.json` (the cloud block word for word). Square, 1024 by 1024. No underground request. No other image request tonight.
+Both requests pushed 00:10 Pacific in commit 56e3be8; the push starts the paint job. The wait for the sheets (pull every 30 seconds, up to 20 minutes from 00:10) runs alongside the round 1 replies, since no painting depends on a people's size.
+Paused 00:10 Pacific for the seven round 1 replies (STOP D round 1).
