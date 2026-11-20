@@ -33,8 +33,8 @@ dict and a `features` dict, each entry with grade, source, year and told:
   - reported: told may carry name, type, terrain and shapes (coords, polygon) in
     painting pixels, because it is the god's belief, not the truth.
   - rumored: told.name and told.cell (a grid cell like "C2"), never `near` or any
-    pixel; the faint label is drawn at the cell's center. Rumors attach to features:
-    a region id appears in the player's file only when that region is seen or reported.
+    pixel; the faint label is drawn at the cell's center. Regions and features may
+    both be rumored; a rumored region carries no pixel either.
 Files written before these rules (rumors with `near`, a grid_cell_px grid) are still
 drawn; `migrate` rewrites them.
 
@@ -68,9 +68,9 @@ CELL_RE = re.compile(r"^([A-Z]+)([0-9]+)$")
 OPAQUE_RE = re.compile(r"^[a-z][0-9]{2,4}$")
 TOLD_KEYS = {"name", "terrain", "type", "cell", "coords", "polygon"}
 PIXEL_KEYS = {"coords", "polygon", "near"}
-# Coordinator's rule for build 2: a region id enters the player's file only when seen or
-# reported. engine/rules/map.md's example also shows a rumored region; flip this to allow it.
-RUMORED_REGIONS_ALLOWED = False
+# A rumored region ("the grey wall beyond the hills") is allowed, with told.name and
+# told.cell only, never a pixel. Set False to admit region ids only when seen or reported.
+RUMORED_REGIONS_ALLOWED = True
 
 # Ink and paper.
 PARCHMENT = (239, 227, 196)
@@ -1191,7 +1191,8 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
 
 def migrate(world, knowledge, painting):
     """Bring an older knowledge file to the current rules: rumors get a cell instead of `near`,
-    seen entries lose any told, rumored regions leave the file. Ids are not renamed (that is a
+    seen entries lose any told (and, if RUMORED_REGIONS_ALLOWED is False, rumored regions
+    leave the file). Ids are not renamed (that is a
     sealed-map change). Returns notes on what changed."""
     notes = []
     for table, kind in (("regions", "region"), ("features", "feature")):

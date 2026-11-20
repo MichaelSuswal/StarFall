@@ -6,8 +6,10 @@ Exit code 1 if any check fails. Prints one line per finding.
 
 The clock (campaigns/<name>/state/clock.md) carries campaign, year,
 status: creation|open|closed, creation_night: 1|2|3 while in creation, and season_opens.
-A year the world waited (no player post that day) has years/NNN/waited.md and no advance:
-no sealed year.md, no morning story for the next year, and the clock still on that year.
+A day the world waited (no player post that day) leaves years/NNN/waited-YYYY-MM-DD.md
+(Pacific date) and no advance. In state/timing.md, no Pacific date may have both a line
+containing "waited" and a line containing "clock advanced" or "year N open". A line with
+no date of its own belongs to the last date above it (a heading, usually).
 Rolls are sealed: SPOILERS_do_not_open/campaigns/<name>/state/rolls.jsonl.
 """
 import argparse, json, os, re, sys
@@ -40,23 +42,32 @@ def clock_problems(clock):
     return out
 
 
-def waited_conflicts(base, sealed, clock_year=None):
-    """Years with waited.md that also advanced."""
-    out = []
-    years = set()
-    for root in (base, sealed):
-        d = os.path.join(root, "years")
-        if os.path.isdir(d):
-            years |= {int(n) for n in os.listdir(d) if n.isdigit() and os.path.exists(os.path.join(d, n, "waited.md"))}
-    for y in sorted(years):
-        signs = []
-        if os.path.exists(os.path.join(sealed, "years", f"{y:03d}", "year.md")):
-            signs.append("a sealed year.md")
-        if os.path.exists(os.path.join(base, "years", f"{y + 1:03d}", "morning-story.md")):
-            signs.append(f"a morning story for year {y + 1}")
-        if signs:
-            out.append(f"year {y}: waited.md and a year advance both exist ({', '.join(signs)})")
-    return out
+DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
+ADVANCE_RE = re.compile(r"clock advanced|\byear\s+0*\d+\s+open\b", re.I)
+
+
+def timing_conflicts(timing_path):
+    """Pacific dates in timing.md with both a waited line and an advance line."""
+    if not os.path.exists(timing_path):
+        return []
+    waited, advanced = set(), set()
+    current = None
+    for line in open(timing_path, encoding="utf-8"):
+        m = DATE_RE.search(line)
+        if m:
+            current = m.group(1)
+        if current is None:
+            continue
+        if re.search(r"\bwaited\b", line, re.I):
+            waited.add(current)
+        if ADVANCE_RE.search(line):
+            advanced.add(current)
+    return [f"timing: {d} has both a waited line and a clock advance" for d in sorted(waited & advanced)]
+
+
+def waited_notes(base, year):
+    d = os.path.join(base, "years", f"{year:03d}")
+    return sorted(f for f in os.listdir(d) if re.fullmatch(r"waited-\d{4}-\d{2}-\d{2}\.md", f)) if os.path.isdir(d) else []
 
 
 def main(argv=None):
@@ -79,7 +90,9 @@ def main(argv=None):
             return False
         return True
 
-    waited = os.path.exists(os.path.join(base, "years", f"{year:03d}", "waited.md"))
+    # a year counts as waited when it has waited notes and no sealed record yet
+    notes = waited_notes(base, year)
+    waited = bool(notes) and not os.path.exists(os.path.join(sealed, "years", f"{year:03d}", "year.md"))
 
     # 1. Clock
     clock_path = os.path.join(base, "state", "clock.md")
@@ -96,8 +109,8 @@ def main(argv=None):
         elif clock.get("year") != str(year + 1):
             findings.append(f"clock not advanced to year {year + 1}")
 
-    # 2. Waited years never also advance
-    findings += waited_conflicts(base, sealed)
+    # 2. A day the world waited never also advances the clock
+    findings += timing_conflicts(os.path.join(base, "state", "timing.md"))
 
     # 3. Required outputs for the year (a waited year has none)
     if not waited:
@@ -133,7 +146,7 @@ def main(argv=None):
     # 5. Dashes in player-facing text
     for path in [os.path.join(base, "years", f"{year + 1:03d}", "morning-story.md"),
                  os.path.join(base, "releases", f"{year:03d}", "dm.md"),
-                 os.path.join(base, "years", f"{year:03d}", "waited.md")]:
+                 *[os.path.join(base, "years", f"{year:03d}", n) for n in notes]]:
         if os.path.exists(path):
             text = open(path, encoding="utf-8").read()
             if "\u2014" in text or "\u2013" in text:

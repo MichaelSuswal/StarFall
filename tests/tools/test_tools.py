@@ -161,8 +161,13 @@ def test_reveal_rules():
         assert reveal(repo, "--feature", "f05", "--grade", "rumored", "--source", "x", "--year", "2",
                       "--told", '{"name": "n", "near": [1, 2]}')[0] != 0
         assert reveal(repo, "--feature", "f05", "--grade", "rumored", "--source", "x", "--year", "2", "--cell", "Z9")[0] != 0
-        # region ids enter only when seen or reported
-        assert reveal(repo, "--region", "r03", "--grade", "rumored", "--source", "x", "--year", "2", "--cell", "B3")[0] != 0
+        # a rumored region carries a name and a cell only
+        code, out, err = reveal(repo, "--region", "r03", "--grade", "rumored", "--source", "a shepherd", "--year", "2",
+                                "--name", "the high moor", "--cell", "a4")
+        assert code == 0, err
+        assert json.load(open(know_p))["regions"]["r03"]["told"] == {"name": "the high moor", "cell": "A4"}
+        assert reveal(repo, "--region", "r03", "--grade", "rumored", "--source", "x", "--year", "2",
+                      "--told", '{"name": "m", "polygon": [[0, 0], [1, 0], [1, 1]]}')[0] != 0
         assert reveal(repo, "--region", "nowhere", "--grade", "seen", "--source", "x", "--year", "2")[0] != 0
         # seen corrects a report, drops told and logs the correction
         code, out, _ = reveal(repo, "--feature", "f04", "--grade", "seen", "--source", "walked", "--year", "2")
@@ -188,7 +193,8 @@ def test_migrate_older_file():
            "features": {"f05": {"grade": "rumored", "source": "s", "year": 1, "told": {"name": "hold", "near": [260, 620]}}}}
     assert mapt.knowledge_problems(world, old)
     notes = mapt.migrate(world, old, mapt.Painting(world))
-    assert notes and "r03" not in old["regions"] and old["features"]["f05"]["told"] == {"name": "hold", "cell": "B4"}
+    assert notes and old["regions"]["r03"]["told"] == {"name": "moor", "cell": "A3"}
+    assert old["features"]["f05"]["told"] == {"name": "hold", "cell": "B4"}
     assert mapt.knowledge_problems(world, old) == []
 
 
@@ -272,14 +278,17 @@ def test_lockcheck_leaks():
         append(repo, pub, "Beyond lies Hollow Moor.\n")
         append(repo, "SPOILERS_do_not_open/campaigns/fx/leak-allow.txt", "Hollow Moor\n")
         assert lock(repo, "--leaks")[0] == 0
-    with tmpcopy() as repo:  # a public knowledge file with a pixel rumor or a rumored region fails
+    with tmpcopy() as repo:  # a rumored region with a cell is fine; a rumor with a pixel fails
         _, know_p = fx_paths(repo)
         k = json.load(open(know_p))
-        k["features"]["f06"]["told"] = {"name": "the cinder road", "near": [100, 500]}
         k["regions"]["r03"] = {"grade": "rumored", "source": "s", "year": 1, "told": {"name": "moor", "cell": "A3"}}
         json.dump(k, open(know_p, "w"))
+        assert lock(repo, "--leaks")[0] == 0
+        k["regions"]["r03"]["told"]["near"] = [100, 500]
+        k["features"]["f06"]["told"] = {"name": "the cinder road", "near": [100, 500]}
+        json.dump(k, open(know_p, "w"))
         code, out, _ = lock(repo, "--leaks")
-        assert code == 1 and "never pixels" in out and "only when seen or reported" in out
+        assert code == 1 and "region r03: a rumor carries a cell, never pixels" in out and "feature f06" in out
 
 
 def test_lockcheck_mysteries():
@@ -312,12 +321,16 @@ def test_lockcheck_rolls_and_dashes():
 def test_check_waited_and_clock():
     with tmpcopy() as repo:
         base = os.path.join(repo, "campaigns", "fx")
-        append(repo, "campaigns/fx/years/001/waited.md", "The world waited.\n")
+        append(repo, "campaigns/fx/years/001/waited-2026-11-20.md", "The world waited.\n")
+        append(repo, "campaigns/fx/state/timing.md",
+               "## Year 1, 2026-11-20 (Pacific)\n- 01:45 no decisions file; the world waited.\n"
+               "## Year 1, 2026-11-21 (Pacific)\n- 01:45 decisions found.\n- 03:10 clock advanced, year 2 open.\n")
         code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])
-        assert code == 0, out  # waited: clock stays on year 1, no outputs expected
-        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/001/year.md", "A year.\n")
+        assert code == 0, out  # waited: clock stays on year 1, no outputs expected, dates differ
+        append(repo, "campaigns/fx/state/timing.md", "## 2026-11-22\n- 01:45 the world waited.\n- 03:00 year 2 open\n")
         code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])
-        assert code == 1 and "waited.md and a year advance both exist" in out
+        assert code == 1 and "timing: 2026-11-22 has both a waited line and a clock advance" in out
+        assert "2026-11-20" not in out and "2026-11-21" not in out
         with open(os.path.join(base, "state", "clock.md"), "w") as f:
             f.write("campaign: fx\nyear: 0\nstatus: creation\nseason_opens: spring\n")
         code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])

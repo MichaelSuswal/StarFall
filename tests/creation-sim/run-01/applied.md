@@ -42,3 +42,4 @@ Each line names the change list items it applies.
 - mystery-standard.md: rule 16 on answering beings (96); template reference (95); place ids (94).
 - clue-design.md: mapping to the mystery template (95); god-sense rows made conditional (6).
 - deep-lore.md: god-sense no longer fixed by the lore (6, 18).
+- Tools follow-up: rumored regions allowed with `told.name` and `told.cell` only (86); waited notes named `years/NNN/waited-YYYY-MM-DD.md` and check.py's waited rule read from `state/timing.md` by Pacific date (decision 12); root `.gitignore` for Python caches and the committed `.pyc` files removed from the index; lockcheck run notes in `tests/tools/README.md` (92).
