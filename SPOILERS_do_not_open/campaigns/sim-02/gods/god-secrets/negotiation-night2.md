@@ -32,3 +32,19 @@ I counter on the price. The Keeper rates the weakness as middling and the buy as
 Accept the floor as written in each Limits block. I accept the Keeper's naming of the Unmarked Hand as a power over minds at a people's scale, priced by its drawback that my own people cannot hold it either. That is true and I have no better price to offer. I accept that the Inward Door is a making of more than craft. I accept that the Kept Word guards against workings and nothing more.
 
 Summary of choices: (b) under the Unmarked Hand, with recognition only and not describable, and the knowing at two meetings; all else accepted as drafted, with two write-up wordings asked (the teller's lightness, and the season and doors on the return).
+
+## Round 2 reply
+
+I confirm the final text as written. Nothing in it is wrong, and I name no line to change.
+
+Reasons, item by item:
+
+- The Kept Word: the Description and Drawback are my own wording, and the ruling that the teller remembers telling a secret to someone and keeps the lightness is on the card. Confirmed.
+- The Unmarked Hand: the recognition-only bound is what I asked for. The bound that a knower may say "this is the one" while I stand before them speaking is fair. A knowing that no one could voice in front of me would be a secret each knower held alone, and a household could not keep a door together. I take it. I accept that the refusal of two meetings stands, and I do not reopen it. Three meetings, with a meeting defined as one occasion on which we speak together, is confirmed.
+- The Inward Door: confirmed as written, with the added limit on made closures.
+- The body broken: the season counts from the breaking, and a door of my own making counts if my people have been named to it. Both are on the card. Confirmed.
+- Form, things carried, definitions: confirmed. "The rest unsettled, and no sense inferred" is on the card.
+- The stopped voice: confirmed, with the way it can be used against me. It bought the knowing after three meetings, and it is recorded both ways.
+- The Keeper trait: accepted. It says I find the second way out of every room and know I have built rooms without one. I do not know why I know it, and it does not explain itself to me. I take it as given.
+
+Description and Drawback freeze on this confirmation.

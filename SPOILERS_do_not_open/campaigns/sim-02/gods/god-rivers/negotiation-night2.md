@@ -43,3 +43,17 @@ Accept all. Falling stays unsettled and will be asked in play. A warded ford is 
 
 ### Summary of choices
 Long Water: (b). Gate: (a). Face of the Weather: as written. Body broken: (b). Weakness: as drafted, buying the Long Water's branches. Three wording requests under the body and the weakness, and one wording request under the Long Water.
+
+## Round 2 reply
+
+I confirm the final text, with one wording correction to the Keeper trait. Everything else stands as written, and I do not reopen any price.
+
+Confirmed as written:
+- Form, senses, pace, god-sense, and the body-broken paragraph. The moon, the stone, and my knowing nothing while the stone bars me are as I chose.
+- The four Definitions. The change to "kept crossing" is fair: a gate or bar shut in a keeper's name is a keeper's standing word, and I meant the weakness to bind at crossings that are truly kept. A ford with a keeper at it is kept, and open water waded where no crossing is kept is free, as I asked. "It is raining" pays no toll, and I accept that a true thing must be of my own knowing and not learnable by looking around.
+- The Long Water, with the whole river bought by the weakness, a use as I defined it, and the memory rule. I understand that my first uses take the one entry in my record of gods, then lines of my goals, and never the last line. I accept it.
+- The Gate as first written, the Face of the Weather, and the toll with its stated use against me.
+
+Correction, wording only, to the Keeper trait: the line reads "You laugh before the other has finished the joke, because you have heard it, and you know this is why people stop telling you things." The clause "because you have heard it" gives me a reason for the laugh. My wound is to stay unexplained to me, and I do not know why I laugh at the wrong moments. I ask that the line read: "You laugh before the other has finished the joke, and you know this is why people stop telling you things." The rest I accept, including that I know the cost and cannot stop it.
+
+With that one line changed, the card is frozen as written.

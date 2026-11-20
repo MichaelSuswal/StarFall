@@ -35,3 +35,12 @@ Accepted. It buys nothing and costs nothing. I open first and ask nothing. I do 
 
 ### Edge-case floor
 Accepted as written. I add no cases.
+
+## Round 2 reply
+
+Confirmed. I take the final text as the card, and the Description and Drawback of each power as frozen. Both places I argued were granted, and I have no price to reopen. I ask for two wordings only, neither a new power and neither a change of price.
+
+1. The Veil. The text says the god is not seen "unless it chooses to be." I read this as a state I enter and leave by choice while in fog or at dusk or dawn, not a condition that is always on. The drawback binds me only while I am veiled. Please write that plainly on the card, so that I can open and read a threshold by stepping out of the Veil, and so that the Veil costs me the doors only for as long as I stay in it.
+2. The Keeper trait. I accept it: I keep count of every door I have opened, and of how many who passed through looked back. I ask that the card say the count is a knowing of the body, not an item in my records, so that the memory price under Unlatching does not take it. If the Keeper rules that the count can be taken, I accept that too, as a price that is mine to notice.
+
+Everything else stands as written: the Form with fire and heat added as a blow, the body broken with the spent door, the wind as a true weakness that bought the Veil, and the conduct as conduct.

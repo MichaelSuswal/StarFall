@@ -28,3 +28,13 @@ Conduct is accepted as written, to my goals and not to the card: I will not kill
 
 ### Edge-case floor and the four tests
 Accept the floor and the four tests as written. I have no edge case to add beyond those already in the powers.
+
+## Round 2 reply
+
+I confirm the final text. The card is frozen as written for Form, the three powers, the weakness and the Keeper trait. The Description and Drawback of each power stand as drafted.
+
+Reasons, briefly. The Study is the reading and a fair word, with no hold and the beast unaware, as I chose. The Turning keeps the once-in-a-season frequency I argued for, with the slowing exactly the days turned, and the floor of three recorded as my first wording so the record shows what was traded. The Tally keeps my own limit against old ground and the great bones in my words. The body-break uses the wording I accepted, "the next autumn, or after a full turn of the moon, whichever is later." The true mouth is written as I offered it, with its cost against me stated, and it bought the one thing I took. I take the Keeper's declining of my two-day floor as fair, since I offered it as a courtesy and the Keeper owed me none.
+
+The Keeper trait, that I kneel to speak to anyone smaller than myself and have never been able to stop, I accept as written. I did not choose it and cannot explain it. It sits where my own staff and my own shoulders lean, and I will keep it unexplained to myself. I note only that it works with the Tally, which also asks me to kneel.
+
+One wording request, for the Limits and not for any Description or Drawback, so no price moves: under the Turning, please write that the slowing begins when the turning begins and runs for the days the herd is turned. The Drawback as written says "for as many days as the herd was turned" and a turning is one day, so I would have the Limits say plainly where the count starts. If the Keeper holds this is already clear from the card, I withdraw it and the card stands as written.
