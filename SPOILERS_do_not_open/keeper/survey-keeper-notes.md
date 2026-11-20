@@ -20,21 +20,20 @@ How the Keeper uses the Day 1 survey answers (and the Day 2 and 3 follow-ups) to
 
 ## Given and discovered
 
-The player is never told which wishes the world kept. What is innate to a god is given before Day 2: the Keeper writes it to `P/player/world-rules.md` for the DM, in the same words the NPC gods receive in their Night 2 releases, as plain facts of being a god here. Everything else the survey sets is learned from the world, in play, through what the god and its people meet.
+The player is never told which wishes the world kept. What is innate to a god is given before Day 2: the Keeper writes it to `P/player/world-rules.md` for the DM, in the same words the NPC gods receive in their Night 2 releases, as plain facts of being a god here. That file carries three things and nothing else: god-sense as set, the bodies rule as set, and the pricing terms for mortal magic (it is simple, and it costs the worker). The god's own power limits are settled at the Day 2 table and live on its card. Everything else the survey sets is learned from the world, in play, through what the god and its people meet.
 
 | Question | Given before Day 2 | Discovered in play |
 |---|---|---|
-| Q15 god-sense | yes | |
+| Q15 god-sense | yes, as direction, nearness or weight, never a count | |
 | Q16 bodies | yes | |
-| The god's own power limits (Day 2) | yes | |
+| Q7 what magic feels like and costs | only "it costs the worker", as a pricing term | its feel, and what the cost takes and from whom |
 | Q6 how much magic mortals have | | yes |
-| Q7 what magic feels like and costs | | yes |
 | Q8 how much a god stands out | | yes |
 | Q9 how strange the wild is | | yes |
 | Q11 scarcities | | yes |
 | Every other question | | yes |
 
-Nothing discovered appears in `world-rules.md`, in a release to an NPC god, or in a Day 3 brief. The DM's Day 3 brief may say only what is needed to price a people's magic (that mortal magic is simple and costs the worker); its prevalence is not stated.
+Nothing discovered appears in `world-rules.md`, in a release to an NPC god, or in a Day 3 brief. The Day 3 brief repeats only the pricing terms.
 
 ## The arithmetic of scales
 
@@ -92,13 +91,13 @@ The ceiling is 70 plus a d10, rolled on Night 1 after the Q8 blend. Q8 shades th
 
 | Q8 result | The d10 |
 |---|---|
-| 1 to 2 | roll two, keep the lower, then lower it by one (never below 1) |
+| 1 to 2 | roll two (two rolls, each named), keep the lower, then lower it by one (never below 1) |
 | 3 to 4 | roll two, keep the lower |
 | 5 to 6 | roll one |
 | 7 to 8 | roll two, keep the higher |
 | 9 to 10 | roll two, keep the higher, then raise it by one (never above 10) |
 
-Write the method in the keeper log before the first die. The ceiling always lies between 71 and 80.
+Write the method in the keeper log before the first die. Two dice are two rolls, each named for itself in `--what` ("ceiling, first d10", "ceiling, second d10"). The ceiling always lies between 71 and 80.
 
 Principle from run 01 (Night 3, step 3.4, shading): when one result is said to "feed" or "shade" a roll and no file says how, the Keeper writes the method in the log before the die is cast, and never after.
 
@@ -116,7 +115,7 @@ Principle from run 01 (Night 3, step 3.4, shading): when one result is said to "
 
 **6. How much magic mortals have.** Scale, then bounded by the star (table above). Never 0, never everywhere. Discovered.
 
-**7. What magic feels like and costs.** Pool. The most shared feel and cost become how magic works for mortals everywhere, consistent with what magic is in the deep lore. A god's people share this magic, and the god shares it in its own way. Minority answers may survive as a local tradition's understanding of magic (often wrong, per the mystery standard) but never as a second magic system. Discovered.
+**7. What magic feels like and costs.** Pool. Only "it costs the worker" is given, as a pricing term; the rest is discovered. The most shared feel and cost become how magic works for mortals everywhere, consistent with what magic is in the deep lore. A god's people share this magic, and the god shares it in its own way. Minority answers may survive as a local tradition's understanding of magic (often wrong, per the mystery standard) but never as a second magic system. Discovered.
 
 **8. How much a god stands out.** Scale. Shades the ceiling roll (table above) and sets how mortals react to gods at first sight. Discovered.
 
@@ -132,7 +131,7 @@ Principle from run 01 (Night 3, step 3.4, shading): when one result is said to "
 
 **14. Travelers from afar.** Scale plus a pool of what they brought. Travelers come from under other stars, consistent with the deep lore, each from an entry in the sealed map's plane section. What they brought becomes the edge they hold over local peoples, and their history in the land. Discovered.
 
-**15. How gods recognize each other.** Rule, by vote. Becomes the campaign's god-sense (DESIGN 7.2). Options are usually three (a pull felt at any distance, a knowing only face to face, something else); count them by the wider-vote rule. Sub-points (how near, how sure, whether it can be held in) by the sub-point rule. Michael's own preference when he plays counts as one vote, like any other. Given before Day 2.
+**15. How gods recognize each other.** Rule, by vote. Becomes the campaign's god-sense (DESIGN 7.2). Options are usually three (a pull felt at any distance, a knowing only face to face, something else); count them by the wider-vote rule. Sub-points (how near, how sure, whether it can be held in) by the sub-point rule. Whatever the vote sets, god-sense is never a tally: a god feels direction, nearness or weight, never a count (DESIGN 7.2). Michael's own preference when he plays counts as one vote, like any other. Given before Day 2.
 
 Principle from run 01 (Night 1, Q15): a vote on a world rule stands whole. Where a sealed file seems to fix the same matter, the vote governs and the sealed file is read as yielding to it. Anything the lore keeps that touches the rule may live in the world only as a thing to be found (a being, an object, a power to be grown), never as a place where the rule itself reads differently, and never as a sense a god has without asking.
 
