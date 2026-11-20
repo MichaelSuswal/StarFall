@@ -14,7 +14,7 @@ Sealed folders per god: `S/gods/<god>/` is what the god's own agent reads. `S/go
 
 ## Standing rules for all three nights
 
-- **Permission.** Once Michael has started the campaign, these nights run under the approved design. The Keeper and every agent it spawns take this runbook and their release as the go for exactly the files named in the night's Writes list and the release, and for nothing else. Nothing here authorizes a change to the engine, the design or the files in `SPOILERS_do_not_open/keeper/`. The only image requests the nights make are the map sheets in 3a.2. A repaint needs Michael's go (3a.3).
+- **Permission.** Once Michael has started the campaign, these nights run under the approved design. The Keeper and every agent it spawns take this runbook and their release as the go for exactly the files named in the night's Writes list and the release, and for nothing else. Nothing here authorizes a change to the engine, the design or the files in `SPOILERS_do_not_open/keeper/`. The only image requests the nights make are the map sheets in 3a.4. A repaint needs Michael's go (3a.5).
 - **Rolls.** Every random outcome goes through `tools/roll.py --who keeper --campaign <name>`, so the log lands in `S/state/rolls.jsonl` and never in the public `P/state/rolls.jsonl`. Name every roll plainly in `--what` (which god, which table, which item). The tool assigns and prints an id `r-NNNN`; cite it.
 - **Table rolls** use `--die d6|d8|d10|d12|d20|d30`. The tool maps the face and makes any range reroll itself, and logs the face with no success. A lean is a plain roll (1 to 100) with no `--die`. Company adds 25 to its lean and caps at 100. A reroll for a reason the tool cannot see (a duplicate seed or domain) is a new roll with `--reason` and `--replaces r-NNNN`. A d100 table (the star's phase) is a plain roll read as 1 to 100.
 - **Blends and votes** follow `survey-keeper-notes.md` exactly: placement of every answer logged before any roll, median of those who answered, a half settled by an even-odds roll, one variation roll, clamp to 1 to 10; rule votes by the counting rules there. Vote counts go in the keeper log and nowhere else.
@@ -25,7 +25,7 @@ Sealed folders per god: `S/gods/<god>/` is what the god's own agent reads. `S/go
 - **The Keeper never speaks to the player.** Anything the DM needs is written to `P/player/` in words the player may read. Nothing in `P/` names a vote, a pool, another god, a count of gods, a sealed place id, a coordinate, a star value, a mystery or a scheduled event.
 - **Places.** Every place named in any file under `S/` carries its bracketed map id, like `[r12]` or `[f03]`, from 3a on. Before 3a, places are named by the placement draft's working names and get ids when traced.
 - **Land in words comes from the map.** No release or record describes distance, direction, line of sight or travel days except from `S/map.json` after tracing, at the pace table's rates.
-- **Close of every night.** Each night ends with its close check: every file in the night's Writes list exists and is complete; a neutrality self-check (each place the Keeper could have leaned toward or against any god, and what was done instead); the night's roll range; the close time. Then commit (message `<name> Night N: closed`), push, and set `creation_night` in the clock to the next night.
+- **Close of every night.** Each night ends with its close check: every file in the night's Writes list exists and is complete; a neutrality self-check (each place the Keeper could have leaned toward or against any god, and what was done instead); the night's roll range; the close time. Then commit (message `Creation night N: <name> closed`), push, record the times in `P/state/timing.md`, and set `creation_night` in the clock to the next night.
 
 ### The creation log format
 
@@ -62,7 +62,7 @@ The star comes first, before the gods and before the blend, because it bounds th
 
 - [ ] Roll every item under the deep lore's `Per-star variation` heading except the ceiling, one roll per item, with the die the lore gives: phase (plain roll, 1 to 100), rain density (d6), living radius (d8), center body (d6), long-game presence (d6), Remainder (d10), star content (d10), ascended temper (d6).
 - [ ] Write each result to `S/star.md` with its roll id, and the magic range rain density allows, from the table in `survey-keeper-notes.md`.
-- [ ] Note in the log what each result removes or requires for later nights (a rolled result that removes a body the lore names is not replaced; see 3b.2).
+- [ ] Note in the log what each result removes or requires for later nights (a rolled result that removes a body the lore names is not replaced; see 3b.4).
 - [ ] The ceiling is rolled in 1.6, after the Q8 blend that shades it.
 
 Principle from run 01 (Night 3, order of work): anything that decides what a painting must show or what a god must be told is rolled before the step that needs it. When an order of work would let a later roll change something already released, roll first and log why.
@@ -94,10 +94,10 @@ For each god, in order, with `tools/roll.py`:
 
 Per `survey-keeper-notes.md`, the player's answers counting as one voice in eight. For each question, log the eight answers in summary, the Keeper's placement of each on the scale (before any roll), the blend, the roll ids, and what was built.
 
-- [ ] Before rolling any scale question, ask any range follow-up that question needs (1.8) and wait for the answer. A follow-up answer replaces the answer it follows.
+- [ ] Before rolling any scale question, ask any NPC god's range follow-up that question needs (1.8) and wait for the answer. A follow-up answer replaces the answer it follows. The player cannot be asked until Day 2, after the blend is final: a player's scale answer the blend cannot place is placed at the midpoint of the points it names, and the placement is logged. A Day 2 follow-up on it may shape the player's own god, never the blend.
 - [ ] Q1 feel: pool. The world's tone, light, weather tendency, palette within the house style.
 - [ ] Q2 land: placement wishes, one per god. List the terrain the world must contain.
-- [ ] Q3 seasons: scale for the climate. Waking seasons are per god (1.4); the player's goes to the clock in 3b.6.
+- [ ] Q3 seasons: scale for the climate. Waking seasons are per god (1.4); the player's goes to the clock in 3b.8.
 - [ ] Q4 past the borders: scale. Sets the share of land held by godless peoples.
 - [ ] Q5 age of the human story: scale. Sets the depth the deep history must reach.
 - [ ] Q6 mortal magic: scale, then bounded by the star's magic range (1.2). If the blend falls outside the range it clamps to the nearest end; log the clamp. The level is final tonight.
@@ -133,13 +133,13 @@ Per `survey-keeper-notes.md`, the player's answers counting as one voice in eigh
 
 ### 1.9 Close
 
-- [ ] Close check (standing rules). Commit `<name> Night 1: closed`, push, set `creation_night: 2`.
+- [ ] Close check (standing rules). Commit `Creation night 1: <name> closed`, push, set `creation_night: 2`.
 
 ## Night 2: the gods make themselves
 
 Reads: the Night 1 entries of the keeper log, and Night 1's files where a step needs them; `engine/creation/day2-the-god.md`; `engine/rules/powers.md`; `deep-lore.md` (the origin of the gods, under its own heading); `S/star.md`; the player's Day 2 outputs written by the DM: `P/player/power-card.md`, `appearance-card.md`, `backstory.md`, `conduct-profile.md`, `power-lean.md`, `rejected-premises.md`, and the player's answers in `P/player/followups-day2.md`.
 
-Writes: per NPC god, in `S/gods/<god>/`: `self.md`, `goals.md`, `record-of-gods.md`, `negotiation-night2.md`, `power-card.md`, updates to `sheet.md`; per NPC god, in `S/gods-sealed/<god>/`: `backstory-secret.md`, `hidden-powers.md`, `growth.md`; `S/gods-sealed/common-past.md`; `S/player/backstory-secret.md`, `hidden-powers.md`, `growth.md`; `S/releases/creation/<god>-night2.md`, `<god>-night2-negotiation.md`, `<god>-day3-questions.md`; `S/balance.md`; `S/ruling-ledger.md`; `S/placement-draft.md`; `P/player/day3-brief.md`; `P/player/followups-day3.md`; ruling ids written back to `P/player/power-card.md` (2.3); the keeper log.
+Writes: per NPC god, in `S/gods/<god>/`: `self.md`, `goals.md`, `record-of-gods.md`, `negotiation-night2.md`, `power-card.md`, updates to `sheet.md`; per NPC god, in `S/gods-sealed/<god>/`: `backstory-secret.md`, `hidden-powers.md`; `S/gods-sealed/common-past.md`; `S/player/backstory-secret.md`, `hidden-powers.md`; `S/releases/creation/<god>-night2.md`, `<god>-night2-negotiation.md`, `<god>-day3-questions.md`; `S/balance.md`; `S/ruling-ledger.md`; `S/placement-draft.md`; `P/player/day3-brief.md`; `P/player/followups-day3.md`; ruling ids written back to `P/player/power-card.md` (2.3); the keeper log.
 
 ### 2.1 Release the rules to each god
 
@@ -201,105 +201,112 @@ Written before the hidden powers, which must fit them.
 - [ ] Check that `P/player/power-card.md` says only that two hidden powers exist and that its Ceiling line reads `Set by the world. Not shown.` If the DM wrote it otherwise, write the correction to `P/player/corrections.md` for the DM; do not edit the player's card yourself.
 - [ ] A hidden power fitted to the player's backstory may also serve what the player says it wants. That is allowed with narrow limits (it gives the next step, never an end or a cause), and it is flagged in the night's neutrality check.
 
-### 2.7 Growth files
-
-- [ ] Write `growth.md` for every god (`S/gods-sealed/<god>/`, `S/player/`), in template 7.10: one block per power, main and hidden, every field empty. The night turn fills them only when the world earns it.
-
-### 2.8 Balance
+### 2.7 Balance
 
 - [ ] Write `S/balance.md`: for each of the eight gods a weight from 1 to 10 of its total power (main powers, drawbacks, trades, hidden powers), with a line of reasons, the DM's lean note for the player included.
-- [ ] Where one god is far out of line, adjust its card before freezing by negotiation as in 2.3, never by silent edit. Roughly equal, not exactly. If a god stays noticeably stronger, log it as a fact the world's politics will deal with (DESIGN 3.15).
+- [ ] Where one god looks far out of line before confirmation, say so in its round 2 counter, with reasons, as part of the negotiation. After confirmation a card is frozen: bring a god toward the band only through its hidden powers, which no agent has seen, and never by any edit of a card. Roughly equal, not exactly. If a god stays noticeably stronger, log it as a fact the world's politics will deal with (DESIGN 3.15).
 - [ ] The player's card is never changed here. A concern goes to the DM through `P/player/corrections.md` as a question.
 
-### 2.9 Provisional placement and the Day 3 brief
+### 2.8 Provisional placement and the Day 3 brief
 
 - [ ] Write `S/placement-draft.md`: the region's provisional size (a continent, its rough width and height in miles), each god's landing country from its Q2 wish and the terrain list, spaced evenly in rough terms, and a paragraph of the deep history each land will carry, to be written in full in 3b.
 - [ ] Write `P/player/day3-brief.md` for the DM: the kind of country the player's god will land in and what the land itself shows, in words the player may hear, and the season. No distance, compass direction or line of sight (those come from the traced map). Nothing of who lives there beyond what the land would show: smoke, walls, a worn track and grazed turf are land; who the people are, how many, what they are called, are not. Nothing of history, nothing of other gods. The placement plan in 3a must honor this brief.
 - [ ] Mortal magic in the brief: only what the DM needs to price a people's magic on Day 3, in player-safe words (that mortal magic is simple, that it costs the worker, and that the Keeper fits a people's magic to the world on Night 3). Its prevalence is discovered in play and is not stated.
 - [ ] The brief names the channel for what the DM cannot settle at the table: the DM lists each item in `P/player/people-meeting.md` under `## For the Keeper to reconcile`, and the Keeper answers each on Night 3.
 
-### 2.10 Follow-ups for Day 3
+### 2.9 Follow-ups for Day 3
 
 - [ ] Write `P/player/followups-day3.md`: few, from gaps in the player's god that bear on its people (a rejected hierarchy, a form that changes how a people could live, a power that touches its followers). Same bar and constraints as Night 1.
 - [ ] Write each NPC god's Day 3 questions to `S/releases/creation/<god>-day3-questions.md`, to go into its Night 3 release.
 
-### 2.11 Close
+### 2.10 Close
 
-- [ ] Close check. Commit `<name> Night 2: closed`, push, set `creation_night: 3`.
+- [ ] Close check. Commit `Creation night 2: <name> closed`, push, set `creation_night: 3`.
 
-## Night 3a: the land and the peoples
+## Night 3a: the peoples and the map
 
-Reads: the keeper log for Nights 1 and 2, and their files where a step needs them; `engine/creation/day3-the-people.md`; `engine/rules/map.md`; `engine/rules/time-and-pace.md`; `engine/style/house-style.md` (the map style block); `S/star.md`; `S/placement-draft.md`; `S/world-draft.md`; the player's Day 3 outputs written by the DM: `P/civs/<people>/record.md` and `state.md`, `P/player/people-meeting.md` (with its items to reconcile), `P/player/hierarchy.md`, `P/player/rejected-premises.md`, the answers in `P/player/followups-day3.md`, and dated Day 3 entries on `P/player/power-card.md`.
+Reads: the keeper log for Nights 1 and 2, and their files where a step needs them; `engine/creation/day3-the-people.md`; `engine/rules/map.md`; `engine/rules/time-and-pace.md`; `engine/style/house-style.md` (the map style block); `S/star.md`; `S/placement-draft.md`; `S/world-draft.md`; the player's Day 3 outputs written by the DM: `P/civs/<people>/record.md` and `state.md`, `P/player/people-meeting.md` (with its items to reconcile), `P/player/hierarchy.md`, `P/player/rejected-premises.md`, the answers in `P/player/followups-day3.md`, and the dated Day 3 entries on `P/player/power-card.md` and the conduct profile.
 
-Writes: `S/world/placement-plan.md`; the map sheet requests in `SPOILERS_do_not_open/images/requests/`; `S/map/` (the returned sheets); `S/map.json`; `S/world/gazetteer.md`; `S/releases/creation/<god>-night3.md` and `<god>-night3-negotiation.md`; `S/gods/<god>/people-hoped.md` and `negotiation-night3.md` (by the agents); `S/civs/<people>/record.md` and `state.md` for seven NPC peoples; `S/civs/godless/<people>/record.md` and `state.md` for three to five; `S/civs/<player's people>-sealed.md`; `P/civs/<people>/state.md` (starting numbers); `S/gods/<god>/map-knowledge.json`; `P/player/map-knowledge.json`; the keeper log.
+Writes: `S/releases/creation/<god>-night3.md` and `<god>-night3-negotiation.md`; `S/gods/<god>/people-hoped.md` and `negotiation-night3.md` (by the agents); `S/civs/<people>/record.md` and `state.md` for seven NPC peoples; `S/civs/godless/<people>/record.md` and `state.md` for three to five; `S/civs/<player's people>-sealed.md`; `P/civs/<people>/state.md` (starting numbers); `S/world/placement-plan.md`; the map sheet requests in `SPOILERS_do_not_open/images/requests/`; `S/map/` (the returned sheets); `S/map.json`; `S/world/gazetteer.md`; `S/gods/<god>/map-knowledge.json`; `P/player/map-knowledge.json`; the keeper log.
 
-### 3a.1 The placement plan
+### 3a.1 The NPC peoples
 
-- [ ] Write `S/world/placement-plan.md`, a written geography and not a drawing: one continent; the eight seats spaced evenly, each in the country its Q2 wish and the placement draft gave it, each many weeks' walk from the next by the pace table, none crowded and none cut off; the player's seat as its Day 3 brief described it; the godless peoples between them; rivers running downhill to a coast, seas, ranges, rain shadows, borders where the land changes; every terrain on the Night 1 list; the center body where the star's center lies.
+- [ ] Write `S/releases/creation/<god>-night3.md` from template 7.7: the kind of country the god will land in and what the land itself shows, in its waking season, written from the placement draft exactly as the player's Day 3 brief was written for the player (no distance, compass direction or line of sight; those come only after tracing); what is true of the world that bears on a people, in the same words the Day 3 brief gave the DM; the Day 3 checklist from `day3-the-people.md` turned toward an NPC; its Day 3 questions from `S/releases/creation/<god>-day3-questions.md`; and the rule that ordinary culture is free and every real edge is priced. Every option the player was offered on Day 3 is offered once, in the same terms. Nothing suggests a size, a shape, or that a people with or without edges is usual.
+- [ ] Spawn the seven agents. Each writes `S/gods/<god>/people-hoped.md` in the people record template (section 7.3): who they are, how many, how they live, their code, skills and culture, proposed edges with the weakness it offers for each, their magic, what they believe about gods, their hierarchy or its rejection, how the god hopes to meet them. The god may name its people and their home.
+- [ ] Price every proposed edge against a weakness by negotiation, as in 2.3, in `S/releases/creation/<god>-night3-negotiation.md` and `S/gods/<god>/negotiation-night3.md`: round 1 draft and arguments, round 2 counter and final, round 3 confirmation at most. If the god proposed no edge, round 1 says once, as a plain fact, that no edge is required, and asks it to confirm.
+- [ ] Draft the agreed record in `S/civs/<people>/record.md`. The world listens and does not obey: each people has a history, neighbors and a trouble its god did not ask for. Fit its magic to the world's level, the same way for every people. Its sections on places and the land are finished in 3a.6, from the traced map.
+- [ ] Write `S/civs/<people>/state.md` with starting numbers: population, stores, treasure, trade, strength, mood.
+- [ ] Decide for each of the eight peoples how the god meets them (already there, waiting, arrived with it), to be reconciled with the deep history in 3b. The player's agreed meeting is kept unless the history cannot hold it; then the smallest change that fits is made and logged, with a line for the DM in `P/player/corrections.md`.
+
+### 3a.2 The player's people
+
+- [ ] Set the starting numbers in `P/civs/<people>/state.md`, in words the player may read, if the DM left them unset.
+- [ ] Answer each item under `## For the Keeper to reconcile` in `P/player/people-meeting.md`. The world's side of each answer goes in `S/civs/<people>-sealed.md`; anything the DM must change goes to `P/player/corrections.md`.
+- [ ] The player names its own people and their home. The Keeper names everything else. Named mortals the player made live in `P/civs/<people>/people/`.
+- [ ] The player's descriptions of its land or its past (Day 3) are wishes or its people's beliefs, never facts, until placed in the placement plan (3a.3) or in 3b. Place them only where the world can hold them, and log each.
+
+### 3a.3 The godless peoples and the placement plan
+
+- [ ] The godless peoples: three to five, their number and held land set by the Q4 scale. Each in `S/civs/godless/<people>/record.md`: who they are, how many, where, how they live, their code, their history in the land, what they believe about gods, what they want, and whether and how they touch the great events. Each has a real backstory whether or not it ties in. Each gets a `state.md`. The Keeper runs them in the night turn.
+- [ ] Then write `S/world/placement-plan.md`, a written geography and not a drawing: one continent; the eight seats spaced evenly, each in the country its Q2 wish and the placement draft gave it, each many weeks' walk from the next by the pace table, none crowded and none cut off; the player's seat as its Day 3 brief described it; the godless peoples between them; rivers running downhill to a coast, seas, ranges, rain shadows, borders where the land changes; every terrain on the Night 1 list; the center body where the star's center lies.
 - [ ] An underground layer exists only if the world has one (the Q12 pool, the deep lore's bodies, the star's results). If it does, the plan describes it as its own sheet under the same grid.
-- [ ] The player's descriptions of its land or its past (Day 3) are wishes or its people's beliefs, never facts, until placed here or in 3b. Place them only where the world can hold them, and log each.
 
-### 3a.2 Paint the sheets
+### 3a.4 Paint the sheets
 
 - [ ] Write the map painting prompts from the plan, in the map style block of `engine/style/house-style.md`: the continent seen from above in the manner of a map of Middle-earth, less detail at larger scale, topography only, with no text, labels, figures, buildings, borders or grid. One surface sheet and one cloud sheet for the fog; one sheet per underground layer only if the world has one. No close-up sheets.
 - [ ] Put the requests in `SPOILERS_do_not_open/images/requests/`, never in the public `images/requests/`. Log each request and its time.
 
-### 3a.3 Trace the sheets
+### 3a.5 Trace the sheets
 
-- [ ] When the sheets return (to `SPOILERS_do_not_open/images/out/`), place them in `S/map/` (`surface.png`, `clouds.png`, `under-N.png`) and trace the data onto them per `engine/rules/map.md` into `S/map.json`: the letter-number grid of about 16 to 20 cells (5 by 4); regions with `elevation`, `water`, `climate` and `neighbors` (each neighbor's id and travel days at the pace table); every settlement as a point, ruin, site, `road` feature and underground feature that exists at creation, each with its id, region and who knows of it; the `landings` block; the `plane` section (section 8). The whole world exists here from the lock.
+- [ ] When the sheets return (to `SPOILERS_do_not_open/images/out/`), place them in `S/map/` (`surface.png`, `clouds.png`, `under-N.png`) and trace the data onto them per `engine/rules/map.md` into `S/map.json`: the letter-number grid of about 16 to 20 cells (5 by 4); regions with `elevation`, `water`, `climate` and `neighbors` (each neighbor's id and travel days at the pace table); every settlement as a point, ruin, site, `road` feature and underground feature that exists at creation, each with its id, region and who knows of it; the `landings` block. The plane section is added in 3b.2. The whole world exists here from the lock.
 - [ ] Check every feature lands where the paint shows it with a test sheet drawn from a scratch knowledge file, then delete the scratch file. Fix mismatches in the data: the data follows the paint.
 - [ ] Measure from `S/map.json` and log: the distance in days between every pair of neighboring seats; that every seat sits in its wished terrain; that the player's seat matches its Day 3 brief.
-- [ ] **When the paint misses the plan.** Where the paint departs from the plan, the plan yields and the seats are re-set on the painted ground. The paint misses only when it has lost a god's asked-for country altogether (no coast where a god asked for coast), the player's Day 3 country included. Then one repaint is allowed: write the corrected prompt to `SPOILERS_do_not_open/images/requests/held/`, log it as an image request awaiting Michael's go, and do not send it without that go. Until the go comes, trace on the sheet in hand; if the go comes before 3b ends, repaint once, retrace, and redo 3a.4 to 3a.8 on the new sheet. Never more than one repaint.
+- [ ] **When the paint misses the plan.** Where the paint departs from the plan, the plan yields and the seats are re-set on the painted ground. The paint misses only when it has lost a god's asked-for country altogether (no coast where a god asked for coast), the player's Day 3 country included. Then one repaint is allowed: write the corrected prompt to `SPOILERS_do_not_open/images/requests/held/`, log it as an image request awaiting Michael's go, and do not send it without that go. Until the go comes, trace on the sheet in hand; if the go comes before 3b ends, repaint once, retrace, and redo 3a.5 to 3a.7 on the new sheet. Never more than one repaint.
+- [ ] Write `S/world/gazetteer.md` from the traced map: every region with terrain, elevation, climate, water, neighbors and days, its places, and its ordinary wonders with no mystery attached.
 
 Principle from run 01 (Night 3, step 3.2, scale): regions are sized to what play needs, not evenly: finest around the seats, coarser between, coarsest in empty country. Anything smaller than the sheet can paint exists as data only, named and placed in `map.json` like anything painted.
 
 Principle from run 01 (Night 3, step 3.2, location): where this runbook and a tool disagree on a path or a format, follow the tool, log the disagreement for Michael, and change neither.
 
-### 3a.4 The NPC peoples
+### 3a.6 Land in the records
 
-Only now, from the traced map, is any god told its land.
+Only now, from the traced map, is any land described in distances, directions or sight lines.
 
-- [ ] Write `S/releases/creation/<god>-night3.md` from template 7.7: its country as the god will first see it in its waking season, written from `S/map.json` (directions, distances and sight lines measured, not guessed); what is true of the world that bears on a people, the same as the DM's Day 3 brief gave for the player; the Day 3 checklist from `day3-the-people.md` turned toward an NPC; its Day 3 questions from `S/releases/creation/<god>-day3-questions.md`; and the rule that ordinary culture is free and every real edge is priced. Every option the player was offered on Day 3 is offered once, in the same terms. Nothing suggests a size, a shape, or that a people with or without edges is usual.
-- [ ] Spawn the seven agents. Each writes `S/gods/<god>/people-hoped.md` in the people record template (section 7.3): who they are, how many, how they live, their code, skills and culture, proposed edges with the weakness it offers for each, their magic, what they believe about gods, their hierarchy or its rejection, how the god hopes to meet them. The god may name its people and their home.
-- [ ] Price every proposed edge against a weakness by negotiation, as in 2.3, in `S/releases/creation/<god>-night3-negotiation.md` and `S/gods/<god>/negotiation-night3.md`: round 1 draft and arguments, round 2 counter and final, round 3 confirmation at most. If the god proposed no edge, round 1 says once, as a plain fact, that no edge is required, and asks it to confirm.
-- [ ] Write the agreed record to `S/civs/<people>/record.md`, every place with its map id. The world listens and does not obey: each people has a history, neighbors and a trouble its god did not ask for. Fit its magic to the world's level, the same way for every people.
-- [ ] Write `S/civs/<people>/state.md` with starting numbers: population, stores, treasure, trade, strength, mood.
-- [ ] Decide for each of the eight peoples how the god meets them (already there, waiting, arrived with it), reconciled with the deep history to be written in 3b. The player's agreed meeting is kept unless the history cannot hold it; then the smallest change that fits is made and logged, with a line for the DM in `P/player/corrections.md`.
-
-### 3a.5 The player's people
-
-- [ ] Set the starting numbers in `P/civs/<people>/state.md`, in words the player may read, if the DM left them unset.
-- [ ] Answer each item under `## For the Keeper to reconcile` in `P/player/people-meeting.md`. The world's side of each answer goes in `S/civs/<people>-sealed.md`; anything the DM must change goes to `P/player/corrections.md`.
-- [ ] The player names its own people and their home. The Keeper names everything else. Named mortals the player made live in `P/civs/<people>/people/`.
-
-### 3a.6 The godless peoples
-
-- [ ] Three to five, their number and held land set by the Q4 scale. Each in `S/civs/godless/<people>/record.md`: who they are, how many, where (with map ids), how they live, their code, their history in the land, what they believe about gods, what they want, and whether and how they touch the great events. Each has a real backstory whether or not it ties in. Each gets a `state.md`. The Keeper runs them in the night turn.
+- [ ] Finish every people's record (the eight god-led and the godless): every place with its map id; `What they know of the land`, each place with its id and the grade of that knowledge; every distance, direction and travel time measured from `S/map.json` at the pace table's rates.
+- [ ] Re-read each NPC god's people-hoped and agreed record against the map. Where a god hoped for ground the paint did not give, the record says what the land holds, and the log says what changed.
 
 ### 3a.7 Starting map knowledge
 
 - [ ] For each god, `S/gods/<god>/map-knowledge.json`, and for the player `P/player/map-knowledge.json`, in three grades: `seen`, `reported` and `rumored`. Draw each from what the god could know at the moment of landing.
-- [ ] Where no god has yet spoken to anyone at landing, each file holds only what the god sees from where it lands: the landing region `seen`, what is in view `reported` with its own sight as source. What its people know of the land is written in the people's record under `What they know of the land` and enters the god's map only when someone tells it.
-- [ ] Public knowledge files carry opaque public ids and grid cells only, never sealed ids, never coordinates. A `rumored` entry carries a name as told and a grid `cell`, nothing more exact.
+- [ ] Where no god has yet spoken to anyone at landing, each file holds only what the god sees from where it lands: the landing region `seen`, what is in view `reported` with its own sight as source. What its people know of the land is in the people's record and enters the god's map only when someone tells it.
+- [ ] Public knowledge files carry opaque ids and grid cells only, never coordinates for rumors. A `rumored` entry carries a name as told and a grid `cell`, nothing more exact.
 - [ ] Confirm the player's file holds no fact beyond the god's own reach.
 
 Principle from run 01 (Night 3, step 3.9): a god's starting map is what it could know, not what its people know. Knowledge reaches a god only through a telling or its own senses, so a god that has met no one starts with its own eyes.
 
 ### 3a.8 Close 3a
 
-- [ ] Every 3a Writes item present. Commit `<name> Night 3a: closed`, push. Begin 3b in the same night.
+- [ ] Every 3a Writes item present. Commit `Creation night 3a: <name> closed`, push, set `creation_night: 3b`. Begin 3b in the same night.
 
 ## Night 3b: the history, the mysteries, the schedule
 
 Reads: the keeper log; `deep-lore.md` in full; `mystery-standard.md`; `clue-design.md`; `S/star.md`; `S/map.json`; `S/world/gazetteer.md`; `S/gods-sealed/common-past.md`; every people's record; the world draft.
 
-Writes: `S/deep-history.md`; `S/mysteries.md`; `S/event-schedule.md`; `S/state/phenomena.json`; `S/cast.md`; `S/world-bible.md`; `P/world/world.md`; `P/state/clock.md`; `P/state/models.md`; `P/releases/000/dm.md`; `P/state/rolls.jsonl` (empty); additions to `S/map.json` for any place first needed here; the keeper log.
+Writes: `S/map.json` (`plane`); `growth.md` in every sealed god folder and `S/player/`; `S/deep-history.md`; `S/mysteries.md`; `S/event-schedule.md`; `S/state/phenomena.json`; `S/cast.md`; `S/world-bible.md`; `P/world/world.md`; `P/state/clock.md`; `P/state/models.md`; `P/releases/000/dm.md`; `P/state/rolls.jsonl` (empty); additions to `S/map.json` for any place first needed here; the keeper log.
 
 ### 3b.1 The star, if not already rolled
 
 - [ ] If any star item or the ceiling was not rolled on Night 1, roll it now as in 1.2 and 1.6, and log why it was late. Confirm `S/star.md` holds every item with its roll id.
 
-### 3b.2 The deep history
+### 3b.2 The plane
+
+- [ ] Roll the plane section by section 8 and write it to `S/map.json` under `plane`, every roll logged with its id.
+
+### 3b.3 Growth files
+
+- [ ] Write `growth.md` for every god (`S/gods-sealed/<god>/`, `S/player/`), in template 7.10: one block per power, main and hidden, every field empty. The night turn fills them only when the world earns it.
+
+### 3b.4 The deep history
 
 - [ ] Write `S/deep-history.md` to the depth the Q5 scale set: the rise and fall of specific cities and towns, with names, dates in years before the arrival, causes and what remains of each; the roads, ruins, sealed doors and bones from the Q12 pool; the travelers from afar (Q14), when they came, from which entry in the plane section, and what they brought; the non-human peoples (Q13); and individual stories, a dozen at least, of named mortals whose traces could be found. Concrete, per mystery standard rule 12. Every place carries its map id; any place first needed here is added to `S/map.json` now, traced on the paint, and logged.
 - [ ] Check it against the deep lore: nothing contradicts a truth, nothing explains a truth.
@@ -307,7 +314,7 @@ Writes: `S/deep-history.md`; `S/mysteries.md`; `S/event-schedule.md`; `S/state/p
 
 Principle from run 01 (Night 3, step 3.5): a body the deep lore needs for one of its truths (an older god who rose, a hoarder, carriers) may be placed in the history when the star's results and phase give it the time; it is never placed on the ground as a rival to the arriving gods. When a star result removes a body the lore names, nothing is invented to stand in for it.
 
-### 3b.3 The mysteries
+### 3b.5 The mysteries
 
 Per mystery standard rules 13, 14 and 16 and the Q18 and Q19 pools. Write `S/mysteries.md`, one section per mystery, each in the mystery template (section 7.8), every heading present.
 
@@ -319,20 +326,20 @@ Per mystery standard rules 13, 14 and 16 and the Q18 and Q19 pools. Write `S/mys
 - [ ] Confirm no decisive clue is delivered by a visitor (rule 4), no counter-clue is planted (rule 2), no mortal in the record is fully right about a cause (rule 1), and that most of the world is not a clue (rule 3): each region's ordinary wonders are in the gazetteer with no mystery attached.
 - [ ] Confirm each undared wish that was kept is placed away from its own god's certain path, with the distance from its seat.
 
-### 3b.4 The event schedule
+### 3b.6 The event schedule
 
 - [ ] Write `S/event-schedule.md`. Clocked events: natural, on fixed years and seasons no one controls, each with its lead time, the signs that precede it, where those signs appear (map ids) and who could notice. Triggered events: the condition, what fires, and which clocked events it may speed, delay or redirect. Every mystery's cost if ignored appears here as a clock or a trigger, with the mystery named.
 - [ ] Random events: a table with factors for `tools/roll.py`, weighted down in Years 1 to 7 by a stated step, so the opening is quiet and the distance between gods does its work.
 - [ ] Recurring phenomena: name each, its true occurrences per year for at least the first ten years, written to `S/state/phenomena.json` in the shape `tools/phenomena.py` reads; the night turn runs that tool with `SPOILERS_do_not_open/campaigns/<name>` as the campaign path.
 - [ ] Confirm no event herds the gods toward one place and no path or secret way exists for the plot (DESIGN 8.5).
 
-### 3b.5 The small cast, the names, the world bible
+### 3b.7 The small cast, the names, the world bible
 
 - [ ] Write `S/cast.md`: a few world-level figures, mortal or otherwise, drawn from the Q17 pool and the deep history, each with nature and history fixed, placed with a map id. Whole peoples may count. Everyone else rises from play.
 - [ ] Name the world as the Keeper knows it, and record what each people calls it and its star.
 - [ ] Write `S/world-bible.md`, the sealed summary of the whole world: the rules made final, the star, the plane, the land, the peoples, the cast, pointers to the deep history, mysteries and schedule, and where each Night 1 candidate went or why it was left out.
 
-### 3b.6 Year 1's first morning inputs
+### 3b.8 Year 1's first morning inputs
 
 - [ ] `P/world/world.md`: public facts only, as the player's god would know them on waking: its land as it first sees it, measured from `S/map.json`; its people's number and way of life; the technology; the season it wakes into; the land it knows and the land only rumored; the world's name as its people say it. Nothing a god could not know, no count of gods, no history beyond what the people tell, no magic level beyond what is in view.
 - [ ] `P/player/map-knowledge.json` from 3a.7.
@@ -341,13 +348,13 @@ Per mystery standard rules 13, 14 and 16 and the Q18 and Q19 pools. Write `S/mys
 - [ ] `P/releases/000/dm.md`: everything the player's god senses and knows at the moment of landing, its bodily senses included, god-sense as set, and what is in view, with every distance, direction and sight line measured from `S/map.json`. No count of any recurring phenomenon: the DM takes counts from `tools/phenomena.py` only when the god or its people would notice. The DM writes the first morning story and painting request from it per `engine/rules/morning-story.md`.
 - [ ] `P/state/rolls.jsonl` begins empty. Creation rolls stay in `S/state/rolls.jsonl`.
 
-### 3b.7 Hand to the checker
+### 3b.9 Hand to the checker
 
-- [ ] Commit `<name> Night 3b: ready for lock`, push, and log the commit id. Start the continuity checker on the lock checklist (section 4). The Keeper does not run the checklist on its own work.
+- [ ] Commit `Creation night 3b: <name> ready for lock`, push, and log the commit id. Start the continuity checker on the lock checklist (section 4). The Keeper does not run the checklist on its own work.
 
 ## 4. The lock
 
-The continuity checker runs this checklist, not the Keeper. It reads every file under `S/` and `P/` that a line names, and runs `tools/lockcheck.py` (`--places`, `--mysteries`, `--leaks`). For each line it records yes or a flag with the file and the finding. Flags go to the Keeper, which fixes them, commits, and asks for a rerun of the flagged lines, as in the night turn. When every line is yes, the checker writes `S/LOCKED.md` (template 7.11) with the commit id of the commit it checked, and commits it alone. Then the night session sets `P/state/clock.md` to `year: 1`, `status: open`, removes `creation_night`, commits, and logs that Night 3 closed, with the time. The lock is named by its commit id. No tag.
+The continuity checker runs this checklist, not the Keeper. It reads every file under `S/` and `P/` that a line names, and runs `tools/lockcheck.py` (`--places`, `--mysteries`, `--leaks`). For each line it records yes or a flag with the file and the finding, in the lock flags file `engine/roles/checker.md` names. That file sits in the public folder and the leak scan reads it, so each flag names the line, the file and the kind of fault in procedure only, never a sealed term; the detail goes to the Keeper in `S/lock-flags.md`. The Keeper fixes, commits, and asks for a rerun of the flagged lines, as in the night turn. When every line is yes, the checker writes `S/LOCKED.md` (template 7.11) with the commit id of the commit it checked, and commits it alone. Then the night session sets `P/state/clock.md` to `year: 1`, `status: open`, removes `creation_night`, commits, and logs that Night 3 closed, with the time. The lock is named by its commit id. No tag.
 
 Principle from run 01 (Night 3, step 3.10): a version is named by something the record already holds, its commit id, written into the lock file; nothing depends on a name the remote may refuse.
 
@@ -551,7 +558,9 @@ The god appends `## Round N reply` sections to `S/gods/<god>/negotiation-night2.
 # Release: god-<domain word>, Night 3
 
 ## The land you come down into
-<as seen in its waking season, from map.json: what is in view, how far, which way>
+<the kind of country and what the land itself shows, in its waking season, from
+the placement draft, as the player's Day 3 brief was written: no distance,
+compass direction or line of sight>
 
 ## What is so of the world for a people
 <the same words the DM's Day 3 brief gave for the player: technology, simple
@@ -656,7 +665,7 @@ Nothing is added after this lock.
 
 ## 8. The plane section
 
-Other starfalls and stars still to fall, placed around the starting lands by roll. Data only: it is written in `S/map.json` under `plane.starfalls` in the format `engine/rules/map.md` gives, never painted, never drawn on any sheet, and never released. What any people sees of another star (a second light low on the horizon) is written in that people's record as what they see, never as the entry's values. Rolled in 3a.3, every roll logged with its id.
+Other starfalls and stars still to fall, placed around the starting lands by roll. Data only: it is written in `S/map.json` under `plane.starfalls` in the format `engine/rules/map.md` gives, never painted, never drawn on any sheet, and never released. What any people sees of another star (a second light low on the horizon) is written in that people's record as what they see, never as the entry's values. Rolled in 3b.2, every roll logged with its id.
 
 1. **The throw.** One entry always exists: the starfall that threw the gods here, which fell on the night they arrived (deep lore, Truth 5). Its `age_years` is 0 and it is `alive`. Its distance band is rolled with `--die d20`: 1 to 5 far, 6 to 20 very far. It is never near.
 2. **How many others.** `--die d6`: 1 to 2, two others; 3 to 4, three; 5 to 6, four.

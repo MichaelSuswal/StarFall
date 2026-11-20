@@ -147,7 +147,7 @@ How a god gathers information is what grows its map. Scouts, traders, prisoners,
 
 ### 2.4 Seeing corrects to truth
 
-When a grade rises to `seen`, `told` is dropped from the entry and the truth is drawn. If the told position differed from the truth by more than a mile, or the told type or name differed, the correction is noted in the gazetteer's history line ("told at D6 by the drover; found at D6, thirty pixels west"). The god's beliefs about who lied are its own; the DM never says.
+When a grade rises to `seen`, `told` is dropped from the entry and the truth is drawn. If the told position differed from the truth by more than a mile, or the told type or name differed, the correction is noted in the gazetteer's history line ("told at D6 by the drover; found at D6, a few miles west"). The god's beliefs about who lied are its own; the DM never says.
 
 ### 2.5 Underground
 
@@ -236,10 +236,10 @@ The map is on request and always ready. The DM redraws it whenever the knowledge
 
 ## 5. The gazetteer
 
-`player/gazetteer.md` lists every known place and distance, regenerated from the knowledge file and the map log by `tools/map.py gazetteer <campaign>`. It is exact where the map is pictorial. Places are given by grid cell with the painting pixel in brackets; distances and extents are in miles. Sections:
+`player/gazetteer.md` lists every known place and distance, regenerated from the knowledge file and the map log by `tools/map.py gazetteer <campaign>`. It is exact where the map is pictorial. Places are given by grid cell, never by pixel; distances and extents are in miles, and travel days between known neighbors come from the map data. Sections:
 
 1. **Regions**, by grade then by name: name as known, grid cell, terrain as known, size across in miles (seen only), grade, source, year, and the history line of grade changes.
-2. **Places**: every point feature (settlements, ruins, caves, passes) with position as known, region, grade, source, year, and corrections ("told at D6 by the drover's telling, found at D6 (px 400,740)").
+2. **Places**: every point feature (settlements, ruins, caves, passes) with position as known, region, grade, source, year, and corrections ("told at D6 by the drover's telling, found at D6, a few miles west").
 3. **Waters, woods and ranges**: rivers, lakes, seas, mountains, marshes, forests, with length (lines) or extent (areas) as known.
 4. **Rivers as routes**: every known river with its length in miles and the known places along its bank in order from source to mouth.
 5. **Distances**: for every known place, its straight-line distance in miles to its nearest known places (up to four), each distance graded by the lower of the two endpoints' grades. Distances use the positions the god believes, so a reported distance may be wrong. A note at the top says that these are as the crow flies and that the pace table (`engine/rules/time-and-pace.md`) turns them into days.

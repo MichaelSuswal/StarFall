@@ -9,7 +9,7 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 ## 0. Setup
 
 - Pull the repository. Confirm `state/clock.md` says year NNN is open.
-- **The engage rule.** Look for `player/decisions-NNN.md`. The DM writes it at 1:30 only on a day the player posted in the game. If it is missing, the player did not play today and the world waits: write `years/NNN/waited.md` holding one (oog) line for the morning ("The world waited. Year NNN is still open.") and the Pacific time, append one line to `state/timing.md`, commit, push, and stop. Do not advance the clock. Do not run any agent.
+- **The engage rule.** Look for `player/decisions-NNN.md`. The DM writes it at 1:30 only on a day the player posted in the game. If it is missing, the player did not play today and the world waits: write `years/NNN/waited-YYYY-MM-DD.md` (the Pacific date) holding one (oog) line for the morning ("The world waited. Year NNN is still open.") and the Pacific time, append a line containing "waited" to `state/timing.md`, commit, push, and stop. Do not advance the clock. Do not run any agent.
 - If the decisions file is present, start `years/NNN/` and `releases/NNN/`.
 - Spawn agents as needed. Each agent gets only its own files. Use the models set in `state/models.md`. Take every real time from `TZ=America/Los_Angeles date`.
 
@@ -63,12 +63,12 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 
 ## 8. Close
 
-- Set `state/clock.md` to year NNN+1 open.
+- Set `state/clock.md` to year NNN+1 open, and append a line "clock advanced: year NNN+1 open" with the Pacific time to `state/timing.md`.
 - Commit everything and push. The 6:30 wake in the play chat reads the morning story and the painting from the repository and posts them.
 
 ## Sealed and public outputs
 
-Sealed, in `SPOILERS_do_not_open/campaigns/<name>/`: `years/NNN/year.md` (the full record), every NPC god's release and decisions, every NPC civ's record and years, the message log, the keeper log, the ruling ledger, the growth files, the sealed god folders. Public, in `campaigns/<name>/`: the player's folder, the player's civ record, the DM release, the morning story, the closing, the waited note, flags, and the state files the player may see (clock, timing, the player's map knowledge). The rolls log is sealed; the player sees only outcomes. Nothing public names the count of gods, a vote, a pool, a hidden power, or a phenomenon's count before it has been seen.
+Sealed, in `SPOILERS_do_not_open/campaigns/<name>/`: `years/NNN/year.md` (the full record), every NPC god's release and decisions, every NPC civ's record and years, the message log, the keeper log, the ruling ledger, the growth files, the sealed god folders. Public, in `campaigns/<name>/`: the player's folder, the player's civ record, the DM release, the morning story, the closing, the waited notes, flags, and the state files the player may see (clock, timing, the player's map knowledge). The rolls log is sealed; the player sees only outcomes. Nothing public names the count of gods, a vote, a pool, a hidden power, or a phenomenon's count before it has been seen.
 
 ## Timing record
 

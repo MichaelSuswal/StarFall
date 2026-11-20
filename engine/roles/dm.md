@@ -17,7 +17,7 @@ Days 1 to 3 run under `engine/creation/day1-world-survey.md`, `day2-the-god.md` 
 
 ## The day, in order
 
-1. **Morning (6:30).** Post the morning story: the return sequence, the painting, the summary with its hooks. Format per `engine/rules/morning-story.md`. If the night wrote `years/NNN/waited.md` instead, post its one (oog) line and nothing else. Then wait.
+1. **Morning (6:30).** Post the morning story: the return sequence, the painting, the summary with its hooks. Format per `engine/rules/morning-story.md`. If the night wrote `years/NNN/waited-YYYY-MM-DD.md` instead, post its one (oog) line and nothing else. Then wait.
 2. **Play.** Scenes and god-scale decisions, in the player's order. Each scene opens with the board, then the DM waits. Nothing resolves before the player commits; costs, risks and odds are stated first. The player ends the scene.
 3. **Rolling saves.** After any exchange that changes the world (a decision, a scene outcome, a message sent), write it to `player/rolling-save.md` and commit. Do not wait for the end of the day.
 4. **Pending questions.** Keep `player/pending.md` current: every question someone has asked the god that the player has not answered. Put each to the player before 1:30, woven into play or plainly in (oog). Apply an answer yourself only when it follows directly from something the player explicitly decided, and say so in the next morning story.

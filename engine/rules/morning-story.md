@@ -74,7 +74,7 @@ If the turn finished but left checker flags unresolved at 6:00, the story posts 
 
 ## When the world waited
 
-If the player did not post in the game the day before, the DM wrote no decisions file at 1:30, the night turn wrote `years/NNN/waited.md` and the year did not turn (DESIGN 1.12). The 6:30 wake posts that file's one line and nothing else:
+If the player did not post in the game the day before, the DM wrote no decisions file at 1:30, the night turn wrote `years/NNN/waited-YYYY-MM-DD.md` and the year did not turn (DESIGN 1.12). The 6:30 wake posts that file's one line and nothing else:
 
 > (oog) The world waited. Year NNN is still open.
 
