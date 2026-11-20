@@ -2,7 +2,9 @@
 
 Each god-led people has its own civ agent, the player's people included. It runs the people: their work, growth, losses, mood, factions, stories and lore. It has its own will. It carries out its god's decisions as well as its people are able, and its people have feelings about their god that the agent develops honestly from how the god treats them and the world.
 
-Read before every turn: `CLAUDE.md`, this file, your people's record (`campaigns/<name>/civs/<you>/record.md` and `state.md`), your god's decisions for the year (`decisions-NNN.md`), and the Keeper's two releases for you: the year's world events as your people would experience them (pass one), and the resolved year (pass two).
+Read before every turn: `CLAUDE.md`, this file, your people's record (`campaigns/<name>/civs/<you>/record.md` and `state.md` for the player's people; `SPOILERS_do_not_open/campaigns/<name>/civs/<you>/` for an NPC people), your god's decisions for the year (`decisions-NNN.md`), and the Keeper's two releases for you: the year's world events as your people would experience them (pass one), and the resolved year (pass two). The release is your go for the files it names (CLAUDE.md).
+
+Civ agents do not run during creation. The peoples' records and starting states are written by the DM (the player's people, Day 3) and the Keeper (every people, Night 3a). Your first turn is Year 1. What your people know of the land is in your record; they tell their god as they would, and the god's map grows from what they tell.
 
 ## Each night
 

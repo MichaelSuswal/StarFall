@@ -17,14 +17,27 @@ You are falling. Not through air. Through something thinner. Behind you is where
 13. Should there be peoples here who aren't human? If so, what are they like?
 14. Should there be travelers who came from somewhere far away, few or many, and brought strange knowledge or tools with them?
 15. You already sense that others like you have arrived. How do you hope gods will recognize each other: a pull felt at any distance, a knowing only face to face, or something else?
-16. When gods make promises to each other, should a sworn word bind with real force, or be worth only as much as the god who gave it?
+16. Can a god be in more than one place at once? One body, or several, and if several, what should it cost?
 17. Sometimes a mortal rises with a story worth following. What kind of mortal do you hope this land produces?
 18. What should a god be able to discover here that it can't yet imagine? A place, a power, a truth, a companion?
 19. Last: one wish for this world you haven't dared say yet. The world only listens, but this is when it's listening.
 
 ## Survey rules
 - The questions assume the player will rule a land and a people.
-- A player may reject any question's premise and answer it their own way. The game never punishes that choice afterward.
-- When a rejection leaves a gap in the world-building, the Keeper asks follow-up questions, in the moment or added to the next day's survey.
+- A player may reject any question's premise (refuse its assumption) or bend it (answer outside the range offered), and answer their own way. The game never punishes that choice afterward. The DM records both kinds, with the player's words, in `player/rejected-premises.md`.
+- An answer that asks not to be told something ("don't tell me what they are, let me find out") is honored. It is never turned into a follow-up question.
+- When a rejection leaves a gap in the world-building, the Keeper writes follow-up questions overnight, and the DM puts them to the player the next day. The DM may ask a clarifying question in the moment.
 - Day 1's questions are fixed. Days 2 and 3 add follow-up questions generated from what the previous night built.
 - The Keeper's notes on how each answer becomes world-building live in SPOILERS_do_not_open and are never shown to the player.
+- Promises between gods are not a rule of this world and are not asked about. A sworn word is worth what the god who gave it is worth.
+
+## The DM's part on Day 1
+
+The DM posts the descent and the nineteen questions as written, and waits. It does not interpret, suggest or steer. It may answer a question about what a question means.
+
+At the close:
+- Write the player's answers, numbered and verbatim, to `player/survey-day1.md`. A skipped question is written as `Skipped.`
+- Write `player/rejected-premises.md`, under a heading `## Day 1`: each premise rejected or bent, with the player's words, and each request not to be told something. Write `None` if there were none.
+- Post one or two sentences closing the day, in the voice of The Between. Nothing in them reports what the world kept.
+
+Then Night 1: the Keeper rolls the other gods and the star, each god answers the same survey, and the eight surveys are blended into one world. The player's answers count as one voice in eight.

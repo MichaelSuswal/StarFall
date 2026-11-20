@@ -4,11 +4,14 @@ How one year of the world is resolved. Runs in the overnight session, which star
 
 The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_not_open/campaigns/<name>/`. NNN is the year being resolved.
 
+The overnight session runs this file only when `state/clock.md` says `status: open`. When it says `status: creation`, it runs `engine/night/creation-nights.md` instead.
+
 ## 0. Setup
 
-- Pull the repository. Confirm `player/decisions-NNN.md` and `player/rolling-save.md` are present and that `state/clock.md` says year NNN is open. If the save is missing, the year still turns: the god continues its last decided course and the morning story says the save was missing.
-- Start `years/NNN/` and `releases/NNN/`.
-- Spawn agents as needed. Each agent gets only its own files. Use the models set in `state/models.md`.
+- Pull the repository. Confirm `state/clock.md` says year NNN is open.
+- **The engage rule.** Look for `player/decisions-NNN.md`. The DM writes it at 1:30 only on a day the player posted in the game. If it is missing, the player did not play today and the world waits: write `years/NNN/waited.md` holding one (oog) line for the morning ("The world waited. Year NNN is still open.") and the Pacific time, append one line to `state/timing.md`, commit, push, and stop. Do not advance the clock. Do not run any agent.
+- If the decisions file is present, start `years/NNN/` and `releases/NNN/`.
+- Spawn agents as needed. Each agent gets only its own files. Use the models set in `state/models.md`. Take every real time from `TZ=America/Los_Angeles date`.
 
 ## 1. Decisions in
 
@@ -20,7 +23,7 @@ The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_
 
 - Advance the clock: which clocked events fire this year, which triggers have been met by last year's state and this year's decisions.
 - Weather, seasons, natural events, the godless peoples' actions, and anything else not tied to a god's people.
-- Random events: rolled with `tools/roll.py`, weighted down in Years 1 to 7 as the event schedule says.
+- Random events: rolled with `tools/roll.py --campaign <name>`, weighted down in Years 1 to 7 as the event schedule says.
 - Recurring phenomena: counted by `tools/phenomena.py` from the sealed record (`SPOILERS_do_not_open/campaigns/<name>/state/phenomena.json`).
 - Write for each civ agent what its people would experience this year (`releases/NNN/civ-<x>-pass1.md`), and for the Keeper itself a list of every world event with its cause.
 
@@ -34,19 +37,22 @@ The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_
 - Overlay every civ's actions and reactions with the world events. Resolve contests by factors and `tools/roll.py`. Deliver messages per `engine/rules/messages.md` and log each one's fate.
 - Check the sealed ruling ledger before any ruling; record every ruling made.
 - Record new fixed facts in the keeper log when an action reached something unspecified.
+- Growth: for each god, record in its sealed growth file any trigger met, year of practice, failure or near miss this year produced, per `engine/rules/powers.md`. Nothing is recorded that the year did not earn. If a tier is reached, update the card as a dated entry and note for the release what the god feels.
+- Memory-loss drawbacks on NPC gods: remove the item from the god's record and log it.
 - Update `state/` (population, stores, messages, map knowledge per god) and `world/` where public facts changed through the world.
 - Write `years/NNN/year.md`: everything that happened, with causes, sealed.
 - Write the keeper log for the year, including the neutrality self-check.
 
 ## 5. The check
 
+- Run `tools/check.py <name> NNN` and `tools/lockcheck.py <name> --leaks --dashes`.
 - The checker agent runs `engine/roles/checker.md` against the year and writes `years/NNN/flags.md`.
 - The Keeper reworks anything flagged and reruns the check. Loop until clean or until 6:00; anything left goes into the morning notice.
 
 ## 6. Releases
 
-- For each NPC god and each civ: `releases/NNN/<agent>.md`, only what it could know.
-- For the DM: `releases/NNN/dm.md`, everything the player's god would know: what it saw and sensed, what its people report, messages received with their state, held encounters with their moment of contact, deaths of significant people, and the map knowledge gained.
+- For each NPC god and each civ: `releases/NNN/<agent>.md`, only what it could know. Any description of land comes from the map data.
+- For the DM: `releases/NNN/dm.md`, everything the player's god would know: what it saw and sensed, what its people report, messages received with their state, held encounters with their moment of contact, deaths of significant people, the map knowledge gained, and what the god feels of any growth the Keeper released this year.
 
 ## 7. The morning story
 
@@ -62,8 +68,8 @@ The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_
 
 ## Sealed and public outputs
 
-Sealed, in `SPOILERS_do_not_open/campaigns/<name>/`: `years/NNN/year.md` (the full record), every NPC god's release and decisions, every NPC civ's record and years, the message log, the keeper log, the ruling ledger. Public, in `campaigns/<name>/`: the player's folder, the player's civ record, the DM release, the morning story, the closing, flags, and the state files the player may see (clock, timing, the player's map knowledge). The rolls log is sealed; the player sees only outcomes.
+Sealed, in `SPOILERS_do_not_open/campaigns/<name>/`: `years/NNN/year.md` (the full record), every NPC god's release and decisions, every NPC civ's record and years, the message log, the keeper log, the ruling ledger, the growth files, the sealed god folders. Public, in `campaigns/<name>/`: the player's folder, the player's civ record, the DM release, the morning story, the closing, the waited note, flags, and the state files the player may see (clock, timing, the player's map knowledge). The rolls log is sealed; the player sees only outcomes. Nothing public names the count of gods, a vote, a pool, a hidden power, or a phenomenon's count before it has been seen.
 
 ## Timing record
 
-Append to `state/timing.md`: when the turn started, when each stage finished, which models ran, and the token usage if known. Stage B uses this to choose the night model.
+Append to `state/timing.md`: when the turn started, when each stage finished, which models ran, and the token usage if known, all in Pacific time from the clock. Stage B uses this to choose the night model.

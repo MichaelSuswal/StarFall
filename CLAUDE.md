@@ -8,6 +8,8 @@ This covers code, design files, the spoiler folder, test runs, agent runs, image
 
 The scheduled game turns (the 1:30am save and world turn, the 6:30am morning story) run under the design Michael approved; they are the exception, and only for the work the design assigns them.
 
+The same exception covers a campaign or test run once Michael has started it: its creation days and nights (`engine/night/creation-nights.md`) and its play days run under the approved design. An agent working inside such a run (the DM, the Keeper, an NPC god, a civ agent, the checker) takes its release or role file as Michael's go for exactly the files that release or role file names, and for nothing else. Nothing in a run authorizes a change to the engine, the design, or the Keeper's standing files; those still need Michael's explicit go. The continuity checker reviews everything a run writes.
+
 ## Writing
 
 Never use em dashes or en dashes. Use periods and commas; hyphens only in compound adjectives.

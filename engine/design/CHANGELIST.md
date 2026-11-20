@@ -19,3 +19,20 @@ Permanent record of design decisions that were reversed or revised. Resolved ite
 - ~~Survey questions 3, 11, 13 as first drafted.~~ Reworded; question 13 split into 13 and 14; the survey assumes the god will rule a land and a people. (Section 3)
 - ~~Image generator undecided; Gemini considered.~~ OpenAI `chatgpt-image-latest` via a GitHub job. (Section 14)
 - ~~Deep lore draft v1.~~ Archived as too obvious; v2 written from scratch under the revised mystery standard. (Spoiler folder)
+
+## Build 2, after creation simulation run 01 (November 2026)
+
+The full list of 100 findings and proposals is `tests/creation-sim/run-01/changes.md`. Reversed decisions:
+
+- ~~Oaths between gods bind or not per campaign, by survey vote (question 16).~~ Oaths are not a world rule; a promise is worth what the god is worth. Question 16 now asks about bodies. (Sections 3, 7)
+- ~~God-sense fixed: every god senses that others exist and all recognize each other's presence.~~ God-sense is set per campaign by the survey vote alone, and given to the player before Day 2. (Sections 1, 7)
+- ~~The star is rolled on Night 3 and the magic level stays provisional until then.~~ The star is rolled on Night 1, before the blend. (Section 3)
+- ~~The Keeper runs the lock checklist and writes LOCKED.md; the version is a git tag.~~ The continuity checker runs the lock and writes LOCKED.md with the commit id. No tag. (Section 15)
+- ~~Night 3 is one sitting.~~ Two sittings back to back, 3a peoples and map, 3b history, mysteries and schedule. (Sections 3, 15)
+- ~~The world turns every night; a missing save still turns the year on the god's last course.~~ The world turns only on a day the player posted; otherwise it waits. (Sections 1, 2, 5)
+- ~~Underground layers each painted at creation.~~ One underground sheet only if the world has one; otherwise none. (Section 11)
+- ~~Map rules assumed a sheet of about 256 miles with regions 20 to 60 miles wide.~~ One continent per sheet at the scale of a map of Middle-earth. (Section 11)
+- ~~Hidden powers written on the NPC god's own card and the secret backstory in its own folder.~~ Both live in a sealed sibling folder the god's agent never receives. (Section 3)
+- ~~NPC god folders labeled g1 to g7.~~ Labeled by domain, with no number. (Section 3)
+- ~~Map painting requests public.~~ Sealed. (Sections 11, 14)
+- ~~The permission exception covers only the two scheduled turns.~~ It also covers a campaign or test run once Michael has started it, for the files each release names. (CLAUDE.md)
