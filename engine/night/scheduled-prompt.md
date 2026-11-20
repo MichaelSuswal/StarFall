@@ -1,6 +1,6 @@
 # The overnight scheduled task: prompt
 
-This is the prompt the 1:45am scheduled task should send each night. It is not yet installed; the task holds the older prompt and is paused. Installing it is a change to a scheduled task and needs Michael's go.
+This is the prompt the 1:45am scheduled task sends each night. Installed 2026-11-19 with Michael's go; the task stays paused until he says to enable it.
 
 ---
 
