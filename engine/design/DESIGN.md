@@ -46,7 +46,7 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
    - Day 4, 6:30am: the first morning story. Year 1 begins.
    - Each night is a scheduled overnight session, picked by the campaign clock (`status: creation`, `creation_night`). Guide: `engine/night/creation-nights.md`.
 4. The world survey is in `engine/creation/day1-world-survey.md` (19 questions). The questions assume the god will rule a land and a people. A player may reject a premise (refuse its assumption) or bend it (answer outside the range offered) and answer their own way; the game never punishes it, and the DM records both kinds in `player/rejected-premises.md`, one section per day. An answer that asks not to be told something is honored and never turned into a follow-up. When a rejection leaves a gap, the Keeper writes follow-ups for the DM to put to the player the next day; the DM may ask a clarifying question in the moment. Days 2 and 3 add follow-up questions generated from what the previous night built.
-4a. Given and discovered. The player is never told which wishes the world kept, and nothing is reported as a vote. What is innate to a god is given before Day 2, in `player/world-rules.md`: god-sense, how many bodies a god may have, and the god's own power limits. What is learned from the world is discovered in play: the prevalence and feel of magic, how much gods stand out, the strangeness of the wild, the scarcities.
+4a. Given and discovered. The player is never told which wishes the world kept, and nothing is reported as a vote. What is innate to a god is given before Day 2, in `player/world-rules.md`: god-sense as set, how many bodies a god may have, and the pricing terms for mortal magic (it is simple and it costs the worker), never how common it is. The god's own power limits are settled at the Day 2 table. What is learned from the world is discovered in play: the prevalence and feel of magic, how much gods stand out, the strangeness of the wild, the scarcities.
 4b. Day 1 closes like Days 2 and 3: the answers are written verbatim to `player/survey-day1.md`, premises to `player/rejected-premises.md`, and one line closes the day in the voice of The Between.
 5. The world's name is set by the Keeper. Different peoples call it different things, even within one language, and new names can arise.
 6. Backstory: the player sketches the outline (who the god was, what it lost). The DM secretly fills in the rest and ties it to where the gods came from. The avatar arrives with its past foggy.
@@ -100,7 +100,7 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
    - One agent per NPC god (seven).
    - One civ agent per god-led people, the player's included, all with the same will.
    - The Keeper: runs the world and all godless peoples (three to five godless civilizations per campaign), and rules on powers.
-   - The continuity checker: its own agent, reads everything including spoilers, writes nothing, flags problems back to the Keeper.
+   - The continuity checker: its own agent, reads everything including spoilers, writes only flags and the lock (sealed flags, a one-line public note, `LOCKED.md`), and flags problems back to the Keeper.
 8. The night, from 1:30:
    1. The play chat saves. If the player posted that day, the DM writes the decisions file; if not, the overnight session finds no decisions file, writes the waited note, and the year does not turn.
    2. The player's decisions go to the player's civ agent; each NPC god decides its year and hands its decisions to its own civ agent.
@@ -133,7 +133,7 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
 ## 7. NPC gods
 
 1. Messages travel by messenger or in person, take real time, and mostly arrive. Only the world can stop one (interception, storm, bad roads). The engine never loses a message, and every message is logged with what happened to it.
-2. God-sense is decided per campaign by the Day 1 survey vote (question 15) and nothing else; the sealed lore does not fix it. It is given to the player before Day 2. Michael's preference, as one voice in eight: gods sense the presence of other gods, and perhaps other immortals.
+2. God-sense is decided per campaign by the Day 1 survey vote (question 15) and nothing else; the sealed lore does not fix it. It is given to the player before Day 2. Whatever the vote sets, god-sense is never a tally: a god feels direction, nearness or weight, never a count, so the number of gods (1.4) stays unknown however the sense is set. Michael's preference, as one voice in eight: gods sense the presence of other gods, and perhaps other immortals.
 3. Gods can speak any mortal language unless the Keeper keeps some a mystery. The god-tongue is understood only by immortals, perhaps only those from the same plane. Whether gods recognize each other's presence is god-sense, as set for the campaign; they recognize the god-tongue when they hear it.
 4. No shared meeting place.
 5. Placement: gods are spaced evenly. The Keeper lays out the land after creation. Each god's country suits it, with real topography that shifts over distance; there is a lot of space between civilizations, and borders emerge where the land changes.
@@ -181,7 +181,7 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
 1d. The map data carries, per region, its elevation, water, climate band and neighbors with travel days at the pace table; and, for the sheet, roads, the gods' landing points, and the plane section (4.5).
 2. The whole world exists from Day 1, underground layers included, and changes only through the world.
 3. Terrain is revealed a region at a time. Regions are smaller than in the original; entering one reveals its general topography with some uncertainty.
-4. Three grades of knowledge: seen (drawn exactly), reported (drawn as told, possibly wrong, with its source), rumored (a faint note, given generously). Ground corrects to the truth once seen. The player's knowledge file holds opaque ids and grid cells only, never coordinates; a rumor is a name and a cell. At landing a god knows only what it can see; its people's knowledge reaches it as they tell it.
+4. Three grades of knowledge: seen (drawn exactly), reported (drawn as told, possibly wrong, with its source), rumored (a faint note, given generously). Ground corrects to the truth once seen. The player's knowledge file holds opaque ids; a rumor is a name and a grid cell, never a coordinate; a report may carry the shape the god was told, in painting pixels, because that is the god's belief and may be wrong. The truth's coordinates reach the file only when the god has seen the ground. At landing a god knows only what it can see; its people's knowledge reaches it as they tell it.
 5. A god's senses add hints, not sight. How a god gathers information is what grows its map.
 6. The map is on request and always ready. On the first morning it arrives zoomed in on the god's known regions, with a note that it can be requested any time.
 7. Traded charts enter at the reported grade with their source, and may be lies.
@@ -224,7 +224,7 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
 ## 15. Creation nights and the lock
 
 1. Nights 1 to 3 are overnight sessions like the world turn, chosen by the campaign clock. Night 1 rolls the gods and the star and blends the surveys. Night 2 has the gods make themselves and negotiate. Night 3a builds the peoples and the map; 3b the history, mysteries, schedule and cast. Guide: `engine/night/creation-nights.md`; the Keeper's procedure is the sealed runbook.
-2. The lock is run by the continuity checker, not the Keeper. The checker runs the lock checklist line by line, by script where a script exists (place ids, leaks, mystery template, rolls, dashes), and writes `LOCKED.md` with the lock's commit id. The Keeper fixes what fails and the checker reruns. Nothing is added after the lock.
+2. The lock is run by the continuity checker, not the Keeper. The checker runs the lock checklist line by line, by script where a script exists (place ids, leaks, mystery template, rolls, dashes), and writes `LOCKED.md` naming the commit it checked, committed alone after it. The Keeper fixes what fails and the checker reruns. If the lock has not passed by 6:00, the clock stays in creation at 3b, the 6:30 wake posts a notice that the world is still being built, and the next overnight session resumes 3b from the flags. Nothing is added after the lock.
 3. Each night ends with a close check: every file in the night's writes list exists, and the Keeper writes a neutrality self-check for the night.
 4. Creation took about 1 hour 20 minutes of agent time in run 01 (Day 1 to the lock, in one sitting), with Night 2 about 23 minutes and Night 3 about 29 minutes.
 

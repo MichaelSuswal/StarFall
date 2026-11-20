@@ -13,7 +13,10 @@ campaign: <name>
 year: 0
 status: creation
 creation_night: 1
+season_opens: not yet set
 ```
+
+`creation_night` takes the values `1`, `2`, `3a` and `3b`.
 
 The overnight session reads the clock. `status: creation` sends it here, to the night the clock names; `status: open` sends it to `engine/night/night-turn.md`. Each night ends by setting `creation_night` to the next number; Night 3b ends by setting `year: 1`, `status: open`, `season_opens` to the player's waking season, and removing `creation_night`.
 
@@ -24,7 +27,7 @@ Michael starts a campaign by creating `campaigns/<name>/state/clock.md` with `cr
 The overnight session starts fresh and knows only the repository. It:
 1. pulls, reads the clock, and confirms the day's outputs are present (below); if they are missing, it writes `years/000/night-blocked.md` saying what is missing, commits, pushes and stops, and the 6:30 wake posts a notice;
 2. runs the Keeper under `engine/roles/keeper.md` and the runbook for that night, spawning the NPC god agents in parallel where the runbook calls for them, each with only its own folder and release;
-3. commits and pushes after each major stage, with messages starting "Creation night N:";
+3. commits and pushes after each major stage, with messages starting "Creation night N:", pulling with rebase before each push because the paint job pushes to the same branch;
 4. records Pacific times in `state/timing.md`;
 5. must finish before 6:30, so the DM can open the next day.
 
@@ -45,7 +48,7 @@ The Keeper takes clock times from `TZ=America/Los_Angeles date`, never from memo
 ## Night 3a: the peoples and the map
 
 - Reads from the day: `P/civs/<people>/record.md` and `state.md`, `P/player/people-meeting.md`, `hierarchy.md`, `rejected-premises.md`, `followups-day3.md` with answers, and the dated Day 3 entries on the power card and conduct profile.
-- Does: each NPC god describes the people it hopes for, in its own folder; the Keeper prices edges with reasons, writes the agreed records and starting states for all eight peoples (the player's starting numbers too), and reconciles every meeting; the godless peoples; the placement plan, written first; the two painting requests (surface and clouds), sealed, plus one underground sheet only if the world has one; the paintings traced per `engine/rules/map.md`, the data following the paint (a repaint is requested only if the paint lost a god's asked-for country, and it is made only if Michael's go arrives before 3b ends; otherwise the sheet in hand is traced); only then every description of land, written from the map data; starting map knowledge for every god.
+- Does: each NPC god describes the people it hopes for, in its own folder; the Keeper prices edges with reasons, writes the agreed records and starting states for all eight peoples (the player's starting numbers too), and reconciles every meeting; the godless peoples; the placement plan, written first; the two painting requests (surface and clouds), sealed, plus one underground sheet only if the world has one; the paintings awaited (pull every 30 seconds, up to 20 minutes; if a painting has not returned by then, or the paint job failed, write `years/000/night-blocked.md` naming the request, commit, push and stop, and the next overnight session resumes 3a from the tracing step); the paintings traced per `engine/rules/map.md`, the data following the paint (a repaint is requested only if the paint lost a god's asked-for country, and it is made only if Michael's go arrives before 3b ends; otherwise the sheet in hand is traced); only then every description of land, written from the map data; starting map knowledge for every god.
 - Ends by setting `creation_night: 3b` and running straight on.
 
 ## Night 3b: the history, the mysteries, the schedule, the lock

@@ -13,7 +13,7 @@ Read before every session: `CLAUDE.md`, `engine/design/DESIGN.md` (sections 3, 5
 
 ## Creation days
 
-Days 1 to 3 run under `engine/creation/day1-world-survey.md`, `day2-the-god.md` and `day3-the-people.md`, each with its own close and output paths. The DM reads only what those guides and the Keeper's player-facing files give it (`player/followups-day2.md`, `player/world-rules.md`, `player/day3-brief.md`, `player/followups-day3.md`, `player/corrections.md`). The release or guide is the DM's go for the files it names (CLAUDE.md). Of the failures checklist, only these checks apply during creation: inventing terrain, history or routes; acting for the player; lists of loose threads; flattery; pointing at signs; dashes. The DM runs those against each post.
+Days 1 to 3 run under `engine/creation/day1-world-survey.md`, `day2-the-god.md` and `day3-the-people.md`, each with its own close and output paths. The DM reads only what those guides and the Keeper's player-facing files give it (`player/followups-day2.md`, `player/world-rules.md`, `player/day3-brief.md`, `player/followups-day3.md`, `player/corrections.md`). The release or guide is the DM's go for the files it names (CLAUDE.md). Of the failures checklist, only these checks apply during creation: 1 inventing terrain, history or routes; 6 acting for the player; 13 invented drama; 15 lists of loose threads; 16 flattery; 17 pointing at signs; and dashes. The DM runs those against each post.
 
 ## The day, in order
 

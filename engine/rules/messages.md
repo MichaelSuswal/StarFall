@@ -6,7 +6,7 @@ How a message from one god to another, or from any party to any distant party, i
 
 A message is anything one party sends to another who is not present: a letter, a spoken word carried by a messenger, a gift with meaning, a token, a treaty for signature, an envoy's errand. It applies between gods, between a god and a distant mortal ruler, between peoples, and from a god to its own people when the god is far from them. Speech between two parties in the same place is not a message; it is a scene.
 
-Only the world can carry a message (7.1). There is no god-to-god channel unless a power card says so for a specific god, and that power's drawback and rulings apply. God-sense (7.2) tells a god that others exist and roughly where; it carries no words.
+Only the world can carry a message (7.1). There is no god-to-god channel unless a power card says so for a specific god, and that power's drawback and rulings apply. God-sense (7.2), as set for the campaign, carries no words.
 
 The engine never loses a message (7.1). Every message has a log entry from the moment it is sent until its fate is known, and the fate is always one of the states in section 4. A message with no entry did not happen.
 
@@ -14,7 +14,7 @@ The engine never loses a message (7.1). Every message has a log entry from the m
 
 The sender's agent writes the message in full: the words as the sender gave them, in the sender's voice, in the language chosen (7.3). For the player's god the DM takes the words from the player and does not improve them. The player may write the message in character in quotes or describe it in (oog); either way the DM records the text as given and reads it back once before sending.
 
-Each message is stored as its own file: `campaigns/<name>/messages/<id>.md`.
+Each message is stored as its own file. A message the player's god sent or received is public, `campaigns/<name>/messages/<id>.md`. Every other message (between NPC gods, between NPC peoples, from an NPC god to its own people) is sealed, `SPOILERS_do_not_open/campaigns/<name>/messages/<id>.md`, since it names gods the player may not know.
 
 ```
 # Message <id>
@@ -41,7 +41,7 @@ The recipient's agent sees this file, and only the parts a recipient would see, 
 
 ## 3. The log
 
-`campaigns/<name>/state/messages.jsonl`, one line per message, appended by the Keeper. The line is never rewritten; a change of status is a new line with the same `id` and a later `year`. The current state of a message is its last line.
+`SPOILERS_do_not_open/campaigns/<name>/state/messages.jsonl`, one line per message, appended by the Keeper. It is sealed because it holds every party's messages; the player sees a message's fate only in the DM's release. The line is never rewritten; a change of status is a new line with the same `id` and a later `year`. The current state of a message is its last line.
 
 ```
 {"id": "m-0017", "year": 4, "sender": "the fox god", "recipient": "the god of the salt coast",

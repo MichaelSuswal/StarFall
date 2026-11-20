@@ -6,7 +6,7 @@ Read: `CLAUDE.md`, `engine/design/DESIGN.md`, `engine/rules/failures-checklist.m
 
 ## Scripts first
 
-Run `tools/lockcheck.py <campaign> --all` and `tools/check.py <campaign> <year>` before reading, and carry every finding into the flags. The scripts test place ids against the map, sealed terms in the public folder, the mystery template, the rolls log and dashes. Judgment checks come after.
+Run `tools/lockcheck.py <campaign> --all` before reading, and in a resolved year also `tools/check.py <campaign> <year>`; carry every finding into the flags. `check.py` is for resolved years and is not run at the lock. The scripts test place ids against the map, sealed terms in the public folder, the mystery template, the rolls log and dashes. Judgment checks come after.
 
 ## What it checks
 
@@ -22,8 +22,8 @@ Run `tools/lockcheck.py <campaign> --all` and `tools/check.py <campaign> <year>`
 
 ## The lock (end of Night 3b)
 
-The checker, not the Keeper, locks the world. It runs the lock checklist in the sealed runbook line by line, verifying against the files and never taking the keeper log's word: the scripts above, then the eight backstories against the shared secrets file and each other, every meeting against the deep history, every god's land description against the traced map, every public file against DESIGN 12.2, and every mystery against the standard. It writes `SPOILERS_do_not_open/campaigns/<name>/years/000/lock-flags.md` (sealed, since flags name sealed things); the Keeper fixes and the checker reruns. When the lock passes it also writes the public `years/000/lock.md` with one line: the lock passed, and the Pacific time. When every line holds, the checker writes `SPOILERS_do_not_open/campaigns/<name>/LOCKED.md` with the Pacific time, the campaign name, the checklist as completed, the commit id of the lock commit, and the sentence "Nothing is added after this lock."
+The checker, not the Keeper, locks the world. It runs the lock checklist in the sealed runbook line by line, verifying against the files and never taking the keeper log's word: the scripts above, then the eight backstories against the shared secrets file and each other, every meeting against the deep history, every god's land description against the traced map, every public file against DESIGN 12.2, and every mystery against the standard. It writes `SPOILERS_do_not_open/campaigns/<name>/years/000/lock-flags.md` (sealed, since flags name sealed things); the Keeper fixes and the checker reruns. When the lock passes it also writes the public `years/000/lock.md` with one line: the lock passed, and the Pacific time. When every line holds, the checker writes `SPOILERS_do_not_open/campaigns/<name>/LOCKED.md` with the Pacific time, the campaign name, the checklist as completed, the id of the commit it checked (committed alone after it, since a commit cannot carry its own id), and the sentence "Nothing is added after this lock."
 
 ## Output
 
-`campaigns/<name>/years/NNN/flags.md`: each flag with the rule it breaks, where in the year it occurs, and what the record says instead. Flags go to the Keeper, which reworks and reruns the check. Anything unresolved by 6:30 goes into the morning notice.
+`SPOILERS_do_not_open/campaigns/<name>/years/NNN/flags.md`, sealed, since a flag says what the record holds: each flag with the rule it breaks, where in the year it occurs, and what the record says instead. The public `campaigns/<name>/years/NNN/flags.md` carries only the count of flags raised and the count resolved. Flags go to the Keeper, which reworks and reruns the check. Anything unresolved by 6:30 goes into the morning notice.
