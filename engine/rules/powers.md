@@ -4,57 +4,79 @@ How a god's powers are written down, ruled on, grown and trimmed. Binding on the
 
 ## 1. The power card
 
-Every god has one power card. The player's is `player/power-card.md`. Each NPC god's is `SPOILERS_do_not_open/campaigns/<name>/gods/<god>/power-card.md`, in the same format (6.6). The card is canon: it never condenses and nothing on it is ever deleted (12.4). A change is a new dated entry, never an edit of an old one.
+Every god has one power card. The player's is `player/power-card.md`. Each NPC god's is `SPOILERS_do_not_open/campaigns/<name>/gods/<god>/power-card.md`, in the same format (6.6), and the NPC god's own agent reads it, so it carries nothing the god may not know. The card is canon: it never condenses and nothing on it is ever deleted (12.4). A change is a new dated entry, never an edit of an old one.
 
 ### Format
 
 ```
-# Power card: <god's name>
+# Power card: <god's name, or what it is filed under>
 
 ## Form
 <the body or bodies the god wears; how many bodies this campaign allows (3.13);
-what the form can and cannot do by itself; senses; pace relative to the pace
-table (10.1); god-sense as set for this campaign (7.2)>
+what the form can and cannot do by itself; senses as described, with any left
+unsettled marked so; pace relative to the pace table (10.1); god-sense as set
+for this campaign (7.2); what happens when the body is broken or scattered>
+
+### Definitions
+<terms several powers rely on (what counts as the god's mark, what makes a place
+its own), each in one or two lines; the powers below use these words>
+
+### Things carried
+<ordinary possessions, one line each. Anything carried that does more than an
+ordinary object is a power and is written under Powers, not here>
 
 ## Powers
 
 ### <Power name>
-Status: main | hidden (undiscovered) | hidden (discovered Year N) | grown (Year N)
-Description: <what it does, as first written on Day 2 or on Night 2, in one
-paragraph. This text is never rewritten. It is "the power as first written" that
-rulings are judged against (6.3).>
-Drawback: <the cost that always comes with it (6.2). Also never rewritten.>
-Limits settled at creation: <the main edge cases agreed on Day 2 (6.1), one line each>
+Status: main | hidden (discovered Year N) | grown (Year N)
+Description: <what it does, as agreed and read back at the close of Day 2 or
+confirmed on Night 2, in one paragraph. This text is never rewritten. It is
+"the power as first written" that rulings are judged against (6.3).>
+Drawback: <the cost that always comes with it (6.2). Also never rewritten. It is
+something the god would notice losing.>
+Limits settled at creation: <the main edge cases agreed on Day 2 (6.1), one line
+each; the player's first wording of the power, kept as intent; any ruling made
+at the table, marked "settled at creation", with its ledger id once the Keeper
+has given one>
 Rulings:
   - Year N, <date>. <Case in one sentence.> Ruled: <the ruling in one sentence>.
     Binds: <what it now covers>. Ledger: <ledger entry id>.
-Trades: <what was given up to buy this, or what this bought (3.7), one line each>
-Growth: <open attempts, see section 5 of this file; completed growth with year>
+Trades: <what was given up to buy this, or what this bought (3.7), one line each.
+An ability bought by a trade is a power with Status main and the trade written
+here and under the weakness that bought it>
+Growth: Possible. Not shown.
 
 ### <next power> ...
 
 ## Hidden powers
-<For the player's card this section says only "Two hidden powers exist (3.9).
-Discovered powers are added above as they surface." For an NPC card the two
-hidden powers are written in full, marked hidden (undiscovered).>
+Two hidden powers exist (3.9). Discovered powers are added above as they surface.
 
-## Weaknesses bought against powers
-<any weakness taken to buy an improvement (3.7), with what it bought>
+## Weaknesses taken
+<each weakness the god took, in full: what it cannot do or must do, its own
+limits and edge cases, how it can be used against the god, and what it bought.
+A weakness may be larger than any power on the card>
 
 ## Ceiling
-<For the player's card: "Set by the world. Not shown." For an NPC card the
-Keeper writes the rolled ceiling for this world (6.7) here. The player never sees
-this number.>
+Set by the world. Not shown.
+
+## Dated entries
+- <real date>, <Day 3 or Year N>: <a change that a later day or year made,
+  one entry each, never editing what is above: a people's edge that touches the
+  god's powers, a discovered hidden power, a grown tier, a ruling>
 ```
 
 ### Rules for the card
 
-- Description and Drawback are written once and frozen. Everything learned later goes under Rulings as precedent (6.1).
+- Description and Drawback are written once and frozen. The frozen text is what was agreed and read back, not the first draft; the first wording is kept under Limits as intent (3.21). Everything learned later goes under Rulings as precedent (6.1).
 - Every power has a drawback. A power with no drawback is not finished and cannot be used until it has one (6.2).
 - A ruling is dated twice: the campaign year it arose in and the real date it was made. Both are kept because the player may later argue from either.
-- Each ruling points to its entry in the sealed ruling ledger (12.7). The card shows the ruling; the ledger holds the arguments.
-- Hidden powers are discovered through play (3.9). When one surfaces, the Keeper releases it to the DM, who adds it to the card the same day with the scene it surfaced in. Until then the player's card does not name it.
+- Each ruling points to its entry in the sealed ruling ledger (12.7). The card shows the ruling; the ledger holds the arguments. A ruling made at the creation table is written "settled at creation"; the Keeper enters it in the ledger that night and writes the id back.
+- Hidden powers are discovered through play (3.9). They are not on any card, the player's or an NPC's, until they surface. The Keeper keeps them in the sealed god folder (`S/player/hidden-powers.md`, `S/gods-sealed/<god>/hidden-powers.md`), each with the kind of trigger that would surface it. When one surfaces, the Keeper releases it to the DM, who adds it to the card the same day with the scene it surfaced in.
+- The ceiling is never on a card. The Keeper keeps each world's ceiling in `S/star.md` and in each sealed god folder.
+- Growth is never on a card beyond the words "Possible. Not shown." until a tier lands (section 5).
 - Loopholes belong to whoever finds them (3.10). A loophole found is recorded as a ruling in the finder's favor, never closed retroactively. Countermeasures come only through the world (6.4).
+- A power that reveals information, about the past or at long range, is priced against the mystery standard: it may show effects, never mechanisms, and never a central measurement of the epic. The DM prices by shape on Day 2; the Keeper reviews on Night 2 and may add a Limit, logged.
+- Anything that acts on another god is the Keeper's to rule when it happens; the card says "unruled until it happens". Effects other gods perceive may be granted at the table.
 
 ## 2. How a ruling is requested
 
@@ -127,9 +149,10 @@ Growth is rare and modest; the status quo holds (6.7). A god that grows one powe
 
 ## 5. Tracking an attempt across years
 
-An attempt to grow a power is a thread that may run for years. It is tracked on the power card under Growth, one block per attempt:
+Growth is tracked in secret (DESIGN 6.8). An attempt to grow a power is a thread that may run for years, and the god is not told how far along it is. The Keeper tracks it in the god's sealed growth file (`S/player/growth.md` for the player, `S/gods-sealed/<god>/growth.md` for an NPC), one block per attempt:
 
 ```
+Power: <which power, or "new">
 Growth attempt: <what the god is trying to gain>
 Tier: refinement | new power | big upgrade
 Trigger: Year N, <the event in the record, one line, with a pointer to the scene or year file>
@@ -144,17 +167,22 @@ Status: open | completed Year N | abandoned Year N | beyond ceiling Year N
 
 Rules:
 
-- The DM opens the block the day the player states the attempt and the trigger is confirmed in the record. The Keeper confirms the tier.
-- Each year the god practices, the DM or the civ agent (for practice in unplayed time, per standing conduct) adds one line. A year with no practice is written as "Year N: no practice." Gaps do not reset the count, but the Keeper may rule that a long gap costs a year of practice.
-- The player may abandon an attempt at any time. The block stays, marked abandoned. If the player returns to it later, the old practice counts.
-- When all five needs are met, the player plays the final attempt as a scene. It is rolled. Success adds the power or upgrade to the card with its drawback and the date. Failure costs what was staked and adds one more failure line; the player may try again the next year.
-- An NPC god's attempts are tracked in exactly the same block on its own card. Its civ agent and the Keeper fill the practice lines from its decisions and the year's resolution.
+- The Keeper opens the block in the night turn after the day the player states the attempt, once the trigger is confirmed in the record, and confirms the tier. The DM reports the attempt in the decisions file; it does not write the block.
+- Each year, in pass two, the Keeper adds one line only for what the year actually produced: a trigger met, a year of practice (from decisions and scenes, never musings), a failure, a near miss. Nothing is added on a schedule. A year with no practice is written as "Year N: no practice." Gaps do not reset the count, but the Keeper may rule that a long gap costs a year of practice.
+- The player is told nothing of the count. What reaches the DM's release each year is only what the god would feel: an attempt that went better or worse than before, a cost paid, a sense of something near. The DM weaves it into the morning story as the god's own sensation and never names a count, a tier or a ceiling.
+- The player may abandon an attempt at any time, by saying so. The block stays, marked abandoned. If the player returns to it later, the old practice counts.
+- When all five needs are met, the Keeper tells the DM only that the god may now attempt the thing in full. The player plays the final attempt as a scene. It is rolled. Success adds the power or upgrade to the card as a dated entry, with its drawback. Failure costs what was staked and adds one more failure line; the player may try again the next year.
+- The ceiling check is made by the Keeper against `S/star.md`. "The ceiling holds" is all that is ever said.
+- An NPC god's attempts are tracked in exactly the same block in its sealed growth file. Its civ agent's report and the year's resolution fill the practice lines; the god's agent learns only what its release says it felt.
 
 ## 6. NPC gods
 
 NPC gods negotiate their powers with the Keeper on Night 2 (3.3, 6.6) and keep cards in the format above in the spoiler folder. They are bound by the same rules:
 
-- Their Descriptions and Drawbacks are frozen on Night 2. Their main edge cases are settled then, as the player's are on Day 2.
+- The negotiation is real (DESIGN 3.8a). The Keeper's round 1 is draft card text with choices and the Keeper's reasons; the god answers with its reasons and may counter-offer; round 2 is the Keeper's counter and final text; round 3, if needed, is confirmation only. A god's leans set how hard it bargains. The Keeper offers every option once, neutrally, and offers the NPC gods whatever the player was offered. A drawback that only restates the god's form or voice is refused.
+- Their Descriptions and Drawbacks are frozen on Night 2. Their main edge cases are settled then, as the player's are on Day 2, plus the NPC tests: does the power touch a world scarcity, rule a mind, work on things made by more than ordinary craft, or scale across a whole people in a year.
+- A memory-loss drawback on an NPC god is enacted by the Keeper removing an item from the god's record of gods or goals, logged in the keeper log; the god is not told what went.
+- Their hidden powers, secret pasts, ceiling and growth live in the sealed sibling folder `S/gods-sealed/<god>/`, which the god's agent never receives.
 - When an NPC god uses a power in an unruled way during the night turn, its agent asks the Keeper to rule, stating its own case. The Keeper rules by the same judgment order, with the NPC god's original intent in place of the player's. The ruling goes into the same ledger. The NPC's card gets the ruling.
 - NPC gods grow under section 4 and section 5 with no shortcut. The Keeper does not hand an NPC a power to make a story.
 - NPC gods can find loopholes (6.6). A loophole found by an NPC stands for that NPC as a player's would.

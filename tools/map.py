@@ -3,13 +3,10 @@
 
   python3 tools/map.py draw <campaign> [--zoom known] [--layer surface|under-N]
   python3 tools/map.py gazetteer <campaign>
-  python3 tools/map.py reveal <campaign> (--region R | --feature F) --grade seen|reported --source "..." --year N
-                                        [--told '<json>'] [--force "reason"]
-  python3 tools/map.py reveal <campaign> --grade rumored --name "the grey wall" --cell E1 --source "..." --year N
-                                        [--region R | --feature F] [--depth N]
-  python3 tools/map.py ids <campaign>          give every region and feature an opaque public id (pid)
+  python3 tools/map.py reveal <campaign> (--region R | --feature F) --grade G --source "..." --year N
+                                        [--told '<json>'] [--name N] [--cell C3] [--force "reason"]
   python3 tools/map.py validate <campaign>     check the sealed map's ids, neighbors, landings and types
-  python3 tools/map.py migrate <campaign>      rewrite a format 1 knowledge file in format 2
+  python3 tools/map.py migrate <campaign>      rewrite an older knowledge file to the current rules
 
 <campaign> is a campaign name under campaigns/. The sealed world is read from
 SPOILERS_do_not_open/campaigns/<name>/map.json and its paintings from
@@ -25,20 +22,21 @@ record onto them and fogs what the god does not know with the cloud painting. It
 prints nothing from the sealed file that the knowledge file does not allow. Unknown
 ground is cloud, unnamed and unhinted.
 
-The sheet is one letter-number grid, default 5 columns by 4 rows (painting.grid in
-map.json), lettered on all four edges. Underground layers are separate sheets on the
+The sheet is one letter-number grid, painting.grid {"cols": 5, "rows": 4} by default,
+lettered on all four edges; miles_per_pixel is free (a continent on one sheet). Underground layers are separate sheets on the
 same grid and fog.
 
-The public knowledge file (format 2) carries opaque public ids and grid cells only,
-never coordinates:
-  {"campaign": "...", "format": 2,
-   "seen": ["r07", ...],                                    region or feature ids
-   "reported": [{"id": "s03", "source": "...", "told": {"name", "terrain", "type", "cell"}}],
-   "rumored": [{"name": "the grey wall", "cell": "E1"}]}    optional "depth" for below
-A region or feature's public id is its "pid" when the sealed map gives one, otherwise
-its "id". Polygons and points are always resolved from the sealed map. Format 1
-files (regions and features keyed by id with grades and pixel "told" values) are
-still read by draw and gazetteer; reveal asks for `migrate` first.
+Ids in map.json are opaque (r01 for regions, f03 for features, u01 underground),
+never name slugs. The player's knowledge file is keyed by those ids, in a `regions`
+dict and a `features` dict, each entry with grade, source, year and told:
+  - seen: no told and no coordinates; the truth is drawn from the sealed map.
+  - reported: told may carry name, type, terrain and shapes (coords, polygon) in
+    painting pixels, because it is the god's belief, not the truth.
+  - rumored: told.name and told.cell (a grid cell like "C2"), never `near` or any
+    pixel; the faint label is drawn at the cell's center. Rumors attach to features:
+    a region id appears in the player's file only when that region is seen or reported.
+Files written before these rules (rumors with `near`, a grid_cell_px grid) are still
+drawn; `migrate` rewrites them.
 
 The sealed map's regions carry elevation, water, climate and neighbors ({id, days});
 the sheet carries landings (god label to region id), roads (a feature type, drawn as
@@ -50,7 +48,6 @@ import json
 import math
 import os
 import re
-import secrets
 import sys
 
 try:
@@ -68,8 +65,9 @@ FEATURE_TYPES = SETTLEMENT_TYPES | NATURAL_TYPES | {"road"}
 WATER_TYPES = {"river", "lake", "sea"}
 DEFAULT_GRID = (5, 4)   # columns, rows
 CELL_RE = re.compile(r"^([A-Z]+)([0-9]+)$")
-OPAQUE_RE = re.compile(r"^(?:[a-z]{1,2}[0-9]{1,4}|p[0-9a-f]{6})$")
-TOLD_KEYS_V2 = {"name", "terrain", "type", "cell"}
+OPAQUE_RE = re.compile(r"^[a-z][0-9]{2,4}$")
+TOLD_KEYS = {"name", "terrain", "type", "cell", "coords", "polygon"}
+PIXEL_KEYS = {"coords", "polygon", "near"}
 
 # Ink and paper.
 PARCHMENT = (239, 227, 196)
@@ -193,15 +191,18 @@ def dist_to_polyline(p, line):
 
 class Painting:
     """Size, scale and grid of the sealed paintings, from map.json's painting block.
-    The grid is painting.grid [columns, rows] (default 5 by 4). A format 1 map that gives
+    The grid is painting.grid {"cols", "rows"} (default 5 by 4). An older map that gives
     only grid_cell_px keeps its square cells."""
 
     def __init__(self, world):
         p = world.get("painting", {})
         self.size = tuple(p.get("size", [1024, 1024]))
         self.mpp = float(p.get("miles_per_pixel", DEFAULT_MPP))
-        if "grid" in p:
-            self.ncols, self.nrows = int(p["grid"][0]), int(p["grid"][1])
+        g = p.get("grid")
+        if isinstance(g, dict):
+            self.ncols, self.nrows = int(g.get("cols", DEFAULT_GRID[0])), int(g.get("rows", DEFAULT_GRID[1]))
+        elif isinstance(g, (list, tuple)):
+            self.ncols, self.nrows = int(g[0]), int(g[1])
         elif "grid_cell_px" in p:
             c = int(p["grid_cell_px"])
             self.ncols, self.nrows = math.ceil(self.size[0] / c), math.ceil(self.size[1] / c)
@@ -278,10 +279,23 @@ def all_features(world):
             yield f, layer
 
 
-def known_feature(f, entry):
+def rumor_near(told, el, painting):
+    """Where a rumor's faint label sits: the center of told.cell; an older file's `near`;
+    else the center of the cell the thing is truly in."""
+    if painting is not None and told.get("cell"):
+        c = painting.cell_center(told["cell"])
+        if c:
+            return list(c)
+    if "near" in told:
+        return told["near"]
+    true = centroid(el.get("polygon") or el["coords"])
+    return list(painting.cell_center(painting.cell_of(true))) if painting is not None else list(true)
+
+
+def known_feature(f, entry, painting=None):
     """The feature as the god knows it: told values override truth below seen."""
     g = grade_of(entry)
-    k = {"id": f["id"], "pid": public_id(f), "type": f["type"], "shape": f.get("shape", "point"), "grade": g,
+    k = {"id": f["id"], "type": f["type"], "shape": f.get("shape", "point"), "grade": g,
          "source": entry.get("source", ""), "year": entry.get("year", ""), "regions": f.get("regions", [])}
     told = entry.get("told", {}) if g != "seen" else {}
     k["name"] = told.get("name", f["name"])
@@ -291,7 +305,7 @@ def known_feature(f, entry):
     elif g == "reported":
         k["coords"] = told.get("coords", f["coords"])
     else:
-        k["coords"] = [told["near"]] if "near" in told else [list(centroid(f["coords"]))]
+        k["coords"] = [rumor_near(told, f, painting)]
     k["shape"] = f.get("shape", "point") if g != "rumored" else "point"
     if k["shape"] == "line" and len(k["coords"]) < 2:
         k["shape"] = "point"
@@ -300,32 +314,31 @@ def known_feature(f, entry):
     return k
 
 
-def known_region(r, entry):
+def known_region(r, entry, painting=None):
     g = grade_of(entry)
     told = entry.get("told", {}) if g != "seen" else {}
-    k = {"id": r["id"], "pid": public_id(r), "grade": g, "source": entry.get("source", ""), "year": entry.get("year", ""),
+    k = {"id": r["id"], "grade": g, "source": entry.get("source", ""), "year": entry.get("year", ""),
          "name": told.get("name", r["name"]), "terrain": told.get("terrain", r.get("terrain", ""))}
     if g == "rumored":
         k["polygon"] = None
-        k["near"] = told.get("near", list(centroid(r["polygon"])))
+        k["near"] = rumor_near(told, r, painting)
     else:
         k["polygon"] = told.get("polygon", r["polygon"])
     return k
 
 
-def gather(world, knowledge):
-    """Known regions (by sealed id) and known features (sealed id -> (known, layer id or None)),
-    from a normalized knowledge dict (see normalize_knowledge)."""
+def gather(world, knowledge, painting=None):
+    """Known regions (by id) and known features (id -> (known, layer id or None))."""
     regions_k = {}
     for r, _layer in all_regions(world):
         e = knowledge["regions"].get(r["id"])
         if grade_of(e) != "none":
-            regions_k[r["id"]] = known_region(r, e)
+            regions_k[r["id"]] = known_region(r, e, painting)
     features_k = {}
     for f, layer in all_features(world):
         e = knowledge["features"].get(f["id"])
         if grade_of(e) != "none":
-            features_k[f["id"]] = (known_feature(f, e), layer["id"] if layer else None)
+            features_k[f["id"]] = (known_feature(f, e, painting), layer["id"] if layer else None)
     return regions_k, features_k
 
 
@@ -338,94 +351,53 @@ def all_regions(world):
             yield r, layer
 
 
-def public_id(el):
-    """The id a public file uses: the element's opaque pid when it has one, else its id."""
-    return el.get("pid") or el["id"]
-
-
 def index_world(world):
-    """(by public id, by sealed id), each mapping to (kind, element, layer)."""
-    by_pub, by_id = {}, {}
+    """id -> (kind, element, layer)."""
+    by_id = {}
     for r, layer in all_regions(world):
-        by_pub[public_id(r)] = ("region", r, layer)
         by_id[r["id"]] = ("region", r, layer)
     for f, layer in all_features(world):
-        by_pub[public_id(f)] = ("feature", f, layer)
         by_id[f["id"]] = ("feature", f, layer)
-    return by_pub, by_id
+    return by_id
 
 
-def is_v2(raw):
-    return raw.get("format") == 2 or any(k in raw for k in ("seen", "reported", "rumored"))
-
-
-def empty_v2(world):
-    return {"campaign": world.get("campaign"), "format": 2, "seen": [], "reported": [], "rumored": []}
-
-
-def log_info(log_path):
-    """Latest (year, source) per public id from map-log.md."""
-    info = {}
-    if not log_path or not os.path.exists(log_path):
-        return info
-    for line in open(log_path):
-        parts = [p.strip() for p in line.strip()[2:].split("|")] if line.startswith("- ") else []
-        if len(parts) >= 5:
-            kind_id = parts[2].split(None, 1)
-            if len(kind_id) == 2:
-                info[kind_id[1]] = (parts[1].replace("year ", ""), parts[4].split(";")[0])
-    return info
-
-
-def normalize_knowledge(world, raw, painting, log_path=None):
-    """Either knowledge format, as {"regions": {sealed id: entry}, "features": {...}, "rumors": [...]}.
-    Entries are format 1 shaped (grade, source, year, told with pixels); rumors carry name, cell,
-    near (the cell's center) and depth (None for the surface)."""
-    if not is_v2(raw):
-        k = {"regions": dict(raw.get("regions", {})), "features": dict(raw.get("features", {})), "rumors": []}
-        return k
-    by_pub, _ = index_world(world)
-    info = log_info(log_path)
-    k = {"regions": {}, "features": {}, "rumors": []}
-    for pid in raw.get("seen", []):
-        hit = by_pub.get(pid)
-        if not hit:
-            print(f"map.py: knowledge names {pid!r}, which is not in the sealed map; ignored", file=sys.stderr)
-            continue
-        kind, el, _ = hit
-        year, source = info.get(pid, ("", ""))
-        k[kind + "s"][el["id"]] = {"grade": "seen", "source": source, "year": year}
-    for e in raw.get("reported", []):
-        hit = by_pub.get(e.get("id"))
-        if not hit:
-            print(f"map.py: knowledge names {e.get('id')!r}, which is not in the sealed map; ignored", file=sys.stderr)
-            continue
-        kind, el, _ = hit
-        if el["id"] in k[kind + "s"]:
-            continue  # seen wins
-        t = e.get("told") or {}
-        told = {key: t[key] for key in ("name", "terrain", "type") if key in t}
-        if kind == "feature" and "cell" in t and el.get("shape", "point") == "point":
-            c = painting.cell_center(t["cell"])
-            if c and painting.cell_of(centroid(el["coords"])) != str(t["cell"]).upper():
-                told["coords"] = [[round(c[0], 1), round(c[1], 1)]]
-        year, _src = info.get(e["id"], ("", ""))
-        k[kind + "s"][el["id"]] = {"grade": "reported", "source": e.get("source", ""), "year": year, "told": told}
-    for e in raw.get("rumored", []):
-        c = painting.cell_center(e.get("cell", ""))
-        if c is None:
-            print(f"map.py: rumor {e.get('name')!r} has no cell on this grid; ignored", file=sys.stderr)
-            continue
-        k["rumors"].append({"name": e.get("name", "?"), "cell": str(e["cell"]).upper(), "near": list(c),
-                            "depth": e.get("depth")})
-    return k
+def knowledge_problems(world, knowledge):
+    """Breaches of the knowledge file's rules (ids, pixels, region ids below reported)."""
+    by_id = index_world(world)
+    probs = []
+    for table, kind in (("regions", "region"), ("features", "feature")):
+        for ident, e in knowledge.get(table, {}).items():
+            hit = by_id.get(ident)
+            g = grade_of(e)
+            t = e.get("told") or {}
+            if not hit or hit[0] != kind:
+                probs.append(f"{kind} {ident}: not in the sealed map")
+                continue
+            if g not in GRADES[1:]:
+                probs.append(f"{kind} {ident}: grade {g!r}")
+            if not OPAQUE_RE.match(ident):
+                probs.append(f"{kind} {ident}: id is not opaque")
+            if kind == "region" and g not in ("seen", "reported"):
+                probs.append(f"{kind} {ident}: a region id appears only when seen or reported (grade {g})")
+            if g == "seen" and t:
+                probs.append(f"{kind} {ident}: seen entries carry no told")
+            if g == "rumored":
+                if PIXEL_KEYS & set(t):
+                    probs.append(f"{kind} {ident}: a rumor carries a cell, never pixels")
+                if not t.get("cell") or not t.get("name"):
+                    probs.append(f"{kind} {ident}: a rumor needs told.name and told.cell")
+                elif Painting(world).parse_cell(t["cell"]) is None:
+                    probs.append(f"{kind} {ident}: rumor cell {t['cell']!r} is not on the grid")
+            if g == "reported" and "near" in t:
+                probs.append(f"{kind} {ident}: `near` is not a reported shape")
+    return probs
 
 
 def check_world(world):
     """Problems in the sealed map: duplicate or missing ids, unknown types, neighbors and landings
     that do not resolve. Returns a list of strings."""
     probs = []
-    seen_ids, seen_pids = {}, {}
+    seen_ids = {}
     region_ids = set()
     for el, layer in list(all_regions(world)) + list(all_features(world)):
         i = el.get("id")
@@ -435,11 +407,8 @@ def check_world(world):
         if i in seen_ids:
             probs.append(f"duplicate id {i}")
         seen_ids[i] = el
-        pid = el.get("pid")
-        if pid:
-            if pid in seen_pids or (pid in seen_ids and seen_ids[pid] is not el):
-                probs.append(f"duplicate public id {pid}")
-            seen_pids[pid] = el
+        if not OPAQUE_RE.match(i):
+            probs.append(f"id {i} is not opaque (use r01, f03, u01)")
     for r, _layer in all_regions(world):
         region_ids.add(r["id"])
         if len(r.get("polygon", [])) < 3:
@@ -885,16 +854,15 @@ def known_rect(regions_k, features_k, layer_id, painting):
     return (x0, y0, x1, y1)
 
 
-def beyond_notes(view, regions_k, features_k, layer_id, rumors=()):
+def beyond_notes(view, regions_k, features_k, layer_id):
     cx, cy = (view.x0 + view.x1) / 2, (view.y0 + view.y1) / 2
     items = [(k["name"], k["near"]) for k in regions_k.values() if k["grade"] == "rumored"]
     items += [(k["name"], k["coords"][0]) for k, lid in features_k.values() if lid == layer_id and k["grade"] == "rumored"]
-    items += [(k["name"], k["near"]) for k in rumors]
     notes = [f"{name}, {bearing_name(p[0] - cx, p[1] - cy)}" for name, p in items if not view.inside(p)]
     return ["rumored, beyond this sheet: " + "; ".join(notes)] if notes else []
 
 
-def draw_sheet(world, painting, paintings_dir, painting_file, regions, features, view, title, notes, layer_name=None, rumors=()):
+def draw_sheet(world, painting, paintings_dir, painting_file, regions, features, view, title, notes, layer_name=None):
     paint = load_painting(paintings_dir, painting_file, painting.size)
     clouds = load_painting(paintings_dir, "clouds.png", painting.size)
     mask = fog_mask(regions, painting.size)
@@ -909,10 +877,6 @@ def draw_sheet(world, painting, paintings_dir, painting_file, regions, features,
         for k in features:
             if k["shape"] == shape:
                 draw_feature(canvas, lab, view, k, painting, region_names)
-    for k in rumors:
-        # a rumor is a faint name at the center of the cell it was told in
-        if view.inside(k["near"]):
-            lab.text(view.pt(k["near"]), k["name"], size=14, style="italic", fill=INK, alpha=150)
     lab.flush(canvas)
     draw_scale_bar(canvas, view, painting)
     draw_compass(canvas, view)
@@ -925,11 +889,8 @@ def draw_sheet(world, painting, paintings_dir, painting_file, regions, features,
 
 
 def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
-    """Draw from a normalized knowledge dict (normalize_knowledge)."""
     painting = Painting(world)
-    regions_k, features_k = gather(world, knowledge)
-    rumors = knowledge.get("rumors", [])
-    surface_rumors = [k for k in rumors if not k.get("depth")]
+    regions_k, features_k = gather(world, knowledge, painting)
     surface_regions = [k for rid, k in regions_k.items() if any(r["id"] == rid for r in world.get("regions", []))]
     name = world.get("campaign", "world")
     os.makedirs(out_dir, exist_ok=True)
@@ -942,9 +903,8 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
         rect = known_rect(regions_k, features_k, None, painting) if zoom == "known" else (0, 0, *painting.size)
         view = View(rect)
         feats = [k for k, lid in features_k.values() if lid is None]
-        view, notes = make_view(rect, legend + beyond_notes(view, regions_k, features_k, None, surface_rumors))
-        im = draw_sheet(world, painting, paintings_dir, "surface.png", surface_regions, feats, view, f"{name}: the god's map", notes,
-                        rumors=surface_rumors)
+        view, notes = make_view(rect, legend + beyond_notes(view, regions_k, features_k, None))
+        im = draw_sheet(world, painting, paintings_dir, "surface.png", surface_regions, feats, view, f"{name}: the god's map", notes)
         path = os.path.join(out_dir, "map.png")
         im.save(path, optimize=True)
         written.append(path)
@@ -956,18 +916,16 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
         if which not in (None, lid, f"under-{depth}"):
             continue
         under = [k for k, l in features_k.values() if l == lid]
-        under_rumors = [k for k in rumors if k.get("depth") == depth]
-        if not under and not under_rumors and which is None:
+        if not under and which is None:
             continue
         layer_regions = [regions_k[r["id"]] for r in layer.get("regions", []) if r["id"] in regions_k]
         regions = layer_regions if layer.get("regions") else surface_regions
         rect = known_rect({k["id"]: k for k in regions}, features_k, lid, painting) if zoom == "known" else (0, 0, *painting.size)
         view = View(rect)
         view, notes = make_view(rect, ["The ground below is fogged by what is known of the ground above it unless the layer has its own regions.",
-                                       "Only known ground below is named."] + beyond_notes(view, {}, features_k, lid, under_rumors))
+                                       "Only known ground below is named."] + beyond_notes(view, {}, features_k, lid))
         im = draw_sheet(world, painting, paintings_dir, layer.get("painting", f"under-{depth}.png"), regions, under, view,
-                        f"{name}: below, layer {depth}", notes, layer_name=f"Below, layer {depth}: {layer.get('name', '')}",
-                        rumors=under_rumors)
+                        f"{name}: below, layer {depth}", notes, layer_name=f"Below, layer {depth}: {layer.get('name', '')}")
         path = os.path.join(out_dir, f"map-under-{depth}.png")
         im.save(path, optimize=True)
         written.append(path)
@@ -979,7 +937,6 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
     meta = {"frames": {k: frame_cells(rect) for k, rect in frames.items()},
             "grid": [painting.ncols, painting.nrows], "sheet_miles": [round(painting.miles(v)) for v in painting.size],
             "zoom": zoom or "full",
-            "rumors_drawn": len(rumors),
             "regions_drawn": {g: sum(1 for k in regions_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "features_drawn": {g: sum(1 for k, _ in features_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "drawn": datetime.date.today().isoformat(), "files": [os.path.basename(w) for w in written]}
@@ -1020,8 +977,7 @@ def gazetteer(world, knowledge, out_dir, log_path):
              "Everything the god knows of the ground, exact where the map is pictorial. Regenerated from `player/map-knowledge.json` by `tools/map.py gazetteer`; never edited by hand. "
              f"Places are given by map grid cell ({painting.ncols} columns by {painting.nrows} rows); distances are in miles. "
              "Grades: seen (found so), reported (as told, may be wrong), rumored (a name and a rough place).", ""]
-    regions_k, features_k = gather(world, knowledge)
-    rumors = knowledge.get("rumors", [])
+    regions_k, features_k = gather(world, knowledge, painting)
     regions = list(regions_k.values())
     region_truth = {r["id"]: r for r, _ in all_regions(world)}
     layer_by_id = {l["id"]: l for l in world.get("layers", [])}
@@ -1029,7 +985,6 @@ def gazetteer(world, knowledge, out_dir, log_path):
     reg_name = {k["id"]: k["name"] for k in regions}
 
     def hist_line(i):
-        """i is a public id, or a rumor's name."""
         return ("; history: " + "; ".join(hist[i])) if i in hist else ""
 
     lines.append("## Regions")
@@ -1037,11 +992,11 @@ def gazetteer(world, knowledge, out_dir, log_path):
     for g in ("seen", "reported", "rumored"):
         for k in sorted((r for r in regions if r["grade"] == g), key=lambda r: r["name"]):
             if g == "rumored":
-                lines.append(f"- **{k['name']}**, rumored, somewhere near {fmt_pt(k['near'], painting)} by the telling of {k['source']}, year {k['year']}{hist_line(k['pid'])}.")
+                lines.append(f"- **{k['name']}**, rumored, somewhere near {fmt_pt(k['near'], painting)} by the telling of {k['source']}, year {k['year']}{hist_line(k['id'])}.")
             else:
                 c = centroid(k["polygon"])
                 across = f", about {mi(extent_across(k['polygon'])):.0f} miles across" if g == "seen" else ""
-                lines.append(f"- **{k['name']}** ({painting.cell_of(c)}), {k['terrain']}{across}, {g}, source: {k['source']}, year {k['year']}{hist_line(k['pid'])}.")
+                lines.append(f"- **{k['name']}** ({painting.cell_of(c)}), {k['terrain']}{across}, {g}, source: {k['source']}, year {k['year']}{hist_line(k['id'])}.")
     lines.append("")
 
     lines.append("## Travel between known regions")
@@ -1083,7 +1038,7 @@ def gazetteer(world, knowledge, out_dir, log_path):
             else:
                 x0, y0, x1, y1 = bbox(k["coords"])
                 where = f"about {mi(x1 - x0):.0f} by {mi(y1 - y0):.0f} miles, centered {fmt_pt(centroid(k['coords']), painting)}"
-            lines.append(f"- **{k['name']}** ({k['type']}), {where}{', in ' + regs if regs else ''}, {k['grade']}, source: {k['source']}, year {k['year']}{hist_line(k['pid'])}.")
+            lines.append(f"- **{k['name']}** ({k['type']}), {where}{', in ' + regs if regs else ''}, {k['grade']}, source: {k['source']}, year {k['year']}{hist_line(k['id'])}.")
         lines.append("")
 
     surface = [(k, l) for k, l in feats if l is None]
@@ -1122,13 +1077,10 @@ def gazetteer(world, knowledge, out_dir, log_path):
     lines.append("## Rumors")
     lines.append("")
     rum = [k for k, l in surface if k["grade"] == "rumored"]
-    if not rum and not rumors:
+    if not rum:
         lines.append("None.")
     for k in sorted(rum, key=lambda k: str(k["year"] or 0)):
-        lines.append(f"- **{k['name']}** ({k['type']}), somewhere near {fmt_pt(k['coords'][0], painting)}, by the telling of {k['source']}, year {k['year']}{hist_line(k['pid'])}.")
-    for k in rumors:
-        below = f", below (layer {k['depth']})" if k.get("depth") else ""
-        lines.append(f"- **{k['name']}**, somewhere in {k['cell']}{below}{hist_line(k['name'])}.")
+        lines.append(f"- **{k['name']}** ({k['type']}), somewhere near {fmt_pt(k['coords'][0], painting)}, by the telling of {k['source']}, year {k['year']}{hist_line(k['id'])}.")
     lines.append("")
 
     for layer in world.get("layers", []):
@@ -1141,9 +1093,9 @@ def gazetteer(world, knowledge, out_dir, log_path):
             if k["grade"] == "rumored":
                 lines.append(f"- **{k['name']}**, rumored, somewhere under {fmt_pt(k['coords'][0], painting)}, by the telling of {k['source']}, year {k['year']}.")
             elif k["shape"] == "line":
-                lines.append(f"- **{k['name']}** ({k['type']}), {mi(polyline_length(k['coords'])):.0f} miles, from under {fmt_pt(k['coords'][0], painting)} to under {fmt_pt(k['coords'][-1], painting)}, {k['grade']}, source: {k['source']}, year {k['year']}{hist_line(k['pid'])}.")
+                lines.append(f"- **{k['name']}** ({k['type']}), {mi(polyline_length(k['coords'])):.0f} miles, from under {fmt_pt(k['coords'][0], painting)} to under {fmt_pt(k['coords'][-1], painting)}, {k['grade']}, source: {k['source']}, year {k['year']}{hist_line(k['id'])}.")
             else:
-                lines.append(f"- **{k['name']}** ({k['type']}), under {fmt_pt(k['coords'][0], painting)}, {k['grade']}, source: {k['source']}, year {k['year']}{hist_line(k['pid'])}.")
+                lines.append(f"- **{k['name']}** ({k['type']}), under {fmt_pt(k['coords'][0], painting)}, {k['grade']}, source: {k['source']}, year {k['year']}{hist_line(k['id'])}.")
         lines.append("")
 
     path = os.path.join(out_dir, "gazetteer.md")
@@ -1156,155 +1108,110 @@ def gazetteer(world, knowledge, out_dir, log_path):
 # ---------------------------------------------------------------- reveal
 
 def reveal(world, knowledge, knowledge_path, log_path, args):
-    """Raise (or, with --force, lower) what the god knows, in the format 2 knowledge file.
-    `knowledge` is the raw format 2 dict; ids may be given as sealed ids or public ids, and the
-    file is always written with public ids and grid cells."""
     painting = Painting(world)
-    if args.grade not in ("rumored", "reported", "seen"):
+    kind = "region" if args.region else "feature"
+    ident = args.region or args.feature
+    if args.grade not in GRADES or args.grade == "none":
         sys.exit("map.py: grade must be rumored, reported or seen")
+    hit = index_world(world).get(ident)
+    if hit is None or hit[0] != kind:
+        sys.exit(f"map.py: no {kind} with id {ident!r} in the sealed map; a typo cannot create ground")
+    truth = hit[1]
+    if kind == "region" and args.grade == "rumored":
+        sys.exit("map.py: a region id enters the player's file only when seen or reported; attach the rumor to a feature, or keep it in the chronicle")
+    if not OPAQUE_RE.match(ident):
+        print(f"note: id {ident!r} is not opaque; new maps use ids like r01, f03, u01", file=sys.stderr)
+    table = knowledge.setdefault(kind + "s", {})
+    old = table.get(ident, {})
+    old_grade = grade_of(old)
+    if grade_rank(args.grade) < grade_rank(old_grade) and not args.force:
+        sys.exit(f"map.py: {ident} is already {old_grade}; lowering needs --force \"reason\"")
     told = {}
     if args.told:
         try:
             told = json.loads(args.told)
         except json.JSONDecodeError as e:
             sys.exit(f"map.py: --told is not valid JSON: {e}")
-        bad = set(told) - TOLD_KEYS_V2
+        bad = set(told) - TOLD_KEYS
         if bad:
-            sys.exit(f"map.py: --told takes only {', '.join(sorted(TOLD_KEYS_V2))}; public files never carry coordinates ({', '.join(sorted(bad))})")
-        if "cell" in told:
-            if painting.parse_cell(told["cell"]) is None:
-                sys.exit(f"map.py: cell {told['cell']!r} is not on this {painting.ncols} by {painting.nrows} grid")
-            told["cell"] = str(told["cell"]).upper()
-    by_pub, by_id = index_world(world)
-    ident = args.region or args.feature
-    hit = None
-    if ident:
-        hit = by_id.get(ident) or by_pub.get(ident)
-        if hit is None or hit[0] != ("region" if args.region else "feature"):
-            sys.exit(f"map.py: no {'region' if args.region else 'feature'} with id {ident!r} in the sealed map; a typo cannot create ground")
-    elif args.grade != "rumored":
-        sys.exit("map.py: seen and reported need --region or --feature")
-    seen = knowledge.setdefault("seen", [])
-    reported = knowledge.setdefault("reported", [])
-    rumored = knowledge.setdefault("rumored", [])
-    today = datetime.date.today().isoformat()
-    reason = f"; forced: {args.force}" if args.force else ""
-
-    def write_log(what, old, new, extra=""):
-        os.makedirs(os.path.dirname(log_path) or ".", exist_ok=True)
-        with open(log_path, "a") as f:
-            f.write(f"- {today} | year {args.year} | {what} | {old} -> {new} | {args.source}{extra}{reason}\n")
-
-    if args.grade == "rumored":
-        name = args.name or told.get("name") or (hit[1]["name"] if hit else None)
-        cell = args.cell or told.get("cell") or (painting.cell_of(centroid(hit[1].get("polygon") or hit[1]["coords"])) if hit else None)
-        if not name or not cell:
-            sys.exit("map.py: a rumor needs --name and --cell (or --region/--feature to take them from)")
-        if painting.parse_cell(cell) is None:
-            sys.exit(f"map.py: cell {cell!r} is not on this {painting.ncols} by {painting.nrows} grid")
-        cell = cell.upper()
-        old = "none"
-        if hit:
-            pid = public_id(hit[1])
-            old = "seen" if pid in seen else ("reported" if any(e["id"] == pid for e in reported) else "none")
-            if old != "none" and not args.force:
-                sys.exit(f"map.py: {pid} is already {old}; lowering needs --force \"reason\"")
-            if old == "seen":
-                seen.remove(pid)
-            knowledge["reported"] = reported = [e for e in reported if e["id"] != pid]
-        entry = {"name": name, "cell": cell}
-        if args.depth:
-            entry["depth"] = args.depth
-        if entry not in rumored:
-            rumored.append(entry)
-        write_log(f"rumor {name}", old, f"rumored in {cell}")
-        save_json(knowledge_path, knowledge)
-        print(f"rumor {name}: rumored in {cell} ({args.source}, year {args.year})")
-        return
-
-    kind, el, _layer = hit
-    pid = public_id(el)
-    if not OPAQUE_RE.match(pid):
-        print(f"note: public id {pid!r} is not opaque; run `map.py ids` so public files carry ids that name nothing", file=sys.stderr)
-    old_rep = next((e for e in reported if e["id"] == pid), None)
-    old = "seen" if pid in seen else ("reported" if old_rep else "none")
-    if old == "seen" and args.grade == "reported" and not args.force:
-        sys.exit(f"map.py: {pid} is already seen; lowering needs --force \"reason\"")
+            sys.exit(f"map.py: --told takes only {', '.join(sorted(TOLD_KEYS))} ({', '.join(sorted(bad))} given)")
+    if args.name:
+        told["name"] = args.name
+    if args.cell:
+        told["cell"] = args.cell
+    if "cell" in told:
+        if painting.parse_cell(told["cell"]) is None:
+            sys.exit(f"map.py: cell {told['cell']!r} is not on this {painting.ncols} by {painting.nrows} grid")
+        told["cell"] = str(told["cell"]).upper()
+    entry = {"grade": args.grade, "source": args.source, "year": args.year}
     correction = ""
+    old_told = old.get("told", {}) or {}
     if args.grade == "seen":
-        if old_rep:
-            t = old_rep.get("told") or {}
-            true_cell = painting.cell_of(centroid(el.get("polygon") or el["coords"]))
-            if t.get("cell") and t["cell"] != true_cell:
-                correction += f"; told in {t['cell']} by {old_rep.get('source', '?')}, found in {true_cell}"
-            if t.get("name") and t["name"] != el["name"]:
-                correction += f"; called {t['name']} by {old_rep.get('source', '?')}, found to be {el['name']}"
-        knowledge["reported"] = [e for e in reported if e["id"] != pid]
-        if pid not in seen:
-            seen.append(pid)
-    else:
-        if pid in seen:
-            seen.remove(pid)
-        entry = {"id": pid, "source": args.source}
+        true_c = centroid(truth.get("polygon") or truth["coords"])
+        shape = old_told.get("coords") or old_told.get("polygon")
+        told_cell = painting.cell_of(centroid(shape)) if shape else old_told.get("cell")
+        if old_grade in ("reported", "rumored") and (shape or told_cell):
+            far = painting.miles(math.dist(centroid(shape), true_c)) > 1 if shape else told_cell != painting.cell_of(true_c)
+            if far:
+                correction = f"; told at {told_cell} by {old.get('source', '?')}, found at {painting.cell_of(true_c)}"
+        if old_told.get("name") and old_told["name"] != truth["name"]:
+            correction += f"; called {old_told['name']} by {old.get('source', '?')}, found to be {truth['name']}"
+    elif args.grade == "reported":
+        if PIXEL_KEYS & set(told) == {"near"}:
+            sys.exit("map.py: `near` is not a reported shape; give coords, polygon or cell")
         if told:
             entry["told"] = told
-        elif old_rep and old_rep.get("told"):
-            entry["told"] = old_rep["told"]  # keep what was told before if the new teller adds nothing
-        knowledge["reported"] = [e for e in reported if e["id"] != pid] + [entry]
+        elif old_told and old_grade == "reported":
+            entry["told"] = old_told  # keep what was told before if the new teller adds nothing
+    else:  # rumored
+        if PIXEL_KEYS & set(told):
+            sys.exit("map.py: a rumor carries a name and a cell, never pixels")
+        kept = {k: v for k, v in old_told.items() if k in ("name", "type")}
+        shape = old_told.get("coords") or old_told.get("polygon")
+        if shape and "cell" not in told:
+            kept["cell"] = painting.cell_of(centroid(shape))  # lowered: the old telling as a rough place
+        kept.update(told)
+        kept.setdefault("name", truth["name"])
+        if "cell" not in kept:
+            sys.exit("map.py: a rumor needs a cell (--cell C2): where the teller places it, as loosely as they did")
+        entry["told"] = kept
+    table[ident] = entry
     save_json(knowledge_path, knowledge)
-    write_log(f"{kind} {pid}", old, args.grade, correction)
-    print(f"{kind} {pid}: {old} -> {args.grade} ({args.source}, year {args.year}){correction}")
+    os.makedirs(os.path.dirname(log_path) or ".", exist_ok=True)
+    reason = f"; forced: {args.force}" if args.force else ""
+    with open(log_path, "a") as f:
+        f.write(f"- {datetime.date.today().isoformat()} | year {args.year} | {kind} {ident} | {old_grade} -> {args.grade} | {args.source}{correction}{reason}\n")
+    print(f"{kind} {ident}: {old_grade} -> {args.grade} ({args.source}, year {args.year}){correction}")
 
 
-def migrate(world, raw, painting):
-    """A format 1 knowledge dict as format 2: public ids, cells, no coordinates. Returns (new, notes)."""
-    new = empty_v2(world)
-    new["campaign"] = raw.get("campaign", world.get("campaign"))
-    by_pub, by_id = index_world(world)
+def migrate(world, knowledge, painting):
+    """Bring an older knowledge file to the current rules: rumors get a cell instead of `near`,
+    seen entries lose any told, rumored regions leave the file. Ids are not renamed (that is a
+    sealed-map change). Returns notes on what changed."""
     notes = []
-    for table in ("regions", "features"):
-        for ident, e in raw.get(table, {}).items():
-            hit = by_id.get(ident) or by_pub.get(ident)
-            if not hit:
-                notes.append(f"dropped {ident}: not in the sealed map")
-                continue
-            el = hit[1]
-            pid = public_id(el)
-            g = e.get("grade", "none")
-            t = e.get("told", {}) or {}
-            if g == "seen":
-                new["seen"].append(pid)
-            elif g == "reported":
-                told = {k: t[k] for k in ("name", "terrain", "type") if k in t}
-                shape = t.get("coords") or t.get("polygon")
-                if shape:
-                    told["cell"] = painting.cell_of(centroid(shape))
-                entry = {"id": pid, "source": e.get("source", "")}
-                if told:
-                    entry["told"] = told
-                new["reported"].append(entry)
-            elif g == "rumored":
-                near = t.get("near") or list(centroid(el.get("polygon") or el["coords"]))
-                new["rumored"].append({"name": t.get("name", el["name"]), "cell": painting.cell_of(near)})
-    return new, notes
-
-
-def assign_ids(world, prefix="p"):
-    """Give every region and feature without a pid an opaque one. Returns how many were given."""
-    taken = {el.get("pid") for el, _ in list(all_regions(world)) + list(all_features(world))}
-    taken |= {el["id"] for el, _ in list(all_regions(world)) + list(all_features(world))}
-    n = 0
-    for el, _ in list(all_regions(world)) + list(all_features(world)):
-        if el.get("pid"):
-            continue
-        while True:
-            pid = prefix + secrets.token_hex(3)
-            if pid not in taken:
-                break
-        el["pid"] = pid
-        taken.add(pid)
-        n += 1
-    return n
+    for table, kind in (("regions", "region"), ("features", "feature")):
+        for ident in list(knowledge.get(table, {})):
+            e = knowledge[table][ident]
+            g = grade_of(e)
+            t = e.get("told") or {}
+            if g == "seen" and "told" in e:
+                del e["told"]
+                notes.append(f"{kind} {ident}: dropped told from a seen entry")
+            if g == "rumored":
+                if kind == "region":
+                    del knowledge[table][ident]
+                    notes.append(f"{kind} {ident}: rumored region removed (record the rumor in the chronicle or on a feature)")
+                    continue
+                if "near" in t:
+                    t["cell"] = painting.cell_of(t.pop("near"))
+                    notes.append(f"{kind} {ident}: near became cell {t['cell']}")
+                if "cell" not in t:
+                    el = index_world(world).get(ident, (None, None))[1]
+                    if el:
+                        t["cell"] = painting.cell_of(centroid(el.get("polygon") or el["coords"]))
+                        notes.append(f"{kind} {ident}: rumor given cell {t['cell']}")
+                e["told"] = t
+    return notes
 
 
 # ---------------------------------------------------------------- main
@@ -1312,7 +1219,7 @@ def assign_ids(world, prefix="p"):
 def main(argv=None):
     ap = argparse.ArgumentParser(description="StarFall map tool (painted maps)")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("draw", "gazetteer", "reveal", "ids", "validate", "migrate"):
+    for name in ("draw", "gazetteer", "reveal", "validate", "migrate"):
         s = sub.add_parser(name)
         s.add_argument("campaign")
         s.add_argument("--world", help="path to the sealed map.json (default: the campaign's sealed folder)")
@@ -1323,16 +1230,15 @@ def main(argv=None):
             s.add_argument("--zoom", choices=["known"], help="crop to the seen and reported ground")
             s.add_argument("--layer", help="draw one sheet only: surface, or under-N")
         if name == "reveal":
-            g = s.add_mutually_exclusive_group()
-            g.add_argument("--region", help="sealed id or public id")
-            g.add_argument("--feature", help="sealed id or public id")
+            g = s.add_mutually_exclusive_group(required=True)
+            g.add_argument("--region")
+            g.add_argument("--feature")
             s.add_argument("--grade", required=True)
             s.add_argument("--source", required=True)
             s.add_argument("--year", required=True, type=int)
-            s.add_argument("--told", help="JSON: what was told (name, type, terrain, cell); never coordinates")
-            s.add_argument("--name", help="rumored: the name as told")
-            s.add_argument("--cell", help="rumored: the grid cell it was told in, like D3")
-            s.add_argument("--depth", type=int, help="rumored: the underground layer, if below")
+            s.add_argument("--told", help="JSON: what was told (name, type, terrain, cell; coords or polygon in painting pixels for a report)")
+            s.add_argument("--name", help="told.name, the name as told")
+            s.add_argument("--cell", help="told.cell, the grid cell as told, like C2 (rumors need one)")
             s.add_argument("--force", help="reason, to lower a grade")
     args = ap.parse_args(argv)
     world_path, paintings_dir, knowledge_path, out_dir = campaign_paths(args)
@@ -1342,36 +1248,25 @@ def main(argv=None):
 
     if args.cmd == "validate":
         probs = check_world(world)
+        if os.path.exists(knowledge_path):
+            probs += [f"knowledge: {p}" for p in knowledge_problems(world, load_json(knowledge_path))]
         for p in probs:
             print(p)
         print(f"{len(probs)} problem(s)")
         sys.exit(1 if probs else 0)
-    if args.cmd == "ids":
-        n = assign_ids(world)
-        save_json(world_path, world)
-        print(f"gave {n} public id(s) in {os.path.relpath(world_path, ROOT)}")
-        return
 
-    raw = load_json(knowledge_path, default=empty_v2(world))
+    knowledge = load_json(knowledge_path, default={"campaign": world.get("campaign"), "regions": {}, "features": {}})
+    knowledge.setdefault("regions", {})
+    knowledge.setdefault("features", {})
     if args.cmd == "migrate":
-        if is_v2(raw):
-            print("already format 2")
-            return
-        new, notes = migrate(world, raw, painting)
+        notes = migrate(world, knowledge, painting)
         for n in notes:
             print(n)
-        save_json(knowledge_path, new)
-        print(f"wrote {os.path.relpath(knowledge_path, ROOT)} in format 2")
-        return
-    if args.cmd == "reveal":
-        if not is_v2(raw):
-            sys.exit(f"map.py: {knowledge_path} is format 1; run `map.py migrate {args.campaign}` first")
-        raw.setdefault("format", 2)
-        reveal(world, raw, knowledge_path, log_path, args)
-        return
-
-    knowledge = normalize_knowledge(world, raw, painting, log_path)
-    if args.cmd == "draw":
+        save_json(knowledge_path, knowledge)
+        print(f"{len(notes)} change(s) to {os.path.relpath(knowledge_path, ROOT)}")
+    elif args.cmd == "reveal":
+        reveal(world, knowledge, knowledge_path, log_path, args)
+    elif args.cmd == "draw":
         which = args.layer
         if which and which != "surface" and not which.startswith("under-"):
             sys.exit("map.py: --layer must be surface or under-N")

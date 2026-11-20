@@ -1,0 +1,28 @@
+{
+  "campaign": "fx",
+  "painting": {"size": [1000, 800], "miles_per_pixel": 2.0, "grid": {"cols": 5, "rows": 4}},
+  "regions": [
+    {"id": "r01", "name": "The Wend Downs", "terrain": "hill, chalk downs", "polygon": [[0, 0], [400, 0], [400, 400], [0, 400]],
+     "elevation": "low hills", "water": ["f02"], "climate": "mild, wet", "neighbors": [{"id": "r02", "days": 6}, {"id": "r03", "days": 8}]},
+    {"id": "r02", "name": "Saltmarsh Reach", "terrain": "marsh", "polygon": [[400, 0], [1000, 0], [1000, 400], [400, 400]],
+     "elevation": "sea level", "water": [], "climate": "mild, foggy", "neighbors": [{"id": "r01", "days": 6}, {"id": "r04", "days": 9}]},
+    {"id": "r03", "name": "Hollow Moor", "terrain": "highland, moor", "polygon": [[0, 400], [500, 400], [500, 800], [0, 800]],
+     "elevation": "high", "water": [], "climate": "cold", "neighbors": [{"id": "r01", "days": 8}, {"id": "r04", "days": 7}]},
+    {"id": "r04", "name": "The Glass Sea", "terrain": "sea", "polygon": [[500, 400], [1000, 400], [1000, 800], [500, 800]],
+     "elevation": "sea", "water": [], "climate": "stormy", "neighbors": [{"id": "r02", "days": 9}, {"id": "r03", "days": null, "by": "boat"}]}
+  ],
+  "features": [
+    {"id": "f01", "name": "Tallowford", "type": "town", "shape": "point", "coords": [[220, 260]], "regions": ["r01"]},
+    {"id": "f02", "name": "River Wend", "type": "river", "shape": "line", "coords": [[60, 40], [180, 200], [240, 380], [300, 560]], "regions": ["r01", "r03"]},
+    {"id": "f03", "name": "The Chalk Way", "type": "road", "shape": "line", "coords": [[220, 260], [420, 240], [640, 200]], "regions": ["r01", "r02"]},
+    {"id": "f04", "name": "Mewsby", "type": "village", "shape": "point", "coords": [[640, 200]], "regions": ["r02"]},
+    {"id": "f05", "name": "Brackwater Hold", "type": "ruin", "shape": "point", "coords": [[260, 620]], "regions": ["r03"]},
+    {"id": "f06", "name": "Cinder Gap", "type": "pass", "shape": "point", "coords": [[100, 500]], "regions": ["r03"]}
+  ],
+  "layers": [
+    {"id": "under-1", "name": "The Under-Chalk", "depth": 1, "painting": "under-1.png",
+     "features": [{"id": "u01", "name": "The Long Gallery", "type": "cave", "shape": "line", "coords": [[220, 260], [360, 330]], "regions": ["r01"]}]}
+  ],
+  "landings": {"player": "r01", "god-tide": {"point": [700, 120], "region": "r02", "season": "spring"}},
+  "plane": {"starfalls": [{"id": "sf1", "bearing": "south-east", "days": 300}], "to_fall": []}
+}

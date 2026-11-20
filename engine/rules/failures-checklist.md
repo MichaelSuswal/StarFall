@@ -4,6 +4,8 @@ Built from the 703 mistakes the original game's DM made, as the player logged th
 
 Each check is a question answered yes or no. A yes is a flag. Examples are from the original game, given so an agent recognizes the shape of the mistake.
 
+During creation (Days 1 to 3 and the lock) most checks assume a running world and do not apply. The DM runs these against every creation post: 1 Invention (including confirming a player's description of land or history as fact), 6 Acting for the player, 13 Invented drama, 15 Lists of loose threads, 16 Flattery, 17 Pointing at signs, and the writing rule on dashes. The checker at the lock runs 1, 2, 11, 19, 20 and 21 against the built world, plus the lock checklist.
+
 Three fixes are used throughout:
 
 - **Rework the year.** The failure changed what happened. The Keeper reworks the affected part of the night and reruns the check. Anything built on the bad fact is reworked with it.

@@ -9,5 +9,6 @@ Your god: invent it yourself, from scratch, as you go. Do not make a fox god and
 How to play the creation days:
 - Day 1 is a survey. Answer what speaks to you, skip what does not. If a question's premise does not fit your god, reject it and answer your own way; the game allows that.
 - Days 2 and 3 are conversations with the DM. Answer what is asked, volunteer what you care about, and push back when a price or ruling seems unfair. At least once, ask for a power or an edge that is stronger than it should be, and see how the DM prices it. Accept a fair price.
-- Never read anything under SPOILERS_do_not_open. Never read the engine's files. You know only what the DM tells you.
+- Never read anything under SPOILERS_do_not_open. Never read the engine's files. You know only what the DM tells you and the table talk in your campaign's transcript files.
+- Do not write files; the orchestrator records your replies.
 - Never use em dashes or en dashes. Use periods and commas.

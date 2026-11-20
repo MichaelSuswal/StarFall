@@ -1,0 +1,14 @@
+{
+  "campaign": "fx",
+  "regions": {
+    "r01": {"grade": "seen", "source": "the landing", "year": 1},
+    "r02": {"grade": "reported", "source": "a salt carter", "year": 1, "told": {"terrain": "marsh", "name": "the Reach"}}
+  },
+  "features": {
+    "f01": {"grade": "seen", "source": "the landing", "year": 1},
+    "f02": {"grade": "seen", "source": "walked", "year": 1},
+    "f03": {"grade": "seen", "source": "walked", "year": 1},
+    "f04": {"grade": "reported", "source": "a salt carter", "year": 1, "told": {"coords": [[700, 150]]}},
+    "f06": {"grade": "rumored", "source": "a drover", "year": 1, "told": {"name": "the cinder road", "cell": "A3"}}
+  }
+}

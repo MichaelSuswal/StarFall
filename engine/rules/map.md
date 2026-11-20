@@ -8,7 +8,7 @@ Two views exist for every player: the drawn map (`campaigns/<name>/player/map.pn
 
 ### 1.1 The paintings are made once
 
-At creation (Night 3, when the world locks) the world is painted once by the image model: a surface painting, one painting per underground layer, and a separate cloud painting. Each is a 1024 by 1024 PNG in the house style (DESIGN.md 14), a landscape seen from above as a painter would see it, with no text, no borders and no grid. They live sealed, beside the sealed map data:
+At creation (Night 3a) the world is painted once by the image model: a surface painting, a separate cloud painting, and one underground painting only if the world has an underground. Each is a 1024 by 1024 PNG in the house style's map block (`engine/style/house-style.md`), a whole continent seen from above as a painter would paint a map of Middle-earth: ranges, rivers, coasts and woods at a scale where detail is coarse and a town is a point, with no text, no borders and no grid. The painting requests are sealed (`SPOILERS_do_not_open/images/requests/`) and the paintings land in `SPOILERS_do_not_open/images/out/`, then live beside the sealed map data:
 
 ```
 SPOILERS_do_not_open/campaigns/<name>/map/surface.png
@@ -18,6 +18,8 @@ SPOILERS_do_not_open/campaigns/<name>/map/clouds.png      (the fog)
 
 The paintings never change. Ground that changes through play (a dam, a burned wood, a town founded) changes in the map data and the chronicle, not in the paint. The painting is the topography; the data is what is named on it.
 
+The placement plan comes first, as written geography; the prompts are written from the plan; the paint comes back; the data follows the paint. Where the paint departs from the plan, the plan yields. The one exception: if the paint has lost a god's asked-for country altogether (no coast where a god asked for coast), the Keeper may ask for one repaint, as a sealed image request that needs Michael's go, logging why. Every description of land released to any agent is written after the tracing, from the data, never from the plan.
+
 ### 1.2 Tracing: the map data is in painting pixels
 
 The Keeper traces the map onto the painting. Every coordinate in `map.json` and in every knowledge file is a painting pixel: x grows rightward, y grows downward, from 0 to the painting's size (1024). Nothing is in miles; the painting block gives `miles_per_pixel`, and the tool turns pixels into miles for the scale bar and the gazetteer.
@@ -25,48 +27,63 @@ The Keeper traces the map onto the painting. Every coordinate in `map.json` and 
 ```json
 {
   "campaign": "ashwake",
-  "painting": {"size": [1024, 1024], "miles_per_pixel": 0.25, "grid_cell_px": 128},
+  "painting": {"size": [1024, 1024], "miles_per_pixel": 2.5, "grid": {"cols": 5, "rows": 4}},
   "regions": [
-    {"id": "ald-valley", "name": "The Ald Valley", "terrain": "valley, water meadow",
+    {"id": "r01", "name": "The Ald Valley", "terrain": "valley, water meadow",
+     "elevation": "low", "water": "River Ald, floods in spring", "climate": "cool temperate",
+     "neighbors": [{"id": "r02", "days": 6}, {"id": "r05", "days": 11}],
      "polygon": [[230, 180], [200, 420], [380, 560], [440, 760], [470, 1024], [700, 1024], [660, 700], [620, 460], [560, 260]],
-     "notes": "Shingle, reed and water meadow. Floods in spring."}
+     "notes": "Shingle, reed and water meadow."}
   ],
   "features": [
-    {"id": "ald", "name": "River Ald", "type": "river", "shape": "line",
-     "coords": [[760, 300], [600, 480], [420, 720], [240, 900]], "regions": ["ald-valley", "sea-marsh"]},
-    {"id": "oxmouth", "name": "Oxmouth", "type": "town", "shape": "point",
-     "coords": [[262, 884]], "regions": ["sea-marsh"], "notes": "The god's landing."}
+    {"id": "f01", "name": "River Ald", "type": "river", "shape": "line",
+     "coords": [[760, 300], [600, 480], [420, 720], [240, 900]], "regions": ["r01", "r02"]},
+    {"id": "f02", "name": "Oxmouth", "type": "town", "shape": "point",
+     "coords": [[262, 884]], "regions": ["r02"], "notes": "The god's landing."},
+    {"id": "f03", "name": "The Old Salt Road", "type": "road", "shape": "line",
+     "coords": [[262, 884], [430, 760], [600, 480]], "regions": ["r02", "r01"]}
   ],
+  "landings": {"player": "r02", "god-stone": "r09"},
   "layers": [
     {"id": "under-1", "name": "The Salt Roads", "depth": 1, "painting": "under-1.png",
      "features": [
-       {"id": "salt-gallery", "name": "The Salt Gallery", "type": "cave", "shape": "line",
-        "coords": [[300, 860], [520, 660]], "regions": ["sea-marsh", "ald-valley"]}
+       {"id": "u01", "name": "The Salt Gallery", "type": "cave", "shape": "line",
+        "coords": [[300, 860], [520, 660]], "regions": ["r02", "r01"]}
      ]}
-  ]
+  ],
+  "plane": {
+    "starfalls": [
+      {"id": "p01", "bearing": "north-north-east", "distance_years_walk": 140, "age_years": 9000, "alive": false},
+      {"id": "p02", "bearing": "west", "distance_years_walk": 3, "age_years": null, "alive": "not yet fallen"}
+    ]
+  }
 }
 ```
 
 Rules for the sealed file:
 
 - The file is `SPOILERS_do_not_open/campaigns/<name>/map.json`. Nothing in `campaigns/<name>/` points at it, and only the Keeper and the tool read it. The Keeper changes it only when an actor in the world changes the ground, with the year and the cause recorded in the keeper log. Nothing may turn out to have always been there.
-- `painting.size` is the painting's pixel size, `miles_per_pixel` the scale (0.25 gives a 256-mile sheet), `grid_cell_px` the grid cell (128 gives an eight by eight grid, A to H and 1 to 8).
-- Every region is a polygon with one `terrain` (free text; the first word should be one of: plain, hill, mountain, forest, marsh, desert, steppe, tundra, coast, valley, highland, island, sea). Regions tile the painting without gaps or overlaps, water included: a sea is a region like any other, so that the fog can lift from it. Regions are 20 to 60 miles across (80 to 240 pixels at 0.25 miles per pixel), so that entering one reveals a day or two of walking, not a province.
-- Every feature has an `id`, a `name`, a `type` and a `shape`. Types are limited to the kinds the map shows (section 4.2): the settlements `town`, `city`, `village`, and the named natural features `river`, `lake`, `sea`, `mountain`, `pass`, `forest`, `marsh`, `ruin`, `cave`. Shape is point (one coordinate), line (two or more) or area (three or more, a polygon). Settlements, passes, ruins and caves are points. Rivers are lines. Lakes, seas, forests and marshes are areas. Mountains may be lines (a range) or areas (a massif). `regions` lists every region the feature touches. There are no roads, routes, armies, characters or battles on the map; those live in the chronicle.
-- Underground layers are separate feature sets with the same feature format, a `depth` (1 is just below the surface) and a `painting` file. They share the surface pixel grid, so a cave mouth at `[300, 860]` on the surface and a gallery starting at `[300, 860]` in layer 1 connect. A layer may carry its own `regions` (polygons in the same pixel grid, with their own ids in the knowledge file) when what is known below does not follow what is known above; without them the layer is fogged by the surface regions. The surface is never listed as a layer.
-- Names are the Keeper's names. Peoples call places by other names; those live in the chronicle, and the gazetteer prints the name the god knows under the Keeper's id.
+- `painting.size` is the painting's pixel size, `miles_per_pixel` the scale (a continent on one sheet: 2 to 4 miles per pixel gives 2,000 to 4,000 miles across), `grid` the letter-number grid (5 columns by 4 rows by default, about 16 to 20 cells, A to E and 1 to 4).
+- Every region is a polygon with one `terrain` (free text; the first word should be one of: plain, hill, mountain, forest, marsh, desert, steppe, tundra, coast, valley, highland, island, sea), an `elevation`, its `water`, a `climate` band, and `neighbors` with travel days at the pace table's cross-country rate. Regions tile the painting without gaps or overlaps, water included: a sea is a region like any other, so that the fog can lift from it. Regions are large, a country or a province each, because the sheet is a continent; entering one reveals its general topography, and the gazetteer's distances do the fine work.
+- Ids are opaque: regions `rNN`, surface features `fNN`, underground features `uNN`, plane entries `pNN`. An id reveals nothing; a name does. The player's knowledge file uses ids as keys and learns names only through `told` and through seeing.
+- Every feature has an `id`, a `name`, a `type` and a `shape`. Types are limited to the kinds the map shows (section 4.2): the settlements `town`, `city`, `village`, the named natural features `river`, `lake`, `sea`, `mountain`, `pass`, `forest`, `marsh`, `ruin`, `cave`, and `road` for a road or old way that exists in the world at creation. Shape is point (one coordinate), line (two or more) or area (three or more, a polygon). Settlements, passes, ruins and caves are points. Rivers and roads are lines. Lakes, seas, forests and marshes are areas. Mountains may be lines (a range) or areas (a massif). `regions` lists every region the feature touches. There are no routes, armies, characters or battles on the map; those live in the chronicle. A road is ground, not a route: it is drawn as a thin line once seen or reported like any other feature.
+- `landings` maps each god (the player as `player`, each NPC by its folder label) to the region it lands in. Sealed; it never reaches a knowledge file.
+- Underground layers are separate feature sets with the same feature format, a `depth` (1 is just below the surface) and a `painting` file. They share the surface pixel grid, so a cave mouth at `[300, 860]` on the surface and a gallery starting at `[300, 860]` in layer 1 connect. A layer may carry its own `regions` (polygons in the same pixel grid, with their own ids in the knowledge file) when what is known below does not follow what is known above; without them the layer is fogged by the surface regions. The surface is never listed as a layer. A world need not have an underground; most do not.
+- `plane` holds the other starfalls and the stars still to fall around the starting lands (DESIGN 4.5): a bearing, a distance in years of walking, an age, and whether the land there is alive, dead or not yet fallen. Rolled at creation, data only, never drawn. The sheet's edges stay in fog.
+- Names are the Keeper's names. Peoples call places by other names; those live in the chronicle, and the gazetteer prints the name the god knows under the Keeper's id. Every place named in any sealed file carries its bracketed id, like `[r12]`, and `tools/lockcheck.py --places` fails the lock on any id the map does not hold.
 - A feature may carry `notes` for the Keeper's own use. Notes never reach the player's files.
 
-### 1.3 Night 3: registration
+### 1.3 Night 3a: registration
 
-After the paintings arrive and before the world locks, the Keeper registers the data to the paint:
+After the paintings arrive, and before any description of land is released to anyone, the Keeper registers the data to the paint:
 
 1. Open the surface painting and place every region polygon on it, following the painted coastlines, ridges, wood edges and valley floors. A region's polygon should run where the painting changes, not where the Keeper's notes say the border ought to be.
 2. Place every feature where the painting shows it: a town on firm ground at the river mouth the painting shows, a lake on the painted water, a pass where the painted range dips, a river along the painted river from source to mouth.
 3. Draw a test sheet with everything seen (a scratch knowledge file, never the player's) and look at it: every label must land on the painted thing it names, every settlement circle on ground that could hold a settlement, every region name inside the painted country it names.
 4. Repeat for each underground painting with its layer.
 5. Mismatches are fixed in the data, never by repainting. If the painting puts the sea where the Keeper planned hills, the hills move. The painting is the world's face and the data follows it.
-6. Record the registration in the keeper log and lock.
+6. Record the registration in the keeper log, with what moved from the plan and why.
+7. Only now write the land descriptions: each god's country as it will first see it, each people's record of its land, the Day 4 release to the DM. Every distance, direction and line of sight in them is read off the data, and the checker tests them against it at the lock.
 
 The test sheet and the scratch knowledge file are deleted or kept sealed; nothing drawn with everything seen may reach `campaigns/<name>/player/`.
 
@@ -78,30 +95,33 @@ Everything the player's god knows or believes about the ground, by grade. This f
 {
   "campaign": "ashwake",
   "regions": {
-    "ald-valley":   {"grade": "seen",     "source": "walked, the first year", "year": 1},
-    "drover-hills": {"grade": "reported", "source": "Orrin the drover", "year": 1,
-                     "told": {"terrain": "hill", "name": "the Drover's Hills",
-                              "polygon": [[620, 460], [660, 700], [700, 900], [900, 900], [900, 520], [860, 420]]}},
-    "greywall":     {"grade": "rumored",  "source": "fishwives at the weir", "year": 1,
-                     "told": {"name": "the grey wall", "near": [880, 200]}}
+    "r01": {"grade": "seen",     "source": "walked, the first year", "year": 1},
+    "r05": {"grade": "reported", "source": "Orrin the drover", "year": 1,
+            "told": {"terrain": "hill", "name": "the Drover's Hills",
+                     "polygon": [[620, 460], [660, 700], [700, 900], [900, 900], [900, 520], [860, 420]]}},
+    "r11": {"grade": "rumored",  "source": "fishwives at the weir", "year": 1,
+            "told": {"name": "the grey wall", "cell": "E1"}}
   },
   "features": {
-    "ald":       {"grade": "seen",     "source": "walked", "year": 1},
-    "oxmouth":   {"grade": "seen",     "source": "the landing", "year": 1},
-    "wellbrook": {"grade": "reported", "source": "a drover's telling", "year": 1,
-                  "told": {"coords": [[430, 760]]}},
-    "old-fort":  {"grade": "rumored",  "source": "Orrin the drover", "year": 1,
-                  "told": {"name": "a king's fort in the hills", "near": [860, 720]}}
+    "f01": {"grade": "seen",     "source": "walked", "year": 1},
+    "f02": {"grade": "seen",     "source": "the landing", "year": 1},
+    "f07": {"grade": "reported", "source": "a drover's telling", "year": 1,
+            "told": {"coords": [[430, 760]]}},
+    "f12": {"grade": "rumored",  "source": "Orrin the drover", "year": 1,
+            "told": {"name": "a king's fort in the hills", "cell": "D3"}}
   }
 }
 ```
+
+At landing a god knows only what it can see from where it stands: usually its landing region as `seen` and nothing else. Its people's knowledge of the land is kept with the people's record and reaches the god's file as they tell it, in play or in the night turn.
 
 Rules for the knowledge file:
 
 - Grades, lowest to highest: `none`, `rumored`, `reported`, `seen`. A region or feature absent from the file is `none`. Grades only rise, except that a reported chart shown to be false falls back to `rumored` with the correction logged (section 3.5).
 - Every entry carries `source` (who or what the god learned it from, in the god's own terms) and `year` (the campaign year it was learned). When a grade rises, source and year are overwritten with the new source and year; the old ones are kept in the gazetteer's history line.
-- `told` is what the god was told, when it differs from the truth or when the truth is not yet known. For a reported feature it may carry `name`, `type` and `coords`; the map is drawn from `told.coords` when present, otherwise from the truth (the teller was accurate). For a reported region it may carry `name`, `terrain` and `polygon`; the fog lifts partway over `told.polygon` when present, otherwise over the true polygon. For a rumored entry it carries `name` and `near`, a single `[x, y]` pixel where the teller places it; the faint label is drawn there. If a rumored entry has no `near`, the label is drawn at the true centroid, so the Keeper should set `near` whenever the rumor is vague about place.
-- All coordinates in `told` are painting pixels, like the sealed file.
+- `told` is what the god was told, when it differs from the truth or when the truth is not yet known. For a reported feature it may carry `name`, `type` and `coords`; the map is drawn from `told.coords` when present, otherwise from the truth (the teller was accurate). For a reported region it may carry `name`, `terrain` and `polygon`; the fog lifts partway over `told.polygon` when present, otherwise over the true polygon. For a rumored entry it carries `name` and `cell`, the grid cell where the teller places it; the faint label is drawn at that cell's center. A rumor never carries a pixel: a true coordinate in the public file would be a leak, and a rumor is not exact anyway. A rumored entry with no `cell` is drawn in the cell of the true centroid, so the Keeper should set `cell` whenever the rumor is vaguer than that.
+- Coordinates in a reported `told` are painting pixels, like the sealed file; they are the god's belief, not the truth, and may be wrong.
+- An id appears in the file only when its grade is `rumored` or above. The file carries no id, name or coordinate for ground the god has no grade on.
 - Traded charts enter at `reported` with the chart as source. Their `told.coords` may be wrong, shifted, missing a bend, or invented. The tool draws what is told. The truth is drawn only once the grade is `seen`.
 - An underground feature is keyed by its id like any other; the tool finds it in the layer.
 
@@ -121,7 +141,7 @@ Seen does not mean fully known. A seen region shows its painted topography clear
 
 ### 2.3 A god's senses add hints, not sight
 
-A god's powers may tell it that water lies that way, that something old sleeps under the hill, that another god is to the north. These are hints and are recorded as `rumored` with the source "own sense" and `near` set by the Keeper as loosely as the sense allows. A sense that gives a bearing and a rough distance gives `near` on that bearing at that distance. No power grants `seen` on ground the god has not seen, unless the power card says it does (far-sight, a scrying pool, a bird's eyes), and then the power card's limits set the range.
+A god's powers may tell it that water lies that way, that something old sleeps under the hill, that another god is to the north. These are hints and are recorded as `rumored` with the source "own sense" and `cell` set by the Keeper as loosely as the sense allows. A sense that gives a bearing and a rough distance gives the cell on that bearing at that distance. No power grants `seen` on ground the god has not seen, unless the power card says it does (far-sight, a scrying pool, a bird's eyes), and then the power card's limits set the range.
 
 How a god gathers information is what grows its map. Scouts, traders, prisoners, letters, charts, towers, roads walked, powers. A god that never leaves its hill has a map of its hill.
 
@@ -142,9 +162,9 @@ The Keeper, during pass two of the night turn, for everything the god saw, was t
 ### 3.2 The reveal command
 
 ```
-python3 tools/map.py reveal <campaign> --region drover-hills --grade seen --source "walked in autumn" --year 3
-python3 tools/map.py reveal <campaign> --feature wellbrook --grade reported --source "a drover's telling" --year 2 --told '{"coords": [[430,760]]}'
-python3 tools/map.py reveal <campaign> --feature old-fort --grade rumored --source "Orrin the drover" --year 1 --told '{"name": "the old kings fort", "near": [860,720]}'
+python3 tools/map.py reveal <campaign> --region r05 --grade seen --source "walked in autumn" --year 3
+python3 tools/map.py reveal <campaign> --feature f07 --grade reported --source "a drover's telling" --year 2 --told '{"coords": [[430,760]]}'
+python3 tools/map.py reveal <campaign> --feature f12 --grade rumored --source "Orrin the drover" --year 1 --told '{"name": "the old kings fort", "cell": "D3"}'
 ```
 
 The command refuses to lower a grade (use `--force` with a reason, logged, for the false chart case) and refuses ids not in the sealed map, so a typo cannot create ground. On raising to `seen` it drops `told` and records the correction. Every change appends a line to `player/map-log.md`: date, year, id, old grade, new grade, source. That log is the history the gazetteer reads.
@@ -184,10 +204,10 @@ python3 tools/map.py draw map-painted --world tests/map-painted/map.json --knowl
 
 The map shows topography (the painting) and the names of areas, with settlements marked. Nothing else: no armies, characters, routes, battles or markers of events. Those are told in the story and kept in the chronicle.
 
-- Regions: the name at the region's centroid, with the grid cell of the centroid in small text beneath, "The Sea Marsh (C7)", so that player and DM can point at any part of the sheet out of game.
-- Settlements: a small ink circle for a town, a smaller one for a village, a double circle for a city, with the name beside it.
-- Named natural features (river, lake, sea, mountain, pass, forest, marsh, ruin, cave): a label only, no icon. The painting already shows the thing; the label names it. Water names are italic. A natural feature that shares its name with the region it fills (the Grey Sea as sea and region) is named once, by the region label.
-- The grid: a letter-number grid (columns A, B, C from the left; rows 1, 2, 3 from the top) drawn with faint lines over the ground and letters and numbers along all four edges. The cells are the whole painting's cells; a cropped sheet keeps the same letters and numbers, so "D5" means the same ground on every sheet drawn of the campaign.
+- Regions: the name at the region's centroid, with the grid cell of the centroid in small text beneath, "The Sea Marsh (C3)", so that player and DM can point at any part of the sheet out of game.
+- Settlements: a small ink circle for a town, a smaller one for a village, a double circle for a city, with the name beside it. At continent scale every settlement is a point.
+- Named natural features (river, lake, sea, mountain, pass, forest, marsh, ruin, cave): a label only, no icon. The painting already shows the thing; the label names it. Water names are italic. A natural feature that shares its name with the region it fills (the Grey Sea as sea and region) is named once, by the region label. A road is a thin sepia line with its name along it.
+- The grid: a letter-number grid (columns A to E from the left; rows 1 to 4 from the top, by default) drawn with faint lines over the ground and letters and numbers along all four edges. The cells are the whole painting's cells; a cropped sheet keeps the same letters and numbers, so "D3" means the same ground on every sheet drawn of the campaign.
 - A scale bar in miles bottom left, from `miles_per_pixel`. A small compass rose top right. The campaign name and a legend line beneath the frame.
 - Underground sheets show the layer's own painting under the same grid, fogged by the surface regions (or the layer's own regions if it has them), with only the layer's known features named.
 
@@ -197,10 +217,10 @@ The cloud painting is the fog. Every region is rendered by its grade:
 
 - `seen`: the painting, clear.
 - `reported`: the painting blended about 55 percent toward the cloud, so the ground shows through as if glimpsed, with the region label in lighter ink and a faint italic caption "reported: <source>".
-- `rumored`: pure cloud, with only a faint italic name at `near`. No outline, no cell, no caption.
+- `rumored`: pure cloud, with only a faint italic name at the center of `told.cell`. No outline, no caption.
 - `none`: pure cloud. The map does not say where the world ends.
 
-Masks are feathered by a few pixels so the fog's edges look painted rather than cut. Features follow their own grades independently of their region: a seen river through a reported region is labeled in full ink; a reported town in a seen region is drawn where told with its circle and a "reported" caption; a rumored feature is a faint italic name at `near`, on cloud or on clear ground alike.
+Masks are feathered by a few pixels so the fog's edges look painted rather than cut. Features follow their own grades independently of their region: a seen river through a reported region is labeled in full ink; a reported town in a seen region is drawn where told with its circle and a "reported" caption; a rumored feature is a faint italic name at its cell's center, on cloud or on clear ground alike.
 
 ### 4.4 Style
 
@@ -226,7 +246,7 @@ The map is on request and always ready. The DM redraws it whenever the knowledge
 6. **Rumors**: everything rumored, with source and year, in the words of the `told.name`.
 7. **Below**: the same for every underground layer with any known feature.
 
-The gazetteer prints no coordinate the god has not been given. A rumored place prints "somewhere near D2, by the boatmen's telling" and nothing exact.
+The gazetteer prints no coordinate the god has not been given. A rumored place prints "somewhere in D2, by the boatmen's telling" and nothing exact.
 
 ## 6. What the DM must never do with the map
 

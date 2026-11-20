@@ -12,6 +12,20 @@ Copy this exactly, as the first paragraph of every prompt:
 
 Then a blank line, then the scene.
 
+## The map block
+
+The map paintings (Night 3a: the surface, the cloud layer, and an underground sheet only if the world has one) are not scenes. They use this block instead, as the first paragraph, and then the Keeper's placement plan written as a painter's brief: the coasts, ranges, rivers, woods, marshes, deserts and plains in their places, by compass direction and rough proportion of the sheet, with no names.
+
+> A hand-painted map of a whole continent seen from directly above, in the manner of a painted fantasy map such as a map of Middle-earth: coastlines, mountain ranges drawn as shaded ridges, rivers as fine dark lines running downhill to the sea, forests as textured masses, marsh, desert and open plain each in its own tone. Oil on parchment in a 19th-century academic manner with a smooth, finely blended surface, soft glazed transitions, fine detail, no heavy impasto. Palette of umber, ochre, gold, olive and sea-green with near-black shading. Less detail at larger scale; nothing drawn smaller than a hill or a wood; no settlements, no roads, no figures, no borders between countries. No text, no lettering, no compass rose, no scale bar, no frame, no grid, not photographic. The whole sheet is land and sea; nothing is cut off at the edges.
+
+For the cloud layer:
+
+> A continuous sheet of pale cloud seen from directly above, painted in oil in a 19th-century academic manner with a smooth, finely blended surface: soft, dense, overcast cloud with slow variations of grey, cream and faint ochre where light comes through, no gaps, no ground visible, no horizon, no text, no border, no frame, not photographic.
+
+For an underground sheet, the surface block with "a whole continent" replaced by "a vast cavern country: galleries, sunken rivers, salt flats and lightless lakes, lit faintly from within".
+
+Map requests are sealed: `SPOILERS_do_not_open/images/requests/<campaign>-map-surface.json`, `-map-clouds.json`, `-map-under-1.json`, with outputs in `SPOILERS_do_not_open/images/out/`. A map prompt describes the whole world, so it is a spoiler.
+
 ## The scene
 
 The scene is one paragraph of plain description, in the order the eye should take it: the subject, where it is, what the light is and where it comes from, what is near, what is far, and what the small thing beside the vast thing is. It names the time of day and the weather. It does not repeat the style block, name a painter, or add mood words the block already carries; it gives the block something to paint.

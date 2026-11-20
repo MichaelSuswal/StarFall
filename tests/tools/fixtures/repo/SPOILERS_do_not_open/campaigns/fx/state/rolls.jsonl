@@ -1,0 +1,5 @@
+{"id": "r-0001", "time": "2026-11-19T07:00:00Z", "pacific": "2026-11-18T23:00:00-08:00", "who": "keeper", "what": "fx bell age", "die": "d20", "roll": 44, "face": 4}
+{"id": "r-0002", "time": "2026-11-19T07:00:01Z", "pacific": "2026-11-18T23:00:01-08:00", "who": "keeper", "what": "fx ceiling", "die": "d10", "roll": 33, "face": 3}
+{"id": "r-0003", "time": "2026-11-19T07:00:02Z", "pacific": "2026-11-18T23:00:02-08:00", "who": "keeper", "what": "fx star content", "die": "d10", "roll": 47, "face": 7}
+{"id": "r-0004", "time": "2026-11-19T07:00:03Z", "pacific": "2026-11-18T23:00:03-08:00", "who": "keeper", "what": "fx rain", "die": "d6", "roll": 99, "face": null, "void": "draw above 96, rerolled"}
+{"id": "r-0005", "time": "2026-11-19T07:00:03Z", "pacific": "2026-11-18T23:00:03-08:00", "who": "keeper", "what": "fx rain", "die": "d6", "roll": 12, "face": 6, "reason": "die reroll", "replaces": "r-0004"}

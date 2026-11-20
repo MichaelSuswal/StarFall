@@ -1,3 +1,25 @@
 # Applied changes, build 2
 
 Each line names the change list items it applies.
+
+## Engine side
+
+- CLAUDE.md: the run exception and release-as-go rule (9, 22).
+- DESIGN.md: god-sense per campaign (6, 18, 28); engage rule (decision 12); creation nights as scheduled sessions, Night 3 split, checker locks (10, 36, 91, 95); premises defined, don't-tell honored, follow-ups through the DM (3, 4, 5); given and discovered (31); Day 1 close (1); labels by domain, leans set bargaining and people size, real negotiation (8a: 15, 47, 54, 81, 87); sealed god folders (57, 82); balance weight (62); small peoples and no hierarchy allowed, refused defaults count toward edges (69); player sets who not what, land as wish, naming (67, 68, 71); uneven spread allowed (7); star on Night 1 (29, 75); frozen text, table rulings, Day 3 card entries (38, 41, 65); plane section and lore independence (decision 11); continent on one sheet (79, 84); growth tracked in secret (100); card blocks (37, 51, 56); information powers, drawbacks, memory loss (50, 52); oaths cut (decision 7); mystery template, answering beings, place ids (94, 95, 96); map order, repaint, descriptions after tracing, grid, sealed map requests, map fields (83, 85, 74, 86); knowledge file ids and cells, landing knowledge (86); public folder rule and leak scan, Pacific clock, log as index (92, 59, 80); ledger threshold (60); new section 15 with the close check and run 01 timing (36, 90); open items updated.
+- CHANGELIST.md: twelve reversed decisions from build 2.
+- day1-world-survey.md: question 16 is bodies, oaths cut; premises and don't-tell rules; the DM's Day 1 part with close and paths (1, 3, 5, 17).
+- day2-the-god.md: what the DM has from Night 1 (30, 31); bodies as a statement (40); drawbacks the god would notice, price from what it will build (43, 51); edge cases as a floor plus the NPC tests (40, 50); information powers (50); things carried (51); senses unsettled (42); other gods (39); no growth talk (100); frozen text and table rulings (38, 41); follow-up answers and power-lean on the close list (39); card lines for Ceiling and Growth.
+- day3-the-people.md: what the DM has from Night 2 and the naming rule (71); small peoples, no hierarchy, refused defaults (69); edges touching the god's powers go on the card dated (65); magic level only from world-rules, knack subject to Keeper (66); meeting reconciliation list (66); land as wish, mortals not scripted (67, 68); state.md population only, conduct profile and named mortals on the close list (70).
+- dm.md: creation section with the applicable failure checks (2, 8); sealed player folder off limits (61); engage rule at the close (decision 12); waited note (decision 12); never confirm land, never report kept wishes, never mention growth (67, 100).
+- keeper.md: creation section (20, 33); real negotiation, neutral releases (47, 54); player-facing files (30); gods-sealed (57); ledger threshold (60); roll flags and ids (12, 13, 14); growth (100); descriptions from map data, leak scan before push (83, 92); Pacific clock, log as index (59, 80); checker locks (91).
+- npc-god.md: creation section with the standing rules a god needs (20, 44); real negotiation and leans (54); hidden material never received (57); promises worth what the god is worth (decision 7); growth felt not counted (100); memory loss (52).
+- civ.md: NPC record path, release as go, no civ agents during creation, people's knowledge reaches the god as told (86).
+- checker.md: scripts first (92, 94, 95); growth, knowledge and map checks (93, 100); the lock run by the checker with the commit id (88, 91).
+- night-turn.md: creation branch by clock (10); engage rule in step 0 (decision 12); roll flags; growth and memory loss in pass two (100, 52); scripts in the check (92); land from map data; sealed and public outputs updated (57, 92); Pacific timing (59).
+- creation-nights.md (new): the public frame for Nights 1, 2, 3a, 3b and the lock (10, 36, 91, 95, 15).
+- scheduled-prompt.md (new): the prompt for the overnight task, awaiting Michael's go (10).
+- powers.md: card format with Definitions, Things carried, Weaknesses taken, Dated entries, intent under Limits, settled-at-creation rulings, hidden powers and ceiling off the card, Growth "Possible. Not shown." (37, 38, 41, 51, 56, 57, 65, 100); information powers and other gods (39, 50); growth tracked in the sealed file with the god told only what it feels (100); NPC negotiation rules, NPC edge tests, memory loss, sealed sibling folder (47, 50, 52, 54, 57).
+- map.md: continent scale and grid 5 by 4 (79, 84); map order, repaint, descriptions after tracing (83, 93); opaque ids, region fields, roads, landings, plane, no underground by default (73, 85, 86, 94); knowledge file with ids and cells, no rumor pixels, landing knowledge (86); sealed requests (74).
+- house-style.md: the map block, the cloud block, the underground variant, sealed request paths (74, 89).
+- failures-checklist.md: which checks apply during creation (8).
+- tests/creation-sim/README.md and stand-in.md: the run procedure and the player's no-write rule (11).

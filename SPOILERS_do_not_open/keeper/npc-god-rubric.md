@@ -1,4 +1,4 @@
-# NPC God Creation Rubric (draft 1)
+# NPC God Creation Rubric (draft 2)
 
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
@@ -73,3 +73,59 @@ After seeing all rolls, the god's agent names two traits for itself (what it wil
 - No two gods in one campaign share an archetype seed or a domain.
 - The agent must reconcile contradictions among its rolls rather than ignoring them; a contradiction is where the character lives.
 - Nothing from the archetype table is ever named or quoted in play.
+- The rubric forbids nothing else. Two gods may share a form, a virtue, a wound, a voice, or a name they choose for themselves.
+
+Principle from run 01 (Night 2, step 2.2): when gods working apart arrive at the same choice the rubric does not forbid, such as the same name, the choice stands and neither agent is told. The Keeper accounts for it in the sealed files, and every record tells the two apart by label or byname. Nothing is changed that would tell one god something about another.
+
+## 10. Labels
+- Each NPC god's folder, and its name in every Keeper file until it names itself, is `god-<domain word>`: the first noun of its domain, lowercase, articles dropped. Stone and mountains is `god-stone`; roads and borders, `god-roads`; the dead, `god-dead`; beasts and the hunt, `god-beasts`.
+- Domains never repeat within a campaign, and no two domains on the table share a first noun, so labels never collide.
+- No number appears in any label, file name or sheet. The order in which the gods were rolled lives in the keeper log only. A god reading its own folder can learn its domain and nothing about how many others there are.
+
+## 11. Bargaining stance
+How hard a god argues over the price of its powers (Night 2) and its people's edges (Night 3). Worked out from the leans when the sheet is written, and written on the sheet in words, as part of the god's character. The Keeper prices the same way whatever the stance; the stance shapes how the god answers.
+
+Stance score: the mean of Appetite, Trust and Regard for mortals, rounded.
+
+| Score | Stance | On the sheet |
+|---|---|---|
+| 1 to 35 | yielding | It takes a fair price as offered and argues only where a price cuts against what it is. |
+| 36 to 65 | measured | It argues for what it cares about most, gives way on the rest, and wants reasons for any price it thinks high. |
+| 66 to 100 | hard | It contests every price it thinks too high, offers its own drawbacks in place of the Keeper's, and accepts a counter only for a reason it respects. |
+
+Leans that make a god argue harder: Appetite toward hungry (it wants more); Trust toward wary (it suspects the price); Regard toward sovereign (it expects to be served, not priced). Leans that make it yield: content, open, shepherd.
+
+Then, whatever the score, these shape how it argues (each from 1 to 35 or 66 to 100 on that lean; between, no mark):
+
+- Mind. Intelligent: argues from reasons and consistency with what was already agreed. Clever: hunts for wordings, loopholes and the case nobody priced.
+- Body. Strong: bargains for force and reach. Enduring: bargains for duration and for what survives.
+- Temper. Patient: willing to spend all three rounds to get a thing right. Impulsive: decides fast and may accept to be done.
+- Order. Law: wants every limit written exactly. Freedom: resists limits and would rather take a heavier drawback than a written fence.
+- Presence. Revealed: wants powers others can see work. Hidden: prefers powers no one can trace to it.
+
+Every god gives a reason for each thing it asks and for each price it accepts. Accepting everything is a choice open to any stance, never the default the release suggests.
+
+## 12. The people it leans toward
+Worked out from the leans when the sheet is written, and written on the sheet in words, so that seven gods do not come out alike. It is the god's own lean, as a lean is: the god may hope otherwise and says why in `people-hoped.md`.
+
+### Size
+Size score: the mean of Company, Appetite and Regard for mortals, rounded. (Company carries its +25.)
+
+| Score | The people it leans toward |
+|---|---|
+| 1 to 25 | a few hundred: a household, a band, a single steading's worth |
+| 26 to 45 | small: one to three thousand |
+| 46 to 65 | the usual number, about five thousand |
+| 66 to 80 | large: seven to fifteen thousand, with a town of size |
+| 81 to 100 | very large: fifteen to thirty thousand, with a city |
+
+### Shape
+Each lean below sets one part of the shape. A lean from 36 to 65 sets nothing for that part, except Order, whose middle has its own shape.
+
+- **Rule, from Order.** 1 to 35, ruled by law: a king or lord under the god if Regard for mortals is 50 or more, written law and its keepers if less. 36 to 65, a council of elders or headmen. 66 to 100, no fixed ruler: leaders chosen for the task, or none.
+- **Rites, from Presence.** 1 to 35, it wants to be seen: rites, a shrine, keepers or a priesthood. 66 to 100, it wants to be unseen: no priesthood, and it may hope its people do not know it is there.
+- **Service, from Regard for mortals.** 1 to 35, it serves them: no tithe, counsel at most. 66 to 100, they serve it: offerings, tithe, a household that tends it.
+- **Settlement, from Making.** 1 to 35, a builder: a walled seat or a town. 66 to 100, a breaker: scattered, moving, no fixed seat.
+- **Gathering, from Company.** 1 to 35, scattered steadings. 66 to 100, gathered close in one place.
+
+Write the result on the sheet as two short lines, for example: "Leans toward a large people, gathered in a walled town, ruled by a king under it, with rites and a priesthood." or "Leans toward a few hundred, scattered and moving, with no ruler and no priesthood."
