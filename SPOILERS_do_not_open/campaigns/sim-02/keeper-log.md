@@ -415,3 +415,6 @@ Neutrality:
 - The earlier gods. Giving the world gods who came before could have been made a ladder for whichever god reads ruins best. What they left shows effects (worn faces, a king above a floor, three feasts) and no method.
 - Two wishes of the player's (a lit window that outlasts its reason; customs older than the god) are in the world. The first is 1,504 miles away and is not about the god. The second was the player's agreed record, and its origin is the world's own. Three NPC gods' wishes touch something in the world in the same way, and five do not; I did not level that.
 Closed 2026-11-20 09:27 Pacific, ready for the checker. The lock is the checker's.
+
+### 3b.9 Hand to the checker
+Committed and pushed `Creation night 3b: sim-02 ready for lock` at 2026-11-20 09:28 Pacific: commit cbd1a94f18627b59b933133be38467672b10c0e8. The continuity checker is started by the coordinator on the lock checklist (runbook section 4); this session has no way to start an agent, and stops here for it (STOP L). The Keeper does not run the checklist on its own work. Flags, when they come, are fixed and logged below.
