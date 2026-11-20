@@ -21,4 +21,4 @@ Rain density 2 allows Q6 from 2 to 4 (survey-keeper-notes table). The Q6 blend c
 
 ## Ceiling
 
-Rolled in 1.6 after the Q8 blend. See below once written.
+Rolled in 1.6 after the Q8 blend. Q8 blended to 5, so one d10 was rolled: face 9 [r-0142]. Ceiling: 79 (70 plus 9). On the lore's scale a newly arrived god sits near 20. Copied to every sealed `hidden-powers.md` on Night 2. Never released, never on any card.

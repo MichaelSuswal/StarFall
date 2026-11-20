@@ -131,3 +131,12 @@
 {"id": "r-0131", "time": "2026-11-20T06:49:57Z", "pacific": "2026-11-19T22:49:57-08:00", "who": "keeper", "what": "god 7, flaw", "die": "d10", "roll": 25, "face": 5}
 {"id": "r-0132", "time": "2026-11-20T06:49:57Z", "pacific": "2026-11-19T22:49:57-08:00", "who": "keeper", "what": "god 7, wound", "die": "d12", "roll": 28, "face": 4}
 {"id": "r-0133", "time": "2026-11-20T06:49:57Z", "pacific": "2026-11-19T22:49:57-08:00", "who": "keeper", "what": "god 7, voice", "die": "d10", "roll": 29, "face": 9}
+{"id": "r-0134", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q3 climate, variation", "die": "d100", "roll": 93, "face": 93}
+{"id": "r-0135", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q4 past the borders, variation", "die": "d100", "roll": 71, "face": 71}
+{"id": "r-0136", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q5 age of the human story, variation", "die": "d100", "roll": 23, "face": 23}
+{"id": "r-0137", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q6 mortal magic, variation", "die": "d100", "roll": 73, "face": 73}
+{"id": "r-0138", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q8 how much a god stands out, variation", "die": "d100", "roll": 29, "face": 29}
+{"id": "r-0139", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q9 strangeness of the wild, variation", "die": "d100", "roll": 18, "face": 18}
+{"id": "r-0140", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q13 non-human peoples, variation", "die": "d100", "roll": 4, "face": 4}
+{"id": "r-0141", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q14 travelers, variation", "die": "d100", "roll": 97, "face": 97}
+{"id": "r-0142", "time": "2026-11-20T06:59:31Z", "pacific": "2026-11-19T22:59:31-08:00", "who": "keeper", "what": "ceiling, d10", "die": "d10", "roll": 69, "face": 9}

@@ -40,4 +40,4 @@ Size score 37 (Company 75, Appetite 21, Regard 16). Shape: Order 17 with Regard 
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Autumn, when the herds are on the move (answer 3: "I wake into autumn.").

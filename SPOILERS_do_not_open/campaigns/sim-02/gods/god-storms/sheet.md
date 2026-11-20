@@ -40,4 +40,4 @@ Size score 27 (Company 66, Appetite 10, Regard 5). Shape: Order 48, a council of
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Spring, late, when the first great storms break (answer 3: "I wake into spring.").

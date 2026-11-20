@@ -40,4 +40,4 @@ Size score 76 (Company 77, Appetite 62, Regard 88). Shape: Order 80, no fixed ru
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Autumn (answer 3: "I wake into autumn.").

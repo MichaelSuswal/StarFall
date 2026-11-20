@@ -40,4 +40,4 @@ Size score 48 (Company 65, Appetite 28, Regard 52). Shape: Order 1 with Regard 5
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Spring, the thaw (answer 3: "I wake into spring.").
