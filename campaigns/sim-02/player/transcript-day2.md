@@ -143,3 +143,11 @@ CEILING. Set by the world. Not shown. GROWTH, on each power: Possible. Not shown
 CONDUCT PROFILE, first lines, from what you told me: it looks first for a house in winter country with a fire about to go out and someone worth keeping it alive; it wants one hearth, not a temple or a following. It will not turn anyone from a door in the cold, will not cross a threshold unasked, will not take payment for shelter, and will not light a fire for someone it knows means to burn a house with it. It listens for the faces it remembers as lit windows, for the reason it was at the door, and for whoever else is in the lamplight. It wants to be needed, half believes it is the fair judge it was, and fears what it lost was a place it was locking as much as keeping. On days you do not play, that is what you run on: cautious, in character, never reckless.
 
 If that is right, say yes and the night can fall. If anything is wrong, name it.
+
+## Player:
+
+Yes. The card is right, and the night can fall.
+
+Two readings, so we agree on them, not as changes. First, the Hearth-light drawback applies whenever the lantern is set down lighting a room and I'm not holding it, wherever I stand, in that room or out in the cold. That's the price of giving the room my light. Second, when I'm absent after a break and a mortal lights the lantern from any fire, I come back in front of them at the next local dusk. I accept that whoever is standing there then holds me, and I accept the vow and its cost. A town that learns what I am can keep me out forever, and the bar on a door is a wall to me.
+
+I'm content with the absence price, the spent hearth on return, and the two hidden powers left unnamed.
