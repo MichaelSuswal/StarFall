@@ -151,3 +151,9 @@ Yes. The card is right, and the night can fall.
 Two readings, so we agree on them, not as changes. First, the Hearth-light drawback applies whenever the lantern is set down lighting a room and I'm not holding it, wherever I stand, in that room or out in the cold. That's the price of giving the room my light. Second, when I'm absent after a break and a mortal lights the lantern from any fire, I come back in front of them at the next local dusk. I accept that whoever is standing there then holds me, and I accept the vow and its cost. A town that learns what I am can keep me out forever, and the bar on a door is a wall to me.
 
 I'm content with the absence price, the spent hearth on return, and the two hidden powers left unnamed.
+
+## DM:
+
+(oog) Both readings are what I meant, and both are written on the card as settled at creation: the Hearth-light drawback holds wherever you stand while the lantern is down and lit in a room; and when a mortal relights the lantern from any fire, you come back through it at the next local dusk in front of whoever holds it, and that one holds you. The card, your appearance, the outline of what you were, and the first lines of what you run on when you are not at the table are written.
+
+Below you now there is a grain of difference in the dark, the way a valley is darker than the sky above it. The world has your shape, and your name, and the fire you carry, and it says nothing back. You are still falling, and the lantern is unlit.
