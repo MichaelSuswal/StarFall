@@ -16,9 +16,9 @@ Pace: mortal pace, by the pace table.
 
 God-sense, as set for this campaign (`world-rules.md`): a god knows another god only face to face, in person, within sight and speaking distance, each seen by the other; the knowing is mutual, immediate and sure, and tells only that the other is a god. At a distance there is nothing to feel. Every god knows from landing only that others like it came down when it did.
 
-The god's own fire. The hood-flame is what Vesper is. At dusk it lights the lantern by tipping it toward the hood-flame; that is the one flame it makes, and every flame it ever kindles comes from the lantern. The fire burns without fuel only in the lantern, and only while the lantern is in the god's hand, within its hood-light, or set down in a room (see Hearth-light). Passed to a wick, or set farther off, it is ordinary fire from then on: the god's by the chain (Definitions), but fueled with oil and wood like anyone's, and out when the fuel is. The god can give a hearth its flame; it cannot give it fuel. Settled at creation. Ledger: pending.
+The god's own fire. The hood-flame is what Vesper is. At dusk it lights the lantern by tipping it toward the hood-flame; that is the one flame it makes, and every flame it ever kindles comes from the lantern. The fire burns without fuel only in the lantern, and only while the lantern is in the god's hand, within its hood-light, or set down in a room (see Hearth-light). Passed to a wick, or set farther off, it is ordinary fire from then on: the god's by the chain (Definitions), but fueled with oil and wood like anyone's, and out when the fuel is. The god can give a hearth its flame; it cannot give it fuel. Settled at creation. Ledger: L-0001.
 
-When the body is broken (absence). Settled at creation. Ledger: pending.
+When the body is broken (absence). Settled at creation. Ledger: L-0002.
 - The hood-flame goes out, the coat falls empty, and the lantern stays where it lies, lit or not as it happens. The god is gone from that place. It is not dead; it is absent.
 - It returns at the next local dusk through a flame of its own, if one burns anywhere, arriving as it is, without the lantern. The hearth it returns through is spent by the return: cold, and out of the chain for good.
 - Until the lantern is back in its hand it cannot kindle and cannot step through the Door. The Window still works.
@@ -45,8 +45,8 @@ Description: Through any flame that is the god's, at any distance, the god can l
 Drawback: While the god looks, the flame it looks through burns wrong: too steady, and a shade too pale.
 Limits settled at creation:
   - Player's first wording, kept as intent: "I want every lit lamp, candle or hearth in the world to be a window I can look through, anywhere, whenever I like." The DM priced it down to flames of the god's own (Definitions); the player accepted: "The chain rule is fair and I like it. Lose the light, lose the window."
-  - The sign is present every time, only while the god is looking, and only to someone whose eyes are on that fire at that moment. What it means is known to no one in the world on the day the god lands and must be learned by noticing. The DM promised no one would be prevented from learning it; countermeasures come from the world. Settled at creation, at the player's request that the sign be "subtle, not invisible". Ledger: pending.
-  - A hand over the flame shuts the window while the hand is there. Settled at creation. Ledger: pending.
+  - The sign is present every time, only while the god is looking, and only to someone whose eyes are on that fire at that moment. What it means is known to no one in the world on the day the god lands and must be learned by noticing. The DM promised no one would be prevented from learning it; countermeasures come from the world. Settled at creation, at the player's request that the sign be "subtle, not invisible". Ledger: L-0003.
+  - A hand over the flame shuts the window while the hand is there. Settled at creation. Ledger: L-0004.
   - Light and dark: works by day and by night, wherever a flame of the god's is lit.
   - Distance: any.
   - Frequency: one flame at a time, as often as the god likes.
@@ -67,12 +67,12 @@ Drawback: The god can only step out at local dusk at the flame it comes out of, 
 Limits settled at creation:
   - Player's first wording, kept as intent: "a door I can step out of, so that I can arrive at any fire without crossing the distance." Priced down to flames of the god's own; accepted.
   - The player chose this drawback over the alternative offered (the exit flame spent by each arrival): "I'd rather be slow than burn my own houses."
-  - Local dusk means dusk at the exit flame, not at the one left. The player asked for this reading and accepted it as a constraint ("I'd have to pick my exit by the sun"). Settled at creation. Ledger: pending.
+  - Local dusk means dusk at the exit flame, not at the one left. The player asked for this reading and accepted it as a constraint ("I'd have to pick my exit by the sun"). Settled at creation. Ledger: L-0005.
   - Distance: any.
-  - Carrying: what is in the god's hands. Nothing living comes through; a child in the god's arms stays on the near side. Settled at creation. Ledger: pending.
-  - The lantern counts as a flame of the god's for entering: the god may step into its own lantern flame from wherever it stands. It cannot come out of the lantern, since the lantern comes with it. Settled at creation. Ledger: pending.
+  - Carrying: what is in the god's hands. Nothing living comes through; a child in the god's arms stays on the near side. Settled at creation. Ledger: L-0006.
+  - The lantern counts as a flame of the god's for entering: the god may step into its own lantern flame from wherever it stands. It cannot come out of the lantern, since the lantern comes with it. Settled at creation. Ledger: L-0007.
   - The god has nowhere to arrive until a first hearth is its own and kept by someone.
-  - Without the lantern in hand the god cannot step at all, except the single return from absence (Form). Settled at creation. Ledger: pending.
+  - Without the lantern in hand the god cannot step at all, except the single return from absence (Form). Settled at creation. Ledger: L-0008.
   - Water: a drowned flame is cold; the chain is broken (Definitions).
   - Falling: not raised; unsettled.
   - Being watched: whoever is at the exit hearth sees the god step out of their fire.
@@ -91,7 +91,7 @@ Limits settled at creation:
   - Player's wording of the ask: "that the lantern's fuel-free burning extends to the room the lantern is set down in, not only the small circle of my hood-light. That would let me leave a flame in a house for the night without it going cold, though a wick I hand over still needs oil. I don't ask to feed hearths."
   - One room: one enclosed space under one roof, with walls and a door. Outdoors, or in a hall too large to call a room, the fuel-free burning is the hood-circle only (Form).
   - A wick lit from the lantern still needs oil.
-  - The drawback applies wherever the god stands while the lantern is down and lit in a room. Agreed reading, Day 2, in the player's words: "That's the price of giving the room my light." Settled at creation. Ledger: pending.
+  - The drawback applies wherever the god stands while the lantern is down and lit in a room. Agreed reading, Day 2, in the player's words: "That's the price of giving the room my light." Settled at creation. Ledger: L-0009.
   - While the lantern is set down it is out of the god's hand, so the Door is shut to the god (Door limits) and anyone may take the lantern (Form, absence).
 Rulings:
   - (none yet)
@@ -105,7 +105,7 @@ Two hidden powers exist. Discovered powers are added above as they surface.
 
 ### The vow
 What it is: the god cannot cross a threshold it has not been asked over. It binds the body, not only the god's word. Player's words: "I can't cross a threshold I haven't been asked over, and it binds the body, not just my word. A door barred to me stays barred, and a house that never calls me in stays shut. Stepping out of a hearth of mine into a home counts as invited, since someone kept the fire."
-Its limits and edge cases (settled at creation; ledger pending):
+Its limits and edge cases (settled at creation; Ledger: L-0010):
   - The body does not pass an unasked threshold by any means: it cannot walk across, and it cannot be carried, pushed or dragged across either. No one can shelter the god unasked any more than they can seize it indoors.
   - Threshold and asked over: as in Definitions. A place no one keeps has no threshold for the vow.
   - A withdrawn invitation shuts the threshold again; the god leaves by the nearest door.
