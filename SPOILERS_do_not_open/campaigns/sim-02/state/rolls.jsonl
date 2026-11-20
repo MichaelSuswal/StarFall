@@ -141,3 +141,19 @@
 {"id": "r-0141", "time": "2026-11-20T06:57:44Z", "pacific": "2026-11-19T22:57:44-08:00", "who": "keeper", "what": "blend, Q14 travelers, variation", "die": "d100", "roll": 97, "face": 97}
 {"id": "r-0142", "time": "2026-11-20T06:59:31Z", "pacific": "2026-11-19T22:59:31-08:00", "who": "keeper", "what": "ceiling, d10", "die": "d10", "roll": 69, "face": 9}
 {"id": "r-0143", "time": "2026-11-20T08:07:20Z", "pacific": "2026-11-20T00:07:20-08:00", "who": "keeper", "what": "Night 3a, the warm stone: which adjacent pair of seats it lies between (1 player and thresholds, 2 thresholds and beasts, 3 beasts and storms, 4 storms and sea, 5 sea and rivers, 6 rivers and secrets, 7 secrets and stone, 8 stone and player)", "die": "d8", "roll": 64, "face": 8}
+{"id": "r-0144", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: the throw (p01), distance band", "die": "d20", "roll": 14, "face": 14}
+{"id": "r-0145", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: the throw (p01), bearing", "die": "d8", "roll": 46, "face": 6}
+{"id": "r-0146", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: the throw (p01), distance within its band", "die": "d10", "roll": 74, "face": 4}
+{"id": "r-0147", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: how many other entries", "die": "d6", "roll": 2, "face": 2}
+{"id": "r-0148", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p02, kind", "die": "d10", "roll": 65, "face": 5}
+{"id": "r-0149", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p02, bearing", "die": "d8", "roll": 75, "face": 3}
+{"id": "r-0150", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p02, distance band", "die": "d20", "roll": 78, "face": 18}
+{"id": "r-0151", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p02, distance within its band", "die": "d10", "roll": 99, "face": 9}
+{"id": "r-0152", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p02, phase of a hanging star", "die": "d100", "roll": 77, "face": 77}
+{"id": "r-0153", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p03, kind", "die": "d10", "roll": 78, "face": 8}
+{"id": "r-0154", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p03, bearing", "die": "d8", "roll": 77, "face": 5}
+{"id": "r-0155", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p03, distance band", "die": "d20", "roll": 77, "face": 17}
+{"id": "r-0156", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p03, distance within its band", "die": "d10", "roll": 17, "face": 7}
+{"id": "r-0157", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p03, age band of a starfall", "die": "d10", "roll": 40, "face": 10}
+{"id": "r-0158", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p03, age within its band", "die": "d10", "roll": 92, "face": 2}
+{"id": "r-0159", "time": "2026-11-20T08:15:17Z", "pacific": "2026-11-20T00:15:17-08:00", "who": "keeper", "what": "Night 3b plane: p03, alive", "die": "d10", "roll": 63, "face": 3}

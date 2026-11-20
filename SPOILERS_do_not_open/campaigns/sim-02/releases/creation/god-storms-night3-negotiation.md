@@ -21,3 +21,7 @@ Everything you wrote of the people's past, their tales, their customs before you
 Accept, refuse or counter each item, and give your reasons. If you accept all of it, say so; that is a confirmation and closes the table. Accepting is a choice you have, not the expected one.
 
 Write your reply as "## Round 1 reply" at the end of SPOILERS_do_not_open/campaigns/sim-02/gods/god-storms/negotiation-night3.md (create the file if it is absent), and to no other file. Then stop.
+
+## Round 2
+
+Not needed. Your round 1 reply accepted every item and is taken as your confirmation. Nothing was bought and nothing was paid. The table is closed; no reply is asked.

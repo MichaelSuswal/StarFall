@@ -1,6 +1,6 @@
-# Models for the night turn (sim-01)
+# Models for the night turn (sim-02)
 
-Set by the Keeper at the lock, creation Night 3. No file gave these for a real campaign; they follow the dry run's choices and are Michael's to change.
+Copied by the Keeper on creation Night 3 from the last values Michael approved (the dry run's and run 01's choices). No file names these for this campaign; they are Michael's to change, and the Keeper chose none of them.
 
 keeper: fable
 npc-god: sonnet

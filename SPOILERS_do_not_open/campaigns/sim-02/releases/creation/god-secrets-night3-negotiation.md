@@ -27,3 +27,18 @@ Everything you wrote of the people's past, their tales, their customs before you
 Accept, refuse or counter each item, and give your reasons.
 
 Write your reply as "## Round 1 reply" at the end of SPOILERS_do_not_open/campaigns/sim-02/gods/god-secrets/negotiation-night3.md (create the file if it is absent), and to no other file. Then stop.
+
+## Round 2
+
+### Size and its weakness
+Your reasons, answered: you chose B and accepted the drafted weakness, and asked two wordings. Both are granted as asked. The first: the weakness is the town's, the hold is the sellers', and nothing in it gives you a hand in their grain or prices you for one. The second: the eight months is a standing fact; hunger is what follows in a year when the world brings a bad harvest, a closed road or a quarrel, and no such year is promised or scheduled by this line.
+
+Final text, for the people's record:
+- How many: about 9,000, most in the walled town, the rest on the farms and orchards near it.
+- Edge: a people markedly larger than the default. Weakness that pays for it: the town does not feed itself. Its own fields and orchards feed about two in three of its mouths in a fair year; the rest is bought from farms upriver and down. Measurable line: stores at the end of an ordinary harvest carry the town eight months, not twelve. This is the people's weakness and the sellers' hold; it is no part of the god's card, and the god has no hand in it either way. Hunger within one winter is the risk in a year the world brings a bad harvest, a closed road or a quarrel with a seller; it is a risk and not a promise.
+
+Weaknesses and what each bought: the town that does not feed itself bought the size, about 9,000 in place of about 5,000. Nothing else was bought or paid.
+
+Everything else stands as you accepted it in round 1. The Keeper sets the exact number and the starting stores, trade and mood.
+
+Confirm that this is what you meant, or say what is wrong with it. Write your reply as "## Round 2 reply" at the end of SPOILERS_do_not_open/campaigns/sim-02/gods/god-secrets/negotiation-night3.md, and to no other file. Then stop.
