@@ -3,7 +3,7 @@
 # People: the pass folk (the Keeper's working name; neighbors call them the knot people or the night traders)
 
 ## Who they are
-Not human. A small-statured, long-armed, grey-skinned people of the high range, with large dark eyes that see well by starlight and poorly at noon. They live long, about a hundred and twenty years, breed slowly, and speak little to outsiders. They count and remember with knotted cords and trade when they choose, by night, at stones set for the purpose, leaving goods and taking goods without meeting.
+Not human. A small-statured, long-armed, grey-skinned people of the high range, with large dark eyes that see well by starlight and poorly at noon. They live long, about a hundred and twenty years, breed slowly, and speak little to outsiders. They count and remember with knotted cords and trade when they choose, by night, at the two stones set for the purpose, the Leaving Stone [f67] and the Night Table [f68], leaving goods and taking goods without meeting.
 
 ## How many
 About 2,500, in some forty kin-houses.
@@ -28,7 +28,7 @@ To be let alone above the trees. To trade for salt and bronze on their own terms
 
 ## How they touch the great events
 The warm stone that fell with the gods lies in their country. Their cords hold the longest honest count in the land, of winters and of their own decline. They are few, slow to trust, and no one's allies.
-Limit: a cord-keeper knows what the cords count: winters, their own numbers, which rooms were closed and when, what crossed the passes. The cords do not hold causes, and a keeper asked why will say the cord does not say. They do not know what the star is, what the stone is, or what any god is. They answer only one they have traded with fairly for at least three winters, only at night, only at a trading stone, one question a meeting, and they may decline without giving a reason.
+Limit: a cord-keeper knows what the cords count: winters, their own numbers, which rooms were closed and when, what crossed the passes, and in which winters the Lamp first stood below the notch and below the notch's foot. The cords hold no measure of how far and do not hold causes, and a keeper asked why will say the cord does not say. They do not know what the star is, what the stone is, or what any god is. A keeper answers only one who has traded fairly for three winters at the Leaving Stone [f67] or the Night Table [f68], only at night, only at that stone, one question a meeting, and may decline without a reason. These two are their only trading stones.
 
 ## The land, from the traced map
 
@@ -52,9 +52,11 @@ They know everything above the trees and see a great deal below from above. They
 - The Lintel Door [f15] (seen): a lowlanders' door; not touched. From Kinhold [f17], lies about 180 miles south-east, 19 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then valley floor by share of the way).
 - Undercrag [f13] (seen): from above, at night. From Kinhold [f17], lies about 190 miles south-east, 20 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then valley floor by share of the way).
 - The Underfell [r06] (seen): from above. From Kinhold [f17], the middle of it lies about 220 miles south-east, 22 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then valley floor by share of the way).
-- The Hald Valley [r01] (seen): from above, at night; a trading stone at its head. From Kinhold [f17], the middle of it lies about 430 miles north-east, 48 days on foot, at the pace table rate for each stretch of ground crossed (mountain by share of the way).
+- The Hald Valley [r01] (seen): from above, at night. From Kinhold [f17], the middle of it lies about 430 miles north-east, 48 days on foot, at the pace table rate for each stretch of ground crossed (mountain by share of the way).
+- The Leaving Stone [f67] (seen): their trading stone in that valley, beside the old road. From Kinhold [f17], lies about 430 miles north-east, 48 days on foot, at the pace table rate for each stretch of ground crossed (mountain by share of the way).
+- The Night Table [f68] (seen): their trading stone above the stone-house town. From Kinhold [f17], lies about 180 miles south-east, 20 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then valley floor by share of the way).
 - Ostrey [f01] (seen): from above: lamps. From Kinhold [f17], lies about 460 miles north-east, 49 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then valley floor by share of the way).
 - The Low Scarrow [r05] (seen): the southern heights. From Kinhold [f17], the middle of it lies about 480 miles south, 60 days on foot, at the pace table rate for each stretch of ground crossed (mountain by share of the way).
-- The Folddales [r02] (reported): the dales, from what is left at stones. From Kinhold [f17], the middle of it lies about 580 miles north-east, 57 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then mountain by share of the way).
+- The Folddales [r02] (reported): the dales, from what is left at the one stone. From Kinhold [f17], the middle of it lies about 580 miles north-east, 57 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then mountain by share of the way).
 - The North Ashring [r12] (seen): from the heights on a clear day: brown hills and a pale floor. From Kinhold [f17], the middle of it lies about 740 miles east, 65 days on foot, at the pace table rate for each stretch of ground crossed (hill country, then mountain, then open plain by share of the way).
 - The Sleeper [f27] (seen): from the heights: a dark shape that does not move. From Kinhold [f17], lies about 770 miles east, 62 days on foot, at the pace table rate for each stretch of ground crossed (open plain, then hill country, then mountain by share of the way).

@@ -96,7 +96,7 @@ Kind: long. Span: about 60 years. Related to: E01, L03.
 On the night the gods came down, a piece of the same throw that did not become a god fell into the Kettle [f08]: a blue-grey stone the size of a hay cart, warm to the hand, heavier than it should be. It holds, thinly, what the gods are made of, and dreams it at anyone who sleeps near: a crowd kneeling at a ford, a river no dreamer has seen, a gate with two doors and a lamp over the taller, a child riding on a tall one's shoulders, a count that comes out short, a room that opens only inward, a harbor with a deep in it. A god that sleeps there dreams its own part sharper than the rest. No dream says what any of it was.
 
 ### Body
-The stone in the Kettle [f08], in the Deep Scarrow [r04], 295 miles from the Hald Valley [r01] landing and 283 from the Underfell [r06] landing. The pass folk's two watchers. The lintel of the Lamp Hut [f61], on the Far Capes [r30], which carries two words and a gate cut by a man whose line came from the gods' own country.
+The stone in the Kettle [f08], in the Deep Scarrow [r04], 295 miles from the Hald Valley [r01] landing and 287 from the Underfell [r06] landing. The pass folk's two watchers. The lintel of the Lamp Hut [f61], on the Far Capes [r30], which carries two words and a gate cut by a man whose line came from the gods' own country.
 
 ### Cost if ignored
 If no god reaches it, the watchers become its keepers. By Year 20 a small priesthood of the heights exists that belongs to no god and chants what the stone dreams. It lends them a little of what it holds, and their workings are stronger than any on the land. If one god reaches it and others do not, that god holds the shape of every other god's wound.

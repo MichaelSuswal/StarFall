@@ -61,8 +61,8 @@ What a people who stay know: their valley well, the heights by avoidance. Distan
 - Undercrag [f13] (seen): the seat. At Undercrag [f13].
 - The Night Table [f68] (seen): the flat stone of the night trade. From Undercrag [f13], lies about 1 mile north-west.
 - The Withy [f12] (seen): down to where it leaves the valley. From Undercrag [f13], its nearest reach lies about 85 miles south-east, 6 days on foot, at the pace table rate for each stretch of ground crossed (valley floor by share of the way).
-- The Squared Doors [f14] (seen): from below; left alone. From Undercrag [f13], lies about 5 miles north-west.
-- The Lintel Door [f15] (seen): from below; left alone. From Undercrag [f13], lies about 9 miles north-west.
+- The Squared Doors [f14] (seen): from below; left alone. From Undercrag [f13], lies about 3 miles north-west.
+- The Lintel Door [f15] (seen): from below; left alone. From Undercrag [f13], lies about 4 miles north-west.
 - The Hush [f16] (reported): the high hollow the herders avoid; those who came back mild had been near it. From Undercrag [f13], lies about 85 miles north-west, 7 days on foot, at the pace table rate for each stretch of ground crossed (valley floor, then mountain by share of the way).
 - The Deep Scarrow [r04] (reported): the heights; the people of the heights are known by their trade and never met. From Undercrag [f13], the middle of it lies about 300 miles north-west, 34 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then valley floor by share of the way).
 - Kinhold [f17] (rumored): that the people of the heights winter inside the mountain, somewhere north-west. From Undercrag [f13], lies about 190 miles north-west, 20 days on foot, at the pace table rate for each stretch of ground crossed (mountain, then valley floor by share of the way).
