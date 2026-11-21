@@ -1,7 +1,7 @@
 # Mysteries: fx
 
 ## E01 The Silent Bell
-Kind: epic. Span: 3 years. Related to: none.
+Kind: epic. Span: 3 years. Related to: none. Answers questions: no.
 
 ### Truth
 Roll r-0001 set its age. The answer to the silent bell is plain once seen.
@@ -29,7 +29,7 @@ What the world does: every dog on the moor runs south for a season.
 Who began it.
 
 ## L01 The Grey Tithe
-Kind: long. Span: 3 years. Related to: none.
+Kind: long. Span: 3 years. Related to: none. Answers questions: no.
 
 ### Truth
 The answer to the grey tithe is plain once seen.
@@ -57,7 +57,7 @@ What the world does: every dog on the moor runs south for a season.
 Who began it.
 
 ## L02 The Salt Debt
-Kind: long. Span: 3 years. Related to: none.
+Kind: long. Span: 3 years. Related to: none. Answers questions: no.
 
 ### Truth
 The answer to the salt debt is plain once seen.
@@ -85,7 +85,7 @@ What the world does: every dog on the moor runs south for a season.
 Who began it.
 
 ## S01 The Lost Ewe
-Kind: short. Span: 3 years. Related to: none.
+Kind: short. Span: 3 years. Related to: none. Answers questions: no.
 
 ### Truth
 The answer to the lost ewe is plain once seen.
@@ -113,7 +113,7 @@ What the world does: every dog on the moor runs south for a season.
 Who began it.
 
 ## S02 The Cold Hearth
-Kind: short. Span: 3 years. Related to: none.
+Kind: short. Span: 3 years. Related to: none. Answers questions: no.
 
 ### Truth
 The answer to the cold hearth is plain once seen.
@@ -141,7 +141,7 @@ What the world does: every dog on the moor runs south for a season.
 Who began it.
 
 ## S03 The Drowned Choir
-Kind: short. Span: 3 years. Related to: none.
+Kind: short. Span: 3 years. Related to: none. Answers questions: yes.
 
 ### Truth
 A drowned choir answers questions sung over the water. The answer to the drowned choir is plain once seen.

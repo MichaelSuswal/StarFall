@@ -1,0 +1,8 @@
+# Sealed terms: fx (test fixture; every name invented)
+# One term per line, # for comments, matched case and all.
+Vessaline
+the Tide-Mother
+The Undertow Oath
+Lantern of Brine
+Orvanne
+Saltreach

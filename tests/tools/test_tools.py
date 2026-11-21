@@ -1,4 +1,4 @@
-"""Self-tests for the build 2 tools: roll ids and die mappings, the map tool's knowledge
+"""Self-tests for the build 2 and build 3 tools: roll ids and die mappings, the map tool's knowledge
 rules and drawing, lockcheck on the fixture campaign, and check.py's waited rule.
 
 Run with `python3 -m pytest tests/tools` or `python3 tests/tools/run.py`.
@@ -254,7 +254,9 @@ def test_draw_and_gazetteer():
         g = open(os.path.join(out, "gazetteer.md")).read()
         assert "px" not in g and "Hollow Moor" not in g and "Brackwater" not in g and "Cinder Gap" not in g
         assert "the cinder road" in g and "somewhere near A3" in g and "(pass)" not in g
-        assert "6 days" in g and "The Chalk Way" in g
+        assert "The Chalk Way" in g
+        # a reported region (no told shape) gets no sealed travel days, only what was told
+        assert "6 days" not in g and "**The Wend Downs** to **the Reach**: distance not told (reported)." in g
 
 
 # ---------------------------------------------------------------- lockcheck.py
@@ -291,19 +293,26 @@ def test_lockcheck_places():
 
 def test_lockcheck_leaks():
     pub = "campaigns/fx/player/notes.md"
-    cases = [("Vessaline walks the shore.", "god name"),
+    cases = [("Vessaline walks the shore.", "sealed term"),
+             ("They hail the Tide-Mother.", "sealed term"),
              ("They speak of god-tide.", "god label"),
              ("There are two other gods.", "god count"),
              ("Beyond lies Hollow Moor.", "unknown place"),
              ("The bell hum came on 5 nights.", "phenomenon count"),
              ("The ceiling here is 73.", "star value"),
              ("A drowned crystal orchard, they say.", "star value"),
-             ("They whisper of the silent bell.", "mystery title"),
+             ("They whisper of The Silent Bell.", "mystery title"),
              ("Remember the Founders' Quarrel.", "schedule title"),
-             ("A lantern of brine? No, the Lantern of Brine.", "hidden power"),
-             ("They fear the Undertow Oath.", "hidden power"),
-             ("An old song about Saltreach.", "common-past name"),
-             ("The last of Orvanne.", "common-past name")]
+             ("A lantern of brine? No, the Lantern of Brine.", "sealed term"),
+             ("They fear the Undertow Oath.", "sealed term"),
+             ("They fear Undertow Oath.", "sealed term"),
+             ("An old song about Saltreach.", "sealed term"),
+             ("The last of Orvanne.", "sealed term"),
+             ("We were seven when we came down.", "number word"),
+             ("Seven of us, they say.", "number word"),
+             ("Half a dozen gods walk here.", "number word"),
+             ("The star pulls twice a year.", "number word"),
+             ("There is one like me in the hills.", "number word")]
     for text, kind in cases:
         with tmpcopy() as repo:
             append(repo, pub, text + "\n")
@@ -350,7 +359,7 @@ def test_lockcheck_mysteries():
         code, out, _ = lock(repo, "--mysteries")
         assert code == 1
         assert 'clue "Founders refuse moor tin" has no Location:' in out
-        assert "a being answers questions but has no Limit: line" in out
+        assert "Answers questions: yes, but no Limit: line in its Truth or Body" in out
         assert "has no What the world does:" in out
         assert "kinds: 1 epic, 3 long, 2 short" in out
 
@@ -402,3 +411,292 @@ def test_check_waited_and_clock():
         assert check.clock_problems({"campaign": "x", "year": "0", "status": "creation", "creation_night": night, "season_opens": "s"}) == []
     assert check.clock_problems({"campaign": "x", "year": "0", "status": "creation", "creation_night": "3", "season_opens": "s"})
     assert check.clock_problems({"campaign": "x", "year": "1", "status": "open", "creation_night": "2", "season_opens": "s"})
+
+
+# ---------------------------------------------------------------- build 3: lockcheck
+
+def test_lockcheck_sealed_terms_primary():
+    pub = "campaigns/fx/player/notes.md"
+    sealed = "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt"
+    with tmpcopy() as repo:  # the file is read as written, case and all; comments are skipped
+        append(repo, sealed, "# Hidden Name in a comment\nGrey Warden\n")
+        append(repo, pub, "A grey warden passed. Hidden Name is not a term.\n")
+        assert lock(repo, "--leaks")[0] == 0
+        append(repo, pub, "The Grey Warden passed.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'sealed term "Grey Warden"' in out
+    with tmpcopy() as repo:  # a map name the god has seen or been told stays on the list and may appear
+        append(repo, sealed, "The Wend Downs\nthe cinder road\nHollow Moor\n")
+        append(repo, pub, "The Wend Downs and the cinder road.\n")
+        assert lock(repo, "--leaks")[0] == 0
+        append(repo, pub, "Hollow Moor.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'sealed term "Hollow Moor"' in out
+    with tmpcopy() as repo:  # a one-word remainder is matched only with its article
+        append(repo, sealed, "the Stray\n")
+        append(repo, pub, "Stray dogs came.\n")
+        assert lock(repo, "--leaks")[0] == 0
+        append(repo, pub, "They saw the Stray.\n")
+        assert lock(repo, "--leaks")[0] == 1
+    with tmpcopy() as repo:  # the old guesses from prose only warn
+        os.remove(os.path.join(repo, sealed))
+        append(repo, sealed, "# nothing sealed\n")
+        append(repo, pub, "Vessaline walks the shore.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 0 and 'WARN leaks' in out and 'god name "Vessaline"' in out and "sealed-terms.txt" in out
+    with tmpcopy() as repo:  # a missing sealed-terms.txt fails
+        os.remove(os.path.join(repo, sealed))
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "sealed-terms.txt is missing" in out
+    with tmpcopy() as repo:  # mystery titles are matched case and all
+        append(repo, pub, "the silent bell rang at dusk.\n")
+        assert lock(repo, "--leaks")[0] == 0
+
+
+def test_lockcheck_number_words():
+    hits = lockcheck.count_hits
+    assert hits("We were seven when we came down.")
+    assert hits("the seven of us") and hits("A dozen gods") and hits("half a dozen like us walk")
+    assert [h[0] for h in hits("It fell twice that winter.")] == ["twice"]
+    assert not hits("No one came down the track.") and not hits("They help one another, as gods do.")
+    assert not hits("Seven sheep. The god sleeps.")  # another sentence
+    assert not hits("seven fields of barley and rye and oats and wheat lay by the god")  # more than six words apart
+    assert hits("seven fields of barley and rye, the god")  # six words between
+    assert not hits("seven fields of barley and rye by the god")  # seven words between
+    assert not hits("thirteen gods")  # one to twelve only; the count of gods itself is its own check
+    with tmpcopy() as repo:  # a number-word hit is exempted by its quoted phrase
+        append(repo, "campaigns/fx/player/notes.md", "Snow fell two days running.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'number word "two" near "fell": "fell two"' in out
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/leak-allow.txt", "fell two\n")
+        assert lock(repo, "--leaks")[0] == 0
+
+
+def test_lockcheck_answers_field():
+    mp = "SPOILERS_do_not_open/campaigns/fx/mysteries.md"
+    with tmpcopy() as repo:  # wording no longer decides: "no" with oracle words passes
+        path = os.path.join(repo, mp)
+        t = open(path).read().replace("The answer to the lost ewe is plain", "An oracle answers questions; the answer is plain", 1)
+        open(path, "w").write(t)
+        assert lock(repo, "--mysteries")[0] == 0
+    with tmpcopy() as repo:
+        path = os.path.join(repo, mp)
+        t = open(path).read()
+        t = t.replace("Related to: none. Answers questions: no.", "Related to: none.", 1)
+        t = t.replace("Related to: none. Answers questions: no.", "Related to: none. Answers questions: maybe.", 1)
+        t = t.replace("Related to: none. Answers questions: no.", "Related to: none. Answers questions: yes.", 1)
+        open(path, "w").write(t)
+        code, out, _ = lock(repo, "--mysteries")
+        assert code == 1
+        assert '"The Silent Bell": no Answers questions: line' in out
+        assert '"The Grey Tithe": Answers questions: must be yes or no' in out
+        assert '"The Salt Debt": Answers questions: yes, but no Limit: line' in out
+        assert "The Drowned Choir" not in out
+
+
+def test_lockcheck_skips_flags_files():
+    with tmpcopy() as repo:
+        for rel in ("SPOILERS_do_not_open/campaigns/fx/years/000/lock-flags.md",
+                    "SPOILERS_do_not_open/campaigns/fx/years/000/lock-flags-round2.md",
+                    "campaigns/fx/years/000/lock-flags.md"):
+            append(repo, rel, "Flag: Hollow Moor [r77] cited r-0099, Vessaline \u2014 seven gods came down.\n")
+        code, out, _ = lock(repo, "--all")
+        assert code == 0, out
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/000/flags.md", "[r77]\n")
+        assert lock(repo, "--places")[0] == 1
+
+
+# ---------------------------------------------------------------- build 3: paint
+
+def test_paint_skips_held():
+    import paint
+    d = tempfile.mkdtemp()
+    try:
+        for rel in ("images/requests/a.json", "images/requests/held/b.json", "images/held/c.json",
+                    "SPOILERS_do_not_open/images/requests/held/d.json"):
+            path = os.path.join(d, rel)
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            json.dump({"id": os.path.splitext(os.path.basename(rel))[0], "prompt": "x"}, open(path, "w"))
+        assert [r["id"] for _p, r, _t in paint.pending(d)] == ["a"]
+        assert paint.is_held(os.path.join(d, "images/held/c.json"), d)
+        assert not paint.is_held(os.path.join(d, "images/requests/a.json"), d)
+    finally:
+        shutil.rmtree(d)
+    wf = open(os.path.join(ROOT, ".github", "workflows", "paint.yml")).read()
+    assert 'paths: ["images/requests/**", "SPOILERS_do_not_open/images/requests/**"]' in wf and "images/held" not in wf.split("paths:")[1].split("\n")[0]
+
+
+# ---------------------------------------------------------------- build 3: map.py
+
+def test_stamp():
+    with tmpcopy() as repo:
+        world_p, _ = fx_paths(repo)
+        S = os.path.dirname(world_p)
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/notes.md",
+               "Tallowford and Tallowford's market [f01]. The Wend Downs, Wend Downs again. "
+               "Mewsby (the village) [f04]. River Wend runs. Not Tallowfordish. [Tallowford]\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/000/lock-flags.md", "Tallowford\n")
+        append(repo, "campaigns/fx/player/notes2.md", "Tallowford\n")
+        before_pub = open(os.path.join(repo, "campaigns/fx/player/notes2.md")).read()
+        world = json.load(open(world_p))
+        changed, total, per = mapt.stamp("fx", S, world, dry_run=True)
+        assert open(os.path.join(S, "notes.md")).read().startswith("Tallowford and")  # dry run changes nothing
+        changed, total, per = mapt.stamp("fx", S, world)
+        t = open(os.path.join(S, "notes.md")).read()
+        assert t.startswith("Tallowford [f01] and Tallowford's [f01] market [f01]. The Wend Downs [r01], Wend Downs [r01] again. "
+                            "Mewsby (the village) [f04]. River Wend [f02] runs. Not Tallowfordish. [Tallowford]"), t
+        assert dict(per)["notes.md"] == 5
+        assert open(os.path.join(S, "years/000/lock-flags.md")).read() == "Tallowford\n"
+        assert open(os.path.join(repo, "campaigns/fx/player/notes2.md")).read() == before_pub
+        # idempotent; and the stamped files pass lockcheck --places with no bare-name warning for them
+        assert mapt.stamp("fx", S, world)[1] == 0
+        code, out, _ = lock(repo, "--places")
+        # only the bracketed "[Tallowford]" (link text, never stamped) is left bare
+        assert 'notes.md: map name "Tallowford" written 1 time(s)' in out and '"Wend Downs"' not in out
+        # the command line reports counts
+        code, out, _ = run_quiet(mapt.main, ["stamp", "fx", "--world", world_p, "--sealed", S, "--dry-run"])
+        assert code == 0 and "would stamp 0 name(s) in 0 file(s)" in out
+
+
+def small_world():
+    """Three regions on a 100 by 100 painting at 2 miles a pixel: a valley floor at 1,000 feet with a
+    town and a river by the landing, ridges to 2,800 feet to the east, and peaks to 11,000 feet beyond."""
+    return {"campaign": "t", "painting": {"size": [100, 100], "miles_per_pixel": 2.0, "grid": {"cols": 5, "rows": 4}},
+            "regions": [
+                {"id": "r01", "name": "Vale of Osk", "terrain": "valley, a long vale", "elevation": "upland, 1,000 to 1,400 feet",
+                 "water": "the Osk Water, quick", "climate": "cool", "neighbors": [{"id": "r02", "days": 3}],
+                 "polygon": [[0, 0], [40, 0], [40, 100], [0, 100]]},
+                {"id": "r02", "name": "The Shoulders", "terrain": "hill", "elevation": "hill, to 2,800 feet", "water": "springs",
+                 "climate": "cool", "neighbors": [{"id": "r01", "days": 3}, {"id": "r03", "days": 9}],
+                 "polygon": [[40, 0], [60, 0], [60, 100], [40, 100]]},
+                {"id": "r03", "name": "The White Teeth", "terrain": "mountain", "elevation": "high, to 11,000 feet", "water": "snow",
+                 "climate": "cold", "neighbors": [{"id": "r02", "days": 9}],
+                 "polygon": [[60, 0], [100, 0], [100, 100], [60, 100]]}],
+            "features": [
+                {"id": "f01", "name": "Oskby", "type": "town", "shape": "point", "coords": [[20.4, 50.3]], "regions": ["r01"]},
+                {"id": "f02", "name": "Osk Water", "type": "river", "shape": "line", "coords": [[20.6, 0], [20.6, 49.5], [20.6, 100]], "regions": ["r01"]},
+                {"id": "f03", "name": "Hob Hole", "type": "cave", "shape": "point", "coords": [[20.2, 50.4]], "regions": ["r01"]},
+                {"id": "f04", "name": "Farstead", "type": "village", "shape": "point", "coords": [[30, 50]], "regions": ["r01"]}],
+            "landings": {"player": {"region": "r01", "at": [20.2, 50.1]}}}
+
+
+def test_describe_and_sight():
+    w = small_world()
+    assert mapt.check_world(w) == []
+    # the sight rule's worked figures
+    assert round(mapt.sight_miles(0), 1) == 3.0
+    assert round(mapt.sight_miles(1800)) == 55 and round(mapt.sight_miles(11800)) == 136
+    assert mapt.parse_elevation({"elevation": "upland, 1,200 to 2,500 feet"}) == (1200, 2500, True)
+    assert mapt.parse_elevation({"elevation": "hill, to 4,000 feet"})[1] == 4000
+    assert mapt.parse_elevation({"elevation": "low"})[2] is False
+    land = w["landings"]["player"]
+    k = {"regions": {"r01": {"grade": "seen", "source": "landing", "year": 1}},
+         "features": {"f02": {"grade": "reported", "source": "own sight", "year": 1, "told": {"name": "the quick water"}}}}
+    t = mapt.describe(w, "r01", mapt.landing_point(land), k)
+    # names: seen and told names only; every other name put plainly, in free text too
+    assert "Vale of Osk" in t and "the quick water, quick" in t and "the quick water (river)" in t
+    for sealed in ("Osk Water", "Oskby", "Shoulders", "White Teeth", "Hob Hole", "Farstead"):
+        assert sealed not in t, sealed
+    assert "a town (town), about half a mile south-east" in t and "a hill country (hill), lying east: 3 days on foot" in t
+    assert "the quick water (river), about a mile east, about 4 miles of it in view, from the north-east to the south-east" in t
+    # sight (map.md 1.4): the town, river and cave mouth within two miles of a valley floor; the village
+    # 20 miles off in the same valley shows only as its smoke, walls or lights
+    assert "from a valley floor or plain" in t and "a cave (cave), about half a mile south" in t
+    assert "Farther off, seen only as smoke, walls or lights:\n- a village, about 20 miles east" in t
+    # the ridges (top 2,800 over the 1,000-foot floor) are on the skyline 40 miles east
+    assert "a hill country (hill), east, about 40 miles to its nearest edge: on the skyline" in t
+    # the peaks (relief 10,000, reach about 125 miles) stand 80 miles off, behind the ridges or over them by the line
+    assert "a mountain country" in t
+    tn = mapt.describe(w, "r01", mapt.landing_point(land), k, all_names=True)
+    assert "Oskby (town)" in tn and "The Shoulders" in tn and "Osk Water" in tn
+    # a region described from its middle when no point is given; from a hill the skyline stops at forty miles
+    th = mapt.describe(w, "r02", None, None)
+    assert "from the middle of the region" in th and "from a hill, ridge or height" in th
+    assert "a mountain country (mountain), east, about 20 miles" in th and "a valley country (valley), west" in th
+    w3 = json.loads(json.dumps(w))
+    for poly_r in w3["regions"]:
+        poly_r["polygon"] = [[x * 3 if x > 40 else x, y] for x, y in poly_r["polygon"]]
+    w3["painting"]["size"] = [300, 100]
+    th3 = mapt.describe(w3, "r02", [100, 50], None)
+    assert "a mountain country" not in th3.split("In view")[1]  # 80 miles off: past the forty-mile skyline
+    # hidden: raise the ridges so that they stand above the line to the peaks
+    w2 = json.loads(json.dumps(w))
+    w2["regions"][1]["elevation"] = "hill, to 9,000 feet"
+    t2 = mapt.describe(w2, "r01", mapt.landing_point(land), k)
+    assert "hidden behind a hill country" in t2
+    # the command line: by landing, from the god's knowledge file
+    d = tempfile.mkdtemp()
+    try:
+        wp, kp = os.path.join(d, "map.json"), os.path.join(d, "k.json")
+        json.dump(w, open(wp, "w"))
+        json.dump(k, open(kp, "w"))
+        code, out, err = run_quiet(mapt.main, ["describe", "t", "--world", wp, "--knowledge", kp, "--landing", "player"])
+        assert code == 0 and out.startswith("Landing of player: Vale of Osk") and out.split("\n", 1)[1] == t.split("\n", 1)[1], err
+        assert run_quiet(mapt.main, ["describe", "t", "--world", wp, "--landing", "god-x"])[0] != 0
+        assert run_quiet(mapt.main, ["describe", "t", "--world", wp, "--region", "r09"])[0] != 0
+    finally:
+        shutil.rmtree(d)
+
+
+def test_one_decimal_coordinates():
+    w = small_world()
+    assert mapt.check_world(w) == []
+    bad = json.loads(json.dumps(w))
+    bad["features"][0]["coords"] = [["20.4", 50.3]]
+    bad["landings"]["player"]["at"] = [20.2]
+    probs = mapt.check_world(bad)
+    assert any("f01: coordinate" in p for p in probs) and any("landing player: point" in p for p in probs)
+    p = mapt.Painting(w)
+    assert p.cell_of((20.2, 50.1)) == "B3"
+
+
+def test_labels_never_overprint():
+    from PIL import Image
+    lab = mapt.Labeler((400, 300), bounds=(0, 0, 400, 300))
+    lab.obstacle((190, 140, 210, 160))
+    for i in range(12):
+        lab.add((200, 150), [(f"A long place name {i}", 16, "regular", mapt.INK, 255, 0),
+                             ("reported: a drover", 10, "italic", mapt.INK_LIGHT, 255, 14)],
+                priority=50 + i, anchor="lm" if i % 2 else "mm", leader=True)
+    dropped = lab.place()
+    groups = lab.groups
+    boxes = [mapt.bbox([(b[0], b[1]) for b in g] + [(b[2], b[3]) for b in g]) for g in groups]
+    for i in range(len(boxes)):
+        assert not Labeler_hit(boxes[i], (190, 140, 210, 160))
+        for j in range(i + 1, len(boxes)):
+            assert not Labeler_hit(boxes[i], boxes[j]), (boxes[i], boxes[j])
+        assert 0 <= boxes[i][0] and boxes[i][2] <= 400 and 0 <= boxes[i][1] and boxes[i][3] <= 300
+    assert len(groups) + len(dropped) == 12 and len(groups) >= 6 and lab.moved >= len(groups) - 1
+    # the highest priority keeps its place
+    assert "A long place name 11" not in dropped
+    lab.flush(Image.new("RGBA", (400, 300)))
+
+
+def Labeler_hit(a, b):
+    return a[0] < b[2] and b[0] < a[2] and a[1] < b[3] and b[1] < a[3]
+
+
+def test_landing_zoom():
+    with tmpcopy() as repo:
+        world_p, know_p = fx_paths(repo)
+        paint = os.path.join(repo, "paint")
+        out = os.path.join(repo, "out")
+        make_paintings(paint)
+        world = json.load(open(world_p))
+        painting = mapt.Painting(world)
+        regions_k, features_k = mapt.gather(world, json.load(open(know_p)), painting)
+        rect = mapt.landing_rect(regions_k, features_k, painting)
+        # the seen region r01 is 0..400 by 0..400: a quarter margin, clamped to the painting
+        assert rect == (0, 0, 500, 500)
+        code, o, err = run_quiet(mapt.main, ["draw", "fx", "--world", world_p, "--knowledge", know_p, "--paintings", paint,
+                                             "--out", out, "--zoom", "landing", "--layer", "surface"])
+        assert code == 0, err
+        meta = json.load(open(os.path.join(out, "map-meta.json")))
+        assert meta["zoom"] == "landing" and meta["frames"]["surface"] == "A1:C3" and meta["frame_miles"]["surface"] == [1000, 1000]
+        assert meta["labels_dropped"]["surface"] == 0
+        # a tiny seen region still gets a sheet of at least LANDING_MIN_SIZE pixels, at its own scale bar
+        tiny = {"r01": {"id": "r01", "grade": "seen", "polygon": [[500, 500], [504, 500], [504, 503]], "name": "x"}}
+        r = mapt.landing_rect(tiny, {}, painting)
+        assert r[2] - r[0] >= mapt.LANDING_MIN_SIZE and r[3] - r[1] >= mapt.LANDING_MIN_SIZE
+        v = mapt.View(r)
+        assert mapt.scale_bar(v, painting)[0] < mapt.scale_bar(mapt.View((0, 0, 1000, 800)), painting)[0]
