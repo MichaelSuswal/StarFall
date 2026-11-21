@@ -2524,7 +2524,7 @@
     "r16"
    ],
    "known_to": "the Marrans",
-   "notes": "Footings of a great hall of a league of ford towns."
+   "notes": "Footings of a great hall of a league of ford towns. Under the footings: a cellar with the league's ledger chest and half of its master weight (deep history)."
   },
   {
    "id": "f35",
@@ -2588,7 +2588,7 @@
     "r18"
    ],
    "known_to": "the unnamed people",
-   "notes": "A great sinkhole with a cave in its side. Below: galleries in the limestone that run for miles south and west (the underground, data only)."
+   "notes": "A great sinkhole with a cave in its side. Below: galleries in the limestone that run for miles south and west (the underground, data only). In the lowest gallery, about two miles in and far down, the floor is blue-grey glass that rings when struck. Burial niches of the oldest people line the upper galleries."
   },
   {
    "id": "f38",
@@ -2622,7 +2622,7 @@
     "r15"
    ],
    "known_to": "Averley; the Marrans; the Weirfolk",
-   "notes": "The old walled city of the kingdom of Averley. About 9,000."
+   "notes": "The old walled city of the kingdom of Averley. About 9,000. The empty paved court at its middle: stones gone soft at the edges, voices that come back late (deep history, the Ring King)."
   },
   {
    "id": "f40",
@@ -2770,7 +2770,7 @@
     "r03"
    ],
    "known_to": "the Column",
-   "notes": "A pass closed by an old fall no one living saw."
+   "notes": "A pass closed by an old fall no one living saw. Under the fall: a winter hold of the older ring and those who were in it (deep history)."
   },
   {
    "id": "f48",
@@ -2804,7 +2804,7 @@
     "r03"
    ],
    "known_to": "the Graith",
-   "notes": "A door in rock, shut. Not a cave: a door."
+   "notes": "A door in rock, shut. Not a cave: a door. Behind it: a hall whose walls and floor are blue-grey glass that rings when struck, and the Graith who did not wake (deep history, the fall before)."
   },
   {
    "id": "f50",
@@ -2821,7 +2821,7 @@
     "r05"
    ],
    "known_to": "a few of the Ussel",
-   "notes": "A door in rock under a fallen tree, shut from the inside. Not a cave: a door."
+   "notes": "A door in rock under a fallen tree, shut from the inside. Not a cave: a door. Behind it: the vault of those who stayed when the Hidden Folk left, barred from within (deep history)."
   },
   {
    "id": "f51",
@@ -2940,6 +2940,210 @@
    ],
    "known_to": "the Graith",
    "notes": "An old road that goes into the range and under it (the underground, data only)."
+  },
+  {
+   "id": "f57",
+   "name": "The Nameless Mounds",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     478,
+     468
+    ]
+   ],
+   "regions": [
+    "r08"
+   ],
+   "known_to": "the Hethren, as ground to pass by",
+   "notes": "Not one ruin: a field of low turf mounds in rows, the oldest built ground on the sheet. A city of the first farmers of the bowl. No stone in it bears a mark. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f58",
+   "name": "Ansa's Spring",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     520,
+     655
+    ]
+   ],
+   "regions": [
+    "r22"
+   ],
+   "known_to": "the Hethren",
+   "notes": "Not a ruin: a spring on the southern lip of the heath, the one water on the heath that is called by a person's name. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f59",
+   "name": "The Bare Reach",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     796,
+     618
+    ]
+   ],
+   "regions": [
+    "r14"
+   ],
+   "known_to": "the Weirfolk, as bad grazing; Averley",
+   "notes": "Not a ruin: a round of ground about a mile across where the Aver leaves the Sarn. Grass with no seed heads. Nothing particular grows there. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f60",
+   "name": "Farwalker's Cot",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     900,
+     850
+    ]
+   ],
+   "regions": [
+    "r20"
+   ],
+   "known_to": "a few goatherds of the Shore Hills",
+   "notes": "Not a village: one stone cot and a walled bean plot above the shore. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f61",
+   "name": "The Stone Keel",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     120,
+     95
+    ]
+   ],
+   "regions": [
+    "r01"
+   ],
+   "known_to": "no one living",
+   "notes": "Not a ruin: a long curved ridge of pale stone in the high rock, too large to be sure it is bone. The second of the great dead things. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f62",
+   "name": "Evenfire Cairn",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     105,
+     770
+    ]
+   ],
+   "regions": [
+    "r19"
+   ],
+   "known_to": "fowlers of the White Ribs",
+   "notes": "Not a ruin: a cairn with a worn threshold stone and a hearth beside it that one family of fowlers keeps alight. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f63",
+   "name": "The Horn Hall",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     150,
+     480
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "a few Thessen trackers, by report",
+   "notes": "Post rings and a boundary ditch of the hunt kings' great lodge, deep in the wood. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f64",
+   "name": "The Hound Spring",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     205,
+     560
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "no one living; old Thessen hound-keepers have the name only",
+   "notes": "Not a ruin: a spring under an oak in the deep wood, with a worn stone lip. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f65",
+   "name": "Sedgeby",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     612,
+     722
+    ]
+   ],
+   "regions": [
+    "r15"
+   ],
+   "known_to": "Averley; the Marrans",
+   "notes": "Bank and ditch of a ford town of the league, burned, on the Sarn. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f66",
+   "name": "Withyford",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     540,
+     762
+    ]
+   ],
+   "regions": [
+    "r16"
+   ],
+   "known_to": "the Marrans",
+   "notes": "Posts of a ford town of the league in the river mud, seen at low water. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f67",
+   "name": "The White Acres",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     440,
+     706
+    ]
+   ],
+   "regions": [
+    "r16"
+   ],
+   "known_to": "the Marrans, as ground no one rents",
+   "notes": "Not a ruin: old field strips on the Strand Road where little grows. Salted in the league's last war. Added on creation Night 3b for the deep history."
+  },
+  {
+   "id": "f68",
+   "name": "Seven Wells",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     950,
+     600
+    ]
+   ],
+   "regions": [
+    "r13"
+   ],
+   "known_to": "the Lowlamp, as a dry halt",
+   "notes": "Choked stone wells and wall lines of a caravan city on the Pale Road, older than the road's present line. Added on creation Night 3b for the deep history."
   }
  ],
  "landings": {
@@ -2999,5 +3203,76 @@
     639.6
    ]
   }
+ },
+ "plane": {
+  "starfalls": [
+   {
+    "id": "p01",
+    "bearing": "north-east",
+    "distance_years_walk": 82,
+    "age_years": 0,
+    "alive": true,
+    "phase": null,
+    "throw": true,
+    "rolls": [
+     "r-0149",
+     "r-0150",
+     "r-0151"
+    ]
+   },
+   {
+    "id": "p02",
+    "bearing": "south",
+    "distance_years_walk": 460,
+    "age_years": 14000,
+    "alive": false,
+    "phase": null,
+    "throw": false,
+    "rolls": [
+     "r-0153",
+     "r-0154",
+     "r-0155",
+     "r-0156",
+     "r-0165",
+     "r-0166",
+     "r-0170"
+    ]
+   },
+   {
+    "id": "p03",
+    "bearing": "south-east",
+    "distance_years_walk": 460,
+    "age_years": 50000,
+    "alive": false,
+    "phase": null,
+    "throw": false,
+    "rolls": [
+     "r-0157",
+     "r-0158",
+     "r-0159",
+     "r-0160",
+     "r-0167",
+     "r-0168",
+     "r-0171"
+    ]
+   },
+   {
+    "id": "p04",
+    "bearing": "north",
+    "distance_years_walk": 820,
+    "age_years": null,
+    "alive": "not yet fallen",
+    "phase": "mature",
+    "throw": false,
+    "rolls": [
+     "r-0161",
+     "r-0162",
+     "r-0163",
+     "r-0164",
+     "r-0169"
+    ]
+   }
+  ],
+  "count_roll": "r-0152"
  }
 }
