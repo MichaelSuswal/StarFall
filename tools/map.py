@@ -4,7 +4,7 @@
   python3 tools/map.py draw <campaign> [--zoom known|landing] [--layer surface|under-N]
   python3 tools/map.py gazetteer <campaign>
   python3 tools/map.py stamp <campaign> [--dry-run]    append [id] after every map name in the sealed .md files
-  python3 tools/map.py describe <campaign> (--landing <god> | --region <id> [--god <god>]) [--names]
+  python3 tools/map.py describe <campaign> (--landing <god> [--reference] | --region <id> [--god <god>]) [--names]
   python3 tools/map.py reveal <campaign> (--region R | --feature F) --grade G --source "..." --year N
                                         [--told '<json>'] [--name N] [--cell C3] [--force "reason"]
   python3 tools/map.py validate <campaign>     check the sealed map's ids, neighbors, landings and types
@@ -54,8 +54,10 @@ running it twice changes nothing. It skips LOCKED.md and the checker's lock-flag
 the public folder, and prints the count per file.
 
 `describe` writes a land description from the sealed data, for the Keeper's use: the region's terrain,
-elevation, water, climate and extent; its neighbors with travel days and directions; and what is in
-view from the landing point (or the region's middle) by the sight rule in describe()'s docstring. Names
+elevation, water, climate and extent, and what is in view from the landing point (or the region's
+middle) by the sight rule in describe()'s docstring. With --landing the output is the seen view alone;
+--reference adds every neighbor with true travel days and directions, seen or not, for the Keeper's
+reference only, never for a release. With --region the neighbors are always given. Names
 come from the god's knowledge file (the player's public file, or S/gods/<god>/map-knowledge.json);
 anything the god has not learned is put plainly ("a river", "a hill country"), free text included.
 --names gives every true name.
@@ -1782,7 +1784,7 @@ def god_knowledge(campaign, god, sealed_dir):
     return load_json(p, default={"regions": {}, "features": {}})
 
 
-def describe(world, region_id=None, at=None, knowledge=None, all_names=False, label=None):
+def describe(world, region_id=None, at=None, knowledge=None, all_names=False, label=None, reference=True):
     """A land description read off the map data: the region's terrain, elevation, water and climate;
     its neighbors with travel days and directions; what is in view from the point and the sight line.
 
@@ -1841,9 +1843,10 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
         dtxt = f"{days:g} days on foot at the pace table's cross-country rate" if isinstance(days, (int, float)) else (f"by {by}" if by else "days not given")
         nb_lines.append(f"- {names.name(nid)} ({terrain_word(other)}), lying {bearing_name(c[0] - at[0], c[1] - at[1])}: "
                         f"{dtxt}; its nearest edge {fmt_miles(mi(d_edge))} {bearing_name(foot[0] - at[0], foot[1] - at[1])} of the point.")
-    out.append("Neighbors:" if nb_lines else "Neighbors: none given.")
-    out += nb_lines
-    out.append("")
+    if reference:
+        out.append("Neighbors (reference for the Keeper, not the seen view):" if nb_lines else "Neighbors: none given.")
+        out += nb_lines
+        out.append("")
 
     # sight
     kind = viewpoint(region)
@@ -2027,6 +2030,8 @@ def main(argv=None):
             g.add_argument("--region", help="a region id: described from its middle")
             s.add_argument("--god", help="with --region: whose knowledge names places (player or a label); default none")
             s.add_argument("--names", action="store_true", help="give every true name, learned or not (the Keeper's own use)")
+            s.add_argument("--reference", action="store_true",
+                           help="with --landing: also print every neighbor with true travel days and directions, seen or not (the Keeper's reference; never for a release)")
             s.add_argument("--sealed", help="sealed campaign folder (default: SPOILERS_do_not_open/campaigns/<name>/)")
         if name == "reveal":
             g = s.add_mutually_exclusive_group(required=True)
@@ -2084,7 +2089,7 @@ def main(argv=None):
             sys.exit(f"map.py: no region with id {rid!r} in the sealed map")
         if at is not None and not is_point(at):
             sys.exit(f"map.py: the landing point {at!r} is not an [x, y] pair of numbers")
-        sys.stdout.write(describe(world, rid, at, kn, args.names, label))
+        sys.stdout.write(describe(world, rid, at, kn, args.names, label, reference=bool(args.reference or not args.landing)))
         return
 
     knowledge = load_json(knowledge_path, default={"campaign": world.get("campaign"), "regions": {}, "features": {}})

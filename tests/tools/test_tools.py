@@ -323,6 +323,13 @@ def test_lockcheck_leaks():
         append(repo, "images/requests/other-002-morning.json", '{"id": "other", "prompt": "Hollow Moor"}\n')
         code, out, _ = lock(repo, "--leaks")
         assert code == 1 and "fx-002-morning.json" in out and "other-002" not in out
+    with tmpcopy() as repo:  # held scene requests are scanned too; the sealed held folder is not
+        append(repo, "images/held/fx-001-morning.json", '{"id": "fx-001-morning", "prompt": "dawn over Hollow Moor"}\n')
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "images/held/fx-001-morning.json" in out
+    with tmpcopy() as repo:
+        append(repo, "SPOILERS_do_not_open/images/held/fx-map-surface.json", '{"id": "x", "prompt": "Hollow Moor"}\n')
+        assert lock(repo, "--leaks")[0] == 0
     with tmpcopy() as repo:  # the allowlist exempts a term
         append(repo, pub, "Beyond lies Hollow Moor.\n")
         append(repo, "SPOILERS_do_not_open/campaigns/fx/leak-allow.txt", "Hollow Moor\n")
@@ -463,6 +470,9 @@ def test_lockcheck_number_words():
     assert not hits("seven fields of barley and rye and oats and wheat lay by the god")  # more than six words apart
     assert hits("seven fields of barley and rye, the god")  # six words between
     assert not hits("seven fields of barley and rye by the god")  # seven words between
+    assert [h[0] for h in hits("We were 7 when we came down.")] == ["7"] and hits("12 of us")
+    assert not hits("On Day 3 the god named them.") and not hits("Question 8, how much a god sees.")
+    assert not hits("1 god") and not hits("13 gods came down") and not hits("2.5 miles from the god") and not hits("1,200 feet below the god")
     assert not hits("thirteen gods")  # two to twelve only; the count of gods itself is its own check
     with tmpcopy() as repo:  # a number-word hit is exempted by its quoted phrase
         append(repo, "campaigns/fx/player/notes.md", "Snow fell two days running.\n")
@@ -592,12 +602,14 @@ def test_describe_and_sight():
     land = w["landings"]["player"]
     k = {"regions": {"r01": {"grade": "seen", "source": "landing", "year": 1}},
          "features": {"f02": {"grade": "reported", "source": "own sight", "year": 1, "told": {"name": "the quick water"}}}}
-    t = mapt.describe(w, "r01", mapt.landing_point(land), k)
+    t = mapt.describe(w, "r01", mapt.landing_point(land), k, reference=False)
     # names: seen and told names only; every other name put plainly, in free text too
     assert "Vale of Osk" in t and "the quick water, quick" in t and "the quick water (river)" in t
     for sealed in ("Osk Water", "Oskby", "Shoulders", "White Teeth", "Hob Hole", "Farstead"):
         assert sealed not in t, sealed
-    assert "a town (town), about half a mile south-east" in t and "a hill country (hill), lying east: 3 days on foot" in t
+    assert "a town (town), about half a mile south-east" in t and "lying east: 3 days on foot" not in t and "Neighbors" not in t
+    tr = mapt.describe(w, "r01", mapt.landing_point(land), k, reference=True)
+    assert "Neighbors (reference for the Keeper, not the seen view):" in tr and "a hill country (hill), lying east: 3 days on foot" in tr
     assert "the quick water (river), about a mile east, about 4 miles of it in view, from the north-east to the south-east" in t
     # sight (map.md 1.4): the town, river and cave mouth within two miles of a valley floor; the village
     # 20 miles off in the same valley shows only as its smoke, walls or lights
@@ -607,7 +619,7 @@ def test_describe_and_sight():
     assert "a hill country (hill), east, about 40 miles to its nearest edge: on the skyline" in t
     # the peaks (relief 10,000, reach about 125 miles) stand 80 miles off, behind the ridges or over them by the line
     assert "a mountain country" in t
-    tn = mapt.describe(w, "r01", mapt.landing_point(land), k, all_names=True)
+    tn = mapt.describe(w, "r01", mapt.landing_point(land), k, all_names=True, reference=True)
     assert "Oskby (town)" in tn and "The Shoulders" in tn and "Osk Water" in tn
     # a region described from its middle when no point is given; from a hill the skyline stops at forty miles
     th = mapt.describe(w, "r02", None, None)
@@ -632,6 +644,8 @@ def test_describe_and_sight():
         json.dump(k, open(kp, "w"))
         code, out, err = run_quiet(mapt.main, ["describe", "t", "--world", wp, "--knowledge", kp, "--landing", "player"])
         assert code == 0 and out.startswith("Landing of player: Vale of Osk") and out.split("\n", 1)[1] == t.split("\n", 1)[1], err
+        code, out2, _ = run_quiet(mapt.main, ["describe", "t", "--world", wp, "--knowledge", kp, "--landing", "player", "--reference"])
+        assert "Neighbors (reference" in out2 and "lying east: 3 days" in out2
         assert run_quiet(mapt.main, ["describe", "t", "--world", wp, "--landing", "god-x"])[0] != 0
         assert run_quiet(mapt.main, ["describe", "t", "--world", wp, "--region", "r09"])[0] != 0
     finally:

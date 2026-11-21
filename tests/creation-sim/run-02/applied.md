@@ -53,6 +53,8 @@ Each line names the run 02 change list items it applies.
 - tools/map.py: label collision avoidance on every zoom: labels placed by priority, moved, trimmed, shrunk, never overprinted, leader lines that cross nothing, drops reported and counted in map-meta.json (49).
 - tools/map.py: the gazetteer gives a reported region's distance from told data only, never the sealed travel days (42).
 - tools/map.py: `validate` accepts one-decimal (and finer) coordinates and fails coordinates that are not number pairs or lie off the painting, landing points included (42).
+- tools/lockcheck.py: numerals 2 to 12 near god terms count like number words (a numeral after Day, Night, Year, question, step and the like is a label, not a count); `--leaks` also scans held scene requests, `images/held/<name>-*.json`, and not the sealed held folder (44, 50; build check).
+- tools/map.py: `describe --landing` prints the seen view alone; the neighbors with true travel days and directions come only with `--reference`, for the Keeper (45; build check).
 - tools/paint.py and paint.yml: requests under a `held` folder (`images/held/`, or an older `images/requests/held/`) are never painted; the trigger paths are unchanged (50).
 - tests/tools: tests for all of the above, the fixture's sealed-terms file and `Answers questions:` lines; 24 tests pass.
 - campaigns/sim-02/player/map.png (and map-meta.json, written with it): redrawn at the landing zoom as the test record (49).

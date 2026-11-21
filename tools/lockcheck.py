@@ -21,8 +21,9 @@ layout (tests use a fixture).
                seen or been told, phenomena yearly counts, mystery titles (matched case
                and all), schedule titles and star values. Fails on any hit in
                campaigns/<name>/ or in the campaign's public scene requests,
-               images/requests/<name>-*.json, and on a missing sealed-terms.txt. Also
-               fails a number word (two to twelve, "a dozen", "half a dozen", "twice")
+               images/requests/<name>-*.json and images/held/<name>-*.json (the sealed
+               held folder is not scanned), and on a missing sealed-terms.txt. Also
+               fails a number word or numeral (two to twelve, 2 to 12, "a dozen", "half a dozen", "twice")
                within six words of "god", "gods", "like me", "like us", "of us", "pulls",
                "came down" or "fell" in the same sentence, and a public map-knowledge file
                that breaks the map rules. The older guesses from prose (power card
@@ -414,12 +415,15 @@ def common_names(text):
 
 
 def public_files(c):
-    """Every text file under campaigns/<name>/, plus the public scene requests for the campaign."""
+    """Every text file under campaigns/<name>/, plus the campaign's public scene requests, waiting or
+    held: images/requests/<name>-*.json and images/held/<name>-*.json (and an older
+    images/requests/held/). SPOILERS_do_not_open/images/held/ is sealed and not scanned."""
     out = text_files(c.P) if os.path.isdir(c.P) else []
-    req = os.path.join(c.root, "images", "requests")
-    if os.path.isdir(req):
-        out += sorted(os.path.join(req, f) for f in os.listdir(req)
-                      if f.startswith(c.name + "-") and f.endswith(".json"))
+    for req in (os.path.join(c.root, "images", "requests"), os.path.join(c.root, "images", "held"),
+                os.path.join(c.root, "images", "requests", "held")):
+        if os.path.isdir(req):
+            out += sorted(os.path.join(req, f) for f in os.listdir(req)
+                          if f.startswith(c.name + "-") and f.endswith(".json"))
     return out
 
 
@@ -438,10 +442,14 @@ def _words_re(phrase):
     return r"\s+".join(re.escape(w) for w in phrase.split())
 
 
-COUNT_RE = re.compile(r"(?<![\w-])(?:" + "|".join(_words_re(w) for w in sorted(COUNT_WORDS, key=len, reverse=True)) + r")(?![\w-])", re.I)
+COUNT_RE = re.compile(r"(?<![\w-])(?:" + "|".join(_words_re(w) for w in sorted(COUNT_WORDS, key=len, reverse=True)) + r")(?![\w-])"
+                      r"|(?<![\w.,-])(?:1[0-2]|[2-9])(?![\w-]|[.,]\d)", re.I)   # numerals 2 to 12 count alike
 TRIGGER_RE = re.compile(r"(?<![\w])(?:" + "|".join(_words_re(w) for w in sorted(GOD_TRIGGERS, key=len, reverse=True)) + r")(?![\w])", re.I)
 WORD_RE = re.compile(r"[A-Za-z0-9']+")
-SENTENCE_RE = re.compile(r"[^.!?;:]+")
+# a numeral that names a day, night, year, question or step is a label, not a count ("Day 3", "question 8")
+LABEL_BEFORE_RE = re.compile(r"(?<![\w-])(?:day|days|night|nights|year|years|q|question|questions|item|items|step|steps|"
+                             r"round|rounds|section|sections|rule|rules|line|lines|page|chapter|number|no|part|act|scene)\s*#?\s*$", re.I)
+SENTENCE_RE = re.compile(r"(?:[^.!?;:]|(?<=\d)[.:](?=\d))+")   # "2.5" and "3:10" do not end a sentence
 
 
 def count_hits(line):
@@ -459,7 +467,8 @@ def count_hits(line):
                     i = k
             return i
 
-        nums = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in COUNT_RE.finditer(sent)]
+        nums = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in COUNT_RE.finditer(sent)
+                if not (m.group(0).isdigit() and LABEL_BEFORE_RE.search(sent[:m.start()]))]
         trigs = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in TRIGGER_RE.finditer(sent)]
         for n, n0, n1 in nums:
             for t, t0, t1 in trigs:
