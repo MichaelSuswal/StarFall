@@ -93,14 +93,14 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - The Sow Fen [f07]: seen. at the wall.
 - The Mast Vale [r07]: seen. the river country east of the wall.
 - The Mastwater [f01]: seen.
-- The Walked-Round Shrine [f53]: seen. about 7 miles north-west, about 1 day through forest at 10 miles a day.
+- The Walked-Round Shrine [f53]: seen. about 7 miles north-west in a straight line, about 1 day over forest at 10 miles a day.
 - The North Heath [r08]: reported. by the Hethren who come to trade.
-- Hethmoot [f43]: reported. about 405 miles east, about 29 days on foot over rough ground at 14 miles a day.
-- Smoke Pass [f18]: reported. about 235 miles north-east, about 17 days on foot over rough ground at 14 miles a day.
+- Hethmoot [f43]: reported. about 405 miles east in a straight line, about 29 days over rough ground at 14 miles a day.
+- Smoke Pass [f18]: reported. about 235 miles north-east in a straight line, about 17 days over rough ground at 14 miles a day.
 - The High Table [r04]: rumored. a walled-in valley beyond the pass.
 - The Folds [r05]: rumored. dark hills where no one goes.
-- The Horn Hall [f63]: reported. by a few trackers, as post rings in the deep wood; about 270 miles west, about 27 days on foot over forest at 10 miles a day. Added on Night 3b from the deep history.
-- The Hound Spring [f64]: rumored. a name only, from old hound-keepers, a spring somewhere in the deep wood; no one living has been there; in truth about 280 miles south-west, about 28 days on foot over forest at 10 miles a day. Added on Night 3b from the deep history.
+- The Horn Hall [f63]: reported. by a few trackers, as post rings in the deep wood; about 270 miles west in a straight line, about 27 days over forest at 10 miles a day. Added on Night 3b from the deep history.
+- The Hound Spring [f64]: rumored. a name only, from old hound-keepers, a spring somewhere in the deep wood; no one living has been there; in truth about 280 miles south-west in a straight line, about 24 days by the ground the line crosses (about 155 miles of rough ground at 14 a day, about 125 miles of forest at 10 a day). Added on Night 3b from the deep history.
 
 ## Named mortals
 None yet. Office-holders are unnamed until play names them.

@@ -8,7 +8,7 @@ Evening, in autumn. The light is going. It has rained lately and will again.
 
 ## The body's senses
 
-- Underfoot: deep wet leaf litter over living soil, cold, giving a little. Bare feet. Pale rock breaks the surface a few paces off, slick with wet.
+- Underfoot: the trodden earth of a worn way, cold and wet, with deep leaf litter over living soil at either edge. Bare feet. Pale rock breaks the surface a few paces off, slick with wet.
 - Smell: rot and rain, leaf mold, wet stone, fungus. Woodsmoke on the air, thin, from the south-east.
 - Sound: drip from the canopy. Water running a short way and then going down into the ground with a hollow note. No voices. No beasts close by.
 - Sight: very large old trees, fallen ones lying where they fell with young growth coming up through them. Fungi up everywhere, on the logs and through the litter. Hollows and sinkholes among the trees, some dry, some with water standing at the bottom, one or two too deep to see into. Through the gaps in the canopy, cloud breaking up, and where it breaks, high overhead, one small pale blue light, steady.
@@ -30,7 +30,7 @@ What its backstory outline holds and no more. The rest is fog.
 
 A tall person's eye here sees level ground out to about 3 miles where nothing stands in the way; in forest it sees things at ground level within about half a mile.
 
-- A worn way, wide enough for two abreast, a few hundred yards to the south. About a mile of it is in view, running from the north-west to the south-east. Beside it, coppiced stools and cut stumps; in the clearings, turf grazed short.
+- A worn way, wide enough for two abreast. It stands on it: the landing point lies on the way itself. About a mile of it is in view, running from the north-west to the south-east. Beside it, coppiced stools and cut stumps; in the clearings, turf grazed short.
 - Smoke, about 2 miles to the south-east: a town's, by the amount of it. The town itself is not in view.
 
 Nothing else is in view.

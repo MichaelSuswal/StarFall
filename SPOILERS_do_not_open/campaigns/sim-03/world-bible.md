@@ -72,17 +72,17 @@ Discoveries. A companion that does not worship and wants nothing a god can give:
 
 ## The undared wishes
 
-None is placed where its own god is certain to come on it. Distances are straight lines from that god's landing, in miles from `map.json`, and days on foot at the rough-ground rate of 14 miles a day.
+None is placed where its own god is certain to come on it. Distances are straight lines from that god's landing, in miles from `map.json`. Days are priced by the one reading used in every record (lock round 1, flag 2): by a traced road where both ends lie on it, otherwise by the ground the straight line crosses at the pace table's rates (rough ground 14 miles a day, forest 10, mountain 8, marsh with a guide 6).
 
 | Wish | Kept as | Distance from its own god's landing |
 |---|---|---|
-| That what was honored and lost is waiting | Evenfire Cairn [f62]: a hearth by a worn threshold, kept alight forty generations for one who used to come | about 650 miles, 46 days |
-| That this time the mountain holds | The Graith's hall, which held through the fall before (L03) | about 195 miles; 24 days on mountain ground; off the Column's circuit, in ground the Column does not enter |
-| That a broken oath can be mended | The two halves of the league's weight; the true half lies at Averley [f39] (S02) | about 220 miles, 16 days, in another people's treasury |
-| That nothing lost is lost for good | Ansa's Spring [f58], a name that came back | about 715 miles, 51 days |
-| That some hand keeps a list, and the list is kind | The drowned roll at Saltsteps [f40] | about 925 miles, 66 days |
-| To be forgiven and never told for what | The Canters hold no grievance over the refusal and sing a rest for the keeper as they do for anyone they have asked; the nearest their round comes is Hartwall [f08] | about 375 miles, 27 days; they do not enter the Folds [r05] |
-| A gate that cannot be made a cage | The Rattlereed [r12], where the Sarn [f03] runs in more threads than anyone can stake, and the Sallow's saying that no one stakes the reed water | about 220 miles, 16 days |
+| That what was honored and lost is waiting | Evenfire Cairn [f62]: a hearth by a worn threshold, kept alight forty generations for one who used to come | about 650 miles; about 54 days (about 375 miles of rough ground, about 275 of forest) |
+| That this time the mountain holds | The Graith's hall, which held through the fall before (L03) | about 195 miles; about 24 days on mountain ground; off the Column's circuit, in ground the Column does not enter |
+| That a broken oath can be mended | The two halves of the league's weight; the true half lies at Averley [f39] (S02) | about 220 miles; about 16 days over rough ground; in another people's treasury |
+| That nothing lost is lost for good | Ansa's Spring [f58], a name that came back | about 715 miles; about 76 days (about 450 miles of rough ground, about 265 of marsh) |
+| That some hand keeps a list, and the list is kind | The drowned roll at Saltsteps [f40] | about 925 miles; about 66 days over rough ground |
+| To be forgiven and never told for what | The Canters hold no grievance over the refusal and sing a rest for the keeper as they do for anyone they have asked; the nearest their round comes is Hartwall [f08] | about 375 miles; about 37 days through forest; they do not enter the Folds [r05] |
+| A gate that cannot be made a cage | The braided heart of the Rattlereed [r12] round Nightstake [f45], where the Sarn [f03] runs in more threads than anyone can stake, and the Sallow's saying that no one stakes the reed water, which is said only among them and at their night market | The heart, at Nightstake [f45]: about 220 miles; about 30 days (about 150 miles of marsh with a guide, about 70 of rough ground). The near edge of the Rattlereed [r12] is about 70 miles, 5 days over rough ground, upstream on this god's own river, and its people have seen that edge, where the river is one channel. Judged again at lock round 1, flag 3: the wish is not kept at the edge, which this god may well reach; it is kept a month's guided travel inside another people's water, and the saying is heard only by one who deals with them. It is off its god's certain path and nearer to it than any other kept wish; it stands, and is not moved, since moving it would be done only because a checker looked |
 | That nothing exist only for its god (the player's) | Kept by building nothing for it | not placed |
 
 ## Likenesses to the common past

@@ -70,23 +70,23 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - Tallyford [f30]: seen. their town.
 - The Tally Meadows [r16]: seen.
 - The Sarn [f03]: seen. from the bay up to the crossing.
-- Keelstrand [f31]: seen. about 10 miles south, about 1 day on foot over rough ground at 14 miles a day.
-- The Old Weighhouse [f34]: seen. about 20 miles north-west, about 1 day on foot over rough ground at 14 miles a day.
+- Keelstrand [f31]: seen. about 10 miles south in a straight line, about 1 day over rough ground at 14 miles a day.
+- The Old Weighhouse [f34]: seen. about 20 miles north-west in a straight line, about 1 day over rough ground at 14 miles a day.
 - The Meadow Road [f32]: seen.
 - The Strand Road [f33]: seen. as far as the limestone.
-- Averley [f39]: seen. about 220 miles north-east, about 11 days by road at 20 miles a day.
-- Saltsteps [f40]: seen. about 270 miles east, about 19 days on foot over rough ground at 14 miles a day.
+- Averley [f39]: seen. about 220 miles north-east in a straight line, about 16 days over rough ground at 14 miles a day.
+- Saltsteps [f40]: seen. about 270 miles east in a straight line, about 11 days by the ground the line crosses (about 165 miles of water by coaster at 50 a day, about 105 miles of rough ground at 14 a day).
 - The Old Low Country [r15]: seen. by their carriers.
-- Stakewater [f28]: seen. about 490 miles north-east, about 24 days by the Meadow Road [f32] at 20 miles a day.
+- Stakewater [f28]: seen. about 490 miles north-east in a straight line, about 530 miles by The Meadow Road [f32], about 27 days at 20 miles a day.
 - The Chalkwater [f04]: seen.
 - The Sump [r17]: reported. by fowlers.
 - The Holed Wood [r18]: reported. by charcoal buyers.
 - unnamed town [f35]: reported. a town of woodland people in the limestone forest, by charcoal buyers.
 - The Rattlereed [r12]: rumored. a great reed marsh far up the river.
 - The Green Sea [r21]: seen. the near coast only.
-- Withyford [f66]: seen. posts in the river mud at low water; about 100 miles north, about 7 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
-- Sedgeby [f65]: seen. a burned ford town of the league; about 210 miles north-east, about 15 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
-- The White Acres [f67]: seen. old field strips no one rents; about 240 miles north-west, about 17 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
+- Withyford [f66]: seen. posts in the river mud at low water; about 105 miles north in a straight line, about 7 days over rough ground at 14 miles a day. Added on Night 3b from the deep history.
+- Sedgeby [f65]: seen. a burned ford town of the league; about 210 miles north-east in a straight line, about 240 miles by The Meadow Road [f32], about 12 days at 20 miles a day. Added on Night 3b from the deep history.
+- The White Acres [f67]: seen. old field strips no one rents; about 240 miles north-west in a straight line, about 250 miles by The Strand Road [f33], about 12 days at 20 miles a day. Added on Night 3b from the deep history.
 
 ## Named mortals
 None yet. Office-holders are unnamed until play names them.

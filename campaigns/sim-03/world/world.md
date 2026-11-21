@@ -15,7 +15,7 @@ Old forest on broken pale limestone: very large old trees, fallen ones lying whe
 From where the Understory stands, a tall person's eye sees level ground out to about 3 miles where nothing stands in the way, and in forest like this sees things at ground level within about half a mile.
 
 In view:
-- A worn way, wide enough for two to walk abreast, a few hundred yards to the south. About a mile of it shows, running from the north-west to the south-east.
+- A worn way, wide enough for two to walk abreast. The Understory stands on it. About a mile of it shows, running from the north-west to the south-east.
 - Near it, coppiced stools and cut stumps, and turf grazed short in the clearings.
 
 Farther off, seen only as smoke:
@@ -39,7 +39,7 @@ None is in view from the landing. What every god knows of it: it is simple, and 
 
 ## The land that is known, and the land only rumored
 
-Known by sight: the forest it stands in, as far as it can see. Reported by its own sight: the worn way, and the smoke to the south-east. Rumored: nothing yet. The file is `campaigns/sim-03/player/map-knowledge.json`, and the map is drawn from it on request.
+Known by sight: the forest it stands in, as far as it can see. Reported by its own sight: the worn way under its feet, and the smoke to the south-east. Rumored: nothing yet. The file is `campaigns/sim-03/player/map-knowledge.json`, and the map is drawn from it on request.
 
 ## What the people call the world, and the light above it
 

@@ -91,11 +91,11 @@ Their home country, in the map tool's words (`tools/map.py describe sim-03 --reg
 Measured from the traced map at the pace table's rates. Grades: seen (their own people have been there), reported, rumored.
 - Stillgate [f09]: seen. the seat.
 - The Folds [r05]: seen. the middle folds; the outer ones by their own hunters.
-- Underfold [f10]: seen. about 5 miles south-east, about 1 day through forest at 10 miles a day.
-- Lowstair [f11]: seen. about 6 miles south-west, about 1 day through forest at 10 miles a day.
+- Underfold [f10]: seen. about 5 miles south-east in a straight line, about 1 day over forest at 10 miles a day.
+- Lowstair [f11]: seen. about 6 miles south-west in a straight line, about 1 day over forest at 10 miles a day.
 - The Old Stair [f52]: seen. above the seat.
-- Hollow Seat [f51]: seen. about 20 miles north-east, about 2 days through forest at 10 miles a day.
-- Door Under Root [f50]: reported. by a few who do not speak of it; about 60 miles north-east, about 6 days through forest at 10 miles a day.
+- Hollow Seat [f51]: seen. about 20 miles north-east in a straight line, about 2 days over forest at 10 miles a day.
+- Door Under Root [f50]: reported. by a few who do not speak of it; about 60 miles north-east in a straight line, about 6 days over forest at 10 miles a day.
 - The Western Teeth [r01]: reported. seen from the upper folds.
 - The Deepwood [r06]: rumored. more forest to the south, lower.
 - Hartwall [f08]: rumored. a walled town with hounds.

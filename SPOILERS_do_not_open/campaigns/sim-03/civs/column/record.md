@@ -94,14 +94,14 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - The Scree Marches [r03]: seen. their whole circuit.
 - Thaw Saddle [f19]: seen. the camp.
 - The Cairn Way [f20]: seen.
-- Greybay Hold [f21]: seen. about 190 miles south-west, about 24 days on mountain ground at 8 miles a day.
-- Kettle Hold [f22]: seen. about 125 miles south, about 16 days on mountain ground at 8 miles a day.
-- Lee Hold [f23]: seen. about 160 miles south-east, about 20 days on mountain ground at 8 miles a day.
-- Farcellar [f24]: seen. about 260 miles south-east, about 33 days on mountain ground at 8 miles a day.
-- Three-Age Fort [f48]: seen. about 55 miles south-east, about 7 days on mountain ground at 8 miles a day.
-- The Shut Pass [f47]: seen. about 140 miles west, about 17 days on mountain ground at 8 miles a day.
-- Graithdeep [f46]: reported. seen from outside only; about 195 miles east, about 24 days on mountain ground at 8 miles a day.
-- Kite Pass [f17]: seen. about 275 miles south-west, about 34 days on mountain ground at 8 miles a day.
+- Greybay Hold [f21]: seen. about 190 miles south-west in a straight line, about 24 days over mountain ground at 8 miles a day.
+- Kettle Hold [f22]: seen. about 125 miles south in a straight line, about 16 days over mountain ground at 8 miles a day.
+- Lee Hold [f23]: seen. about 160 miles south-east in a straight line, about 20 days over mountain ground at 8 miles a day.
+- Farcellar [f24]: seen. about 260 miles south-east in a straight line, about 33 days over mountain ground at 8 miles a day.
+- Three-Age Fort [f48]: seen. about 55 miles south-east in a straight line, about 7 days over mountain ground at 8 miles a day.
+- The Shut Pass [f47]: seen. about 140 miles west in a straight line, about 17 days over mountain ground at 8 miles a day.
+- Graithdeep [f46]: reported. seen from outside only; about 195 miles east in a straight line, about 24 days over mountain ground at 8 miles a day.
+- Kite Pass [f17]: seen. about 275 miles south-west in a straight line, about 34 days over mountain ground at 8 miles a day.
 - The Pale Steppe [r11]: reported. from the foot of the Cairn Way [f20].
 - The Pale Road [f26]: reported. from the Lowlamp.
 - Lampford [f25]: rumored. where the road people winter.

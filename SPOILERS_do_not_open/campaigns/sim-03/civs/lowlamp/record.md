@@ -95,14 +95,14 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - The Pallow [f06]: seen.
 - The Trough Station [f27]: seen. at the ford.
 - The Rattlereed [r12]: reported. its edges seen; within, by the Sallow.
-- Nightstake [f45]: reported. about 175 miles south-west, about 29 days through marsh with a guide at 6 miles a day.
+- Nightstake [f45]: reported. about 175 miles south-west in a straight line, about 28 days by the ground the line crosses (about 165 miles of marsh with a guide at 6 a day, about 10 miles of rough ground at 14 a day).
 - The Far Grass [r13]: seen. by the trains.
 - The Cairn Way [f20]: seen. its foot.
 - The Scree Marches [r03]: reported. by the Column.
-- Stakewater [f28]: reported. about 395 miles south-west, about 28 days on foot over rough ground at 14 miles a day.
+- Stakewater [f28]: reported. about 395 miles south-west in a straight line, about 58 days by the ground the line crosses (about 310 miles of marsh with a guide at 6 a day, about 85 miles of rough ground at 14 a day).
 - The Shore Hills [r20]: reported. by the trains.
 - Averley [f39]: rumored. a walled city in the south.
-- Seven Wells [f68]: seen. a dry halt on the road; about 280 miles south, about 20 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
+- Seven Wells [f68]: seen. a dry halt on the road; about 280 miles south in a straight line, about 295 miles by The Pale Road [f26], about 15 days at 20 miles a day. Added on Night 3b from the deep history.
 
 ## Named mortals
 None yet. Office-holders are unnamed until play names them.

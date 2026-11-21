@@ -71,16 +71,16 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - Brennhal [f12]: seen. their town.
 - The High Table [r04]: seen.
 - The Brenn [f02]: seen.
-- Larchstead [f13]: seen. about 10 miles north-east, about 1 day on foot over rough ground at 14 miles a day.
-- Oatsteps [f14]: seen. about 9 miles south-west, about 1 day on foot over rough ground at 14 miles a day.
-- The King's Stair [f54]: seen. about 10 miles north-west, about 1 day on foot over rough ground at 14 miles a day.
-- The Table Gap [f15]: seen. about 145 miles south, about 10 days on foot over rough ground at 14 miles a day.
-- Bell Pass [f16]: seen. about 125 miles north, about 9 days on foot over rough ground at 14 miles a day.
-- Kite Pass [f17]: seen. about 270 miles east, about 19 days on foot over rough ground at 14 miles a day.
-- Smoke Pass [f18]: seen. about 285 miles west, about 21 days on foot over rough ground at 14 miles a day.
+- Larchstead [f13]: seen. about 10 miles north-east in a straight line, about 1 day over rough ground at 14 miles a day.
+- Oatsteps [f14]: seen. about 9 miles south-west in a straight line, about 1 day over rough ground at 14 miles a day.
+- The King's Stair [f54]: seen. about 10 miles north-west in a straight line, about 1 day over rough ground at 14 miles a day.
+- The Table Gap [f15]: seen. about 145 miles south in a straight line, about 10 days over rough ground at 14 miles a day.
+- Bell Pass [f16]: seen. about 125 miles north in a straight line, about 9 days over rough ground at 14 miles a day.
+- Kite Pass [f17]: seen. about 270 miles east in a straight line, about 19 days over rough ground at 14 miles a day.
+- Smoke Pass [f18]: seen. about 285 miles west in a straight line, about 21 days over rough ground at 14 miles a day.
 - The Gap Vale [r10]: seen. below the gap.
 - The North Heath [r08]: reported. by the Hethren.
-- Hethmoot [f43]: reported. about 200 miles south, about 14 days on foot over rough ground at 14 miles a day.
+- Hethmoot [f43]: reported. about 200 miles south in a straight line, about 14 days over rough ground at 14 miles a day.
 - The Mast Vale [r07]: reported. from Smoke Pass [f18].
 - Hartwall [f08]: rumored. a walled town at a wood's edge.
 - The Scree Marches [r03]: reported. by the Column.

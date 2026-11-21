@@ -473,7 +473,7 @@ The damp at Farcellar [f24] comes up an old drain of the first builders, which c
 Farcellar [f24].
 
 ### Cost if ignored
-In the late thaw of Year 3 (C07) the cellars flood to the knee and the hold's whole store spoils: a quarter of the Column's winter grain.
+In the late thaw of Year 3 (C07) the cellars flood to the knee and the hold is fouled for that winter. By the Column's agreed weakness, Few Holds (ledger L-0032), a flooded hold is a lost hold while the ring has four: a third of the winter's grain and a third of its shelter.
 
 ### Clock or trigger
 C07, the late thaw in the Scree Marches [r03], Year 3.
@@ -515,7 +515,7 @@ Location: The Coppice Track [f36], the first few miles from the unnamed town [f3
 What is shown: SEEN. The two new holes and three old ones lie on one line running toward Swallet Mouth [f37]. Each is beside a clamp floor.
 Readings: the charcoal burners' digging; a stream that has moved under the rock; old workings underneath.
 #### Cut stone in the fall
-Location: the newer of the two sinkholes
+Location: The Coppice Track [f36], at the newer of the two sinkholes beside it, near the unnamed town [f35] in The Holed Wood [r18]
 What is shown: SEEN by anyone who climbs down. Among the fallen rock, a squared niche and old bone.
 Readings: a grave; a cellar of some older house; a quarry.
 #### What the last buyer said

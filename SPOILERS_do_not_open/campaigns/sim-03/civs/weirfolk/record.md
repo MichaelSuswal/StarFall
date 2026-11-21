@@ -106,15 +106,15 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - The Toll Stone [f29]: seen. at the crossing.
 - The Aver [f05]: seen.
 - The Meadow Road [f32]: seen.
-- Nettlebridge [f41]: seen. about 245 miles south, about 18 days on foot over rough ground at 14 miles a day.
-- Averley [f39]: seen. about 275 miles south-west, about 20 days on foot over rough ground at 14 miles a day.
-- Tallyford [f30]: seen. about 490 miles south-west, about 24 days by the Meadow Road [f32] at 20 miles a day.
+- Nettlebridge [f41]: seen. about 245 miles south in a straight line, about 18 days over rough ground at 14 miles a day.
+- Averley [f39]: seen. about 275 miles south-west in a straight line, about 20 days over rough ground at 14 miles a day.
+- Tallyford [f30]: seen. about 490 miles south-west in a straight line, about 530 miles by The Meadow Road [f32], about 27 days at 20 miles a day.
 - The Rattlereed [r12]: reported. its lower edge seen; within, by the Sallow.
 - Nightstake [f45]: rumored. a stilt town in the reeds.
-- Lampford [f25]: reported. about 395 miles north-east, about 28 days on foot over rough ground at 14 miles a day.
+- Lampford [f25]: reported. about 395 miles north-east in a straight line, about 58 days by the ground the line crosses (about 310 miles of marsh with a guide at 6 a day, about 85 miles of rough ground at 14 a day).
 - The Pale Road [f26]: reported. by the Lowlamp.
 - The South Heath [r22]: reported. by herders who come down to the crossing.
-- The Bare Reach [f59]: seen. bad grazing where the Aver [f05] leaves the Sarn [f03]; about 50 miles north-east, about 4 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
+- The Bare Reach [f59]: seen. bad grazing where the Aver [f05] leaves the Sarn [f03]; about 50 miles north-east in a straight line, about 4 days over rough ground at 14 miles a day. Added on Night 3b from the deep history.
 
 ## Named mortals
 None yet. Office-holders are unnamed until play names them.
