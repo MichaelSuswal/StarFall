@@ -108,7 +108,7 @@ Limits settled at creation:
 - It rules no mind and tells the god nothing but the one image or mood. The reading is the god's.
 - Other gods, and ground worked by more than ordinary craft: unruled until it happens.
 - Intent, the player's first wording: "that my steward can, once a season, speak to me through the ground I have tended, as a spoken question to me, not a reply I hear. It would be a one-way message from her to my ground, heard when I next listen."
-- Settled at creation. Ledger: pending, Night 3.
+- Settled at creation. Ledger: L-0029.
 Rulings: none yet.
 Trades: The defaults the player turned down on Day 3 (no court, no priests, no command over the council, few helpers) were counted toward the price.
 Growth: Possible. Not shown.
@@ -132,6 +132,6 @@ Set by the world. Not shown.
 
 ## Dated entries
 - 2026-11-20, Day 2: card written and frozen at the close of creation Day 2.
-- 2026-11-20, Day 3: power block "The steward's pressing" added, marked "added Day 3". Agreed at the Day 3 read-back. Settled at creation. Ledger: pending, Night 3.
-- 2026-11-20, Day 3: confirmed, on the player's question, that tended ground and tended lines are made only by the god's own bare hands and feet. Helpers and other mortals can do the ordinary work that keeps soil alive; they cannot make tended ground, extend it or mend a broken line. A confirmation of the Day 2 definitions (L-0001, L-0002), narrowing nothing. Settled at creation. Ledger: pending, Night 3.
+- 2026-11-20, Day 3: power block "The steward's pressing" added, marked "added Day 3". Agreed at the Day 3 read-back. Settled at creation. Ledger: L-0030.
+- 2026-11-20, Day 3: confirmed, on the player's question, that tended ground and tended lines are made only by the god's own bare hands and feet. Helpers and other mortals can do the ordinary work that keeps soil alive; they cannot make tended ground, extend it or mend a broken line. A confirmation of the Day 2 definitions (L-0001, L-0002), narrowing nothing. Settled at creation. Ledger: L-0031.
 - 2026-11-20, Day 3: the people's manners about salt and fire used against land change nothing in the weakness. No exemption and no protection follows from them.

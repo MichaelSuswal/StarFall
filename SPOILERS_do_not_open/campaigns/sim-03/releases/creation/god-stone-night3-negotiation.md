@@ -24,3 +24,26 @@ Accept, refuse or counter each item, and give your reasons. Accepting is a choic
 Write your reply as "## Round 1 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-stone/negotiation-night3.md,
 and to no other file. You may read your own folder SPOILERS_do_not_open/campaigns/sim-03/gods/god-stone/ and this file. Then stop.
+
+## Round 2
+
+### Your reasons, answered
+- The ring of holds: accepted by you as said. Your clarification is granted in the Keeper's words: a hold may be added in play by the Column's own labor at the pace table's rates for cutting rock, and that changes the ring. It does not lighten the weakness: see the last line of Few Holds.
+- Pass Craft: you took (B), and gave your reason (the people who do not fall). Both clarifications are granted as asked and written in.
+- Few Holds: accepted as written. Your clarification is granted as asked.
+
+### Final text
+
+**The ring of holds.** The Column has no town. It has a ring of winter holds, three or four at the start, and stops only in winter. Uncharged. Practical costs, applied in play: no market others come to; no wall the whole people can stand behind; work that wants a fixed hearth the year round (charcoal, smelting, casting, seasoned timber) is done only at the holds and only by the households who stay; when the god is away from the Column its word reaches the Column only at a halt, from an officer who is there. A hold may be added in play by the Column's own labor, at the pace table's rates for cutting rock.
+
+**Edge: Pass Craft.** On mountain ground (pass, scree, rotten snow, high ridge), the whole Column on the move, with its old, its young, its beasts and its stores, travels at two thirds of the foot rate where another whole people travels at half, and what it loses to the mountain in a crossing (people and beasts, to fall, cold, slide and rotten snow) is half what another host of the same size and kind would lose making the same crossing in the same season. It holds only on mountain ground, only for the Column moving in its march order with its Pass Wardens ahead (one office, its people spread along the front of the Column), and only on ways that carry its cairn signs or that the Pass Wardens have read within the season, meaning the thaw or the freeze in which the crossing is made. It adds nothing in a fight, on low ground, on a plain or in forest. A band of the Column without Pass Wardens moves as any band does.
+Measurable line: mountain ground, whole people, pace multiplier 0.67 in place of 0.5; crossing losses halved.
+
+**Weakness: Few Holds.** All of the Column's winter grain and winter shelter are in its rock holds, fixed, and known to anyone who has followed the Column for one round of the circuit. The Column cannot winter anywhere else: a winter caught outside the holds costs it one person in ten and one beast in four. The loss of one hold (taken, flooded, burned or fouled) takes a third of the winter's grain and a third of its shelter. In the open season each hold is kept by no more than twenty households and no band. In the cold months a fifth of those who bear arms sit at the holds and march nowhere; the Marshal divides that fifth among the holds and may move it between them without changing the number. If the ring grows past four holds, the loss of one hold takes a quarter, and never less.
+What it bought: Pass Craft at the measure above. The town turned down was counted in your favor.
+
+Confirm that this is what you meant, or say what is wrong with it. This round is for wording only: a change of substance asked now is logged and the text above stands.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-03/gods/god-stone/negotiation-night3.md,
+and to no other file. Then stop.

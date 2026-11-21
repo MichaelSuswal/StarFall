@@ -199,3 +199,61 @@ Date: 2026-11-20, Night 2. Year 0. Cards: every card. Matter: what "one item" is
 Arguments: one god asked that it be one line and not a file or a section, so that it can count what it stands to lose.
 Ruling: one item is one entry as written: one numbered or bulleted line, or one entry under its own heading.
 Binds: every card, with L-0008.
+
+## Night 3a: the player's Day 3 table rulings
+
+### L-0029
+Date: 2026-11-20, Day 3, entered Night 3a. Year 0. God: the player's god. Matter: the steward's pressing, a power added Day 3, and the steward's half of its price.
+Arguments: the DM priced a mortal doing what only the god does on the god: once a season one image or mood pressed into tended ground, heard by the ground-ear; the god pays a day of speech more at the hearing; the steward pays "a day of her own speech each time", set by shape and left to the Keeper to fit to the world. The player accepted and asked that it be her choice always.
+Ruling: stands as the card has it. The steward's half is fitted and unchanged: mortal working here costs the worker in the body and the self, noticed late, and a day of her own speech is a price of that kind and size. Always her choice; hers alone; asleep until she knows who it is for.
+Binds: the player's card.
+
+### L-0030
+Date: 2026-11-20, Day 3, entered Night 3a. Year 0. God: the player's god. Matter: the spoken question refused, and the block added.
+Arguments: the player asked that its steward could, once a season, speak a question into tended ground. The DM refused it because the ground-ear hears "no words, faces or names", a limit agreed on Day 2 (card, the ground-ear), and priced the smaller shape of L-0029. The player did not argue the limit.
+Ruling: a Day 3 edge may not undo a limit agreed on Day 2. The request is settled against the god in part: no words, an image or a mood. The power block is added to the card dated Day 3.
+Binds: the player's card.
+
+### L-0031
+Date: 2026-11-20, Day 3, entered Night 3a. Year 0. God: the player's god. Matter: whether helpers can tend.
+Arguments: the player asked whether its helpers can do tending that counts for its powers, expecting not.
+Ruling: confirmed. Tended ground and tended lines are made only by the god's own bare hands and feet (L-0001, L-0002). Helpers and other mortals can do the ordinary work that keeps soil alive; they cannot make tended ground, extend it or mend a broken line. Narrows nothing.
+Binds: the player's card.
+
+## Night 3a: the NPC peoples
+
+### L-0032
+Date: 2026-11-20, Night 3a. Year 0. God: god-stone. Matter: Pass Craft, its measure.
+Arguments: the god asked that its whole people cross a pass in the thaw twice as fast as any other host, with a tenth of the losses, and said it expected a trim. The Keeper: both at once make the mountain no mountain for five thousand; one measure or the other.
+Ruling: its choice, two thirds of the foot rate for the whole people on mountain ground and crossing losses halved against a like host in the same season. Paid by Few Holds with three teeth written. A hold added in play does not lighten the weakness below a quarter.
+Binds: the Column's record.
+
+### L-0033
+Date: 2026-11-20, Night 3a. Year 0. God: god-trade. Matter: the split tally: whether a stranger must honor it; what the bench may do with a stranger's half.
+Arguments: the god asked that a stick be honored by a stranger who knows the custom. The Keeper: no edge rules another people's mind; the edge is that its people pay and the standing that buys. The god took the wider reach at the heavier chain and asked that the bench "set the terms" on a half called by a stranger.
+Ruling: honored at the start by prior trading partners, and after one stick met in full by any other; it compels no one. A half-stick is good in any hand; the bench may refuse a false half and may set only the day of payment for a true one, within a season. Forgiveness in the open ends a debt.
+Binds: the record of god-trade's people.
+
+### L-0034
+Date: 2026-11-20, Night 3a. Year 0. God: god-dreams. Matter: the Day Sleepers: the day added to breaking camp.
+Arguments: the god argued the day charges twice what the world already charges a large moving people. The Keeper: its people are the usual number and are charged nothing for size; the clause is the cost of the shifts, which the god itself offered without a number.
+Ruling: half a day, with the reason written.
+Binds: the Lowlamp's record.
+
+### L-0035
+Date: 2026-11-20, Night 3a. Year 0. God: god-dreams. Matter: a sign left by the holder of one office, asked as a power.
+Arguments: the god asked that its Chief Keeper of the Lamp may, once a season, "by a power of mine", leave a coin on a stone meaning "come". The Keeper: as written a mortal lays a coin and the god finds it, which nothing only a god can do; no power and no price. To know at a distance is a mortal reaching the god by a power of its own, priced on the god inside its card's limits.
+Ruling: the plain sign is custom and free. The Coin on the Stone is added to the god's card: once a season, within Night Tally's reach, one day of sleep owed per call, the holder paying a night's sleep; it enters no dream, makes no mark, carries no bargain.
+Binds: god-dreams' card.
+
+### L-0036
+Date: 2026-11-20, Night 3a. Year 0. God: god-secrets. Matter: closed mouths under force, and the price of the longer silence.
+Arguments: the god asked that a captive say nothing under fear or kindness. The Keeper: for every mouth, for good, that is a rule over minds; trimmed to time, the longer time at a heavier weakness. The god took the year and a day and argued the heavier weakness charged one habit three times.
+Ruling: a year and a day from the taking. "Or not at all" dropped; the bargain step kept only for bargains struck away from their own country.
+Binds: the record of god-secrets' people.
+
+### L-0037
+Date: 2026-11-20, Night 3a. Year 0. Cards and records: every people. Matter: what an edge of a people may be.
+Arguments: `day3-the-people.md` item 5 and the Day 3 table (L-0030). Three gods asked edges that reached past their own people.
+Ruling: an edge is what a people does and is known for. It never rules what another people or a captor must do, and it is written with one measurable line. A mortal doing what only the god does is a power on the god's card and may not undo a limit already agreed. A default turned down is not charged and counts in the god's favor when its edge is priced; its practical cost is stated.
+Binds: every people's record and every card. The player's Day 3 pricing sits inside it and is unchanged.
