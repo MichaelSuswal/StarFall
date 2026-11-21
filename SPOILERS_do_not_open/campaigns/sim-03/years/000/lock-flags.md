@@ -150,3 +150,13 @@ The eight phrases and the reason each would carry, ready for that file:
 - "five worker-days by hand, at a god": the same work rate, in the card and the Day 2 transcript.
 - "Two things about this god": two visible traits of one god, listed in the same sentence.
 - "Three days of the god": the same work rate, in the DM's note to the Keeper.
+
+# Lock flags: sim-03, round 3
+
+Run by the continuity checker, 2026-11-21, 01:06 Pacific, against commit 236f5da. The only change since round 2 is two lines added to `S/state/test-overrides.md`. The scripts were rerun: places, mysteries, rolls and dashes 0; leaks 8, unchanged.
+
+Result: 1 flag open (flag 7). The lock does not pass. No public `lock.md` and no `LOCKED.md` are written.
+
+Flag 7. The new paragraph in `S/state/test-overrides.md` records a run-only go for the allow file. Its own words say it was "Recorded here by the orchestrator", and its commit (236f5da) was made by the orchestrator's session, not by Michael. It is the same relayed ruling as in round 2, written into a file rather than a message: the record of an agent, not Michael's own go. The checker therefore still has not written `S/leak-allow.txt`. The file is also the place for forced lean results (DESIGN 3.8, runbook standing rules), which Michael creates before Night 1; a ruling entered there by an agent mid-run sits outside that purpose.
+
+What clears it: Michael's go given to this session directly, or a commit in Michael's own hand (the allow file itself, or a line in `engine/roles/checker.md` or runbook section 4). The eight phrases and their reasons are in round 2 above, ready. Every other line of the checklist is yes.
