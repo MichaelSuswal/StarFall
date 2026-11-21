@@ -9,4 +9,5 @@ Models: DM fable, Keeper fable, NPC gods sonnet, stand-in player sonnet, checker
 | Day 2 | 22:12 | 22:20 |
 | Night 2 | 22:20 | 22:47 |
 | Day 3 | 22:47 | 22:55 |
-| Night 3a | 22:55 | |
+| Night 3a | 22:55 (stopped 23:07 to 23:38 on the Fable usage limit) | 23:54 |
+| Night 3b | 23:55 | |
