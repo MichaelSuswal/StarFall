@@ -1,6 +1,8 @@
 name: paint
 on:
   push:
+    # Held requests wait in images/held/, outside these paths, so writing one starts no job;
+    # tools/paint.py never paints a request under a held folder.
     paths: ["images/requests/**", "SPOILERS_do_not_open/images/requests/**"]
   workflow_dispatch:
 permissions:
