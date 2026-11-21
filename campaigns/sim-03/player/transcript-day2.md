@@ -78,3 +78,23 @@ Drawback, pick one:
 **Your question.** Yes, and the answer is the definition above. Staying put and tending makes tended ground, and both powers run only on it, so ground you have kept for years is more yours than other ground in a way the card recognizes. Tending is work, and work produces what the time spent on it produces. Beyond what the card defines I have nothing to tell you today.
 
 Helpers stay for tomorrow, with your lean toward few and chosen noted.
+
+## Player:
+
+I accept the trims. Most of them are fairer than what I asked for. I'll answer your two questions first, then the pricing.
+
+**When my body is broken.** I don't know the rule, so I'll tell you what I'd want and you can correct it. I'd like a broken body to be slow to die and slow to mend. I'd rather be held, buried, or left in a hole than be gone, and I want to come back in whatever soil is nearest, no faster than the season allows. I understand the cost: while I'm hurt, I'm a hole in my own standing conduct. If that is the rule, I accept it. If it is harsher, tell me, and I'll plan around it.
+
+**What I want and wouldn't say aloud.** I want to be known by someone who isn't afraid of me and isn't using me. I lost a place where I was never alone, and part of what I'm doing here is looking for that again in a smaller shape. I'm afraid I'll do it by absorbing mortals instead of knowing them. I'm afraid the quiet, patient version of me is only a nicer way of taking. I want to find out whether what I lost is down in the old layers, and I'd rather not say that to anyone who might try to sell it to me.
+
+**Ask 1, the ground-ear.** I take it as priced, with drawback B, the listening spends my speech. I'd rather lose a day of conversation than risk a season of sickness I can't foresee. One question about it: if I choose to listen for only the minimum hour, is the day of lost speech still a day, or does it scale? You wrote "never less than a day," so I read that as a floor. Please confirm.
+
+**Ask 2, the slow word.** I take it as priced, with drawback A, you send what you have. Being without calm for a few days is a cost I can plan for, and it makes me choose what I send. I won't take B, because being rooted would pin me to one place, and I don't think a god who wants to walk should be nailed down by his own gift.
+
+**The weakness trade.** I'll take it. Fire and salt wounds that don't close until I've lain a season in living soil, three days on dead ground and I'm done, and a mortal who learns it can hold a threshold against me with a line of salt or fire. I'm fine with that last one. A god whose weakness is common knowledge among the right people is more interesting to play, and I'd rather earn trust than hide a handle.
+
+What I'm buying with it: the slow word reaching a plot I've only touched once, not tended. Two words at once is tempting, but tending an acre takes three days, and I'll never have enough tended plots to reach. I'd rather be able to send to a grave or a garden I only brushed past. Please write it so that "touched" means bare hands on the soil of that plot, as it did for the ground-ear.
+
+**One line I'm arguing.** You wrote that the ground-ear hears nothing under stone or in dead ground. I accept that. But please confirm that a tended line crossing a sinkhole, cave floor, or leaf litter over rock still carries, as long as there's living soil on the surface. Limestone country is what I asked for, and I don't want the power to fail at the first hole in the ground.
+
+That's all I have for today. I'm ready for helpers tomorrow.
