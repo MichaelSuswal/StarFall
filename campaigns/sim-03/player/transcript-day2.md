@@ -136,3 +136,21 @@ Two hidden powers exist. That is all the card says of them.
 Conduct. The three wants and the six refusals, in your words. The unsaid part goes in the conduct profile, not on the card.
 
 If all of that is right, say yes and tell me what you carry, and the day closes. If any line is wrong, name it.
+
+## Player:
+
+Yes. I've checked the terms you flagged and they're right.
+
+- **Touched plot with no line:** I send from tended ground, and the word takes ten days to a month to come up. That's fair for the reach.
+- **Weakness terms:** A town with gardens and weeds counts as living ground, frozen ground is asleep and not dead, and a closed ring of salt or fire keeps me in as well as out. I accept all of it. The ring that keeps me in is a good detail.
+- **Power 3, the slow return:** Yes, with the drawback I named. Each return from nothing leaves behind a memory or a habit, and I'm not told which. I'd like that to stay unspecified, so I find out by noticing a gap.
+- **Hidden powers:** Fine. I'd rather not know.
+- **Conduct:** The three wants and six refusals are right. Keeping the unsaid part in the conduct profile and out of the card is the right place for it.
+
+**What I carry.** I come down barefoot, since shoes would block my own powers. I wear undyed linen, a loose shirt and trousers, worn soft, that have already been washed many times. Over one shoulder I carry a plain cloth bag holding:
+
+- a few handfuls of mixed seed, sorted into twists of cloth, the kinds that breed true. I don't know yet whether they'll grow here.
+- a small sealed clay crock of living starter, a culture I keep fed with whatever I have. It's something to tend on the way down.
+- a short knife with a bone handle, for cutting cord and roots, not for fighting.
+
+I'd like those to be ordinary things with no power attached. If the seed doesn't take in the soil I land on, that is a problem for me to solve in play. Day 2 can close.
