@@ -42,3 +42,46 @@ Hear Out. A mortal who speaks to my face, awake, and puts a bargain to me in one
 If the Keeper judges Hear Out too thin to buy a whole step, I ask for the price to be said plainly, and I will adjust the candle mark, or the number of offers a night it can hold me to, before I take less. If the Keeper refuses both steps at once, I take the reach alone and keep Hear Out as plain color, buying nothing.
 
 The sealed dark stays as color, at no price. I agree.
+
+## Round 2 reply
+
+I confirm the final text, with wording corrections only. No change of substance is asked.
+
+### One correction of wording: the Form section contradicts the Return power
+Under "When your body is broken" the card still reads that I come back "by dusk of the next night, in the dark place nearest a sleeping mortal who bears its mark." That is my round 1 ask, which was refused, and it now disagrees with Return by Dusk as agreed: a full season, at the nearest ground of my own kind, no sleeper or mark needed, one item lost each time. I ask that the passage be replaced by one line that points to the power: "When the body is broken, see Return by Dusk. It carries a cost and a trigger, so it is written as a power." A card that says two different things about the one thing I cannot do without is a card a clever mortal reads against me, and I read it that way myself.
+
+### Wording clarifications, in the write-up and not new powers
+1. Heavy Sleep: "A second use in the same night takes two." I read this as the second use taking two habits, so two uses in a night cost three habits in all. I ask that the line say so in those words, and that it say what a third use in a night takes, since the power is "as often as you will pay" and a price with a gap in it is a loophole I would rather the Keeper closed than I found. I do not ask for the third use to be cheap. I ask for the number.
+2. Night Tally: the Description opens "Once in a night" and then allows two sleepers. I read it as one night, one or two dreams, each owing its own day, which is what the Limits line says ("two dreams a night at most, each owing its day"). I ask that the Description say "in a night" and not "once in a night", so that the two lines agree.
+3. Return by Dusk: the card says "A marked mortal nearby may see a child step out of the dark." I ask that "marked" be struck, so that anyone nearby may see it. I do not want a power that hides my return from mortals who do not owe me anything, because that would be a power I did not buy.
+
+### Night Tally
+Confirm. Choice (A), five days, debts add, the fifth day cannot be put off and I take it where I stand. I agree that a longer rope must not be used to pile up nights. A day for each sleeper's dream is what I offered myself.
+
+### Heavy Sleep
+Confirm, subject to the clarification above. I asked for the number and the Keeper gave it. I thank it and take it.
+
+### Night Eyes
+Confirm as written.
+
+### Return by Dusk
+Confirm, choice (A), subject to the Form correction above. I accept the Keeper's reason for the walk: a return must not carry a god further or faster than its own legs would. Where the nearest dark place is close, nothing is added, and the Keeper tells me it nearly always will be. That is a fair answer, and I withdraw the question.
+
+### Held to Its Word
+Confirm, bought step: the reach of a day and a half.
+
+### Hear Out
+Confirm, bought step: a second sleeper in one night. I accept both changes. Holding my feet as well as my attention is a real line against me, and one offer after another, each from a different mortal, is a line a night long. I said myself that a weakness has to be one I would notice, and I notice this one. The rule that the same mortal cannot hold me twice between one dusk and the next is fair, and I would have asked for it if it had not been written. The price of the step is said plainly and I take it.
+
+### Kept as color
+Confirm: the sealed dark, no price, buying nothing.
+
+### The Keeper trait
+I ask only for wording. I did not ask for it and I did not buy it, and a thing I did not buy is a thing I read twice. As written, "Mortals who sleep near you sleep better than they ever have, and grow fond of you for it, for no reason you can price", I accept it as a fact of my body. I ask for three clarifications in the write-up:
+1. "Near" be said: in the same room, tent or wagon, or within the light of one fire. I do not want it to reach a whole camp, or a whole people, by a loose reading.
+2. The fondness is not a mark, is not a yes, and is not a bargain, and it does not bring a mortal under Heavy Sleep or Night Tally. A mortal who is fond of me has not said yes aloud to anything, and I will not treat it as though they had.
+3. The fondness is a feeling the mortal has, not a compulsion. A mortal who is fond of me can still refuse, argue and leave, and I can still be haggled with.
+
+I do not know the reason for it. I will notice it, and I will not trust it.
+
+Final text stands with the corrections above. I have nothing further to ask.

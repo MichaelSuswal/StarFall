@@ -30,3 +30,28 @@ Wording I ask for, in the write-up and not a new power: that crushed or burned p
 Accept, as drafted. It buys a season of keeping on six ears under (A).
 Why: the Keeper has seen what I do not already pay and what I do. My hide closes slowly already, and I ask nothing for that. The silence is the real price, and I know what it is: a run of days in which I say nothing aloud to any mortal. It also ends a use of The Asked Question while the wound is open, since I must speak to ask. I accept that, and I do not ask it be written away. A wounded tyrant who cannot speak to her own court is seen to be so. Is that not the point of a weakness?
 Closed rooms stay as colour, buying nothing, as the Keeper said.
+
+## Round 2 reply
+
+I confirm the final text as written, with three small wordings asked at the end. I have read it against what I said in round 1 and found it true to what was agreed. Where a thing was granted, it is written as granted. Where a thing was refused, I accepted the refusal and it is not smuggled back.
+
+### The Asked Question
+Confirmed, as the final text, not the first draft (A). Sealed, never twice on the same mortal, once in a month, and the mortal knows afterward that they answered me and that something of theirs is gone.
+Why: the Keeper's argument is the one I made myself. I offered the seal or the long wait, and I was stacked with both. The counter gives me the month I asked for and takes in place of the refused part a price that falls on the mortal's knowing, not on my own record. Would I sooner keep the asking secret? It is a fair question, and I am a keeper of secrets. But I rule by fear, and a mortal who knows that something of theirs went when they answered me carries that knowledge into every house they enter. Is that not the rumour I said I wanted to be? I keep the monthly asking and I accept that it is no longer secret.
+
+### The Small Ears
+Confirmed. Six out, a season's keeping, the bare patch the size of the ear, one roll for each ear at each rejoining, exactly one thing wrong where it falls. The limits are the ones I would have written myself.
+
+### The Slow Return
+Confirmed, choice (A). Both of the wordings I asked are in. The sealed vault is held, not broken, and I do not ask for it again.
+
+### The Slow Wound
+Confirmed, with asking The Asked Question written in as breaking the silence. I said it first, and I would sooner have it written than found.
+
+### Keeper trait
+Confirmed: small children and beasts are not afraid of me. Is it not the sort of thing a being who does not notice them would have? I would not have chosen it, and I do not need to.
+
+### Wording asked, not substance
+1. "Once in a month" in The Asked Question: a run of days counted from the last use, not a turn of the calendar.
+2. "Beasts" in the Keeper trait: the familiar animals of the field and the house. Creatures that are not animals are left unruled until it happens.
+3. The "Intent, your first wording" lines under each power are kept for the record only and are not the text of the card. Where they differ from the Description and the Drawback, the Description and the Drawback stand.

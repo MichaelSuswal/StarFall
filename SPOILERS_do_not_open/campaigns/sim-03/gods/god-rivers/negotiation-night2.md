@@ -36,3 +36,26 @@ The counter. Keep the measure the Keeper offers: sight or sound of running water
 What it buys: I name the reach of Bar the Ford. With it, the river rises against any crossing on the water I stand in where I have stood before, within a morning's walk (about eight miles), seen or not. I choose this and not the season of memory for Water's Ear. The seven days I can mend by speaking it or setting it down in marks. The reach I cannot mend any other way, and reach is the thing I most want.
 
 If the Keeper will not move the three days to six, I take (B), the weakness as plain color buying nothing, and keep Bar the Ford within sight. I would sooner have less reach than a shorter leash. The door I can open from the inside stays as color either way.
+
+## Round 2 reply
+
+I confirm the final text as the card, with the wording corrections below. None of them asks for a change of substance. Each is a clarification in the write-up, not a new power.
+
+### Confirmed as written
+The definitions, The Two Faces, Water's Ear (reach A, price 2, the seven days kept as how the power works), Bar the Ford with the reach bought by Dry Ground, Slip the Knot, Return by Water (a full season, one item lost each time), Dry Ground with two free days and no power by the sixth, and the door kept as color. I take the six days as granted and I take the line it leaves a mortal, as I said I would. I thank the Keeper for the reasons given. They were plain, and I can work with plain.
+
+### Wording corrections
+
+1. When your body is broken, in the Form section. It says "It returns by a season at the longest." The power below says "after a full season", and the table sells nothing faster than a month. The two lines disagree. I ask that the Form line read "It returns after a full season, as the power below says", so that no one reads the Form as a promise of less. My own first wording said "at the longest", and I would not have it stand against the card.
+
+2. Dry Ground and Water's Ear, together. Dry Ground counts "sight or sound of running water". The price of Water's Ear leaves me deaf on dry land for at least a day. I ask for one line in the write-up: the measure is whether running water is near enough to be heard, and does not depend on whether I can hear. A day of deafness beside a stream does not start the count of days. I ask this because otherwise the two cost me twice for one thing, and because I would not want a mortal to learn that the way to hold me is to make me listen first.
+
+3. Bar the Ford. The Description opens "Standing in the water", and the Limits say the water you stand in. I read it as the same: I stand in the one river or stream, and the crossing I bar, near or far, is on that same river or stream. I ask that this be said once, so that no one reads it as standing in any water and barring any other.
+
+### The Keeper trait
+I accept it. Running water going quiet around me when I am afraid is a true thing about me, and I have known it since I came down. It is the sort of tell that cowardice dressed as caution would most wish to hide, and I say so, so that it is written that I dislike it. I ask for three clarifications of wording only:
+- It is the running water within a few paces of me that goes quiet, and no more of the river.
+- It lasts while the fear lasts and ends with it. After Slip the Knot, when I am stricken for about an hour, it holds for that hour.
+- It is a sign and no power. It does not touch Water's Ear, Bar the Ford or any other power, and no mortal is ruled by it. One who knows rivers may hear it and make of it what they will.
+
+I have no further asks. I do not ask to reopen anything.
