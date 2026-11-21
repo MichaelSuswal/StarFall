@@ -19,3 +19,22 @@ Each line names the run 02 change list items it applies.
 - morning-story.md: the first morning section (50).
 - powers.md: ledger id format and placeholder, Form entries with cost are powers, Day 3 power block, weakness pricing rule (14, 20, 34).
 - appearance-card.md: the copy paragraph marked (50).
+
+## Sealed side
+
+- npc-god-rubric.md: rule lean and worship lean, from the leans by table, with a variety table for kinds of ruler; a lone god only on an extreme roll; worship calibrated so shrines or none is common and a state cult uncommon (36, decision 4).
+- npc-god-rubric.md: settlement as one result from a Making by Company table, so shape results never contradict (6).
+- npc-god-rubric.md: rounding defined, a half rounds up (6).
+- npc-god-rubric.md: Keeper trait is a new fact that presses on an existing contradiction (26).
+- npc-god-rubric.md: domain reroll for the player's stated theme (7, decision 8).
+- npc-god-rubric.md: size is not a priced edge, practical costs (37, decision 7); every NPC god starts with a people and helpers (decision 3).
+- npc-god-rubric.md: test override mechanism, `state/test-overrides.md`, applied and logged, rubric unchanged (decision 5).
+- creation-runbook.md, standing rules: full paths in every template and release (5); image count logged once, first morning painting part of creation (47); the premise in every release (decision 1); helpers by default with dismissal rule and the cost of none (decision 3); naming placeholders (43, decision 6); sealed-terms file kept from Night 1 (30, decision 10); test overrides (decision 5); DM-owned files through corrections (45); Keeper writes only the campaign timing file (11); clock to Year 1 by the Keeper after the first morning, test runs closed (50, 51).
+- creation-runbook.md, Night 1: theme reroll (7, decision 8); rule and worship leans on the sheet (36); marker with extra words read as the nearer (10); conditional cost line in the world rules template (10); star conflict step (6).
+- creation-runbook.md, Night 2: facts of being a god listed in the release (17); rule and worship lines in the release (36); body broken and "what breaks you" in the self template (13, 21); weakness edge cases (22); ledger ids `L-NNNN` and the pending placeholder replaced (14, 21); Night 2 review of the player's card and scarcity-shaped limits through corrections (16, 22); memory loss default one item per use (21); final text copied from round 1 (29); round 3 substance objections, rules binding only the arguing god unless a world rule, ledger timing (25); card copied from confirmed text, Keeper trait wording, waking season against weaknesses (26); balance before hidden powers, growth files in 3b, unwritten wording logged (31); placement roll named (31); `creation_night: 3a` (17, 31); goals open to knowledge, trade, justice and security.
+- creation-runbook.md, Night 3a: release assumes a seat, court or council and helpers, carries the leans (decisions 1, 2, 3, 36); no round for gods with no edge (37); size as practical costs (37, decision 7); non-human peoples count among godless (37); Day 3 rulings into the ledger with ids written back (34); "Heard, not promised" and origin customs (35); naming a home does not place it (33); sight rule settled before tracing (45); `map.py stamp` and `describe` (42); sealed repaint held outside the paint trigger (50).
+- creation-runbook.md, Night 3b and lock: no codex (decision 11); flags on DM files through corrections, checker's flags file skipped (45); section 4.1 first morning, final leak check, then the clock (47, 50, 51); throw's bearing and distance rolled (principle).
+- creation-runbook.md, templates: premise block 7.0; sheet with four lean lines; self, people record with Helpers; full paths in 7.4 to 7.7 (5, 17); round 3 wording only (25); mystery `Answers questions: yes|no` with `Limit:` required on yes (44); sealed-terms template 7.12 and safe titles 7.13 (30).
+- creation-runbook.md and survey-keeper-notes.md: principles from the run 02 rulings, marked "Principle from run 02", for Night 1 steps 1.2, 1.3, 1.4; Night 2 steps 2.1, 2.3, 2.4, 2.5, 2.6; Night 3 steps 3a.1, 3a.3, 3a.5, 3a.6, 3b.2, 3b.4, 3b.6, 3b.8; and the lock rounds (43).
+- survey-keeper-notes.md: which star result yields when two conflict (6); "Also said" remarks count only toward the theme reroll (7); marker with extra words (10).
+- mystery-standard.md: the `Answers questions` field read by the script (44).
