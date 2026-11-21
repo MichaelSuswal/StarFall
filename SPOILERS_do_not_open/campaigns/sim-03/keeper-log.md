@@ -65,4 +65,4 @@ Sheets written to `S/gods/<label>/sheet.md` in template 7.1 at 22:05 Pacific. Al
 ### 1.4 Each god answers the survey (releases written; agents not yet run)
 Wrote `S/releases/creation/<label>-night1.md` for all seven from template 7.4 at 22:05 Pacific: the sheet as written, the premise in the words of template 7.0, the template's instruction paragraph word for word with the answer path spelled in full, the survey's opening paragraph (which itself states the premise in the descent) and its 19 questions word for word from `engine/creation/day1-world-survey.md`, and nothing from its rules block or its DM section. Nothing of the deep lore, the star, the player or the other gods beyond the survey's own words.
 `tools/lockcheck.py sim-03 --leaks --dashes`: 0 failures, 0 warnings.
-Paused 22:07 Pacific for the seven god agents to answer (STOP A).
+Paused 22:06 Pacific for the seven god agents to answer (STOP A).
