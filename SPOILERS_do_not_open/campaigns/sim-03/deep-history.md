@@ -115,6 +115,10 @@ Story 16. Ibbet, 14 BA to now. She was born on the walk and never saw the countr
 
 - 11 BA. The queen of Averley [f39] died. Osmer, a salt-house lord, has been regent since for an heir now fourteen.
 
+Story 17. Hesta Wren, about 890 BA. A fowler's widow of the White Ribs [r19] who lit a fire beside the threshold stone of her empty house for a husband the sea kept, and bound her children to keep it lit. Her line has kept it for some forty generations and no longer knows for whom; they say it is for the one who used to come by. Trace: Evenfire Cairn [f62], the house long gone to a cairn, the threshold stone worn, the hearth alight.
+
+Story 18. Marit Low, alive now. Keeper of the drowned roll at Saltsteps [f40], as her mother's line has been for about 200 years: a list of every pan-worker and coaster the sea or the pans have taken, read aloud at midwinter by the pans. No one pays her for it. Where one of the drowned died owing, she writes the debt beside the name as paid. Trace: the roll itself, eleven skins sewn end to end.
+
 ## The carriers and the thinners
 
 The carriers. A walking people, few and human-seeming, about 140, who ask the names of things and sing them back as lists. The Keeper calls them the Canters. Peoples here call them the list-singers, where they are remembered at all. They walk between stars. They were here in 4,750 BA, 3,290 BA, 1,395 BA and 310 BA, among other times, and each time walked a round of the settled country. After 310 BA they walked north-east to the country under plane entry [p01], and stayed there about a century and a half. Near that country's end they asked its keeping-house for its names and were refused. They left about 85 years before the arrival and have been walking back. They carry a few wayside names of that country learned by ear, with a held beat sung where each great name should be. Their coming in play is in the event schedule.
