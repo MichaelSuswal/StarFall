@@ -1,0 +1,44 @@
+{
+ "campaign": "sim-03",
+ "regions": {
+  "r18": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f36": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a road or worn way",
+    "coords": [
+     [
+      273.2,
+      788.2
+     ],
+     [
+      274.8,
+      789.8
+     ]
+    ]
+   }
+  },
+  "f35": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke, south-east",
+    "coords": [
+     [
+      275,
+      790
+     ]
+    ]
+   }
+  }
+ }
+}

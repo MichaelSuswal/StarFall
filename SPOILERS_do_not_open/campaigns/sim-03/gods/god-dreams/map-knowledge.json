@@ -1,0 +1,58 @@
+{
+ "campaign": "sim-03",
+ "regions": {
+  "r11": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f27": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "old stonework",
+    "coords": [
+     [
+      906.4,
+      431.2
+     ]
+    ]
+   }
+  },
+  "f26": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a road or worn way",
+    "coords": [
+     [
+      905.2,
+      429.4
+     ],
+     [
+      905.0,
+      431.8
+     ]
+    ]
+   }
+  },
+  "f25": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke, south-west",
+    "coords": [
+     [
+      905,
+      432
+     ]
+    ]
+   }
+  }
+ }
+}

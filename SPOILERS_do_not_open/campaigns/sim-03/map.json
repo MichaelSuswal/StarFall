@@ -1,0 +1,3003 @@
+{
+ "campaign": "sim-03",
+ "painting": {
+  "size": [
+   1024,
+   1024
+  ],
+  "miles_per_pixel": 1.6,
+  "grid": {
+   "cols": 5,
+   "rows": 4
+  }
+ },
+ "regions": [
+  {
+   "id": "r01",
+   "name": "The Western Teeth",
+   "terrain": "mountain, the western third of the great range, breaking down into wooded hills",
+   "elevation": "high, 3,000 to 9,000 feet",
+   "water": "snowmelt streams running south into the forest",
+   "climate": "cold; long hard winter, short summer",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 64
+    },
+    {
+     "id": "r05",
+     "days": 30
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     0
+    ],
+    [
+     330,
+     0
+    ],
+    [
+     330,
+     235
+    ],
+    [
+     250,
+     215
+    ],
+    [
+     130,
+     195
+    ],
+    [
+     0,
+     190
+    ]
+   ],
+   "notes": "Empty high country. No people holds it."
+  },
+  {
+   "id": "r02",
+   "name": "The Snowhead",
+   "terrain": "mountain, the middle and highest part of the great range",
+   "elevation": "high, 5,000 to 12,000 feet",
+   "water": "snowfields and ice; meltwater south into the basin",
+   "climate": "very cold; snow most of the year on the heights",
+   "neighbors": [
+    {
+     "id": "r01",
+     "days": 64
+    },
+    {
+     "id": "r03",
+     "days": 70
+    },
+    {
+     "id": "r04",
+     "days": 32
+    },
+    {
+     "id": "r07",
+     "days": 40
+    }
+   ],
+   "polygon": [
+    [
+     330,
+     0
+    ],
+    [
+     655,
+     0
+    ],
+    [
+     655,
+     247
+    ],
+    [
+     610,
+     240
+    ],
+    [
+     520,
+     240
+    ],
+    [
+     440,
+     255
+    ],
+    [
+     395,
+     300
+    ],
+    [
+     330,
+     235
+    ]
+   ],
+   "notes": "The highest ground on the sheet. Few ways through."
+  },
+  {
+   "id": "r03",
+   "name": "The Scree Marches",
+   "terrain": "mountain, high broken mountains of scree and cliff with many passes",
+   "elevation": "high, 4,000 to 10,000 feet",
+   "water": "meltwater in every gully; tarns; streams south to the steppe",
+   "climate": "cold; long hard winter, loud thaw",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 70
+    },
+    {
+     "id": "r04",
+     "days": 52
+    },
+    {
+     "id": "r10",
+     "days": 46
+    },
+    {
+     "id": "r11",
+     "days": 39
+    }
+   ],
+   "polygon": [
+    [
+     655,
+     0
+    ],
+    [
+     1024,
+     0
+    ],
+    [
+     1024,
+     250
+    ],
+    [
+     900,
+     255
+    ],
+    [
+     800,
+     262
+    ],
+    [
+     745,
+     300
+    ],
+    [
+     700,
+     255
+    ],
+    [
+     655,
+     247
+    ]
+   ],
+   "notes": "Held in passing by the Column (god-stone). The Graith, the slow people of the rock, in its eastern heights."
+  },
+  {
+   "id": "r04",
+   "name": "The High Table",
+   "terrain": "valley, a wide flat high basin ringed by mountains, meadow and worked land",
+   "elevation": "upland, 2,500 to 3,200 feet",
+   "water": "the Brenn through the floor, streams from every side",
+   "climate": "cool; hard winter, early snow on the rim",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 32
+    },
+    {
+     "id": "r03",
+     "days": 52
+    },
+    {
+     "id": "r07",
+     "days": 22
+    },
+    {
+     "id": "r10",
+     "days": 17
+    }
+   ],
+   "polygon": [
+    [
+     395,
+     300
+    ],
+    [
+     440,
+     255
+    ],
+    [
+     520,
+     240
+    ],
+    [
+     610,
+     240
+    ],
+    [
+     655,
+     247
+    ],
+    [
+     700,
+     255
+    ],
+    [
+     745,
+     300
+    ],
+    [
+     700,
+     350
+    ],
+    [
+     610,
+     385
+    ],
+    [
+     545,
+     400
+    ],
+    [
+     480,
+     395
+    ],
+    [
+     420,
+     360
+    ]
+   ],
+   "notes": "Held by the Arroway (god-war)."
+  },
+  {
+   "id": "r05",
+   "name": "The Folds",
+   "terrain": "forest, deep dark forest over broken folded hills, valleys hidden one from the next",
+   "elevation": "hill, 800 to 3,000 feet",
+   "water": "a stream at the bottom of every fold",
+   "climate": "cool and wet; long snowy winter",
+   "neighbors": [
+    {
+     "id": "r01",
+     "days": 30
+    },
+    {
+     "id": "r06",
+     "days": 36
+    },
+    {
+     "id": "r07",
+     "days": 34
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     190
+    ],
+    [
+     130,
+     195
+    ],
+    [
+     250,
+     215
+    ],
+    [
+     330,
+     235
+    ],
+    [
+     310,
+     300
+    ],
+    [
+     250,
+     330
+    ],
+    [
+     120,
+     340
+    ],
+    [
+     0,
+     330
+    ]
+   ],
+   "notes": "Held by the Ussel (god-secrets)."
+  },
+  {
+   "id": "r06",
+   "name": "The Deepwood",
+   "terrain": "forest, a great old lowland forest of oak and beech",
+   "elevation": "low, 200 to 900 feet",
+   "water": "many small streams west to the sea; standing pools",
+   "climate": "temperate and wet; hard winter",
+   "neighbors": [
+    {
+     "id": "r05",
+     "days": 36
+    },
+    {
+     "id": "r07",
+     "days": 34
+    },
+    {
+     "id": "r08",
+     "days": 43
+    },
+    {
+     "id": "r22",
+     "days": 55
+    },
+    {
+     "id": "r18",
+     "days": 50
+    },
+    {
+     "id": "r19",
+     "days": 34
+    },
+    {
+     "id": "r21",
+     "by": "water"
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     330
+    ],
+    [
+     120,
+     340
+    ],
+    [
+     250,
+     330
+    ],
+    [
+     310,
+     300
+    ],
+    [
+     335,
+     370
+    ],
+    [
+     300,
+     430
+    ],
+    [
+     225,
+     475
+    ],
+    [
+     250,
+     530
+    ],
+    [
+     320,
+     575
+    ],
+    [
+     380,
+     645
+    ],
+    [
+     250,
+     665
+    ],
+    [
+     120,
+     650
+    ],
+    [
+     45,
+     650
+    ],
+    [
+     20,
+     600
+    ],
+    [
+     45,
+     560
+    ],
+    [
+     0,
+     505
+    ]
+   ],
+   "notes": "The Thessen (god-beasts) hold its north-eastern edge only. The rest is wild."
+  },
+  {
+   "id": "r07",
+   "name": "The Mast Vale",
+   "terrain": "valley, river country between the forest edge and the high rim, wet ground along the river",
+   "elevation": "low, 600 to 1,200 feet",
+   "water": "the Mastwater; fen along it",
+   "climate": "temperate; hard winter, wet autumn",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 40
+    },
+    {
+     "id": "r04",
+     "days": 22
+    },
+    {
+     "id": "r05",
+     "days": 34
+    },
+    {
+     "id": "r06",
+     "days": 34
+    },
+    {
+     "id": "r08",
+     "days": 18
+    },
+    {
+     "id": "r10",
+     "days": 36
+    }
+   ],
+   "polygon": [
+    [
+     330,
+     235
+    ],
+    [
+     395,
+     300
+    ],
+    [
+     420,
+     360
+    ],
+    [
+     480,
+     395
+    ],
+    [
+     470,
+     430
+    ],
+    [
+     390,
+     425
+    ],
+    [
+     300,
+     430
+    ],
+    [
+     335,
+     370
+    ],
+    [
+     310,
+     300
+    ]
+   ],
+   "notes": "Held by the Thessen (god-beasts) at its western edge."
+  },
+  {
+   "id": "r08",
+   "name": "The North Heath",
+   "terrain": "highland, open brown upland heath and worn low hills, the northern half of a wide shallow bowl",
+   "elevation": "upland, 1,200 to 2,200 feet",
+   "water": "few streams; peat pools",
+   "climate": "windy and cool; hard winter",
+   "neighbors": [
+    {
+     "id": "r06",
+     "days": 43
+    },
+    {
+     "id": "r07",
+     "days": 18
+    },
+    {
+     "id": "r22",
+     "days": 17
+    },
+    {
+     "id": "r09",
+     "days": 8
+    },
+    {
+     "id": "r10",
+     "days": 26
+    },
+    {
+     "id": "r12",
+     "days": 71
+    }
+   ],
+   "polygon": [
+    [
+     250,
+     530
+    ],
+    [
+     225,
+     475
+    ],
+    [
+     300,
+     430
+    ],
+    [
+     390,
+     425
+    ],
+    [
+     470,
+     430
+    ],
+    [
+     560,
+     420
+    ],
+    [
+     650,
+     430
+    ],
+    [
+     730,
+     470
+    ],
+    [
+     765,
+     540
+    ],
+    [
+     640,
+     530
+    ],
+    [
+     600,
+     492
+    ],
+    [
+     520,
+     482
+    ],
+    [
+     440,
+     490
+    ],
+    [
+     385,
+     515
+    ],
+    [
+     365,
+     560
+    ]
+   ],
+   "notes": "Grazed by the Hethren."
+  },
+  {
+   "id": "r22",
+   "name": "The South Heath",
+   "terrain": "highland, open brown upland heath and worn low hills, the southern half of a wide shallow bowl",
+   "elevation": "upland, 1,000 to 2,000 feet",
+   "water": "few streams; springs on its southern edge",
+   "climate": "windy and cool; hard winter",
+   "neighbors": [
+    {
+     "id": "r06",
+     "days": 55
+    },
+    {
+     "id": "r08",
+     "days": 17
+    },
+    {
+     "id": "r09",
+     "days": 9
+    },
+    {
+     "id": "r14",
+     "days": 29
+    },
+    {
+     "id": "r15",
+     "days": 24
+    },
+    {
+     "id": "r16",
+     "days": 16
+    }
+   ],
+   "polygon": [
+    [
+     250,
+     530
+    ],
+    [
+     365,
+     560
+    ],
+    [
+     390,
+     585
+    ],
+    [
+     450,
+     590
+    ],
+    [
+     560,
+     592
+    ],
+    [
+     635,
+     575
+    ],
+    [
+     640,
+     530
+    ],
+    [
+     765,
+     540
+    ],
+    [
+     740,
+     610
+    ],
+    [
+     660,
+     650
+    ],
+    [
+     540,
+     665
+    ],
+    [
+     430,
+     655
+    ],
+    [
+     380,
+     645
+    ],
+    [
+     320,
+     575
+    ]
+   ],
+   "notes": "Grazed by the Hethren."
+  },
+  {
+   "id": "r09",
+   "name": "The Dun Back",
+   "terrain": "hill, one long dark bare hill mass in the middle of the bowl, with the outline of a great animal lying asleep",
+   "elevation": "hill, 1,500 to 2,600 feet",
+   "water": "none on the surface",
+   "climate": "windy and cool; the ground a little warm",
+   "neighbors": [
+    {
+     "id": "r08",
+     "days": 8
+    },
+    {
+     "id": "r22",
+     "days": 9
+    }
+   ],
+   "polygon": [
+    [
+     365,
+     560
+    ],
+    [
+     385,
+     515
+    ],
+    [
+     440,
+     490
+    ],
+    [
+     520,
+     482
+    ],
+    [
+     600,
+     492
+    ],
+    [
+     640,
+     530
+    ],
+    [
+     635,
+     575
+    ],
+    [
+     560,
+     592
+    ],
+    [
+     450,
+     590
+    ],
+    [
+     390,
+     585
+    ]
+   ],
+   "notes": "Under the star's center. The Hethren do not graze it."
+  },
+  {
+   "id": "r10",
+   "name": "The Gap Vale",
+   "terrain": "valley, a long vale under the basin rim where the rivers meet and run east",
+   "elevation": "low, 900 to 1,600 feet",
+   "water": "the Brenn and the Mastwater join here as the Sarn",
+   "climate": "temperate, dry to the east",
+   "neighbors": [
+    {
+     "id": "r03",
+     "days": 46
+    },
+    {
+     "id": "r04",
+     "days": 17
+    },
+    {
+     "id": "r07",
+     "days": 36
+    },
+    {
+     "id": "r08",
+     "days": 26
+    },
+    {
+     "id": "r11",
+     "days": 26
+    },
+    {
+     "id": "r12",
+     "days": 39
+    }
+   ],
+   "polygon": [
+    [
+     470,
+     430
+    ],
+    [
+     480,
+     395
+    ],
+    [
+     545,
+     400
+    ],
+    [
+     610,
+     385
+    ],
+    [
+     700,
+     350
+    ],
+    [
+     745,
+     300
+    ],
+    [
+     800,
+     262
+    ],
+    [
+     790,
+     360
+    ],
+    [
+     770,
+     440
+    ],
+    [
+     730,
+     470
+    ],
+    [
+     650,
+     430
+    ],
+    [
+     560,
+     420
+    ]
+   ],
+   "notes": "Open country. The Hethren come down to it in winter."
+  },
+  {
+   "id": "r11",
+   "name": "The Pale Steppe",
+   "terrain": "steppe, wide pale grass to the edge of sight",
+   "elevation": "low, 800 to 1,400 feet",
+   "water": "the Pallow; little else",
+   "climate": "dry; bitter winter wind, hot summer",
+   "neighbors": [
+    {
+     "id": "r03",
+     "days": 39
+    },
+    {
+     "id": "r10",
+     "days": 26
+    },
+    {
+     "id": "r12",
+     "days": 31
+    },
+    {
+     "id": "r13",
+     "days": 34
+    }
+   ],
+   "polygon": [
+    [
+     800,
+     262
+    ],
+    [
+     900,
+     255
+    ],
+    [
+     1024,
+     250
+    ],
+    [
+     1024,
+     520
+    ],
+    [
+     960,
+     530
+    ],
+    [
+     930,
+     450
+    ],
+    [
+     880,
+     430
+    ],
+    [
+     770,
+     440
+    ],
+    [
+     790,
+     360
+    ]
+   ],
+   "notes": "The Lowlamp (god-dreams) winter at its southern edge and travel its road."
+  },
+  {
+   "id": "r12",
+   "name": "The Rattlereed",
+   "terrain": "marsh, a long reed marsh and wet wood where the river divides and joins",
+   "elevation": "low, 600 to 700 feet",
+   "water": "the Sarn in many threads",
+   "climate": "dry air, wet ground; hard freeze in winter",
+   "neighbors": [
+    {
+     "id": "r08",
+     "days": 71
+    },
+    {
+     "id": "r10",
+     "days": 39
+    },
+    {
+     "id": "r11",
+     "days": 31
+    },
+    {
+     "id": "r13",
+     "days": 34
+    },
+    {
+     "id": "r14",
+     "days": 35
+    }
+   ],
+   "polygon": [
+    [
+     770,
+     440
+    ],
+    [
+     880,
+     430
+    ],
+    [
+     930,
+     450
+    ],
+    [
+     960,
+     530
+    ],
+    [
+     930,
+     600
+    ],
+    [
+     850,
+     610
+    ],
+    [
+     790,
+     600
+    ],
+    [
+     765,
+     540
+    ],
+    [
+     730,
+     470
+    ]
+   ],
+   "notes": "Held by the Sallow, the reed folk."
+  },
+  {
+   "id": "r13",
+   "name": "The Far Grass",
+   "terrain": "steppe, open grass running south and east to low coast hills",
+   "elevation": "low, 300 to 900 feet",
+   "water": "the Pallow",
+   "climate": "dry; hot summer",
+   "neighbors": [
+    {
+     "id": "r11",
+     "days": 34
+    },
+    {
+     "id": "r12",
+     "days": 34
+    },
+    {
+     "id": "r14",
+     "days": 19
+    },
+    {
+     "id": "r20",
+     "days": 18
+    }
+   ],
+   "polygon": [
+    [
+     960,
+     530
+    ],
+    [
+     1024,
+     520
+    ],
+    [
+     1024,
+     790
+    ],
+    [
+     900,
+     770
+    ],
+    [
+     870,
+     700
+    ],
+    [
+     850,
+     610
+    ],
+    [
+     930,
+     600
+    ]
+   ],
+   "notes": "Open. The Lowlamp trains cross it."
+  },
+  {
+   "id": "r14",
+   "name": "The Flood Meadows",
+   "terrain": "valley, river country of flood meadow, willow and poplar",
+   "elevation": "low, 150 to 500 feet",
+   "water": "the Sarn, broad and brown; the Aver leaving it",
+   "climate": "temperate; spring floods",
+   "neighbors": [
+    {
+     "id": "r22",
+     "days": 29
+    },
+    {
+     "id": "r12",
+     "days": 35
+    },
+    {
+     "id": "r13",
+     "days": 19
+    },
+    {
+     "id": "r15",
+     "days": 16
+    },
+    {
+     "id": "r20",
+     "days": 20
+    }
+   ],
+   "polygon": [
+    [
+     765,
+     540
+    ],
+    [
+     790,
+     600
+    ],
+    [
+     850,
+     610
+    ],
+    [
+     870,
+     700
+    ],
+    [
+     900,
+     770
+    ],
+    [
+     830,
+     790
+    ],
+    [
+     760,
+     770
+    ],
+    [
+     700,
+     740
+    ],
+    [
+     690,
+     690
+    ],
+    [
+     740,
+     610
+    ]
+   ],
+   "notes": "Held by the Weirfolk (god-rivers)."
+  },
+  {
+   "id": "r15",
+   "name": "The Old Low Country",
+   "terrain": "plain, old farmed low country between two rivers, with a rocky headland on the coast",
+   "elevation": "low, 0 to 600 feet",
+   "water": "the Sarn to the north and west, the Aver to the east",
+   "climate": "mild for this land; wet autumn",
+   "neighbors": [
+    {
+     "id": "r22",
+     "days": 24
+    },
+    {
+     "id": "r14",
+     "days": 16
+    },
+    {
+     "id": "r16",
+     "days": 22
+    },
+    {
+     "id": "r20",
+     "days": 27
+    },
+    {
+     "id": "r21",
+     "by": "water"
+    }
+   ],
+   "polygon": [
+    [
+     540,
+     665
+    ],
+    [
+     660,
+     650
+    ],
+    [
+     740,
+     610
+    ],
+    [
+     690,
+     690
+    ],
+    [
+     700,
+     740
+    ],
+    [
+     760,
+     770
+    ],
+    [
+     830,
+     790
+    ],
+    [
+     830,
+     870
+    ],
+    [
+     780,
+     880
+    ],
+    [
+     720,
+     900
+    ],
+    [
+     650,
+     880
+    ],
+    [
+     640,
+     840
+    ],
+    [
+     580,
+     830
+    ],
+    [
+     560,
+     760
+    ],
+    [
+     545,
+     720
+    ]
+   ],
+   "notes": "The kingdom of Averley, godless, old and rooted."
+  },
+  {
+   "id": "r16",
+   "name": "The Tally Meadows",
+   "terrain": "plain, low open river country, water meadow and worked land down to a bay",
+   "elevation": "low, 0 to 300 feet",
+   "water": "the lower Sarn, the Chalkwater, the bay",
+   "climate": "mild; wet autumn, river low in late summer",
+   "neighbors": [
+    {
+     "id": "r22",
+     "days": 16
+    },
+    {
+     "id": "r15",
+     "days": 22
+    },
+    {
+     "id": "r17",
+     "days": 12
+    },
+    {
+     "id": "r18",
+     "days": 26
+    },
+    {
+     "id": "r21",
+     "by": "water"
+    }
+   ],
+   "polygon": [
+    [
+     380,
+     645
+    ],
+    [
+     430,
+     655
+    ],
+    [
+     540,
+     665
+    ],
+    [
+     545,
+     720
+    ],
+    [
+     560,
+     760
+    ],
+    [
+     580,
+     830
+    ],
+    [
+     530,
+     835
+    ],
+    [
+     500,
+     825
+    ],
+    [
+     500,
+     760
+    ],
+    [
+     440,
+     720
+    ],
+    [
+     385,
+     690
+    ]
+   ],
+   "notes": "Held by the Marrans (god-trade)."
+  },
+  {
+   "id": "r17",
+   "name": "The Sump",
+   "terrain": "marsh, wet ground and marsh where the limestone forest drops to the low country",
+   "elevation": "low, 0 to 150 feet",
+   "water": "standing water; streams that come out of the rock",
+   "climate": "mild and wet",
+   "neighbors": [
+    {
+     "id": "r16",
+     "days": 12
+    },
+    {
+     "id": "r18",
+     "days": 29
+    },
+    {
+     "id": "r21",
+     "by": "water"
+    }
+   ],
+   "polygon": [
+    [
+     385,
+     690
+    ],
+    [
+     440,
+     720
+    ],
+    [
+     500,
+     760
+    ],
+    [
+     500,
+     825
+    ],
+    [
+     440,
+     830
+    ],
+    [
+     410,
+     790
+    ],
+    [
+     395,
+     740
+    ]
+   ],
+   "notes": "No one holds it."
+  },
+  {
+   "id": "r18",
+   "name": "The Holed Wood",
+   "terrain": "forest, old forest on broken pale limestone, sinkholes, streams that go into the ground",
+   "elevation": "low hill, 300 to 1,100 feet",
+   "water": "streams that run a while and vanish; water at the bottom of sinkholes",
+   "climate": "temperate and wet; hard winter, late spring",
+   "neighbors": [
+    {
+     "id": "r06",
+     "days": 50
+    },
+    {
+     "id": "r16",
+     "days": 26
+    },
+    {
+     "id": "r17",
+     "days": 29
+    },
+    {
+     "id": "r19",
+     "days": 22
+    },
+    {
+     "id": "r21",
+     "by": "water"
+    }
+   ],
+   "polygon": [
+    [
+     250,
+     665
+    ],
+    [
+     380,
+     645
+    ],
+    [
+     385,
+     690
+    ],
+    [
+     395,
+     740
+    ],
+    [
+     410,
+     790
+    ],
+    [
+     440,
+     830
+    ],
+    [
+     330,
+     860
+    ],
+    [
+     300,
+     890
+    ],
+    [
+     250,
+     880
+    ],
+    [
+     200,
+     800
+    ],
+    [
+     210,
+     720
+    ]
+   ],
+   "notes": "Held by the player's people, unnamed."
+  },
+  {
+   "id": "r19",
+   "name": "The White Ribs",
+   "terrain": "coast, bare pale limestone ribs and thin wood above a cliffed shore",
+   "elevation": "low hill, 0 to 900 feet",
+   "water": "almost none on the surface",
+   "climate": "wet and windy",
+   "neighbors": [
+    {
+     "id": "r06",
+     "days": 34
+    },
+    {
+     "id": "r18",
+     "days": 22
+    },
+    {
+     "id": "r21",
+     "by": "water"
+    }
+   ],
+   "polygon": [
+    [
+     45,
+     650
+    ],
+    [
+     120,
+     650
+    ],
+    [
+     250,
+     665
+    ],
+    [
+     210,
+     720
+    ],
+    [
+     200,
+     800
+    ],
+    [
+     250,
+     880
+    ],
+    [
+     130,
+     830
+    ],
+    [
+     70,
+     760
+    ]
+   ],
+   "notes": "Empty but for fowlers and a few fishers."
+  },
+  {
+   "id": "r20",
+   "name": "The Shore Hills",
+   "terrain": "hill, dry rocky hills above the south-east shore",
+   "elevation": "hill, 0 to 1,500 feet",
+   "water": "the Pallow's mouth",
+   "climate": "dry and warm",
+   "neighbors": [
+    {
+     "id": "r13",
+     "days": 18
+    },
+    {
+     "id": "r14",
+     "days": 20
+    },
+    {
+     "id": "r15",
+     "days": 27
+    },
+    {
+     "id": "r21",
+     "by": "water"
+    }
+   ],
+   "polygon": [
+    [
+     830,
+     790
+    ],
+    [
+     900,
+     770
+    ],
+    [
+     1024,
+     790
+    ],
+    [
+     1024,
+     820
+    ],
+    [
+     960,
+     840
+    ],
+    [
+     900,
+     860
+    ],
+    [
+     860,
+     880
+    ],
+    [
+     830,
+     870
+    ]
+   ],
+   "notes": "Thinly peopled."
+  },
+  {
+   "id": "r21",
+   "name": "The Green Sea",
+   "terrain": "sea, the western and southern sea",
+   "elevation": "sea",
+   "water": "salt",
+   "climate": "open water; winter storms",
+   "neighbors": [
+    {
+     "id": "r06",
+     "by": "water"
+    },
+    {
+     "id": "r15",
+     "by": "water"
+    },
+    {
+     "id": "r16",
+     "by": "water"
+    },
+    {
+     "id": "r17",
+     "by": "water"
+    },
+    {
+     "id": "r18",
+     "by": "water"
+    },
+    {
+     "id": "r19",
+     "by": "water"
+    },
+    {
+     "id": "r20",
+     "by": "water"
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     505
+    ],
+    [
+     45,
+     560
+    ],
+    [
+     20,
+     600
+    ],
+    [
+     45,
+     650
+    ],
+    [
+     70,
+     760
+    ],
+    [
+     130,
+     830
+    ],
+    [
+     250,
+     880
+    ],
+    [
+     300,
+     890
+    ],
+    [
+     330,
+     860
+    ],
+    [
+     440,
+     830
+    ],
+    [
+     500,
+     825
+    ],
+    [
+     530,
+     835
+    ],
+    [
+     580,
+     830
+    ],
+    [
+     640,
+     840
+    ],
+    [
+     650,
+     880
+    ],
+    [
+     720,
+     900
+    ],
+    [
+     780,
+     880
+    ],
+    [
+     830,
+     870
+    ],
+    [
+     860,
+     880
+    ],
+    [
+     900,
+     860
+    ],
+    [
+     960,
+     840
+    ],
+    [
+     1024,
+     820
+    ],
+    [
+     1024,
+     1024
+    ],
+    [
+     0,
+     1024
+    ]
+   ],
+   "notes": "No one sails out of sight of land."
+  }
+ ],
+ "features": [
+  {
+   "id": "f01",
+   "name": "The Mastwater",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     200,
+     238
+    ],
+    [
+     255,
+     252
+    ],
+    [
+     300,
+     282
+    ],
+    [
+     322,
+     330
+    ],
+    [
+     336,
+     372
+    ],
+    [
+     346,
+     396
+    ],
+    [
+     400,
+     412
+    ],
+    [
+     470,
+     426
+    ],
+    [
+     520,
+     430
+    ],
+    [
+     548,
+     408
+    ]
+   ],
+   "regions": [
+    "r05",
+    "r07",
+    "r10"
+   ],
+   "known_to": "the Thessen; the Hethren",
+   "notes": "Rises under the Western Teeth, runs along the edge of the Deepwood and east to the meeting of the waters."
+  },
+  {
+   "id": "f02",
+   "name": "The Brenn",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     590,
+     250
+    ],
+    [
+     562,
+     300
+    ],
+    [
+     540,
+     360
+    ],
+    [
+     545,
+     398
+    ],
+    [
+     548,
+     408
+    ]
+   ],
+   "regions": [
+    "r04",
+    "r10"
+   ],
+   "known_to": "the Arroway",
+   "notes": "The river of the High Table. Leaves by the Table Gap."
+  },
+  {
+   "id": "f03",
+   "name": "The Sarn",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     548,
+     408
+    ],
+    [
+     600,
+     415
+    ],
+    [
+     660,
+     428
+    ],
+    [
+     720,
+     440
+    ],
+    [
+     770,
+     470
+    ],
+    [
+     810,
+     520
+    ],
+    [
+     850,
+     545
+    ],
+    [
+     800,
+     600
+    ],
+    [
+     772,
+     640
+    ],
+    [
+     700,
+     690
+    ],
+    [
+     640,
+     715
+    ],
+    [
+     580,
+     730
+    ],
+    [
+     535,
+     745
+    ],
+    [
+     531,
+     790
+    ],
+    [
+     529.8,
+     826
+    ],
+    [
+     530,
+     835
+    ]
+   ],
+   "regions": [
+    "r10",
+    "r12",
+    "r14",
+    "r15",
+    "r16"
+   ],
+   "known_to": "everyone on it",
+   "notes": "The great river. East through the Gap Vale, in many threads through the Rattlereed, then south-west, broad and slow, to the bay."
+  },
+  {
+   "id": "f04",
+   "name": "The Chalkwater",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     385,
+     690
+    ],
+    [
+     440,
+     712
+    ],
+    [
+     512,
+     742
+    ],
+    [
+     535,
+     745
+    ]
+   ],
+   "regions": [
+    "r16",
+    "r17"
+   ],
+   "known_to": "the Marrans; the unnamed people",
+   "notes": "Comes out of the limestone already a river."
+  },
+  {
+   "id": "f05",
+   "name": "The Aver",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     790,
+     610
+    ],
+    [
+     830,
+     700
+    ],
+    [
+     825,
+     730
+    ],
+    [
+     790,
+     760
+    ],
+    [
+     735,
+     790
+    ],
+    [
+     690,
+     810
+    ],
+    [
+     642,
+     840
+    ]
+   ],
+   "regions": [
+    "r14",
+    "r15"
+   ],
+   "known_to": "Averley; the Weirfolk",
+   "notes": "Leaves the Sarn below the crossing and runs to the sea by itself."
+  },
+  {
+   "id": "f06",
+   "name": "The Pallow",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     900,
+     255
+    ],
+    [
+     895,
+     330
+    ],
+    [
+     900,
+     400
+    ],
+    [
+     905,
+     432
+    ],
+    [
+     940,
+     500
+    ],
+    [
+     955,
+     545
+    ],
+    [
+     905,
+     620
+    ],
+    [
+     855,
+     650
+    ],
+    [
+     870,
+     700
+    ],
+    [
+     842,
+     742
+    ],
+    [
+     850,
+     800
+    ],
+    [
+     858,
+     878
+    ]
+   ],
+   "regions": [
+    "r11",
+    "r13",
+    "r20"
+   ],
+   "known_to": "the Lowlamp; the Sallow",
+   "notes": "The steppe river, low in summer, braided at the ford."
+  },
+  {
+   "id": "f07",
+   "name": "The Sow Fen",
+   "type": "marsh",
+   "shape": "area",
+   "coords": [
+    [
+     350,
+     400
+    ],
+    [
+     460,
+     405
+    ],
+    [
+     465,
+     428
+    ],
+    [
+     350,
+     425
+    ]
+   ],
+   "regions": [
+    "r07"
+   ],
+   "known_to": "the Thessen",
+   "notes": "Reed and standing water between the wood and the river country. Eels."
+  },
+  {
+   "id": "f08",
+   "name": "Hartwall",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     306.6,
+     417.6
+    ]
+   ],
+   "regions": [
+    "r06",
+    "r07"
+   ],
+   "known_to": "the Thessen; a few traders",
+   "notes": "The walled town of the Thessen, where the wood meets the wet ground. About 3,400 within and close about the wall."
+  },
+  {
+   "id": "f09",
+   "name": "Stillgate",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     130,
+     265
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "the Ussel",
+   "notes": "The walled seat of the Ussel, built on older dressed stone. About 1,800."
+  },
+  {
+   "id": "f10",
+   "name": "Underfold",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     133,
+     266.5
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "the Ussel",
+   "notes": "A hamlet in the next fold east. About 600."
+  },
+  {
+   "id": "f11",
+   "name": "Lowstair",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     127,
+     267.2
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "the Ussel",
+   "notes": "A hamlet in the fold to the south-west. About 500."
+  },
+  {
+   "id": "f12",
+   "name": "Brennhal",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     575,
+     315
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the Arroway; pass traders",
+   "notes": "The town of the Arroway on the basin floor by the river. About 3,000."
+  },
+  {
+   "id": "f13",
+   "name": "Larchstead",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     581,
+     311
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the Arroway",
+   "notes": "Terraced hamlet on the eastern slope."
+  },
+  {
+   "id": "f14",
+   "name": "Oatsteps",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     570,
+     318
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the Arroway",
+   "notes": "Terraced hamlet on the western slope."
+  },
+  {
+   "id": "f15",
+   "name": "The Table Gap",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     545,
+     399
+    ]
+   ],
+   "regions": [
+    "r04",
+    "r10"
+   ],
+   "known_to": "the Arroway; the Hethren",
+   "notes": "The narrow way where the Brenn leaves the basin."
+  },
+  {
+   "id": "f16",
+   "name": "Bell Pass",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     590,
+     239
+    ]
+   ],
+   "regions": [
+    "r02",
+    "r04"
+   ],
+   "known_to": "the Arroway",
+   "notes": "High, closed by snow half the year. An iron is struck here."
+  },
+  {
+   "id": "f17",
+   "name": "Kite Pass",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     744,
+     299
+    ]
+   ],
+   "regions": [
+    "r03",
+    "r04",
+    "r10"
+   ],
+   "known_to": "the Arroway; the Column",
+   "notes": "The eastern way into the basin."
+  },
+  {
+   "id": "f18",
+   "name": "Smoke Pass",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     396,
+     300
+    ]
+   ],
+   "regions": [
+    "r02",
+    "r04",
+    "r07"
+   ],
+   "known_to": "the Arroway; the Thessen",
+   "notes": "The western way into the basin."
+  },
+  {
+   "id": "f19",
+   "name": "Thaw Saddle",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     845.6,
+     160.5
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Column",
+   "notes": "A wide saddle with a trodden way over it and many cairns."
+  },
+  {
+   "id": "f20",
+   "name": "The Cairn Way",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     845.6,
+     160.5
+    ],
+    [
+     835,
+     205
+    ],
+    [
+     820,
+     240
+    ],
+    [
+     800,
+     262
+    ],
+    [
+     790,
+     360
+    ]
+   ],
+   "regions": [
+    "r03",
+    "r10",
+    "r11"
+   ],
+   "known_to": "the Column",
+   "notes": "A trodden way from the saddle down to the lee side, marked with cairns."
+  },
+  {
+   "id": "f21",
+   "name": "Greybay Hold",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     760,
+     243
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Column",
+   "notes": "A winter hold of the Column: walled rock shelters and cellars cut in rock."
+  },
+  {
+   "id": "f22",
+   "name": "Kettle Hold",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     832,
+     238
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Column",
+   "notes": "A winter hold of the Column."
+  },
+  {
+   "id": "f23",
+   "name": "Lee Hold",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     915,
+     232
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Column",
+   "notes": "A winter hold of the Column."
+  },
+  {
+   "id": "f24",
+   "name": "Farcellar",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     995,
+     226
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Column",
+   "notes": "A winter hold of the Column, the easternmost."
+  },
+  {
+   "id": "f25",
+   "name": "Lampford",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     905,
+     432
+    ]
+   ],
+   "regions": [
+    "r11"
+   ],
+   "known_to": "the Lowlamp; road traders; the Sallow",
+   "notes": "The winter ground of the Lowlamp at the ford of the Pallow, which they call the Ford. About 5,000 in winter, a few hundred in the open seasons."
+  },
+  {
+   "id": "f26",
+   "name": "The Pale Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     900,
+     255
+    ],
+    [
+     912,
+     350
+    ],
+    [
+     905,
+     432
+    ],
+    [
+     965,
+     540
+    ],
+    [
+     940,
+     640
+    ],
+    [
+     900,
+     770
+    ]
+   ],
+   "regions": [
+    "r11",
+    "r13"
+   ],
+   "known_to": "the Lowlamp; road traders",
+   "notes": "A road on hard pale ground, older than any town on it."
+  },
+  {
+   "id": "f27",
+   "name": "The Trough Station",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     906.4,
+     431.2
+    ]
+   ],
+   "regions": [
+    "r11"
+   ],
+   "known_to": "the Lowlamp",
+   "notes": "A length of old wall with no roof and a stone trough by the road. A way-station whose builders are not remembered."
+  },
+  {
+   "id": "f28",
+   "name": "Stakewater",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     772,
+     640
+    ]
+   ],
+   "regions": [
+    "r14"
+   ],
+   "known_to": "the Weirfolk; road traders; Averley",
+   "notes": "The town of the Weirfolk on the high bank at the one good crossing of the Sarn, which they call the Crossing. About 5,000 with its near fields."
+  },
+  {
+   "id": "f29",
+   "name": "The Toll Stone",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     772.5,
+     640.3
+    ]
+   ],
+   "regions": [
+    "r14"
+   ],
+   "known_to": "the Weirfolk",
+   "notes": "A worn standing stone at the crossing, older than any bridge footing there. Not a ruin: a stone."
+  },
+  {
+   "id": "f30",
+   "name": "Tallyford",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     529.5,
+     826
+    ]
+   ],
+   "regions": [
+    "r16"
+   ],
+   "known_to": "the Marrans; Averley; coasters",
+   "notes": "The town of the Marrans at the lowest ford of the Sarn. About 1,700 through the hard months, more at the autumn fair."
+  },
+  {
+   "id": "f31",
+   "name": "Keelstrand",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     530.5,
+     832
+    ]
+   ],
+   "regions": [
+    "r16"
+   ],
+   "known_to": "the Marrans; coasters",
+   "notes": "Boat shore on the bay."
+  },
+  {
+   "id": "f32",
+   "name": "The Meadow Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     529.5,
+     826
+    ],
+    [
+     533,
+     772
+    ],
+    [
+     580,
+     731
+    ],
+    [
+     640,
+     716
+    ],
+    [
+     700,
+     691
+    ],
+    [
+     772,
+     640
+    ]
+   ],
+   "regions": [
+    "r16",
+    "r15",
+    "r14"
+   ],
+   "known_to": "the Marrans; Averley; the Weirfolk",
+   "notes": "An old rutted road along the Sarn from the ford to the crossing."
+  },
+  {
+   "id": "f33",
+   "name": "The Strand Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     529.5,
+     826
+    ],
+    [
+     505,
+     790
+    ],
+    [
+     482,
+     733
+    ],
+    [
+     430,
+     700
+    ],
+    [
+     385,
+     690
+    ]
+   ],
+   "regions": [
+    "r16",
+    "r17"
+   ],
+   "known_to": "the Marrans",
+   "notes": "A road west toward the limestone, sunk in places under newer ground."
+  },
+  {
+   "id": "f34",
+   "name": "The Old Weighhouse",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     522,
+     818
+    ]
+   ],
+   "regions": [
+    "r16"
+   ],
+   "known_to": "the Marrans",
+   "notes": "Footings of a great hall of a league of ford towns."
+  },
+  {
+   "id": "f35",
+   "name": "unnamed town",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     275,
+     790
+    ]
+   ],
+   "regions": [
+    "r18"
+   ],
+   "known_to": "the unnamed people; a few charcoal buyers",
+   "notes": "The town of the player's people. Unnamed until play names it. About 3,000 in the town, the rest in farms and clearings round it. A burial ground and orchard at its edge, unnamed."
+  },
+  {
+   "id": "f36",
+   "name": "The Coppice Track",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     272.5,
+     787.5
+    ],
+    [
+     275,
+     790
+    ],
+    [
+     330,
+     770
+    ],
+    [
+     385,
+     690
+    ]
+   ],
+   "regions": [
+    "r18",
+    "r17"
+   ],
+   "known_to": "the unnamed people",
+   "notes": "A worn track, wide enough for two abreast, from the town out through coppice toward the low country."
+  },
+  {
+   "id": "f37",
+   "name": "Swallet Mouth",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     272.5,
+     787.5
+    ]
+   ],
+   "regions": [
+    "r18"
+   ],
+   "known_to": "the unnamed people",
+   "notes": "A great sinkhole with a cave in its side. Below: galleries in the limestone that run for miles south and west (the underground, data only)."
+  },
+  {
+   "id": "f38",
+   "name": "The Long Bones",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     300,
+     705
+    ]
+   ],
+   "regions": [
+    "r18"
+   ],
+   "known_to": "the unnamed people, as a place to avoid",
+   "notes": "Something enormous and dead in the rock, too large to be sure it is bones. Not a ruin."
+  },
+  {
+   "id": "f39",
+   "name": "Averley",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     650,
+     760
+    ]
+   ],
+   "regions": [
+    "r15"
+   ],
+   "known_to": "Averley; the Marrans; the Weirfolk",
+   "notes": "The old walled city of the kingdom of Averley. About 9,000."
+  },
+  {
+   "id": "f40",
+   "name": "Saltsteps",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     690,
+     882
+    ]
+   ],
+   "regions": [
+    "r15"
+   ],
+   "known_to": "Averley; coasters",
+   "notes": "Salt pans cut in the rock of the headland. About 1,200."
+  },
+  {
+   "id": "f41",
+   "name": "Nettlebridge",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     735,
+     789
+    ]
+   ],
+   "regions": [
+    "r15"
+   ],
+   "known_to": "Averley; the Weirfolk",
+   "notes": "A bridge village on the Aver."
+  },
+  {
+   "id": "f42",
+   "name": "The Warm Stone",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     659.6,
+     725.0
+    ]
+   ],
+   "regions": [
+    "r15"
+   ],
+   "known_to": "no one yet",
+   "notes": "Not a ruin: a stone, blue-grey, warm, heavy for its size, that fell in open hill pasture the night the gods came down."
+  },
+  {
+   "id": "f43",
+   "name": "Hethmoot",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     560,
+     440
+    ]
+   ],
+   "regions": [
+    "r08"
+   ],
+   "known_to": "the Hethren",
+   "notes": "The winter meeting ground of the Hethren. Tents and a few stone pens."
+  },
+  {
+   "id": "f44",
+   "name": "The Sleeper",
+   "type": "mountain",
+   "shape": "area",
+   "coords": [
+    [
+     505,
+     535
+    ],
+    [
+     507,
+     535
+    ],
+    [
+     507,
+     537
+    ],
+    [
+     505,
+     537
+    ]
+   ],
+   "regions": [
+    "r09"
+   ],
+   "known_to": "the Hethren",
+   "notes": "Not a mountain: a sleeping beast, visibly a beast, a mile or two long, lying in the hollow of the Dun Back. The hill mass round it has taken its outline."
+  },
+  {
+   "id": "f45",
+   "name": "Nightstake",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     840,
+     520
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallow; the Lowlamp",
+   "notes": "The largest of the reed folk's stilt places."
+  },
+  {
+   "id": "f46",
+   "name": "Graithdeep",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     960,
+     120
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Graith; the Column, as a place not to enter",
+   "notes": "The mouth of the Graith's deep halls. Below: chambers and long ways under the eastern range (the underground, data only)."
+  },
+  {
+   "id": "f47",
+   "name": "The Shut Pass",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     760,
+     150
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Column",
+   "notes": "A pass closed by an old fall no one living saw."
+  },
+  {
+   "id": "f48",
+   "name": "Three-Age Fort",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     870,
+     186
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Column",
+   "notes": "A pass-fort of three ages, each built on the last."
+  },
+  {
+   "id": "f49",
+   "name": "The Sealed Door",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     900,
+     140
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Graith",
+   "notes": "A door in rock, shut. Not a cave: a door."
+  },
+  {
+   "id": "f50",
+   "name": "Door Under Root",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     160,
+     240
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "a few of the Ussel",
+   "notes": "A door in rock under a fallen tree, shut from the inside. Not a cave: a door."
+  },
+  {
+   "id": "f51",
+   "name": "Hollow Seat",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     140,
+     258
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "the Ussel",
+   "notes": "A walled seat of an older people, emptied without a siege."
+  },
+  {
+   "id": "f52",
+   "name": "The Old Stair",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     129.6,
+     264.6
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "the Ussel",
+   "notes": "A stair cut in rock going up into trees, above Stillgate."
+  },
+  {
+   "id": "f53",
+   "name": "The Walked-Round Shrine",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     304,
+     414
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the Thessen",
+   "notes": "An untended shrine in the wood. The Thessen walk round it."
+  },
+  {
+   "id": "f54",
+   "name": "The King's Stair",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     571,
+     309
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the Arroway",
+   "notes": "Terraces and a broken hall of the old basin kingdom."
+  },
+  {
+   "id": "f55",
+   "name": "The Sunk Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     650,
+     760
+    ],
+    [
+     600,
+     700
+    ],
+    [
+     560,
+     600
+    ],
+    [
+     545,
+     399
+    ]
+   ],
+   "regions": [
+    "r15",
+    "r22",
+    "r09",
+    "r08",
+    "r10"
+   ],
+   "known_to": "Averley, in part",
+   "notes": "An old road that goes nowhere now, north from Averley toward the Table Gap, lost under turf across the heath. Parts of it run underground (data only)."
+  },
+  {
+   "id": "f56",
+   "name": "Deepway Mouth",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     700,
+     210
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the Graith",
+   "notes": "An old road that goes into the range and under it (the underground, data only)."
+  }
+ ],
+ "landings": {
+  "player": {
+   "region": "r18",
+   "at": [
+    274.0,
+    789.0
+   ]
+  },
+  "god-beasts": {
+   "region": "r06",
+   "at": [
+    305.5,
+    417.0
+   ]
+  },
+  "god-stone": {
+   "region": "r03",
+   "at": [
+    845.0,
+    160.0
+   ]
+  },
+  "god-trade": {
+   "region": "r16",
+   "at": [
+    528.6,
+    825.4
+   ]
+  },
+  "god-dreams": {
+   "region": "r11",
+   "at": [
+    906.1,
+    430.7
+   ]
+  },
+  "god-war": {
+   "region": "r04",
+   "at": [
+    575.9,
+    314.2
+   ]
+  },
+  "god-secrets": {
+   "region": "r05",
+   "at": [
+    130.8,
+    264.1
+   ]
+  },
+  "god-rivers": {
+   "region": "r14",
+   "at": [
+    771.5,
+    639.6
+   ]
+  }
+ }
+}

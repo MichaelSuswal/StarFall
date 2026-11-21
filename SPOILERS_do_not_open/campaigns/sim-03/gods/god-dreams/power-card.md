@@ -80,6 +80,24 @@ Rulings: none yet.
 Trades: none.
 Growth: Possible. Not shown.
 
+### The Coin on the Stone
+Status: added Night 3 (2026-11-20). A people's edge that is a power of the god's, priced on the god.
+Description: Once a season, the Chief Keeper of the Lamp, who bears your mark, may lay a coin once taken from your hand on a flat stone at the lamp fire and sleep beside it. If your body is within a day and a half's walk, you taste copper, wherever you are and awake or asleep, and know it for that office's call. It says "come" and nothing else: no word, no image, no place but the lamp fire.
+Drawback: You owe a day of your own sleep for it, as for a dream entered, within the same five days, and the debt adds to the others. The Keeper pays as mortal workers here pay: the night's sleep is spent with nothing got from it, and the Keeper is cold and slow through the day after.
+Limits settled at creation:
+- Always the holder's choice; that holder's alone, priced again for another; it ends with the office, the life or the mark.
+- Beyond a day and a half's walk nothing reaches you and the Keeper pays all the same.
+- It makes no mark, enters no dream and carries no bargain. Other gods, and more than ordinary craft: unruled until it happens.
+- The taste does not wake you from owed sleep and does not break a dream you have entered. You know it on waking, or when the dream ends.
+- The coin is one given from your own hand into the Chief Keeper's with a yes said aloud, which is the bargain that marks that Keeper. If it is lost or taken you may give another from your hand: a new bargain and a new mark.
+- One call is one night, once in a season, and owes one day. A Keeper who sleeps beside the coin on other nights of that season calls nothing, pays nothing, and puts no day against you.
+- A coin laid on a stone as a plain sign, seen by whoever sees it, is the people's custom and no part of this power.
+- The bargain struck with the coin is the keeping of the lamp fire's call. It stands unpaid for as long as that Chief Keeper holds the office and the coin, so the mark on that Keeper stands for as long, and it ends as the lines above say. It marks no one else and lengthens no other mark.
+- Settled at creation. Ledger: L-0035.
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
 ## Hidden powers
 Two hidden powers exist. Discovered powers are added above as they surface.
 
@@ -98,3 +116,4 @@ Set by the world. Not shown.
 
 ## Dated entries
 - 2026-11-20, Night 2: card written and frozen on the god's confirmation.
+- 2026-11-20, Night 3: power block "The Coin on the Stone" added, marked "added Night 3". Confirmed by the god in its round 2 reply. Settled at creation. Ledger: L-0035.

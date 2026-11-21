@@ -1,0 +1,94 @@
+{
+ "campaign": "sim-03",
+ "regions": {
+  "r16": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f33": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a road or worn way",
+    "coords": [
+     [
+      529.6,
+      826.2
+     ],
+     [
+      528.3,
+      824.2
+     ]
+    ]
+   }
+  },
+  "f32": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a road or worn way",
+    "coords": [
+     [
+      529.5,
+      826.7
+     ],
+     [
+      529.6,
+      824.3
+     ]
+    ]
+   }
+  },
+  "f30": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a town",
+    "coords": [
+     [
+      529.5,
+      826
+     ]
+    ]
+   }
+  },
+  "f03": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a river",
+    "coords": [
+     [
+      529.9,
+      824.2
+     ],
+     [
+      529.8,
+      826.6
+     ]
+    ]
+   }
+  },
+  "f31": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke, south",
+    "coords": [
+     [
+      530,
+      832
+     ]
+    ]
+   }
+  }
+ }
+}

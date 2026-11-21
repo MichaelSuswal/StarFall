@@ -43,3 +43,7 @@ Confirm that this is what you meant, or say what is wrong with it. This round is
 Write your reply as "## Round 2 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-secrets/negotiation-night3.md,
 and to no other file. Then stop.
+
+## Round 3
+A note on wording only. No reply is asked.
+- You asked that the second part of the weakness begin "And, for as long as the edge stands:" in place of "And, for the year and a day:", so that the price and the edge run together. Granted as asked. The record carries your wording. Nothing else is changed.

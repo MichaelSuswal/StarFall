@@ -1,0 +1,53 @@
+{
+ "campaign": "sim-03",
+ "regions": {
+  "r06": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r07": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "lower open ground, south-east",
+    "terrain": "valley",
+    "polygon": [
+     [
+      297.0,
+      435.2
+     ],
+     [
+      317.1,
+      400.6
+     ],
+     [
+      327.8,
+      391.5
+     ],
+     [
+      307.6,
+      426.1
+     ]
+    ]
+   }
+  }
+ },
+ "features": {
+  "f08": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke, south-east",
+    "coords": [
+     [
+      307,
+      418
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "campaign": "sim-03",
+ "regions": {
+  "r05": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r01": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "high ground on the skyline, north",
+    "terrain": "mountain",
+    "polygon": [
+     [
+      161.7,
+      200.3
+     ],
+     [
+      122.3,
+      193.7
+     ],
+     [
+      126.4,
+      180.3
+     ],
+     [
+      165.8,
+      186.9
+     ]
+    ]
+   }
+  }
+ },
+ "features": {
+  "f09": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke, south-west",
+    "coords": [
+     [
+      130,
+      265
+     ]
+    ]
+   }
+  },
+  "f10": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke, south-east",
+    "coords": [
+     [
+      133,
+      266
+     ]
+    ]
+   }
+  },
+  "f11": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke, south-west",
+    "coords": [
+     [
+      127,
+      267
+     ]
+    ]
+   }
+  }
+ }
+}

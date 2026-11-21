@@ -1,0 +1,76 @@
+{
+ "campaign": "sim-03",
+ "regions": {
+  "r14": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f03": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a river",
+    "coords": [
+     [
+      772.8,
+      639.4
+     ],
+     [
+      770.9,
+      640.8
+     ]
+    ]
+   }
+  },
+  "f32": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a road or worn way",
+    "coords": [
+     [
+      770.9,
+      640.8
+     ],
+     [
+      772.8,
+      639.4
+     ]
+    ]
+   }
+  },
+  "f28": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a town",
+    "coords": [
+     [
+      772,
+      640
+     ]
+    ]
+   }
+  },
+  "f29": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "old stonework",
+    "coords": [
+     [
+      772.5,
+      640.3
+     ]
+    ]
+   }
+  }
+ }
+}

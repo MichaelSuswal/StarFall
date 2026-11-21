@@ -1,0 +1,44 @@
+{
+ "campaign": "sim-03",
+ "regions": {
+  "r03": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f19": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a pass",
+    "coords": [
+     [
+      845.6,
+      160.5
+     ]
+    ]
+   }
+  },
+  "f20": {
+   "grade": "reported",
+   "source": "own sight, at the landing",
+   "year": 1,
+   "told": {
+    "name": "a road or worn way",
+    "coords": [
+     [
+      845.9,
+      159.3
+     ],
+     [
+      845.3,
+      161.7
+     ]
+    ]
+   }
+  }
+ }
+}

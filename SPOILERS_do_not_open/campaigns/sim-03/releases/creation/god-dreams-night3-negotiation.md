@@ -56,3 +56,8 @@ Confirm that this is what you meant, or say what is wrong with it. This round is
 Write your reply as "## Round 2 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-dreams/negotiation-night3.md,
 and to no other file. Then stop.
+
+## Round 3
+A note on wording only. No reply is asked.
+- You asked that the bargain behind the coin be written as standing while the office and the coin are held, so that the mark does not lapse a season after the handing over. Granted, in the Keeper's words, as one more line under the power's Limits: "The bargain struck with the coin is the keeping of the lamp fire's call. It stands unpaid for as long as that Chief Keeper holds the office and the coin, so the mark on that Keeper stands for as long, and it ends as the lines above say. It marks no one else and lengthens no other mark." Description and Drawback are unchanged.
+- The power is on your card as of tonight, with a dated entry.
