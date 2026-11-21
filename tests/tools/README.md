@@ -31,7 +31,7 @@ one-decimal coordinates, the `--zoom landing` frame and its scale bar, label pla
 label groups overlap, none covers a mark or leaves the frame, the highest priority keeps its
 place), and the gazetteer's told distances for reported regions; in lockcheck the sealed-terms
 file as the primary list (case and all, the article rule, a missing file fails, prose guesses
-warn), number words near god terms (the six-word window, sentences, pronoun "one", the phrase
+warn), number words near god terms (the six-word window, sentences, "one" never counted, the phrase
 exemption), case-sensitive mystery titles, the `Answers questions: yes|no` field, and the
 skipping of `lock-flags*.md` in every mode; and in paint.py that held requests are never painted.
 The fixture carries `S/sealed-terms.txt` and an `Answers questions:` line on every mystery.

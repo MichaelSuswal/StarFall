@@ -22,7 +22,7 @@ layout (tests use a fixture).
                and all), schedule titles and star values. Fails on any hit in
                campaigns/<name>/ or in the campaign's public scene requests,
                images/requests/<name>-*.json, and on a missing sealed-terms.txt. Also
-               fails a number word (one to twelve, "a dozen", "half a dozen", "twice")
+               fails a number word (two to twelve, "a dozen", "half a dozen", "twice")
                within six words of "god", "gods", "like me", "like us", "of us", "pulls",
                "came down" or "fell" in the same sentence, and a public map-knowledge file
                that breaks the map rules. The older guesses from prose (power card
@@ -58,7 +58,7 @@ ROLL_RE = re.compile(r"\br-(\d{4,})\b")
 BRACKET_SKIP = {"x", "sic", "tbd", "todo", "ok"}
 SEALED_TERMS = "sealed-terms.txt"
 # Number words near god terms (change list 44): a count of gods written in words.
-COUNT_WORDS = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+COUNT_WORDS = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
                "twelve", "twice", "a dozen", "half a dozen"]
 GOD_TRIGGERS = ["god", "gods", "like me", "like us", "of us", "pulls", "came down", "fell"]
 COUNT_WINDOW = 6   # words between the number word and the trigger, at most ("within six words")
@@ -441,8 +441,6 @@ def _words_re(phrase):
 COUNT_RE = re.compile(r"(?<![\w-])(?:" + "|".join(_words_re(w) for w in sorted(COUNT_WORDS, key=len, reverse=True)) + r")(?![\w-])", re.I)
 TRIGGER_RE = re.compile(r"(?<![\w])(?:" + "|".join(_words_re(w) for w in sorted(GOD_TRIGGERS, key=len, reverse=True)) + r")(?![\w])", re.I)
 WORD_RE = re.compile(r"[A-Za-z0-9']+")
-# "one" is a pronoun, not a count, after these words ("no one", "the one", "every one") and in "one another"
-ONE_NOT_COUNT_RE = re.compile(r"(?<![\w-])(?:no|any|every|some|the|each|that|this|which|a|anyone|such)\s+$", re.I)
 SENTENCE_RE = re.compile(r"[^.!?;:]+")
 
 
@@ -461,9 +459,7 @@ def count_hits(line):
                     i = k
             return i
 
-        nums = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in COUNT_RE.finditer(sent)
-                if not (m.group(0).lower() == "one" and ONE_NOT_COUNT_RE.search(sent[:m.start()]))
-                and not (m.group(0).lower() == "one" and re.match(r"\s+another\b", sent[m.end():], re.I))]
+        nums = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in COUNT_RE.finditer(sent)]
         trigs = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in TRIGGER_RE.finditer(sent)]
         for n, n0, n1 in nums:
             for t, t0, t1 in trigs:

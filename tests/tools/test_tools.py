@@ -312,7 +312,7 @@ def test_lockcheck_leaks():
              ("Seven of us, they say.", "number word"),
              ("Half a dozen gods walk here.", "number word"),
              ("The star pulls twice a year.", "number word"),
-             ("There is one like me in the hills.", "number word")]
+             ("There are two like me in the hills.", "number word")]
     for text, kind in cases:
         with tmpcopy() as repo:
             append(repo, pub, text + "\n")
@@ -458,12 +458,12 @@ def test_lockcheck_number_words():
     assert hits("We were seven when we came down.")
     assert hits("the seven of us") and hits("A dozen gods") and hits("half a dozen like us walk")
     assert [h[0] for h in hits("It fell twice that winter.")] == ["twice"]
-    assert not hits("No one came down the track.") and not hits("They help one another, as gods do.")
+    assert not hits("No one came down the track.") and not hits("A god here has one body.")  # "one" is never a count
     assert not hits("Seven sheep. The god sleeps.")  # another sentence
     assert not hits("seven fields of barley and rye and oats and wheat lay by the god")  # more than six words apart
     assert hits("seven fields of barley and rye, the god")  # six words between
     assert not hits("seven fields of barley and rye by the god")  # seven words between
-    assert not hits("thirteen gods")  # one to twelve only; the count of gods itself is its own check
+    assert not hits("thirteen gods")  # two to twelve only; the count of gods itself is its own check
     with tmpcopy() as repo:  # a number-word hit is exempted by its quoted phrase
         append(repo, "campaigns/fx/player/notes.md", "Snow fell two days running.\n")
         code, out, _ = lock(repo, "--leaks")

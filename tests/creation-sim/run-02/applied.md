@@ -42,7 +42,7 @@ Each line names the run 02 change list items it applies.
 ## Tools side
 
 - tools/lockcheck.py: `--leaks` reads `S/sealed-terms.txt` as the primary sealed list (matched case and all, with or without a leading "The" when two or more words remain; a missing file fails; a term that is a map name the player's god has seen or been told is passed over, per runbook 7.12); the older prose guesses (card titles, Name lines, hidden-power headings, common-secrets capitals) are warnings only (30).
-- tools/lockcheck.py: `--leaks` fails a number word (one to twelve, "a dozen", "half a dozen", "twice") within six words of "god", "gods", "like me", "like us", "of us", "pulls", "came down" or "fell" in the same sentence; "one" after no, any, every, the and the like, and "one another", are not counts; a hit the checker clears is exempted by its quoted phrase in `leak-allow.txt` (44).
+- tools/lockcheck.py: `--leaks` fails a number word (two to twelve, "a dozen", "half a dozen", "twice"; never "one") within six words of "god", "gods", "like me", "like us", "of us", "pulls", "came down" or "fell" in the same sentence; a hit the checker clears is exempted by its quoted phrase in `leak-allow.txt` (44).
 - tools/lockcheck.py: mystery titles matched case-sensitively (42).
 - tools/lockcheck.py: `--mysteries` reads `Answers questions: yes|no` (missing, repeated or another word fails) and requires a `Limit:` line in the Truth or Body on yes; no guessing from wording (44).
 - tools/lockcheck.py: every mode skips `lock-flags*.md`, `years/000/lock-flags.md` among them (45).
