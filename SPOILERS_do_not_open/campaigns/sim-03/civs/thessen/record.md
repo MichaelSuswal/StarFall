@@ -11,6 +11,8 @@ Wood folk of the north-eastern edge of the Deepwood [r06], where it opens on the
 
 History, as the world has it: they are the descendants of the foresters and hound-keepers of a hunting kingdom whose law kept this wood wild; the kingdom is gone and the law outlived it as custom. Neighbors: the Hethren on the North Heath [r08], who trade wool and cheese for hounds and cured pork at the Sow Fen's [f07] edge; the Arroway beyond Smoke Pass [f18], seen every few years; no one else is known. The trouble their god did not ask for: a wasting sickness has run in the mast herds two autumns in a row, and two great houses are in an open quarrel over pannage rights that the Moot has failed to settle three times.
 
+What the old tell, as the people hold it and partly wrong (added on Night 3b from the deep history): The Hunt Kings ruled from a hall in the deep wood and built Hartwall [f08] as a gate lodge. The last of them, Alder, rode after a white boar and is held to be away, not dead; the Door room is his. Old hound-keepers tell of a spring in the deep wood where a hound that drinks keeps its nose for life, and no one living has been to it. They say the wild-law is the kings' law. It is older than the kings.
+
 ## How many
 About 5,000: about 3,400 in and close about Hartwall [f08], the rest in swineherds' steadings and coppice lodges within three days' walk inside the wood. The usual number; the god's lean was smaller and it took the usual number, giving its reason. No size cost is argued.
 
@@ -76,7 +78,7 @@ The offices below exist among the people and are filled on the evening the god c
 > How orders travel: I speak to the Warden of the Door alone, in the Door room, in dusk or lamplight, since I see poorly in hard noon glare. The Warden speaks it to the Council and the officers. The officers carry it to the houses and the herds. What comes back goes the same way, up to the Door. When I am away, the court runs on my standing conduct and my last decisions, and no officer may add to them in my name.
 
 ## How the god meets them
-Waiting, in part. The god wished that the seat had been kept empty and that one sign was told of who would come to it. What the world holds: the hunt-kings' steward kept the Door room for a king who was away, and the Wardens have kept it since by custom, empty, with no one expected. The saying that the hounds of the town will lie down at the Door for the one whose room it is exists, as an old saying a few of the old know and most take for a joke about a late master. No one is watching for it. To be reconciled with the deep history in 3b. The god's conduct (it comes at dusk on the beaten path, reads the path, goes to the hounds, then to the Door) is recorded as conduct.
+Waiting, in part. The god wished that the seat had been kept empty and that one sign was told of who would come to it. What the world holds: the hunt-kings' steward kept the Door room for a king who was away, and the Wardens have kept it since by custom, empty, with no one expected. The saying that the hounds of the town will lie down at the Door for the one whose room it is exists, as an old saying a few of the old know and most take for a joke about a late master. No one is watching for it. Reconciled on Night 3b: the room has been kept since 452 BA for the last Hunt King, a mortal, and the meeting holds. The god's conduct (it comes at dusk on the beaten path, reads the path, goes to the hounds, then to the Door) is recorded as conduct.
 
 > They are waiting. I ask, as a wish and not as a fact, that the seat has been long kept and tended, empty, and that they were told only one sign of the one who would come to it: that the hounds of the town would lie down at the Door. I come at dusk, on the beaten path, alone, in my cloak and unseen, and I read the path before I speak to anyone: what passed, how long ago, whose beasts. I go first to the hounds, since the hounds will know me and I would learn the town by what the hounds do. Then I go to the Door. What they know of me on the first morning is only the sign. They know no name, and no shape. My conduct is to be seen by few, to speak through the Warden, to hold the crown from behind the Door, and to walk among them unnoticed when I would see for myself.
 
@@ -97,6 +99,8 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - Smoke Pass [f18]: reported. about 235 miles north-east, about 17 days on foot over rough ground at 14 miles a day.
 - The High Table [r04]: rumored. a walled-in valley beyond the pass.
 - The Folds [r05]: rumored. dark hills where no one goes.
+- The Horn Hall [f63]: reported. by a few trackers, as post rings in the deep wood; about 270 miles west, about 27 days on foot over forest at 10 miles a day. Added on Night 3b from the deep history.
+- The Hound Spring [f64]: rumored. a name only, from old hound-keepers, a spring somewhere in the deep wood; no one living has been there; in truth about 280 miles south-west, about 28 days on foot over forest at 10 miles a day. Added on Night 3b from the deep history.
 
 ## Named mortals
 None yet. Office-holders are unnamed until play names them.

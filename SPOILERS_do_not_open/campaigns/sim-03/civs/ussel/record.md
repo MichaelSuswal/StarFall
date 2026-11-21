@@ -11,6 +11,8 @@ Hill and forest people of the Folds [r05]. Human.
 
 History, as the world has it: they came into walled seats that an older people built to be overlooked and left without a siege (Hollow Seat [f51] still stands empty); Stillgate [f09] is laid on that people's dressed stone. Neighbors: none they deal with. The Thessen are a rumor to the south-east. A trader comes perhaps once in two years and does not come back. The trouble their god did not ask for: Lowstair [f11] is hungry this winter, a blight took its grain in the autumn, and no one outside Lowstair [f11] has been told.
 
+What the old tell, as the people hold it and partly wrong (added on Night 3b from the deep history): They hold that the seats were empty when their forebears came up out of the great wood, some seven hundred years ago by the keepers' count, and that the people before them are not dead but elsewhere. The leaving of small things at the stair they found already old.
+
 ## How many
 About 5,000, the usual number: about 1,800 in Stillgate [f09], the rest in hamlets along the neighboring folds (Underfold [f10], Lowstair [f11] and smaller). No size cost is argued.
 

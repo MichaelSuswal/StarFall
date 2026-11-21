@@ -11,6 +11,8 @@ Road traders and herders of the Pale Steppe [r11] and the edge of the Rattlereed
 
 History, as the world has it: families who joined the road by a bargain over many generations, on a road and at way-stations older than any of them (the Trough Station [f27]; whose wall and trough it is, they do not know, and they use it). Neighbors: the Sallow, the reed folk of the Rattlereed [r12], who trade by night and are their oldest customers; the Column, who come down the Cairn Way [f20] for salt; the Weirfolk far down the Sarn [f03]. The trouble their god did not ask for: the Sallow say the winter reed-cutting at the ford takes reeds that are theirs, a tally of it has stood unmet for three winters, and the Sallow have stopped coming to the night market.
 
+What the old tell, as the people hold it and partly wrong (added on Night 3b from the deep history): They hold that the road was always there. The seven strokes cut on the trough are taken for a tally of something owed. Some springs a herd of bone-colored beasts comes in off the eastern grass and stands by the reeds a few weeks: those are white years, and no one hunts the white ones. Singers who trade nothing are in one old camp song and nowhere else.
+
 ## How many
 About 5,000, the usual number. No size cost is argued.
 
@@ -100,6 +102,7 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - Stakewater [f28]: reported. about 395 miles south-west, about 28 days on foot over rough ground at 14 miles a day.
 - The Shore Hills [r20]: reported. by the trains.
 - Averley [f39]: rumored. a walled city in the south.
+- Seven Wells [f68]: seen. a dry halt on the road; about 280 miles south, about 20 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
 
 ## Named mortals
 None yet. Office-holders are unnamed until play names them.

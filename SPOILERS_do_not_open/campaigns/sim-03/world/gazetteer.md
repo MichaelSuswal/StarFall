@@ -2,7 +2,7 @@
 
 # Gazetteer: sim-03
 
-Written on creation Night 3a from the traced map (`map.json`), after the tracing. One sheet, 1,024 pixels square at 1.6 miles to the pixel, about 1,640 miles across; a letter-number grid of 5 columns (A to E) by 4 rows (1 to 4). The land text of each region is the text of `tools/map.py describe sim-03 --region <id> --names`. Travel days are on foot at the pace table's rates between the middles of neighboring regions (rough ground 14 miles a day, forest 10, mountain 8, marsh 6). Each region's ordinary wonders are listed with no mystery attached; most of the world is not a clue. The underground has no sheet (not approved): what lies below is in the notes of the place that leads to it.
+Written on creation Night 3a from the traced map (`map.json`), after the tracing; twelve places added on Night 3b for the deep history, each marked. One sheet, 1,024 pixels square at 1.6 miles to the pixel, about 1,640 miles across; a letter-number grid of 5 columns (A to E) by 4 rows (1 to 4). The land text of each region is the text of `tools/map.py describe sim-03 --region <id> --names`. Travel days are on foot at the pace table's rates between the middles of neighboring regions (rough ground 14 miles a day, forest 10, mountain 8, marsh 6). Each region's ordinary wonders are listed with no mystery attached; most of the world is not a clue. The underground has no sheet (not approved): what lies below is in the notes of the place that leads to it.
 
 ## The Western Teeth [r01], A1
 
@@ -10,7 +10,7 @@ The ground is mountain, the western third of the great range, breaking down into
 Empty high country. No people holds it.
 Neighbors: The Snowhead [r02], 64 days; The Folds [r05], 30 days.
 Places:
-- None named.
+- The Stone Keel [f61], ruin, A1. Not a ruin: a long curved ridge of pale stone in the high rock, too large to be sure it is bone. The second of the great dead things. Known to: no one living. Added on Night 3b.
 Ordinary wonders: Lammergeiers on the thaw wind. A waterfall that freezes from the bottom up.
 
 ## The Snowhead [r02], C1
@@ -83,6 +83,8 @@ Neighbors: The Folds [r05], 36 days; The Mast Vale [r07], 34 days; The North Hea
 Places:
 - Hartwall [f08], town, B2. The walled town of the Thessen, where the wood meets the wet ground. About 3,400 within and close about the wall. Known to: the Thessen; a few traders.
 - The Walked-Round Shrine [f53], ruin, B2. An untended shrine in the wood. The Thessen walk round it. Known to: the Thessen.
+- The Horn Hall [f63], ruin, A2. Post rings and a boundary ditch of the hunt kings' great lodge, deep in the wood. Known to: a few Thessen trackers, by report. Added on Night 3b.
+- The Hound Spring [f64], ruin, B3. Not a ruin: a spring under an oak in the deep wood, with a worn stone lip. Known to: no one living; old Thessen hound-keepers have the name only. Added on Night 3b.
 Ordinary wonders: Oaks a house could stand inside. Boar wallows the size of ponds.
 
 ## The Mast Vale [r07], B2
@@ -105,6 +107,7 @@ Neighbors: The Deepwood [r06], 43 days; The Mast Vale [r07], 18 days; The South 
 Places:
 - Hethmoot [f43], village, C2. The winter meeting ground of the Hethren. Tents and a few stone pens. Known to: the Hethren.
 - The Sunk Road [f55], road, C3, about 620 miles long. An old road that goes nowhere now, north from Averley [f39] toward the Table Gap [f15], lost under turf across the heath. Parts of it run underground (data only). Known to: Averley [f39], in part.
+- The Nameless Mounds [f57], ruin, C2. Not one ruin: a field of low turf mounds in rows, the oldest built ground on the sheet. A city of the first farmers of the bowl. No stone in it bears a mark. Known to: the Hethren, as ground to pass by. Added on Night 3b.
 Ordinary wonders: Larks. Peat that burns with a blue edge, as peat does.
 
 ## The South Heath [r22], C3
@@ -114,6 +117,7 @@ Grazed by the Hethren.
 Neighbors: The Deepwood [r06], 55 days; The North Heath [r08], 17 days; The Dun Back [r09], 9 days; The Flood Meadows [r14], 29 days; The Old Low Country [r15], 24 days; The Tally Meadows [r16], 16 days.
 Places:
 - The Sunk Road [f55], road, C3, about 620 miles long. An old road that goes nowhere now, north from Averley [f39] toward the Table Gap [f15], lost under turf across the heath. Parts of it run underground (data only). Known to: Averley [f39], in part.
+- Ansa's Spring [f58], ruin, C3. Not a ruin: a spring on the southern lip of the heath, the one water on the heath that is called by a person's name. Known to: the Hethren. Added on Night 3b.
 Ordinary wonders: Springs along the southern lip. Wild horses, small and dun.
 
 ## The Dun Back [r09], C3
@@ -172,6 +176,7 @@ Neighbors: The Pale Steppe [r11], 34 days; The Rattlereed [r12], 34 days; The Fl
 Places:
 - The Pallow [f06], river, E3, about 1100 miles long. The steppe river, low in summer, braided at the ford. Known to: the Lowlamp; the Sallow.
 - The Pale Road [f26], road, E3, about 870 miles long. A road on hard pale ground, older than any town on it. Known to: the Lowlamp; road traders.
+- Seven Wells [f68], ruin, E3. Choked stone wells and wall lines of a caravan city on the Pale Road [f26], older than the road's present line. Known to: the Lowlamp, as a dry halt. Added on Night 3b.
 Ordinary wonders: Salt licks where herds gather. Mirage on the hard ground in summer.
 
 ## The Flood Meadows [r14], D3
@@ -185,6 +190,7 @@ Places:
 - Stakewater [f28], town, D3. The town of the Weirfolk on the high bank at the one good crossing of the Sarn [f03], which they call the Crossing. About 5,000 with its near fields. Known to: the Weirfolk; road traders; Averley [f39].
 - The Toll Stone [f29], ruin, D3. A worn standing stone at the crossing, older than any bridge footing there. Not a ruin: a stone. Known to: the Weirfolk.
 - The Meadow Road [f32], road, D3, about 530 miles long. An old rutted road along the Sarn [f03] from the ford to the crossing. Known to: the Marrans; Averley [f39]; the Weirfolk.
+- The Bare Reach [f59], ruin, D3. Not a ruin: a round of ground about a mile across where the Aver [f05] leaves the Sarn [f03]. Grass with no seed heads. Nothing particular grows there. Known to: the Weirfolk, as bad grazing; Averley [f39]. Added on Night 3b.
 Ordinary wonders: Flood meadows silver for a month each spring. Poplar down like snow in early summer.
 
 ## The Old Low Country [r15], D4
@@ -201,6 +207,7 @@ Places:
 - Nettlebridge [f41], village, D4. A bridge village on the Aver [f05]. Known to: Averley [f39]; the Weirfolk.
 - The Warm Stone [f42], ruin, D3. Not a ruin: a stone, blue-grey, warm, heavy for its size, that fell in open hill pasture the night the gods came down. Known to: no one yet.
 - The Sunk Road [f55], road, C3, about 620 miles long. An old road that goes nowhere now, north from Averley [f39] toward the Table Gap [f15], lost under turf across the heath. Parts of it run underground (data only). Known to: Averley [f39], in part.
+- Sedgeby [f65], ruin, C3. Bank and ditch of a ford town of the league, burned, on the Sarn [f03]. Known to: Averley [f39]; the Marrans. Added on Night 3b.
 Ordinary wonders: A city in rings. Orchards in ordered rows older than the present trees.
 
 ## The Tally Meadows [r16], C3
@@ -216,6 +223,8 @@ Places:
 - The Meadow Road [f32], road, D3, about 530 miles long. An old rutted road along the Sarn [f03] from the ford to the crossing. Known to: the Marrans; Averley [f39]; the Weirfolk.
 - The Strand Road [f33], road, C3, about 340 miles long. A road west toward the limestone, sunk in places under newer ground. Known to: the Marrans.
 - The Old Weighhouse [f34], ruin, C4. Footings of a great hall of a league of ford towns. Known to: the Marrans.
+- Withyford [f66], ruin, C3. Posts of a ford town of the league in the river mud, seen at low water. Known to: the Marrans. Added on Night 3b.
+- The White Acres [f67], ruin, C3. Not a ruin: old field strips on the Strand Road [f33] where little grows. Salted in the league's last war. Known to: the Marrans, as ground no one rents. Added on Night 3b.
 Ordinary wonders: Low water in late summer when the river can be walked. The fair.
 
 ## The Sump [r17], C4
@@ -247,7 +256,7 @@ The ground is coast, bare pale limestone ribs and thin wood above a cliffed shor
 Empty but for fowlers and a few fishers.
 Neighbors: The Deepwood [r06], 34 days; The Holed Wood [r18], 22 days; The Green Sea [r21], by water.
 Places:
-- None named.
+- Evenfire Cairn [f62], ruin, A4. Not a ruin: a cairn with a worn threshold stone and a hearth beside it that one family of fowlers keeps alight. Known to: fowlers of the White Ribs [r19]. Added on Night 3b.
 Ordinary wonders: White rock ribs like a flayed hill. Seabird cliffs.
 
 ## The Shore Hills [r20], E4
@@ -257,6 +266,7 @@ Thinly peopled.
 Neighbors: The Far Grass [r13], 18 days; The Flood Meadows [r14], 20 days; The Old Low Country [r15], 27 days; The Green Sea [r21], by water.
 Places:
 - The Pallow [f06], river, E3, about 1100 miles long. The steppe river, low in summer, braided at the ford. Known to: the Lowlamp; the Sallow.
+- Farwalker's Cot [f60], village, E4. Not a village: one stone cot and a walled bean plot above the shore. Known to: a few goatherds of the Shore Hills [r20]. Added on Night 3b.
 Ordinary wonders: Thyme and dry stone. Wild goats.
 
 ## The Green Sea [r21], C4

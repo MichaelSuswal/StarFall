@@ -11,6 +11,8 @@ Folk of the floor and terraces of the High Table [r04]. Human.
 
 History, as the world has it: they are the common people of a basin kingdom that held its passes for a thousand years and was ended from inside; the King's Stair [f54] is what is left of its hall. They have had no king since and do not speak well of crowns. Neighbors: the Hethren through the Table Gap [f15]; the Thessen beyond Smoke Pass [f18]; the Column, counted in and out at Kite Pass [f17]. The trouble their god did not ask for: two houses each claim the captaincy of Bell Pass [f16], the iron there has been struck by both, and the first snow is already on the rim.
 
+What the old tell, as the people hold it and partly wrong (added on Night 3b from the deep history): They hold that the last king left the table in anger at his stewards and that the pass captains broke the hall afterward. One telling, not much repeated, has it that long before he left he was seen to lift a hand's breadth from his chair. The iron at Bell Pass [f16] was brought by strangers from over the range, they say, in a captain's time whose name is on the stone.
+
 ## How many
 About 5,000, the usual number: about 3,000 in Brennhal [f12], the rest in terraced hamlets (Larchstead [f13], Oatsteps [f14] and smaller) within a day's walk. No size cost is argued.
 

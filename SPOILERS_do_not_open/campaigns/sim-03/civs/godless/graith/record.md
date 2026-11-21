@@ -26,4 +26,4 @@ They do not use the word. They speak of "the loud brief ones", and it is not cle
 Quiet, and the Door left shut.
 
 ## Whether and how they touch the great events
-They may, through what they remember. What they remember, and the limit on how they may be asked, is written in 3b with the cast.
+They may, through what they remember. What they remember, and the limit on how they may be asked, is in `mysteries.md`, L03, and in `cast.md`.

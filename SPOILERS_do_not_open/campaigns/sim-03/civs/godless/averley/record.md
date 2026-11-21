@@ -17,7 +17,7 @@ Grain, orchards, cattle, and salt boiled and dried in pans cut in the headland r
 A debt is written and is paid, and an unpaid one is inherited. Salt is the crown's and is sold, never given. A boundary once walked is never walked again. They are courteous, slow, and certain that they were here first.
 
 ## Their history in the land
-About six hundred years under the present line, on ground that has held a city far longer. They outlasted the league of ford towns and bought up its debts. They hold old half-sticks against many houses of the Marrans, and by an old treaty take a tenth of the toll at the crossing held by the Weirfolk. The deep history fixes their dates in 3b.
+About six hundred years under the present line, on ground that has held a city far longer. They outlasted the league of ford towns and bought up its debts. They hold old half-sticks against many houses of the Marrans, and by an old treaty take a tenth of the toll at the crossing held by the Weirfolk. The present line began in 600 BA; the city was laid out about 2,440 BA (deep history).
 
 ## What they believe about gods
 That the first kings became something more and watch the court. A court rite with no priesthood of weight. They do not expect gods to walk in, and a regent has reasons not to want one.

@@ -17,7 +17,7 @@ They follow the grass round the bowl through the year, and come down to the vale
 Grass is shared and water is not refused. A child is not given its own name until its seventh winter, and is called by its mother's until then. No one grazes, digs or sleeps on The Dun Back [r09]. They do not say why, and they do not look at it for long.
 
 ## Their history in the land
-They say they have always been on the heath. They have been there about nine hundred years, and before them the heath was farmed: The Sunk Road [f55] crosses it under the turf. The deep history fixes this in 3b.
+They say they have always been on the heath. They have been there about nine hundred years, and before them the heath was farmed: The Sunk Road [f55] crosses it under the turf. They came up from the eastern grass in 900 BA; the heath was last farmed between 2,300 and 1,000 BA (deep history).
 
 ## What they believe about gods
 That the big things of the world are asleep and are best left so. They make no shrines. They have a word for The Sleeper [f44] that is also their word for a debt not yet called.
@@ -26,4 +26,4 @@ That the big things of the world are asleep and are best left so. They make no s
 Winter grass, salt, and for no one to wake anything.
 
 ## Whether and how they touch the great events
-They do: they live round the star's center and round the center beast, which is small for its kind and slow. What it does to those who live beside it is written in 3b, with the mysteries.
+They do: they live round the star's center and round the center beast, which is small for its kind and slow. What it does to those who live beside it is in `mysteries.md`, L01.

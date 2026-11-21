@@ -13,6 +13,8 @@ Pass people of the Scree Marches [r03]: herders, carriers and stone workers. Hum
 
 History, as the world has it: they have walked this circuit longer than they can count, between forts and passes built by peoples before them (Three-Age Fort [f48]; the Shut Pass [f47], closed by a fall no one living saw, which cut one hold out of an older, larger ring). Neighbors: the Graith in the eastern heights, with whom they keep an old rule of not entering Graithdeep [f46] and are let alone; the Lowlamp on the Pale Road [f26], who buy felt, cheese and rope and sell salt; the Arroway at Kite Pass [f17], who count them in and out. The trouble their god did not ask for: damp got into the cellars at Farcellar [f24] this winter and a fifth of the Column's grain is spoiled, and the Marshal and the Warden of the Holds each blame the other.
 
+What the old tell, as the people hold it and partly wrong (added on Night 3b from the deep history): They hold that their forebears kept the eastern forts for a king of the basin and took to the circuit when he was gone, and that the ring once had a fifth hold that the mountain took. A marshal's horn of an old pattern, found on the scree some thirty years ago, hangs at Greybay Hold [f21]; no one knows whose it was. The Graith greet them with the words "the roof held" and with nothing else.
+
 ## How many
 About 5,000 in about a thousand households, the usual number. No size cost is argued.
 

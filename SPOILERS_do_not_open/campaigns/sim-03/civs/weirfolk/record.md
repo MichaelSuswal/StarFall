@@ -13,6 +13,8 @@ Ford folk of the Flood Meadows [r14], at the one good crossing of the Sarn [f03]
 
 History, as the world has it: the crossing has been fought over by every power this country has had, and the Toll Stone [f29] is older than any bridge footing there. For three generations they have kept it without a crown, under a council of ferry houses and a reeve of the toll, as the god wished. Neighbors: the kingdom of Averley [f39] to the south-west, which by an old treaty takes a tenth of the toll; the Marrans downriver, who pay the toll and resent it; the Sallow upriver in the reeds, who cross by night and pay in fish; the Lowlamp, who come down the river road. The trouble their god did not ask for: Averley [f39] has sent to say the tenth is two years behind, and the spring flood has taken a third of the stakes.
 
+What the old tell, as the people hold it and partly wrong (added on Night 3b from the deep history): They hold that their grandfathers' fathers put the low kingdom's spears across the river in one night and that the terms are cut at the foot of the stone: a tenth, in kind. The bare round upriver where the Aver [f05] leaves is bad grazing and bad luck, and the tale is that a queen's witches cut the river there and paid for it.
+
 ## How many
 About 5,000, the usual number, gathered close in Stakewater [f28] and its near fields. No size cost is argued.
 
@@ -112,6 +114,7 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - Lampford [f25]: reported. about 395 miles north-east, about 28 days on foot over rough ground at 14 miles a day.
 - The Pale Road [f26]: reported. by the Lowlamp.
 - The South Heath [r22]: reported. by herders who come down to the crossing.
+- The Bare Reach [f59]: seen. bad grazing where the Aver [f05] leaves the Sarn [f03]; about 50 miles north-east, about 4 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
 
 ## Named mortals
 None yet. Office-holders are unnamed until play names them.

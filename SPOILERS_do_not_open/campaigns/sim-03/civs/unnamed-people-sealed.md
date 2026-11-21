@@ -8,7 +8,7 @@ Campaign: sim-03. Written by the Keeper on creation Night 3a, 2026-11-20. The pu
 In The Holed Wood [r18]. The unnamed town [f35] stands in a shallow dry valley of deeper soil between limestone ribs: about 3,000 in the town, about 2,000 in farms and clearings within two days' walk. The Coppice Track [f36] runs out through their coppice toward the low country. Swallet Mouth [f37] is about 5 miles north-west of the town. The player's wish for a town with farms and clearings round it is placed as wished; a wall was not asked for and the town has a bank and a thorn hedge, no wall.
 
 ## The items the DM listed to reconcile
-1. How long they have been here, by their own telling: "since the grandmothers' grandmothers", said shortly, and they change the subject. In truth about four centuries. The deep history fixes the year in 3b.
+1. How long they have been here, by their own telling: "since the grandmothers' grandmothers", said shortly, and they change the subject. In truth 405 years: their forebears came west from the salted fields in 405 BA (deep history, the fifth age).
 2. What they say came before them: "the wood was here, and the graves were here." Both are so. They did not make the oldest graves and do not like to be asked whose they are.
 3. What lies past their borders, as they know it: marsh where the land drops (The Sump [r17]), bare white rock and a cliff shore to the west (The White Ribs [r19]), more forest far to the north, and low open country to the east where the buyers of charcoal come from and where salt comes from, dear. Full grades are in the last section.
 4. The burial custom: older than the town. They took it from the ground they settled, which was a burying ground long before them.
@@ -18,7 +18,7 @@ In The Holed Wood [r18]. The unnamed town [f35] stands in a shallow dry valley o
 8. The town: stands, as above.
 9. The burial ground and orchard at the edge of town: stand, on the deepest soil in the valley, as wished. The soil is deep there because the ground has been a burying ground for far longer than the town has stood.
 10. Valleys, and ground that will not take wide fields: so. Shallow dry valleys between ribs of rock, thin soil on the ribs, deeper in the floors, nowhere wide enough for a great field.
-11. The manners about salt and fire turned on land: an ordinary custom with a real origin they have half forgotten, a salting of fields in an old quarrel with the low country. The deep history fixes it in 3b. No one among them connects it with anything about a stranger.
+11. The manners about salt and fire turned on land: an ordinary custom with a real origin they have half forgotten, the salting of the league's western fields by the low kingdom's levy in 411 BA, the White Acres [f67] (deep history, the fifth age). No one among them connects it with anything about a stranger.
 12. The seed that breeds true: sound and clean. Sound seed is short everywhere in this world, so theirs is worth a good deal to anyone who learns of it. It is no better than the best kept elsewhere. No edge.
 13. The steward's pressing: the steward's half of the price stands as the DM set it, a day of her own speech each time (ledger L-0029). It is of the kind and size that mortal working costs here.
 14. The old houses and the council: twelve houses, unnamed house 1 to unnamed house 12. Three of them say they are older than the town. They are not.
@@ -29,7 +29,7 @@ Nothing in these answers changes anything the DM wrote. No correction is sent.
 The seven hopes in `campaigns/sim-03/player/people-meeting.md` are hopes. None is placed, scheduled or refused. What the steward, the seed keeper and the track warden do is theirs, in play.
 
 ## How the god meets them
-As agreed: they are already there, wait for nothing, and do not know a god is coming. The god comes down in the forest on the worn track about 2 miles from the town, sees its smoke and not the town, and has no helpers in fact. Kept unless the deep history cannot hold it (3b).
+As agreed: they are already there, wait for nothing, and do not know a god is coming. The god comes down in the forest on the worn track about 2 miles from the town, sees its smoke and not the town, and has no helpers in fact. Kept: the deep history holds it (Night 3b).
 
 ## Their magic
 Fitted to the world, the same way as for every people: three or four among the 5,000 can do one small thing each and pay for it in the body, late. None is named. None is among the three the player designed, apart from the pressing, which is the god's power and sleeps.
@@ -52,3 +52,6 @@ Neighbors: the Marrans, whose carriers buy their charcoal; fowlers of the Sump [
 
 ## Named mortals
 None. The three the player made are in `campaigns/sim-03/civs/unnamed-people/people/`, unnamed.
+
+## What the old tell (added on Night 3b from the deep history)
+As the people hold it, and partly wrong: that the first of them came out of the low country in a bad time, led by a widow, and that salt was the bad time; that the grave words were found cut on a slab at the head of the valley; that the great shapes in the rock to the north are owed ground. They do not know the name Tamar; her grave is the oldest of the town's own and has no mark. The oldest graves under the deep soil are the Burying Folk's, more than three thousand years old.

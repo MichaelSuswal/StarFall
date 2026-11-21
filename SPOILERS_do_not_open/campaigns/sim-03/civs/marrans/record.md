@@ -11,6 +11,8 @@ Carriers, ferrymen, herders and field hands of the Tally Meadows [r16] and the l
 
 History, as the world has it: they are what is left of a league of ford towns that struck a common weight and fell apart over it; the Old Weighhouse [f34] is its hall. Neighbors: the kingdom of Averley [f39] across the Sarn [f03], old, rich and their largest customer and creditor; the Weirfolk at the crossing upriver, who take a toll of everything the Marrans carry past; the people of the Holed Wood [r18] to the west, who sell charcoal and are told little. The trouble their god did not ask for: most of the old unmet half-sticks that bind one Marran household in five are held by houses of Averley [f39], and Averley [f39] owns the salt at Saltsteps [f40] that the Marrans carry and do not own.
 
+What the old tell, as the people hold it and partly wrong (added on Night 3b from the deep history): They hold that their forebears' league was cheated of its weight by the low kingdom, and that many of the old debts held against them were paid before the war. The burned town upriver and the salted strips on the western road are shown to children. The split stick is theirs by right, they say, and always was.
+
 ## How many
 About 5,000, the usual number: about 1,700 in Tallyford [f30] through the hard months, the rest on roads and boats, gathering for the autumn reckoning. No size cost is argued.
 
@@ -82,6 +84,9 @@ Measured from the traced map at the pace table's rates. Grades: seen (their own 
 - unnamed town [f35]: reported. a town of woodland people in the limestone forest, by charcoal buyers.
 - The Rattlereed [r12]: rumored. a great reed marsh far up the river.
 - The Green Sea [r21]: seen. the near coast only.
+- Withyford [f66]: seen. posts in the river mud at low water; about 100 miles north, about 7 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
+- Sedgeby [f65]: seen. a burned ford town of the league; about 210 miles north-east, about 15 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
+- The White Acres [f67]: seen. old field strips no one rents; about 240 miles north-west, about 17 days on foot over rough ground at 14 miles a day. Added on Night 3b from the deep history.
 
 ## Named mortals
 None yet. Office-holders are unnamed until play names them.
