@@ -98,3 +98,41 @@ What I'm buying with it: the slow word reaching a plot I've only touched once, n
 **One line I'm arguing.** You wrote that the ground-ear hears nothing under stone or in dead ground. I accept that. But please confirm that a tended line crossing a sinkhole, cave floor, or leaf litter over rock still carries, as long as there's living soil on the surface. Limestone country is what I asked for, and I don't want the power to fail at the first hole in the ground.
 
 That's all I have for today. I'm ready for helpers tomorrow.
+
+## DM:
+
+"That is enough of you to come down with. The last of what you said I will keep where only your own conduct reads it, and I will not hand it to anyone to sell back to you. One small thing is left. What is on you when you land? Clothes, a bag, a tool, anything in your hands."
+
+(oog) Your answers and my rulings first, then the whole card read back for your yes.
+
+**The broken body.** There is no harsher rule waiting. A god cannot die, and how your body breaks and returns is yours to set. What you described has a trigger and a cost, so it is written as a power, the slow return, and a power needs a drawback you would notice. I am proposing the one you named yourself on Day 1: each time you come back from nothing, a memory or a habit does not come back with you, and you are not told which. Say no if you want a different price and I will offer another.
+
+**The floor on drawback B.** Confirmed, it is a floor. Listen for the minimum and you lose a day of speech. Listen for longer than a day and you lose as long as you listened.
+
+**The line over rock.** Confirmed, and settled at creation: a tended line carries wherever there is living soil at the surface, however thin, whatever lies under it. Leaf litter and soil over rock carry. A line can run down into a hollow or a sinkhole and across its floor if living soil runs unbroken down the side and across. A sheer drop of bare rock breaks it, and you lay the line around the rim. A cave floor carries only as far in as its soil is alive. What you hear is still the surface and nothing beneath. I cannot tell you what country you will land in, so this is written on soil and rock, not on limestone.
+
+**The purchase.** Written as you asked: "touched" means your bare hands on the soil of that plot, once, while that soil is alive. One term comes with it that I had not stated, so check it: a touched plot does not need a tended line to it, but you still send from tended ground, and a slow word to a plot not joined by a line takes ten days to a month to come up, not three to ten days.
+
+**Two terms of the weakness I am making exact**, so check these too. Dead or sterile ground means ground where nothing grows within a bowshot of you: salted, burnt to mineral, poisoned, bare rock, deep cave, and open water out of reach of soil. A town with gardens and weeds is living ground. Frozen ground is asleep, not dead. And a line of salt or fire stops your body both ways. It keeps you out, and a closed ring of it keeps you in.
+
+**The card, read back.**
+
+Filed under: the Understory. No name of its own yet. Mortals will name it.
+
+Form. One body, in one place, as for every god here. It looks like a thin, patient person of no particular age, with pale hands that are always a little damp. It smells of leaf mold and wet stone. Small fungi come up wherever it rests for long, and anyone can see them. It has no look of rank. Senses you have not described are unsettled and will be asked about in play. It knows another god only face to face, close, as a weight or unease that grows surer with time and can be wrong, and it knows that others came down when it did. Things carried: whatever you tell me next.
+
+Definitions. Tended ground: living soil you have worked with your own bare hands until your threads have taken, about three days of your work for an acre. Tended line: a strip a pace wide, laid by walking it barefoot and slowly, about a mile a day. Both last while the soil lives. Fire to the mineral soil, salting, poison or stripping ends them. Hard frost silences them until the thaw. A line carries over any living surface soil, breaks at bare rock, paving, open water, and running water wider than a stride that no roots cross. Marsh carries if alive. Touched: bare hands on the soil of a plot, once, while it lives.
+
+Power 1, the ground-ear. With bare hands or feet in tended ground, you hear what touches the surface of all tended ground joined to you by an unbroken line, and about a bowshot beyond its edges, at any distance along the line. You hear weight, number, gait, direction, digging, felling, fire, and a body going into the soil. No words, faces or names. A tread is known only if you have stood near that walker in the flesh. The living layer only, nothing beneath stone, behind a sealed place or in lifeless ground. What happens, never why. Footfalls linger a few days. Digging, fire and burial linger until the next winter. Drawback: the listening spends your speech. For as long as you listened, and never less than a day, you cannot hold speech with people. Limits: an hour to sink in and an hour to come out. While listening you are blind, deaf and numb, your body sits in plain sight and can be moved or harmed, and lifting your skin from the soil ends it. Shoes, gloves and potted soil do not work. Light and dark do not matter. It never tells a god from a mortal. Your own people get no exemption. Ground worked by more than ordinary craft, and anything it does to another god, are unruled until they happen. Your first wording is kept as intent: listening through roots and threads with no limit on range, to know the land while staying in one place. I trimmed it to tended ground, the surface, and a short memory.
+
+Power 2, the slow word. From tended ground you send one image or one mood, no words or names, to one plot that is tended or touched. It comes up as a flush, a smell, or a dream for whoever sleeps nearest, in three to ten days along a line, ten days to a month to a touched plot with no line. One in the ground at a time. It rules no mind, and the reading belongs to whoever reads it. You do not learn how it landed unless you listen or go. Passers-by can see or smell it. Frost, fire or digging kills it before it comes up. Sent to ground another god holds, or to a god, it is unruled until it happens. Drawback: you send what you have. The mood or image is gone from you while it is in the ground, and if it is killed there it comes back a season late. Trade: reach to touched plots was bought with the weakness below.
+
+Power 3, the slow return. Your body is slow to die and slow to mend. Ordinary wounds close no faster than a mortal's. A body destroyed or scattered grows back from the living soil nearest the largest part of what is left, and takes no less than a full season. It is no escape: held, buried or walled in, you stay there, and remains kept from living soil do not return until soil reaches them. While mending from ruin or growing back you do nothing, and no one acts for you unless helpers do. Drawback, if you say yes: each return from nothing leaves behind a memory or a habit, and you are not told which.
+
+Weakness taken. Wounds from fire or salt do not close until you have lain a full season in living soil. Each day on dead or sterile ground weakens you, and by the third day you can do nothing but leave. A line of salt or of fire stops your body in both directions, and anyone who learns it can use it. It bought the slow word's reach to touched plots.
+
+Two hidden powers exist. That is all the card says of them.
+
+Conduct. The three wants and the six refusals, in your words. The unsaid part goes in the conduct profile, not on the card.
+
+If all of that is right, say yes and tell me what you carry, and the day closes. If any line is wrong, name it.
