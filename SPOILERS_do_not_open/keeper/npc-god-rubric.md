@@ -1,4 +1,4 @@
-# NPC God Creation Rubric (draft 2)
+# NPC God Creation Rubric (draft 3)
 
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
@@ -51,6 +51,8 @@ Drawn from world mythologies. Used for flavor of being, not copied.
 30 The wandering stranger who tests hospitality and punishes its absence (Zeus Xenios, Odin Grimnir, the Elohim at Mamre)
 
 ## 3. Domain (roll d20; reroll duplicates within a campaign)
+Also reroll a domain that matches what the player has said its own god is about, in its Day 1 answers or in any remark kept with them (runbook 1.3), so that the player's god stays somewhat its own. The reroll is logged with its reason and the roll it replaces, and no one is told.
+
 1 fire, 2 harvest, 3 war, 4 secrets, 5 roads and borders, 6 the dead, 7 the sea, 8 storms and sky, 9 stone and mountains, 10 craft and making, 11 beasts and the hunt, 12 healing and rot, 13 law and oaths, 14 trade and counting, 15 song and memory, 16 dreams and night, 17 rivers and springs, 18 ice and winter, 19 thresholds and doors, 20 fate and chance
 
 ## 4. Form (roll d12)
@@ -69,6 +71,8 @@ Flaw: 1 pride, 2 wrath, 3 envy, 4 greed, 5 fear, 6 despair, 7 lust for being wor
 ## 8. Traits
 After seeing all rolls, the god's agent names two traits for itself (what it will be known for). The Keeper assigns one more, known to the god from arrival.
 
+The Keeper trait is a new fact, one the god's rolls and its own two traits did not supply, that presses on a contradiction already on its sheet. It adds nothing that resolves the contradiction and nothing that invents a second one; it makes the existing pull harder to live with or harder to ignore. Written in one line.
+
 ## 9. Rules
 - No two gods in one campaign share an archetype seed or a domain.
 - The agent must reconcile contradictions among its rolls rather than ignoring them; a contradiction is where the character lives.
@@ -86,6 +90,8 @@ Principle from run 01 (Night 2, step 2.2): when gods working apart arrive at the
 How hard a god argues over the price of its powers (Night 2) and its people's edges (Night 3). Worked out from the leans when the sheet is written, and written on the sheet in words, as part of the god's character. The Keeper prices the same way whatever the stance; the stance shapes how the god answers.
 
 Stance score: the mean of Appetite, Trust and Regard for mortals, rounded.
+
+Rounding, for every score in this rubric: to the nearest whole number; a mean that falls exactly on a half (from two or four leans) rounds up, toward 100. A mean of three whole numbers never falls on a half. The rounded score is written on the sheet with the leans it came from.
 
 | Score | Stance | On the sheet |
 |---|---|---|
@@ -106,7 +112,9 @@ Then, whatever the score, these shape how it argues (each from 1 to 35 or 66 to 
 Every god gives a reason for each thing it asks and for each price it accepts. Accepting everything is a choice open to any stance, never the default the release suggests.
 
 ## 12. The people it leans toward
-Worked out from the leans when the sheet is written, and written on the sheet in words, so that seven gods do not come out alike. It is the god's own lean, as a lean is: the god may hope otherwise and says why in `people-hoped.md`.
+Worked out from the leans when the sheet is written, and written on the sheet in words, so that seven gods do not come out alike. It is the god's own lean, as a lean is: the god builds within it, and may hope otherwise if it gives its reasons in `people-hoped.md`.
+
+Every god comes down to lead a people, to build, rule and spread (the premise of The Between). The leans below decide the form that takes, never whether. Every NPC god starts with a people and with helpers who run things in its absence (the `## Helpers` section of the people record); the god may refuse them, dismiss them or never meet them in play, and once dismissed they are not forced back.
 
 ### Size
 Size score: the mean of Company, Appetite and Regard for mortals, rounded. (Company carries its +25.)
@@ -119,13 +127,75 @@ Size score: the mean of Company, Appetite and Regard for mortals, rounded. (Comp
 | 66 to 80 | large: seven to fifteen thousand, with a town of size |
 | 81 to 100 | very large: fifteen to thirty thousand, with a city |
 
-### Shape
-Each lean below sets one part of the shape. A lean from 36 to 65 sets nothing for that part, except Order, whose middle has its own shape.
+A people larger than the default is not a priced edge. Its costs are practical and come from the world (more food and fuel, slower growth, harder to move, a longer gestation for a larger kind of people), argued case by case and open to argument, and the Keeper applies them in play (runbook 3a.1). More than a few large peoples in one campaign is possible.
 
-- **Rule, from Order.** 1 to 35, ruled by law: a king or lord under the god if Regard for mortals is 50 or more, written law and its keepers if less. 36 to 65, a council of elders or headmen. 66 to 100, no fixed ruler: leaders chosen for the task, or none.
-- **Rites, from Presence.** 1 to 35, it wants to be seen: rites, a shrine, keepers or a priesthood. 66 to 100, it wants to be unseen: no priesthood, and it may hope its people do not know it is there.
-- **Service, from Regard for mortals.** 1 to 35, it serves them: no tithe, counsel at most. 66 to 100, they serve it: offerings, tithe, a household that tends it.
-- **Settlement, from Making.** 1 to 35, a builder: a walled seat or a town. 66 to 100, a breaker: scattered, moving, no fixed seat.
-- **Gathering, from Company.** 1 to 35, scattered steadings. 66 to 100, gathered close in one place.
+### Settlement
+One result, from Making and Company together. Find the row by Making and the column by Company (with its +25); the cell is the result, and the two leans never give two results that contradict each other.
 
-Write the result on the sheet as two short lines, for example: "Leans toward a large people, gathered in a walled town, ruled by a king under it, with rites and a priesthood." or "Leans toward a few hundred, scattered and moving, with no ruler and no priesthood."
+| Making \ Company | 1 to 35, solitary | 36 to 65 | 66 to 100, gathering |
+|---|---|---|---|
+| 1 to 35, builder | a walled seat with steadings scattered round it | a walled seat or town | a walled town, gathered close |
+| 36 to 65 | scattered steadings | the default: a town | gathered close in one place |
+| 66 to 100, breaker | scattered and moving, no fixed seat | moving, no fixed seat | a close band on the move, no fixed seat |
+
+### Rule lean
+How the god's people are ruled, and who holds rule under the god. Rule score: the mean of (101 minus Order), Regard for mortals and Appetite, rounded. Law, sovereign and hungry push toward a ruling god; freedom, shepherd and content push toward a loose one.
+
+| Score | Rule lean | On the sheet |
+|---|---|---|
+| 1 to 12 | a lone god with no one | No one rules under it and no one helps it: a people lives near it and goes its own way. Rare; it comes only on an extreme roll. |
+| 13 to 39 | a council of elders or chieftains | The people is ruled by a council of its own (elders, headmen, chieftains); the god is heard there, and the council's helpers carry out what is agreed. |
+| 40 to 54 | a sacred monarch behind a court | A mortal line holds the throne in the god's name and is held sacred for it; a court stands between the throne and the people, and the god is reached through it. |
+| 55 to 69 | a mortal ruler under the god | One ruler answers to the god and rules for it: a priest-king, a warlord or a merchant-prince, by the variety table below (those three only). |
+| 70 to 100 | a god-king with a court and priesthood | The god holds the crown itself, with a court, officers and a priesthood; its word is law, carried by them. Its manner is set by the variety table below (all five). |
+
+Odds, for the Keeper's reference: about 1 in 130 for the lone god, a quarter for a council, a third for a sacred monarch, a quarter for a mortal ruler, one in seven or eight for a god-king.
+
+**Variety table.** For each kind, take the lean value given; the highest wins; a tie is settled by one roll at even odds, logged.
+
+| Kind | Value | What it means |
+|---|---|---|
+| tyrant | Regard for mortals (toward sovereign) | rules by fear and its own will; the people serve it |
+| priest-king | 101 minus Presence (toward revealed) | rules through rite and its own visible presence |
+| warlord | 101 minus Body (toward strong) | rules by force, through its war band and captains |
+| merchant-prince | Mind (toward clever) | rules by bargain, debt, toll and trade |
+| sacred monarch | Presence (toward hidden) | the god is the monarch, seldom seen; its court speaks for it |
+
+In the 55 to 69 band the kind names the mortal ruler (priest-king, warlord, merchant-prince only); in the 70 to 100 band it names the god's own manner as king (all five).
+
+### Worship lean
+How the god is worshipped, if at all. Worship score: the mean of (101 minus Presence), Regard for mortals and Appetite, rounded. Revealed, sovereign and hungry push toward a state cult; hidden, shepherd and content push toward none.
+
+| Score | Worship lean | On the sheet |
+|---|---|---|
+| 1 to 29 | none | It asks no rites; what the people do about it is theirs. |
+| 30 to 49 | local shrines | Household and village shrines, kept by whoever keeps them; no order of priests. |
+| 50 to 69 | a priesthood | Keepers of rite with standing among the people, offerings brought, no tithe by law. |
+| 70 to 100 | a state cult | Temples, tithes and a priesthood under the throne. |
+
+### On the sheet
+Write the result as four short lines in the sheet's `## The people it leans toward` section, for example:
+"Size: large, seven to fifteen thousand, with a town of size. Settlement: a walled town, gathered close. Rule: a god-king with a court and priesthood, a merchant-prince in manner. Worship: a priesthood."
+or
+"Size: a few hundred. Settlement: a close band on the move, no fixed seat. Rule: a council of chieftains. Worship: local shrines."
+
+Each god builds within its result. It may hope for something else, and then it says why, in its own voice, in `people-hoped.md`; the Keeper reads the reasons against the sheet as on Night 2 (a hope that leaves the lean with no reason given breaks character and is sent back once). The Night 2 and Night 3 releases carry the rule lean and the worship lean in one line each and ask the god to build within them.
+
+Principle from run 02 (Night 1, step 1.3): where two leans on one sheet seem to give two results that cannot both hold, the rubric's table gives one result and the contradiction is the god's to live in (section 9); the Keeper does not pick one lean over the other by judgment.
+
+## 13. Test overrides
+
+A test run may force lean results to test the engine. The rubric never changes for it.
+
+- The override lives in the campaign's `state/test-overrides.md`, written before Night 1 by whoever starts the run with Michael's go: in the sealed campaign folder (`SPOILERS_do_not_open/campaigns/<name>/state/test-overrides.md`) where it exists, since it names NPC god results; the Keeper also looks for `campaigns/<name>/state/test-overrides.md`. A campaign with neither file has no override.
+- The file names each forced result: which lean (size, settlement, rule, worship), which gods (all NPC gods, or by label once labels exist), the result or family of results forced, how a variety within it is chosen (by this rubric's tables, from the god's rolls), and the date Michael approved it.
+- The Keeper rolls every lean as usual and works out the rubric's own result first. Then it applies the override and logs both, in the keeper log, at step 1.3: the rubric's result with its score, the forced result, and the override file's line. The sheet carries the forced result in the same words as any result, with no mark that it was forced; the god builds within it like any lean.
+- Only what the file names is forced. Every other lean, table and rule stands, and nothing else bends to make the forced result fit.
+- The override is a fact of the test run, kept in the keeper log. It is never written into this rubric, the runbook or any engine file, and it ends with the run.
+
+Example, for a run that forces every NPC god's rule lean to a god-king:
+```
+# Test overrides: <campaign>
+Approved by Michael: <date>
+Rule lean, every NPC god: a god-king with a court and priesthood; its manner by the variety table (all five kinds), from its own rolls.
+```
