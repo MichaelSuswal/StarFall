@@ -25,4 +25,4 @@ Each stands as rolled (keeper log, 1.2). The phase governs time and force: nothi
 
 ## Ceiling
 
-Rolled in 1.6 after the Q8 blend.
+Rolled in 1.6 after the Q8 blend. Q8 blended to 4, so two d10 were rolled and the lower kept: first face 10 [r-0144], second face 4 [r-0145]. Ceiling: 74 (70 plus 4). On the lore's scale a newly arrived god sits near 20. Copied to every sealed `hidden-powers.md` on Night 2. Never released, never on any card.

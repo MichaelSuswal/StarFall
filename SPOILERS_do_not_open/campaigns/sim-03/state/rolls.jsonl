@@ -131,3 +131,15 @@
 {"id": "r-0131", "time": "2026-11-21T06:04:16Z", "pacific": "2026-11-20T22:04:16-08:00", "who": "keeper", "what": "god 7, domain", "die": "d20", "roll": 52, "face": 12, "reason": "same domain as god 5", "replaces": "r-0130"}
 {"id": "r-0132", "time": "2026-11-21T06:04:19Z", "pacific": "2026-11-20T22:04:19-08:00", "who": "keeper", "what": "god 7, domain", "die": "d20", "roll": 16, "face": 16, "reason": "matches the player's stated theme", "replaces": "r-0131"}
 {"id": "r-0133", "time": "2026-11-21T06:04:21Z", "pacific": "2026-11-20T22:04:21-08:00", "who": "keeper", "what": "god 7, domain", "die": "d20", "roll": 77, "face": 17, "reason": "same domain as god 4", "replaces": "r-0132"}
+{"id": "r-0134", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q3 climate, half-median 3.5, even odds, success rounds up", "base": 50, "factors": [], "odds": 50, "roll": 47, "success": true}
+{"id": "r-0135", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q3 climate, variation", "die": "d100", "roll": 67, "face": 67}
+{"id": "r-0136", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q4 past the borders, variation", "die": "d100", "roll": 12, "face": 12}
+{"id": "r-0137", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q5 age, variation", "die": "d100", "roll": 95, "face": 95}
+{"id": "r-0138", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q6 mortal magic, variation", "die": "d100", "roll": 74, "face": 74}
+{"id": "r-0139", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q8 stands out, variation", "die": "d100", "roll": 28, "face": 28}
+{"id": "r-0140", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q9 the wild, half-median 4.5, even odds, success rounds up", "base": 50, "factors": [], "odds": 50, "roll": 90, "success": false}
+{"id": "r-0141", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q9 the wild, variation", "die": "d100", "roll": 100, "face": 100}
+{"id": "r-0142", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q13 non-human peoples, variation", "die": "d100", "roll": 81, "face": 81}
+{"id": "r-0143", "time": "2026-11-21T06:09:20Z", "pacific": "2026-11-20T22:09:20-08:00", "who": "keeper", "what": "Q14 travelers, variation", "die": "d100", "roll": 75, "face": 75}
+{"id": "r-0144", "time": "2026-11-21T06:09:30Z", "pacific": "2026-11-20T22:09:30-08:00", "who": "keeper", "what": "ceiling, first d10", "die": "d10", "roll": 40, "face": 10}
+{"id": "r-0145", "time": "2026-11-21T06:09:30Z", "pacific": "2026-11-20T22:09:30-08:00", "who": "keeper", "what": "ceiling, second d10", "die": "d10", "roll": 74, "face": 4}

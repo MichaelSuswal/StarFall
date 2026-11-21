@@ -42,4 +42,4 @@ Worship: a priesthood (score 65: 101 minus Presence 65, Regard 61, Appetite 68).
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Autumn.

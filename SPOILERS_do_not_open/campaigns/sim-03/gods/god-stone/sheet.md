@@ -42,4 +42,4 @@ Worship: local shrines (score 43: 101 minus Presence 36, Regard 11, Appetite 81)
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Spring. In its own words: "the season of the thaw, when the ice cracks and the passes open."
