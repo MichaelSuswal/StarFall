@@ -25,3 +25,20 @@ One clarification, in the write-up, not a new power: I do not know what "the nea
 Accept as the Keeper wrote it: the wound does not begin to close until the gift is accepted, and then closes at a mortal's pace, not at once. It is a price I do not already pay. I give so as to be owed, and the Keeper has seen that, so that the weakness bites exactly where I am weakest. A wound I cannot close until I give without being owed is a wound I will carry a long time. I take the price.
 
 What it buys: two seals standing at once in place of one. Reasons: a seal is how I reach beyond my one body, and a trader with one message out is a trader with one road open. Two lets me send one to a captain and one to a market, and be known in both. I refuse the month of lending. A seal that stands a month hollows me for a month, and I would not take it. I note the Keeper refused a season at this price, and I do not ask again. The hands stay as color, as I asked.
+
+
+## Round 2 reply
+
+I confirm the powers, the weakness and the Keeper trait. Description and Drawback stand as written for The Lent Seal, The Counted Word, The Washing, The Count Returns and Open account. I ask for three changes of wording only, none of substance.
+
+### Wording: the Senses paragraph under Form
+The paragraph still carries my first sentence, "always aware of how many of a thing are in a room," with my hedge about pricing it as a power. The Keeper settled the count as what is in plain view, never hidden, at no price, and wrote that under "Settled at the table." Two versions on one card will be read two ways. I ask that the Senses paragraph read: "the senses of a strong human, no better and no worse," and then point to the settled count, with my sentence and the hedge struck. I do not ask for the count of the hidden.
+
+### Wording: "When your body is broken" under Form
+It still says "a count of days in which nothing of her is awake." The power is a full season, and ground of my kind is wherever the largest piece lies. I ask that it read "a season" in place of "a count of days," so that Form and the power say the same thing.
+
+### Wording: the Keeper trait against Open account
+Accepted as written. Mortals find it easy to thank me and hard to remember what I gave. I take it as true, and I know where it bites: Open account says a gift to a mortal "who does not know it was given" does not count. I ask, as wording only, that the card say a gift counts when the mortal knows it was given at the moment of accepting it, and that a mortal forgetting it afterward does not undo it. If the Keeper reads it the other way, that is a change of substance, and I take it logged and let this text stand.
+
+### The Washing and the drawback I offered
+Agreed that two under two hands is wording and not a purchase. I withdraw the heavier drawback with it. If I choose to wash slowly, or to lay down a seal while I carry a washed mortal's wound, that is my own conduct and needs no card.

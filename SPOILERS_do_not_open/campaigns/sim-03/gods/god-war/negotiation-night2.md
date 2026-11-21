@@ -24,3 +24,19 @@ I accept the refusal of the next dusk, and the table's rule in place of my thirt
 
 ### The Refused Door
 Accept, as offered, and it buys what I asked: the Bell reaches a day's walk, about twenty miles, in place of a morning's. I know who may use it, those I have fed, and I would give the bread anyway.
+
+## Round 2 reply
+
+I confirm the final text, with one wording correction, one clarification asked as wording, and a note on the Keeper trait that is logged and not a request.
+
+### Wording correction: The Set Place
+The Description says I stand "at the place nearest to where you fell." The table's rule, which the Description says it follows, measures from where the largest part of me lies. A body that is cut apart does not fall in one spot. I ask that the Description read "nearest to where the largest part of you lies," so the card and the rule name the same place. I mean no change of substance by it.
+
+### Clarification asked as wording: the Keeper trait
+I ask that the card say in plain words that the trait is about the face alone. Mortals may still hold what I said, what I gave and what I did, and the hall, the bread, the light and a tall guest, as the text already has it. If that is already what the text means, then it is a clarification in the write-up and not a new power.
+
+### Logged, not asked
+I did not choose this trait, and I would have bargained against it. I am made to gather a people and be seen doing it, and a face that no one can keep after I leave the room sits close to the oldest ache I have. I accept that it stands. I note only that it bears on shrines and on anyone who would try to make my likeness, and I leave how it bears to be ruled when it happens.
+
+### Everything else
+Confirmed as written: Form, What breaks you, When your body is broken, Things carried, Settled at the table, Loaned Strength, The Counted Ground, The Bell Nobody Rings (a day's walk, bought by The Refused Door), The Refused Door, and the drawbacks as frozen.

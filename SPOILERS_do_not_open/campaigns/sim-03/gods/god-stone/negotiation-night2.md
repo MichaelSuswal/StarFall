@@ -20,3 +20,17 @@ We ask three clarifications in the write-up, not a new power. First, that the ri
 The bells stay as color, at no price, buying nothing.
 
 We keep the choice at (B) and not at (A) with a counter. We will argue the point if the Keeper wishes to hear it again.
+
+## Round 2 reply
+
+### Your reasons, answered
+We accept the refusals. A line that a dog can end by jumping it is no line, and we did not need to be told that to see it. We asked for it in the hope of a smaller cost, and we say so plainly. The tooth sits in our body and not in the digger's knowledge, and we take it so: a ditch of standing water that lies there by chance stops us as surely as one dug against us. We will go round standing water as we go round a cliff we cannot climb, and we will learn the ground. We take the Keeper's plain word that the bowshot is the largest single stroke the table has sold. We paid for it with a line a mortal can hold and with a second fall, and we know the price.
+
+### Final text
+Confirmed. We confirm the Form, What breaks you, When your body is broken, Things carried, Settled at the table, Definitions, all four powers, Wet Ground, the bells as color, and the Keeper trait, with the two wording points below and nothing else. A change of substance is not asked.
+
+Wording points, in the write-up and not new powers:
+1. Keeper trait. We ask that the card say what the number is and what it is not, so the limit is exact: it gives how many of our people are on the march and that the number has dropped, and it does not give who, where, or why. We do not mean it as a power, and we do not ask for more than the Keeper wrote. We accept the trait as written. It fits us. We would rather feel the loss and not know whose it is than be spared it.
+2. Wet Ground. We ask that "a pace wide or more" be read as the width of the standing water across the line of the ditch, measured at its narrowest unbroken point, so that a ditch with a narrow neck is not argued about at a threshold.
+
+Nothing else is wrong with it. We confirm.
