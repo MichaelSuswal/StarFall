@@ -72,6 +72,10 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 
 Sealed, in `SPOILERS_do_not_open/campaigns/<name>/`: `years/NNN/year.md` (the full record), every NPC god's release and decisions, every NPC civ's record and years, the message log, the keeper log, the ruling ledger, the growth files, the sealed god folders. Public, in `campaigns/<name>/`: the player's folder, the player's civ record, the DM release, the morning story, the closing, the waited notes, flags, and the state files the player may see (clock, timing, the player's map knowledge). The rolls log is sealed; the player sees only outcomes. Nothing public names the count of gods, a vote, a pool, a hidden power, or a phenomenon's count before it has been seen.
 
+## Public state files
+
+`state/models.md`, `state/timing.md` and `state/images.md` are public. They name the models by role (DM, Keeper, god agent, civ agent, checker) and never carry a line per god, an agent count, or anything that gives the number of gods.
+
 ## Timing record
 
 Append to `state/timing.md`: when the turn started, when each stage finished, which models ran, and the token usage if known, all in Pacific time from the clock. Stage B uses this to choose the night model.

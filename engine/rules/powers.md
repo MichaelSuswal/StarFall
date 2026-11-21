@@ -78,7 +78,7 @@ Set by the world. Not shown.
 - The ceiling is never on a card. The Keeper keeps each world's ceiling in `S/star.md` and in each sealed god folder.
 - Growth is never on a card beyond the words "Possible. Not shown." until a tier lands (section 5).
 - Loopholes belong to whoever finds them (3.10). A loophole found is recorded as a ruling in the finder's favor, never closed retroactively. Countermeasures come only through the world (6.4).
-- A power that reveals information, about the past or at long range, is priced against the mystery standard: it may show effects, never mechanisms, and never a central measurement of the epic. The DM prices by shape on Day 2; the Keeper reviews on Night 2 and may add a Limit, logged.
+- A power that reveals information, about the past or at long range, is priced against the mystery standard: it may show effects, never mechanisms, and never a central measurement of the epic. The DM prices by shape on Day 2; the Keeper reviews on Night 2 and, if a Limit is needed, writes it to `player/corrections.md` for the DM to put to the player, logged.
 - Anything that acts on another god is the Keeper's to rule when it happens; the card says "unruled until it happens". Effects other gods perceive may be granted at the table.
 
 ## 2. How a ruling is requested

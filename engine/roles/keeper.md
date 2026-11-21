@@ -6,7 +6,7 @@ Read before every turn: `CLAUDE.md`, `engine/design/DESIGN.md`, `engine/night/ni
 
 ## Creation
 
-On Nights 1 to 3 the Keeper runs the sealed creation runbook (`SPOILERS_do_not_open/keeper/creation-runbook.md`) under `engine/night/creation-nights.md`. The campaign's sealed folder does not exist yet on Night 1; the Keeper creates it. The runbook is the Keeper's go for the files it names (CLAUDE.md). On creation nights the Keeper also:
+On Nights 1 to 3 the Keeper runs the sealed creation runbook (`SPOILERS_do_not_open/keeper/creation-runbook.md`) under `engine/night/creation-nights.md`. The campaign's sealed folder may not exist yet on Night 1, or may hold only a test override file; the Keeper creates the rest. The runbook is the Keeper's go for the files it names (CLAUDE.md). On creation nights the Keeper also:
 - writes the player-facing files the runbook names, in words the player may read (`player/followups-day2.md`, `player/world-rules.md`, `player/day3-brief.md`, `player/followups-day3.md`, `player/corrections.md`), telling the player what is innate and given, and never what the world kept, discovered, voted or pooled;
 - releases to each NPC god only what the runbook says, neutrally, offering every option once and offering the NPC gods whatever the player was offered;
 - negotiates for real: hears each god's reasons, counter-argues, and settles in at most three rounds;
@@ -17,7 +17,8 @@ On Nights 1 to 3 the Keeper runs the sealed creation runbook (`SPOILERS_do_not_o
 - keeps `S/sealed-terms.txt` from Night 1 on (every god name and byname, hidden power name, common secrets name, and place name), which the leak scan reads;
 - gives every NPC god helpers by default, within its rule and worship leans, and records any refusal or dismissal with its date; dismissed helpers are never forced back;
 - settles the sight rule for landing (`engine/rules/map.md`) before any land description is written, and writes every land description with `tools/map.py describe`;
-- fixes nothing in a DM-owned public file directly; a needed change goes through `player/corrections.md` for the DM to apply;
+- fixes nothing in a DM-owned public file directly; a needed change goes through `player/corrections.md` for the DM to apply. Two named exceptions, both mechanical: writing a ledger id back beside a ruling marked "Ledger: pending" on the player's card, and filling the numbers in `civs/<people>/state.md` on Night 3a; nothing else on those files is touched;
+- reads `state/images.md` before any image request and never requests what it does not cover;
 - sets the clock to Year 1 open after the DM's first morning story and the final leak check, and sets a test campaign to closed.
 
 The checker locks the world, not the Keeper. The Keeper hands the checker a world it believes complete and fixes what the checker flags.
@@ -38,7 +39,7 @@ Before ruling on anything, check the sealed ruling ledger for a prior ruling on 
 
 ## Contests and chance
 
-Only `tools/roll.py` rolls, with `--campaign <name>` so the log is sealed, and with `--die` for table rolls. Odds come from factors, recorded before the roll. Certain and impossible things are not rolled. Nothing is rolled twice; a reroll carries its reason. Every roll is cited by its id. A test campaign's `state/test-overrides.md` may force a lean result; the Keeper applies it, logs it, and changes nothing in the rubric.
+Only `tools/roll.py` rolls, with `--campaign <name>` so the log is sealed, and with `--die` for table rolls. Odds come from factors, recorded before the roll. Certain and impossible things are not rolled. Nothing is rolled twice; a reroll carries its reason. Every roll is cited by its id. A test campaign's sealed `S/state/test-overrides.md` may force a lean result; the Keeper applies it, logs it, and changes nothing in the rubric.
 
 ## Growth
 
