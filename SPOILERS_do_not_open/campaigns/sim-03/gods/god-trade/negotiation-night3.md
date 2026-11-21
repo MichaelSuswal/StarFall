@@ -11,3 +11,14 @@ Two clarifications, wording only, not a new edge. First, a half-stick called by 
 
 ### The tally is a chain
 Accept as written, with the number: one household in five carries such a debt at the start, and those households do not flee, migrate or settle new land, and a household that goes anyway is put out of the tally and its sticks are worth nothing anywhere. It is a real price, and it falls on exactly the thing I came down to do, which is to spread. I do not counter it. If it is heavier for (B), I take it, and I note that I offered the weakness myself and do not ask it be lightened.
+
+
+## Round 2 reply
+
+I confirm the final text of the split tally and of the chain as written. I ask for no change of wording.
+
+### The split tally
+Confirmed. The Keeper is right to cut my first clarification short: a bench that could reset a true debt would make the chain no chain, and it is the chain that buys the reach. I accept that the bench sets only the day of payment, no later than one season on, and that it may refuse a half shown to be false and may not refuse or lessen a true one. I take the measurable line as written: one season's carriage on credit with no surety where honored, and honored after one stick met in full on the day.
+
+### The tally is a chain
+Confirmed. Forgiveness in the open, before witnesses, by the holder of the half, ends the debt for the family and its heirs, as I asked. One household in five, the bar on fleeing, migrating and new settlement, the putting out of the tally, and a half good in any hand all stand. I note once, so that it is on the record and not as a change: the price falls on the spreading I came down to do, and I pay it for the reach.

@@ -11,3 +11,11 @@ We ask two clarifications in the write-up, not a new power. First, that "what it
 ### Few Holds
 Accept. A people that stands behind one walled town also keeps its grain in one known place, and we do not pretend ours is the worse for that. What we pay beyond them is stated: the holds stand nearly unguarded for half of every year, a winter outside them costs one person in ten and one beast in four, and a fifth of the fighters are pinned in the cold months. We would not have chosen to hold the line that exactly, and we want it exact. We accept it as written.
 We ask one clarification in the write-up, not a new power: that "a fifth of those who bear arms sit at the holds" means the fifth is divided among the holds by the Marshal, and that it may be moved between holds in the cold months without changing the number.
+
+## Round 2 reply
+
+### Your reasons, answered
+We have no quarrel with them. The ring clarification is granted in the Keeper's words and we see that it changes the ring and does not lighten the weakness. We take that plainly. The added last line of Few Holds, that if the ring grows past four holds the loss of one takes a quarter and never less, is a limit we did not offer and we accept it. A fifth hold would be our own choice and the Keeper is right that it should not be free.
+
+### Final text
+Confirmed. We confirm the ring of holds, the edge Pass Craft at two thirds of the foot rate with half the crossing losses, and the weakness Few Holds, all as written. We read Pass Craft as binding only on mountain ground, only for the whole Column in its march order with the Pass Wardens ahead, and only on ways with cairn signs or read within the season, and we want that exact. We read Few Holds as including the Marshal's right to divide and move the fifth between the holds, and the quarter and never less past four holds. We ask for no change of wording and no change of substance.
