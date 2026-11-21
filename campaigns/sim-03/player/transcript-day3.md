@@ -85,3 +85,25 @@ Once a season, your steward, with her bare hands in ground you have tended, can 
 It is a mortal doing something only you can do, so it goes on your card as a power of yours, added today, and it is priced on you. The price has two parts. She pays as mortal workers here pay: it costs her body, and I would set it as a day of her own speech each time, subject to the Keeper fitting it to the world tonight. You pay at the hearing: a listening in which you take up what she left costs you one day of speech more than that listening would have cost. With the defaults you turned down counted in, that is the whole charge.
 
 Take it, argue it, or leave it. If you want words in the ground, tell me why the Day 2 limit should bend and I will carry the case to the Keeper, but I would not expect it to.
+
+## Player:
+
+I'll take the edge as you priced it. I won't argue the Day 2 limit. A spoken question in the ground would undo what I agreed to, and I would sooner have a mood or an image that I have to interpret than a message that bends the rules. The price is fair. She pays a day of her own speech each time, and I pay one extra day of speech at the hearing. I accept that, and I understand the Keeper may fit her part to the world tonight. One thing I'd like confirmed: she pays as a mortal worker pays, so it's her choice each season whether to press anything at all. I won't ask it of her.
+
+On the seed, I don't want a sure edge. Leave it as their craft and their pride. If it turns out to be rarer or better than other peoples' seed, I'd like the world to decide that, not me.
+
+**On the first morning, what do the three know?** Nothing. None of them hears me, and none has seen me. The gravekeeper is a woman at her work who has never met me. I walk in barefoot at the edge of the burial ground in the early morning, kneel in the soil, and start working. I would like her to see a stranger who is good with the ground and who doesn't talk much. She can be suspicious of me, and I'd expect her to be. The seed keeper and the warden don't know I exist. They will form their own opinions of me, and I won't use the steward's role to hide anything from them. If any of them asks me directly and sincerely what I am, I'll answer, as I said. I won't announce it, and I'll make it hard to ask by being plain.
+
+This changes the steward power. She can't press a mood into the ground for me until she knows who it's for. That's fine. It means the power is dormant until I've earned her trust, and I'd rather it be that way than have her helping a god she was told about on the first day. I'll tell her in my own time, and not before she has a reason to believe me.
+
+**Where do I sit in a house with a hearth?** At the edge, near the door, on the floor if I'm allowed, and as far from the fire as the room will let me, without making a point of it. Fire hurts me more than it hurts mortals, and I would rather be thought odd for sitting by the door than be thought strange for flinching. If a host presses me to sit closer, I'll say I'm cold-blooded and prefer the draft, which is close enough to true. I won't lie outright about why. If someone asks directly and sincerely whether fire troubles me, I'll say it does.
+
+**What do they hold about gods?** I'd like to leave that to the world, and I'll record only a wish: that they don't have a god of their own, and don't mind. They bury their dead in the soil and say a few words at the grave, spoken by the eldest of the family or by whoever the dead person trusted, and that is the whole ceremony. I'd like those words to be old, plain, and a little odd, so that they sound like something a mushroom would say. I'd like to learn them, not replace them.
+
+**What do I do with the ones who kneel?** I ask them to get up, plainly, and I tell them I'm a person working. If they keep kneeling, I stay on my feet and keep working, and I don't make a speech. I won't punish anyone for believing something about me, and I won't correct them by force. As for whoever taught them to kneel: I don't want to take that away from them. If an old woman says the grave words and it comforts people, I'll stand beside her, learn what she knows, and be a better listener than a theologian. If someone has taught them to kneel to power in general, I'd rather out-wait it than fight it.
+
+**Helpers.** I'm keeping all three: the steward, the seed keeper, and the warden. I considered cutting down to the steward alone, but if everything goes through one woman, then dropping the other two leaves me with a single point of failure and a larger bet on her. I'd rather keep three people with their own wants, and accept that two of them will hear nothing from me for a while.
+
+One more thing for the record. I know the one-woman route is my choice and my risk. If she dies, falls sick, or turns against me, I'll find new ways to reach the others, and I won't treat the loss as a defect in the rules.
+
+I'm ready for the card to be read back.
