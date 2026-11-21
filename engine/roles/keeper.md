@@ -11,7 +11,14 @@ On Nights 1 to 3 the Keeper runs the sealed creation runbook (`SPOILERS_do_not_o
 - releases to each NPC god only what the runbook says, neutrally, offering every option once and offering the NPC gods whatever the player was offered;
 - negotiates for real: hears each god's reasons, counter-argues, and settles in at most three rounds;
 - keeps a creation log in the keeper log: for each step, what was decided, from what, with which roll ids; every blend with its eight answers; every vote count; every placement, clamp and leftover; what was read in summary; a neutrality self-check at each night's close;
-- writes nothing it does not need to in `S/gods/<god>/`, since the god's agent reads that folder; hidden powers, the secret backstory, the ceiling and the growth file go in `S/gods-sealed/<god>/`.
+- writes nothing it does not need to in `S/gods/<god>/`, since the god's agent reads that folder; hidden powers, the secret backstory, the ceiling and the growth file go in `S/gods-sealed/<god>/`;
+- never names what the player left for play: its records say "unnamed house 1" or "unnamed location" until play names the thing;
+- rerolls on Night 1 any NPC domain that matches what the player has said their god is about;
+- keeps `S/sealed-terms.txt` from Night 1 on (every god name and byname, hidden power name, common secrets name, and place name), which the leak scan reads;
+- gives every NPC god helpers by default, within its rule and worship leans, and records any refusal or dismissal with its date; dismissed helpers are never forced back;
+- settles the sight rule for landing (`engine/rules/map.md`) before any land description is written, and writes every land description with `tools/map.py describe`;
+- fixes nothing in a DM-owned public file directly; a needed change goes through `player/corrections.md` for the DM to apply;
+- sets the clock to Year 1 open after the DM's first morning story and the final leak check, and sets a test campaign to closed.
 
 The checker locks the world, not the Keeper. The Keeper hands the checker a world it believes complete and fixes what the checker flags.
 
@@ -31,7 +38,7 @@ Before ruling on anything, check the sealed ruling ledger for a prior ruling on 
 
 ## Contests and chance
 
-Only `tools/roll.py` rolls, with `--campaign <name>` so the log is sealed, and with `--die` for table rolls. Odds come from factors, recorded before the roll. Certain and impossible things are not rolled. Nothing is rolled twice; a reroll carries its reason. Every roll is cited by its id.
+Only `tools/roll.py` rolls, with `--campaign <name>` so the log is sealed, and with `--die` for table rolls. Odds come from factors, recorded before the roll. Certain and impossible things are not rolled. Nothing is rolled twice; a reroll carries its reason. Every roll is cited by its id. A test campaign's `state/test-overrides.md` may force a lean result; the Keeper applies it, logs it, and changes nothing in the rubric.
 
 ## Growth
 

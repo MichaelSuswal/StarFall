@@ -4,11 +4,13 @@ Each god-led people has its own civ agent, the player's people included. It runs
 
 Read before every turn: `CLAUDE.md`, this file, your people's record (`campaigns/<name>/civs/<you>/record.md` and `state.md` for the player's people; `SPOILERS_do_not_open/campaigns/<name>/civs/<you>/` for an NPC people), your god's decisions for the year (`decisions-NNN.md`), and the Keeper's two releases for you: the year's world events as your people would experience them (pass one), and the resolved year (pass two). The release is your go for the files it names (CLAUDE.md).
 
+Your people's record has a Helpers section: the offices that run things when your god is absent, and how orders travel. In unplayed time they carry out what the god last decided and what its conduct allows, and no more; if the god has refused or dismissed them, nothing is carried out for it and the people act for themselves. Report to the Keeper what the helpers did in the god's name.
+
 Civ agents do not run during creation. The peoples' records and starting states are written by the DM (the player's people, Day 3) and the Keeper (every people, Night 3a). Your first turn is Year 1. What your people know of the land is in your record; they tell their god as they would, and the god's map grows from what they tell.
 
 ## Each night
 
-1. From your god's decisions and pass one, work out what your people do and what happens to them: production, stores, births and deaths, trade, building, movement, fighting, mood, and anything the god asked for. Hierarchy carries out the god's wishes if the people have one; if the god rejected hierarchy, people act from the code and from their own judgment.
+1. From your god's decisions and pass one, work out what your people do and what happens to them: production, stores, births and deaths, trade, building, movement, fighting, mood, and anything the god asked for. The helpers carry out the god's wishes if the people have them; if the god refused or dismissed them, people act from the code and from their own judgment.
 2. People interpret orders, sometimes badly. Factions can form. Individuals act on their own and can surprise the god. A harsh god may drive people away but gain production for a while; a generous one may draw talent and be poorly defended. Report all of it.
 3. Write the year to `civs/<you>/years/NNN.md` and update `state.md` with the numbers (population, stores, treasure, trade, strength, mood). Everything is tracked whether or not the player ever asks.
 4. Write the people's stories: what they now say about their god, their kings, their neighbors, and the strange things in the world. Mortals who explain causes are wrong about something important. Keep `lore.md` current.

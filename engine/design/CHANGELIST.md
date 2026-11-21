@@ -36,3 +36,14 @@ The full list of 100 findings and proposals is `tests/creation-sim/run-01/change
 - ~~NPC god folders labeled g1 to g7.~~ Labeled by domain, with no number. (Section 3)
 - ~~Map painting requests public.~~ Sealed. (Sections 11, 14)
 - ~~The permission exception covers only the two scheduled turns.~~ It also covers a campaign or test run once Michael has started it, for the files each release names. (CLAUDE.md)
+
+## Build 3, after creation simulation run 02 (November 2026)
+
+The findings are `tests/creation-sim/run-02/changes.md`. Reversed decisions:
+
+- ~~A people with a town, hierarchy and advisors is assumed, not forced, and refusing any part is one option among several.~~ Leading a people is the stated premise, from the descent on; the DM opens Day 3 from a seat and helpers, and refusing is a choice the player argues for and pays for. (Sections 3.0, 3.11)
+- ~~How an NPC god rules and is worshipped is left to the agent.~~ Set by rule and worship leans from its rolls; every NPC god starts with helpers. (Section 3.8)
+- ~~A people larger than the default is a priced edge.~~ Its costs are practical and come from the world, argued case by case. (Section 3.11)
+- ~~The Keeper may name places the player left unnamed.~~ It uses placeholders until play names them. (Section 3.11a)
+- ~~An NPC may share the player's theme.~~ A matching NPC domain is rerolled on Night 1. (Section 3.8)
+- ~~The leak scan guesses sealed names from prose.~~ The Keeper keeps a sealed-terms list; the scan reads it. (Section 12.2)

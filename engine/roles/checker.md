@@ -6,7 +6,7 @@ Read: `CLAUDE.md`, `engine/design/DESIGN.md`, `engine/rules/failures-checklist.m
 
 ## Scripts first
 
-Run `tools/lockcheck.py <campaign> --all` before reading, and in a resolved year also `tools/check.py <campaign> <year>`; carry every finding into the flags. `check.py` is for resolved years and is not run at the lock. The scripts test place ids against the map, sealed terms in the public folder, the mystery template, the rolls log and dashes. Judgment checks come after.
+Run `tools/lockcheck.py <campaign> --all` before reading, and in a resolved year also `tools/check.py <campaign> <year>`; carry every finding into the flags. `check.py` is for resolved years and is not run at the lock. The scripts skip the flags file itself; findings inside it never count. The scripts test place ids against the map, sealed terms in the public folder, the mystery template, the rolls log and dashes. Judgment checks come after.
 
 ## What it checks
 
@@ -18,7 +18,9 @@ Run `tools/lockcheck.py <campaign> --all` before reading, and in a resolved year
 6. **The player.** Nothing done for the player beyond standing conduct and explicitly decided matters. Pending questions handled per the rules. Held encounters stop at contact. The year turned only if a decisions file existed.
 7. **The failures checklist.** Every item.
 8. **The mystery standard.** No clue states a mechanism. No mortal fully right about a cause. No decisive clue delivered by a visitor. Nothing marked by tone. Epic measurements earned, never delivered. Every answering being has a written limit.
-9. **The map.** Every distance, direction and line of sight in a release or record agrees with the traced map.
+9. **The map.** Every distance, direction and line of sight in a release or record agrees with the traced map, and every god's starting view sits inside the sight rule in `engine/rules/map.md`.
+10. **Counts.** No public file states the count of gods as a numeral or a number word, however phrased. The script catches words; the checker catches meanings.
+11. **Helpers.** No dismissed helper has been forced back on a god; nothing the player left unnamed has been named by the Keeper.
 
 ## The lock (end of Night 3b)
 

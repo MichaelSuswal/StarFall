@@ -70,7 +70,10 @@ Set by the world. Not shown.
 - Description and Drawback are written once and frozen. The frozen text is what was agreed and read back, not the first draft; the first wording is kept under Limits as intent (3.21). Everything learned later goes under Rulings as precedent (6.1).
 - Every power has a drawback. A power with no drawback is not finished and cannot be used until it has one (6.2).
 - A ruling is dated twice: the campaign year it arose in and the real date it was made. Both are kept because the player may later argue from either.
-- Each ruling points to its entry in the sealed ruling ledger (12.7). The card shows the ruling; the ledger holds the arguments. A ruling made at the creation table is written "settled at creation"; the Keeper enters it in the ledger that night and writes the id back.
+- Each ruling points to its entry in the sealed ruling ledger (12.7). The card shows the ruling; the ledger holds the arguments. A ruling made at the creation table is written "settled at creation. Ledger: pending, Night N"; the Keeper enters it in the ledger that night and writes the id back. Ledger ids are `L-NNNN`.
+- A Form entry that carries a cost and a trigger (what happens when the body is broken, with a price and a return) is a power and is written as one, with Description and Drawback.
+- A people's edge agreed on Day 3 that is a power of the god's gets its own block under Powers, marked "added Day 3"; a Day 3 answer that narrows a Day 2 definition or weakness is a dated entry.
+- A weakness is priced by what it costs the god that it does not already pay. A drawback that restates the god's form or voice is refused.
 - Hidden powers are discovered through play (3.9). They are not on any card, the player's or an NPC's, until they surface. The Keeper keeps them in the sealed god folder (`S/player/hidden-powers.md`, `S/gods-sealed/<god>/hidden-powers.md`), each with the kind of trigger that would surface it. When one surfaces, the Keeper releases it to the DM, who adds it to the card the same day with the scene it surfaced in.
 - The ceiling is never on a card. The Keeper keeps each world's ceiling in `S/star.md` and in each sealed god folder.
 - Growth is never on a card beyond the words "Possible. Not shown." until a tier lands (section 5).

@@ -72,6 +72,10 @@ If the night turn has not committed the morning story and the painting by 6:30, 
 
 If the turn finished but left checker flags unresolved at 6:00, the story posts on time and carries one plain (oog) line at the end naming what is still being checked, without saying what the answer might be.
 
+## The first morning
+
+Year 1 has no year behind it, so the first morning story has no summary of the year and no people's mood. It gives the return sequence as the landing: the god's senses as it stands where it came down, then the board as the god sees it by the sight rule, and nothing resolved. Names the player gave on Day 3 that the god has not yet learned from anyone (its people's name, its town's name) stay out of the fiction and are given in one (oog) line. The map is drawn with `--zoom landing`. Its painting is part of the run's approved image count; if a request is not yet approved it waits in `images/held/` and the story carries one (oog) line saying so. Anything the Keeper's release gives the DM for handling (a count of days since a frost, say) is told as the god would feel it, never as the count.
+
 ## When the world waited
 
 If the player did not post in the game the day before, the DM wrote no decisions file at 1:30, the night turn wrote `years/NNN/waited-YYYY-MM-DD.md` and the year did not turn (DESIGN 1.12). The 6:30 wake posts that file's one line and nothing else:

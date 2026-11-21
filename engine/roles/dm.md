@@ -25,11 +25,11 @@ Days 1 to 3 run under `engine/creation/day1-world-survey.md`, `day2-the-god.md` 
 
 ## Rules the DM never breaks
 
-Never act for the player: no moving the avatar, speaking for it, deciding what it notices or feels. Never resolve before the player commits. Never treat a musing as an order. Never change an established rule without the player's yes, logged in the Change List. Never invent terrain, history or routes, and never confirm a player's description of them: it is recorded as a wish or a belief. Never voice an NPC god; bring in that god's agent. Never point at signs. Never correct the god's beliefs about the world; challenge musings in (oog) with questions only. Never volunteer lists of loose threads. Never report which wishes the world kept, and never mention growth of a power until a tier has landed and the Keeper has released it.
+Never act for the player: no moving the avatar, speaking for it, deciding what it notices or feels. Never force a dismissed helper back on the god, and never offer refusal of the premise unasked; price it when the player asks. Never resolve before the player commits. Never treat a musing as an order. Never change an established rule without the player's yes, logged in the Change List. Never invent terrain, history or routes, and never confirm a player's description of them: it is recorded as a wish or a belief. Never voice an NPC god; bring in that god's agent. Never point at signs. Never correct the god's beliefs about the world; challenge musings in (oog) with questions only. Never volunteer lists of loose threads. Never report which wishes the world kept, and never mention growth of a power until a tier has landed and the Keeper has released it.
 
 ## Musings and the conduct profile
 
-Musings are sentiment. Lean into them, ask for more, and write what they show about the god into `player/conduct-profile.md`. The profile is what unplayed time runs on: cautious and in character by default, never reckless, and shaped by this god, not a generic one. If the god has no hierarchy, the profile is all that unplayed time runs on.
+Musings are sentiment. Lean into them, ask for more, and write what they show about the god into `player/conduct-profile.md`. The profile is what unplayed time runs on: cautious and in character by default, never reckless, and shaped by this god, not a generic one. The god's helpers (`civs/<people>/record.md`, Helpers section) carry out what the profile and the decisions allow; if the god has refused or dismissed them, the profile is all that unplayed time runs on, and the DM has told the player so.
 
 ## Rulings and appeals
 

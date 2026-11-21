@@ -21,7 +21,7 @@ Begin from the night's world-building, not from a blank page. Anything the Keepe
 
 Every item must be settled before the day closes. Order does not matter.
 
-1. **Form.** What the god looks like and what it is: human-seeming, beast, element, something stranger. Enough to write its appearance card for the paintings. Senses the player does not describe are left unsettled and asked about in play, never inferred.
+1. **Form.** What the god looks like and what it is: human-seeming, beast, element, something stranger. Enough to write its appearance card for the paintings. Senses the player does not describe are left unsettled and asked about in play, never inferred. Settle at the table what happens when the body is broken (a god cannot die, but can be hurt, held, scattered, shut out): ask, do not decide. If the answer carries a cost and a trigger, it is a power and is written as one.
 2. **Bodies.** State the campaign's rule from `world-rules.md`. Negotiate only if the rule allows more than one body.
 3. **Backstory outline.** Who the god was and what it lost, in the player's words. Keep it an outline. The Keeper fills in the rest in secret on Night 2 and ties it to where the gods came from. The god's past is foggy to the god itself.
 4. **Powers.** One or several, as the player wants. No fixed number.
@@ -29,8 +29,8 @@ Every item must be settled before the day closes. Order does not matter.
 6. **Edge cases.** Test each power against the standing list before signing off: light and dark, distance, falling, carrying, water, being watched, other gods, the god's own people. That list is a floor. Add the cases this god's own powers depend on (what counts as its mark, what breaks one, what happens when its body is scattered), and these four: does the power touch a world scarcity; does it rule a mind; does it work on things made or held by more than ordinary craft; how often can it be used across a whole people in a year. Write the answers on the power card.
 7. **Information powers.** A power that reveals the past or works at long range is priced against the mystery standard: it may show effects, never mechanisms, and never a central measurement of the great mysteries. The DM does not know the mysteries; it prices by shape, and the Keeper reviews on Night 2.
 8. **Things carried.** Anything the god carries that does more than an ordinary object is a power and is priced. Ordinary possessions go under Form.
-9. **Trades.** A weakness taken on can buy an improvement elsewhere. Record each trade, and record the weakness in full with what it bought.
-10. **What the god wants,** as far as the player knows. This seeds the conduct profile.
+9. **Trades.** Offer once, plainly, that a weakness taken on can buy an improvement elsewhere; the player need not take one. Record each trade, and record the weakness in full with what it bought. The price of a weakness is what it costs the god that it does not already pay.
+10. **What the god wants,** as far as the player knows. This seeds the conduct profile. The refusals (what it will not do) and the unflattering part (what it wants that it would not say aloud) are what the profile most needs, because unplayed time turns on them.
 11. **Name,** if the god has one, and what it is called by those who don't know its name. If the god is nameless, ask what to file it under.
 
 ## Pricing and balance
@@ -41,6 +41,7 @@ Every item must be settled before the day closes. Order does not matter.
 - The DM may trim a power slightly to keep the game fun, and says so plainly.
 - Nothing over the top. Latitude is earned.
 - The DM may grant effects that other gods perceive (they hear the god's voice, feel the weight of its word). Anything that acts on another god is the Keeper's to rule, when it happens; the card says so.
+- Price by shape, and say nothing of what the world kept. A limit motivated by a scarcity the player wished for is written without naming the scarcity as real; the Keeper reviews on Night 2 against the real world.
 
 ## What never happens on Day 2
 
@@ -62,7 +63,8 @@ Read the power card back to the player in plain words, every power, drawback, ed
 - the backstory outline, in the player's words: `player/backstory.md`
 - the first lines of the conduct profile: `player/conduct-profile.md`
 - any lean in the god's total power, and anything the DM granted that other gods perceive, for the Keeper: `player/power-lean.md`
-- any premise the player rejected or bent, under `## Day 2` in `player/rejected-premises.md`
-- the player's answers under each question in `player/followups-day2.md`
+- any premise the player rejected or bent, under `## Day 2` in `player/rejected-premises.md`; anything the DM reframed or trimmed goes under `Bent by the DM` in the same section, so the Keeper knows whose wish each is
+- the player's answers under each question in `player/followups-day2.md`; if there were no questions, one line saying the file was read
+- rulings made at the table are written on the card as "settled at creation. Ledger: pending, Night 2"; the Keeper writes the id back that night
 
 Then the night falls, and the god keeps falling.

@@ -83,7 +83,19 @@ After the paintings arrive, and before any description of land is released to an
 4. Repeat for each underground painting with its layer.
 5. Mismatches are fixed in the data, never by repainting. If the painting puts the sea where the Keeper planned hills, the hills move. The painting is the world's face and the data follows it.
 6. Record the registration in the keeper log, with what moved from the plan and why.
-7. Only now write the land descriptions: each god's country as it will first see it, each people's record of its land, the Day 4 release to the DM. Every distance, direction and line of sight in them is read off the data, and the checker tests them against it at the lock.
+7. Settle sight at landing (section 1.4) and stamp every place id into the sealed files with `tools/map.py stamp <campaign>`.
+8. Only now write the land descriptions, with `tools/map.py describe <campaign> --landing <god>` and `--region <id>` as the base text: each god's country as it will first see it, each people's record of its land, the Day 4 release to the DM. Every distance, direction and line of sight in them is read off the data, and the checker tests them against it at the lock.
+
+### 1.4 Sight at landing
+
+What a god sees at landing is what a tall mortal would see from that ground: the region it stands in, out to the skyline the map's elevation gives, and nothing past a ridge, a wood or a wall that stands between. The rule, applied the same way for all eight gods before any description is written:
+
+- From a valley floor or a plain, the god sees its own region as far as the first ridge or the first wood that closes the view, and the tops of mountains beyond if the map's elevation says they stand higher than what is between. Settlements are seen only where their smoke, walls or lights would show.
+- From a hilltop or a ridge, it sees its own region and the neighbors the map says lie lower, out to a skyline about forty miles off in clear air, less in rain or mist; features beyond that are not seen, whatever their size.
+- From a coast, it sees the sea region and whatever shore the map puts within that same forty miles.
+- Nothing underground is seen from the surface.
+
+Example: a god landing on the south side of a long valley, a mile above its river, sees the valley floor, the river where the ground does not hide it, the ridges that close the valley on both sides, a town's smoke if the town lies in the valley, and the snow on mountains at the valley's head if those mountains stand above the ridge line; it does not see the next valley, the sea, or a road under turf more than a mile off. `tools/map.py describe --landing` writes the view by this rule, and the checker tests every god's starting view against it.
 
 The test sheet and the scratch knowledge file are deleted or kept sealed; nothing drawn with everything seen may reach `campaigns/<name>/player/`.
 
@@ -187,7 +199,8 @@ When a seen truth contradicts a reported entry badly (wrong region, a river that
 
 ```
 python3 tools/map.py draw <campaign>                    # the whole painting; unknown ground is cloud
-python3 tools/map.py draw <campaign> --zoom known       # cropped to the seen and reported ground, with a margin
+python3 tools/map.py draw <campaign> --zoom known
+python3 tools/map.py draw <campaign> --zoom landing    # the first morning: the seen ground plus a margin, at its own scale       # cropped to the seen and reported ground, with a margin
 python3 tools/map.py draw <campaign> --layer under-1    # one sheet only (surface, or under-N)
 python3 tools/map.py gazetteer <campaign>               # writes player/gazetteer.md
 ```
@@ -246,7 +259,7 @@ The map is on request and always ready. The DM redraws it whenever the knowledge
 6. **Rumors**: everything rumored, with source and year, in the words of the `told.name`.
 7. **Below**: the same for every underground layer with any known feature.
 
-The gazetteer prints no coordinate the god has not been given. A rumored place prints "somewhere in D2, by the boatmen's telling" and nothing exact.
+The gazetteer prints no coordinate the god has not been given. A rumored place prints "somewhere in D2, by the boatmen's telling" and nothing exact. A reported region's distances and travel days come from what the god was told (`told`), never from the truth; only seen regions use the true data.
 
 ## 6. What the DM must never do with the map
 

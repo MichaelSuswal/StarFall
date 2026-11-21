@@ -48,6 +48,7 @@ Invented for this file. No campaign uses them.
 # The Hearthmother (the avatar)
 Kind: god
 Written: creation, Day 2, from the god's own form as negotiated
+Copy text: the first paragraph below is what the painting prompt copies word for word; nothing after it is copied
 
 A tall woman of about forty with a long, plain face, grey eyes, and dark hair bound back in a single braid, wearing a hooded cloak of undyed grey wool over a brown dress, with bare feet. She stands a head above the tallest of her people. Her hands are large, red-knuckled, and always uncovered. She carries nothing. Where she stands for long, the ground beneath her feet dries.
 
