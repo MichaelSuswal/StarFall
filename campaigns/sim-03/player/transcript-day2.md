@@ -154,3 +154,11 @@ Yes. I've checked the terms you flagged and they're right.
 - a short knife with a bone handle, for cutting cord and roots, not for fighting.
 
 I'd like those to be ordinary things with no power attached. If the seed doesn't take in the soil I land on, that is a problem for me to solve in play. Day 2 can close.
+
+## DM:
+
+(oog) Agreed and frozen. The card stands as read back, with the slow return's drawback as you confirmed it, and what is lost on a return stays unspecified, to be found by noticing the gap. Your linen, the bag, the seed in its twists, the crock of starter and the bone-handled knife are written under Things carried as ordinary things with no power in them. The seed is recorded as kinds you hold to breed true, and whether it takes where you land is for play, as you asked. The card goes for its night review, as every god's does, and anything that review needs to put to you will come to you plainly and in the open. Helpers, and the people, are tomorrow.
+
+"Then it is settled. Barefoot, in washed linen, with seed and a crock and a short knife, and a name that is not yours yet. The Understory."
+
+The voice says nothing more. The night comes on, and you keep falling.
