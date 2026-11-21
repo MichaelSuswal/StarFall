@@ -54,3 +54,33 @@ These are the DM's reframings and trims, not the player's wishes. Each was annou
 - **Rates were set by the DM** for tending an acre and laying a line.
 - **The question about ground becoming more the god's own** ("can that ground become, over time, a place that is more mine than other ground is?") was answered only through the definition of tended ground. The DM said it had nothing more to tell.
 - **The player's descriptions of the land** (limestone country, sinkholes, "my forest") were recorded as wishes. The DM confirmed none as fact.
+
+## Day 3
+
+Written by the DM at the close of creation Day 3, 2026-11-20. Full talk in `transcript-day3.md`.
+
+### Rejected or bent by the player
+
+No part of the people was refused outright. The default (about 5,000, a town, a seat, a council, helpers) was taken in size and bent in every part that touches rule.
+
+- **Rule.** The council is the people's, not the god's. "I don't want to rule them. I want them to be able to make decisions I disagree with, and I'm willing to take the consequences of that. The council is theirs, not mine."
+- **Court and priests refused.** "No priests. No court."
+- **The seat.** Not a seat of rule: a burial ground and orchard at the town's edge. "I'd rather be unremarkable there than central."
+- **Arriving as a god refused.** "I don't want to be worshipped or to arrive as a god. I'd like to come down as a stranger who turns out to be good with the soil." "If this conflicts with 'a god comes down to lead,' then I'm leading from the edge, and I'll accept whatever that costs in speed."
+- **Helpers bent, not refused.** Three people, no chain of command, one channel through the steward, carried to the council as advice. None of them knows the god at landing, so the god lands with no helpers in fact. Priced plainly by the DM: until the steward serves, no one acts for the god, unplayed time runs on standing conduct alone, and its wants do not reach the town. Accepted: "Landing with no helpers in fact is the price of the shape I chose, and I accept it."
+- **A sure edge in seed declined.** "I don't want a sure edge. Leave it as their craft and their pride."
+- **Left to the world by the player:** what the people believe about gods; how long they have been there; what came before them.
+- **Left unnamed by the player:** the people, the town, the burial ground, the houses, the steward, the seed keeper, the track warden.
+
+Requests not to be told something: none on Day 3.
+
+### Bent by the DM
+
+The DM's rulings and reframings. Each was announced and accepted.
+
+- **Several peoples.** The Day 1 wish to tend several peoples was not built on Day 3. The DM said Day 3 builds one people, the god's own, and that the others are the world's and found in play. The wish stands on record.
+- **The spoken question was refused.** Asked for: that the steward could, once a season, speak a question into tended ground, heard at the next listening. Refused because the ground-ear hears "no words, faces or names", a limit agreed on Day 2. Priced instead as one image or mood, on the god's card. The player did not argue the limit.
+- **Helpers were not given a price.** The player asked what each of the three costs. The DM answered that helpers are the default and unpriced, that the costs are practical, and that the defaults turned down counted in the player's favor when the edge was priced.
+- **Leading from the edge was not charged.** Its practical cost was stated: a people that does not know it has a god does nothing in its god's name.
+- **Tending by helpers:** confirmed as strictly the god's own, as the card says.
+- **The player's descriptions of the land and its past** (valleys, ground that takes no wide fields, deep soil at the town's edge, old customs) were recorded as wishes or beliefs. The DM confirmed none as fact. The player said the brief was "close to what I asked for"; the DM made no reply to that.

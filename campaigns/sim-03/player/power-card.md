@@ -95,6 +95,24 @@ Rulings: none yet.
 Trades: none.
 Growth: Possible. Not shown.
 
+### The steward's pressing
+Status: added Day 3 (2026-11-20). A people's edge that is a power of the god's, priced on the god.
+Description: Once a season, your steward, with her bare hands in ground you have tended, may press one image or one mood into it. No words, no names. It lies there until you next listen on ground joined to it, and you know it for hers. Unheard by the next winter, it is gone. Fire, salt or digging on that spot kills it.
+Drawback: At any listening in which you take up what she left, you lose one day of speech more than that listening would have cost. She loses a day of her own speech each time she presses; that half was set by the DM by shape and is subject to the Keeper fitting it to the world.
+Limits settled at creation:
+- It keeps the ground-ear's limit: no words, faces or names. The player's first ask, a spoken question, was refused for that reason and not argued.
+- It is always her choice. Nothing in the power obliges her. The god will not ask it of her (conduct profile).
+- It is hers alone. It does not pass to another steward without being priced again, and it ends with her office or her life.
+- It sleeps until she knows who it is for. At landing she does not know the god. The player: "It means the power is dormant until I've earned her trust, and I'd rather it be that way than have her helping a god she was told about on the first day."
+- Tended ground only, with bare hands. The god hears it only by the ground-ear, with all of that power's terms: joined ground, the hour in and out, the lost speech.
+- It rules no mind and tells the god nothing but the one image or mood. The reading is the god's.
+- Other gods, and ground worked by more than ordinary craft: unruled until it happens.
+- Intent, the player's first wording: "that my steward can, once a season, speak to me through the ground I have tended, as a spoken question to me, not a reply I hear. It would be a one-way message from her to my ground, heard when I next listen."
+- Settled at creation. Ledger: pending, Night 3.
+Rulings: none yet.
+Trades: The defaults the player turned down on Day 3 (no court, no priests, no command over the council, few helpers) were counted toward the price.
+Growth: Possible. Not shown.
+
 ## Hidden powers
 Two hidden powers exist. Discovered powers are added above as they surface.
 
@@ -114,3 +132,6 @@ Set by the world. Not shown.
 
 ## Dated entries
 - 2026-11-20, Day 2: card written and frozen at the close of creation Day 2.
+- 2026-11-20, Day 3: power block "The steward's pressing" added, marked "added Day 3". Agreed at the Day 3 read-back. Settled at creation. Ledger: pending, Night 3.
+- 2026-11-20, Day 3: confirmed, on the player's question, that tended ground and tended lines are made only by the god's own bare hands and feet. Helpers and other mortals can do the ordinary work that keeps soil alive; they cannot make tended ground, extend it or mend a broken line. A confirmation of the Day 2 definitions (L-0001, L-0002), narrowing nothing. Settled at creation. Ledger: pending, Night 3.
+- 2026-11-20, Day 3: the people's manners about salt and fire used against land change nothing in the weakness. No exemption and no protection follows from them.

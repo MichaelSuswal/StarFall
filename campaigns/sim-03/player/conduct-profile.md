@@ -35,3 +35,23 @@ I want to be known by someone who isn't afraid of me and isn't using me. I lost 
 ## Helpers
 
 Not decided. The player will hear the options on Day 3 before deciding. Said on Day 2: "I'd like the helpers to be people with their own wants, and I won't have them as puppets. I'll say now that I lean toward few, and chosen carefully." The player has been told that a god with no helpers runs on standing conduct alone in unplayed time and that its people drift.
+
+## Day 3 entries (2026-11-20)
+
+Standing conduct the Day 3 table produced, in the player's words.
+
+- **How it means to be found.** As a stranger, unannounced, known first by its work. "I walk in barefoot at the edge of the burial ground in the early morning, kneel in the soil, and start working." "I won't announce it, and I'll make it hard to ask by being plain." Where it comes down is the world's.
+- **What it is, if asked.** As on Day 2: it answers anyone who asks directly and sincerely.
+- **The steward.** "I'll tell her in my own time, and not before she has a reason to believe me." It will not ask the pressing of her: "it's her choice each season whether to press anything at all. I won't ask it of her."
+- **The other two.** "I won't use the steward's role to hide anything from them."
+- **Hearths.** "At the edge, near the door, on the floor if I'm allowed, and as far from the fire as the room will let me, without making a point of it." Pressed to sit closer: "I'll say I'm cold-blooded and prefer the draft, which is close enough to true. I won't lie outright about why. If someone asks directly and sincerely whether fire troubles me, I'll say it does."
+- **Kneelers.** "I ask them to get up, plainly, and I tell them I'm a person working. If they keep kneeling, I stay on my feet and keep working, and I don't make a speech. I won't punish anyone for believing something about me, and I won't correct them by force."
+- **Whoever taught them to kneel, and whoever says the grave words.** "I don't want to take that away from them." "I'll stand beside her, learn what she knows, and be a better listener than a theologian. If someone has taught them to kneel to power in general, I'd rather out-wait it than fight it."
+- **The council.** It does not rule them and takes the consequences of what they decide. It takes no part in settling disputes.
+- **Losing the steward.** "If she dies, falls sick, or turns against me, I'll find new ways to reach the others, and I won't treat the loss as a defect in the rules."
+- **Names.** It learns names from the people and gives none: "I'd rather learn their names than hand them one."
+- **How it goes about things, seen today.** It declined a sure edge and left the worth of the seed, the people's beliefs and their past to the world. It took a refusal without arguing and took the smaller thing offered. It kept all three helpers so as not to bet everything on one person.
+
+### Helpers, decided (replaces "Not decided" above, which is kept as written on Day 2)
+
+Three designed, none serving at landing: a steward, a seed keeper, a track warden, all unnamed (`civs/unnamed-people/record.md`, Helpers). Until the steward serves, unplayed time runs on this profile alone and no one acts for the god. The player has been told so and accepted it.

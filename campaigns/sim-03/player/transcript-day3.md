@@ -166,3 +166,13 @@ Yes, that's them. I have no corrections, and I'm glad the largest cost is named 
 4. **The three and the burial ground.** I'll leave them all unnamed. I'd like to learn their names in play, from them, the way a stranger would. I'll keep calling them the steward, the seed keeper, and the warden until they tell me otherwise.
 
 That's all I have for creation. The day can close.
+
+## DM:
+
+(oog) Agreed, and written as read back, with your four answers. Small quarrels go to whoever both sides already trust, usually an elder of a third house, and the large ones go to the council. That is an ordinary custom of theirs and it stands as you gave it. You take no part in it. How long they have been here and what was there before them are left to the world, with your wish on record that their own telling be a little vague and a little defensive. The people, the town, the burial ground, the steward, the seed keeper and the warden are all unnamed, and stay so until play names them. Nobody will name them for you in the meantime.
+
+The steward's pressing goes on your card as a power added today, asleep until she knows who it is for. The card and the people go for their night review, as every god's do. Her half of the price is the part that may be fitted to the world, and anything that review needs to put to you will come plainly and in the open.
+
+"Then it is settled. Five thousand keepers of an old wood who do not know you are coming, a council that is not yours, a woman among graves who has never seen you, and no name for any of it yet. You will have to ask."
+
+The voice is done. The smell of rot and rain is closer now, and the ground comes up.
