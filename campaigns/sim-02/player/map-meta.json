@@ -1,6 +1,6 @@
 {
   "frames": {
-    "surface": "B1:C2"
+    "surface": "B2:B2"
   },
   "grid": [
     5,
@@ -10,7 +10,16 @@
     2560,
     2560
   ],
-  "zoom": "known",
+  "zoom": "landing",
+  "frame_miles": {
+    "surface": [
+      236,
+      124
+    ]
+  },
+  "labels_dropped": {
+    "surface": 0
+  },
   "regions_drawn": {
     "seen": 1,
     "reported": 2,

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """StarFall map tool, painted-map edition. Needs Pillow. Rules: engine/rules/map.md.
 
-  python3 tools/map.py draw <campaign> [--zoom known] [--layer surface|under-N]
+  python3 tools/map.py draw <campaign> [--zoom known|landing] [--layer surface|under-N]
   python3 tools/map.py gazetteer <campaign>
+  python3 tools/map.py stamp <campaign> [--dry-run]    append [id] after every map name in the sealed .md files
+  python3 tools/map.py describe <campaign> (--landing <god> | --region <id> [--god <god>]) [--names]
   python3 tools/map.py reveal <campaign> (--region R | --feature F) --grade G --source "..." --year N
                                         [--told '<json>'] [--name N] [--cell C3] [--force "reason"]
   python3 tools/map.py validate <campaign>     check the sealed map's ids, neighbors, landings and types
@@ -37,6 +39,29 @@ dict and a `features` dict, each entry with grade, source, year and told:
     both be rumored; a rumored region carries no pixel either.
 Files written before these rules (rumors with `near`, a grid_cell_px grid) are still
 drawn; `migrate` rewrites them.
+
+Zoom: `known` crops to the seen and reported ground; `landing` crops to the seen regions plus a
+quarter margin, at its own scale bar, with the full sheet's grid letters. On every sheet labels are
+laid down by priority and never overprint one another, a settlement mark, the compass or the scale
+bar: a label that would collide moves to the nearest free spot (with a faint leader line back to a
+point or line it names), then loses its small lines, then shrinks; one that still cannot fit is left
+off and named on the command line and counted in map-meta.json (the gazetteer still lists it).
+
+`stamp` appends the bracketed id after every map name (with or without a leading "The", capitalized,
+four letters or more) in every .md file of the sealed campaign folder, the rule lockcheck --places
+warns by. A name already followed by one of its ids (after any 's or a parenthesis) is left alone, so
+running it twice changes nothing. It skips LOCKED.md and the checker's lock-flags*.md, never touches
+the public folder, and prints the count per file.
+
+`describe` writes a land description from the sealed data, for the Keeper's use: the region's terrain,
+elevation, water, climate and extent; its neighbors with travel days and directions; and what is in
+view from the landing point (or the region's middle) by the sight rule in describe()'s docstring. Names
+come from the god's knowledge file (the player's public file, or S/gods/<god>/map-knowledge.json);
+anything the god has not learned is put plainly ("a river", "a hill country"), free text included.
+--names gives every true name.
+
+Coordinates may be whole pixels or tenths (one decimal) or finer; validate fails any that is not a
+pair of numbers or lies off the painting.
 
 The sealed map's regions carry elevation, water, climate and neighbors ({id, days});
 the sheet carries landings (god label to region id), roads (a feature type, drawn as
@@ -81,6 +106,11 @@ INK_LIGHT = (138, 104, 66)
 INK_FAINT = (168, 144, 106)
 WATER_INK = (70, 86, 102)
 ROAD_INK = (112, 78, 44)
+
+# Label priority when labels would collide: higher keeps its place, lower moves or is dropped.
+PRIORITY = {"region": 90, "city": 88, "town": 84, "region-reported": 72, "village": 70,
+            "sea": 62, "mountain": 62, "river": 58, "lake": 58, "pass": 56, "forest": 54, "marsh": 54,
+            "ruin": 52, "cave": 52, "road": 46, "rumored": 30}
 
 REPORTED_BLEND = 0.45   # how much of the painting shows through on reported ground
 FEATHER_PX = 5          # blur radius on the fog masks, in painting pixels
@@ -469,7 +499,31 @@ def check_world(world):
         rid = land.get("region") if isinstance(land, dict) else land
         if rid not in region_ids:
             probs.append(f"landing {god}: region {rid} is not in the map")
+        at = landing_point(land)
+        if at is not None and not is_point(at):
+            probs.append(f"landing {god}: point {at!r} is not an [x, y] pair of numbers")
+    size = (world.get("painting") or {}).get("size", [1024, 1024])
+    for el, _layer in list(all_regions(world)) + list(all_features(world)):
+        pts = el.get("polygon") if "polygon" in el else el.get("coords", [])
+        bad = [p for p in (pts or []) if not is_point(p)]
+        if bad:
+            probs.append(f"{el.get('id', '?')}: coordinate {bad[0]!r} is not an [x, y] pair of numbers")
+        elif any(not (-1 <= p[0] <= size[0] + 1 and -1 <= p[1] <= size[1] + 1) for p in pts or []):
+            probs.append(f"{el.get('id', '?')}: a coordinate lies off the painting")
     return probs
+
+
+def is_point(p):
+    """An [x, y] pair of finite numbers; whole pixels or tenths (one decimal) alike, any precision accepted."""
+    return (isinstance(p, (list, tuple)) and len(p) == 2
+            and all(isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) for v in p))
+
+
+def landing_point(land):
+    """The landing's point in painting pixels (`at`, or `point` in older files), or None."""
+    if isinstance(land, dict):
+        return land.get("at", land.get("point"))
+    return None
 
 
 # ---------------------------------------------------------------- fonts
@@ -550,14 +604,169 @@ class View:
         return (self.ml, self.mt, self.ml + self.iw, self.mt + self.ih)
 
 
-class Labeler:
-    """Collects labels on two layers, a parchment halo and the ink, and lays them down together."""
+LEADER_MIN = 14   # sheet pixels: a label moved farther than this from what it names gets a leader line
 
-    def __init__(self, size):
+
+class Labeler:
+    """Collects labels on two layers, a parchment halo and the ink, and lays them down together.
+
+    `text` draws at once (the grid's letters). `add` queues a label group (a name and its small
+    lines beneath) with a priority; `place` then lays the groups down in priority order so that
+    no two overprint and none covers a settlement mark, the compass or the scale bar: a group
+    that would collide is shifted to the nearest free spot, then loses its small lines, then
+    shrinks, and is dropped only when nothing fits (the drop is reported, never overprinted).
+    """
+
+    def __init__(self, size, bounds=None):
         self.halo = Image.new("RGBA", size, (0, 0, 0, 0))
         self.ink = Image.new("RGBA", size, (0, 0, 0, 0))
         self.dh = ImageDraw.Draw(self.halo)
         self.di = ImageDraw.Draw(self.ink)
+        self.bounds = bounds or (0, 0, size[0], size[1])
+        self.queue = []
+        self.obstacles = []
+        self.placed = []
+        self.leaders = []
+        self.groups = []
+        self.dropped = []
+        self.moved = 0
+
+    def obstacle(self, box):
+        """A box no label may cover (a settlement mark, the compass, the scale bar)."""
+        self.obstacles.append(tuple(box))
+
+    def add(self, xy, lines, priority=50, anchor="mm", marker=None, leader=False):
+        """Queue a label group. lines: [(text, size, style, fill, alpha, dy)], the first the name.
+        anchor "mm" centers the group on xy; "lm" sets it to the right of a marker at xy (and may
+        move it to the left, above or below the marker)."""
+        lines = [l for l in lines if l[0]]
+        if lines:
+            self.queue.append({"xy": xy, "lines": lines, "priority": priority, "anchor": anchor,
+                               "order": len(self.queue), "marker": marker, "leader": leader})
+
+    @staticmethod
+    def _line_box(xy, s, size, style, anchor):
+        f = font(size, style)
+        try:
+            b = f.getbbox(s, anchor=anchor)
+        except (TypeError, ValueError):
+            w, h = f.getlength(s), size
+            dx = {"l": 0, "m": -w / 2, "r": -w}[anchor[0]]
+            b = (dx, -h / 2, dx + w, h / 2)
+        pad = max(2, size // 6) + 1
+        return (xy[0] + b[0] - pad, xy[1] + b[1] - pad, xy[0] + b[2] + pad, xy[1] + b[3] + pad)
+
+    def _layout(self, g, xy, anchor, lines, scale=1.0):
+        """(boxes, draw ops) for a group set at xy with the given anchor."""
+        ops, boxes = [], []
+        for (s, size, style, fill, alpha, dy) in lines:
+            sz = max(8, int(round(size * scale)))
+            p = (xy[0], xy[1] + dy * scale)
+            ops.append((p, s, sz, style, fill, alpha, anchor))
+            boxes.append(self._line_box(p, s, sz, style, anchor))
+        return boxes, ops
+
+    @staticmethod
+    def _hit(a, b):
+        return a[0] < b[2] and b[0] < a[2] and a[1] < b[3] and b[1] < a[3]
+
+    def _free(self, boxes):
+        l, t, r, b = self.bounds
+        for bx in boxes:
+            if bx[0] < l or bx[1] < t or bx[2] > r or bx[3] > b:
+                return False
+            if any(self._hit(bx, o) for o in self.obstacles) or any(self._hit(bx, o) for o in self.placed):
+                return False
+            if any(self._seg_hits(seg, bx) for seg in self.leaders):
+                return False
+        return True
+
+    @staticmethod
+    def _leader_seg(xy, boxes):
+        b = boxes[0]
+        return (tuple(xy), (min(max(xy[0], b[0]), b[2]), min(max(xy[1], b[1]), b[3])))
+
+    @staticmethod
+    def _seg_hits(seg, box, shrink=1.0):
+        (x0, y0), (x1, y1) = seg
+        n = max(2, int(math.dist(seg[0], seg[1]) // 2))
+        for i in range(1, n):
+            x, y = x0 + (x1 - x0) * i / n, y0 + (y1 - y0) * i / n
+            if box[0] + shrink < x < box[2] - shrink and box[1] + shrink < y < box[3] - shrink:
+                return True
+        return False
+
+    def _leader_free(self, g, boxes):
+        """A leader may not cross another label or a mark on its way to its own label."""
+        seg = self._leader_seg(g["xy"], boxes)
+        if math.dist(seg[0], seg[1]) <= LEADER_MIN:
+            return True
+        others = self.placed + [o for o in self.obstacles if not (o[0] <= g["xy"][0] <= o[2] and o[1] <= g["xy"][1] <= o[3])]
+        return not any(self._seg_hits(seg, o) for o in others)
+
+    def _candidates(self, g, lines, scale):
+        x, y = g["xy"]
+        boxes, _ = self._layout(g, (x, y), "mm" if g["anchor"] == "mm" else "lm", lines, scale)
+        x0, y0, x1, y1 = bbox([(b[0], b[1]) for b in boxes] + [(b[2], b[3]) for b in boxes])
+        w, h = x1 - x0, y1 - y0
+        out = []
+        if g["anchor"] == "lm":
+            m = 10
+            out += [((x + m, y), "lm"), ((x - m, y), "rm"), ((x, y - m - h / 2), "mm"), ((x, y + m + h / 2), "mm"),
+                    ((x + m, y - h / 2 - 2), "lm"), ((x + m, y + h / 2 + 2), "lm"),
+                    ((x - m, y - h / 2 - 2), "rm"), ((x - m, y + h / 2 + 2), "rm")]
+            for k in (2, 3, 4):
+                out += [((x + m, y - k * h * 0.6), "lm"), ((x + m, y + k * h * 0.6), "lm"),
+                        ((x - m, y - k * h * 0.6), "rm"), ((x - m, y + k * h * 0.6), "rm")]
+        else:
+            out.append(((x, y), "mm"))
+            for k in (1, 2, 3, 4, 5, 6):
+                sy, sx = k * (h * 0.55 + 2), k * (w * 0.55 + 2)
+                out += [((x, y - sy), "mm"), ((x, y + sy), "mm"), ((x + sx, y), "mm"), ((x - sx, y), "mm"),
+                        ((x + sx, y - sy), "mm"), ((x - sx, y - sy), "mm"), ((x + sx, y + sy), "mm"), ((x - sx, y + sy), "mm")]
+        return out
+
+    def _leader(self, xy, boxes, fill):
+        """A faint ink line from the thing named to its label, when the label had to move off it."""
+        b = boxes[0]
+        px = min(max(xy[0], b[0]), b[2])
+        py = min(max(xy[1], b[1]), b[3])
+        if math.dist(xy, (px, py)) > LEADER_MIN:
+            self.leaders.append((tuple(xy), (px, py)))
+            self.di.line([xy, (px, py)], fill=tuple(fill) + (150,), width=1)
+            self.di.ellipse([xy[0] - 1.5, xy[1] - 1.5, xy[0] + 1.5, xy[1] + 1.5], fill=tuple(fill) + (170,))
+
+    def place(self):
+        """Lay down every queued group, highest priority first; returns the names dropped."""
+        for g in sorted(self.queue, key=lambda g: (-g["priority"], g["order"])):
+            tries = [(g["lines"], 1.0)]
+            if len(g["lines"]) > 2:
+                tries.append((g["lines"][:2], 1.0))
+            if len(g["lines"]) > 1:
+                tries.append((g["lines"][:1], 1.0))
+            tries.append((g["lines"][:1], 0.8))
+            done = False
+            for lines, scale in tries:
+                for i, (xy, anchor) in enumerate(self._candidates(g, lines, scale)):
+                    boxes, ops = self._layout(g, xy, anchor, lines, scale)
+                    if self._free(boxes) and (not (g["leader"] and i) or self._leader_free(g, boxes)):
+                        if g["leader"] and i:
+                            self._leader(g["xy"], boxes, lines[0][3])
+                        for op in ops:
+                            p, s_, sz, style, fill, alpha, anc = op
+                            self.text(p, s_, size=sz, style=style, fill=fill, alpha=alpha, anchor=anc)
+                        self.placed += boxes
+                        self.groups.append(boxes)
+                        if i or scale != 1.0 or len(lines) < len(g["lines"]):
+                            self.moved += 1
+                        done = True
+                        break
+                if done:
+                    break
+            if not done:
+                self.dropped.append(g["lines"][0][0])
+        self.queue = []
+        return self.dropped
 
     def text(self, xy, s, size=14, style="regular", fill=INK, alpha=255, anchor="mm", halo=True):
         f = font(size, style)
@@ -571,6 +780,8 @@ class Labeler:
         return font(size, style).getlength(s)
 
     def flush(self, canvas):
+        if self.queue:
+            self.place()
         canvas.alpha_composite(self.halo.filter(ImageFilter.GaussianBlur(1.4)))
         canvas.alpha_composite(self.ink)
 
@@ -683,7 +894,7 @@ def draw_region_labels(lab, view, regions, painting, dim=1.0):
         if k["grade"] == "rumored":
             p = k["near"]
             if view.inside(p):
-                lab.text(view.pt(p), k["name"], size=18, style="italic", fill=INK, alpha=int(150 * dim))
+                lab.add(view.pt(p), [(k["name"], 18, "italic", INK, int(150 * dim), 0)], priority=PRIORITY["rumored"])
             continue
         c = centroid(k["polygon"])
         if not view.inside(c):
@@ -702,10 +913,11 @@ def draw_region_labels(lab, view, regions, painting, dim=1.0):
         x, y = view.pt(c)
         fill = INK if not reported else INK_LIGHT
         a = int((255 if not reported else 225) * dim)
-        lab.text((x, y - 9), k["name"], size=22, style="regular", fill=fill, alpha=a)
-        lab.text((x, y + 11), f"({painting.cell_of(centroid(k['polygon']))})", size=13, style="regular", fill=fill, alpha=a)
+        lines = [(k["name"], 22, "regular", fill, a, -9),
+                 (f"({painting.cell_of(centroid(k['polygon']))})", 13, "regular", fill, a, 11)]
         if reported:
-            lab.text((x, y + 27), f"reported: {k['source']}", size=12, style="italic", fill=INK_LIGHT, alpha=int(210 * dim))
+            lines.append((f"reported: {k['source']}", 12, "italic", INK_LIGHT, int(210 * dim), 27))
+        lab.add((x, y), lines, priority=PRIORITY["region-reported" if reported else "region"])
 
 
 def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
@@ -718,7 +930,7 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
     if g == "rumored":
         p = coords[0]
         if view.inside(p):
-            lab.text(view.pt(p), k["name"], size=13, style="italic", fill=INK, alpha=int(150 * dim))
+            lab.add(view.pt(p), [(k["name"], 13, "italic", INK, int(150 * dim), 0)], priority=PRIORITY["rumored"], leader=True)
         return
     reported = g == "reported"
     a = int((255 if not reported else 220) * dim)
@@ -746,7 +958,8 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
         if k["name"]:
             mid = coords[len(coords) // 2]
             if view.inside(mid):
-                lab.text(view.pt(mid), k["name"], size=11, style="italic", fill=ROAD_INK, alpha=a)
+                lab.add(view.pt(mid), [(k["name"], 11, "italic", ROAD_INK, a, 0)],
+                        priority=PRIORITY["road"] - (5 if reported else 0), leader=True)
         return
     if t in SETTLEMENT_TYPES:
         p = coords[0]
@@ -754,10 +967,13 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
             return
         x, y = view.pt(p)
         draw_settlement(canvas, (x, y), t, alpha=a)
+        r = 8 if t == "city" else 6
+        lab.obstacle((x - r, y - r, x + r, y + r))
         size = 17 if t == "city" else (15 if t == "town" else 13)
-        lab.text((x + 10, y), k["name"], size=size, style="regular", fill=color, alpha=a, anchor="lm")
+        lines = [(k["name"], size, "regular", color, a, 0)]
         if reported:
-            lab.text((x + 10, y + 14), f"reported: {k['source']}", size=10, style="italic", fill=INK_LIGHT, alpha=a, anchor="lm")
+            lines.append((f"reported: {k['source']}", 10, "italic", INK_LIGHT, a, 14))
+        lab.add((x, y), lines, priority=PRIORITY[t] - (10 if reported else 0), anchor="lm", leader=True)
         return
     # a named natural feature: label only
     if k["shape"] == "line" and len(coords) >= 2:
@@ -782,17 +998,32 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
     x, y = view.pt(p)
     style = "italic" if water else "regular"
     size = 18 if t in ("sea", "mountain") else 14
-    lab.text((x, y), k["name"], size=size, style=style, fill=color, alpha=a)
+    lines = [(k["name"], size, style, color, a, 0)]
     if reported:
-        lab.text((x, y + 13), f"reported: {k['source']}", size=10, style="italic", fill=INK_LIGHT, alpha=a)
+        lines.append((f"reported: {k['source']}", 10, "italic", INK_LIGHT, a, 13))
+    lab.add((x, y), lines, priority=PRIORITY.get(t, 50) - (10 if reported else 0), leader=True)
+
+
+def scale_bar(view, painting):
+    """(miles, length in sheet pixels) of the scale bar for this view: the first round figure
+    at least 110 pixels long, so every zoom gets a bar at its own scale."""
+    px_per_mile = view.scale / painting.mpp
+    for mi in (1, 2, 5, 10, 20, 25, 50, 100, 200, 500, 1000, 2000, 5000):
+        if mi * px_per_mile >= 110:
+            break
+    return mi, mi * px_per_mile
+
+
+def furniture_boxes(view, painting):
+    """The scale bar's and the compass's boxes on the sheet, which no label may cover."""
+    l, t, r, b = view.rect()
+    _mi, L = scale_bar(view, painting)
+    return [(l + 18 - 10, b - 22 - 26, l + 18 + L + 10, b - 22 + 12),
+            (r - 42 - 32, t + 42 - 40, r - 42 + 32, t + 42 + 32)]
 
 
 def draw_scale_bar(canvas, view, painting):
-    px_per_mile = view.scale / painting.mpp
-    for mi in (1, 2, 5, 10, 20, 25, 50, 100, 200, 500, 1000):
-        if mi * px_per_mile >= 110:
-            break
-    L = mi * px_per_mile
+    mi, L = scale_bar(view, painting)
     l, t, r, b = view.rect()
     x0, y0 = l + 18, b - 22
     over = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
@@ -892,12 +1123,53 @@ def known_rect(regions_k, features_k, layer_id, painting):
     return (x0, y0, x1, y1)
 
 
+LANDING_MARGIN = 0.25     # of the seen box, on every side
+LANDING_MIN_MARGIN = 6    # painting pixels
+LANDING_MIN_SIZE = 32     # painting pixels across, at the least
+
+
+def landing_rect(regions_k, features_k, painting):
+    """The landing zoom: the bounding box of the seen regions, plus a margin of a quarter of the
+    box (at least LANDING_MIN_MARGIN pixels) on every side, clamped to the painting. With no
+    seen region it falls back to the known zoom."""
+    pts = []
+    for k in regions_k.values():
+        if k["grade"] == "seen" and k["polygon"]:
+            pts.extend(k["polygon"])
+    if not pts:
+        return known_rect(regions_k, features_k, None, painting)
+    x0, y0, x1, y1 = bbox(pts)
+    mx = max((x1 - x0) * LANDING_MARGIN, LANDING_MIN_MARGIN)
+    my = max((y1 - y0) * LANDING_MARGIN, LANDING_MIN_MARGIN)
+    x0, y0, x1, y1 = x0 - mx, y0 - my, x1 + mx, y1 + my
+    for lo, hi, axis in ((x0, x1, 0), (y0, y1, 1)):
+        if hi - lo < LANDING_MIN_SIZE:
+            c = (lo + hi) / 2
+            lo, hi = c - LANDING_MIN_SIZE / 2, c + LANDING_MIN_SIZE / 2
+        if axis == 0:
+            x0, x1 = lo, hi
+        else:
+            y0, y1 = lo, hi
+    return (max(0, x0), max(0, y0), min(painting.size[0], x1), min(painting.size[1], y1))
+
+
+def zoom_rect(zoom, regions_k, features_k, layer_id, painting):
+    if zoom == "known":
+        return known_rect(regions_k, features_k, layer_id, painting)
+    if zoom == "landing":
+        return landing_rect(regions_k, features_k, painting)
+    return (0, 0, *painting.size)
+
+
 def beyond_notes(view, regions_k, features_k, layer_id):
     cx, cy = (view.x0 + view.x1) / 2, (view.y0 + view.y1) / 2
     items = [(k["name"], k["near"]) for k in regions_k.values() if k["grade"] == "rumored"]
     items += [(k["name"], k["coords"][0]) for k, lid in features_k.values() if lid == layer_id and k["grade"] == "rumored"]
     notes = [f"{name}, {bearing_name(p[0] - cx, p[1] - cy)}" for name, p in items if not view.inside(p)]
     return ["rumored, beyond this sheet: " + "; ".join(notes)] if notes else []
+
+
+LAST_LABELS = {"dropped": [], "moved": 0}
 
 
 def draw_sheet(world, painting, paintings_dir, painting_file, regions, features, view, title, notes, layer_name=None):
@@ -908,14 +1180,20 @@ def draw_sheet(world, painting, paintings_dir, painting_file, regions, features,
     ground = paint_ground(view, paint, clouds, mask)
     canvas.alpha_composite(ground, (view.ml, view.mt))
     draw_grid(canvas, view, painting)
-    lab = Labeler(canvas.size)
-    draw_region_labels(lab, view, regions, painting)
+    lab = Labeler(canvas.size, bounds=view.rect())
+    for box in furniture_boxes(view, painting):
+        lab.obstacle(box)
     region_names = {k["name"] for k in regions if k["grade"] != "rumored"}
+    # settlement marks first, so that every label (region names included) keeps off them
     for shape in ("area", "line", "point"):
         for k in features:
             if k["shape"] == shape:
                 draw_feature(canvas, lab, view, k, painting, region_names)
+    draw_region_labels(lab, view, regions, painting)
+    lab.place()
     lab.flush(canvas)
+    LAST_LABELS["dropped"] = list(lab.dropped)
+    LAST_LABELS["moved"] = lab.moved
     draw_scale_bar(canvas, view, painting)
     draw_compass(canvas, view)
     if layer_name:
@@ -937,8 +1215,9 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
               "Rumors are faint names. Cloud is ground the god does not know. Grid letters and numbers are for reference out of game."]
 
     frames = {}
+    labels = {}
     if which in (None, "surface"):
-        rect = known_rect(regions_k, features_k, None, painting) if zoom == "known" else (0, 0, *painting.size)
+        rect = zoom_rect(zoom, regions_k, features_k, None, painting)
         view = View(rect)
         feats = [k for k, lid in features_k.values() if lid is None]
         view, notes = make_view(rect, legend + beyond_notes(view, regions_k, features_k, None))
@@ -947,6 +1226,7 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
         im.save(path, optimize=True)
         written.append(path)
         frames["surface"] = rect
+        labels["surface"] = dict(LAST_LABELS)
 
     for layer in world.get("layers", []):
         lid = layer["id"]
@@ -958,7 +1238,7 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
             continue
         layer_regions = [regions_k[r["id"]] for r in layer.get("regions", []) if r["id"] in regions_k]
         regions = layer_regions if layer.get("regions") else surface_regions
-        rect = known_rect({k["id"]: k for k in regions}, features_k, lid, painting) if zoom == "known" else (0, 0, *painting.size)
+        rect = zoom_rect(zoom, {k["id"]: k for k in regions}, features_k, lid, painting)
         view = View(rect)
         view, notes = make_view(rect, ["The ground below is fogged by what is known of the ground above it unless the layer has its own regions.",
                                        "Only known ground below is named."] + beyond_notes(view, {}, features_k, lid))
@@ -968,6 +1248,7 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
         im.save(path, optimize=True)
         written.append(path)
         frames[f"under-{depth}"] = rect
+        labels[f"under-{depth}"] = dict(LAST_LABELS)
 
     def frame_cells(rect):
         return f"{painting.cell_of((rect[0], rect[1]))}:{painting.cell_of((rect[2] - 1, rect[3] - 1))}"
@@ -975,6 +1256,8 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
     meta = {"frames": {k: frame_cells(rect) for k, rect in frames.items()},
             "grid": [painting.ncols, painting.nrows], "sheet_miles": [round(painting.miles(v)) for v in painting.size],
             "zoom": zoom or "full",
+            "frame_miles": {k: [round(painting.miles(r[2] - r[0])), round(painting.miles(r[3] - r[1]))] for k, r in frames.items()},
+            "labels_dropped": {k: len(v["dropped"]) for k, v in labels.items()},
             "regions_drawn": {g: sum(1 for k in regions_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "features_drawn": {g: sum(1 for k, _ in features_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "drawn": pacific_today(), "files": [os.path.basename(w) for w in written]}
@@ -1005,6 +1288,24 @@ def read_log(path):
 def fmt_pt(p, painting):
     """A place as the public files give it: a grid cell, never a coordinate."""
     return painting.cell_of(p)
+
+
+def believed_polygon(k, knowledge):
+    """A known region's polygon as the god believes it: the truth if seen, told.polygon if reported
+    with one, else None (a report that gave no shape carries no distance)."""
+    if k["grade"] == "seen":
+        return k["polygon"]
+    told = (knowledge.get("regions", {}).get(k["id"], {}) or {}).get("told") or {}
+    return told.get("polygon")
+
+
+def told_span(a, b, knowledge, painting):
+    """The distance between two known regions when one is only reported, from told data only:
+    miles between the centers the god believes, no days. Never the sealed travel days."""
+    pa, pb = believed_polygon(a, knowledge), believed_polygon(b, knowledge)
+    if not pa or not pb:
+        return "distance not told"
+    return f"about {painting.miles(math.dist(centroid(pa), centroid(pb))):.0f} miles center to center as told, days not known"
 
 
 def gazetteer(world, knowledge, out_dir, log_path):
@@ -1039,7 +1340,8 @@ def gazetteer(world, knowledge, out_dir, log_path):
 
     lines.append("## Travel between known regions")
     lines.append("")
-    lines.append("Days on foot between neighboring regions the god knows, at the pace table's rate. A reported region makes the figure reported.")
+    lines.append("Days on foot between neighboring regions the god has seen, at the pace table's rate. Where one of the two is only reported, "
+                 "the figure is what was told: the miles between the two as the god believes them, and no days, since no one has walked it for the god.")
     lines.append("")
     pairs, done = [], set()
     for rid, k in regions_k.items():
@@ -1057,7 +1359,10 @@ def gazetteer(world, knowledge, out_dir, log_path):
     if not pairs:
         lines.append("No two known regions border each other.")
     for a, b, days, grade in sorted(pairs, key=lambda t: (regions_k[t[0]]["name"], regions_k[t[1]]["name"])):
-        d = f"{days:g} days" if isinstance(days, (int, float)) else "days unknown"
+        if grade == "seen":
+            d = f"{days:g} days" if isinstance(days, (int, float)) else "days unknown"
+        else:
+            d = told_span(regions_k[a], regions_k[b], knowledge, painting)
         lines.append(f"- **{regions_k[a]['name']}** to **{regions_k[b]['name']}**: {d} ({grade}).")
     lines.append("")
 
@@ -1256,12 +1561,453 @@ def migrate(world, knowledge, painting):
     return notes
 
 
+# ---------------------------------------------------------------- stamp
+
+STAMP_SKIP = {"LOCKED.md"}
+
+
+def stamp_names(world):
+    """{name variant: sorted ids} for every map name (with and without a leading article), kept only
+    when capitalized and four letters or more, the rule lockcheck --places warns by."""
+    names = {}
+    for el, _layer in list(all_regions(world)) + list(all_features(world)):
+        nm = (el.get("name") or "").strip()
+        variants = {nm}
+        m = re.match(r"^(The|the|A|An)\s+(.+)$", nm)
+        if m:
+            variants.add(m.group(2))
+        for v in variants:
+            if len(v) >= 4 and v[0].isupper():
+                names.setdefault(v, set()).add(el["id"])
+    return {v: sorted(ids) for v, ids in names.items()}
+
+
+def stamp_text(text, names):
+    """Append [id] after every map name in text that does not already carry one of its ids.
+    Longer names win where names overlap. Returns (new text, number stamped)."""
+    if not names:
+        return text, 0
+    rx = re.compile(r"(?<![\w'\-\[])(" + "|".join(re.escape(v) for v in sorted(names, key=len, reverse=True)) + r")(?![\w\-])")
+    out, last, n = [], 0, 0
+    for m in rx.finditer(text):
+        ids = names[m.group(1)]
+        end = m.end()
+        poss = re.match(r"'s\b", text[end:])
+        if poss:
+            end += poss.end()
+        after = re.sub(r"^\s*(\([^)\n]*\)\s*)?", "", text[end:end + 80])
+        bm = re.match(r"\[([a-z0-9, -]+)\]", after)
+        if bm and set(re.split(r"\s*,\s*", bm.group(1))) & set(ids):
+            continue
+        out.append(text[last:end])
+        out.append(f" [{', '.join(ids)}]")
+        last = end
+        n += 1
+    out.append(text[last:])
+    return "".join(out), n
+
+
+def stamp(campaign, sealed_dir, world, dry_run=False):
+    """Stamp every .md file in the sealed campaign folder. Never reads or writes the public folder.
+    Skips the checker's flags files and LOCKED.md. Returns (files changed, names stamped, per-file counts)."""
+    sealed_dir = os.path.abspath(sealed_dir)
+    public = os.path.abspath(os.path.join(ROOT, "campaigns", campaign))
+    names = stamp_names(world)
+    changed, total, per = 0, 0, []
+    for dirpath, dirs, files in os.walk(sealed_dir):
+        dirs[:] = sorted(d for d in dirs if not d.startswith("."))
+        for fn in sorted(files):
+            path = os.path.join(dirpath, fn)
+            if not fn.endswith(".md") or fn in STAMP_SKIP or re.match(r"^lock-flags.*\.md$", fn):
+                continue
+            if os.path.commonpath([os.path.abspath(path), public]) == public:
+                continue  # never the public folder
+            with open(path, encoding="utf-8") as f:
+                text = f.read()
+            new, n = stamp_text(text, names)
+            if n:
+                per.append((os.path.relpath(path, sealed_dir), n))
+                changed += 1
+                total += n
+                if not dry_run:
+                    with open(path, "w", encoding="utf-8") as f:
+                        f.write(new)
+    return changed, total, per
+
+
+# ---------------------------------------------------------------- describe
+
+EYE_FT = 6.0                # a tall mortal's eye above the ground
+HORIZON_K = 1.22            # miles = 1.22 * sqrt(feet), the sight line over a curved earth with ordinary refraction
+NEAR_MILES = {"open": 2.0, "closed": 0.5}   # ground-level things in view (map.md 1.4, 2.1): open ground, forest or hill
+SKYLINE_MILES = 40.0        # the skyline from a hill, ridge or coast in clear air (map.md 1.4)
+OPEN_TERRAIN = {"plain", "valley", "steppe", "coast", "desert", "tundra", "sea", "marsh", "island", "lake", "mountain"}
+HEIGHT_TERRAIN = {"hill", "highland", "mountain"}
+COAST_TERRAIN = {"coast", "island", "sea"}
+VIEW_WORDS = {"floor": "from a valley floor or plain", "height": "from a hill, ridge or height", "coast": "from a coast"}
+ELEVATION_WORDS = [          # (word, floor feet, top feet) when the elevation gives no figure, first match wins
+    ("at the tide", 0, 10), ("sea level", 0, 50), ("sea", 0, 0), ("mountain", 4000, 10000),
+    ("high", 2000, 6000), ("upland", 1000, 2500), ("low hill", 100, 800), ("hill", 300, 1500),
+    ("pass", 500, 2000), ("low", 0, 500)]
+
+
+def sight_miles(relief_ft, eye_ft=EYE_FT):
+    """How far a tall mortal's eye sees ground that stands relief_ft above its own: the eye's horizon
+    plus the target's. A target no higher than the eye shows only out to the eye's own horizon."""
+    return HORIZON_K * (math.sqrt(max(eye_ft, 0)) + math.sqrt(max(relief_ft, 0)))
+
+
+def parse_elevation(region):
+    """(floor feet, top feet, from_figures) from a region's elevation text, terrain as a fallback."""
+    text = str(region.get("elevation", ""))
+    nums = [int(x.replace(",", "")) for x in re.findall(r"\d{1,3}(?:,\d{3})+|\d+", text)] if re.search(r"feet|ft\b|foot", text) else []
+    low = text.lower()
+    word = next(((f, t) for w, f, t in ELEVATION_WORDS if w in low), None)
+    if word is None:
+        terr = str(region.get("terrain", "")).lower()
+        word = next(((f, t) for w, f, t in ELEVATION_WORDS if w in terr), (0, 500))
+    if nums:
+        if len(nums) >= 2:
+            return min(nums), max(nums), True
+        if re.search(r"(?<!\d)\bto\s+[\d,]+", text):
+            return min(word[0], nums[0]), nums[0], True   # "to 4,000 feet": the floor from the word
+        return nums[0], nums[0], True
+    return word[0], word[1], False
+
+
+def terrain_word(region):
+    return (str(region.get("terrain", "")).split(",")[0].split() or ["land"])[0].lower()
+
+
+def openness(region):
+    return "open" if terrain_word(region) in OPEN_TERRAIN else "closed"
+
+
+def dist_to_poly_edge(p, poly):
+    """Miles-free distance (painting pixels) from p to a polygon: 0 inside, else to its nearest edge,
+    and the nearest point."""
+    if point_in_poly(p[0], p[1], poly):
+        return 0.0, tuple(p)
+    best, foot = float("inf"), None
+    ring = list(poly) + [poly[0]]
+    for i in range(len(ring) - 1):
+        a, b = ring[i], ring[i + 1]
+        ab = (b[0] - a[0], b[1] - a[1])
+        L2 = ab[0] ** 2 + ab[1] ** 2
+        t = 0 if L2 == 0 else max(0, min(1, ((p[0] - a[0]) * ab[0] + (p[1] - a[1]) * ab[1]) / L2))
+        f = (a[0] + ab[0] * t, a[1] + ab[1] * t)
+        d = math.dist(p, f)
+        if d < best:
+            best, foot = d, f
+    return best, foot
+
+
+def fmt_miles(mi):
+    if mi < 0.2:
+        return "a few hundred yards"
+    if mi < 0.4:
+        return "about a quarter mile"
+    if mi < 0.75:
+        return "about half a mile"
+    if mi < 1.5:
+        return "about a mile"
+    return f"about {mi:.0f} miles"
+
+
+class Namer:
+    """Names as a god has learned them: from its knowledge file (seen: the name; told.name; a report
+    with no told name: the name, as the teller was accurate), else a plain description. --names
+    gives every true name."""
+
+    def __init__(self, world, knowledge, all_names=False):
+        self.world = world
+        self.k = knowledge or {"regions": {}, "features": {}}
+        self.all = all_names
+        self.by_id = index_world(world)
+
+    def learned(self, ident):
+        kind = self.by_id.get(ident, (None,))[0]
+        table = "regions" if kind == "region" else "features"
+        e = self.k.get(table, {}).get(ident)
+        g = grade_of(e)
+        if g == "none":
+            return None
+        told = (e.get("told") or {}) if g != "seen" else {}
+        if told.get("name"):
+            return told["name"]
+        if g in ("seen", "reported"):
+            return self.by_id[ident][1].get("name")
+        return None
+
+    def generic(self, ident):
+        kind, el, _ = self.by_id[ident]
+        if kind == "region":
+            w = terrain_word(el)
+            return "the sea" if w == "sea" else f"{'an' if w[0] in 'aeiou' else 'a'} {w} country"
+        t = el.get("type", "place")
+        return f"{'an' if t[0] in 'aeiou' else 'a'} {t}"
+
+    def name(self, ident):
+        if self.all:
+            return self.by_id[ident][1].get("name") or self.generic(ident)
+        return self.learned(ident) or self.generic(ident)
+
+    def scrub(self, text):
+        """Free text from the sealed map with every name the god has not learned put plainly."""
+        if self.all or not text:
+            return text
+        for ident, (kind, el, _l) in sorted(self.by_id.items(), key=lambda kv: -len(kv[1][1].get("name", ""))):
+            nm = el.get("name", "")
+            known = self.learned(ident)
+            if not nm or known == nm:
+                continue
+            core = re.sub(r"^(The|the)\s+", "", nm)
+            rx = re.compile(r"(?<![\w])(?:[Tt]he\s+)?" + re.escape(core) + r"(?![\w])")
+            text = rx.sub(lambda m, k=known or self.generic(ident): k, text)
+        return text
+
+    def ids_or_text(self, v):
+        if isinstance(v, list):
+            return ", ".join(self.name(i) if i in self.by_id else str(i) for i in v) or "none named"
+        return self.scrub(str(v))
+
+
+def god_knowledge(campaign, god, sealed_dir):
+    if god in (None, ""):
+        return None
+    if god == "player":
+        p = os.path.join(ROOT, "campaigns", campaign, "player", "map-knowledge.json")
+    else:
+        p = os.path.join(sealed_dir, "gods", god, "map-knowledge.json")
+    return load_json(p, default={"regions": {}, "features": {}})
+
+
+def describe(world, region_id=None, at=None, knowledge=None, all_names=False, label=None):
+    """A land description read off the map data: the region's terrain, elevation, water and climate;
+    its neighbors with travel days and directions; what is in view from the point and the sight line.
+
+    Sight at landing, engine/rules/map.md 1.4, read off the data the same way for every god:
+    - The ground the god stands on decides the reading. From a valley floor or a plain (any ground but
+      hill, highland, mountain, coast, island or sea) the eye is a tall mortal's, EYE_FT above the
+      region's lowest figure; a region standing higher shows on the skyline out to sight_miles(relief),
+      the eye's horizon plus the higher ground's own, unless ground between stands above the line from
+      the eye to its top (blocker); level or lower ground shows only within the near distance.
+      Worked: from a valley floor at 1,200 feet, ridges topping 3,000 feet (relief 1,800) show out to
+      1.22 x (2.4 + 42.4), about 55 miles, and peaks of 13,000 feet out to about 136 miles if no ridge
+      between stands above the line to them.
+    - From a hill, highland or mountain the eye stands at the region's highest figure and sees out to
+      a skyline of SKYLINE_MILES (forty) at most, whatever stands beyond; from a coast, island or sea, the
+      sea and any shore within the same forty miles.
+    - Point, line and area features (a town, a ruin, a cave mouth, a river's reach, a road, a lake) are
+      in view within NEAR_MILES: two miles on open ground, half a mile in forest or hill (line of sight
+      in mountains is read as the open-ground two miles). A settlement farther off is given as its
+      smoke, walls or lights only: in the god's own region from a floor, within the forty-mile skyline
+      from a height or a coast, and never past ground that stands above the line to it.
+    - A mountain feature is read as the highest region it touches. Nothing underground is seen."""
+    painting = Painting(world)
+    mi = painting.miles
+    by_id = index_world(world)
+    names = Namer(world, knowledge, all_names)
+    region = by_id[region_id][1]
+    if at is None:
+        at = centroid(region["polygon"])
+        where = "from the middle of the region (no landing point is given)"
+    else:
+        where = "from the landing point"
+    floor, top, figs = parse_elevation(region)
+    out = []
+    head = names.name(region_id)
+    out.append(f"{label or 'Land description'}: {head}, {where}, in grid cell {painting.cell_of(at)}.")
+    out.append("")
+    terrain = names.scrub(region.get("terrain", ""))
+    out.append(f"The ground is {terrain}. Elevation: {names.scrub(str(region.get('elevation', 'not given')))}"
+               f"{'' if figs else ' (no figure given; read as ' + str(floor) + ' to ' + str(top) + ' feet)'}. "
+               f"Water: {names.ids_or_text(region.get('water', 'none given'))}. Climate: {names.scrub(str(region.get('climate', 'not given')))}.")
+    x0, y0, x1, y1 = bbox(region["polygon"])
+    out.append(f"The region runs about {mi(x1 - x0):.0f} miles east to west and {mi(y1 - y0):.0f} miles north to south.")
+    out.append("")
+
+    # neighbors
+    nb_lines = []
+    for n in region.get("neighbors", []):
+        nid = n.get("id") if isinstance(n, dict) else n
+        if nid not in by_id:
+            continue
+        other = by_id[nid][1]
+        d_edge, foot = dist_to_poly_edge(at, other["polygon"])
+        c = centroid(other["polygon"])
+        days = n.get("days") if isinstance(n, dict) else None
+        by = n.get("by") if isinstance(n, dict) else None
+        dtxt = f"{days:g} days on foot at the pace table's cross-country rate" if isinstance(days, (int, float)) else (f"by {by}" if by else "days not given")
+        nb_lines.append(f"- {names.name(nid)} ({terrain_word(other)}), lying {bearing_name(c[0] - at[0], c[1] - at[1])}: "
+                        f"{dtxt}; its nearest edge {fmt_miles(mi(d_edge))} {bearing_name(foot[0] - at[0], foot[1] - at[1])} of the point.")
+    out.append("Neighbors:" if nb_lines else "Neighbors: none given.")
+    out += nb_lines
+    out.append("")
+
+    # sight
+    kind = viewpoint(region)
+    near = NEAR_MILES[openness(region)]
+    eye_ground = floor if kind == "floor" else top
+    cap = None if kind == "floor" else SKYLINE_MILES
+    out.append(f"Sight line ({VIEW_WORDS[kind]}): a tall mortal's eye, {EYE_FT:g} feet above ground at about {eye_ground:,} feet, "
+               f"sees level ground out to {fmt_miles(sight_miles(0))}; things at ground level are in view within {fmt_miles(near)} "
+               f"({'open' if near == NEAR_MILES['open'] else 'hill or forest'} ground)"
+               + (f"; nothing past a skyline of {SKYLINE_MILES:g} miles." if cap else "; higher ground shows on the skyline as far as its height carries, unless ground between hides it."))
+    in_view, hidden, smoke = [], [], []
+    for r, _layer in all_regions(world):
+        if r["id"] == region_id:
+            continue
+        d_px, foot = dist_to_poly_edge(at, r["polygon"])
+        d = mi(d_px)
+        rf, rt, _ = parse_elevation(r)
+        relief = rt - eye_ground
+        higher = relief > EYE_FT
+        if kind == "floor":
+            reach = sight_miles(relief) if higher else near
+        elif kind == "coast":
+            reach = cap
+        else:
+            reach = min(cap, sight_miles(relief)) if higher else cap
+        if d > reach:
+            continue
+        block = blocker(world, at, foot, rt, eye_ground, region_id, r["id"], painting) if d > near else None
+        dirn = bearing_name(foot[0] - at[0], foot[1] - at[1])
+        if higher:
+            what = f"on the skyline; its ground rises to about {rt:,} feet, {relief:,} above the eye's ground, seen to {fmt_miles(reach)}"
+        else:
+            what = f"its ground lies no higher than the eye's, seen to {fmt_miles(reach)}"
+        if block:
+            hidden.append(f"- {names.name(r['id'])}, {dirn}, {fmt_miles(d)} to its nearest edge: within reach ({what.replace('on the skyline; ', '')}) but hidden behind {names.name(block)}.")
+        else:
+            in_view.append((d, f"- {names.name(r['id'])} ({terrain_word(r)}), {dirn}, {fmt_miles(d)} to its nearest edge: {what}."))
+    for f, layer in all_features(world):
+        if layer is not None:
+            continue
+        coords = f.get("coords") or []
+        if not coords:
+            continue
+        if f.get("type") == "mountain":
+            rt = max([parse_elevation(by_id[r][1])[1] for r in f.get("regions", []) if r in by_id] or [eye_ground])
+            reach = sight_miles(rt - eye_ground) if cap is None else min(cap, sight_miles(rt - eye_ground))
+        else:
+            reach = near
+        if f.get("shape") == "line" and len(coords) >= 2:
+            d_px, along = dist_to_polyline(at, coords)
+            close = reach_in_view(at, coords, reach, painting)
+            seg = ""
+            if close:
+                (a0, a1), length = close
+                seg = (f", {fmt_miles(length)} of it in view, from the {bearing_name(a0[0] - at[0], a0[1] - at[1])} "
+                       f"to the {bearing_name(a1[0] - at[0], a1[1] - at[1])}")
+            nearest = point_along(coords, along)
+            dirn = bearing_name(nearest[0] - at[0], nearest[1] - at[1])
+        elif f.get("shape") == "area" and len(coords) >= 3:
+            d_px, foot = dist_to_poly_edge(at, coords)
+            dirn, seg = bearing_name(foot[0] - at[0], foot[1] - at[1]), ""
+        else:
+            d_px = math.dist(at, coords[0])
+            dirn, seg = bearing_name(coords[0][0] - at[0], coords[0][1] - at[1]), ""
+        d = mi(d_px)
+        if d <= reach:
+            in_view.append((d, f"- {names.name(f['id'])} ({f.get('type')}), {fmt_miles(d)} {dirn}{seg}."))
+        elif f.get("type") in SETTLEMENT_TYPES and f.get("shape", "point") == "point":
+            p = coords[0]
+            if kind == "floor":
+                ok = point_in_poly(p[0], p[1], region["polygon"])
+            else:
+                ok = d <= cap
+            if ok:
+                home = [r for r in f.get("regions", []) if r in by_id and by_id[r][0] == "region"]
+                tgt = parse_elevation(by_id[home[0]][1])[0] if home else eye_ground
+                if not blocker(world, at, p, tgt + 30, eye_ground, region_id, home[0] if home else None, painting):
+                    smoke.append((d, f"- {names.generic(f['id'])}, {fmt_miles(d)} {dirn}: its smoke, walls or lights only, not the place itself."))
+    out.append("")
+    out.append("In view from the point:" if in_view else "In view from the point: nothing beyond the region's own ground.")
+    out += [t for _d, t in sorted(in_view, key=lambda x: x[0])]
+    if smoke:
+        out.append("")
+        out.append("Farther off, seen only as smoke, walls or lights:")
+        out += [t for _d, t in sorted(smoke, key=lambda x: x[0])]
+    if hidden:
+        out.append("")
+        out.append("Within reach of the eye but hidden by higher ground between:")
+        out += hidden
+    return "\n".join(out).rstrip() + "\n"
+
+
+def viewpoint(region):
+    """How the god's own ground reads (map.md 1.4): floor (valley, plain and the rest), height (hill,
+    highland, mountain) or coast (coast, island, sea)."""
+    w = terrain_word(region)
+    if w in HEIGHT_TERRAIN:
+        return "height"
+    if w in COAST_TERRAIN:
+        return "coast"
+    return "floor"
+
+
+def point_along(line, t):
+    """The point at distance t (painting pixels) along a polyline."""
+    run = 0.0
+    for i in range(len(line) - 1):
+        seg = math.dist(line[i], line[i + 1])
+        if run + seg >= t and seg > 0:
+            u = (t - run) / seg
+            return (line[i][0] + (line[i + 1][0] - line[i][0]) * u, line[i][1] + (line[i + 1][1] - line[i][1]) * u)
+        run += seg
+    return tuple(line[-1])
+
+
+def reach_in_view(at, line, reach_mi, painting, step_mi=0.05):
+    """((first point, last point), miles) of the part of a line within reach_mi of the point, sampled
+    every step_mi along it; None if no part is."""
+    total = polyline_length(line)
+    step = step_mi / painting.mpp
+    pts, length, prev = [], 0.0, None
+    t = 0.0
+    while t <= total + 1e-9:
+        p = point_along(line, t)
+        if painting.miles(math.dist(at, p)) <= reach_mi:
+            if prev is not None:
+                length += painting.miles(math.dist(prev, p))
+            pts.append(p)
+            prev = p
+        else:
+            prev = None
+        t += step
+    if len(pts) < 2:
+        return None
+    return (pts[0], pts[-1]), length
+
+
+def blocker(world, at, target, target_top, eye_ground, own_id, target_id, painting, steps=40):
+    """The id of a region between the eye and the target that stands above the sight line, or None."""
+    def curve(mi_):
+        return (mi_ / HORIZON_K) ** 2
+    D = painting.miles(math.dist(at, target))
+    if D <= 0:
+        return None
+    eye = eye_ground + EYE_FT
+    want = (target_top - eye - curve(D)) / D
+    for i in range(1, steps):
+        t = i / steps
+        p = (at[0] + (target[0] - at[0]) * t, at[1] + (target[1] - at[1]) * t)
+        for r, _layer in all_regions(world):
+            if r["id"] in (own_id, target_id) or not point_in_poly(p[0], p[1], r["polygon"]):
+                continue
+            d = D * t
+            if (parse_elevation(r)[1] - eye - curve(d)) / d > want:
+                return r["id"]
+    return None
+
+
 # ---------------------------------------------------------------- main
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="StarFall map tool (painted maps)")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("draw", "gazetteer", "reveal", "validate", "migrate"):
+    for name in ("draw", "gazetteer", "reveal", "validate", "migrate", "stamp", "describe"):
         s = sub.add_parser(name)
         s.add_argument("campaign")
         s.add_argument("--world", help="path to the sealed map.json (default: the campaign's sealed folder)")
@@ -1269,8 +2015,19 @@ def main(argv=None):
         s.add_argument("--out", help="output folder (default: campaigns/<name>/player/)")
         if name == "draw":
             s.add_argument("--paintings", help="folder holding surface.png, under-N.png and clouds.png (default: map/ beside the sealed map.json)")
-            s.add_argument("--zoom", choices=["known"], help="crop to the seen and reported ground")
+            s.add_argument("--zoom", choices=["known", "landing"],
+                           help="known: crop to the seen and reported ground; landing: crop to the seen regions plus a margin, at its own scale")
             s.add_argument("--layer", help="draw one sheet only: surface, or under-N")
+        if name == "stamp":
+            s.add_argument("--sealed", help="sealed campaign folder to stamp (default: SPOILERS_do_not_open/campaigns/<name>/)")
+            s.add_argument("--dry-run", action="store_true", help="count what would be stamped; change nothing")
+        if name == "describe":
+            g = s.add_mutually_exclusive_group(required=True)
+            g.add_argument("--landing", help="a god's label (player, or an NPC god's folder label): its landing region and point")
+            g.add_argument("--region", help="a region id: described from its middle")
+            s.add_argument("--god", help="with --region: whose knowledge names places (player or a label); default none")
+            s.add_argument("--names", action="store_true", help="give every true name, learned or not (the Keeper's own use)")
+            s.add_argument("--sealed", help="sealed campaign folder (default: SPOILERS_do_not_open/campaigns/<name>/)")
         if name == "reveal":
             g = s.add_mutually_exclusive_group(required=True)
             g.add_argument("--region")
@@ -1297,6 +2054,39 @@ def main(argv=None):
         print(f"{len(probs)} problem(s)")
         sys.exit(1 if probs else 0)
 
+    if args.cmd == "stamp":
+        sealed = args.sealed or os.path.dirname(os.path.abspath(world_path))
+        changed, total, per = stamp(args.campaign, sealed, world, dry_run=args.dry_run)
+        for rel, n in per:
+            print(f"{rel}: {n}")
+        verb = "would stamp" if args.dry_run else "stamped"
+        print(f"{verb} {total} name(s) in {changed} file(s)")
+        return
+
+    if args.cmd == "describe":
+        sealed = args.sealed or os.path.dirname(os.path.abspath(world_path))
+        by_id = index_world(world)
+        if args.landing:
+            land = (world.get("landings") or {}).get(args.landing)
+            if land is None:
+                sys.exit(f"map.py: no landing for {args.landing!r} in the sealed map")
+            rid = land.get("region") if isinstance(land, dict) else land
+            at = landing_point(land)
+            kn = load_json(args.knowledge, default={"regions": {}, "features": {}}) if args.knowledge \
+                else god_knowledge(args.campaign, args.landing, sealed)
+            label = f"Landing of {args.landing}"
+        else:
+            rid, at = args.region, None
+            kn = load_json(args.knowledge, default={"regions": {}, "features": {}}) if args.knowledge \
+                else god_knowledge(args.campaign, args.god, sealed)
+            label = f"Region {rid}"
+        if rid not in by_id or by_id[rid][0] != "region":
+            sys.exit(f"map.py: no region with id {rid!r} in the sealed map")
+        if at is not None and not is_point(at):
+            sys.exit(f"map.py: the landing point {at!r} is not an [x, y] pair of numbers")
+        sys.stdout.write(describe(world, rid, at, kn, args.names, label))
+        return
+
     knowledge = load_json(knowledge_path, default={"campaign": world.get("campaign"), "regions": {}, "features": {}})
     knowledge.setdefault("regions", {})
     knowledge.setdefault("features", {})
@@ -1314,6 +2104,8 @@ def main(argv=None):
             sys.exit("map.py: --layer must be surface or under-N")
         for p in draw_sheets(world, paintings_dir, knowledge, out_dir, args.zoom, which):
             print(f"wrote {os.path.relpath(p, ROOT)}")
+        if LAST_LABELS["dropped"]:
+            print(f"labels left off for want of room (the gazetteer still lists them): {', '.join(LAST_LABELS['dropped'])}")
     elif args.cmd == "gazetteer":
         print(f"wrote {os.path.relpath(gazetteer(world, knowledge, out_dir, log_path), ROOT)}")
 
