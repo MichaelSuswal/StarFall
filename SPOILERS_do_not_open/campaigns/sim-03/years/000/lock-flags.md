@@ -105,3 +105,48 @@ So line 16 cannot read yes under the files as they stand, and the lock cannot pa
 ## For the rerun
 
 Flags 1 to 6 are the Keeper's. Every file they touch is the Keeper's own (`P/releases/000/dm.md` and `P/world/world.md` are 3b.8 writes); no line needs `P/player/corrections.md`. Flag 7 waits on Michael. On the rerun the checker reads the flagged lines and every line a fix touches, reruns the scripts and its distance and ground script over all twelve records, and rechecks line 16.
+
+# Lock flags: sim-03, round 2
+
+Run by the continuity checker, 2026-11-21, from 00:58 to 01:06 Pacific, against the Keeper's rework commit d6d29c5e5e1da3689ed2448e08cea449347b010e. The flagged lines, and every line the rework touched (14 files, 70 lines added), were read against the files; the scripts and the checker's distance and ground script were rerun over all twelve records, the world bible's table of wishes and both public landing files.
+
+Result: 1 flag open (flag 7). Flags 1 to 6 are resolved. The lock does not pass. No public `lock.md` and no `LOCKED.md` are written.
+
+## Script output
+
+```
+tools/lockcheck.py sim-03 --all
+(the same eight FAIL lines as in round 1, all leaks, unchanged)
+places: 0 failure(s), 0 warning(s)
+leaks: 8 failure(s), 0 warning(s)
+mysteries: 0 failure(s), 0 warning(s)
+rolls: 0 failure(s), 0 warning(s)
+dashes: 0 failure(s), 0 warning(s)
+
+tools/map.py validate sim-03
+0 problem(s)
+```
+
+## Round 1 flags, rechecked
+
+- Flag 1, resolved. `P/releases/000/dm.md` and `P/world/world.md` now put the player's god on the worn way, with about a mile of it in view north-west to south-east, matching the map (distance 0) and the sealed side. The keeper log's claim that no other landing lies within a fifth of a mile of a feature agrees with the round 1 view check of all eight.
+- Flag 2, resolved. One reading for every record: a traced road where both ends lie on it, at the road's traced length (checked: Seven Wells [f68] about 297 miles along the Pale Road [f26]; Sedgeby [f65] about 240 and Stakewater [f28] about 530 along the Meadow Road [f32]; the White Acres [f67] about 248 along the Strand Road [f33]); otherwise days by the ground crossed at the pace table's rates, water at the table's coastal sailing rate of 50. Recomputed sums agree (Stakewater [f28] from Lampford [f25] 310 miles at 6 plus 85 at 14, 58 days; Saltsteps [f40] 165 at 50 plus 105 at 14, 11 days). Every straight-line distance and direction still agrees with the map. The reading is a decision the files did not make, marked for Michael in the keeper log.
+- Flag 3, resolved. The table gives both distances (about 220 miles to the braided heart at Nightstake [f45], about 70 to the near edge) and the re-judgment with its reason. The judgment is the Keeper's to make and is now made on true numbers.
+- Flag 4, resolved. S06's location carries [f36], [f35] and [r18].
+- Flag 5, resolved. S05 and C07 now give a third of the grain and a third of the shelter, citing L-0032.
+- Flag 6, resolved. Correction lines for 3a.7 and the Night 3b neutrality distance stand in the keeper log, with the proof; nothing deleted.
+
+## Flag 7, still open: the leak scan's eight lines
+
+The checker's ruling of round 1 stands: none of the eight is a leak.
+
+The coordinator relayed, at the start of this round, that Michael has ruled for this run only that the checker writes `S/leak-allow.txt` with the eight phrases and a reason each. The checker has not written it. `CLAUDE.md` gives an agent in a run the go only for the files its role file names, and anything else needs Michael's explicit go; `engine/roles/checker.md` does not name the allow file, and a ruling relayed by another agent is not Michael's own go. No record of the ruling from Michael is in the repository (no commit, no ruling line, no change to the role file or the runbook). When the ruling reaches this session from Michael himself, or stands in the repository in his hand (for example a line in `engine/roles/checker.md` or in runbook section 4, or the allow file committed by him), the checker writes or accepts the file, reruns `--leaks`, and the lock can pass on the next round: every other line is yes.
+
+The eight phrases and the reason each would carry, ready for that file:
+- "two hear nothing from the god": the player's two other designed helpers, not gods.
+- "three as knowing the god": the player's three designed helpers, not gods.
+- "three days of the god": a work rate, three days to tend an acre (L-0001).
+- "god's work for an acre (five": the same work rate.
+- "five worker-days by hand, at a god": the same work rate, in the card and the Day 2 transcript.
+- "Two things about this god": two visible traits of one god, listed in the same sentence.
+- "Three days of the god": the same work rate, in the DM's note to the Keeper.
