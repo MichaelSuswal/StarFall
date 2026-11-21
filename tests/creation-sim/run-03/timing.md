@@ -4,3 +4,5 @@ Models: DM fable, Keeper fable, NPC gods sonnet, stand-in player sonnet, checker
 
 | Stage | Start | End |
 |---|---|---|
+| Day 1 | 22:01 | 22:02 |
+| Night 1 | 22:02 | |
