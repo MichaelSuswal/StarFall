@@ -107,3 +107,48 @@ This changes the steward power. She can't press a mood into the ground for me un
 One more thing for the record. I know the one-woman route is my choice and my risk. If she dies, falls sick, or turns against me, I'll find new ways to reach the others, and I won't treat the loss as a defect in the rules.
 
 I'm ready for the card to be read back.
+
+## DM:
+
+"Then hear them said back, and say yes or stop me."
+
+(oog) Confirmed first: the pressing is always her choice. Nothing in the power obliges her, and your not asking it of her goes on your conduct profile in your words. The read-back follows. It has four marked gaps. Answer them in the same reply as your yes, and "unnamed" or "leave it to the world" is a full answer to any of them.
+
+The people. Human, about five thousand, in one town and the farms and clearings round it. Woodland keepers more than farmers: they coppice, burn charcoal, graze the clearings, forage and grow mushrooms, tend small gardens and orchards, and keep a few pigs on the autumn mast. No wide fields. Their wealth is wood, charcoal, cured mushrooms and seed they hold to breed true, which they guard. They are practical, a little grim, careful, slow to trust, loyal to their own. They know a bad year can end a family.
+
+Their code and customs. They bury their dead in the soil and do not burn them, as a custom and not a doctrine. A few words are said at the grave by the eldest of the family or by whoever the dead trusted, and that is the whole ceremony. They count it bad manners to turn salt or fire on land. They keep seed in twists of cloth. None of this is priced, and none of it changes your card.
+
+Edges of the people: none. The seed is their craft and their pride and is not an edge, at your word. What it is worth beside other peoples' seed is the world's to decide.
+
+Their magic: none described. Whatever knack any of them has is the world's to fit tonight, apart from the one below.
+
+What they believe about gods. Left to the world. Your wish is on record: that they have no god of their own and do not mind.
+
+The council. About a dozen heads of the old houses, who rule the town and argue among themselves. No court, no priests. The council is theirs. It can decide against you, and you take the consequences.
+
+Your place. The burial ground and orchard at the edge of town, where an odd person sitting on the ground is nothing to remark on. You land with no tended ground.
+
+How you meet them. They are already there, with their own past, and do not know you are coming. You come as a stranger, unannounced, and mean to be known first by your work in the soil. Where you come down and what the first morning holds are the world's. How you mean to go about it is recorded as your conduct.
+
+The helpers. Three, and no chain of command. A steward: an older woman, gravekeeper and orchard keeper by trade, pragmatic, sharp, tired of people, who wants her ground to outlast her and is not sure she wants to be a steward at all. She is the only one orders travel through, and she carries them to the council as advice, never command. A seed keeper: a young man of a small, poor house who holds the town's seed lines and knows breeding true better than anyone there, who wants his house to matter and will be tempted to trade or hoard. A track warden: a blunt former hunter who keeps the paths and the watch, distrusts what does not walk on the ground, and wants the town safe more than he wants your approval. Their standing instruction, once they serve: follow your conduct and your last decisions, and otherwise tend the town's ground and keep the peace.
+
+On the first morning none of the three knows you or has seen you. So I say this plainly, because it is the largest cost of the day: you land with no helpers in fact. Until the steward knows what you are and takes the office, no one acts for you. When you are away from the table or in the ground, you run on your standing conduct alone and your wants do not reach the town at all. Whether any of the three comes to serve is theirs, in play. You chose this and named the risk as yours, and it is recorded that way.
+
+The power added today, on your card. The steward's pressing. Once a season, your steward, with her bare hands in ground you have tended, may press one image or one mood into it. No words, no names. It lies until you next listen on ground joined to it, and you know it for hers. Unheard by the next winter, it is gone. Fire, salt or digging on that spot kills it. It is always her choice. It is hers alone, is priced again for any other steward, and ends with her office or her life. It sleeps until she knows who it is for. Price: she loses a day of her own speech each time, subject to the Keeper fitting that to the world tonight; you lose one day of speech more at any listening in which you take it up. The spoken question you first asked for was refused, because the ground-ear hears no words.
+
+Confirmed and unchanged: tended ground and lines are made only by your own hands and feet. Helpers can keep soil alive. They cannot make, extend or mend.
+
+Conduct recorded today, in your words: sitting by the door and far from the fire, with "cold-blooded" as your answer and the truth for anyone who asks sincerely; asking a kneeler to get up and going on working; taking nothing from whoever says the grave words, and learning them; telling the steward in your own time; hiding nothing from the other two; not asking the pressing of her.
+
+Heard, not promised: that the gravekeeper sees a stranger who is good with the ground, that she is suspicious, that the three form their own opinions, that the warden hears first of trouble at the edges, that the seed keeper is tempted.
+
+For the world to fit: the age of the burial custom, of the twists and of the grave words, and your wish that the words be old, plain and a little odd; the valleys, the ground that takes no wide fields, the deep soil at the town's edge; whether they have a god of their own.
+
+The gaps.
+
+1. Who settles a quarrel between two families, or a theft, or a boundary? The council, someone else, or no one in particular?
+2. How long have they been in this country, by their own telling, and what do they say was there before them? You may leave both to the world.
+3. Their name, and the name of their town. Yours to give or to leave unnamed.
+4. The three, and the burial ground. Name any of them or leave them unnamed.
+
+"Is that them?"
