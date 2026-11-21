@@ -152,3 +152,17 @@ The gaps.
 4. The three, and the burial ground. Name any of them or leave them unnamed.
 
 "Is that them?"
+
+## Player:
+
+Yes, that's them. I have no corrections, and I'm glad the largest cost is named plainly. Landing with no helpers in fact is the price of the shape I chose, and I accept it. Answers to the four gaps:
+
+1. **Quarrels, thefts, and boundaries.** The council settles the large ones, but I'd like the small ones to go to whoever both sides already trust, usually an elder of a third house. That gives the town a habit of settling things before they reach the council, and it gives the council a reason to be slow and quarrelsome. I won't take any part in it. If you'd rather the world fit this, leave it to the world.
+
+2. **How long they've been here, and what was before them.** Leave both to the world. I'd like their own telling to be a little vague and a little defensive about it, in the way of people who don't fully know. I'm not asking for a certain answer.
+
+3. **Names.** Leave the people and the town unnamed. Mortals name things best themselves, and I'd rather learn their names than hand them one.
+
+4. **The three and the burial ground.** I'll leave them all unnamed. I'd like to learn their names in play, from them, the way a stranger would. I'll keep calling them the steward, the seed keeper, and the warden until they tell me otherwise.
+
+That's all I have for creation. The day can close.
