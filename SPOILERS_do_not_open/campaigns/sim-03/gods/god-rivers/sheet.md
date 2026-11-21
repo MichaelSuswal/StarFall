@@ -33,13 +33,20 @@ Rule: a god-king with a court and priesthood, a warlord in manner. The god holds
 Worship: local shrines (score 55: 101 minus Presence 74, Regard 21, Appetite 69). Household and village shrines, kept by whoever keeps them; no order of priests.
 
 ## Name
-(Night 2)
+None yet. Filed under "the Ford Warden" until someone names it.
 
 ## Traits (own)
-(Night 2)
+### The gate that weighs
+Reconciles Company 68 (gathering), Trust 96 (wary), Regard 21 (shepherd), and Presence 27 (revealed). It wants a people drawn close around it and looks after them like a herd it will not lose. It also trusts no one through the gate until it has looked at what they carry, and it looks twice. The gathering is real and so is the wariness. It keeps its people near so it can watch them, and calls the watching care, and some of it is.
+
+### The hungry hand on a short rope
+Reconciles Appetite 69 (hungry), Making 62 (breaker), Order 62 (freedom), Temper 52, with its virtue of restraint and its flaw of cowardice dressed as caution. It wants a great deal and could break a great deal. It takes by toll and not by grab, because a grab can be answered and a toll becomes custom. It wants no one bound, its own people included, so its law is few words, and the words are hard. Some of what it calls restraint is fear of what a grab would bring back on it. It does not look at that closely.
 
 ## Keeper trait
-(Night 2)
+Running water goes quiet around you when you are afraid, and anyone who knows rivers can hear it.
+- It is the running water within a few paces of you that goes quiet, and no more of the river.
+- It lasts while the fear lasts, and through the hour you are stricken after Slip the Knot.
+- It is a sign and no power: it touches no power of yours and rules no one. One who knows rivers may hear it and make of it what they will.
 
 ## Season it wakes into
 Spring.

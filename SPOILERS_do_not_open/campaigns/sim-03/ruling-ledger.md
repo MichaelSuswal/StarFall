@@ -75,112 +75,112 @@ Date: 2026-11-20, Night 2. Year 0. God: god-beasts. Matter: The Held Breath: whe
 Arguments: The god offered it as the drawback, as its wound made small. The Keeper: it is what a hidden god wants and costs nothing it would notice.
 Ruling: Written as a condition at no price. The priced drawback is the god's choice of two: the beast stays on it (no words, no grip) for as long as it held the Breath, never less than a day.
 Binds: god-beasts' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0011
 Date: 2026-11-20, Night 2. Year 0. God: god-beasts. Matter: The Hard Bargain: whether "keep my word or lose the power" is enough price.
 Arguments: The god offered it. The Keeper: a price only a careless god pays is not a price that comes with every use.
 Ruling: Kept, with a standing price added by the god's choice: it carries one want of the beast while the bargain stands. Wording granted: the want is the one most shown when the bargain is struck and ends when the bargain ends.
 Binds: god-beasts' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0012
 Date: 2026-11-20, Night 2. Year 0. God: god-stone. Matter: Fault-Word: size, speed and price.
 Arguments: The god asked for a whole slope or wall-face in sight at a word, and offered as price that the rock chooses, a weight on the chest, and slowness; it then offered Wet Ground for a whole mountain flank. The Keeper: a slope at a word ends a war band or a town in one stroke; the rock choosing is how the power works; the weight is its own wound; no price buys a flank.
 Ruling: Trimmed to a span at the word (thirty paces, raised to a bowshot by Wet Ground with a tooth). Drawback set: a second, unasked fall within a day on the same rock within a day's walk, rolled; half pace for a day. The flank refused.
 Binds: god-stone's card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0013
 Date: 2026-11-20, Night 2. Year 0. God: god-stone. Matter: Wet Ground: what ends the standing-water line and whether it needs a mortal's knowledge.
 Arguments: The god asked that the line end when crossed by anything but its body, and that only a ditch dug knowingly hold it. The Keeper: a line a dog can end is no line, and the tooth is in the god's body, not the digger's mind.
 Ruling: The water must stand and be unbroken; a gap, draining or a break ends it. Any unbroken ditch or ring of standing water a pace wide stops its body, dug or natural; what it can walk around does not hold it; running water is not standing water.
 Binds: god-stone's card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0014
 Date: 2026-11-20, Night 2. Year 0. God: god-trade. Matter: The Counted Word: doubling a forgotten debt.
 Arguments: The god asked that a debtor who forgot the terms owe double. The Keeper: a power that grows a debt acts on what a mortal owes with no hand in it; that is law.
 Ruling: Refused as part of the power; it may be the law of its court. The god accepted.
 Binds: god-trade's card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0015
 Date: 2026-11-20, Night 2. Year 0. God: god-trade. Matter: The Washing: a single rite over scores; two at once; a volunteered heavier drawback.
 Arguments: The god asked for a few score in one rite and a heavy drawback in place of any fence on number; countered with two at once under two hands in half an hour, offering wounds carried twice as long and no seal while carrying one. The Keeper: one rite over scores scales across a people; two in half an hour is the pace already given; no price is taken where nothing was bought.
 Ruling: No fence on number, as asked. Each washed by hand, a quarter hour each, two together allowed as wording. Wounds come home as weakness. The heavier drawback not written.
 Binds: god-trade's card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0016
 Date: 2026-11-20, Night 2. Year 0. God: god-trade. Matter: The Count Returns at seven days; Open account closing a wound at once; a season's lending of the seal.
 Arguments: The god asked for each. The Keeper: L-0009; a wound that closes at once on a gift is a faster healing than a mortal's; a season's lending is more than one tooth buys.
 Ruling: A season for one item (the god's choice). Open account: the wound begins to close, at a mortal's pace, only once an unasked gift is accepted. It buys two seals standing at once.
 Binds: god-trade's card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0017
 Date: 2026-11-20, Night 2. Year 0. God: god-dreams. Matter: Night Tally: reach and number, the offered drawback, proxies, the days to pay.
 Arguments: The god asked for two sleepers and a season's reach, offered thinness and fear as the price, and wrote dream bargains confirmable to its priests; it countered three days to pay with five. The Keeper: thinness is how the power works and fear a mood it carries; a priest closing dream bargains is a reach across a people; the five days are fair for a sleep calling cannot break.
 Ruling: One sleeper and a day's walk at base. Price by the god's choice: a day of real sleep owed for each dream, within five days, not to be put off on the fifth; debts add. Confirmation to the god in person only. The mark by its own hand only.
 Binds: god-dreams' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0018
 Date: 2026-11-20, Night 2. Year 0. God: god-dreams. Matter: Return by the next dusk beside any marked sleeper within a season's walk.
 Arguments: The god asked for it and said it did not expect to win it. The Keeper: L-0009; it would be no setback, and a move across country in a night.
 Ruling: A season for one item (its choice), at the nearest place dark at night with no light burning; no sleeper or mark needed.
 Binds: god-dreams' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0019
 Date: 2026-11-20, Night 2. Year 0. God: god-dreams. Matter: Hear Out, a second weakness offered for a second step.
 Arguments: The god offered a candle mark of forced attention with its feet free. The Keeper: thin as written.
 Ruling: Taken with two changes: it holds the feet as well as the attention, and mortals may follow one another, none twice between dusk and dusk. It buys the second sleeper; Held to Its Word buys the reach.
 Binds: god-dreams' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0020
 Date: 2026-11-20, Night 2. Year 0. God: god-war. Matter: A cut that closes in a day, written under Form; the return by the next dusk within thirty miles.
 Arguments: The god wrote the fast healing as form and asked the fast return. The Keeper: a body that mends faster than a mortal's is more than a form; L-0009.
 Ruling: The strength of three and the day's healing of a cut are written down and counted in Loaned Strength, and lapse while a loan stands. The return: a season for one item, at the nearest laid and empty seat, the walk added; no thirty-mile bound; clothes and no gear.
 Binds: god-war's card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0021
 Date: 2026-11-20, Night 2. Year 0. God: god-secrets. Matter: The Small Ears: twelve out.
 Arguments: The god asked for twelve keeping several days. The Keeper: the budget is ears times days.
 Ruling: Six out (its choice); a season's keeping bought with The Slow Wound. Both offered prices taken: the bare patch, and one thing wrong one time in six at each rejoining, one roll for each ear.
 Binds: god-secrets' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0022
 Date: 2026-11-20, Night 2. Year 0. God: god-secrets. Matter: The Asked Question: its price.
 Arguments: The god offered the seal with a bar on acting where it would show, or else a season's wait and no second asking. The Keeper refused the bar on acting as unenforceable and stacked the rest; the god argued the stacking was not what it offered and countered with the seal, no repeat, once a month. The Keeper: the seal alone is less than the first price.
 Ruling: Sealed (cannot tell, write, sign or send it; may act on it); never twice on one mortal; once in a month; and the mortal afterward knows they answered and that something is gone. The god may name the first draft's choice (A) in its confirmation in place of this.
 Binds: god-secrets' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0023
 Date: 2026-11-20, Night 2. Year 0. God: god-secrets. Matter: Whether being sealed away is being broken; returning at an ear.
 Arguments: The god wrote both. The Keeper: every prison would become a door; a return at an ear is a move across country.
 Ruling: Sealed away is held. The return is where it fell, a season, one item (its choice). Crushed or burned past holding under fallen stone is broken.
 Binds: god-secrets' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0024
 Date: 2026-11-20, Night 2. Year 0. God: god-rivers. Matter: Water's Ear: sight and words to the river's mouth; its offered drawback.
 Arguments: The god asked for hearing and sight along the whole run, and offered helplessness while listening and a seven-day fading. The Keeper: that settles a river country standing still; helplessness is how it works and the fading ends by speaking.
 Ruling: No sight. Its choice: the whole run, no words. Price, its choice: deaf on dry land for as long as it listened, never less than a day. The fading stays as a limit.
 Binds: god-rivers' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0025
 Date: 2026-11-20, Night 2. Year 0. God: god-rivers. Matter: Dry Ground: what it buys and how many days.
 Arguments: The god offered ten days more than a day's walk from running water, for two things. The Keeper: mostly a price its powers already pay; offered with teeth at three days out of sight and sound. The god countered six days, saying three is the time it takes to build a hut and is the hold it most dreads.
 Ruling: Six days as the god wrote it (two free, weakening from the third, no power by the sixth). It buys one thing, its choice: Bar the Ford at a crossing within a morning's walk where it has stood. The Keeper gave way because about a week had been taken as a tooth elsewhere at the table.
 Binds: god-rivers' card.
-Confirmed: (pending the god's round 2 reply)
+Confirmed: by the god in its round 2 reply, 2026-11-20 22:41 Pacific.
 
 ### L-0026
 Date: 2026-11-20, Night 2. Year 0. Cards: every card. Matter: what counts as a drawback.

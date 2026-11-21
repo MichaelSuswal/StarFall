@@ -33,13 +33,17 @@ Rule: a god-king with a court and priesthood, a sacred monarch in manner. The go
 Worship: none (score 20: 101 minus Presence 9, Regard 43, Appetite 7). It asks no rites; what the people do about it is theirs.
 
 ## Name
-(Night 2)
+None yet. Filed under "the Half Thing" until someone names it.
 
 ## Traits (own)
-(Night 2)
+**The Patient Hunter.** Reconciles Temper (toward patient, 17), Mind (toward clever, 77) and Order (toward freedom, 70). Is a thing not worth waiting for? I wait, and the waiting is not idle, because while I wait I am looking for the loophole, the wording, the case that was not thought of. I will spend a season on a single track. But I resent a fence. A rule written down is a rule that I will walk around, quietly, and patiently, until I find the gap. Does that make me untrustworthy, or only a hunter?
+
+**The Hidden Crown.** Reconciles Presence (toward hidden, 92), Company (toward gathering, 75), Regard for mortals (middling, 43) and the rule I lean toward, a sacred monarch who is seldom seen. I want a people, and I want them close, gathered inside a wall. But do I want to be looked at? The one who stands out is the one who is killed. So I will hold the crown and let the court carry my word. I will be the shape behind the door. Is that not both: a people close, and a self apart? I do not trust easily, and mostly I do not need to, for I am open and slow to suspicion. But I choose to be seen by few.
 
 ## Keeper trait
-(Night 2)
+Every hound and herd beast knows you at once and comes toward you, wherever you are trying to pass unseen.
+- It is a knowing and a pull, by scent and by whatever such beasts feel, and it is not sight: The Held Breath still hides the sight of you from them, and a hound or a herd beast may still come to where you are.
+- It reaches hounds and herd beasts, the kept and working kinds, and no wild beast.
 
 ## Season it wakes into
 Autumn.

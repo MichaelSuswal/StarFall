@@ -165,3 +165,11 @@ Confirm that this is what you meant, or say what is wrong with it. A change of w
 Write your reply as "## Round 2 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-beasts/negotiation-night2.md
 and to no other file. Then stop.
+
+## Round 3
+
+Your confirmation is taken, and your Description and Drawback texts are frozen as confirmed. Round 3 changes wording only and never a Description or a Drawback; a wording you asked that touched one is written under that power's Limits instead. No reply is asked. Your card is SPOILERS_do_not_open/campaigns/sim-03/gods/god-beasts/power-card.md.
+- Under Form, "When your body is broken" now points to the power, which is the rule; your first telling of it stays in your self.md.
+- Keeper trait, written on your sheet: It is a knowing and a pull, by scent and by whatever such beasts feel, and it is not sight: The Held Breath still hides the sight of you from them, and a hound or a herd beast may still come to where you are.
+- Keeper trait, written on your sheet: It reaches hounds and herd beasts, the kept and working kinds, and no wild beast.
+- On every card: The "Intent, your first wording" lines are kept for the record only. Where one differs from a Description or a Drawback, the Description and the Drawback stand.

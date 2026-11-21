@@ -170,3 +170,15 @@ Confirm that this is what you meant, or say what is wrong with it. A change of w
 Write your reply as "## Round 2 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-dreams/negotiation-night2.md
 and to no other file. Then stop.
+
+## Round 3
+
+Your confirmation is taken, and your Description and Drawback texts are frozen as confirmed. Round 3 changes wording only and never a Description or a Drawback; a wording you asked that touched one is written under that power's Limits instead. No reply is asked. Your card is SPOILERS_do_not_open/campaigns/sim-03/gods/god-dreams/power-card.md.
+- Under Form, "When your body is broken" now points to the power, which is the rule; your first telling of it stays in your self.md.
+- "Marked" is struck: anyone nearby may see you return.
+- Heavy Sleep, added under Limits: Two uses in one night cost three habits in all. A third use in the same night takes three more, a fourth takes four, and so on.
+- Night Tally, added under Limits: "Once in a night" means in one night, one dream or two, each owing its own day.
+- Keeper trait, written on your sheet: Near means in the same room, tent or wagon, or within the light of one fire.
+- Keeper trait, written on your sheet: The fondness is not a mark, a yes or a bargain, and brings no one under Night Tally or Heavy Sleep.
+- Keeper trait, written on your sheet: It is a feeling the mortal has and no compulsion: a mortal fond of you can still refuse, argue, haggle and leave.
+- On every card: The "Intent, your first wording" lines are kept for the record only. Where one differs from a Description or a Drawback, the Description and the Drawback stand.

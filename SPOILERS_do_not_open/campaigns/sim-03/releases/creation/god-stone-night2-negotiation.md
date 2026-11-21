@@ -170,3 +170,11 @@ Confirm that this is what you meant, or say what is wrong with it. A change of w
 Write your reply as "## Round 2 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-stone/negotiation-night2.md
 and to no other file. Then stop.
+
+## Round 3
+
+Your confirmation is taken, and your Description and Drawback texts are frozen as confirmed. Round 3 changes wording only and never a Description or a Drawback; a wording you asked that touched one is written under that power's Limits instead. No reply is asked. Your card is SPOILERS_do_not_open/campaigns/sim-03/gods/god-stone/power-card.md.
+- Under Form, "When your body is broken" now points to the power, which is the rule; your first telling of it stays in your self.md.
+- Wet Ground, added: "A pace wide or more" is the width of the standing water across the line, measured at its narrowest unbroken point.
+- Keeper trait, written on your sheet: It gives how many of your people are on the march and that the number has dropped. It does not give who, where or why. It is no power.
+- On every card: The "Intent, your first wording" lines are kept for the record only. Where one differs from a Description or a Drawback, the Description and the Drawback stand.

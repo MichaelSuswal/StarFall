@@ -33,13 +33,19 @@ Rule: a god-king with a court and priesthood, a warlord in manner. The god holds
 Worship: a priesthood (score 65: 101 minus Presence 65, Regard 61, Appetite 68). Keepers of rite with standing among the people, offerings brought, no tithe by law.
 
 ## Name
-(Night 2)
+None yet. Filed under "the Factor" until someone names it.
 
 ## Traits (own)
-(Night 2)
+### Gives so that she is owed
+She gives freely and she means it, and the gift is also the first coin of a bargain she has not named yet. She does not see the two as a contradiction. She is generous because it is the only way she knows to be wanted, and she wants to be wanted more than she wants almost anything. When the gift is received with thanks she is warmed; when it is received with a price in return she is warmer; when it is received and forgotten she is cold in a way she does not examine.
+Reconciles: Virtue (generosity), Flaw (lust for being worshipped), Appetite (hungry, 68), Regard for mortals (sovereign, 61), Presence (toward revealed, 36).
+
+### A free hand and an iron word
+She hates a fence set on her from outside and will take a heavier cost sooner than a written limit. But a word she has given herself she keeps past reason, the way a person keeps a hand shut over a coal. She is patient where it concerns a promise, impulsive where it concerns a door that has been closed on her, and wary of anyone who offers something for nothing. She breaks things easily, and she mends them slowly, and she is afraid of the day she cannot.
+Reconciles: Order (freedom, 92), Trust (wary, 70), Temper (patient, 34), Making (toward breaker, 66), and the wound.
 
 ## Keeper trait
-(Night 2)
+Mortals find it easy to thank you and hard to remember what it was you gave them.
 
 ## Season it wakes into
 Autumn.

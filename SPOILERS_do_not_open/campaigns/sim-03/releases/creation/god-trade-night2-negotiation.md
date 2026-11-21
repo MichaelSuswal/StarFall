@@ -173,3 +173,11 @@ Confirm that this is what you meant, or say what is wrong with it. A change of w
 Write your reply as "## Round 2 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-trade/negotiation-night2.md
 and to no other file. Then stop.
+
+## Round 3
+
+Your confirmation is taken, and your Description and Drawback texts are frozen as confirmed. Round 3 changes wording only and never a Description or a Drawback; a wording you asked that touched one is written under that power's Limits instead. No reply is asked. Your card is SPOILERS_do_not_open/campaigns/sim-03/gods/god-trade/power-card.md.
+- Under Form, "When your body is broken" now points to the power, which is the rule; your first telling of it stays in your self.md.
+- The Senses paragraph under Form reads as you asked, pointing to the settled count.
+- Open account, added: A gift counts when the mortal knows it was given at the moment of accepting it. A mortal forgetting it afterward does not undo it.
+- On every card: The "Intent, your first wording" lines are kept for the record only. Where one differs from a Description or a Drawback, the Description and the Drawback stand.

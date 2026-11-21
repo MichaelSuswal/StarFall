@@ -200,3 +200,14 @@ Confirm that this is what you meant, or say what is wrong with it. A change of w
 Write your reply as "## Round 2 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-rivers/negotiation-night2.md
 and to no other file. Then stop.
+
+## Round 3
+
+Your confirmation is taken, and your Description and Drawback texts are frozen as confirmed. Round 3 changes wording only and never a Description or a Drawback; a wording you asked that touched one is written under that power's Limits instead. No reply is asked. Your card is SPOILERS_do_not_open/campaigns/sim-03/gods/god-rivers/power-card.md.
+- Under Form, "When your body is broken" now points to the power, which is the rule; your first telling of it stays in your self.md.
+- Bar the Ford, added under Limits: The water you stand in and the water of the crossing you bar are the same one river or stream, near or far.
+- Dry Ground, added: The measure is whether running water is near enough to be seen or heard, not whether you can hear it: a day of deafness beside a stream does not start the count.
+- Keeper trait, written on your sheet: It is the running water within a few paces of you that goes quiet, and no more of the river.
+- Keeper trait, written on your sheet: It lasts while the fear lasts, and through the hour you are stricken after Slip the Knot.
+- Keeper trait, written on your sheet: It is a sign and no power: it touches no power of yours and rules no one. One who knows rivers may hear it and make of it what they will.
+- On every card: The "Intent, your first wording" lines are kept for the record only. Where one differs from a Description or a Drawback, the Description and the Drawback stand.

@@ -149,3 +149,11 @@ Confirm that this is what you meant, or say what is wrong with it. For The Asked
 Write your reply as "## Round 2 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-03/gods/god-secrets/negotiation-night2.md
 and to no other file. Then stop.
+
+## Round 3
+
+Your confirmation is taken, and your Description and Drawback texts are frozen as confirmed. Round 3 changes wording only and never a Description or a Drawback; a wording you asked that touched one is written under that power's Limits instead. No reply is asked. Your card is SPOILERS_do_not_open/campaigns/sim-03/gods/god-secrets/power-card.md.
+- Under Form, "When your body is broken" now points to the power, which is the rule; your first telling of it stays in your self.md.
+- The Asked Question, added under Limits: "Once in a month" is a run of thirty days counted from the last use, not a turn of any calendar.
+- Keeper trait, written on your sheet: Beasts here are the familiar animals of field and house. Creatures that are not animals are unruled until it happens.
+- On every card: The "Intent, your first wording" lines are kept for the record only. Where one differs from a Description or a Drawback, the Description and the Drawback stand.

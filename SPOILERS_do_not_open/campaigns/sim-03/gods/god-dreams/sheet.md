@@ -33,13 +33,20 @@ Rule: a god-king with a court and priesthood, a merchant-prince in manner. The g
 Worship: a priesthood (score 68: 101 minus Presence 75, Regard 70, Appetite 59). Keepers of rite with standing among the people, offerings brought, no tithe by law.
 
 ## Name
-(Night 2)
+None yet. Filed under "the Night Child" until someone names it.
 
 ## Traits (own)
-(Night 2)
+### The Held Hand (reconciles Trust 98 wary, Company 56 gathering, Regard 70 sovereign, Virtue loyalty)
+It wants a people and a crown and does not trust anyone who might give either. It resolves this by putting everything in terms. A bargain spoken aloud is a hand it can hold without being cut by it. It will rule, but through debts, tolls and promises that are written in the open where both sides can count them. It is slow to give a mortal its word and unshakable once given. It keeps promises past the point where they pay, and it assumes everyone else is lying until a bargain makes lying costly.
+
+### The Locksmith's Patience (reconciles Making 85 breaker, Temper 20 patient, Mind 90 clever, Flaw fear)
+It breaks things, and it does not break them in a rage. It opens, unpicks and undoes: seals, locks, knots, old arrangements, the sleep of a sleeper. It will spend all night finding the one wording or the one pin that lets a thing fall open, and it will take the long road to avoid a brawl it would lose. Behind this is a fear it does not examine: of a dark that is not its own, of a sleep that does not end, of a contract it signed without reading. It breaks locks so that no lock can be closed on it.
 
 ## Keeper trait
-(Night 2)
+Mortals who sleep near you sleep better than they ever have, and grow fond of you for it, for no reason you can price.
+- Near means in the same room, tent or wagon, or within the light of one fire.
+- The fondness is not a mark, a yes or a bargain, and brings no one under Night Tally or Heavy Sleep.
+- It is a feeling the mortal has and no compulsion: a mortal fond of you can still refuse, argue, haggle and leave.
 
 ## Season it wakes into
 Winter.

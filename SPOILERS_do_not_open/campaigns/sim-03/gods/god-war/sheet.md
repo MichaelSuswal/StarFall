@@ -33,13 +33,19 @@ Rule: a god-king with a court and priesthood, a priest-king in manner. The god h
 Worship: local shrines (score 51: 101 minus Presence 78, Regard 56, Appetite 20). Household and village shrines, kept by whoever keeps them; no order of priests.
 
 ## Name
-(Night 2)
+None yet. Filed under "the Host" until someone names it.
 
 ## Traits (own)
-(Night 2)
+### The Open Hand That Counts
+It gives before it is asked, and it writes down what it gave. It cannot meet a stranger's eye without wanting to put something in the stranger's hands, and cannot let the gift go unmeasured afterward. It trusts the first person at the table completely and the fifth hardly at all, and tells itself that is only bookkeeping. Reconciles: Trust (very open), Order (toward law), Regard for mortals (a little toward sovereign), and the virtue of generosity.
+
+### The Lit Room Against the Quiet
+It must gather people, and it must be seen doing it, and it must keep a thing burning in a room that it expects to empty. Patient to the point of cruelty with itself, it will wait through any winter, and it knows without being told what the waiting is for and what the quiet after it will cost. It names that expectation nothing. Reconciles: Company (very gathering), Presence (toward revealed), Temper (patient), Appetite (content), and the flaw of despair.
 
 ## Keeper trait
-(Night 2)
+No one can hold your face in mind once you have left the room: they remember the hall, the bread, the light, and a tall guest.
+- It is the face alone. Mortals keep what you said, what you gave and what you did.
+- How it bears on a likeness made of you, or on a shrine, is unruled until it happens.
 
 ## Season it wakes into
 Autumn.
