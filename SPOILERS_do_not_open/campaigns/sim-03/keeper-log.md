@@ -513,3 +513,5 @@ Neutrality:
 - The player's hope that what it lost lies in this land's old layers. The old layers hold this land's own dead and nothing of its past. Nothing was placed to say so.
 - What peoples hold. Each record's new paragraph is wrong where the people would be wrong, the player's people included.
 - The public files. Nothing in `P/` written tonight names a vote, a pool, another god, a count of gods, a sealed place or coordinate, a star value, the history, a mystery, the schedule or a phenomenon's count. The DM's release gives the god's sense of others as nothing felt.
+Ready for the lock: commit c90dd960104aaba8b38c8b81915c8a30de8d9a3b, "Creation night 3b: sim-03 ready for lock", pushed 2026-11-21 00:19 Pacific. This line and the hand-off time in `P/state/timing.md` are committed after it, since a commit cannot carry its own id; nothing else differs. The coordinator runs the continuity checker on the lock checklist; the Keeper does not run it on its own work. The clock stays `status: creation`, `creation_night: 3b`. The first morning is not begun.
+Handed to the checker 2026-11-21 00:19 Pacific.
