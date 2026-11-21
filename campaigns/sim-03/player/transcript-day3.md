@@ -53,3 +53,35 @@ Each has their own want that may cut against mine. None is a puppet. Their stand
 - I'd like one edge today that is stronger than it should be, so I'll ask: that my steward can, once a season, speak to me through the ground I have tended, as a spoken question to me, not a reply I hear. It would be a one-way message from her to my ground, heard when I next listen. Tell me what you'd charge.
 
 That's what I have. I'd like to hear the cost of the three helpers before I decide whether to keep all three.
+
+## DM:
+
+"Five thousand in one town and the clearings round it. Keepers of woodland: coppice and charcoal, grazed clearings, mushrooms gathered and grown, gardens, orchards, pigs on the mast. Careful, slow to trust, a little grim. They put their dead in the soil. They count it bad manners to turn salt or fire on land. They keep seed in twists of cloth. A dozen heads of old houses who rule and quarrel, and who are not yours. I have it, and it is theirs."
+
+"Three things I do not follow yet."
+
+"You come as a stranger, and you name three who act for you. On the first morning, what do those three know? Does the gravekeeper already hear you, or is she a woman at her work who has never seen you?"
+
+"They burn charcoal, and they keep fires. Where do you sit in a house with a hearth?"
+
+"And before you, what do they hold about gods? There is no priest among them by your word. Someone still says what is said at a grave. Some of them will kneel before you have said a word. What do you do with the ones who taught them to?"
+
+(oog) Now the prices, and what I have recorded as what.
+
+What is ordinary and costs nothing: everything in how they live, the burial custom, the manners about salt and fire, the seed in twists, the council. Two notes on those. The manners are manners. They change nothing on your card, and they do not stop anyone, your own people included, from laying a line at a threshold. The seed is their craft and their pride, and that they guard it is so. Whether it is rarer or better than anyone else's is the world's to say, and I have not priced it. If you want it to be a sure edge over other peoples, say so and I will price it against a weakness of theirs.
+
+What is the world's: valleys, ground that will not take wide fields, deep soil at the edge of town. I have these as wishes. The age of the customs (the burial "old habit", the twists as something old that you only recognized) I can record as what the people say, and it goes to be fitted to the world's past, which I cannot read. Your place is recorded as the burial ground and orchard at the town's edge, unremarkable, as you asked. You land with no tended ground, as your card says. It becomes yours by your hands, in play.
+
+Leading from the edge. Nothing is charged for it. It is recorded as a bent premise, and the game will say out loud that this god does not play the usual way. The practical cost is this: a people that does not know it has a god does nothing in its god's name. The council decides for the town, on its own judgment, every year. When you are not at the table, your wants reach the town only as far as your helpers carry them, as advice the council may set aside.
+
+The three helpers. A helper is not a priced thing. A people ordinarily comes with a whole body of them, and you are taking fewer than that: no court, no priests, a council you do not command, and three people. So the three cost you nothing, and the defaults you have turned down count in your favor when I price an edge. What you pay is practical, and it comes from the shape you chose. Everything goes through one woman. If she is sick, dead, unwilling or wrong, nothing travels, and the seed keeper and the warden hear nothing from you. Each of the three is a mortal with the want you gave them. You have set who they are. What they do with it is theirs: whether she keeps the office, whether he trades the seed, whether the warden ever trusts you. I record your hopes about that as heard, not promised.
+
+Tending. Confirmed, strictly yours. Tended ground and tended lines are made only by your own bare hands and feet, as the card says. Your helpers can do the ordinary work that keeps soil alive (plant, mulch, keep fire and salt off it), and living soil is what keeps tended ground tended. They cannot make it, extend it or mend a broken line.
+
+The edge. As asked, I refuse it, for one reason. The ground-ear hears "no words, faces or names". That limit was agreed on Day 2, and a spoken question in the ground undoes it. I can price a version that keeps the limit. Here it is.
+
+Once a season, your steward, with her bare hands in ground you have tended, can press one image or one mood into it. No words, no names. It lies there until you next listen on ground joined to hers, and you know it for hers. If you have not listened by the next winter, it is gone. Fire, salt or digging on that spot kills it. It is hers alone: it does not pass to another steward without being priced again, and it ends with her office or her life.
+
+It is a mortal doing something only you can do, so it goes on your card as a power of yours, added today, and it is priced on you. The price has two parts. She pays as mortal workers here pay: it costs her body, and I would set it as a day of her own speech each time, subject to the Keeper fitting it to the world tonight. You pay at the hearing: a listening in which you take up what she left costs you one day of speech more than that listening would have cost. With the defaults you turned down counted in, that is the whole charge.
+
+Take it, argue it, or leave it. If you want words in the ground, tell me why the Day 2 limit should bend and I will carry the case to the Keeper, but I would not expect it to.
