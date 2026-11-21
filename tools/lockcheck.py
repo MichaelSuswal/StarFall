@@ -11,20 +11,36 @@ layout (tests use a fixture).
   --places     every bracketed id like [r12], [f03] or [p01] in a sealed file exists in map.json;
                the map's own ids, neighbors and landings resolve; warns on a capitalized
                map name written with no id after it.
-  --leaks      builds the sealed term list (god names and folder labels, the count of gods,
-               place names the player has not seen or been told, phenomena yearly counts,
-               mystery and schedule titles, star values, hidden power names, names in
-               the common past) and fails on any hit in campaigns/<name>/ or in the
-               campaign's public scene requests, images/requests/<name>-*.json. Also fails a public map-knowledge file that breaks the
-               map rules. S/leak-allow.txt (one term per line, # for comments) exempts terms.
+  --leaks      reads the sealed term list S/sealed-terms.txt, which the Keeper writes (god
+               names and bynames, hidden power names, names in the common secrets, places
+               off the map; one term per line, # for comments, matched as written, case
+               and all, with or without a leading "The"; a term that is a map name the
+               player's god has seen or been told is passed over, so a term is never
+               removed from the file), and adds the terms the data
+               gives: god folder labels, the count of gods, map names the player has not
+               seen or been told, phenomena yearly counts, mystery titles (matched case
+               and all), schedule titles and star values. Fails on any hit in
+               campaigns/<name>/ or in the campaign's public scene requests,
+               images/requests/<name>-*.json, and on a missing sealed-terms.txt. Also
+               fails a number word (one to twelve, "a dozen", "half a dozen", "twice")
+               within six words of "god", "gods", "like me", "like us", "of us", "pulls",
+               "came down" or "fell" in the same sentence, and a public map-knowledge file
+               that breaks the map rules. The older guesses from prose (power card
+               titles, Name lines, hidden-power headings, capitals in the common secrets)
+               are warnings only. S/leak-allow.txt (one term per line, # for comments)
+               exempts terms; a number-word hit is exempted by its quoted phrase.
   --mysteries  every mystery follows runbook template 7.8: Truth; Body; Cost if ignored;
-               Clock or trigger; Clues; Branches; Never found, a Kind: line, each clue
-               with Location: and Readings:, each branch with What the world does:, a
-               Limit: line where a being answers questions (found by wording, so the
-               checker still reads); one epic, two or more long, three or more short.
+               Clock or trigger; Clues; Branches; Never found, a Kind: line, an
+               "Answers questions: yes|no" line, each clue with Location: and Readings:,
+               each branch with What the world does:, and a Limit: line in the Truth or
+               Body of every mystery marked "Answers questions: yes"; one epic, two or
+               more long, three or more short.
   --rolls      every r-NNNN cited in a sealed file is in S/state/rolls.jsonl, nothing is
                rolled twice, every reroll has a reason; the public rolls log is empty.
   --dashes     no em or en dash in any campaign file, sealed or public.
+
+Every mode skips the checker's own flags files (any lock-flags*.md, years/000/lock-flags.md
+among them): they quote what they flag.
 """
 import argparse, json, os, re, sys
 
@@ -40,6 +56,12 @@ NUM_WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eig
 BRACKET_RE = re.compile(r"(?<!\])\[([a-z0-9][a-z0-9-]*(?:\s*,\s*[a-z0-9][a-z0-9-]*)*)\](?![(\[])")
 ROLL_RE = re.compile(r"\br-(\d{4,})\b")
 BRACKET_SKIP = {"x", "sic", "tbd", "todo", "ok"}
+SEALED_TERMS = "sealed-terms.txt"
+# Number words near god terms (change list 44): a count of gods written in words.
+COUNT_WORDS = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
+               "twelve", "twice", "a dozen", "half a dozen"]
+GOD_TRIGGERS = ["god", "gods", "like me", "like us", "of us", "pulls", "came down", "fell"]
+COUNT_WINDOW = 6   # words between the number word and the trigger, at most ("within six words")
 
 
 class Report:
@@ -64,12 +86,17 @@ class Report:
         return 1 if any(self.fails.values()) else 0
 
 
+def is_flags_file(path):
+    """The checker's own flags files, which every mode skips: lock-flags.md and lock-flags*.md."""
+    return re.match(r"^lock-flags.*\.md$", os.path.basename(path)) is not None
+
+
 def text_files(folder):
     out = []
     for dirpath, dirs, files in os.walk(folder):
         dirs[:] = sorted(d for d in dirs if not d.startswith("."))
         for fn in sorted(files):
-            if os.path.splitext(fn)[1].lower() in TEXT_EXT:
+            if os.path.splitext(fn)[1].lower() in TEXT_EXT and not is_flags_file(fn):
                 out.append(os.path.join(dirpath, fn))
     return out
 
@@ -140,6 +167,19 @@ class Campaign:
             return set()
         return {l.strip().lower() for l in open(p) if l.strip() and not l.strip().startswith("#")}
 
+    def sealed_terms(self):
+        """The Keeper's sealed term list, S/sealed-terms.txt: one term per line, # for comments,
+        or None when the file is missing."""
+        p = os.path.join(self.S, SEALED_TERMS)
+        if not os.path.exists(p):
+            return None
+        out = []
+        for line in read(p).splitlines():
+            t = line.strip()
+            if t and not t.startswith("#") and t not in out:
+                out.append(t)
+        return out
+
 
 def name_variants(name):
     """A map name and its form without a leading article, kept only if capitalized and 4+ letters."""
@@ -200,15 +240,35 @@ def word_num_re(n):
     return r"\b(?:" + "|".join(alts) + r")\b"
 
 
+def known_map_names(c):
+    """Lower-case names the player's god knows: the map names of what it has seen or had reported,
+    with and without a leading article, and every name it was told."""
+    known_ids, out = set(), set()
+    for table in ("regions", "features"):
+        for ident, e in c.knowledge.get(table, {}).items():
+            if e.get("grade") in ("seen", "reported"):
+                known_ids.add(ident)
+            t = e.get("told") or {}
+            if t.get("name"):
+                out |= {v.lower() for v in article_variants(t["name"])}
+    for kind, el in c.elements():
+        if el["id"] in known_ids:
+            nm = el.get("name", "")
+            out |= {v.lower() for v in article_variants(nm)} | {v.lower() for v in name_variants(nm)}
+    return out
+
+
 def leak_terms(c):
-    """(kind, label, compiled regex) for every sealed term."""
+    """(kind, label, compiled regex, severity) for every sealed term. Severity is "fail" for the
+    Keeper's sealed-terms.txt and the terms the data gives, "warn" for the older guesses from prose."""
     terms = []
     allow = c.allow()
+    severity = ["fail"]
 
     def add(kind, label, rx, flags=0):
         if label.lower() in allow:
             return
-        terms.append((kind, label, re.compile(rx, flags)))
+        terms.append((kind, label, re.compile(rx, flags), severity[0]))
 
     def phrase(kind, s, case=False):
         s = s.strip()
@@ -216,8 +276,16 @@ def leak_terms(c):
             return
         add(kind, s, r"(?<![\w])" + re.escape(s) + r"(?![\w])", 0 if case else re.I)
 
+    known_lower = known_map_names(c)
+    for t in c.sealed_terms() or []:
+        if {v.lower() for v in article_variants(t)} & known_lower:
+            continue  # a map name the player's god has seen or been told may appear (runbook 7.12)
+        for v in sorted(article_variants(t)):
+            phrase("sealed term", v, case=True)
     for label in sorted(c.god_labels()):
         phrase("god label", label)
+    # the older guesses from prose: warnings only (change list 30)
+    severity[0] = "warn"
     gnames = set()
     for god in c.npc_gods():
         for path in text_files(os.path.join(c.S, "gods", god)) + text_files(os.path.join(c.S, "gods-sealed", god)):
@@ -242,6 +310,7 @@ def leak_terms(c):
         for nm in common_names(read(path)):
             for v in name_variants(nm) or {nm}:
                 phrase("common-past name", v, case=True)
+    severity[0] = "fail"
     n = len(c.npc_gods())
     if n:
         for k in sorted({n, n + 1}):
@@ -291,7 +360,7 @@ def leak_terms(c):
     for path in mystery_files(c):
         for title, _body in mystery_units(read(path)):
             t = re.sub(r"\s*\([^)]*\)\s*$", "", title).strip(" .*")
-            phrase("mystery title", t)
+            phrase("mystery title", t, case=True)
     es = os.path.join(c.S, "event-schedule.md")
     if os.path.exists(es):
         for m in re.finditer(r"^#{3,6}\s+(.+?)\s*$", read(es), re.M):
@@ -354,17 +423,84 @@ def public_files(c):
     return out
 
 
+def article_variants(term):
+    """A sealed term as written, and without a leading article if what is left is two or more
+    words (a one-word remainder, "the Stray", is matched only with its article: alone it is
+    an ordinary word at the head of a sentence)."""
+    out = {term}
+    m = re.match(r"^(The|the|A|An|an)\s+(.+)$", term)
+    if m and len(m.group(2).split()) >= 2:
+        out.add(m.group(2))
+    return out
+
+
+def _words_re(phrase):
+    return r"\s+".join(re.escape(w) for w in phrase.split())
+
+
+COUNT_RE = re.compile(r"(?<![\w-])(?:" + "|".join(_words_re(w) for w in sorted(COUNT_WORDS, key=len, reverse=True)) + r")(?![\w-])", re.I)
+TRIGGER_RE = re.compile(r"(?<![\w])(?:" + "|".join(_words_re(w) for w in sorted(GOD_TRIGGERS, key=len, reverse=True)) + r")(?![\w])", re.I)
+WORD_RE = re.compile(r"[A-Za-z0-9']+")
+# "one" is a pronoun, not a count, after these words ("no one", "the one", "every one") and in "one another"
+ONE_NOT_COUNT_RE = re.compile(r"(?<![\w-])(?:no|any|every|some|the|each|that|this|which|a|anyone|such)\s+$", re.I)
+SENTENCE_RE = re.compile(r"[^.!?;:]+")
+
+
+def count_hits(line):
+    """Number words within COUNT_WINDOW words of a god term in the same sentence: (number word,
+    trigger, the phrase between them inclusive) for each pair."""
+    hits = []
+    for sm in SENTENCE_RE.finditer(line):
+        sent = sm.group(0)
+        starts = [m.start() for m in WORD_RE.finditer(sent)]
+
+        def word_index(pos):
+            i = 0
+            for k, s in enumerate(starts):
+                if s <= pos:
+                    i = k
+            return i
+
+        nums = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in COUNT_RE.finditer(sent)
+                if not (m.group(0).lower() == "one" and ONE_NOT_COUNT_RE.search(sent[:m.start()]))
+                and not (m.group(0).lower() == "one" and re.match(r"\s+another\b", sent[m.end():], re.I))]
+        trigs = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in TRIGGER_RE.finditer(sent)]
+        for n, n0, n1 in nums:
+            for t, t0, t1 in trigs:
+                if t0 <= n1 and n0 <= t1:
+                    continue  # overlapping ("one" inside nothing, but be safe)
+                gap = (t0 - n1 - 1) if t0 > n1 else (n0 - t1 - 1)
+                if gap <= COUNT_WINDOW:
+                    a, b = min(n.start(), t.start()), max(n.end(), t.end())
+                    hits.append((n.group(0), t.group(0), " ".join(sent[a:b].split())))
+    return hits
+
+
 def check_leaks(c, rep):
     terms = leak_terms(c)
+    allow = c.allow()
+    if c.sealed_terms() is None:
+        rep.fail("leaks", f"{c.rel(os.path.join(c.S, SEALED_TERMS))} is missing; the Keeper writes it "
+                          "(god names and bynames, hidden power names, common-secrets names, places off the map)")
     for p in mapt.knowledge_problems(c.world, c.knowledge) if c.world else []:
         rep.fail("leaks", f"{c.rel(os.path.join(c.P, 'player', 'map-knowledge.json'))}: {p}")
     if not os.path.isdir(c.P):
         rep.warn("leaks", f"no public folder {c.rel(c.P)}")
     for path in public_files(c):
         for ln, line in enumerate(read(path).splitlines(), 1):
-            for kind, label, rx in terms:
-                if rx.search(line):
+            failed_labels = set()
+            for kind, label, rx, sev in terms:
+                if sev == "fail" and rx.search(line):
+                    failed_labels.add(label.lower())
                     rep.fail("leaks", f"{c.rel(path)}:{ln}: {kind} \"{label}\"")
+            for kind, label, rx, sev in terms:
+                if sev == "warn" and label.lower() not in failed_labels and rx.search(line):
+                    rep.warn("leaks", f"{c.rel(path)}:{ln}: {kind} \"{label}\" (a guess from prose; "
+                                      "add it to sealed-terms.txt if it is sealed)")
+            for num, trig, phrase_ in count_hits(line):
+                if phrase_.lower() in allow:
+                    continue
+                rep.fail("leaks", f"{c.rel(path)}:{ln}: number word \"{num}\" near \"{trig}\": \"{phrase_}\"")
 
 
 # ---------------------------------------------------------------- mysteries
@@ -422,7 +558,7 @@ def section(body, label):
 
 
 KIND_RE = re.compile(r"^\s*Kind:\s*(epic|long|short)\b", re.I | re.M)
-ANSWERS_RE = re.compile(r"\banswers?\b[^.\n]{0,40}\bquestions?\b|\bcan be asked\b|\boracle\b|\banswers when asked\b", re.I)
+ANSWERS_FIELD_RE = re.compile(r"(?:^|[.;]\s*|\*\*)\s*\**Answers questions\**:\**\s*([A-Za-z]*)", re.M)
 
 
 def chunks(sec):
@@ -477,9 +613,17 @@ def check_mysteries(c, rep):
                             rep.fail("mysteries", f"{where}: branch \"{name.strip()}\" has no What the world does:")
                 elif not re.search(r"\bworld does\b", branches, re.I):
                     rep.fail("mysteries", f"{where}: no branch says what the world does")
-            being = (section(body, "Truth") or "") + (section(body, "Body") or "")
-            if ANSWERS_RE.search(being) and not re.search(r"^\s*Limit:\s*\S", being, re.M):
-                rep.fail("mysteries", f"{where}: a being answers questions but has no Limit: line")
+            answers = ANSWERS_FIELD_RE.findall(body)
+            if not answers:
+                rep.fail("mysteries", f"{where}: no Answers questions: line (yes or no)")
+            elif len(answers) > 1:
+                rep.fail("mysteries", f"{where}: more than one Answers questions: line")
+            elif answers[0].lower() not in ("yes", "no"):
+                rep.fail("mysteries", f"{where}: Answers questions: must be yes or no, not {answers[0]!r}")
+            elif answers[0].lower() == "yes":
+                being = (section(body, "Truth") or "") + (section(body, "Body") or "")
+                if not re.search(r"^\s*\**Limit\**:\**\s*\S", being, re.M):
+                    rep.fail("mysteries", f"{where}: Answers questions: yes, but no Limit: line in its Truth or Body")
     if total == 0:
         rep.fail("mysteries", "no mystery found")
         return

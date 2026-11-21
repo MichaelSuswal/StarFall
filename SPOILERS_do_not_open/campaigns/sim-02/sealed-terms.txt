@@ -1,0 +1,69 @@
+# Sealed terms: sim-02
+#
+# Read by tools/lockcheck.py --leaks as the primary sealed list (change list item 30).
+# One term per line; lines starting with # are comments. Each term is matched as written,
+# case and all, as a whole word or phrase, and also without a leading "The" or "the" when two
+# or more words are left ("the Stray" is matched only with its article).
+# Any hit in campaigns/sim-02/ or in images/requests/sim-02-*.json fails the lock.
+#
+# Written for build 3 as a worked example, from the existing sealed files: the NPC gods'
+# power cards (Name sections), the eight hidden-powers files, and the common secrets file.
+#
+# Left out on purpose, with reasons:
+# - The one-word filing names of three NPC gods (an ordinary capitalized word each). Matched
+#   case and all they would still fire on any sentence that starts with that word (the public
+#   files already have two such lines). The god folder labels are matched by the tool anyway.
+# - Bynames that are ordinary phrases in lower case ("the quiet one", "the one who keeps"):
+#   the public files use one of them in plain prose about a gatekeeper.
+# - Map names: the tool reads them from map.json and fails every one the player has not seen
+#   or been told, and stops failing it when the player learns it. A map name written here
+#   would keep failing after the player learns it. Only places that are not on the map
+#   (the far country of the common secrets) are listed.
+# - Mystery titles, schedule titles, star values, phenomena counts and the count of gods:
+#   the tool reads them from their own files.
+
+# God names and bynames (S/gods/<label>/power-card.md, ## Name)
+the Hunt-Warden
+the Long Hunter
+the Tall One
+the Ferryman
+the Old Man of the Crossing
+the Cold One
+the Factor
+the Broker
+the one in the damp coat
+the Listener
+the quiet child
+the stone child
+the Grey Herder
+the Stray
+the Fog at the Gate
+the Gatekeeper
+
+# Hidden power names (S/player/hidden-powers.md and S/gods-sealed/<label>/hidden-powers.md)
+The Refusal at the Sill
+The Lamp Count
+The Carried
+The Wary Sky
+The Thing Set Down
+The Clean Cup
+The Swallowed Thing
+The Fair Pan
+The Maker's Eye
+The Weight Kept
+The Second Breath
+The Sound Step
+The Whole Count
+The Spared Ground
+The Door Held To
+The One Behind
+
+# Names in the common secrets (S/gods-sealed/common-past.md), places off the map among them
+Anmere
+Issel
+Keld
+Auren
+Maunt
+Hesp
+Varrach
+Ysolt Brenna
