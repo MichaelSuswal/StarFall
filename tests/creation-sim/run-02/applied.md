@@ -38,3 +38,21 @@ Each line names the run 02 change list items it applies.
 - creation-runbook.md and survey-keeper-notes.md: principles from the run 02 rulings, marked "Principle from run 02", for Night 1 steps 1.2, 1.3, 1.4; Night 2 steps 2.1, 2.3, 2.4, 2.5, 2.6; Night 3 steps 3a.1, 3a.3, 3a.5, 3a.6, 3b.2, 3b.4, 3b.6, 3b.8; and the lock rounds (43).
 - survey-keeper-notes.md: which star result yields when two conflict (6); "Also said" remarks count only toward the theme reroll (7); marker with extra words (10).
 - mystery-standard.md: the `Answers questions` field read by the script (44).
+
+## Tools side
+
+- tools/lockcheck.py: `--leaks` reads `S/sealed-terms.txt` as the primary sealed list (matched case and all, with or without a leading "The" when two or more words remain; a missing file fails; a term that is a map name the player's god has seen or been told is passed over, per runbook 7.12); the older prose guesses (card titles, Name lines, hidden-power headings, common-secrets capitals) are warnings only (30).
+- tools/lockcheck.py: `--leaks` fails a number word (one to twelve, "a dozen", "half a dozen", "twice") within six words of "god", "gods", "like me", "like us", "of us", "pulls", "came down" or "fell" in the same sentence; "one" after no, any, every, the and the like, and "one another", are not counts; a hit the checker clears is exempted by its quoted phrase in `leak-allow.txt` (44).
+- tools/lockcheck.py: mystery titles matched case-sensitively (42).
+- tools/lockcheck.py: `--mysteries` reads `Answers questions: yes|no` (missing, repeated or another word fails) and requires a `Limit:` line in the Truth or Body on yes; no guessing from wording (44).
+- tools/lockcheck.py: every mode skips `lock-flags*.md`, `years/000/lock-flags.md` among them (45).
+- SPOILERS_do_not_open/campaigns/sim-02/sealed-terms.txt: written from the sim-02 sealed files as the worked example (30).
+- tools/map.py: `stamp <campaign>` appends `[id]` after every map name in the sealed .md files, idempotent, skips LOCKED.md and the flags files, never the public folder, `--dry-run`, counts per file (42).
+- tools/map.py: `describe <campaign> --landing <god> | --region <id> [--god] [--names]` writes the land description from the data (terrain, elevation, water, climate, extent, neighbors with days and directions, what is in view by the map.md 1.4 sight rule, settlements farther off as smoke only, higher ground that hides a far region), with names only as the god learned them and free text scrubbed (42, 45).
+- tools/map.py: `draw --zoom landing` crops to the seen regions plus a quarter margin, at its own scale bar, grid letters kept (49).
+- tools/map.py: label collision avoidance on every zoom: labels placed by priority, moved, trimmed, shrunk, never overprinted, leader lines that cross nothing, drops reported and counted in map-meta.json (49).
+- tools/map.py: the gazetteer gives a reported region's distance from told data only, never the sealed travel days (42).
+- tools/map.py: `validate` accepts one-decimal (and finer) coordinates and fails coordinates that are not number pairs or lie off the painting, landing points included (42).
+- tools/paint.py and paint.yml: requests under a `held` folder (`images/held/`, or an older `images/requests/held/`) are never painted; the trigger paths are unchanged (50).
+- tests/tools: tests for all of the above, the fixture's sealed-terms file and `Answers questions:` lines; 24 tests pass.
+- campaigns/sim-02/player/map.png (and map-meta.json, written with it): redrawn at the landing zoom as the test record (49).
