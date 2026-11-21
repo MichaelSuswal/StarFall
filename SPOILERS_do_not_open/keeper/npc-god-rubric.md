@@ -147,7 +147,7 @@ How the god's people are ruled, and who holds rule under the god. Rule score: th
 | 13 to 39 | a council of elders or chieftains | The people is ruled by a council of its own (elders, headmen, chieftains); the god is heard there, and the council's helpers carry out what is agreed. |
 | 40 to 54 | a sacred monarch behind a court | A mortal line holds the throne in the god's name and is held sacred for it; a court stands between the throne and the people, and the god is reached through it. |
 | 55 to 69 | a mortal ruler under the god | One ruler answers to the god and rules for it: a priest-king, a warlord or a merchant-prince, by the variety table below (those three only). |
-| 70 to 100 | a god-king with a court and priesthood | The god holds the crown itself, with a court, officers and a priesthood; its word is law, carried by them. Its manner is set by the variety table below (all five). |
+| 70 to 100 | a god-king with a court and priesthood | The god holds the crown itself, with a court and officers; its word is law, carried by them. A priesthood stands in it only as the worship lean gives one. Its manner is set by the variety table below (all five). |
 
 Odds, for the Keeper's reference: about 1 in 130 for the lone god, a quarter for a council, a third for a sacred monarch, a quarter for a mortal ruler, one in seven or eight for a god-king.
 
@@ -168,10 +168,14 @@ How the god is worshipped, if at all. Worship score: the mean of (101 minus Pres
 
 | Score | Worship lean | On the sheet |
 |---|---|---|
-| 1 to 29 | none | It asks no rites; what the people do about it is theirs. |
-| 30 to 49 | local shrines | Household and village shrines, kept by whoever keeps them; no order of priests. |
-| 50 to 69 | a priesthood | Keepers of rite with standing among the people, offerings brought, no tithe by law. |
-| 70 to 100 | a state cult | Temples, tithes and a priesthood under the throne. |
+| 1 to 39 | none | It asks no rites; what the people do about it is theirs. |
+| 40 to 57 | local shrines | Household and village shrines, kept by whoever keeps them; no order of priests. |
+| 58 to 71 | a priesthood | Keepers of rite with standing among the people, offerings brought, no tithe by law. |
+| 72 to 100 | a state cult | Temples, tithes and a priesthood under the throne. |
+
+Odds, for the Keeper's reference: about a quarter none, two in five local shrines, a quarter a priesthood, one in nine a state cult. Shrines or none is the common result. The worship lean alone decides whether a god has priests: a god-king's court (rule lean) carries a priesthood only if its worship lean gives one.
+
+Calibration, for the rubric's spread: the gods real players ran at length in the original game all had a governing apparatus (a throne with council and advisors, a crown with noble houses, a record-keeping state, a state of schools and roads, a state of trade and expeditions, a war god), none ruled by hiding or by nothing, and none put priests in view. What they wanted was knowledge, trade, justice for offences and security against a shared threat; their wars began from an offence against kin, an ultimatum between courts, a shared threat or a suspicious death. So rule is common and "no one" rare, worship is often light or absent, and a god's wants are not only land and worship (runbook template 7.5, `goals.md`).
 
 ### On the sheet
 Write the result as four short lines in the sheet's `## The people it leans toward` section, for example:

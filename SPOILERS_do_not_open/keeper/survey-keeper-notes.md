@@ -14,9 +14,10 @@ How the Keeper uses the Day 1 survey answers (and the Day 2 and 3 follow-ups) to
    - **Pools** (what is scarce, what is feared, what is buried, what peoples exist): gather every answer into one pool. The most common themes become widespread features of the world. Rarer answers may become special places, single beings, or local histories, never rules.
    - **Rules** (god-sense, bodies): one rule for the whole world, by the counting rules below. Record the vote counts in the keeper log; never reveal them.
 5. **The star and the deep lore come first.** The star is rolled on Night 1 before the blend. Survey answers shape the world within what this star and the deep lore allow. Where an answer cannot fit, it is quietly left out and the leaving out is logged.
-6. **Rejected and bent premises.** A rejected premise refuses the question's assumption; a bent one answers outside the range offered. Record the god's own answer as given, count it in the blend where it maps to the scale, pool or vote, and treat it as a gap only when the blend cannot place it.
+6. **Rejected and bent premises.** A rejected premise refuses the question's assumption; a bent one answers outside the range offered. A marker with extra words ("Premise partly bent") is read as the nearer of the two, logged. Record the god's own answer as given, count it in the blend where it maps to the scale, pool or vote, and treat it as a gap only when the blend cannot place it.
 7. **Everything is fixed by the lock.** Nothing derived from the survey is added after the world locks.
-8. **Log every choice.** For each question the keeper log records the eight answers in summary, the Keeper's placement of each, the blend, any rolls, and what was built.
+8. **Remarks are not answers.** What the player said beside the survey, kept by the DM under `Also said` in `survey-day1.md`, is not blended and not acted on, with one use: it counts, with the answers themselves, toward the player's stated theme, and an NPC domain that matches that theme is rerolled on Night 1 (runbook 1.3).
+9. **Log every choice.** For each question the keeper log records the eight answers in summary, the Keeper's placement of each, the blend, any rolls, and what was built.
 
 ## Given and discovered
 
@@ -67,6 +68,19 @@ Answers placed between the ends by their words: "a little", "some", "a few" sit 
 3. **Three-way or wider votes.** Count every option. An option with more than half the votes carries. Otherwise the two largest go forward: each vote for any other option counts with whichever of the two it is nearer to, by the Keeper's reading, logged; then majority, and a tie by even roll.
 4. **Sub-points.** How the winning rule works in detail (how near, how sure, what a second body costs) is the Keeper's judgment from the answers on the winning side, logged with which answers it drew on. A losing answer may color nothing.
 5. **No votes.** If no answer speaks to a rule at all, its default holds, logged as a default and not as a vote. Bodies: one body. God-sense: nothing beyond what DESIGN 1.5 gives every god (it knows others came down when it did), plus what its own senses tell it.
+
+## When two star results pull against each other
+
+The star's results are rolled on Night 1 (runbook 1.2) and every one stands as rolled: none is rerolled, dropped or softened because another seems to pull against it. When two read against each other in wording, each governs its own part of the matter, and where both speak to the same part, the one lower in this order yields to the higher, on that part only, keeping its full force on everything else:
+
+1. **The phase** governs time: when things happen, how often, how strongly, and how near the end is.
+2. **The bodies** (center body, long-game presence, Remainder) govern what exists: which beings and places there are.
+3. **The measures** (rain density, living radius, the ceiling) govern how much and how far.
+4. **The content** (star content, ascended temper) governs what things are like: their matter, their voice, what they want.
+
+So a falling phase that makes the ascended loud, and a temper that has them speak in weather and want nothing, together give voices that come often and strong (the phase) and are weather and old images with few offers (the temper). Write the reading in the keeper log, with the two results and which part each governs, before anything built on it is released. The deep lore itself outranks all four.
+
+Principle from run 02 (Night 1, step 1.2): a contradiction between two rolled results is read, not resolved by choosing one; each keeps the part of the world that is its own.
 
 ## The star bounds the magic blend
 
