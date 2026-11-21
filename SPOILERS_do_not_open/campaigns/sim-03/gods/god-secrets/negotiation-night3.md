@@ -20,3 +20,16 @@ Wording I ask, in the write-up and not a new power:
 Accept, as drafted.
 
 Why: I offered it, and the Keeper has taken it as I offered it, with the season and the number written. The last sentence is fair. I said in the people file that my ears take what they take and change nothing here, and I meant it: a god who hears that a house is hungry has heard it, and the house has still not told its Reeve, and the Reeve still does not know. Would I want it otherwise? A weakness that I could undo by listening is no weakness, and I would have offered nothing. Help that is not asked for is refused at the door for that season. I accept that too.
+
+## Round 2 reply
+
+I confirm the final text, with one wording asked below. I have read it against my round 1 reply. "Or not at all" is gone, as I asked. The bargain step is narrowed to bargains struck away from their own country, and I accept the Keeper's reason: a people that tells nothing of what it has or needs cannot be met halfway, and at their own door, where the other party has come because it wants what they have, the silence costs them less. Is that not a fair line? It is a better line than the one I asked for. My three wordings are in: the year and a day runs from the day of the taking, the crown, the court, the keepers of rite and the god are not strangers while a traveller who has lived among them a short time is, and the code is the code in my people file.
+
+### Closed mouths
+Confirmed as the final text.
+
+### They hide their own hardship
+Confirmed as the final text, including the added part for the year and a day: no stranger settles among them and few come twice, what the roads would bring comes late, and every bargain one of this people strikes away from its own country goes one step worse for it.
+
+### Wording asked, not substance
+In the Weakness text, the sentence "And, for the year and a day: no stranger settles among them..." can be read two ways. One reading is that these costs last for the year and a day only. The other is that they last for as long as the edge stands, which is as long as the people hold to the code. I mean the second, and I say so plainly so that it is not read as the first. The edge is not a year and a day long, it is a captive's silence that is a year and a day long, and the people pay for the habit that makes it for as long as they keep it. I ask that the sentence be written "And, for as long as the edge stands:" so that the price and the edge run together. That is wording, and it makes the price no lighter than I offered.

@@ -28,3 +28,25 @@ The clarifications, in the write-up and not new powers:
 3. The debt of sleep: I ask that it be written that it counts as a day owed for the call itself, once for each season's call, and not once for each night the Keeper sleeps beside the coin, so that a Keeper who sleeps beside it three nights hoping does not run up three days against me.
 
 I accept the rest as drafted.
+
+## Round 2 reply
+
+I confirm the final text. I ask one clarification of wording, and no change of substance.
+
+### Breaking camp
+Granted as half a day, with the reason written in: the night shift and the day shift load the same train and do not meet well. I withdraw the argument that it was charged twice. The Keeper is right that I offered the slowness and gave no number, and that my people are the usual size and are charged nothing for size. Half a day is a fair figure for a meeting of two shifts. I take it.
+
+### The Night Watch and the Day Sleepers
+Confirm as written, including the shoulder hours from dawn to mid-morning and from mid-afternoon to dusk, where neither the edge nor the weakness applies. The measurable line, dusk to dawn, the surprise factor never counted against them, is the line I wanted and I accept it as the only line the edge gives.
+
+### The Coin on the Stone
+Confirm as written, with one clarification, in the write-up and not a new term.
+
+The mark lasts while the bargain it was struck on is unpaid and one season after it is paid. The Coin on the Stone says the coin is given into the Chief Keeper's hand with a yes said aloud, which is the bargain that marks that Keeper. As written, a clever mortal or a clever Keeper could read the giving of the coin as the whole of the bargain, paid in the moment of the handing over, so that the mark lapses a season later and the power fails with it. I do not want that reading, and I do not think the Keeper does. I ask that the bargain be written as standing for as long as the Chief Keeper holds the office and the coin: the Keeper holds the coin and the office in trust for the lamp fire, and the call is the performance of the bargain each season. It stays unpaid while the office is held, and so the mark stands while the office is held, and it ends with the office, the life or the mark, as the Limits already say. If the Keeper holds that it must be read otherwise, I ask for the reading to be said plainly, so that I give the coin on terms I understand.
+
+The other limits I confirm as I read them: the holder's choice and the holder's alone, no reach beyond a day and a half's walk, no mark made by the call itself, the taste not waking me from owed sleep or breaking a dream, one call one night once in a season owing one day, and a plain coin on a plain stone as the people's custom and no part of the power.
+
+### What I leave for the world
+Their magic, what they believe about gods, what they know on the first morning and whose the wall and the trough are: left to the world, as I said. I will see what it gives.
+
+The text stands with the one clarification above. I have nothing further to ask.
