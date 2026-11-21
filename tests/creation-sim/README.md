@@ -24,3 +24,7 @@ Agents report process problems (unclear instructions, missing paths, contradicti
 ## Run 01 (2026-11-18, 23:00 to 00:21 Pacific)
 
 Campaign `sim-01`: a cairn god and the Carrowfolk. Creation ran end to end in about 1 hour 20 minutes. The checker found the world not fit to start as locked (a god-count leak, land descriptions written before tracing, underbuilt short mysteries, a self-certified lock). 100 findings; all applied in build 2 (`build-plan.md`, `applied.md`). `sim-01` stays locked as it was, as the record of the run.
+
+## Run 03 (2026-11-20)
+
+Campaign `sim-03`, on build 3. Every NPC god's rule lean forced to a god-king by a sealed test override; wars allowed. Three images approved: surface, clouds, first morning.
