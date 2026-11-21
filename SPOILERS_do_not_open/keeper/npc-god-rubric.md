@@ -114,7 +114,7 @@ Every god gives a reason for each thing it asks and for each price it accepts. A
 ## 12. The people it leans toward
 Worked out from the leans when the sheet is written, and written on the sheet in words, so that seven gods do not come out alike. It is the god's own lean, as a lean is: the god builds within it, and may hope otherwise if it gives its reasons in `people-hoped.md`.
 
-Every god comes down to lead a people, to build, rule and spread (the premise of The Between). The leans below decide the form that takes, never whether. Every NPC god starts with a people and with helpers who run things in its absence (the `## Helpers` section of the people record); the god may refuse them, dismiss them or never meet them in play, and once dismissed they are not forced back.
+Every god comes down to lead a people, to build, rule and spread (the premise of The Between). The leans below decide the form that takes, never whether. Every NPC god starts with a people and with helpers who run things in its absence (the `## Helpers` section of the people record); the rule lean decides the form they take. The god may refuse them, dismiss them or never meet them in play, always for a reason it gives, logged; once dismissed they are not forced back.
 
 ### Size
 Size score: the mean of Company, Appetite and Regard for mortals, rounded. (Company carries its +25.)
@@ -143,13 +143,13 @@ How the god's people are ruled, and who holds rule under the god. Rule score: th
 
 | Score | Rule lean | On the sheet |
 |---|---|---|
-| 1 to 12 | a lone god with no one | No one rules under it and no one helps it: a people lives near it and goes its own way. Rare; it comes only on an extreme roll. |
+| 1 to 12 | a lone god that refuses its helpers | It starts with helpers like every god (a council's or elders' offices, by default), and its rolls lean it to refuse them: it gives its reason in `people-hoped.md`, the refusal is logged with the date, and its people then go their own way. Rare; it comes only on an extreme roll. |
 | 13 to 39 | a council of elders or chieftains | The people is ruled by a council of its own (elders, headmen, chieftains); the god is heard there, and the council's helpers carry out what is agreed. |
 | 40 to 54 | a sacred monarch behind a court | A mortal line holds the throne in the god's name and is held sacred for it; a court stands between the throne and the people, and the god is reached through it. |
 | 55 to 69 | a mortal ruler under the god | One ruler answers to the god and rules for it: a priest-king, a warlord or a merchant-prince, by the variety table below (those three only). |
 | 70 to 100 | a god-king with a court and priesthood | The god holds the crown itself, with a court and officers; its word is law, carried by them. A priesthood stands in it only as the worship lean gives one. Its manner is set by the variety table below (all five). |
 
-Odds, for the Keeper's reference: about 1 in 130 for the lone god, a quarter for a council, a third for a sacred monarch, a quarter for a mortal ruler, one in seven or eight for a god-king.
+Odds, for the Keeper's reference: about 1 in 130 for the lone god that refuses its helpers, a quarter for a council, a third for a sacred monarch, a quarter for a mortal ruler, one in seven or eight for a god-king.
 
 **Variety table.** For each kind, take the lean value given; the highest wins; a tie is settled by one roll at even odds, logged.
 
@@ -191,7 +191,7 @@ Principle from run 02 (Night 1, step 1.3): where two leans on one sheet seem to 
 
 A test run may force lean results to test the engine. The rubric never changes for it.
 
-- The override lives in the campaign's `state/test-overrides.md`, written before Night 1 by whoever starts the run with Michael's go: in the sealed campaign folder (`SPOILERS_do_not_open/campaigns/<name>/state/test-overrides.md`) where it exists, since it names NPC god results; the Keeper also looks for `campaigns/<name>/state/test-overrides.md`. A campaign with neither file has no override.
+- The override lives only at `SPOILERS_do_not_open/campaigns/<name>/state/test-overrides.md`, created by Michael before Night 1, since it names NPC god results. The Keeper never looks for one on a public path. A campaign without that file has no override. Night 1 step 1.1 makes the rest of the sealed folder around it.
 - The file names each forced result: which lean (size, settlement, rule, worship), which gods (all NPC gods, or by label once labels exist), the result or family of results forced, how a variety within it is chosen (by this rubric's tables, from the god's rolls), and the date Michael approved it.
 - The Keeper rolls every lean as usual and works out the rubric's own result first. Then it applies the override and logs both, in the keeper log, at step 1.3: the rubric's result with its score, the forced result, and the override file's line. The sheet carries the forced result in the same words as any result, with no mark that it was forced; the god builds within it like any lean.
 - Only what the file names is forced. Every other lean, table and rule stands, and nothing else bends to make the forced result fit.
