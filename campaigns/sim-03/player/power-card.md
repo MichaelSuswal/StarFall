@@ -18,12 +18,12 @@ When the body is broken or scattered: see the power "The slow return" below. It 
 
 ### Definitions
 
-- **Tended ground.** Living soil the god has worked with its own bare hands until its threads have taken. About three days of the god's work for an acre (five worker-days by hand, at a god's work rate). Settled at creation. Ledger: pending, Night 2.
-- **Tended line.** A strip a pace wide, laid by walking it barefoot and slowly, about a mile a day. Settled at creation. Ledger: pending, Night 2.
+- **Tended ground.** Living soil the god has worked with its own bare hands until its threads have taken. About three days of the god's work for an acre (five worker-days by hand, at a god's work rate). Settled at creation. Ledger: L-0001.
+- **Tended line.** A strip a pace wide, laid by walking it barefoot and slowly, about a mile a day. Settled at creation. Ledger: L-0002.
 - **How long they last.** Both last while the soil lives. Fire to the mineral soil, salting, poison or stripping ends them, and the ground must be tended again. Hard frost silences them until the thaw; they are still tended after.
-- **What a line crosses.** A line carries over any living surface soil, however thin, whatever lies under it. Leaf litter and soil over rock carry. A line can run down into a hollow or a sinkhole and across its floor if living soil runs unbroken down the side and across. A sheer drop of bare rock breaks it, and the line is laid around the rim. A cave floor carries only as far in as its soil is alive. A line breaks at bare rock, paving, floors, open water, and running water wider than a stride that no roots cross. Marsh carries if it is alive. Settled at creation. Ledger: pending, Night 2.
+- **What a line crosses.** A line carries over any living surface soil, however thin, whatever lies under it. Leaf litter and soil over rock carry. A line can run down into a hollow or a sinkhole and across its floor if living soil runs unbroken down the side and across. A sheer drop of bare rock breaks it, and the line is laid around the rim. A cave floor carries only as far in as its soil is alive. A line breaks at bare rock, paving, floors, open water, and running water wider than a stride that no roots cross. Marsh carries if it is alive. Settled at creation. Ledger: L-0003.
 - **Touched.** The god's bare hands on the soil of a plot, once, while that soil is alive.
-- **Dead or sterile ground.** Ground where nothing grows within a bowshot of the god: salted, burnt to mineral, poisoned, bare rock, deep cave, and open water out of reach of soil. A town with gardens and weeds is living ground. Frozen ground is asleep, not dead. Settled at creation. Ledger: pending, Night 2.
+- **Dead or sterile ground.** Ground where nothing grows within a bowshot of the god: salted, burnt to mineral, poisoned, bare rock, deep cave, and open water out of reach of soil. A town with gardens and weeds is living ground. Frozen ground is asleep, not dead. Settled at creation. Ledger: L-0004.
 
 ### Things carried
 
@@ -44,7 +44,7 @@ Drawback: The listening spends your speech. For as long as you listened, and nev
 Limits settled at creation:
 - An hour to sink in and an hour to come out. It is not a glance.
 - While listening the god is blind, deaf and numb in the body. Its body sits in plain sight and can be seen, moved or harmed. Lifting its skin from the soil ends the listening.
-- The day of lost speech is a floor: listen for the minimum and a day is lost; listen for longer than a day and as long as was listened is lost. Settled at creation. Ledger: pending, Night 2.
+- The day of lost speech is a floor: listen for the minimum and a day is lost; listen for longer than a day and as long as was listened is lost. Settled at creation. Ledger: L-0005.
 - Shoes and gloves block it. Soil in a pot is joined to nothing.
 - Light and dark make no difference.
 - Distance: no limit along an unbroken tended line; nothing beyond a bowshot off tended ground.
@@ -68,7 +68,7 @@ Description: From tended ground you send one image or one mood, no words or name
 Drawback: You send what you have. The mood or image is gone from you while it is in the ground. Send calm and you are without calm until it fruits or dies; send a memory and you cannot recall it until then. If it is killed in the ground, it comes back a season late.
 Limits settled at creation:
 - A plot is a field, a garden or a grave.
-- It is always sent from tended ground, whatever the plot. A touched plot needs no tended line to it. Settled at creation. Ledger: pending, Night 2.
+- It is always sent from tended ground, whatever the plot. A touched plot needs no tended line to it. Settled at creation. Ledger: L-0006.
 - It rules no mind: a dream can be shrugged off, a mood passes, a pattern can be read wrong or kicked over.
 - Being watched: anyone who passes can see or smell it, and what they make of it is theirs.
 - Other gods: sent to ground another god holds, or to a god in person, it is unruled until it happens.
@@ -90,7 +90,7 @@ Limits settled at creation:
 - Wounds from fire or salt follow the weakness below, not this power.
 - Other gods: what another god can do to the body or its remains is unruled until it happens.
 - Intent, the player's first wording: "I'd like a broken body to be slow to die and slow to mend. I'd rather be held, buried, or left in a hole than be gone, and I want to come back in whatever soil is nearest, no faster than the season allows. I understand the cost: while I'm hurt, I'm a hole in my own standing conduct."
-- The drawback was proposed by the DM from the player's Day 1 answer 16 ("if one is lost, something of me goes with it, a memory or a habit") and accepted. Settled at creation. Ledger: pending, Night 2.
+- The drawback was proposed by the DM from the player's Day 1 answer 16 ("if one is lost, something of me goes with it, a memory or a habit") and accepted. Settled at creation. Ledger: L-0007.
 Rulings: none yet.
 Trades: none.
 Growth: Possible. Not shown.
