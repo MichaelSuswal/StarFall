@@ -42,4 +42,4 @@ Worship: none (score 33: 101 minus Presence 29, Regard 69, Appetite 1). It asks 
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Autumn. In its own words: "I wake into autumn."

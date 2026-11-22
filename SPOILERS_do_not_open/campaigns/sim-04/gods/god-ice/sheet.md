@@ -42,4 +42,4 @@ Worship: a priesthood (score 59: 101 minus Presence 59, Regard 93, Appetite 24).
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Early winter. In its own words: "I wake into early winter."

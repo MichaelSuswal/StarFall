@@ -42,4 +42,4 @@ Worship: local shrines (score 50: 101 minus Presence 35, Regard 79, Appetite 36)
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Spring. In its own words: "We wake into spring."

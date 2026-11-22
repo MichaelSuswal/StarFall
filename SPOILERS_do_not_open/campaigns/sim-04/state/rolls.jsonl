@@ -125,3 +125,15 @@
 {"id": "r-0125", "time": "2026-11-22T06:53:31Z", "pacific": "2026-11-21T22:53:31-08:00", "who": "keeper", "what": "god 7, flaw", "die": "d10", "roll": 56, "face": 6}
 {"id": "r-0126", "time": "2026-11-22T06:53:31Z", "pacific": "2026-11-21T22:53:31-08:00", "who": "keeper", "what": "god 7, wound", "die": "d12", "roll": 18, "face": 6}
 {"id": "r-0127", "time": "2026-11-22T06:53:31Z", "pacific": "2026-11-21T22:53:31-08:00", "who": "keeper", "what": "god 7, voice", "die": "d10", "roll": 13, "face": 3}
+{"id": "r-0128", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q3 seasons, half-median 4.5 (1 to 50 up, 51 to 100 down)", "die": "d100", "roll": 60, "face": 60}
+{"id": "r-0129", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q3 seasons, variation", "die": "d100", "roll": 39, "face": 39}
+{"id": "r-0130", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q4 past the borders, variation", "die": "d100", "roll": 13, "face": 13}
+{"id": "r-0131", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q5 age of the human story, variation", "die": "d100", "roll": 96, "face": 96}
+{"id": "r-0132", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q6 mortal magic, half-median 3.5 (1 to 50 up, 51 to 100 down)", "die": "d100", "roll": 95, "face": 95}
+{"id": "r-0133", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q6 mortal magic, variation", "die": "d100", "roll": 67, "face": 67}
+{"id": "r-0134", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q8 how much a god stands out, variation", "die": "d100", "roll": 100, "face": 100}
+{"id": "r-0135", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q9 strangeness of the wild, variation", "die": "d100", "roll": 24, "face": 24}
+{"id": "r-0136", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q13 non-human peoples, variation", "die": "d100", "roll": 6, "face": 6}
+{"id": "r-0137", "time": "2026-11-22T06:58:40Z", "pacific": "2026-11-21T22:58:40-08:00", "who": "keeper", "what": "blend Q14 travelers, variation", "die": "d100", "roll": 49, "face": 49}
+{"id": "r-0138", "time": "2026-11-22T06:59:59Z", "pacific": "2026-11-21T22:59:59-08:00", "who": "keeper", "what": "ceiling, first d10", "die": "d10", "roll": 50, "face": 10}
+{"id": "r-0139", "time": "2026-11-22T06:59:59Z", "pacific": "2026-11-21T22:59:59-08:00", "who": "keeper", "what": "ceiling, second d10", "die": "d10", "roll": 21, "face": 1}
