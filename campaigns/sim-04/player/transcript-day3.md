@@ -135,3 +135,15 @@ On the code. All of it is custom and none of it is priced. It is not free in pra
 **Gap 2.** In a year you do not play, do you let yourself be seen by anyone, Orrin or another, or do you keep out of sight until you choose otherwise at the table?
 
 "Is that them? Say yes, and fill what is empty, and they are written."
+
+## Player:
+
+Yes, that is them. The read-back is right, including the notes on the short hive, Orrin's hall and the code. I accept that the code costs them in practice and that I carry the cost of the Working.
+
+**Gap 1.** The reeve settles it, with the households of the quarrel present and the elders of the hamlet sitting by. The reeve isn't a judge in the strong sense. He or she hears both sides, proposes a settlement, and the households agree or don't. If they won't, the dispute can go to the reeves' meeting at the crossing, but only for something that touches the whole valley, so most never do. A quarrel over a borrowed swarm is the exception: it goes to the bees. The two households walk to the hive together, say the matter aloud to it, and take whatever the hive does next as the answer, which is custom and nothing more. I don't intervene in it.
+
+**Gap 2.** In a year I don't play, I keep out of sight. I stay a swarm among swarms, tend what I've tended, use the Working only for the short-hive duty and nothing else, and open the Listening no more than I must. I don't let myself be seen by Orrin or anyone else until I choose it at the table. A stung person is a separate case: I would not sting anyone in an unplayed year, so the hum isn't given to anyone without my being present to see what it does.
+
+Write them.
+
+(One more answer was sent to the DM privately, for the sealed record.)
