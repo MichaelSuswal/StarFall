@@ -1,0 +1,37 @@
+{
+  "frames": {
+    "surface": "A3:C4"
+  },
+  "grid": [
+    5,
+    4
+  ],
+  "sheet_miles": [
+    1638,
+    1638
+  ],
+  "zoom": "landing",
+  "frame_miles": {
+    "surface": [
+      576,
+      588
+    ]
+  },
+  "labels_dropped": {
+    "surface": 0
+  },
+  "regions_drawn": {
+    "seen": 1,
+    "reported": 0,
+    "rumored": 0
+  },
+  "features_drawn": {
+    "seen": 0,
+    "reported": 2,
+    "rumored": 0
+  },
+  "drawn": "2026-11-21",
+  "files": [
+    "map.png"
+  ]
+}
