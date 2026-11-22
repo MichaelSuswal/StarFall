@@ -31,7 +31,7 @@ Eight seats in a ring round the lake, each about 330 to 400 miles from it and ab
 
 Each is placed only where the world can hold it; the map and the records say what stands.
 - The valley's own name, as its people use it: stands, as the name of their home. The valley's river and other ground the player did not name and did not leave for play are the Keeper's to name.
-- A dozen or so hamlets, no town, no seat: the valley can hold it. Thirteen hamlets, unnamed (placeholders "unnamed hamlet 1" to "unnamed hamlet 13"), strung along the valley; the highest stands where the upland starts, as the player wished for the mortal it made.
+- A dozen or so hamlets, no town, no seat: the valley can hold it. Thirteen hamlets, unnamed (placeholders "unnamed hamlet 1 [f49]" to "unnamed hamlet 13 [f61]"), strung along the valley; the highest stands where the upland starts, as the player wished for the mortal it made.
 - The river crossing where the reeves meet, with a market ground that fills a few days a year: placed, a ford on the valley's river near its middle. It is how this people already orders itself, and a ford with a fair ground is ordinary.
 - The old track along the valley foot, and the story of a larger people before: placed as the worn cart track the brief already showed. Under part of it runs one of the old straight roads the whole world has (pool, Q12, widespread). What the story gets right and wrong is 3b's.
 - The roofless stone hall by the old track at the highest hamlet: placed, as a ruin of the kind the old roads have beside them in many countries. What wild swarms do there is settled in the sealed side of the people's record, from ordinary causes.

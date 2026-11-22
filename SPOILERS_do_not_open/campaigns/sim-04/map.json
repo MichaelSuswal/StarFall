@@ -1,0 +1,11552 @@
+{
+ "campaign": "sim-04",
+ "painting": {
+  "size": [
+   1024,
+   1024
+  ],
+  "miles_per_pixel": 1.0,
+  "grid": {
+   "cols": 5,
+   "rows": 4
+  }
+ },
+ "regions": [
+  {
+   "id": "r09",
+   "name": "The Sarn Meads",
+   "terrain": "plain, open meadow and grass north and east of the great lake",
+   "elevation": "low, 300 to 600 feet",
+   "water": "the Sarn and many small streams running to the lake",
+   "climate": "cool temperate; long winter, mild by the water",
+   "neighbors": [
+    {
+     "id": "r04",
+     "days": 29
+    },
+    {
+     "id": "r07",
+     "days": 13
+    },
+    {
+     "id": "r08",
+     "days": 22
+    },
+    {
+     "id": "r10",
+     "days": 21
+    },
+    {
+     "id": "r11",
+     "days": 24
+    },
+    {
+     "id": "r17",
+     "days": 17
+    },
+    {
+     "id": "r18",
+     "days": 16
+    },
+    {
+     "id": "r23",
+     "days": 21
+    },
+    {
+     "id": "r24",
+     "days": 23
+    },
+    {
+     "id": "r27",
+     "days": 19
+    },
+    {
+     "id": "r28",
+     "days": 1,
+     "by": "boat"
+    },
+    {
+     "id": "r29",
+     "days": 12
+    },
+    {
+     "id": "r31",
+     "days": 18
+    }
+   ],
+   "polygon": [
+    [
+     599,
+     344
+    ],
+    [
+     560,
+     330
+    ],
+    [
+     520,
+     390
+    ],
+    [
+     340,
+     391
+    ],
+    [
+     350,
+     470
+    ],
+    [
+     380,
+     500
+    ],
+    [
+     380,
+     574
+    ],
+    [
+     346,
+     575
+    ],
+    [
+     346,
+     601
+    ],
+    [
+     469,
+     612
+    ],
+    [
+     471,
+     606
+    ],
+    [
+     544,
+     606
+    ],
+    [
+     546,
+     640
+    ],
+    [
+     645,
+     639
+    ],
+    [
+     644,
+     612
+    ],
+    [
+     600,
+     611
+    ],
+    [
+     611,
+     582
+    ],
+    [
+     623,
+     565
+    ],
+    [
+     622,
+     563
+    ],
+    [
+     614,
+     570
+    ],
+    [
+     597,
+     580
+    ],
+    [
+     562,
+     592
+    ],
+    [
+     527,
+     597
+    ],
+    [
+     498,
+     597
+    ],
+    [
+     479,
+     595
+    ],
+    [
+     455,
+     590
+    ],
+    [
+     437,
+     584
+    ],
+    [
+     417,
+     574
+    ],
+    [
+     407,
+     567
+    ],
+    [
+     395,
+     555
+    ],
+    [
+     387,
+     541
+    ],
+    [
+     385,
+     533
+    ],
+    [
+     386,
+     517
+    ],
+    [
+     395,
+     500
+    ],
+    [
+     411,
+     485
+    ],
+    [
+     437,
+     471
+    ],
+    [
+     463,
+     463
+    ],
+    [
+     487,
+     459
+    ],
+    [
+     538,
+     459
+    ],
+    [
+     562,
+     463
+    ],
+    [
+     588,
+     471
+    ],
+    [
+     618,
+     488
+    ],
+    [
+     630,
+     500
+    ],
+    [
+     636,
+     510
+    ],
+    [
+     637,
+     505
+    ],
+    [
+     630,
+     441
+    ],
+    [
+     640,
+     439
+    ],
+    [
+     640,
+     400
+    ],
+    [
+     600,
+     384
+    ]
+   ],
+   "notes": "Held by Dunmarrow as far as the lake basin; grazing and scattered farms."
+  },
+  {
+   "id": "r01",
+   "name": "The Hoarfells",
+   "terrain": "mountain, the western half of the snow range, falling to moor in the north-west",
+   "elevation": "high, 3,000 to 9,000 feet",
+   "water": "snowmelt streams; the head of the Lorn",
+   "climate": "cold; snow most of the year on the tops",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 29
+    },
+    {
+     "id": "r06",
+     "days": 15
+    },
+    {
+     "id": "r07",
+     "days": 20
+    },
+    {
+     "id": "r41",
+     "days": 5,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     142,
+     78
+    ],
+    [
+     149,
+     129
+    ],
+    [
+     191,
+     171
+    ],
+    [
+     251,
+     201
+    ],
+    [
+     326,
+     215
+    ],
+    [
+     336,
+     215
+    ],
+    [
+     400,
+     205
+    ],
+    [
+     399,
+     65
+    ],
+    [
+     388,
+     68
+    ],
+    [
+     380,
+     64
+    ],
+    [
+     371,
+     68
+    ],
+    [
+     362,
+     69
+    ],
+    [
+     349,
+     65
+    ],
+    [
+     339,
+     66
+    ],
+    [
+     337,
+     64
+    ],
+    [
+     333,
+     64
+    ],
+    [
+     329,
+     66
+    ],
+    [
+     323,
+     60
+    ],
+    [
+     315,
+     60
+    ],
+    [
+     300,
+     68
+    ],
+    [
+     290,
+     69
+    ],
+    [
+     285,
+     67
+    ],
+    [
+     268,
+     67
+    ],
+    [
+     266,
+     65
+    ],
+    [
+     264,
+     66
+    ],
+    [
+     260,
+     62
+    ],
+    [
+     253,
+     66
+    ],
+    [
+     247,
+     59
+    ],
+    [
+     240,
+     62
+    ],
+    [
+     232,
+     58
+    ],
+    [
+     226,
+     60
+    ],
+    [
+     219,
+     66
+    ],
+    [
+     215,
+     62
+    ],
+    [
+     209,
+     68
+    ],
+    [
+     212,
+     71
+    ],
+    [
+     210,
+     73
+    ],
+    [
+     201,
+     70
+    ],
+    [
+     198,
+     73
+    ],
+    [
+     200,
+     75
+    ],
+    [
+     198,
+     77
+    ],
+    [
+     182,
+     82
+    ],
+    [
+     174,
+     88
+    ],
+    [
+     170,
+     85
+    ],
+    [
+     165,
+     87
+    ],
+    [
+     158,
+     84
+    ],
+    [
+     151,
+     84
+    ],
+    [
+     144,
+     77
+    ]
+   ],
+   "notes": "Empty high country. No people holds it. Herders in summer on the south slopes."
+  },
+  {
+   "id": "r02",
+   "name": "Ternstrand",
+   "terrain": "mountain, snow-holding high ground cut by short steep valleys that run north to a cold coast",
+   "elevation": "high, sea level to 9,000 feet",
+   "water": "the Tern and other short cold rivers; a small lake in the long valley",
+   "climate": "cold; valleys close in winter, the coast grey and windy",
+   "neighbors": [
+    {
+     "id": "r01",
+     "days": 29
+    },
+    {
+     "id": "r03",
+     "days": 28
+    },
+    {
+     "id": "r04",
+     "days": 29
+    },
+    {
+     "id": "r07",
+     "days": 17
+    },
+    {
+     "id": "r41",
+     "days": 2,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     403,
+     61
+    ],
+    [
+     399,
+     65
+    ],
+    [
+     399,
+     204
+    ],
+    [
+     401,
+     206
+    ],
+    [
+     539,
+     215
+    ],
+    [
+     541,
+     259
+    ],
+    [
+     601,
+     204
+    ],
+    [
+     650,
+     135
+    ],
+    [
+     649,
+     56
+    ],
+    [
+     644,
+     59
+    ],
+    [
+     641,
+     57
+    ],
+    [
+     634,
+     60
+    ],
+    [
+     623,
+     58
+    ],
+    [
+     617,
+     63
+    ],
+    [
+     597,
+     70
+    ],
+    [
+     589,
+     69
+    ],
+    [
+     585,
+     66
+    ],
+    [
+     576,
+     65
+    ],
+    [
+     571,
+     62
+    ],
+    [
+     563,
+     62
+    ],
+    [
+     554,
+     57
+    ],
+    [
+     547,
+     58
+    ],
+    [
+     541,
+     52
+    ],
+    [
+     527,
+     54
+    ],
+    [
+     519,
+     49
+    ],
+    [
+     515,
+     49
+    ],
+    [
+     505,
+     57
+    ],
+    [
+     496,
+     56
+    ],
+    [
+     494,
+     54
+    ],
+    [
+     487,
+     57
+    ],
+    [
+     480,
+     54
+    ],
+    [
+     466,
+     54
+    ],
+    [
+     455,
+     58
+    ],
+    [
+     443,
+     55
+    ],
+    [
+     440,
+     57
+    ],
+    [
+     435,
+     57
+    ],
+    [
+     432,
+     55
+    ],
+    [
+     427,
+     59
+    ],
+    [
+     414,
+     57
+    ],
+    [
+     406,
+     63
+    ]
+   ],
+   "notes": "The country of the people god-ice comes to. The valleys are data finer than the paint."
+  },
+  {
+   "id": "r03",
+   "name": "Skarness",
+   "terrain": "coast, cold ochre hills and headlands east of the snow range",
+   "elevation": "low to middling, sea level to 2,000 feet",
+   "water": "short streams; no great river",
+   "climate": "cold; long winter, sea fog",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 28
+    },
+    {
+     "id": "r04",
+     "days": 14
+    },
+    {
+     "id": "r30",
+     "days": 15
+    },
+    {
+     "id": "r41",
+     "days": 7,
+     "by": "boat"
+    },
+    {
+     "id": "r42",
+     "days": 8,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     649,
+     57
+    ],
+    [
+     649,
+     134
+    ],
+    [
+     651,
+     136
+    ],
+    [
+     800,
+     150
+    ],
+    [
+     840,
+     200
+    ],
+    [
+     978,
+     200
+    ],
+    [
+     984,
+     196
+    ],
+    [
+     983,
+     188
+    ],
+    [
+     980,
+     185
+    ],
+    [
+     969,
+     179
+    ],
+    [
+     957,
+     178
+    ],
+    [
+     951,
+     174
+    ],
+    [
+     955,
+     170
+    ],
+    [
+     954,
+     166
+    ],
+    [
+     962,
+     161
+    ],
+    [
+     960,
+     156
+    ],
+    [
+     963,
+     152
+    ],
+    [
+     964,
+     145
+    ],
+    [
+     962,
+     143
+    ],
+    [
+     964,
+     141
+    ],
+    [
+     966,
+     143
+    ],
+    [
+     969,
+     140
+    ],
+    [
+     973,
+     142
+    ],
+    [
+     977,
+     138
+    ],
+    [
+     970,
+     131
+    ],
+    [
+     974,
+     127
+    ],
+    [
+     969,
+     123
+    ],
+    [
+     966,
+     125
+    ],
+    [
+     961,
+     122
+    ],
+    [
+     972,
+     111
+    ],
+    [
+     961,
+     105
+    ],
+    [
+     954,
+     106
+    ],
+    [
+     952,
+     104
+    ],
+    [
+     953,
+     102
+    ],
+    [
+     949,
+     98
+    ],
+    [
+     943,
+     97
+    ],
+    [
+     935,
+     86
+    ],
+    [
+     921,
+     86
+    ],
+    [
+     910,
+     90
+    ],
+    [
+     903,
+     90
+    ],
+    [
+     901,
+     88
+    ],
+    [
+     907,
+     84
+    ],
+    [
+     906,
+     79
+    ],
+    [
+     902,
+     75
+    ],
+    [
+     896,
+     74
+    ],
+    [
+     885,
+     68
+    ],
+    [
+     880,
+     68
+    ],
+    [
+     870,
+     73
+    ],
+    [
+     866,
+     69
+    ],
+    [
+     862,
+     72
+    ],
+    [
+     858,
+     71
+    ],
+    [
+     853,
+     66
+    ],
+    [
+     850,
+     69
+    ],
+    [
+     843,
+     67
+    ],
+    [
+     834,
+     68
+    ],
+    [
+     827,
+     67
+    ],
+    [
+     821,
+     63
+    ],
+    [
+     816,
+     64
+    ],
+    [
+     804,
+     72
+    ],
+    [
+     786,
+     71
+    ],
+    [
+     782,
+     74
+    ],
+    [
+     776,
+     68
+    ],
+    [
+     773,
+     68
+    ],
+    [
+     767,
+     63
+    ],
+    [
+     751,
+     66
+    ],
+    [
+     745,
+     60
+    ],
+    [
+     741,
+     60
+    ],
+    [
+     732,
+     53
+    ],
+    [
+     728,
+     56
+    ],
+    [
+     710,
+     61
+    ],
+    [
+     708,
+     63
+    ],
+    [
+     697,
+     62
+    ],
+    [
+     695,
+     64
+    ],
+    [
+     678,
+     63
+    ],
+    [
+     668,
+     57
+    ],
+    [
+     661,
+     59
+    ],
+    [
+     651,
+     55
+    ]
+   ],
+   "notes": "Open country: fishers and sealers in scattered steadings."
+  },
+  {
+   "id": "r04",
+   "name": "The Harlfells",
+   "terrain": "mountain, the highest range of the land, with notched passes",
+   "elevation": "very high, 4,000 to 12,000 feet",
+   "water": "snowmelt; Dath Water; streams south-west to the lake country",
+   "climate": "cold; passes shut from first snow to the thaw",
+   "neighbors": [
+    {
+     "id": "r02",
+     "days": 29
+    },
+    {
+     "id": "r03",
+     "days": 14
+    },
+    {
+     "id": "r05",
+     "days": 4
+    },
+    {
+     "id": "r07",
+     "days": 27
+    },
+    {
+     "id": "r09",
+     "days": 29
+    },
+    {
+     "id": "r27",
+     "days": 12
+    },
+    {
+     "id": "r30",
+     "days": 20
+    }
+   ],
+   "polygon": [
+    [
+     540,
+     259
+    ],
+    [
+     560,
+     330
+    ],
+    [
+     597,
+     345
+    ],
+    [
+     871,
+     345
+    ],
+    [
+     900,
+     330
+    ],
+    [
+     900,
+     230
+    ],
+    [
+     842,
+     201
+    ],
+    [
+     800,
+     149
+    ],
+    [
+     650,
+     134
+    ],
+    [
+     600,
+     204
+    ]
+   ],
+   "notes": "The deepest old stone in the land. Sealed doors in its roots."
+  },
+  {
+   "id": "r30",
+   "name": "Garran Lee",
+   "terrain": "coast, dry ochre hills in the lee of the high range, running to the eastern sea",
+   "elevation": "low to middling, sea level to 2,500 feet",
+   "water": "few streams, dry in late summer",
+   "climate": "cool and dry; in the rain shadow of the range",
+   "neighbors": [
+    {
+     "id": "r03",
+     "days": 15
+    },
+    {
+     "id": "r04",
+     "days": 20
+    },
+    {
+     "id": "r24",
+     "days": 20
+    },
+    {
+     "id": "r26",
+     "days": 16
+    },
+    {
+     "id": "r27",
+     "days": 14
+    },
+    {
+     "id": "r42",
+     "days": 4,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     840,
+     199
+    ],
+    [
+     840,
+     201
+    ],
+    [
+     899,
+     231
+    ],
+    [
+     899,
+     329
+    ],
+    [
+     871,
+     344
+    ],
+    [
+     900,
+     346
+    ],
+    [
+     890,
+     399
+    ],
+    [
+     983,
+     400
+    ],
+    [
+     982,
+     392
+    ],
+    [
+     987,
+     387
+    ],
+    [
+     987,
+     382
+    ],
+    [
+     990,
+     379
+    ],
+    [
+     993,
+     379
+    ],
+    [
+     1000,
+     369
+    ],
+    [
+     992,
+     362
+    ],
+    [
+     996,
+     357
+    ],
+    [
+     993,
+     351
+    ],
+    [
+     983,
+     343
+    ],
+    [
+     984,
+     341
+    ],
+    [
+     982,
+     338
+    ],
+    [
+     986,
+     333
+    ],
+    [
+     988,
+     334
+    ],
+    [
+     991,
+     332
+    ],
+    [
+     993,
+     334
+    ],
+    [
+     996,
+     331
+    ],
+    [
+     990,
+     324
+    ],
+    [
+     982,
+     330
+    ],
+    [
+     978,
+     327
+    ],
+    [
+     976,
+     321
+    ],
+    [
+     980,
+     319
+    ],
+    [
+     985,
+     312
+    ],
+    [
+     971,
+     298
+    ],
+    [
+     978,
+     295
+    ],
+    [
+     985,
+     286
+    ],
+    [
+     988,
+     287
+    ],
+    [
+     991,
+     284
+    ],
+    [
+     988,
+     281
+    ],
+    [
+     992,
+     277
+    ],
+    [
+     985,
+     270
+    ],
+    [
+     987,
+     268
+    ],
+    [
+     985,
+     265
+    ],
+    [
+     989,
+     261
+    ],
+    [
+     986,
+     255
+    ],
+    [
+     994,
+     246
+    ],
+    [
+     987,
+     240
+    ],
+    [
+     985,
+     241
+    ],
+    [
+     982,
+     238
+    ],
+    [
+     983,
+     236
+    ],
+    [
+     978,
+     231
+    ],
+    [
+     977,
+     232
+    ],
+    [
+     974,
+     229
+    ],
+    [
+     972,
+     230
+    ],
+    [
+     969,
+     227
+    ],
+    [
+     973,
+     221
+    ],
+    [
+     971,
+     219
+    ],
+    [
+     974,
+     215
+    ],
+    [
+     967,
+     211
+    ],
+    [
+     969,
+     209
+    ],
+    [
+     971,
+     210
+    ],
+    [
+     978,
+     200
+    ]
+   ],
+   "notes": "Open country: goat herders, a few fishing coves."
+  },
+  {
+   "id": "r27",
+   "name": "The Harrow Roughs",
+   "terrain": "hill, rough dry foothills between the high range and the great forest",
+   "elevation": "middling, 1,500 to 3,500 feet",
+   "water": "thin streams running south into the forest",
+   "climate": "cool and dry; hard winter",
+   "neighbors": [
+    {
+     "id": "r04",
+     "days": 12
+    },
+    {
+     "id": "r09",
+     "days": 19
+    },
+    {
+     "id": "r24",
+     "days": 9
+    },
+    {
+     "id": "r30",
+     "days": 14
+    }
+   ],
+   "polygon": [
+    [
+     599,
+     385
+    ],
+    [
+     637,
+     400
+    ],
+    [
+     640,
+     399
+    ],
+    [
+     641,
+     395
+    ],
+    [
+     889,
+     395
+    ],
+    [
+     891,
+     398
+    ],
+    [
+     901,
+     345
+    ],
+    [
+     600,
+     344
+    ]
+   ],
+   "notes": "Open country, no rule: scattered hill steadings and charcoal burners."
+  },
+  {
+   "id": "r05",
+   "name": "Kessmar Vale",
+   "terrain": "valley, one broad basin cupped in the high range, most of its floor a lake",
+   "elevation": "high, the floor about 4,000 feet",
+   "water": "Lake Arrun fills the floor; Dath Water comes in from the north",
+   "climate": "cold; short summer, the lean season is spring",
+   "neighbors": [
+    {
+     "id": "r04",
+     "days": 4
+    }
+   ],
+   "polygon": [
+    [
+     654,
+     240
+    ],
+    [
+     654,
+     300
+    ],
+    [
+     680,
+     336
+    ],
+    [
+     790,
+     336
+    ],
+    [
+     816,
+     300
+    ],
+    [
+     800,
+     239
+    ]
+   ],
+   "notes": "The country of the Dathri. Terraces on the slopes above the lake shore; two notches in the south wall."
+  },
+  {
+   "id": "r06",
+   "name": "The Lornlands",
+   "terrain": "plain, flat green lowland of wide slow rivers, with low hills at its edges",
+   "elevation": "low, sea level to 400 feet",
+   "water": "the Lorn and the Odran, wide and slow; floods in spring",
+   "climate": "cool temperate; wet springs, long autumns",
+   "neighbors": [
+    {
+     "id": "r01",
+     "days": 15
+    },
+    {
+     "id": "r07",
+     "days": 19
+    },
+    {
+     "id": "r08",
+     "days": 12
+    },
+    {
+     "id": "r41",
+     "days": 8,
+     "by": "boat"
+    },
+    {
+     "id": "r44",
+     "days": 6,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     68,
+     106
+    ],
+    [
+     62,
+     113
+    ],
+    [
+     70,
+     124
+    ],
+    [
+     66,
+     126
+    ],
+    [
+     62,
+     123
+    ],
+    [
+     57,
+     132
+    ],
+    [
+     50,
+     133
+    ],
+    [
+     40,
+     144
+    ],
+    [
+     44,
+     148
+    ],
+    [
+     49,
+     148
+    ],
+    [
+     51,
+     150
+    ],
+    [
+     50,
+     154
+    ],
+    [
+     59,
+     167
+    ],
+    [
+     43,
+     175
+    ],
+    [
+     40,
+     178
+    ],
+    [
+     38,
+     185
+    ],
+    [
+     53,
+     199
+    ],
+    [
+     54,
+     198
+    ],
+    [
+     64,
+     203
+    ],
+    [
+     75,
+     200
+    ],
+    [
+     80,
+     206
+    ],
+    [
+     82,
+     204
+    ],
+    [
+     87,
+     207
+    ],
+    [
+     83,
+     211
+    ],
+    [
+     67,
+     216
+    ],
+    [
+     61,
+     223
+    ],
+    [
+     51,
+     223
+    ],
+    [
+     43,
+     227
+    ],
+    [
+     30,
+     240
+    ],
+    [
+     40,
+     249
+    ],
+    [
+     51,
+     250
+    ],
+    [
+     59,
+     253
+    ],
+    [
+     63,
+     260
+    ],
+    [
+     55,
+     268
+    ],
+    [
+     55,
+     271
+    ],
+    [
+     60,
+     275
+    ],
+    [
+     69,
+     275
+    ],
+    [
+     74,
+     279
+    ],
+    [
+     79,
+     279
+    ],
+    [
+     83,
+     285
+    ],
+    [
+     80,
+     288
+    ],
+    [
+     76,
+     287
+    ],
+    [
+     69,
+     290
+    ],
+    [
+     63,
+     290
+    ],
+    [
+     59,
+     294
+    ],
+    [
+     60,
+     297
+    ],
+    [
+     58,
+     299
+    ],
+    [
+     47,
+     300
+    ],
+    [
+     40,
+     310
+    ],
+    [
+     37,
+     308
+    ],
+    [
+     32,
+     315
+    ],
+    [
+     33,
+     320
+    ],
+    [
+     37,
+     324
+    ],
+    [
+     40,
+     323
+    ],
+    [
+     51,
+     325
+    ],
+    [
+     54,
+     322
+    ],
+    [
+     57,
+     324
+    ],
+    [
+     57,
+     327
+    ],
+    [
+     51,
+     332
+    ],
+    [
+     51,
+     335
+    ],
+    [
+     59,
+     341
+    ],
+    [
+     57,
+     345
+    ],
+    [
+     51,
+     347
+    ],
+    [
+     43,
+     353
+    ],
+    [
+     37,
+     362
+    ],
+    [
+     40,
+     365
+    ],
+    [
+     309,
+     365
+    ],
+    [
+     340,
+     301
+    ],
+    [
+     330,
+     215
+    ],
+    [
+     251,
+     200
+    ],
+    [
+     191,
+     170
+    ],
+    [
+     150,
+     129
+    ],
+    [
+     142,
+     77
+    ],
+    [
+     137,
+     77
+    ],
+    [
+     124,
+     82
+    ],
+    [
+     115,
+     81
+    ],
+    [
+     111,
+     86
+    ],
+    [
+     116,
+     91
+    ],
+    [
+     109,
+     99
+    ],
+    [
+     96,
+     100
+    ],
+    [
+     92,
+     96
+    ],
+    [
+     88,
+     102
+    ],
+    [
+     83,
+     100
+    ],
+    [
+     78,
+     107
+    ],
+    [
+     71,
+     108
+    ]
+   ],
+   "notes": "Towns at the crossings. The western part is the country of the people god-law comes to; the eastern crossings are Dunmarrow."
+  },
+  {
+   "id": "r07",
+   "name": "Dunmarrow",
+   "terrain": "plain, the wide grass and plough land of the old inland kingdom",
+   "elevation": "low, 300 to 800 feet",
+   "water": "the upper Lorn; wells; a brine spring country",
+   "climate": "cool temperate; hard winters, dry summers",
+   "neighbors": [
+    {
+     "id": "r01",
+     "days": 20
+    },
+    {
+     "id": "r02",
+     "days": 17
+    },
+    {
+     "id": "r04",
+     "days": 27
+    },
+    {
+     "id": "r06",
+     "days": 19
+    },
+    {
+     "id": "r08",
+     "days": 20
+    },
+    {
+     "id": "r09",
+     "days": 13
+    }
+   ],
+   "polygon": [
+    [
+     329,
+     215
+    ],
+    [
+     339,
+     301
+    ],
+    [
+     309,
+     364
+    ],
+    [
+     341,
+     391
+    ],
+    [
+     520,
+     391
+    ],
+    [
+     561,
+     330
+    ],
+    [
+     541,
+     261
+    ],
+    [
+     540,
+     214
+    ],
+    [
+     400,
+     204
+    ]
+   ],
+   "notes": "The heart of the kingdom of Dunmarrow, old and wearing."
+  },
+  {
+   "id": "r08",
+   "name": "The Carn Hills",
+   "terrain": "hill, a long ridge of worn brown hills with woods on their northern feet",
+   "elevation": "middling, 800 to 2,500 feet",
+   "water": "small streams north to the Odran and south to the Carn",
+   "climate": "cool temperate; snow on the tops in winter",
+   "neighbors": [
+    {
+     "id": "r06",
+     "days": 12
+    },
+    {
+     "id": "r07",
+     "days": 20
+    },
+    {
+     "id": "r09",
+     "days": 22
+    },
+    {
+     "id": "r10",
+     "days": 8
+    },
+    {
+     "id": "r44",
+     "days": 4,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     17,
+     396
+    ],
+    [
+     21,
+     402
+    ],
+    [
+     18,
+     409
+    ],
+    [
+     27,
+     417
+    ],
+    [
+     26,
+     420
+    ],
+    [
+     29,
+     423
+    ],
+    [
+     36,
+     426
+    ],
+    [
+     40,
+     424
+    ],
+    [
+     50,
+     424
+    ],
+    [
+     52,
+     426
+    ],
+    [
+     50,
+     433
+    ],
+    [
+     54,
+     437
+    ],
+    [
+     59,
+     437
+    ],
+    [
+     61,
+     439
+    ],
+    [
+     57,
+     442
+    ],
+    [
+     49,
+     442
+    ],
+    [
+     44,
+     438
+    ],
+    [
+     37,
+     445
+    ],
+    [
+     36,
+     450
+    ],
+    [
+     32,
+     455
+    ],
+    [
+     25,
+     460
+    ],
+    [
+     26,
+     466
+    ],
+    [
+     24,
+     468
+    ],
+    [
+     27,
+     471
+    ],
+    [
+     30,
+     468
+    ],
+    [
+     32,
+     470
+    ],
+    [
+     351,
+     469
+    ],
+    [
+     341,
+     390
+    ],
+    [
+     310,
+     364
+    ],
+    [
+     41,
+     364
+    ],
+    [
+     40,
+     365
+    ],
+    [
+     50,
+     372
+    ],
+    [
+     43,
+     376
+    ],
+    [
+     34,
+     378
+    ],
+    [
+     31,
+     381
+    ],
+    [
+     33,
+     383
+    ],
+    [
+     31,
+     386
+    ],
+    [
+     28,
+     383
+    ],
+    [
+     23,
+     385
+    ],
+    [
+     19,
+     389
+    ],
+    [
+     20,
+     392
+    ]
+   ],
+   "notes": "Open country between the kingdom and the western river: shepherds, old ways, one sealed door."
+  },
+  {
+   "id": "r10",
+   "name": "Carnvale",
+   "terrain": "valley, the wide vale of the western river between low hills",
+   "elevation": "low, sea level to 500 feet",
+   "water": "the Carn, wide water, the great lake's outflow",
+   "climate": "mild temperate; rain off the western sea",
+   "neighbors": [
+    {
+     "id": "r08",
+     "days": 8
+    },
+    {
+     "id": "r09",
+     "days": 21
+    },
+    {
+     "id": "r11",
+     "days": 9
+    },
+    {
+     "id": "r44",
+     "days": 4,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     22,
+     482
+    ],
+    [
+     30,
+     490
+    ],
+    [
+     36,
+     491
+    ],
+    [
+     39,
+     495
+    ],
+    [
+     38,
+     497
+    ],
+    [
+     43,
+     502
+    ],
+    [
+     41,
+     504
+    ],
+    [
+     34,
+     505
+    ],
+    [
+     28,
+     511
+    ],
+    [
+     24,
+     512
+    ],
+    [
+     21,
+     517
+    ],
+    [
+     24,
+     520
+    ],
+    [
+     27,
+     519
+    ],
+    [
+     32,
+     524
+    ],
+    [
+     40,
+     527
+    ],
+    [
+     46,
+     533
+    ],
+    [
+     55,
+     537
+    ],
+    [
+     59,
+     536
+    ],
+    [
+     61,
+     538
+    ],
+    [
+     59,
+     540
+    ],
+    [
+     55,
+     539
+    ],
+    [
+     47,
+     545
+    ],
+    [
+     44,
+     543
+    ],
+    [
+     41,
+     546
+    ],
+    [
+     42,
+     547
+    ],
+    [
+     38,
+     552
+    ],
+    [
+     43,
+     558
+    ],
+    [
+     41,
+     561
+    ],
+    [
+     42,
+     562
+    ],
+    [
+     33,
+     567
+    ],
+    [
+     37,
+     572
+    ],
+    [
+     37,
+     575
+    ],
+    [
+     381,
+     575
+    ],
+    [
+     381,
+     500
+    ],
+    [
+     350,
+     469
+    ],
+    [
+     33,
+     469
+    ]
+   ],
+   "notes": "The country of the people god-trade comes to, at the ford; open steadings up and down the river."
+  },
+  {
+   "id": "r29",
+   "name": "Heshshore",
+   "terrain": "plain, the meadow shore east and south-east of the great lake, between the water and the forest",
+   "elevation": "low, about 300 feet",
+   "water": "the lake; reed beds; streams from every side",
+   "climate": "mild for the land; the lake does not freeze",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 12
+    },
+    {
+     "id": "r24",
+     "days": 12
+    },
+    {
+     "id": "r25",
+     "days": 13
+    },
+    {
+     "id": "r28",
+     "days": 3,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     639,
+     439
+    ],
+    [
+     629,
+     440
+    ],
+    [
+     635,
+     504
+    ],
+    [
+     640,
+     522
+    ],
+    [
+     639,
+     538
+    ],
+    [
+     630,
+     555
+    ],
+    [
+     622,
+     563
+    ],
+    [
+     612,
+     578
+    ],
+    [
+     599,
+     611
+    ],
+    [
+     600,
+     613
+    ],
+    [
+     644,
+     613
+    ],
+    [
+     646,
+     609
+    ],
+    [
+     655,
+     556
+    ],
+    [
+     699,
+     554
+    ],
+    [
+     661,
+     502
+    ]
+   ],
+   "notes": "The shore people live here in a few villages. Quiet, thinning country."
+  },
+  {
+   "id": "r11",
+   "name": "Heatherfell",
+   "terrain": "highland, brown heather upland with woods in its folds",
+   "elevation": "middling to high, 1,000 to 3,000 feet",
+   "water": "peat streams; the head of the Withy",
+   "climate": "mild and wet; wind and rain off the sea",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 24
+    },
+    {
+     "id": "r10",
+     "days": 9
+    },
+    {
+     "id": "r12",
+     "days": 10
+    },
+    {
+     "id": "r13",
+     "days": 9
+    },
+    {
+     "id": "r15",
+     "days": 16
+    },
+    {
+     "id": "r17",
+     "days": 14
+    },
+    {
+     "id": "r44",
+     "days": 5,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     35,
+     575
+    ],
+    [
+     40,
+     588
+    ],
+    [
+     46,
+     594
+    ],
+    [
+     41,
+     597
+    ],
+    [
+     36,
+     594
+    ],
+    [
+     30,
+     598
+    ],
+    [
+     29,
+     597
+    ],
+    [
+     26,
+     600
+    ],
+    [
+     28,
+     602
+    ],
+    [
+     22,
+     607
+    ],
+    [
+     21,
+     611
+    ],
+    [
+     17,
+     615
+    ],
+    [
+     21,
+     619
+    ],
+    [
+     21,
+     626
+    ],
+    [
+     26,
+     633
+    ],
+    [
+     29,
+     633
+    ],
+    [
+     33,
+     629
+    ],
+    [
+     36,
+     632
+    ],
+    [
+     34,
+     634
+    ],
+    [
+     37,
+     640
+    ],
+    [
+     60,
+     640
+    ],
+    [
+     219,
+     700
+    ],
+    [
+     222,
+     707
+    ],
+    [
+     233,
+     757
+    ],
+    [
+     262,
+     758
+    ],
+    [
+     297,
+     768
+    ],
+    [
+     300,
+     767
+    ],
+    [
+     301,
+     761
+    ],
+    [
+     325,
+     765
+    ],
+    [
+     330,
+     764
+    ],
+    [
+     345,
+     692
+    ],
+    [
+     345,
+     574
+    ]
+   ],
+   "notes": "Open country: summer grazing, a few steadings. The northern wall of the Withy valley."
+  },
+  {
+   "id": "r13",
+   "name": "Withyhead",
+   "terrain": "valley, the upper valley of the Withy with its lake and woods",
+   "elevation": "low to middling, 300 to 1,200 feet",
+   "water": "the upper Withy; the Withymere",
+   "climate": "mild and wet",
+   "neighbors": [
+    {
+     "id": "r11",
+     "days": 9
+    },
+    {
+     "id": "r12",
+     "days": 11
+    },
+    {
+     "id": "r14",
+     "days": 11
+    },
+    {
+     "id": "r44",
+     "days": 5,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     36,
+     640
+    ],
+    [
+     43,
+     648
+    ],
+    [
+     50,
+     652
+    ],
+    [
+     48,
+     654
+    ],
+    [
+     52,
+     658
+    ],
+    [
+     57,
+     654
+    ],
+    [
+     67,
+     660
+    ],
+    [
+     65,
+     663
+    ],
+    [
+     57,
+     664
+    ],
+    [
+     53,
+     667
+    ],
+    [
+     45,
+     669
+    ],
+    [
+     37,
+     677
+    ],
+    [
+     41,
+     682
+    ],
+    [
+     36,
+     686
+    ],
+    [
+     29,
+     682
+    ],
+    [
+     24,
+     687
+    ],
+    [
+     25,
+     690
+    ],
+    [
+     22,
+     694
+    ],
+    [
+     28,
+     700
+    ],
+    [
+     25,
+     704
+    ],
+    [
+     27,
+     711
+    ],
+    [
+     30,
+     714
+    ],
+    [
+     34,
+     712
+    ],
+    [
+     41,
+     716
+    ],
+    [
+     38,
+     720
+    ],
+    [
+     41,
+     726
+    ],
+    [
+     37,
+     730
+    ],
+    [
+     33,
+     727
+    ],
+    [
+     26,
+     736
+    ],
+    [
+     24,
+     735
+    ],
+    [
+     18,
+     741
+    ],
+    [
+     19,
+     747
+    ],
+    [
+     24,
+     752
+    ],
+    [
+     29,
+     752
+    ],
+    [
+     34,
+     758
+    ],
+    [
+     33,
+     761
+    ],
+    [
+     45,
+     775
+    ],
+    [
+     48,
+     773
+    ],
+    [
+     51,
+     775
+    ],
+    [
+     55,
+     774
+    ],
+    [
+     62,
+     779
+    ],
+    [
+     68,
+     774
+    ],
+    [
+     71,
+     778
+    ],
+    [
+     71,
+     782
+    ],
+    [
+     184,
+     800
+    ],
+    [
+     193,
+     800
+    ],
+    [
+     226,
+     790
+    ],
+    [
+     226,
+     758
+    ],
+    [
+     232,
+     757
+    ],
+    [
+     233,
+     753
+    ],
+    [
+     220,
+     699
+    ],
+    [
+     60,
+     639
+    ]
+   ],
+   "notes": "Open country: woodcutters and a few farms. The track from the ford country comes down here."
+  },
+  {
+   "id": "r14",
+   "name": "Stonnerfell",
+   "terrain": "highland, heather upland and old woods south of the Withy, running to the south-west coast",
+   "elevation": "middling, 800 to 2,800 feet",
+   "water": "peat streams to the Withy and the sea",
+   "climate": "mild and wet",
+   "neighbors": [
+    {
+     "id": "r12",
+     "days": 8
+    },
+    {
+     "id": "r13",
+     "days": 11
+    },
+    {
+     "id": "r15",
+     "days": 11
+    },
+    {
+     "id": "r19",
+     "days": 33
+    },
+    {
+     "id": "r43",
+     "days": 7,
+     "by": "boat"
+    },
+    {
+     "id": "r44",
+     "days": 8,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     34,
+     821
+    ],
+    [
+     34,
+     824
+    ],
+    [
+     41,
+     831
+    ],
+    [
+     49,
+     833
+    ],
+    [
+     58,
+     840
+    ],
+    [
+     57,
+     842
+    ],
+    [
+     60,
+     845
+    ],
+    [
+     62,
+     844
+    ],
+    [
+     64,
+     846
+    ],
+    [
+     55,
+     852
+    ],
+    [
+     48,
+     853
+    ],
+    [
+     43,
+     858
+    ],
+    [
+     48,
+     867
+    ],
+    [
+     56,
+     867
+    ],
+    [
+     58,
+     869
+    ],
+    [
+     63,
+     869
+    ],
+    [
+     66,
+     872
+    ],
+    [
+     66,
+     880
+    ],
+    [
+     75,
+     886
+    ],
+    [
+     73,
+     888
+    ],
+    [
+     74,
+     890
+    ],
+    [
+     68,
+     895
+    ],
+    [
+     71,
+     898
+    ],
+    [
+     78,
+     898
+    ],
+    [
+     82,
+     895
+    ],
+    [
+     85,
+     897
+    ],
+    [
+     96,
+     895
+    ],
+    [
+     104,
+     900
+    ],
+    [
+     116,
+     888
+    ],
+    [
+     123,
+     896
+    ],
+    [
+     125,
+     902
+    ],
+    [
+     124,
+     904
+    ],
+    [
+     130,
+     909
+    ],
+    [
+     125,
+     914
+    ],
+    [
+     128,
+     918
+    ],
+    [
+     141,
+     925
+    ],
+    [
+     144,
+     925
+    ],
+    [
+     147,
+     922
+    ],
+    [
+     152,
+     923
+    ],
+    [
+     156,
+     927
+    ],
+    [
+     163,
+     925
+    ],
+    [
+     165,
+     930
+    ],
+    [
+     171,
+     936
+    ],
+    [
+     178,
+     933
+    ],
+    [
+     187,
+     937
+    ],
+    [
+     191,
+     931
+    ],
+    [
+     207,
+     939
+    ],
+    [
+     210,
+     936
+    ],
+    [
+     203,
+     931
+    ],
+    [
+     205,
+     929
+    ],
+    [
+     209,
+     929
+    ],
+    [
+     211,
+     927
+    ],
+    [
+     214,
+     930
+    ],
+    [
+     223,
+     929
+    ],
+    [
+     230,
+     924
+    ],
+    [
+     235,
+     925
+    ],
+    [
+     243,
+     923
+    ],
+    [
+     247,
+     919
+    ],
+    [
+     247,
+     915
+    ],
+    [
+     243,
+     907
+    ],
+    [
+     245,
+     905
+    ],
+    [
+     247,
+     907
+    ],
+    [
+     250,
+     904
+    ],
+    [
+     255,
+     907
+    ],
+    [
+     259,
+     904
+    ],
+    [
+     263,
+     907
+    ],
+    [
+     259,
+     910
+    ],
+    [
+     255,
+     909
+    ],
+    [
+     251,
+     915
+    ],
+    [
+     255,
+     919
+    ],
+    [
+     257,
+     918
+    ],
+    [
+     266,
+     929
+    ],
+    [
+     273,
+     925
+    ],
+    [
+     275,
+     927
+    ],
+    [
+     272,
+     933
+    ],
+    [
+     275,
+     936
+    ],
+    [
+     286,
+     929
+    ],
+    [
+     288,
+     931
+    ],
+    [
+     291,
+     930
+    ],
+    [
+     295,
+     926
+    ],
+    [
+     293,
+     924
+    ],
+    [
+     295,
+     922
+    ],
+    [
+     297,
+     924
+    ],
+    [
+     305,
+     925
+    ],
+    [
+     314,
+     931
+    ],
+    [
+     318,
+     929
+    ],
+    [
+     323,
+     924
+    ],
+    [
+     325,
+     916
+    ],
+    [
+     322,
+     913
+    ],
+    [
+     316,
+     918
+    ],
+    [
+     313,
+     916
+    ],
+    [
+     316,
+     913
+    ],
+    [
+     315,
+     906
+    ],
+    [
+     317,
+     904
+    ],
+    [
+     319,
+     905
+    ],
+    [
+     325,
+     903
+    ],
+    [
+     327,
+     905
+    ],
+    [
+     334,
+     906
+    ],
+    [
+     337,
+     909
+    ],
+    [
+     345,
+     906
+    ],
+    [
+     351,
+     914
+    ],
+    [
+     358,
+     915
+    ],
+    [
+     361,
+     912
+    ],
+    [
+     360,
+     908
+    ],
+    [
+     362,
+     906
+    ],
+    [
+     366,
+     907
+    ],
+    [
+     374,
+     905
+    ],
+    [
+     381,
+     911
+    ],
+    [
+     384,
+     911
+    ],
+    [
+     390,
+     904
+    ],
+    [
+     389,
+     885
+    ],
+    [
+     334,
+     899
+    ],
+    [
+     329,
+     898
+    ],
+    [
+     311,
+     832
+    ],
+    [
+     301,
+     805
+    ],
+    [
+     262,
+     802
+    ],
+    [
+     228,
+     790
+    ],
+    [
+     222,
+     790
+    ],
+    [
+     193,
+     799
+    ],
+    [
+     184,
+     799
+    ],
+    [
+     121,
+     790
+    ],
+    [
+     70,
+     780
+    ],
+    [
+     65,
+     789
+    ],
+    [
+     57,
+     790
+    ],
+    [
+     54,
+     793
+    ],
+    [
+     57,
+     797
+    ],
+    [
+     56,
+     801
+    ],
+    [
+     58,
+     803
+    ],
+    [
+     55,
+     806
+    ],
+    [
+     50,
+     804
+    ],
+    [
+     46,
+     808
+    ],
+    [
+     43,
+     815
+    ]
+   ],
+   "notes": "Open country. The southern wall of the Withy valley."
+  },
+  {
+   "id": "r12",
+   "name": "Sallowdene",
+   "terrain": "valley, a broad river valley of water meadows, hedged fields, orchards and old woods between two heather uplands",
+   "elevation": "low, 200 to 700 feet",
+   "water": "the Withy, marked by willows; floods on the meadows in spring",
+   "climate": "the mildest country of the land; late wet springs",
+   "neighbors": [
+    {
+     "id": "r11",
+     "days": 10
+    },
+    {
+     "id": "r13",
+     "days": 11
+    },
+    {
+     "id": "r14",
+     "days": 8
+    },
+    {
+     "id": "r15",
+     "days": 7
+    }
+   ],
+   "polygon": [
+    [
+     225,
+     756
+    ],
+    [
+     226,
+     791
+    ],
+    [
+     262,
+     803
+    ],
+    [
+     292,
+     806
+    ],
+    [
+     302,
+     805
+    ],
+    [
+     301,
+     772
+    ],
+    [
+     299,
+     767
+    ],
+    [
+     262,
+     757
+    ]
+   ],
+   "notes": "The home of the Sallowfolk, who call it so. Thirteen hamlets, no town."
+  },
+  {
+   "id": "r15",
+   "name": "Withymouth",
+   "terrain": "valley, the lower Withy and its reedy mouth on the south coast",
+   "elevation": "low, sea level to 300 feet",
+   "water": "the lower Withy; salt marsh at the mouth",
+   "climate": "mild; sea mist",
+   "neighbors": [
+    {
+     "id": "r11",
+     "days": 16
+    },
+    {
+     "id": "r12",
+     "days": 7
+    },
+    {
+     "id": "r14",
+     "days": 11
+    },
+    {
+     "id": "r17",
+     "days": 11
+    },
+    {
+     "id": "r19",
+     "days": 18
+    }
+   ],
+   "polygon": [
+    [
+     300,
+     759
+    ],
+    [
+     299,
+     771
+    ],
+    [
+     301,
+     807
+    ],
+    [
+     310,
+     832
+    ],
+    [
+     330,
+     901
+    ],
+    [
+     389,
+     886
+    ],
+    [
+     390,
+     787
+    ],
+    [
+     329,
+     764
+    ]
+   ],
+   "notes": "Open country: eel fishers, a few farms, no town."
+  },
+  {
+   "id": "r17",
+   "name": "Ellen Heath",
+   "terrain": "highland, high open brown heath, treeless, with old mounds",
+   "elevation": "high, 1,500 to 2,500 feet",
+   "water": "peat pools; few streams",
+   "climate": "windy and cool; snow lies in winter",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 17
+    },
+    {
+     "id": "r11",
+     "days": 14
+    },
+    {
+     "id": "r15",
+     "days": 11
+    },
+    {
+     "id": "r18",
+     "days": 7
+    },
+    {
+     "id": "r19",
+     "days": 20
+    }
+   ],
+   "polygon": [
+    [
+     345,
+     599
+    ],
+    [
+     344,
+     692
+    ],
+    [
+     329,
+     765
+    ],
+    [
+     389,
+     787
+    ],
+    [
+     391,
+     775
+    ],
+    [
+     469,
+     775
+    ],
+    [
+     470,
+     612
+    ]
+   ],
+   "notes": "Open country: almost no one. Old straight ways under the heather."
+  },
+  {
+   "id": "r31",
+   "name": "Sorrel Heath",
+   "terrain": "highland, brown heath east of the long river",
+   "elevation": "high, 1,200 to 2,200 feet",
+   "water": "peat pools; small streams to the Maud",
+   "climate": "windy and cool",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 18
+    },
+    {
+     "id": "r18",
+     "days": 6
+    },
+    {
+     "id": "r19",
+     "days": 17
+    },
+    {
+     "id": "r20",
+     "days": 18
+    },
+    {
+     "id": "r23",
+     "days": 10
+    }
+   ],
+   "polygon": [
+    [
+     546,
+     639
+    ],
+    [
+     545,
+     774
+    ],
+    [
+     644,
+     775
+    ],
+    [
+     645,
+     640
+    ]
+   ],
+   "notes": "Open country: herders from the river in summer."
+  },
+  {
+   "id": "r18",
+   "name": "Maudvale",
+   "terrain": "valley, the long river's middle course, braided, with wet meadows along it",
+   "elevation": "low to middling, 300 to 1,000 feet",
+   "water": "the Maud, rising in springs under the lake's southern rim; many channels; spring floods",
+   "climate": "cool temperate; milder than the heath on either side",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 16
+    },
+    {
+     "id": "r17",
+     "days": 7
+    },
+    {
+     "id": "r19",
+     "days": 17
+    },
+    {
+     "id": "r31",
+     "days": 6
+    }
+   ],
+   "polygon": [
+    [
+     470,
+     605
+    ],
+    [
+     469,
+     774
+    ],
+    [
+     545,
+     775
+    ],
+    [
+     546,
+     606
+    ]
+   ],
+   "notes": "The country of the people god-rivers comes to. The most-worked river in the land: weirs on weirs."
+  },
+  {
+   "id": "r19",
+   "name": "The Maudmire",
+   "terrain": "marsh, the dark wooded marsh of the long river's delta",
+   "elevation": "sea level",
+   "water": "the Maud in many mouths; brackish toward the sea",
+   "climate": "mild and wet; fevers in summer",
+   "neighbors": [
+    {
+     "id": "r14",
+     "days": 33
+    },
+    {
+     "id": "r15",
+     "days": 18
+    },
+    {
+     "id": "r17",
+     "days": 20
+    },
+    {
+     "id": "r18",
+     "days": 17
+    },
+    {
+     "id": "r22",
+     "days": 18
+    },
+    {
+     "id": "r31",
+     "days": 17
+    },
+    {
+     "id": "r43",
+     "days": 2,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     389,
+     775
+    ],
+    [
+     389,
+     903
+    ],
+    [
+     392,
+     905
+    ],
+    [
+     400,
+     905
+    ],
+    [
+     402,
+     910
+    ],
+    [
+     408,
+     916
+    ],
+    [
+     403,
+     923
+    ],
+    [
+     397,
+     922
+    ],
+    [
+     386,
+     932
+    ],
+    [
+     389,
+     935
+    ],
+    [
+     395,
+     934
+    ],
+    [
+     411,
+     939
+    ],
+    [
+     425,
+     927
+    ],
+    [
+     434,
+     927
+    ],
+    [
+     437,
+     929
+    ],
+    [
+     446,
+     928
+    ],
+    [
+     450,
+     932
+    ],
+    [
+     455,
+     929
+    ],
+    [
+     457,
+     931
+    ],
+    [
+     453,
+     937
+    ],
+    [
+     453,
+     940
+    ],
+    [
+     449,
+     944
+    ],
+    [
+     444,
+     943
+    ],
+    [
+     442,
+     941
+    ],
+    [
+     443,
+     938
+    ],
+    [
+     440,
+     935
+    ],
+    [
+     438,
+     936
+    ],
+    [
+     430,
+     933
+    ],
+    [
+     427,
+     935
+    ],
+    [
+     424,
+     933
+    ],
+    [
+     420,
+     937
+    ],
+    [
+     421,
+     944
+    ],
+    [
+     417,
+     949
+    ],
+    [
+     425,
+     954
+    ],
+    [
+     431,
+     946
+    ],
+    [
+     444,
+     956
+    ],
+    [
+     455,
+     955
+    ],
+    [
+     459,
+     957
+    ],
+    [
+     469,
+     946
+    ],
+    [
+     463,
+     940
+    ],
+    [
+     467,
+     935
+    ],
+    [
+     469,
+     937
+    ],
+    [
+     474,
+     935
+    ],
+    [
+     481,
+     939
+    ],
+    [
+     485,
+     936
+    ],
+    [
+     487,
+     937
+    ],
+    [
+     491,
+     935
+    ],
+    [
+     496,
+     947
+    ],
+    [
+     508,
+     955
+    ],
+    [
+     514,
+     950
+    ],
+    [
+     521,
+     956
+    ],
+    [
+     525,
+     952
+    ],
+    [
+     520,
+     946
+    ],
+    [
+     523,
+     943
+    ],
+    [
+     538,
+     956
+    ],
+    [
+     544,
+     956
+    ],
+    [
+     548,
+     953
+    ],
+    [
+     567,
+     952
+    ],
+    [
+     573,
+     960
+    ],
+    [
+     575,
+     958
+    ],
+    [
+     577,
+     960
+    ],
+    [
+     584,
+     960
+    ],
+    [
+     586,
+     958
+    ],
+    [
+     589,
+     960
+    ],
+    [
+     592,
+     958
+    ],
+    [
+     596,
+     959
+    ],
+    [
+     601,
+     954
+    ],
+    [
+     594,
+     949
+    ],
+    [
+     595,
+     947
+    ],
+    [
+     592,
+     944
+    ],
+    [
+     590,
+     945
+    ],
+    [
+     584,
+     936
+    ],
+    [
+     586,
+     934
+    ],
+    [
+     598,
+     942
+    ],
+    [
+     602,
+     942
+    ],
+    [
+     607,
+     938
+    ],
+    [
+     606,
+     933
+    ],
+    [
+     611,
+     930
+    ],
+    [
+     616,
+     934
+    ],
+    [
+     622,
+     931
+    ],
+    [
+     628,
+     935
+    ],
+    [
+     626,
+     941
+    ],
+    [
+     630,
+     945
+    ],
+    [
+     634,
+     943
+    ],
+    [
+     641,
+     945
+    ],
+    [
+     643,
+     943
+    ],
+    [
+     645,
+     945
+    ],
+    [
+     643,
+     947
+    ],
+    [
+     646,
+     950
+    ],
+    [
+     649,
+     947
+    ],
+    [
+     650,
+     928
+    ],
+    [
+     646,
+     792
+    ],
+    [
+     644,
+     774
+    ]
+   ],
+   "notes": "Open country: reed cutters and fowlers; no road, boat ways only."
+  },
+  {
+   "id": "r23",
+   "name": "Hollin Ridge",
+   "terrain": "hill, a ridge of brown hills south of the fen",
+   "elevation": "middling, 1,000 to 2,400 feet",
+   "water": "springs on the south side that feed the Skein",
+   "climate": "cool; drier than the fen",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 21
+    },
+    {
+     "id": "r20",
+     "days": 10
+    },
+    {
+     "id": "r25",
+     "days": 9
+    },
+    {
+     "id": "r31",
+     "days": 10
+    }
+   ],
+   "polygon": [
+    [
+     644,
+     613
+    ],
+    [
+     645,
+     700
+    ],
+    [
+     800,
+     690
+    ],
+    [
+     799,
+     612
+    ]
+   ],
+   "notes": "Open country: shepherds. The dark line past the water, seen from the fen."
+  },
+  {
+   "id": "r24",
+   "name": "Ammerholt",
+   "terrain": "forest, one great dark old forest",
+   "elevation": "low to middling, 500 to 1,500 feet",
+   "water": "dark streams south to the fen",
+   "climate": "cool and still; snow lies long under the trees",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 23
+    },
+    {
+     "id": "r25",
+     "days": 14
+    },
+    {
+     "id": "r26",
+     "days": 15
+    },
+    {
+     "id": "r27",
+     "days": 9
+    },
+    {
+     "id": "r29",
+     "days": 12
+    },
+    {
+     "id": "r30",
+     "days": 20
+    }
+   ],
+   "polygon": [
+    [
+     639,
+     395
+    ],
+    [
+     639,
+     441
+    ],
+    [
+     658,
+     498
+    ],
+    [
+     699,
+     555
+    ],
+    [
+     805,
+     560
+    ],
+    [
+     895,
+     559
+    ],
+    [
+     890,
+     394
+    ]
+   ],
+   "notes": "Open country, almost empty in its heart. Dark at noon."
+  },
+  {
+   "id": "r25",
+   "name": "Vestfen",
+   "terrain": "marsh, fen and reed along the forest's southern edge, with the river sliding through it",
+   "elevation": "low, about 200 feet",
+   "water": "the Vest; meres and reed beds",
+   "climate": "cool, damp, misty",
+   "neighbors": [
+    {
+     "id": "r20",
+     "days": 14
+    },
+    {
+     "id": "r23",
+     "days": 9
+    },
+    {
+     "id": "r24",
+     "days": 14
+    },
+    {
+     "id": "r26",
+     "days": 19
+    },
+    {
+     "id": "r29",
+     "days": 13
+    }
+   ],
+   "polygon": [
+    [
+     644,
+     610
+    ],
+    [
+     645,
+     613
+    ],
+    [
+     905,
+     611
+    ],
+    [
+     894,
+     559
+    ],
+    [
+     805,
+     559
+    ],
+    [
+     700,
+     554
+    ],
+    [
+     655,
+     554
+    ]
+   ],
+   "notes": "The country of the Merrowen: a walled seat on a rise at the fen's edge, steadings scattered."
+  },
+  {
+   "id": "r26",
+   "name": "The Koldry Hills",
+   "terrain": "hill, steep wooded hills between the forest and the eastern sea",
+   "elevation": "middling, 800 to 2,600 feet",
+   "water": "short fast streams east to the sea",
+   "climate": "cool; sea fog",
+   "neighbors": [
+    {
+     "id": "r20",
+     "days": 15
+    },
+    {
+     "id": "r24",
+     "days": 15
+    },
+    {
+     "id": "r25",
+     "days": 19
+    },
+    {
+     "id": "r30",
+     "days": 16
+    },
+    {
+     "id": "r42",
+     "days": 1,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     890,
+     399
+    ],
+    [
+     889,
+     415
+    ],
+    [
+     894,
+     562
+    ],
+    [
+     903,
+     609
+    ],
+    [
+     905,
+     612
+    ],
+    [
+     905,
+     639
+    ],
+    [
+     990,
+     640
+    ],
+    [
+     992,
+     637
+    ],
+    [
+     986,
+     631
+    ],
+    [
+     990,
+     627
+    ],
+    [
+     987,
+     624
+    ],
+    [
+     991,
+     619
+    ],
+    [
+     997,
+     624
+    ],
+    [
+     1002,
+     619
+    ],
+    [
+     998,
+     615
+    ],
+    [
+     1001,
+     611
+    ],
+    [
+     996,
+     605
+    ],
+    [
+     999,
+     602
+    ],
+    [
+     1003,
+     606
+    ],
+    [
+     1006,
+     603
+    ],
+    [
+     1011,
+     606
+    ],
+    [
+     1016,
+     602
+    ],
+    [
+     1016,
+     596
+    ],
+    [
+     1014,
+     596
+    ],
+    [
+     1011,
+     592
+    ],
+    [
+     1016,
+     586
+    ],
+    [
+     1016,
+     582
+    ],
+    [
+     1014,
+     580
+    ],
+    [
+     1012,
+     582
+    ],
+    [
+     1008,
+     580
+    ],
+    [
+     1005,
+     583
+    ],
+    [
+     1000,
+     580
+    ],
+    [
+     992,
+     589
+    ],
+    [
+     986,
+     585
+    ],
+    [
+     989,
+     582
+    ],
+    [
+     989,
+     579
+    ],
+    [
+     991,
+     577
+    ],
+    [
+     994,
+     578
+    ],
+    [
+     1004,
+     566
+    ],
+    [
+     999,
+     560
+    ],
+    [
+     998,
+     555
+    ],
+    [
+     1002,
+     548
+    ],
+    [
+     1001,
+     545
+    ],
+    [
+     1005,
+     541
+    ],
+    [
+     1002,
+     538
+    ],
+    [
+     997,
+     538
+    ],
+    [
+     990,
+     531
+    ],
+    [
+     996,
+     523
+    ],
+    [
+     994,
+     520
+    ],
+    [
+     1001,
+     514
+    ],
+    [
+     1000,
+     511
+    ],
+    [
+     1002,
+     501
+    ],
+    [
+     998,
+     497
+    ],
+    [
+     996,
+     498
+    ],
+    [
+     992,
+     493
+    ],
+    [
+     996,
+     488
+    ],
+    [
+     1000,
+     491
+    ],
+    [
+     1003,
+     488
+    ],
+    [
+     1000,
+     485
+    ],
+    [
+     1001,
+     473
+    ],
+    [
+     1011,
+     467
+    ],
+    [
+     1008,
+     464
+    ],
+    [
+     1010,
+     461
+    ],
+    [
+     1009,
+     460
+    ],
+    [
+     1015,
+     454
+    ],
+    [
+     1014,
+     443
+    ],
+    [
+     1016,
+     441
+    ],
+    [
+     1011,
+     436
+    ],
+    [
+     1002,
+     442
+    ],
+    [
+     989,
+     434
+    ],
+    [
+     985,
+     438
+    ],
+    [
+     987,
+     441
+    ],
+    [
+     985,
+     444
+    ],
+    [
+     987,
+     446
+    ],
+    [
+     984,
+     449
+    ],
+    [
+     979,
+     445
+    ],
+    [
+     980,
+     440
+    ],
+    [
+     976,
+     436
+    ],
+    [
+     981,
+     429
+    ],
+    [
+     976,
+     423
+    ],
+    [
+     974,
+     425
+    ],
+    [
+     969,
+     423
+    ],
+    [
+     974,
+     415
+    ],
+    [
+     978,
+     413
+    ],
+    [
+     983,
+     415
+    ],
+    [
+     986,
+     412
+    ],
+    [
+     983,
+     409
+    ],
+    [
+     979,
+     410
+    ],
+    [
+     977,
+     408
+    ],
+    [
+     984,
+     401
+    ],
+    [
+     983,
+     399
+    ]
+   ],
+   "notes": "The country of the Oum, the one people of the land who are not human. Few, old, keeping to themselves."
+  },
+  {
+   "id": "r20",
+   "name": "The Skeinlands",
+   "terrain": "plain, low misty country of many braided rivers with wooded banks and few fords",
+   "elevation": "low, sea level to 300 feet",
+   "water": "the Skein in many threads",
+   "climate": "mild and misty; autumn low water",
+   "neighbors": [
+    {
+     "id": "r21",
+     "days": 10
+    },
+    {
+     "id": "r22",
+     "days": 14
+    },
+    {
+     "id": "r23",
+     "days": 10
+    },
+    {
+     "id": "r25",
+     "days": 14
+    },
+    {
+     "id": "r26",
+     "days": 15
+    },
+    {
+     "id": "r31",
+     "days": 18
+    },
+    {
+     "id": "r42",
+     "days": 5,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     644,
+     700
+    ],
+    [
+     645,
+     775
+    ],
+    [
+     760,
+     770
+    ],
+    [
+     995,
+     770
+    ],
+    [
+     998,
+     767
+    ],
+    [
+     995,
+     763
+    ],
+    [
+     995,
+     759
+    ],
+    [
+     1005,
+     749
+    ],
+    [
+     1002,
+     740
+    ],
+    [
+     1002,
+     736
+    ],
+    [
+     1004,
+     734
+    ],
+    [
+     1002,
+     731
+    ],
+    [
+     1004,
+     729
+    ],
+    [
+     1008,
+     730
+    ],
+    [
+     1013,
+     725
+    ],
+    [
+     1008,
+     720
+    ],
+    [
+     1007,
+     715
+    ],
+    [
+     1013,
+     704
+    ],
+    [
+     1011,
+     699
+    ],
+    [
+     1013,
+     697
+    ],
+    [
+     1009,
+     693
+    ],
+    [
+     1006,
+     696
+    ],
+    [
+     1008,
+     698
+    ],
+    [
+     1004,
+     702
+    ],
+    [
+     1001,
+     699
+    ],
+    [
+     1001,
+     693
+    ],
+    [
+     992,
+     687
+    ],
+    [
+     992,
+     684
+    ],
+    [
+     987,
+     678
+    ],
+    [
+     985,
+     679
+    ],
+    [
+     983,
+     677
+    ],
+    [
+     984,
+     672
+    ],
+    [
+     980,
+     668
+    ],
+    [
+     976,
+     672
+    ],
+    [
+     976,
+     679
+    ],
+    [
+     974,
+     681
+    ],
+    [
+     973,
+     680
+    ],
+    [
+     970,
+     683
+    ],
+    [
+     964,
+     679
+    ],
+    [
+     972,
+     672
+    ],
+    [
+     972,
+     670
+    ],
+    [
+     969,
+     667
+    ],
+    [
+     966,
+     670
+    ],
+    [
+     963,
+     666
+    ],
+    [
+     967,
+     663
+    ],
+    [
+     980,
+     664
+    ],
+    [
+     984,
+     660
+    ],
+    [
+     987,
+     652
+    ],
+    [
+     995,
+     647
+    ],
+    [
+     992,
+     640
+    ],
+    [
+     907,
+     639
+    ],
+    [
+     905,
+     611
+    ],
+    [
+     800,
+     611
+    ],
+    [
+     798,
+     690
+    ]
+   ],
+   "notes": "The round of the moving people god-secrets comes to; old landings where the water has moved away."
+  },
+  {
+   "id": "r21",
+   "name": "The Ysk Flats",
+   "terrain": "coast, pale salt flats and pans along the south-east coast",
+   "elevation": "sea level",
+   "water": "the mouths of the Skein; brine pans",
+   "climate": "mild and dry in summer; glare off the flats",
+   "neighbors": [
+    {
+     "id": "r20",
+     "days": 10
+    },
+    {
+     "id": "r22",
+     "days": 12
+    },
+    {
+     "id": "r42",
+     "days": 8,
+     "by": "boat"
+    },
+    {
+     "id": "r43",
+     "days": 8,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     760,
+     770
+    ],
+    [
+     759,
+     922
+    ],
+    [
+     766,
+     928
+    ],
+    [
+     771,
+     924
+    ],
+    [
+     785,
+     921
+    ],
+    [
+     794,
+     929
+    ],
+    [
+     801,
+     931
+    ],
+    [
+     817,
+     929
+    ],
+    [
+     821,
+     925
+    ],
+    [
+     830,
+     930
+    ],
+    [
+     835,
+     924
+    ],
+    [
+     839,
+     928
+    ],
+    [
+     843,
+     925
+    ],
+    [
+     845,
+     927
+    ],
+    [
+     853,
+     923
+    ],
+    [
+     858,
+     917
+    ],
+    [
+     863,
+     922
+    ],
+    [
+     868,
+     921
+    ],
+    [
+     872,
+     925
+    ],
+    [
+     875,
+     922
+    ],
+    [
+     879,
+     929
+    ],
+    [
+     882,
+     927
+    ],
+    [
+     887,
+     928
+    ],
+    [
+     890,
+     925
+    ],
+    [
+     887,
+     922
+    ],
+    [
+     893,
+     919
+    ],
+    [
+     902,
+     926
+    ],
+    [
+     905,
+     923
+    ],
+    [
+     911,
+     922
+    ],
+    [
+     915,
+     918
+    ],
+    [
+     909,
+     912
+    ],
+    [
+     912,
+     907
+    ],
+    [
+     918,
+     911
+    ],
+    [
+     923,
+     906
+    ],
+    [
+     928,
+     909
+    ],
+    [
+     938,
+     897
+    ],
+    [
+     949,
+     891
+    ],
+    [
+     946,
+     888
+    ],
+    [
+     936,
+     891
+    ],
+    [
+     934,
+     887
+    ],
+    [
+     952,
+     875
+    ],
+    [
+     951,
+     872
+    ],
+    [
+     953,
+     870
+    ],
+    [
+     959,
+     871
+    ],
+    [
+     964,
+     866
+    ],
+    [
+     968,
+     869
+    ],
+    [
+     972,
+     866
+    ],
+    [
+     977,
+     866
+    ],
+    [
+     988,
+     856
+    ],
+    [
+     993,
+     857
+    ],
+    [
+     999,
+     848
+    ],
+    [
+     991,
+     841
+    ],
+    [
+     992,
+     840
+    ],
+    [
+     989,
+     837
+    ],
+    [
+     988,
+     838
+    ],
+    [
+     985,
+     835
+    ],
+    [
+     993,
+     827
+    ],
+    [
+     992,
+     825
+    ],
+    [
+     996,
+     818
+    ],
+    [
+     981,
+     805
+    ],
+    [
+     983,
+     798
+    ],
+    [
+     979,
+     794
+    ],
+    [
+     984,
+     789
+    ],
+    [
+     992,
+     791
+    ],
+    [
+     1000,
+     786
+    ],
+    [
+     998,
+     777
+    ],
+    [
+     995,
+     774
+    ],
+    [
+     995,
+     769
+    ]
+   ],
+   "notes": "The salt of the land. Held by the salt towns of Ysk."
+  },
+  {
+   "id": "r22",
+   "name": "Orsk Shore",
+   "terrain": "coast, low farmed coast between the delta and the salt flats",
+   "elevation": "low, sea level to 200 feet",
+   "water": "small rivers; wells",
+   "climate": "mild",
+   "neighbors": [
+    {
+     "id": "r19",
+     "days": 18
+    },
+    {
+     "id": "r20",
+     "days": 14
+    },
+    {
+     "id": "r21",
+     "days": 12
+    },
+    {
+     "id": "r42",
+     "days": 9,
+     "by": "boat"
+    },
+    {
+     "id": "r43",
+     "days": 5,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     760,
+     769
+    ],
+    [
+     644,
+     775
+    ],
+    [
+     649,
+     942
+    ],
+    [
+     650,
+     943
+    ],
+    [
+     654,
+     938
+    ],
+    [
+     659,
+     942
+    ],
+    [
+     656,
+     946
+    ],
+    [
+     660,
+     950
+    ],
+    [
+     669,
+     952
+    ],
+    [
+     672,
+     949
+    ],
+    [
+     669,
+     945
+    ],
+    [
+     671,
+     943
+    ],
+    [
+     677,
+     944
+    ],
+    [
+     682,
+     941
+    ],
+    [
+     684,
+     943
+    ],
+    [
+     690,
+     943
+    ],
+    [
+     693,
+     946
+    ],
+    [
+     696,
+     943
+    ],
+    [
+     686,
+     936
+    ],
+    [
+     683,
+     938
+    ],
+    [
+     681,
+     936
+    ],
+    [
+     677,
+     938
+    ],
+    [
+     667,
+     932
+    ],
+    [
+     664,
+     935
+    ],
+    [
+     662,
+     933
+    ],
+    [
+     664,
+     931
+    ],
+    [
+     661,
+     928
+    ],
+    [
+     669,
+     920
+    ],
+    [
+     672,
+     922
+    ],
+    [
+     676,
+     919
+    ],
+    [
+     678,
+     921
+    ],
+    [
+     683,
+     919
+    ],
+    [
+     688,
+     922
+    ],
+    [
+     694,
+     916
+    ],
+    [
+     691,
+     912
+    ],
+    [
+     684,
+     915
+    ],
+    [
+     681,
+     912
+    ],
+    [
+     675,
+     912
+    ],
+    [
+     673,
+     910
+    ],
+    [
+     676,
+     906
+    ],
+    [
+     666,
+     897
+    ],
+    [
+     671,
+     892
+    ],
+    [
+     662,
+     885
+    ],
+    [
+     666,
+     878
+    ],
+    [
+     669,
+     880
+    ],
+    [
+     674,
+     877
+    ],
+    [
+     677,
+     879
+    ],
+    [
+     679,
+     878
+    ],
+    [
+     681,
+     880
+    ],
+    [
+     681,
+     885
+    ],
+    [
+     687,
+     891
+    ],
+    [
+     686,
+     896
+    ],
+    [
+     692,
+     901
+    ],
+    [
+     695,
+     900
+    ],
+    [
+     699,
+     904
+    ],
+    [
+     704,
+     900
+    ],
+    [
+     709,
+     899
+    ],
+    [
+     711,
+     901
+    ],
+    [
+     709,
+     903
+    ],
+    [
+     723,
+     917
+    ],
+    [
+     729,
+     909
+    ],
+    [
+     728,
+     902
+    ],
+    [
+     731,
+     899
+    ],
+    [
+     726,
+     892
+    ],
+    [
+     722,
+     894
+    ],
+    [
+     719,
+     892
+    ],
+    [
+     727,
+     887
+    ],
+    [
+     731,
+     887
+    ],
+    [
+     736,
+     893
+    ],
+    [
+     734,
+     896
+    ],
+    [
+     741,
+     904
+    ],
+    [
+     738,
+     907
+    ],
+    [
+     738,
+     910
+    ],
+    [
+     747,
+     918
+    ],
+    [
+     751,
+     915
+    ],
+    [
+     754,
+     918
+    ],
+    [
+     761,
+     918
+    ]
+   ],
+   "notes": "Held by the salt towns: grain and fishing for the pans."
+  },
+  {
+   "id": "r28",
+   "name": "Lake Hesh",
+   "terrain": "lake, the great still lake at the middle of the land",
+   "elevation": "about 300 feet",
+   "water": "deep, dark, still; it does not freeze and the wind does not move it; one outflow west, the Carn",
+   "climate": "mild; mist at dawn",
+   "neighbors": [
+    {
+     "id": "r09",
+     "days": 1,
+     "by": "boat"
+    },
+    {
+     "id": "r29",
+     "days": 3,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     384,
+     522
+    ],
+    [
+     385,
+     538
+    ],
+    [
+     394,
+     555
+    ],
+    [
+     411,
+     571
+    ],
+    [
+     428,
+     581
+    ],
+    [
+     455,
+     591
+    ],
+    [
+     498,
+     598
+    ],
+    [
+     527,
+     598
+    ],
+    [
+     552,
+     595
+    ],
+    [
+     570,
+     591
+    ],
+    [
+     597,
+     581
+    ],
+    [
+     618,
+     568
+    ],
+    [
+     631,
+     555
+    ],
+    [
+     639,
+     541
+    ],
+    [
+     641,
+     533
+    ],
+    [
+     640,
+     517
+    ],
+    [
+     631,
+     500
+    ],
+    [
+     614,
+     484
+    ],
+    [
+     597,
+     474
+    ],
+    [
+     570,
+     464
+    ],
+    [
+     527,
+     457
+    ],
+    [
+     498,
+     457
+    ],
+    [
+     473,
+     460
+    ],
+    [
+     455,
+     464
+    ],
+    [
+     428,
+     474
+    ],
+    [
+     407,
+     487
+    ],
+    [
+     394,
+     500
+    ],
+    [
+     386,
+     514
+    ]
+   ],
+   "notes": "Larger than any telling of it. The shore people do not fish the deep water."
+  },
+  {
+   "id": "r41",
+   "name": "The Grey Sea",
+   "terrain": "sea, the cold northern sea",
+   "elevation": "sea level",
+   "water": "salt water",
+   "climate": "cold; ice in the inlets in hard winters",
+   "neighbors": [
+    {
+     "id": "r01",
+     "days": 5,
+     "by": "boat"
+    },
+    {
+     "id": "r02",
+     "days": 2,
+     "by": "boat"
+    },
+    {
+     "id": "r03",
+     "days": 7,
+     "by": "boat"
+    },
+    {
+     "id": "r06",
+     "days": 8,
+     "by": "boat"
+    },
+    {
+     "id": "r42",
+     "days": 13,
+     "by": "boat"
+    },
+    {
+     "id": "r44",
+     "days": 13,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     150
+    ],
+    [
+     50,
+     150
+    ],
+    [
+     51,
+     149
+    ],
+    [
+     49,
+     147
+    ],
+    [
+     44,
+     147
+    ],
+    [
+     41,
+     144
+    ],
+    [
+     50,
+     134
+    ],
+    [
+     57,
+     133
+    ],
+    [
+     62,
+     124
+    ],
+    [
+     66,
+     127
+    ],
+    [
+     71,
+     124
+    ],
+    [
+     71,
+     122
+    ],
+    [
+     64,
+     116
+    ],
+    [
+     64,
+     111
+    ],
+    [
+     68,
+     107
+    ],
+    [
+     71,
+     109
+    ],
+    [
+     78,
+     108
+    ],
+    [
+     83,
+     101
+    ],
+    [
+     88,
+     103
+    ],
+    [
+     92,
+     97
+    ],
+    [
+     96,
+     101
+    ],
+    [
+     109,
+     100
+    ],
+    [
+     117,
+     91
+    ],
+    [
+     112,
+     86
+    ],
+    [
+     115,
+     82
+    ],
+    [
+     124,
+     83
+    ],
+    [
+     137,
+     78
+    ],
+    [
+     144,
+     78
+    ],
+    [
+     151,
+     85
+    ],
+    [
+     158,
+     85
+    ],
+    [
+     165,
+     88
+    ],
+    [
+     170,
+     86
+    ],
+    [
+     174,
+     89
+    ],
+    [
+     182,
+     83
+    ],
+    [
+     198,
+     78
+    ],
+    [
+     201,
+     75
+    ],
+    [
+     199,
+     73
+    ],
+    [
+     201,
+     71
+    ],
+    [
+     210,
+     74
+    ],
+    [
+     213,
+     71
+    ],
+    [
+     210,
+     68
+    ],
+    [
+     215,
+     63
+    ],
+    [
+     219,
+     67
+    ],
+    [
+     226,
+     61
+    ],
+    [
+     232,
+     59
+    ],
+    [
+     240,
+     63
+    ],
+    [
+     247,
+     60
+    ],
+    [
+     253,
+     67
+    ],
+    [
+     260,
+     63
+    ],
+    [
+     264,
+     67
+    ],
+    [
+     266,
+     66
+    ],
+    [
+     268,
+     68
+    ],
+    [
+     285,
+     68
+    ],
+    [
+     296,
+     70
+    ],
+    [
+     315,
+     61
+    ],
+    [
+     323,
+     61
+    ],
+    [
+     329,
+     67
+    ],
+    [
+     337,
+     65
+    ],
+    [
+     339,
+     67
+    ],
+    [
+     349,
+     66
+    ],
+    [
+     352,
+     68
+    ],
+    [
+     356,
+     67
+    ],
+    [
+     362,
+     70
+    ],
+    [
+     367,
+     70
+    ],
+    [
+     380,
+     65
+    ],
+    [
+     384,
+     68
+    ],
+    [
+     392,
+     69
+    ],
+    [
+     399,
+     66
+    ],
+    [
+     403,
+     62
+    ],
+    [
+     406,
+     64
+    ],
+    [
+     414,
+     58
+    ],
+    [
+     427,
+     60
+    ],
+    [
+     432,
+     56
+    ],
+    [
+     435,
+     58
+    ],
+    [
+     440,
+     58
+    ],
+    [
+     443,
+     56
+    ],
+    [
+     455,
+     59
+    ],
+    [
+     466,
+     55
+    ],
+    [
+     480,
+     55
+    ],
+    [
+     487,
+     58
+    ],
+    [
+     494,
+     55
+    ],
+    [
+     496,
+     57
+    ],
+    [
+     505,
+     58
+    ],
+    [
+     515,
+     50
+    ],
+    [
+     519,
+     50
+    ],
+    [
+     527,
+     55
+    ],
+    [
+     541,
+     53
+    ],
+    [
+     547,
+     59
+    ],
+    [
+     554,
+     58
+    ],
+    [
+     563,
+     63
+    ],
+    [
+     571,
+     63
+    ],
+    [
+     576,
+     66
+    ],
+    [
+     582,
+     66
+    ],
+    [
+     589,
+     70
+    ],
+    [
+     595,
+     71
+    ],
+    [
+     617,
+     64
+    ],
+    [
+     623,
+     59
+    ],
+    [
+     634,
+     61
+    ],
+    [
+     641,
+     58
+    ],
+    [
+     644,
+     60
+    ],
+    [
+     651,
+     56
+    ],
+    [
+     659,
+     60
+    ],
+    [
+     668,
+     58
+    ],
+    [
+     678,
+     64
+    ],
+    [
+     695,
+     65
+    ],
+    [
+     697,
+     63
+    ],
+    [
+     708,
+     64
+    ],
+    [
+     710,
+     62
+    ],
+    [
+     728,
+     57
+    ],
+    [
+     732,
+     54
+    ],
+    [
+     741,
+     61
+    ],
+    [
+     745,
+     61
+    ],
+    [
+     751,
+     67
+    ],
+    [
+     767,
+     64
+    ],
+    [
+     773,
+     69
+    ],
+    [
+     776,
+     69
+    ],
+    [
+     782,
+     75
+    ],
+    [
+     786,
+     72
+    ],
+    [
+     804,
+     73
+    ],
+    [
+     816,
+     65
+    ],
+    [
+     821,
+     64
+    ],
+    [
+     827,
+     68
+    ],
+    [
+     834,
+     69
+    ],
+    [
+     843,
+     68
+    ],
+    [
+     850,
+     70
+    ],
+    [
+     853,
+     67
+    ],
+    [
+     858,
+     72
+    ],
+    [
+     862,
+     73
+    ],
+    [
+     866,
+     70
+    ],
+    [
+     870,
+     74
+    ],
+    [
+     880,
+     69
+    ],
+    [
+     885,
+     69
+    ],
+    [
+     896,
+     75
+    ],
+    [
+     900,
+     75
+    ],
+    [
+     905,
+     79
+    ],
+    [
+     906,
+     84
+    ],
+    [
+     900,
+     88
+    ],
+    [
+     903,
+     91
+    ],
+    [
+     910,
+     91
+    ],
+    [
+     921,
+     87
+    ],
+    [
+     935,
+     87
+    ],
+    [
+     943,
+     98
+    ],
+    [
+     949,
+     99
+    ],
+    [
+     952,
+     102
+    ],
+    [
+     951,
+     104
+    ],
+    [
+     954,
+     107
+    ],
+    [
+     961,
+     106
+    ],
+    [
+     964,
+     109
+    ],
+    [
+     969,
+     109
+    ],
+    [
+     971,
+     111
+    ],
+    [
+     960,
+     122
+    ],
+    [
+     966,
+     126
+    ],
+    [
+     968,
+     124
+    ],
+    [
+     973,
+     127
+    ],
+    [
+     969,
+     131
+    ],
+    [
+     976,
+     138
+    ],
+    [
+     973,
+     141
+    ],
+    [
+     969,
+     139
+    ],
+    [
+     966,
+     142
+    ],
+    [
+     964,
+     140
+    ],
+    [
+     961,
+     143
+    ],
+    [
+     963,
+     145
+    ],
+    [
+     963,
+     150
+    ],
+    [
+     1023,
+     150
+    ],
+    [
+     1023,
+     0
+    ]
+   ],
+   "notes": "No one sails it far."
+  },
+  {
+   "id": "r42",
+   "name": "The Eastern Sea",
+   "terrain": "sea, the eastern sea",
+   "elevation": "sea level",
+   "water": "salt water",
+   "climate": "cool; fog",
+   "neighbors": [
+    {
+     "id": "r03",
+     "days": 8,
+     "by": "boat"
+    },
+    {
+     "id": "r20",
+     "days": 5,
+     "by": "boat"
+    },
+    {
+     "id": "r21",
+     "days": 8,
+     "by": "boat"
+    },
+    {
+     "id": "r22",
+     "days": 9,
+     "by": "boat"
+    },
+    {
+     "id": "r26",
+     "days": 1,
+     "by": "boat"
+    },
+    {
+     "id": "r30",
+     "days": 4,
+     "by": "boat"
+    },
+    {
+     "id": "r41",
+     "days": 13,
+     "by": "boat"
+    },
+    {
+     "id": "r43",
+     "days": 14,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     963,
+     149
+    ],
+    [
+     959,
+     156
+    ],
+    [
+     961,
+     161
+    ],
+    [
+     953,
+     166
+    ],
+    [
+     954,
+     170
+    ],
+    [
+     950,
+     174
+    ],
+    [
+     957,
+     179
+    ],
+    [
+     969,
+     180
+    ],
+    [
+     982,
+     188
+    ],
+    [
+     983,
+     196
+    ],
+    [
+     976,
+     201
+    ],
+    [
+     971,
+     209
+    ],
+    [
+     969,
+     208
+    ],
+    [
+     966,
+     211
+    ],
+    [
+     973,
+     215
+    ],
+    [
+     970,
+     219
+    ],
+    [
+     972,
+     221
+    ],
+    [
+     968,
+     227
+    ],
+    [
+     972,
+     231
+    ],
+    [
+     974,
+     230
+    ],
+    [
+     977,
+     233
+    ],
+    [
+     978,
+     232
+    ],
+    [
+     985,
+     242
+    ],
+    [
+     987,
+     241
+    ],
+    [
+     993,
+     246
+    ],
+    [
+     985,
+     255
+    ],
+    [
+     988,
+     261
+    ],
+    [
+     984,
+     265
+    ],
+    [
+     986,
+     267
+    ],
+    [
+     984,
+     270
+    ],
+    [
+     991,
+     277
+    ],
+    [
+     987,
+     281
+    ],
+    [
+     990,
+     284
+    ],
+    [
+     988,
+     286
+    ],
+    [
+     985,
+     285
+    ],
+    [
+     978,
+     294
+    ],
+    [
+     973,
+     295
+    ],
+    [
+     970,
+     298
+    ],
+    [
+     984,
+     312
+    ],
+    [
+     982,
+     316
+    ],
+    [
+     975,
+     321
+    ],
+    [
+     977,
+     327
+    ],
+    [
+     982,
+     331
+    ],
+    [
+     990,
+     325
+    ],
+    [
+     995,
+     331
+    ],
+    [
+     993,
+     333
+    ],
+    [
+     991,
+     331
+    ],
+    [
+     988,
+     333
+    ],
+    [
+     986,
+     332
+    ],
+    [
+     981,
+     338
+    ],
+    [
+     983,
+     341
+    ],
+    [
+     982,
+     343
+    ],
+    [
+     992,
+     351
+    ],
+    [
+     995,
+     357
+    ],
+    [
+     991,
+     362
+    ],
+    [
+     999,
+     369
+    ],
+    [
+     995,
+     376
+    ],
+    [
+     986,
+     382
+    ],
+    [
+     986,
+     387
+    ],
+    [
+     981,
+     392
+    ],
+    [
+     983,
+     401
+    ],
+    [
+     976,
+     408
+    ],
+    [
+     979,
+     411
+    ],
+    [
+     971,
+     417
+    ],
+    [
+     971,
+     420
+    ],
+    [
+     968,
+     423
+    ],
+    [
+     971,
+     426
+    ],
+    [
+     976,
+     424
+    ],
+    [
+     980,
+     429
+    ],
+    [
+     975,
+     436
+    ],
+    [
+     979,
+     440
+    ],
+    [
+     978,
+     445
+    ],
+    [
+     984,
+     450
+    ],
+    [
+     988,
+     446
+    ],
+    [
+     986,
+     444
+    ],
+    [
+     988,
+     442
+    ],
+    [
+     986,
+     438
+    ],
+    [
+     989,
+     435
+    ],
+    [
+     1002,
+     443
+    ],
+    [
+     1011,
+     437
+    ],
+    [
+     1015,
+     441
+    ],
+    [
+     1013,
+     443
+    ],
+    [
+     1014,
+     454
+    ],
+    [
+     1008,
+     460
+    ],
+    [
+     1009,
+     461
+    ],
+    [
+     1007,
+     464
+    ],
+    [
+     1010,
+     467
+    ],
+    [
+     1008,
+     469
+    ],
+    [
+     1006,
+     468
+    ],
+    [
+     1000,
+     473
+    ],
+    [
+     999,
+     485
+    ],
+    [
+     1002,
+     488
+    ],
+    [
+     1000,
+     490
+    ],
+    [
+     996,
+     487
+    ],
+    [
+     991,
+     493
+    ],
+    [
+     996,
+     499
+    ],
+    [
+     998,
+     498
+    ],
+    [
+     1001,
+     501
+    ],
+    [
+     999,
+     511
+    ],
+    [
+     1000,
+     514
+    ],
+    [
+     993,
+     520
+    ],
+    [
+     995,
+     523
+    ],
+    [
+     989,
+     531
+    ],
+    [
+     997,
+     539
+    ],
+    [
+     1002,
+     539
+    ],
+    [
+     1004,
+     541
+    ],
+    [
+     1000,
+     545
+    ],
+    [
+     1001,
+     548
+    ],
+    [
+     997,
+     555
+    ],
+    [
+     998,
+     560
+    ],
+    [
+     1003,
+     566
+    ],
+    [
+     994,
+     577
+    ],
+    [
+     991,
+     576
+    ],
+    [
+     988,
+     579
+    ],
+    [
+     988,
+     582
+    ],
+    [
+     985,
+     585
+    ],
+    [
+     992,
+     590
+    ],
+    [
+     1000,
+     581
+    ],
+    [
+     1005,
+     584
+    ],
+    [
+     1008,
+     581
+    ],
+    [
+     1010,
+     583
+    ],
+    [
+     1014,
+     581
+    ],
+    [
+     1015,
+     586
+    ],
+    [
+     1010,
+     592
+    ],
+    [
+     1015,
+     598
+    ],
+    [
+     1015,
+     602
+    ],
+    [
+     1011,
+     605
+    ],
+    [
+     1006,
+     602
+    ],
+    [
+     1003,
+     605
+    ],
+    [
+     999,
+     601
+    ],
+    [
+     995,
+     605
+    ],
+    [
+     1000,
+     611
+    ],
+    [
+     997,
+     615
+    ],
+    [
+     1001,
+     619
+    ],
+    [
+     997,
+     623
+    ],
+    [
+     991,
+     618
+    ],
+    [
+     986,
+     624
+    ],
+    [
+     989,
+     627
+    ],
+    [
+     985,
+     631
+    ],
+    [
+     991,
+     637
+    ],
+    [
+     990,
+     639
+    ],
+    [
+     994,
+     647
+    ],
+    [
+     986,
+     652
+    ],
+    [
+     980,
+     663
+    ],
+    [
+     967,
+     662
+    ],
+    [
+     962,
+     666
+    ],
+    [
+     966,
+     671
+    ],
+    [
+     969,
+     668
+    ],
+    [
+     971,
+     670
+    ],
+    [
+     971,
+     672
+    ],
+    [
+     963,
+     679
+    ],
+    [
+     970,
+     684
+    ],
+    [
+     973,
+     681
+    ],
+    [
+     974,
+     682
+    ],
+    [
+     977,
+     679
+    ],
+    [
+     977,
+     672
+    ],
+    [
+     980,
+     669
+    ],
+    [
+     983,
+     672
+    ],
+    [
+     982,
+     677
+    ],
+    [
+     985,
+     680
+    ],
+    [
+     987,
+     679
+    ],
+    [
+     991,
+     684
+    ],
+    [
+     991,
+     687
+    ],
+    [
+     1000,
+     693
+    ],
+    [
+     1000,
+     699
+    ],
+    [
+     1004,
+     703
+    ],
+    [
+     1009,
+     698
+    ],
+    [
+     1012,
+     701
+    ],
+    [
+     1010,
+     706
+    ],
+    [
+     1011,
+     708
+    ],
+    [
+     1006,
+     715
+    ],
+    [
+     1007,
+     720
+    ],
+    [
+     1012,
+     725
+    ],
+    [
+     1008,
+     729
+    ],
+    [
+     1004,
+     728
+    ],
+    [
+     1001,
+     731
+    ],
+    [
+     1003,
+     734
+    ],
+    [
+     1001,
+     736
+    ],
+    [
+     1001,
+     740
+    ],
+    [
+     1004,
+     749
+    ],
+    [
+     994,
+     759
+    ],
+    [
+     994,
+     763
+    ],
+    [
+     997,
+     766
+    ],
+    [
+     994,
+     774
+    ],
+    [
+     997,
+     777
+    ],
+    [
+     999,
+     786
+    ],
+    [
+     992,
+     790
+    ],
+    [
+     984,
+     788
+    ],
+    [
+     978,
+     794
+    ],
+    [
+     982,
+     798
+    ],
+    [
+     980,
+     805
+    ],
+    [
+     995,
+     818
+    ],
+    [
+     991,
+     825
+    ],
+    [
+     992,
+     827
+    ],
+    [
+     984,
+     835
+    ],
+    [
+     988,
+     839
+    ],
+    [
+     989,
+     838
+    ],
+    [
+     991,
+     840
+    ],
+    [
+     990,
+     841
+    ],
+    [
+     998,
+     848
+    ],
+    [
+     996,
+     853
+    ],
+    [
+     993,
+     856
+    ],
+    [
+     988,
+     855
+    ],
+    [
+     977,
+     865
+    ],
+    [
+     972,
+     865
+    ],
+    [
+     968,
+     868
+    ],
+    [
+     964,
+     865
+    ],
+    [
+     959,
+     870
+    ],
+    [
+     953,
+     869
+    ],
+    [
+     950,
+     872
+    ],
+    [
+     951,
+     875
+    ],
+    [
+     945,
+     880
+    ],
+    [
+     1023,
+     881
+    ],
+    [
+     1023,
+     149
+    ]
+   ],
+   "notes": "Fishing along the coast only."
+  },
+  {
+   "id": "r43",
+   "name": "The South Sea",
+   "terrain": "sea, the southern sea",
+   "elevation": "sea level",
+   "water": "salt water",
+   "climate": "mild",
+   "neighbors": [
+    {
+     "id": "r14",
+     "days": 7,
+     "by": "boat"
+    },
+    {
+     "id": "r19",
+     "days": 2,
+     "by": "boat"
+    },
+    {
+     "id": "r21",
+     "days": 8,
+     "by": "boat"
+    },
+    {
+     "id": "r22",
+     "days": 5,
+     "by": "boat"
+    },
+    {
+     "id": "r42",
+     "days": 14,
+     "by": "boat"
+    },
+    {
+     "id": "r44",
+     "days": 13,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     880
+    ],
+    [
+     0,
+     1023
+    ],
+    [
+     1023,
+     1023
+    ],
+    [
+     1023,
+     880
+    ],
+    [
+     943,
+     880
+    ],
+    [
+     939,
+     884
+    ],
+    [
+     936,
+     884
+    ],
+    [
+     933,
+     889
+    ],
+    [
+     936,
+     892
+    ],
+    [
+     943,
+     889
+    ],
+    [
+     948,
+     891
+    ],
+    [
+     938,
+     896
+    ],
+    [
+     928,
+     908
+    ],
+    [
+     923,
+     905
+    ],
+    [
+     918,
+     910
+    ],
+    [
+     912,
+     906
+    ],
+    [
+     908,
+     912
+    ],
+    [
+     914,
+     918
+    ],
+    [
+     902,
+     925
+    ],
+    [
+     893,
+     918
+    ],
+    [
+     886,
+     922
+    ],
+    [
+     889,
+     925
+    ],
+    [
+     887,
+     927
+    ],
+    [
+     882,
+     926
+    ],
+    [
+     879,
+     928
+    ],
+    [
+     875,
+     921
+    ],
+    [
+     872,
+     924
+    ],
+    [
+     868,
+     920
+    ],
+    [
+     863,
+     921
+    ],
+    [
+     858,
+     916
+    ],
+    [
+     853,
+     922
+    ],
+    [
+     845,
+     926
+    ],
+    [
+     843,
+     924
+    ],
+    [
+     839,
+     927
+    ],
+    [
+     835,
+     923
+    ],
+    [
+     830,
+     929
+    ],
+    [
+     828,
+     929
+    ],
+    [
+     821,
+     924
+    ],
+    [
+     817,
+     928
+    ],
+    [
+     801,
+     930
+    ],
+    [
+     794,
+     928
+    ],
+    [
+     785,
+     920
+    ],
+    [
+     771,
+     923
+    ],
+    [
+     766,
+     927
+    ],
+    [
+     760,
+     922
+    ],
+    [
+     761,
+     919
+    ],
+    [
+     758,
+     916
+    ],
+    [
+     754,
+     917
+    ],
+    [
+     751,
+     914
+    ],
+    [
+     747,
+     917
+    ],
+    [
+     739,
+     910
+    ],
+    [
+     739,
+     907
+    ],
+    [
+     742,
+     904
+    ],
+    [
+     735,
+     896
+    ],
+    [
+     737,
+     893
+    ],
+    [
+     731,
+     886
+    ],
+    [
+     727,
+     886
+    ],
+    [
+     718,
+     892
+    ],
+    [
+     721,
+     895
+    ],
+    [
+     726,
+     893
+    ],
+    [
+     730,
+     899
+    ],
+    [
+     727,
+     902
+    ],
+    [
+     728,
+     909
+    ],
+    [
+     723,
+     916
+    ],
+    [
+     710,
+     903
+    ],
+    [
+     712,
+     901
+    ],
+    [
+     709,
+     898
+    ],
+    [
+     704,
+     899
+    ],
+    [
+     700,
+     903
+    ],
+    [
+     695,
+     899
+    ],
+    [
+     692,
+     900
+    ],
+    [
+     687,
+     896
+    ],
+    [
+     688,
+     891
+    ],
+    [
+     682,
+     885
+    ],
+    [
+     681,
+     880
+    ],
+    [
+     665,
+     880
+    ],
+    [
+     661,
+     885
+    ],
+    [
+     670,
+     892
+    ],
+    [
+     665,
+     897
+    ],
+    [
+     675,
+     906
+    ],
+    [
+     672,
+     910
+    ],
+    [
+     675,
+     913
+    ],
+    [
+     678,
+     912
+    ],
+    [
+     684,
+     916
+    ],
+    [
+     691,
+     913
+    ],
+    [
+     693,
+     916
+    ],
+    [
+     688,
+     921
+    ],
+    [
+     683,
+     918
+    ],
+    [
+     678,
+     920
+    ],
+    [
+     676,
+     918
+    ],
+    [
+     672,
+     921
+    ],
+    [
+     669,
+     919
+    ],
+    [
+     660,
+     928
+    ],
+    [
+     663,
+     931
+    ],
+    [
+     661,
+     933
+    ],
+    [
+     664,
+     936
+    ],
+    [
+     667,
+     933
+    ],
+    [
+     677,
+     939
+    ],
+    [
+     680,
+     937
+    ],
+    [
+     683,
+     939
+    ],
+    [
+     677,
+     943
+    ],
+    [
+     671,
+     942
+    ],
+    [
+     668,
+     945
+    ],
+    [
+     671,
+     949
+    ],
+    [
+     668,
+     951
+    ],
+    [
+     660,
+     949
+    ],
+    [
+     657,
+     946
+    ],
+    [
+     660,
+     942
+    ],
+    [
+     654,
+     937
+    ],
+    [
+     646,
+     945
+    ],
+    [
+     643,
+     942
+    ],
+    [
+     641,
+     944
+    ],
+    [
+     636,
+     942
+    ],
+    [
+     630,
+     944
+    ],
+    [
+     627,
+     941
+    ],
+    [
+     629,
+     935
+    ],
+    [
+     622,
+     930
+    ],
+    [
+     616,
+     933
+    ],
+    [
+     611,
+     929
+    ],
+    [
+     605,
+     933
+    ],
+    [
+     606,
+     938
+    ],
+    [
+     602,
+     941
+    ],
+    [
+     598,
+     941
+    ],
+    [
+     586,
+     933
+    ],
+    [
+     583,
+     936
+    ],
+    [
+     585,
+     938
+    ],
+    [
+     584,
+     939
+    ],
+    [
+     590,
+     946
+    ],
+    [
+     592,
+     945
+    ],
+    [
+     594,
+     947
+    ],
+    [
+     593,
+     949
+    ],
+    [
+     596,
+     952
+    ],
+    [
+     597,
+     951
+    ],
+    [
+     600,
+     954
+    ],
+    [
+     596,
+     958
+    ],
+    [
+     592,
+     957
+    ],
+    [
+     590,
+     959
+    ],
+    [
+     586,
+     957
+    ],
+    [
+     584,
+     959
+    ],
+    [
+     577,
+     959
+    ],
+    [
+     575,
+     957
+    ],
+    [
+     573,
+     959
+    ],
+    [
+     567,
+     951
+    ],
+    [
+     548,
+     952
+    ],
+    [
+     544,
+     955
+    ],
+    [
+     538,
+     955
+    ],
+    [
+     523,
+     942
+    ],
+    [
+     519,
+     945
+    ],
+    [
+     524,
+     951
+    ],
+    [
+     521,
+     955
+    ],
+    [
+     514,
+     949
+    ],
+    [
+     508,
+     954
+    ],
+    [
+     504,
+     950
+    ],
+    [
+     497,
+     947
+    ],
+    [
+     494,
+     937
+    ],
+    [
+     491,
+     934
+    ],
+    [
+     487,
+     936
+    ],
+    [
+     485,
+     935
+    ],
+    [
+     481,
+     938
+    ],
+    [
+     474,
+     934
+    ],
+    [
+     472,
+     936
+    ],
+    [
+     467,
+     934
+    ],
+    [
+     462,
+     940
+    ],
+    [
+     468,
+     946
+    ],
+    [
+     460,
+     956
+    ],
+    [
+     455,
+     954
+    ],
+    [
+     444,
+     955
+    ],
+    [
+     431,
+     945
+    ],
+    [
+     424,
+     953
+    ],
+    [
+     418,
+     949
+    ],
+    [
+     422,
+     944
+    ],
+    [
+     421,
+     937
+    ],
+    [
+     424,
+     934
+    ],
+    [
+     427,
+     936
+    ],
+    [
+     430,
+     934
+    ],
+    [
+     433,
+     936
+    ],
+    [
+     440,
+     936
+    ],
+    [
+     442,
+     938
+    ],
+    [
+     441,
+     941
+    ],
+    [
+     444,
+     944
+    ],
+    [
+     449,
+     945
+    ],
+    [
+     454,
+     940
+    ],
+    [
+     454,
+     937
+    ],
+    [
+     458,
+     931
+    ],
+    [
+     455,
+     928
+    ],
+    [
+     450,
+     931
+    ],
+    [
+     446,
+     927
+    ],
+    [
+     437,
+     928
+    ],
+    [
+     434,
+     926
+    ],
+    [
+     425,
+     926
+    ],
+    [
+     411,
+     938
+    ],
+    [
+     395,
+     933
+    ],
+    [
+     389,
+     934
+    ],
+    [
+     387,
+     932
+    ],
+    [
+     397,
+     923
+    ],
+    [
+     403,
+     924
+    ],
+    [
+     409,
+     917
+    ],
+    [
+     403,
+     910
+    ],
+    [
+     403,
+     907
+    ],
+    [
+     400,
+     904
+    ],
+    [
+     390,
+     903
+    ],
+    [
+     384,
+     910
+    ],
+    [
+     381,
+     910
+    ],
+    [
+     374,
+     904
+    ],
+    [
+     366,
+     906
+    ],
+    [
+     362,
+     905
+    ],
+    [
+     359,
+     908
+    ],
+    [
+     360,
+     912
+    ],
+    [
+     358,
+     914
+    ],
+    [
+     351,
+     913
+    ],
+    [
+     345,
+     905
+    ],
+    [
+     337,
+     908
+    ],
+    [
+     334,
+     905
+    ],
+    [
+     333,
+     906
+    ],
+    [
+     325,
+     902
+    ],
+    [
+     319,
+     904
+    ],
+    [
+     317,
+     903
+    ],
+    [
+     314,
+     906
+    ],
+    [
+     315,
+     913
+    ],
+    [
+     312,
+     916
+    ],
+    [
+     315,
+     919
+    ],
+    [
+     322,
+     914
+    ],
+    [
+     324,
+     916
+    ],
+    [
+     323,
+     922
+    ],
+    [
+     318,
+     928
+    ],
+    [
+     314,
+     930
+    ],
+    [
+     305,
+     924
+    ],
+    [
+     297,
+     923
+    ],
+    [
+     295,
+     921
+    ],
+    [
+     292,
+     924
+    ],
+    [
+     294,
+     926
+    ],
+    [
+     288,
+     930
+    ],
+    [
+     286,
+     928
+    ],
+    [
+     275,
+     935
+    ],
+    [
+     273,
+     931
+    ],
+    [
+     276,
+     927
+    ],
+    [
+     273,
+     924
+    ],
+    [
+     266,
+     928
+    ],
+    [
+     257,
+     917
+    ],
+    [
+     255,
+     918
+    ],
+    [
+     252,
+     915
+    ],
+    [
+     255,
+     910
+    ],
+    [
+     259,
+     911
+    ],
+    [
+     264,
+     907
+    ],
+    [
+     259,
+     903
+    ],
+    [
+     256,
+     906
+    ],
+    [
+     250,
+     903
+    ],
+    [
+     247,
+     906
+    ],
+    [
+     245,
+     904
+    ],
+    [
+     242,
+     907
+    ],
+    [
+     246,
+     915
+    ],
+    [
+     246,
+     919
+    ],
+    [
+     243,
+     922
+    ],
+    [
+     235,
+     924
+    ],
+    [
+     230,
+     923
+    ],
+    [
+     223,
+     928
+    ],
+    [
+     214,
+     929
+    ],
+    [
+     211,
+     926
+    ],
+    [
+     209,
+     928
+    ],
+    [
+     205,
+     928
+    ],
+    [
+     202,
+     931
+    ],
+    [
+     209,
+     936
+    ],
+    [
+     207,
+     938
+    ],
+    [
+     191,
+     930
+    ],
+    [
+     187,
+     936
+    ],
+    [
+     178,
+     932
+    ],
+    [
+     171,
+     935
+    ],
+    [
+     163,
+     924
+    ],
+    [
+     156,
+     926
+    ],
+    [
+     152,
+     922
+    ],
+    [
+     147,
+     921
+    ],
+    [
+     144,
+     924
+    ],
+    [
+     141,
+     924
+    ],
+    [
+     128,
+     917
+    ],
+    [
+     126,
+     914
+    ],
+    [
+     131,
+     909
+    ],
+    [
+     125,
+     904
+    ],
+    [
+     126,
+     902
+    ],
+    [
+     124,
+     896
+    ],
+    [
+     116,
+     887
+    ],
+    [
+     103,
+     899
+    ],
+    [
+     96,
+     894
+    ],
+    [
+     90,
+     894
+    ],
+    [
+     87,
+     896
+    ],
+    [
+     82,
+     894
+    ],
+    [
+     78,
+     897
+    ],
+    [
+     71,
+     897
+    ],
+    [
+     69,
+     895
+    ],
+    [
+     75,
+     890
+    ],
+    [
+     74,
+     888
+    ],
+    [
+     76,
+     886
+    ],
+    [
+     67,
+     880
+    ]
+   ],
+   "notes": "Coasting boats of the salt towns."
+  },
+  {
+   "id": "r44",
+   "name": "The Western Sea",
+   "terrain": "sea, the western sea, where the rain comes from",
+   "elevation": "sea level",
+   "water": "salt water",
+   "climate": "mild and wet",
+   "neighbors": [
+    {
+     "id": "r06",
+     "days": 6,
+     "by": "boat"
+    },
+    {
+     "id": "r08",
+     "days": 4,
+     "by": "boat"
+    },
+    {
+     "id": "r10",
+     "days": 4,
+     "by": "boat"
+    },
+    {
+     "id": "r11",
+     "days": 5,
+     "by": "boat"
+    },
+    {
+     "id": "r13",
+     "days": 5,
+     "by": "boat"
+    },
+    {
+     "id": "r14",
+     "days": 8,
+     "by": "boat"
+    },
+    {
+     "id": "r41",
+     "days": 13,
+     "by": "boat"
+    },
+    {
+     "id": "r43",
+     "days": 13,
+     "by": "boat"
+    }
+   ],
+   "polygon": [
+    [
+     0,
+     149
+    ],
+    [
+     0,
+     881
+    ],
+    [
+     66,
+     881
+    ],
+    [
+     68,
+     879
+    ],
+    [
+     66,
+     877
+    ],
+    [
+     67,
+     872
+    ],
+    [
+     63,
+     868
+    ],
+    [
+     48,
+     866
+    ],
+    [
+     44,
+     858
+    ],
+    [
+     48,
+     854
+    ],
+    [
+     55,
+     853
+    ],
+    [
+     65,
+     846
+    ],
+    [
+     62,
+     843
+    ],
+    [
+     60,
+     844
+    ],
+    [
+     58,
+     842
+    ],
+    [
+     59,
+     840
+    ],
+    [
+     49,
+     832
+    ],
+    [
+     41,
+     830
+    ],
+    [
+     35,
+     824
+    ],
+    [
+     35,
+     821
+    ],
+    [
+     44,
+     815
+    ],
+    [
+     50,
+     805
+    ],
+    [
+     55,
+     807
+    ],
+    [
+     59,
+     803
+    ],
+    [
+     57,
+     801
+    ],
+    [
+     58,
+     797
+    ],
+    [
+     55,
+     793
+    ],
+    [
+     60,
+     790
+    ],
+    [
+     65,
+     790
+    ],
+    [
+     72,
+     778
+    ],
+    [
+     68,
+     773
+    ],
+    [
+     62,
+     778
+    ],
+    [
+     55,
+     773
+    ],
+    [
+     51,
+     774
+    ],
+    [
+     48,
+     772
+    ],
+    [
+     45,
+     774
+    ],
+    [
+     34,
+     761
+    ],
+    [
+     35,
+     758
+    ],
+    [
+     29,
+     751
+    ],
+    [
+     24,
+     751
+    ],
+    [
+     20,
+     747
+    ],
+    [
+     19,
+     742
+    ],
+    [
+     24,
+     736
+    ],
+    [
+     26,
+     737
+    ],
+    [
+     33,
+     728
+    ],
+    [
+     37,
+     731
+    ],
+    [
+     42,
+     726
+    ],
+    [
+     39,
+     722
+    ],
+    [
+     42,
+     716
+    ],
+    [
+     34,
+     711
+    ],
+    [
+     30,
+     713
+    ],
+    [
+     27,
+     709
+    ],
+    [
+     26,
+     704
+    ],
+    [
+     29,
+     700
+    ],
+    [
+     23,
+     695
+    ],
+    [
+     26,
+     690
+    ],
+    [
+     25,
+     687
+    ],
+    [
+     29,
+     683
+    ],
+    [
+     36,
+     687
+    ],
+    [
+     42,
+     682
+    ],
+    [
+     38,
+     677
+    ],
+    [
+     45,
+     670
+    ],
+    [
+     53,
+     668
+    ],
+    [
+     57,
+     665
+    ],
+    [
+     65,
+     664
+    ],
+    [
+     68,
+     661
+    ],
+    [
+     65,
+     657
+    ],
+    [
+     60,
+     656
+    ],
+    [
+     57,
+     653
+    ],
+    [
+     52,
+     657
+    ],
+    [
+     49,
+     654
+    ],
+    [
+     51,
+     652
+    ],
+    [
+     38,
+     642
+    ],
+    [
+     35,
+     634
+    ],
+    [
+     37,
+     632
+    ],
+    [
+     33,
+     628
+    ],
+    [
+     29,
+     632
+    ],
+    [
+     24,
+     630
+    ],
+    [
+     22,
+     626
+    ],
+    [
+     22,
+     619
+    ],
+    [
+     18,
+     615
+    ],
+    [
+     22,
+     611
+    ],
+    [
+     23,
+     607
+    ],
+    [
+     29,
+     602
+    ],
+    [
+     27,
+     600
+    ],
+    [
+     29,
+     598
+    ],
+    [
+     30,
+     599
+    ],
+    [
+     34,
+     595
+    ],
+    [
+     41,
+     598
+    ],
+    [
+     47,
+     594
+    ],
+    [
+     41,
+     588
+    ],
+    [
+     36,
+     576
+    ],
+    [
+     38,
+     572
+    ],
+    [
+     34,
+     567
+    ],
+    [
+     43,
+     562
+    ],
+    [
+     42,
+     561
+    ],
+    [
+     44,
+     558
+    ],
+    [
+     39,
+     552
+    ],
+    [
+     43,
+     547
+    ],
+    [
+     42,
+     546
+    ],
+    [
+     44,
+     544
+    ],
+    [
+     47,
+     546
+    ],
+    [
+     55,
+     540
+    ],
+    [
+     59,
+     541
+    ],
+    [
+     62,
+     538
+    ],
+    [
+     59,
+     535
+    ],
+    [
+     55,
+     536
+    ],
+    [
+     46,
+     532
+    ],
+    [
+     40,
+     526
+    ],
+    [
+     32,
+     523
+    ],
+    [
+     27,
+     518
+    ],
+    [
+     24,
+     519
+    ],
+    [
+     22,
+     517
+    ],
+    [
+     24,
+     513
+    ],
+    [
+     28,
+     512
+    ],
+    [
+     34,
+     506
+    ],
+    [
+     41,
+     505
+    ],
+    [
+     44,
+     502
+    ],
+    [
+     39,
+     497
+    ],
+    [
+     40,
+     495
+    ],
+    [
+     36,
+     490
+    ],
+    [
+     30,
+     489
+    ],
+    [
+     23,
+     482
+    ],
+    [
+     25,
+     478
+    ],
+    [
+     33,
+     472
+    ],
+    [
+     30,
+     467
+    ],
+    [
+     27,
+     470
+    ],
+    [
+     25,
+     468
+    ],
+    [
+     27,
+     466
+    ],
+    [
+     26,
+     460
+    ],
+    [
+     33,
+     455
+    ],
+    [
+     37,
+     450
+    ],
+    [
+     38,
+     445
+    ],
+    [
+     44,
+     439
+    ],
+    [
+     49,
+     443
+    ],
+    [
+     57,
+     443
+    ],
+    [
+     62,
+     439
+    ],
+    [
+     51,
+     433
+    ],
+    [
+     53,
+     426
+    ],
+    [
+     50,
+     423
+    ],
+    [
+     40,
+     423
+    ],
+    [
+     36,
+     425
+    ],
+    [
+     27,
+     420
+    ],
+    [
+     28,
+     417
+    ],
+    [
+     19,
+     409
+    ],
+    [
+     22,
+     402
+    ],
+    [
+     18,
+     396
+    ],
+    [
+     21,
+     392
+    ],
+    [
+     20,
+     389
+    ],
+    [
+     23,
+     386
+    ],
+    [
+     28,
+     384
+    ],
+    [
+     31,
+     387
+    ],
+    [
+     34,
+     384
+    ],
+    [
+     32,
+     381
+    ],
+    [
+     34,
+     379
+    ],
+    [
+     48,
+     375
+    ],
+    [
+     51,
+     372
+    ],
+    [
+     38,
+     362
+    ],
+    [
+     43,
+     354
+    ],
+    [
+     60,
+     343
+    ],
+    [
+     60,
+     341
+    ],
+    [
+     52,
+     335
+    ],
+    [
+     52,
+     332
+    ],
+    [
+     58,
+     327
+    ],
+    [
+     58,
+     324
+    ],
+    [
+     55,
+     321
+    ],
+    [
+     51,
+     324
+    ],
+    [
+     40,
+     322
+    ],
+    [
+     37,
+     323
+    ],
+    [
+     34,
+     320
+    ],
+    [
+     33,
+     315
+    ],
+    [
+     37,
+     309
+    ],
+    [
+     40,
+     311
+    ],
+    [
+     47,
+     301
+    ],
+    [
+     58,
+     300
+    ],
+    [
+     63,
+     291
+    ],
+    [
+     69,
+     291
+    ],
+    [
+     76,
+     288
+    ],
+    [
+     80,
+     289
+    ],
+    [
+     84,
+     285
+    ],
+    [
+     79,
+     278
+    ],
+    [
+     74,
+     278
+    ],
+    [
+     69,
+     274
+    ],
+    [
+     60,
+     274
+    ],
+    [
+     56,
+     271
+    ],
+    [
+     56,
+     268
+    ],
+    [
+     64,
+     260
+    ],
+    [
+     63,
+     256
+    ],
+    [
+     59,
+     252
+    ],
+    [
+     51,
+     249
+    ],
+    [
+     40,
+     248
+    ],
+    [
+     31,
+     239
+    ],
+    [
+     43,
+     228
+    ],
+    [
+     51,
+     224
+    ],
+    [
+     61,
+     224
+    ],
+    [
+     67,
+     217
+    ],
+    [
+     83,
+     212
+    ],
+    [
+     88,
+     207
+    ],
+    [
+     82,
+     203
+    ],
+    [
+     80,
+     205
+    ],
+    [
+     75,
+     199
+    ],
+    [
+     64,
+     202
+    ],
+    [
+     54,
+     197
+    ],
+    [
+     53,
+     198
+    ],
+    [
+     44,
+     188
+    ],
+    [
+     39,
+     185
+    ],
+    [
+     43,
+     176
+    ],
+    [
+     55,
+     169
+    ],
+    [
+     57,
+     170
+    ],
+    [
+     60,
+     167
+    ],
+    [
+     52,
+     156
+    ],
+    [
+     51,
+     149
+    ]
+   ],
+   "notes": "Coasting only. One small island far out."
+  }
+ ],
+ "features": [
+  {
+   "id": "f01",
+   "name": "The Lorn",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     480.0,
+     200.0
+    ],
+    [
+     455.0,
+     240.0
+    ],
+    [
+     445.0,
+     292.0
+    ],
+    [
+     420.0,
+     290.0
+    ],
+    [
+     360.0,
+     278.0
+    ],
+    [
+     300.0,
+     270.0
+    ],
+    [
+     262.0,
+     262.0
+    ],
+    [
+     225.0,
+     268.0
+    ],
+    [
+     190.0,
+     262.0
+    ],
+    [
+     170.0,
+     250.0
+    ],
+    [
+     140.0,
+     235.0
+    ],
+    [
+     110.0,
+     212.0
+    ],
+    [
+     72.0,
+     205.0
+    ]
+   ],
+   "regions": [
+    "r02",
+    "r07",
+    "r06",
+    "r44"
+   ],
+   "known_to": "everyone along it; Dunmarrow",
+   "notes": "Wide and slow below Averby. Rises under the Hoarfells."
+  },
+  {
+   "id": "f02",
+   "name": "The Odran",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     292.0,
+     348.0
+    ],
+    [
+     262.0,
+     332.0
+    ],
+    [
+     240.0,
+     316.0
+    ],
+    [
+     205.0,
+     300.0
+    ],
+    [
+     185.0,
+     280.0
+    ],
+    [
+     190.0,
+     262.0
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the Lornlands",
+   "notes": "Joins the Lorn at Tollen. Widens into Lake Odran on its upper course."
+  },
+  {
+   "id": "f03",
+   "name": "The Sarn",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     455.0,
+     322.0
+    ],
+    [
+     480.0,
+     335.0
+    ],
+    [
+     540.0,
+     370.0
+    ],
+    [
+     600.0,
+     395.0
+    ],
+    [
+     615.0,
+     440.0
+    ],
+    [
+     605.0,
+     466.0
+    ]
+   ],
+   "regions": [
+    "r07",
+    "r09"
+   ],
+   "known_to": "Dunmarrow; the shore people",
+   "notes": "Runs to the great lake."
+  },
+  {
+   "id": "f04",
+   "name": "Dath Water",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     650.0,
+     195.0
+    ],
+    [
+     655.0,
+     235.0
+    ],
+    [
+     662.0,
+     268.0
+    ],
+    [
+     680.0,
+     285.0
+    ]
+   ],
+   "regions": [
+    "r04",
+    "r05"
+   ],
+   "known_to": "the Dathri",
+   "notes": "Snowmelt into Lake Arrun. The lake has no outflow anyone has found."
+  },
+  {
+   "id": "f05",
+   "name": "The Carn",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     388.0,
+     537.0
+    ],
+    [
+     340.0,
+     528.0
+    ],
+    [
+     300.0,
+     516.0
+    ],
+    [
+     260.0,
+     512.0
+    ],
+    [
+     235.0,
+     520.0
+    ],
+    [
+     200.0,
+     535.0
+    ],
+    [
+     165.0,
+     540.0
+    ],
+    [
+     130.0,
+     530.0
+    ],
+    [
+     95.0,
+     518.0
+    ],
+    [
+     48.0,
+     497.0
+    ],
+    [
+     40.0,
+     496.0
+    ]
+   ],
+   "regions": [
+    "r28",
+    "r09",
+    "r10"
+   ],
+   "known_to": "everyone west of the lake",
+   "notes": "The great lake's one outflow. Wide water; fordable at Carnford in low season."
+  },
+  {
+   "id": "f06",
+   "name": "The Withy",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     112.0,
+     668.0
+    ],
+    [
+     125.0,
+     690.0
+    ],
+    [
+     150.0,
+     705.0
+    ],
+    [
+     170.0,
+     718.0
+    ],
+    [
+     200.0,
+     740.0
+    ],
+    [
+     215.0,
+     760.0
+    ],
+    [
+     250.0,
+     780.0
+    ],
+    [
+     290.0,
+     792.0
+    ],
+    [
+     318.0,
+     800.0
+    ],
+    [
+     322.0,
+     820.0
+    ],
+    [
+     340.0,
+     838.0
+    ],
+    [
+     380.0,
+     850.0
+    ],
+    [
+     400.0,
+     862.0
+    ]
+   ],
+   "regions": [
+    "r13",
+    "r12",
+    "r15",
+    "r19"
+   ],
+   "known_to": "the Sallowfolk; the open steadings up and down it",
+   "notes": "Named for its willows. Floods the meadows in spring."
+  },
+  {
+   "id": "f07",
+   "name": "The Maud",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     497.0,
+     606.0
+    ],
+    [
+     500.0,
+     640.0
+    ],
+    [
+     510.0,
+     670.0
+    ],
+    [
+     506.0,
+     702.0
+    ],
+    [
+     515.0,
+     730.0
+    ],
+    [
+     508.0,
+     770.0
+    ],
+    [
+     515.0,
+     820.0
+    ],
+    [
+     520.0,
+     880.0
+    ],
+    [
+     520.0,
+     925.0
+    ]
+   ],
+   "regions": [
+    "r18",
+    "r19"
+   ],
+   "known_to": "everyone along it; the salt towns",
+   "notes": "Rises in springs under the lake's southern rim. Braided in its middle course. The most-worked river in the land."
+  },
+  {
+   "id": "f08",
+   "name": "The Skein",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     760.0,
+     655.0
+    ],
+    [
+     790.0,
+     680.0
+    ],
+    [
+     830.0,
+     700.0
+    ],
+    [
+     858.0,
+     735.0
+    ],
+    [
+     880.0,
+     770.0
+    ],
+    [
+     900.0,
+     800.0
+    ],
+    [
+     940.0,
+     835.0
+    ]
+   ],
+   "regions": [
+    "r23",
+    "r20",
+    "r21"
+   ],
+   "known_to": "the moving people; the salt towns",
+   "notes": "The main thread of many. Its channels move."
+  },
+  {
+   "id": "f09",
+   "name": "The Vest",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     655.0,
+     440.0
+    ],
+    [
+     670.0,
+     480.0
+    ],
+    [
+     700.0,
+     540.0
+    ],
+    [
+     720.0,
+     572.0
+    ],
+    [
+     780.0,
+     590.0
+    ],
+    [
+     850.0,
+     600.0
+    ],
+    [
+     905.0,
+     598.0
+    ],
+    [
+     985.0,
+     612.0
+    ]
+   ],
+   "regions": [
+    "r24",
+    "r25",
+    "r26"
+   ],
+   "known_to": "the Merrowen; the Oum",
+   "notes": "Slides through the fen to the eastern sea."
+  },
+  {
+   "id": "f10",
+   "name": "The Tern",
+   "type": "river",
+   "shape": "line",
+   "coords": [
+    [
+     562.0,
+     118.0
+    ],
+    [
+     563.0,
+     106.0
+    ],
+    [
+     567.0,
+     90.0
+    ],
+    [
+     573.0,
+     72.0
+    ],
+    [
+     576.0,
+     61.0
+    ]
+   ],
+   "regions": [
+    "r02",
+    "r41"
+   ],
+   "known_to": "the valley people",
+   "notes": "A short cold river in a long valley; data finer than the paint."
+  },
+  {
+   "id": "f11",
+   "name": "Lake Arrun",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     671.0,
+     294.0
+    ],
+    [
+     674.0,
+     297.0
+    ],
+    [
+     678.0,
+     295.0
+    ],
+    [
+     683.0,
+     299.0
+    ],
+    [
+     686.0,
+     299.0
+    ],
+    [
+     693.0,
+     304.0
+    ],
+    [
+     702.0,
+     306.0
+    ],
+    [
+     708.0,
+     310.0
+    ],
+    [
+     730.0,
+     313.0
+    ],
+    [
+     752.0,
+     307.0
+    ],
+    [
+     766.0,
+     298.0
+    ],
+    [
+     773.0,
+     298.0
+    ],
+    [
+     780.0,
+     292.0
+    ],
+    [
+     784.0,
+     291.0
+    ],
+    [
+     790.0,
+     284.0
+    ],
+    [
+     783.0,
+     277.0
+    ],
+    [
+     779.0,
+     275.0
+    ],
+    [
+     776.0,
+     277.0
+    ],
+    [
+     764.0,
+     268.0
+    ],
+    [
+     739.0,
+     261.0
+    ],
+    [
+     735.0,
+     264.0
+    ],
+    [
+     728.0,
+     262.0
+    ],
+    [
+     723.0,
+     263.0
+    ],
+    [
+     719.0,
+     261.0
+    ],
+    [
+     715.0,
+     264.0
+    ],
+    [
+     706.0,
+     264.0
+    ],
+    [
+     701.0,
+     267.0
+    ],
+    [
+     693.0,
+     267.0
+    ],
+    [
+     686.0,
+     272.0
+    ],
+    [
+     680.0,
+     273.0
+    ],
+    [
+     677.0,
+     276.0
+    ],
+    [
+     678.0,
+     281.0
+    ],
+    [
+     682.0,
+     285.0
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "the Dathri",
+   "notes": "Fills most of the cupped valley's floor. The plan asked a valley; the paint gave a valley with a lake in it."
+  },
+  {
+   "id": "f12",
+   "name": "The Withymere",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     160.0,
+     708.0
+    ],
+    [
+     188.0,
+     712.0
+    ],
+    [
+     190.0,
+     732.0
+    ],
+    [
+     165.0,
+     734.0
+    ]
+   ],
+   "regions": [
+    "r13"
+   ],
+   "known_to": "Withyhead folk; Sallowfolk who go up the track",
+   "notes": "A lake on the upper Withy."
+  },
+  {
+   "id": "f13",
+   "name": "Lake Odran",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     238.0,
+     314.0
+    ],
+    [
+     252.0,
+     318.0
+    ],
+    [
+     256.0,
+     328.0
+    ],
+    [
+     244.0,
+     326.0
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the Lornlands",
+   "notes": "A made lake no one remembers making. A drowned town lies under it."
+  },
+  {
+   "id": "f14",
+   "name": "Ternlake",
+   "type": "lake",
+   "shape": "area",
+   "coords": [
+    [
+     561.6,
+     111.6
+    ],
+    [
+     563.4,
+     112.2
+    ],
+    [
+     562.0,
+     112.9
+    ]
+   ],
+   "regions": [
+    "r02"
+   ],
+   "known_to": "the valley people",
+   "notes": "A small lake below the valley head. Freezes early."
+  },
+  {
+   "id": "f15",
+   "name": "Ternaby",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     573.0,
+     71.0
+    ]
+   ],
+   "regions": [
+    "r02"
+   ],
+   "known_to": "the valley people; coasters",
+   "notes": "The walled seat of the people god-ice comes to, near the valley mouth. Its people call it the seat or the wall."
+  },
+  {
+   "id": "f16",
+   "name": "Scour Gap",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     560.0,
+     135.0
+    ]
+   ],
+   "regions": [
+    "r02"
+   ],
+   "known_to": "the valley people; Dunmarrow drovers",
+   "notes": "The way south out of the long valley. Shut from first snow to the thaw."
+  },
+  {
+   "id": "f17",
+   "name": "The Scour Way",
+   "type": "path",
+   "shape": "line",
+   "coords": [
+    [
+     573.0,
+     71.0
+    ],
+    [
+     567.0,
+     90.0
+    ],
+    [
+     562.0,
+     114.0
+    ],
+    [
+     560.0,
+     135.0
+    ],
+    [
+     545.0,
+     200.0
+    ],
+    [
+     500.0,
+     290.0
+    ],
+    [
+     440.0,
+     335.0
+    ]
+   ],
+   "regions": [
+    "r02",
+    "r07"
+   ],
+   "known_to": "the valley people; Dunmarrow",
+   "notes": "A beaten track from the cold coast over the gap to Hallisk."
+  },
+  {
+   "id": "f18",
+   "name": "The Iceway",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     480.0,
+     125.0
+    ]
+   ],
+   "regions": [
+    "r02"
+   ],
+   "known_to": "almost no one; a herder's tale",
+   "notes": "A straight old road that shows under the ice in a low-snow year."
+  },
+  {
+   "id": "f19",
+   "name": "Kessmar",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     722.0,
+     315.5
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "the Dathri; traders named to pass",
+   "notes": "The town of the Dathri, of fitted and dry-laid stone, on the south shore of Lake Arrun."
+  },
+  {
+   "id": "f20",
+   "name": "Harl Notch",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     668.0,
+     333.0
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the Dathri; Dunmarrow traders",
+   "notes": "The western notch in the valley's south wall. The widest and most used."
+  },
+  {
+   "id": "f21",
+   "name": "Venn Notch",
+   "type": "pass",
+   "shape": "point",
+   "coords": [
+    [
+     792.0,
+     330.0
+    ]
+   ],
+   "regions": [
+    "r05"
+   ],
+   "known_to": "the Dathri",
+   "notes": "The eastern notch. Steeper; leads down to the Harrow Roughs."
+  },
+  {
+   "id": "f22",
+   "name": "The Harl Way",
+   "type": "path",
+   "shape": "line",
+   "coords": [
+    [
+     722.0,
+     315.5
+    ],
+    [
+     668.0,
+     333.0
+    ],
+    [
+     620.0,
+     380.0
+    ],
+    [
+     560.0,
+     400.0
+    ]
+   ],
+   "regions": [
+    "r05",
+    "r04",
+    "r27",
+    "r09"
+   ],
+   "known_to": "the Dathri; Dunmarrow",
+   "notes": "The trade track from Kessmar over Harl Notch to Pellam. Salt and bronze come in by it."
+  },
+  {
+   "id": "f23",
+   "name": "The Venn Track",
+   "type": "path",
+   "shape": "line",
+   "coords": [
+    [
+     722.0,
+     315.5
+    ],
+    [
+     792.0,
+     330.0
+    ],
+    [
+     800.0,
+     398.0
+    ]
+   ],
+   "regions": [
+    "r05",
+    "r04",
+    "r27",
+    "r24"
+   ],
+   "known_to": "the Dathri",
+   "notes": "A herders' track over Venn Notch to the forest's edge."
+  },
+  {
+   "id": "f24",
+   "name": "Gathol Door",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     652.0,
+     228.0
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "the Dathri, as a place not to dig",
+   "notes": "A sealed door in the mountain's root. Behind it the old way runs under the range for some tens of miles to Nether Door: cut gallery, side chambers, a stair, a round vault; in it a door with no handle on the near side, and one set of bones with an agreement in its hand. Underground, data only."
+  },
+  {
+   "id": "f25",
+   "name": "Nether Door",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     805.0,
+     352.0
+    ]
+   ],
+   "regions": [
+    "r27"
+   ],
+   "known_to": "a few hill steadings of the Roughs",
+   "notes": "The far end of the old way under the range. Sealed."
+  },
+  {
+   "id": "f26",
+   "name": "Rib Hollow",
+   "type": "cave",
+   "shape": "point",
+   "coords": [
+    [
+     600.0,
+     300.0
+    ]
+   ],
+   "regions": [
+    "r04"
+   ],
+   "known_to": "Dunmarrow shepherds",
+   "notes": "A cave with great bones in it."
+  },
+  {
+   "id": "f27",
+   "name": "Tollen",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     190.0,
+     262.0
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the Lornlands; Dunmarrow",
+   "notes": "The market town at the meeting of the Lorn and the Odran, with a toll-post at the water. Its people call it the Crossing."
+  },
+  {
+   "id": "f28",
+   "name": "The Tallstones",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     191.4,
+     260.2
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "the people of Tollen",
+   "notes": "A line of boundary stones along the river terrace, carved with terms no one can now read."
+  },
+  {
+   "id": "f29",
+   "name": "Averby",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     300.0,
+     270.0
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "Dunmarrow; the Lornlands",
+   "notes": "A crossing town of Dunmarrow on the Lorn."
+  },
+  {
+   "id": "f30",
+   "name": "Sunken Odran",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     247.0,
+     321.0
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "a story in the Lornlands",
+   "notes": "The drowned town under Lake Odran. Roofs show in a dry year."
+  },
+  {
+   "id": "f31",
+   "name": "The Turnings",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     62.0,
+     300.0
+    ]
+   ],
+   "regions": [
+    "r06"
+   ],
+   "known_to": "coast fishers",
+   "notes": "A small labyrinth of low walls above ground on the north-west coast, with its exit marked."
+  },
+  {
+   "id": "f32",
+   "name": "The Marrow Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     190.0,
+     262.0
+    ],
+    [
+     300.0,
+     270.0
+    ],
+    [
+     440.0,
+     335.0
+    ],
+    [
+     560.0,
+     400.0
+    ]
+   ],
+   "regions": [
+    "r06",
+    "r07",
+    "r09"
+   ],
+   "known_to": "everyone in the north-west",
+   "notes": "The kingdom's road from Tollen by Averby and Hallisk to Pellam. Old, kept in part."
+  },
+  {
+   "id": "f33",
+   "name": "The Carn Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     300.0,
+     270.0
+    ],
+    [
+     280.0,
+     370.0
+    ],
+    [
+     240.0,
+     420.0
+    ],
+    [
+     205.0,
+     500.0
+    ],
+    [
+     200.4,
+     533.6
+    ],
+    [
+     200.0,
+     535.0
+    ]
+   ],
+   "regions": [
+    "r06",
+    "r08",
+    "r10"
+   ],
+   "known_to": "Dunmarrow; the ford people",
+   "notes": "An old road from Averby over the Carn Hills to the ford. An older straight road runs under it."
+  },
+  {
+   "id": "f34",
+   "name": "The Bank Road",
+   "type": "road",
+   "shape": "line",
+   "coords": [
+    [
+     48.0,
+     497.0
+    ],
+    [
+     95.0,
+     515.0
+    ],
+    [
+     165.0,
+     538.0
+    ],
+    [
+     200.0,
+     535.0
+    ],
+    [
+     260.0,
+     510.0
+    ],
+    [
+     340.0,
+     526.0
+    ],
+    [
+     380.0,
+     545.0
+    ]
+   ],
+   "regions": [
+    "r10"
+   ],
+   "known_to": "everyone on the Carn",
+   "notes": "The road along the Carn from the sea to the lake."
+  },
+  {
+   "id": "f35",
+   "name": "Hallisk",
+   "type": "city",
+   "shape": "point",
+   "coords": [
+    [
+     440.0,
+     335.0
+    ]
+   ],
+   "regions": [
+    "r07"
+   ],
+   "known_to": "everyone in the north and west",
+   "notes": "The old capital of Dunmarrow. A court, a hall of weights, more houses than people now."
+  },
+  {
+   "id": "f36",
+   "name": "Pellam",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     560.0,
+     400.0
+    ]
+   ],
+   "regions": [
+    "r09"
+   ],
+   "known_to": "Dunmarrow; the Dathri's traders",
+   "notes": "Dunmarrow's eastern market, where mountain stone and wool meet salt."
+  },
+  {
+   "id": "f37",
+   "name": "Brinegarth",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     395.0,
+     250.0
+    ]
+   ],
+   "regions": [
+    "r07"
+   ],
+   "known_to": "Dunmarrow",
+   "notes": "Brine springs and boiling houses. The kingdom's own salt, never enough."
+  },
+  {
+   "id": "f38",
+   "name": "Dryhythe",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     385.0,
+     300.0
+    ]
+   ],
+   "regions": [
+    "r07"
+   ],
+   "known_to": "Dunmarrow",
+   "notes": "A stone ferry landing with no river beside it, on an old dry channel."
+  },
+  {
+   "id": "f39",
+   "name": "Carnford",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     200.0,
+     535.0
+    ]
+   ],
+   "regions": [
+    "r10"
+   ],
+   "known_to": "everyone on the roads of the west",
+   "notes": "The walled town at the ford where the Carn Road meets the Bank Road. Its people call it the Ford."
+  },
+  {
+   "id": "f40",
+   "name": "Carn Vault",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     240.0,
+     420.0
+    ]
+   ],
+   "regions": [
+    "r08"
+   ],
+   "known_to": "no one living; drovers know the hollow sound",
+   "notes": "A vault under the old road where the Carn Road crosses the hills."
+  },
+  {
+   "id": "f41",
+   "name": "Wether Door",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     150.0,
+     425.0
+    ]
+   ],
+   "regions": [
+    "r08"
+   ],
+   "known_to": "shepherds of the Carn Hills",
+   "notes": "A sealed door in a hillside."
+  },
+  {
+   "id": "f42",
+   "name": "Carnmouth",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     48.0,
+     497.0
+    ]
+   ],
+   "regions": [
+    "r10"
+   ],
+   "known_to": "the Carn",
+   "notes": "A fishing and landing village at the river's mouth."
+  },
+  {
+   "id": "f43",
+   "name": "The Fell Way",
+   "type": "path",
+   "shape": "line",
+   "coords": [
+    [
+     200.0,
+     535.0
+    ],
+    [
+     195.0,
+     600.0
+    ],
+    [
+     180.0,
+     660.0
+    ],
+    [
+     172.0,
+     712.0
+    ],
+    [
+     182.0,
+     740.0
+    ],
+    [
+     200.0,
+     748.0
+    ],
+    [
+     226.0,
+     762.0
+    ]
+   ],
+   "regions": [
+    "r10",
+    "r11",
+    "r13",
+    "r12"
+   ],
+   "known_to": "Carnford drovers; Withyhead folk; the Sallowfolk",
+   "notes": "A beaten track from the ford over Heatherfell and down the upper Withy."
+  },
+  {
+   "id": "f44",
+   "name": "The Foot Track",
+   "type": "path",
+   "shape": "line",
+   "coords": [
+    [
+     226.0,
+     762.0
+    ],
+    [
+     245.0,
+     765.0
+    ],
+    [
+     264.0,
+     766.6
+    ],
+    [
+     285.0,
+     774.0
+    ],
+    [
+     302.0,
+     783.0
+    ],
+    [
+     340.0,
+     836.0
+    ],
+    [
+     380.0,
+     850.0
+    ]
+   ],
+   "regions": [
+    "r12",
+    "r15"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "The worn cart track along the foot of the northern slope of Sallowdene and on down the valley. Under part of it runs one of the old straight roads."
+  },
+  {
+   "id": "f45",
+   "name": "Merestead",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     182.0,
+     740.0
+    ]
+   ],
+   "regions": [
+    "r13"
+   ],
+   "known_to": "Withyhead; the Sallowfolk",
+   "notes": "A few farms below the Withymere."
+  },
+  {
+   "id": "f46",
+   "name": "Eelstow",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     380.0,
+     850.0
+    ]
+   ],
+   "regions": [
+    "r15"
+   ],
+   "known_to": "the lower Withy",
+   "notes": "Eel fishers at the river's mouth."
+  },
+  {
+   "id": "f47",
+   "name": "Sallowford",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     258.0,
+     782.4
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "The river crossing where the reeves meet, with a market ground that fills a few days a year. The Sallowfolk call it the crossing."
+  },
+  {
+   "id": "f48",
+   "name": "Kettling Hall",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     264.5,
+     766.6
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the highest hamlet",
+   "notes": "A roofless stone hall by the old track, at the edge of the highest hamlet. Older than the Sallowfolk. They call it the old hall."
+  },
+  {
+   "id": "f49",
+   "name": "unnamed hamlet 1",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     231.0,
+     767.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f50",
+   "name": "unnamed hamlet 2",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     236.0,
+     776.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f51",
+   "name": "unnamed hamlet 3",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     242.0,
+     772.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f52",
+   "name": "unnamed hamlet 4",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     247.0,
+     783.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f53",
+   "name": "unnamed hamlet 5",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     252.0,
+     776.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f54",
+   "name": "unnamed hamlet 6",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     257.0,
+     787.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f55",
+   "name": "unnamed hamlet 7",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     263.0,
+     781.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f56",
+   "name": "unnamed hamlet 8",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     268.0,
+     790.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f57",
+   "name": "unnamed hamlet 9",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     273.0,
+     783.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f58",
+   "name": "unnamed hamlet 10",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     279.0,
+     794.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f59",
+   "name": "unnamed hamlet 11",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     285.0,
+     788.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f60",
+   "name": "unnamed hamlet 12",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     292.0,
+     796.0
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play."
+  },
+  {
+   "id": "f61",
+   "name": "unnamed hamlet 13",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     264.0,
+     766.2
+    ]
+   ],
+   "regions": [
+    "r12"
+   ],
+   "known_to": "the Sallowfolk",
+   "notes": "A hamlet of Sallowdene; its name is left for play. The highest hamlet, where the upland starts."
+  },
+  {
+   "id": "f62",
+   "name": "The Comb Barrows",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     410.0,
+     690.0
+    ]
+   ],
+   "regions": [
+    "r17"
+   ],
+   "known_to": "a few heath herders, who keep away",
+   "notes": "A huge and ancient abandoned apiary on the high heath: rows of stone-built hive houses under turf, with wax in them older than the kingdoms."
+  },
+  {
+   "id": "f63",
+   "name": "The Posted Door",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     338.0,
+     742.0
+    ]
+   ],
+   "regions": [
+    "r17"
+   ],
+   "known_to": "Heatherfell herders",
+   "notes": "A door in a hillside, shut on purpose, with a carved notice beside it that no one reads."
+  },
+  {
+   "id": "f64",
+   "name": "Maudry",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     507.0,
+     702.0
+    ]
+   ],
+   "regions": [
+    "r18"
+   ],
+   "known_to": "everyone on the Maud",
+   "notes": "The walled town at the bend in the middle reach. Its people call themselves the people of the Bend."
+  },
+  {
+   "id": "f65",
+   "name": "The Weir Path",
+   "type": "path",
+   "shape": "line",
+   "coords": [
+    [
+     498.0,
+     612.0
+    ],
+    [
+     500.0,
+     640.0
+    ],
+    [
+     510.0,
+     670.0
+    ],
+    [
+     507.0,
+     702.0
+    ],
+    [
+     515.0,
+     730.0
+    ],
+    [
+     508.0,
+     770.0
+    ]
+   ],
+   "regions": [
+    "r18"
+   ],
+   "known_to": "the river people",
+   "notes": "The towpath and track along the Maud."
+  },
+  {
+   "id": "f66",
+   "name": "Nenna",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     520.0,
+     450.0
+    ]
+   ],
+   "regions": [
+    "r09"
+   ],
+   "known_to": "the shore people; Dunmarrow",
+   "notes": "A village of the north shore."
+  },
+  {
+   "id": "f67",
+   "name": "Lowater",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     650.0,
+     522.0
+    ]
+   ],
+   "regions": [
+    "r29"
+   ],
+   "known_to": "the shore people",
+   "notes": "A village of the east shore."
+  },
+  {
+   "id": "f68",
+   "name": "Ammot",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     380.0,
+     545.0
+    ]
+   ],
+   "regions": [
+    "r10"
+   ],
+   "known_to": "the shore people; the Carn",
+   "notes": "The village where the Carn leaves the lake."
+  },
+  {
+   "id": "f69",
+   "name": "unnamed fallen stone",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     764.0,
+     496.0
+    ]
+   ],
+   "regions": [
+    "r24"
+   ],
+   "known_to": "no one yet",
+   "notes": "A warm blue-grey stone, heavy for its size, that fell in the forest the night the gods came down. 63 hundredths of the way from Kessmar to Vesthallow (r-0140, r-0141)."
+  },
+  {
+   "id": "f70",
+   "name": "Farholm",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     12.0,
+     560.0
+    ]
+   ],
+   "regions": [
+    "r44"
+   ],
+   "known_to": "a story on the west coast",
+   "notes": "A small island far out in the western sea, past a long crossing. Finer than the paint."
+  },
+  {
+   "id": "f71",
+   "name": "Vesthallow",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     712.0,
+     570.0
+    ]
+   ],
+   "regions": [
+    "r25"
+   ],
+   "known_to": "the Merrowen; the salt carriers",
+   "notes": "The walled seat of the Merrowen on a rise at the fen's edge."
+  },
+  {
+   "id": "f72",
+   "name": "Grayle Ford",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     830.0,
+     700.0
+    ]
+   ],
+   "regions": [
+    "r20"
+   ],
+   "known_to": "the moving people",
+   "notes": "A gravel ford on the Skein, one of the few."
+  },
+  {
+   "id": "f73",
+   "name": "Lowhythe",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     858.0,
+     735.0
+    ]
+   ],
+   "regions": [
+    "r20"
+   ],
+   "known_to": "the moving people; the salt towns",
+   "notes": "The winter seat of the moving people on a sheltered bend: timber and turf houses, empty half the year."
+  },
+  {
+   "id": "f74",
+   "name": "Hollin Spring",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     760.0,
+     655.0
+    ]
+   ],
+   "regions": [
+    "r23"
+   ],
+   "known_to": "shepherds of the ridge",
+   "notes": "The spring at the head of the Skein."
+  },
+  {
+   "id": "f75",
+   "name": "Dry Stairs",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     880.0,
+     690.0
+    ]
+   ],
+   "regions": [
+    "r20"
+   ],
+   "known_to": "the moving people",
+   "notes": "An old stone landing where the water has moved away."
+  },
+  {
+   "id": "f76",
+   "name": "Yskar",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     805.0,
+     850.0
+    ]
+   ],
+   "regions": [
+    "r21"
+   ],
+   "known_to": "everyone who buys salt",
+   "notes": "The chief of the salt towns, on the flats."
+  },
+  {
+   "id": "f77",
+   "name": "Orsk",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     700.0,
+     862.0
+    ]
+   ],
+   "regions": [
+    "r22"
+   ],
+   "known_to": "the south coast",
+   "notes": "A salt town and grain port west of the flats."
+  },
+  {
+   "id": "f78",
+   "name": "Varn",
+   "type": "town",
+   "shape": "point",
+   "coords": [
+    [
+     900.0,
+     800.0
+    ]
+   ],
+   "regions": [
+    "r21"
+   ],
+   "known_to": "the south-east coast",
+   "notes": "A salt town at the mouths of the Skein."
+  },
+  {
+   "id": "f79",
+   "name": "Lowgrave Field",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     740.0,
+     850.0
+    ]
+   ],
+   "regions": [
+    "r22"
+   ],
+   "known_to": "Orsk and Yskar",
+   "notes": "An old burial ground whose graves are dug far too deep for their dead."
+  },
+  {
+   "id": "f80",
+   "name": "The Salt Way",
+   "type": "path",
+   "shape": "line",
+   "coords": [
+    [
+     805.0,
+     850.0
+    ],
+    [
+     700.0,
+     862.0
+    ],
+    [
+     690.0,
+     775.0
+    ],
+    [
+     700.0,
+     700.0
+    ],
+    [
+     712.0,
+     620.0
+    ],
+    [
+     712.0,
+     570.0
+    ]
+   ],
+   "regions": [
+    "r21",
+    "r22",
+    "r20",
+    "r23",
+    "r25"
+   ],
+   "known_to": "the salt towns; the Merrowen",
+   "notes": "The carriers' track from the salt towns over Hollin Ridge to the fen."
+  },
+  {
+   "id": "f81",
+   "name": "Koldry",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     945.0,
+     500.0
+    ]
+   ],
+   "regions": [
+    "r26"
+   ],
+   "known_to": "the Oum; a few Merrowen",
+   "notes": "The hold of the Oum."
+  },
+  {
+   "id": "f82",
+   "name": "Ammeth Hall",
+   "type": "ruin",
+   "shape": "point",
+   "coords": [
+    [
+     955.0,
+     440.0
+    ]
+   ],
+   "regions": [
+    "r26"
+   ],
+   "known_to": "the Oum",
+   "notes": "A hall of forgotten purpose in the hills, with a stair under a sealed door."
+  },
+  {
+   "id": "f83",
+   "name": "Skarhaven",
+   "type": "village",
+   "shape": "point",
+   "coords": [
+    [
+     860.0,
+     110.0
+    ]
+   ],
+   "regions": [
+    "r03"
+   ],
+   "known_to": "the cold coast",
+   "notes": "A sealers' and fishers' haven."
+  }
+ ],
+ "landings": {
+  "player": {
+   "region": "r12",
+   "at": [
+    251.0,
+    779.0
+   ]
+  },
+  "god-ice": {
+   "region": "r02",
+   "at": [
+    562.0,
+    114.0
+   ]
+  },
+  "god-stone": {
+   "region": "r05",
+   "at": [
+    721.2,
+    317.6
+   ]
+  },
+  "god-dreams": {
+   "region": "r25",
+   "at": [
+    714.0,
+    560.5
+   ]
+  },
+  "god-secrets": {
+   "region": "r20",
+   "at": [
+    830.3,
+    700.3
+   ]
+  },
+  "god-rivers": {
+   "region": "r18",
+   "at": [
+    505.8,
+    701.2
+   ]
+  },
+  "god-trade": {
+   "region": "r10",
+   "at": [
+    200.4,
+    533.6
+   ]
+  },
+  "god-law": {
+   "region": "r06",
+   "at": [
+    190.8,
+    260.6
+   ]
+  }
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "campaign": "sim-04",
+ "regions": {
+  "r05": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r04": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "mountains close by",
+    "terrain": "mountain"
+   }
+  }
+ },
+ "features": {
+  "f22": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a beaten track",
+    "type": "path",
+    "coords": [
+     [
+      722.0,
+      315.5
+     ],
+     [
+      720.6,
+      315.9
+     ],
+     [
+      719.3,
+      316.4
+     ],
+     [
+      719.3,
+      316.4
+     ]
+    ]
+   }
+  }
+ }
+}

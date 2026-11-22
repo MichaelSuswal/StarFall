@@ -1,0 +1,75 @@
+{
+ "campaign": "sim-04",
+ "regions": {
+  "r20": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r23": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a line of hills to the west",
+    "terrain": "hill"
+   }
+  }
+ },
+ "features": {
+  "f08": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a river",
+    "type": "river",
+    "coords": [
+     [
+      828.0,
+      699.0
+     ],
+     [
+      829.0,
+      699.5
+     ],
+     [
+      830.0,
+      700.0
+     ],
+     [
+      830.7,
+      700.9
+     ],
+     [
+      831.4,
+      701.8
+     ],
+     [
+      832.1,
+      702.6
+     ],
+     [
+      832.1,
+      702.6
+     ]
+    ]
+   }
+  },
+  "f72": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a marked place",
+    "type": "site",
+    "coords": [
+     [
+      830.0,
+      700.0
+     ]
+    ]
+   }
+  }
+ }
+}

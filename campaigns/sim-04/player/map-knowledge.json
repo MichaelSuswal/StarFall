@@ -1,0 +1,187 @@
+{
+ "campaign": "sim-04",
+ "regions": {
+  "r12": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1,
+   "named": true
+  },
+  "r11": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "high brown ground to the north",
+    "terrain": "highland"
+   }
+  },
+  "r13": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "lower ground along the valley to the west",
+    "terrain": "valley"
+   }
+  },
+  "r14": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "high brown ground to the south",
+    "terrain": "highland"
+   }
+  }
+ },
+ "features": {
+  "f06": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a river",
+    "type": "river",
+    "coords": [
+     [
+      248.2,
+      779.0
+     ],
+     [
+      249.1,
+      779.5
+     ],
+     [
+      250.0,
+      780.0
+     ],
+     [
+      251.0,
+      780.3
+     ],
+     [
+      252.0,
+      780.6
+     ],
+     [
+      253.0,
+      780.9
+     ],
+     [
+      253.0,
+      780.9
+     ]
+    ]
+   }
+  },
+  "f49": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the north-west",
+    "cell": "B3"
+   }
+  },
+  "f50": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the west",
+    "cell": "B4"
+   }
+  },
+  "f51": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the north-west",
+    "cell": "B4"
+   }
+  },
+  "f52": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the south-west",
+    "cell": "B4"
+   }
+  },
+  "f53": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the north",
+    "cell": "B4"
+   }
+  },
+  "f54": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the south-east",
+    "cell": "B4"
+   }
+  },
+  "f55": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the east",
+    "cell": "B4"
+   }
+  },
+  "f56": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the south-east",
+    "cell": "B4"
+   }
+  },
+  "f57": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the east",
+    "cell": "B4"
+   }
+  },
+  "f58": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the south-east",
+    "cell": "B4"
+   }
+  },
+  "f59": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the east",
+    "cell": "B4"
+   }
+  },
+  "f61": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the north-east",
+    "cell": "B3"
+   }
+  }
+ }
+}

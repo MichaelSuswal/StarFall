@@ -1,12 +1,12 @@
 # People: the Merrowen, of Vesthallow
 
-The people call themselves the Merrowen, "the folk of the mere", and their walled seat Vesthallow. Smaller places and groups among them are left unnamed for play.
+The people call themselves the Merrowen, "the folk of the mere", and their walled seat Vesthallow [f71]. Smaller places and groups among them are left unnamed for play.
 
 ## Who they are
 Human. A fen and forest people of the rise at the fen's edge, long settled, reed-cutters, eel-takers, charcoal burners, woodcutters, shepherds on the near hills, and the smiths, weavers and potters of a small walled town. They are dark-haired and pale-skinned for the most part, used to mist, damp and early dark, and unhurried in speech. They are not a conquering people. They are a keeping people, wary of strangers and generous to those who have been tried.
 
 ## How many
-About five thousand, as given. About two thousand within the walls of Vesthallow, and about three thousand in the steadings scattered round it and along the fen's edge, each steading a day's walk or less from the next. I would have preferred fewer, for I lean toward a small people, but I take the number as given and ask the Keeper to price its cost in food and fuel.
+About five thousand, as given. About two thousand within the walls of Vesthallow [f71], and about three thousand in the steadings scattered round it and along the fen's edge, each steading a day's walk or less from the next. I would have preferred fewer, for I lean toward a small people, but I take the number as given and ask the Keeper to price its cost in food and fuel.
 
 ## How they live
 Within the walls, a market square, a hall of the court, a granary, a few score houses of timber and daub, and lanes narrow enough that two lamps held across them touch. Outside the walls, steadings of a longhouse and a few outbuildings each, with fields on the drier ground, eel weirs and reed beds in the fen, and charcoal stacks in the wood. They burn tallow, rushlight and oil in a quantity unusual among peoples of their level, and they know it is dear. Winter is hard on them and the long nights harder; the hearth is the center of every house.
@@ -30,7 +30,7 @@ Few have it, and I leave the number to the world. They call it wick-singing. A w
 They have no named god. They say there are watchers in the night who keep the sleepers, and that the lamp in the window is for them as much as for the dead. They believe the watchers come out of the wood in the dark, seldom and without announcement, and that one does not stare at them but leaves a light. They tell of old nights when a watcher came to a house and was not turned away, and what the house had of it after. What caused the saying is the world's. They know nothing of me. When I come they do not wait for me by name; they wait, in the way of a people who have always kept a light, for whoever comes.
 
 ## Rule and worship
-I take the rule given: a sacred monarch behind a court. A mortal line holds the throne in my name and is held sacred for it, and a court stands between the throne and the people, so that I am reached through it. The line is called the Wick, and the one on the throne is the Wickholder, who sits in the hall of Vesthallow. The Wickholder is held sacred in the sense that their person may not be struck, their hall may not be entered armed, and they keep the great lamp of the town, which is never let to go out while they live.
+I take the rule given: a sacred monarch behind a court. A mortal line holds the throne in my name and is held sacred for it, and a court stands between the throne and the people, so that I am reached through it. The line is called the Wick, and the one on the throne is the Wickholder, who sits in the hall of Vesthallow [f71]. The Wickholder is held sacred in the sense that their person may not be struck, their hall may not be entered armed, and they keep the great lamp of the town, which is never let to go out while they live.
 I take the worship given: local shrines. Household and village shrines, a lamp on a sill or a niche, kept by whoever keeps them, no priests, no order, no temple. The great lamp in the hall is the only large one and it is kept by the court, not by priests.
 
 ## Hierarchy

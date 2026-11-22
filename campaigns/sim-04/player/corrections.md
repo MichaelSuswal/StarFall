@@ -17,3 +17,27 @@ The card was reviewed as the Day 2 table promised. No limit is added to any powe
 - The Regathering's second ground, "the oldest wild hive in the chosen valley", is found from the land once a valley is chosen in play. Nothing is settled about it before then.
 - How hard the Working's cost bites on a hive's winter stores is found in play, from the hives and the year.
 - The card says only that two hidden powers exist, and its Ceiling line reads as it should. Nothing to change.
+
+# For the DM: from the night that built the people's land (creation Night 3a, 2026-11-22)
+
+Words the player may hear. Nothing below changes what was agreed at the Day 3 table. The people's record was not edited. The power card was touched only where two Day 3 rulings marked pending now carry their ledger ids.
+
+## For the DM to write into the people's record
+
+1. Under "Priced edges and weaknesses", the line "Both rulings: settled at creation. Ledger: pending, Night 3." The ids are L-0019 for the first edge and L-0020 for the second. The Keeper may write an id back only on the power card, so this one is yours to write.
+2. Under "Their magic": the pricing you gave at the table (a bad night for each use; what she reads has already happened; no foresight) stands as you priced it. It is entered as L-0027.
+
+## For the DM to put to the player before the god lands
+
+1. The count of bee-wives. The player asked to be told if the fitting changed it, and it did. There are three bee-wives in the valley, in three of its hamlets, where the wish was about one hamlet in three. In the other hamlets it is rumor, as the player wished.
+2. The hamlets. There are thirteen. They stay unnamed for play. One is the highest, where the upland starts, as the player wished for the mortal it made.
+3. The roofless stone hall. It stands, by the old track at the edge of the highest hamlet. What the mortal the player made has noticed there is so, as he has noticed it. No other line is owed about him.
+4. The river crossing with its market ground. It stands, near the middle of the valley, and the reeves meet there.
+5. The meeting. Kept exactly as agreed. Nothing in the land required a change.
+
+## For the DM to know
+
+- The starting numbers are in `campaigns/sim-04/civs/sallowfolk/state.md`, under the population line you wrote.
+- The valley is long: about 77 miles from end to end, so a day's flight does not cross it. The god's map of it is drawn from `campaigns/sim-04/player/map-knowledge.json`, which holds only what the god sees from where it comes down.
+- What the people know of the land beyond their valley reaches the god only as they tell it, in play. It comes to you with the first morning's release.
+

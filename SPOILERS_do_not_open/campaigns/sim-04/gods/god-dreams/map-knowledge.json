@@ -1,0 +1,78 @@
+{
+ "campaign": "sim-04",
+ "regions": {
+  "r25": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r23": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a line of hills to the south",
+    "terrain": "hill"
+   }
+  },
+  "r24": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a dark line of forest to the north",
+    "terrain": "forest"
+   }
+  }
+ },
+ "features": {
+  "f09": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a river",
+    "type": "river",
+    "coords": [
+     [
+      712.0,
+      559.2
+     ],
+     [
+      712.5,
+      560.0
+     ],
+     [
+      713.0,
+      560.8
+     ],
+     [
+      713.5,
+      561.6
+     ],
+     [
+      714.0,
+      562.4
+     ],
+     [
+      714.5,
+      563.2
+     ],
+     [
+      714.5,
+      563.2
+     ]
+    ]
+   }
+  },
+  "f71": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the south",
+    "cell": "D3"
+   }
+  }
+ }
+}

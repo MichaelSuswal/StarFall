@@ -1,0 +1,152 @@
+{
+ "campaign": "sim-04",
+ "regions": {
+  "r06": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r01": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "mountains to the north-east",
+    "terrain": "mountain"
+   }
+  }
+ },
+ "features": {
+  "f01": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a river",
+    "type": "river",
+    "coords": [
+     [
+      192.6,
+      262.4
+     ],
+     [
+      191.8,
+      262.3
+     ],
+     [
+      190.9,
+      262.1
+     ],
+     [
+      190.0,
+      262.0
+     ],
+     [
+      189.5,
+      261.7
+     ],
+     [
+      189.0,
+      261.4
+     ],
+     [
+      188.5,
+      261.1
+     ],
+     [
+      188.0,
+      260.8
+     ],
+     [
+      188.0,
+      260.8
+     ]
+    ]
+   }
+  },
+  "f02": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a river",
+    "type": "river",
+    "coords": [
+     [
+      189.6,
+      263.4
+     ],
+     [
+      189.8,
+      262.9
+     ],
+     [
+      189.9,
+      262.4
+     ],
+     [
+      190.0,
+      262.0
+     ],
+     [
+      190.0,
+      262.0
+     ]
+    ]
+   }
+  },
+  "f27": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a walled town",
+    "type": "town",
+    "coords": [
+     [
+      190.0,
+      262.0
+     ]
+    ]
+   }
+  },
+  "f28": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a marked place",
+    "type": "site",
+    "coords": [
+     [
+      191.4,
+      260.2
+     ]
+    ]
+   }
+  },
+  "f32": {
+   "grade": "reported",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "a road",
+    "type": "road",
+    "coords": [
+     [
+      190.0,
+      262.0
+     ],
+     [
+      192.8,
+      262.2
+     ],
+     [
+      192.8,
+      262.2
+     ]
+    ]
+   }
+  }
+ }
+}

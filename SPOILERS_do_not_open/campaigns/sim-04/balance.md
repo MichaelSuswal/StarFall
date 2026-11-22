@@ -39,3 +39,7 @@ Each god has one cool and one minor, both weaker than its main powers, each from
 | god-trade | 5 | Up one. |
 
 The player's god and god-stone stay a little above, god-law a little below. That is logged as a fact the world's politics will deal with. The player's card is not changed and no concern is put to the DM: the lean was said to the player at the table and kept at the player's choice.
+
+## Night 3a, 2026-11-22
+
+One card changed tonight: god-ice gained the Prince's Term (ledger L-0022), a second mouth for its Spoken Term with a ceiling of twenty, paid by a day's slowness for each term. Its weight stays 5: the power sleeps until a prince is sworn, and its price falls on the god each time it is used. The peoples' edges are one step for one weakness throughout (two for two for god-stone's people) and move no god's weight. The band holds.

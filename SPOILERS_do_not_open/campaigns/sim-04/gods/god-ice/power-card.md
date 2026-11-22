@@ -85,6 +85,23 @@ Rulings: none yet.
 Trades: none.
 Growth: Possible. Not shown.
 
+### The Prince's Term
+Status: main (added Night 3)
+Description: One merchant-prince, sworn to the god in its hearing, may speak a term in the god's name, face to face, to one mortal who understands the words and agrees aloud. The term then holds that mortal for the stated years as the god's own Spoken Term would, with a breach felt as the same creeping cold. Only terms of debt, toll, tally, delivery, carriage, trade or service.
+Drawback: Each time the prince speaks a term, the god is slow for one day wherever it is: half its pace, as after a working of cold, with no cold about it. The day begins when the term is spoken, whether or not the god knows of it. Days owed run one after another, and after any slow days owed for a working of cold; the god is never below half pace for them.
+Limits settled at creation:
+  - The prince's count stands apart from the god's own. He may have no more than twenty terms standing; at twenty he can bind no more until one ends. A term stands only while unfulfilled, unreleased and unended.
+  - Never a term on a person's body, name, kin, faith or movement. Never to a child too young to understand, to a god, or to anyone under threat of force; none of these is bound.
+  - One mortal at a time, who must say yes. Never a people as a mass.
+  - One prince at a time. He is sworn within earshot of the god (about fifty paces in open air, not through walls); no touch is needed. When he dies or is released the power sleeps, and the terms he spoke stand until they end; it wakes when the next is sworn.
+  - A term he speaks outside these bounds does not hold. The god may end any term of his by its own word.
+  - What the prince bears, fitted by the Keeper and no part of the price: each term he speaks stands as cold in his own belly; with more than twelve standing he is at half his pace; he cannot lie inside a term he speaks; if he breaks the letter of one the cold is in him until he mends it. The people see it.
+  - Not applicable: falling, scarcity, things made by more than ordinary craft. It rules no mind: a term binds only one who agreed.
+  - Intent, the god's first wording: "The merchant-prince may speak a term in my name and under my seal, face to face, to one mortal who comes before him, and if that mortal agrees aloud and understands the words, the term holds them for the stated years, as mine would."
+Rulings: none yet.
+Trades: none. Priced by its own drawback.
+Growth: Possible. Not shown.
+
 ## Hidden powers
 Two hidden powers exist. Discovered powers are added above as they surface.
 
@@ -96,3 +113,4 @@ Set by the world. Not shown.
 
 ## Dated entries
 None yet.
+- 2026-11-22, Night 3: the power "The Prince's Term" added above, as agreed and confirmed in two rounds. It is an edge of the god's people that a mortal performs, so it is a power of the god's, priced on the god. What the prince bears is under its Limits. The prince is not sworn at landing, so the power sleeps until one is sworn in the god's hearing.
