@@ -9,4 +9,5 @@ Models: DM fable, Keeper fable, NPC gods sonnet, stand-in player sonnet, checker
 | Day 2 | 23:02 | 23:11 |
 | Night 2 | 23:11 | 23:38 |
 | Day 3 | 23:39 | 23:47 |
-| Night 3a | 23:47 | |
+| Night 3a | 23:47 | 00:20 |
+| Night 3b | 00:21 | |
