@@ -18,3 +18,13 @@ Understood. The Ice Reading is the Keeper's to fit, the number of workers includ
 
 ### The whole
 I offer no further edge and no further weakness. I accept the Keeper's reasons that a second mouth must cost me something I would notice, and I do.
+
+## Round 2 reply
+
+I confirm the final text of The Prince's Term as written, with no corrections.
+
+The Description and the Drawback say what I chose under (b). I read the Drawback as follows and ask nothing to change it: one term, one day, beginning when the term is spoken whether or not I know of it, run one after another, after any days owed for a working of cold, and never below half pace. The prince's count stands apart from mine, with a ceiling of twenty. I accept that a term stands only while unfulfilled, unreleased and unended, which is a tidier count than I asked for.
+
+All four clarifications are written as I meant them. The seal is not needed and the oath needs no touch, only my hearing.
+
+I offered no weakness tonight and none was taken. The power pays for itself by its drawback, and I would notice it. I take the Keeper's note that anything asked now beyond wording is logged and the text stands, and I ask nothing beyond wording.
