@@ -41,3 +41,11 @@ Each line names the run 03 change list items it applies.
 - `SPOILERS_do_not_open/keeper/deep-lore.md`: 68, 70; rulings 28, 29, 31, 34 (new section on setting a star's numbers).
 - `SPOILERS_do_not_open/keeper/clue-design.md`: 70; ruling 33 (random table base and step).
 - Not applied here: the self.md template half of 32 and the runbook half of 33 (items not assigned to agent K); the style block half of 57 and the template 7.7 scale line of 59 (assigned to agent E). Rulings 9, 12, 18 and 19 have engine homes (powers.md, DESIGN 3.11); the runbook only points to them.
+
+## Orchestrator, leftovers between sides
+
+- map.md: `site` feature type (60); nothing smaller than a hill or a wood asked of the painter, smaller things are data only (57); region names drawn only when `"named": true` (81).
+- dm.md: no number word beside god or gods (30).
+- creation-nights.md: the public lock line in three states (78); images.md carries the play approvals the design sets, year morning painting and player-asked paintings (found by agent T: paint.py now requires coverage).
+- creation runbook: the self template's broken-body section points to the return power (32); the DM's examples are a menu (33); the Night 3 release gives the sheet's planned scale in one line (59).
+- Not done, for the build check: the gazetteer still prints names of seen regions whose names were never heard (81, tool side); tests/tools/README.md has no build 4 notes.
