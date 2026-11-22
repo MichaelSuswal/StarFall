@@ -154,3 +154,12 @@ Entered by the DM from `player/corrections.md`, as the review asked. No limit is
 1. The Tasting and the Listening were marked provisional for review. Both stand as written and read back: what they show are effects, never causes, and the limits already on the card are enough. The provisional mark is lifted on both.
 2. The rates and reaches marked provisional stand as set at the table: about 20 miles in a fair day; near as about 200 yards of a part and about 450 yards of the whole. The provisional mark is lifted on each.
 3. The other table numbers stand as agreed: three days of working in a season before a hive goes into winter short; seven days beyond a day's flight before a part goes wild; one sting with intent in a season across all parts; a season of brood to regrow to full number.
+
+### 2026-11-21, creation Day 3 closes: rulings at the people's table
+
+No power was added on Day 3. No edge of the Sallowfolk is a power of the god's, and no limit agreed on Day 2 was changed.
+
+1. The Tasting. The Sallowfolk notice early by ordinary signs, days ahead of other farmers, effects and not causes. Limit on the people, so that nothing is taken from this power: they never notice before the god's own tasting of the same ground would. The player agreed. Settled at creation. Ledger: pending, Night 3.
+2. The Working. Moving stores from a surplus hive to a short one is the Working: it is a day of work on both hives and counts toward the three days each can bear in a season. Said to the player with the read-back and agreed. Settled at creation. Ledger: pending, Night 3.
+3. The Working. A bee-wife's hive is a hive kept by more than ordinary craft and stays unruled until the god meets one, as the card already says. Nothing new is settled.
+4. The Working's cost and the people's weakness. The Sallowfolk live by the hive, so the cost that falls on hives falls on their winter. The player accepted this knowingly. No term of the power changes.

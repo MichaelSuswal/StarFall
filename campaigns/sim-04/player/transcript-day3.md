@@ -147,3 +147,9 @@ Yes, that is them. The read-back is right, including the notes on the short hive
 Write them.
 
 (One more answer was sent to the DM privately, for the sealed record.)
+
+## DM:
+
+(oog) Written, as read back and as you filled it. Inside a hamlet the reeve hears both sides with the households present and the elders sitting by, and proposes; a borrowed swarm goes to the bees, and you take no part. In a year you do not play you keep out of sight, work the bees only for the short-hive duty, open the Listening no more than you must, and sting no one. Your third private answer is sealed, word for word, with the others. Tonight the world is built around what you gave. The count of bee-wives, the crossing, the hall and the old track are fitted then, and anything the fitting changes will be put to you plainly before you wake. Your card gains no power today, only dated notes of what was ruled here.
+
+"Then they are written. The Sallowfolk, of Sallowdene, who tell their bees the news and do not know that anything is coming. The cold is off the valley floor. You are nearly down."

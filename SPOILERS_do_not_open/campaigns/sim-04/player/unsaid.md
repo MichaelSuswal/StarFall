@@ -25,3 +25,11 @@ The player's words, verbatim, given later the same day as a second private answe
 > I chose Orrin because he's old, solitary and observant, someone I could watch for a full year before I ever let him see me. I'm hoping he becomes the one who is glad I'm near, and I know that wanting that is exactly what the DM warned about when it said I'm not to be given a mortal. I made him, but I'm going to have to win him, and I'm afraid that I'll want to cheat. Please don't let me.
 
 Confirmation: stated by the player on 2026-11-21, creation Day 3, before Year 1.
+
+The player's words, verbatim, given at the Day 3 close as a third private answer for the sealed record, relayed by the orchestrator:
+
+> Keeping out of sight is the harder choice, and it is the right one for the reason I gave: I want to win Orrin's trust in play, not by drift. Please log that I mean it as a promise to myself and not as a rule, and check with me before you treat it as still true, since I may change my mind once I've seen the valley.
+
+Confirmation: stated by the player on 2026-11-21, creation Day 3, before Year 1.
+
+Note for the DM: the open conduct profile carries "keeps out of sight in a year not played" as standing conduct. By the player's words above it is a promise to itself, not a rule, and the DM checks with the player before treating it as still true.

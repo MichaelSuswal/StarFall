@@ -50,3 +50,30 @@ Bent by the DM:
 - "The lost name stays lost until I find it." The same.
 - "Don't let me be an ant-farm god who just optimizes. I want to be wrong sometimes." A wish about how the world answers the god's acts. The DM answered that it will neither invent a cost nor shield the god from one.
 - "When a part acts on its own, tell me afterward what it did, not what it knew." A condition on how unplayed parts are reported, written on the card under the Splitting.
+
+## Day 3
+
+Written by the DM at the close of creation Day 3, 2026-11-21.
+
+Rejected by the player, each a default of the premise. Nothing was charged; the practical cost of each was stated and accepted; each counted one step in the god's favor in the one edge price it bears on (`civs/sallowfolk/record.md`).
+
+1. The number. About 1,500 in place of about 5,000. "I'd like them small enough that I can learn faces, and I'm asking for the smaller number deliberately, not as a handicap." Cost stated: they make less, hold less and can lose less; a bad year goes deeper. Step counted on the bee trade edge.
+2. The town and the seat. "No seat and no town." Cost stated: no walls, no common store, no standing market. Step counted on the bee trade edge.
+3. The helpers. "I don't want a council that carries my intent." "I would not accept an advisor who is also my mouth." Cost stated: unplayed time runs on standing conduct alone, no one acts for the god or reads it to the others, and the people drift. "That is what I asked for." Step counted on the noticing edge.
+
+Bent by the player: the helpers, into the third form. One mortal designed and not yet serving, Orrin Teal.
+
+Requests not to be told something: none. "I'd rather you didn't give the keeper a way to find out" is a wish about what a mortal learns, not about what the player is told; it is filed as heard, not promised.
+
+Bent by the DM:
+
+- "Their bees are the best-kept in the region" was recorded as unusually good keepers, with "best in the region" as the people's belief.
+- "They notice early" was given a limit: never before the god's own tasting of the same ground would. The player accepted it.
+- "Tell a death in a swarm's behavior" was put to the player as past or coming; the player chose past only, no foresight.
+- The count of bee-wives, the market ground, the stone hall and the older people were recorded as wishes or beliefs for the world to place.
+
+## Not rejections (Day 3)
+
+- The code. Custom, not priced.
+- "I don't want to have caused it" (the old saying). A wish about the world's past, left to the world.
+- "Hamlets I'll leave unnamed for play." Leaving names for play is within the day.
