@@ -69,3 +69,31 @@ The fall has slowed. There is country under you now, and the voice of The Betwee
 "And what is always true of them? You gave me one custom, the telling of the bees. What will a Sallowfolk household never do, and what do they hold a person in shame for?"
 
 (oog) I am taking them as human unless you say otherwise. Say yes, no or a counter to each price, and answer the rest in any order.
+
+## Player:
+
+**Prices.**
+
+Edge one, the bees and the candle trade: yes, with the first weakness only. They live by the hive, with little grain to spare and salt and iron bought with honey and wax, so a poor hive year is a hungry winter for the whole valley. I accept that the Working's cost lands on their table too. I'll count that against myself every time I use it near their hives.
+
+Edge two, they notice early: yes, with the second weakness only. Their eye is for hive, weather and blossom, and they read strangers and bargains poorly. I accept the limit that they never see anything before my own tasting of the same ground would.
+
+Refusals: heard. Nobody acts for me while I'm away, and the people drift by their own lights. That is what I asked for.
+
+**The bee-wives.** When she reads a death from a swarm, it is a death that has already happened somewhere, a hive lost, a keeper dead in another hamlet, a neighbor's stock failed, not one that's coming. She gets news late and from a distance. No foresight. A bad night per use is the whole price. Fit the numbers however the world does and tell me if the count changes.
+
+**The one who has noticed.** Yes, designed and not yet serving. Orrin Teal, about sixty, keeps nine skeps in the highest hamlet, where the upland starts. Widowed, a hedge-layer in winter, dry and unhurried. I set who he is. I don't set what he'll do. What he has noticed, before there was me: wild swarms in his hamlet settle each spring in the roofless stone hall by the old track and never take, as if they were reading something and moving on. I'd like that to be his private puzzle, not a custom.
+
+**The luck over the valley.** It's an old saying they hold on the morning I arrive, older than me, that swarms settle on the right houses. I don't want to have caused it. If the world gives it a cause, I'll find out in play. What they believe it means, the world decides.
+
+**Who answers when a hive goes into winter short.** I do. The keeper will blame the weather, the bees or herself, and I'll have no way to say otherwise in words. What I'll do is move stores from a surplus hive in my reach to the short one and not work that hive again that year. Beyond that, nobody answers to anybody, and I'd rather you didn't give the keeper a way to find out. The cost should sit on me, as something I carry and she doesn't know about.
+
+**How they come to know what I intend.** They don't, except crudely: a pattern in the bees that a keeper may read as a warning, a welcome or a sign. That's the only language I have. They'd learn they read me wrong when the thing doesn't happen or something else does. I'm fine with that. I'd rather be misread honestly than interpreted by someone who says they speak for me. The one exception is a stung person, who feels a hum when I'm near and gets nothing else.
+
+**What a Sallowfolk household never does.** They never take a swarm by force, only one that has chosen to settle, and they never take the last of a hive's honey, even in a bad year. They never sell a hive, only give one, and they never kill a hive for its honey. They never say a death aloud before the bees are told. They don't speak ill of someone in the hearing of a hive.
+
+**What they hold in shame.** Letting a hive die of neglect. Short measure in honey or wax. Burying someone without telling the bees. Cutting a hedge in nesting season. Borrowing a swarm and not returning the first cast.
+
+**Human:** yes, human.
+
+(One more answer was sent to the DM privately, for the sealed record.)
