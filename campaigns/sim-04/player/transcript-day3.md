@@ -97,3 +97,41 @@ Refusals: heard. Nobody acts for me while I'm away, and the people drift by thei
 **Human:** yes, human.
 
 (One more answer was sent to the DM privately, for the sealed record.)
+
+## DM:
+
+"Then I have them. Hear them said back, and tell me where I have it wrong."
+
+(oog) Your second private answer is sealed, word for word. Three notes first, then the read-back. It carries two marked gaps; fill them in the same reply as your yes, or correct anything, and the day can close.
+
+On the short hive. Moving stores from a surplus hive to a short one is the Working, so it is a day of work on both hives and counts toward the three days each can bear in a season. I record what you said as your standing conduct. I will not hand the keeper a way to find out, and I will not shield you from one either: your card says that anyone who knows bees can see worked bees are not behaving as bees do, and you have just made these people good at noticing. What she makes of it is hers. Heard, not promised.
+
+On Orrin's puzzle. The roofless stone hall, where it stands, and what wild swarms do there are the world's. I record them as your wish and confirm none of it. If the world places no such hall, I will tell you what he has noticed instead before you land. Him you have set: that stands.
+
+On the code. All of it is custom and none of it is priced. It is not free in practice: a people who never kill a hive for its honey and never take the last of it get less from each hive than keepers who do, and a people who never sell a hive cannot turn one into salt in a bad year. That is theirs to live with, and it is why I called them unusually good keepers and not rich ones.
+
+**The read-back.**
+
+**Who they are.** The Sallowfolk, human, about fifteen hundred, living in a dozen or so hamlets and farmsteads along a valley they call Sallowdene. No town, no seat. The hamlets are unnamed and left for play. They are hedge-layers, orchardists, grazers of the upland turf and keepers of bees, in households of several generations. Spring is lambing, the hungry gap and the late frost on the blossom. Summer is the long work. Autumn is the apple press and the honey harvest. Winter is mead, mending and stories. They keep bees in woven straw skeps and hollow-log hives, trade honey, wax and mead, and make rushlights and wax tapers. Their craft is what the world gives them: coppice and hedge, straw, clay.
+
+**Their code.** They tell their bees the family's news. They never take a swarm by force, only one that has chosen to settle. They never take the last of a hive's honey, never sell a hive, only give one, and never kill a hive for its honey. They never say a death aloud before the bees are told, and they do not speak ill of anyone in the hearing of a hive. They hold in shame: letting a hive die of neglect, short measure in honey or wax, burying someone without telling the bees, cutting a hedge in nesting season, and borrowing a swarm without returning the first cast.
+
+**Edges and prices.** First: they are unusually good keepers, with a trade in honey, wax and tapers to match. That they are the best in the region is their belief. Weakness: they live by the hive. Little grain to spare, salt and iron bought with honey and wax, so a poor hive year is a hungry winter for the whole valley and they have little else to sell. The smaller number and the lack of a town each counted a step, and a second weakness was dropped for them. Second: they notice early, by ordinary signs, days ahead of other farmers, effects and not causes, and never before your own tasting of the same ground would. Weakness: their eye is for hive, weather and blossom and not for people; they read strangers and bargains poorly. Having no helpers counted a step, and a second weakness was dropped for it.
+
+**Magic.** Bee-wives, in perhaps one hamlet in three by your wish, the count to be fitted by the world. A bee-wife can calm a hive, sense a coming frost, and read from a swarm that a death has already happened somewhere: a hive lost, a keeper dead, a neighbor's stock failed. Late news from a distance, never foresight. Each use costs her a bad night, and the old ones are tired. In the other hamlets it is rumor. Her hives are unruled under your Working until you meet one.
+
+**What they believe.** Small local things: a spirit for each hive, a luck for each orchard. An old saying, older than you and not of your making, that there is a luck over the valley and that swarms settle on the right houses. They do not know you exist. A story of a larger people before them, whose track runs along the valley foot, kept as story only.
+
+**How you meet them.** They are already there, with their own history, and you arrive unknown to them. You tend and do not rule. You have no voice among them: only a pattern in the bees that a keeper may read as a warning, a welcome or a sign, and may read wrong, which they learn when the thing does not happen. A stung person feels a hum and nothing more.
+
+**Who runs things.** They do. Each hamlet has a reeve chosen from among its older households, and the reeves meet at the river crossing when something touches the whole valley: a flood, a dispute over water, a stranger. Helpers are refused, today. One is designed and not yet serving: Orrin Teal, about sixty, widowed, a hedge-layer in winter, dry and unhurried, who keeps nine skeps in the highest hamlet. He does not know you. You land with no helpers in fact; unplayed time runs on your conduct alone, no one acts for you, and the people drift by their own lights.
+
+**Your conduct, from today.** When a hive of theirs goes into winter short by your doing, you move stores to it from a surplus hive in your reach and do not work that hive again that year. You count the cost of the Working against yourself each time you use it near their hives. You would rather be misread than spoken for.
+
+**Wishes and beliefs for the world to place:** the market ground at a river crossing, the older people and their track, the roofless stone hall and the swarms that do not take there, other valleys that buy tapers, a border. Heard and not promised: that they learn smoke from you by trial, and that no keeper finds out why her hive was short.
+
+**Gap 1.** A quarrel inside one hamlet, over a boundary hedge, a debt, a borrowed swarm: who settles it? The reeve alone, the households, someone else?
+
+**Gap 2.** In a year you do not play, do you let yourself be seen by anyone, Orrin or another, or do you keep out of sight until you choose otherwise at the table?
+
+"Is that them? Say yes, and fill what is empty, and they are written."
