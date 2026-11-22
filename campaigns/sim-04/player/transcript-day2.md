@@ -99,3 +99,55 @@ Taking them in order.
 **The smoke.** If every part of me goes at once, I'd wish to regather from the hive I have tended longest, wherever it stands then, not from a place I chose or the spot I landed. It should come back slowly, over a full season of brood. I want it to cost me: I come back smaller, with a gap I can't name, and a debt of attention to that hive. If I have tended no hive that long, let me regather from the oldest wild hive in my chosen valley. It must be a place I could have been reached by something I did.
 
 One question back. When I'm blind and not directing my parts for the day after listening, do they hold still or keep acting on what they last knew? You wrote "act on what they last knew," so I'll assume the second and plan around it. Correct me if I've misread.
+
+## DM:
+
+(oog) You read it right. A part that gets no direction keeps acting on what it last knew; it does not hold still. Since parts never share at a distance, here is how that plays, and it is new wording, so say if it is wrong: in scenes you may play any part, one at a time, and each knows only what it has itself seen since it last touched another. A part you are not playing carries on with the purpose it left with, by your standing conduct, cautious and in character, and what it learned reaches the rest of you when it touches them again.
+
+One fact of every god here, before the read-back, because it goes on your card. You know that others like you came down when you did. Beyond that, you feel another god only when you stand close enough to speak. Then it is a weight and a stillness in the air about the other, nothing more: no name, no nature, no measure of what it can do. The feeling comes slowly and can be wrong, and one that takes pains can pass for something lesser for a while. So can you. Farther off than that there is nothing to feel, however near the other may be.
+
+Now the regathering, then the whole card read back. Returns are priced on one standing scale, the same for every god: a season to return costs one item of memory or habit; a month costs two; nothing is faster. You asked for the slow one, so I have written the season. Say so if you want the month instead.
+
+**Read-back. Everything below is what I would freeze. Lines marked NEW are terms you have not yet agreed.**
+
+**Form.** One body: a swarm of bees, wasps and the small pollinating things, with no face, no chief insect and no voice. It does not attack unprovoked and does not speak; when spoken to, all of it turns toward the sound. It hears speech. Its other senses are not settled and will be asked in play. It carries only what bees carry. It flies about 20 miles in a fair day (provisional, for the Keeper) and does not fly at night, in rain or in cold. When it is wholly destroyed, see the Regathering.
+
+**Words the card uses.** A part: one of up to five divisions of the swarm, each a thinking swarm. Full number: the whole swarm, unsplit and unhurt. Small pollinators: bees, wasps, and the flies, moths, butterflies and beetles that work flowers. The chosen valley: one valley, chosen in play once you have seen it, its bounds set by the Keeper from the land. A tended hive: a hive of ordinary bees you have worked or wintered, counted in seasons since you first did.
+
+**1. The Splitting.** You land whole. You may divide into as many as five parts and rejoin by touching. A part is a fifth of you in every way; two fifths together are two fifths. Parts range up to a day's flight from the largest part.
+Cost: each part out thins you. Parts do not share what they see or know until they touch again. A part killed is gone, and one item of memory or habit goes with it for good, picked by logged roll from your record; you are not told what went. The bees regrow to full number over a season of brood in fair weather.
+Limits: you choose which part stands in harm's way, never which memory goes. A part shut in a skep or a box is held, not killed. NEW: a part kept more than seven days beyond a day's flight from the largest part goes wild and counts as killed. Dividing is visible as a swarm dividing, which mortals have seen bees do. What another god feels from a part is unruled until it happens. Not applicable: falling, scarcity, minds, things of more than ordinary craft.
+
+**2. The Working.** The small pollinators near you act as one thing at your will: fly a pattern, hold a path, strip a field of pollen or fill it, move heat and stores to bring a hive through winter. NEW, and provisional for the Keeper: near means within about 200 yards of a part and about 450 yards of the whole of you.
+Cost: the bees pay. What they do for you they do not do for themselves. NEW: "a few days" is three; a hive worked more than three days in one season goes into winter short, whoever's hive it is, your own tended hives included.
+Limits: it works on small pollinators only, never birds, beasts or people. It moves honey and stores; it never makes any. Bees holding a path sting as ordinary bees sting, no harder. It stops at night, in rain and in cold; in winter it reaches only the hive you are sheltering in or beside. Anyone who knows bees can see that worked bees are not behaving as bees do. Pollinators that are more than ordinary creatures, hives kept by more than ordinary craft, and bees another god has a hand on are unruled until met. Not applicable: falling, minds.
+
+**3. The Tasting.** Where you or a part feed, you know the health of that ground before mortal eyes would: that it is sick, and how far the sickness reaches. Never what caused it, and never who. Provisional for the Keeper.
+Cost: you read by eating and take a share of what you read. The part that tasted is sick for days and loses bees. NEW: ground foul enough can kill the part that tastes it, at the usual price of a part.
+Limits: only ground you have fed over; nothing in winter. To a watcher it is bees foraging. Not applicable: falling, carrying, minds, other gods.
+
+**4. The Sting.** One person, stung with intent, takes either a fever of some days or a night of bad dreams carrying one feeling of your choosing, picked at the time. A feeling, never a picture, a word or a command. The fever is real and can kill the weak; you do not control that.
+Cost: it marks them. For the rest of their life the stung one feels you near, the whole of you or any part, as a hum under other sounds. NEW: near is the same 200 yards. They are not told what the hum is.
+Limits: NEW: one such sting in a season, counted across all your parts, since you asked for rare use. It must reach skin. It works on mortal persons, your own people the same as any. To a watcher it is a bee sting. On another god it is unruled until it happens.
+
+**5. The Listening.** Across the chosen valley you feel what every small pollinator there is doing, all at once: movement, numbers, alarm, hunger, smoke, a crowd, a field gone quiet, a thing the bees avoid. Effects, never causes; never speech, faces or who. Provisional for the Keeper.
+Cost: while you listen and for a day after, you cannot tell your own parts from the wild ones; parts that are out get no direction and act on what they last knew. And it shows: each time you open it, every listener in the valley holds still together for a breath, and anyone who knows bees or watches closely can see it, another god among them.
+Limits: only where flowers are in season; blind in winter, thin in early spring and late autumn, blind at night, indoors, underground, over open water and bare stone. It does nothing until a valley is chosen. Changing valleys takes a full year in which you hear neither. It shows what the listeners do, so it knows a god from a mortal no better than a bee does. Pollinators that are more than ordinary creatures are unruled until met. Not applicable: falling, carrying, minds.
+
+**6. The Regathering.** When every bee of you is dead, you gather again from the hive you have tended longest, wherever it then stands. If you have tended none, from the oldest wild hive in the chosen valley. NEW: if no valley is chosen either, from the wild hive nearest where you fell. It takes a full season of brood.
+Cost: one item of memory or habit, by logged roll, not told to you. As you asked, and beyond what the scale requires, so it buys nothing: you come back at a fifth of full number and need a further season to regrow. NEW: parts that died in the same day as the last of you are covered by that one item; parts lost earlier have already been paid for.
+Limits: a swarm shut in, smoked quiet or scattered is held, not broken; this happens only when all of it is dead. Your "debt of attention to that hive" I have not written, because I do not know what you mean by it. Tell me what it binds you to, or leave it as something you play.
+
+**No trade.** The weakness offer was made and declined. Nothing carried so far. You said on Day 1 that a large swarm decides slowly; I have not made that a rule. It is yours to play.
+
+**The lean.** Above what you asked for on Day 1, mostly by the Listening, kept at your choice and noted for the Keeper.
+
+That is the card. A yes freezes it; name any line you want changed first.
+
+The voice, once more, and the fall feels shorter than it did.
+
+"A few things I still cannot see. How large are you when all of you is in one place: a thing that would fill a hat, a doorway, an oak? Do you carry anything down with you? You lost a name. What should those below call you when they do not know what you are, and what do I call you until then?"
+
+"And the part I most need. What do you want, down there? What will you not do, whatever it would gain you? And what do you want that you would not say aloud to the ones you tend?"
+
+(oog) That last answer is kept sealed, apart from your open profile. It shapes how you are played in time you do not play, and it is never acted on without checking with you that it is still true.
