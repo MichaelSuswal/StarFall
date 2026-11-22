@@ -37,3 +37,41 @@ I'll take the second road, with a form change. One body is fine as the starting 
 **One thing I care about.** Don't let me be an ant-farm god who just optimizes. I want to be wrong sometimes. If I tend a village into a good harvest, I'd like there to be a cost I didn't see, like a rival hive, a failed apple year next door, or a debt a mortal incurs on my behalf. A tender should have to answer for what the tending does.
 
 Ask whatever you need. I'd like to hear your read on the price of the listening before I commit.
+
+## DM:
+
+The voice takes what you said and turns it over, the way a hand turns a comb to the light.
+
+"A place where something was kept. Patient work, no audience. A name gone, and the center that told you which part was you. That is enough to fall with. The rest stays dark to you, and you have asked that it stay dark a while. Heard."
+
+(oog) Your read first, then the rest, since you asked for prices. I am taking the powers in the order of their weight. Where I offer a choice of cost, pick one or counter.
+
+**The listening.** Of your three suggested costs, the first two are not costs, they are the shape of the power: it works only where flowers are in season, and it hears patterns, never words. They make it smaller, which is why I can allow it at all, and they go on the card as limits. Only the third is a price in the sense the rules use, something you would notice losing. So here is what I would sign.
+
+What it gives: across one chosen valley, you feel what every bee, wasp and small pollinator there is doing, all at once. Movement, numbers, alarm, hunger, smoke, a crowd gathering, a field gone quiet, a thing passing through that the bees avoid. Effects, never causes: you learn that the west orchard has stopped being visited, not why, and never who. No speech, no faces, no counting of coins. It is blind in winter and thin in early spring and late autumn, blind at night, blind indoors and underground, blind over open water and bare stone. The valley is chosen once you are down and have seen it. Changing valleys takes a full year in which you hear neither.
+
+What it costs, and both of these, not one: while you listen and for a day after, you cannot tell your own parts from the wild ones, so parts that are out get no direction from you and act on what they last knew. And the listening shows. Every listener in the valley holds still together for a breath when you open it, and anything that knows bees, a keeper at her hives, anyone who watches closely, another like you at speaking distance, can see it happen. You wanted to steer without being known. This is the power that puts that at risk each time you use it.
+
+That is my fair price. It is a power that reveals at range, so it is provisional until the Keeper has reviewed its shape tonight; if a limit is added I will put it to you, not slip it in.
+
+**The splitting.** You land whole, one swarm, one body. You may divide into as many as five parts, each a thinking swarm. A part alone is a fifth of you in every way: fewer wild bees answer it, it reads less ground, it is easier to kill with smoke, fire, cold or a wet week. Parts may range up to a day's flight from the largest part. I am setting a travelling swarm at 20 miles in a fair day, provisional, for the Keeper to confirm. Bees do not fly at night, in rain, or in cold, and neither do you.
+
+A part killed is gone, and with it one item of memory or habit, for good. The rules fix how that is done for every god: the item is picked by a logged roll from your own record, not chosen. So you may always choose which part stands in harm's way, that is only moving your pieces, but never which memory goes. The bees themselves regrow: a season of brood in fair weather brings you back to full number. The memory does not come back.
+
+Two things I need from you before I can finish this one. When three of you are apart, does each know what the others see as it happens, or do they only pool what they learned when they touch again? Sharing at a distance is worth much more, it is a second kind of listening, and I would price it. Not sharing is cheap, and it is closer to what you said on Day 1 about not being sure which of you is thinking. And when a memory goes: do you want to be told what went, or to find the gap yourself in play?
+
+**The working of wild bees.** Within sight and sound of your body, or of a part, the small pollinators there act as one thing at your will: fly a pattern, hold a path, strip a field or fill it, move heat and stores to bring a hive through winter. Roughly a field's worth around a part, five times that around the whole of you. It works on bees, wasps and their like, not on birds, beasts or people. Choose the cost. Either the bees pay: what they do for you they do not do for themselves, and a hive worked more than a few days in a season goes into winter short, whoever's hive it is. Or you pay: you take their hunger on, and for as many days as you worked them your own swarm must feed and does nothing else.
+
+**The tasting.** Where your body or a part feeds, you know the health of that ground: blight coming, water gone bad, an orchard dying at the root. You know it early, before mortal eyes would. Effects only, again: that it is sick and how far it reaches, not what did it. The cost I propose is that you read by eating, so you take a share of whatever you read. Taste a poisoned stream bank and that part is sick for days and loses bees. Also provisional for the Keeper, for the same reason as the listening.
+
+**The sting.** One person, stung with intent, takes either a fever of some days or a night of bad dreams carrying one feeling of your choosing: dread, guilt, warning, grief. A feeling, never a picture, a word or a command; it does not rule a mind. The fever is a real fever and can kill the weak, which you do not control. Choose the cost. Either you share it: the part that stung is sluggish and useless for as long as the fever or the dream lasts. Or it marks them: the stung one can afterward feel you near, as a hum under other sounds, for the rest of their life. On another god, any of your powers is unruled until it happens; the Keeper rules it then.
+
+**The whole.** That is five powers, and you asked on Day 1 to be barely more than a great sorcerer. Taken together this sits above that, and the listening is most of the overage. With the limits above I will let it stand and note the lean for the Keeper. If you would rather be lighter, the listening is the one to drop or shrink.
+
+One offer, made once: a weakness taken on can buy an improvement elsewhere. One weakness, one step. It has to cost you something you do not already pay, so winter and facelessness will not count. You need not take one.
+
+On the thing you care about: I will not invent a cost to teach you a lesson, and I will not shield you from one. What your tending does is worked out by the world each night from what is really there, rival hives and neighbors' orchards included. You will be wrong when you are wrong.
+
+The voice again, closer now.
+
+"There will be a day down there when the smoke takes all of you at once. Every part, the whole swarm, burned or drowned or frozen. You cannot die. So tell me what you would wish to happen then. Where do you gather again, and from what?"
