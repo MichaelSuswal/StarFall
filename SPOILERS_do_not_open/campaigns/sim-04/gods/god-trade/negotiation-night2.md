@@ -25,3 +25,21 @@ Of the two steps offered I choose (b): four roads kept at once. Reasons: a town 
 
 ### The whole
 I accept the four powers and the one trade with the Reckoning choice, the clarification, the return ground and the trade step as written above. Nothing here is more than I asked.
+
+## Round 2 reply
+
+I have read the Keeper's copy against what I said and what I chose. It is a true copy. A count that agrees on both sides is the best news at a table, and I confirm it.
+
+The Fair Weight: confirmed as written.
+
+The Kept Road: confirmed. Four roads, each no longer than a day's walk, the feeling within a day's walk of where I stand, the one tenth quicker, the drawback that grows with the road's success. The Description and Drawback may freeze.
+
+The Reckoning: confirmed. The drawback is the debts weigh, with twelve and forty. The clarification is written as the first limit, and it is what I meant: a bargain done, released, ended by a death, or mended is not a debt. I thank the Keeper for setting the death in beside the rest.
+
+Return to the Stone: confirmed. I took the correction without complaint. I had the two rungs backward: the season is the slower return and costs one item, and the month is the faster and costs two. I chose the season, as I meant to choose the cheaper price, and the card says so. Ground (a), the nearest place where two roads cross, and the gap mine to find.
+
+The Barred Door: confirmed exactly as I wrote it, buying four roads.
+
+The Keeper trait, one more door than planned in whatever my own hands build: I accept it and have no wording to correct. It is a curious thing, and I will count the doors when I find them. I note that the card says the Barred Door holds on such a door as on any other, and I take that as it is written.
+
+Nothing in the text is wrong, and I ask no change.
