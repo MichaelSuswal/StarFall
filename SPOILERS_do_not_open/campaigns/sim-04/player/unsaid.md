@@ -11,3 +11,11 @@ The player's words, verbatim, given at the Day 2 table under the player's own la
 Confirmation: stated by the player on 2026-11-21, creation Day 2, before Year 1. The player added that it will say when any of this changes.
 
 Note: the player posted these words in the open table talk. The DM moved them here at the close and left a pointer in `player/transcript-day2.md`. The earlier commit of that transcript still holds them in the repository history.
+
+## 2026-11-21, creation Day 3
+
+The player's words, verbatim, given at the Day 3 table as a private answer for the sealed record, relayed by the orchestrator so that they never entered the open table talk:
+
+> I picked the small number on purpose. A people of fifteen hundred I can't lose sight of is a people I could care about the way I told you I wanted to, quietly and by name. A larger one would make me an administrator, and I don't want to find out whether I'm good at that. I also chose no ruler because I'm afraid that if anyone carried my intent, I'd stop having to decide what it was.
+
+Confirmation: stated by the player on 2026-11-21, creation Day 3, before Year 1.

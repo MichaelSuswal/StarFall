@@ -37,3 +37,35 @@ The fall has slowed. There is country under you now, and the voice of The Betwee
 **Names.** People: Sallowfolk. Valley: Sallowdene. Hamlets I'll leave unnamed for play.
 
 (One more answer was sent to the DM privately, for the sealed record.)
+
+## DM:
+
+"Sallowfolk, of Sallowdene. Fifteen hundred, a dozen hamlets and their farmsteads, no seat and no town, reeves who meet at a crossing, and no one who carries your intent. It is heard. It is remembered as yours, and said aloud: this one came down and did not do it the usual way."
+
+(oog) Your private answer is sealed, word for word, and is not in this talk. Now the pricing, plainly.
+
+**What you refused, and what it costs.** Three of the usual things: the number, the town and seat, and the helpers. Nothing is charged for refusing. The practical costs are these. Fifteen hundred people make less, hold less and can lose less than five thousand; a bad year goes deeper. With no town there are no walls, no common store and no standing market, only what a market ground gathers a few days a year. And the one that matters most: with no helpers, the time you do not play runs on your standing conduct alone. No one acts for you while you are away, no one reads you to the others, and your people drift, by their own lights and their reeves' and not by yours. What they decide at the crossing is theirs. Each refusal also counts a step in your favor in the price of the one edge it bears on, the same as for anyone who falls, and I use them below.
+
+**The reeve's meeting** is recorded as how they govern themselves and settle what touches the whole valley. It is ordinary and costs nothing. It is not a helper: it does not know you and owes you nothing.
+
+**The one who has noticed.** I do not hand you a mortal; you make them. If you want this person, they are recorded as designed and not yet serving. You land with no helpers in fact, and until you win this one in play, unplayed time runs as I said, with none. You set who they are, never what they will do. So tell me who: what they do in their hamlet, about how old, a name or none. If you would rather not have them, say so and it is left out.
+
+**Edge one: the bees and the candle trade.** A real edge, so it has a price. I can make the Sallowfolk unusually good keepers with a trade to match; how their neighbors keep bees is the world's, so "best in the region" is recorded as what they believe of themselves. The full price I would ask is two weaknesses. First, they live by the hive: little grain to spare, salt and iron bought with honey and wax, so a poor hive year is a hungry winter for the whole valley and they have little else to sell. Second, their goods say where they come from, and wealth in small things with no walls round it is known to anyone who buys a taper. The smaller number and the lack of a town both bear on this edge, so two steps: I drop the second and charge only the first. Weigh it against your own card before you say yes. The Working's cost falls on hives, your people's the same as any, and this weakness makes that cost land on their table.
+
+**Edge two: they notice early.** Also real, with one limit I need so that it does not take anything from your Tasting: they notice what good keepers notice, by ordinary signs, days ahead of other farmers and never before your own tasting of the same ground would. They read effects, as you do, and are often wrong about causes. The full price would be two again: they are slow to act on what they see, and their eye is for hive, weather and blossom, not for people, so they read strangers and bargains poorly. Having no helpers bears on this one, a step: I charge the second only. Their slowness is then just the pace of reeves and hamlets, which you already chose.
+
+**The bee-wives.** Priced as you gave it: simple, and it costs the worker a bad night each time, and it wears them down over years. That fits the terms. How many there are is the world's to fit on its night, so "one hamlet in three" is your wish and the fitting may change it; I will tell you if it does. One thing to settle: when she tells a death from a swarm's behavior, is it a death that has already happened somewhere, or one that is coming? The second is foresight and would cost her more than a night. And your card already says a hive kept by more than ordinary craft is unruled under the Working until you meet one; a bee-wife's hive is such a hive.
+
+**Recorded as belief or wish, not as fact:** the older, larger people and their track; the market ground at a river crossing; other valleys that want tapers; a border where strangers come. The world decides each, and you will see. Learning smoke from you by trial is heard and not promised. The hamlets stay unnamed.
+
+"Now, four things I do not yet understand."
+
+"You have not landed. Nothing of you has yet touched Sallowdene. So the luck over the valley, and the swarms that settle on the right houses: is that an old saying they already hold on the morning you arrive, older than you, or is it what you mean them to come to say? And the one who has noticed the swarms: noticed what, before there was you?"
+
+"What you ask of the bees, the bees do not do for themselves, and someone's winter is shorter for it. When a Sallowfolk hive goes into winter short and nobody knows why, who answers to whom?"
+
+"You do not speak, and you will have no mouth among them. If the day comes that you want one of them to know what you intend, how do they come to know it, and how would they find out they had read you wrong?"
+
+"And what is always true of them? You gave me one custom, the telling of the bees. What will a Sallowfolk household never do, and what do they hold a person in shame for?"
+
+(oog) I am taking them as human unless you say otherwise. Say yes, no or a counter to each price, and answer the rest in any order.
