@@ -170,4 +170,12 @@ Yes. Freeze the card, with the answers below.
 
 **What I will not do.** I will not sting someone to death on purpose, or choose a fever for a person I've decided is in the way. I will not starve a neighbor's hives to feed my own people's. I will not drive a mind with a sting, even a feeling, to get a decision I want. I won't burn a hive, mine or anyone's, to win a fight. These hold whatever they'd gain me.
 
-**What I want and wouldn't say to the ones I tend (sealed).** I want a center again. I want to find out whether the queen was a someone, or whether I was always only parts, and I'm afraid of the second answer. I also want one mortal to be glad I'm near, without being afraid of me. I'd tell no one that. If a stung person's hum ever starts to feel like company, I'd want to keep that quiet. I'll tell you when any of this changes.
+**What I want and wouldn't say to the ones I tend (sealed).** (The player's answer was given here. It is kept sealed and has been moved, verbatim, to the god's sealed unsaid file by the DM at the Day 2 close.)
+
+## DM:
+
+(oog) Agreed and frozen. The card stands as read back, every NEW term included, with the season kept for the Regathering and the month declined. One line is added from your answer, as wording and not a new power: when a part has acted on its own, you are told afterward what it did, not what it knew. The debt of attention is not on the card; it is yours to honor or ignore. What goes when a part dies or you regather is logged and kept from you. Your size, and that you carry nothing but pollen, nectar and wax scraps, are written under your form. The weakness offer is recorded as made and declined. What you would not say aloud is sealed, apart from everything else, and I have taken your words out of this open table talk and left a pointer in their place. The card goes for its night review, as every god's does, and anything that review needs to put to you will come to you plainly. The people, if you name any, are tomorrow.
+
+"Then it is settled. A swarm that fills a doorway and has no face, that can be five and cannot hear itself across a field. No name of your own. The Thrum, to those who only hear you, and to me."
+
+The voice says nothing more. The night comes on, and you keep falling.

@@ -22,3 +22,31 @@ Requests not to be told something:
 - Question 15, a pull that grows as distance closes, a knowing face to face, and the chance to be fooled or to hide. The question offers "or something else", so this lies inside it.
 - Question 16, "Many bodies, no main one." This picks "several" and names a cost, as the question asks.
 - Question 18, "A companion, or a truth". Both are among the question's own examples.
+
+## Day 2
+
+Written by the DM at the close of creation Day 2.
+
+The Day 1 bend of the whole premise (tending, not ruling) was answered first thing: it fits, it is recorded as the player's, and what a people is and how it is tended is left to Day 3. Nothing was priced for it.
+
+Rejected or bent by the player: none. Told that every god here has one body, the player accepted it and rebuilt: "One body is fine as the starting point, so I land as a single swarm. The power is that I can split."
+
+Requests not to be told something:
+
+1. Which memory or habit goes when a part is killed or the god regathers. The player's words: "Don't tell me what went. I'll find the gap in play. If I try to do something I used to do and can't, or reach for a name and it's gone, that is how I want to learn it. Log it, but keep it from me."
+
+Bent by the DM:
+
+- The player wished on Day 1 for "many bodies, no main one". The DM offered a swarm as the single body, at no price, with dividing as a priced power. The player took it.
+- The player asked to "choose which part gets the loss, if I see it coming". The DM recast it: the player chooses which part stands in harm's way, never which memory goes, since a memory price is taken by logged roll. The player agreed.
+- The player wished for no main body. The DM anchored a part's range on "the largest part". The player agreed to the read-back.
+- The player's "a day's range" was set at about 20 miles, "a few days" of working at three, "rare use" of the sting at once a season, and "near" at about 200 and 450 yards. All agreed at the read-back.
+- The player's "debt of attention" after a regathering was left unwritten by the DM; the player confirmed it means nothing binding.
+- The player's Day 1 "a big swarm is slower to decide" was not made a rule.
+
+## Not rejections (Day 2)
+
+- "I'd like not to get it back quickly. Let me find hints of it in the world." A wish about pace and discovery. It names nothing the player asks not to be told.
+- "The lost name stays lost until I find it." The same.
+- "Don't let me be an ant-farm god who just optimizes. I want to be wrong sometimes." A wish about how the world answers the god's acts. The DM answered that it will neither invent a cost nor shield the god from one.
+- "When a part acts on its own, tell me afterward what it did, not what it knew." A condition on how unplayed parts are reported, written on the card under the Splitting.
