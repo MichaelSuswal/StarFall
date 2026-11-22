@@ -23,3 +23,17 @@ Clarification, in the write-up: please write what counts as "large" for a body o
 
 ### The whole
 No weakness, no trade, nothing stronger than a newly landed god carries. I accept the three powers as drafted with the choices above.
+
+## Round 2 reply
+
+I confirm the final text as written, with no corrections.
+
+Winter's Reach: confirmed. The Description and Drawback say what I meant. I am glad the seven days are written, since I can now count the weeks I will be heavy. Half pace in deep summer's sense is what I understood by slow and heavy.
+
+The Spoken Term: confirmed. The counting of standing terms matches my clarification, and a yes under threat of force not binding is as I said. The seal is refused on these terms and I will raise it on Night 3 as an edge of my people.
+
+Returning from the cold: confirmed. The first rung, a season and one item, with the gap mine to find. "Large" as a pond frozen through, or a drift taller than a man and ten paces across, is what I wanted to know before I am ever destroyed.
+
+No weakness taken, and none now.
+
+Keeper trait: accepted. It is not a power and has no price, and I have nothing to correct in it. I note only that I did not know the laugh had a rule, and I will not go looking for it.

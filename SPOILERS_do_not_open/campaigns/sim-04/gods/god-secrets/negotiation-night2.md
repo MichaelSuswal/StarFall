@@ -21,3 +21,17 @@ Accepted: 20 miles a day's walk, 50 paces for a spoken voice, 200 yards for near
 
 ### The whole
 Accepted with the two choices above. I offer no weakness, and that stands. I counter nothing.
+
+## Round 2 reply
+
+Confirmed. I read the final text against what I meant and find nothing wrong with its wording.
+
+- Sealed Telling: the clarification about silence and declining to answer is written as I asked, and the confidence ends at the teller's death, as I accepted. Confirmed.
+- Unlatching: the scaled drawback is written as I chose it, until the next dawn, a day and a night, seven days. Confirmed.
+- Reading the Crossing: opened at my will, hours following at once, as I chose. Confirmed.
+- Return by the Ford: a season, one item, nearest running water, and I find the gap myself. Confirmed. I note that the card says the item is "not told to the god", and I take that to mean I am told nothing unless I ask, which is what I wanted.
+- No weakness offered, and that stands.
+- Keeper trait: read and accepted as it stands. I note it, I do not argue it.
+- The Keeper says two hidden powers exist. I do not ask what they are.
+
+Nothing is asked of substance, and the text above stands.

@@ -41,3 +41,27 @@ We choose (b): the Reading reaches the whole length of the channel we stand in, 
 
 ### Summary
 Accepted as drafted: the Form ruling, Reading the water, Return to the spring (with a clarification), the weakness. Chosen: Mist veil (b), Cupful (a), Trade buys (b). Shrunk by our own choice: Turn the channel, to the holding only. Clarifications asked in the write-up and not as new powers: Clean water (days counted), Return (what counts as the highest spring), Turn the channel (the size of one place).
+
+## Round 2 reply
+
+We have read the Keeper's final text against what we chose, and we confirm it. We checked each card line by line.
+
+Reading the water: confirmed. The whole-channel reach for what the water carries now, and the day's drift of 20 miles for what it carried in the last month, are as we chose in (b). The drawback and the limits are as drafted.
+
+Clean water: confirmed. The days owed are the days we stood in the water working it, counted from the day we leave, and the water stays clean after we leave until what fouled it returns. That is the wording we asked for.
+
+Mist veil: confirmed, with (b) written. We pay, and our people do not.
+
+The Cupful: confirmed, with (a) written. The gourd, the ten paces, the season before it fades, and pooling only when we meet again are all as we understood them.
+
+Return to the spring: confirmed at the first rung, a season and one item, with the ground written as the highest above the sea of the springs our own body has stood in or touched. We ask to find the gap ourselves and not to be told what went, as we said in round 1.
+
+Turn the channel: confirmed as shrunk by our own choice to the holding only, with one place set at 300 yards across along a bank we have touched. We thank the Keeper for not arguing us back into the bend.
+
+The plea for water: confirmed as drafted, with (b) as what it bought.
+
+Our Traits, given again: the Keeper has read them against the sheet and they stand. We have nothing to add.
+
+The Keeper trait: we note it and it needs no reply. We read it as a turning and a showing only, that it breaks no veil already held and touches no power or price on the card. We take it as written. We have no new ask.
+
+We found no wording that is wrong, and we ask for no change.

@@ -19,3 +19,16 @@ I choose (b), the widened weakness, for the mile of reach across connected stone
 
 ### The whole
 I keep all four powers as priced, with three wards, and carry the lean.
+
+## Round 2 reply
+
+I have read the final text against what I chose and what I meant, and I confirm it as written, with no correction of wording.
+
+- Reading the Stone: the mile and the three hours are as my trade bought. The drawback and the limits are as I accepted them.
+- Warding the Threshold: the weight is written as I chose it, with three wards. I understand and accept that with three standing I cannot leave the valley or the mountain I stand in, and that I cannot pass my own warded threshold.
+- Shaping the Stone: as accepted, twenty masons' work in a day, a stiff day after each day worked, and a seizure after seven days running.
+- Gathering from the Stone: a season at one item, the gap mine to find and not told to me. The month at two items stands declined.
+- Oath at the Threshold: the widened form is written as I chose it, and my clarification that a cave or any hollow cut in rock is a roof and walls of stone is written.
+- The Keeper trait: I accept it as written. It is a look and nothing more.
+
+Nothing is wrong with the Keeper's copy.

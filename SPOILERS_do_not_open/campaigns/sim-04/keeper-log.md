@@ -238,4 +238,4 @@ Keeper traits (2.4, first box), each a new fact pressing on a contradiction alre
 - god-stone (shepherd and host against the one who fled a master): its rear face turns to anyone who calls it servant. Reach: a look only; binds nothing under its weakness.
 - god-trade (builder against the one who will have nothing shut): what it builds has one more door than planned. Reach: its own handiwork; the Barred Door holds on it.
 Ledger: L-0009 to L-0018 entered at round 2. L-0009 is the table's measures and standing prices, a world rule binding every card. L-0010 is the self-breach penalty written as a limit, binding three cards. L-0011 to L-0018 are the requests settled against a god in whole or in part, with both arguments, one or two matters to an entry by card.
-Paused 23:30 Pacific for the round 2 replies.
+Paused 23:29 Pacific for the round 2 replies (commit d440d7c pushed). A correction to this log: this line was first written "23:30", a minute ahead of the clock, which read 23:29 when the push finished; corrected in the next commit.

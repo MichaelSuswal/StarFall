@@ -21,3 +21,15 @@ For the shrine oaths, I ask the write-up to say plainly that I may fix my own si
 
 ### The whole
 I accept the whole as it now stands: Sworn Word, the Unmarked Hand as manner, Return to the Ford at the first rung, and Guest-law with the (a) buy. Nothing here asks more than a newly landed god should carry.
+
+## Round 2 reply
+
+I confirm the final text as the Keeper has written it. I checked each line against what I chose in round 1.
+
+- Sworn Word: confirmed. The shrine-oath sentence in the Description, the quarter-hour blow and the ten-breach limit in the Drawback, and the standing-form limit all say what I meant. I note that the standing form binds me in each oath sworn by it. I accept that, and it is how I wanted my side to work.
+- Return to the Ford: confirmed, first rung, a season, one item by logged roll, the gap mine to find. I thank the Keeper for the correction: the season is the slower return and the cheaper, and I took it on purpose.
+- Unmarked Hand: confirmed as manner under Form, at no price, with the line as written.
+- Guest-law: confirmed as written, ending at noon, leaving out my own people, buying the shrine oaths within twenty miles.
+- Keeper trait: noted, no price and no power. I have nothing to correct in it.
+
+I have no wording to fix and no new ask.
