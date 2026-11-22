@@ -4,7 +4,7 @@ Campaign: sim-04. Written: creation, Day 2, 2026-11-21. The text below is the te
 
 ## Form
 
-One body, as for every god here (the campaign allows one body). The body is a swarm: bees, wasps and the small pollinating things, with no face, no chief insect and no voice. A swarm that is one presence in one place is form and costs nothing; dividing it is the power "The Splitting" below. Settled at creation. Ledger: pending, Night 2.
+One body, as for every god here (the campaign allows one body). The body is a swarm: bees, wasps and the small pollinating things, with no face, no chief insect and no voice. A swarm that is one presence in one place is form and costs nothing; dividing it is the power "The Splitting" below. Settled at creation. Ledger: L-0001.
 
 It does not attack unprovoked and does not speak. When spoken to, all of it turns toward the sound. All of it together fills a doorway, a swarm that could not be walked through without it parting. A single part, a fifth, fills a hat. Spread loose across a field it can look like a thin haze; drawn tight it is about the size of a barrel a person could carry.
 
@@ -23,8 +23,8 @@ When the body is wholly destroyed: see the power "The Regathering" below.
 - **Small pollinators.** Bees, wasps, and the flies, moths, butterflies and beetles that work flowers.
 - **The chosen valley.** One valley, chosen in play once the god has seen it, its bounds set by the Keeper from the land.
 - **A tended hive.** A hive of ordinary bees the god has worked or wintered, counted in seasons since it first did.
-- **Near.** Within about 200 yards of a part and about 450 yards of the whole of the god (provisional, for the Keeper). Settled at creation. Ledger: pending, Night 2.
-- **A day's flight.** About 20 miles in a fair day (provisional, for the Keeper). Settled at creation. Ledger: pending, Night 2.
+- **Near.** Within about 200 yards of a part and about 450 yards of the whole of the god (provisional, for the Keeper). Settled at creation. Ledger: L-0002.
+- **A day's flight.** About 20 miles in a fair day (provisional, for the Keeper). Settled at creation. Ledger: L-0003.
 
 ### Things carried
 
@@ -37,13 +37,13 @@ Status: main
 Description: The god lands whole. It may divide into as many as five parts and rejoin by touching. A part is a fifth of the god in every way; two fifths together are two fifths. Parts range up to a day's flight from the largest part.
 Drawback: Each part out thins the god. Parts do not share what they see or know until they touch again. A part killed is gone, and one item of memory or habit goes with it for good, picked by logged roll from the god's record; the god is not told what went. The bees regrow to full number over a season of brood in fair weather.
 Limits settled at creation:
-  - The god chooses which part stands in harm's way, never which memory goes. Settled at creation. Ledger: pending, Night 2.
-  - A lost part is priced at one item, by analogy with the first rung of the standing return scale. Settled at creation. Ledger: pending, Night 2.
+  - The god chooses which part stands in harm's way, never which memory goes. Settled at creation. Ledger: L-0004.
+  - A lost part is priced at one item, by analogy with the first rung of the standing return scale. Settled at creation. Ledger: L-0005.
   - A part shut in a skep or a box is held, not killed.
   - A part kept more than seven days beyond a day's flight from the largest part goes wild and counts as killed.
   - Dividing is visible as a swarm dividing, which mortals have seen bees do.
   - Parts do not fly at night, in rain or in cold. Drowning, smoke, fire, cold or a wet week kill a part more easily than the whole.
-  - In scenes the player may play any part, one at a time; each knows only what it has itself seen since it last touched another. A part not being played carries on with the purpose it left with, by the god's standing conduct, cautious and in character. Afterward the player is told what that part did, not what it knew; what it learned reaches the rest when it touches them again. Settled at creation. Ledger: pending, Night 2.
+  - In scenes the player may play any part, one at a time; each knows only what it has itself seen since it last touched another. A part not being played carries on with the purpose it left with, by the god's standing conduct, cautious and in character. Afterward the player is told what that part did, not what it knew; what it learned reaches the rest when it touches them again. Settled at creation. Ledger: L-0006.
   - What another god feels from a part is unruled until it happens.
   - The player said on Day 1 that a large swarm decides slowly. It is not a rule; it is the player's to play.
   - Not applicable: falling, scarcity, minds, things of more than ordinary craft.
@@ -126,8 +126,8 @@ Description: When every bee of the god is dead, it gathers again from the hive i
 Drawback: One item of memory or habit, by logged roll, not told to the god. As the player asked, and beyond what the scale requires, so it buys nothing: the god comes back at a fifth of full number and needs a further season to regrow.
 Limits settled at creation:
   - The standing return scale, first rung: a season, one item. The month at two items was offered and declined.
-  - The return ground is the hive tended longest, as the player wished, in place of the nearest ground of the god's kind. Settled at creation. Ledger: pending, Night 2.
-  - Parts that died in the same day as the last of the god are covered by that one item; parts lost earlier have already been paid for. Settled at creation. Ledger: pending, Night 2.
+  - The return ground is the hive tended longest, as the player wished, in place of the nearest ground of the god's kind. Settled at creation. Ledger: L-0007.
+  - Parts that died in the same day as the last of the god are covered by that one item; parts lost earlier have already been paid for. Settled at creation. Ledger: L-0008.
   - A swarm shut in, smoked quiet or scattered is held, not broken. This happens only when all of it is dead.
   - The "debt of attention" to that hive is not a rule. The player means nothing binding by it and plays it.
   - Not applicable: light and dark, falling, carrying, being watched, minds, things of more than ordinary craft.
