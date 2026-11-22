@@ -119,3 +119,25 @@ Date: 2026-11-21, Night 2. Year 0. Card: god-trade. Matter: what the Barred Door
 Arguments: the god asked two steps (three days' reach and twice the roads) for one weakness. The Keeper: one weakness, one step, however heavy.
 Ruling: four roads kept at once. The reach stays a day's walk.
 Binds: god-trade's card.
+
+## Rulings settled at the player's Day 3 table
+
+Entered on Night 3a, 2026-11-21, first, before any pricing of the night, from `campaigns/sim-04/civs/sallowfolk/record.md`, `campaigns/sim-04/player/power-card.md` (the dated Day 3 entries), `rejected-premises.md` and the Day 3 transcript. Year 0. God: the player's god (filed under "the Thrum"). People: the Sallowfolk.
+
+### L-0019
+Date: 2026-11-21, Day 3 (entered Night 3a). Year 0. Record: the Sallowfolk's. Matter: the price of the first edge (unusually good keepers of bees, with a trade in honey, wax and tapers to match), and how two refused defaults count in it.
+Arguments: the player asked that its people's bees be "the best-kept in the region", with a candle trade. The DM: a real edge, so priced; how the neighbors keep bees is the world's, so "best in the region" is recorded as the people's belief. Full price asked: two weaknesses (they live by the hive; their goods say where they come from and their small wealth has no walls). The smaller number and the lack of a town and seat each bear on this edge, one step each in the god's favor (DESIGN 3.11), so the second weakness was dropped. The player accepted the first weakness, and accepted that the Working's cost on hives lands on this people's table.
+Ruling: the edge stands at one weakness: they live by the hive (little grain to spare, salt and iron bought with honey and wax, a poor hive year a hungry winter for the whole valley, little else to sell). "Best in the region" is belief, not fact. Two refused defaults (the number; the town and seat) are spent here and bear on no other price.
+Binds: the Sallowfolk's record; the Keeper's fitting of their stores and trade; the pricing of any NPC people's edge where a default refused bears on it (one step each, in the one price it bears on).
+
+### L-0020
+Date: 2026-11-21, Day 3 (entered Night 3a). Year 0. Record: the Sallowfolk's. Card: the player's, the Tasting (dated entry 1, Day 3 close). One matter marked in two places, one id. Matter: the price and the limit of the second edge (they notice early).
+Arguments: the player asked that its people notice weather, blossom and blight before others do. The DM: real, and it must take nothing from the god's Tasting; a limit was put (by ordinary signs, days ahead of other farmers, effects and not causes, never before the god's own tasting of the same ground would). Full price asked: two weaknesses (slow to act on what they see; an eye for hive, weather and blossom and not for people). Having no helpers bears on this edge, one step, so the first was dropped and the second charged. The player accepted the limit and the weakness.
+Ruling: the edge stands with its limit, at one weakness: they read strangers and bargains poorly. The refused helpers are spent here and bear on no other price.
+Binds: the Sallowfolk's record; the player's card (the Tasting keeps its lead on the same ground).
+
+### L-0021
+Date: 2026-11-21, Day 3 (entered Night 3a). Year 0. Card: the player's, the Working (dated entry 2, Day 3 close). Matter: whether moving stores from a surplus hive to a short one is a use of the Working.
+Arguments: the player gave as standing conduct that it would move stores to a hive gone short by its doing. The DM: moving stores is the Working by the card's own Description, so it is a day of work on both hives and counts toward the three days each can bear in a season. Said with the read-back; the player agreed.
+Ruling: as the DM put it. No term of the power changes.
+Binds: the player's card; the Keeper's count of days worked on each hive in the night turn.
