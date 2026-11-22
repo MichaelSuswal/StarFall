@@ -156,6 +156,8 @@ Years are bare numbers. What each year carries is the earliest the world pushes 
 
 Years 1 to 7 carry no clue the god has not gone looking for, except what god-sense gives on Year 1 and a shepherd's remark in Year 2. Random events are weighted toward weather, beasts, births, and quarrels in those years.
 
+The random event table (runbook 3b.6): a base of 30 on `--die d100` for each country each year, less a step of 20 in Years 1 to 7, so the opening gives one chance in ten a year; from Year 8 the base stands. The table's kinds are weighted to weather, beasts, births and quarrels in the opening years.
+
 ## Plain world
 
 This material is not a clue and never becomes one. It exists because the world exists. Put it in every morning story.

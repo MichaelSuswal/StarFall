@@ -53,6 +53,8 @@ Drawn from world mythologies. Used for flavor of being, not copied.
 ## 3. Domain (roll d20; reroll duplicates within a campaign)
 Also reroll a domain that matches what the player has said its own god is about, in its Day 1 answers or in any remark kept with them (runbook 1.3), so that the player's god stays somewhat its own. The reroll is logged with its reason and the roll it replaces, and no one is told.
 
+A match is the same domain as the player's god's, or a domain the player named as its god's center. A domain that only neighbors the theme (the player's manner rather than its matter, a thing it hopes to discover, a season it names) is not a match. This is the narrowest reading that keeps the player's god its own and the table whole; the Keeper fixes which entries match, from the player's words, in the log before the first domain roll.
+
 1 fire, 2 harvest, 3 war, 4 secrets, 5 roads and borders, 6 the dead, 7 the sea, 8 storms and sky, 9 stone and mountains, 10 craft and making, 11 beasts and the hunt, 12 healing and rot, 13 law and oaths, 14 trade and counting, 15 song and memory, 16 dreams and night, 17 rivers and springs, 18 ice and winter, 19 thresholds and doors, 20 fate and chance
 
 ## 4. Form (roll d12)
@@ -84,7 +86,7 @@ Principle from run 01 (Night 2, step 2.2): when gods working apart arrive at the
 ## 10. Labels
 - Each NPC god's folder, and its name in every Keeper file until it names itself, is `god-<domain word>`: the first noun of its domain, lowercase, articles dropped. Stone and mountains is `god-stone`; roads and borders, `god-roads`; the dead, `god-dead`; beasts and the hunt, `god-beasts`.
 - Domains never repeat within a campaign, and no two domains on the table share a first noun, so labels never collide.
-- No number appears in any label, file name or sheet. The order in which the gods were rolled lives in the keeper log only. A god reading its own folder can learn its domain and nothing about how many others there are.
+- No number appears in any label, file name or sheet, and no roll id appears on a sheet: ids run in rolling order and would let a god count the others. The order in which the gods were rolled, and every roll id, live in the keeper log only. A god reading its own folder can learn its domain and nothing about how many others there are.
 
 ## 11. Bargaining stance
 How hard a god argues over the price of its powers (Night 2) and its people's edges (Night 3). Worked out from the leans when the sheet is written, and written on the sheet in words, as part of the god's character. The Keeper prices the same way whatever the stance; the stance shapes how the god answers.
@@ -115,6 +117,8 @@ Every god gives a reason for each thing it asks and for each price it accepts. A
 Worked out from the leans when the sheet is written, and written on the sheet in words, so that seven gods do not come out alike. It is the god's own lean, as a lean is: the god builds within it, and may hope otherwise if it gives its reasons in `people-hoped.md`.
 
 Every god comes down to lead a people, to build, rule and spread (the premise of The Between). The leans below decide the form that takes, never whether. Every NPC god starts with a people and with helpers who run things in its absence (the `## Helpers` section of the people record); the rule lean decides the form they take. The god may refuse them, dismiss them or never meet them in play, always for a reason it gives, logged; once dismissed they are not forced back.
+
+The helpers serve the god from landing only if its meeting says its people already know it. A god that comes to a people who do not yet know it finds the offices there and filled; each becomes its helper as it hears the god, in play, and until then runs on the people's own custom, as the player's designed helpers do before they know their god. The world listens and does not obey.
 
 ### Size
 Size score: the mean of Company, Appetite and Regard for mortals, rounded. (Company carries its +25.)
@@ -193,7 +197,7 @@ A test run may force lean results to test the engine. The rubric never changes f
 
 - The override lives only at `SPOILERS_do_not_open/campaigns/<name>/state/test-overrides.md`, created by Michael before Night 1, since it names NPC god results. The Keeper never looks for one on a public path. A campaign without that file has no override. Night 1 step 1.1 makes the rest of the sealed folder around it.
 - The file names each forced result: which lean (size, settlement, rule, worship), which gods (all NPC gods, or by label once labels exist), the result or family of results forced, how a variety within it is chosen (by this rubric's tables, from the god's rolls), and the date Michael approved it.
-- The Keeper rolls every lean as usual and works out the rubric's own result first. Then it applies the override and logs both, in the keeper log, at step 1.3: the rubric's result with its score, the forced result, and the override file's line. The sheet carries the forced result in the same words as any result, with no mark that it was forced; the god builds within it like any lean.
+- The Keeper rolls every lean as usual and works out the rubric's own result first. Then it applies the override and logs both, in the keeper log, at step 1.3: the rubric's result with its score, the forced result, and the override file's line. The sheet carries the forced result in the same words as any result, with no mark that it was forced; the god builds within it like any lean. The forced line carries no score on any god's sheet, forced or not, so the absence marks no one; the scores stay in the keeper log (runbook template 7.1). A forced rule lean is written with its name and sheet words as section 12 gives them, the words on priests included: priests come only from the worship lean.
 - Only what the file names is forced. Every other lean, table and rule stands, and nothing else bends to make the forced result fit.
 - The override is a fact of the test run, kept in the keeper log. It is never written into this rubric, the runbook or any engine file, and it ends with the run.
 
@@ -201,5 +205,9 @@ Example, for a run that forces every NPC god's rule lean to a god-king:
 ```
 # Test overrides: <campaign>
 Approved by Michael: <date>
-Rule lean, every NPC god: a god-king with a court and priesthood; its manner by the variety table (all five kinds), from its own rolls.
+Rule lean, every NPC god: a god-king with a court; its manner by the variety table (all five kinds), from its own rolls.
 ```
+
+## 14. Luck
+
+Every NPC god has a luck modifier, as the player's god does, earned the same way: by taking heavier prices than it needs, or by refusing powers. The Keeper sets it on Night 2 (runbook 2.4) and again on Night 3a for edges (3a.1), keeps it in the sealed `S/state/luck.md`, and uses it in the god's rolls and in the weight of the world's choices that fall on it (runbook standing rules). It is never on the sheet, never in any release, and never told to the god's agent; the god's bargaining stance is the same with it or without it, and no release suggests that a heavier price earns anything. A god that volunteers a heavier price than its power needs has it written as asked.

@@ -27,3 +27,11 @@ Each line names the run 03 change list items it applies.
 ## Tools
 
 ## Sealed side
+
+- `SPOILERS_do_not_open/keeper/creation-runbook.md`: 7, 8, 9, 10, 11, 12, 13 (pointer), 14, 16, 31, 35, 36, 37, 38, 39, 52, 53, 54 (one id per pending mark, wished names), 55, 56, 57 (count table, second placement roll), 58 (landing spots set before the brief), 61, 65, 68, 69, 70, 71, 75, 76, 78, 84, 87 (size at placement, plan and tracing; lock line), 90 (standing rule, set at 2.4 and 3a.1, used before rolls and in schedule weighting, template 7.14, lock line, neutrality), 91, 92, 93 (standing rule, tracing, records, lock line), 26 (sealed unsaid want read, applied only after a dated confirmation); rulings 1 to 8, 10, 11, 13 to 17, 20 to 25, 27, 30, 32, 35 to 41.
+- `SPOILERS_do_not_open/keeper/npc-god-rubric.md`: 7 (what counts as a match), 8, 9, 10, 61, 90 (section 14); rulings 1 to 4, 26.
+- `SPOILERS_do_not_open/keeper/survey-keeper-notes.md`: 13, 14.
+- `SPOILERS_do_not_open/keeper/mystery-standard.md`: 67 (what answering means; cast limits word for word).
+- `SPOILERS_do_not_open/keeper/deep-lore.md`: 68, 70; rulings 28, 29, 31, 34 (new section on setting a star's numbers).
+- `SPOILERS_do_not_open/keeper/clue-design.md`: 70; ruling 33 (random table base and step).
+- Not applied here: the self.md template half of 32 and the runbook half of 33 (items not assigned to agent K); the style block half of 57 and the template 7.7 scale line of 59 (assigned to agent E). Rulings 9, 12, 18 and 19 have engine homes (powers.md, DESIGN 3.11); the runbook only points to them.

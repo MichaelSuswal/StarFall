@@ -178,6 +178,15 @@ Roll at world creation. Record in the campaign's Keeper file only.
 
 **Ascended temper** (d6). 1 to 2 mostly those who want the fall soon. 3 to 4 mixed. 5 to 6 mostly the very old, who want nothing and speak in weather. The test world rolled 3.
 
+## Setting this star's numbers
+
+The years, counts and thresholds the truths above give are the test world's. They are shapes, not dates: each campaign's are set from its own star, written in the keeper log with the reason before any roll, and moved closer to no god for a story.
+
+- **Dates the lore gives no range for** (how long ago the last fall here was, when earlier gods came down): the Keeper sets a range from the phase and the Q5 depth before the roll, then rolls inside it (runbook 3b.4). A young star is still many thousands of years old, so the fall before it lies far back; earlier gods who stand in the history must come inside the human story, with time after them for what the history says followed.
+- **A source no plane entry can be.** The plane section lists what lies round the starting lands, not the whole plane. Where the history needs a source none of its entries can be (earlier gods thrown inside the human story when every listed fall is too old, too young or not fallen), that source is a fall farther off than any entry, named in the history as such and given no entry. None of what it threw is on the ground at the arrival.
+- **Thresholds** (Truth 4's school of magic, Truth 6's voices): the voices begin at four fifths of this star's ceiling, the lore's own fraction, rounded; a school is a gathering of workers larger than any one people holds by itself under this star's rain density, and the record says what that number is.
+- **A god's standing.** The triggers that rest on a god's standing on the lore's scale (near 20 at landing, the ceiling above) read a sealed measure, `S/state/standing.md`, one line per god, set at landing on Night 3b. The Keeper updates it in pass two of each year's night turn, in sealed state, by Truths 5 and 8, with a dated line for each change and its reason. It is never released, and no god is told it.
+
 ## What stays mysterious across campaigns
 
 Why the plane keeps accounts. What is above the thin above. Whether the Between is a place. Whether the star's mind is one or many, which even the ascended cannot answer. What a risen god becomes after a fall: a god, a country, or a people. Where the first star came from. Whether anything has ever not faded. Why the thrown remainders of dead countries are shaped like leaders, which is to say why the plane keeps making gods. Never answered. The Keeper may hint through the ascended, who do not know either.

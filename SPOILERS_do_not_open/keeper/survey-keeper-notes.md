@@ -14,7 +14,7 @@ How the Keeper uses the Day 1 survey answers (and the Day 2 and 3 follow-ups) to
    - **Pools** (what is scarce, what is feared, what is buried, what peoples exist): gather every answer into one pool. The most common themes become widespread features of the world. Rarer answers may become special places, single beings, or local histories, never rules.
    - **Rules** (god-sense, bodies): one rule for the whole world, by the counting rules below. Record the vote counts in the keeper log; never reveal them.
 5. **The star and the deep lore come first.** The star is rolled on Night 1 before the blend. Survey answers shape the world within what this star and the deep lore allow. Where an answer cannot fit, it is quietly left out and the leaving out is logged.
-6. **Rejected and bent premises.** A rejected premise refuses the question's assumption; a bent one answers outside the range offered. A marker with extra words ("Premise partly bent") is read as the nearer of the two, logged. Record the god's own answer as given, count it in the blend where it maps to the scale, pool or vote, and treat it as a gap only when the blend cannot place it.
+6. **Rejected and bent premises.** A rejected premise refuses the question's assumption; a bent one answers outside the range offered. A marker with extra words ("Premise partly bent") is read as the nearer of the two, logged. Every marker is read by the answer's words: an unmarked bend is a bend, and a marker the words do not bear out is read as what the words do (runbook 1.4). Record the god's own answer as given, count it in the blend where it maps to the scale, pool or vote, and treat it as a gap only when the blend cannot place it.
 7. **Everything is fixed by the lock.** Nothing derived from the survey is added after the world locks.
 8. **Remarks are not answers.** What the player said beside the survey, kept by the DM under `Also said` in `survey-day1.md`, is not blended and not acted on, with one use: it counts, with the answers themselves, toward the player's stated theme, and an NPC domain that matches that theme is rerolled on Night 1 (runbook 1.3).
 9. **Log every choice.** For each question the keeper log records the eight answers in summary, the Keeper's placement of each, the blend, any rolls, and what was built.
@@ -38,7 +38,7 @@ Nothing discovered appears in `world-rules.md`, in a release to an NPC god, or i
 
 ## The arithmetic of scales
 
-1. **Placement first.** The Keeper places each answer on the question's scale (the ends are in the table below) and logs every placement before any roll for that question. No placement is moved after a roll is seen. A god that gives a number beside its words is placed at its number.
+1. **Placement first.** The Keeper places each answer on the question's scale (the ends are in the table below) and logs every placement before any roll for that question. No placement is moved after a roll is seen. A god that gives a number beside its words is placed at its number. An answer that speaks to two matters on one scale (how many, and how far apart) is placed on the matter the scale measures, by the ends in the table; the other matter is logged and may color a place, never the placement.
 2. **Skipped answers.** A god that skips a scale question has no place on it. The median is taken over those who answered. A skipped answer is out of the pool for that question. In a rule vote a skip casts no vote.
 3. **The median.** With an odd count, the middle placement. With an even count, the mean of the two middle placements.
 4. **The half-median rule.** A median that falls on a half (4.5) is settled by one roll at even odds before the variation roll: success rounds up, failure rounds down.
@@ -64,7 +64,7 @@ Answers placed between the ends by their words: "a little", "some", "a few" sit 
 ## Counting rule votes
 
 1. **Two-way votes.** Majority of those who voted. A tie goes to a roll at even odds.
-2. **Bent answers.** An answer that bends a two-way vote counts with the side it is nearer to, by the Keeper's reading, logged with the reason. An answer that fits neither side at all and cannot be placed is a gap and gets a follow-up.
+2. **Bent answers.** An answer that bends a two-way vote counts with the side it is nearer to, by the Keeper's reading, logged with the reason. An answer that fits neither side at all and cannot be placed is a gap and gets a follow-up. An answer that keeps one side's words and adds an extra (one body, and something that goes where the body cannot) counts by its words, with the side whose words it keeps; the extra is not a sub-point of the rule, and goes to that god's Day 2 as a power it may propose and have priced, like any other.
 3. **Three-way or wider votes.** Count every option. An option with more than half the votes carries. Otherwise the two largest go forward: each vote for any other option counts with whichever of the two it is nearer to, by the Keeper's reading, logged; then majority, and a tie by even roll.
 4. **Sub-points.** How the winning rule works in detail (how near, how sure, what a second body costs) is the Keeper's judgment from the answers on the winning side, logged with which answers it drew on. A losing answer may color nothing.
 5. **No votes.** If no answer speaks to a rule at all, its default holds, logged as a default and not as a vote. Bodies: one body. God-sense: nothing beyond what DESIGN 1.5 gives every god (it knows others came down when it did), plus what its own senses tell it.
@@ -137,7 +137,7 @@ Principle from run 01 (Night 3, step 3.4, shading): when one result is said to "
 
 **10. What mortals fear.** Pool. The most shared dangers become the world's standing threats and feed the event schedule's clocks and triggers. A lone answer may become one being, one place or one local threat. Every danger obeys the mystery standard: a body, a cause, a cost if ignored. Discovered.
 
-**11. What is scarce.** Pool. The most common answer, or two, becomes the world's real scarcity, which drives trade, war and migration everywhere. Other answers may be local shortages from geography. Scarcity is a pressure, not a punishment; every god's people must face it somewhere. Discovered.
+**11. What is scarce.** Pool. The most common answer, or two, becomes the world's real scarcity, which drives trade, war and migration everywhere. Other answers may be local shortages from geography. Scarcity is a pressure, not a punishment; every god's people must face it somewhere. A scarcity of something no one can hold or trade (quiet, trust, time) has no build path as a thing in the land; it becomes a temper of the peoples, written into their records as how they live, never a rule. Discovered.
 
 **12. What lies buried.** Pool. The most shared become widespread features of the deep history (common ruins, old roads). Rarer ones become single sites, placed at creation with map ids, findable from the moment they exist, and possibly never found. The raw material of the deep history and the short mysteries. Whether the world has an underground layer at all is decided from this pool and the deep lore. Discovered.
 
