@@ -146,4 +146,11 @@ None. The offer that a weakness can buy an improvement elsewhere was made once a
 Set by the world. Not shown.
 
 ## Dated entries
-None yet.
+
+### 2026-11-21, creation Day 3 opens: from the night review of the card
+
+Entered by the DM from `player/corrections.md`, as the review asked. No limit is added to any power.
+
+1. The Tasting and the Listening were marked provisional for review. Both stand as written and read back: what they show are effects, never causes, and the limits already on the card are enough. The provisional mark is lifted on both.
+2. The rates and reaches marked provisional stand as set at the table: about 20 miles in a fair day; near as about 200 yards of a part and about 450 yards of the whole. The provisional mark is lifted on each.
+3. The other table numbers stand as agreed: three days of working in a season before a hive goes into winter short; seven days beyond a day's flight before a part goes wild; one sting with intent in a season across all parts; a season of brood to regrow to full number.
