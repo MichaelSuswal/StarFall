@@ -61,3 +61,7 @@ The land is not quite what the god hoped: the cupped valley's floor is mostly la
 
 ## Named mortals
 None yet. Offices only.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell that they have always been in the vale and that the first Dathri fitted the oldest walls. Wrong: they came up about 1,500 years before the god came, and the oldest walls of Kessmar [f19] were standing then, the work of the road-builders. They tell that Gathol Door [f24] shuts in a king who would not die and that digging there lets him out. Wrong about the king. Right that someone lies behind it, though not at the door and not a king. They say the great light stands a little nearer the south wall of the vale than it did in their grandmothers' day, and they argue about it.

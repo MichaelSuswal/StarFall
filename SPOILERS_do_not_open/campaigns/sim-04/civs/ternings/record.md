@@ -58,3 +58,7 @@ History: they came along the coast some six generations ago, after an older peop
 
 ## Named mortals
 None yet. Offices only.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell that their grandfathers' grandfathers came along the coast under Torvald Aske and found the valleys empty, the terraces already cut, and no graves. They say the people before them walked north onto the sea ice after a light and did not come back. Wrong: the terrace people went south over Scour Gap [f16] as bondsmen for a debt to Hallisk [f35], about 150 years before the god came, and their descendants are in Dunmarrow [r07] still. Right: the terraces are older than the Ternings. The Iceway [f18] they call a giants' road; it is a road of the oldest builders. They tell that the great light has always stood low in the south and that it was lower in a hard winter; the second part is weather talk.

@@ -11548,5 +11548,58 @@
     260.6
    ]
   }
+ },
+ "plane": {
+  "starfalls": [
+   {
+    "id": "p01",
+    "bearing": "east",
+    "distance_years_walk": 190,
+    "age_years": 0,
+    "alive": true,
+    "phase": null,
+    "throw": true,
+    "rolls": [
+     "r-0147",
+     "r-0148",
+     "r-0149"
+    ]
+   },
+   {
+    "id": "p02",
+    "bearing": "north-west",
+    "distance_years_walk": 820,
+    "age_years": 18000,
+    "alive": true,
+    "phase": null,
+    "throw": false,
+    "rolls": [
+     "r-0151",
+     "r-0152",
+     "r-0153",
+     "r-0154",
+     "r-0155",
+     "r-0156",
+     "r-0157"
+    ]
+   },
+   {
+    "id": "p03",
+    "bearing": "north",
+    "distance_years_walk": 640,
+    "age_years": null,
+    "alive": "not yet fallen",
+    "phase": "young",
+    "throw": false,
+    "rolls": [
+     "r-0158",
+     "r-0159",
+     "r-0160",
+     "r-0161",
+     "r-0162"
+    ]
+   }
+  ],
+  "count_roll": "r-0150"
  }
 }

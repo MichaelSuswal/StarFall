@@ -24,3 +24,7 @@ The price kept high, the Skein's [f08] mouths kept open, and the moving people o
 Through salt: whoever squeezes or frees the salt moves every people at once. Whether the flats themselves change is 3b's.
 ## What they know of the land
 Their coast and flats, seen. Maudry [f64], Eelstow [f46], Vesthallow [f71], Lowhythe [f73]: seen by their carriers. Sallowdene [r12]: reported, as a buyer of salt and a seller of tapers. Dunmarrow [r07]: reported. Yskar [f76] to Orsk [f77], on foot, by The Salt Way [f80]: 105.7 miles, 7.5 days. Yskar [f76] to Varn [f78], on foot, over open ground, no route: 107.4 miles, 7.7 days.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell that the pans were laid by the sea itself and that the first panmen found them ready. Wrong: the road-builders laid them, more than 3,300 years before the arrival. Lowgrave Field [f79] they hold to be a plague ground, dug deep against the sweating sickness. Wrong: it is two and a half centuries older than the sickness, the ground of a sect that buried deep for its own reasons. The lamp on the seaward sill they keep without a reason; some say it is for luck with salt. They are proud of the salt war and of the chain at Varn [f78]. They know the list-singers as people who come ashore at Varn [f78] every thirty years, pay for nothing and are let through, by custom. A foreign carter at Varn [f78], thirteen years on the coast, is known for a saddle no one has copied.

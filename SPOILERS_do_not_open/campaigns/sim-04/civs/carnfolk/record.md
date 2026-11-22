@@ -59,3 +59,7 @@ History: the crossing is as old as the old roads; one of them runs straight unde
 
 ## Named mortals
 None yet. Offices only.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell that the ford is older than the roads and that the first scale in the town was set up by a king's tolltaker and kept true after the king's men left. Right in the main: Osmer of Dunmarrow [r07] took toll here about 200 years before the god came, and the footings of his toll-house are under the market. They tell that the straight road under the Carn Road [f33] was laid in one night. Wrong. The hollow place in the hills (Carn Vault [f40]) they hold to be a robbers' cellar, long since emptied. Wrong: it has never been opened. Their old remember the list-singers going down the Bank Road [f34] to Carnmouth [f42] twenty years before the god came, and the town tallied them: forty-one.

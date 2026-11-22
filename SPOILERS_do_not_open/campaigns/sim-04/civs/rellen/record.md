@@ -56,3 +56,7 @@ History: they move over ground that settled kingdoms once held; there are landin
 
 ## Named mortals
 None yet. Offices only.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell that they were once the ferrymen of great river towns and that the towns were swallowed by the river for breaking faith with their boatmen. Half right: the ports of the Skein [f08] were left by their river in the last years of the old kingdom, about 650 years before the god came, and the ferry guilds took to moving; no faith was broken. Dry Stairs [f75] they hold to be a king's landing; it was a grain wharf. They tell that the water at Hollin Spring [f74] keeps a person from growing old in the head, and shepherds carry it down for the dying; they are right that it does something and wrong about what. Their old remember the list-singers at Grayle Ford [f72] twenty years before the god came, who asked the name of every ford and sang them back.

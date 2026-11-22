@@ -57,3 +57,7 @@ History: a land divided and redivided; the Tallstones [f28] carry terms no one c
 
 ## Named mortals
 None yet. Offices only.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell that the crossing was given to their forebears by a queen, with the Tallstones [f28] as her word. Near enough: the stones are a boundary award of the old kingdom, about 1,410 years before the god came, and one grants the toll to the keepers of the crossing; the Tolleners came to the crossing some nine centuries after and cannot read it. They tell that Lake Odran [f13] was made by a flood sent on a wicked town. Wrong: a queen dammed the river and drowned an emptied town on purpose, and it was forgotten. They tell that the lake was deeper and the eels fatter in their grandfathers' day; it is so.

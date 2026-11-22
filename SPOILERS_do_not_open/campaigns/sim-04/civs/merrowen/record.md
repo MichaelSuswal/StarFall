@@ -59,3 +59,7 @@ History: the fen was open water once, and Vesthallow's [f71] rise was an island 
 
 ## Named mortals
 None yet. Offices only.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell that the fen was a lake where their forebears fished from boats, and that Vesthallow [f71] was an island; both are so. They tell that the lake was drunk by the forest. Wrong: the mere slowed and filled over two lifetimes, about 800 years before the god came, and no one did it. They tell that the tall grey people of the Koldry Hills [r26] are the dead of an older country. Wrong. They tell that singers who want nothing come by the Salt Way [f80] once in a lifetime. Wrong in the road: the singers pass to the south and west and have not come up the Salt Way [f80]; the Merrowen have the story from salt carriers.

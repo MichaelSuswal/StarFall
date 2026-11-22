@@ -58,3 +58,7 @@ The land: the Maud [f07] rises in springs under the southern rim of Lake Hesh [r
 
 ## Named mortals
 None yet. Offices only.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell that the first weir on the Maud [f07] was built by a river woman who married the water, and that every weir since is built on hers. Wrong about the woman; right that the weirs stand on older weirs, and the oldest stand on work of the old kingdom, whose quay is under the wall of Maudry [f64]. They tell that the river comes from under the still water and that the still water is the river's mother, and they do not go up to look. They tell of stone hives on Ellen Heath [r17] kept by no one, as a herders' tale. Their old remember the list-singers crossing at Maudry [f64] twenty years before the god came, and that the singers knew the names of landings no one has used in living memory.

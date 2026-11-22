@@ -24,3 +24,7 @@ To be left as they are.
 At the heart of them. The lake is the star's center and the hoarder; these are its shore people (deep lore, Truth 7). Their names are thinning. What follows, and when, is 3b's.
 ## What they know of the land
 The shore, seen. Pellam [f36] and Carnford [f39]: reported. Maudry [f64]: rumored. Pellam [f36] to Nenna [f66], on foot, over open ground, no route: 64.0 miles, 4.6 days.
+
+## What the old tell (added creation night 3b, 2026-11-22)
+Written from `deep-history.md`. What is told, and where the telling is wrong. Nothing agreed on Night 3a is changed.
+They tell little. The oldest say there were houses where the water is, and that their grandparents had names, and that the water did not want them. They do not say what they think it means. Asked how long, they point at the water. Their old remember singers who came along the south shore twenty years before the arrival and asked every person's name, and went on when few could give one.
