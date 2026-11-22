@@ -1,6 +1,6 @@
 {
   "campaign": "fx",
-  "painting": {"size": [1000, 800], "miles_per_pixel": 2.0, "grid": {"cols": 5, "rows": 4}},
+  "painting": {"size": [1000, 800], "miles_per_pixel": 1.0, "grid": {"cols": 5, "rows": 4}},
   "regions": [
     {"id": "r01", "name": "The Wend Downs", "terrain": "hill, chalk downs", "polygon": [[0, 0], [400, 0], [400, 400], [0, 400]],
      "elevation": "low hills", "water": ["f02"], "climate": "mild, wet", "neighbors": [{"id": "r02", "days": 6}, {"id": "r03", "days": 8}]},

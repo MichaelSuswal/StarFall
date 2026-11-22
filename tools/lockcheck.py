@@ -9,8 +9,12 @@ alone (for records kept outside the spoiler folder). --root points at another re
 layout (tests use a fixture).
 
   --places     every bracketed id like [r12], [f03] or [p01] in a sealed file exists in map.json;
-               the map's own ids, neighbors and landings resolve; warns on a capitalized
-               map name written with no id after it.
+               the map's own ids, neighbors and landings resolve; the continent's size
+               passes (map.py continent_problems: 600 miles at the narrowest, 800 to 1,200 on
+               average); warns on a capitalized map name written with no id after it, and on
+               one written in lower case (a name of two or more words, a placeholder label,
+               or a one-word name that is not a common word). Headings and bold mystery
+               titles are not counted, and a name inside a longer map name is the longer one's.
   --leaks      reads the sealed term list S/sealed-terms.txt, which the Keeper writes (god
                names and bynames, hidden power names, names in the common secrets, places
                off the map; one term per line, # for comments, matched as written, case
@@ -20,25 +24,32 @@ layout (tests use a fixture).
                gives: god folder labels, the count of gods, map names the player has not
                seen or been told, phenomena yearly counts, mystery titles (matched case
                and all), schedule titles and star values. Fails on any hit in
-               campaigns/<name>/ or in the campaign's public scene requests,
-               images/requests/<name>-*.json and images/held/<name>-*.json (the sealed
-               held folder is not scanned), and on a missing sealed-terms.txt. Also
+               campaigns/<name>/ or in the campaign's public scene requests: every .json
+               under images/requests/ or images/held/, at any depth, whose file name or id
+               starts with "<name>-" or whose campaign field is the campaign (the sealed
+               image folders are not scanned), and on a missing sealed-terms.txt. Also
                fails a number word or numeral (two to twelve, 2 to 12, "a dozen", "half a dozen", "twice")
                within six words of "god", "gods", "like me", "like us", "of us", "pulls",
                "came down" or "fell" in the same sentence, and a public map-knowledge file
-               that breaks the map rules. The older guesses from prose (power card
-               titles, Name lines, hidden-power headings, capitals in the common secrets)
-               are warnings only. S/leak-allow.txt (one term per line, # for comments)
-               exempts terms; a number-word hit is exempted by its quoted phrase.
+               that breaks the map rules. A number word that counts units or things ("two
+               days", "seven acres", "Two things") is a work rate or a count, not a hit.
+               The older guesses from prose (power card titles, Name lines, hidden-power
+               headings, capitals in the common secrets) are warnings only.
+               S/leak-allow.txt, as the checker writes it (one phrase per line, quoted or
+               not, a # comment after it or on its own line), exempts terms; a number-word
+               hit is exempted by its quoted phrase, or by a longer allowed phrase that holds
+               it and stands in the line.
   --mysteries  every mystery follows runbook template 7.8: Truth; Body; Cost if ignored;
                Clock or trigger; Clues; Branches; Never found, a Kind: line, an
                "Answers questions: yes|no" line, each clue with Location: and Readings:,
                each branch with What the world does:, and a Limit: line in the Truth or
-               Body of every mystery marked "Answers questions: yes"; one epic, two or
-               more long, three or more short.
+               Body of every mystery marked "Answers questions: yes", the same limit word
+               for word in S/cast.md (emphasis, map ids and punctuation aside); one epic,
+               two or more long, three or more short.
   --rolls      every r-NNNN cited in a sealed file is in S/state/rolls.jsonl, nothing is
                rolled twice, every reroll has a reason; the public rolls log is empty.
-  --dashes     no em or en dash in any campaign file, sealed or public.
+  --dashes     no em or en dash in any campaign file, sealed or public, or in the campaign's
+               image requests, scene or map (a JSON escape counts).
 
 Every mode skips the checker's own flags files (any lock-flags*.md, years/000/lock-flags.md
 among them): they quote what they flag.
@@ -163,10 +174,13 @@ class Campaign:
             yield "feature", el
 
     def allow(self):
+        """S/leak-allow.txt as the checker writes it (checker.md): one phrase per line, each with a #
+        comment giving its reason and date, on the same line after the phrase or on a line of its own.
+        A phrase may be quoted. Returns the phrases, lower case, spaces collapsed."""
         p = os.path.join(self.S, "leak-allow.txt")
         if not os.path.exists(p):
             return set()
-        return {l.strip().lower() for l in open(p) if l.strip() and not l.strip().startswith("#")}
+        return {ph for ph in (allow_phrase(l) for l in read(p).splitlines()) if ph}
 
     def sealed_terms(self):
         """The Keeper's sealed term list, S/sealed-terms.txt: one term per line, # for comments,
@@ -180,6 +194,24 @@ class Campaign:
             if t and not t.startswith("#") and t not in out:
                 out.append(t)
         return out
+
+
+QUOTES = "\"'“”‘’`"
+
+
+def allow_phrase(line):
+    """The phrase on one leak-allow.txt line, or None for a comment or blank line: the text before
+    an inline # comment, with any quotes around it removed, lower case, spaces collapsed."""
+    t = line.strip()
+    if not t or t.startswith("#"):
+        return None
+    m = re.match(r"^([\"“'‘`])(.+?)([\"”'’`])(?:\s*#.*|\s*)$", t)
+    if m:
+        t = m.group(2)
+    else:
+        t = re.split(r"\s+#", t, maxsplit=1)[0]
+    t = " ".join(t.strip().strip(QUOTES).split()).lower()
+    return t or None
 
 
 def name_variants(name):
@@ -200,12 +232,27 @@ def check_places(c, rep):
         return
     for p in mapt.check_world(c.world):
         rep.fail("places", f"map.json: {p}")
+    probs, _line = mapt.continent_problems(c.world)
+    for p in probs:
+        rep.fail("places", f"map.json: {p}")
     exempt = c.god_labels() | c.folder_names() | {"player"} | BRACKET_SKIP
     names = {}
     for kind, el in c.elements():
+        if mapt.is_placeholder(el.get("name", "")):
+            continue
         for v in name_variants(el.get("name", "")):
             names.setdefault(v, set()).add(el["id"])
     name_res = {v: re.compile(r"(?<![\w'])" + re.escape(v) + r"(?![\w])") for v in names}
+    # lower-case references (change list 74): a name of two or more words, a placeholder label, or a
+    # one-word name that is not a common word, written in lower case
+    lower = {}
+    for kind, el in c.elements():
+        nm = el.get("name", "")
+        core = mapt.name_core(nm)
+        if not core or (" " not in core and (len(core) < 4 or mapt.is_common_word(core))):
+            continue
+        lower.setdefault(core.lower(), set()).add(el["id"])
+    lower_res = {v: re.compile(r"(?<![\w'])" + r"\s+".join(re.escape(w) for w in v.split()) + r"(?![\w])", re.I) for v in lower}
     for path in text_files(c.S):
         base = os.path.basename(path)
         if base in ("map.json", "rolls.jsonl", "phenomena.json") or path.endswith(".py"):
@@ -219,17 +266,33 @@ def check_places(c, rep):
                     rep.fail("places", f"{c.rel(path)}:{ln}: [{tok}] is not in map.json")
         if not path.endswith(".md"):
             continue
+        spans = mapt.heading_spans(text)   # headings and bold mystery titles are never stamped
+        claimed = []
+
+        def has_id(m, own):
+            after = text[m.end():m.end() + 60]
+            after = re.sub(r"^('s)?\s*(\([^)\n]*\)\s*)?", "", after)
+            bm = re.match(r"\[([a-z0-9, -]+)\]", after)
+            return bool(bm and set(re.split(r"\s*,\s*", bm.group(1))) & own)
+
+        hits = []
         for v, rx in name_res.items():
-            bare = 0
-            for m in rx.finditer(text):
-                after = text[m.end():m.end() + 60]
-                after = re.sub(r"^('s)?\s*(\([^)\n]*\)\s*)?", "", after)
-                bm = re.match(r"\[([a-z0-9, -]+)\]", after)
-                if bm and set(re.split(r"\s*,\s*", bm.group(1))) & names[v]:
-                    continue
-                bare += 1
-            if bare:
-                rep.warn("places", f"{c.rel(path)}: map name \"{v}\" written {bare} time(s) with no id")
+            hits += [(m, v, names[v], "cap") for m in rx.finditer(text)]
+        for v, rx in lower_res.items():
+            hits += [(m, v, lower[v], "low") for m in rx.finditer(text) if m.group(0)[0].islower()]
+        bare, bare_low = {}, {}
+        # a name inside a longer map name ("Mastwater" in "Mastwater Vale [r05]") is the longer name's
+        for m, v, own, how in sorted(hits, key=lambda h: (-(h[0].end() - h[0].start()), h[0].start())):
+            if mapt.in_spans(m.start(), spans) or any(a <= m.start() < b or a < m.end() <= b for a, b in claimed):
+                continue
+            claimed.append((m.start(), m.end()))
+            if has_id(m, own):
+                continue
+            (bare if how == "cap" else bare_low)[v] = (bare if how == "cap" else bare_low).get(v, 0) + 1
+        for v in sorted(bare):
+            rep.warn("places", f"{c.rel(path)}: map name \"{v}\" written {bare[v]} time(s) with no id")
+        for v in sorted(bare_low):
+            rep.warn("places", f"{c.rel(path)}: map name \"{v}\" written in lower case {bare_low[v]} time(s) with no id")
 
 
 # ---------------------------------------------------------------- leaks
@@ -414,17 +477,41 @@ def common_names(text):
     return names
 
 
+def request_files(c, sealed=False):
+    """The campaign's image request files (change list 83): every .json under images/requests/ and
+    images/held/ (any depth, so an older images/requests/held/ too) whose file name or `id` starts with
+    "<name>-" or whose `campaign` field is the campaign. With sealed=True, the same under
+    SPOILERS_do_not_open/images/ (map requests), which the leak scan never reads."""
+    base = os.path.join(c.root, "SPOILERS_do_not_open", "images") if sealed else os.path.join(c.root, "images")
+    out = []
+    for sub in ("requests", "held"):
+        d = os.path.join(base, sub)
+        if not os.path.isdir(d):
+            continue
+        for dirpath, dirs, files in os.walk(d):
+            dirs[:] = sorted(x for x in dirs if not x.startswith("."))
+            for f in sorted(files):
+                if not f.endswith(".json"):
+                    continue
+                path = os.path.join(dirpath, f)
+                mine = f.startswith(c.name + "-")
+                if not mine:
+                    try:
+                        j = json.loads(read(path) or "{}")
+                    except json.JSONDecodeError:
+                        j = {}
+                    if isinstance(j, dict):
+                        mine = str(j.get("id", "")).startswith(c.name + "-") or j.get("campaign") == c.name
+                if mine and path not in out:
+                    out.append(path)
+    return out
+
+
 def public_files(c):
     """Every text file under campaigns/<name>/, plus the campaign's public scene requests, waiting or
-    held: images/requests/<name>-*.json and images/held/<name>-*.json (and an older
-    images/requests/held/). SPOILERS_do_not_open/images/held/ is sealed and not scanned."""
+    held (request_files). SPOILERS_do_not_open/images/ is sealed and not scanned for leaks."""
     out = text_files(c.P) if os.path.isdir(c.P) else []
-    for req in (os.path.join(c.root, "images", "requests"), os.path.join(c.root, "images", "held"),
-                os.path.join(c.root, "images", "requests", "held")):
-        if os.path.isdir(req):
-            out += sorted(os.path.join(req, f) for f in os.listdir(req)
-                          if f.startswith(c.name + "-") and f.endswith(".json"))
-    return out
+    return out + request_files(c)
 
 
 def article_variants(term):
@@ -450,6 +537,20 @@ WORD_RE = re.compile(r"[A-Za-z0-9']+")
 LABEL_BEFORE_RE = re.compile(r"(?<![\w-])(?:day|days|night|nights|year|years|q|question|questions|item|items|step|steps|"
                              r"round|rounds|section|sections|rule|rules|line|lines|page|chapter|number|no|part|act|scene)\s*#?\s*$", re.I)
 SENTENCE_RE = re.compile(r"(?:[^.!?;:]|(?<=\d)[.:](?=\d))+")   # "2.5" and "3:10" do not end a sentence
+# A number word that counts units of time, distance, area or work, or things in a list, is a work rate
+# or a count, not a count of gods (change list 30): "two days", "seven acres", "Two things about this god".
+UNIT_NOUNS = ["days", "day", "nights", "night", "weeks", "week", "months", "month", "years", "year", "seasons", "season",
+              "hours", "hour", "miles", "mile", "yards", "yard", "feet", "foot", "acres", "acre", "worker-days", "worker-day",
+              "worker days", "tons", "ton", "pounds", "pound", "loads", "load", "furlongs", "leagues",
+              "things", "thing", "matters", "questions", "points", "parts", "ways", "words", "steps", "times"]
+UNIT_MODIFIERS = ["full", "whole", "more", "long", "short", "hard", "good", "working", "square", "cubic", "hundred", "thousand"]
+UNIT_AFTER_RE = re.compile(r"^\s+(?:(?:" + "|".join(UNIT_MODIFIERS) + r")\s+)?(?:" +
+                           "|".join(_words_re(w) for w in sorted(UNIT_NOUNS, key=len, reverse=True)) + r")(?![\w-])", re.I)
+
+
+def is_unit_count(sent, m):
+    """True when the number word at match m counts units or things: "two days", "five full acres"."""
+    return m.group(0).lower() != "twice" and UNIT_AFTER_RE.match(sent[m.end():]) is not None
 
 
 def count_hits(line):
@@ -468,7 +569,7 @@ def count_hits(line):
             return i
 
         nums = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in COUNT_RE.finditer(sent)
-                if not (m.group(0).isdigit() and LABEL_BEFORE_RE.search(sent[:m.start()]))]
+                if not (m.group(0).isdigit() and LABEL_BEFORE_RE.search(sent[:m.start()])) and not is_unit_count(sent, m)]
         trigs = [(m, word_index(m.start()), word_index(m.end() - 1)) for m in TRIGGER_RE.finditer(sent)]
         for n, n0, n1 in nums:
             for t, t0, t1 in trigs:
@@ -502,8 +603,11 @@ def check_leaks(c, rep):
                 if sev == "warn" and label.lower() not in failed_labels and rx.search(line):
                     rep.warn("leaks", f"{c.rel(path)}:{ln}: {kind} \"{label}\" (a guess from prose; "
                                       "add it to sealed-terms.txt if it is sealed)")
+            low_line = " ".join(line.split()).lower()
             for num, trig, phrase_ in count_hits(line):
-                if phrase_.lower() in allow:
+                ph = " ".join(phrase_.split()).lower()
+                # exempt by its quoted phrase, or by a longer allowed phrase that holds it and stands in the line
+                if ph in allow or any(ph in a and a in low_line for a in allow):
                     continue
                 rep.fail("leaks", f"{c.rel(path)}:{ln}: number word \"{num}\" near \"{trig}\": \"{phrase_}\"")
 
@@ -566,6 +670,16 @@ KIND_RE = re.compile(r"^\s*Kind:\s*(epic|long|short)\b", re.I | re.M)
 ANSWERS_FIELD_RE = re.compile(r"(?:^|[.;]\s*|\*\*)\s*\**Answers questions\**:\**\s*([A-Za-z]*)", re.M)
 
 
+LIMIT_LINE_RE = re.compile(r"^\s*(?:[-*]\s+)?\**Limit\**:\**\s*(\S.*?)\s*$", re.M)
+
+
+def limit_words(text):
+    """A Limit: line as its words, for a word-for-word comparison: markdown emphasis, bracketed map ids
+    and punctuation are set aside, case is kept."""
+    t = re.sub(r"\[[a-z0-9, -]+\]", " ", text.replace("*", "").replace("_", " "))
+    return tuple(re.findall(r"[\w']+(?:-[\w']+)*", t))
+
+
 def chunks(sec):
     """A section's #### sub-entries (clues or branches), or None when it has none."""
     parts = re.split(r"^####\s+.*$", sec, flags=re.M)
@@ -583,6 +697,8 @@ def check_mysteries(c, rep):
         return
     total = 0
     kinds = {"epic": 0, "long": 0, "short": 0}
+    cast_path = os.path.join(c.S, "cast.md")
+    cast = {limit_words(m.group(1)) for m in LIMIT_LINE_RE.finditer(read(cast_path))} if os.path.exists(cast_path) else None
     for path in files:
         for title, body in mystery_units(read(path)):
             total += 1
@@ -626,9 +742,15 @@ def check_mysteries(c, rep):
             elif answers[0].lower() not in ("yes", "no"):
                 rep.fail("mysteries", f"{where}: Answers questions: must be yes or no, not {answers[0]!r}")
             elif answers[0].lower() == "yes":
-                being = (section(body, "Truth") or "") + (section(body, "Body") or "")
-                if not re.search(r"^\s*\**Limit\**:\**\s*\S", being, re.M):
+                being = (section(body, "Truth") or "") + "\n" + (section(body, "Body") or "")
+                limits = [m.group(1) for m in LIMIT_LINE_RE.finditer(being)]
+                if not limits:
                     rep.fail("mysteries", f"{where}: Answers questions: yes, but no Limit: line in its Truth or Body")
+                for lim in limits:   # the same limit, word for word, in S/cast.md (change list 67)
+                    if cast is None:
+                        rep.fail("mysteries", f"{where}: its Limit: line has no copy, since {c.rel(cast_path)} is missing")
+                    elif limit_words(lim) not in cast:
+                        rep.fail("mysteries", f"{where}: its Limit: line is not in {c.rel(cast_path)} word for word: \"{lim.strip()}\"")
     if total == 0:
         rep.fail("mysteries", "no mystery found")
         return
@@ -686,14 +808,18 @@ def check_rolls(c, rep):
 # ---------------------------------------------------------------- dashes
 
 def check_dashes(c, rep):
+    paths = []
     for base in (c.S, c.P):
-        if not os.path.isdir(base):
-            continue
-        for path in text_files(base):
-            for ln, line in enumerate(read(path).splitlines(), 1):
-                n = line.count("\u2014") + line.count("\u2013")
-                if n:
-                    rep.fail("dashes", f"{c.rel(path)}:{ln}: {n} em or en dash(es)")
+        if os.path.isdir(base):
+            paths += text_files(base)
+    paths += request_files(c) + request_files(c, sealed=True)   # the campaign's image requests too (83)
+    for path in paths:
+        for ln, line in enumerate(read(path).splitlines(), 1):
+            n = line.count("\u2014") + line.count("\u2013")
+            if path.endswith((".json", ".jsonl")):   # a dash written as a JSON escape
+                n += len(re.findall(r"\\u201[34]", line, re.I))
+            if n:
+                rep.fail("dashes", f"{c.rel(path)}:{ln}: {n} em or en dash(es)")
 
 
 CHECKS = [("places", check_places), ("leaks", check_leaks), ("mysteries", check_mysteries),

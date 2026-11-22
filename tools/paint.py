@@ -15,7 +15,7 @@ writing one starts no job); it is moved into a request folder only with Michael'
 scan reads only the top level of each request folder, and any path with a `held` folder in
 it is skipped as well, so an older images/requests/held/ is never painted either.
 """
-import base64, glob, json, os, sys, urllib.error, urllib.request
+import base64, glob, json, os, re, sys, urllib.error, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FOLDERS = [("images/requests", "images/out"),
@@ -31,8 +31,70 @@ def is_held(path, root=ROOT):
     return HELD in parts[:-1]
 
 
-def pending(root=ROOT):
-    """(request path, request, output path) for every request without an output."""
+def campaign_of(req, root=ROOT):
+    """The request's campaign: its `campaign` field, else the longest campaign folder name its id starts with."""
+    if req.get("campaign"):
+        return req["campaign"]
+    d = os.path.join(root, "campaigns")
+    names = sorted((n for n in (os.listdir(d) if os.path.isdir(d) else []) if os.path.isdir(os.path.join(d, n))),
+                   key=len, reverse=True)
+    rid = str(req.get("id", ""))
+    return next((n for n in names if rid.startswith(n + "-")), None)
+
+
+def kind_words(rest):
+    """(words the label must hold, words it must not) for a request id less its campaign prefix."""
+    if rest == "map-surface":
+        return ["surface"], []
+    if rest == "map-clouds":
+        return ["cloud"], []
+    m = re.fullmatch(r"map-under-(\d+)", rest)
+    if m:
+        return ["underground", f"under-{m.group(1)}"], []
+    m = re.fullmatch(r"(\d{3})-morning", rest)
+    if m:
+        return (["first morning"], []) if int(m.group(1)) == 1 else (["morning"], ["first"])
+    return [], []
+
+
+def approval_lines(text):
+    """(label, value) for every "label: value" line of images.md, list markers and bold set aside."""
+    out = []
+    for line in text.splitlines():
+        t = re.sub(r"^\s*(?:[-*+]|\d+\.)\s+", "", line).replace("**", "").strip()
+        if ":" not in t or t.startswith("#"):
+            continue
+        label, value = t.split(":", 1)
+        out.append((label.strip().lower(), value.strip().lower()))
+    return out
+
+
+def covered(req, root=ROOT):
+    """(True, line) when the campaign's state/images.md approves the request, else (False, reason)."""
+    name = campaign_of(req, root)
+    rid = str(req.get("id", ""))
+    if not name:
+        return False, "no campaign folder matches its id, so no images.md covers it"
+    path = os.path.join(root, "campaigns", name, "state", "images.md")
+    if not os.path.exists(path):
+        return False, f"campaigns/{name}/state/images.md is missing"
+    want, avoid = kind_words(rid[len(name) + 1:] if rid.startswith(name + "-") else rid)
+    for label, value in approval_lines(open(path, encoding="utf-8").read()):
+        if not re.match(r"approved\b", value):
+            continue
+        if rid.lower() in label:
+            return True, f"{label}: {value}"
+        if "repaint" in label or not want:
+            continue
+        if any(w in label for w in want) and not any(w in label for w in avoid):
+            return True, f"{label}: {value}"
+    return False, f"campaigns/{name}/state/images.md does not approve it"
+
+
+def pending(root=ROOT, skipped=None):
+    """(request path, request, output path) for every request without an output that the campaign's
+    images.md covers. Requests it does not cover are left out, and appended to `skipped` as
+    (request path, reason) when a list is given."""
     out = []
     for req_dir, out_dir in FOLDERS:
         for path in sorted(glob.glob(os.path.join(root, req_dir, "*.json"))):
@@ -40,13 +102,38 @@ def pending(root=ROOT):
                 continue
             req = json.load(open(path))
             target = os.path.join(root, out_dir, f"{req['id']}.png")
-            if not os.path.exists(target):
-                out.append((path, req, target))
+            if os.path.exists(target):
+                continue
+            ok, why = covered(req, root)
+            if not ok:
+                if skipped is not None:
+                    skipped.append((path, why))
+                continue
+            out.append((path, req, target))
     return out
 
 
-def main():
-    todo = pending()
+def report_skipped(skipped, root=ROOT):
+    lines = [f"skipped {os.path.relpath(p, root)}: {why}; not painted (it waits for images.md, or belongs in a held folder)"
+             for p, why in skipped]
+    for l in lines:
+        print(l)
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary and lines:
+        with open(summary, "a") as f:
+            f.write("### Requests not painted\n\n" + "\n".join("- " + l for l in lines) + "\n")
+
+
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    skipped = []
+    todo = pending(skipped=skipped)
+    report_skipped(skipped)
+    if "--check" in argv:
+        for path, req, target in todo:
+            print(f"would paint {os.path.relpath(path, ROOT)} -> {os.path.relpath(target, ROOT)}")
+        print(f"{len(todo)} to paint, {len(skipped)} skipped")
+        return
     if not todo:
         print("0 new painting(s)")
         return

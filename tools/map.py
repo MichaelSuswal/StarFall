@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """StarFall map tool, painted-map edition. Needs Pillow. Rules: engine/rules/map.md.
 
-  python3 tools/map.py draw <campaign> [--zoom known|landing] [--layer surface|under-N]
+  python3 tools/map.py draw <campaign> [--zoom known|landing] [--layer surface|under-N] [--if-changed]
   python3 tools/map.py gazetteer <campaign>
   python3 tools/map.py stamp <campaign> [--dry-run]    append [id] after every map name in the sealed .md files
-  python3 tools/map.py describe <campaign> (--landing <god> [--reference] | --region <id> [--god <god>]) [--names]
+  python3 tools/map.py describe <campaign> (--landing <god> [--reference] | --region <id> [--god <god>]) [--names] [--json]
+  python3 tools/map.py travel <campaign> <from> <to> --by foot|horse|wagon|boat [--via <id>,<id>] [--god G] [--names] [--json]
   python3 tools/map.py reveal <campaign> (--region R | --feature F) --grade G --source "..." --year N
-                                        [--told '<json>'] [--name N] [--cell C3] [--force "reason"]
-  python3 tools/map.py validate <campaign>     check the sealed map's ids, neighbors, landings and types
+                                        [--told '<json>'] [--name N] [--cell C3] [--named] [--force "reason"]
+  python3 tools/map.py validate <campaign>     check the sealed map's ids, neighbors, landings and types, and the
+                                               continent's size; warn on common-word names
   python3 tools/map.py migrate <campaign>      rewrite an older knowledge file to the current rules
 
 <campaign> is a campaign name under campaigns/. The sealed world is read from
@@ -49,9 +51,38 @@ off and named on the command line and counted in map-meta.json (the gazetteer st
 
 `stamp` appends the bracketed id after every map name (with or without a leading "The", capitalized,
 four letters or more) in every .md file of the sealed campaign folder, the rule lockcheck --places
-warns by. A name already followed by one of its ids (after any 's or a parenthesis) is left alone, so
-running it twice changes nothing. It skips LOCKED.md and the checker's lock-flags*.md, never touches
-the public folder, and prints the count per file.
+warns by, and after every placeholder label ("unnamed town", matched in any case) that only one place
+carries. A name already followed by one of its ids (after any 's or a parenthesis) is left alone, so
+running it twice changes nothing. Headings and bold mystery titles are never stamped. It skips
+LOCKED.md and the checker's lock-flags*.md, never touches the public folder, and prints the count per
+file, then any placeholder shared by several places (left unstamped) and any common-word name.
+
+Feature types include `site` (a marked place smaller than a hill: a shrine, a stone, a burial ground,
+a ford; a point or an area, drawn as a label) and `path` (a beaten track, a line drawn like a road).
+A map name that is one common word ("The Hollow", "Folds") cannot be told from prose; validate and
+stamp warn on it.
+
+The sheet labels a region only once the god has its name (change list 81): a told name, a report, or
+`"named": true` on the entry, set by `reveal --named` when the name is heard or seen with the ground,
+and kept when a told name's region is later seen. A region seen at landing with no name heard is
+drawn unlabeled.
+
+`draw` writes a hash of everything it reads into map-meta.json (`input_hash`); `--if-changed` keeps the
+existing sheets when the hash is the same and the sheets are there (change list 86).
+
+`validate` measures the continent from the traced land (change list 87): the largest body of land
+regions that touch, its width between parallel lines taken every degree; it fails a continent whose
+narrowest width is under 600 miles or whose average width lies outside 800 to 1,200 miles, and
+lockcheck --places fails the lock on the same.
+
+`travel` prices a trip (change list 93, map.md 5.1) along the route chosen with --via (roads, paths,
+rivers or places, in order), segment by segment: open ground split by the regions it crosses at each
+region's ground, a road at the road row, a path at the rough row, a river by boat downstream or
+upstream (its coords run from source to mouth) or walked along its bank by the ground, open water by
+boat at coastal sailing. A place within half a mile of a route is on it. Rates come from the quick
+reference of engine/rules/time-and-pace.md (tools/pace.py for anything it lacks). Names are as the
+god knows them (--god, default the player); --names gives true names and ids. The gazetteer's "Travel
+by route" section and describe's neighbors use the same pricing.
 
 `describe` writes a land description from the sealed data, for the Keeper's use: the region's terrain,
 elevation, water, climate and extent, and what is in view from the landing point (or the region's
@@ -60,14 +91,15 @@ middle) by the sight rule in describe()'s docstring. With --landing the output i
 reference only, never for a release. With --region the neighbors are always given. Names
 come from the god's knowledge file (the player's public file, or S/gods/<god>/map-knowledge.json);
 anything the god has not learned is put plainly ("a river", "a hill country"), free text included.
---names gives every true name.
+--names gives every true name. --json gives the same reading as data. Sight crosses region borders the
+same as inside a region; distances under 0.2 miles are in yards; a thing at the point has no bearing.
 
 Coordinates may be whole pixels or tenths (one decimal) or finer; validate fails any that is not a
 pair of numbers or lies off the painting.
 
 The sealed map's regions carry elevation, water, climate and neighbors ({id, days});
-the sheet carries landings (god label to region id), roads (a feature type, drawn as
-a thin line) and a plane section, which the drawer ignores.
+the sheet carries landings (god label to region id), roads and paths (feature types, drawn
+as thin lines) and a plane section, which the drawer ignores.
 """
 import argparse
 import datetime
@@ -87,9 +119,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 GRADES = ["none", "rumored", "reported", "seen"]
 SETTLEMENT_TYPES = {"town", "city", "village"}
-POINT_TYPES = SETTLEMENT_TYPES | {"ruin", "cave", "pass"}
+POINT_TYPES = SETTLEMENT_TYPES | {"ruin", "cave", "pass", "site"}
 NATURAL_TYPES = {"river", "lake", "sea", "mountain", "pass", "forest", "marsh", "ruin", "cave"}
-FEATURE_TYPES = SETTLEMENT_TYPES | NATURAL_TYPES | {"road"}
+# A `site` is a marked place smaller than a hill that is none of the other kinds (a shrine, a standing
+# stone, a burial ground, a ford, a landing place): a point, or an area, drawn as a label only.
+FEATURE_TYPES = SETTLEMENT_TYPES | NATURAL_TYPES | {"road", "path", "site"}
+LINE_ROUTE_TYPES = {"road", "path"}   # ground drawn as a thin line, and priced along (map.md 1.2, 5.1)
 WATER_TYPES = {"river", "lake", "sea"}
 DEFAULT_GRID = (5, 4)   # columns, rows
 CELL_RE = re.compile(r"^([A-Z]+)([0-9]+)$")
@@ -112,7 +147,7 @@ ROAD_INK = (112, 78, 44)
 # Label priority when labels would collide: higher keeps its place, lower moves or is dropped.
 PRIORITY = {"region": 90, "city": 88, "town": 84, "region-reported": 72, "village": 70,
             "sea": 62, "mountain": 62, "river": 58, "lake": 58, "pass": 56, "forest": 54, "marsh": 54,
-            "ruin": 52, "cave": 52, "road": 46, "rumored": 30}
+            "ruin": 52, "cave": 52, "site": 50, "road": 46, "path": 44, "rumored": 30}
 
 REPORTED_BLEND = 0.45   # how much of the painting shows through on reported ground
 FEATHER_PX = 5          # blur radius on the fog masks, in painting pixels
@@ -366,13 +401,27 @@ def known_region(r, entry, painting=None):
     g = grade_of(entry)
     told = entry.get("told", {}) if g != "seen" else {}
     k = {"id": r["id"], "grade": g, "source": entry.get("source", ""), "year": entry.get("year", ""),
-         "name": told.get("name", r["name"]), "terrain": told.get("terrain", r.get("terrain", ""))}
+         "name": told.get("name", r["name"]), "terrain": told.get("terrain", r.get("terrain", "")),
+         "named": region_name_known(entry)}
     if g == "rumored":
         k["polygon"] = None
         k["near"] = rumor_near(told, r, painting)
     else:
         k["polygon"] = told.get("polygon", r["polygon"])
     return k
+
+
+def region_name_known(entry):
+    """Whether the god has the region's name (change list 81): a name was told (told.name), the region is
+    reported (a telling carries its name), or the entry is marked `"named": true` (the name heard or
+    seen with the ground, set by `reveal --named`). Ground merely seen, with no name heard, is not named,
+    and the player's sheet draws no label for it."""
+    g = grade_of(entry)
+    if g == "none":
+        return False
+    if entry.get("named") or (entry.get("told") or {}).get("name"):
+        return True
+    return g == "reported"
 
 
 def gather(world, knowledge, painting=None):
@@ -438,6 +487,8 @@ def knowledge_problems(world, knowledge):
                     probs.append(f"{kind} {ident}: rumor cell {t['cell']!r} is not on the grid")
             if g == "reported" and "near" in t:
                 probs.append(f"{kind} {ident}: `near` is not a reported shape")
+            if "named" in e and not isinstance(e["named"], bool):
+                probs.append(f"{kind} {ident}: named must be true or false")
     return probs
 
 
@@ -485,8 +536,10 @@ def check_world(world):
     for f, _layer in all_features(world):
         if f.get("type") not in FEATURE_TYPES:
             probs.append(f"feature {f['id']}: unknown type {f.get('type')!r}")
-        if f.get("type") == "road" and (f.get("shape") != "line" or len(f.get("coords", [])) < 2):
-            probs.append(f"feature {f['id']}: a road is a line of two or more points")
+        if f.get("type") in LINE_ROUTE_TYPES and (f.get("shape") != "line" or len(f.get("coords", [])) < 2):
+            probs.append(f"feature {f['id']}: a {f['type']} is a line of two or more points")
+        if f.get("type") == "site" and f.get("shape", "point") not in ("point", "area"):
+            probs.append(f"feature {f['id']}: a site is a point or an area")
         for rid in f.get("regions", []):
             if rid not in region_ids and rid not in seen_ids:
                 probs.append(f"feature {f['id']}: region {rid} is not in the map")
@@ -526,6 +579,174 @@ def landing_point(land):
     if isinstance(land, dict):
         return land.get("at", land.get("point"))
     return None
+
+
+# ---------------------------------------------------------------- names: placeholders and common words
+
+# A placeholder label stands for a place with no name yet ("unnamed town", "the nameless ford").
+PLACEHOLDER_RE = re.compile(r"^(?:(?:the|an?)\s+)?(?:unnamed|nameless|un-named|no-name)\b", re.I)
+# Single words too ordinary to be told apart from prose (change list 60): a map name that is one of
+# these, with or without "The", cannot be stamped or scanned reliably. validate and stamp warn on it.
+COMMON_WORDS = set("""
+bank barrow bay beacon bend bluff bottom bridge brook burn cairn camp castle causeway cave chapel
+cliff coast common corner court cove crag crest cross crossing dale dam deep dell den ditch dock down
+downs drift dyke edge end fall falls farm fell fen field fields fold ford forest fork fort fountain
+gap garden gate glade glen ground grove gully hall harbor harbour haven head heath height heights
+hill hold hole hollow home hook hythe island isle keep knoll lake landing lea ledge lodge low marsh
+mead meadow mere mill moor moss mound mount mouth narrows neck nest notch orchard pass path peak pen
+pike pit place plain point pond pool port quarry quay rest ridge ring rise river road rock run scar
+shelf shore shrine side slope sound spring springs spur stair stairs stand stead steps stone stones
+strand stray stream street sward tarn terrace thorn tor tower town track vale valley village wall
+walls ward warren wash water waters way weir well wells wharf wick wild wilds wood woods yard
+north south east west middle upper lower old new far near high deep long broad
+anvil ash cradle crown door eye fire hand hearth heart horn key kettle king lamp maiden mother father
+mouth needle queen root seat shield sleeper spine stair tooth teeth throne tree watcher warden wheel
+""".split())
+
+
+def is_common_word(word):
+    """A common word, or the plural of one ("Folds", "Stairs")."""
+    w = word.lower()
+    return w in COMMON_WORDS or (w.endswith("es") and w[:-2] in COMMON_WORDS) or (w.endswith("s") and w[:-1] in COMMON_WORDS)
+
+
+def is_placeholder(name):
+    """True for a placeholder label like "unnamed town" (a place the Keeper has not named)."""
+    return bool(PLACEHOLDER_RE.match((name or "").strip()))
+
+
+def name_core(name):
+    """A name without a leading article."""
+    return re.sub(r"^(?:The|the|A|An|an)\s+", "", (name or "").strip())
+
+
+def is_common_word_name(name):
+    """True when a map name (less any leading article) is a single common word ("The Hollow", "Ford")."""
+    core = name_core(name)
+    return bool(core) and " " not in core and is_common_word(core) and not is_placeholder(name)
+
+
+def common_word_warnings(world):
+    out = []
+    for el, _layer in list(all_regions(world)) + list(all_features(world)):
+        if is_common_word_name(el.get("name", "")):
+            out.append(f"warning: {el.get('id', '?')} is named {el['name']!r}, a common word; stamp and lockcheck "
+                       "cannot tell it from prose, so give it a proper name")
+    return out
+
+
+# ---------------------------------------------------------------- the continent's size (change list 87)
+
+CONTINENT_NARROWEST_MIN = 600          # miles across at the narrowest, at least
+CONTINENT_AVERAGE_RANGE = (800, 1200)  # miles across on average (about 1,000)
+WATER_TERRAIN = {"sea", "lake", "ocean"}
+CONTINENT_RASTER = 256                 # cells on the long side when finding which land touches which
+
+
+def convex_hull(points):
+    pts = sorted(set((float(p[0]), float(p[1])) for p in points))
+    if len(pts) <= 2:
+        return pts
+
+    def cross(o, a, b):
+        return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
+    lower, upper = [], []
+    for p in pts:
+        while len(lower) >= 2 and cross(lower[-2], lower[-1], p) <= 0:
+            lower.pop()
+        lower.append(p)
+    for p in reversed(pts):
+        while len(upper) >= 2 and cross(upper[-2], upper[-1], p) <= 0:
+            upper.pop()
+        upper.append(p)
+    return lower[:-1] + upper[:-1]
+
+
+def continent_measure(world):
+    """The continent's width from the traced land. The land is every surface region whose terrain is
+    not sea or lake; the continent is the largest body of land regions that touch one another (islands
+    apart from it are left out). Its width in a direction is the distance between two parallel lines
+    that just hold it (a caliper laid across the whole land), taken every degree: `narrowest` is the
+    least of these, `average` their mean. Returns a dict, or None when there is no land."""
+    painting = Painting(world)
+    land = [r for r in world.get("regions", []) if terrain_word(r) not in WATER_TERRAIN and len(r.get("polygon", [])) >= 3]
+    if not land:
+        return None
+    W, H = painting.size
+    k = CONTINENT_RASTER / max(W, H)
+    rw, rh = max(1, round(W * k)), max(1, round(H * k))
+    im = Image.new("I", (rw, rh), 0)
+    d = ImageDraw.Draw(im)
+    for i, r in enumerate(land, 1):
+        d.polygon([(p[0] * k, p[1] * k) for p in r["polygon"]], fill=i, outline=i)
+    px = im.load()
+    parent = list(range(len(land) + 1))
+
+    def find(a):
+        while parent[a] != a:
+            parent[a] = parent[parent[a]]
+            a = parent[a]
+        return a
+    area = [0] * (len(land) + 1)
+    for y in range(rh):
+        for x in range(rw):
+            v = px[x, y]
+            if not v:
+                continue
+            area[v] += 1
+            for nx, ny in ((x + 1, y), (x, y + 1)):
+                if nx < rw and ny < rh:
+                    u = px[nx, ny]
+                    if u and u != v:
+                        parent[find(u)] = find(v)
+    groups = {}
+    for i in range(1, len(land) + 1):
+        groups.setdefault(find(i), []).append(i)
+    best = max(groups.values(), key=lambda g: (sum(area[i] for i in g), len(g)))
+    body = [land[i - 1] for i in best]
+    pts = [(min(max(p[0], 0), W), min(max(p[1], 0), H)) for r in body for p in r["polygon"]]
+    hull = convex_hull(pts)
+    widths = []
+    for deg in range(180):
+        a = math.radians(deg)
+        c, s = math.cos(a), math.sin(a)
+        proj = [p[0] * c + p[1] * s for p in hull]
+        widths.append((painting.miles(max(proj) - min(proj)), deg))
+    narrow, ndeg = min(widths)
+    x0, y0, x1, y1 = bbox(pts)
+    edges = [n for n, hit in (("north", y0 <= 0.5), ("south", y1 >= H - 0.5), ("west", x0 <= 0.5), ("east", x1 >= W - 0.5)) if hit]
+    return {"regions": [r["id"] for r in body], "narrowest": narrow, "narrowest_across": bearing_axis(ndeg),
+            "average": sum(w for w, _ in widths) / len(widths), "widest": max(widths)[0],
+            "east_west": painting.miles(x1 - x0), "north_south": painting.miles(y1 - y0),
+            "land_left_out": [r["id"] for r in land if r not in body], "touches_edge": edges}
+
+
+def bearing_axis(deg):
+    """The line a caliper width at `deg` (0 = along x, east to west) is measured along, in words."""
+    names = ["east to west", "south-east to north-west", "north to south", "south-west to north-east"]
+    return names[int(((deg % 180) + 22.5) // 45) % 4]
+
+
+def continent_problems(world):
+    """The lock's continent check (change list 87): at least 600 miles across at the narrowest and
+    800 to 1,200 miles across on average. Returns (problems, a line describing the measure)."""
+    m = continent_measure(world)
+    if m is None:
+        return ["continent: no land regions to measure"], "continent: no land"
+    lo, hi = CONTINENT_AVERAGE_RANGE
+    line = (f"continent: {len(m['regions'])} land region(s), narrowest about {m['narrowest']:,.0f} miles across "
+            f"({m['narrowest_across']}), average about {m['average']:,.0f} miles, widest about {m['widest']:,.0f}; "
+            f"east to west {m['east_west']:,.0f}, north to south {m['north_south']:,.0f} miles")
+    if m["touches_edge"]:
+        line += f"; the land runs to the sheet's {', '.join(m['touches_edge'])} edge(s), measured as traced"
+    if m["land_left_out"]:
+        line += f"; left out as apart from it: {', '.join(m['land_left_out'])}"
+    probs = []
+    if m["narrowest"] < CONTINENT_NARROWEST_MIN:
+        probs.append(f"continent: narrowest about {m['narrowest']:,.0f} miles across, under {CONTINENT_NARROWEST_MIN:,}")
+    if not lo <= m["average"] <= hi:
+        probs.append(f"continent: average about {m['average']:,.0f} miles across, outside {lo:,} to {hi:,}")
+    return probs, line
 
 
 # ---------------------------------------------------------------- fonts
@@ -898,6 +1119,8 @@ def draw_region_labels(lab, view, regions, painting, dim=1.0):
             if view.inside(p):
                 lab.add(view.pt(p), [(k["name"], 18, "italic", INK, int(150 * dim), 0)], priority=PRIORITY["rumored"])
             continue
+        if not k.get("named", True):
+            continue  # ground seen with no name heard: no label until the name is told or seen (81)
         c = centroid(k["polygon"])
         if not view.inside(c):
             # the centroid of a region cut by the crop may fall outside; label the visible part instead
@@ -938,8 +1161,8 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
     a = int((255 if not reported else 220) * dim)
     water = t in WATER_TYPES
     color = WATER_INK if water else (INK if not reported else INK_LIGHT)
-    if t == "road":
-        # the one feature drawn as a line: a thin ink trace, dashed when only reported
+    if t in LINE_ROUTE_TYPES:
+        # the features drawn as a line (a road, a path): a thin ink trace, dashed when only reported
         if k["shape"] != "line" or len(coords) < 2:
             return
         pts = view.pts(coords)
@@ -961,7 +1184,7 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
             mid = coords[len(coords) // 2]
             if view.inside(mid):
                 lab.add(view.pt(mid), [(k["name"], 11, "italic", ROAD_INK, a, 0)],
-                        priority=PRIORITY["road"] - (5 if reported else 0), leader=True)
+                        priority=PRIORITY[t] - (5 if reported else 0), leader=True)
         return
     if t in SETTLEMENT_TYPES:
         p = coords[0]
@@ -1185,7 +1408,7 @@ def draw_sheet(world, painting, paintings_dir, painting_file, regions, features,
     lab = Labeler(canvas.size, bounds=view.rect())
     for box in furniture_boxes(view, painting):
         lab.obstacle(box)
-    region_names = {k["name"] for k in regions if k["grade"] != "rumored"}
+    region_names = {k["name"] for k in regions if k["grade"] != "rumored" and k.get("named", True)}
     # settlement marks first, so that every label (region names included) keeps off them
     for shape in ("area", "line", "point"):
         for k in features:
@@ -1204,6 +1427,43 @@ def draw_sheet(world, painting, paintings_dir, painting_file, regions, features,
         d.text(((l + r) / 2, t - 46), layer_name, font=font(16, "bold"), fill=INK + (255,), anchor="mm")
     draw_notes(canvas, view, title, notes)
     return canvas.convert("RGB")
+
+
+def inputs_hash(world, paintings_dir, knowledge, zoom, which):
+    """A hash of everything a draw reads (change list 86): the sealed map, the knowledge file, the
+    paintings, the zoom and layer asked for, and this tool's own code. map-meta.json keeps it, and
+    `draw --if-changed` keeps the drawn sheets when it has not changed."""
+    import hashlib
+    h = hashlib.sha256()
+    h.update(json.dumps(world, sort_keys=True).encode())
+    h.update(json.dumps(knowledge, sort_keys=True).encode())
+    h.update(f"zoom={zoom or 'full'};layer={which or 'all'}".encode())
+    if os.path.isdir(paintings_dir):
+        for fn in sorted(os.listdir(paintings_dir)):
+            if fn.endswith(".png"):
+                h.update(fn.encode())
+                with open(os.path.join(paintings_dir, fn), "rb") as f:
+                    h.update(hashlib.sha256(f.read()).digest())
+    with open(os.path.abspath(__file__), "rb") as f:
+        h.update(f.read())
+    return h.hexdigest()
+
+
+def unchanged_since_last_draw(world, paintings_dir, knowledge, out_dir, zoom, which):
+    """The last draw's map-meta.json when its input hash matches this draw's and its sheets are all
+    still there; else None."""
+    mp = os.path.join(out_dir, "map-meta.json")
+    if not os.path.exists(mp):
+        return None
+    try:
+        meta = json.load(open(mp))
+    except (OSError, json.JSONDecodeError):
+        return None
+    if meta.get("input_hash") != inputs_hash(world, paintings_dir, knowledge, zoom, which):
+        return None
+    if not meta.get("files") or not all(os.path.exists(os.path.join(out_dir, f)) for f in meta["files"]):
+        return None
+    return meta
 
 
 def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
@@ -1262,7 +1522,8 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
             "labels_dropped": {k: len(v["dropped"]) for k, v in labels.items()},
             "regions_drawn": {g: sum(1 for k in regions_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "features_drawn": {g: sum(1 for k, _ in features_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
-            "drawn": pacific_today(), "files": [os.path.basename(w) for w in written]}
+            "drawn": pacific_today(), "files": [os.path.basename(w) for w in written],
+            "input_hash": inputs_hash(world, paintings_dir, knowledge, zoom, which)}
     save_json(os.path.join(out_dir, "map-meta.json"), meta)
     return written
 
@@ -1389,7 +1650,7 @@ def gazetteer(world, knowledge, out_dir, log_path):
     surface = [(k, l) for k, l in feats if l is None]
     place_block("Places", surface, POINT_TYPES)
     place_block("Waters, woods and ranges", surface, {"river", "lake", "sea", "mountain", "marsh", "forest"})
-    place_block("Roads", surface, {"road"})
+    place_block("Roads", surface, LINE_ROUTE_TYPES)
 
     lines.append("## Rivers as routes")
     lines.append("")
@@ -1406,6 +1667,41 @@ def gazetteer(world, knowledge, out_dir, log_path):
         along.sort()
         stops = ", ".join(n for _, n in along) if along else "no known place along it"
         lines.append(f"- **{r['name']}**, {mi(polyline_length(r['coords'])):.0f} miles, {r['grade']}: {stops}.")
+    lines.append("")
+
+    # travel by route (change list 93): between known places on a known road or river, along it
+    lines.append("## Travel by route")
+    lines.append("")
+    lines.append("Between known places that lie on a known road or river (within half a mile of it), measured along it as the god knows it, "
+                 "at the pace table's rates for a fair summer day (`engine/rules/time-and-pace.md`); `tools/map.py travel` prices any other trip, "
+                 "segment by segment, by the route chosen and the ground. A reported route may be wrong.")
+    lines.append("")
+    rates = pace_rates()
+    trav = [k for k, l in surface if k["type"] in ROUTE_TYPES and k["grade"] != "rumored" and k["shape"] == "line" and len(k["coords"]) >= 2]
+    any_route = False
+    for r in sorted(trav, key=lambda k: k["name"]):
+        on = []
+        for p in points:
+            d, t = dist_to_polyline(p["coords"][0], r["coords"])
+            if mi(d) <= ON_ROUTE_MILES:
+                on.append((t, p))
+        on.sort(key=lambda x: x[0])
+        for (t0, p), (t1, q) in zip(on, on[1:]):
+            m = mi(t1 - t0)
+            if m <= 0:
+                continue
+            grade = "seen" if r["grade"] == p["grade"] == q["grade"] == "seen" else "reported"
+            if r["type"] in LINE_ROUTE_TYPES:
+                row = rates["route"].get(r["type"], ROUTE_GROUND[r["type"]])
+                parts = [f"{m / rates[MEANS[w]][row]:.1f} days {MEANS_WORDS[w]}" for w in ("foot", "horse", "wagon")
+                         if rates[MEANS[w]].get(row)]
+            else:
+                parts = [f"{m / rates['boat'][g]:.1f} days by boat {word}" for g, word in (("river_down", "downstream"), ("river_up", "upstream"))
+                         if rates["boat"].get(g)]
+            lines.append(f"- **{p['name']}** to **{q['name']}** along **{r['name']}** ({r['type']}): {m:.0f} miles; " + ", ".join(parts) + f" ({grade}).")
+            any_route = True
+    if not any_route:
+        lines.append("No two known places on one known road or river.")
     lines.append("")
 
     lines.append("## Distances")
@@ -1493,6 +1789,9 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
     entry = {"grade": args.grade, "source": args.source, "year": args.year}
     correction = ""
     old_told = old.get("told", {}) or {}
+    # a name once heard stays heard (change list 81): kept from the old entry or its told name, or set now
+    if getattr(args, "named", False) or old.get("named") or (old_told.get("name") and args.grade == "seen"):
+        entry["named"] = True
     if args.grade == "seen":
         true_c = centroid(truth.get("polygon") or truth["coords"])
         shape = old_told.get("coords") or old_told.get("polygon")
@@ -1568,12 +1867,20 @@ def migrate(world, knowledge, painting):
 STAMP_SKIP = {"LOCKED.md"}
 
 
+STAMP_NOTES = []   # notes from the last stamp (placeholder labels shared by several places, left unstamped)
+
+
 def stamp_names(world):
     """{name variant: sorted ids} for every map name (with and without a leading article), kept only
-    when capitalized and four letters or more, the rule lockcheck --places warns by."""
-    names = {}
+    when capitalized and four letters or more, the rule lockcheck --places warns by. A placeholder label
+    ("unnamed town") is kept too, lower case and all, under the key "~" + its lower-case form, and is
+    matched without regard to case; one shared by several places is left out (it cannot say which)."""
+    names, holders = {}, {}
     for el, _layer in list(all_regions(world)) + list(all_features(world)):
         nm = (el.get("name") or "").strip()
+        if is_placeholder(nm):
+            holders.setdefault(name_core(nm).lower(), set()).add(el["id"])
+            continue
         variants = {nm}
         m = re.match(r"^(The|the|A|An)\s+(.+)$", nm)
         if m:
@@ -1581,18 +1888,53 @@ def stamp_names(world):
         for v in variants:
             if len(v) >= 4 and v[0].isupper():
                 names.setdefault(v, set()).add(el["id"])
-    return {v: sorted(ids) for v, ids in names.items()}
+    out = {v: sorted(ids) for v, ids in names.items()}
+    for v, ids in holders.items():
+        if len(ids) == 1:
+            out["~" + v] = sorted(ids)
+    return out
+
+
+def ambiguous_placeholders(world):
+    holders = {}
+    for el, _layer in list(all_regions(world)) + list(all_features(world)):
+        if is_placeholder(el.get("name", "")):
+            holders.setdefault(name_core(el["name"]).lower(), []).append(el["id"])
+    return {v: ids for v, ids in holders.items() if len(ids) > 1}
+
+
+# headings and bold mystery titles are never stamped (change list 67): a title holds a name as a title
+HEADING_SPAN_RE = re.compile(r"^[ \t]*#{1,6}[ \t][^\n]*|^[ \t]*\*\*[A-Z]{0,2}\d+\.\s+[^*\n]+\*\*", re.M)
+
+
+def heading_spans(text):
+    return [(m.start(), m.end()) for m in HEADING_SPAN_RE.finditer(text)]
+
+
+def in_spans(pos, spans):
+    return any(a <= pos < b for a, b in spans)
 
 
 def stamp_text(text, names):
     """Append [id] after every map name in text that does not already carry one of its ids.
-    Longer names win where names overlap. Returns (new text, number stamped)."""
+    Longer names win where names overlap. Headings and bold mystery titles are left alone.
+    Returns (new text, number stamped)."""
     if not names:
         return text, 0
-    rx = re.compile(r"(?<![\w'\-\[])(" + "|".join(re.escape(v) for v in sorted(names, key=len, reverse=True)) + r")(?![\w\-])")
+    plain = sorted((v for v in names if not v.startswith("~")), key=len, reverse=True)
+    holders = sorted((v[1:] for v in names if v.startswith("~")), key=len, reverse=True)
+    alts = [re.escape(v) for v in plain] + [r"(?i:" + r"\s+".join(re.escape(w) for w in v.split()) + r")" for v in holders]
+    alts.sort(key=len, reverse=True)
+    rx = re.compile(r"(?<![\w'\-\[])(" + "|".join(alts) + r")(?![\w\-])")
+    spans = heading_spans(text)
     out, last, n = [], 0, 0
     for m in rx.finditer(text):
-        ids = names[m.group(1)]
+        if in_spans(m.start(), spans):
+            continue
+        key = m.group(1)
+        ids = names.get(key) or names.get("~" + " ".join(key.lower().split()))
+        if not ids:
+            continue
         end = m.end()
         poss = re.match(r"'s\b", text[end:])
         if poss:
@@ -1615,6 +1957,8 @@ def stamp(campaign, sealed_dir, world, dry_run=False):
     sealed_dir = os.path.abspath(sealed_dir)
     public = os.path.abspath(os.path.join(ROOT, "campaigns", campaign))
     names = stamp_names(world)
+    STAMP_NOTES[:] = [f"placeholder {v!r} names {', '.join(ids)}; not stamped, since it cannot say which"
+                      for v, ids in sorted(ambiguous_placeholders(world).items())] + common_word_warnings(world)
     changed, total, per = 0, 0, []
     for dirpath, dirs, files in os.walk(sealed_dir):
         dirs[:] = sorted(d for d in dirs if not d.startswith("."))
@@ -1637,9 +1981,316 @@ def stamp(campaign, sealed_dir, world, dry_run=False):
     return changed, total, per
 
 
+# ---------------------------------------------------------------- travel (change list 93)
+
+PACE_MD = os.path.join(ROOT, "engine", "rules", "time-and-pace.md")
+MEANS = {"foot": "walk", "horse": "ride", "wagon": "oxcart", "boat": "boat"}
+MEANS_WORDS = {"foot": "on foot", "horse": "on horse", "wagon": "by wagon", "boat": "by boat"}
+ROUTE_TYPES = {"road", "path", "river"}
+ROUTE_GROUND = {"road": "road", "path": "rough"}   # the pace row a road or path takes; the Route: line may say otherwise
+ON_ROUTE_MILES = 0.5     # a place within half a mile of a route counts as on it
+GROUND_WORDS = {"road": "road", "rough": "rough ground", "forest": "forest", "mountain": "mountain",
+                "marsh": "marsh", "snow": "snow", "sea": "open water along a coast",
+                "river_down": "river, downstream", "river_up": "river, upstream"}
+PACE_LABELS = {"walk": "walk", "foot": "walk", "on foot": "walk", "ride": "ride", "riding": "ride", "horse": "ride",
+               "on horse": "ride", "oxcart": "oxcart", "ox-cart": "oxcart", "ox cart": "oxcart", "wagon": "oxcart",
+               "cart": "oxcart", "boat": "boat", "water": "boat", "on water": "boat"}
+PACE_KEYS = {"good road": "road", "rough ground": "rough", "open ground": "rough", "coastal sail": "sea",
+             "coastal sailing": "sea", "sail": "sea", "sea": "sea", "downstream": "river_down", "upstream": "river_up",
+             "river downstream": "river_down", "river upstream": "river_up", "river boat downstream": "river_down",
+             "river boat upstream": "river_up"}
+
+
+def pace_rates(path=None):
+    """Miles a day by means and ground, read from the quick reference of engine/rules/time-and-pace.md,
+    the public pace table: its lines "Walk: road 20, rough 14, ...", "Ride: ...", "Oxcart: ..." (or
+    "Wagon:") and "Boat: downstream 30, upstream 12, coastal sail 50, ...". Any rate the file does not
+    give comes from tools/pace.py, which must match it. Its "Route:" line says which row a road or a path takes (a path
+    takes the rough-ground row), kept under rates["route"]. Returns {means: {ground: miles a day},
+    "route": {route type: ground}}."""
+    rates = {"walk": {}, "ride": {}, "oxcart": {}, "boat": {}}
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import pace as _pace
+        for m in ("walk", "ride", "oxcart"):
+            rates[m].update(_pace.TRAVEL[m])
+        rates["boat"].update({"river_down": _pace.TRAVEL["river_down"], "river_up": _pace.TRAVEL["river_up"],
+                              "sea": _pace.TRAVEL["sail"]})
+    except Exception:
+        pass
+    p = path or PACE_MD
+    text = open(p, encoding="utf-8").read() if os.path.exists(p) else ""
+    rates["route"] = dict(ROUTE_GROUND)
+    for line in text.splitlines():
+        rm = re.match(r"^\s*Route\s*:\s*(.+)$", line)
+        if rm:   # "Route: road = road row; path = rough row; ..."
+            for part in re.split(r"[;,]", rm.group(1)):
+                pm = re.match(r"^\s*(road|path)\s*=\s*([a-z ]+?)\s+row\s*$", part.strip().lower())
+                if pm:
+                    rates["route"][pm.group(1)] = PACE_KEYS.get(pm.group(2).strip(), pm.group(2).strip())
+            continue
+        m = re.match(r"^\s*([A-Za-z][A-Za-z -]*?)\s*:\s*(.+)$", line)
+        if not m or m.group(1).strip().lower() not in PACE_LABELS:
+            continue
+        means = PACE_LABELS[m.group(1).strip().lower()]
+        for part in re.split(r"[,;]", m.group(2)):
+            pm = re.match(r"^\s*([a-z][a-z -]*?)\s+(\d+(?:\.\d+)?)\s*$", part.strip().lower())
+            if not pm:
+                continue
+            key = PACE_KEYS.get(pm.group(1).strip(), pm.group(1).strip().replace(" ", "_"))
+            if means == "boat" and key == "swim":
+                continue
+            rates[means][key] = float(pm.group(2))
+    return rates
+
+
+def ground_of(region):
+    """The pace table's ground for a region, from the first word of its terrain."""
+    w = terrain_word(region) if region else "plain"
+    if w in WATER_TERRAIN:
+        return "sea"
+    return {"forest": "forest", "mountain": "mountain", "marsh": "marsh", "snow": "snow"}.get(w, "rough")
+
+
+def region_at(world, p):
+    for r in world.get("regions", []):
+        if point_in_poly(p[0], p[1], r["polygon"]):
+            return r
+    best = min(world.get("regions", []), key=lambda r: dist_to_poly_edge(p, r["polygon"])[0], default=None)
+    return best
+
+
+def split_by_region(world, pts, painting, step_mi=0.25):
+    """[(region, miles)] along a polyline, in order, from samples every step_mi."""
+    runs = []
+    for i in range(len(pts) - 1):
+        a, b = pts[i], pts[i + 1]
+        L = math.dist(a, b)
+        n = max(1, int(math.ceil(painting.miles(L) / step_mi)))
+        for k in range(n):
+            t = (k + 0.5) / n
+            r = region_at(world, (a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t))
+            seg = painting.miles(L) / n
+            if runs and runs[-1][0] is r:
+                runs[-1][1] += seg
+            else:
+                runs.append([r, seg])
+    return [(r, m) for r, m in runs]
+
+
+def open_leg(world, a, b, painting=None):
+    return {"kind": "open", "pts": [tuple(a), tuple(b)]}
+
+
+def sub_line(line, t0, t1):
+    """The part of a polyline between along-distances t0 and t1, in the order travelled."""
+    lo, hi = min(t0, t1), max(t0, t1)
+    pts = [point_along(line, lo)]
+    run = 0.0
+    for i in range(len(line) - 1):
+        run += math.dist(line[i], line[i + 1])
+        if lo < run < hi:
+            pts.append(tuple(line[i + 1]))
+    pts.append(point_along(line, hi))
+    return pts if t1 >= t0 else list(reversed(pts))
+
+
+def route_leg(feature, t0, t1, coords=None):
+    return {"kind": "route", "feature": feature, "t0": t0, "t1": t1,
+            "pts": sub_line(coords or feature["coords"], t0, t1)}
+
+
+def closest_along(line, other):
+    """The along-distance on `line` of its point nearest the polyline `other`."""
+    total = polyline_length(line)
+    best = (float("inf"), 0.0)
+    n = max(2, int(total / 0.5))
+    for i in range(n + 1):
+        t = total * i / n
+        d = dist_to_polyline(point_along(line, t), other)[0]
+        if d < best[0]:
+            best = (d, t)
+    return best[1]
+
+
+def plan_trip(world, a, b, vias, painting):
+    """Legs from a to b through vias (route features or points), in order. Joining a route from a
+    place more than half a mile off it is an open-ground leg to its nearest point; leaving it is the
+    same at the far end. A trip with no route is one open-ground leg."""
+    legs, cur = [], tuple(a)
+    stops = list(vias) + [("point", tuple(b))]
+    for i, (kind, v) in enumerate(stops[:-1]):
+        if kind == "point":
+            legs.append(open_leg(world, cur, v))
+            cur = v
+            continue
+        line = v["coords"]
+        nkind, nv = stops[i + 1]
+        d_in, t_in = dist_to_polyline(cur, line)
+        t_out = dist_to_polyline(nv, line)[1] if nkind == "point" else closest_along(line, nv["coords"])
+        entry = point_along(line, t_in)
+        if painting.miles(d_in) > ON_ROUTE_MILES:
+            legs.append(open_leg(world, cur, entry))
+        if abs(t_out - t_in) > 1e-9:
+            legs.append(route_leg(v, t_in, t_out))
+        cur = point_along(line, t_out)
+    if not vias or painting.miles(math.dist(cur, b)) > ON_ROUTE_MILES:
+        if math.dist(cur, b) > 0:
+            legs.append(open_leg(world, cur, b))
+    return legs
+
+
+def price_trip(world, legs, means, rates=None):
+    """Segments with miles, ground, rate and days for the means (foot, horse, wagon, boat), each
+    open-ground leg split by the regions it crosses and priced by their ground, each route leg at the
+    route's rate (a road at the road rate whatever it crosses; a river by boat downstream or upstream,
+    or walked along its bank by the ground). days is None when any segment has no passage."""
+    painting = Painting(world)
+    rates = rates or pace_rates()
+    table = rates[MEANS[means]]
+    segs = []
+    for leg in legs:
+        if leg["kind"] == "route":
+            f = leg["feature"]
+            t = f.get("type")
+            miles = painting.miles(polyline_length(leg["pts"]))
+            if t in LINE_ROUTE_TYPES and means != "boat":
+                segs.append({"how": "route", "feature": f["id"], "type": t, "region": None,
+                             "ground": rates.get("route", {}).get(t, ROUTE_GROUND[t]), "miles": miles})
+                continue
+            if t == "river" and means == "boat":
+                segs.append({"how": "route", "feature": f["id"], "type": t, "region": None,
+                             "ground": "river_down" if leg["t1"] >= leg["t0"] else "river_up", "miles": miles})
+                continue
+            if t in LINE_ROUTE_TYPES and means == "boat":
+                segs.append({"how": "route", "feature": f["id"], "type": t, "region": None, "ground": "land", "miles": miles})
+                continue
+            for r, m in split_by_region(world, leg["pts"], painting):   # along a river's bank, by the ground
+                segs.append({"how": "bank", "feature": f["id"], "type": t, "region": r["id"] if r else None,
+                             "ground": ground_of(r), "miles": m})
+            continue
+        for r, m in split_by_region(world, leg["pts"], painting):
+            g = ground_of(r)
+            if means == "boat" and g != "sea":
+                g = "land"
+            segs.append({"how": "open", "feature": None, "type": None, "region": r["id"] if r else None, "ground": g, "miles": m})
+    total_days, blocked = 0.0, None
+    for s in segs:
+        rate = table.get(s["ground"])
+        s["rate"] = rate
+        s["days"] = s["miles"] / rate if rate else None
+        if rate is None and blocked is None:
+            blocked = s
+        elif rate:
+            total_days += s["days"]
+    return {"segments": segs, "miles": sum(s["miles"] for s in segs), "days": None if blocked else total_days,
+            "blocked": blocked, "means": means}
+
+
+def fmt_days(d):
+    if d is None:
+        return "no passage"
+    if d < 0.1:
+        return f"{d:.2f} days"
+    return f"{d:.1f} days"
+
+
+def resolve_place(world, ident):
+    """(point, how it is read) for a trip's end: a point feature, an area feature's middle, a region's
+    middle, or a god's landing point."""
+    by_id = index_world(world)
+    if ident in by_id:
+        kind, el, layer = by_id[ident]
+        if layer is not None:
+            sys.exit(f"map.py: {ident} is underground; travel prices the surface")
+        if kind == "region":
+            return tuple(centroid(el["polygon"])), "the middle of the region"
+        if el.get("shape") == "area" and len(el.get("coords", [])) >= 3:
+            return tuple(centroid(el["coords"])), "its middle"
+        if el.get("shape") == "line":
+            sys.exit(f"map.py: {ident} is a line ({el.get('type')}); go by it with --via, from a place")
+        return tuple(el["coords"][0]), None
+    land = (world.get("landings") or {}).get(ident)
+    if land is not None and landing_point(land) is not None:
+        return tuple(landing_point(land)), "the landing point"
+    sys.exit(f"map.py: no place {ident!r} in the sealed map (a feature id, a region id or a god's landing)")
+
+
+def routes_near_both(world, a, b, painting):
+    out = []
+    for f in world.get("features", []):
+        if f.get("type") in ROUTE_TYPES and f.get("shape") == "line" and len(f.get("coords", [])) >= 2:
+            if all(painting.miles(dist_to_polyline(p, f["coords"])[0]) <= ON_ROUTE_MILES for p in (a, b)):
+                out.append(f)
+    return out
+
+
+def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
+    """The trip priced segment by segment (time-and-pace.md, map.md): (text, data)."""
+    painting = Painting(world)
+    by_id = index_world(world)
+    namer = namer or Namer(world, None, True)
+    if means not in MEANS:
+        sys.exit(f"map.py: --by must be one of {', '.join(MEANS)}")
+    a, a_how = resolve_place(world, start)
+    b, b_how = resolve_place(world, end)
+    via_items = []
+    for v in vias:
+        if v not in by_id:
+            sys.exit(f"map.py: no feature {v!r} in the sealed map for --via")
+        kind, el, _l = by_id[v]
+        if kind == "feature" and el.get("shape") == "line" and len(el.get("coords", [])) >= 2:
+            via_items.append(("line", el))
+        else:
+            via_items.append(("point", resolve_place(world, v)[0]))
+    rates = pace_rates()
+    trip = price_trip(world, plan_trip(world, a, b, via_items, painting), means, rates)
+
+    def nm(i):
+        return f"{namer.name(i)}{f' [{i}]' if show_ids else ''}"
+    head = f"Travel from {nm(start) if start in by_id else start}{' (' + a_how + ')' if a_how else ''} to " \
+           f"{nm(end) if end in by_id else end}{' (' + b_how + ')' if b_how else ''}, {MEANS_WORDS[means]}"
+    head += (", by " + ", then ".join(nm(v) for v in vias)) if vias else ", over open ground (no route chosen)"
+    lines = [head + ":"]
+    for i, s in enumerate(trip["segments"], 1):
+        if s["how"] == "route":
+            where = f"along {nm(s['feature'])} ({s['type']})"
+        elif s["how"] == "bank":
+            where = f"along the bank of {nm(s['feature'])}, through {nm(s['region'])}" if s["region"] else f"along {nm(s['feature'])}"
+        else:
+            where = f"open ground through {nm(s['region'])}" if s["region"] else "open ground"
+        ground = GROUND_WORDS.get(s["ground"], s["ground"].replace("_", " ")) if s["ground"] != "land" else "land, which a boat cannot cross"
+        if s["rate"]:
+            lines.append(f"{i}. {where}, {ground}: {s['miles']:.1f} miles at {s['rate']:g} miles a day, {fmt_days(s['days'])}.")
+        else:
+            lines.append(f"{i}. {where}, {ground}: {s['miles']:.1f} miles, no passage {MEANS_WORDS[means]}.")
+    if trip["days"] is None:
+        lines.append(f"Total: {trip['miles']:.1f} miles; no passage {MEANS_WORDS[means]} (segment {trip['segments'].index(trip['blocked']) + 1}).")
+    else:
+        lines.append(f"Total: {trip['miles']:.1f} miles, {fmt_days(trip['days'])} ({math.ceil(trip['days'] - 1e-9)} full days), "
+                     "at the pace table's rates for a fair summer day; season, weather, load, a group and a god's endurance "
+                     "adjust it (time-and-pace.md, tools/pace.py).")
+    if not vias:
+        near = [f for f in routes_near_both(world, a, b, painting)
+                if namer.all or grade_of(namer.k.get("features", {}).get(f["id"])) in ("seen", "reported")]
+        if near:
+            lines.append("Routes that pass within half a mile of both ends: " + "; ".join(
+                f"{nm(f['id'])} (--via {f['id']})" for f in near) + ".")
+    data = {"from": start, "to": end, "by": means, "via": list(vias), "miles": round(trip["miles"], 2),
+            "days": round(trip["days"], 3) if trip["days"] is not None else None,
+            "segments": [{"how": s["how"], "route": s["feature"], "region": s["region"], "ground": s["ground"],
+                          "miles": round(s["miles"], 2), "rate": s["rate"],
+                          "days": round(s["days"], 3) if s["days"] is not None else None} for s in trip["segments"]]}
+    if not show_ids:
+        for s in data["segments"]:
+            s["route"] = namer.name(s["route"]) if s["route"] else None
+            s["region"] = namer.name(s["region"]) if s["region"] else None
+    return "\n".join(lines) + "\n", data
+
+
 # ---------------------------------------------------------------- describe
 
-EYE_FT = 6.0                # a tall mortal's eye above the ground
+EYE_FT = 6.0               # a tall mortal's eye above the ground
 HORIZON_K = 1.22            # miles = 1.22 * sqrt(feet), the sight line over a curved earth with ordinary refraction
 NEAR_MILES = {"open": 2.0, "closed": 0.5}   # ground-level things in view (map.md 1.4, 2.1): open ground, forest or hill
 SKYLINE_MILES = 40.0        # the skyline from a hill, ridge or coast in clear air (map.md 1.4)
@@ -1704,9 +2355,17 @@ def dist_to_poly_edge(p, poly):
     return best, foot
 
 
+ZERO_MILES = 0.005   # nearer than this (about nine yards) a thing is at the point itself, with no bearing (74)
+
+
+def yards(mi):
+    """Yards to the nearest ten, at least ten."""
+    return max(10, int(round(mi * 1760 / 10.0)) * 10)
+
+
 def fmt_miles(mi):
     if mi < 0.2:
-        return "a few hundred yards"
+        return f"{yards(mi):,} yards"   # exact yards under 0.2 miles (change list 74)
     if mi < 0.4:
         return "about a quarter mile"
     if mi < 0.75:
@@ -1714,6 +2373,17 @@ def fmt_miles(mi):
     if mi < 1.5:
         return "about a mile"
     return f"about {mi:.0f} miles"
+
+
+def dist_dir(mi, dx, dy):
+    """"about 2 miles north", "150 yards east", or "at the point itself" with no bearing at zero distance."""
+    if mi < ZERO_MILES:
+        return "at the point itself"
+    return f"{fmt_miles(mi)} {bearing_name(dx, dy)}"
+
+
+def bearing_or_none(mi, dx, dy):
+    return None if mi < ZERO_MILES else bearing_name(dx, dy)
 
 
 class Namer:
@@ -1784,7 +2454,10 @@ def god_knowledge(campaign, god, sealed_dir):
     return load_json(p, default={"regions": {}, "features": {}})
 
 
-def describe(world, region_id=None, at=None, knowledge=None, all_names=False, label=None, reference=True):
+SMOKE_MILES = SKYLINE_MILES   # a settlement's smoke, walls or lights show out to the forty-mile skyline
+
+
+def describe(world, region_id=None, at=None, knowledge=None, all_names=False, label=None, reference=True, data=None):
     """A land description read off the map data: the region's terrain, elevation, water and climate;
     its neighbors with travel days and directions; what is in view from the point and the sight line.
 
@@ -1803,9 +2476,14 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
     - Point, line and area features (a town, a ruin, a cave mouth, a river's reach, a road, a lake) are
       in view within NEAR_MILES: two miles on open ground, half a mile in forest or hill (line of sight
       in mountains is read as the open-ground two miles). A settlement farther off is given as its
-      smoke, walls or lights only: in the god's own region from a floor, within the forty-mile skyline
-      from a height or a coast, and never past ground that stands above the line to it.
-    - A mountain feature is read as the highest region it touches. Nothing underground is seen."""
+      smoke, walls or lights only, within SMOKE_MILES (the forty-mile skyline) from any ground, and
+      never past ground that stands above the line to it. Sight crosses region borders the same as it
+      runs inside a region (change list 58): which region a thing stands in never hides it.
+    - A mountain feature is read as the highest region it touches. Nothing underground is seen.
+    - Distances under 0.2 miles are given in yards; a thing at the point itself has no bearing (74).
+
+    With `data` (a dict), the same reading is filled in as data for `describe --json`: miles, bearings,
+    grid cells and ids, with names as the god has learned them; never a pixel."""
     painting = Painting(world)
     mi = painting.miles
     by_id = index_world(world)
@@ -1817,8 +2495,12 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
     else:
         where = "from the landing point"
     floor, top, figs = parse_elevation(region)
+    D = data if data is not None else {}
     out = []
     head = names.name(region_id)
+    D.update({"label": label or "Land description", "region": {"id": region_id, "name": head, "terrain": terrain_word(region)},
+              "from": "landing point" if where == "from the landing point" else "middle of the region",
+              "cell": painting.cell_of(at), "neighbors": [], "in_view": [], "smoke": [], "hidden": []})
     out.append(f"{label or 'Land description'}: {head}, {where}, in grid cell {painting.cell_of(at)}.")
     out.append("")
     terrain = names.scrub(region.get("terrain", ""))
@@ -1828,9 +2510,11 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
     x0, y0, x1, y1 = bbox(region["polygon"])
     out.append(f"The region runs about {mi(x1 - x0):.0f} miles east to west and {mi(y1 - y0):.0f} miles north to south.")
     out.append("")
+    D["region"].update({"elevation_ft": [floor, top], "east_west_miles": round(mi(x1 - x0), 2), "north_south_miles": round(mi(y1 - y0), 2)})
 
     # neighbors
     nb_lines = []
+    rates = pace_rates()
     for n in region.get("neighbors", []):
         nid = n.get("id") if isinstance(n, dict) else n
         if nid not in by_id:
@@ -1841,8 +2525,18 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
         days = n.get("days") if isinstance(n, dict) else None
         by = n.get("by") if isinstance(n, dict) else None
         dtxt = f"{days:g} days on foot at the pace table's cross-country rate" if isinstance(days, (int, float)) else (f"by {by}" if by else "days not given")
+        edge_mi = mi(d_edge)
+        walk = price_trip(world, [open_leg(world, at, foot, painting)], "foot", rates) if edge_mi >= ZERO_MILES else None
+        wtxt = ""
+        if walk and walk["days"] is not None:
+            wtxt = f", {fmt_days(walk['days'])} on foot over open ground by the ground crossed"
         nb_lines.append(f"- {names.name(nid)} ({terrain_word(other)}), lying {bearing_name(c[0] - at[0], c[1] - at[1])}: "
-                        f"{dtxt}; its nearest edge {fmt_miles(mi(d_edge))} {bearing_name(foot[0] - at[0], foot[1] - at[1])} of the point.")
+                        f"{dtxt}; its nearest edge {dist_dir(edge_mi, foot[0] - at[0], foot[1] - at[1])} of the point{wtxt}."
+                        .replace("its nearest edge at the point itself of the point", "its nearest edge at the point itself"))
+        D["neighbors"].append({"id": nid, "name": names.name(nid), "terrain": terrain_word(other),
+                               "lying": bearing_name(c[0] - at[0], c[1] - at[1]), "days": days,
+                               "edge_miles": round(edge_mi, 2), "edge_bearing": bearing_or_none(edge_mi, foot[0] - at[0], foot[1] - at[1]),
+                               "edge_days_on_foot": round(walk["days"], 2) if walk and walk["days"] is not None else None})
     if reference:
         out.append("Neighbors (reference for the Keeper, not the seen view):" if nb_lines else "Neighbors: none given.")
         out += nb_lines
@@ -1875,15 +2569,20 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
         if d > reach:
             continue
         block = blocker(world, at, foot, rt, eye_ground, region_id, r["id"], painting) if d > near else None
-        dirn = bearing_name(foot[0] - at[0], foot[1] - at[1])
+        dirn = bearing_or_none(d, foot[0] - at[0], foot[1] - at[1])
+        loc = f"{dirn}, {fmt_miles(d)} to its nearest edge" if dirn else "its edge at the point itself"
         if higher:
             what = f"on the skyline; its ground rises to about {rt:,} feet, {relief:,} above the eye's ground, seen to {fmt_miles(reach)}"
         else:
             what = f"its ground lies no higher than the eye's, seen to {fmt_miles(reach)}"
+        rec = {"id": r["id"], "name": names.name(r["id"]), "kind": "region", "terrain": terrain_word(r),
+               "miles": round(d, 2), "bearing": dirn, "top_ft": rt, "reach_miles": round(reach, 2)}
         if block:
-            hidden.append(f"- {names.name(r['id'])}, {dirn}, {fmt_miles(d)} to its nearest edge: within reach ({what.replace('on the skyline; ', '')}) but hidden behind {names.name(block)}.")
+            hidden.append(f"- {names.name(r['id'])}, {loc}: within reach ({what.replace('on the skyline; ', '')}) but hidden behind {names.name(block)}.")
+            D["hidden"].append({**rec, "behind": block})
         else:
-            in_view.append((d, f"- {names.name(r['id'])} ({terrain_word(r)}), {dirn}, {fmt_miles(d)} to its nearest edge: {what}."))
+            in_view.append((d, f"- {names.name(r['id'])} ({terrain_word(r)}), {loc}: {what}."))
+            D["in_view"].append(rec)
     for f, layer in all_features(world):
         if layer is not None:
             continue
@@ -1904,27 +2603,30 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
                 seg = (f", {fmt_miles(length)} of it in view, from the {bearing_name(a0[0] - at[0], a0[1] - at[1])} "
                        f"to the {bearing_name(a1[0] - at[0], a1[1] - at[1])}")
             nearest = point_along(coords, along)
-            dirn = bearing_name(nearest[0] - at[0], nearest[1] - at[1])
+            dxy = (nearest[0] - at[0], nearest[1] - at[1])
         elif f.get("shape") == "area" and len(coords) >= 3:
             d_px, foot = dist_to_poly_edge(at, coords)
-            dirn, seg = bearing_name(foot[0] - at[0], foot[1] - at[1]), ""
+            dxy, seg = (foot[0] - at[0], foot[1] - at[1]), ""
         else:
             d_px = math.dist(at, coords[0])
-            dirn, seg = bearing_name(coords[0][0] - at[0], coords[0][1] - at[1]), ""
+            dxy, seg = (coords[0][0] - at[0], coords[0][1] - at[1]), ""
         d = mi(d_px)
+        dirn = bearing_or_none(d, *dxy)
         if d <= reach:
-            in_view.append((d, f"- {names.name(f['id'])} ({f.get('type')}), {fmt_miles(d)} {dirn}{seg}."))
+            on = ""
+            if f.get("type") in ROUTE_TYPES and f.get("shape") == "line" and d <= ON_ROUTE_MILES:
+                on = "; the point is on it"
+            in_view.append((d, f"- {names.name(f['id'])} ({f.get('type')}), {dist_dir(d, *dxy)}{seg}{on}."))
+            D["in_view"].append({"id": f["id"], "name": names.name(f["id"]), "kind": "feature", "type": f.get("type"),
+                                 "miles": round(d, 2), "bearing": dirn, "on_it": bool(on)})
         elif f.get("type") in SETTLEMENT_TYPES and f.get("shape", "point") == "point":
             p = coords[0]
-            if kind == "floor":
-                ok = point_in_poly(p[0], p[1], region["polygon"])
-            else:
-                ok = d <= cap
-            if ok:
+            if d <= SMOKE_MILES:   # the same rule across a region border as inside one (change list 58)
                 home = [r for r in f.get("regions", []) if r in by_id and by_id[r][0] == "region"]
                 tgt = parse_elevation(by_id[home[0]][1])[0] if home else eye_ground
                 if not blocker(world, at, p, tgt + 30, eye_ground, region_id, home[0] if home else None, painting):
-                    smoke.append((d, f"- {names.generic(f['id'])}, {fmt_miles(d)} {dirn}: its smoke, walls or lights only, not the place itself."))
+                    smoke.append((d, f"- {names.generic(f['id'])}, {dist_dir(d, *dxy)}: its smoke, walls or lights only, not the place itself."))
+                    D["smoke"].append({"id": f["id"], "name": names.generic(f["id"]), "miles": round(d, 2), "bearing": dirn})
     out.append("")
     out.append("In view from the point:" if in_view else "In view from the point: nothing beyond the region's own ground.")
     out += [t for _d, t in sorted(in_view, key=lambda x: x[0])]
@@ -2010,9 +2712,18 @@ def blocker(world, at, target, target_top, eye_ground, own_id, target_id, painti
 def main(argv=None):
     ap = argparse.ArgumentParser(description="StarFall map tool (painted maps)")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("draw", "gazetteer", "reveal", "validate", "migrate", "stamp", "describe"):
+    for name in ("draw", "gazetteer", "reveal", "validate", "migrate", "stamp", "describe", "travel"):
         s = sub.add_parser(name)
         s.add_argument("campaign")
+        if name == "travel":
+            s.add_argument("start", metavar="from", help="a place: a feature id, a region id or a god's landing label")
+            s.add_argument("end", metavar="to", help="a place, as for from")
+            s.add_argument("--by", required=True, choices=sorted(MEANS), help="the means: foot, horse, wagon or boat")
+            s.add_argument("--via", default="", help="the route chosen, as ids in order: roads, rivers or places (f26,f01)")
+            s.add_argument("--god", default="player", help="whose knowledge names places (player or an NPC label; default player)")
+            s.add_argument("--names", action="store_true", help="every true name, with ids (the Keeper's own use)")
+            s.add_argument("--json", action="store_true", help="the segments as JSON")
+            s.add_argument("--sealed", help="sealed campaign folder (default: SPOILERS_do_not_open/campaigns/<name>/)")
         s.add_argument("--world", help="path to the sealed map.json (default: the campaign's sealed folder)")
         s.add_argument("--knowledge", help="path to map-knowledge.json (default: campaigns/<name>/player/)")
         s.add_argument("--out", help="output folder (default: campaigns/<name>/player/)")
@@ -2021,6 +2732,8 @@ def main(argv=None):
             s.add_argument("--zoom", choices=["known", "landing"],
                            help="known: crop to the seen and reported ground; landing: crop to the seen regions plus a margin, at its own scale")
             s.add_argument("--layer", help="draw one sheet only: surface, or under-N")
+            s.add_argument("--if-changed", action="store_true",
+                           help="keep the existing sheets when nothing the draw reads has changed since the last draw (map-meta.json's input_hash)")
         if name == "stamp":
             s.add_argument("--sealed", help="sealed campaign folder to stamp (default: SPOILERS_do_not_open/campaigns/<name>/)")
             s.add_argument("--dry-run", action="store_true", help="count what would be stamped; change nothing")
@@ -2033,6 +2746,7 @@ def main(argv=None):
             s.add_argument("--reference", action="store_true",
                            help="with --landing: also print every neighbor with true travel days and directions, seen or not (the Keeper's reference; never for a release)")
             s.add_argument("--sealed", help="sealed campaign folder (default: SPOILERS_do_not_open/campaigns/<name>/)")
+            s.add_argument("--json", action="store_true", help="the same reading as JSON: miles, bearings, cells and ids, never a pixel")
         if name == "reveal":
             g = s.add_mutually_exclusive_group(required=True)
             g.add_argument("--region")
@@ -2044,6 +2758,8 @@ def main(argv=None):
             s.add_argument("--name", help="told.name, the name as told")
             s.add_argument("--cell", help="told.cell, the grid cell as told, like C2 (rumors need one)")
             s.add_argument("--force", help="reason, to lower a grade")
+            s.add_argument("--named", action="store_true",
+                           help="the god has heard or seen the place's name with it; a seen region is labeled on the sheet only then")
     args = ap.parse_args(argv)
     world_path, paintings_dir, knowledge_path, out_dir = campaign_paths(args)
     world = load_json(world_path)
@@ -2052,11 +2768,17 @@ def main(argv=None):
 
     if args.cmd == "validate":
         probs = check_world(world)
+        cont, cont_line = continent_problems(world)
+        probs += cont
         if os.path.exists(knowledge_path):
             probs += [f"knowledge: {p}" for p in knowledge_problems(world, load_json(knowledge_path))]
+        warns = common_word_warnings(world)
         for p in probs:
             print(p)
-        print(f"{len(probs)} problem(s)")
+        for w in warns:
+            print(w)
+        print(cont_line)
+        print(f"{len(probs)} problem(s), {len(warns)} warning(s)")
         sys.exit(1 if probs else 0)
 
     if args.cmd == "stamp":
@@ -2064,6 +2786,8 @@ def main(argv=None):
         changed, total, per = stamp(args.campaign, sealed, world, dry_run=args.dry_run)
         for rel, n in per:
             print(f"{rel}: {n}")
+        for note in STAMP_NOTES:
+            print(note)
         verb = "would stamp" if args.dry_run else "stamped"
         print(f"{verb} {total} name(s) in {changed} file(s)")
         return
@@ -2089,7 +2813,27 @@ def main(argv=None):
             sys.exit(f"map.py: no region with id {rid!r} in the sealed map")
         if at is not None and not is_point(at):
             sys.exit(f"map.py: the landing point {at!r} is not an [x, y] pair of numbers")
-        sys.stdout.write(describe(world, rid, at, kn, args.names, label, reference=bool(args.reference or not args.landing)))
+        data = {}
+        text = describe(world, rid, at, kn, args.names, label, reference=bool(args.reference or not args.landing), data=data)
+        if args.json:
+            if not (args.reference or not args.landing):
+                data.pop("neighbors", None)
+            print(json.dumps(data, indent=2))
+        else:
+            sys.stdout.write(text)
+        return
+
+    if args.cmd == "travel":
+        sealed = args.sealed or os.path.dirname(os.path.abspath(world_path))
+        if args.names:
+            kn = None
+        elif args.knowledge:
+            kn = load_json(args.knowledge, default={"regions": {}, "features": {}})
+        else:
+            kn = god_knowledge(args.campaign, args.god, sealed)
+        vias = [v.strip() for v in args.via.split(",") if v.strip()]
+        text, data = travel(world, args.start, args.end, args.by, vias, Namer(world, kn, args.names), show_ids=args.names)
+        print(json.dumps(data, indent=2)) if args.json else sys.stdout.write(text)
         return
 
     knowledge = load_json(knowledge_path, default={"campaign": world.get("campaign"), "regions": {}, "features": {}})
@@ -2107,6 +2851,11 @@ def main(argv=None):
         which = args.layer
         if which and which != "surface" and not which.startswith("under-"):
             sys.exit("map.py: --layer must be surface or under-N")
+        if args.if_changed:
+            meta = unchanged_since_last_draw(world, paintings_dir, knowledge, out_dir, args.zoom, which)
+            if meta:
+                print(f"unchanged since the draw of {meta.get('drawn', '?')}; kept {', '.join(meta['files'])}")
+                return
         for p in draw_sheets(world, paintings_dir, knowledge, out_dir, args.zoom, which):
             print(f"wrote {os.path.relpath(p, ROOT)}")
         if LAST_LABELS["dropped"]:

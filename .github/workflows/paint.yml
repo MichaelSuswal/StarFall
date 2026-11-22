@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Before painting, check every waiting request against its campaign's state/images.md
+      # (change list 83): a request images.md does not cover is skipped and reported, never painted.
+      # paint.py applies the same check itself, so nothing uncovered is painted either way.
+      - name: check requests against images.md
+        run: python3 tools/paint.py --check
       - run: python3 tools/paint.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
