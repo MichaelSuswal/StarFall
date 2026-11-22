@@ -54,3 +54,68 @@ Accept, refuse or counter each item, and give your reasons. Where a choice is sh
 Write your reply as `## Round 1 reply` at the end of
 SPOILERS_do_not_open/campaigns/sim-04/gods/god-law/negotiation-night2.md
 (make the file if it is not there), and to no other file. Never use em dashes or en dashes. Then stop.
+
+
+## Round 2
+
+This is the Keeper's answer to your round 1 reply, and the final text. It is copied from round 1 and changed only where your reply changed it.
+
+### Your reasons, answered
+- Sworn Word: accepted by you as written.
+- Unmarked Hand: (a) written, as manner under your Form, at no price. It is not a power and is not on the card as one. The line under Form reads: "It works unseen by ordinary care, as anyone might: it waits until hands are gone and minds where it walks."
+- Return to the Ford: the first rung, the gap yours to find, the grounds in the order you accept. One correction to your reading, which changes nothing you chose: on the scale the season is the slower return and costs one item; the month is the faster and costs two. You have taken the slower and cheaper.
+- Guest-law: (a) written. The weakness leaves out your own people and ends at noon.
+- Your clarification on the standing form: taken as wording, since without a side fixed ahead of time the shrine oaths you bought could not be sworn at all. It is written so that the form binds you in each oath sworn by it. It adds no reach and no knowledge.
+
+### Final text
+The powers below are in the form of your card. The Description and Drawback lines freeze when you confirm.
+
+### Sworn Word
+Status: main
+Description: A mortal who freely swears an oath aloud to the god, within earshot of it, naming it as the Surety or the Tall Witness, becomes sworn. Each oath is a plain exchange, both sides spoken and exact: what the mortal binds themselves to, and what the god binds itself to in return. For as long as the oath stands, the god knows when it is broken: that it was broken, by that person, and how far the breach reaches (a small lie, a broken bargain, a killing). It does not learn why, and it does not learn where the oath-breaker is. An oath sworn aloud at a household or village shrine of the god, in its name, within a day's walk (20 miles) of where the god then is, binds as if sworn in earshot.
+Drawback: The god's own side of every oath binds it exactly as the mortal's binds the mortal, and it must give a side to every oath it accepts. And it feels each breach as a blow, wherever it is: it flinches, loses what it was doing, and is dazed for a quarter of an hour; ten breaches in a day lay it down until the next dawn.
+Limits settled at creation:
+  - If the god breaks its own side, the power goes dull for a season: it feels nothing of any oath until the season turns. This follows only from the god's own breach, so it is a limit and buys nothing.
+  - Does not count: an oath sworn under force, in a language the swearer does not understand, to another god, on another's behalf, or one ended or released by both sides.
+  - An oath ends with the swearer's death. One person may swear many. The god may refuse an oath.
+  - For shrine oaths the god may fix its own side ahead of time, aloud and exactly, in a standing form that those who swear at a shrine repeat; that form is its side of each such oath and binds it in each. A shrine oath that names no side of the god's is no oath under this power.
+  - Distance makes no difference to the knowing.
+  - The power enforces nothing: what a breach costs the breaker is law and men's work.
+  - It makes no one trust anyone. It rules no mind.
+  - Not applicable: light and dark, falling, carrying, water, being watched.
+  - Intent, the god's first wording: "A mortal who speaks an oath aloud to the Surety ... within earshot, becomes sworn. For as long as the oath stands, the Surety knows when that oath is broken: that it was broken, and by that person, and how far the breach reaches".
+Rulings: none yet.
+Trades: the shrine oaths within a day's walk were bought by the weakness "Guest-law".
+Growth: Possible. Not shown.
+
+### Return to the Ford
+Status: main
+Description: When its body is destroyed, the god gathers again, as it was, at the oldest ford or crossing-stone on the river nearest where it was destroyed. It takes a season.
+Drawback: One item of memory or habit, by logged roll from its own record, not told to the god.
+Limits settled at creation:
+  - The standing return scale, first rung: a season, one item. The month at two items was offered and declined.
+  - With no ford or stone on that river, the nearest crossing of any water; with none, the nearest standing boundary stone; with none, the nearest place where two roads meet.
+  - A body bound, walled in or sunk is held, not broken.
+  - Not applicable: light and dark, falling, carrying, being watched, minds.
+  - Intent, the god's first wording: "If its body is destroyed, the Surety gathers again, over a season, at the oldest ford or crossing-stone on the river nearest where it died."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+## Hidden powers
+Two hidden powers exist. Discovered powers are added above as they surface.
+
+## Weaknesses taken
+**Guest-law.** For a night and the morning after, once a mortal has eaten at the god's fire or table with its knowledge and by its leave, the god cannot raise a hand to harm that person and cannot speak a falsehood to them. It may keep silent. It ends at noon after the night, or when the guest first does violence or theft against the god or its household, or when the guest leaves. It does not hold for one who ate unbidden. It does not hold for the god's own people.
+What it bought: an oath sworn aloud at a household or village shrine of the god, in its name, within a day's walk (20 miles) of where the god then is, binds as if sworn in earshot.
+
+### Keeper trait
+One thing more is so of you, and you have known it since you landed. It is not a power and has no price.
+Keeper trait: At dawn and at dusk it casts two shadows, the second a little shorter and at its shoulder, and anyone who looks can see it. Reach: a thing seen in low sun only; it does nothing, says nothing of whose it is, and touches no power or price on the card.
+
+### Confirm
+Confirm that this is what you meant, or say what is wrong with it. This round is for checking the Keeper's copy: a wording that is wrong is fixed; a new ask of substance is noted and the text above stands.
+
+Write your reply as `## Round 2 reply` at the end of
+SPOILERS_do_not_open/campaigns/sim-04/gods/god-law/negotiation-night2.md,
+and to no other file. Never use em dashes or en dashes. Then stop.

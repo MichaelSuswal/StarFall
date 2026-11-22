@@ -55,3 +55,89 @@ Accept, refuse or counter each item, and give your reasons. Where a choice is sh
 Write your reply as `## Round 1 reply` at the end of
 SPOILERS_do_not_open/campaigns/sim-04/gods/god-ice/negotiation-night2.md
 (make the file if it is not there), and to no other file but the section added to your self.md as said at the head of this file. Never use em dashes or en dashes. Then stop.
+
+
+## Round 2
+
+This is the Keeper's answer to your round 1 reply, and the final text. It is copied from round 1 and changed only where your reply changed it.
+
+### Your reasons, answered
+- Winter's Reach: (a) written. Your clarification is wording and is written, in plainer words than mine: only cold that would not be there but for your working counts, and ice the season would have made anyway does not. I have also written how long the cold of a working holds, since "still holds" could not be counted for a field whose frost melts by noon: seven days in each case, which is the week you say you can plan around.
+- The Spoken Term: (b) written. Your clarification on counting is wording and is written. A yes under threat of force does not bind, as you say. On the seal: refused on these terms, as you accept; it is yours to raise on Night 3.
+- Returning from the cold: (a) written, the first rung, the gap yours to find. "Large" is written as you asked: enough to cover your whole body lying down.
+- No weakness offered; that stands.
+- Your Traits, given again: read against your sheet. They now rest on the leans as the sheet has them, and they stand.
+
+### Final text
+The powers below are in the form of your card. The Description and Drawback lines freeze when you confirm.
+
+### Winter's Reach
+Status: main
+Description: Within about a mile of the god, on ground and water it can see, it brings frost and cold: it freezes standing or slow water (a pond, a stretch of river, a well), thickens ice already there, or brings a killing frost to one field or yard of up to ten acres. One working in a day.
+Drawback: The god pays. While the cold of a working of its own still holds, the god cannot bring cold again, and it is as slow and heavy as it is in deep summer.
+Limits settled at creation:
+  - The cold of a working holds for seven days: for a frosted field or yard, seven days from the working; for frozen water, the seven days it stays frozen after the god lets it go. Only cold that would not be there but for the working counts: ice the season would have made anyway does not, so the god is not slowed by the weather it stands in.
+  - As slow and heavy as in deep summer means at half its pace.
+  - The cold stays after the god leaves: a frosted field is barren for the season, and frozen water stays frozen seven days after the god lets it go and cannot be unfrozen by the god in its first day. This lingering is what the power does, not its price.
+  - It makes no snow from a clear sky and cools nothing that moves fast.
+  - It works on water and ground, never directly on a creature's body.
+  - It needs sight: nothing in darkness without a light on the place, nothing behind a wall or a ridge.
+  - Its own people's fields and wells freeze the same as any.
+  - Anyone watching sees frost come where the beast is looking. It rules no mind.
+  - Not applicable: falling, carrying.
+  - Intent, the god's first wording: "Within about a mile of me I can bring frost and cold. I can freeze standing or slow water ..., thicken ice that is already there, and bring a killing frost to a field or a yard of ground I can see."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### The Spoken Term
+Status: main
+Description: When the god speaks terms aloud in a plain sentence to one mortal face to face, and that mortal, understanding the words, agrees aloud, the terms hold that mortal for the term of years the god states. A breach is felt by the one who breaks it as a creeping cold in the hands and chest that grows with each day the term goes unmet and ends when it is mended. It does not kill and it does not compel.
+Drawback: The terms weigh. The god carries every standing term as cold in its own belly: with more than twelve standing it is slow, at half its pace; with more than forty it cannot use Winter's Reach at all.
+Limits settled at creation:
+  - A term stands from the yes until it ends by its years, by the mortal's death or by the god's release. A term ended does not count. A term breached and then mended counts for as long as it still has years to run.
+  - Every term binds the god to its exact wording as well, and the god cannot state a falsehood inside a term; if the god breaks the letter of its own term, the cold comes into it too until it is mended. This follows only from the god's own breach, so it is a limit and buys nothing.
+  - It binds only the mortal who agreed, only to what was said. A spoken yes counts; a nod does not.
+  - A yes given under threat of force does not bind.
+  - A mortal who was deceived about what the words mean is not bound; a mortal who understood the words and was deceived about anything else is bound.
+  - It cannot bind one who did not hear it, a child too young to understand, or a god.
+  - The cold makes the breach certain to the breaker and shows nothing to anyone else.
+  - Whether a term may be spoken for the god by a mortal under its seal was asked and refused on these terms. Settled at creation.
+  - It makes no one trust anyone. It rules no mind.
+  - Not applicable: light and dark, falling, carrying, water.
+  - Intent, the god's first wording: "When a mortal who understands the words agrees aloud to terms that I have spoken aloud, and I name them in a plain sentence, the terms hold them. ... It only makes the cost of breaking it certain and exact."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### Returning from the cold
+Status: main
+Description: When its body is destroyed, the god gathers again, whole, out of the nearest large body of ice or deep snow to where it was destroyed. It takes a season.
+Drawback: One item of memory or habit, by logged roll from its own record, not told to the god.
+Limits settled at creation:
+  - The standing return scale, first rung: a season, one item. The month at two items was offered and declined.
+  - "Large" means ice or snow enough to cover the god's whole body lying down: a pond frozen through, or a drift taller than a man and ten paces across. A skin of ice or a dusting does not serve.
+  - With none near, it gathers at the nearest ground that holds such ice or snow, however far, and travels back from it at its own pace.
+  - A body chained, pitted or shut in is held, not broken.
+  - Not applicable: light and dark, falling, carrying, being watched, minds.
+  - Intent, the god's first wording: "If my body is broken, I gather again out of the nearest large body of ice or deep snow, or if there is none, out of any frozen ground."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+## Hidden powers
+Two hidden powers exist. Discovered powers are added above as they surface.
+
+## Weaknesses taken
+None. The offer that a weakness can buy an improvement elsewhere was made once and the god offered none.
+
+### Keeper trait
+One thing more is so of you, and you have known it since you landed. It is not a power and has no price.
+Keeper trait: The laugh comes when a judgment it has spoken falls hardest on the one least to blame, and those who hear it know which judgment it was laughing at. Reach: a laugh and what hearers make of it; it binds no term, changes no judgment, and touches no power or price on the card.
+
+### Confirm
+Confirm that this is what you meant, or say what is wrong with it. This round is for checking the Keeper's copy: a wording that is wrong is fixed; a new ask of substance is noted and the text above stands.
+
+Write your reply as `## Round 2 reply` at the end of
+SPOILERS_do_not_open/campaigns/sim-04/gods/god-ice/negotiation-night2.md,
+and to no other file. Never use em dashes or en dashes. Then stop.

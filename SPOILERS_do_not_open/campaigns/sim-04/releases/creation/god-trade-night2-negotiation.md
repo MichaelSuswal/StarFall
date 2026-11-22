@@ -65,3 +65,100 @@ Accept, refuse or counter each item, and give your reasons. Where a choice is sh
 Write your reply as `## Round 1 reply` at the end of
 SPOILERS_do_not_open/campaigns/sim-04/gods/god-trade/negotiation-night2.md
 (make the file if it is not there), and to no other file. Never use em dashes or en dashes. Then stop.
+
+
+## Round 2
+
+This is the Keeper's answer to your round 1 reply, and the final text. It is copied from round 1 and changed only where your reply changed it.
+
+### Your reasons, answered
+- The Fair Weight, the Kept Road: accepted by you as written; four roads are written, as your trade bought.
+- The Reckoning: (b) written. Your clarification is wording and is written, and it is what was meant: a bargain stands only while it is unfulfilled and unreleased; a bargain done is not a debt. The twelve and the forty stand.
+- Return to the Stone: the first rung, ground (a), the gap yours to find. One correction to your reading, which changes nothing you chose: on the scale the season is the slower return and costs one item; the month is the faster and costs two.
+- The Barred Door: written exactly as you wrote it; (b), four roads. Your point that sixty miles of feeling has little road to reach along is sound.
+
+### Final text
+The powers below are in the form of your card. The Description and Drawback lines freeze when you confirm.
+
+### The Fair Weight
+Status: main
+Description: Whatever the god holds in its hands or sets on a balance it knows to the true: its weight, how many are in a heap, how much grain is in a sack, how pure a lump of metal is against the ordinary run of that metal in that land, and whether a measure, scale or tally has been falsified and by how much. A false weight held in its hand is made honest in its mass, until another hand next changes it. True weight is weight against the ordinary standard of the place, set among its people by agreement.
+Drawback: While it weighs, and for an hour after, the god cannot say anything it knows to be false, and cannot hold back what it has found: asked, it answers, and what it found comes out of its mouth.
+Limits settled at creation:
+  - Only what it touches, and nothing too large for it to hold or lift.
+  - Effects, never causes: that a weight is false and by how much, never who made it so or why; an honest mistake reads the same as a fraud.
+  - It works in dark as in light.
+  - It makes no one trust anyone. It rules no mind.
+  - Not applicable: distance, falling, water, being watched.
+  - Intent, the god's first wording: "Whatever it holds in its hands or sets on a balance it knows to the true."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### The Kept Road
+Status: main
+Description: A stretch of road, with its fords and bridges, that the god has walked end to end and then laid its hand on becomes a kept road. Mud, flood and drift trouble it less: in any season short of deep snow or full flood it travels as a good road, and those carrying goods on it go one tenth quicker. Within a day's walk (20 miles) of where it stands, the god feels the passage on any kept road: few feet or many, light loads or heavy, and which way they go, never who. It feels a blocking of a kept road (a toll bar, a fallen tree, a wall) as a cut. Four kept roads at most, each no longer than a day's walk. A road it stops keeping reverts in a season.
+Drawback: It cannot shut out the footfalls. While more than a few travellers are on its kept roads within its reach, the god is dull with their walking: slow in thought, easily startled, unable to attend to one voice among several; and sleep, if it chooses it, gives it no rest.
+Limits settled at creation:
+  - A kept road serves enemies as freely as friends; the god does not choose who is helped.
+  - It can feel a cut and cannot undo one by this power.
+  - It cannot keep a road it has not walked end to end.
+  - The feeling gives no count, only few, many or a great many.
+  - To a watcher a kept road is a well-drained road. It rules no mind.
+  - Not applicable: light and dark, falling, carrying.
+  - Intent, the god's first wording: "A road, ford or bridge it has walked end to end, and then blessed by laying its hand upon, becomes a kept road."
+Rulings: none yet.
+Trades: four kept roads in place of two were bought by the weakness "The Barred Door".
+Growth: Possible. Not shown.
+
+### The Reckoning
+Status: main
+Description: A bargain sworn aloud by two or more people, in the god's presence, with the god's hand held out and the terms spoken, binds them in the body, not by force. A party that breaks its word feels a weight at the chest until the matter is mended, and the palm of the hand it swore with darkens like a bruise, for all to see. The god knows when a bargain sworn before it is broken, and by which party, never why.
+Drawback: The debts weigh. The god carries every standing bargain sworn before it: with more than twelve standing it walks at half its pace; with more than forty it cannot keep a road.
+Limits settled at creation:
+  - A bargain stands while it is unfulfilled and unreleased. A bargain kept to its end, released by all its parties, ended by a party's death, or broken and then mended and so done, no longer counts.
+  - The Reckoning holds the god too: a bargain it swears itself and breaks, it feels twice over, and for as long it has no use of its powers. This follows only from the god's own breach, so it is a limit and buys nothing.
+  - It forces no one to swear. A bargain sworn under threat does not count, nor does it bind a party that did not know the terms.
+  - A dead party's bargain passes to no one.
+  - It does not judge whether a bargain was wise or fair, and it stops no breach.
+  - Distance makes no difference to the knowing or the weight.
+  - It makes no one trust anyone. It rules no mind.
+  - A god as a party is unruled until it happens.
+  - Not applicable: light and dark, falling, carrying, water.
+  - Intent, the god's first wording: "A bargain sworn by two or more people with the god's hand held out and the terms spoken aloud binds them in the body, not by force."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### Return to the Stone
+Status: main
+Description: When its body is destroyed, the god gathers again, out of the grain, salt and dust on it, at the nearest weighing stone of its own people: a stone on which the god has set a true weight with its hand. It takes a season.
+Drawback: One item of memory or habit, by logged roll from its own record, not told to the god.
+Limits settled at creation:
+  - The standing return scale, first rung: a season, one item. The month at two items was offered and declined.
+  - Before any stone is marked, or when none is left, it gathers at the nearest place where two roads cross.
+  - A stone broken or carried off no longer serves.
+  - A body chained, walled in, buried or shut in a room is held, not broken.
+  - Not applicable: light and dark, falling, carrying, being watched, minds.
+  - Intent, the god's first wording: "If its body is destroyed, it gathers again at a weighing stone of its own people (a stone on which it has set a true weight with its hand)".
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+## Hidden powers
+Two hidden powers exist. Discovered powers are added above as they surface.
+
+## Weaknesses taken
+**The Barred Door.** The god cannot open, break or pass a door, gate, hatch or lid that is shut and fastened from the far side, by any means, for as long as it stays fastened. Another's hand must undo it, or the fastening be broken by others, or the god go round by another way. A door merely closed does not count, nor a way blocked by something that is not a fastening. It may open anything fastened from its own side. Anyone who learns of it can hold the god with a bar.
+What it bought: the god may keep four roads at once.
+
+### Keeper trait
+One thing more is so of you, and you have known it since you landed. It is not a power and has no price.
+Keeper trait: Whatever it builds with its own hands comes out with one more door than was planned, and it does not notice until the thing is done. Reach: its own handiwork only; it adds no power, opens nothing that is fastened, and the Barred Door holds on such a door as on any other.
+
+### Confirm
+Confirm that this is what you meant, or say what is wrong with it. This round is for checking the Keeper's copy: a wording that is wrong is fixed; a new ask of substance is noted and the text above stands.
+
+Write your reply as `## Round 2 reply` at the end of
+SPOILERS_do_not_open/campaigns/sim-04/gods/god-trade/negotiation-night2.md,
+and to no other file. Never use em dashes or en dashes. Then stop.

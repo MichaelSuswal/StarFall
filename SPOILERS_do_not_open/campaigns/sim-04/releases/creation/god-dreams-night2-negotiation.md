@@ -59,3 +59,88 @@ Accept, refuse or counter each item, and give your reasons. Where a choice is sh
 Write your reply as `## Round 1 reply` at the end of
 SPOILERS_do_not_open/campaigns/sim-04/gods/god-dreams/negotiation-night2.md
 (make the file if it is not there), and to no other file but the section added to your self.md as said at the head of this file. Never use em dashes or en dashes. Then stop.
+
+
+## Round 2
+
+This is the Keeper's answer to your round 1 reply, and the final text. It is copied from round 1 and changed only where your reply changed it.
+
+### Your reasons, answered
+- The Sleeper's Door: accepted by you as drafted; the reach is written at three days' walk, as your trade bought.
+- The Lamp-Sight: (b) and (d) written: you pay in dazzled eyes, and you see at any distance and hear nothing. Your wording is written: the room as the flame lights it, now, the flame lit for you by a mortal in your name.
+- The Lamp I Gather At: (a) written, the first rung, and you find the gap yourself. Your clarification is taken as wording, since it only says what the two texts already meant together: the return is not a power you open, so the Hollow Season does not stop it; if no flame lit for you burns when you rise, the Hollow Season holds from that moment.
+- The Hollow Season: accepted by you as written.
+- Your Traits, given again: read against your sheet. They now rest on the leans as the sheet has them, and they stand.
+
+### Final text
+The powers below are in the form of your card. The Description and Drawback lines freeze when you confirm.
+
+### The Sleeper's Door
+Status: main
+Description: When a mortal is asleep within three days' walk (60 miles) of the god, and the god has met that mortal in person or that mortal keeps a lamp lit for the god, the god may enter the sleeper's dream. It may be seen there as a figure or a voice in any seeming it chooses, and may speak, show images and answer what the sleeper says. It perceives only what happens inside the dream. The sleeper remembers it as a vivid dream and may or may not believe it.
+Drawback: It marks them. For the rest of their life a sleeper so entered feels the god near, within about 200 yards, as a weight at the back of the mind. They are not told what the weight is.
+Limits settled at creation:
+  - One sleeper in a night.
+  - While the god is in a dream its body lies as one asleep, deaf and blind to what is around it, and it cannot wake itself until the dream ends or the sleeper wakes; this is a condition of use, not the price.
+  - The dream ends when the sleeper wakes or is woken.
+  - It cannot read the sleeper's mind, see where the sleeper is, or force any act; it rules no mind.
+  - Natural sleep and sleep from drink or drug count; a trance of a worker's own making does not, and a sleep too deep for dreaming has no door.
+  - It sends nothing of substance.
+  - Its own people are entered and marked the same as any.
+  - A god asleep, or a sleeper who is more than ordinary, is unruled until met.
+  - Not applicable: light and dark, falling, carrying, water.
+  - Intent, the god's first wording: "let the dreams of a god walk where the god does not ... a seeming, a presence in a sleeper's mind, a shadow that carries a word." "When a mortal is asleep and within a day's walk of the god ... the god may enter that sleeper's dream."
+Rulings: none yet.
+Trades: the reach of three days' walk in place of one was bought by the weakness "The Hollow Season".
+Growth: Possible. Not shown.
+
+### The Lamp-Sight
+Status: main
+Description: When a lamp or a hearth fire has been lit for the god by a mortal, in its name, and is burning, at any distance, the god may look through it. It sees what the flame lights, as one standing at the lamp, for as long as it attends. It hears nothing through the flame. One lamp at a time.
+Drawback: The god pays. For as long as it looked, and as long again, its own eyes are dazzled: it sees nothing in its own body's place but light and dark.
+Limits settled at creation:
+  - What is there now, never what was there before the god looked: the room as the flame lights it, while the god looks.
+  - While it looks it is half deaf and half blind to its own surroundings; a condition of use.
+  - A lamp put out or broken while the god looks strikes it as a blow, and it is dazed for a quarter of an hour.
+  - An unlit lamp does not serve, nor a lamp lit for another or for no one, nor an ordinary cooking fire.
+  - The god's own lantern, lit by its own hand, is not a lamp lit for it.
+  - It rules no mind.
+  - Not applicable: falling, carrying, water.
+  - Intent, the god's first wording: "When a lamp or hearth fire has been lit for the god at a shrine, in a house or in a village, and is burning, the god may look through it."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### The Lamp I Gather At
+Status: main
+Description: When its body is destroyed, the god gathers again from ash and oil at the oldest lamp still kept for it. It takes a season.
+Drawback: One item of memory or habit, by logged roll from its own record, not told to the god.
+Limits settled at creation:
+  - The standing return scale, first rung: a season, one item. The month at two items was offered and declined.
+  - "Kept for it" means a lamp lit for the god by a mortal that is still tended, burning or not on the day.
+  - With no lamp kept for it anywhere, it gathers at the hearth nearest where its body was destroyed where a fire is kept through the night.
+  - The Hollow Season does not stop this return: the god does not open it, it happens. If no flame lit for the god burns when it rises, the Hollow Season holds from that moment.
+  - A body held, chained, pitted or shut in is held, not broken.
+  - Not applicable: light and dark, falling, carrying, being watched, minds.
+  - Intent, the god's first wording: "If its body is destroyed, it gathers again, from the ash and the oil of the oldest lamp ever lit for it, at that lamp."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+## Hidden powers
+Two hidden powers exist. Discovered powers are added above as they surface.
+
+## Weaknesses taken
+**The Hollow Season.** When no lamp or hearth fire lit for the god by a mortal, in its name, is burning anywhere, the god is dull, slow and forgetful: it moves at half its pace, its thought is heavy, and no power of its own will open. One such flame burning ends it; it begins again when the last goes out. The god's own lantern does not count. Anyone who learns of it can bring it on by putting out the lamps.
+What it bought: the Sleeper's Door reaches three days' walk (60 miles) in place of one.
+
+### Keeper trait
+One thing more is so of you, and you have known it since you landed. It is not a power and has no price.
+Keeper trait: When a lamp lit for it goes out before dawn, it feels it go, wherever it is: that one went out, never which, where or why. Reach: a pang and nothing more; it gives no sight and no direction, adds nothing to the Lamp-Sight, and changes nothing in the Hollow Season or any price on the card.
+
+### Confirm
+Confirm that this is what you meant, or say what is wrong with it. This round is for checking the Keeper's copy: a wording that is wrong is fixed; a new ask of substance is noted and the text above stands.
+
+Write your reply as `## Round 2 reply` at the end of
+SPOILERS_do_not_open/campaigns/sim-04/gods/god-dreams/negotiation-night2.md,
+and to no other file. Never use em dashes or en dashes. Then stop.

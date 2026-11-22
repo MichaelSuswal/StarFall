@@ -55,3 +55,67 @@ Date: 2026-11-21, Day 2 (entered Night 2). Year 0. Card: the player's. Matter: p
 Arguments: none against; set by the DM, agreed at the read-back as a new term.
 Ruling: parts that died in the same day as the last of the god are covered by the Regathering's one item; parts lost earlier have already been paid for.
 Binds: the player's card.
+
+## Rulings of the Night 2 table (the NPC gods)
+
+Entered on Night 2, 2026-11-21, at round 2, when the final text was written. Year 0. Each is noted as confirmed when the god confirms. Gods are named by label.
+
+### L-0009
+Date: 2026-11-21, Night 2. Year 0. Card: every card (a world rule; no god is told another's table used it). Matter: the measures and standing prices of the creation table.
+Arguments: none against; set by the Keeper, once, the plainest way, where no file sets a value (runbook principle, run 02, 2.3).
+Ruling: a day's walk is 20 miles on any ground; earshot, a spoken voice and speaking distance are about 50 paces in open air and not through walls; where a mortal is left able to feel a god near, near is about 200 yards (the number the DM set for the same price at the player's table); a memory price removes one item from the god's own record by logged roll (an NPC's record of gods and its goals; the player's chronicle canon and conduct lines, through the DM's release); the rung of the return scale is chosen at creation and written on the card; while a god is gone, whatever of its needs it to keep it up lapses.
+Binds: every card.
+
+### L-0010
+Date: 2026-11-21, Night 2. Year 0. Cards: god-ice, god-law, god-trade (binds more than one card; each argued it alone and none is told of the others). Matter: "my own word binds me, or the power fails" offered as a drawback.
+Arguments: each god offered being held to its own side of its sworn terms, with a loss if it breaks them, as the price of a power that makes a sworn word tell. The Keeper: `powers.md` names a penalty only carelessness triggers ("lose it if you break your word") as a Limit that buys nothing; a price falls in the ordinary use.
+Ruling: the self-breach penalty is written as a limit on all three cards. Each power carries a price that falls in ordinary use: god-ice, the standing terms weigh (twelve, forty); god-law, a side given to every oath and a blow for every breach; god-trade, the standing bargains weigh (twelve, forty). A term or bargain counts as standing only while unfulfilled, unreleased and unended.
+Binds: the three cards; any later power of any god priced the same way.
+
+### L-0011
+Date: 2026-11-21, Night 2. Year 0. Card: god-rivers. Matter: the Mist veil's price.
+Arguments: the god offered "whole attention, no speech, a crawl while it holds the veil". The Keeper: true only while the veil is up, so a condition of use. Two prices were put; the god took the one it pays itself, refusing to have its people pay.
+Ruling: the conditions are limits; the price is that for as many days as it held the veil it cannot read or clean water.
+Binds: god-rivers' card.
+
+### L-0012
+Date: 2026-11-21, Night 2. Year 0. Card: god-rivers. Matter: what the plea for water buys; whether the Cupful is a second body; the shrinking of Turn the channel.
+Arguments: the god asked that its Reading reach the whole length of any river it had touched, past and present, for one weakness. The Keeper: one weakness, one step; that is several. The god asked a ruling on the Cupful. The god was told its card sat above a newly landed god's by Turn the channel, and chose to drop the bending of a channel and keep the holding of a flood.
+Ruling: the weakness buys the whole length of the channel it stands in for what the water carries now only. The Cupful is a part of its one body and no second body (the reading of L-0001). Turn the channel is the holding only, shrunk by the god's own choice, and the card says so.
+Binds: god-rivers' card.
+
+### L-0013
+Date: 2026-11-21, Night 2. Year 0. Card: god-secrets. Matter: Unlatching's price; the return's bound.
+Arguments: the god's drawback named two prices (a day and a night after each opening; a cost that runs with the door). Both were put; it took the scaled one, with the Keeper's floor that a latch costs until the next dawn. Its return named running water "within a day's walk"; the Keeper: the card must say where it gathers on any ground.
+Ruling: the scaled price (next dawn; a day and a night; seven days). The return is at the nearest running water, however far.
+Binds: god-secrets' card.
+
+### L-0014
+Date: 2026-11-21, Night 2. Year 0. Card: god-dreams. Matter: the Lamp-Sight's reach and price; the return with no lamp.
+Arguments: the god proposed sight and hearing through any lamp lit for it, with no reach stated, past and present, at the price of dulled senses while looking and a blow if the lamp is broken. The Keeper: sight and hearing at any distance is more than a newly landed god carries; the present only; the price offered is a condition of use and a blow a careful god seldom pays. The god wrote that with no lamp it cannot return; the Keeper: the card must say where it gathers on any day.
+Ruling: any distance, sight only, the present only; the god is dazzled for as long as it looked and as long again. With no lamp kept, it gathers at the nearest hearth kept through the night. The Hollow Season does not stop the return and holds from the rising if no flame lit for it burns.
+Binds: god-dreams' card.
+
+### L-0015
+Date: 2026-11-21, Night 2. Year 0. Card: god-ice. Matter: Winter's Reach's price; a term spoken under the god's seal by a mortal.
+Arguments: the god offered the lingering cold as the drawback. The Keeper: turned on another's ground that is the power's effect, so a price must fall whichever way it is turned. The god asked whether a merchant-prince may speak a term in its name under a seal. The Keeper: a mortal acting for the god changes what the god can do and is a power of the god's, priced on the god.
+Ruling: the lingering is a limit; the god pays seven days of slowness and no cold after each working. The seal is refused on these terms; open as an edge of its people on Night 3, priced there, which the god says it will bring.
+Binds: god-ice's card; the Keeper's pricing of that edge on Night 3a.
+
+### L-0016
+Date: 2026-11-21, Night 2. Year 0. Card: god-law. Matter: Unmarked Hand; what Guest-law buys.
+Arguments: Unmarked Hand hid a trail the god's powers do not leave; by `powers.md` an ask that describes no act only a god can do is offered both ways. The god took it as manner at no price and refused the power. The god asked that shrine oaths anywhere bind as if in earshot, for one weakness. The Keeper: every shrine at any distance is more than one step.
+Ruling: Unmarked Hand is manner under Form, not a power. Guest-law, leaving out the god's own people, buys shrine oaths within a day's walk of where the god then is. The god's side of a shrine oath may be fixed ahead in a standing form that binds it in each.
+Binds: god-law's card.
+
+### L-0017
+Date: 2026-11-21, Night 2. Year 0. Card: god-stone. Matter: the ward's price; the Oath at the Threshold.
+Arguments: the god offered being "uneasy" far from its oldest ward. The Keeper: unease is nothing the Keeper can apply. The god refused a tether as a written fence and took the weight. The god offered a weakness that binds only when it swears in a doorway, for a valley's reach of Reading. The Keeper: a thing only carelessness triggers does not buy; a valley is several steps.
+Ruling: each standing ward stiffens the god (half pace; no shaping; cannot leave the valley or mountain). The weakness is widened to every roof or walls of stone and every pass, caves and cut hollows included, and buys a mile's reach. The card sits a little above the band by the god's choice.
+Binds: god-stone's card.
+
+### L-0018
+Date: 2026-11-21, Night 2. Year 0. Card: god-trade. Matter: what the Barred Door buys.
+Arguments: the god asked two steps (three days' reach and twice the roads) for one weakness. The Keeper: one weakness, one step, however heavy.
+Ruling: four roads kept at once. The reach stays a day's walk.
+Binds: god-trade's card.

@@ -59,3 +59,99 @@ Accept, refuse or counter each item, and give your reasons. Where a choice is sh
 Write your reply as `## Round 1 reply` at the end of
 SPOILERS_do_not_open/campaigns/sim-04/gods/god-secrets/negotiation-night2.md
 (make the file if it is not there), and to no other file but the section added to your self.md as said at the head of this file. Never use em dashes or en dashes. Then stop.
+
+
+## Round 2
+
+This is the Keeper's answer to your round 1 reply, and the final text. It is copied from round 1 and changed only where your reply changed it.
+
+### Your reasons, answered
+- Sealed Telling: accepted by you as drafted. Your clarification is wording and is written: keeping silent, and declining to answer a question about a held confidence, are not acting upon it.
+- Unlatching: (b) written. A price in proportion to the work is a fair reading of what you first wrote.
+- Reading the Crossing: (b) written, opened at your will.
+- Return by the Ford: accepted by you as drafted; you find the gap yourself.
+- No weakness offered; that stands.
+- Your Traits, given again: read against your sheet. They now rest on the leans as the sheet has them, and they stand.
+
+### Final text
+The powers below are in the form of your card. The Description and Drawback lines freeze when you confirm.
+
+### Sealed Telling
+Status: main
+Description: When a mortal within a spoken voice of the god knowingly tells it something and asks that it be kept, the god may take it as a confidence and seal it, saying so. While the god holds it, the telling cannot be drawn out of that mortal by any power, drug, craft or magic that works on the mind. The teller may still speak it of their own will. The god may hold any number of confidences. A confidence ends when the teller releases the god, when the god releases it, or when the teller dies.
+Drawback: The god cannot speak, write, signal or act upon a held confidence, even to save a life or to bring the teller out of danger, and it cannot forget it or lay it down except by releasing it, which ends the seal.
+Limits settled at creation:
+  - It guards the teller's mind, not the teller's body: force, fear and bribery work as they always did.
+  - It does not guard the same secret where another holds it. An overheard secret is no confidence.
+  - A confidence told by one who does not know what the god is still counts.
+  - A confidence that touches a threat to the god's own people is held like any other.
+  - "Act upon" means doing what the god would not have done had it not been told; the Keeper judges it when it arises. Keeping silent, and declining to answer a question about a held confidence, are not acting upon it.
+  - What the god remembers from before the fall is its own to remember and is no confidence under this power.
+  - The seal makes no one trust anyone.
+  - Against another god's power on the teller it is unruled until it happens.
+  - Not applicable: light and dark, distance beyond a spoken voice, falling, carrying, water.
+  - Intent, the god's first wording: "When a mortal in my presence, within a spoken voice, tells me something knowingly and asks that it be kept, I may take it as a confidence and seal it."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### Unlatching
+Status: main
+Description: By touch, over time, the god opens what a person has shut by ordinary craft: a lock, a bar, a seal, a sealed vessel, a sealed door or tomb. A latch takes a breath, a barred door an hour, a tomb door a day. The thing is not damaged and can be closed again by ordinary means.
+Drawback: After each opening the rightness leaves the god's face: it goes loose and strange, and the god cannot pass for ordinary to anyone who looks at it. After a latch, until the next dawn; after a barred door, a day and a night; after a tomb door or anything that took a day, seven days.
+Limits settled at creation:
+  - It opens; it does not break or unmake.
+  - It does not work on bodies, minds or anything living.
+  - The god must touch the thing for the whole of the time.
+  - It works in dark as in light and under water. One who watches sees a man with his hand on a door for an hour.
+  - Things made or kept by more than ordinary craft are unruled until met.
+  - Not applicable: distance, falling, carrying.
+  - Intent, the god's first wording: "By touch, over time, I can open what a person has shut: a lock, a bar, a seal, a sealed vessel, a sealed door or tomb made by ordinary craft."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### Reading the Crossing
+Status: main
+Description: The god knows where, within a day's walk (20 miles) of it, a mortal person lies dead within the last season, how long since, and whether the body has been found or tended. What, never why and never who: no names, causes or last words. The knowing is opened by the god at will: it then learns every death within reach it has not yet learned.
+Drawback: For each death so learned the god stands still for an hour: it can do nothing, and cannot be roused. The hours follow at once and run one after another.
+Limits settled at creation:
+  - Mortal persons only: not beasts, not gods.
+  - It tells the dead from the living and nothing of the dying.
+  - It knows a body, not anything that may be left of a person besides. A body is learned once.
+  - Not applicable: light and dark, falling, carrying, water, minds, being watched (a watcher sees a man standing still).
+  - Intent, the god's first wording: "Within a day's walk of me, I know at once where a person lies recently dead, and how long since, and whether the body has been found or tended. I know what, never why and never who did it."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### Return by the Ford
+Status: main
+Description: When its body is destroyed, the god gathers again from silt and water at the running water nearest where the body was destroyed: a ford, a landing or a bank. It takes a season.
+Drawback: One item of memory or habit, by logged roll from its own record, not told to the god.
+Limits settled at creation:
+  - The standing return scale, first rung: a season, one item. The month at two items was offered and declined.
+  - The nearest running water, however far.
+  - A body held, bound, walled up or shut in a tomb is held, not broken.
+  - Not applicable: light and dark, falling, carrying, being watched, minds.
+  - Intent, the god's first wording: "If my body is destroyed, I gather again at the nearest running water, a ford, landing or bank, from silt and water, after a season."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+## Hidden powers
+Two hidden powers exist. Discovered powers are added above as they surface.
+
+## Weaknesses taken
+None. The offer that a weakness can buy an improvement elsewhere was made once and the god offered none.
+
+### Keeper trait
+One thing more is so of you, and you have known it since you landed. It is not a power and has no price.
+Keeper trait: Its face is forgotten by all who see it, except by those who have told it a confidence it sealed: they remember it exactly, for life. Reach: memory of its face only; it adds nothing to Sealed Telling, changes nothing in what Unlatching does to the face, and touches no other power or price on the card.
+
+### Confirm
+Confirm that this is what you meant, or say what is wrong with it. This round is for checking the Keeper's copy: a wording that is wrong is fixed; a new ask of substance is noted and the text above stands.
+
+Write your reply as `## Round 2 reply` at the end of
+SPOILERS_do_not_open/campaigns/sim-04/gods/god-secrets/negotiation-night2.md,
+and to no other file. Never use em dashes or en dashes. Then stop.

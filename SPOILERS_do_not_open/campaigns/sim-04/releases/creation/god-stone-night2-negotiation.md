@@ -66,3 +66,103 @@ Accept, refuse or counter each item, and give your reasons. Where a choice is sh
 Write your reply as `## Round 1 reply` at the end of
 SPOILERS_do_not_open/campaigns/sim-04/gods/god-stone/negotiation-night2.md
 (make the file if it is not there), and to no other file but the section added to your self.md as said at the head of this file. Never use em dashes or en dashes. Then stop.
+
+
+## Round 2
+
+This is the Keeper's answer to your round 1 reply, and the final text. It is copied from round 1 and changed only where your reply changed it.
+
+### Your reasons, answered
+- Reading the Stone: accepted by you as drafted; the reach is written at a mile and three hours, as your trade bought.
+- Warding the Threshold: (b) written, with three wards. You carry the lean by your own choice, and I do not press you to shrink it; a card a little above the rest is allowed. Know what you chose: with three wards standing you cannot leave the valley or the mountain you stand in, and that is applied as written.
+- Shaping the Stone: accepted by you as drafted.
+- Gathering from the Stone: a season at one item, the gap yours to find.
+- Oath at the Threshold: (b) written. Your clarification is wording and is written: a cave, and any hollow cut in rock, counts as a roof and walls of stone.
+- Your Traits, given again: read against your sheet. They now rest on the leans as the sheet has them, and they stand.
+
+### Final text
+The powers below are in the form of your card. The Description and Drawback lines freeze when you confirm.
+
+### Reading the Stone
+Status: main
+Description: With its palm flat on rock or worked stone, the god perceives what has marked the faces of that stone, in the order it happened: what has passed over it, what was cut, burned, broken, cracked or carried, and how far each reaches across the connected stone about its hand, out to a mile. Effects, never causes: what happened and how far, never why and never who. A hand-span of time takes in what lies nearest; the whole reach takes three hours.
+Drawback: For as long as it read, and counted from when it lifts its hand, the god is stiff and slow: half its pace, and it cannot shape stone.
+Limits settled at creation:
+  - While it reads it is as still as the stone, cannot walk, speak or defend itself, and neither hears nor sees the open air; a condition of use, not the price.
+  - Rock, mortar and fired clay only: not living things, metal, wood, water or bone. Not through a gap of air.
+  - It gives the order of marks, never their age, and no count, speech, face or name.
+  - It reads faces of stone that something has touched: floors, walls, roads, the sides of a cut. What lies hollow beneath, it knows only as its soles and palms already tell it.
+  - Water wears marks away. It works in dark as in light.
+  - To a watcher it is a standing stone with a hand on a wall.
+  - Stone shaped by more than ordinary craft is unruled until met.
+  - Not applicable: falling, carrying, minds.
+  - Intent, the god's first wording: "With my palm flat on rock, or on worked stone, I perceive its recent and long history in the place: what has passed over or through it, what has been cut, burned, broken, cracked or carried, and how far those effects reach in the rock about me."
+Rulings: none yet.
+Trades: the reach of a mile in place of about 300 yards was bought by the weakness "Oath at the Threshold".
+Growth: Possible. Not shown.
+
+### Warding the Threshold
+Status: main
+Description: The god lays its hand on a pass, gate, door or narrow way cut in stone or standing in it, no wider than 50 paces, and declares it closed. No creature without the god's leave can pass it: the way turns them, and they come out where they went in. Anyone the god names may pass. A ward holds a season and may be renewed by the god's hand on the threshold. The god may lift a ward at will from anywhere. Three wards at most.
+Drawback: The weight. Each standing ward stiffens the god: with one, it walks at half its pace; with two, it cannot shape stone; with three, it cannot leave the valley or the mountain it stands in.
+Limits settled at creation:
+  - The god cannot pass its own warded threshold while the ward stands.
+  - The ward works on the way, not on minds: those turned know they were turned.
+  - It stops no arrow, voice, message or thing thrown or carried by water; it stops nothing that goes over, around or under by another way; it fails if the stone of the threshold is broken so far that the threshold is gone.
+  - It holds by night and day.
+  - It closes to the god's own people as to any, unless named. A named one may lead no one through.
+  - Against another god it is unruled until it happens.
+  - Not applicable: falling, light and dark.
+  - Intent, the god's first wording: "I may lay my hand upon a pass, gate, door or narrow way cut or standing in stone, and declare it closed. It will not let any creature pass who has not my leave".
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### Shaping the Stone
+Status: main
+Description: With both hands on rock, the god softens it and moves it as clay, fits it and lets it harden: standing stone drawn into a wall, a lintel, an arch, a stair or a cistern. In a day it does the work of twenty masons with their tools.
+Drawback: For each day it works, it is stiff and heavy the day after: half its pace, and it cannot shape. If it works more than seven days running it seizes, and cannot move for as many days as it worked.
+Limits settled at creation:
+  - Natural rock and stone already laid only: no metal, glass or fired clay.
+  - It conjures nothing: the design is the god's, and what stone cannot hold does not stand. Seams show to those who know stone.
+  - It is building work at a builder's pace: it does not throw down a wall or open a rock face faster than twenty masons could.
+  - It works in dark as in light.
+  - Stone shaped by more than ordinary craft is unruled until met.
+  - Its work for its own people is on the same terms.
+  - Not applicable: falling, water, minds, distance.
+  - Intent, the god's first wording: "With both hands upon rock, I may soften and move it as clay, and fit it, and let it harden. ... I work at about ten times the pace of a mortal crew of mason's hands, and no faster."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+### Gathering from the Stone
+Status: main
+Description: When its body is shattered or destroyed, the god gathers again, whole, from the stone at the foot of the great mountain nearest where it was destroyed. It takes a season.
+Drawback: One item of memory or habit, by logged roll from its own record, not told to the god.
+Limits settled at creation:
+  - The standing return scale, first rung: a season, one item. The month at two items was offered and declined.
+  - A great mountain is one that keeps snow on it into summer.
+  - A body walled in, buried or sunk is held, not broken; a body broken into rubble that still lies together is held until it is mended or scattered past gathering.
+  - Not applicable: light and dark, falling, carrying, being watched, minds.
+  - Intent, the god's first wording: "If my body is broken, scattered or destroyed, I gather again from the stone of the nearest great mountain, at the foot of it, whole and unmarked."
+Rulings: none yet.
+Trades: none.
+Growth: Possible. Not shown.
+
+## Hidden powers
+Two hidden powers exist. Discovered powers are added above as they surface.
+
+## Weaknesses taken
+**Oath at the Threshold.** A bargain, oath or guest-right the god speaks aloud, with stated intent to bind, anywhere under a roof of stone or between walls of stone, built or cut, or in any pass, binds it in body: it cannot act against it while it stands, whatever it would lose. A cave, and any hollow cut in rock, is a roof of stone and walls of stone. Anyone who learns of it can ask the god's word where it must bind. It ends when the other party releases the god, when the term runs out, or when the bargain is fulfilled.
+What it bought: Reading the Stone reaches a mile across connected stone, the whole of it taking three hours.
+
+### Keeper trait
+One thing more is so of you, and you have known it since you landed. It is not a power and has no price.
+Keeper trait: When anyone calls it servant, or bids it as one bids a servant, its rear face turns to look at the speaker, whatever the front face is doing. Reach: a look and nothing more; it compels no act and no word, binds nothing under the Oath at the Threshold, and touches no power or price on the card.
+
+### Confirm
+Confirm that this is what you meant, or say what is wrong with it. This round is for checking the Keeper's copy: a wording that is wrong is fixed; a new ask of substance is noted and the text above stands.
+
+Write your reply as `## Round 2 reply` at the end of
+SPOILERS_do_not_open/campaigns/sim-04/gods/god-stone/negotiation-night2.md,
+and to no other file. Never use em dashes or en dashes. Then stop.
