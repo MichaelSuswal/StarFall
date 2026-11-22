@@ -49,3 +49,37 @@ Each line names the run 03 change list items it applies.
 - creation-nights.md: the public lock line in three states (78); images.md carries the play approvals the design sets, year morning painting and player-asked paintings (found by agent T: paint.py now requires coverage).
 - creation runbook: the self template's broken-body section points to the return power (32); the DM's examples are a menu (33); the Night 3 release gives the sheet's planned scale in one line (59).
 - Not done, for the build check: the gazetteer still prints names of seen regions whose names were never heard (81, tool side); tests/tools/README.md has no build 4 notes.
+
+## Fixes from the build check
+
+Each line names the build-check.md item it fixes. Michael's decisions on the three held items (must-fix 4, should-fix 7, should-fix 11) were relayed to this session by the orchestrator on 2026-11-21 and are logged as his.
+
+### Must-fix
+
+1. `engine/rules/map.md` 1.2: the knowledge file learns names only through `told` and `"named": true`, as 4.2 says; seen ground with no heard name is shown by its id and terrain. `tools/map.py`: the gazetteer (`known_region`), describe and travel (`Namer`) print a seen region's name only when it carries `"named": true` (or a told name); otherwise its id and terrain ("r05, a hill country").
+2. `tools/paint.py`: `<campaign>-NNN-request-K` ids match the line `player-asked painting: approved, up to two a day`; `<campaign>-NNN-morning` (NNN above 1) matches `year morning painting: approved, one per played year`; the counts are enforced (should-fix 10).
+3. `creation-runbook.md` template 7.8: a `Cost check:` field under Cost if ignored, each cost checked against every god's agreed weaknesses and the ledger rulings it touches, by id, with the rule that the cost is rewritten, never the ruling, and that the checker reads it at the lock.
+4. Michael, 2026-11-21: luck is a hidden mechanic, never stated; stated odds leave it out. Every description of it moved out of the public engine (DESIGN 12.6a removed; DESIGN 12.6, powers.md, keeper.md, checker.md, night-turn.md, creation-nights.md, CHANGELIST.md) into the new sealed `SPOILERS_do_not_open/keeper/sealed-factors.md` (the full rules, the secrecy rule, the checker's check); the public files say only, where a roll is made, that the Keeper applies the sealed factors after the stated odds. The runbook standing rule and rubric 14 point to the sealed file. dm.md, npc-god.md and civ.md held no mention.
+
+### Should-fix
+
+1. Runbook section 4: a Writes line for the checker (`S/years/000/lock-flags.md` and script output, `S/leak-allow.txt`, `P/years/000/lock.md`, `S/LOCKED.md`).
+2. Runbook section 4: the checker runs `tools/lockcheck.py <name> --all`; the scripts paragraph names `--rolls` and `--dashes`.
+3. `engine/roles/keeper.md`: the two commit forms the runbook gives.
+4. Runbook template 7.7: the sheet's planned scale line.
+5. Runbook 3b.8 `P/world/world.md`: the landing by grid cell only, never a region centroid cell.
+6. Runbook 2.1: the DM states six of the seven facts on Day 2; the technology fact the Keeper states itself in every release.
+7. Michael, 2026-11-21: odds with luck stay capped at 5 to 95; in a contest between two gods the luck nets out and only the difference counts. In `sealed-factors.md`, the runbook standing rule and rubric 14.
+8. `dm.md`, DESIGN 10.7: one confirmation of an unsaid want holds for three played years, not for one act; with none or an older one, the DM confirms again before acting. Agrees with keeper.md, the runbook and checker.md 5.
+9. `tools/map.py`: `aliases` schema checked by validate (a list of entries with name, by, since, optional known); the gazetteer prints the god's own (`by` "player") and known aliases; stamp stamps alias names with the place's id. `tools/lockcheck.py --places` knows alias names. map.md 1.2 already describes the field.
+10. `tools/paint.py`: see must-fix 2; a painting already made counts toward its year.
+11. Michael, 2026-11-21: narrowest means the overall shape, as the tool measures it; a thin neck of land does not fail the 600-mile rule. Written into map.md 1.2, DESIGN 11.1a and the `continent_measure` docstring; the tool is unchanged. The off-sheet land note was not changed (no decision on it).
+12. Runbook lock checklist: "Gods spaced evenly" carries checker.md 9's range.
+13. map.md 1.2 and DESIGN 11.1d: neighbor days are a rough guide for the Keeper only; every trip comes from `tools/map.py travel`. The gazetteer's days between seen neighbors are now priced by open-ground travel, middle to middle, not the hand-set days.
+14. `engine/roles/checker.md` 9: every travel time checked against `tools/map.py travel` for the route and means its line names.
+15. `engine/creation/day2-the-god.md`: the provisional-pricing paragraph indented under item 7.
+16. `tests/tools/README.md`: build 4 notes for travel, continent, `--if-changed`, `--named`, aliases, paint coverage and the new lockcheck checks.
+
+### Tests
+
+`tests/tools/test_tools.py`: unnamed seen regions in the gazetteer, describe and travel; gazetteer neighbor travel priced, not hand days; aliases (schema, gazetteer, stamp, `--places`); paint play lines and counts. Two older tests mark the landing region `"named": true` where they expect its name. Suite: 42 passed, 0 failed (pytest and run.py). `python3 tools/lockcheck.py sim-03 --all`: exit 1, the same single places failure as the build check (continent average about 1,845 miles; sim-03 is locked and not changed), 13 warnings; leaks, mysteries, rolls, dashes 0.

@@ -403,12 +403,56 @@ def known_region(r, entry, painting=None):
     k = {"id": r["id"], "grade": g, "source": entry.get("source", ""), "year": entry.get("year", ""),
          "name": told.get("name", r["name"]), "terrain": told.get("terrain", r.get("terrain", "")),
          "named": region_name_known(entry)}
+    if not k["named"] and g != "none":
+        k["name"] = unnamed_region_label(r)   # seen, no name heard: its id and terrain (map.md 1.2, 4.2)
     if g == "rumored":
         k["polygon"] = None
         k["near"] = rumor_near(told, r, painting)
     else:
         k["polygon"] = told.get("polygon", r["polygon"])
     return k
+
+
+def unnamed_region_label(r):
+    """How a region the god has seen but whose name it never heard is shown in the gazetteer, describe
+    and travel: its opaque id and its terrain word ("r05, a hill country"), never its name."""
+    w = terrain_word(r)
+    return f"{r['id']}, the sea" if w == "sea" else f"{r['id']}, {'an' if w[0] in 'aeiou' else 'a'} {w} country"
+
+
+def alias_problems(el):
+    """Problems in an element's `aliases` (map.md 1.2): a list of entries, each with a non-empty `name`,
+    `by` (who uses it: "player", a god's folder label, a people) and `since` (a year or a date), and
+    optionally `known` (true when the player's god has heard it)."""
+    if "aliases" not in el:
+        return []
+    al, i, probs = el["aliases"], el.get("id", "?"), []
+    if not isinstance(al, list):
+        return [f"{i}: aliases must be a list"]
+    for n, a in enumerate(al, 1):
+        if not isinstance(a, dict):
+            probs.append(f"{i}: alias {n} is not an entry with name, by and since")
+            continue
+        if not isinstance(a.get("name"), str) or not a["name"].strip():
+            probs.append(f"{i}: alias {n} has no name")
+        elif a["name"].strip() == (el.get("name") or "").strip():
+            probs.append(f"{i}: alias {n} is the map name itself")
+        if not isinstance(a.get("by"), str) or not a["by"].strip():
+            probs.append(f"{i}: alias {n} has no by (who uses it)")
+        if not isinstance(a.get("since"), (str, int)) or isinstance(a.get("since"), bool) or a.get("since") == "":
+            probs.append(f"{i}: alias {n} has no since (a year or a date)")
+        if "known" in a and not isinstance(a["known"], bool):
+            probs.append(f"{i}: alias {n}: known must be true or false")
+        extra = set(a) - {"name", "by", "since", "known", "notes"}
+        if extra:
+            probs.append(f"{i}: alias {n} has unknown fields {', '.join(sorted(extra))}")
+    return probs
+
+
+def known_aliases(el):
+    """The aliases the player's god has: its own (`by` "player") and any marked `"known": true`."""
+    return [a["name"] for a in el.get("aliases") or [] if isinstance(a, dict) and isinstance(a.get("name"), str)
+            and (a.get("by") == "player" or a.get("known") is True)]
 
 
 def region_name_known(entry):
@@ -520,6 +564,7 @@ def check_world(world):
         seen_ids[i] = el
         if not OPAQUE_RE.match(i):
             probs.append(f"id {i} is not opaque (use r01, f03, u01)")
+        probs += alias_problems(el)
     for r, _layer in all_regions(world):
         region_ids.add(r["id"])
         if len(r.get("polygon", [])) < 3:
@@ -667,7 +712,9 @@ def continent_measure(world):
     not sea or lake; the continent is the largest body of land regions that touch one another (islands
     apart from it are left out). Its width in a direction is the distance between two parallel lines
     that just hold it (a caliper laid across the whole land), taken every degree: `narrowest` is the
-    least of these, `average` their mean. Returns a dict, or None when there is no land."""
+    least of these, `average` their mean. This is the reading Michael gave on 2026-11-21: narrowest means
+    the overall shape, so a thin neck of land or a deep bay does not lower it and does not fail the
+    600-mile rule. Returns a dict, or None when there is no land."""
     painting = Painting(world)
     land = [r for r in world.get("regions", []) if terrain_word(r) not in WATER_TERRAIN and len(r.get("polygon", [])) >= 3]
     if not land:
@@ -1585,25 +1632,33 @@ def gazetteer(world, knowledge, out_dir, log_path):
     layer_by_id = {l["id"]: l for l in world.get("layers", [])}
     feats = [(k, layer_by_id.get(lid) if lid else None) for k, lid in features_k.values()]
     reg_name = {k["id"]: k["name"] for k in regions}
+    truth_by_id = index_world(world)
 
     def hist_line(i):
         return ("; history: " + "; ".join(hist[i])) if i in hist else ""
+
+    def alias_line(i):
+        """The other names the god has for a place (92): its own, and any it has heard."""
+        el = truth_by_id.get(i, (None, {}, None))[1]
+        names = known_aliases(el)
+        return (", also called " + ", ".join(names)) if names else ""
 
     lines.append("## Regions")
     lines.append("")
     for g in ("seen", "reported", "rumored"):
         for k in sorted((r for r in regions if r["grade"] == g), key=lambda r: r["name"]):
             if g == "rumored":
-                lines.append(f"- **{k['name']}**, rumored, somewhere near {fmt_pt(k['near'], painting)} by the telling of {k['source']}, year {k['year']}{hist_line(k['id'])}.")
+                lines.append(f"- **{k['name']}**{alias_line(k['id'])}, rumored, somewhere near {fmt_pt(k['near'], painting)} by the telling of {k['source']}, year {k['year']}{hist_line(k['id'])}.")
             else:
                 c = centroid(k["polygon"])
                 across = f", about {mi(extent_across(k['polygon'])):.0f} miles across" if g == "seen" else ""
-                lines.append(f"- **{k['name']}** ({painting.cell_of(c)}), {k['terrain']}{across}, {g}, source: {k['source']}, year {k['year']}{hist_line(k['id'])}.")
+                lines.append(f"- **{k['name']}** ({painting.cell_of(c)}){alias_line(k['id'])}, {k['terrain']}{across}, {g}, source: {k['source']}, year {k['year']}{hist_line(k['id'])}.")
     lines.append("")
 
     lines.append("## Travel between known regions")
     lines.append("")
-    lines.append("Days on foot between neighboring regions the god has seen, at the pace table's rate. Where one of the two is only reported, "
+    lines.append("Days on foot between neighboring regions the god has seen, middle to middle over open ground, priced by `tools/map.py travel` "
+                 "at the pace table's rates by the ground crossed (map.md 5.1); a road or river may be quicker. Where one of the two is only reported, "
                  "the figure is what was told: the miles between the two as the god believes them, and no days, since no one has walked it for the god.")
     lines.append("")
     pairs, done = [], set()
@@ -1616,14 +1671,18 @@ def gazetteer(world, knowledge, out_dir, log_path):
             if not other or other["grade"] == "rumored" or frozenset((rid, nid)) in done:
                 continue
             done.add(frozenset((rid, nid)))
-            days = n.get("days") if isinstance(n, dict) else None
             grade = "seen" if k["grade"] == "seen" and other["grade"] == "seen" else "reported"
+            days = None
+            if grade == "seen":   # priced over open ground, never the hand-set neighbor days (93)
+                a_pt = tuple(centroid(region_truth[rid]["polygon"]))
+                b_pt = tuple(centroid(region_truth[nid]["polygon"]))
+                days = price_trip(world, plan_trip(world, a_pt, b_pt, [], painting), "foot", pace_rates())["days"]
             pairs.append((rid, nid, days, grade))
     if not pairs:
         lines.append("No two known regions border each other.")
     for a, b, days, grade in sorted(pairs, key=lambda t: (regions_k[t[0]]["name"], regions_k[t[1]]["name"])):
         if grade == "seen":
-            d = f"{days:g} days" if isinstance(days, (int, float)) else "days unknown"
+            d = f"{fmt_days(days)} on foot over open ground" if isinstance(days, (int, float)) else "no passage on foot"
         else:
             d = told_span(regions_k[a], regions_k[b], knowledge, painting)
         lines.append(f"- **{regions_k[a]['name']}** to **{regions_k[b]['name']}**: {d} ({grade}).")
@@ -1644,7 +1703,7 @@ def gazetteer(world, knowledge, out_dir, log_path):
             else:
                 x0, y0, x1, y1 = bbox(k["coords"])
                 where = f"about {mi(x1 - x0):.0f} by {mi(y1 - y0):.0f} miles, centered {fmt_pt(centroid(k['coords']), painting)}"
-            lines.append(f"- **{k['name']}** ({k['type']}), {where}{', in ' + regs if regs else ''}, {k['grade']}, source: {k['source']}, year {k['year']}{hist_line(k['id'])}.")
+            lines.append(f"- **{k['name']}** ({k['type']}){alias_line(k['id'])}, {where}{', in ' + regs if regs else ''}, {k['grade']}, source: {k['source']}, year {k['year']}{hist_line(k['id'])}.")
         lines.append("")
 
     surface = [(k, l) for k, l in feats if l is None]
@@ -1881,10 +1940,12 @@ def stamp_names(world):
         if is_placeholder(nm):
             holders.setdefault(name_core(nm).lower(), set()).add(el["id"])
             continue
-        variants = {nm}
-        m = re.match(r"^(The|the|A|An)\s+(.+)$", nm)
-        if m:
-            variants.add(m.group(2))
+        variants = set()
+        for a in [nm] + [x["name"].strip() for x in el.get("aliases") or [] if isinstance(x, dict) and isinstance(x.get("name"), str)]:
+            variants.add(a)   # an alias is stamped with the place's id like its map name (92)
+            m = re.match(r"^(The|the|A|An)\s+(.+)$", a)
+            if m:
+                variants.add(m.group(2))
         for v in variants:
             if len(v) >= 4 and v[0].isupper():
                 names.setdefault(v, set()).add(el["id"])
@@ -2407,9 +2468,16 @@ class Namer:
         told = (e.get("told") or {}) if g != "seen" else {}
         if told.get("name"):
             return told["name"]
+        if kind == "region" and not region_name_known(e):
+            return None   # seen with no name heard (map.md 1.2, 4.2): shown by id and terrain
         if g in ("seen", "reported"):
             return self.by_id[ident][1].get("name")
         return None
+
+    def graded(self, ident):
+        kind = self.by_id.get(ident, (None,))[0]
+        table = "regions" if kind == "region" else "features"
+        return grade_of(self.k.get(table, {}).get(ident)) != "none"
 
     def generic(self, ident):
         kind, el, _ = self.by_id[ident]
@@ -2422,7 +2490,13 @@ class Namer:
     def name(self, ident):
         if self.all:
             return self.by_id[ident][1].get("name") or self.generic(ident)
-        return self.learned(ident) or self.generic(ident)
+        known = self.learned(ident)
+        if known:
+            return known
+        kind, el, _l = self.by_id[ident]
+        if kind == "region" and self.graded(ident):
+            return unnamed_region_label(el)
+        return self.generic(ident)
 
     def scrub(self, text):
         """Free text from the sealed map with every name the god has not learned put plainly."""

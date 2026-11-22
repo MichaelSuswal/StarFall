@@ -244,6 +244,7 @@ def test_draw_and_gazetteer():
         make_paintings(paint)
         k = json.load(open(know_p))
         k["features"]["u01"] = {"grade": "seen", "source": "walked", "year": 1}
+        k["regions"]["r01"]["named"] = True
         json.dump(k, open(know_p, "w"))
         code, o, err = run_quiet(mapt.main, ["draw", "fx", "--world", world_p, "--knowledge", know_p, "--paintings", paint,
                                              "--out", out, "--zoom", "known"])
@@ -604,7 +605,7 @@ def test_describe_and_sight():
     assert mapt.parse_elevation({"elevation": "hill, to 4,000 feet"})[1] == 4000
     assert mapt.parse_elevation({"elevation": "low"})[2] is False
     land = w["landings"]["player"]
-    k = {"regions": {"r01": {"grade": "seen", "source": "landing", "year": 1}},
+    k = {"regions": {"r01": {"grade": "seen", "source": "landing", "year": 1, "named": True}},
          "features": {"f02": {"grade": "reported", "source": "own sight", "year": 1, "told": {"name": "the quick water"}}}}
     t = mapt.describe(w, "r01", mapt.landing_point(land), k, reference=False)
     # names: seen and told names only; every other name put plainly, in free text too
@@ -1104,3 +1105,119 @@ def test_path_type():
     _, data = mapt.travel(w, "f01", "f02", "foot", ("f05",), mapt.Namer(w, None, True))
     assert [s["ground"] for s in data["segments"]] == ["rough"] and abs(data["days"] - 160 / 14) < 0.01
     assert mapt.pace_rates()["route"] == {"road": "road", "path": "rough"}
+
+
+# ---------------------------------------------------------------- build 4 fixes (build-check.md)
+
+def test_seen_region_unnamed_shows_id_and_terrain():
+    """Must-fix 1: a seen region's name is printed only with "named": true; otherwise its id and terrain."""
+    with tmpcopy() as repo:
+        world_p, know_p = fx_paths(repo)
+        world = json.load(open(world_p))
+        out = os.path.join(repo, "out")
+        k = json.load(open(know_p))
+        assert "named" not in k["regions"]["r01"]
+        run_quiet(mapt.main, ["gazetteer", "fx", "--world", world_p, "--knowledge", know_p, "--out", out])
+        g = open(os.path.join(out, "gazetteer.md")).read()
+        assert "Wend Downs" not in g and "**r01, a hill country** (" in g and ", in r01, a hill country," in g
+        t = mapt.describe(world, "r01", mapt.landing_point(world["landings"]["player"]), k, reference=False)
+        assert "Wend Downs" not in t and "r01, a hill country" in t
+        text, data = mapt.travel(world, "f01", "f04", "foot", ("f03",), mapt.Namer(world, k))
+        assert "Wend Downs" not in text and "Saltmarsh" not in text
+        # a told name is the god's (r02 reported as the Reach); a region never graded stays plain, with no id
+        nm = mapt.Namer(world, k)
+        assert nm.name("r02") == "the Reach" and nm.name("r03") == "a highland country"
+        # once the name is heard, it is printed
+        assert reveal(repo, "--region", "r01", "--grade", "seen", "--source", "a shepherd", "--year", "1", "--named")[0] == 0
+        run_quiet(mapt.main, ["gazetteer", "fx", "--world", world_p, "--knowledge", know_p, "--out", out])
+        g = open(os.path.join(out, "gazetteer.md")).read()
+        assert "**The Wend Downs** (" in g and "r01, a hill country" not in g
+        assert mapt.Namer(world, json.load(open(know_p))).name("r01") == "The Wend Downs"
+
+
+def test_gazetteer_region_travel_priced_not_hand_days():
+    """Should-fix 13: days between seen neighbors come from travel over open ground, not the hand-set days."""
+    with tmpcopy() as repo:
+        world_p, know_p = fx_paths(repo)
+        world = json.load(open(world_p))
+        k = json.load(open(know_p))
+        k["regions"]["r03"] = {"grade": "seen", "source": "walked", "year": 2}
+        json.dump(k, open(know_p, "w"))
+        out = os.path.join(repo, "out")
+        run_quiet(mapt.main, ["gazetteer", "fx", "--world", world_p, "--knowledge", know_p, "--out", out])
+        g = open(os.path.join(out, "gazetteer.md")).read()
+        a = tuple(mapt.centroid(world["regions"][0]["polygon"]))
+        b = tuple(mapt.centroid(world["regions"][2]["polygon"]))
+        days = mapt.price_trip(world, mapt.plan_trip(world, a, b, [], mapt.Painting(world)), "foot")["days"]
+        assert f"{mapt.fmt_days(days)} on foot over open ground (seen)" in g and ": 8 days" not in g
+
+
+def test_aliases_schema_stamp_gazetteer_places():
+    """Should-fix 9: aliases are checked by validate, printed by the gazetteer when the god has them,
+    stamped with the place's id, and known to lockcheck --places."""
+    with tmpcopy() as repo:
+        world_p, know_p = fx_paths(repo)
+        world = json.load(open(world_p))
+        assert mapt.check_world(world) == []
+        bad = json.loads(json.dumps(world))
+        bad["features"][0]["aliases"] = "Tallowmouth"
+        assert "f01: aliases must be a list" in mapt.check_world(bad)
+        bad["features"][0]["aliases"] = [{"name": "Tallowmouth"}, "x", {"name": "Tallowford", "by": "player", "since": 2}]
+        probs = mapt.check_world(bad)
+        assert "f01: alias 1 has no by (who uses it)" in probs and "f01: alias 1 has no since (a year or a date)" in probs
+        assert "f01: alias 2 is not an entry with name, by and since" in probs and "f01: alias 3 is the map name itself" in probs
+        world["features"][0]["aliases"] = [{"name": "Tallowmouth", "by": "player", "since": 2},
+                                           {"name": "Greyford", "by": "god-tide", "since": 1}]
+        assert mapt.check_world(world) == []
+        json.dump(world, open(world_p, "w"))
+        out = os.path.join(repo, "out")
+        run_quiet(mapt.main, ["gazetteer", "fx", "--world", world_p, "--knowledge", know_p, "--out", out])
+        g = open(os.path.join(out, "gazetteer.md")).read()
+        assert "**Tallowford** (town), also called Tallowmouth," in g and "Greyford" not in g
+        names = mapt.stamp_names(world)
+        assert names["Tallowmouth"] == ["f01"] and names["Greyford"] == ["f01"]
+        S = os.path.dirname(world_p)
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/alias-notes.md", "They call it Tallowmouth now.\n")
+        code, o, err = lock(repo, "--places")
+        assert 'map name "Tallowmouth" written 1 time(s) with no id' in o + err
+        mapt.stamp("fx", S, world)
+        assert "Tallowmouth [f01]" in open(os.path.join(S, "alias-notes.md")).read()
+        code, o, err = lock(repo, "--places")
+        assert "Tallowmouth" not in o + err
+
+
+def test_paint_player_asked_and_counts():
+    """Must-fix 2 and should-fix 10: the play lines creation-nights.md prescribes cover the real ids,
+    one year morning per played year and up to two player-asked paintings a day."""
+    import paint
+    d = tempfile.mkdtemp()
+    try:
+        ids = ["zz-001-morning", "zz-002-morning", "zz-002-request-1", "zz-002-request-2", "zz-002-request-3",
+               "zz-003-request-1"]
+        for rid in ids:
+            path = os.path.join(d, "images", "requests", rid + ".json")
+            os.makedirs(os.path.dirname(path), exist_ok=True)
+            json.dump({"id": rid, "prompt": "x"}, open(path, "w"))
+        os.makedirs(os.path.join(d, "campaigns", "zz", "state"))
+        with open(os.path.join(d, "campaigns", "zz", "state", "images.md"), "w") as f:
+            f.write("# Images approved (zz)\n\n- first morning painting: approved\n"
+                    "- year morning painting: approved, one per played year\n"
+                    "- player-asked painting: approved, up to two a day\n")
+        skipped = []
+        todo = sorted(r["id"] for _p, r, _t in paint.pending(d, skipped))
+        assert todo == ["zz-001-morning", "zz-002-morning", "zz-002-request-1", "zz-002-request-2", "zz-003-request-1"]
+        why = {os.path.basename(p): w for p, w in skipped}
+        assert list(why) == ["zz-002-request-3.json"] and "over the count" in why["zz-002-request-3.json"]
+        # a painting already made counts toward its day
+        os.makedirs(os.path.join(d, "images", "out"))
+        open(os.path.join(d, "images", "out", "zz-003-request-0.png"), "wb").close()
+        open(os.path.join(d, "images", "out", "zz-003-request-00.png"), "wb").close()
+        assert not paint.covered({"id": "zz-003-request-1"}, d)[0]
+        # without the play lines, a player-asked painting is not covered
+        with open(os.path.join(d, "campaigns", "zz", "state", "images.md"), "w") as f:
+            f.write("- first morning painting: approved\n")
+        assert not paint.covered({"id": "zz-002-request-1"}, d)[0] and not paint.covered({"id": "zz-002-morning"}, d)[0]
+        assert paint.line_limit("approved, one per played year") == 1 and paint.line_limit("approved, up to two a day") == 2
+        assert paint.line_limit("approved") is None
+    finally:
+        shutil.rmtree(d)

@@ -78,7 +78,7 @@ Set by the world. Not shown.
 - A people's edge agreed on Day 3 that is a power of the god's gets its own block under Powers, marked "added Day 3"; a Day 3 answer that narrows a Day 2 definition or weakness is a dated entry.
 - A weakness is priced by what it costs the god that it does not already pay. A drawback that restates the god's form or voice is refused. One weakness buys one step: one improvement elsewhere, or one notch up on one power.
 - A drawback the player or a god offers is priced like any drawback. A condition that only defines the power (it works only while the god listens) is a Limit, not a price; so is a condition of use (helpless while listening) and a penalty only carelessness triggers (lose it if you break your word). Neither buys anything.
-- A heavier price taken willingly, beyond what a power needed, buys nothing on the card; it is counted toward the god's hidden luck (DESIGN 12.6a), never said to the god.
+- A heavier price taken willingly, beyond what a power needed, is written as asked and buys nothing on the card.
 - An edge a helper or other mortal performs that changes what the god can do is a power of the god's, priced on the god, with any cost the mortal bears marked for the Keeper's Night 3 fitting. A power that sleeps until a mortal learns or does something carries that dormant condition as a Limit.
 - An ask that describes no act only a god can do is offered both ways, as an ordinary act at no price or as a real power inside the card's limits, and the god chooses.
 - Hidden powers are discovered through play (3.9). They are not on any card, the player's or an NPC's, until they surface. The Keeper keeps them in the sealed god folder (`S/player/hidden-powers.md`, `S/gods-sealed/<god>/hidden-powers.md`), each with the kind of trigger that would surface it. When one surfaces, the Keeper releases it to the DM, who adds it to the card the same day with the scene it surfaced in.
@@ -183,7 +183,6 @@ Rules:
 - The player may abandon an attempt at any time, by saying so. The block stays, marked abandoned. If the player returns to it later, the old practice counts.
 - When all five needs are met, the Keeper tells the DM only that the god may now attempt the thing in full. The player plays the final attempt as a scene. It is rolled. Success adds the power or upgrade to the card as a dated entry, with its drawback. Failure costs what was staked and adds one more failure line; the player may try again the next year.
 - The growth file is created empty on Night 3b and holds one section per power block on the card, whatever its status (main, hidden, added Day 3, added Night 3); attempts are opened under the power they belong to.
-- When a tier lands in a god power, the god's luck moves one step toward 0 (DESIGN 12.6a). Craft and technology never move it.
 - The ceiling check is made by the Keeper against `S/star.md`. "The ceiling holds" is all that is ever said.
 - An NPC god's attempts are tracked in exactly the same block in its sealed growth file. Its civ agent's report and the year's resolution fill the practice lines; the god's agent learns only what its release says it felt.
 

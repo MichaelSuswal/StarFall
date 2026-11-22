@@ -36,6 +36,28 @@ exemption), case-sensitive mystery titles, the `Answers questions: yes|no` field
 skipping of `lock-flags*.md` in every mode; and in paint.py that held requests are never painted.
 The fixture carries `S/sealed-terms.txt` and an `Answers questions:` line on every mystery.
 
+Build 4 adds: `map.py travel` (a trip priced segment by segment by route and means, `--by
+foot|horse|wagon|boat`, `--via` routes, the half-mile rule, a line refused as a place, the `path`
+type at the rough-ground row, rates read from `engine/rules/time-and-pace.md`); the continent
+measure in `validate` (narrowest and average caliper widths of the traced land, failing outside
+600 and 800 to 1,200; a thin neck does not lower narrowest, the overall shape being the reading);
+`draw --if-changed` (the inputs hash in `map-meta.json`; an unchanged map is kept); `reveal
+--named` and region labels (a seen region is labeled, and named in the gazetteer, describe and
+travel, only with `"named": true` or a told name; otherwise it is shown by its id and terrain);
+the gazetteer's travel between seen regions priced by open-ground travel, never the hand-set
+neighbor days, and its travel by route; `aliases` (the schema in `validate`, the god's own and
+known aliases in the gazetteer, alias names stamped and known to `--places`); the `site` type,
+placeholder labels and common-word warnings; and in paint.py that a request is painted only when
+its campaign's `state/images.md` covers it, the play lines (`year morning painting: approved, one
+per played year`, `player-asked painting: approved, up to two a day`) covering the real
+`<campaign>-NNN-morning` and `<campaign>-NNN-request-K` ids, with the count per year enforced (a
+painting already made counts). In lockcheck: number words before a unit or count noun pass,
+`leak-allow.txt` read as the checker writes it, a name inside a longer map name not warned on,
+mystery Limits compared word for word with `S/cast.md`, lower-case map names and placeholder
+labels with no id warned, every image request for the campaign scanned for leaks and dashes, and
+`--places` failing a continent outside the size rule. The fixture has `cast.md` and 1 mile a
+pixel so the clean fixture passes the new checks.
+
 `lockcheck-sim-01.txt` records what lockcheck found on sim-01, as counts only.
 
 ## Migration from the sim-01 and dryrun formats

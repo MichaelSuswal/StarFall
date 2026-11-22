@@ -238,10 +238,10 @@ def check_places(c, rep):
     exempt = c.god_labels() | c.folder_names() | {"player"} | BRACKET_SKIP
     names = {}
     for kind, el in c.elements():
-        if mapt.is_placeholder(el.get("name", "")):
-            continue
-        for v in name_variants(el.get("name", "")):
-            names.setdefault(v, set()).add(el["id"])
+        alias_names = [a["name"].strip() for a in el.get("aliases") or [] if isinstance(a, dict) and isinstance(a.get("name"), str)]
+        for nm in ([] if mapt.is_placeholder(el.get("name", "")) else [el.get("name", "")]) + alias_names:
+            for v in name_variants(nm):   # an alias carries its place's id like the map name (92)
+                names.setdefault(v, set()).add(el["id"])
     name_res = {v: re.compile(r"(?<![\w'])" + re.escape(v) + r"(?![\w])") for v in names}
     # lower-case references (change list 74): a name of two or more words, a placeholder label, or a
     # one-word name that is not a common word, written in lower case

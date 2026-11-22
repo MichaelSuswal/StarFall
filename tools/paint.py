@@ -54,7 +54,57 @@ def kind_words(rest):
     m = re.fullmatch(r"(\d{3})-morning", rest)
     if m:
         return (["first morning"], []) if int(m.group(1)) == 1 else (["morning"], ["first"])
+    if re.fullmatch(r"\d{3}-request-\d+", rest):   # a painting the player asked for (house-style.md)
+        return ["player-asked", "on request", "requested"], []
     return [], []
+
+
+NUM_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6}
+COUNT_RE = re.compile(r"\b(?:up to |at most )?(\d+|one|two|three|four|five|six) (?:a|per|each) (?:played )?(day|year)\b")
+GROUP_RE = re.compile(r"(\d{3})-(morning|request-\d+)")
+
+
+def line_limit(value):
+    """The count an approval line sets ("one per played year", "up to two a day"), or None for none.
+    A played year is one day of play (DESIGN 14.7), so both count by the request id's NNN."""
+    m = COUNT_RE.search(value)
+    if not m:
+        return None
+    n = m.group(1)
+    return int(n) if n.isdigit() else NUM_WORDS[n]
+
+
+def group_of(rest):
+    """(NNN, kind) for a play request id less its campaign prefix: kind "morning" or "request"."""
+    m = GROUP_RE.fullmatch(rest)
+    if not m:
+        return None
+    return m.group(1), "morning" if m.group(2) == "morning" else "request"
+
+
+def known_ids(name, root=ROOT):
+    """Every image id for the campaign, from requests (held ones included, since a held request
+    still counts toward the day once it is moved in) and from paintings already made."""
+    ids = set()
+    for req_dir, out_dir in FOLDERS:
+        for path in glob.glob(os.path.join(root, req_dir, "*.json")):
+            if is_held(path, root):
+                continue
+            try:
+                ids.add(str(json.load(open(path)).get("id", "")))
+            except (json.JSONDecodeError, OSError):
+                continue
+        ids |= {os.path.basename(p)[:-4] for p in glob.glob(os.path.join(root, out_dir, "*.png"))}
+    return {i for i in ids if i.startswith(name + "-")}
+
+
+def within_count(name, rid, limit, root=ROOT):
+    """True when rid is among the first `limit` play requests of its kind for its year (by id order)."""
+    g = group_of(rid[len(name) + 1:])
+    if g is None or limit is None:
+        return True
+    same = sorted(i for i in known_ids(name, root) | {rid} if group_of(i[len(name) + 1:]) == g)
+    return same.index(rid) < limit
 
 
 def approval_lines(text):
@@ -79,6 +129,7 @@ def covered(req, root=ROOT):
     if not os.path.exists(path):
         return False, f"campaigns/{name}/state/images.md is missing"
     want, avoid = kind_words(rid[len(name) + 1:] if rid.startswith(name + "-") else rid)
+    over = None
     for label, value in approval_lines(open(path, encoding="utf-8").read()):
         if not re.match(r"approved\b", value):
             continue
@@ -87,7 +138,13 @@ def covered(req, root=ROOT):
         if "repaint" in label or not want:
             continue
         if any(w in label for w in want) and not any(w in label for w in avoid):
+            limit = line_limit(value)
+            if not within_count(name, rid, limit, root):
+                over = f"campaigns/{name}/state/images.md approves {limit} for that year ({label}: {value}); this one is over the count"
+                continue
             return True, f"{label}: {value}"
+    if over:
+        return False, over
     return False, f"campaigns/{name}/state/images.md does not approve it"
 
 

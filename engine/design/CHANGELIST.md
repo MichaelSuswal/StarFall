@@ -52,7 +52,7 @@ The findings are `tests/creation-sim/run-02/changes.md`. Reversed decisions:
 
 The findings are `tests/creation-sim/run-03/changes.md`; Michael's decisions are in `run-03/build-plan.md`. Reversed decisions:
 
-- ~~A heavier price that buys nothing is not taken.~~ It earns hidden luck: a sealed modifier per god, a recorded factor on its rolls and on the weight of chance events, moved back toward 0 only by growth in a god power. (Section 12.6a)
+- ~~A heavier price that buys nothing is not taken.~~ A heavier price taken willingly is written as asked and buys nothing on the card. (Section 12.6; the Keeper's sealed files)
 - ~~The technology line gives the world's starting level only.~~ The starting level is not a ceiling; a god may introduce what it knows, built in play from what the player knows or looks up. (Section 4.7)
 - ~~A name a god gives as a wish counts as given.~~ A place keeps its name; other names are aliases, and a name changes only when the place's people come to use it. (Section 3.11a)
 - ~~Travel over mixed ground priced by the ground the straight line crosses, or by a road's length.~~ Priced by route and means, segment by segment. (Section 10.1)
