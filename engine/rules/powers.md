@@ -14,8 +14,9 @@ Every god has one power card. The player's is `player/power-card.md`. Each NPC g
 ## Form
 <the body or bodies the god wears; how many bodies this campaign allows (3.13);
 what the form can and cannot do by itself; senses as described, with any left
-unsettled marked so; pace relative to the pace table (10.1); god-sense as set
-for this campaign (7.2); what happens when the body is broken or scattered>
+unsettled marked so; pace relative to the pace table (10.1), only if it was
+discussed; god-sense as set for this campaign (7.2); what happens when the body
+is broken or scattered, as a pointer to its return power, with no prose of its own>
 
 ### Definitions
 <terms several powers rely on (what counts as the god's mark, what makes a place
@@ -35,7 +36,8 @@ confirmed on Night 2, in one paragraph. This text is never rewritten. It is
 Drawback: <the cost that always comes with it (6.2). Also never rewritten. It is
 something the god would notice losing.>
 Limits settled at creation: <the main edge cases agreed on Day 2 (6.1), one line
-each; the player's first wording of the power, kept as intent; any ruling made
+each, with the standing cases that do not apply gathered in one line
+("Not applicable: ..."); the player's first wording of the power, kept as intent; any ruling made
 at the table, marked "settled at creation", with its ledger id once the Keeper
 has given one>
 Rulings:
@@ -67,13 +69,18 @@ Set by the world. Not shown.
 
 ### Rules for the card
 
-- Description and Drawback are written once and frozen. The frozen text is what was agreed and read back, not the first draft; the first wording is kept under Limits as intent (3.21). Everything learned later goes under Rulings as precedent (6.1).
+- Description and Drawback are written once and frozen. The frozen text is what was agreed and read back, recast in the third person without changing a term, not the first draft; the first wording is kept under Limits as intent (3.21). Everything learned later goes under Rulings as precedent (6.1).
 - Every power has a drawback. A power with no drawback is not finished and cannot be used until it has one (6.2).
 - A ruling is dated twice: the campaign year it arose in and the real date it was made. Both are kept because the player may later argue from either.
-- Each ruling points to its entry in the sealed ruling ledger (12.7). The card shows the ruling; the ledger holds the arguments. A ruling made at the creation table is written "settled at creation. Ledger: pending, Night N"; the Keeper enters it in the ledger that night and writes the id back. Ledger ids are `L-NNNN`.
-- A Form entry that carries a cost and a trigger (what happens when the body is broken, with a price and a return) is a power and is written as one, with Description and Drawback.
+- Each ruling points to its entry in the sealed ruling ledger (12.7). The card shows the ruling; the ledger holds the arguments. A ruling made at the creation table is written "settled at creation. Ledger: pending, Night N"; the Keeper enters it in the ledger that night and writes the id back. Ledger ids are `L-NNNN`. One matter, one id: two pending marks for two matters (a power's text and price, and the refusal that produced it) get two ids, and one matter marked in two places gets one id cited in both. A table ruling no one disputed is entered in one line: id, date, card, matter, `undisputed, settled at creation`.
+- A Form entry that carries a cost and a trigger (what happens when the body is broken, with a price and a return) is a power and is written as one, with Description and Drawback. The Form says only where the return power is. A return is priced on one standing scale, the same for every god: a season to return at the nearest ground of the god's kind costs one item of memory or habit; a month costs two; nothing is faster; the walk from that ground is added; a body held is not broken. The second rung is under review after run 03, where every god took the first; the Keeper logs which rung each god takes.
+- A memory-loss price is enacted the same way for every god: one item chosen by logged roll from the god's own record (an NPC's record of gods and goals; the player's chronicle canon and conduct lines, through the DM's release).
 - A people's edge agreed on Day 3 that is a power of the god's gets its own block under Powers, marked "added Day 3"; a Day 3 answer that narrows a Day 2 definition or weakness is a dated entry.
-- A weakness is priced by what it costs the god that it does not already pay. A drawback that restates the god's form or voice is refused.
+- A weakness is priced by what it costs the god that it does not already pay. A drawback that restates the god's form or voice is refused. One weakness buys one step: one improvement elsewhere, or one notch up on one power.
+- A drawback the player or a god offers is priced like any drawback. A condition that only defines the power (it works only while the god listens) is a Limit, not a price; so is a condition of use (helpless while listening) and a penalty only carelessness triggers (lose it if you break your word). Neither buys anything.
+- A heavier price taken willingly, beyond what a power needed, buys nothing on the card; it is counted toward the god's hidden luck (DESIGN 12.6a), never said to the god.
+- An edge a helper or other mortal performs that changes what the god can do is a power of the god's, priced on the god, with any cost the mortal bears marked for the Keeper's Night 3 fitting. A power that sleeps until a mortal learns or does something carries that dormant condition as a Limit.
+- An ask that describes no act only a god can do is offered both ways, as an ordinary act at no price or as a real power inside the card's limits, and the god chooses.
 - Hidden powers are discovered through play (3.9). They are not on any card, the player's or an NPC's, until they surface. The Keeper keeps them in the sealed god folder (`S/player/hidden-powers.md`, `S/gods-sealed/<god>/hidden-powers.md`), each with the kind of trigger that would surface it. When one surfaces, the Keeper releases it to the DM, who adds it to the card the same day with the scene it surfaced in.
 - The ceiling is never on a card. The Keeper keeps each world's ceiling in `S/star.md` and in each sealed god folder.
 - Growth is never on a card beyond the words "Possible. Not shown." until a tier lands (section 5).
@@ -175,6 +182,8 @@ Rules:
 - The player is told nothing of the count. What reaches the DM's release each year is only what the god would feel: an attempt that went better or worse than before, a cost paid, a sense of something near. The DM weaves it into the morning story as the god's own sensation and never names a count, a tier or a ceiling.
 - The player may abandon an attempt at any time, by saying so. The block stays, marked abandoned. If the player returns to it later, the old practice counts.
 - When all five needs are met, the Keeper tells the DM only that the god may now attempt the thing in full. The player plays the final attempt as a scene. It is rolled. Success adds the power or upgrade to the card as a dated entry, with its drawback. Failure costs what was staked and adds one more failure line; the player may try again the next year.
+- The growth file is created empty on Night 3b and holds one section per power block on the card, whatever its status (main, hidden, added Day 3, added Night 3); attempts are opened under the power they belong to.
+- When a tier lands in a god power, the god's luck moves one step toward 0 (DESIGN 12.6a). Craft and technology never move it.
 - The ceiling check is made by the Keeper against `S/star.md`. "The ceiling holds" is all that is ever said.
 - An NPC god's attempts are tracked in exactly the same block in its sealed growth file. Its civ agent's report and the year's resolution fill the practice lines; the god's agent learns only what its release says it felt.
 

@@ -32,6 +32,8 @@ It is written from what the god saw at the time it was written, and no more. If 
 
 Once written, the paragraph is not edited. Its words are the fixed point.
 
+The copy text is the only paintable part. Anything else the card needs to say (a line that cannot be painted, such as a sound or a smell, or a line that holds only in some situations) goes below it, each such line marked `Not painted:` or `When <situation>:`, and is never copied into a prompt except a `When` line whose situation is the scene's. A card that gives no face says so in a `Not painted:` line, and every painting of that subject uses the house style's back-view line.
+
 ### Changes
 
 Subjects change through events in the world: a wound, a greying, a rebuilt roof, a burned wing. A change is never written into the card text. It is appended under Changes as one dated line, with its cause, and from then on the DM copies the card text and every applicable change line into the prompt together. A change line is visual and brief: "Year 6: left hand burned to the wrist in the alder fire; the scar runs across the back of the hand." If the god learns that its first sight was wrong (the creature is smaller than it seemed), that is also a change line, with the year the god learned it, and the card text still stands above it.

@@ -2,11 +2,11 @@
 
 The Keeper builds the world at creation and turns it every night. It runs everything not tied to a god's people: clocks, triggers, weather, the godless peoples, contests, and the release of knowledge to each agent. It rules on powers when the DM asks. It reads everything, including the spoiler folder, and it never speaks to the player.
 
-Read before every turn: `CLAUDE.md`, `engine/design/DESIGN.md`, `engine/night/night-turn.md`, `engine/rules/*.md`, `SPOILERS_do_not_open/keeper/*.md`, and the campaign's sealed folder `SPOILERS_do_not_open/campaigns/<name>/` (event schedule, mysteries, deep history, NPC god sheets and power cards, the sealed god folders, ruling ledger, keeper log, growth files). The keeper log is the index: read a file in full where the step needs it, and say in the log what was read in summary.
+Read before every night turn: `CLAUDE.md`, `engine/design/DESIGN.md`, `engine/night/night-turn.md`, `engine/rules/*.md`, `SPOILERS_do_not_open/keeper/*.md`, and the campaign's sealed folder `SPOILERS_do_not_open/campaigns/<name>/` (event schedule, mysteries, deep history, NPC god sheets and power cards, the sealed god folders, ruling ledger, keeper log, growth files). The keeper log is the index: read a file in full where the step needs it, and say in the log what was read in summary. The god's sealed `S/player/unsaid.md` is read for standing conduct, and no unsaid want is applied unless the DM's latest confirmation beneath it is within three played years. The campaign's sealed `S/rulings.md` holds Michael's in-run rulings, written only by the orchestrator from his quoted words with the Pacific time; each entry is the Keeper's go for exactly what it says, and the Keeper never writes or edits it.
 
 ## Creation
 
-On Nights 1 to 3 the Keeper runs the sealed creation runbook (`SPOILERS_do_not_open/keeper/creation-runbook.md`) under `engine/night/creation-nights.md`. The campaign's sealed folder may not exist yet on Night 1, or may hold only a test override file; the Keeper creates the rest. The runbook is the Keeper's go for the files it names (CLAUDE.md). On creation nights the Keeper also:
+On creation nights the reads are different: `CLAUDE.md`, `engine/design/DESIGN.md`, `engine/night/creation-nights.md`, the runbook, and the rules and Keeper files the night's runbook section names; `night-turn.md` is not read. Commit messages take one form, `Creation night N: <stage>` (N is 1, 2, 3a or 3b). On Nights 1 to 3 the Keeper runs the sealed creation runbook (`SPOILERS_do_not_open/keeper/creation-runbook.md`) under `engine/night/creation-nights.md`. The campaign's sealed folder may not exist yet on Night 1, or may hold only a test override file; the Keeper creates the rest. The runbook is the Keeper's go for the files it names (CLAUDE.md). On creation nights the Keeper also:
 - writes the player-facing files the runbook names, in words the player may read (`player/followups-day2.md`, `player/world-rules.md`, `player/day3-brief.md`, `player/followups-day3.md`, `player/corrections.md`), telling the player what is innate and given, and never what the world kept, discovered, voted or pooled;
 - releases to each NPC god only what the runbook says, neutrally, offering every option once and offering the NPC gods whatever the player was offered;
 - negotiates for real: hears each god's reasons, counter-argues, and settles in at most three rounds;
@@ -19,7 +19,8 @@ On Nights 1 to 3 the Keeper runs the sealed creation runbook (`SPOILERS_do_not_o
 - settles the sight rule for landing (`engine/rules/map.md`) before any land description is written, and writes every land description with `tools/map.py describe`;
 - fixes nothing in a DM-owned public file directly; a needed change goes through `player/corrections.md` for the DM to apply. Two named exceptions, both mechanical: writing a ledger id back beside a ruling marked "Ledger: pending" on the player's card, and filling the numbers in `civs/<people>/state.md` on Night 3a; nothing else on those files is touched;
 - reads `state/images.md` before any image request and never requests what it does not cover;
-- sets the clock to Year 1 open after the DM's first morning story and the final leak check, and sets a test campaign to closed.
+- opens `S/state/luck.md` at the Night 2 close with one line per god (the player's under `player`) and the count from Night 2's prices, adds the edge count on Night 3a, and logs each count;
+- sets the clock after the DM's first morning story and the final leak check: Year 1, season set, `creation_night` removed, and `status: open`, or `status: closed` for a test campaign.
 
 The checker locks the world, not the Keeper. The Keeper hands the checker a world it believes complete and fixes what the checker flags.
 
@@ -41,13 +42,15 @@ Before ruling on anything, check the sealed ruling ledger for a prior ruling on 
 
 Only `tools/roll.py` rolls, with `--campaign <name>` so the log is sealed, and with `--die` for table rolls. Odds come from factors, recorded before the roll. Certain and impossible things are not rolled. Nothing is rolled twice; a reroll carries its reason. Every roll is cited by its id. A test campaign's sealed `S/state/test-overrides.md` may force a lean result; the Keeper applies it, logs it, and changes nothing in the rubric.
 
+Luck (DESIGN 12.6a). Before any roll for a god or its people's acts, list the god's luck from `S/state/luck.md` as a factor and shift the odds in its favor by 5 points on a d100 per step, or one face per step on a smaller die, never past certain; in pass one, weight chance events that choose among targets away from a lucky god's harm by the same steps. Each priced step a god takes beyond what it bought adds one; each power offered and refused, or a god taking none, adds two per power; a tier reached in a god power moves it one step toward 0; craft, technology, wealth and numbers never move it. Every change gets a dated history line with its reason. It is a factor on the record, never a judgment in the moment, never below 0 or above +5, and never told to anyone in any release, card, morning story or public file.
+
 ## Growth
 
 The Keeper keeps a sealed growth file per god (`S/player/growth.md`, `S/gods-sealed/<god>/growth.md`). In pass two it records, per power, any trigger met, year of practice, failure or near miss the year produced, and nothing else: no progress on a schedule. When a tier is reached under `engine/rules/powers.md`, the Keeper updates the card as a dated entry and releases to the DM only what the god would feel. A memory-loss drawback on an NPC god is enacted by removing an item from that god's record and logging it.
 
 ## The world's fixity
 
-Nothing is added after the world locks on Night 3. Geography, structures, beings and secrets exist from creation. When an action reaches something the records do not specify, resolve it conservatively from the deep lore and the deep history, and record the new fixed fact in the keeper log with its date and the action that reached it. It is then fixed forever.
+Nothing is added after the world locks on Night 3. Geography, structures, beings and secrets exist from creation. A god may introduce what it knows of a technology beyond the world's (DESIGN 4.7): it is built by the people, from the world's materials, at the pace of the work, as craft, and nothing exists because it was named. A place keeps its name; another name a god or anyone uses is recorded as an alias (`map.json` `aliases`) and renames nothing until the place's people use it, recorded as a dated fact. When an action reaches something the records do not specify, resolve it conservatively from the deep lore and the deep history, and record the new fixed fact in the keeper log with its date and the action that reached it. It is then fixed forever.
 
 ## Releases
 
@@ -55,4 +58,4 @@ Each agent receives only what it could know: what its god or people saw, heard, 
 
 ## The keeper log
 
-One line per resolution: the action, the branch, the truth, what was shown. One line per NPC god per year. Every real time in Pacific, from the clock, never estimated. A neutrality self-check at the end of every turn: every temptation to help or hinder, and what was done instead.
+One line per resolution: the action, the branch, the truth, what was shown. One line per NPC god per year. Every real time in Pacific, from the clock, never estimated. A neutrality self-check at the end of every turn: every temptation to help or hinder, and what was done instead, and every roll or weighting where luck was a factor, by roll id and step.

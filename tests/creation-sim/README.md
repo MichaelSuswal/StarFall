@@ -17,7 +17,7 @@ Agents report process problems (unclear instructions, missing paths, contradicti
 2. Day 1: the stand-in answers the survey; the DM closes the day.
 3. Night 1: the Keeper runs the runbook. The orchestrator spawns the seven god agents for it, each with only its own folder and release, and relays the Keeper's stops.
 4. Day 2 and Day 3: the DM and the stand-in talk; the orchestrator relays and appends both sides to the transcript.
-5. Nights 2, 3a and 3b: as Night 1, with the negotiation rounds relayed. The continuity checker locks.
+5. Nights 2, 3a and 3b: as Night 1, with the negotiation rounds relayed. The continuity checker locks. Any ruling Michael gives in chat during the run is written by the orchestrator, and only by it, to the campaign's sealed `rulings.md`, quoted with the Pacific time and the question he answered.
 6. An independent checker reads everything and writes `check-report.md`.
 7. Findings go on `changes.md`, one line each, as proposals.
 
@@ -27,4 +27,4 @@ Campaign `sim-01`: a cairn god and the Carrowfolk. Creation ran end to end in ab
 
 ## Run 03 (2026-11-20)
 
-Campaign `sim-03`, on build 3. Every NPC god's rule lean forced to a god-king by a sealed test override; wars allowed. Three images approved: surface, clouds, first morning. Ran 2026-11-20 22:01 to 2026-11-21 20:53 Pacific, with a pause on a usage limit and a pause for Michael's ruling on the leak scan. A mycelial god and an unnamed woodland people. Locked in four rounds; clock closed. Findings in `run-03/changes.md`.
+Campaign `sim-03`, on build 3. Every NPC god's rule lean forced to a god-king by a sealed test override; wars allowed. Three images approved: surface, clouds, first morning. Ran 2026-11-20 22:01 to 2026-11-21 20:53 Pacific, with a pause on a usage limit and a pause for Michael's ruling on the leak scan. A mycelial god and an unnamed woodland people. Locked in four rounds; clock closed. Findings in `run-03/changes.md`. Build 4 applies them (`run-03/build-plan.md`, `run-03/applied.md`); run 04 waits for Michael's go.

@@ -44,6 +44,8 @@ Every painting is one of three, and the DM knows which before writing the scene:
 
 Every recurring subject (the avatar, a significant character, a creature the god has seen before, a place the god has been) has an appearance card (`engine/style/appearance-card.md`). When such a subject is in the scene, its card text is copied into the scene word for word, in full, every time. The DM never paraphrases a card, never shortens it to the parts that seem to matter today, and never describes a carded subject from memory. If a dated change on the card applies (a scar, a rebuilt roof), that line is copied too. The same words every time are what keep the subject the same every time.
 
+A god whose card gives no face is never painted with one, since any painted face invents it. Its scene adds this line, word for word, after the card text: "Seen from behind or in deep shadow, the head turned away or lost in darkness, no face visible."
+
 A subject seen for the first time has no card yet. The DM describes it from the release, and if it will recur, writes its card that day so the next painting copies the card.
 
 ### The knowledge rule

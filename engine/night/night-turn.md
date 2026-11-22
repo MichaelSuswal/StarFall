@@ -23,7 +23,7 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 
 - Advance the clock: which clocked events fire this year, which triggers have been met by last year's state and this year's decisions.
 - Weather, seasons, natural events, the godless peoples' actions, and anything else not tied to a god's people.
-- Random events: rolled with `tools/roll.py --campaign <name>`, weighted down in Years 1 to 7 as the event schedule says.
+- Random events: rolled with `tools/roll.py --campaign <name>`, weighted down in Years 1 to 7 as the event schedule says. Where a chance event chooses among targets, weight it away from a lucky god's harm by its steps in `S/state/luck.md` (DESIGN 12.6a), logged as a factor.
 - Recurring phenomena: counted by `tools/phenomena.py` from the sealed record (`SPOILERS_do_not_open/campaigns/<name>/state/phenomena.json`).
 - Write for each civ agent what its people would experience this year (`releases/NNN/civ-<x>-pass1.md`: the player's people's release public, every NPC people's sealed under `S/releases/NNN/`), and for the Keeper itself a list of every world event with its cause.
 
@@ -34,11 +34,12 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 
 ## 4. Keeper pass two: resolution
 
-- Overlay every civ's actions and reactions with the world events. Resolve contests by factors and `tools/roll.py`. Deliver messages per `engine/rules/messages.md` and log each one's fate.
+- Overlay every civ's actions and reactions with the world events. Resolve contests by factors and `tools/roll.py`, with each god's luck listed as a factor on every roll for it or its people's acts (5 points on a d100 per step, one face on a smaller die, never past certain). Deliver messages per `engine/rules/messages.md` and log each one's fate.
 - Check the sealed ruling ledger before any ruling; record every ruling made.
 - Record new fixed facts in the keeper log when an action reached something unspecified.
 - Each god's waking season is checked against its weaknesses (a god whose weakness holds through its own waking season opens the year unable to act, and the civ agent is told so).
-- Growth: for each god, record in its sealed growth file any trigger met, year of practice, failure or near miss this year produced, per `engine/rules/powers.md`. Nothing is recorded that the year did not earn. If a tier is reached, update the card as a dated entry and note for the release what the god feels.
+- Growth: for each god, record in its sealed growth file any trigger met, year of practice, failure or near miss this year produced, per `engine/rules/powers.md`. Nothing is recorded that the year did not earn. If a tier is reached, update the card as a dated entry, move the god's luck one step toward 0 with a dated line, and note for the release what the god feels.
+- Any standing measure the sealed deep lore keeps for a god (its weight or standing on a scale a trigger rests on) is updated here, each year, in sealed state.
 - Memory-loss drawbacks on NPC gods: remove the item from the god's record and log it.
 - Update state: the player's people and the player's map knowledge in `P/state/` and `P/player/`; every NPC people's numbers, every NPC god's map knowledge and the message log in `S/state/` and the sealed folders; and `P/world/` where public facts changed through the world.
 - Write `years/NNN/year.md`: everything that happened, with causes, sealed.

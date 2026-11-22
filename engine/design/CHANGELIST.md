@@ -47,3 +47,18 @@ The findings are `tests/creation-sim/run-02/changes.md`. Reversed decisions:
 - ~~The Keeper may name places the player left unnamed.~~ It uses placeholders until play names them. (Section 3.11a)
 - ~~An NPC may share the player's theme.~~ A matching NPC domain is rerolled on Night 1. (Section 3.8)
 - ~~The leak scan guesses sealed names from prose.~~ The Keeper keeps a sealed-terms list; the scan reads it. (Section 12.2)
+
+## Build 4, after creation simulation run 03 (November 2026)
+
+The findings are `tests/creation-sim/run-03/changes.md`; Michael's decisions are in `run-03/build-plan.md`. Reversed decisions:
+
+- ~~A heavier price that buys nothing is not taken.~~ It earns hidden luck: a sealed modifier per god, a recorded factor on its rolls and on the weight of chance events, moved back toward 0 only by growth in a god power. (Section 12.6a)
+- ~~The technology line gives the world's starting level only.~~ The starting level is not a ceiling; a god may introduce what it knows, built in play from what the player knows or looks up. (Section 4.7)
+- ~~A name a god gives as a wish counts as given.~~ A place keeps its name; other names are aliases, and a name changes only when the place's people come to use it. (Section 3.11a)
+- ~~Travel over mixed ground priced by the ground the straight line crosses, or by a road's length.~~ Priced by route and means, segment by segment. (Section 10.1)
+- ~~The continent at 2 to 4 miles per pixel (2,000 to 4,000 miles across the sheet).~~ At least 600 miles across at its narrowest and about 1,000 on average; the lock checks it. (Section 11.1a)
+- ~~The player's map redrawn on every request.~~ Redrawn only when the map knowledge changed. (Section 11.6)
+- ~~The god's unsaid wants kept in the open conduct profile.~~ Sealed in `S/player/unsaid.md`, the DM's one sealed file, and confirmed with the player before acted on. (Section 10.7)
+- ~~Refusing a default counts toward an edge by judgment.~~ One step in the god's favor per default refused, in the one price it bears on. (Section 3.11)
+- ~~Michael's in-run rulings relayed by the orchestrator in any file.~~ Recorded only in the sealed `S/rulings.md`, quoted with the time. (Section 2.7a, CLAUDE.md)
+- ~~Only the files a release names may be touched inside a run.~~ A pull is always allowed. (CLAUDE.md)

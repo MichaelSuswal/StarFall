@@ -4,6 +4,8 @@ The public pace table for StarFall. Every number here is a real-world rate from 
 
 Everything in this file is a baseline for a fair day in good season. The adjustments in section 6 bend the baseline; the DM applies them openly and says which ones it applied. Any rate can be argued in (oog). A ruling that changes a number goes to the Change List and into the tool on the same day.
 
+Travel is priced by route and means (`engine/rules/map.md` section 5.1): the trip is cut into segments along the route the traveler chooses, and each segment takes the rate for its means on its ground. On foot uses section 1, on horse section 2, by wagon the ox-cart table in section 3, by boat or barge section 4. A road segment takes the good road row; a path takes the rough ground row; a river segment by boat takes downstream or upstream; a sea segment takes coastal sailing; open ground takes the row for the terrain of each region crossed. Different routes to one place give different times; `tools/map.py travel` does the segment arithmetic from the map data.
+
 Distances are in miles, time in days. A travel day is about ten hours of movement for a mortal, with the rest for camp, food and sleep. A work day is about ten hours of labor in summer, less in winter when the light is short.
 
 ---
@@ -179,6 +181,7 @@ If you want to spend the whole year in the world, working with your hands and wa
 The same numbers as `tools/pace.py`. Travel in miles per day, work in worker-days per unit, adjustments as multipliers.
 
 ```
+Route:  road = road row; path = rough row; river = boat up or down; sea = coastal sail; open ground = each region's terrain
 Walk:   road 20, rough 14, forest 10, mountain 8, marsh 6, snow 6
 Ride:   road 30, rough 20, forest 10, mountain 10, marsh 4, snow 8
 Oxcart: road 10, rough 6, snow 3; no passage elsewhere
