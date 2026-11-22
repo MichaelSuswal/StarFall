@@ -47,3 +47,7 @@
 19. I wish the world would be indifferent to me in a way that I could slowly earn the right to change. I don't want to be told I'm important. I want a place that carries on with or without me, and I'd like my influence to show up years later in small things, like a recipe, a festival, or a word people no longer know the origin of.
 
 **Pushback on the premise:** "lead a people" is the part I'd like to bend. I don't want to rule or gather. I want to be a presence in many lives and let one or two peoples grow up alongside me without knowing I'm steering. If the game needs me to name a people at some point, fine, but I'd like it to be something I tend, not command. If that doesn't fit what the DM has built, tell me early.
+
+## DM:
+
+Your words leave you and go down ahead of you, into the listening below, among the words of the others who fall. The Between holds you a while longer; what you asked at the end will be answered first when the fall resumes.
