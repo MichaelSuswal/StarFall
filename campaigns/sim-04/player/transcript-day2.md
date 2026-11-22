@@ -75,3 +75,27 @@ On the thing you care about: I will not invent a cost to teach you a lesson, and
 The voice again, closer now.
 
 "There will be a day down there when the smoke takes all of you at once. Every part, the whole swarm, burned or drowned or frozen. You cannot die. So tell me what you would wish to happen then. Where do you gather again, and from what?"
+
+## Player:
+
+Taking them in order.
+
+**The listening.** I accept both costs: no direction to my parts while I listen and for a day after, and the stillness that shows. The reveal is the part I like. It means I have to decide each time whether knowing is worth being noticed. Put the limits on the card as you wrote them. If the Keeper adds one, I'll hear it.
+
+**Splitting.** Parts only pool what they learned when they touch again. No sharing at a distance. That matches the Day 1 idea that I'm unsure which of me is thinking, and I'd rather pay for it with confusion than with coin. Five parts, 20 miles, a fifth of me each: agreed. I understand I choose which part stands in harm's way and never which memory goes.
+
+**Memory loss.** Don't tell me what went. I'll find the gap in play. If I try to do something I used to do and can't, or reach for a name and it's gone, that is how I want to learn it. Log it, but keep it from me.
+
+**Working of wild bees.** The bees pay. A hive worked more than a few days in a season goes into winter short, whoever owns it. I'd rather this fall on someone else's honey than on my own idleness, because it is the exact "debt a mortal incurs on my behalf" I asked for. It also means a keeper may notice her hives are weaker the year I helped her neighbor.
+
+**The tasting.** Accepted as proposed: I read by eating and take a share of what I read. Provisional for the Keeper is fine.
+
+**The sting.** It marks them. The stung one can feel me near as a hum under other sounds for life. I take that over sluggishness because I would rather be known to one person than useless for a week. Dread, guilt, warning and grief are all available to me. I won't pick one in advance.
+
+**The whole.** Leave the listening at full strength. I'd rather carry the lean than shrink it, as long as the reveal stays as written.
+
+**The weakness offer.** I'll decline for now. I already feel the weight of what I've accepted, and I don't want to buy more power with a cost I haven't felt yet.
+
+**The smoke.** If every part of me goes at once, I'd wish to regather from the hive I have tended longest, wherever it stands then, not from a place I chose or the spot I landed. It should come back slowly, over a full season of brood. I want it to cost me: I come back smaller, with a gap I can't name, and a debt of attention to that hive. If I have tended no hive that long, let me regather from the oldest wild hive in my chosen valley. It must be a place I could have been reached by something I did.
+
+One question back. When I'm blind and not directing my parts for the day after listening, do they hold still or keep acting on what they last knew? You wrote "act on what they last knew," so I'll assume the second and plan around it. Correct me if I've misread.
