@@ -41,3 +41,14 @@ Words the player may hear. Nothing below changes what was agreed at the Day 3 ta
 - The valley is long: about 77 miles from end to end, so a day's flight does not cross it. The god's map of it is drawn from `campaigns/sim-04/player/map-knowledge.json`, which holds only what the god sees from where it comes down.
 - What the people know of the land beyond their valley reaches the god only as they tell it, in play. It comes to you with the first morning's release.
 
+
+# For the DM: from the night that finished the world (creation Night 3b, 2026-11-22)
+
+Words the player may hear. Nothing below changes what was agreed at any table. No file of yours was edited.
+
+## For the DM to know
+
+1. The Day 3 brief listed a worn track, wide enough for a cart, among the things the land shows from where the god comes down. The brief was written before the map was traced. On the traced map no track is in sight from that ground. The first morning takes its view from `campaigns/sim-04/releases/000/dm.md`, which does not hold one. The track exists; the god has not seen it.
+2. The Night 3a note said that what the people know of the land beyond their valley would come to you with the first morning's release. It does not. At the landing no one has spoken to the god, so the release holds only what it sees. What the people know reaches you as they tell it, in the releases of the years in which they do.
+3. The hour of landing is first light.
+4. The people's own names for the whole world and for the blue light in the sky are in `campaigns/sim-04/world/world.md`, under Names. Like every name, each reaches the god only when first said in its hearing.

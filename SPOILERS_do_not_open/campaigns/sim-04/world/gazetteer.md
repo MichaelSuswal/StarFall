@@ -27,6 +27,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Sarn [f03] (river); The Carn [f05] (river); The Harl Way [f22] (path); The Marrow Road [f32] (road); Pellam [f36] (town); Nenna [f66] (village).
 
 Keeper note: Held by Dunmarrow [r07] as far as the lake basin; grazing and scattered farms.
+Ordinary wonders (added on 3b): Wind that runs across the grass in long silver furrows. Larks. Cattle fords the herds have used so long the banks are worn into steps.
 
 ## The Hoarfells [r01]
 
@@ -40,6 +41,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The Grey Sea [r41] (sea), lying east: 5 days on foot at the pace table's cross-country rate; its nearest edge about 64 miles north of the point, 7.9 days on foot over open ground by the ground crossed.
 
 Keeper note: Empty high country. No people holds it. Herders in summer on the south slopes.
+Ordinary wonders (added on 3b): Snow that goes rose-colored at dusk. Ravens that follow herders for scraps. Moor pools black as tea.
 
 ## Ternstrand [r02]
 
@@ -74,6 +76,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: Skarhaven [f83] (village).
 
 Keeper note: Open country: fishers and sealers in scattered steadings.
+Ordinary wonders (added on 3b): Seals hauled out on the skerries in hundreds, singing. Sea fog that stands offshore like a wall on summer mornings.
 
 ## The Harlfells [r04]
 
@@ -109,6 +112,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The Eastern Sea [r42] (sea), lying south: 4 days on foot at the pace table's cross-country rate; its nearest edge about 33 miles east of the point, 2.3 days on foot over open ground by the ground crossed.
 
 Keeper note: Open country: goat herders, a few fishing coves.
+Ordinary wonders (added on 3b): Goats that climb the thorn trees to browse. A warm dry wind off the range that smells of juniper.
 
 ## The Harrow Roughs [r27]
 
@@ -124,6 +128,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Harl Way [f22] (path); The Venn Track [f23] (path); Nether Door [f25] (site).
 
 Keeper note: Open country, no rule: scattered hill steadings and charcoal burners.
+Ordinary wonders (added on 3b): Charcoal smoke lying blue in the hollows on still days. Nightjars. A rock the hill children slide down, polished by generations of them.
 
 ## Kessmar Vale [r05]
 
@@ -136,6 +141,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: Dath Water [f04] (river); Lake Arrun [f11] (lake); Kessmar [f19] (town); Venn Notch [f21] (pass); The Harl Way [f22] (path); The Venn Track [f23] (path).
 
 Keeper note: The country of the Dathri. Terraces on the slopes above the lake shore; two notches in the south wall.
+Ordinary wonders (added on 3b): The peaks doubled in the lake on a still morning. Terrace walls bright with stonecrop in early summer. Swifts that nest in the town's wall.
 
 ## The Lornlands [r06]
 
@@ -171,6 +177,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Lorn [f01] (river); The Sarn [f03] (river); The Scour Way [f17] (path); The Marrow Road [f32] (road); Hallisk [f35] (city); Brinegarth [f37] (village); Dryhythe [f38] (site).
 
 Keeper note: The heart of the kingdom of Dunmarrow [r07], old and wearing.
+Ordinary wonders (added on 3b): Poplars planted along every road by some old king's order, most of them still standing. Storks on the hall roofs. The harvest fair at the old capital, with its weighing of the first sheaf.
 
 ## The Carn Hills [r08]
 
@@ -204,6 +211,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Carn [f05] (river); The Carn Road [f33] (road); The Bank Road [f34] (road); Carnford [f39] (town); Carnmouth [f42] (village); The Fell Way [f43] (path); Ammot [f68] (village).
 
 Keeper note: The country of the people god-trade comes to, at the ford; open steadings up and down the river.
+Ordinary wonders (added on 3b): Sand martins in the river cliffs. The ferrymen's custom of ringing a bell for anyone who waits on the far bank. Red cattle swimming the ford in low water.
 
 ## Heshshore [r29]
 
@@ -219,6 +227,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: Lowater [f67] (village).
 
 Keeper note: The shore people live here in a few villages. Quiet, thinning country.
+Ordinary wonders (added on 3b): Reed beds that turn gold all at once in autumn. White egrets in the shallows at dusk. Lily flats on the inlets.
 
 ## Heatherfell [r11]
 
@@ -254,6 +263,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Withy [f06] (river); The Withymere [f12] (lake); The Fell Way [f43] (path); Merestead [f45] (village).
 
 Keeper note: Open country: woodcutters and a few farms. The track from the ford country comes down here.
+Ordinary wonders (added on 3b): Bluebells under the oaks in late spring. A waterfall that freezes into a curtain most winters. Otters on the mere.
 
 ## Stonnerfell [r14]
 
@@ -269,6 +279,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The Western Sea [r44] (sea), lying north-west: 8 days on foot at the pace table's cross-country rate; its nearest edge about 127 miles west of the point, 9.1 days on foot over open ground by the ground crossed.
 
 Keeper note: Open country. The southern wall of the Withy [f06] valley.
+Ordinary wonders (added on 3b): Heather honey so dark it is nearly black. Standing pools where the red deer wallow. Curlews.
 
 ## Sallowdene [r12]
 
@@ -302,6 +313,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Withy [f06] (river); The Foot Track [f44] (path); Eelstow [f46] (village).
 
 Keeper note: Open country: eel fishers, a few farms, no town.
+Ordinary wonders (added on 3b): Glass eels running up the river in thousands on spring nights. Reed warblers. Tides that push the river backward for an hour twice a day.
 
 ## Ellen Heath [r17]
 
@@ -334,6 +346,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - Hollin Ridge [r23] (hill), lying north-east: 10 days on foot at the pace table's cross-country rate; its nearest edge about 50 miles east of the point, 3.6 days on foot over open ground by the ground crossed.
 
 Keeper note: Open country: herders from the river in summer.
+Ordinary wonders (added on 3b): Hares that box in the open in early spring. A summer wind the herders say can be heard coming a mile off.
 
 ## Maudvale [r18]
 
@@ -349,6 +362,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Maud [f07] (river); Maudry [f64] (town); The Weir Path [f65] (path).
 
 Keeper note: The country of the people god-rivers comes to. The most-worked river in the land: weirs on weirs.
+Ordinary wonders (added on 3b): Kingfishers on every weir. Water meadows blue with flag iris in early summer. The custom of floating a lit bowl down river for a newborn.
 
 ## The Maudmire [r19]
 
@@ -384,6 +398,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Skein [f08] (river); Hollin Spring [f74] (site); The Salt Way [f80] (path).
 
 Keeper note: Open country: shepherds. The dark line past the water, seen from the fen.
+Ordinary wonders (added on 3b): A view from the ridge of both the fen and the braided rivers at once. Kites. Shepherds' counting rhymes that no two valleys say alike.
 
 ## Ammerholt [r24]
 
@@ -492,6 +507,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: Orsk [f77] (town); Lowgrave Field [f79] (site); The Salt Way [f80] (path).
 
 Keeper note: Held by the salt towns: grain and fishing for the pans.
+Ordinary wonders (added on 3b): Wheat running down to the tide line. Oystercatchers. The custom of blessing the boats with a handful of last year's grain.
 
 ## Lake Hesh [r28]
 
@@ -507,6 +523,7 @@ Places: The Carn [f05] (river).
 Keeper note: Larger than any telling of it. The shore people do not fish the deep water.
 
 Ordinary wonders: The water does not freeze and the wind does not move it.
+Note (added on 3b): the stillness of the water, written above on 3a as an ordinary wonder, is a clue of the mystery L01 and is not one. The lake's ordinary wonders: mist that lies level on it at dawn like a second shore; the shore people's reed boats, built the same way for longer than anyone can say; swans that winter on the inlets.
 
 ## The Grey Sea [r41]
 
@@ -524,6 +541,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Tern [f10] (river).
 
 Keeper note: No one sails it far.
+Ordinary wonders (added on 3b): Drift ice in spring. Whales seen from the headlands in autumn. A green light in the water on some summer nights that is only the sea.
 
 ## The Eastern Sea [r42]
 
@@ -541,6 +559,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The South Sea [r43] (sea), lying south-west: 14 days on foot at the pace table's cross-country rate; its nearest edge about 395 miles south of the point.
 
 Keeper note: Fishing along the coast only.
+Ordinary wonders (added on 3b): A swell that booms in the sea caves under the hills. Gannets diving. Sunrise fog.
 
 ## The South Sea [r43]
 
@@ -556,6 +575,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The Western Sea [r44] (sea), lying north-west: 13 days on foot at the pace table's cross-country rate; its nearest edge about 451 miles west of the point.
 
 Keeper note: Coasting boats of the salt towns.
+Ordinary wonders (added on 3b): Warm shallows where the salt boats coast. Dolphins that follow them. Sand bars that move every winter.
 
 ## The Western Sea [r44]
 
@@ -575,6 +595,7 @@ Neighbors (reference for the Keeper, not the seen view):
 Places: The Lorn [f01] (river); Farholm [f70] (site).
 
 Keeper note: Coasting only. One small island far out.
+Ordinary wonders (added on 3b): Long rollers and rain coming in grey sheets off the water. Gulls that follow the fishing boats home. One small island far out, seen on the clearest days from the headlands.
 
 ## Places, with who knows of each
 
