@@ -21,6 +21,10 @@ Where an item and a ruling disagree, the ruling wins: item 54 yields to ruling 1
 9. **The unsaid want (26).** "Seal it, but the DM(s) should confirm with the user, maybe subtly, maybe explicitly, that those desires are still there before acting on them."
 10. **Rulings route (76).** Yes, as proposed.
 11. **Remote (29).** Done.
+12. **Luck is never stated** (answered in this session's chat, 2026-11-21 22:3x, to the question whether stated odds include luck): "never stated. I already told you. it is a hidden mechanic. the player and the NPC-gods should be unaware of it's existence."
+13. **Luck caps** (same exchange): odds stay within 5 to 95; in a contest between two gods the luck nets out and only the difference counts.
+14. **Narrowest width** (same exchange): the overall shape; a thin neck of land is allowed.
+15. **Mirror mode (94)** waits for build 5, opt-in: "Would you like to play mirror-mode, or in standard mode?"
 
 ## Shared specifications
 
