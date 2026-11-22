@@ -27,4 +27,4 @@ Campaign `sim-01`: a cairn god and the Carrowfolk. Creation ran end to end in ab
 
 ## Run 03 (2026-11-20)
 
-Campaign `sim-03`, on build 3. Every NPC god's rule lean forced to a god-king by a sealed test override; wars allowed. Three images approved: surface, clouds, first morning.
+Campaign `sim-03`, on build 3. Every NPC god's rule lean forced to a god-king by a sealed test override; wars allowed. Three images approved: surface, clouds, first morning. Ran 2026-11-20 22:01 to 2026-11-21 20:53 Pacific, with a pause on a usage limit and a pause for Michael's ruling on the leak scan. A mycelial god and an unnamed woodland people. Locked in four rounds; clock closed. Findings in `run-03/changes.md`.
