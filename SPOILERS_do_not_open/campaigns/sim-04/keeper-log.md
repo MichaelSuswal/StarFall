@@ -564,3 +564,7 @@ Neutrality:
 - The Day 3 brief's track is not in the traced view. The temptation was to put it in the release because the player had been shown it. Done instead: the release holds the tool's view, and the DM is told.
 - The release gives the star in the same list as the river and the smoke.
 - Sealed factors: used tonight in four weighted choices (r-0181, r-0184, r-0186, r-0188), at the steps in `S/state/luck.md` (the player's god one, god-rivers one, god-law two), each named in its roll. No change to any line of the file tonight.
+
+### 3b.9 Hand to the checker
+Committed 11:44 Pacific as `Creation night 3b: sim-04 ready for lock`, commit 350368ba7f0779439c2157e68ff6fa3819626ca6, and pushed. This log line is committed after it, alone, since a commit cannot carry its own id; the world the checker reads is that commit with this line added. The Keeper has no agent tool in this run: the orchestrator starts the continuity checker on the lock checklist (runbook section 4). The Keeper does not run the checklist on its own work, writes none of the lock's files, and waits for flags. The first morning is not begun.
+`P/state/timing.md` carries the night's stages. The clock stays `status: creation`, `creation_night: 3b`, with the season set.
