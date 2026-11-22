@@ -35,3 +35,22 @@ Write your reply as "## Round 1 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-04/gods/god-stone/negotiation-night3.md (make the file if it is not there),
 and to no other file.
 Then stop.
+
+## Round 2
+### The fitting of stone
+Your reasons, answered: you took (b), both steps for two weaknesses, the second as the Keeper wrote it; nothing is countered. Your clarification is wording and is taken: "the ways out are shut to their traders" was always about whether their own traders can pass. A notch you have warded, with traders of theirs named to pass it, is not shut to them. And as you say, if by your wards and your naming no trader of theirs can pass any way out for more than a season, it counts in full, your own doing or not.
+
+Final text:
+Edge: The masons of the people read the grain of rock and lay dry stone with unusual skill. Their dry stone stands through frost and ordinary earthquake as other peoples' does not. Their stonework takes half the labour of the public rates: 3 worker-days a yard of built wall in place of 6, and 1 in place of 2 for dry stone to head height, and the like for a terrace, a pier or a gatehouse. It is lore and practice, at a mortal crew's pace with mortal tools; it takes nothing from Shaping the Stone and needs nothing from the god.
+First weakness: their harvests run close to the edge of their needs. At landing their stores cover the winter and little more. One bad year is hunger; two in a row are deaths among the old and the youngest.
+Second weakness: every bronze tool they use comes in through the notches; they have no ore of their own and few smiths. Whenever no trader of theirs can pass any way out of the valley for more than a season, by snow, war, a ward or any other cause, their stonework falls to an ordinary crew's pace, and after a year of it the work stops as the tools wear out. A way their named traders can pass is not shut.
+Not counted, and written as ordinary fact of the people: poor riders, poor sailors, slow to adapt outside the range.
+
+Weaknesses and what each bought: the thin harvests bought the standing walls; the bought-in bronze bought the half labour.
+
+Confirm that this is what you meant, or say what is wrong with it. A change of wording may be asked; a change of substance asked now is logged and this text stands.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-04/gods/god-stone/negotiation-night3.md,
+and to no other file.
+Then stop.

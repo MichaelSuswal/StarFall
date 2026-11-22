@@ -141,3 +141,32 @@ Date: 2026-11-21, Day 3 (entered Night 3a). Year 0. Card: the player's, the Work
 Arguments: the player gave as standing conduct that it would move stores to a hive gone short by its doing. The DM: moving stores is the Working by the card's own Description, so it is a day of work on both hives and counts toward the three days each can bear in a season. Said with the read-back; the player agreed.
 Ruling: as the DM put it. No term of the power changes.
 Binds: the player's card; the Keeper's count of days worked on each hive in the night turn.
+
+## Rulings of Night 3a: the peoples' edges, and the fitting of mortal magic
+
+### L-0022
+Date: 2026-11-21, Night 3a. Year 0. Card: god-ice (a power added Night 3). Matter: the price of a term spoken by a mortal in the god's name (opened by L-0015).
+Arguments: the god proposed that its merchant-prince speak terms under its seal, and offered as the price what the prince himself bears (each term cold in his belly, slow past twelve, bound to the letter), asking that his count stand apart from its own. The Keeper: a mortal's cost does not pay for a god's power (`powers.md`); it is fitting. Two prices on the god were put: one shared count, or counts apart with his ceiling at twenty and a day's slowness on the god for each term. The god took the second, with reasons, and four clarifications taken as wording.
+Ruling: the Prince's Term is a power of the god's, added to its card. Counts apart; the prince's ceiling twenty; the god slow one day for each term he speaks, the days run one after another and after any owed for cold, never below half pace. What the prince bears is fitting, written under Limits.
+Binds: god-ice's card; any later ask by any god that a mortal perform one of its powers.
+
+### L-0023
+Date: 2026-11-21, Night 3a. Year 0. Record: god-stone's people. Matter: the price of their stonework.
+Arguments: the god asked walls that stand through frost and earthquake and work at half the time and labour, for one offered weakness (thin harvests; poor riders and sailors, slow outside the range). The Keeper: the edge is two steps; of the weakness, the thin harvests count and the rest restates the country a high valley people lives in. Two ways were put. The god took both steps for a second weakness, the Keeper's (all bronze comes through the notches), with one clarification taken as wording (a way their named traders can pass is not shut).
+Ruling: two steps for two weaknesses, as in the final text of round 2. Poor riding and sailing is recorded as fact of the people and buys nothing.
+Binds: the people's record; the reading at every table that a weakness which restates a people's country is not counted.
+
+### L-0024
+Date: 2026-11-21, Night 3a. Year 0. Record: god-dreams' people. Matter: the dark eye against the glare. Undisputed, settled at creation: one edge for one weakness as the god offered them, with the Keeper's measurable lines, accepted as drafted.
+
+### L-0025
+Date: 2026-11-21, Night 3a. Year 0. Record: god-rivers' people. Matter: clean water by custom against a people of the wet. Undisputed, settled at creation: one for one as offered, with the Keeper's measurable lines and the limit that it takes nothing from the god's Clean water, accepted as drafted.
+
+### L-0026
+Date: 2026-11-21, Night 3a. Year 0. Record: god-trade's people. Matter: the kept scales against open gates. Undisputed, settled at creation: one for one as offered, with the Keeper's measurable lines and the limit that it gives nothing to the god's Fair Weight, accepted as drafted.
+
+### L-0027
+Date: 2026-11-21, Night 3a (the first part settled at the player's Day 3 table and entered tonight). Year 0. Records: every people's (a world fitting; no god is told another's). Matter: mortal magic among a god's people: its price, and how many workers there are.
+Arguments: none against. At the Day 3 table the DM priced the player's people's workers on the given terms (simple; it costs the worker a bad night each use, wearing over years; what she reads is what has already happened, never what is coming, which would cost more), subject to the Keeper's reconciliation. Seven gods described workers on the same terms, each with a cost that falls on the worker's own body or sleep, each without foresight, each wishing them few.
+Ruling: every such working stands as described where it is simple, shows only what is or has been, and costs the worker herself; the cost each god or the player named is what its workers feel first, and under it the world's one cost runs for all alike (sleep, then memory, then her name: world draft). The number is the world's and is fitted the same way for every people at this star's level (magic at 3): about one worker to five hundred people at landing, rounded, whatever number was wished. For the player's people that is three, in three of the thirteen hamlets, where the wish was about one hamlet in three; the DM is told through `campaigns/sim-04/player/corrections.md`, as the player asked.
+Binds: every people's record; the Keeper's count of workers in play.

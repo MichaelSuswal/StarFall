@@ -41,3 +41,38 @@ Write your reply as "## Round 1 reply" at the end of
 SPOILERS_do_not_open/campaigns/sim-04/gods/god-ice/negotiation-night3.md (make the file if it is not there),
 and to no other file.
 Then stop.
+
+## Round 2
+### The Prince's Term
+Your reasons, answered: you took (b) and gave your reasons; nothing is countered. Your four clarifications are wording and all four are taken.
+1. Half pace is half pace. Slow days owed for a term and slow days owed for a working of cold never take you below half; they do not run side by side either, but one after another, as the draft said of the days.
+2. A day owed begins at the moment the term is spoken, whether or not you know of it. One term, one day, whoever was there.
+3. His twenty counts only terms that stand, as on your own card (ledger L-0010): a term ended by its years, by the mortal's death or by your release no longer counts; a term breached and mended counts while it has years to run.
+4. Sworn in your hearing means within earshot as your card defines it, about fifty paces in open air and not through walls. No touch is needed.
+
+Final text:
+### The Prince's Term
+Status: main (added Night 3)
+Description: One merchant-prince, sworn to the god in its hearing, may speak a term in the god's name, face to face, to one mortal who understands the words and agrees aloud. The term then holds that mortal for the stated years as the god's own Spoken Term would, with a breach felt as the same creeping cold. Only terms of debt, toll, tally, delivery, carriage, trade or service.
+Drawback: Each time the prince speaks a term, the god is slow for one day wherever it is: half its pace, as after a working of cold, with no cold about it. The day begins when the term is spoken, whether or not the god knows of it. Days owed run one after another, and after any slow days owed for a working of cold; the god is never below half pace for them.
+Limits settled at creation:
+  - The prince's count stands apart from the god's own. He may have no more than twenty terms standing; at twenty he can bind no more until one ends. A term stands only while unfulfilled, unreleased and unended.
+  - Never a term on a person's body, name, kin, faith or movement. Never to a child too young to understand, to a god, or to anyone under threat of force; none of these is bound.
+  - One mortal at a time, who must say yes. Never a people as a mass.
+  - One prince at a time. He is sworn within earshot of the god (about fifty paces in open air, not through walls); no touch is needed. When he dies or is released the power sleeps, and the terms he spoke stand until they end; it wakes when the next is sworn.
+  - A term he speaks outside these bounds does not hold. The god may end any term of his by its own word.
+  - What the prince bears, fitted by the Keeper and no part of the price: each term he speaks stands as cold in his own belly; with more than twelve standing he is at half his pace; he cannot lie inside a term he speaks; if he breaks the letter of one the cold is in him until he mends it. The people see it.
+  - Not applicable: falling, scarcity, things made by more than ordinary craft. It rules no mind: a term binds only one who agreed.
+  - Intent, the god's first wording: "The merchant-prince may speak a term in my name and under my seal, face to face, to one mortal who comes before him, and if that mortal agrees aloud and understands the words, the term holds them for the stated years, as mine would."
+Rulings: none yet.
+Trades: none. Priced by its own drawback.
+Growth: Possible. Not shown.
+
+Weaknesses and what each bought: none taken tonight; the power pays for itself by its drawback.
+
+Confirm that this is what you meant, or say what is wrong with it. A change of wording may be asked; a change of substance asked now is logged and this text stands.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-04/gods/god-ice/negotiation-night3.md,
+and to no other file.
+Then stop.
