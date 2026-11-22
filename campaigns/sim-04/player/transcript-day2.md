@@ -19,3 +19,21 @@ The second: being in several places at once, parts of you working apart, each th
 Something between the two is also possible if you see one.
 
 "So. Tell it in any order, at any length. What are you, when something meets you in a meadow? What can you do that the bees already there cannot? Who were you before the fall, as far as you can still tell, and what did you lose? I will ask as you go."
+
+## Player:
+
+I'll take the second road, with a form change. One body is fine as the starting point, so I land as a single swarm. The power is that I can split. I'd rather you price it than have me pretend it's free.
+
+**What meets you in a meadow.** Mostly nothing you'd notice. A hum a little too steady, bees working a field in an order that looks like a plan, and a sense of being counted. If you stand still, the swarm will gather around you and wait. It doesn't attack and it doesn't speak. It is polite in the way weather is polite. Up close it has no face, but the bees all turn the same way when you speak, like a crowd leaning toward a sound.
+
+**What I can do that the bees already there can't.** The wild bees are just bees. I can make them act as one thing: carry a message by pattern, guard a path, strip a field of pollen or fill it, and bring one hive through a winter by moving its heat and stores. I can read a place by what is flowering and who is feeding on it. I'd like to taste a land's health that way, which means I know about a blight, a poisoned stream or a dead orchard before any mortal does. And I'd like a small way to sting that carries intent, like a fever or a nightmare, for rare use.
+
+**The edge I want to ask for.** I'd like to be able to listen through every bee, wasp and pollinator in my chosen valley at once, not just the parts of me I've sent out. A whole watershed of small ears. I know that's stronger than a starting god should have, because it makes me the best-informed being in the region with no travel. Price it however you think is fair. My own suggestion: it works only where flowers are in season, so winter blinds me; the listening is shallow, patterns and not words; and I can't tell my own parts from the wild bees without effort, which feeds the "which part is thinking" problem. If that's too cheap, tell me what to add. I'd rather pay a real cost than get it for free.
+
+**On the parts themselves.** Start with a small number, maybe three to five, that I can send out as separate thinking swarms. Each is weaker alone and can act independently inside a day's range. Losing one should cost me a real memory or a habit, not just strength, so I'm permanently a bit different. I'd like to be able to choose which part gets the loss, if I see it coming.
+
+**Who I was before the fall.** I can't see it clearly, which feels right. I know I was not one thing. I was a place where something was kept, a grove or a comb, and I remember a lot of patient work with no audience. What I lost is a name, and something like a queen: a center that told me which part was me. I'd like not to get it back quickly. Let me find hints of it in the world, such as an old apiary, a sealed door, or a word the locals don't recognize.
+
+**One thing I care about.** Don't let me be an ant-farm god who just optimizes. I want to be wrong sometimes. If I tend a village into a good harvest, I'd like there to be a cost I didn't see, like a rival hive, a failed apple year next door, or a debt a mortal incurs on my behalf. A tender should have to answer for what the tending does.
+
+Ask whatever you need. I'd like to hear your read on the price of the listening before I commit.
