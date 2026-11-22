@@ -11,3 +11,46 @@ god-ice
 god-law
 god-stone
 god-trade
+# Night 2, step 2.4: god names and bynames, as written in the sealed files
+Ford-Mist
+the Ferryman
+the Stranger at the Ford
+Ennevar
+the Lamp-Keeper
+the White Beast
+the Winter Beast
+the Judge
+the Surety
+the Tall Witness
+Orrathane
+the Gatewarden
+the Weigher
+# Night 2, step 2.5: names in the common past
+Halvenmar
+Aunmere
+Corrowe
+Tessaly
+Nightwood
+Orrin Holm
+Orrin
+Keshgate
+Varrendy
+Ilmarrow
+Sennamel
+# Night 2, step 2.7: hidden power names
+The Kept Wax
+The Known Keeper
+What the River Gave Back
+The Firm Bed
+The Last Fare
+The Dry Crossing
+The Waking Hand
+The Wick Answering
+The Long Keeping
+The Unspoken Plea
+The Turned Chase
+The Witnessed Stone
+The Door's Side
+The Stair-Sure Foot
+The Standing Measure
+The Unbarred Way

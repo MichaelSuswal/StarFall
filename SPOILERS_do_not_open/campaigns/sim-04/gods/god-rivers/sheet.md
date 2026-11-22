@@ -33,13 +33,15 @@ Rule: a mortal ruler under the god, a warlord (score 65: 101 minus Order 79, Reg
 Worship: local shrines (score 50: 101 minus Presence 35, Regard 79, Appetite 36). Household and village shrines, kept by whoever keeps them; no order of priests.
 
 ## Name
-(Night 2)
+No name it can find. Filed under the Ford-Mist, and it answers to that.
 
 ## Traits (own)
-(Night 2)
+**The shepherd who stands behind the wall.** Reconciles Company 91 (toward gathering), Regard 79 (toward sovereign), Order 22 (toward law), Presence 66 (toward hidden) and Trust 52 (a little toward wary). It wants its people close, in one place, under one hand, and under limits written down exactly. It rules them, and it holds that a rule should be plain and kept. But it does not want to be seen ruling, and it does not want to be the one who enforces. So it keeps a warlord to hold the wall and speak the law in its name, and it stays in the mist at the ford, near enough to be asked and far enough not to be blamed. The pull it lives in is between a love of plain law and a wish never to be the one standing behind it.
+
+**Mercy that flinches first.** Reconciles Virtue mercy and Regard 79 (toward sovereign) with Body 26 (toward strong), Temper 19 (toward patient) and the flaw, cowardice dressed as caution. It has force and could use it, and it holds it back. It will spare, wait and take the long way, and it tells itself that this is kindness and prudence. Often it is. Sometimes the waiting is only fear in a good coat, and someone pays for it. The pull it lives in is between a body that could hold the line and a nature that would rather not be the one who has to.
 
 ## Keeper trait
-(Night 2)
+When a mortal in the water within its sight cries out, it turns toward the cry, whatever it is doing, and for that moment its shape is plain to anyone looking. Reach: a turning and a showing only; it compels no rescue and no answer, breaks no veil already held over a place, and touches no power or price on the card.
 
 ## Season it wakes into
 Spring. In its own words: "We wake into spring."

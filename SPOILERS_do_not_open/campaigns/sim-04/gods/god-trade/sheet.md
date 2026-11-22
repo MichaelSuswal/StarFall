@@ -33,13 +33,14 @@ Rule: a council of elders or chieftains (score 29: 101 minus Order 15, Regard 57
 Worship: local shrines (score 46: 101 minus Presence 66, Regard 57, Appetite 16). Household and village shrines, kept by whoever keeps them; no order of priests.
 
 ## Name
-(Night 2)
+None. Filed under the Weigher; it asks those below to call it that.
 
 ## Traits (own)
-(Night 2)
+1. **Checks the hands, then leaps.** Reconciles Trust (wary, 86) with Temper (impulsive, 72) and its virtue of restraint. It will not take a stranger's word and it studies a stranger's hands, weights and proverbs for a long while. Then, with no warning even to itself, it decides, and the deciding is quick and whole. It holds its tongue and its fist until the moment the matter is plain, and afterward it cannot always say why that moment.
+2. **Opens every way and will not walk through the last one.** Reconciles Order (freedom, 86), Making (builder, 20) and Regard (sovereign, 57). It builds roads, weights, gates and marketplaces, anything that lets a thing pass, and it hates a lock, a fence, a decree that shuts. It wishes to be heard in council and not to command it, and it is quietly sure it knows what the council ought to decide. It gives the people their liberty, and keeps for itself the last say on whether the liberty is being used well.
 
 ## Keeper trait
-(Night 2)
+Whatever it builds with its own hands comes out with one more door than was planned, and it does not notice until the thing is done. Reach: its own handiwork only; it adds no power, opens nothing that is fastened, and the Barred Door holds on such a door as on any other.
 
 ## Season it wakes into
 Autumn. In its own words: "I wake into autumn."

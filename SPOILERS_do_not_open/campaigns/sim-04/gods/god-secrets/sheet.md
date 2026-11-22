@@ -33,13 +33,14 @@ Rule: a sacred monarch behind a court (score 53: 101 minus Order 90, Regard 69, 
 Worship: none (score 33: 101 minus Presence 29, Regard 69, Appetite 1). It asks no rites; what the people do about it is theirs.
 
 ## Name
-(Night 2)
+No name it can still find. Filed under the Ferryman. Those who do not know what it is may call it the Stranger at the Ford, or the Ferryman.
 
 ## Traits (own)
-(Night 2)
+1. **The Gentle Hand on the Latch.** Reconciles Order 11 (toward law) and Making 90 (toward breaker), with Regard for mortals 69 (toward sovereign) and Trust 19 (toward open). I lean toward law and want every limit written exactly, yet I am made to open what is shut and break what is sealed. I hold myself above mortals, yet I give my trust early and am open to them before I have cause. Mercy is where these meet: I open what has been kept too long, softly, and I keep exactly what a person asks me to keep. A latch lifted gently still lets the wind in, and a law kept to the letter is still a door.
+2. **The Patient Hunger.** Reconciles Temper 27 (toward patient), Appetite 1 (content) and Presence 72 (toward hidden) against the flaw of lust for being worshipped. I want nothing, I stay unseen, and I wait with great ease, and under that is a want to be sought out and named that I do not look at. Worship comes to the patient as dew comes to stone.
 
 ## Keeper trait
-(Night 2)
+Its face is forgotten by all who see it, except by those who have told it a confidence it sealed: they remember it exactly, for life. Reach: memory of its face only; it adds nothing to Sealed Telling, changes nothing in what Unlatching does to the face, and touches no other power or price on the card.
 
 ## Season it wakes into
 Autumn. In its own words: "I wake into autumn."

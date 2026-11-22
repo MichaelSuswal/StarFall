@@ -33,13 +33,17 @@ Rule: a council of elders or chieftains (score 34: 101 minus Order 33, Regard 4,
 Worship: local shrines (score 48: 101 minus Presence 74, Regard 4, Appetite 66). Household and village shrines, kept by whoever keeps them; no order of priests.
 
 ## Name
-(Night 2)
+Orrathane. Those who do not know what it is may call it the Gatewarden.
 
 ## Traits (own)
-(Night 2)
+### Courteous Appetite
+Reconciles Regard for mortals (4, toward shepherd), Presence (27, toward revealed), Company (87, toward gathering) and Appetite (66, toward hungry). I am inclined to tend the people about me and to be seen by them, and I want a crowded hall greatly. And yet I came down having fled a master, and I flinch at being owned by any bond, even a kind one. So I shepherd by formality. I keep the manners of a host, I gather and keep a people near with hospitality, and I stand in plain view among them, while holding the door to myself half closed. The courtesy is real, and so is my wariness of what the people will ask of me.
+
+### Doorwise Hunger
+Reconciles Mind (96, toward clever), Temper (83, toward impulsive), Trust (57, toward wary) and Order (68, toward freedom). I see the clever answer at once and leap for it, which is how I am quick and sometimes rash. I distrust whatever comes by a door I did not test, and yet I cannot leave a closed door unopened. So I probe first, listen at every threshold, take the bargain that leaves a way out, and resist any rule I have not myself found a hinge in. I take a heavy price before I take a fence.
 
 ## Keeper trait
-(Night 2)
+When anyone calls it servant, or bids it as one bids a servant, its rear face turns to look at the speaker, whatever the front face is doing. Reach: a look and nothing more; it compels no act and no word, binds nothing under the Oath at the Threshold, and touches no power or price on the card.
 
 ## Season it wakes into
 Spring. In its own words: "I wake into spring."

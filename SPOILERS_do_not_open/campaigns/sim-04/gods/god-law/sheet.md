@@ -33,13 +33,14 @@ Rule: a mortal ruler under the god, a merchant-prince (score 69: 101 minus Order
 Worship: local shrines (score 46: 101 minus Presence 29, Regard 52, Appetite 56). Household and village shrines, kept by whoever keeps them; no order of priests.
 
 ## Name
-(Night 2)
+No name it can find. Filed under the Surety. Those who do not know what it is may call it the Tall Witness.
 
 ## Traits (own)
-(Night 2)
+1. Exact, and slippery about it. It writes every limit to the letter and treats the letter as a promise it will never break, and it is clever enough to know where every other party's wording leaves a gap. Reconciles Order 3 (law) with Mind 65 (clever) and Trust 56 (wary). It will be fair to the word and cold to the spirit when the other side has been careless, and it will not take that as a sin.
+2. Hides, and hungers to be seen. It wants shrines in every house and prefers that no one can say whose hand put them there. It will do a great deal in the dark so that what is built looks like the people's own, and then sit and wait to be thanked for it. Reconciles Presence 72 (hidden) with Appetite 56 (hungry) and Regard 52 (leaning sovereign), under the flaw it carries.
 
 ## Keeper trait
-(Night 2)
+At dawn and at dusk it casts two shadows, the second a little shorter and at its shoulder, and anyone who looks can see it. Reach: a thing seen in low sun only; it does nothing, says nothing of whose it is, and touches no power or price on the card.
 
 ## Season it wakes into
 Autumn. In its own words: "I wake into autumn."

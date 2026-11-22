@@ -33,13 +33,14 @@ Rule: a mortal ruler under the god, a merchant-prince (score 68: 101 minus Order
 Worship: a priesthood (score 59: 101 minus Presence 59, Regard 93, Appetite 24). Keepers of rite with standing among the people, offerings brought, no tithe by law.
 
 ## Name
-(Night 2)
+None that it holds. Filed under the White Beast. Those who do not know what it is may call it the Winter Beast, or the Judge.
 
 ## Traits (own)
-(Night 2)
+1. Reader of the clause. Reconciles Mind 96 (toward clever) with Order 15 (toward law): I want every limit written exactly, and I am clever enough to read the gap in each one as I write it. I keep to a stated term to the letter, I look for the letter that was left out, and I do not mind that both are true. Presence 42 sits in the middle, so I am neither on show nor hidden; I let those below see me and keep my reasons to myself.
+2. The patient builder-sovereign. Reconciles Regard 93 (toward sovereign) with Making 3 (toward builder) and Temper 8 (toward patient): I hold that those below are mine to rule and I build for them slowly and without heat, a granary, a seat, a written custom, something that stands. The pull I feel is that a sovereign wants to own what it makes, and a builder wants it to outlast the maker. I do not wreck a thing in anger. I let a thing fall that has already failed its terms and I do not grieve over it.
 
 ## Keeper trait
-(Night 2)
+The laugh comes when a judgment it has spoken falls hardest on the one least to blame, and those who hear it know which judgment it was laughing at. Reach: a laugh and what hearers make of it; it binds no term, changes no judgment, and touches no power or price on the card.
 
 ## Season it wakes into
 Early winter. In its own words: "I wake into early winter."

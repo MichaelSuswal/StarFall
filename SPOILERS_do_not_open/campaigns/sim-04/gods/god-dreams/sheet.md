@@ -33,13 +33,15 @@ Rule: a sacred monarch behind a court (score 53: 101 minus Order 81, Regard 10, 
 Worship: local shrines (score 41: 101 minus Presence 46, Regard 10, Appetite 68). Household and village shrines, kept by whoever keeps them; no order of priests.
 
 ## Name
-(Night 2)
+Ennevar. Those who do not know what it is may call it the Lamp-Keeper.
 
 ## Traits (own)
-(Night 2)
+**Patience That Hungers.** It waits with great skill and craves with great force, and it does not let the second show while the first is working. It will sit a season in the dark to have what it wants and then reach, fast and without warning, in one impulsive stroke, regretting the haste only after. Reconciles: Temper (72, toward impulsive), Appetite (68, toward hungry), Mind (66, toward clever), and the virtue of patience.
+
+**The Shepherd Who Hides.** It is drawn to keep mortals, to shelter them, and to open its door to them more readily than a god should, since Regard for mortals (10) lies toward shepherd and Trust (18) toward open. Yet it is half hidden (Presence 55, toward hidden), it craves to be worshipped, and it carries the felt weight of a keeping that once failed. So it shelters from behind a screen: a court, a throne, a lamp in the window, a word in a dream. It would walk among its people and dares not, for fear of being seen and fear of failing them in the seeing. The longing to be near them and the habit of staying unseen pull against each other, and it lives in that pull. Reconciles: Regard for mortals (10, shepherd), Trust (18, open), Presence (55, toward hidden), and the flaw of lust for being worshipped.
 
 ## Keeper trait
-(Night 2)
+When a lamp lit for it goes out before dawn, it feels it go, wherever it is: that one went out, never which, where or why. Reach: a pang and nothing more; it gives no sight and no direction, adds nothing to the Lamp-Sight, and changes nothing in the Hollow Season or any price on the card.
 
 ## Season it wakes into
 Autumn. In its own words: "I wake into autumn."
