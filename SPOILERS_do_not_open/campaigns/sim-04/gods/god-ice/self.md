@@ -48,3 +48,7 @@ None. I offer no weakness tonight, and ask for nothing stronger than a new god s
 A people of about five thousand, in a walled seat with steadings scattered around it, ruled by a merchant-prince who answers to me and rules by bargain, debt, toll and trade, with a priesthood of keepers of rite who keep the offerings and no tithe by law. I would have them be a people who value a written term and a fair weight, and who have lived long enough with winter to respect it. Helpers by default. I may change this on Night 3.
 
 ## The premise
+
+## Traits, given again
+1. Reader of the clause. Reconciles Mind 96 (toward clever) with Order 15 (toward law): I want every limit written exactly, and I am clever enough to read the gap in each one as I write it. I keep to a stated term to the letter, I look for the letter that was left out, and I do not mind that both are true. Presence 42 sits in the middle, so I am neither on show nor hidden; I let those below see me and keep my reasons to myself.
+2. The patient builder-sovereign. Reconciles Regard 93 (toward sovereign) with Making 3 (toward builder) and Temper 8 (toward patient): I hold that those below are mine to rule and I build for them slowly and without heat, a granary, a seat, a written custom, something that stands. The pull I feel is that a sovereign wants to own what it makes, and a builder wants it to outlast the maker. I do not wreck a thing in anger. I let a thing fall that has already failed its terms and I do not grieve over it.

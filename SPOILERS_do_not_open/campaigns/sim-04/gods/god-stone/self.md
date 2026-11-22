@@ -70,3 +70,11 @@ Edge cases: It counts any bargain voiced aloud with the stated intent to bind, w
 A people of about five thousand, gathered close in one high valley among the mountains, who live in houses of fitted stone and keep a council of their elders and headmen, which I attend and am heard in. They keep small shrines in homes and villages, tended by whoever tends them, with no order of priests. I would have them be farmers of terraces, herdsmen of goat and sheep, and cutters of stone. I would have them curious.
 
 ## The premise
+
+## Traits, given again
+
+### Courteous Appetite
+Reconciles Regard for mortals (4, toward shepherd), Presence (27, toward revealed), Company (87, toward gathering) and Appetite (66, toward hungry). I am inclined to tend the people about me and to be seen by them, and I want a crowded hall greatly. And yet I came down having fled a master, and I flinch at being owned by any bond, even a kind one. So I shepherd by formality. I keep the manners of a host, I gather and keep a people near with hospitality, and I stand in plain view among them, while holding the door to myself half closed. The courtesy is real, and so is my wariness of what the people will ask of me.
+
+### Doorwise Hunger
+Reconciles Mind (96, toward clever), Temper (83, toward impulsive), Trust (57, toward wary) and Order (68, toward freedom). I see the clever answer at once and leap for it, which is how I am quick and sometimes rash. I distrust whatever comes by a door I did not test, and yet I cannot leave a closed door unopened. So I probe first, listen at every threshold, take the bargain that leaves a way out, and resist any rule I have not myself found a hinge in. I take a heavy price before I take a fence.
