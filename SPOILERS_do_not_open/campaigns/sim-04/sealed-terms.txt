@@ -1,0 +1,13 @@
+# Sealed terms: kept by the Keeper from Night 1. One term per line, exactly
+# as written in the sealed files, case and all. Lines starting with # are
+# comments. tools/lockcheck.py --leaks fails on any of these in campaigns/sim-04/.
+# Night 1: labels
+# Night 2: god names and bynames; hidden power names; common-past names
+# Night 3: sealed names not on the map; names of NPC peoples and mortals
+god-rivers
+god-secrets
+god-dreams
+god-ice
+god-law
+god-stone
+god-trade
