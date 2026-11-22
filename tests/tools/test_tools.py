@@ -435,6 +435,10 @@ def test_lockcheck_sealed_terms_primary():
         code, out, _ = lock(repo, "--leaks")
         assert code == 1 and 'sealed term "Grey Warden"' in out
     with tmpcopy() as repo:  # a map name the god has seen or been told stays on the list and may appear
+        _, know_p = fx_paths(repo)
+        k = json.load(open(know_p))
+        k["regions"]["r01"]["named"] = True
+        json.dump(k, open(know_p, "w"))
         append(repo, sealed, "The Wend Downs\nthe cinder road\nHollow Moor\n")
         append(repo, pub, "The Wend Downs and the cinder road.\n")
         assert lock(repo, "--leaks")[0] == 0
@@ -890,7 +894,8 @@ def test_site_type_placeholders_and_common_words():
         wp = os.path.join(d, "map.json")
         json.dump(w, open(wp, "w"))
         code, out, _ = run_quiet(mapt.main, ["validate", "t", "--world", wp, "--knowledge", os.path.join(d, "none.json")])
-        assert "f07 is named 'The Hollow', a common word" in out and "1 warning(s)" in out
+        assert "f07 is named 'The Hollow', a common word" in out and "2 warning(s)" in out
+        assert "traced land runs off the sheet's north, south, west, east edge(s)" in out
     finally:
         shutil.rmtree(d)
 
@@ -1221,3 +1226,46 @@ def test_paint_player_asked_and_counts():
         assert paint.line_limit("approved") is None
     finally:
         shutil.rmtree(d)
+
+
+def test_lockcheck_unnamed_seen_region_is_sealed():
+    """A seen region with no `"named": true` and no told name keeps its true name sealed in public files."""
+    pub = "campaigns/fx/player/notes.md"
+    with tmpcopy() as repo:  # r01 is seen at the landing, its name never heard
+        append(repo, pub, "The god rested on the Wend Downs.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'unnamed seen region "Wend Downs"' in out, out
+    with tmpcopy() as repo:  # on the Keeper's sealed term list too, it is no longer let through as known
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt", "The Wend Downs\n")
+        append(repo, pub, "The Wend Downs.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'sealed term "The Wend Downs"' in out, out
+    with tmpcopy() as repo:  # once named, the name may appear
+        _, know_p = fx_paths(repo)
+        k = json.load(open(know_p))
+        k["regions"]["r01"]["named"] = True
+        json.dump(k, open(know_p, "w"))
+        append(repo, pub, "The god rested on the Wend Downs.\n")
+        assert lock(repo, "--leaks")[0] == 0
+    with tmpcopy() as repo:  # the reported region with a told name (r02) is unchanged
+        append(repo, pub, "The Reach lies east.\n")
+        assert lock(repo, "--leaks")[0] == 0
+
+
+def test_validate_warns_land_off_the_sheet():
+    """map.py validate warns when traced land touches the painting border, naming the edges."""
+    inside = {"painting": {"size": [1000, 1000], "miles_per_pixel": 1.0},
+              "regions": [{"id": "r01", "terrain": "sea", "polygon": [[0, 0], [1000, 0], [1000, 1000], [0, 1000]]},
+                          {"id": "r02", "terrain": "plain", "polygon": [[100, 100], [900, 100], [900, 900], [100, 900]]}]}
+    assert mapt.edge_land_warnings(inside) == []
+    off = json.loads(json.dumps(inside))
+    off["regions"].append({"id": "r03", "terrain": "forest", "polygon": [[900, 0], [1000, 0], [1000, 300], [900, 300]]})
+    off["regions"].append({"id": "r04", "terrain": "hill", "polygon": [[300, 900], [500, 900], [400, 1000]]})
+    w = mapt.edge_land_warnings(off)
+    assert len(w) == 1 and "north, south, east edge(s)" in w[0] and "west" not in w[0]
+    assert "north: r03" in w[0] and "south: r04" in w[0] and "east: r03" in w[0] and "r01" not in w[0]
+    with tmpcopy() as repo:
+        wp, _ = fx_paths(repo)
+        code, out, _ = run_quiet(mapt.main, ["validate", "fx", "--world", wp, "--knowledge", os.path.join(repo, "none.json")])
+        assert code == 0 and "traced land runs off the sheet's north, south, west, east edge(s)" in out
+        assert "north: r01, r02" in out and "1 warning(s)" in out

@@ -304,13 +304,22 @@ def word_num_re(n):
     return r"\b(?:" + "|".join(alts) + r")\b"
 
 
+def unnamed_seen_regions(c):
+    """Ids of regions the player's god has seen without their name: graded seen, not marked
+    `"named": true` and with no told name (map.md 1.2). Their true names are sealed terms."""
+    return {ident for ident, e in c.knowledge.get("regions", {}).items()
+            if e.get("grade") == "seen" and not mapt.region_name_known(e)}
+
+
 def known_map_names(c):
     """Lower-case names the player's god knows: the map names of what it has seen or had reported,
-    with and without a leading article, and every name it was told."""
+    with and without a leading article, and every name it was told. A region seen without its name
+    (unnamed_seen_regions) does not give its map name."""
     known_ids, out = set(), set()
+    unnamed = unnamed_seen_regions(c)
     for table in ("regions", "features"):
         for ident, e in c.knowledge.get(table, {}).items():
-            if e.get("grade") in ("seen", "reported"):
+            if e.get("grade") in ("seen", "reported") and not (table == "regions" and ident in unnamed):
                 known_ids.add(ident)
             t = e.get("told") or {}
             if t.get("name"):
@@ -380,11 +389,13 @@ def leak_terms(c):
         for k in sorted({n, n + 1}):
             add("god count", f"{k} gods", word_num_re(k) + r"\s+(?:other\s+|more\s+|npc\s+|rival\s+|living\s+)?(?:gods|deities)\b", re.I)
 
-    # places the player has not seen or been told; names it was told are known to it
+    # places the player has not seen or been told; names it was told are known to it. A region seen
+    # without its name keeps its true name sealed (map.md 1.2): its ground is known, its name is not.
     known_ids, told_names = set(), set()
+    unnamed = unnamed_seen_regions(c)
     for table in ("regions", "features"):
         for ident, e in c.knowledge.get(table, {}).items():
-            if e.get("grade") in ("seen", "reported"):
+            if e.get("grade") in ("seen", "reported") and not (table == "regions" and ident in unnamed):
                 known_ids.add(ident)
             t = e.get("told") or {}
             if t.get("name"):
@@ -396,9 +407,10 @@ def leak_terms(c):
     for kind, el in c.elements():
         if el["id"] in known_ids:
             continue
+        kind_ = "unnamed seen region" if kind == "region" and el["id"] in unnamed else "unknown place"
         for v in name_variants(el.get("name", "")):
             if v.lower() not in known_names and v.lower() not in told_names:
-                phrase("unknown place", v, case=True)
+                phrase(kind_, v, case=True)
 
     # phenomena: a phenomenon's words with one of its true counts on the same line
     pp = os.path.join(c.S, "state", "phenomena.json")

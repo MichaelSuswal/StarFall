@@ -79,6 +79,8 @@ Each line names the build-check.md item it fixes. Michael's decisions on the thr
 14. `engine/roles/checker.md` 9: every travel time checked against `tools/map.py travel` for the route and means its line names.
 15. `engine/creation/day2-the-god.md`: the provisional-pricing paragraph indented under item 7.
 16. `tests/tools/README.md`: build 4 notes for travel, continent, `--if-changed`, `--named`, aliases, paint coverage and the new lockcheck checks.
+17. `tools/lockcheck.py --leaks`: the true name of a region the player's god has seen without its name (no `"named": true`, no told name) is a sealed term for the public folder, reported as "unnamed seen region", and a sealed-terms.txt entry for it is no longer let through as known. Tests: `test_lockcheck_unnamed_seen_region_is_sealed`; the fixture's public notes no longer name the unnamed Wend Downs, and the seen-name case marks r01 `"named": true`. sim-03 output unchanged (its one unnamed seen region, r18, is not named in public files).
+18. `tools/map.py validate`: a warning when traced land touches the painting border, naming each edge and the regions on it (`edge_land_warnings`). Test: `test_validate_warns_land_off_the_sheet`; the common-word validate test now counts two warnings. Suite: 44 passed, 0 failed (pytest and run.py).
 
 ### Tests
 

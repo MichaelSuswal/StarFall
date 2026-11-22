@@ -680,6 +680,28 @@ def common_word_warnings(world):
     return out
 
 
+def edge_land_warnings(world):
+    """Traced land that runs off the sheet: a surface land region (terrain not sea, lake or ocean)
+    with a polygon point on or past the painting's border. One warning naming the edges it touches
+    and, for each edge, the regions that touch it; none when all land lies inside the sheet."""
+    W, H = Painting(world).size
+    hits = {}
+    for r in world.get("regions", []):
+        if terrain_word(r) in WATER_TERRAIN or len(r.get("polygon", [])) < 3:
+            continue
+        xs, ys = [p[0] for p in r["polygon"]], [p[1] for p in r["polygon"]]
+        for edge, hit in (("north", min(ys) <= 0.5), ("south", max(ys) >= H - 0.5),
+                          ("west", min(xs) <= 0.5), ("east", max(xs) >= W - 0.5)):
+            if hit:
+                hits.setdefault(edge, []).append(r.get("id", "?"))
+    if not hits:
+        return []
+    edges = [e for e in ("north", "south", "west", "east") if e in hits]
+    detail = "; ".join(f"{e}: {', '.join(hits[e])}" for e in edges)
+    return [f"warning: traced land runs off the sheet's {', '.join(edges)} edge(s) ({detail}); "
+            "the land touches the painting border, so the sheet does not show where it ends"]
+
+
 # ---------------------------------------------------------------- the continent's size (change list 87)
 
 CONTINENT_NARROWEST_MIN = 600          # miles across at the narrowest, at least
@@ -2846,7 +2868,7 @@ def main(argv=None):
         probs += cont
         if os.path.exists(knowledge_path):
             probs += [f"knowledge: {p}" for p in knowledge_problems(world, load_json(knowledge_path))]
-        warns = common_word_warnings(world)
+        warns = common_word_warnings(world) + edge_land_warnings(world)
         for p in probs:
             print(p)
         for w in warns:
