@@ -1,0 +1,17 @@
+# Leak allow file: sim-03. Written by the continuity checker under engine/roles/checker.md (lock section,
+# last paragraph, commit 8b73195). One phrase per line, exactly as tools/lockcheck.py --leaks quotes it.
+# Each phrase was read in its sentence and ruled not a leak under DESIGN 12.2 at lock round 1 and again
+# at lock round 4; none states, implies or lets anyone work out a count of gods. Listed in years/000/lock-flags.md.
+#
+# 2026-11-21. player/hierarchy.md 19: the player's two other designed helpers, not gods.
+two hear nothing from the god
+# 2026-11-21. player/hierarchy.md 31: the player's three designed helpers, not gods.
+three as knowing the god
+# 2026-11-21. player/power-card.md 21 (frozen card text) and player/power-lean.md 23: a work rate, three days to tend an acre (L-0001).
+three days of the god
+# 2026-11-21. player/power-card.md 21 (frozen card text): the same work rate, in worker-days.
+god's work for an acre (five
+# 2026-11-21. player/power-card.md 21 and player/transcript-day2.md 60 (verbatim record): the same work rate, in worker-days.
+five worker-days by hand, at a god
+# 2026-11-21. player/power-lean.md 13: two visible traits of one god, listed in the same sentence.
+two things about this god
