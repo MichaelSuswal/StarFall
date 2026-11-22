@@ -151,3 +151,23 @@ The voice, once more, and the fall feels shorter than it did.
 "And the part I most need. What do you want, down there? What will you not do, whatever it would gain you? And what do you want that you would not say aloud to the ones you tend?"
 
 (oog) That last answer is kept sealed, apart from your open profile. It shapes how you are played in time you do not play, and it is never acted on without checking with you that it is still true.
+
+## Player:
+
+Yes. Freeze the card, with the answers below.
+
+**Your read-back.** I accept every NEW term. Seven days before a part goes wild is fair. Three days of working before a hive goes short is fair. One sting per season is what I meant by rare. Playing one part at a time while the others carry on by standing conduct is right, with one request: when a part acts on its own, tell me afterward what it did, not what it knew. I'll find the gap in what it knew.
+
+**Regathering.** Keep the season, not the month. The debt of attention I'll leave as something I play. I mean nothing binding by it. I only expect that I'll feel pulled to that hive and worry about it, and I'd like that to be my choice to honor or ignore, not a rule.
+
+**Size.** All of me together fills a doorway, a swarm you could not walk through without it parting. A single part, a fifth, fills a hat. Spread loose across a field I can look like a thin haze, and tight I'm about the size of a barrel you could carry.
+
+**What I carry.** Nothing but what bees carry: pollen, nectar, wax scraps. No object from before the fall.
+
+**Names.** Those who don't know what I am can call me the Thrum, because that is what they'll hear. You can call me that too. The lost name stays lost until I find it.
+
+**What I want, aloud.** To learn what the place I came from kept, and why. To see one valley run well and badly under my tending, and know which of those was me. To be known by a few and not by many.
+
+**What I will not do.** I will not sting someone to death on purpose, or choose a fever for a person I've decided is in the way. I will not starve a neighbor's hives to feed my own people's. I will not drive a mind with a sting, even a feeling, to get a decision I want. I won't burn a hive, mine or anyone's, to win a fight. These hold whatever they'd gain me.
+
+**What I want and wouldn't say to the ones I tend (sealed).** I want a center again. I want to find out whether the queen was a someone, or whether I was always only parts, and I'm afraid of the second answer. I also want one mortal to be glad I'm near, without being afraid of me. I'd tell no one that. If a stung person's hum ever starts to feel like company, I'd want to keep that quiet. I'll tell you when any of this changes.
