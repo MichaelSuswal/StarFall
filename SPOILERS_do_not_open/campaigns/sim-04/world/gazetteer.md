@@ -84,13 +84,13 @@ The ground is mountain, the highest range of the land, with notched passes. Elev
 The region runs about 360 miles east to west and 211 miles north to south.
 
 Neighbors (reference for the Keeper, not the seen view):
-- Ternstrand [r02] (mountain), lying north-west: 29 days on foot at the pace table's cross-country rate; its nearest edge about 131 miles north-west of the point, 16.3 days on foot over open ground by the ground crossed.
-- Skarness [r03] (coast), lying north-east: 14 days on foot at the pace table's cross-country rate; its nearest edge about 111 miles north of the point, 13.9 days on foot over open ground by the ground crossed.
+- Ternstrand [r02] (mountain), lying north-west: 29 days on foot at the pace table's cross-country rate; its nearest edge about 123 miles north-west of the point, 14.9 days on foot over open ground by the ground crossed.
+- Skarness [r03] (coast), lying north-east: 14 days on foot at the pace table's cross-country rate; its nearest edge about 101 miles north of the point, 12.4 days on foot over open ground by the ground crossed.
 - Kessmar Vale [r05] (valley), lying south: 4 days on foot at the pace table's cross-country rate; its nearest edge at the point itself.
-- Dunmarrow [r07] (plain), lying west: 27 days on foot at the pace table's cross-country rate; its nearest edge about 179 miles west of the point, 22.3 days on foot over open ground by the ground crossed.
-- The Sarn Meads [r09] (plain), lying south-west: 29 days on foot at the pace table's cross-country rate; its nearest edge about 155 miles south-west of the point, 19.3 days on foot over open ground by the ground crossed.
-- The Harrow Roughs [r27] (hill), lying south: 12 days on foot at the pace table's cross-country rate; its nearest edge about 90 miles south of the point, 11.2 days on foot over open ground by the ground crossed.
-- Garran Lee [r30] (coast), lying east: 20 days on foot at the pace table's cross-country rate; its nearest edge about 127 miles north-east of the point, 15.8 days on foot over open ground by the ground crossed.
+- Dunmarrow [r07] (plain), lying west: 27 days on foot at the pace table's cross-country rate; its nearest edge about 179 miles west of the point, 18.6 days on foot over open ground by the ground crossed.
+- The Sarn Meads [r09] (plain), lying south-west: 29 days on foot at the pace table's cross-country rate; its nearest edge about 159 miles south-west of the point, 15.1 days on foot over open ground by the ground crossed.
+- The Harrow Roughs [r27] (hill), lying south: 12 days on foot at the pace table's cross-country rate; its nearest edge about 100 miles south of the point, 7.6 days on foot over open ground by the ground crossed.
+- Garran Lee [r30] (coast), lying east: 20 days on foot at the pace table's cross-country rate; its nearest edge about 125 miles east of the point, 14.8 days on foot over open ground by the ground crossed.
 
 Places: Dath Water [f04] (river); Harl Notch [f20] (pass); The Harl Way [f22] (path); The Venn Track [f23] (path); Gathol Door [f24] (site); Rib Hollow [f26] (cave).
 
@@ -136,7 +136,7 @@ The ground is valley, one broad basin cupped in the high range, most of its floo
 The region runs about 162 miles east to west and 97 miles north to south.
 
 Neighbors (reference for the Keeper, not the seen view):
-- The Harlfells [r04] (mountain), lying north: 4 days on foot at the pace table's cross-country rate; its nearest edge at the point itself.
+- The Harlfells [r04] (mountain), lying north: 4 days on foot at the pace table's cross-country rate; its nearest edge about 47 miles north of the point, 3.3 days on foot over open ground by the ground crossed.
 
 Places: Dath Water [f04] (river); Lake Arrun [f11] (lake); Kessmar [f19] (town); Venn Notch [f21] (pass); The Harl Way [f22] (path); The Venn Track [f23] (path).
 

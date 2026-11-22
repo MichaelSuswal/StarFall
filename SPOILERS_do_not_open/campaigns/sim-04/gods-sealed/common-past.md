@@ -8,7 +8,7 @@ The gods are named here by label, and the player's god as "the player's god". Ev
 
 ## The country
 
-Halvenmar was a river country under its own star, far across the plane, farther than any entry of the plane section will hold. One great river made it: the Aunmere. It rose at Corrowe, a high tarn that stayed frozen most of the year, ran down through fen and old forest called the Nightwood, widened at the city of Tessaly where the great ford and the market were, and went out through reed country to a salt shore. Off the last reach of the river lay Orrin Holm, the island where the country laid its dead. In the eastern mountains a cut stair, the stair at Keshgate, climbed to the country's center, which in that land was a warm hill that the people did not farm.
+Halvenmar was a river country under its own star, far across the plane: the fall the plane section enters as the throw. One great river made it: the Aunmere. It rose at Corrowe, a high tarn that stayed frozen most of the year, ran down through fen and old forest called the Nightwood, widened at the city of Tessaly where the great ford and the market were, and went out through reed country to a salt shore. Off the last reach of the river lay Orrin Holm, the island where the country laid its dead. In the eastern mountains a cut stair, the stair at Keshgate, climbed to the country's center, which in that land was a warm hill that the people did not farm.
 
 It was an old country and a careful one. Its people did not trust easily and built their lives on sworn words and kept records. Its star was low for the last several lifetimes of its people, and the country knew it was thinning without having a word for it: fish kinds lost, dialects flattened, the reed country going to plain water.
 

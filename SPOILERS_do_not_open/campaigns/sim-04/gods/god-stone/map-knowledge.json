@@ -11,7 +11,7 @@
    "source": "own sight at the landing",
    "year": 1,
    "told": {
-    "name": "mountains close by",
+    "name": "high mountains to the south",
     "terrain": "mountain"
    }
   }
@@ -42,6 +42,15 @@
       316.4
      ]
     ]
+   }
+  },
+  "f19": {
+   "grade": "rumored",
+   "source": "own sight at the landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the north",
+    "cell": "D2"
    }
   }
  }
