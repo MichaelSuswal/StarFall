@@ -29,3 +29,10 @@ Times Pacific.
 - sheets traced, gazetteer written: 09:44
 - records, states and knowledge files written: 09:52
 - closed: 09:53
+
+## Night 3b, 2026-11-23
+- first clock reading: 09:56
+- plane and dates rolled: 10:03
+- history, mysteries, schedule and cast written: 10:17
+- world bible, first morning inputs and landing releases written: 10:21
+- checks run, handed to the checker: 10:24
