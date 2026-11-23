@@ -600,3 +600,5 @@ Neutrality:
 - Every god's standing was set alike. Every god's landing view came from the tool by one reading, and each god was told what its Night 3 release got wrong whether the land gave it more or less than it hoped.
 - No clue was made louder near any seat and none was held back: every clue's place and earliest year are in the mysteries, and the schedule points at none.
 Handed to the checker 2026-11-23 10:24 Pacific. Night 3b does not close here: it closes after the lock and the first morning (runbook 4.1).
+
+Lock commit: the hand-off is commit 2ceab7f8ed9eb073859d0de62ae92fbc7f9aa5fd (`Creation night 3b: sim-05 ready for lock`).
