@@ -74,5 +74,6 @@ Read the power card back to the player in plain words, every power, drawback, ed
 - any premise the player rejected or bent, under `## Day 2` in `player/rejected-premises.md`, with a line `Requests not to be told something:` listing each Day 2 request (a hidden power, which memory goes) or `none`; anything the DM reframed or trimmed goes under `Bent by the DM` in the same section, so the Keeper knows whose wish each is
 - the player's answers under each question in `player/followups-day2.md`; if there were no questions, one line saying the file was read
 - rulings made at the table are written on the card as "settled at creation. Ledger: pending, Night 2"; the Keeper writes the id back that night
+- The transcript, `player/transcript-day2.md`, is the verbatim record of the table and is never changed. A file that copies the player's words (the card, the backstory outline, the conduct profile, the follow-up answers) keeps them as said; where the Keeper later replaces a word in one with a plain word of the same sense, the DM keeps the replacement and does not restore it.
 
 Then the night falls, and the god keeps falling.

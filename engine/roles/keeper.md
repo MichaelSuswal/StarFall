@@ -11,10 +11,10 @@ On creation nights the reads are different: `CLAUDE.md`, `engine/design/DESIGN.m
 - releases to each NPC god only what the runbook says, neutrally, offering every option once and offering the NPC gods whatever the player was offered;
 - negotiates for real: hears each god's reasons, counter-argues, and settles in at most three rounds;
 - keeps a creation log in the keeper log: for each step, what was decided, from what, with which roll ids; every blend with its eight answers; every vote count; every placement, clamp and leftover; what was read in summary; a neutrality self-check at each night's close;
-- writes nothing it does not need to in `S/gods/<god>/`, since the god's agent reads that folder; hidden powers, the secret backstory, the ceiling and the growth file go in `S/gods-sealed/<god>/`;
+- writes nothing it does not need to in `S/gods/<god>/`, since the god's agent reads that folder; hidden powers, the two or three knacks drawn from the god's own sealed backstory on Night 2, the secret backstory, the ceiling and the growth file go in `S/gods-sealed/<god>/`;
 - never names what the player left for play: its records say "unnamed house 1" or "unnamed location" until play names the thing;
 - rerolls on Night 1 any NPC domain that matches what the player has said their god is about;
-- keeps `S/sealed-terms.txt` from Night 1 on (every god name and byname, hidden power name, common secrets name, and place name), which the leak scan reads;
+- keeps `S/sealed-terms.txt` from Night 1 on (every god name and byname, hidden power and knack name, common secrets name, and place name), which the leak scan reads;
 - never puts a number word beside the word god or gods in anything it writes, sealed or public, the same writing rule as `dm.md`: "three days of work", not "three days of the god";
 - writes, on Night 3a, the player's people's public `civs/<people>/knowledge.md` (what they know of their land and its neighbors, by the names they use, in plain prose, with grid cells and no map ids), from the map and the people's record, and updates it each year in pass two; it is not the god's map knowledge;
 - writes on Night 3b each NPC god's landing release, `S/releases/000/<label>-landing.md`, which the Year 1 setup hands on (`engine/night/night-turn.md`);

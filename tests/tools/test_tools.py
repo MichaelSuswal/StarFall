@@ -854,7 +854,7 @@ def test_paint_needs_images_md():
     finally:
         shutil.rmtree(d)
     wf = open(os.path.join(ROOT, ".github", "workflows", "paint.yml")).read()
-    assert "python3 tools/paint.py --check" in wf and wf.index("--check") < wf.index("- run: python3 tools/paint.py\n")
+    assert "python3 tools/paint.py --check" in wf and wf.index("--check") < wf.index("- run: python3 tools/paint.py --paint\n")
 
 
 # ---------------------------------------------------------------- build 4: map.py (items 58, 60, 67, 74, 81, 86, 87, 93)
@@ -1270,6 +1270,54 @@ def test_lockcheck_name_said_openly_by_player_is_not_sealed():
         append(repo, "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt", "Hollin Marsh\n")
         append(repo, pub, "Hollin Marsh keeps nine skeps.\n")
         append(repo, "campaigns/fx/player/transcript-day3.md", "## DM:\n\nHollin Marsh waits.\n")
+        assert lock(repo, "--leaks")[0] == 1
+
+
+def test_lockcheck_kept_term_never_exempted():
+    """Decision 8: a "!" term (the sealed factors' names) is never let through as the player's open
+    word, a known map name, a people's knowledge name or an allowed phrase."""
+    sealed = "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt"
+    pub = "campaigns/fx/player/notes.md"
+    with tmpcopy() as repo:
+        append(repo, sealed, "!kettle\n!Kettle\n")
+        assert lock(repo, "--leaks")[0] == 0
+        append(repo, pub, "A kettle sang.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'kept sealed term "kettle"' in out, out
+        # said by the player in the open table talk: still sealed outside the transcript
+        append(repo, "campaigns/fx/player/transcript-day2.md", "## Player:\n\nMy kettle, I think.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "notes.md" in out and "transcript-day2.md" not in out, out
+        # an allowed phrase does not exempt it
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/leak-allow.txt", "kettle  # test, 2026-11-22\n")
+        assert lock(repo, "--leaks")[0] == 1
+    with tmpcopy() as repo:  # a people's knowledge file is no exemption either
+        append(repo, sealed, "!Kettle\n")
+        append(repo, "campaigns/fx/civs/fxpeople/knowledge.md", "The Kettle is a hill to the east.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'kept sealed term "Kettle"' in out, out
+    with tmpcopy() as repo:  # an ordinary "!" term line is a term; the "!" is no part of it
+        append(repo, sealed, "!Hollin Marsh\n")
+        append(repo, pub, "Hollin Marsh keeps nine skeps.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'kept sealed term "Hollin Marsh"' in out and '"!Hollin' not in out, out
+
+
+def test_lockcheck_kept_term_not_scanned_in_transcripts():
+    """Must-fix 10: the creation transcripts are the player's own words kept verbatim, and are not
+    scanned for a kept term; every other public file is, the DM's copies of the player included."""
+    sealed = "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt"
+    with tmpcopy() as repo:
+        append(repo, sealed, "!kettle\n")
+        append(repo, "campaigns/fx/player/transcript-day1.md", "## Player:\n\nA kettle, and the kettle again.\n"
+                                                              "## DM:\n\nNoted.\n")
+        assert lock(repo, "--leaks")[0] == 0
+        append(repo, "campaigns/fx/player/survey-day1.md", "Remark: a kettle.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "survey-day1.md" in out and "transcript-day1.md" not in out, out
+    with tmpcopy() as repo:  # an ordinary sealed term is still scanned in the transcripts
+        append(repo, sealed, "Hollin Marsh\n")
+        append(repo, "campaigns/fx/player/transcript-day1.md", "## DM:\n\nHollin Marsh waits.\n")
         assert lock(repo, "--leaks")[0] == 1
 
 
@@ -1692,6 +1740,14 @@ def test_validate_underground_and_layers():
         json.dump(w, open(wp, "w"))
         code, out, _ = validate()
         assert "underground" not in out and "layer" not in out   # (the small world fails only the continent rule)
+        # the converse: a layer when the Night 1 decision line reads none (should-fix 8)
+        with open(os.path.join(S, "world-draft.md"), "w") as f:
+            f.write("# World draft\n\nUnderground: none\n")
+        code, out, _ = validate()
+        assert code == 1 and "world-draft.md:3 decide the world has no underground, but map.json has a layer (under-1)" in out, out
+        with open(os.path.join(S, "world-draft.md"), "w") as f:
+            f.write("# World draft\n\nUnderground: yes, one cut gallery.\n")
+        assert "underground" not in validate()[1]
         # the layer's form
         bad = json.loads(json.dumps(w))
         bad["layers"][0]["id"] = "deep"
@@ -1719,7 +1775,7 @@ def test_validate_underground_and_layers():
 
 
 def test_paint_help_and_no_arguments():
-    """Item 62: --help prints the usage; with no arguments paint.py only reports (outside the workflow)."""
+    """Item 62: --help prints the usage; with no arguments paint.py only reports, in the workflow too."""
     import paint
     code, out, _ = run_quiet(paint.main, ["--help"])
     assert code == 0 and "--paint" in out and "--check" in out and "painted" not in out.split("Usage")[0]
@@ -1731,7 +1787,11 @@ def test_paint_help_and_no_arguments():
         assert code == 0 and "would paint r.json" in out and "nothing painted" in out
         assert run_quiet(paint.main, ["--bogus"])[0] == 2
         assert paint.wants_paint(["--paint"], {}) and not paint.wants_paint([], {})
-        assert paint.wants_paint([], {"GITHUB_ACTIONS": "true"}) and not paint.wants_paint(["--check"], {"GITHUB_ACTIONS": "true"})
+        assert not paint.wants_paint([], {"GITHUB_ACTIONS": "true"}) and not paint.wants_paint(["--check"], {"GITHUB_ACTIONS": "true"})
+        os.environ["GITHUB_ACTIONS"] = "true"
+        code, out, _ = run_quiet(paint.main, [])
+        assert code == 0 and "nothing painted" in out
+        del os.environ["GITHUB_ACTIONS"]
     finally:
         paint.pending = real_pending
         if old is not None:

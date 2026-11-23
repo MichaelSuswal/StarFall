@@ -72,6 +72,13 @@ lacks, with the layer's form checked and an unpainted layer not drawn (68); pain
 report-only default (62); and `tools/stamp_time.py` (10). The fixture's seen features f01 to f03 carry
 `"named": true`, since its public notes use their names.
 
+The build 5 fixes (run 04 `build-check.md`) add: in lockcheck, a `!` term in `sealed-terms.txt` never
+exempted (not by the player's open words, a known map name, a people's knowledge file or
+`leak-allow.txt`), and not scanned in the creation transcripts while every other public file is
+(decision 8, must-fix 8 and 10); in map.py, validate failing a layer when the world draft's decision
+line reads `Underground: none` (should-fix 8); paint.py reporting only with no arguments inside the
+workflow too (should-fix 9), and the paint workflow test reading `--paint` (must-fix 1).
+
 `lockcheck-sim-01.txt` records what lockcheck found on sim-01, as counts only.
 
 ## Migration from the sim-01 and dryrun formats

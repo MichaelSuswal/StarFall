@@ -78,3 +78,46 @@ Agent K, 2026-11-22. Files: `SPOILERS_do_not_open/keeper/creation-runbook.md`, `
 ## Orchestrator
 
 - .github/workflows/paint.yml: the paint step calls `tools/paint.py --paint`, since a bare call now only reports (62).
+
+## Fixes from the build check
+
+Applied 2026-11-22 against `build-check.md`, under `build-plan.md` (decisions 7 to 9). Every must-fix and should-fix item is applied.
+
+### Must-fix
+
+1. `tests/tools/test_tools.py`: `test_paint_needs_images_md` reads `- run: python3 tools/paint.py --paint`. Suite 61 passed, 0 failed.
+2. `engine/design/DESIGN.md` 3.3 and 3.9: every god, player and NPC, gets two or three small innate knacks, sealed, found only in play, counted toward balance, named in no public file; an NPC god's from its own sealed backstory; knacks listed among what the sealed folder holds.
+3. `engine/design/CHANGELIST.md` build 5: three reversed-decision lines for decisions 7, 8 and 9.
+4. `engine/night/creation-nights.md` Night 2 Does: hidden powers and knacks for all eight gods, each NPC god's knacks from its own sealed backstory in `S/gods-sealed/<god>/`, the player's in `S/player/`.
+5. `creation-runbook.md` 2.6 and 2.7: balance counts every god's knacks; 2.7 is "Hidden powers and knacks, all eight", with a new step drawing two or three knacks per NPC god from `backstory-secret.md`, written in `S/gods-sealed/<god>/hidden-powers.md` with Status `knack (undiscovered)`; 2.10's term check names knack names.
+6. `creation-runbook.md` section 4, NPC god line: two hidden powers and two or three knacks from the backstory, each with limit and surfacing moment, counted in `balance.md`, named nowhere public, on the sealed terms list. The sealed terms lock line names knack names.
+7. `engine/roles/npc-god.md` (never receives its knacks; found only in play), `checker.md` check 4 (no NPC folder holds knacks; no public file names one), `keeper.md` creation list (knacks in `S/gods-sealed/<god>/`; knack names on the sealed list).
+8. `tools/lockcheck.py`: a `sealed-terms.txt` line starting `!` is a kept term (the docstring says only that the sealed factors' names are written so): never let through as the player's open word, a known map name, a people's knowledge name or a `leak-allow.txt` phrase. Test `test_lockcheck_kept_term_never_exempted`.
+9. `engine/roles/checker.md` leak paragraph: the exception for the sealed factors' names (`!` lines), worded without naming one; the transcripts are not scanned for them, every other public file is, and a hit is fixed by rewording, never by an allow line.
+10. The rule: the creation transcripts are the player's own words kept verbatim, not scanned for the sealed factor's name; every other public file is. Written in `creation-runbook.md` section 4 (new paragraph "The sealed factor's name in the player's words"), the sealed terms standing rule, template 7.12 and 1.1 (`!` lines), the DM-owned files rule (a third mechanical exception: the Keeper itself replaces the name in a DM-owned non-transcript file with a plain word of the same sense, logged sealed only, no correction written), the close-of-night rule and the fixing-flags rule; `sealed-factors.md` (secrecy paragraph and check 4); `checker.md` leak paragraph; and in `tools/lockcheck.py` (transcripts skipped for `!` terms only) with test `test_lockcheck_kept_term_not_scanned_in_transcripts`. The DM side, without naming anything: `day1-world-survey.md`, `day2-the-god.md` and `day3-the-people.md` close lists, and DESIGN 3.4b, say the transcript is the verbatim record and never changed, and a copy keeps any word the Keeper replaced with a plain word of the same sense.
+11. `survey-keeper-notes.md` rule 4 is now "Ties are the Keeper's": a half or quarter median, an even vote and any even-odds tie are decided by the Keeper by what makes the more interesting game, reason logged, no die; the Even odds line and the quarter rounding are removed. Overview line 13 matches.
+12. `survey-keeper-notes.md` Counting rule votes 1 and 3: ties decided by the Keeper as rule 4, no die.
+13. `creation-runbook.md` standing rules: Blends and votes, Table rolls (the half-median roll removed from the d100 list) and Rounding (the survey blend is not rounded; a blend between two whole steps is a tie for the Keeper). DESIGN 3.19 says ties in the blend are the Keeper's, no die.
+
+### Should-fix
+
+1. `checker.md` lock paragraph: `Rulings for review`.
+2. `creation-runbook.md` unsaid rule quotes "Written by the DM. Read by the DM, the Keeper and the checker." and says the header stands as written when the orchestrator writes the file in a test run (it names the role, not the hand).
+3. `day1-world-survey.md`: a layout for `mirror.md` (heading, the same header line, mode and date, `## Found` with `Source:` per line, `## Mirror survey` or `Not asked.`; no file in standard mode).
+4. Order named, scan not extended: `dm.md` and `checker.md` check 4 say a told name is recorded in `player/map-knowledge.json` (`tools/map.py reveal`, `told.name`) before, or in the same commit as, the first scene, rolling save or morning story outside `knowledge.md` that uses it.
+5. `npc-god.md` names `SPOILERS_do_not_open/campaigns/<name>/releases/000/<you>-landing.md`, read at Year 1 in place of last year's release; `night-turn.md` step 1 says the same.
+6. `sealed-factors.md` Record: the overrule is logged in the keeper log only; nothing is added to either roll log, since `tools/roll.py` has no note option and is the only writer. Check 5 says keeper log.
+7. DESIGN 12.6 and `dm.md`: "in the open" means the odds are stated to the player before the roll and `tools/roll.py` logs it with factors and odds in the campaign's public roll log `state/rolls.jsonl`; the die stays hidden and the player hears the outcome. (Worded to match `roll.py` and DESIGN 12.6 rather than "the public roll log with stated odds" alone.)
+8. `creation-runbook.md` 1.5 and 1.7: the world draft's decision line is `Underground: yes, <what it is>` or `Underground: none`. `tools/map.py validate` now also fails the converse, a layer in `map.json` when the world draft's line reads `Underground: none`; test added to `test_validate_underground_and_layers`.
+9. `tools/paint.py`: no arguments only reports, inside `GITHUB_ACTIONS` too; the stale fallback and docstring removed; `test_paint_help_and_no_arguments` updated.
+10. `tools/stamp_time.py` named in the runbook Time rule and 4.1, `creation-nights.md` and `night-turn.md`, in place of `TZ=America/Los_Angeles date`.
+11. `creation-runbook.md` 4.1: log that Night 3 closed first, then the close order (timing, commit `Creation night 3b: <name> closed`, pull with rebase and autostash, push); nothing after the push.
+12. `creation-runbook.md` Commit forms: forms for the 3a.4 blocked night, the Year 1 clock (Night 3b's close), the checker's `lock.md` states and `LOCKED.md`; 3a.4 uses its form; `checker.md` names its forms.
+13. `engine/rules/powers.md` Hidden powers rules: a knack bullet (every god has two or three, kept in the same sealed file, named on no card before it surfaces; how it surfaces and is added to the card under the hidden powers heading marked "knack"); the sealed-folder line names knacks.
+14. `engine/style/house-style.md` (and runbook 3a.4): answered. A layer that is one small gallery, or a few hollows with no regions of its own, is not painted; it stays as data with no `painting`, `draw` draws no sheet, and its hollows are told in words.
+
+### Also
+
+- `tests/tools/README.md`: the fixes' tests noted.
+- Notes 1 to 13 needed no change. `npc-god-rubric.md` section 12's variety-table tie roll is left as is (note 13; decision 9 covers the survey blend only).
+- Results: `python3 tests/tools/run.py` 61 passed, 0 failed (pytest the same); `python3 tools/lockcheck.py sim-04 --all` 0 failures in every check, 16 places warnings, unchanged. sim-04's own `sealed-terms.txt` was not changed.

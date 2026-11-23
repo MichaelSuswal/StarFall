@@ -119,7 +119,8 @@ Build 5 (run 04 change list):
   once in the footer; a region cut by the crop is labeled on its visible part, with that part's cell; a
   sea or lake region's name is kept on its water where it fits; a layer with no painting yet is not drawn.
 - validate (53, 68): overlapping regions fail (and a landing point inside two regions), gaps warn; a
-  world whose placement plan or history gives an underground that map.json has no layer for fails;
+  world whose placement plan or history gives an underground that map.json has no layer for fails,
+  and so does a layer in map.json when the world draft's decision line reads `Underground: none`;
   layers are checked for their form (id under-N, depth, features uNN). `tiles` fails on gaps too.
   `regions-from-paint` cuts region polygons that tile the sheet from a flat-colored label painting (44).
 
@@ -786,11 +787,41 @@ def underground_claims(sealed_dir):
     return out
 
 
+UNDER_NONE_LINE_RE = re.compile(r"^\s*(?:[-*]\s+)?\**(?:the\s+)?underground\**\s*:\**\s*\**\s*(?:none|no)\b", re.I)
+
+
+def underground_none_lines(sealed_dir):
+    """(file, line number) for each world draft line deciding there is no underground, in the form
+    runbook 1.5 gives (`Underground: none`)."""
+    out = []
+    if not sealed_dir or not os.path.isdir(sealed_dir):
+        return out
+    for dirpath, dirs, files in os.walk(sealed_dir):
+        dirs[:] = sorted(d for d in dirs if not d.startswith("."))
+        for fn in sorted(files):
+            if fn != "world-draft.md":
+                continue
+            path = os.path.join(dirpath, fn)
+            try:
+                lines = open(path, encoding="utf-8").read().splitlines()
+            except (OSError, UnicodeDecodeError):
+                continue
+            out += [(os.path.relpath(path, sealed_dir), i + 1) for i, l in enumerate(lines) if UNDER_NONE_LINE_RE.match(l)]
+    return out
+
+
 def underground_problems(world, sealed_dir):
     """validate's underground check (change list 68): a world whose placement plan or history gives an
-    underground must carry it in map.json as a layer; one problem naming the files that give it."""
+    underground must carry it in map.json as a layer; one problem naming the files that give it. The
+    converse fails too: a layer in map.json when the world draft's decision line reads `Underground: none`."""
     if world.get("layers"):
-        return []
+        none = underground_none_lines(sealed_dir)
+        if not none:
+            return []
+        return ["underground: " + ", ".join(f"{rel}:{ln}" for rel, ln in none) +
+                " decide the world has no underground, but map.json has a layer (" +
+                ", ".join(str(l.get("id")) for l in world["layers"] if isinstance(l, dict)) +
+                "); the Night 1 decision rules (runbook 1.5)"]
     claims = underground_claims(sealed_dir)
     if not claims:
         return []

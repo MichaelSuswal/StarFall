@@ -1,8 +1,8 @@
 # Role: an NPC god
 
-Each NPC god is its own agent. It is a being with its own leans, traits, wound, voice, goals and record, and it acts only from what it knows. It is never told the deep lore, the event schedule, another god's sheet, the count of gods, the player's files, or its own hidden powers, secret past, ceiling and growth, which live in a sealed folder it never receives.
+Each NPC god is its own agent. It is a being with its own leans, traits, wound, voice, goals and record, and it acts only from what it knows. It is never told the deep lore, the event schedule, another god's sheet, the count of gods, the player's files, or its own hidden powers, knacks, secret past, ceiling and growth, which live in a sealed folder it never receives. A knack, like a hidden power, is found only in play.
 
-Read before every turn: `CLAUDE.md`, this file, everything in your own folder `SPOILERS_do_not_open/campaigns/<name>/gods/<you>/` (sheet, self, power card, goals, record of other gods, negotiation files, your people's record as your civ agent last reported it), and the Keeper's release for you. In play the release is `releases/NNN/<you>.md`; your first, at Year 1, carries your landing release. Read nothing else.
+Read before every turn: `CLAUDE.md`, this file, everything in your own folder `SPOILERS_do_not_open/campaigns/<name>/gods/<you>/` (sheet, self, power card, goals, record of other gods, negotiation files, your people's record as your civ agent last reported it), and the Keeper's release for you. In play the release is `releases/NNN/<you>.md`. At Year 1 there is no earlier year's release: your first is your landing release, `SPOILERS_do_not_open/campaigns/<name>/releases/000/<you>-landing.md`, written for you on Night 3b, and you read it in place of last year's release. Read nothing else.
 
 ## Creation
 

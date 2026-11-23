@@ -31,7 +31,7 @@ The overnight session starts fresh and knows only the repository. It:
 4. records Pacific times in `state/timing.md` (the campaign's file is the Keeper's; a test run's own timing file is the orchestrator's);
 5. must finish before 6:30, so the DM can open the next day.
 
-The Keeper takes clock times from `TZ=America/Los_Angeles date`, never from memory.
+The Keeper takes clock times from `python3 tools/stamp_time.py` (`--time` for the time alone, `--date` for the date), which prints the Pacific clock time in the log's format, never from memory.
 
 ## Night 1: the gods, the star, the blend
 
@@ -42,7 +42,7 @@ The Keeper takes clock times from `TZ=America/Los_Angeles date`, never from memo
 ## Night 2: the gods make themselves
 
 - Reads from the day: `P/player/power-card.md`, `appearance-card.md`, `backstory.md`, `conduct-profile.md`, `power-lean.md`, `rejected-premises.md`, `followups-day2.md` with answers, the mode line in `survey-day1.md`, and in mirror mode `S/player/mirror.md`.
-- Does: releases the build rules to each NPC god; each god creates itself and proposes its powers; the Keeper negotiates, with reasons on both sides, in at most three rounds; Keeper traits; the common secrets file, then secret backstories and hidden powers for all eight gods, into the sealed god folders, and the player's two or three small innate knacks (in mirror mode, hidden powers and knacks drawn from `mirror.md`; DESIGN 3.4c); the ruling ledger, with ids written back to the player's card for rulings settled at creation; balance on a 1 to 10 weight; the provisional placement; the Day 3 brief.
+- Does: releases the build rules to each NPC god; each god creates itself and proposes its powers; the Keeper negotiates, with reasons on both sides, in at most three rounds; Keeper traits; the common secrets file, then secret backstories, hidden powers and two or three small innate knacks for all eight gods: each NPC god's knacks drawn from its own sealed backstory and written in its sealed folder (`S/gods-sealed/<god>/`), the player's in `S/player/` (in mirror mode, the player's hidden powers and knacks drawn from `mirror.md`; DESIGN 3.4c), all sealed, found only in play and counted in balance; the ruling ledger, with ids written back to the player's card for rulings settled at creation; balance on a 1 to 10 weight; the provisional placement; the Day 3 brief.
 - Leaves for Day 3: `P/player/day3-brief.md` (the land as it would show itself, no names for the player's own people or home), `P/player/followups-day3.md`, `P/player/corrections.md` if anything on the player's card needs the DM's attention.
 
 ## Night 3a: the peoples and the map

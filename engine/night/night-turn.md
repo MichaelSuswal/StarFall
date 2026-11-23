@@ -12,12 +12,12 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 - **The engage rule.** Look for `player/decisions-NNN.md`. The DM writes it at 1:30 only on a day the player posted in the game. If it is missing, the player did not play today and the world waits: write `years/NNN/waited-YYYY-MM-DD.md` (the Pacific date) holding one (oog) line for the morning ("The world waited. Year NNN is still open.") and the Pacific time, append a line to `state/timing.md` that starts with the Pacific date and contains "waited", commit, push, and stop. Do not advance the clock. Do not run any agent.
 - If the decisions file is present, start `years/NNN/` and `releases/NNN/`.
 - **Year 1 only.** Each NPC god's first release carries its landing release (`S/releases/000/<label>-landing.md`, written on Night 3b): the night turn hands it to the god in step 1, before the god decides its year.
-- Spawn agents as needed. Each agent gets only its own files. Use the models set in `state/models.md`. Take every real time from `TZ=America/Los_Angeles date`.
+- Spawn agents as needed. Each agent gets only its own files. Use the models set in `state/models.md`. Take every real time from `python3 tools/stamp_time.py` (`--time` for the time alone, `--date` for the date), which prints the Pacific clock time in the log's format.
 
 ## 1. Decisions in
 
 - The DM's handoff holds decisions only. Musings stayed with the DM.
-- Each NPC god agent reads last year's release for it, updates its record and goals, and writes `gods/<god>/decisions-NNN.md`. Seven agents, run in parallel, never one after another.
+- Each NPC god agent reads last year's release for it (at Year 1, in its place, its landing release `S/releases/000/<label>-landing.md`), updates its record and goals, and writes `gods/<god>/decisions-NNN.md`. Seven agents, run in parallel, never one after another.
 - Each god's decisions go to its civ agent.
 
 ## 2. Keeper pass one: the year's world events

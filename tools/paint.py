@@ -13,9 +13,8 @@ Usage (change list 62):
   python3 tools/paint.py --help     print this usage and do nothing else
   python3 tools/paint.py --check    list what would be painted and what is skipped; paint nothing
   python3 tools/paint.py --paint    paint every request its campaign's state/images.md covers
-  python3 tools/paint.py            with no arguments, report as --check does and paint nothing; only the
-                                    paint workflow (GITHUB_ACTIONS set to "true") paints with no arguments,
-                                    as it always has, until it is changed to call --paint
+  python3 tools/paint.py            with no arguments, report as --check does and paint nothing, wherever
+                                    it runs; the paint workflow calls --paint
 Any other argument prints the usage and paints nothing. Painting spends money on the image account.
 
 Held requests are never painted. A request written before its image is approved waits in
@@ -195,9 +194,8 @@ def usage():
 
 
 def wants_paint(argv, env=None):
-    """True only when this run should paint: --paint, or no arguments inside the paint workflow."""
-    env = os.environ if env is None else env
-    return "--paint" in argv or (not argv and env.get("GITHUB_ACTIONS") == "true")
+    """True only when this run should paint: --paint given, and --check not given. No arguments never paints."""
+    return "--paint" in argv and "--check" not in argv
 
 
 def main(argv=None):

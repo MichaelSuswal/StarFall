@@ -43,6 +43,13 @@ layout (tests use a fixture).
                holds what the people know of the land by their own names: a map name or alias
                there is told to the people, not to the god, so it is allowed in that file
                and is no leak (change list 46); every other sealed term still fails there.
+               A term written in sealed-terms.txt with a leading "!" (the sealed factors'
+               names are written so) is kept sealed everywhere: it is never let through as
+               a name the player said in the open table talk, a known map name, a name in a
+               people's knowledge file or a phrase in leak-allow.txt. The creation
+               transcripts, P/player/transcript-day*.md, are the player's own words kept
+               verbatim, and are not scanned for a kept term (the player using an ordinary
+               word reveals nothing); every other public file is, so no agent writes one.
                S/leak-allow.txt, as the checker writes it (one phrase per line, quoted or
                not, a # comment after it or on its own line), exempts terms; a number-word
                hit is exempted by its quoted phrase, or by a longer allowed phrase that holds
@@ -78,6 +85,7 @@ BRACKET_RE = re.compile(r"(?<!\])\[([a-z0-9][a-z0-9-]*(?:\s*,\s*[a-z0-9][a-z0-9-
 ROLL_RE = re.compile(r"\br-(\d{4,})\b")
 BRACKET_SKIP = {"x", "sic", "tbd", "todo", "ok"}
 SEALED_TERMS = "sealed-terms.txt"
+KEPT_KIND = "kept sealed term"   # a "!" line in sealed-terms.txt: never exempted (decision 8)
 # Number words near god terms (change list 44): a count of gods written in words.
 COUNT_WORDS = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven",
                "twelve", "twice", "a dozen", "half a dozen"]
@@ -192,16 +200,21 @@ class Campaign:
             return set()
         return {ph for ph in (allow_phrase(l) for l in read(p).splitlines()) if ph}
 
-    def sealed_terms(self):
+    def sealed_terms(self, kept=None):
         """The Keeper's sealed term list, S/sealed-terms.txt: one term per line, # for comments,
-        or None when the file is missing."""
+        or None when the file is missing. A leading "!" marks a kept term (never exempted, see
+        --leaks); it is stripped here. kept=True returns only the kept terms, kept=False only the others."""
         p = os.path.join(self.S, SEALED_TERMS)
         if not os.path.exists(p):
             return None
         out = []
         for line in read(p).splitlines():
             t = line.strip()
-            if t and not t.startswith("#") and t not in out:
+            if not t or t.startswith("#"):
+                continue
+            is_kept = t.startswith("!")
+            t = t.lstrip("!").strip()
+            if t and t not in out and (kept is None or kept == is_kept):
                 out.append(t)
         return out
 
@@ -406,7 +419,12 @@ def leak_terms(c):
 
     known_lower = known_map_names(c)
     said = player_said_text(c)
-    for t in c.sealed_terms() or []:
+    # kept terms (a leading "!"): no exemption of any kind, the allow file included (decision 8)
+    for t in c.sealed_terms(kept=True) or []:
+        for v in sorted(article_variants(t)):
+            if len(v.strip()) >= 3:
+                terms.append((KEPT_KIND, v.strip(), re.compile(r"(?<![\w])" + re.escape(v.strip()) + r"(?![\w])"), "fail"))
+    for t in c.sealed_terms(kept=False) or []:
         if {v.lower() for v in article_variants(t)} & known_lower:
             continue  # a map name the player's god has seen or been told may appear (runbook 7.12)
         if re.search(r"(?<![\w])" + re.escape(t) + r"(?![\w])", said):
@@ -655,6 +673,7 @@ def count_hits(line):
 
 
 PEOPLE_KNOWLEDGE_RE = re.compile(r"^civs/[^/]+/knowledge\.md$")
+TRANSCRIPT_RE = re.compile(r"^player/transcript-day\d+\.md$")
 MAP_NAME_KINDS = {"unknown place", "unnamed seen region", "unheard map name"}
 
 
@@ -662,6 +681,13 @@ def is_people_knowledge(c, path):
     """True for a people's knowledge file, campaigns/<name>/civs/<people>/knowledge.md (change list 46)."""
     rel = os.path.relpath(path, c.P).replace(os.sep, "/")
     return not rel.startswith("..") and PEOPLE_KNOWLEDGE_RE.match(rel) is not None
+
+
+def is_transcript(c, path):
+    """True for a creation transcript, campaigns/<name>/player/transcript-dayN.md: the player's own
+    words, kept verbatim, never scanned for a kept term."""
+    rel = os.path.relpath(path, c.P).replace(os.sep, "/")
+    return not rel.startswith("..") and TRANSCRIPT_RE.match(rel) is not None
 
 
 def map_names_lower(c):
@@ -681,8 +707,9 @@ def check_leaks(c, rep):
 
     def told_to_people(kind, label):
         """A map name (or alias) in a people's knowledge file is told to the people, not to the god:
-        allowed there, and no leak (change list 46). Every other sealed term still fails there."""
-        return kind in MAP_NAME_KINDS or label.lower() in place_names
+        allowed there, and no leak (change list 46). Every other sealed term still fails there,
+        and a kept term always does."""
+        return kind != KEPT_KIND and (kind in MAP_NAME_KINDS or label.lower() in place_names)
     if c.sealed_terms() is None:
         rep.fail("leaks", f"{c.rel(os.path.join(c.S, SEALED_TERMS))} is missing; the Keeper writes it "
                           "(god names and bynames, hidden power names, common-secrets names, places off the map)")
@@ -692,11 +719,14 @@ def check_leaks(c, rep):
         rep.warn("leaks", f"no public folder {c.rel(c.P)}")
     for path in public_files(c):
         people = is_people_knowledge(c, path)
+        transcript = is_transcript(c, path)
         for ln, line in enumerate(read(path).splitlines(), 1):
             failed_labels = set()
             for kind, label, rx, sev in terms:
                 if people and told_to_people(kind, label):
                     continue
+                if transcript and kind == KEPT_KIND:
+                    continue  # the player's own words, kept verbatim (decision 8)
                 if sev == "fail" and rx.search(line):
                     failed_labels.add(label.lower())
                     rep.fail("leaks", f"{c.rel(path)}:{ln}: {kind} \"{label}\"")
