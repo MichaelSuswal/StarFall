@@ -18,7 +18,7 @@ jobs:
       # paint.py applies the same check itself, so nothing uncovered is painted either way.
       - name: check requests against images.md
         run: python3 tools/paint.py --check
-      - run: python3 tools/paint.py
+      - run: python3 tools/paint.py --paint
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}

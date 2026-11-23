@@ -74,3 +74,7 @@ Agent K, 2026-11-22. Files: `SPOILERS_do_not_open/keeper/creation-runbook.md`, `
 - Run 03 item 94 (runbook Night 2 Reads, 2.6, 2.7, 7.13): mirror mode on Night 2, the hidden powers and two or three knacks for the player's god drawn from the sealed mirror file by the mode recorded on Day 1, nothing sensitive drawn; knacks in the sealed hidden-powers file and counted in balance.
 - Also applied in the runbook, as consequences of items assigned to other agents: 38 (aliases are never stamped, said in 3a.5) and 40's runbook half (seat distances and landing views measured again after a landing move).
 - Not applied: the logged rulings with no assigned item (the return-scale clauses in the Night 2 release, word-bound drawbacks, ledger ids on a DM-owned people record, the Hierarchy hint's refusal words, which peoples count among the godless), left for Michael. Item 37's watch note for the next run's setup belongs to the stand-in brief, not these files.
+
+## Orchestrator
+
+- .github/workflows/paint.yml: the paint step calls `tools/paint.py --paint`, since a bare call now only reports (62).
