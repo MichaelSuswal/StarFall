@@ -178,3 +178,48 @@ Options, from the Day 2 table (transcript and card), each once, no recommendatio
 `god-rivers`'s rule line gives the lean's name only; the sheet words that follow it on the sheet say how rare the result is and name a Night 3 file, and neither belongs in a one-line lean.
 Nothing of other gods, counts, pools, the player, the star or the lore is in any release.
 Stamped 2026-11-23 08:51.
+
+### 2.2 Each god creates itself
+Paused 2026-11-23 08:52 for the god agents to write `self.md`, `goals.md` and `record-of-gods.md`. Resumed on the orchestrator's word that all were written (found uncommitted in the working tree; committed with tonight's files).
+All `self.md` files read in full against their sheets; `goals.md` and `record-of-gods.md` read. Every section is present in each. Names and bynames: `god-rivers` Wend (the Weigher, the Old Man at the Ford); `god-roads` no name (the Court at the Ford, the Many); `god-sea` Ysmer (the Late Guest, the Tall Stranger); `god-fate` Skerrit (the Factor, the Tally-beast); `god-beasts` no name (the Tall Shepherd); `god-harvest` no name (Reeve, the Unnamed Reeve); `god-storms` no name (the Warden of the Weather, the Antlered Cold).
+Check against the sheets: each god's traits name the rolls they reconcile; each people hope sits within its size, settlement, rule and worship leans, and `god-rivers` gives its reason for refusing helpers (the formal refusal is Night 3's, in `people-hoped.md`). Each record holds the one entry. No premise line is filled by any god. Each form says what breaks it. No send-back.
+Noted, not sent back:
+- `god-fate` and `god-beasts` each name their seed in a "Why this god has it" line of their own file. That line is not copied to any card, and the seed is named nowhere in play.
+- `god-fate`'s own file uses the sealed factor's name as an ordinary word, twice, for what a mortal might pay or be owed. It is the god's own word in its own sealed folder, not the mechanic, and no public file holds it. The Keeper writes "chance" and "fortune" in the negotiation file and the card, and rules that such a price cannot be taken (2.3). Logged for the checker as a hit it will find under its check 4.
+- `god-fate`'s return names both the nearest ground and "the place where it fell": put to it as a choice in round 1.
+- `god-roads` offered its own pair of drawbacks on one power: put back to it as its choice in round 1, with the Keeper's reasons.
+- `god-roads`'s form is a flock. Under the one-body rule it is one body in one place (Night 1, Q16); its Sent Voices power is priced as a power with the body's limits written in (2.3).
+- Choices arrived at apart, standing, no god told (principle from run 01): antlers on `god-beasts` and `god-storms`; a long table remembered by `god-roads`, `god-beasts` and `god-storms`; a name worn smooth for `god-harvest` and `god-storms`; a ford in two bynames; a price that binds the god's own tongue to truth or to its word, offered by `god-rivers`, `god-fate`, `god-beasts` and `god-harvest`, and held by the player's god. Records tell the gods apart by label.
+- Things carried: all ordinary by each god's own account. `god-roads`'s knotted cord is part of a power and is priced there.
+Return rungs, as the scale's review asks: every god proposed the season rung (the first), as the player's god took.
+Stamped 2026-11-23 09:03.
+
+### 2.3 Negotiate powers, god by god (the player's card, and round 1)
+The player's table rulings: the card carried seven "Ledger: pending, Night 2" marks for six matters. Entered in `ruling-ledger.md` as L-0001 (True ground), L-0002 (The paced claim), L-0003 (What is held), L-0004 (The whole map), L-0005 (the trade and The slow chain, one matter marked in two places, one id cited in both), L-0006 (The return). Ids written back to `campaigns/sim-05/player/power-card.md` in place of "pending, Night 2"; nothing else on the card touched.
+Review of the player's card against the real world:
+- True ground and The whole map against the mystery standard: both show effects on a surface, no cause, nothing beneath, no persons but the round counts. They stand. One Limit is needed, see the rulings below (L-0009).
+- Limits priced by shape against a scarcity (no ore, salt or water below the surface; no yield from a claim): the world kept salt and iron as its scarcities, so these Limits bear real weight and stand as written. Nothing is said of it.
+- The chaining rate: confirmed (L-0007). Where the god gathers with no claimed ground: confirmed (L-0008). The cost of a mortal working against a held line: set at twice (L-0010).
+- The player's ask to be shown what a return takes: granted to the player, not the god (L-0011).
+- The sealed answers in `unsaid.md`, three, none with a confirmation beneath it. The first is a want: under the standing rule it is not applied in any fitting tonight. The second is a request not to be told a thing at the table, with the decision whether it is ever found left to the Keeper (L-0013). The third bears on how the return's price is taken (L-0012).
+Decision the files did not make: the True ground Limit. Decided: add "It reads the ground and what stands on it. It gives no distance, height or bearing for anything in the sky," through `corrections.md`, for the DM to put to the player before Day 3 is played. Reasons, by the judgment order: fair to the player's own words (sky is outside this god); fits the power as first written (ground); and the mystery standard's rule 14 (a central measurement is earned). Applied; listed for review.
+Decision the files did not make: what "a good deal more" is on What is held. Decided: twice. Reasons: the plainest figure that can be applied the same way every time. Applied; listed for review.
+Decision the files did not make: whether the player may be shown what a return took, when every NPC god is told nothing. Decided: the player is told in (oog) after the return; the god in the fiction is not. Reasons in L-0011. Applied; listed for review.
+Decision the files did not make: whether a sealed answer that is a request about a price, not a want, needs the DM's dated confirmation before it is honored. Decided: no; it is a table request and is ruled tonight (L-0012). The first sealed answer, which is a want, stays unapplied. Applied; listed for review.
+Decision the files did not make: whether a thing the player asked not to be told at the table may still be findable in play. Decided: yes, by the god's own action only, never delivered (L-0013). Applied; listed for review.
+`campaigns/sim-05/player/corrections.md` written for the DM: the two confirmations, the Limit to put to the player, the figure, the answer on the return.
+
+Round 1 written for every label, `releases/creation/<label>-night2-negotiation.md`, from template 7.6: each proposed power as card lines (Description, Drawback, Limits), choices where a price goes two ways, and the reasons. Each power was tested against the floor (light and dark, distance, falling, carrying, water, being watched, other gods, the god's own people) and the four further tests; the answers are in the Limits lines.
+The same pricing rules for every god, whatever its stance:
+- A condition of use (deaf while listening, rooted while counting) is written as a Limit and buys nothing: `god-rivers` (The Listening), `god-beasts` (The Count of the Herd). A penalty only carelessness triggers buys nothing: `god-rivers` (The Witness at the Ford). A drawback that says the form again is refused: `god-harvest` (The Weight), part of `god-beasts` (The Standing).
+- A price a god can end at will is not a price: `god-fate` (The Bill, forgiving).
+- A price that leans on needing food is light, since no god needs food: `god-sea` (Sea-Step), `god-beasts` (Speech with Beasts).
+- Nothing marks a god at a distance, by the campaign's god-sense: `god-beasts`'s count does not mark a god's beast body.
+- One body: `god-roads`'s Sent Voices are parts of the one body, with no will or power of their own.
+- Information powers show effects only: `god-rivers` (sounds, words for a day and kinds of sound to a season), `god-sea` (a drowned thing as bulk and place), `god-beasts` (a count, never why), `god-storms` (words within a mile; a rite's who and where only within a day's walk, since word between far places travels by those who carry it).
+- One weakness buys one step: `god-sea` asked two reaches and is offered one; `god-harvest`'s step is written to a day's walk; `god-fate`'s step is written to what the scales can reach (what a party believes), since no power tells what will be; `god-roads`'s weakness is tightened so that it costs something while it goes unnoticed.
+- Scale across a people in a year: `god-fate`'s bills capped at seven open; `god-beasts`'s call cannot be betrayed without losing that kind for a year; `god-harvest`'s blessing is counted field by field; `god-storms`'s great workings carry a heavier price than its small ones, and its sure stroke needs the accused heard.
+- A price in a mortal's name, memory, sleep or fortune cannot be taken by `god-fate`'s bill: a mortal hands over goods and labor, not what it is.
+- `god-roads`'s pair of prices on Passage Given were not equal: the Keeper said which the power needs and that the heavier buys nothing more, so that taking it is a step beyond the price and is counted at 2.4.
+A wording caught before release: two draft lines named a world scarcity as fact (in `god-rivers`'s and `god-fate`'s files) and were reworded before the files were committed.
+Paused 2026-11-23 09:03 for the god agents to write their round 1 replies.

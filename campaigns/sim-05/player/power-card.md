@@ -52,7 +52,7 @@ Limits settled at creation:
 - The drawback binds the god's own mouth and hand. What its captains say on their own is theirs.
 - Not applicable: carrying.
 - The player's first wording, kept as intent: "Wherever I stand, I know the true distance, slope and bearing of the ground, the way you know where your own hand is."
-- Text, limits and price settled at creation. Ledger: pending, Night 2.
+- Text, limits and price settled at creation. Ledger: L-0001.
 Rulings:
 Trades: none.
 Growth: Possible. Not shown.
@@ -74,7 +74,7 @@ Limits settled at creation:
 - Pace: chaining a line is slower than walking it. Set at the table at a third of the god's walking pace, before the weakness below. Provisional, for the Keeper.
 - Not applicable: light and dark, falling, carrying.
 - The player's first wording, kept as intent: "When I pace a boundary with the chain, the land inside it starts to feel mine. Those who live inside it feel it too, as a settled, ordered sense. It isn't coercion. It's more like the pull of a well-kept road."
-- Text, limits and price settled at creation. Ledger: pending, Night 2.
+- Text, limits and price settled at creation. Ledger: L-0002.
 Rulings:
 Trades: none.
 Growth: Possible. Not shown.
@@ -93,7 +93,7 @@ Limits settled at creation:
 - Use: it works on every claimed line at once, with no count.
 - Not applicable: light and dark, distance, falling, carrying, water, being watched.
 - The player's first wording, kept as intent: "What I hold, I hold. A border I've walked and my people have kept resists being argued, bribed or magicked out of existence more than ordinary ground does."
-- Text, limits and price settled at creation. Ledger: pending, Night 2.
+- Text, limits and price settled at creation. Ledger: L-0003.
 Rulings:
 Trades: none.
 Growth: Possible. Not shown.
@@ -115,9 +115,9 @@ Limits settled at creation:
 - The three terms the player offered as its price (paced ground only, half absent while reading, the ground without the people) are conditions of the power and are written here as Limits; they bought nothing.
 - Not applicable: falling, carrying, being watched.
 - The player's first wording, kept as intent: "I want to see every inch of my claimed ground at once, wherever I am. I'd know every army crossing, every wall breached and every road cut, in real time, as a map that updates in my head."
-- Text, limits and price settled at creation. Ledger: pending, Night 2.
+- Text, limits and price settled at creation. Ledger: L-0004.
 Rulings:
-Trades: the round counts of people were bought by the weakness The slow chain (see Weaknesses taken). Settled at creation. Ledger: pending, Night 2.
+Trades: the round counts of people were bought by the weakness The slow chain (see Weaknesses taken). Settled at creation. Ledger: L-0005.
 Growth: Possible. Not shown.
 
 ### The return
@@ -131,7 +131,7 @@ Limits settled at creation:
 - The player's wish, kept as intent: "I wish to be re-gathered at the nearest set mark of ground I hold, a stone or stake of my own line. I'd go there slowly, as a body walking out of a fog, and I'd keep my chain." The player offered a return of years with a cost growing with distance; the standing scale is the same for every god, so it was written on the scale instead.
 - The player asks that the roll be logged where the Keeper can show it, so the god knows what was taken once it is gone. Passed to the Keeper.
 - Not applicable: light and dark, falling, carrying, water, being watched, other gods, the god's own people.
-- Text, rung and price settled at creation. Ledger: pending, Night 2.
+- Text, rung and price settled at creation. Ledger: L-0006.
 Rulings:
 Trades: none.
 Growth: Possible. Not shown.
@@ -142,7 +142,7 @@ Two hidden powers exist. Discovered powers are added above as they surface.
 ## Weaknesses taken
 
 ### The slow chain
-Ostrane's chaining runs at three quarters of the plain chaining rate, whatever the Keeper confirms that rate to be: a quarter of its walking pace as the rate stood at the table. Nothing hurries it, no helper, craft or power. Anyone who knows it can outpace the god's claiming, and a line half paced is no line. It bought the round counts of people on The whole map: groups of a hundred or more, as a round figure only. Offered by the player at a quarter against a third; rewritten by the DM against the confirmed rate, and the improvement narrowed, with the player's yes. Settled at creation. Ledger: pending, Night 2.
+Ostrane's chaining runs at three quarters of the plain chaining rate, whatever the Keeper confirms that rate to be: a quarter of its walking pace as the rate stood at the table. Nothing hurries it, no helper, craft or power. Anyone who knows it can outpace the god's claiming, and a line half paced is no line. It bought the round counts of people on The whole map: groups of a hundred or more, as a round figure only. Offered by the player at a quarter against a third; rewritten by the DM against the confirmed rate, and the improvement narrowed, with the player's yes. Settled at creation. Ledger: L-0005.
 
 ## Ceiling
 Set by the world. Not shown.
