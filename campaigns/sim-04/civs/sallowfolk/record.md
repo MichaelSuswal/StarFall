@@ -44,7 +44,7 @@ Three defaults were refused (the number, the town and seat, the helpers). Nothin
    Weakness, agreed: their eye is for hive, weather and blossom, not for people. They read strangers and bargains poorly.
    Full price offered: that weakness and a second (slow to act on what they see). Having no helpers bears on this edge: one step, and the second weakness was dropped.
 
-Both rulings: settled at creation. Ledger: pending, Night 3.
+Both rulings: settled at creation. Ledger: L-0019 for the first edge, L-0020 for the second.
 
 ## Their magic
 
@@ -52,7 +52,7 @@ Bee-wives. "A bee-wife in perhaps one hamlet in three, who can calm a hive, tell
 
 Settled at the table: the death she reads is one that has already happened somewhere, "a hive lost, a keeper dead in another hamlet, a neighbor's stock failed, not one that's coming. She gets news late and from a distance. No foresight."
 
-Priced by the DM on the given terms (simple, and it costs the worker): a bad night for each use, wearing over years. Subject to the Keeper's reconciliation on Night 3. How many bee-wives there are is the world's to fit; "one hamlet in three" is the player's wish, and the player asked to be told if the count changes. A bee-wife's hive is a hive kept by more than ordinary craft and is unruled under the Working until the god meets one, as the power card already says.
+Priced by the DM on the given terms (simple, and it costs the worker): a bad night for each use, wearing over years. The pricing stands as given at the table (a bad night for each use; what she reads has already happened; no foresight). Ledger: L-0027. How many bee-wives there are is the world's to fit; "one hamlet in three" is the player's wish, and the player asked to be told if the count changes. A bee-wife's hive is a hive kept by more than ordinary craft and is unruled under the Working until the god meets one, as the power card already says.
 
 ## What they believe
 

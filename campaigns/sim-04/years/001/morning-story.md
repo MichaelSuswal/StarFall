@@ -1,0 +1,27 @@
+(oog) Before you wake, as was promised at the close of Day 3: what the fitting of the world settled among the things you wished for.
+
+The bee-wives. You asked to be told if the fitting changed the count, and it did. There are three bee-wives in the valley, in three of its hamlets, where your wish was about one hamlet in three. In the other hamlets it is rumor, as you wished. The hamlets number thirteen, and they stay unnamed for play. One is the highest, where the upland starts, as you wished for Orrin Teal. The roofless stone hall stands, by the old track at the edge of that highest hamlet, and what Orrin has noticed there is so, as he has noticed it. The river crossing with its market ground stands, near the middle of the valley, and the reeves meet there. The meeting is kept exactly as you agreed it.
+
+One correction to the record. The Day 3 brief listed a worn track, wide enough for a cart, among the things the land shows from where you come down. The brief was written before the map was traced. The track is there, but from the ground where you land no track is in sight, and you have not seen it.
+
+Year 1. Early spring, and first light. You are down, all of you, one swarm at full number, on a low rise at the edge of a water meadow, on the floor of a broad river valley. It is cold, cold enough that nothing with wings is abroad, and you are clustered and slow, with the warmth at the heart of your own cluster. Your hum is there, and no other like it. Nothing is wrong with you. The ground is wet. The river is loud and brown with meltwater. There is woodsmoke on the air, faint.
+
+[painting]
+
+Little is in flower. There are catkins on the willow and the hazel, blackthorn just breaking on the hedges, and the first small things low in the grass on banks that face the sun. You read the world by bloom, and by that reading the country is nearly silent. It will not be for long: in a few weeks it flowers in turn, from the valley floor upward. Snow is off the valley floor and still lies in the shade of the upper woods.
+
+From the rise, level ground shows out to about three miles, and things at ground level within about two. Around you are water meadows, flooded in places. On the lower slopes there are hedged fields and bare orchards, in the side valleys old woods, and above them, on both sides, upland brown with heather. About a mile to the south runs the river, with about three miles of it in view, coming from the west and going toward the south-east, its line marked by willows. High brown ground stands on the skyline to the south, its nearest edge about 18 miles off, and on the skyline to the north, about 21 miles off. To the west, about 25 miles off along the valley, the ground is lower.
+
+Smoke rises in twelve places, and nothing shows of the places it rises from. The nearest is about 3 miles to the north. The others stand about 6 miles to the south-west, 10 to the south-east, 11 to the north-west, 12 to the east, 15 to the west, 18 to the north-east, 20 to the south-east, 22 to the east, 23 to the north-west, 32 to the south-east and 35 to the east. The hedges were laid by hand, and not this year. The orchard trees are pruned. The turf is grazed. There is no track or road in view, no building and no person.
+
+Low in the north-east there is a blue light, larger than the moon, a little more than half a fist held at arm's length above the skyline. It is bright enough to throw a faint shadow before the sun is up.
+
+You know that you have come down among people, to tend. You have met none of them. No one has spoken to you, and you have no name for any place, river, hill or person. You cannot fly until the day warms. The Listening does nothing until a valley is chosen, and in early spring it is thin wherever it is opened. You know that others like you came down when you did. Of them there is nothing: no weight and no stillness in the air about you. What lies behind this morning is fog.
+
+(oog) A few plain things for the first morning.
+
+Your people call themselves the Sallowfolk and their valley Sallowdene. Both names are yours, from Day 3. No one has said either in your hearing, so the story does not use them yet.
+
+The map is attached, drawn at the landing frame. The sheet is about 116 miles wide and about 75 from top to bottom. It is that wide on purpose, to show the map's scale: at this scale you and everything your eyes take in from the rise sit on one mark. The clear ground is the whole valley, because the map clears a country at a time once you are standing in it; what you see from here is only what the story above gives. The name printed on the valley is your own name for it, and no one has said it in your hearing. The two uplands and the lower ground to the west show through cloud, as skylines seen and not ground walked, and each label is set on whatever part of that ground falls on the sheet; the directions and distances in the story are the ones measured from where you stand. The twelve smokes are listed beneath the frame and not drawn on it, because a thing known this loosely is placed only by its grid cell, and a grid cell is larger than this sheet. The second direction after each smoke in that list points to the middle of its cell, not to the smoke. You can ask for the map at any time.
+
+The year is yours from this moment until the world turns at 1:30. Nothing is waiting on you and no one has asked you anything.
