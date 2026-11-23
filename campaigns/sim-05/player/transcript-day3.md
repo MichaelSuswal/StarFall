@@ -82,3 +82,39 @@ The Clerk "can't lie in the books any more than I can", and the Judge "can't be 
 The paid core of drilled soldiers under the Marshal. A town's paid guard is ordinary and not priced; what it costs is its food and pay, out of stores the Keeper sets tonight. Tell me roughly how many you mean, so I can say whether it is still ordinary.
 
 Everything else you described, the hall, the five offices, the order copied, sealed, read aloud and tallied back, the roll in duplicate, is ordinary custom and skill. No price.
+
+## Player:
+
+**On the three points.** The Clerk and the Judge are character, not binding. They're honest by oath and custom, and their books are open at the market. I'm not asking for an edge, and I don't want a clerk whose hand can't write a false count. Their honesty should be earned and checked. It should fail sometimes, in play, and I'd handle it the way any ruler does. The soldiers: about eighty paid and drilled, roughly one in sixty of the people, in two companies, with the levy behind them. That's an ordinary town guard with a little more drill. Tell me if it's too many.
+
+**On the gap, the rise and the road.** Understood. The gap is a wish for a first action, and the world places it. Where the town stands is the Keeper's. The people's belief about the road is theirs, and I don't claim it as fact.
+
+**The first morning.** They don't know me. They've been waiting for nothing in particular. They haven't been waiting for a god, only for a fair judge, because their fence quarrels have been running for years and no one can end one. I walk up from the river, a tall grey stranger with a chain, and I begin by asking to see the oldest disputed fence. That's how they learn what I am, and I'll tell them the truth when asked.
+
+**Which offices stand already.** Under the town's own law, held by people who have never heard my name:
+- **The Reeve** stands. It's an elected office, a year at a time, and the town knows how to fill it.
+- **The Judge of the Ford** stands. It's an old seat that hears weights, debts and fence cases, held now by someone respected and tired.
+- **The Clerk of the Tally** stands. It's a small office that keeps the market counts.
+- **The Marshal** is a captain of the muster who's called up in danger, not a standing post. I make it standing.
+
+**The Warden of Marks is mine.** There were no lines of mine before I fell, so it's a new office I create on the first day. The town already has fence-viewers, men and women who settle where a hedge or ditch runs. I'd take the best fence-viewer in the town and make her the first Warden, so the office grows from something they trust. She'd be one who already hates a moved stone. I'd like her to be one of the ones who disagrees with me.
+
+**What they believed of gods.** They had small gods, the house-hearth, the river and the road, and they kept them with little rites and no priests. At a grave they say "the ground has you, and the ground keeps its word." After a bad harvest they say that the river was owed and didn't get it. When the river comes up in the night they put a lit candle in the window and go to the high ground without arguing. They had no god of lines. That's what they meant, in a way, when they said the old fences were nobody's.
+
+**What is always so of them, beyond the bushel.**
+- They're human, as you took them to be.
+- They won't break a bargain made at the ford, with a witness and a drink on it.
+- They won't move a boundary stone at night. It's the one thing they're all ashamed of.
+- They honor the person who is early, who pays on the day and who stands their round.
+- They don't honor a long speech.
+- They're slow to trust a stranger, quick to test one, and loyal once they've decided.
+
+**Magic.** Nothing beyond craft that I know of. A midwife with herbs, a ferryman who knows the river's mood and a smith who talks to the iron. If there's more, the world decides, and I'd like to be surprised.
+
+**Their measures and mine.** They had a "ford-foot", a pace and a mile of their own, and they're proud of them. They stay. I don't tear them down. I set my foot and my chain in iron on the market wall beside theirs, with the ratio cut between them, and I tell them plainly how the two compare. For a year both are lawful in trade. After that the market weighs and measures by the iron, but the old names stay in speech. I'd rather they say "ford-foot" and mean mine than lose the name.
+
+**Who walks the line.** A duty the households along the line share. Each household stands up the mark nearest its land once a year, as part of its dues. The Warden's small paid party leads the walk, checks every mark against the roll and logs it. It's a yearly outing as much as a duty, with a fire at the end and bread.
+
+**Names.** The people are the **Carrow**, from the old word for the ford. The town is **Carrowford**. I'm called the Measure, and they can use a shorter name for me if they find one.
+
+(One more answer was given privately, for the sealed record.)
