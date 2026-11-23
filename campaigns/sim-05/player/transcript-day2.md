@@ -77,3 +77,25 @@ One fact of that world that bears on your third power, given to every god: morta
  (b) Blind beyond. Knowing your own ground whole costs you the rest: off claimed ground, True ground reaches only one chain's length around you instead of to sight. You know what you hold and almost nothing of what you mean to take until you have walked it.
 
 One offer, made once: a weakness you take on, something you do not already pay, can buy one improvement elsewhere, such as the map showing bodies of people in number. You need not take one. If you say no, it stays closed for the rest of creation.
+
+## Player:
+
+**When my body is broken.** I wish to be re-gathered at the nearest set mark of ground I hold, a stone or stake of my own line. I'd go there slowly, as a body walking out of a fog, and I'd keep my chain. I don't need it to be quick. I'd accept years, if the cost grows with how far I am from my marks. If I hold no ground, I'd accept being scattered to wherever the world sends me. Set the price on that. I would rather pay for having something to come back to.
+
+**Who Ostrane was.** I was the boundary-keeper of something old. It wasn't a king. It was the one who walked the edge of a place every year and put the stones back up. The place had a name I've lost, and it had a people. The lost thing is the roll, the single written record of where the line ran. I remember that there was a line. I remember the sound of the stakes going in. I don't remember what was inside it, and I don't remember why I stopped walking it. That's why I fall to claim ground. I want one line to be kept long enough that it can't be lost the way that one was.
+
+**What I will not do, even when it pays.** I won't break a given word to its letter. I won't put to the sword a people who have surrendered under a line I've agreed. I won't salt or burn the ground I mean to hold, or let my own captains do it in my name. A line that someone has to keep is no use to me if nobody is left to keep it.
+
+**Terms.** A link is one foot. The chain is a hundred feet, easy to carry and easy to count. Your definitions of paced, marked, kept and claimed ground are what I meant.
+
+**Prices.**
+1. True ground: **(a) The true measure.** I can't state a false distance, bearing, boundary, count or weight, though I can stay silent. That fits who I am. A conqueror who keeps books is safer for being unable to lie in them.
+2. The paced claim: **(b) No quiet ground.** The feeling tells everyone exactly where my line runs. I can hold ground openly, and I would rather have that than the round. I don't want to spend my years walking the same lines again every seven.
+3. What is held: **(a) The letter holds you.** A boundary I've agreed by my given word, I can't cross under arms until the other party releases me or throws down the marks. I'll just be careful what I promise, and I'll write my treaties short. I won't take (b). I want to be able to trade, and sometimes cede, ground by treaty.
+4. The whole map: **(b) Blind beyond.** Off my own ground, True ground reaches one chain's length around me. I'll know what I hold in full and almost nothing of what I mean to take until I've walked it. I take that gladly. A conqueror should scout, send captains ahead and hire the surveyor. I'm not taking (a), because I can't carry a constant ache with no mercy in it.
+
+**The offer.** I'll take one, and I'd like to buy the map showing bodies of people in number, as counts and not as faces. I'd see a column of about two thousand crossing the northern line. I wouldn't see who is in it, what they carry or why they came. The weakness I take on is that the chain is slow: pacing a line runs at a quarter of my walking pace, not a third. That is real cost for a god who wants an empire, and I don't already pay it. If you think the count is worth more than that, name the difference.
+
+**Correction.** In item 4 you said "half absent while you read." I'm fine with that, as long as the body can still be pulled out of the read by someone speaking its name. I'd like that written in. A god who can't be woken from reading his own map has a flaw I'd rather not have.
+
+(One more answer was given privately, for the sealed record.)
