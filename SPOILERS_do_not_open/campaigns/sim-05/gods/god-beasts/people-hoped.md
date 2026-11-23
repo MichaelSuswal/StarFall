@@ -1,6 +1,6 @@
 # People: the Askeld, of Kellgarth
 
-The Shepherd gives the names as its hope. The people may call themselves otherwise. Askeld is their own word for "those who are counted in," and Kellgarth is their word for the walled yard where the town keeps its herds.
+The Shepherd gives the names as its hope. The people may call themselves otherwise. Askeld is their own word for "those who are counted in," and Kellgarth [f25] is their word for the walled yard where the town keeps its herds.
 
 ## Who they are
 A herding, farming and hunting people of the edge country, living where grass meets forest. They keep sheep, goats, cattle, pigs and geese, grow barley and oats in the river fields, cut timber at the tree line, and hunt the wild herds by law at the season for it. They are shepherds and drovers first, then farmers, then carpenters, tanners, weavers, potters and smiths of bronze and soft iron. They are broad and weather-brown and loud at table, quick to share and slow to forget a debt. They have no steel forges.

@@ -1,0 +1,52 @@
+{
+ "campaign": "sim-05",
+ "regions": {
+  "r11": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f04": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a river"
+   }
+  },
+  "f42": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "an old paved road"
+   }
+  },
+  "f23": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a town at the crossing"
+   }
+  },
+  "f40": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "an old paved road"
+   }
+  },
+  "f41": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "an old paved road"
+   }
+  }
+ }
+}

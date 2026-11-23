@@ -19,3 +19,13 @@ Times Pacific.
 - cards, sealed files, balance written: 09:16
 - placement draft, brief and follow-ups written: 09:16
 - closed: 09:17
+
+## Night 3a, 2026-11-23
+- first clock reading: 09:27
+- Day 3 rulings entered, releases written: 09:29
+- people files read: 09:31
+- placement plan, underground layer and sheet requests written: 09:33
+- sheets returned: 09:35
+- sheets traced, gazetteer written: 09:44
+- records, states and knowledge files written: 09:52
+- closed: 09:53

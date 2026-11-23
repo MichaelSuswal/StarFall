@@ -1,0 +1,54 @@
+{
+ "campaign": "sim-05",
+ "regions": {
+  "r24": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f12": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a wide slow river"
+   }
+  },
+  "f69": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a ford"
+   }
+  },
+  "f43": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "an old paved road"
+   }
+  },
+  "f60": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a ruined tollhouse"
+   }
+  },
+  "f33": {
+   "grade": "rumored",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the west",
+    "cell": "D3",
+    "bearing": "west"
+   }
+  }
+ }
+}

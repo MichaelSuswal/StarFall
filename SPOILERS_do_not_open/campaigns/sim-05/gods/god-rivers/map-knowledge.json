@@ -1,0 +1,44 @@
+{
+ "campaign": "sim-05",
+ "regions": {
+  "r03": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f07": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a river"
+   }
+  },
+  "f44": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "an old paved road"
+   }
+  },
+  "f70": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a spring in a stone ledge"
+   }
+  },
+  "f67": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a ford"
+   }
+  }
+ }
+}

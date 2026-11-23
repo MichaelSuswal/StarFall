@@ -343,7 +343,7 @@ Decision the files did not make: the sheets carry a settlement lean (a town, or 
 Stamped 2026-11-23 09:29.
 
 ### 3a.1 (second box) The peoples hoped for
-Paused 2026-11-23 09:29 for the god agents to write `people-hoped.md`. Resumed 09:31 on the orchestrator's word; files pulled. All read in full against their sheets. Every heading of the form is present in each, with the questions answered. No god proposed an edge. Names given: `god-rivers` the Ferrow, no home ("the Reach" as a way of speaking); `god-roads` the Fordfolk, of Threeways; `god-sea` the Quayfolk, of Saltgate; `god-fate` the Reedwain, whose home is a circuit, "the Long Account", not a place; `god-beasts` the Askeld, of Kellgarth; `god-harvest` the Orrenfolk, of Orrenmark; `god-storms` the Orvanni, of Kes Orvan. Named mortals: Tavrin (`god-storms`), Maren Dask (`god-fate`). Each sits within its size, rule and worship leans; `god-rivers` refuses its helpers, with its reasons, in its own words. No premise line. No send-back.
+Paused 2026-11-23 09:29 for the god agents to write `people-hoped.md`. Resumed 09:31 on the orchestrator's word; files pulled. All read in full against their sheets. Every heading of the form is present in each, with the questions answered. No god proposed an edge. Names given: `god-rivers` the Ferrow, no home ("the Reach" as a way of speaking); `god-roads` the Fordfolk, of Threeways [f23]; `god-sea` the Quayfolk, of Saltgate [f24]; `god-fate` the Reedwain, whose home is a circuit, "the Long Account", not a place; `god-beasts` the Askeld, of Kellgarth [f25]; `god-harvest` the Orrenfolk, of Orrenmark [f26]; `god-storms` the Orvanni, of Kes Orvan [f21]. Named mortals: Tavrin (`god-storms`), Maren Dask (`god-fate`). Each sits within its size, rule and worship leans; `god-rivers` refuses its helpers, with its reasons, in its own words. No premise line. No send-back.
 
 ### 3a.3 (plan and roll, worked now so the sheets can be asked for)
 `world/placement-plan.md` written first, before any request: the continent (about 1,100 by 900 miles, nowhere under 650); the waters, each running to a coast; the seats round the ring in the country each asked for, the player's as its brief has it; what the star places (the sleeping beast at the center as land with a beast's shape; the school in the south); the four godless peoples between the seats; the sites from the pools; the underground as one layer of hollows; every terrain on the Night 1 list.
@@ -356,3 +356,95 @@ Stamped 09:33.
 The underground in the data first: `map.json` created with layer `under-1`, depth 1, seven hollows `u01` to `u07` (four door halls, the great granary, the lower harbor, the capped spring), each a point from the plan's proportions with who knows of it and notes; no regions of its own; no `painting`. Written before either request.
 Decision the files did not make: `images.md` and Night 1's log speak of a held request for the underground sheet, while the house style's map block and runbook 3a.4 say a layer of a few hollows with no regions of its own is not painted at all. Decided: no underground request is written, held or otherwise; the layer stays as data with no `painting`. Reasons, by the judgment order: nothing of the player's intent turns on it; the layer as first written on Night 1 is hollows only, which the style says is told in words; and a held request for a sheet the rules say is never painted would only invite a paid image no rule wants. Applied; listed for review.
 `campaigns/sim-05/state/images.md` read: surface sheet approved, cloud sheet approved; underground and repaint not approved. Requests written, sealed, in `SPOILERS_do_not_open/images/requests/`: `sim-05-map-surface.json` (the map block, then the plan as a painter's brief by compass direction and proportion, no names) and `sim-05-map-clouds.json` (the cloud block). `tools/paint.py --check`: both covered, two to paint, none skipped. Requests pushed 09:33.
+
+### 3a.1 (the rest) Edges, sealed factors, records, states, meetings
+Edges: none was proposed by any god, so no round was held and no `<label>-night3-negotiation.md` or `negotiation-night3.md` was written. Logged per the checkbox: none proposed, none priced. No ask described an act only a god can do.
+Decision the files did not make: the runbook says a god that proposed no edge gets no round, and also that what refusing or bending a default costs is stated "in the negotiation" to any god that does so. Every god here bent the helpers default (its people do not know it at landing), and `god-rivers` refused its helpers outright. Decided: no round; the cost is stated plainly in each agreed record's Helpers section, in the same terms the player was told, and is to be carried into each god's landing release on 3b.8. Reasons, by the judgment order: the player was told the cost after choosing and changed nothing, so the same terms are a statement, not a bargain; the checkbox is explicit that no edge means no round; nothing in balance moves. Applied; listed for review.
+Helpers, the same rule for all eight (rubric section 12, ledger L-0039): every meeting says the people do not know their god, so every god, the player's included, lands with no helpers in fact; the offices exist and are filled and run on the people's own custom until each hears its god in play. Offices that `god-beasts` and `god-harvest` hoped to hold "from the first hour" are recorded as hopes, with the offices that in fact stand under the people's law named in their place. `god-rivers`: "Refused, 2026-11-23", with its reasons in its own words and the cost stated; no step, since no edge was priced.
+Size: not an edge. The large peoples (`god-roads` about eighteen thousand, `god-harvest` about twenty thousand, `god-beasts` about nine thousand, `god-storms` about eleven thousand) each accepted the world's costs in its own file, unprompted; the costs the Keeper applies in play are written case by case in each record's "How many". No god argued, so nothing was argued back.
+Magic, fitted the same way for every people to the world's level (9): about one worker known by name to every six hundred people, simple, the worker pays. The gods' hopes ranged from none to one for each few hundred households; every people got the same rate, whatever it hoped (`god-storms` asked for rare and doubted: doubted, not rare; `god-sea` and `god-fate` knew of none: they have them).
+The sealed factors, set again for edges, for all eight, in `state/luck.md` with a dated line each: no change for any. No edge was offered to any god, the player's included (its Day 3 card entries add no power block), and a god offered nothing refuses nothing; refusing helpers is not refusing a power. Counts stand: `god-roads` +1, every other 0.
+Records: `civs/<people>/record.md` and `state.md` written for the seven peoples (folders ferrow, fordfolk, quayfolk, reedwain, askeld, orrenfolk, orvanni), every heading of template 7.3 present, with a trouble each god did not ask for, and starting numbers. The god's own words are kept where they say who the people are.
+Meetings, all eight: already there, with their own history; none knows its god. The player's agreed meeting is kept as agreed.
+Names added to `sealed-terms.txt`: the peoples' names and the two named mortals. Not listed as bare words, because map names carry them and the tool reads map names: Varrun, Meldrin, Askeld (listed as "the Askeld"). Possible false hits for the checker: "the Reach", "the Ilwe".
+
+### 3a.2 (the rest) The player's people
+Starting numbers written in `campaigns/sim-05/civs/carrow/state.md` under the DM's population line, in words the player may read; nothing else in the file touched.
+The twelve items under "For the Keeper to reconcile" answered in `civs/carrow-sealed.md`, the world's side; what the DM must change or may tell went to `corrections.md` ("After Day 3"), with no name the god has not heard.
+No designed mortal's description holds a thing of the land that the plan does not place.
+"Heard, not promised" read as hope only: nothing in it placed, scheduled or refused.
+The Helpers section is present in the DM's record as written (designed, not yet serving). Nothing the player left unnamed was named: the five office holders stay filed by office.
+The two provisional card lines (three, on the card) and the pending marks in DM-owned files: sent to the DM in `corrections.md`.
+The open conduct line marked "check with the player before acting": read with its sealed answer; held as a pending question for the DM and not run in unplayed time. The six sealed answers stand unconfirmed; the one want among the Day 3 answers (who an office goes to) was not fitted.
+The sealed gifts and the people: nothing in the Carrow was shaped to bring out a hidden power or a knack; where each may be noticed by the god's own doing is noted in the sealed file only.
+
+### 3a.3 (the rest) The godless peoples
+The Night 1 result of 5 on that scale gives four. Written in `civs/godless/<people>/record.md` with a `state.md` each: the Varrun (high country, not human), the Ilwe (water margin, not human), the Meldrin (the old kingdom of the middle river), the Vessari (the south coast, with the school). Each has its history in outline, what it wants, and how it touches the great events; depth and dates are 3b's.
+
+### 3a.4 (the wait)
+Requests pushed 09:33. Pulled every 30 seconds; both sheets were in `SPOILERS_do_not_open/images/out/` by 09:35 (the paint job ran 1 minute 9 seconds and passed). No block.
+
+### 3a.5 Trace the sheets
+The sight rule (`engine/rules/map.md` 1.4) was read before tracing and is the reading for every god alike, as `tools/map.py describe --landing` applies it. Nothing about any god's view is decided by a reading of the Keeper's own.
+Sheets placed in `map/surface.png` and `map/clouds.png`. Traced into `map.json`: 26 land regions and 4 sea regions that tile the sheet (cut from a label image laid over the paint, by `tools/map.py regions-from-paint`), each with elevation, water, climate and neighbors with rough days; 13 rivers, 14 settlements, 9 roads and paths, a pass, and 20 sites and ruins, each with its region and who knows of it; the `landings` block, a region and a point each; the grid, 5 by 4.
+Scale: `miles_per_pixel` 0.9. `tools/map.py validate sim-05`: land narrowest about 811 miles (north to south), average about 956, widest about 1,046; east to west 916, north to south 813. 0 problems, 0 warnings.
+What moved from the plan, and why (the data follows the paint):
+- The paint ran the land to the west edge of the sheet and closed the east bay; thin strips of sea were kept at the west and east edges so each sea is one body, and the bay is a sea region of its own with its narrows noted as finer than a pixel.
+- The north river of the plan does not run south-east: the paint gives a braided river from the range south-west into the north-west river. The player's seat stays on it, in its asked-for country (river country opening onto high plain, hills with a gap behind). The long river to the delta rises in the west instead.
+- The paint drew no river across the black soil to the south coast. `god-harvest`'s seat moved to the east end of the black plain, on the western arm of the delta river, with hills behind and marsh beside. `god-fate`'s seat moved to the eastern arm, by the bay. `god-beasts`'s seat moved to the southern river where it runs between forest, grass and hills. `god-storms`'s seat moved west along the range so that its neighbors are not crowded. Every god kept its asked-for country; none was lost, so no repaint was asked.
+- The sleeping beast: the paint drew it as a beast some 350 miles long. Traced as a region of the downs it shows, with the hoarder a site inside it at its true size, the truth in notes.
+- Things finer than the paint, as data only, coordinates to one decimal where a mile or two matters: a snowmelt beck by `god-storms`'s ridge, the fords, the doors, the towns' own points.
+- The fourth old road toward the south-west was traced to join the hill road west of the crossing, so that the crossing has three ways, as its god was told.
+- Nearest listed types: a hold as `town` with the truth in notes; a herd camp as `village`.
+Names: one map name each; other names as aliases ("the Reach", "the grass road", "the river road", "the gap in the hills").
+Decision the files did not make: the tool does not let a player's own name for a place be the map name itself (an alias by the player is what counts as heard), while the design says the player names its own home. Decided: the town's map name is the player's name with one word added, and the player's name is its alias by the player; every record uses the player's name. Reasons: where the runbook and a tool disagree the tool is followed and the disagreement logged; the player's name is what every file and every mortal uses. Applied; listed for review.
+The underground: each hollow was moved to its mouth's traced point and given a proper name; no sheet, so nothing to check against paint.
+Test sheet drawn from a scratch knowledge file with everything seen, looked at, and the scratch file and sheet deleted: every settlement on firm ground by its water, every river on its painted line, every region name in its country. Mismatches fixed in the data (the harbor town moved to the painted shore).
+`tools/map.py stamp sim-05` run; run again after the records. It also stamps the gods' own `people-hoped.md` and this log, as the tool does for every sealed file.
+Measured, on foot by `tools/map.py travel`, over open ground, between neighboring seats: storms to the player's, 285.4 miles, 21.0 days; the player's to rivers, 268.9 miles, 25.3 days; rivers to sea, 295.2 miles, 24.4 days; sea to fate, 186.3 miles, 13.3 days, round the bay; fate to harvest, 193.2 miles, 22.4 days, through the marsh; harvest to beasts, 351.3 miles, 25.1 days; beasts to roads, 293.8 miles, 24.4 days; roads to storms, 283.2 miles, 20.3 days. Two to four weeks each; the closest pairs are the two round the delta. Every seat sits in its wished terrain. The player's seat matches its brief except in three lines, sent to the DM (3a.6).
+`world/gazetteer.md` written from the traced map, land text from `describe --region --names`, every region with its places and its ordinary wonders.
+Stamped 09:53.
+
+### 3a.6 Land in the records
+Every land line in the eight god-led records and the four godless ones is from the map: places with ids and grades, travel times copied from `tools/map.py travel` with route and means named.
+Each god's hopes re-read against the map; what the land holds where it differs:
+- `god-storms`: the river in view is a beck, not the great river; the smoke is a herd camp, about 24 miles off; the winter town is out of sight.
+- `god-beasts`: the town is about 7 miles off, inside the day's walk it hoped for.
+- `god-harvest`: the town is about 3 miles off, seen as smoke; the ford about a mile.
+- `god-roads`, `god-sea`, `god-fate`, `god-rivers`: as their releases gave it.
+- The player's god: the river is about 2 miles off, not below; the road is in view and the ford is not; the hills are in view and the gap is not. To the DM in `corrections.md`, items 11 to 13.
+No land line touches god-sense. No count of gods is in any of them.
+
+### 3a.7 Starting map knowledge
+`gods/<label>/map-knowledge.json` for every label and `campaigns/sim-05/player/map-knowledge.json`: the landing region `seen`; what the sight rule puts in view `reported`, source "own sight at landing", each with a plain told name (a river, an old paved road) so that no true name is given; a far settlement as a `rumored` smoke with a compass word and a grid cell. No file holds anything a people knows. The player's file checked: nothing beyond the god's own eyes; no coordinates; `validate` passes it.
+`campaigns/sim-05/civs/carrow/knowledge.md` written: the Carrow's own ground, the old road, the heights and the hold-folk, the steppe, the old kingdom downriver, one story, and what they do not know; by the names they use, with grid cells, no map ids, no name of another god's people. Their measures' sizes are there, since the people know their own measures.
+
+### 3a.8 Close 3a
+`tools/lockcheck.py sim-05 --leaks --dashes --places`: leaks 0 failures, 0 warnings; dashes 0 failures, 0 warnings; places 0 failures, 12 warnings, each a common phrase in lower case in a draft, a plan or a god's own words that is also a map name ("great granary", "capped spring", "hill road"), left for the checker.
+
+### Rulings for review, Night 3a
+- 3a.2: one pending mark on the card covering two matters. Ruled: two ids on the one mark.
+- 3a.2: pending marks in DM-owned files other than the card. Ruled: the ids go to the DM through `corrections.md`.
+- 3a.1: the sheets' settlement lean has no line in the release template. Ruled: the template stands.
+- 3a.1: no edge means no round, yet the cost of a bent or refused default is to be stated in the negotiation. Ruled: no round; stated in each record and carried to the landing release.
+- 3a.1: what is offered when the DM never spoke a pricing line at the player's table (an edge that changes the god's own powers). Ruled: not in the release; stated in negotiation if asked. None asked.
+- 3a.4: a held request for an underground sheet of hollows only. Ruled: none written; the layer is data with no painting.
+- 3a.5: the player's name for its home against the tool's rule for map names. Ruled: an alias by the player on a map name one word longer.
+- 3a.5: where to put four seats when the paint gave no river where the plan had one. Ruled as logged; no country lost, no repaint asked.
+- 3a.2, item 11: whether the eighty paid soldiers stand at landing. Ruled: a watch of about thirty stands; the rest are raised in play.
+- 3a.2: the sealed Day 3 wish about who an office goes to. Ruled: a want, unconfirmed, not fitted.
+
+### Close check, Night 3a
+Files: `state/luck.md` present, dated lines added; `releases/creation/<label>-night3.md` present for every label; `<label>-night3-negotiation.md` and `gods/<label>/negotiation-night3.md` not written, none being needed; `gods/<label>/people-hoped.md` present for every label; `civs/<people>/record.md` and `state.md` present for the seven god-led peoples; `civs/godless/<people>/record.md` and `state.md` present for four; `civs/carrow-sealed.md` present; `campaigns/sim-05/civs/carrow/state.md` numbers present; `world/placement-plan.md` present; the two sheet requests present, sealed; `map/surface.png` and `map/clouds.png` present; `map.json` present, the underground layer written first; `world/gazetteer.md` present; `gods/<label>/map-knowledge.json` present for every label; `campaigns/sim-05/player/map-knowledge.json` present; `campaigns/sim-05/civs/carrow/knowledge.md` present; `ruling-ledger.md` L-0036 to L-0039 and the ids on the card present; `campaigns/sim-05/player/corrections.md` added to; `sealed-terms.txt` added to; this log.
+Rolls: r-0144 to r-0145.
+Neutrality:
+- The releases gave every god the same options in the same words and no word on what is usual; the cost of meeting a people as a stranger was told to no god before it chose, as it was not told to the player before it chose.
+- Every god's people was fitted with magic at the same rate, against several gods' hopes in both directions, the player's wish for little among them; the player asked to be surprised and is given no more than the world's level.
+- Every god lands with no helpers in fact, by one rule. The gods who hoped to take a crown by walking in were given no more than the player's god, and no less.
+- Size costs were written from the land each people lives on, not from how its god bargained.
+- The seats: when the paint forced moves, each god kept the country it asked for; the player's seat was not moved to better ground, and its brief was corrected where the map does not hold it, against the player's wish to see the gap from the walls.
+- The placement roll put the warm stone between two other gods' seats; it was placed where the roll fell and not nudged.
+- The player's Day 1 wishes for its neighbors (a hard mountain neighbor, an old kingdom, wild country) came out near its seat because the plan had already put the high-country people in the range and the old kingdom on the middle river for every voice's sake; the surveyor it wished for was not made.
+- The sealed want about an office was not fitted; the sealed gifts were hidden from the people's making.
+- Sealed factors: set again for all eight with no change; `god-roads` stays at one step. No roll for any god's or people's act was made tonight (the two rolls build the world), so no step was used.
+Closed 2026-11-23 09:53 Pacific.

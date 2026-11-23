@@ -1,0 +1,64 @@
+{
+ "campaign": "sim-05",
+ "regions": {
+  "r07": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r02": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "terrain": "mountain",
+    "name": "a line of hills under snow heights"
+   }
+  },
+  "r01": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "terrain": "mountain",
+    "name": "far snow heights"
+   }
+  }
+ },
+ "features": {
+  "f40": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "an old paved road"
+   }
+  },
+  "f03": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a braided river"
+   }
+  },
+  "f48": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a worn track"
+   }
+  },
+  "f20": {
+   "grade": "rumored",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the north-east",
+    "cell": "C1",
+    "bearing": "north-east"
+   }
+  }
+ }
+}

@@ -1,12 +1,12 @@
 # People: the Orrenfolk, of Orrenmark
 
-The people call themselves the Orrenfolk, "those who count the sheaf." Their home is Orrenmark, a walled town on the black plain at the ford, with the farm villages round it. The names are mine to give; they are recorded as their own, and naming a place does not place it.
+The people call themselves the Orrenfolk, "those who count the sheaf." Their home is Orrenmark [f26], a walled town on the black plain at the ford, with the farm villages round it. The names are mine to give; they are recorded as their own, and naming a place does not place it.
 
 ## Who they are
 River farmers of the black plain: growers of wheat, barley and flax, with orchards and bean-fields, and herds of goats, sheep and oxen. They are a settled, close-gathered people who live inside and about a single walled town and the villages within a few hours' walk of it. They are plain, orderly and patient, fond of weighing, tallying and fair measure, and they trade grain, cloth and flax-oil up and down the river.
 
 ## How many
-About twenty thousand. Roughly eight thousand live inside and against the walls of Orrenmark, and the rest in some forty villages and farmsteads on the plain. This is the middle of the range I was offered, and it is a large people: it eats a great deal, burns a great deal of fuel, grows slowly, and is slow to move. I ask for no relief from any of that.
+About twenty thousand. Roughly eight thousand live inside and against the walls of Orrenmark [f26], and the rest in some forty villages and farmsteads on the plain. This is the middle of the range I was offered, and it is a large people: it eats a great deal, burns a great deal of fuel, grows slowly, and is slow to move. I ask for no relief from any of that.
 
 ## How they live
 By the farm year. Sowing and reaping set everything, and the town lives off the plain and the plain pays into the town. Days are spent in the fields, at the threshing floors, in the mills and at the looms; in the workshops of potters, carpenters, smiths of copper and bronze, rope-makers and boat-wrights; and on the ford, where ferrymen and toll-keepers take their share. Houses are mud-brick and timber with thatch. Every household keeps a tally-cord, and children learn to knot it before they learn to count aloud.

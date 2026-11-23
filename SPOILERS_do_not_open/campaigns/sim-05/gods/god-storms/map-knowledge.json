@@ -1,0 +1,39 @@
+{
+ "campaign": "sim-05",
+ "regions": {
+  "r01": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r05": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "terrain": "steppe",
+    "name": "open steppe"
+   }
+  }
+ },
+ "features": {
+  "f13": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a stream"
+   }
+  },
+  "f22": {
+   "grade": "rumored",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the south",
+    "cell": "A1",
+    "bearing": "south"
+   }
+  }
+ }
+}

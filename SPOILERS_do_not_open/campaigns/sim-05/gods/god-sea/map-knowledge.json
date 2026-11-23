@@ -1,0 +1,55 @@
+{
+ "campaign": "sim-05",
+ "regions": {
+  "r25": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r33": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "terrain": "sea",
+    "name": "sheltered water"
+   }
+  },
+  "r26": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "terrain": "coast",
+    "name": "a low shore across the water"
+   }
+  },
+  "r04": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "terrain": "highland",
+    "name": "high fells"
+   }
+  }
+ },
+ "features": {
+  "f24": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a walled harbor town"
+   }
+  },
+  "f43": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "an old paved road"
+   }
+  }
+ }
+}

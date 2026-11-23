@@ -1,0 +1,39 @@
+{
+ "campaign": "sim-05",
+ "regions": {
+  "r18": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r19": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "terrain": "hill",
+    "name": "a line of hills"
+   }
+  }
+ },
+ "features": {
+  "f10": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a river"
+   }
+  },
+  "f25": {
+   "grade": "rumored",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the north-west",
+    "cell": "B3",
+    "bearing": "north-west"
+   }
+  }
+ }
+}

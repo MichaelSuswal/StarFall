@@ -20,3 +20,11 @@ god-storms: 0
 - 2026-11-23, Night 2 step 2.4, god-beasts: 0. Nothing beyond what it bought.
 - 2026-11-23, Night 2 step 2.4, god-harvest: 0. Nothing beyond what it bought.
 - 2026-11-23, Night 2 step 2.4, god-storms: 0. Nothing beyond what it bought; two counters refused are not prices taken.
+- 2026-11-23, Night 3a step 3a.1, player: no change. No edge was asked or offered on Day 3 and no power block was added to the card, so nothing was refused and no step was taken.
+- 2026-11-23, Night 3a step 3a.1, god-rivers: no change. It proposed no edge, so nothing was offered and nothing refused. Refusing its helpers is not refusing a power.
+- 2026-11-23, Night 3a step 3a.1, god-roads: no change. It proposed no edge, so nothing was offered and nothing refused. Stays +1.
+- 2026-11-23, Night 3a step 3a.1, god-sea: no change. It proposed no edge, so nothing was offered and nothing refused.
+- 2026-11-23, Night 3a step 3a.1, god-fate: no change. It proposed no edge, so nothing was offered and nothing refused.
+- 2026-11-23, Night 3a step 3a.1, god-beasts: no change. It proposed no edge, so nothing was offered and nothing refused.
+- 2026-11-23, Night 3a step 3a.1, god-harvest: no change. It proposed no edge, so nothing was offered and nothing refused.
+- 2026-11-23, Night 3a step 3a.1, god-storms: no change. It proposed no edge, so nothing was offered and nothing refused.
