@@ -40,3 +40,7 @@ Campaign `sim-03`, on build 3. Every NPC god's rule lean forced to a god-king by
 ## Run 04 (2026-11-21)
 
 Campaign `sim-04`, on build 4. No test override. Three images approved: surface, clouds, first morning. Ran 2026-11-21 22:50 to 2026-11-22 21:22 Pacific, with pauses on a usage limit and for Michael's ruling on the leak scan. A swarm god and the Sallowfolk, a smaller people with no helpers. Locked in three rounds; clock closed. Findings in `run-04/changes.md`.
+
+## Run 05 (2026-11-23)
+
+Campaign `sim-05`, on build 5. Test override: the first NPC god rolled is a lone god that refuses its helpers. Stand-in plays a conqueror, mirror mode on with `person.md`. Three images approved: surface, clouds, first morning.
