@@ -29,3 +29,30 @@ Each line names the run 04 change list items it applies (and run 03 item 94, mir
 ## Tools
 
 ## Sealed side
+
+Agent K, 2026-11-22. Files: `SPOILERS_do_not_open/keeper/creation-runbook.md`, `npc-god-rubric.md`, `survey-keeper-notes.md`, `sealed-factors.md`.
+
+- 7, 27, 51 (runbook): one close order for every night (timing, clock, commit, pull with rebase and autostash, push); one list of commit forms, each starting "Creation night N:", with forms for a stage, the hand-off's logged commit id and a round of lock fixes; timing stages named by what was written; one ledger entry per matter; months in the schedule counted from each country's waking season; a 3b hand-off check before the hand-off commit.
+- 8 (runbook 1.4 and template 7.4; survey notes rule 6): a marker counts only at the start of an answer; an "or something else" answer is never bent.
+- 9 (survey notes; runbook 1.5): an untilted "some of each" placed at the midpoint; even odds succeed on 51 to 100, a half-median success rounds up, a tied vote's success goes to the side the question names first; a quarter median rounds to the nearer whole; a Night 1 box deciding the underground.
+- 11 (runbook): the template is the model, never a prior run's files.
+- 13, 24, 32 (runbook, unsaid standing rule): the sealed file is written from the player's `SEALED:` replies by the orchestrator or the DM, never from the transcript; its header says written by the DM, read by the DM, the Keeper and the checker; an open conduct line marked "check with the player before acting" is read with its sealed answer.
+- 20 (rubric section 1; runbook templates 7.1, 7.5 and 2.1): each lean printed with a plain sentence from a table; the release says plainly that the faster return costs more.
+- 22 (runbook 2.3): a clarification is wording if it changes no number, reach or cost.
+- 23, 43, 52, 66 (sealed factors file; runbook standing rules, 1.1, 7.12): a shrunk power, a choice between equal prices, and "taking none" defined; the factor's name on every campaign's sealed term list from Night 1, never removed; the weighting method written as a general rule; a fixed-target harm with a rolled year takes no factor on its year; the Keeper may overrule a DM roll's outcome when resolving the year (which rolls, what it changes, at most once per god per year, sealed log only), with a checker line for it.
+- 25 (runbook standing rules and section 7): the pull is `git pull --rebase --autostash origin main`; every release ends with that line.
+- 26, 47 (runbook 2.8): what counts as land for the Day 3 brief, with both kinds of case left out; the brief names only what the placement draft fixes, and a view the trace does not hold is corrected through `corrections.md`.
+- 33 (runbook 3a.2): a designed mortal's unplaced noticed thing is replaced through `corrections.md`.
+- 36 (runbook 3a.1, template 7.7; rubric section 12): the Night 3 release carries the size lean beside the rule and worship leans, with the usual number as the middle, not the expectation.
+- 37 (rubric section 13): a test override may force one NPC god to a lean that invites refusal, named as the first god rolled.
+- 46 (runbook standing rules, 3a Writes, 3a.7, 3b.8, lock checklist): the player's people's public knowledge file written on Night 3a by the Keeper, updated each year in pass two; the first release points the DM to it.
+- 48 (runbook 3a.5, 3b.5): a wonders line for every region; each read on 3b against the mysteries.
+- 49 (runbook 2.5, 3b Writes): the Night 2 history checked against section 8; 3b may correct a Night 2 sealed file that contradicts the plane, logged.
+- 53 (runbook section 4): after any region-shape fix, every record line placing a fixed point is reread and measured again.
+- 54 (runbook standing rules and 7.12): the removal sentence matches the ruling.
+- 56 (runbook 3b Writes, 3b.8, lock checklist): each NPC god's landing release written on 3b and handed over at Year 1 setup.
+- 58 (runbook standing rules, log format, 3a.4, 4, 4.1, 6): no step waits on the owner; rulings applied and listed under "Rulings for review"; the lock never pauses for a ruling, the checker rules it and the lock goes on; the test-run exception for a ruling Michael asks to make himself; image approvals from `images.md` only.
+- 68 (runbook standing rules, 1.5, 1.7, 3a Writes, 3a.3, 3a.4, 3a.5, lock checklist; survey notes Q12): the underground decided on Night 1, written into `map.json` as a layer before any painting, asked for as it is in the data, the painting checked against the data with the data ruling, and no sheet when there is none.
+- Run 03 item 94 (runbook Night 2 Reads, 2.6, 2.7, 7.13): mirror mode on Night 2, the hidden powers and two or three knacks for the player's god drawn from the sealed mirror file by the mode recorded on Day 1, nothing sensitive drawn; knacks in the sealed hidden-powers file and counted in balance.
+- Also applied in the runbook, as consequences of items assigned to other agents: 38 (aliases are never stamped, said in 3a.5) and 40's runbook half (seat distances and landing views measured again after a landing move).
+- Not applied: the logged rulings with no assigned item (the return-scale clauses in the Night 2 release, word-bound drawbacks, ledger ids on a DM-owned people record, the Hierarchy hint's refusal words, which peoples count among the godless), left for Michael. Item 37's watch note for the next run's setup belongs to the stand-in brief, not these files.

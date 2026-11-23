@@ -17,6 +17,18 @@ Each is a lean between two ends. 1 = fully the first, 100 = fully the second.
 9. Appetite: content / hungry
 10. Trust: open / wary
 
+On the sheet each lean is printed with its number, both ends named, and one plain sentence that says which way it leans, so that no god reads its scale from the wrong end (runbook template 7.1). Company's sentence is read from its number with the +25.
+
+| Lean | The sentence |
+|---|---|
+| 1 to 15 | Leans hard toward <the first end>. |
+| 16 to 35 | Leans toward <the first end>. |
+| 36 to 45 | Leans a little toward <the first end>. |
+| 46 to 55 | Sits between <the first end> and <the second end>. |
+| 56 to 65 | Leans a little toward <the second end>. |
+| 66 to 85 | Leans toward <the second end>. |
+| 86 to 100 | Leans hard toward <the second end>. |
+
 ## 2. Mythic archetype seed (roll d30, secret inspiration, never named)
 Drawn from world mythologies. Used for flavor of being, not copied.
 1 The devouring mother who is also the cradle (Tiamat, Kali)
@@ -187,7 +199,7 @@ Write the result as four short lines in the sheet's `## The people it leans towa
 or
 "Size: a few hundred. Settlement: a close band on the move, no fixed seat. Rule: a council of chieftains. Worship: local shrines."
 
-Each god builds within its result. It may hope for something else, and then it says why, in its own voice, in `people-hoped.md`; the Keeper reads the reasons against the sheet as on Night 2 (a hope that leaves the lean with no reason given breaks character and is sent back once). The Night 2 and Night 3 releases carry the rule lean and the worship lean in one line each and ask the god to build within them.
+Each god builds within its result. It may hope for something else, and then it says why, in its own voice, in `people-hoped.md`; the Keeper reads the reasons against the sheet as on Night 2 (a hope that leaves the lean with no reason given breaks character and is sent back once). The Night 2 and Night 3 releases carry the rule lean and the worship lean in one line each and ask the god to build within them; the Night 3 release carries the size lean too, in one line beside them, with the usual number (about five thousand) given as the middle of the range and never as what is expected (runbook template 7.7).
 
 Principle from run 02 (Night 1, step 1.3): where two leans on one sheet seem to give two results that cannot both hold, the rubric's table gives one result and the contradiction is the god's to live in (section 9); the Keeper does not pick one lean over the other by judgment.
 
@@ -198,6 +210,7 @@ A test run may force lean results to test the engine. The rubric never changes f
 - The override lives only at `SPOILERS_do_not_open/campaigns/<name>/state/test-overrides.md`, created by Michael before Night 1, since it names NPC god results. The Keeper never looks for one on a public path. A campaign without that file has no override. Night 1 step 1.1 makes the rest of the sealed folder around it.
 - The file names each forced result: which lean (size, settlement, rule, worship), which gods (all NPC gods, or by label once labels exist), the result or family of results forced, how a variety within it is chosen (by this rubric's tables, from the god's rolls), and the date Michael approved it.
 - The Keeper rolls every lean as usual and works out the rubric's own result first. Then it applies the override and logs both, in the keeper log, at step 1.3: the rubric's result with its score, the forced result, and the override file's line. The sheet carries the forced result in the same words as any result, with no mark that it was forced; the god builds within it like any lean. The forced line carries no score on any god's sheet, forced or not, so the absence marks no one; the scores stay in the keeper log (runbook template 7.1). A forced rule lean is written with its name and sheet words as section 12 gives them, the words on priests included: priests come only from the worship lean.
+- An override may force one NPC god only, to a lean that invites refusal (the lone god that refuses its helpers, a very large people, a people on the move), so that refusal and size are priced for an NPC as for the player. Since labels do not exist when the file is made, it names that god as the first god rolled; the roll order stays in the keeper log only.
 - Only what the file names is forced. Every other lean, table and rule stands, and nothing else bends to make the forced result fit.
 - The override is a fact of the test run, kept in the keeper log. It is never written into this rubric, the runbook or any engine file, and it ends with the run.
 
