@@ -171,3 +171,33 @@ What the record holds instead: since the round 1 fix the landing point [721.2, 3
 ## For the rerun
 
 Flag 6 only. The checker will read the changed line or lines, and if the landing moves, rerun god-stone's view against its knowledge file and landing release, every travel line, the spacing and the scripts.
+
+# Lock flags: sim-04, round 3
+
+Run by the continuity checker, 2026-11-22, from 21:16 to 21:17 Pacific, against the Keeper's rework commit 7026acb775798e740e7c3ed41a117a61cb23e772. The whole lock was rerun: both scripts, every travel line through `tools/map.py travel`, all eight landing views against all eight knowledge files and the seven landing releases, the spacing, and every line the rework touched.
+
+Result: 0 flags open. Flag 6 is resolved. The lock passes.
+
+## Script output
+
+```
+tools/lockcheck.py sim-04 --all
+(the same 16 place warnings as round 2, each ruled an ordinary lower-case description)
+places: 0 failure(s), 16 warning(s)
+leaks: 0 failure(s), 0 warning(s)
+mysteries: 0 failure(s), 0 warning(s)
+rolls: 0 failure(s), 0 warning(s)
+dashes: 0 failure(s), 0 warning(s)
+
+tools/map.py validate sim-04
+0 problem(s), 0 warning(s)
+```
+
+## Round 2 items
+
+- Flag 6. Resolved. `S/civs/dathri/record.md` 47 now puts the god on the vale's floor about 2 miles south of the town, the south wall's mountains on the skyline about 18 miles behind it: the tool's view (town's smoke about 2 miles north; mountains about 18 miles south) and `travel god-stone f19` (2.2 miles). The point did not move, so no view, knowledge file, landing release, travel line or spacing figure changes; all were rerun and agree. No other record or release still places god-stone on the rim: the remaining "rim" words are the god's own wishes in its people-hoped file, the plan, and the Night 3 release that its landing release now governs.
+- The note on the sealed list. Done. The bare first name is off `S/sealed-terms.txt` with a dated comment naming the ruling; the island's full name stays. Leaks 0.
+
+## The checklist, round 3
+
+All 18 lines read yes.
