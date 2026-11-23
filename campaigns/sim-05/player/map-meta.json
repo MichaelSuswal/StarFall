@@ -1,0 +1,38 @@
+{
+  "frames": {
+    "surface": "B1:D2"
+  },
+  "grid": [
+    5,
+    4
+  ],
+  "sheet_miles": [
+    922,
+    922
+  ],
+  "zoom": "landing",
+  "frame_miles": {
+    "surface": [
+      408,
+      307
+    ]
+  },
+  "labels_dropped": {
+    "surface": 0
+  },
+  "regions_drawn": {
+    "seen": 1,
+    "reported": 2,
+    "rumored": 0
+  },
+  "features_drawn": {
+    "seen": 0,
+    "reported": 3,
+    "rumored": 1
+  },
+  "drawn": "2026-11-23",
+  "files": [
+    "map.png"
+  ],
+  "input_hash": "08023287f06c9417d76764590aecf1c851055a1d9c9a0cc57f235b009d49229c"
+}

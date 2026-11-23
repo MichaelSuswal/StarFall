@@ -46,7 +46,7 @@ Requests not to be told something: none at the open table.
 
 ### Bent by the player
 
-- The helpers. The default is helpers who serve from the landing. The player designed the offices and chose that their holders do not know the god: "designed, not yet serving". The DM stated the practical cost at the table: the god lands with no helpers in fact, no one acts for it while it is away, unplayed time runs on standing conduct alone, and the town goes on under its own law, until each office is won in play. The player accepted it. The DM did not count this as a default refused: no edge was priced on the Carrow, so there was no edge price for a step to bear on, and it bought nothing. Settled at creation. Ledger: pending, Night 3.
+- The helpers. The default is helpers who serve from the landing. The player designed the offices and chose that their holders do not know the god: "designed, not yet serving". The DM stated the practical cost at the table: the god lands with no helpers in fact, no one acts for it while it is away, unplayed time runs on standing conduct alone, and the town goes on under its own law, until each office is won in play. The player accepted it. The DM did not count this as a default refused: no edge was priced on the Carrow, so there was no edge price for a step to bear on, and it bought nothing. Settled at creation. Ledger: pending, Night 3. Ledger id: L-0039.
 - The seat. The player described a hall as its seat and met the people as a stranger. Recorded as a wish, built or taken in play.
 
 ### Not rejections

@@ -14,7 +14,7 @@ About 5,000, the default. Nothing was argued about size.
 
 > Their town is on the rise above the ford, wooden and stone, with a market, a granary and a wall of earth and timber that hasn't been tested lately. They keep early hours, because the melt and the floods punish late ones. They take pride in fair weights and honest measures, so a short bushel is the worst thing one neighbor can do to another.
 
-The town has districts, each with a headman, and a market day at the ford market. A muster is called up in danger under a captain. The player means a levy drawn from the drovers and farmers, with about eighty paid and drilled soldiers in two companies ("roughly one in sixty of the people"). Ruled at the table as an ordinary town guard, not priced. Whether the eighty stand at landing or are raised in play was not said; the Keeper fits it, and their food and pay come out of the stores the Keeper sets.
+The town has districts, each with a headman, and a market day at the ford market. A muster is called up in danger under a captain. The player means a levy drawn from the drovers and farmers, with about eighty paid and drilled soldiers in two companies ("roughly one in sixty of the people"). Ruled at the table as an ordinary town guard, not priced. Whether the eighty stand at landing or are raised in play was not said; the Keeper fits it, and their food and pay come out of the stores the Keeper sets. Fitted by the Keeper on Night 3 (`player/corrections.md`, After Day 3, item 6): the eighty do not stand at landing. The town pays a watch of about thirty, for the gate, the market and the ford. The rest, and their drill, are raised in play.
 
 ## Their code
 
@@ -37,8 +37,8 @@ Their own measures: "a 'ford-foot', a pace and a mile of their own, and they're 
 
 None. The player asked for none and the DM found none.
 
-- The honesty of the Clerk of the Tally and the Judge of the Ford is character, oath and custom, with books open at the market. It is not a binding. In the player's words: "Their honesty should be earned and checked. It should fail sometimes, in play, and I'd handle it the way any ruler does." Not priced. Settled at creation. Ledger: pending, Night 3.
-- About eighty paid, drilled soldiers in two companies: an ordinary town guard. Not priced. Settled at creation. Ledger: pending, Night 3.
+- The honesty of the Clerk of the Tally and the Judge of the Ford is character, oath and custom, with books open at the market. It is not a binding. In the player's words: "Their honesty should be earned and checked. It should fail sometimes, in play, and I'd handle it the way any ruler does." Not priced. Settled at creation. Ledger: pending, Night 3. Ledger id: L-0037.
+- About eighty paid, drilled soldiers in two companies: an ordinary town guard. Not priced. Settled at creation. Ledger: pending, Night 3. Ledger id: L-0038.
 - No default was refused for a step in any edge price. See Helpers.
 
 ## Their magic
