@@ -603,3 +603,12 @@ The mortal's first name, on the sealed list since Night 2 as the first word of a
 Rerun 21:16 Pacific. `tools/lockcheck.py sim-04 --all`: places 0 failures, 16 warnings (the same sixteen the checker has ruled on); leaks 0; mysteries 0; rolls 0; dashes 0. `tools/map.py validate`: 0 problems. Stamp: 0. Travel lines: all as the tool gives them. No roll in this round.
 Neutrality, this round: the record was brought to the map by the tool's figures and nothing was added to it. Sealed factors: none used.
 Committed and pushed as `Creation night 3b: sim-04 lock round 2 reworked`. The first morning is not begun.
+
+### 4.1 After the lock: the first morning and Year 1
+Pulled 21:21 Pacific (commit f8116f8). Found, by the files and not by report: `S/LOCKED.md` present, locked 2026-11-22 21:17 Pacific by the continuity checker, lock commit d63a0c2, committed alone after it as d123573; `P/years/000/lock.md` reads passed. Nothing of the world is changed in this step, and nothing is added after the lock.
+- Images: `P/state/images.md` read: the first morning painting is approved, so the DM's request went to the public requests folder (`images/requests/sim-04-001-morning.json`) and the painting is back at `images/out/sim-04-001-morning.png`. No request was held; the Keeper made none.
+- The DM's work, present: `P/years/001/morning-story.md`; the landing map (`P/player/map.png` with `map-meta.json`); the two ledger ids written into the people's record, as `P/player/corrections.md` asked. The story was looked over for its (oog) lines and its measures only; reading it for meaning is the checker's.
+- The final scan, 21:21 Pacific: `tools/lockcheck.py sim-04 --leaks --dashes`: leaks 0 failures, 0 warnings; dashes 0 failures, 0 warnings. Nothing to fix, so nothing goes to `corrections.md`. (`--all`, run beside it: places 0 failures with the sixteen warnings already ruled on; mysteries 0; rolls 0.)
+- The clock, set only after the two boxes above: `P/state/clock.md` now reads `year: 1`, `status: closed`, `season_opens: early spring`, with `creation_night` removed. This is a test run and is never left open, so no scheduled turn will turn it.
+Rolls: none in this step. Sealed factors: none used. Neutrality: nothing was decided here; the step set a clock.
+Night 3 closed 2026-11-22 21:22 Pacific. Creation of sim-04 is complete: Night 1 22:51 to 23:01 and Night 2 23:11 to 23:38 on 2026-11-21; Night 3a 23:47 to 00:20; Night 3b begun 00:21, cut off, resumed 11:17, handed to the lock 11:44; the lock passed on its third round at 21:17 on 2026-11-22.
