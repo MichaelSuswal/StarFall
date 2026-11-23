@@ -93,3 +93,39 @@ What the tool gives for that route and means: `tools/map.py travel sim-05 f67 f2
 ## For the rerun
 
 Both flags are the Keeper's, in files it owns (`S/mysteries.md`, `S/civs/ferrow/record.md`, and its log). No line needs `P/player/corrections.md`. On the rerun the checker reruns both scripts, reads every line the fix touches, compares the copied `Limit:` lines with `cast.md` word for word, reruns the Ferrow line through the tool, and rechecks lines 7 and 11.
+
+# Lock flags: sim-05, round 2
+
+Run by the continuity checker, 2026-11-23, from 15:00 to 15:01 Pacific, against the Keeper's fix commit 13f1ec338215bbdf39e617be12ac91e20e4da70a (`Creation night 3b: sim-05 lock flags fixed, round 1`). There is still no `S/rulings.md`. Both scripts were rerun; every line the fix touches was read; the copied `Limit:` lines were compared with `cast.md` by script; the Ferrow line was rerun through the tool; lines 7, 11 and 17 were checked again, and every file the commit changed was read in full for its diff.
+
+Result: 1 flag open (flag 3, new, the Keeper's). Flags 1 and 2 are resolved. The lock does not pass. No `LOCKED.md` is written. The public `P/years/000/lock.md` reads flagged.
+
+## Script output
+
+```
+tools/lockcheck.py sim-05 --all
+(the same 12 place warnings as round 1, ruled there)
+places: 0 failure(s), 12 warning(s)
+leaks: 0 failure(s), 0 warning(s)
+mysteries: 0 failure(s), 0 warning(s)
+rolls: 0 failure(s), 0 warning(s)
+dashes: 0 failure(s), 0 warning(s)
+
+tools/map.py validate sim-05
+0 problem(s), 0 warning(s)
+```
+
+## Round 1 flags
+
+- Flag 1, resolved. E01, L01 and S06 now say `Answers questions: yes`; E01 carries the limits of the voices, the rolls of Meldry [f27] and the Venn, L01 the Venn's, S06 the rolls', and L03 now also the Doorward's. All ten `Limit:` lines in `mysteries.md` stand word for word in `cast.md` (by script), and the cast's line for the Venn now names E01. By reading, the answering beings stand only in E01, L01, L02, L03, L04 and S06, each with every limit it needs; S01 to S05, S07 and S08 hold none. No truth, clue, branch or cost changed. Note, not a flag: the keeper log says the lines were put in each Truth; they stand in each Body, which the standard equally allows.
+- Flag 2, resolved. `S/civs/ferrow/record.md` 76 now reads 278.6 miles, 9.3 days down and 278.8 miles, 23.2 days up, as `tools/map.py travel` prints for the route and means named.
+
+## Flag 3. Line 17, the public folder: the timing file names a round of the lock by its ordinal
+
+Rule: runbook standing rules, "Close of every night": "`P/state/timing.md` is public: it carries stages and times only, each stage named by what was written ..., never by an ordinal or a count, with no per-god line and no count of agents, gods, rolls or rounds"; lock line 17 (the checker reads every file in `P/`).
+Where: `campaigns/sim-05/state/timing.md` 39, added in 13f1ec3: "- lock flags fixed, round 1: 15:00".
+What the record should hold instead: the stage named by what was written, with no round number, for example "- lock flags fixed: 15:00". The file is the Keeper's own (it writes the campaign's timing file), so the fix is the Keeper's, logged; no other public file carries a round number (`P/years/000/lock.md` reads flagged with the time only).
+
+## For the rerun
+
+Flag 3 is the Keeper's. On the rerun the checker reruns both scripts, reads `P/state/timing.md` and every other file the fix touches, and checks line 17 again.
