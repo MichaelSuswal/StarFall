@@ -609,3 +609,10 @@ Pulled; read `years/000/lock-flags.md` (round 1, two flags, both in files the Ke
 - Flag 2, line 7, travel. `civs/ferrow/record.md`, the boat line from the First Ford [f67] to Meldry [f27], a 3a line: copied from the tool as it now prints, `tools/map.py travel sim-05 f67 f27 --by boat --via f07,f04`, 278.6 miles, 9.3 days; back up, `f27 f67 --by boat --via f04,f07`, 278.8 miles, 23.2 days. No region's shape changed, so no other line needed measuring again; the checker found every other travel line to match.
 `tools/lockcheck.py sim-05 --all`: places 0 failures, 12 warnings (the same, ruled by the checker); leaks, mysteries, rolls, dashes 0 failures, 0 warnings. `tools/map.py validate sim-05`: 0 problems, 0 warnings. No roll was made. No new ruling.
 Stamped 2026-11-23 15:00.
+
+### Lock flags fixed, round 2
+Pulled; read the round 2 section of `years/000/lock-flags.md`: flags 1 and 2 resolved, one new flag, the Keeper's. No `rulings.md` exists.
+- Flag 3, line 17, the public folder. `campaigns/sim-05/state/timing.md` named a round of the lock by its number, in a line the Keeper added with the round 1 fix. The standing rule for that file allows no ordinal and no count of rounds. Reworded to "lock flags fixed", the time kept; one line added for this correction, named by what was written. The whole file was read again against the rule: no other line carries an ordinal or a count. No other public file was touched.
+- A correction to the entry above, from the checker's note: the copied `Limit:` lines stand in each mystery's Body, not its Truth as that entry says. The standard allows either; the files are unchanged.
+`tools/lockcheck.py sim-05 --all`: places 0 failures, 12 warnings (the same, ruled by the checker); leaks, mysteries, rolls, dashes 0 failures, 0 warnings. No roll was made. No new ruling.
+Stamped 2026-11-23 15:02.
