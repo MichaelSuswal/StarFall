@@ -73,7 +73,7 @@ A debt feud three generations old between the uppermost camps and the camps of t
 ## What they know of the land
 From the traced map. Every travel time is the tool's, at the pace table's rates for a fair summer day, by the route and means named.
 - the Ledge Spring [f70] and the First Ford [f67], in the Greystone Uplands [r03]. Grade: seen. Their spring gathering place.
-- the River Tessen [f07] through the Springfoot Vale [r08]. Grade: seen. Their upper water; by boat from the First Ford [f67] down the Tessen [f07] and the Meld [f04] to Meldry [f27], 279.3 miles, 9.3 days downstream; back up, 23.3 days.
+- the River Tessen [f07] through the Springfoot Vale [r08]. Grade: seen. Their upper water; by boat from the First Ford [f67] down the Tessen [f07] and the Meld [f04] to Meldry [f27], 278.6 miles, 9.3 days downstream; back up, 278.8 miles, 23.2 days.
 - the Dry Road [f44]. Grade: seen. On foot from the Ledge Spring [f70] to Meldry [f27] by the Dry Road [f44], 233.7 miles, 11.7 days.
 - Meldry [f27] and the Meldrin Vale [r14]. Grade: seen. They trade and ferry there.
 - the River Meld [f04] below Meldry [f27] to Tollford [f29]. Grade: seen. By boat down the Meld [f04], 206.2 miles, 6.9 days; back up, 17.2 days.

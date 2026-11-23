@@ -6,7 +6,7 @@ Written on Night 3b, 2026-11-23, from the deep history, the star and the Night 1
 
 ## E01 The Widening Quiet
 Kind: epic. Span: 60 years. Related to: L02, L03, L04, S04, S08.
-Answers questions: no
+Answers questions: yes
 
 ### Truth
 The living thing at the Sleeper's Brow [f65] is a hoarder of the deep lore's kind, older than the last fall. It is fed down the blue thread, on the nights the star dims, by those in the star who want the fall soon, the Crowned among them. It takes nothing by force. Those who live in sight of it stop holding to what is particular: first each other's names, then whose field is whose, then the village. Whatever spends the land faster feeds it: the heavy working of a land where nearly every valley has a worker, and above all the gathered working at the School at Ombrel [f66]. It cannot be killed, driven or starved by any force a god here holds, and force used on it is taken in. What holds against it is what is stored and said: a village whose names are written and said aloud together each year does not empty, however near; names carried out by the Venn are kept elsewhere; less great working slows the feeding. The answer, once found, still has to be done, year on year, by the peoples who live round the downs, most of whom have no god: no one god's people touch more than a part of the ring.
@@ -15,6 +15,10 @@ Its central measurements: how fast the ring of emptied villages widens; that the
 
 ### Body
 The Sleeper's Brow [f65] and the Sleeper's Downs [r15]. The thread. The emptied and emptying villages of the Meldrin Vale [r14] nearest the downs. The Dry Market [f61]. The reckoning tablets in the Hall of Terms [u03]. The glass floor of the Elder Granary [u05].
+Beings that answer questions stand in this mystery, each under its own limit, copied from the cast: the voices in the star, heard in the dream on the downs on a dim night; the rolls of Meldry [f27]; and the Venn, who may be asked to carry names out.
+Limit: The voices know what they were and what they want, which is the fall; they do not know what a risen god becomes after a fall, why gods are thrown, or anything the ground has done since each rose beyond what dreamers near the Brow carry up. They speak only into the dreams of a god whose standing has passed four fifths of this star's measure, or of anyone asleep within a day's walk of the Brow on a dim night; once in a night; in images and one plain sentence; and they never answer the same question twice. They cannot state a falsehood, and they leave out whatever does not serve the fall.
+Limit: The rolls of Meldry [f27] hold what clerks entered, tolls, reigns, cases and oddities, from 2,150 BA to now, with gaps, and no cause for anything. Anyone the king's clerks admit may read them, one roll in a day; there is no index, and a question is answered only by the reader's own search.
+Limit: The Venn know the names they carry and the order they are sung in, and that a name carried long enough comes back; they do not know what any name was the name of beyond what the list's own words say, nothing of the far country but its names, and nothing of the Brow, the stone or the star. Anyone may ask them, by day, one question for each night that person has listened to them through; they answer in a line of the song or say they do not carry it; under compulsion they sing nothing.
 
 ### Cost if ignored
 A village under the downs is found empty in Year 9, and another each tenth year after, each a little farther out than the last. From Year 49 people begin to walk up onto the downs in their sleep and are not seen again: first those of the nameless villages, then, within five years, sleepers from the nearest settled edge of every country that borders the downs, the Meldrin Vale [r14], the Fordmeet Plain [r11], the Underlee Plain [r16] and the Tollwater Reach [r24] alike. Meldrin, which sits on the river that feeds the trade of the peoples about it, loses the west of its vale.
@@ -94,13 +98,15 @@ How old it is, and whether it was a beast once. Who in the star first fed it. Wh
 
 ## L01 The Stone in the Grass
 Kind: long. Span: 30 years. Related to: L03.
-Answers questions: no
+Answers questions: yes
 
 ### Truth
 The Fallen Stone [f64] is the Remainder of the deep lore: dross of the same far fall that threw the gods of this arrival, holding at lower weight the same memories they are made of. It fell on the night they came down. It dreams those memories at anyone who sleeps near it. A mortal dreams a crowd kneeling by a great river that is not in this land, and a long table laid out of doors. A god that touches it or sleeps by it dreams the same gathering from the seat that was its own, as each sealed past gives it, and on a second night one thing more of its own that it has lost; the stone never gives the whole. It lends a little of what it holds to those who pray to it, as a god's worshipers lend to a god, the other way about.
 
 ### Body
 The Fallen Stone [f64], on the Windrow Steppe [r06]: waist-high, blue-grey, heavy past its size, warm.
+One being that answers questions stands in this mystery, the Venn, who sit a night by the stone in Year 7, under their limit, copied from the cast.
+Limit: The Venn know the names they carry and the order they are sung in, and that a name carried long enough comes back; they do not know what any name was the name of beyond what the list's own words say, nothing of the far country but its names, and nothing of the Brow, the stone or the star. Anyone may ask them, by day, one question for each night that person has listened to them through; they answer in a line of the song or say they do not carry it; under compulsion they sing nothing.
 
 ### Cost if ignored
 If no god has reached it by Year 19, the summer herders who have been sleeping beside it for good fortune, Orvanni and grass-road Fordfolk both, have by then a following of their own, some three hundred, with dream-tellers who recite what they dream: the grief and the loss of gods they have never met, said aloud at the horse fairs. It is no god's and feeds no god. If one god reaches it first, that god comes to know the shape of the others' pasts, which is a lever over each of them.
@@ -235,6 +241,8 @@ Limit: The Venn know the names they carry and the order they are sung in, and th
 
 ### Body
 The Venn, some forty walkers, on the way the deep history gives: down the Rimewater [f01], across the Windrow Steppe [r06] to Threeways [f23], the Meld Road [f42] to Meldry [f27] and Tollford [f29], and out through the Ilwemere [r23].
+A second being that answers questions stands in this mystery, the Doorward in the Fell Hall [u04], under her limit, copied from the cast.
+Limit: The Doorward knows the names on her lists, the Crowned as she served them, and how Ilmar gave itself away; she knows nothing after 1,700 BA but what she has heard through the door, and nothing of why gods come or what the star is. She answers whoever has waited a night at the door without trying to force it; three questions at a waking, truthfully, in the realm's old speech; then she sleeps for a season. Of Ilmar's last years she says only that she was not there.
 
 ### Cost if ignored
 A god that has not dealt with them by the end of the Year 36 passing has no way, inside sixty years, to have any name of its people kept beyond this land or past a fall. Nothing else is lost.
@@ -565,13 +573,15 @@ The roll itself, unless the Stane Door [f51] is opened.
 
 ## S06 The False Cords
 Kind: short. Span: 8 years. Related to: none.
-Answers questions: no
+Answers questions: yes
 
 ### Truth
 In the Ferrow debt feud both cords are true. Three generations ago a debt was paid at a ford the River Tessen [f07] has since left: the old bed lies dry beside the Dry Road [f44]. The cord's knot names the ford. A newer ford downstream took the old name, and each side reads the knot as the ford it knows. A toll roll at Meldry [f27] has the payment, with the place.
 
 ### Body
 The two cords, held by the uppermost camps and the camps of the middle reaches. The dry ford beside the Dry Road [f44].
+One thing that answers questions stands in this mystery, the rolls of Meldry [f27], under their limit, copied from the cast.
+Limit: The rolls of Meldry [f27] hold what clerks entered, tolls, reigns, cases and oddities, from 2,150 BA to now, with gaps, and no cause for anything. Anyone the king's clerks admit may read them, one roll in a day; there is no index, and a question is answered only by the reader's own search.
 
 ### Cost if ignored
 In Year 4 the upper camps stay away from the gathering at the fords. In Year 8 a man is killed over it, and the Ferrow are two peoples in all but name.

@@ -23,7 +23,7 @@ Limit: The Doorward knows the names on her lists, the Crowned as she served them
 ## Peoples that count as cast
 
 ### The Venn, on their way through the land
-Carriers: some forty walkers who sing lists of names. They are in the land in Year 7 and Year 36 and not otherwise. Mysteries: L03, L01.
+Carriers: some forty walkers who sing lists of names. They are in the land in Year 7 and Year 36 and not otherwise. Mysteries: L03, L01, E01.
 Limit: The Venn know the names they carry and the order they are sung in, and that a name carried long enough comes back; they do not know what any name was the name of beyond what the list's own words say, nothing of the far country but its names, and nothing of the Brow, the stone or the star. Anyone may ask them, by day, one question for each night that person has listened to them through; they answer in a line of the song or say they do not carry it; under compulsion they sing nothing.
 
 ### The Varrun [r02], the Ilwe [r23], the Meldrin [r14, r17], the Vessari [r22]

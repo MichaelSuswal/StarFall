@@ -36,3 +36,4 @@ Times Pacific.
 - history, mysteries, schedule and cast written: 10:17
 - world bible, first morning inputs and landing releases written: 10:21
 - checks run, handed to the checker: 10:24
+- lock flags fixed, round 1: 15:00

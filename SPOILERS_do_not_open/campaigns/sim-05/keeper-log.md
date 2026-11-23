@@ -602,3 +602,10 @@ Neutrality:
 Handed to the checker 2026-11-23 10:24 Pacific. Night 3b does not close here: it closes after the lock and the first morning (runbook 4.1).
 
 Lock commit: the hand-off is commit 2ceab7f8ed9eb073859d0de62ae92fbc7f9aa5fd (`Creation night 3b: sim-05 ready for lock`).
+
+### Lock flags fixed, round 1
+Pulled; read `years/000/lock-flags.md` (round 1, two flags, both in files the Keeper owns). No `rulings.md` exists.
+- Flag 1, line 11, the mystery template. Fixed in `mysteries.md`, by one reading applied to every mystery: wherever a being that answers questions stands in a mystery, as a way of earning, a clue or a branch, that mystery says `Answers questions: yes` and carries that being's `Limit:` line in its Truth, copied by script from `cast.md`, never retyped. E01 now says yes and carries the limits of the voices in the star, the rolls of Meldry [f27] and the Venn (the Venn were not in the flag; the same reading puts them there, since E01's truth has names carried out by them, and the cast's line for them now names E01). L01 now says yes and carries the Venn's. S06 now says yes and carries the rolls'. L03, already yes, now also carries the Doorward's. Every other mystery was read again against the cast: L02 and L04 already carry theirs; S01 to S05, S07 and S08 hold no answering being (the eldest teacher as ruled at 3b.5). No truth, clue, branch or cost changed.
+- Flag 2, line 7, travel. `civs/ferrow/record.md`, the boat line from the First Ford [f67] to Meldry [f27], a 3a line: copied from the tool as it now prints, `tools/map.py travel sim-05 f67 f27 --by boat --via f07,f04`, 278.6 miles, 9.3 days; back up, `f27 f67 --by boat --via f04,f07`, 278.8 miles, 23.2 days. No region's shape changed, so no other line needed measuring again; the checker found every other travel line to match.
+`tools/lockcheck.py sim-05 --all`: places 0 failures, 12 warnings (the same, ruled by the checker); leaks, mysteries, rolls, dashes 0 failures, 0 warnings. `tools/map.py validate sim-05`: 0 problems, 0 warnings. No roll was made. No new ruling.
+Stamped 2026-11-23 15:00.
