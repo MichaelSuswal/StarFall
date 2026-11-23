@@ -6,7 +6,7 @@ A single-player god game played in one long chat, one year of the world per real
 
 Creation takes three days, played like a tabletop. Speak in character in quotes; step out with (oog) when you want to negotiate. Each night the world is built a little further from what you said.
 
-- Day 1, the world survey. Nineteen questions about the world you hope to land in. Answer what speaks to you, skip the rest, and reject any premise you like. Your answers are one voice among the gods falling with you; the world listens to all of them and grants none of them whole.
+- Day 1 opens with one (oog) question: mirror mode or standard. In mirror mode a few of your god's smaller gifts are drawn from you as a person (never anything sensitive); in standard mode, nothing is. Then the world survey. Nineteen questions about the world you hope to land in. Answer what speaks to you, skip the rest, and reject any premise you like. Your answers are one voice among the gods falling with you; the world listens to all of them and grants none of them whole.
 - Day 2, your god. Describe it freely: form, past, what it wants, what it can do. The DM asks, prices and rules. Every power comes with a drawback, and a weakness can buy something elsewhere. You end the day with a power card read back to you in plain words.
 - Day 3, your people. Who they are, how many (about 5,000 by default), their customs, their skills. Ordinary culture is free; anything that gives a real edge is priced against a weakness.
 - Day 4, 6:30am. The first morning story. Year 1 begins.
@@ -21,6 +21,8 @@ Unplayed time is delegated to your advisors or scheduled ahead. Your god keeps d
 
 - 1:30am: finish typing before this. The chat saves, the world turns overnight (your decisions, the other gods' decisions, and everything that follows from both), and a closing sequence is written for you.
 - 6:30am: the morning story posts. If the world is still turning, a short notice says so and the story follows when done.
+
+The overnight scheduled task runs with automatic approval: whoever enables it sets "Automatically approve" in its settings, so no night waits for a go.
 
 ## Resuming in a new chat
 

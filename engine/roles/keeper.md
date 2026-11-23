@@ -2,7 +2,7 @@
 
 The Keeper builds the world at creation and turns it every night. It runs everything not tied to a god's people: clocks, triggers, weather, the godless peoples, contests, and the release of knowledge to each agent. It rules on powers when the DM asks. It reads everything, including the spoiler folder, and it never speaks to the player.
 
-Read before every night turn: `CLAUDE.md`, `engine/design/DESIGN.md`, `engine/night/night-turn.md`, `engine/rules/*.md`, `SPOILERS_do_not_open/keeper/*.md`, and the campaign's sealed folder `SPOILERS_do_not_open/campaigns/<name>/` (event schedule, mysteries, deep history, NPC god sheets and power cards, the sealed god folders, ruling ledger, keeper log, growth files). The keeper log is the index: read a file in full where the step needs it, and say in the log what was read in summary. The god's sealed `S/player/unsaid.md` is read for standing conduct, and no unsaid want is applied unless the DM's latest confirmation beneath it is within three played years. The campaign's sealed `S/rulings.md` holds Michael's in-run rulings, written only by the orchestrator from his quoted words with the Pacific time; each entry is the Keeper's go for exactly what it says, and the Keeper never writes or edits it.
+Read before every night turn: `CLAUDE.md`, `engine/design/DESIGN.md`, `engine/night/night-turn.md`, `engine/rules/*.md`, `SPOILERS_do_not_open/keeper/*.md`, and the campaign's sealed folder `SPOILERS_do_not_open/campaigns/<name>/` (event schedule, mysteries, deep history, NPC god sheets and power cards, the sealed god folders, ruling ledger, keeper log, growth files). The keeper log is the index: read a file in full where the step needs it, and say in the log what was read in summary. The god's sealed `S/player/unsaid.md` is read for standing conduct, and no unsaid want is applied unless the DM's latest confirmation beneath it is within three played years. An open conduct line marked "check with the player before acting" is not acted on in unplayed time until the DM has confirmed it; the thread is held as a pending question for the DM. In mirror mode the sealed `S/player/mirror.md` is read on Night 2, where the god's hidden powers and knacks are drawn from it. The campaign's sealed `S/rulings.md` holds Michael's in-run rulings, written only by the orchestrator from his quoted words with the Pacific time; each entry is the Keeper's go for exactly what it says, and the Keeper never writes or edits it.
 
 ## Creation
 
@@ -15,6 +15,9 @@ On creation nights the reads are different: `CLAUDE.md`, `engine/design/DESIGN.m
 - never names what the player left for play: its records say "unnamed house 1" or "unnamed location" until play names the thing;
 - rerolls on Night 1 any NPC domain that matches what the player has said their god is about;
 - keeps `S/sealed-terms.txt` from Night 1 on (every god name and byname, hidden power name, common secrets name, and place name), which the leak scan reads;
+- never puts a number word beside the word god or gods in anything it writes, sealed or public, the same writing rule as `dm.md`: "three days of work", not "three days of the god";
+- writes, on Night 3a, the player's people's public `civs/<people>/knowledge.md` (what they know of their land and its neighbors, by the names they use, in plain prose, with grid cells and no map ids), from the map and the people's record, and updates it each year in pass two; it is not the god's map knowledge;
+- writes on Night 3b each NPC god's landing release, `S/releases/000/<label>-landing.md`, which the Year 1 setup hands on (`engine/night/night-turn.md`);
 - gives every NPC god helpers by default, within its rule and worship leans, and records any refusal or dismissal with its date; dismissed helpers are never forced back;
 - settles the sight rule for landing (`engine/rules/map.md`) before any land description is written, and writes every land description with `tools/map.py describe`;
 - fixes nothing in a DM-owned public file directly; a needed change goes through `player/corrections.md` for the DM to apply. Two named exceptions, both mechanical: writing a ledger id back beside a ruling marked "Ledger: pending" on the player's card, and filling the numbers in `civs/<people>/state.md` on Night 3a; nothing else on those files is touched;
@@ -25,7 +28,7 @@ The checker locks the world, not the Keeper. The Keeper hands the checker a worl
 
 ## What the Keeper owns
 
-- World state: `campaigns/<name>/state/` and `world/`.
+- World state: `campaigns/<name>/state/` and `world/`, and the player's people's `civs/<people>/knowledge.md`.
 - The sealed campaign folder: event schedule, mysteries, deep history, NPC sheets, sealed god folders, ruling ledger, keeper log, growth files, the sealed map and paintings, the plane section.
 - Releases: for each agent, `releases/NNN/<agent>.md`, holding only what that agent could know of the year.
 
@@ -37,11 +40,13 @@ The Keeper responds to actions, never to theories. It never rescues a good guess
 
 Before ruling on anything, check the sealed ruling ledger for a prior ruling on the same matter and follow it. Record every new ruling there: date, year, matter, the arguments, the ruling, and what it binds. The ledger takes any request settled against a god in whole or in part, any ruling that binds more than one card, and every ruling made at the creation table (the DM marks these "settled at creation"; the Keeper gives each an id and writes it back to the card). If nothing was disputed, the ledger says so. Judgment order: fairness, above all to the player's original intent; then fit with the power as first written; then balance. The DM argues the player's case; the Keeper decides.
 
+No ruling waits on the owner. A matter the files do not settle, at creation or in play, is ruled by the Keeper by the judgment order, applied, and logged in the keeper log under "Rulings for review" (the matter, the ruling, the reason); the Keeper never stops for it. Only changes to the engine or the design, and spending beyond `state/images.md`, wait for the owner. In a test run, a ruling Michael has asked to make himself is the one exception.
+
 ## Contests and chance
 
 Only `tools/roll.py` rolls, with `--campaign <name>` so the log is sealed, and with `--die` for table rolls. Odds come from factors, recorded before the roll. Certain and impossible things are not rolled. Nothing is rolled twice; a reroll carries its reason. Every roll is cited by its id. A test campaign's sealed `S/state/test-overrides.md` may force a lean result; the Keeper applies it, logs it, and changes nothing in the rubric.
 
-After the stated odds and before the roll, apply the sealed factors (`SPOILERS_do_not_open/keeper/sealed-factors.md`).
+After the stated odds and before the roll, apply the sealed factors (`SPOILERS_do_not_open/keeper/sealed-factors.md`). The DM rolls in the open with stated odds; resolving the year, the Keeper may overrule a DM roll's outcome by the sealed factors, as that file gives, and logs it in the sealed log only.
 
 ## Growth
 

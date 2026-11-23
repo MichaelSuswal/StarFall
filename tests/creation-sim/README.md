@@ -4,6 +4,7 @@ A repeatable test of the three creation days and nights. A stand-in player agent
 
 Per run, this folder holds:
 - `stand-in.md`: the stand-in player's brief.
+- `person.md`: a short fictional person file for the stand-in, read by the DM in mirror mode as if it were the player's chat history and memory (DESIGN 3.4c). Invented for the run; no real person's details.
 - `timing.md`: when each stage started and finished, Pacific, and which models ran.
 - `changes.md`: the change list. Proposals only. Nothing in the engine changes until Michael approves a line. Status: proposed, approved, rejected, applied.
 - `check-report.md`: the independent checker's report on the locked world, spoiler-free above its SEALED line.
@@ -17,9 +18,16 @@ Agents report process problems (unclear instructions, missing paths, contradicti
 2. Day 1: the stand-in answers the survey; the DM closes the day.
 3. Night 1: the Keeper runs the runbook. The orchestrator spawns the seven god agents for it, each with only its own folder and release, and relays the Keeper's stops.
 4. Day 2 and Day 3: the DM and the stand-in talk; the orchestrator relays and appends both sides to the transcript.
-5. Nights 2, 3a and 3b: as Night 1, with the negotiation rounds relayed. The continuity checker locks. Any ruling Michael gives in chat during the run is written by the orchestrator, and only by it, to the campaign's sealed `rulings.md`, quoted with the Pacific time and the question he answered.
+5. Nights 2, 3a and 3b: as Night 1, with the negotiation rounds relayed. The continuity checker locks. Any ruling Michael gives in chat during the run is written by the orchestrator, and only by it, to the campaign's sealed `rulings.md`, quoted with the Pacific time and the question he answered. Nothing in the run pauses for him: a ruling the files do not settle is made by the Keeper, or by the checker at the lock, by the judgment order and logged for review, as in a real campaign (DESIGN 2.7a). The one exception is a ruling Michael has asked, before or during the run, to make himself.
 6. An independent checker reads everything and writes `check-report.md`.
 7. Findings go on `changes.md`, one line each, as proposals.
+
+## Setting up the next run
+
+- The stand-in brief names a different kind of player each run (a builder, a conqueror or a trader), keeping Michael's style only in how it plays the table (run 04 item 1).
+- One NPC god may be given a forced lean that invites refusal (of helpers, or of the default size), by the sealed test override, so refusal pricing runs for an NPC as well as the player (run 04 item 37).
+- The stand-in gets a `person.md` and may choose either mode at the Day 1 question.
+- Every agent pulls with `git pull --rebase --autostash`.
 
 ## Run 01 (2026-11-18, 23:00 to 00:21 Pacific)
 

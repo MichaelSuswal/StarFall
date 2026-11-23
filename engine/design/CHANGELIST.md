@@ -62,3 +62,15 @@ The findings are `tests/creation-sim/run-03/changes.md`; Michael's decisions are
 - ~~Refusing a default counts toward an edge by judgment.~~ One step in the god's favor per default refused, in the one price it bears on. (Section 3.11)
 - ~~Michael's in-run rulings relayed by the orchestrator in any file.~~ Recorded only in the sealed `S/rulings.md`, quoted with the time. (Section 2.7a, CLAUDE.md)
 - ~~Only the files a release names may be touched inside a run.~~ A pull is always allowed. (CLAUDE.md)
+
+## Build 5, after creation simulation run 04 (November 2026)
+
+The findings are `tests/creation-sim/run-04/changes.md`, with run 03 item 94 (mirror mode); Michael's decisions are in `run-04/build-plan.md`. Reversed decisions:
+
+- ~~The game never mines the player's chat history.~~ Mirror mode, opt-in at the start of Day 1, draws the god's hidden powers and two or three small knacks from the player as a person (chat history and memory, or a short survey), never anything sensitive; standard mode draws nothing. (Sections 1.1, 3.4c, 3.9)
+- ~~A creation run starts on Michael's go, and the lock pauses on a flag only Michael can clear.~~ The player starts a campaign; no step waits on Michael; rulings the files do not settle are made by the Keeper or the checker by the judgment order and logged for review; the lock never pauses. Engine and design changes and spending beyond `images.md` still need the owner. (Sections 2.7a, 15.2, 15.5, CLAUDE.md)
+- ~~The sealed factors apply only to rolls the Keeper makes.~~ The DM rolls in the open with stated odds; the Keeper, resolving the year, may overrule a DM roll's outcome by the sealed factors, logged sealed. (Section 12.6)
+- ~~The unsaid want is asked and answered at the open table and moved to the sealed file after.~~ It is asked last and answered in a separate `SEALED:` reply written straight to the sealed file. (Section 10.7)
+- ~~The people's knowledge of the land is kept in their record and reaches the DM with the first release.~~ A public, DM-readable `civs/<people>/knowledge.md`, separate from the god's map knowledge. (Section 11.4)
+- ~~An underground the world has may be traced as data only, after the paint, and the data follows the paint.~~ Night 1 decides whether there is an underground; if there is, it is written into `map.json` before any painting and the data rules below ground. (Section 11.2)
+- ~~One step in the god's favor per default refused, with what a step is worth left unsaid.~~ The DM names the edge each refusal bears on; one step drops one weakness. (Section 3.11)

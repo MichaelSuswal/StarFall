@@ -22,7 +22,7 @@ For the cloud layer:
 
 > A continuous sheet of pale cloud seen from directly above, painted in oil in a 19th-century academic manner with a smooth, finely blended surface: soft, dense, overcast cloud with slow variations of grey, cream and faint ochre where light comes through, no gaps, no ground visible, no horizon, no text, no border, no frame, not photographic.
 
-For an underground sheet, the surface block with "a whole continent" replaced by "a vast cavern country: galleries, sunken rivers, salt flats and lightless lakes, lit faintly from within".
+For an underground sheet, the surface block with "a whole continent" replaced by "a vast cavern country: galleries, sunken rivers, salt flats and lightless lakes, lit faintly from within". The brief after it is the layer as it is in `map.json`, which is written before the painting. A layer that is mostly solid is asked as solid rock, with the hollows described as its only features: for such a layer the replacement is "a continent's depth of unbroken solid rock seen from directly above, dark and close-grained" and the brief names each hollow, where it lies and how large, and nothing else. The painter does not keep to "nothing else is hollow" for a mostly empty layer, so the Keeper checks the painting against the data: where they differ, the data rules and the player's sheet is shown only fogged to the known hollows (`engine/rules/map.md` 1.1).
 
 Map requests are sealed: `SPOILERS_do_not_open/images/requests/<campaign>-map-surface.json`, `-map-clouds.json`, `-map-under-1.json`, with outputs in `SPOILERS_do_not_open/images/out/`. A map prompt describes the whole world, so it is a spoiler.
 
@@ -44,7 +44,7 @@ Every painting is one of three, and the DM knows which before writing the scene:
 
 Every recurring subject (the avatar, a significant character, a creature the god has seen before, a place the god has been) has an appearance card (`engine/style/appearance-card.md`). When such a subject is in the scene, its card text is copied into the scene word for word, in full, every time. The DM never paraphrases a card, never shortens it to the parts that seem to matter today, and never describes a carded subject from memory. If a dated change on the card applies (a scar, a rebuilt roof), that line is copied too. The same words every time are what keep the subject the same every time.
 
-A god whose card gives no face is never painted with one, since any painted face invents it. Its scene adds this line, word for word, after the card text: "Seen from behind or in deep shadow, the head turned away or lost in darkness, no face visible."
+A god whose card gives no face is never painted with one, since any painted face invents it. Its scene adds this line, word for word, after the card text: "Seen from behind or in deep shadow, the head turned away or lost in darkness, no face visible." A god whose body is not a figure (a swarm, a mist, a flock, a stone) has no head to turn, so its scene adds this line instead, word for word: "Seen at a distance or in deep shadow, with no face anywhere in it."
 
 A subject seen for the first time has no card yet. The DM describes it from the release, and if it will recur, writes its card that day so the next painting copies the card.
 

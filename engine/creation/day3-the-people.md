@@ -6,11 +6,11 @@ The DM's guide for the third day of creation. Read with DESIGN.md sections 3 and
 
 Like Day 2, a conversation. The god talks about the people it will lead; the DM follows, asks, prices what needs pricing and rules. In the fiction by default, (oog) when needed. Before the day closes, the DM goes back over its checklist.
 
-This is the day the game's premise comes due. A god comes down to lead a people, to build, to rule and to spread (DESIGN 3.0). So the DM opens as though the god leads a people with a seat, a court or council, and helpers who run things when the god is absent, about 5,000 strong with a town or city, and asks who they are. That is the expected course, not one option among several. A player may still refuse any part of it: a smaller people, no town, no helpers. Refusing is a choice the player argues for, the DM prices the cost of it plainly (above all what it means for unplayed time) and says that each default refused counts one step in the god's favor in the one edge price it bears on (DESIGN 3.11), and the game then remembers out loud that this god does not play the usual way. Nothing is held against the player for it.
+This is the day the game's premise comes due. A god comes down to lead a people, to build, to rule and to spread (DESIGN 3.0). So the DM opens as though the god leads a people with a seat, a court or council, and helpers who run things when the god is absent, about 5,000 strong with a town or city, and asks who they are. That is the expected course, not one option among several. A player may still refuse any part of it: a smaller people, no town, no helpers. Refusing is a choice the player argues for, the DM prices the cost of a refusal the player has made plainly, asked or not (above all what it means for unplayed time), and says which edge each default refused bears on and that it counts one step in the god's favor there, one weakness off that edge's price (DESIGN 3.11), and the game then remembers out loud that this god does not play the usual way. Nothing is held against the player for it.
 
 ## What the DM has from Night 2
 
-- `player/day3-brief.md`: the kind of country the god will land in, as the land itself would show it. Nothing of who lives there beyond visible traces (walls, smoke, a worn path), nothing of history, nothing of other gods, no distances or sight lines.
+- `player/day3-brief.md`: the kind of country the god will land in, as the land itself would show it. Land is the ground, its water, weather, growth and beasts, and visible traces of people (walls, smoke, a worn path). Not land: who lives there or how many, whether anyone waits for the god or how it will be received, history, other gods, distances or sight lines. The brief is written from the placement draft before the map is traced, so it names only what that draft fixes; anything it says is in view is confirmed at tracing, and a difference reaches the DM through `player/corrections.md` and the first morning's pre-landing block (`engine/rules/morning-story.md`). Nothing in the brief settles a Day 3 question; the DM asks it as if the brief were silent.
 - `player/followups-day3.md`: the Keeper's follow-ups. Write the player's answers under each before the close; if there are none, one line saying so.
 - `player/corrections.md`, if the Keeper has anything for the DM to put to the player.
 - The Keeper does not name the player's people or their home. The player does. The Keeper names everything else, and never names what the player leaves for play (DESIGN 3.11a).
@@ -40,11 +40,15 @@ Begin from what Night 2 built. The Keeper now knows where this god will land and
 - No people is made to fit a plot.
 - The player's description of the land or its past (old roads, who was here before, what lies over the pass) is recorded as the people's belief or as a wish, never as a fact. The DM says so to the player: the world decides, and the god will see.
 - The player sets who a mortal is, never what that mortal will do. "I'd like her to be the first to come" is heard and not promised.
-- The DM does not offer refusal of the premise unasked. It prices refusal when the player asks for it.
+- The DM does not offer refusal of the premise unasked. A refusal the player has made is priced plainly, asked or not.
 
 ## Follow-up questions
 
 Few, woven in. (oog) when needed.
+
+## Sealed answers
+
+An answer that belongs in the sealed record (an unsaid want, a caveat the god would not say aloud) is taken as on Day 2: asked last, answered in a separate reply headed `SEALED:`, written by the orchestrator (or, in a live chat, the DM) straight to `S/player/unsaid.md`, with only "(One more answer was given privately, for the sealed record.)" left in the transcript. When it qualifies an open conduct line, that line carries the plain mark "check with the player before acting", with no reason.
 
 ## At the close
 
@@ -55,6 +59,6 @@ Read the people back to the player in plain words, including every priced edge a
 - the hierarchy, or the record that the god refused one and how the people settle things, or the third form (designed, not yet serving, with who each helper is and how it may be won): `player/hierarchy.md`
 - any premise rejected or bent, under `## Day 3` in `player/rejected-premises.md`
 - the player's answers under each question in `player/followups-day3.md`
-- a new power block marked "added Day 3" on `player/power-card.md` for any edge that is a power of the god's, dated entries for narrowings, each ruling marked "settled at creation. Ledger: pending, Night 3"; and dated entries on `player/conduct-profile.md` for any standing conduct the day produced (how the god means to be found, what it will not give in unplayed time), with its `## Now` summary rewritten to match. A stated first action ("I walk in at the burial ground") is conduct and goes in the profile; where it happens is the world's, recorded as the player's wish for the Keeper to place
+- a new power block marked "added Day 3" on `player/power-card.md` for any edge that is a power of the god's, dated entries for narrowings, each ruling and every pricing made at the table (an edge, a refusal's step, a mortal's knack) marked "settled at creation. Ledger: pending, Night 3"; and dated entries on `player/conduct-profile.md` for any standing conduct the day produced (how the god means to be found, what it will not give in unplayed time), with its `## Now` summary rewritten to match. A stated first action ("I walk in at the burial ground") is conduct and goes in the profile; where it happens is the world's, recorded as the player's wish for the Keeper to place
 
 Then Night 3: the Keeper builds the peoples and the world, and the checker locks it. At 6:30 the next morning, the god wakes in its land.

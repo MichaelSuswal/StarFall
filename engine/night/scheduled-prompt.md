@@ -1,6 +1,6 @@
 # The overnight scheduled task: prompt
 
-This is the prompt the 1:45am scheduled task sends each night. Installed 2026-11-19 with Michael's go; the task stays paused until he says to enable it.
+This is the prompt the 1:45am scheduled task sends each night. Installed 2026-11-19 with Michael's go; the task stays paused until he says to enable it. Whoever enables it sets it to run with automatic approval ("Automatically approve" in the task's settings), so no step of a night waits for a go (DESIGN 2.7a).
 
 ---
 

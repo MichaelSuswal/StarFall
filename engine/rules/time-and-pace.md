@@ -152,6 +152,16 @@ On foot, a god that never stops walks about sixteen hours where a mortal walks t
 
 Swimming is the mode where a god gains the most, because a mortal swimmer is limited by exhaustion, not speed. A god swims at about one mile an hour for as long as it likes and covers up to 20 miles in a day, though cold water still bites a mortal form and the DM may rule on it.
 
+Flying is priced by the size of the flier, in a fair day of daylight flight with rests, over any ground and over water within the day's reach (a flight that cannot reach land by dark is not made):
+
+| Flier | Miles per day | Notes |
+|---|---|---|
+| Small flier | 20 | An insect swarm or a small bird moving as one, in short flights between rests. |
+| Large bird | 50 | A crow, a hawk, a heron: steady flight with rests. |
+| Great flier | 100 | A goose on passage or a winged form the size of a man or more, for a few days running, then a day's rest. |
+
+Night, rain, high wind and cold ground a flier unless its card says otherwise, and a storm grounds every flier. A god's endurance does not raise these rates, since light and weather hold a flier, not tiredness. A power card's own rate wins. `tools/pace.py` has no flight mode; the DM and the Keeper price flight from this table by hand.
+
 Riding, carts and boats with a crew move at the pace of the horse, the oxen or the rowers, and a god aboard changes nothing. A god rowing alone gains the same 1.6 as on foot. A god sailing alone may sail through the night along a coast it knows, for about 1.5 times the daylight rate, and wrecks like anyone else on a coast it does not.
 
 Working, a god labors sixteen hours to a mortal's ten, so a god working alone counts as 1.6 workers. A god's strength beyond that is on its power card. All gods share occasional incredible feats; how often and how large is set in world-building, and the DM will say when one is in reach.
