@@ -99,3 +99,69 @@ the Reach
 the Lead Animal
 Vessari
 the Ilwe
+# Night 3b, 2026-11-23: names in the deep history, the mysteries and the cast that are not on the map
+Ellowain
+the Crowned
+the Crowned Years
+Hathra
+the Granary-Mother
+Corvane
+the Roadwright
+Ilmar
+the Doorkeeper
+Ummer
+the Venn
+Tessaly Vaun
+the Doorward
+the Stane Roll
+Mereth
+Old Emmer
+Oddo Karr
+the Binwrights
+the Cutters of Ombrel
+Aune of the Quills
+Iselle
+Urrak
+Dunmar Rhoss
+Anwen Sorrel
+Grusk
+Belam Hoyt
+Sollis Carn
+Callis Orme
+Harl Bessin
+Ennet
+Peddar Lowe
+Corin Dast
+Sennah
+Orrick
+the Coast Realm of Vess
+Halven
+Hobb Ansel
+Harn Uld
+Jessa Corl
+Brann Carn
+Marda Dast
+# Night 3b: what each people but the player's calls the world and the star. The player's people's
+# own two names are made public tonight in campaigns/sim-05/world/world.md and were never listed.
+the Under-Sky
+the Count-Keeper
+the Lending
+the Lender's Lamp
+the Far Fire
+the Landward
+the Window Lamp
+the Fixed Weight
+the Lead Star
+the Seed-star
+the Nail
+the Still Float
+the Crown-star
+the Teacher's Candle
+the Ways
+the Circuit
+the Pasture
+the Fields
+the Below
+the Mouths
+the Realm
+the Coasts

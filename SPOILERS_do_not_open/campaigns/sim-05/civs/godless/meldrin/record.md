@@ -24,3 +24,12 @@ Their tolls, their old borders in name at least, salt at a fair price, and not t
 They live in sight of the Sleeper's Downs [r15] and do not go up; the villages nearest the downs are the ones emptying fastest, and people there are careless of names. From Meldry [f27] to the Sleeper's Brow [f65] on foot over open ground: 134.9 miles, 9.6 days. They sit on the Meld [f04] between the peoples of `god-rivers`, `god-roads`, `god-fate` and `god-sea`, and each of those peoples' troubles has a Meldrin toll in it.
 ## Their magic
 About seventy-five workers known by name, at the world's level, fitted as for every people; most villages have one.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- They count a hundred and forty kings, unbroken, back to a first king who paved the roads with his own hands.
+- The old kings were favored, and went to the star as a reward when they died.
+- No one ploughs the Sleeper's Downs [r15] because the first king sleeps under them.
+- The Dry Market [f61] died of a bad toll.
+- The rolls in the roll-house at Meldry [f27] go back to the founding.
+- They call the world the Realm, and the star the Crown-star.

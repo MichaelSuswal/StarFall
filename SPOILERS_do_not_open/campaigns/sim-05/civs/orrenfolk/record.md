@@ -88,3 +88,12 @@ From the traced map. Every travel time is the tool's, at the pace table's rates 
 
 ## Named mortals
 None named. Offices are held by people not yet named; play or 3b names them.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- The harvest-mother of the Worn Altar [f59] was let go by ungrateful forebears, and left.
+- The great cellars under Orrenmark [f26] were dug by her in one night.
+- A full bin is "a karr".
+- The Ferry-Wardens' charter was given by the river's keeper.
+- Far west on the black soil is a hall the first people left because a word lived in it.
+- They call the world the Fields, and the star the Seed-star.

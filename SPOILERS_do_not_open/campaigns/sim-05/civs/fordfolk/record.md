@@ -92,3 +92,11 @@ From the traced map. Every travel time is the tool's, at the pace table's rates 
 
 ## Named mortals
 None named. Offices are held by people not yet named; play or 3b names them.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- The three roads were laid by one king in one summer.
+- The old town at the crossing burned because it refused a stranger the way.
+- The Barrow Door [f52] is a king's grave, and the hill clans guard it for the gold.
+- Singers of lists came through Threeways [f23] when the oldest now living were children, sang for nine nights, and asked the name of every band at the gathering. The saying is that they come when the roads are about to change hands.
+- They call the world the Ways, and the star the Far Fire.

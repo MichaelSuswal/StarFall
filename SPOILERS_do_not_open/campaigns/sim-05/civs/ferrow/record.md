@@ -83,3 +83,11 @@ From the traced map. Every travel time is the tool's, at the pace table's rates 
 
 ## Named mortals
 None named. Offices are held by people not yet named; play or 3b names them.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- They have no founding. They say they have always been on the water.
+- The knot their debt-cords close with was taught by the river itself, in the shape of a man who wintered with them.
+- The Capped Spring [f55] was shut by a jealous king so that no one could drink without paying.
+- The dry bed beside the Dry Road [f44] is where the river called in a loan and took a whole ford.
+- They call the world the Lending, and the star the Lender's Lamp.

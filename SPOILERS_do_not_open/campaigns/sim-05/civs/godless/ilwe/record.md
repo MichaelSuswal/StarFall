@@ -24,3 +24,10 @@ The reeds left uncut and the channels left unstaked; salt-grass and fish enough;
 They are the only guides through the delta and the only people who know its channels. Wanderers who sing lists of names have come to the marsh edge in their grandmothers' time and were guided through; the Ilwe remember the tune and not the words. They are the water-margin people of the Night 1 pool.
 ## Their magic
 About three workers known by name, at the world's level, fitted as for every people.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- The delta was smaller once, when there was a harbor at the old mouth.
+- Walkers who sang came to the marsh edge in their grandmothers' time and were guided through. They kept the tune.
+- They were here before the dry people.
+- They call the world the Mouths, and the star the Still Float.

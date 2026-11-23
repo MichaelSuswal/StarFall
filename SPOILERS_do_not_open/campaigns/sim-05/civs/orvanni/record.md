@@ -72,8 +72,18 @@ From the traced map. Every travel time is the tool's, at the pace table's rates 
 - the Rimeward Range [r01] and the Rime Bones [f56]. Grade: reported. Hunters' tales of great bones in the ice.
 - the Rimewater [f01] and the Windrow Steppe [r06]. Grade: seen. Summer grass.
 - the Coldwater Coast [r09] and the Cold Sea [r30]. Grade: seen. A few days' ride west.
+- Lastlanding [f72]. Grade: rumored. A tale of shore people who keep a fire toward the sea; on foot over open ground from Kes Orvan [f21], 103.8 miles, 7.4 days. Added on Night 3b.
 - Threeways [f23]. Grade: reported. By horse over open ground from Kes Orvan [f21], 246.6 miles, 12.3 days; they sell horses there.
 - Carrowford [f20] and the Carrow Plain [r07]. Grade: reported. By horse over open ground from Kes Orvan [f21], 286.5 miles, 14.3 days; farmers at a ford under the same mountains.
 
 ## Named mortals
 - Tavrin, the priest-king: a man of about fifty, honest and stubborn by character and custom, known for keeping a law past what it costs him. Set by the god as who he is; what he does is his. No separate file yet; the cast is 3b's.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- Kes Orvan [f21] was built after three killing winters, eight grandfathers back.
+- The Roofless Hall [f62] was a king's hall, and the king was taken up through the roof for his pride, which is why no oath is sworn there.
+- The Rime Bones [f56] are the Sky's first herd, frozen where they stood.
+- West on the cold shore there are people who keep a fire burning toward the sea and speak wrongly. The old say they are drowned men who do not know it.
+- Singers who walk came down the Rimewater [f01] in their grandfathers' time, sang all night, and asked the names of the camps. The old remember being frightened and not harmed.
+- They call the world the Under-Sky, and the star the Count-Keeper.

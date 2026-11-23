@@ -24,3 +24,10 @@ To be left alone above the gate, to be paid in full, and to keep the Stane Door 
 They hold the mouth of one sealed door [f51] and the hall behind it [u01], and know more of the old kingdom's bargains than anyone living. They have good copper and a little tin, in a world short of iron. Their numbers do not grow. They are the high-country people of the Night 1 pool.
 ## Their magic
 About four workers known by name, at the world's level, fitted as for every people. They call the price "the mountain's share".
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- They came over the ice before any road.
+- They made a bargain at the gate, the road for peace and the door for silence, with one king of the plain.
+- The Stane Door [f51] holds the dead of the kings of the plain.
+- They call everything under the gate the Below, and the star the Nail.

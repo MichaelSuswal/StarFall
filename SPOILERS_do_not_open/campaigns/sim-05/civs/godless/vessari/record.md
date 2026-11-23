@@ -24,3 +24,11 @@ The salt trade, safe coasts, true seed to sell north, and the school kept theirs
 They hold the school of workers, the largest gathering of mortal magic under this star, and the oldest worked ground of the south. They hold most of the world's salt. They are the nearest human neighbors of `god-harvest`'s people and sell them seed and salt.
 ## Their magic
 About forty-five workers known by name among the towns, at the world's level, fitted as for every people, and the school besides.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- The league is seven generations old. Before it there was the Coast Realm of Vess, which Meldry [f27] betrayed.
+- The School at Ombrel [f66] has always been there.
+- The bare circle beside the school is where the first teacher is buried.
+- The true seed they sell came from a stranger, five generations back.
+- They call the world the Coasts, and the star the Teacher's Candle.

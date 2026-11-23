@@ -7198,6 +7198,23 @@
       ],
       "known_to": "the Ferrow",
       "notes": "A spring out of a stone ledge: the head of the Tessen."
+    },
+    {
+      "id": "f72",
+      "name": "Lastlanding",
+      "type": "village",
+      "shape": "point",
+      "coords": [
+        [
+          30,
+          350
+        ]
+      ],
+      "regions": [
+        "r09"
+      ],
+      "known_to": "the Orvanni, as a tale of shore people; coasters of the Cold Sea",
+      "notes": "Added on Night 3b, 2026-11-23, first needed by the deep history. A village of some two hundred on the cold west shore: the descendants of a crew set ashore from a ship with the wrong sails. They keep a watch fire for a ship that has not come back."
     }
   ],
   "landings": {
@@ -7386,5 +7403,72 @@
         }
       ]
     }
-  ]
+  ],
+  "plane": {
+    "starfalls": [
+      {
+        "id": "p01",
+        "bearing": "north",
+        "distance_years_walk": 1000,
+        "age_years": 0,
+        "alive": true,
+        "phase": null,
+        "throw": true,
+        "rolls": [
+          "r-0146",
+          "r-0147",
+          "r-0148"
+        ]
+      },
+      {
+        "id": "p02",
+        "bearing": "south",
+        "distance_years_walk": 64,
+        "age_years": null,
+        "alive": "not yet fallen",
+        "phase": "mature",
+        "throw": false,
+        "rolls": [
+          "r-0150",
+          "r-0151",
+          "r-0152",
+          "r-0153",
+          "r-0162"
+        ]
+      },
+      {
+        "id": "p03",
+        "bearing": "west",
+        "distance_years_walk": 28,
+        "age_years": null,
+        "alive": "not yet fallen",
+        "phase": "late",
+        "throw": false,
+        "rolls": [
+          "r-0154",
+          "r-0155",
+          "r-0156",
+          "r-0157",
+          "r-0163"
+        ]
+      },
+      {
+        "id": "p04",
+        "bearing": "north",
+        "distance_years_walk": 370,
+        "age_years": null,
+        "alive": "not yet fallen",
+        "phase": "falling",
+        "throw": false,
+        "rolls": [
+          "r-0158",
+          "r-0159",
+          "r-0160",
+          "r-0161",
+          "r-0164"
+        ]
+      }
+    ],
+    "count_roll": "r-0149"
+  }
 }

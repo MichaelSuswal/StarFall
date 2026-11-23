@@ -83,3 +83,11 @@ From the traced map. Every travel time is the tool's, at the pace table's rates 
 
 ## Named mortals
 None named. Offices are held by people not yet named; play or 3b names them.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- Kellgarth [f25] was walled in the time of the first Lawsayer, five hundred years ago.
+- The Long Mound [f58] is where the Lead Animal first lay down.
+- The downs to the north-east, the Sleeper's Downs [r15], the old one asleep, are the mother of all herds, who will get up when the count comes right.
+- The salt has always come from the south coast and the iron from the roads, and both were cheaper in their grandfathers' day.
+- They call the world the Pasture, and the star the Lead Star.

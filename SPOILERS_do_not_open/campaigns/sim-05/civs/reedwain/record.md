@@ -79,3 +79,11 @@ From the traced map. Every travel time is the tool's, at the pace table's rates 
 
 ## Named mortals
 - Maren Dask, the Prince of Accounts: a woman near sixty, a carter's daughter who rose by years of kept tallies, exact, dry of temper. Set by the god as who she is; what she does is hers. No separate file yet; the cast is 3b's.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- The Old Tollhouse [f60] was kept by a just toll-taker who walked away sooner than cheat.
+- The Door of Terms [f53] has the first bargain ever made cut on it, and whoever reads the whole of it owes nothing to anyone.
+- The Dry Market [f61] is the market that forgot its debts. They pass it each year and do not stop.
+- A woman came with the list-singers in the old people's youth and stayed at Tollford [f29], saying she had come to collect from whoever kept the door. No one paid her. Some of the old hold that the debt is still open and that the road owes it.
+- They call the world the Circuit, and the star the Fixed Weight.

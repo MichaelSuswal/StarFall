@@ -167,7 +167,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The Westwood Marches [r12] (forest), lying south: 13 days on foot at the pace table's cross-country rate; its nearest edge about 41 miles south of the point, 2.9 days on foot over open ground by the ground crossed.
 - The Cold Sea [r30] (sea), lying north: 5 days on foot at the pace table's cross-country rate; its nearest edge about 73 miles west of the point, 5.2 days on foot over open ground by the ground crossed.
 
-Places: The Rimewater [f01] (river; known to the Orvanni; the Fordfolk); The Windrow Brook [f05] (river; known to the Fordfolk).
+Places: The Rimewater [f01] (river; known to the Orvanni; the Fordfolk); The Windrow Brook [f05] (river; known to the Fordfolk); Lastlanding [f72] (village; known to the Orvanni, as a tale of shore people; coasters of the Cold Sea [r30]; added on Night 3b, 2026-11-23, first needed by the deep history: on foot over open ground from Kes Orvan [f21], 103.8 miles, 7.4 days; from Threeways [f23], 275.0 miles, 19.6 days).
 Notes: Thinly peopled shore of the west.
 Ordinary wonders, no mystery attached: Seals on the cold beaches; driftwood of trees that grow nowhere on this land.
 
@@ -284,7 +284,7 @@ Neighbors (reference for the Keeper, not the seen view):
 
 Places: The Sleeper's Brow [f65] (site; known to the Meldrin, who do not go up; herders).
 Notes: Seen from any height the downs have the plain shape of a great beast lying asleep. The paint drew it some 350 miles long; the downs are the ground it shows, and the hoarder itself is the site inside it, at its true size.
-Ordinary wonders, no mystery attached: From far off the downs look like a sleeping beast, and shepherds say they are warm underfoot in frost; no birds nest there.
+Ordinary wonders, no mystery attached: From far off the long line of the downs looks like a beast lying asleep; dew ponds on the tops, and blue butterflies on the turf in June. (Rewritten on Night 3b: the first line gave what is so of the Sleeper's Brow [f65] alone, which is a clue of mystery E01 and not a wonder of the downs.)
 
 ## r16 The Underlee Plain
 

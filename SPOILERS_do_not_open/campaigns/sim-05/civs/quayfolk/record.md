@@ -84,3 +84,11 @@ From the traced map. Every travel time is the tool's, at the pace table's rates 
 
 ## Named mortals
 None named. Offices are held by people not yet named; play or 3b names them.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23. This is what the people say of the past. It is their telling, not the world's word, and parts of it are wrong. Nothing agreed on Night 3a is changed by it.
+- There is an older harbor under their own, drowned because its queen shut the door on a guest.
+- Their own forebears built the wall.
+- The Strand Bones [f57] are a whale-king's.
+- A fisher called Peddar Lowe dived to the old quay three times in one summer and came up not knowing his own ward. His boat is the Diver's boat still. Boys are told this to keep them out of the water under the wall.
+- They call the world the Landward, and the star the Window Lamp.

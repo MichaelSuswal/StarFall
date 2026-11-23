@@ -43,3 +43,15 @@ The public file is `campaigns/sim-05/civs/carrow/knowledge.md`. With ids and gra
 - Meldry [f27] and the Meldrin Vale [r14]. Grade: reported, from traders. From Carrowford [f20] over open ground: 263.6 miles, 18.8 days on foot.
 - The Greystone Uplands [r03]. Grade: rumored.
 - The Sleeper's Downs [r15]. Grade: rumored, as a carters' story of hills shaped like a sleeping beast.
+
+## What the old tell
+Added by the Keeper on Night 3b, 2026-11-23, from the deep history. This is what the people say, partly wrong where they would be wrong. Nothing agreed on Night 3a is changed by it.
+- They count twelve Judges of the Ford before the present one, and say three hundred years. It is about 310. Their first Judge, Ennet, set the iron bar in the market wall; the Carrow say only "the first Judge", and her name is in no living mouth.
+- The Old North Road [f40] was laid by the people before, kings with no names. It was laid by a realm that held most of the land, and measured by a woman whose mark is on its plinths.
+- The set stones in the wet ground of the Carrow Plain [r07] are those people's graves, and so nobody's. They are not graves. They are the lines of the plots given to the families who kept the ford for that realm.
+- The hold-folk have never come down in arms because the Carrow have never given them cause. The Varrun keep an old bargain made at the Varrun Gate [f50] with the realm, and would keep it whoever lived at the ford.
+- Their name is the old word for the ford. It is, and it was the road-builders' word, not theirs.
+- They call the world the Wide Ground, and the star the Old Candle. Children are told it burns for whoever is late home.
+
+## The sealed answers and the history (Night 3b)
+How each of the six sealed answers in `player/unsaid.md` met the history, the mysteries and the cast is in the keeper log, Night 3b, step 3b.5. In short: nothing was fitted to a want; the place the god lost is named in this land only in the Venn's list; what it lost is findable only where its own acts take it; the stake is on no list a roll chooses from.
