@@ -43,3 +43,11 @@ Given by the player privately, unasked, with the second reply of the day, beside
 DM note: "the place I lost" is the place of the backstory outline, whose name the god has lost. The DM does not know that name and asks nothing further about it. Whether and how it is ever learned is the Keeper's.
 
 Confirmations: none yet. Given today.
+
+Given by the player privately, unasked, with the third reply of the day, beside the yes to the read-back. In the player's words:
+
+> I'm leaving one thing deliberately open. I wrote the first line as a first action because I want the first thing I do to be a fair, plain, small act. I want the Carrow to see me keep a measure before they see me take any ground.
+
+DM note: this qualifies an open conduct line. The open profile has the god start its first line (from the gap in the hills, as a wish) among its first actions; pacing a line closed is taking ground. That open line now carries the plain mark "check with the player before acting", with no reason given, and no agent runs unplayed time on it until the DM has checked with the player. The acts that keep a measure (asking to see the oldest disputed fence, setting the foot and the chain in iron beside the Carrow's own) carry no mark.
+
+Confirmations: none yet. Given today.

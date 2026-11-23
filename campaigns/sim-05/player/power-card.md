@@ -148,3 +148,10 @@ Ostrane's chaining runs at three quarters of the plain chaining rate, whatever t
 Set by the world. Not shown.
 
 ## Dated entries
+
+- 2026-11-23, Day 3: True ground, new Limit, agreed by the player at the Day 3 table: "It reads the ground and what stands on it. It gives no distance, height or bearing for anything in the sky." The whole map works by the same sense and takes the same Limit. Ledger: L-0009.
+- 2026-11-23, Day 3: True ground and The whole map, a reading made at the table on the player's question under the Limit above. A wall or a tower stands on the ground and reads as its shape, from the outside, up to its top as built, and nothing inside it if it is closed. The Limit covers what is in the sky and stands on nothing. Settled at creation. Ledger: pending, Night 3.
+- 2026-11-23, Day 3: What is held, the figure the table left to the Keeper. A mortal working aimed at moving, hiding or erasing the line costs its worker twice what the same working would otherwise cost. Ledger: L-0010.
+- 2026-11-23, Day 3: The return, the player's ask, granted by the Keeper. The roll is logged, as every roll is. After a return has happened, the Keeper tells the DM which item went, and the DM tells the player in (oog) and strikes the item by a dated entry. In the fiction the god no longer holds the item and does not know what it was. Nothing is shown before the return, and the god never chooses the item. Ledger: L-0011.
+- 2026-11-23, Day 3: The people's edges. None was asked and none was priced, so no power block is added today and no Day 2 definition or weakness is narrowed. Pricings made at the table: the honesty of the Clerk of the Tally and the Judge of the Ford is character, oath and custom, not a binding, and is not priced; about eighty paid, drilled soldiers in two companies are an ordinary town guard and are not priced. Settled at creation. Ledger: pending, Night 3.
+- 2026-11-23, Day 3: The helpers. The offices are designed, not yet serving; the god lands with no helpers in fact. Not counted as a default refused: no edge was priced, so no step was given and nothing was bought. Settled at creation. Ledger: pending, Night 3.

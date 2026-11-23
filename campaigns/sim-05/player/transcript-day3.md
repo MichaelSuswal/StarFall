@@ -182,3 +182,17 @@ Two points for the record, neither a correction:
 2. For the Keeper, you listed what lies past their borders as something I said nothing about. That's true, and I leave it to the world. I'd only repeat my Day 1 answer: some wild country, some old kingdoms, a hard mountain neighbor and one far-off surveyor I'd want to hire. Those were wishes. They aren't facts, and I'll find out in play.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+(oog) Yes recorded. The Carrow are written as read back, with no priced edge, and the five offices as designed and not yet serving. Your two points are on the record as you gave them: the Warden is the first office you mean to win and the first line is in your conduct, with the fence-viewer and the gap as wishes the world places; and what lies past the borders is left to the world, with your Day 1 answers standing as wishes. Tonight the Keeper builds the peoples and the world and answers what I could not. If anything in today's record has to change to fit, I put the change to you before the first morning is played.
+
+The dark is thin now, and there is wind in it, cold, with wet earth on it.
+
+"Carrow," it says. "Carrowford. A reeve who has never heard of you, a tired judge, a clerk with a small book, a captain asleep until the river rises, and a woman who hates a moved stone. Eighty paid, a wall not tested lately, a ford-foot on the market wall with room beside it."
+
+"None of them is yours. You said so yourself. You will walk up from the river with a hundred feet of iron and ask to see a fence."
+
+"Ostrane. The Chain. The Measure. The ground is under you. Go down and see what it holds."
+
+The dark opens. The falling ends tomorrow.

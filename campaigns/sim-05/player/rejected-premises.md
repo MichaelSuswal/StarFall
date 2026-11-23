@@ -37,3 +37,21 @@ Requests not to be told something: one, kept in the sealed record.
 - "Most gods want worship. I want compliance with a standard." A statement of what this god wants from its people. It takes the premise, to lead, build, rule and spread, as given. What it means for the people is Day 3's.
 - "I'll leave the court, the captains and the helpers for Day 3." A decision still put off, not a refusal.
 - "I can't feel land I haven't walked", "sea, sky and the inside of a mind". The player's own limits on its god, written on the card as Limits.
+
+## Day 3
+
+None rejected. The player took the premise as given: a people of about 5,000 with a town, a seat and offices to run things.
+
+Requests not to be told something: none at the open table.
+
+### Bent by the player
+
+- The helpers. The default is helpers who serve from the landing. The player designed the offices and chose that their holders do not know the god: "designed, not yet serving". The DM stated the practical cost at the table: the god lands with no helpers in fact, no one acts for it while it is away, unplayed time runs on standing conduct alone, and the town goes on under its own law, until each office is won in play. The player accepted it. The DM did not count this as a default refused: no edge was priced on the Carrow, so there was no edge price for a step to bear on, and it bought nothing. Settled at creation. Ledger: pending, Night 3.
+- The seat. The player described a hall as its seat and met the people as a stranger. Recorded as a wish, built or taken in play.
+
+### Not rejections
+
+- "Compliance with a standard, as I said, and not worship." What this god wants of its people. It takes the premise as given.
+- "I'm not asking for one", of priced edges. A choice inside the day's range.
+- Magic, "I'd like to be surprised." A general wish for discovery; it names nothing the player asks not to be told.
+- What lies past the borders, left to the world, with the Day 1 answers repeated as wishes.
