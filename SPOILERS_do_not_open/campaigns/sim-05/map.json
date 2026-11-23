@@ -1,0 +1,132 @@
+{
+ "campaign": "sim-05",
+ "painting": {
+  "size": [
+   1024,
+   1024
+  ],
+  "miles_per_pixel": 1.2,
+  "grid": {
+   "cols": 5,
+   "rows": 4
+  }
+ },
+ "regions": [],
+ "features": [],
+ "landings": {},
+ "layers": [
+  {
+   "id": "under-1",
+   "name": "The Hollows Below",
+   "depth": 1,
+   "notes": "Mostly solid rock. Hollows only, shallow (cellar depth to a few hundred feet). No regions of its own, no painting: a layer of a few hollows is not painted (house style, the map block). Written on Night 3a before any painting request, from the placement plan's proportions; each hollow is moved with its mouth when the surface is traced.",
+   "features": [
+    {
+     "id": "u01",
+     "name": "the door hall in the spur",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       500,
+       215
+      ]
+     ],
+     "regions": [],
+     "known_to": "no one living",
+     "notes": "The hall behind the sealed door in the spur of hills by the gap. Depth: a few hundred feet into the hillside. Mouth: the sealed door, a surface site."
+    },
+    {
+     "id": "u02",
+     "name": "the door hall at the western crossing",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       160,
+       450
+      ]
+     ],
+     "regions": [],
+     "known_to": "no one living",
+     "notes": "The hall behind the sealed door in the hill by the crossing of three ways. Mouth: the sealed door, a surface site."
+    },
+    {
+     "id": "u03",
+     "name": "the hall behind the door of terms",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       720,
+       690
+      ]
+     ],
+     "regions": [],
+     "known_to": "no one living",
+     "notes": "The hall behind the door with terms cut on it, in the hills behind the lower river. Mouth: the door, a surface site."
+    },
+    {
+     "id": "u04",
+     "name": "the hall behind the lockless door",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       840,
+       380
+      ]
+     ],
+     "regions": [],
+     "known_to": "no one living",
+     "notes": "The hall behind the door not known to have a lock, in the hills behind the east coast. Mouth: the door, a surface site."
+    },
+    {
+     "id": "u05",
+     "name": "the great granary",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       540,
+       790
+      ]
+     ],
+     "regions": [],
+     "known_to": "the town over it, as cellars only",
+     "notes": "A granary far too large, older than the town over it, cellar depth and below. Mouth: under the southern town."
+    },
+    {
+     "id": "u06",
+     "name": "the lower harbor",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       905,
+       500
+      ]
+     ],
+     "regions": [],
+     "known_to": "the harbor's people, as a story",
+     "notes": "The older harbor under the living one: drowned quays and vaults under the harbor floor and wall. Mouth: at the harbor wall's foot."
+    },
+    {
+     "id": "u07",
+     "name": "the capped spring",
+     "type": "cave",
+     "shape": "point",
+     "coords": [
+      [
+       770,
+       230
+      ]
+     ],
+     "regions": [],
+     "known_to": "no one living",
+     "notes": "A spring capped with worked stone, with its chamber below. Mouth: the cap, a surface site in the north-east uplands."
+    }
+   ]
+  }
+ ]
+}
