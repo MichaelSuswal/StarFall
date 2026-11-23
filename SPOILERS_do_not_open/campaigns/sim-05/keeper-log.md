@@ -406,7 +406,7 @@ Measured, on foot by `tools/map.py travel`, over open ground, between neighborin
 Stamped 09:53.
 
 ### 3a.6 Land in the records
-Every land line in the eight god-led records and the four godless ones is from the map: places with ids and grades, travel times copied from `tools/map.py travel` with route and means named.
+Every land line in every god-led record and every godless one is from the map: places with ids and grades, travel times copied from `tools/map.py travel` with route and means named.
 Each god's hopes re-read against the map; what the land holds where it differs:
 - `god-storms`: the river in view is a beck, not the great river; the smoke is a herd camp, about 24 miles off; the winter town is out of sight.
 - `god-beasts`: the town is about 7 miles off, inside the day's walk it hoped for.
@@ -435,7 +435,7 @@ No land line touches god-sense. No count of gods is in any of them.
 - 3a.2: the sealed Day 3 wish about who an office goes to. Ruled: a want, unconfirmed, not fitted.
 
 ### Close check, Night 3a
-Files: `state/luck.md` present, dated lines added; `releases/creation/<label>-night3.md` present for every label; `<label>-night3-negotiation.md` and `gods/<label>/negotiation-night3.md` not written, none being needed; `gods/<label>/people-hoped.md` present for every label; `civs/<people>/record.md` and `state.md` present for the seven god-led peoples; `civs/godless/<people>/record.md` and `state.md` present for four; `civs/carrow-sealed.md` present; `campaigns/sim-05/civs/carrow/state.md` numbers present; `world/placement-plan.md` present; the two sheet requests present, sealed; `map/surface.png` and `map/clouds.png` present; `map.json` present, the underground layer written first; `world/gazetteer.md` present; `gods/<label>/map-knowledge.json` present for every label; `campaigns/sim-05/player/map-knowledge.json` present; `campaigns/sim-05/civs/carrow/knowledge.md` present; `ruling-ledger.md` L-0036 to L-0039 and the ids on the card present; `campaigns/sim-05/player/corrections.md` added to; `sealed-terms.txt` added to; this log.
+Files: `state/luck.md` present, dated lines added; `releases/creation/<label>-night3.md` present for every label; `<label>-night3-negotiation.md` and `gods/<label>/negotiation-night3.md` not written, none being needed; `gods/<label>/people-hoped.md` present for every label; `civs/<people>/record.md` and `state.md` present for every NPC people; `civs/godless/<people>/record.md` and `state.md` present for four; `civs/carrow-sealed.md` present; `campaigns/sim-05/civs/carrow/state.md` numbers present; `world/placement-plan.md` present; the two sheet requests present, sealed; `map/surface.png` and `map/clouds.png` present; `map.json` present, the underground layer written first; `world/gazetteer.md` present; `gods/<label>/map-knowledge.json` present for every label; `campaigns/sim-05/player/map-knowledge.json` present; `campaigns/sim-05/civs/carrow/knowledge.md` present; `ruling-ledger.md` L-0036 to L-0039 and the ids on the card present; `campaigns/sim-05/player/corrections.md` added to; `sealed-terms.txt` added to; this log.
 Rolls: r-0144 to r-0145.
 Neutrality:
 - The releases gave every god the same options in the same words and no word on what is usual; the cost of meeting a people as a stranger was told to no god before it chose, as it was not told to the player before it chose.
@@ -443,8 +443,10 @@ Neutrality:
 - Every god lands with no helpers in fact, by one rule. The gods who hoped to take a crown by walking in were given no more than the player's god, and no less.
 - Size costs were written from the land each people lives on, not from how its god bargained.
 - The seats: when the paint forced moves, each god kept the country it asked for; the player's seat was not moved to better ground, and its brief was corrected where the map does not hold it, against the player's wish to see the gap from the walls.
-- The placement roll put the warm stone between two other gods' seats; it was placed where the roll fell and not nudged.
+- The placement roll put the warm stone between the seats of a pair of other gods; it was placed where the roll fell and not nudged.
 - The player's Day 1 wishes for its neighbors (a hard mountain neighbor, an old kingdom, wild country) came out near its seat because the plan had already put the high-country people in the range and the old kingdom on the middle river for every voice's sake; the surveyor it wished for was not made.
 - The sealed want about an office was not fitted; the sealed gifts were hidden from the people's making.
 - Sealed factors: set again for all eight with no change; `god-roads` stays at one step. No roll for any god's or people's act was made tonight (the two rolls build the world), so no step was used.
 Closed 2026-11-23 09:53 Pacific.
+
+After the close, 2026-11-23: three wordings in this night's log and one in the placement plan that set a number word beside the word god were reworded. No fact changed.
