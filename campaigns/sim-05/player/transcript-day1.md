@@ -51,3 +51,7 @@ You are falling. Not through air. Through something thinner. Behind you is where
 19. I wish the empire could outlast me. I'd like laws, roads and habits that still work after the god who made them is gone.
 
 I'd also like to start the survey on the record as a conqueror. I want a seat, a court and captains, and I'll decide on helpers once I know what they cost.
+
+## DM:
+
+Your words go down ahead of you, into the listening below, among the words of the others who fall. The Between keeps you a while longer, and the world gives nothing back yet.
