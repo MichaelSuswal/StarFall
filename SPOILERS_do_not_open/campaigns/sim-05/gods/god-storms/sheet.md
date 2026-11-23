@@ -35,13 +35,15 @@ Rule: a mortal ruler under the god, a priest-king. One ruler answers to the god 
 Worship: a priesthood. Keepers of rite with standing among the people, offerings brought, no tithe by law. (score 61)
 
 ## Name
-(Night 2)
+It holds no name of its own that it can recall. It reaches for one and finds the place smooth. It styles itself the Warden of the Weather, and bids its people say it so. Those who meet it and do not know it will call it the Antlered Cold, for the frost that rides its crown.
 
 ## Traits (own)
-(Night 2)
+**Exacting Magnificence.** It wants to be seen as above all weather and above all peoples, and also wants to be wanted, to be gathered around. It reconciles sovereign regard for mortals, a hunger for worship that is its flaw, and the gathering lean, by making itself a hearth the people circle: lofty in manner and in law, and open in the matter of who may sit near it. It reconciles these with its wariness by requiring each kneeling to be proved, and then holding the proved close.
+
+**The Patient Breaker.** It breaks old and rotten things on purpose and takes its time doing so. It reconciles the breaker lean with patience, enduring body and a love of law, by waiting years for the right fracture and then striking once and exactly. It reconciles being between law and freedom by keeping law for its people and giving itself the freedom to judge outside it.
 
 ## Keeper trait
-(Night 2)
+No thunder it calls is ever answered: no echo comes back from hill, wall or cloud, in any country, and everyone who hears it notices the lack. Reach: sound only. It changes nothing that any weather does, hides nothing and reveals nothing but that this thunder is its own; it touches no price on this card.
 
 ## Season it wakes into
 Spring.

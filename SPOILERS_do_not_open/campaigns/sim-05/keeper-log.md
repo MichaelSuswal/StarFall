@@ -237,3 +237,86 @@ Balance before confirmation (2.6, first pass, in rough): `god-storms` stands abo
 Ledger: L-0014 to L-0035 entered (four rules that bind every card; the rest one matter each).
 Counters first settled in round 2, each with one reply of substance open to the god: `god-roads` (the rewritten consequence sentence), `god-beasts` (the added line on the call).
 Paused 2026-11-23 09:08 for the god agents to write their round 2 replies.
+Resumed 2026-11-23 09:09 on the orchestrator's word; replies pulled. Every god confirmed its round 2 text with no counter and no wording asked. The two gods with a counter first settled in round 2 (`god-roads`, `god-beasts`) each accepted it in its reply. No round 3.
+
+### 2.4 Confirmation, Keeper traits and cards
+Keeper traits, each told in the god's round 2 file with its reach, checked against every power it was confirming, and confirmed:
+- `god-rivers`: it cannot forget a mortal it has done a kindness to. Presses on shepherd and open against the flinch from fondness. Memory only; no item the return's roll can take; touches no power.
+- `god-roads`: thanked aloud in its hearing, one bird answers before the rest can stop it. Presses on hidden against its hunger to be thanked. Silent while Unremarked is held, so it cuts across no price.
+- `god-sea`: a debt owed to him is let go only aloud, to the debtor's face. Presses on patience and the shepherd against the counting of what he is owed. His own claims only.
+- `god-fate`: called sharply by its name, its body starts one step toward the caller. Presses on "it will not serve again" against the name it kept. One step; not an offer in form, so it does not wake its weakness.
+- `god-beasts`: a count by eye and finger comes first as one short. Presses on its open table and written law against the dread under its caution. The Count of the Herd is untouched and no false number is put in its mouth.
+- `god-harvest`: no name given to it holds in its own mind past the turning of the year. Presses on its hunger to be named against its fear of the empty hall. Its own name only; held names and bargains in its name untouched. Enacted by the Keeper each year at late summer, as a memory price is, by removing the name from its record.
+- `god-storms`: no thunder it calls is answered by an echo. Presses on justice against the silence it will not look at. Sound only.
+The player's god has none.
+Sheets: Name, Traits (own) and Keeper trait filled on every sheet, from the god's own `self.md` and the confirmed trait.
+Cards: `gods/<label>/power-card.md` written for every label by script from the confirmed round 2 text, line for line, into the `powers.md` format: Form from the god's own words (name, form, what breaks it), the one-body rule, god-sense as set, the `Keeper trait:` line, the pointer to its return power; Definitions (none); Things carried; each power with Status main, the confirmed Description and Drawback, Limits settled at creation with the ledger ids that bear on it, empty Rulings, Trades, Growth "Possible. Not shown."; the two-line hidden powers block; Weaknesses taken in full with what each bought; Ceiling "Set by the world. Not shown."; empty Dated entries. No "Why this god has it" line was copied, so no seed is named on any card.
+Waking season against weaknesses: no weakness leaves a god unable to act when its year opens. One note for the night turn: `god-storms`'s Hunger for Worship counts from the day it wakes (spring), so its powers halve at the start of its first summer unless a rite has been taught and rightly made by then.
+Return rungs: every god, the player's included, is on the season rung (the first). None took the second.
+Sealed terms: every name and byname added. Possible false hits for the checker, each a short or common word written as it is used: "Wend", "the Many", "the Factor", "the Weigher", "the Shepherd", "the Narrows", "the Marrow", "Brede", "Asken", "Hesk". "Reeve" alone is not listed (a common word for an office the player may well use on Day 3); "the Unnamed Reeve" is.
+The sealed factors, set for every god once every card was confirmed, in `state/luck.md` (template 7.14), with a dated history line each:
+- player: 0. Sources: `power-card.md`, `power-lean.md`, `rejected-premises.md` Day 2, the transcript. Its three offered terms were conditions, written as Limits (L-0004); the price it took was one of a pair; the season rung is a rung of a standing scale; its weakness bought a step; nothing offered was refused.
+- `god-roads`: +1. One priced step beyond what it bought: the stricter break rule on Unremarked, asked of its own accord and written as asked (L-0022). It took the lighter of its own two prices on Passage Given, so nothing counts there.
+- `god-rivers`, `god-sea`, `god-fate`, `god-beasts`, `god-harvest`, `god-storms`: 0 each. Every price taken was one of a pair the table offered or the god's own offer at the size the power needed; a reach not bought (`god-sea`) is not a power refused; a counter refused (`god-storms`) is not a price taken.
+No roll was made tonight, so no step was used.
+Stamped 2026-11-23 09:17.
+
+### 2.5 Secret backstories
+`gods-sealed/common-past.md` written first: the far country (Sarn Veth, on the river called the Marrow), its yearly gathering (the Holm Table), its offices and customs that the gods are the remainder of, the events near its end (the year of the short count; the flight of the clerk; the breaking of the second weather; the drowning of Calder Hythe; the names at Brede; the cuts at Asken), and a shared links table of ten rows. Title `# The common past`; gods named by label or as the player's god; events in lower case. Checked against the plane section: it gives no bearing, no distance and no count of other falls, and agrees with the fixed first entry (that country's star fell on the night the gods arrived).
+`backstory-secret.md` written for every god and the player's: what the pattern was, one or two events with names and places, what it lost and does not remember, how it might surface (a being, a mark, a word) with no mechanism stated. Each god's wound and its own dim outline are kept: the things several gods half remembered apart (a long table, a door, a count one short, a harbor night) turned out to be the same few events seen from different seats.
+Shared links, each written in both files in the table's own terms (by script, from one list): beasts and roads; fate and roads; fate and beasts; roads and storms; storms and sea; sea and rivers; sea and harvest; the player's god and sea; the player's god and harvest; rivers and harvest.
+The player's god: the outline's lost roll, the line and the stopped walking are filled in. The second sealed answer's request is kept as ruled (L-0013): the reason is written here only, is findable only by the god's own action, and is told to no agent. The worn stake is given its place in that past.
+Common-past names added to the sealed terms. No agent reads these files.
+
+### 2.6 Balance
+`balance.md` written: first weights from main powers, drawbacks and trades, with the DM's lean note for the player; then second weights with every god's hidden powers and knacks. First: player 6, rivers 5, roads 6, sea 3, fate 5, beasts 5, harvest 6, storms 8. Second: player 6, rivers 6, roads 6, sea 5, fate 6, beasts 6, harvest 6, storms 8. `god-storms` stays noticeably stronger, logged as a fact for the world's politics (DESIGN 3.15); it was told it stood above even before it confirmed. No card was edited after confirmation. No concern about the player's card goes to the DM.
+
+### 2.7 Hidden powers and knacks
+`hidden-powers.md` written for every god (`gods-sealed/<label>/`) and the player's (`player/`): one title `# Sealed: <label>`, one three-hash heading for each power and knack, the ceiling line at the foot. Each god has one cool and one minor hidden power, each with a drawback, limits and the kind of trigger that would surface it, none scheduled; and its knacks, each smaller than its minor power, with a limit and the kind of moment that shows it.
+NPC knacks, each drawn from that god's own `backstory-secret.md`: rivers three (the ferrying, the bank hunter, the years followed); roads two (the Court's procedure and record); sea three (the count of boats, the place laid, the harbor wall); fate two (the fee-store, the flight); beasts three (the common herds, the drive to the river, the count at the Table); harvest two (the Brede tally, the seed kept there); storms two (the upland weather, the rider on the ridge).
+The player's god, mirror mode: both hidden powers and all its knacks drawn from `mirror.md`, made into gifts of this god, fitted to its sealed past and its weight. By the file's line order: line 1 (a broken thing taken fully apart, every piece in order, no part lost) became the cool power; line 4 (one starter kept alive for years) the minor; lines 5, 6 and 7 (knots and rope; weather read from sky and air; early everywhere, patient once there) the knacks. Not drawn: line 2 (engines and clockwork), since a gift of machines would set aside the world's starting level; line 3 (lists ruled off), since it would bear on the memory price of the return; line 8 (a habit of putting things off) and line 11 (a slow game by post), as not needed; line 9 (whistling), already on the card by the player's own choice; line 10, left out as touching something that may be sensitive, without its words. Nothing drawn sets the god's form, core or name or touches a power the player chose.
+The first sealed answer in `unsaid.md` (a want, unconfirmed) was not applied in any fitting. The cool power may serve what the god says openly that it wants; flagged below.
+The balance weights were written again with all of these (2.6). Every power and knack name added to the sealed terms.
+The player's card: says only that two hidden powers exist, and its Ceiling line reads as it should. No correction needed for it.
+
+### 2.8 Provisional placement and the Day 3 brief
+`placement-draft.md` written: a continent about 1,100 by 900 miles, at least 650 at its narrowest; the seats in a rough ring, each in the country its answer 2 asked for, with its landing spot and what lies in reach of its eyes, and a line of the history its land will carry. The warm stone is not placed: it is left to the 3a.3 roll among adjacent seats. The center body and the southern school are placed by the star, in godless country.
+`campaigns/sim-05/player/day3-brief.md` written from the northern seat's landing spot: ground, water, growth and weather in early spring, and the marks any people leave (an old paved road to a ford, a worn track, one thread of smoke). No distance, direction, people, history, sky or other god. Magic by its pricing terms only, with the line that the Keeper fits a people's magic tonight; technology in the Night 2 releases' words; the channel for what the DM cannot settle (`people-meeting.md`, `## For the Keeper to reconcile`). It opens by sending the DM to `corrections.md` first.
+A wording caught: a first draft of the brief said the road was "older than anything else in sight"; that is history, and it was cut before the commit.
+
+### 2.9 Follow-ups for Day 3
+`campaigns/sim-05/player/followups-day3.md`: two questions, each with an (oog) form, from gaps that bear on the people: who among them keeps the line each year (the card's definition of kept), and what they measure by (the true measure, and the wish to be the unit). The helpers question is Day 3's own and is not repeated.
+`releases/creation/<label>-day3-questions.md` for every label: two or three questions each, from its confirmed card, with the full path where the answers go (`people-hoped.md`, under `## Questions for you`).
+
+### 2.10 Close
+`sealed-terms.txt` holds every name, byname, hidden power and knack name and common-past name made tonight. `tools/lockcheck.py sim-05 --leaks --dashes`: leaks 0 failures, 0 warnings; dashes 0 failures, 0 warnings.
+
+### Rulings for review, Night 2
+- 2.1: the forced rule lean's sheet words name a Night 3 file and say how rare the result is. Ruled: the release gives the lean's name only.
+- 2.3: the shape of the player's information powers. Ruled: stands, with one Limit added through `corrections.md` for the player's yes (nothing of the sky). L-0009.
+- 2.3: how much more a mortal working against a held line costs. Ruled: twice. L-0010.
+- 2.3: the player's ask to be shown what a return takes. Ruled: told to the player in (oog) after the return; the god is not told. L-0011.
+- 2.3: whether a sealed request about how a price is taken needs a dated confirmation. Ruled: no; honored tonight (the worn stake). L-0012. The sealed want stays unapplied.
+- 2.3: whether a thing the player asked not to be told may still be found in play. Ruled: yes, by the god's own action only, never delivered. L-0013.
+- 2.3: `god-roads`'s sent parts under the one-body rule. Ruled: a power, priced, each part with no will or power of its own. L-0015.
+- 2.3: what a price in `god-fate`'s bill may be. Ruled: a thing a mortal gives or does; nights of work and answering to another name for a span are open; a memory, a year of fortune and a name taken out of the world are closed. L-0025.
+- 2.3: a wording a god asks that makes its own price heavier. Ruled: written as asked, buys nothing, counted at 2.4 (`god-roads`). L-0022.
+- 2.3: a god contesting a line of its own offer. Ruled: answered as any counter, and refused on its merits (`god-storms`). L-0035.
+- 2.4: a Keeper trait that costs a memory each year (`god-harvest`). Ruled: enacted as a memory price is, by removing the name from its record at late summer.
+- 2.7: which mirror lines may become gifts. Ruled: lines 1, 4, 5, 6, 7; the rest left, with reasons.
+- 2.8: the size and ring of the provisional placement, which no file fixes. Ruled as in the draft; 3a.3 sets the ring.
+
+### Close check, Night 2
+Files: `state/luck.md` present; per label (rivers, roads, sea, fate, beasts, harvest, storms) `gods/<label>/self.md`, `goals.md`, `record-of-gods.md`, `negotiation-night2.md`, `power-card.md` present, `sheet.md` updated; `gods-sealed/<label>/backstory-secret.md` and `hidden-powers.md` present; `gods-sealed/common-past.md` present; `player/backstory-secret.md` and `player/hidden-powers.md` present; `releases/creation/<label>-night2.md`, `-night2-negotiation.md` and `-day3-questions.md` present; `balance.md`, `ruling-ledger.md`, `placement-draft.md` present; `campaigns/sim-05/player/day3-brief.md`, `followups-day3.md` and `corrections.md` present; ledger ids written back to the player's card; `sealed-terms.txt` added to; this log.
+Rolls: none tonight.
+Neutrality:
+- The same pricing rules were applied to every god whatever its stance: a yielding god and a hard one each had a condition of use refused as a price, and each got its wordings where they changed no number, reach or cost.
+- `god-storms` asked the largest power in the campaign. It was not cut to size by refusal: it was priced, told plainly before it confirmed that its card stood above even, and its two counters were refused on their merits. Its sealed gifts were kept smallest. It stays strongest, and that is logged, not hidden.
+- `god-sea` asked for least and took the lighter price each time. It was told nothing of how it compared. Its card was left as it chose; it was lifted only through its sealed gifts, and it still sits a little under the band.
+- `god-beasts`'s weakness and several gods' prices resemble the player's own (a tongue bound to truth). Nothing was changed for the likeness and no god was told.
+- The player's god: the one Limit added narrows its largest powers. It rests on the player's own words and on the mystery standard, goes to the player for a yes before play, and was not softened by a matching gift. The two sealed requests were honored as rulings; the sealed want, unconfirmed, was applied nowhere.
+- The player's cool hidden power may serve what its god openly says it wants (roads, forts, works that last). Allowed with narrow limits: it gives the next step, never an end or a cause, and it is weaker than its main power. Flagged here as the runbook asks.
+- The sealed past gives the player's god a debt toward two other gods' pasts and no advantage over either; every god's past was written to the same depth, and each link appears in both files in the same words.
+- The brief shows the player's god no more of its land than the draft fixes for its landing spot, and the old road and the ford it wished for on Day 1 appear only as marks in plain sight, as any people's marks would.
+- Sealed factors: one god's step was counted from its own unasked heavier term (`god-roads`, +1); the count was taken from the negotiation files after confirmation, and no release told any god that a heavier price earns anything. No step was used tonight: no roll was made.
+Closed 2026-11-23 09:17 Pacific.

@@ -36,13 +36,15 @@ Rule: a mortal ruler under the god, a warlord. One ruler answers to the god and 
 Worship: a priesthood. Keepers of rite with standing among the people, offerings brought, no tithe by law. (score 66)
 
 ## Name
-(Night 2)
+It holds none. When a mortal asks, it answers with a road or a season, never a name. Those who do not know it call it the Court at the Ford, or the Many, for the sound it makes when it speaks.
 
 ## Traits (own)
-(Night 2)
+**A Door That Answers Sideways.** Regard for mortals sits at 89, hard toward sovereign: it expects to be asked, and to be obeyed once it answers. Presence sits at 70, toward hidden: it would rather be mistaken for weather than announced. Trust sits near the middle, between open and wary, and Mind sits between intelligent and clever. Together these make a being that holds itself above the people it will lead and also hides from them, so it speaks by indirection, lets mortals work out its meaning, and counts the working out as a kind of offering. It tests before it trusts and does not say it is testing.
+
+**The Free Hunger.** Order sits at 94, hard toward freedom, and Appetite at 78, toward hungry, and Company at 80, toward gathering, while Making leans to breaker at 78 and Temper a little to impulsive at 64, and Body leans strong. It wants a great gathering around it and wants no walls on it, so it breaks a law it did not write and bargains hard for any it must carry. It wants to be asked into every room and to be thanked in each, and it is quick to act on that want. It would sooner pay a heavy price than be fenced by a written rule.
 
 ## Keeper trait
-(Night 2)
+When it is thanked aloud within its hearing, one of its birds answers before the rest can stop it. Reach: one bird, a word or two, in the god's own voice. While Unremarked is held, thanks fall past the god and no bird answers, so the trait cuts across no price on this card; it changes no other power.
 
 ## Season it wakes into
 Autumn.

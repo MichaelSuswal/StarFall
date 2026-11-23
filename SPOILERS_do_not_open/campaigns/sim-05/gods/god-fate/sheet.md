@@ -35,13 +35,14 @@ Rule: a mortal ruler under the god, a merchant-prince. One ruler answers to the 
 Worship: local shrines. Household and village shrines, kept by whoever keeps them; no order of priests. (score 41)
 
 ## Name
-(Night 2)
+Skerrit. It dimly holds the name as the sound a greater thing once made when calling it to heel, and it keeps the name anyway, because a name is a mark on an account. Those who do not know it will call it the Factor, or the Tally-beast.
 
 ## Traits (own)
-(Night 2)
+1. Exact and sharp-tongued, a beast that keeps every account. This reconciles its hard lean toward law (it wants every limit written exactly), its measured wary bargaining, its merchant's voice, and its domain of fate and chance, which it treats as a market where nothing is free and every price is posted. It is also the shape its virtue of justice takes: a fair trade, kept to the letter, owed to the small as much as the great.
+2. Quick to leap and proud of it, a beast that makes the offer before it has finished weighing. This reconciles its hard lean toward impulsive, its lean toward breaker, its flaw of pride, and its wound of having fled a greater thing. It breaks a stalled bargain, a bad lock or a bad custom with one decisive act, and then must keep the terms of what it has done. The pride is the cost of the speed: it cannot bear to be thought cheated, and so it will pay too much to avoid saying it was.
 
 ## Keeper trait
-(Night 2)
+It answers to its name: when its name is called sharply, as one calls to heel, its body starts a step toward the caller before it can stop itself. Reach: one step, and no more. It compels no service and no answer, it is not an offer made in form and so does not wake the weakness on this card, and it touches no power.
 
 ## Season it wakes into
 Autumn.

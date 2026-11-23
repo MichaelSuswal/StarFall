@@ -36,13 +36,15 @@ Rule: a lone god that refuses its helpers. It starts with helpers like every god
 Worship: none. It asks no rites; what the people do about it is theirs. (score 31)
 
 ## Name
-(Night 2)
+Wend. It is the only name it keeps, and it is not sure it was given it; it may have taken it from a bend in a stream it half remembers. Those who do not know it call it the Weigher, or the Old Man at the Ford.
 
 ## Traits (own)
-(Night 2)
+**Hasty restraint.** It knows that restraint is a virtue and prizes it, and believes itself careful. But it is impulsive and loves freedom, so it decides fast, then explains the decision as prudence afterward. It holds back from taking more than a fair price, and then agrees to something quickly just to be done with the haggling. Reconciles: Virtue restraint, Temper impulsive, Order freedom, Bargaining stance yielding.
+
+**The open hand with a ledger.** It trusts easily and shepherds those it meets, lends freely, offers help with both hands. It also writes down, in its head, every favour, owing and debt, and speaks of the world as a ledger with no clerk. It leans open and toward shepherd, but flinches and slips away when something real is owed back to it, or when it begins to love. Fear gets called caution. Reconciles: Trust open, Regard shepherd, Presence hidden, Flaw cowardice dressed as caution, Wound a mortal who died, Voice merchant.
 
 ## Keeper trait
-(Night 2)
+Every mortal it has done a kindness to stays in its mind whole and clear, face and voice, whether it wishes it or not. Reach: it is memory only. It tells the god nothing of where those mortals are or how they fare, it is no item the return's roll can take, and it touches no power or price on this card.
 
 ## Season it wakes into
 Spring.

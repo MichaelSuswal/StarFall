@@ -15,3 +15,72 @@ god-fate
 god-beasts
 god-harvest
 god-storms
+# Night 2, 2026-11-23: god names and bynames
+Wend
+the Weigher
+the Old Man at the Ford
+the Court at the Ford
+the Many
+Ysmer
+the Late Guest
+the Tall Stranger
+Skerrit
+the Factor
+the Tally-beast
+the Tall Shepherd
+the Unnamed Reeve
+the Warden of the Weather
+the Antlered Cold
+# Night 2: common-past names
+Sarn Veth
+the Marrow
+Spring of Arle
+Calder Hythe
+Holm Table
+Court of Sennet
+Sennet Hill
+Hesk
+Brede
+the Narrows
+Liberty of Asken
+Asken
+Lineward
+Tharrow Green
+# Night 2: hidden power and knack names, every god's
+The Laid-Out Work
+The Kept Leaven
+The One-Handed Knot
+Rain by the Smell
+Early to the Ground
+The Night Ferry
+Arle's Cup
+The Ferryman's Eye
+The Bank Read
+The Lost Trail
+The Session at the Crossing
+The Door Held
+The Order of Speaking
+The Record Voice
+The Lamp Kept
+The Hand Across
+The Count of the Room
+The Welcome Weighed
+The Deck Foot
+The Session Closed
+The Sound Sum
+The Hand Weight
+The Bolt-Hole
+The Hour Unbound
+The Table Laid
+The Lead Beast
+The Drover's Stride
+The Knotted Tally
+The Sealed Store
+The Voices Counted
+The Heap Judged
+The True Seed Picked
+The Second Thunder
+The Still Chair
+The Roof Read
+The Long Horn
+the Shepherd

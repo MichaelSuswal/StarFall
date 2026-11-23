@@ -37,13 +37,15 @@ Rule: a god-king with a court and priesthood, a tyrant in manner. The god holds 
 Worship: a state cult. Temples, tithes and a priesthood under the throne. (score 87)
 
 ## Name
-(Night 2)
+It has no name it can say. Where a name should be there is a worn place, like the face of a stone, and it turns from it. Those who do not know it will call it what they like. It will answer to Reeve, which is a steward's word and a bargainer's, until a people gives it a better one, and it will take a name given in worship gladly.
 
 ## Traits (own)
-(Night 2)
+**The Open-Handed Tyrant.** Reconciles Trust (open), Regard for mortals (sovereign), Company (gathering) and Order (a little toward law). It opens its hand to anyone who comes to bargain, trusts a spoken price, and wants a great crowd about it. But the crowd must kneel, and the terms are its own. It is generous as a landlord is generous: everyone fed, everyone owing. It keeps its word to the letter and expects the letter kept to it. Fear is its tool, because fear makes a people stay and be counted.
+
+**The Hungry Counter.** Reconciles Appetite (hungry), Making (builder), Mind (intelligent), Temper (patient), Presence (revealed), with the virtue of curiosity and the flaw of fear. It wants to know, and it wants to be known, and it wants to have and keep. It builds granaries, walls, ledgers and temples, slowly and in order, so that nothing it has made can be taken. It wants to be seen working. Under it all sits a fear of the empty hall and the unspoken name, so it hoards, counts twice, over-binds its people to itself, and cannot bear to be ignored.
 
 ## Keeper trait
-(Night 2)
+No name given to it holds in its own mind past the turning of the year: at each harvest it must be told again what its people call it. Reach: its own name only. The names it holds by The Taking of a Name are untouched, a bargain made in its name still binds it whether or not it recalls the name, and nothing else on this card changes.
 
 ## Season it wakes into
 Late summer, at the edge of the harvest.

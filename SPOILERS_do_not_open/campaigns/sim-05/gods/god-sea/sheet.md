@@ -35,13 +35,16 @@ Rule: a council of elders or chieftains. The people is ruled by a council of its
 Worship: none. It asks no rites; what the people do about it is theirs. (score 29)
 
 ## Name
-(Night 2)
+Ysmer, which it holds the way one holds a coin found in an old coat: it may be its own. Those who do not know it will call it the Late Guest, or the Tall Stranger, or whatever a harbor makes of a man who arrives after the boats are hauled up.
 
 ## Traits (own)
-(Night 2)
+### The Keeper of the Door
+Reconciles Company (gathering), Regard for mortals (shepherd), Trust (a little open), and Presence (between hidden and revealed). He wants a full table and a stranger at it, and he will not stand in the middle of the room to say so. He sits at the edge of the council and lets the hearth do the speaking. He opens first and checks the knife after.
+### The Slow Tide
+Reconciles Mind (clever), Body (enduring), Temper (between patient and impulsive), Order (a little toward law), Making (builder) and Appetite (content). He prefers the long answer that survives to the quick answer that wins, and builds what will still stand in a hundred winters. But now and then the patience tips, and he acts at once, usually to keep a door from closing, and thinks afterward.
 
 ## Keeper trait
-(Night 2)
+A debt owed to him he cannot simply let lie: to leave it uncollected he must say aloud, to the debtor's face, that he lets it go. Reach: his own claims only. It binds no one else, forces no collecting, and touches no power or price on this card.
 
 ## Season it wakes into
 Late autumn.

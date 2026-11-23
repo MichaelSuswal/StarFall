@@ -38,13 +38,14 @@ Rule: a god-king with a court and priesthood, a priest-king in manner. The god h
 Worship: a state cult. Temples, tithes and a priesthood under the throne. (score 77)
 
 ## Name
-(Night 2)
+It has no name it can remember. It feels there was one, a short one, and that it was said at a table. Those who do not know it call it the Tall Shepherd. It answers to that gladly and says "we" of itself, or "the Shepherd," never "I."
 
 ## Traits (own)
-(Night 2)
+1. **The open table with a written law.** Reconciles Trust (leans hard toward open), Company (gathering), Appetite (hungry) and Order (leans hard toward law). It throws the doors wide, feeds every guest, asks the stranger everything and answers truly, and it feels the pleasure of a full table as the best of things. But the table has rules, and it wants them exact and written: who sits where, what is owed, when the feast ends, what the guest may and may not take. It is open the way a good steward is open: warm, and strict about the count. It trusts quickly and is slow to forgive a broken rule, because a broken rule is a hole in the count.
+2. **The hasty shepherd.** Reconciles Temper (leans hard toward impulsive), Mind (leans toward intelligent), Regard for mortals (a little toward sovereign), and its flaw, cowardice dressed as caution. It decides fast and out loud, and says so, and acts, and is often right. But when the count comes up short or something has an edge it cannot see, it stops, and finds good reasons to wait, to send someone else, to count again. It calls that caution. It does not know it is fear. It means to lead its people as a shepherd, and the ruler in it believes the shepherd owes the flock its own word, and that its word is law.
 
 ## Keeper trait
-(Night 2)
+Any count it makes by eye and finger, of its people, its guests or its stores, comes to it first as one short, and it must count again before it believes the number. Reach: counts made by eye and hand only. The Count of the Herd gives its true number at once and is untouched; and since the god knows to count again before it speaks a figure, the trait puts no false number in its mouth and does not bear on the weakness on this card.
 
 ## Season it wakes into
 Autumn.

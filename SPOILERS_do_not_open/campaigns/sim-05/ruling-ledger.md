@@ -51,4 +51,4 @@ One god, one card:
 - L-0034. `god-storms`, The Wind's Ear and The Sworn Stroke. The Ear: every word within a mile, one chosen voice beyond to the limit of sight (its text gave "within sight"); accepted. The Stroke: for a judged offence the accused must stand in the hearing and be let speak; a broken oath sworn to it needs no hearing (its wording, the draft's sense).
 - L-0035. `god-storms`, the trade (Hunger for Worship). It asked that the count begin when a rite is first taught, against its own offered line. Refused: the line is its own and is most of what the weakness costs. It said it would take the trade as drafted.
 
-Each entry above is noted as confirmed when the god confirms (2.4).
+Confirmed: every god confirmed its round 2 text on 2026-11-23, Night 2, with no change to any text; every entry above stands as entered. No round 3 was needed.
