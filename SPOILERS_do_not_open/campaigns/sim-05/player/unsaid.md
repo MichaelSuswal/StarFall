@@ -25,3 +25,13 @@ Given by the player privately with the third reply of the day, beside the list o
 DM note: "the roll" here is the logged roll that takes one item of memory or habit when the return is paid (power card, The return). The worn stake is on the card under Things carried as an ordinary possession.
 
 Confirmations: none yet. Given today.
+
+## 2026-11-23, creation Day 3
+
+Given by the player privately, unasked, with the first reply of the day, beside the list of the five offices (the Reeve, the Marshal, the Warden of Marks, the Clerk of the Tally, the Judge of the Ford). In the player's words:
+
+> I'd like at least one of the five offices to go to someone who disagrees with me, and who'll say so to my face. I don't think I can see my own flaws in the roll, and I'd rather someone else could.
+
+DM note: this is a wish about who a helper is, left to the Keeper's Night 3 fitting of the cast. The player did not say which office. The player sets who a mortal is, never what that mortal will do. Nothing of it was said at the open table and the DM asks nothing further about it there.
+
+Confirmations: none yet. Given today.

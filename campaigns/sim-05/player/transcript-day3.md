@@ -50,3 +50,35 @@ River country, opening onto high plains. A low rise at the edge of a plain, abov
 **What I'd like to know when you can tell me.** Whether the people above the ford can see the gap in the hills from their walls. I'd like to start the first line from there.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+(oog) Yes recorded. The sky Limit goes on the card as a dated entry, citing the Keeper's ledger. On your question: you have it right. True ground is written as the surface as it lies, "with what is built on it as shape", so a wall or a tower reads as its shape, from the outside, up to its top as built, and nothing inside it if it is closed. The Limit covers what is in the sky and stands on nothing. I am writing that reading on the card as settled at creation, for the Keeper to enter tonight.
+
+On the gap in the hills: I cannot tell you. What can be seen from where is the map's, and the map is not drawn yet. Your wish to start the first line from there is recorded as a first action in your conduct, and where it happens is the world's to place.
+
+The same holds for three things you said of the land and its past, and I record each as said. That the town stands on the rise above the ford is your wish; naming a home does not place it, and the Keeper places it tonight. That your people have lived on the ford a long time, and that the road was laid by people before them, are your people's beliefs, as you put the second yourself. And that a god who sets the lines is welcome there is heard and not promised: you set who they are, a stubborn people who argue over fences and hate a short bushel. What they make of you is theirs.
+
+The dark has the list now, and seems to turn it over.
+
+"A reeve, a marshal, a warden of marks, a clerk, a judge. A hall with a line on the floor. Good. Then I ask about the morning you walk in."
+
+"These people were on their ford before you. On that morning, do they know you? Have they been waiting for something, a god or a sign or only a fair judge, or do you walk up from the river a stranger with a chain? And the five offices: which of them stand already, under the town's own law, held by people who have never heard your name, and which are yours from the first hour? There were no lines of yours to keep before you fell, so tell me how there comes to be a Warden of Marks."
+
+"What did they believe of gods before this one? Tell me what they say at a grave, or over a bad harvest, or when the river comes up in the night."
+
+"What is always so of them, beyond the bushel? What will they not do, and what do they honor? Are they a human people, as I have taken them to be? And is there any among them who works a thing that is more than craft?"
+
+"They had a foot and a mile and a fair weight before you came, and they are proud of them. You mean to set your foot and your chain in iron on the market wall. What becomes of theirs?"
+
+"A line is walked once and then it is kept. The Warden sends a walking party each year. Who walks in it? Is it the Warden's own paid people, a duty the households along the line share, or something else?"
+
+"And they have a name, and the town has one, or they have none yet. Those are yours to give. No one else will."
+
+(oog) Three plain points on what you listed.
+
+The Clerk "can't lie in the books any more than I can", and the Judge "can't be bought". You said you are asking for no edge, so I read both as who those two are and what their oath and custom ask of them: honest by character, with books open to be checked at the market. That is free. It sets who they are and promises nothing of what either does under pressure in play. If you meant a binding in fact, a clerk whose hand cannot write a false count, that is more than craft: it would be an edge, priced against a weakness of your people, with a cost on the Clerk for the Keeper to fit. Tell me only if you meant the second.
+
+The paid core of drilled soldiers under the Marshal. A town's paid guard is ordinary and not priced; what it costs is its food and pay, out of stores the Keeper sets tonight. Tell me roughly how many you mean, so I can say whether it is still ordinary.
+
+Everything else you described, the hall, the five offices, the order copied, sealed, read aloud and tallied back, the roll in duplicate, is ordinary custom and skill. No price.
