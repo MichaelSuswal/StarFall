@@ -12,4 +12,4 @@ Models: DM fable, Keeper fable, NPC gods sonnet, stand-in player sonnet, checker
 | Night 3a | 23:47 | 00:20 |
 | Night 3b | 00:21 (stopped on the usage limit; resumed 11:17) | 11:44 |
 | Lock | 11:45 (three rounds; paused 12:04 to 21:12 for Michael on the leak flag) | 21:17 |
-| First morning | 21:18 | |
+| First morning, final scan, clock closed | 21:18 | 21:22 |
