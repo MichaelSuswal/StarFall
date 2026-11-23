@@ -91,3 +91,92 @@ and to no other file.
 Then stop.
 
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours.
+
+## Round 2
+### The Weight
+Your reasons, answered: You took (b), once stood, free, and withdrew the form as a price. Your wording is the draft's own sense and is written in: the freedom is that mortal's alone and passes to no one else.
+Final text:
+Description: Any mortal that sees the god within a spear's cast and in clear sight feels in the body that something older and larger is there, and is inclined to kneel before deciding to. It is a pressure and a dread. A mortal of strong will, or one prepared for it, can stand, and is shaken. Beasts feel it too. The god chooses neither who feels it nor how much, and it cannot be put down.
+Drawback: Once stood, free. A mortal who has stood under the Weight and stayed standing is free of it for good, knows it, and can be seen by other mortals to be free. The freedom is that mortal's own and passes to no one else.
+Limits:
+- Mind: a feeling and never an order. It makes no one act, obey, stay or love.
+- By sight only: not in the dark, not through a wall, not by report or by a picture.
+- A crowd feels it as a wave, strongest nearest. Cattle may balk.
+- Other gods: it does not work on a god.
+- Fear is all it makes. It cannot be turned into love.
+- Use: always on.
+- Not applicable: falling, carrying, water.
+
+### The Bloom of the Field
+Your reasons, answered: Accepted by you as drafted. Nothing changes.
+Final text:
+Description: When the god walks the border of a field, orchard or garden in the sowing season and speaks the blessing, that ground is blessed for the year: it ripens richer and steadier, resists rot and blight, and keeps better in store. In an ordinary year a blessed field yields about a quarter more than its neighbors, and a person can see the difference from the road.
+Drawback: The blessing is a debt written against the field. A tenth of that field's yield must be laid in a granary kept in the god's name by the end of the harvest. If it is not, the blessing turns: the next crop on that field fails worse than an unblessed one, with rot or blight. And the god feels every field that turns as a hollow in its body, a hunger that grows with each one and that nothing eases until that field is blessed again and its tenth paid.
+Limits:
+- One blessing for one field for one year, renewed at each sowing by walking its border in person. What the god can bless is what its feet can border in a sowing season.
+- It makes nothing from nothing: no seed, no water or no sun, no crop. A hard drought or flood can still break a blessed field, less often.
+- Tilled ground only. Wild land is not touched.
+- Scale: the blessing is counted field by field in the people's stores each year, by the Keeper, and never as a whole people's harvest at a stroke.
+- Other gods, more than ordinary craft: a blight that is another god's work, or made by more than ordinary craft, is unruled until it happens.
+- Being watched: the walking and the blessing are plain to see, and so is a field that has turned.
+- Not applicable: light and dark, falling, carrying, mind.
+
+### The Reckoning
+Your reasons, answered: Accepted by you as drafted. Nothing changes.
+Final text:
+Description: When a mortal makes a spoken bargain, oath or promise in the god's hearing and in the god's name, the god knows what was agreed and, afterward, whether it has been kept or broken, for as long as the pledged parties remain within the lands of the god's own people.
+Drawback: The god is bound by every bargain it speaks in its own name. It cannot break a spoken term and cannot lie inside a bargain made in form, and the breaking of any term it is party to, even one forced from it, it feels as a wound.
+Limits:
+- Only bargains made in its hearing and in its name. Only the terms as spoken, not what either side meant: careful words can cheat it.
+- It knows the keeping or the breaking, not the heart, the reason or the where.
+- It loses the thread of anyone who leaves its people's lands, and finds it again when they return.
+- Other gods: a god that pledges in its hearing is unruled until it happens. The god's own pledge to a god binds it as any pledge does.
+- Use: every such bargain at once, with no count.
+- Not applicable: light and dark, falling, carrying, water, being watched.
+
+### The Taking of a Name
+Your reasons, answered: Accepted by you as drafted. Nothing changes.
+Final text:
+Description: When a mortal gives its true name to the god freely, in worship or in trade, the god holds that name. While it holds it, and while that mortal is within a day's walk, the god knows in which direction the mortal stands and whether it is alive and in great trouble, and by speaking the name within earshot it turns that mortal's attention to itself.
+Drawback: The god can hold twelve names and no more. To take another it must let one go, chosen by a logged roll and not by the god, and with the name goes everything the god knew of that person: the Keeper removes that person from the god's record.
+Limits:
+- A true name, given willingly and meant. A name got by trickery or force is not held, and still costs the god one of the names it holds.
+- A dead person's name fades from the god's hold within a season.
+- Mortals only: never a god, never a beast.
+- Mind: it turns a head. It gives no command.
+- It tells direction and great trouble, never what the trouble is.
+- Not applicable: light and dark, falling, carrying, water, being watched.
+
+### Return of the Scattered Sheaf
+Your reasons, answered: Accepted by you as drafted. Nothing changes.
+Final text:
+Description: When the god's body is broken it falls apart into chaff, seed and dust, and the wind takes it. A season later it rises whole from the grain at the ground of its kind nearest to where it broke: a ripe or reaped field, a granary or a threshing floor. The walk from there to wherever it was needed is added.
+Drawback: Each return costs the god one item of memory or habit, taken by a logged roll from its own record (what it holds of other gods, and its goals). The god does not choose it and is not told what went.
+Limits:
+- The season rung of the standing scale, fixed now and never chosen at each return.
+- A body held, bound, shut in or shut out is not broken, and this does not answer it.
+- For that season it is nowhere and does nothing.
+- No set ground; the nearest serves, however far.
+
+### Trade: The salt line, for a standing blessing
+Your reasons, answered: Accepted by you as drafted, weakness and gain together. Nothing changes.
+Final text:
+Weakness, The salt line: Salt laid on purpose by mortal hands in an unbroken line or ring on the ground, which the god sees for what it is, the god cannot cross; and the god inside a closed ring cannot leave it until the ring is broken by a hand not its own. It can use no power to break it. A line on a floor or a threshold counts. Salt in food, in the sea or in a heap does not, and a line that wind or rain has broken no longer holds. It does not bind other gods. Nothing ends it. Anyone who learns of it can bar a door to the god or pen it with a sack of salt.
+What it bought: A field the god has once walked the border of, lying within a day's walk of the place where the god stands to speak the blessing at sowing, is blessed again that year by the speaking alone, without the walk, so long as the god speaks it there in that sowing season. Fields further off are walked each year as before. The tenth and the turning are unchanged.
+
+### Weaknesses and what each bought
+Weakness, The salt line: Salt laid on purpose by mortal hands in an unbroken line or ring on the ground, which the god sees for what it is, the god cannot cross; and the god inside a closed ring cannot leave it until the ring is broken by a hand not its own. It can use no power to break it. A line on a floor or a threshold counts. Salt in food, in the sea or in a heap does not, and a line that wind or rain has broken no longer holds. It does not bind other gods. Nothing ends it. Anyone who learns of it can bar a door to the god or pen it with a sack of salt.
+What it bought: A field the god has once walked the border of, lying within a day's walk of the place where the god stands to speak the blessing at sowing, is blessed again that year by the speaking alone, without the walk, so long as the god speaks it there in that sowing season. Fields further off are walked each year as before. The tenth and the turning are unchanged.
+
+### Keeper trait
+Keeper trait: No name given to it holds in its own mind past the turning of the year: at each harvest it must be told again what its people call it. Reach: its own name only. The names it holds by The Taking of a Name are untouched, a bargain made in its name still binds it whether or not it recalls the name, and nothing else on this card changes.
+This is a fact about you that you know from arrival. It is not a power and has no price.
+
+Confirm that this is what you meant, or say what is wrong with it.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-05/gods/god-harvest/negotiation-night2.md,
+and to no other file.
+Then stop.
+
+A git pull --rebase --autostash origin main is always allowed; it writes no file of yours.

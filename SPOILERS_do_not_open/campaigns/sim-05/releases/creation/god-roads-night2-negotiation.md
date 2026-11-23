@@ -90,3 +90,89 @@ and to no other file.
 Then stop.
 
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours.
+
+## Round 2
+### Sent Voices
+Your reasons, answered: You took (a), the thinned court, and asked two wordings. Both are written in as wording: a voice is five to ten birds, and the bar on closing ends the moment the last voice is back in the flock. Neither changes a reach or a cost.
+Final text:
+Description: The god sends out a handful of its birds, five to ten, as a separate voice. The handful perches, flies, hears, and speaks in the god's voice to anyone it can reach, and the god in its body hears what the voice hears and speaks through it as it happens. Up to three voices at a time. Each ranges no further than a day's walk from the body, along a road or border the god has itself walked. What a voice saw reaches the god only when the voice rejoins the flock.
+Drawback: The thinned court. With one voice out the god sees dimly in the body; with three it is nearly blind and hard of hearing there. While any voice is out the god cannot close into the figure, and it loses track of which voice said what: the Keeper may have it mistake its own sent word for another's. All of it ends the moment the last voice is back in the flock.
+Limits:
+- One body. A sent voice is a part of the one body and never a second one: the god's will stays in the flock, and a voice can use no other power, cannot close into the figure, and can do nothing in the world but perch, fly, hear, speak and carry a spoken message.
+- A voice is birds and can be killed, netted or caged. A voice killed is a part lost until the body mends; a voice caged is a part held.
+- A voice sent back to where the body is adds nothing to the body.
+- Other gods: a voice within arm's reach of another god is known for what it is, as the god itself would be. Anything a voice does to a god is unruled until it happens.
+- Being watched: a handful of birds, until one speaks.
+- Not applicable: falling, carrying, water.
+
+### Passage Given
+Your reasons, answered: You took (b), the cord crumbles. Your wording is what (b) means and is written in: the crumbling is the whole of the price, the road is open to you again once the cord is dust, and a new cord may be given on it later.
+Final text:
+Description: The god binds a traveler, or a company of up to thirty, to one named road it has itself walked, no longer than a man walks in a day and a half, with a knotted cord of road-dust and its word. While the cord is carried on that road, the road holds: the ford is passable, the pass is open if chance and patience could open it, the weather is no worse than the season's worst, and the traveler does not lose the way.
+Drawback: The cord crumbles. The cord is dust the moment the god sets foot or wing on that road again, and the passage ends with it. That is the whole of the price: once the cord is dust the god may use the road, and may give a new cord on it later.
+Limits:
+- It stops no arrow, bandit or armed guard. It shades chance on the road; it does nothing chance could not.
+- One cord for one road. The cord works for whoever carries it, a thief included. A cord lost to a river holds until it reaches the sea.
+- A footpath, a ford or a border crossing counts as a road. A province does not.
+- Other gods: a road another god has closed by its own working is unruled until it happens.
+- Being watched: the knotting is plain to anyone watching; the cord looks like a cord.
+- Not applicable: light and dark, falling.
+
+### Unremarked
+Your reasons, answered: Accepted, with a rule for what a break is that you asked for yourself: only the cloak dropped for a full day breaks the count, and a shorter drop does not. That is stricter than the draft, where any drop would have been a break. It is written as you ask. It buys nothing.
+Final text:
+Description: In either shape, mortals take no notice of the god. The flock reads as ordinary birds; the closed figure as a traveler no one can picture a moment after. A mortal can look straight at it and keep nothing.
+Drawback: While Unremarked is held the god can receive no worship or thanks: offerings, prayers and the notice of anyone who would honor it fall past it, and it feels them fall. Held for a full season without a break, it costs an item: the Keeper removes one item from the god's record by logged roll, for each full season. A break is the cloak dropped for a full day; a shorter drop does not break the count.
+Limits:
+- It fails against anyone who has already seen the god plainly, anyone who touches it, and any god.
+- One who is watching for it on purpose, told what to look for, is a contest and is rolled.
+- It unmakes no memory of a meeting held with the cloak down, and hides nothing the flock drops or leaves.
+- Mind: it turns notice aside. It gives no order and changes no decision.
+- It can be dropped at will, at once.
+- Not applicable: distance, falling, carrying, water.
+
+### The Closing
+Your reasons, answered: You asked forty in place of thirty, once, and said you would take thirty. It stays thirty. The reason: the price, a season thinned, was set against a storm that two hundred birds can make over thirty men for a quarter of an hour. A larger band is a second closing, and the card already says what a second closing in a day costs.
+Final text:
+Description: The flock closes on one band of up to thirty mortals within the god's sight, in the open. A storm of beaks and wings blinds, cuts and drives them from a pass, a ford, a road or a field, for as long as the god keeps it up and no longer than a quarter of an hour. The band is turned or scattered, not killed by design.
+Drawback: Each closing thins the god. For a season after it is smaller, with fewer voices, one fewer sent voice at a time and a dimmer sight. A second closing within one day costs it a part for good: the Keeper removes one item from the god's record by logged roll.
+Limits:
+- The open only. It does nothing against a stockade, a roof, a shield wall under cover, thick smoke, or in a closed room. A band with a fire lit has a smoke it must go around.
+- Against a band that is ready for it, it is a contest and is rolled.
+- Other gods: unruled until it happens.
+- The god's own people: birds do not tell friend from foe inside the storm.
+- Being watched: nothing about it is hidden, and Unremarked is broken for everyone who sees it.
+- Not applicable: carrying.
+
+### Gathered Again at the Crossing
+Your reasons, answered: Accepted by you as written. Nothing changes.
+Final text:
+Description: When the god's body is broken, what is left of it drifts together bird by bird over a season, to the crossroads of three or more ways nearest to where it broke, or the ford if a ford is nearer, and closes there whole. The walk from there to wherever it was needed is added.
+Drawback: Each return costs the god one item of memory or habit, taken by a logged roll from its own record (what it holds of other gods, and its goals). The god does not choose it and is not told what went.
+Limits:
+- The season rung of the standing scale, fixed now and never chosen at each return.
+- A body held in a net or a closed room is not broken, and this does not answer it. A part lost while the rest lives is not a broken body.
+- It gathers at the nearest such ground whoever holds it.
+
+### Trade: The Unrefused Question, for sight through a voice
+Your reasons, answered: You took the weakness with the line about Unremarked. You asked that the last sentence be cut back to the way "to the next place" on a road you have walked, with your people's camp answered only where it lies on such a road. That is refused in part. The weakness you offered was a true answer about the way, which road, which ford, how far, and it set no limit on where the asker is going; cutting it to the next place would be a lesser weakness than the one that bought the step. What is granted is that the sentence should say what the weakness says and no more: you answer the way, by road, ford, pass and border, so far as you know it. A place you know of but know no way to, you need not find for anyone. The sentence is rewritten so. Your second wording is written in: the sight through a voice is its own and stands beside the body's dimmed sight.
+Final text:
+Weakness, The Unrefused Question: At a crossing, a ford, a border or on a road the god has walked, when a mortal asks it the way plainly and in good faith (which road, which ford, how far, whether the pass is open), the god must answer, and truly. It may answer sideways and need say no more than was asked. It cannot say it does not know when it does, and cannot send the asker wrong. A question put to trap it, a question about its nature or powers, a question from another god, and a question put to a sent voice do not count. At such a place Unremarked does not hold against a mortal who asks the way aloud of the birds or the traveler before them: the god is noticed by that asker, and must answer. Anyone who learns of it can have from the god, for the asking, the true way by road, ford, pass and border to any place the god knows the way to, a place it would rather keep unfound included.
+What it bought: Through one sent voice at a time, and dimly, the god in its body also sees what that voice sees as it happens. That sight is its own and stands beside the body's dimmed sight.
+
+### Weaknesses and what each bought
+Weakness, The Unrefused Question: At a crossing, a ford, a border or on a road the god has walked, when a mortal asks it the way plainly and in good faith (which road, which ford, how far, whether the pass is open), the god must answer, and truly. It may answer sideways and need say no more than was asked. It cannot say it does not know when it does, and cannot send the asker wrong. A question put to trap it, a question about its nature or powers, a question from another god, and a question put to a sent voice do not count. At such a place Unremarked does not hold against a mortal who asks the way aloud of the birds or the traveler before them: the god is noticed by that asker, and must answer. Anyone who learns of it can have from the god, for the asking, the true way by road, ford, pass and border to any place the god knows the way to, a place it would rather keep unfound included.
+What it bought: Through one sent voice at a time, and dimly, the god in its body also sees what that voice sees as it happens. That sight is its own and stands beside the body's dimmed sight.
+
+### Keeper trait
+Keeper trait: When it is thanked aloud within its hearing, one of its birds answers before the rest can stop it. Reach: one bird, a word or two, in the god's own voice. While Unremarked is held, thanks fall past the god and no bird answers, so the trait cuts across no price on this card; it changes no other power.
+This is a fact about you that you know from arrival. It is not a power and has no price.
+
+Confirm that this is what you meant, or say what is wrong with it.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-05/gods/god-roads/negotiation-night2.md,
+and to no other file.
+Then stop.
+
+A git pull --rebase --autostash origin main is always allowed; it writes no file of yours.

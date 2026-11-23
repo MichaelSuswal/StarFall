@@ -223,3 +223,17 @@ The same pricing rules for every god, whatever its stance:
 - `god-roads`'s pair of prices on Passage Given were not equal: the Keeper said which the power needs and that the heavier buys nothing more, so that taking it is a step beyond the price and is counted at 2.4.
 A wording caught before release: two draft lines named a world scarcity as fact (in `god-rivers`'s and `god-fate`'s files) and were reworded before the files were committed.
 Paused 2026-11-23 09:03 for the god agents to write their round 1 replies.
+Resumed 2026-11-23 09:05 on the orchestrator's word; replies pulled. All round 1 replies read in full.
+What each god did with its choices (the god's own stance, the same pricing for all):
+- `god-rivers`: took the heavier of each pair where the other narrowed the power (struck dumb; the shared cup, "a heavier drawback than a written fence"); took its trade; asked three wordings, all the Keeper's own reading, written in.
+- `god-roads`: took the thinned court and the lighter price on Passage Given (the cord crumbles), so no step beyond that price; asked forty for thirty, refused; contested the consequence line of its weakness, granted in part; asked of its own accord a stricter rule for breaking Unremarked's count than the draft held, written as asked.
+- `god-sea`: took the lighter price with the narrower power (the taste alone, the lit water); took ground water as its one step.
+- `god-fate`: took forgiving at a cost; countered on two closed prices and conceded two; the counter granted; chose the nearest ground; took the narrowed step.
+- `god-beasts`: took no hunt on the count; countered on the betrayal line, granted with a line added; asked the table clause cut, refused, its fallback taken.
+- `god-harvest`: took once stood, free; accepted the rest and the narrowed step.
+- `god-storms`: took the sky answers in kind; two counters refused (the season after; when the hunger's count begins), each with its fallback already given; three wordings written in.
+Round 2 written under `## Round 2` in every negotiation file: the counter to each reason, the final text, every weakness restated with what it bought, the Keeper trait with its reach, and the request to confirm. The final text was made from the round 1 lines by script, changed only where a reply changed it (the chosen price in place of the choice line, and the wordings named above); nothing else was tidied.
+Balance before confirmation (2.6, first pass, in rough): `god-storms` stands above even; it is told so in its round 2 counter, as part of the bargain, with no other god named. No other god is far out of line; `god-sea` stands lowest and is brought toward the band through its sealed gifts (2.7), not by any word to it.
+Ledger: L-0014 to L-0035 entered (four rules that bind every card; the rest one matter each).
+Counters first settled in round 2, each with one reply of substance open to the god: `god-roads` (the rewritten consequence sentence), `god-beasts` (the added line on the call).
+Paused 2026-11-23 09:08 for the god agents to write their round 2 replies.
