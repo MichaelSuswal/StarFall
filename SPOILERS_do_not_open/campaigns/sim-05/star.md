@@ -13,4 +13,4 @@ Rolled on Night 1, 2026-11-23, before the gods and the blend. Never released.
 - Remainder: 6, fell in godless country [r-0006].
 - Star content: 7, islands that moved [r-0007].
 - Ascended temper: 2, mostly those who want the fall soon [r-0008].
-- Ceiling: rolled in 1.6, below.
+- Ceiling: 80. Method: the Q8 blend came to 7, so two d10, the higher kept: first d10 1 [r-0142], second d10 10 [r-0143]. Four fifths of it, where the voices begin: 64.

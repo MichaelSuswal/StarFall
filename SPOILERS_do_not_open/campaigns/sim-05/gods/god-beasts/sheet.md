@@ -47,4 +47,4 @@ Worship: a state cult. Temples, tithes and a priesthood under the throne. (score
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Autumn.
