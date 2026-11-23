@@ -38,3 +38,5 @@ Times Pacific.
 - checks run, handed to the checker: 10:24
 - lock flags fixed: 15:00
 - timing file corrected: 15:02
+- lock passed: 15:02
+- final leak check run, clock set, closed: 15:06

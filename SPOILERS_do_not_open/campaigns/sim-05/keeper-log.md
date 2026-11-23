@@ -616,3 +616,14 @@ Pulled; read the round 2 section of `years/000/lock-flags.md`: flags 1 and 2 res
 - A correction to the entry above, from the checker's note: the copied `Limit:` lines stand in each mystery's Body, not its Truth as that entry says. The standard allows either; the files are unchanged.
 `tools/lockcheck.py sim-05 --all`: places 0 failures, 12 warnings (the same, ruled by the checker); leaks, mysteries, rolls, dashes 0 failures, 0 warnings. No roll was made. No new ruling.
 Stamped 2026-11-23 15:02.
+
+### 4.1 After the lock: the first morning and Year 1
+Pulled. Found: `LOCKED.md` written by the checker, the lock passed on its third round (commits "lock passed" and "locked"); the public `years/000/lock.md` reads passed, 15:02. The DM's first morning is committed (ddcb8bf): `campaigns/sim-05/years/001/morning-story.md`, the painting request `images/requests/sim-05-001-morning.json` (covered by `state/images.md`, so not held), the landing map, and the Keeper's corrections applied in the DM's files. No `rulings.md` exists.
+- The first box is the DM's and is done. The Keeper wrote none of it.
+- `tools/lockcheck.py sim-05 --leaks --dashes`, run once more over the public folder and the campaign's scene request: leaks 0 failures, 0 warnings; dashes 0 failures, 0 warnings. No hit, so nothing was fixed and nothing went to `player/corrections.md`.
+- The clock, set only now: `year: 1`, `status: closed` (a test run is never left open), `season_opens: early spring` as set at 3b.8, `creation_night` removed.
+Nothing was added to the world after the lock: this step wrote the clock, the timing file and this entry. No roll was made, so no sealed factor was used. No new ruling.
+
+### Close check, Night 3b
+The files, the roll range (r-0146 to r-0202) and the neutrality self-check stand as written at the hand-off above; the two fix rounds changed no truth, cost or roll. Since then: the clock set to Year 1, closed.
+Closed 2026-11-23 15:06 Pacific. Night 3 closed; creation for sim-05 is complete.

@@ -1,5 +1,4 @@
 campaign: sim-05
-year: 0
-status: creation
-creation_night: 3b
+year: 1
+status: closed
 season_opens: early spring
