@@ -1,1 +1,1 @@
-The lock is flagged, paused for Michael's ruling, 2026-11-22 11:59 Pacific.
+The lock is flagged, 2026-11-22 21:15 Pacific.

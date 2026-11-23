@@ -123,3 +123,51 @@ What the record holds instead: `S/state/phenomena.json` holds the star dimmings 
 ## For the rerun
 
 Flags 2 to 5 are the Keeper's. Every file they touch is the Keeper's own (`common-past.md`, `map.json`, god-stone's knowledge file, `phenomena.json`, the keeper log, and whatever the Keeper chooses for flag 4); no line needs `P/player/corrections.md` unless the Keeper's fix for flag 4 reaches the DM. Flag 1 waits on Michael's ruling in `S/rulings.md`. On the rerun the checker reads every line a fix touches, reruns the scripts, the travel lines and all eight landing views, and rechecks lines 7, 12, 17 and 18.
+
+# Lock flags: sim-04, round 2
+
+Run by the continuity checker, 2026-11-22, from 21:12 to 21:15 Pacific, against the Keeper's rework commit 41a2ba3b5eeed7abbe35de6d8e7224e011cc739a as it stands at 279623d739cfce07fc9f2e8f4c861c2d71a17719 (Michael's ruling, recorded in `S/rulings.md` at about 12:05 Pacific, quoted with the question it answers, and the standing rule applied to `engine/roles/checker.md`, runbook 7.12's standing rule and `tools/lockcheck.py`). The whole lock was rerun: both scripts, every travel line in every sealed record, the world bible and the schedule through `tools/map.py travel`, all eight landing views against all eight knowledge files, the spacing, and every line the rework touched.
+
+Result: 1 flag open (flag 6, new, the Keeper's). Flags 1 to 5 are resolved. The lock does not pass. No `LOCKED.md` is written. The public `P/years/000/lock.md` reads flagged.
+
+## Script output
+
+```
+tools/lockcheck.py sim-04 --all
+(the same 15 place warnings as round 1, the keeper log's "western sea" now 2 times, and one new:)
+WARN places: SPOILERS_do_not_open/campaigns/sim-04/releases/creation/god-trade-landing.md: map name "western sea" written in lower case 1 time(s) with no id
+places: 0 failure(s), 16 warning(s)
+leaks: 0 failure(s), 0 warning(s)
+mysteries: 0 failure(s), 0 warning(s)
+rolls: 0 failure(s), 0 warning(s)
+dashes: 0 failure(s), 0 warning(s)
+
+tools/map.py validate sim-04
+continent: 29 land region(s), narrowest about 910 miles across (north to south), average about 1,097 miles, widest about 1,197; east to west 999, north to south 911 miles
+0 problem(s), 0 warning(s)
+```
+
+The new place warning is the tool's own terrain line for that region, copied into the landing release: an ordinary lower-case description, of the kind ruled on in round 1. No flag.
+
+## The round 1 flags
+
+- Flag 1. Resolved by Michael's ruling ("Open name leaves the list"): a name the player said in the open table talk is never a sealed term. The scan now lets the nineteen through and shows 0 failures; the round 1 ruling that none reveals anything stands. Note, not a flag: `S/sealed-terms.txt` still lists "Orrin" (and "Orrin Holm", which the player never said and which rightly stays). The tool makes the bare entry inert, which is what the ruling's application names; the Keeper may wish to take the bare name off the list and log it, as the ruling's own words ("it comes off the list") say.
+- Flag 2. Resolved. `common-past.md` line 11 now reads "far across the plane: the fall the plane section enters as the throw", in line with p01; no other file held the old clause. The world bible's sentence that the line "yields" is now history and contradicts nothing.
+- Flag 3. Resolved as to the overlap and the view: the vale is cut out of the Harlfells [r04]; every landing now lies in one region only (checked); god-stone's view holds the town's smoke about 2 miles north, and its knowledge file holds exactly the tool's view. Every travel line was rerun and agrees with the tool, the two changed figures (Ternaby [f15] to Koldry [f81], 55.3 days; god-stone's landing to Varn [f78], 47.5 days) included. The spacing is unchanged (nearest neighbors 181.9 to 273.2 miles, 0.67). But the fix moved where the landing stands in the data; see flag 6.
+- Flag 4. Resolved. Seven landing releases in the Keeper's releases folder, one text for all seven, each view identical to `tools/map.py describe --landing` for its god (checked by diff), each saying the Night 3 release was written before tracing and this view governs, god-sense as set, no count of gods, no place name, no other god. The light's direction from each landing agrees with the bearing to the lake's middle, and each height fits 40 miles at that distance (half a fist at about 416 and 418 miles; a little more than half at 362; three quarters at 296 and 312; about a fist at 204; a little more than a fist at 174). The 3a.6 keeper log line is corrected in the log. The Keeper's choice of folder is marked for Michael, as it should be.
+- Flag 5. Resolved. `kettling-casts` in `phenomena.json`, Years 1 to 12, each count the face of its roll (r-0218 to r-0230; r-0221 the tool's void draw, r-0222 its reroll naming it), method written before the dice, no sealed factor, cause untouched.
+
+## The checklist, round 2
+
+Lines 1 to 6 and 8 to 18 read yes, as in round 1 with the resolutions above. Line 7 reads flag 6.
+
+## Flags
+
+### Flag 6. Line 7: the Dathri record still puts god-stone on the valley's south rim above the town, and the map now puts it on the floor
+Rule: lock line 7 ("every ... sight line in every release and record that describes land matches `map.json`"); runbook standing rule "Land in words comes from the map".
+Where: `S/civs/dathri/record.md` 47, "The god comes down on the valley's south rim above the town".
+What the record holds instead: since the round 1 fix the landing point [721.2, 317.6] lies only in Kessmar Vale [r05], whose south edge runs at about 18 miles to the south; the tool reads the god's eye at the vale's floor, about 4,000 feet, and gives "high mountains to the south ... about 18 miles to its nearest edge", with the town's smoke about 2 miles north on the same floor. Before the fix the point also lay inside the range's polygon, which is what "rim" rested on. God-stone's own landing release now says what it sees, so the god is told; the agreed record of its people is not. Either the record line is brought to the map (on the vale's floor, about 2 miles south of the town, the south wall about 18 miles off), logged with its reason and with what it does and does not change of what was agreed on 3a; or, if the Keeper reads the 3a agreement as the god's ledge on the rim, the landing point is set on the vale's south edge and the view, knowledge file, landing release and travel lines are rerun from it, by the same reading for all eight. Either is the Keeper's.
+
+## For the rerun
+
+Flag 6 only. The checker will read the changed line or lines, and if the landing moves, rerun god-stone's view against its knowledge file and landing release, every travel line, the spacing and the scripts.
