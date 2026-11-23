@@ -15,6 +15,7 @@ layout (tests use a fixture).
                one written in lower case (a name of two or more words, a placeholder label,
                or a one-word name that is not a common word). Headings and bold mystery
                titles are not counted, and a name inside a longer map name is the longer one's.
+               Aliases are never stamped (change list 38), so a bare alias is not warned on.
   --leaks      reads the sealed term list S/sealed-terms.txt, which the Keeper writes (god
                names and bynames, hidden power names, names in the common secrets, places
                off the map; one term per line, # for comments, matched as written, case
@@ -34,7 +35,14 @@ layout (tests use a fixture).
                that breaks the map rules. A number word that counts units or things ("two
                days", "seven acres", "Two things") is a work rate or a count, not a hit.
                The older guesses from prose (power card titles, Name lines, hidden-power
-               headings, capitals in the common secrets) are warnings only.
+               headings, capitals in the common secrets) are warnings only. A map name is
+               known to the god only once heard (map.py heard_name, change list 39): marked
+               named, reported with no other name told, a told name, or a name the player
+               gave the place itself; a place seen with no name heard keeps its map name
+               sealed. A people's knowledge file, campaigns/<name>/civs/<people>/knowledge.md,
+               holds what the people know of the land by their own names: a map name or alias
+               there is told to the people, not to the god, so it is allowed in that file
+               and is no leak (change list 46); every other sealed term still fails there.
                S/leak-allow.txt, as the checker writes it (one phrase per line, quoted or
                not, a # comment after it or on its own line), exempts terms; a number-word
                hit is exempted by its quoted phrase, or by a longer allowed phrase that holds
@@ -49,7 +57,8 @@ layout (tests use a fixture).
   --rolls      every r-NNNN cited in a sealed file is in S/state/rolls.jsonl, nothing is
                rolled twice, every reroll has a reason; the public rolls log is empty.
   --dashes     no em or en dash in any campaign file, sealed or public, or in the campaign's
-               image requests, scene or map (a JSON escape counts).
+               image requests, scene or map (a JSON escape counts). Run alone, it needs no
+               sealed folder: before Night 1 it reads the public folder alone (change list 2).
 
 Every mode skips the checker's own flags files (any lock-flags*.md, years/000/lock-flags.md
 among them): they quote what they flag.
@@ -122,12 +131,13 @@ def read(path):
 
 
 class Campaign:
-    def __init__(self, root, name):
+    def __init__(self, root, name, sealed_optional=False):
         self.root = root
         self.name = name
         self.S = os.path.join(root, "SPOILERS_do_not_open", "campaigns", name)
         self.P = os.path.join(root, "campaigns", name)
-        if not os.path.isdir(self.S):
+        self.sealed_missing = not os.path.isdir(self.S)
+        if self.sealed_missing and not sealed_optional:
             sys.exit(f"lockcheck: no sealed campaign at {self.S}")
         mp = os.path.join(self.S, "map.json")
         self.world = json.load(open(mp)) if os.path.exists(mp) else {}
@@ -238,9 +248,9 @@ def check_places(c, rep):
     exempt = c.god_labels() | c.folder_names() | {"player"} | BRACKET_SKIP
     names = {}
     for kind, el in c.elements():
-        alias_names = [a["name"].strip() for a in el.get("aliases") or [] if isinstance(a, dict) and isinstance(a.get("name"), str)]
-        for nm in ([] if mapt.is_placeholder(el.get("name", "")) else [el.get("name", "")]) + alias_names:
-            for v in name_variants(nm):   # an alias carries its place's id like the map name (92)
+        # the map name only: aliases are never stamped (change list 38), so a bare alias is not warned on
+        for nm in ([] if mapt.is_placeholder(el.get("name", "")) else [el.get("name", "")]):
+            for v in name_variants(nm):
                 names.setdefault(v, set()).add(el["id"])
     name_res = {v: re.compile(r"(?<![\w'])" + re.escape(v) + r"(?![\w])") for v in names}
     # lower-case references (change list 74): a name of two or more words, a placeholder label, or a
@@ -304,27 +314,52 @@ def word_num_re(n):
     return r"\b(?:" + "|".join(alts) + r")\b"
 
 
+def element_index(c):
+    return {el["id"]: el for _kind, el in c.elements()}
+
+
+def heard_ids(c):
+    """Ids whose map name the player's god has heard (map.py heard_name, change list 39): marked
+    `"named": true`, or reported with no other name told. A place seen with no name heard, or known
+    only by a told name, keeps its map name sealed."""
+    els = element_index(c)
+    out = set()
+    for table in ("regions", "features"):
+        for ident, e in c.knowledge.get(table, {}).items():
+            el = els.get(ident)
+            if el is not None and e.get("grade") in ("seen", "reported") and mapt.heard_name(el, e) == el.get("name"):
+                out.add(ident)
+    return out
+
+
 def unnamed_seen_regions(c):
     """Ids of regions the player's god has seen without their name: graded seen, not marked
     `"named": true` and with no told name (map.md 1.2). Their true names are sealed terms."""
+    els = element_index(c)
     return {ident for ident, e in c.knowledge.get("regions", {}).items()
-            if e.get("grade") == "seen" and not mapt.region_name_known(e)}
+            if e.get("grade") == "seen" and not mapt.region_name_known(e, els.get(ident))}
+
+
+def unheard_places(c):
+    """Ids of regions and features the god has seen or had reported without hearing their map name
+    (change list 39): their map names are sealed terms, though the ground is known."""
+    return {ident for table in ("regions", "features") for ident, e in c.knowledge.get(table, {}).items()
+            if e.get("grade") in ("seen", "reported")} - heard_ids(c)
 
 
 def known_map_names(c):
-    """Lower-case names the player's god knows: the map names of what it has seen or had reported,
-    with and without a leading article, and every name it was told. A region seen without its name
-    (unnamed_seen_regions) does not give its map name."""
-    known_ids, out = set(), set()
-    unnamed = unnamed_seen_regions(c)
+    """Lower-case names the player's god knows: the map names it has heard (heard_ids), with and
+    without a leading article, every name it was told, and every name the player gave a place itself
+    (an alias by "player", change list 39)."""
+    known_ids, out = heard_ids(c), set()
     for table in ("regions", "features"):
         for ident, e in c.knowledge.get(table, {}).items():
-            if e.get("grade") in ("seen", "reported") and not (table == "regions" and ident in unnamed):
-                known_ids.add(ident)
             t = e.get("told") or {}
             if t.get("name"):
                 out |= {v.lower() for v in article_variants(t["name"])}
     for kind, el in c.elements():
+        for a in mapt.player_aliases(el):
+            out |= {v.lower() for v in article_variants(a)} | {v.lower() for v in name_variants(a)}
         if el["id"] in known_ids:
             nm = el.get("name", "")
             out |= {v.lower() for v in article_variants(nm)} | {v.lower() for v in name_variants(nm)}
@@ -414,15 +449,16 @@ def leak_terms(c):
 
     # places the player has not seen or been told; names it was told are known to it. A region seen
     # without its name keeps its true name sealed (map.md 1.2): its ground is known, its name is not.
-    known_ids, told_names = set(), set()
+    known_ids, told_names = heard_ids(c), set()
     unnamed = unnamed_seen_regions(c)
+    unheard = unheard_places(c)
     for table in ("regions", "features"):
         for ident, e in c.knowledge.get(table, {}).items():
-            if e.get("grade") in ("seen", "reported") and not (table == "regions" and ident in unnamed):
-                known_ids.add(ident)
             t = e.get("told") or {}
             if t.get("name"):
                 told_names.add(t["name"].lower())
+    for kind, el in c.elements():
+        told_names |= {a.lower() for a in mapt.player_aliases(el)}
     known_names = set()
     for kind, el in c.elements():
         if el["id"] in known_ids:
@@ -430,7 +466,8 @@ def leak_terms(c):
     for kind, el in c.elements():
         if el["id"] in known_ids:
             continue
-        kind_ = "unnamed seen region" if kind == "region" and el["id"] in unnamed else "unknown place"
+        kind_ = ("unnamed seen region" if kind == "region" and el["id"] in unnamed else
+                 "unheard map name" if el["id"] in unheard else "unknown place")
         for v in name_variants(el.get("name", "")):
             if v.lower() not in known_names and v.lower() not in told_names:
                 phrase(kind_, v, case=True)
@@ -617,9 +654,35 @@ def count_hits(line):
     return hits
 
 
+PEOPLE_KNOWLEDGE_RE = re.compile(r"^civs/[^/]+/knowledge\.md$")
+MAP_NAME_KINDS = {"unknown place", "unnamed seen region", "unheard map name"}
+
+
+def is_people_knowledge(c, path):
+    """True for a people's knowledge file, campaigns/<name>/civs/<people>/knowledge.md (change list 46)."""
+    rel = os.path.relpath(path, c.P).replace(os.sep, "/")
+    return not rel.startswith("..") and PEOPLE_KNOWLEDGE_RE.match(rel) is not None
+
+
+def map_names_lower(c):
+    """Every map name and alias in map.json, lower case, with and without a leading article."""
+    out = set()
+    for _kind, el in c.elements():
+        for nm in [el.get("name", "")] + [a["name"] for a in el.get("aliases") or [] if isinstance(a, dict) and isinstance(a.get("name"), str)]:
+            if nm:
+                out |= {v.lower() for v in article_variants(nm.strip())} | {v.lower() for v in name_variants(nm.strip())}
+    return out
+
+
 def check_leaks(c, rep):
     terms = leak_terms(c)
     allow = c.allow()
+    place_names = map_names_lower(c)
+
+    def told_to_people(kind, label):
+        """A map name (or alias) in a people's knowledge file is told to the people, not to the god:
+        allowed there, and no leak (change list 46). Every other sealed term still fails there."""
+        return kind in MAP_NAME_KINDS or label.lower() in place_names
     if c.sealed_terms() is None:
         rep.fail("leaks", f"{c.rel(os.path.join(c.S, SEALED_TERMS))} is missing; the Keeper writes it "
                           "(god names and bynames, hidden power names, common-secrets names, places off the map)")
@@ -628,13 +691,18 @@ def check_leaks(c, rep):
     if not os.path.isdir(c.P):
         rep.warn("leaks", f"no public folder {c.rel(c.P)}")
     for path in public_files(c):
+        people = is_people_knowledge(c, path)
         for ln, line in enumerate(read(path).splitlines(), 1):
             failed_labels = set()
             for kind, label, rx, sev in terms:
+                if people and told_to_people(kind, label):
+                    continue
                 if sev == "fail" and rx.search(line):
                     failed_labels.add(label.lower())
                     rep.fail("leaks", f"{c.rel(path)}:{ln}: {kind} \"{label}\"")
             for kind, label, rx, sev in terms:
+                if people and told_to_people(kind, label):
+                    continue
                 if sev == "warn" and label.lower() not in failed_labels and rx.search(line):
                     rep.warn("leaks", f"{c.rel(path)}:{ln}: {kind} \"{label}\" (a guess from prose; "
                                       "add it to sealed-terms.txt if it is sealed)")
@@ -873,7 +941,12 @@ def main(argv=None):
     chosen = [n for n, _ in CHECKS if getattr(a, n)]
     if a.all or not chosen:
         chosen = [n for n, _ in CHECKS]
-    c = Campaign(os.path.abspath(a.root), a.campaign)
+    # --dashes alone runs on the public folder when the sealed folder does not exist yet (Day 1, change list 2)
+    c = Campaign(os.path.abspath(a.root), a.campaign, sealed_optional=chosen == ["dashes"])
+    if c.sealed_missing:
+        if not os.path.isdir(c.P):
+            sys.exit(f"lockcheck: no campaign at {c.P} or {c.S}")
+        print(f"note: no sealed campaign at {c.rel(c.S)} yet; --dashes reads the public folder alone")
     rep = Report(a.counts_only)
     for name, fn in CHECKS:
         if name in chosen:

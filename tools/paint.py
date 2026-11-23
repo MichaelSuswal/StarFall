@@ -9,6 +9,15 @@ A request file looks like:
 {"id": "y001-morning", "prompt": "...", "shape": "square" | "wide" | "tall"}
 Requests that already have an output are skipped. Paths are resolved from the repository root.
 
+Usage (change list 62):
+  python3 tools/paint.py --help     print this usage and do nothing else
+  python3 tools/paint.py --check    list what would be painted and what is skipped; paint nothing
+  python3 tools/paint.py --paint    paint every request its campaign's state/images.md covers
+  python3 tools/paint.py            with no arguments, report as --check does and paint nothing; only the
+                                    paint workflow (GITHUB_ACTIONS set to "true") paints with no arguments,
+                                    as it always has, until it is changed to call --paint
+Any other argument prints the usage and paints nothing. Painting spends money on the image account.
+
 Held requests are never painted. A request written before its image is approved waits in
 images/held/ (outside both request folders and outside the workflow's trigger paths, so
 writing one starts no job); it is moved into a request folder only with Michael's go. The
@@ -181,15 +190,33 @@ def report_skipped(skipped, root=ROOT):
             f.write("### Requests not painted\n\n" + "\n".join("- " + l for l in lines) + "\n")
 
 
+def usage():
+    return __doc__.split("Held requests are never painted.")[0].rstrip() + "\n"
+
+
+def wants_paint(argv, env=None):
+    """True only when this run should paint: --paint, or no arguments inside the paint workflow."""
+    env = os.environ if env is None else env
+    return "--paint" in argv or (not argv and env.get("GITHUB_ACTIONS") == "true")
+
+
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
+    if any(a in ("-h", "--help", "help") for a in argv) or any(a not in ("--check", "--paint") for a in argv):
+        sys.stdout.write(usage())
+        if any(a not in ("-h", "--help", "help", "--check", "--paint") for a in argv):
+            print(f"paint.py: unknown argument(s) {' '.join(a for a in argv if a not in ('--check', '--paint'))}; nothing painted")
+            sys.exit(2)
+        return
     skipped = []
     todo = pending(skipped=skipped)
     report_skipped(skipped)
-    if "--check" in argv:
+    if "--check" in argv or not wants_paint(argv):
         for path, req, target in todo:
             print(f"would paint {os.path.relpath(path, ROOT)} -> {os.path.relpath(target, ROOT)}")
         print(f"{len(todo)} to paint, {len(skipped)} skipped")
+        if "--check" not in argv:
+            print("nothing painted: run with --paint to paint (see --help)")
         return
     if not todo:
         print("0 new painting(s)")

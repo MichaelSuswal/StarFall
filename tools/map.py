@@ -11,6 +11,9 @@
   python3 tools/map.py validate <campaign>     check the sealed map's ids, neighbors, landings and types, and the
                                                continent's size; warn on common-word names
   python3 tools/map.py migrate <campaign>      rewrite an older knowledge file to the current rules
+  python3 tools/map.py tiles <campaign>        check that the regions tile the painting: no gaps, no overlaps
+  python3 tools/map.py regions-from-paint <campaign> --labels L.png --key key.json [--tolerance 1] [--layer under-N]
+                                        [--save out.json] [--apply]    cut region polygons that tile the sheet
 
 <campaign> is a campaign name under campaigns/. The sealed world is read from
 SPOILERS_do_not_open/campaigns/<name>/map.json and its paintings from
@@ -50,7 +53,7 @@ point or line it names), then loses its small lines, then shrinks; one that stil
 off and named on the command line and counted in map-meta.json (the gazetteer still lists it).
 
 `stamp` appends the bracketed id after every map name (with or without a leading "The", capitalized,
-four letters or more) in every .md file of the sealed campaign folder, the rule lockcheck --places
+four letters or more; never an alias, change list 38) in every .md file of the sealed campaign folder, the rule lockcheck --places
 warns by, and after every placeholder label ("unnamed town", matched in any case) that only one place
 carries. A name already followed by one of its ids (after any 's or a parenthesis) is left alone, so
 running it twice changes nothing. Headings and bold mystery titles are never stamped. It skips
@@ -97,6 +100,29 @@ same as inside a region; distances under 0.2 miles are in yards; a thing at the 
 Coordinates may be whole pixels or tenths (one decimal) or finer; validate fails any that is not a
 pair of numbers or lies off the painting.
 
+Build 5 (run 04 change list):
+- Names (39): a place shows the name the god has heard (heard_name): the Keeper's name once marked
+  `"named": true`, a name the player gave it at creation (an alias by "player"), a told name (kept as
+  told.name when the place is later seen), or, for a report with no other name, the Keeper's name; a
+  seen place with no name heard shows none (a settlement's mark alone, no label). stamp never stamps
+  aliases (38).
+- describe (40): a settlement within two miles (PLAIN_VIEW_MILES) is never missed, and no region a
+  settlement stands in hides it.
+- travel (41, 50): a boat trip may start or end with a walk of up to BOAT_WALK_MILES to or from the
+  water, priced on foot; a walk, ride or wagon trip whose straight line crosses a sea or lake goes around
+  it over land (land_route); an end may be `rNN:edge` (the nearest point of a region's or an area's edge)
+  or a line's `fNN:start` (source) or `fNN:end` (mouth).
+- draw (42, 44, 60): the landing frame is widened so the painting is never blown up more than
+  LANDING_MAX_UPSCALE times; a rumor beyond the sheet carries one direction (its told name's, if it gives
+  one); with --zoom landing the god's mark is drawn at its landing point and a far sighting (a rumor with
+  told.bearing, or "smoke to the north-west" from the god's own sight) is a bearing tick from it, named
+  once in the footer; a region cut by the crop is labeled on its visible part, with that part's cell; a
+  sea or lake region's name is kept on its water where it fits; a layer with no painting yet is not drawn.
+- validate (53, 68): overlapping regions fail (and a landing point inside two regions), gaps warn; a
+  world whose placement plan or history gives an underground that map.json has no layer for fails;
+  layers are checked for their form (id under-N, depth, features uNN). `tiles` fails on gaps too.
+  `regions-from-paint` cuts region polygons that tile the sheet from a flat-colored label painting (44).
+
 The sealed map's regions carry elevation, water, climate and neighbors ({id, days});
 the sheet carries landings (god label to region id), roads and paths (feature types, drawn
 as thin lines) and a plane section, which the drawer ignores.
@@ -129,7 +155,7 @@ WATER_TYPES = {"river", "lake", "sea"}
 DEFAULT_GRID = (5, 4)   # columns, rows
 CELL_RE = re.compile(r"^([A-Z]+)([0-9]+)$")
 OPAQUE_RE = re.compile(r"^[a-z][0-9]{2,4}$")
-TOLD_KEYS = {"name", "terrain", "type", "cell", "coords", "polygon"}
+TOLD_KEYS = {"name", "terrain", "type", "cell", "coords", "polygon", "bearing"}
 PIXEL_KEYS = {"coords", "polygon", "near"}
 # A rumored region ("the grey wall beyond the hills") is allowed, with told.name and
 # told.cell only, never a pixel. Set False to admit region ids only when seen or reported.
@@ -251,6 +277,24 @@ def bearing_name(dx, dy):
     ang = math.degrees(math.atan2(dx, -dy)) % 360
     names = ["north", "north-east", "east", "south-east", "south", "south-west", "west", "north-west"]
     return names[int((ang + 22.5) // 45) % 8]
+
+
+COMPASS16 = ["north", "north-north-east", "north-east", "east-north-east", "east", "east-south-east", "south-east",
+             "south-south-east", "south", "south-south-west", "south-west", "west-south-west", "west", "west-north-west",
+             "north-west", "north-north-west"]
+COMPASS_RE = re.compile(r"\b(" + "|".join(sorted((re.escape(c) for c in COMPASS16), key=len, reverse=True)) + r")\b", re.I)
+
+
+def bearing_degrees(word):
+    """Degrees clockwise from north for a compass word ("north-west", "east-north-east"), or None."""
+    w = re.sub(r"\s+", "-", str(word or "").strip().lower())
+    return COMPASS16.index(w) * 22.5 if w in COMPASS16 else None
+
+
+def compass_in(text):
+    """The compass word a told name gives ("smoke to the north-west" gives north-west), or None."""
+    m = COMPASS_RE.search(str(text or ""))
+    return m.group(1).lower() if m else None
 
 
 def dist_to_polyline(p, line):
@@ -375,13 +419,51 @@ def rumor_near(told, el, painting):
     return list(painting.cell_center(painting.cell_of(true))) if painting is not None else list(true)
 
 
+def player_aliases(el):
+    """The names the player gave a place itself (aliases `by` "player"), which count as heard (39)."""
+    return [a["name"] for a in el.get("aliases") or [] if isinstance(a, dict) and a.get("by") == "player"
+            and isinstance(a.get("name"), str) and a["name"].strip()]
+
+
+def heard_name(el, entry):
+    """The name the god has for a place (change list 39), or None when it has heard none.
+
+    In order: the Keeper's name when the god has heard it (`"named": true`, set by `reveal --named`); a
+    name the player gave the place itself at creation (an alias `by` "player"), which counts as heard;
+    the name it was told (`told.name`, kept when the place is later seen); for a report that gave no
+    other name, the Keeper's name (the teller named it accurately, map.md 4.2: "told, reported"); else
+    none. Seeing a place gives its ground, never its name, so a seen place with no name heard has none,
+    and the sheet labels it with nothing."""
+    g = grade_of(entry)
+    if g == "none":
+        return None
+    if entry.get("named"):
+        return el.get("name")
+    own = player_aliases(el)
+    if own:
+        return own[0]
+    told = entry.get("told") or {}
+    if told.get("name"):
+        return told["name"]
+    return el.get("name") if g == "reported" else None
+
+
+def unnamed_feature_label(f):
+    """How a seen or reported feature with no name heard is shown in the gazetteer: its id and type."""
+    t = f.get("type") or "place"
+    return f"{f['id']}, {'an' if t[0] in 'aeiou' else 'a'} {t}"
+
+
 def known_feature(f, entry, painting=None):
-    """The feature as the god knows it: told values override truth below seen."""
+    """The feature as the god knows it: told values override truth below seen; its name only as heard (39)."""
     g = grade_of(entry)
     k = {"id": f["id"], "type": f["type"], "shape": f.get("shape", "point"), "grade": g,
          "source": entry.get("source", ""), "year": entry.get("year", ""), "regions": f.get("regions", [])}
     told = entry.get("told", {}) if g != "seen" else {}
-    k["name"] = told.get("name", f["name"])
+    heard = heard_name(f, entry)
+    k["named"] = heard is not None
+    k["name"] = heard if heard is not None else unnamed_feature_label(f)
+    k["bearing"] = told.get("bearing")
     k["type"] = told.get("type", f["type"] if g != "rumored" else "")
     if g == "seen":
         k["coords"] = f["coords"]
@@ -400,9 +482,10 @@ def known_feature(f, entry, painting=None):
 def known_region(r, entry, painting=None):
     g = grade_of(entry)
     told = entry.get("told", {}) if g != "seen" else {}
+    heard = heard_name(r, entry)
     k = {"id": r["id"], "grade": g, "source": entry.get("source", ""), "year": entry.get("year", ""),
-         "name": told.get("name", r["name"]), "terrain": told.get("terrain", r.get("terrain", "")),
-         "named": region_name_known(entry)}
+         "name": heard if heard is not None else r["name"], "terrain": told.get("terrain", r.get("terrain", "")),
+         "named": heard is not None}
     if not k["named"] and g != "none":
         k["name"] = unnamed_region_label(r)   # seen, no name heard: its id and terrain (map.md 1.2, 4.2)
     if g == "rumored":
@@ -455,17 +538,15 @@ def known_aliases(el):
             and (a.get("by") == "player" or a.get("known") is True)]
 
 
-def region_name_known(entry):
-    """Whether the god has the region's name (change list 81): a name was told (told.name), the region is
-    reported (a telling carries its name), or the entry is marked `"named": true` (the name heard or
-    seen with the ground, set by `reveal --named`). Ground merely seen, with no name heard, is not named,
-    and the player's sheet draws no label for it."""
-    g = grade_of(entry)
-    if g == "none":
+def region_name_known(entry, el=None):
+    """Whether the god has a name for the region (change lists 81 and 39): a name was told (told.name),
+    the region is reported (a telling carries its name), the entry is marked `"named": true` (the
+    Keeper's name heard, set by `reveal --named`), or, given the region itself, the player named it at
+    creation (an alias by "player"). Ground merely seen, with no name heard, is not named, and the
+    player's sheet draws no label for it."""
+    if grade_of(entry) == "none":
         return False
-    if entry.get("named") or (entry.get("told") or {}).get("name"):
-        return True
-    return g == "reported"
+    return heard_name(el or {}, entry) is not None
 
 
 def gather(world, knowledge, painting=None):
@@ -520,8 +601,10 @@ def knowledge_problems(world, knowledge):
                 probs.append(f"{kind} {ident}: id is not opaque")
             if kind == "region" and g not in ("seen", "reported") and not (RUMORED_REGIONS_ALLOWED and g == "rumored"):
                 probs.append(f"{kind} {ident}: a region id appears only when seen or reported (grade {g})")
-            if g == "seen" and t:
-                probs.append(f"{kind} {ident}: seen entries carry no told")
+            if g == "seen" and set(t) - {"name"}:
+                probs.append(f"{kind} {ident}: seen entries carry no told but a name heard (told.name)")
+            if t.get("bearing") is not None and (g != "rumored" or bearing_degrees(t["bearing"]) is None):
+                probs.append(f"{kind} {ident}: told.bearing is a compass word on a rumored sighting")
             if g == "rumored":
                 if PIXEL_KEYS & set(t):
                     probs.append(f"{kind} {ident}: a rumor carries a cell, never pixels")
@@ -588,6 +671,7 @@ def check_world(world):
         for rid in f.get("regions", []):
             if rid not in region_ids and rid not in seen_ids:
                 probs.append(f"feature {f['id']}: region {rid} is not in the map")
+    probs += layer_problems(world)
     plane_seen = set()
     for pid in plane_ids(world):
         if not re.fullmatch(r"p[0-9]{2,4}", str(pid)):
@@ -611,6 +695,111 @@ def check_world(world):
         elif any(not (-1 <= p[0] <= size[0] + 1 and -1 <= p[1] <= size[1] + 1) for p in pts or []):
             probs.append(f"{el.get('id', '?')}: a coordinate lies off the painting")
     return probs
+
+
+LAYER_ID_RE = re.compile(r"^under-[1-9][0-9]*$")
+UNDER_ID_RE = re.compile(r"^u[0-9]{2,4}$")
+
+
+def layer_problems(world):
+    """The underground layers' form (change list 68, map.md 1.2): `layers` is a list; each layer has an
+    id `under-N`, a whole-number `depth` of 1 or more that no other layer has, a `features` list whose
+    ids are `uNN`, optional `regions`, and an optional `painting` file name (a layer is written before
+    it is painted, and painted only if it exists). A `uNN` id on the surface is a problem too."""
+    probs = []
+    layers = world.get("layers", [])
+    if not isinstance(layers, list):
+        return ["layers: must be a list of layers"]
+    depths = {}
+    for n, layer in enumerate(layers, 1):
+        if not isinstance(layer, dict):
+            probs.append(f"layer {n}: not a layer entry")
+            continue
+        lid = layer.get("id")
+        if not isinstance(lid, str) or not LAYER_ID_RE.match(lid):
+            probs.append(f"layer {lid or n}: id must be under-N (under-1 just below the surface)")
+        d = layer.get("depth")
+        if not isinstance(d, int) or isinstance(d, bool) or d < 1:
+            probs.append(f"layer {lid or n}: depth must be a whole number of 1 or more")
+        elif d in depths:
+            probs.append(f"layer {lid or n}: depth {d} is also {depths[d]}'s")
+        else:
+            depths[d] = lid
+        if not isinstance(layer.get("features", []), list):
+            probs.append(f"layer {lid or n}: features must be a list")
+            continue
+        if "regions" in layer and not isinstance(layer["regions"], list):
+            probs.append(f"layer {lid or n}: regions must be a list")
+        if "painting" in layer and not (isinstance(layer["painting"], str) and layer["painting"].strip()):
+            probs.append(f"layer {lid or n}: painting must be a file name (or left out until it is painted)")
+        for f in layer.get("features", []):
+            fid = f.get("id") if isinstance(f, dict) else None
+            if fid and not UNDER_ID_RE.match(fid):
+                probs.append(f"layer {lid or n}: feature {fid} is underground, so its id is uNN (u01)")
+    for f in world.get("features", []):
+        if isinstance(f, dict) and UNDER_ID_RE.match(str(f.get("id", ""))):
+            probs.append(f"feature {f['id']}: uNN ids are for underground features; a surface feature is fNN")
+    return probs
+
+
+# The files that say whether the world has an underground (change list 68): the placement plan and
+# draft, the histories, and Night 1's world draft (where the 1.5 underground box is kept).
+UNDERGROUND_FILES_RE = re.compile(r"^(?:placement-(?:plan|draft)|deep-history|history[\w-]*|world-draft)\.md$")
+UNDER_NEG_RE = re.compile(r"\b(?:no|without|not|never|nor)\s+(?:an?\s+|any\s+)?underground\b|\bunderground\s*:\s*\**\s*(?:none|no)\b|"
+                          r"\bhas none\b|\bthere is none\b", re.I)
+UNDER_POS_RES = [
+    re.compile(r"^\s*(?:[-*]\s+)?\**(?:the\s+)?underground\**\s*:\**\s*\S", re.I),       # "Underground: yes, ...", "The underground: ..."
+    re.compile(r"^\s*[-*]\s+\[[xX]\][^\n]*\bunderground\b", re.I),                      # a ticked 1.5 box
+    re.compile(r"\b(?:has|have|had|holds?|keeps?|with)\s+an?\s+(?:[\w-]+\s+){0,3}underground\b", re.I),
+    re.compile(r"^\s*#{1,6}\s[^\n]*\bunderground\b", re.I),                             # a heading of its own
+]
+
+
+def underground_claims(sealed_dir):
+    """(file, line number, line) for every line in the placement plan or a history (UNDERGROUND_FILES_RE,
+    anywhere in the sealed campaign folder) that gives the world an underground. A line that says it
+    has none ("no underground", "Underground: none") and an unticked box are not claims; a heading is a
+    claim unless the first line under it says there is none."""
+    out = []
+    if not sealed_dir or not os.path.isdir(sealed_dir):
+        return out
+    for dirpath, dirs, files in os.walk(sealed_dir):
+        dirs[:] = sorted(d for d in dirs if not d.startswith("."))
+        for fn in sorted(files):
+            if not UNDERGROUND_FILES_RE.match(fn):
+                continue
+            path = os.path.join(dirpath, fn)
+            try:
+                lines = open(path, encoding="utf-8").read().splitlines()
+            except (OSError, UnicodeDecodeError):
+                continue
+            for i, line in enumerate(lines):
+                if "underground" not in line.lower() or UNDER_NEG_RE.search(line):
+                    continue
+                if not any(rx.search(line) for rx in UNDER_POS_RES):
+                    continue
+                if line.lstrip().startswith("#"):
+                    nxt = next((l for l in lines[i + 1:] if l.strip()), "")
+                    if UNDER_NEG_RE.search(nxt):
+                        continue
+                out.append((os.path.relpath(path, sealed_dir), i + 1, line.strip()))
+    return out
+
+
+def underground_problems(world, sealed_dir):
+    """validate's underground check (change list 68): a world whose placement plan or history gives an
+    underground must carry it in map.json as a layer; one problem naming the files that give it."""
+    if world.get("layers"):
+        return []
+    claims = underground_claims(sealed_dir)
+    if not claims:
+        return []
+    where = {}
+    for rel, ln, _line in claims:
+        where.setdefault(rel, ln)
+    return ["underground: " + ", ".join(f"{rel}:{ln}" for rel, ln in where.items()) +
+            " give the world an underground, but map.json has no layer; write it as a layer (id under-N, a depth, "
+            "every hollow a uNN feature) before any painting (map.md 1.2)"]
 
 
 def is_point(p):
@@ -818,6 +1007,329 @@ def continent_problems(world):
     return probs, line
 
 
+# ---------------------------------------------------------------- tiling (change lists 44 and 53)
+
+TILE_STEP = 1.0          # painting pixels between scan rows
+TILE_MIN_PX2 = 0.05      # an overlap or gap smaller than this (in square pixels) is rounding, not ground
+
+
+def row_intervals(poly, y):
+    """The x-intervals of a polygon on the line at height y, by the even-odd rule point_in_poly uses."""
+    xs = []
+    n = len(poly)
+    for i in range(n):
+        x0, y0 = poly[i]
+        x1, y1 = poly[(i + 1) % n]
+        if (y0 > y) != (y1 > y):
+            xs.append(x0 + (y - y0) * (x1 - x0) / (y1 - y0))
+    xs.sort()
+    return [(xs[i], xs[i + 1]) for i in range(0, len(xs) - 1, 2)]
+
+
+def tiling_report(regions, size, painting=None, step=TILE_STEP):
+    """How a set of region polygons tiles the painting, read along scan rows every `step` pixels:
+    {"overlaps": {(id, id): (square pixels, cells, about how thick in pixels)}, "gaps": (square pixels, cells)}.
+    Shared borders drawn on the same points overlap by nothing; a border traced twice a pixel apart is
+    an overlap or a gap along its length."""
+    W, H = size
+    painting = painting or Painting({"painting": {"size": list(size)}})
+    polys = [(r["id"], r["polygon"], bbox(r["polygon"])) for r in regions if len(r.get("polygon") or []) >= 3]
+    overlaps, gap_area, gap_cells = {}, 0.0, set()
+    y = step / 2 + 1e-4
+    while y < H:
+        ivs = []
+        for rid, poly, (bx0, by0, bx1, by1) in polys:
+            if by0 <= y <= by1:
+                for a, b in row_intervals(poly, y):
+                    a, b = max(a, 0.0), min(b, float(W))
+                    if b > a:
+                        ivs.append((a, b, rid))
+        ivs.sort()
+        for i in range(len(ivs)):
+            a0, b0, r0 = ivs[i]
+            for j in range(i + 1, len(ivs)):
+                a1, b1, r1 = ivs[j]
+                if a1 >= b0:
+                    break
+                if r1 == r0:
+                    continue
+                ov = min(b0, b1) - a1
+                if ov > 1e-9:
+                    key = tuple(sorted((r0, r1)))
+                    area, cells, rows, xs = overlaps.get(key, (0.0, set(), set(), [float("inf"), float("-inf")]))
+                    cells.add(painting.cell_of(((a1 + min(b0, b1)) / 2, y)))
+                    rows.add(y)
+                    xs[0], xs[1] = min(xs[0], a1), max(xs[1], min(b0, b1))
+                    overlaps[key] = (area + ov * step, cells, rows, xs)
+        cur = 0.0
+        for a, b, _r in ivs:
+            if a > cur + 1e-9:
+                gap_area += (a - cur) * step
+                gap_cells.add(painting.cell_of(((a + cur) / 2, y)))
+            cur = max(cur, b)
+        if cur < W - 1e-9:
+            gap_area += (W - cur) * step
+            gap_cells.add(painting.cell_of(((W + cur) / 2, y)))
+        y += step
+    # (square pixels, cells, about how thick in pixels: the area over the length of the box it spans)
+    overlaps = {k: (v[0], v[1], v[0] / max(math.hypot(len(v[2]) * step, v[3][1] - v[3][0]), 1e-9))
+                for k, v in overlaps.items() if v[0] > TILE_MIN_PX2}
+    return {"overlaps": overlaps, "gaps": (gap_area, gap_cells) if gap_area > TILE_MIN_PX2 else (0.0, set())}
+
+
+def tiling_lines(world, gaps_fail=False):
+    """(problems, warnings) from the tiling of the surface regions and of each layer's own regions:
+    overlapping regions are a problem (change list 53), and a landing point inside two regions; gaps
+    in the surface are a warning from validate and a problem from the tiling check (`tiles`)."""
+    painting = Painting(world)
+    mpp2 = painting.mpp ** 2
+    probs, warns = [], []
+    sets = [("", world.get("regions", []), True)] + [(f"layer {l.get('id', '?')}: ", l.get("regions") or [], False)
+                                                    for l in world.get("layers", []) if isinstance(l, dict)]
+    for label, regions, full in sets:
+        if not regions:
+            continue
+        rep = tiling_report(regions, painting.size, painting)
+        for (a, b), (area, cells, width) in sorted(rep["overlaps"].items()):
+            probs.append(f"{label}regions {a} and {b} overlap, about {area * mpp2:,.1f} square miles in {', '.join(sorted(cells))} "
+                         f"(about {painting.miles(width):,.1f} miles thick); regions tile the painting without overlaps (map.md 1.2)")
+        area, cells = rep["gaps"]
+        if full and area:
+            line = (f"{label}the regions leave about {area * mpp2:,.1f} square miles of the painting in no region, in "
+                    f"{', '.join(sorted(cells))}; regions tile the painting without gaps, water included (map.md 1.2)")
+            (probs if gaps_fail else warns).append(line if gaps_fail else "warning: " + line)
+    for god, land in (world.get("landings") or {}).items():
+        at = landing_point(land)
+        if at is None or not is_point(at):
+            continue
+        inside = [r["id"] for r in world.get("regions", []) if len(r.get("polygon") or []) >= 3
+                  and point_in_poly(at[0], at[1], r["polygon"])]
+        if len(inside) > 1:
+            probs.append(f"landing {god}: its point lies inside {len(inside)} regions ({', '.join(inside)})")
+    return probs, warns
+
+
+# ---------------------------------------------------------------- regions from a label painting (change list 44)
+
+def _dp(points, tol):
+    """Douglas-Peucker on an open polyline, iteratively; the ends are kept."""
+    if len(points) < 3:
+        return list(points)
+    keep = [False] * len(points)
+    keep[0] = keep[-1] = True
+    stack = [(0, len(points) - 1)]
+    while stack:
+        i, j = stack.pop()
+        a, b = points[i], points[j]
+        best, idx = -1.0, None
+        for k in range(i + 1, j):
+            d = dist_to_polyline(points[k], [a, b])[0]
+            if d > best:
+                best, idx = d, k
+        if idx is not None and best > tol:
+            keep[idx] = True
+            stack += [(i, idx), (idx, j)]
+    return [p for p, k in zip(points, keep) if k]
+
+
+def _drop_collinear(seq):
+    out = [seq[0]]
+    for i in range(1, len(seq) - 1):
+        a, b, c = out[-1], seq[i], seq[i + 1]
+        if (b[0] - a[0]) * (c[1] - b[1]) != (b[1] - a[1]) * (c[0] - b[0]):
+            out.append(b)
+    out.append(seq[-1])
+    return out
+
+
+def regions_from_labels(labels, tol=1.0):
+    """Region polygons that tile the sheet exactly, cut from a label grid (change list 44).
+
+    `labels` is a list of rows, each a list of region ids (or None for a pixel no region claims). Every
+    unclaimed pixel goes to the region nearest it; every region is kept to its largest 4-connected part
+    (smaller parts go to the region around them). Each border between two regions is traced once along
+    the pixel edges and simplified once (Douglas-Peucker, `tol` pixels), and both regions take that same
+    line, so neighbors share their border point for point: no gaps, no overlaps. A region with a hole
+    (a lake inside a plain) is cut to the hole by a zero-width slit, so its polygon is one ring.
+    Returns ({id: polygon}, notes)."""
+    from collections import deque
+    H = len(labels)
+    W = len(labels[0]) if H else 0
+    ids = sorted({v for row in labels for v in row if v is not None})
+    idx = {v: i for i, v in enumerate(ids)}
+    L = [[idx[v] if v is not None else -1 for v in row] for row in labels]
+    notes = []
+    # unclaimed pixels go to the nearest claimed one (breadth first, so ties go by scan order)
+    q = deque((x, y) for y in range(H) for x in range(W) if L[y][x] >= 0)
+    filled = 0
+    while q:
+        x, y = q.popleft()
+        for nx, ny in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+            if 0 <= nx < W and 0 <= ny < H and L[ny][nx] < 0:
+                L[ny][nx] = L[y][x]
+                filled += 1
+                q.append((nx, ny))
+    if filled:
+        notes.append(f"{filled} pixel(s) no region claimed were given to the nearest region")
+    # each region to its largest part; the rest to the region around it
+    for _round in range(3):
+        seen = [[False] * W for _ in range(H)]
+        parts = {}
+        for y in range(H):
+            for x in range(W):
+                if seen[y][x]:
+                    continue
+                lab, comp, dq = L[y][x], [], deque([(x, y)])
+                seen[y][x] = True
+                while dq:
+                    cx, cy = dq.popleft()
+                    comp.append((cx, cy))
+                    for nx, ny in ((cx + 1, cy), (cx - 1, cy), (cx, cy + 1), (cx, cy - 1)):
+                        if 0 <= nx < W and 0 <= ny < H and not seen[ny][nx] and L[ny][nx] == lab:
+                            seen[ny][nx] = True
+                            dq.append((nx, ny))
+                parts.setdefault(lab, []).append(comp)
+        moved = 0
+        for lab, comps in parts.items():
+            comps.sort(key=len, reverse=True)
+            for comp in comps[1:]:
+                around = {}
+                cs = set(comp)
+                for cx, cy in comp:
+                    for nx, ny in ((cx + 1, cy), (cx - 1, cy), (cx, cy + 1), (cx, cy - 1)):
+                        if 0 <= nx < W and 0 <= ny < H and (nx, ny) not in cs:
+                            around[L[ny][nx]] = around.get(L[ny][nx], 0) + 1
+                to = max(around, key=around.get) if around else lab
+                for cx, cy in comp:
+                    L[cy][cx] = to
+                moved += 1
+                notes.append(f"{ids[lab]}: a part of {len(comp)} pixel(s) apart from the rest was given to {ids[to]}")
+        if not moved:
+            break
+
+    def lab(x, y):
+        return L[y][x] if 0 <= x < W and 0 <= y < H else -1
+    # directed pixel-edge borders, each region on the left of its own edges
+    out_edges = {}
+    for y in range(H):
+        for x in range(W):
+            v = L[y][x]
+            for (nx, ny), (a, b) in (((x, y - 1), ((x + 1, y), (x, y))), ((x, y + 1), ((x, y + 1), (x + 1, y + 1))),
+                                     ((x - 1, y), ((x, y), (x, y + 1))), ((x + 1, y), ((x + 1, y + 1), (x + 1, y)))):
+                if lab(nx, ny) != v:
+                    out_edges.setdefault((v, a), []).append(b)
+
+    def corner_labels(p):
+        x, y = p
+        return (lab(x - 1, y - 1), lab(x, y - 1), lab(x - 1, y), lab(x, y))
+    junction = {}
+
+    def is_junction(p):
+        if p not in junction:
+            tl, tr, bl, br = corner_labels(p)
+            junction[p] = len({tl, tr, bl, br}) >= 3 or (tl == br and tr == bl and tl != tr)
+        return junction[p]
+    rings = {}
+    for (v, start), outs in list(out_edges.items()):
+        while out_edges.get((v, start)):
+            ring = [start]
+            prev_dir, cur = None, start
+            while True:
+                choices = out_edges.get((v, cur)) or []
+                if not choices:
+                    break
+                if prev_dir is None or len(choices) == 1:
+                    nxt = choices[0]
+                else:   # turn left first, so that a region touching itself at a corner keeps two rings
+                    left = (prev_dir[1], -prev_dir[0])
+                    pref = [left, prev_dir, (-left[0], -left[1])]
+                    nxt = min(choices, key=lambda c: pref.index((c[0] - cur[0], c[1] - cur[1]))
+                              if (c[0] - cur[0], c[1] - cur[1]) in pref else 9)
+                choices.remove(nxt)
+                prev_dir = (nxt[0] - cur[0], nxt[1] - cur[1])
+                cur = nxt
+                if cur == start:
+                    break
+                ring.append(cur)
+            rings.setdefault(v, []).append(ring)
+    # split rings at junctions into chains, simplify each border once, reassemble
+    cache = {}
+
+    def simplified(chain, closed=False):
+        key = min(tuple(chain), tuple(reversed(chain)))
+        if key not in cache:
+            seq = list(key)
+            if closed:
+                far = max(range(len(seq)), key=lambda i: math.dist(seq[0], seq[i]))
+                cache[key] = _dp(_drop_collinear(seq[:far + 1]), tol)[:-1] + _dp(_drop_collinear(seq[far:] + [seq[0]]), tol)[:-1]
+            else:
+                cache[key] = _dp(_drop_collinear(seq), tol)
+        s = cache[key]
+        return list(s) if key == tuple(chain) else list(reversed(s)) if not closed else list(s)
+
+    polys = {}
+    for v, rs in rings.items():
+        done = []
+        for ring in rs:
+            js = [i for i, p in enumerate(ring) if is_junction(p)]
+            if not js:
+                # a ring with no junction (an island in one region, or a region alone): canonical start
+                k = min(range(len(ring)), key=lambda i: ring[i])
+                seq = ring[k:] + ring[:k]
+                fwd = tuple(seq + [seq[0]])
+                rev = tuple(reversed(fwd))
+                canon = min(fwd, rev)
+                s = simplified(list(canon[:-1]), closed=True)
+                if canon != fwd:
+                    s = [s[0]] + list(reversed(s[1:]))
+                done.append(s)
+                continue
+            k = js[0]
+            seq = ring[k:] + ring[:k] + [ring[k]]
+            cut = [i for i, p in enumerate(seq) if is_junction(p)]
+            pts = []
+            for a, b in zip(cut, cut[1:]):
+                part = simplified(seq[a:b + 1])
+                pts += part[:-1]
+            done.append(pts)
+        done = [r for r in done if len(r) >= 3]
+        if not done:
+            continue
+        done.sort(key=lambda r: abs(poly_area(r)), reverse=True)
+        outer, holes = done[0], done[1:]
+        for hole in holes:   # a zero-width slit from the outer ring to each hole
+            bi, bj = min(((i, j) for i in range(len(outer)) for j in range(len(hole))),
+                         key=lambda t: math.dist(outer[t[0]], hole[t[1]]))
+            outer = outer[:bi + 1] + hole[bj:] + hole[:bj + 1] + outer[bi:]
+        polys[ids[v]] = [[float(p[0]), float(p[1])] for p in outer]
+    return polys, notes
+
+
+def poly_area(poly):
+    a = 0.0
+    for i in range(len(poly)):
+        x0, y0 = poly[i]
+        x1, y1 = poly[(i + 1) % len(poly)]
+        a += x0 * y1 - x1 * y0
+    return a / 2
+
+
+def labels_from_image(path, key, size=None):
+    """A label grid from a flat-colored painting of the regions: `key` maps a region id to its color
+    ("#rrggbb"), or a color to an id. Pixels of any other color are left unclaimed (None)."""
+    im = Image.open(path).convert("RGB")
+    if size and im.size != tuple(size):
+        im = im.resize(tuple(size), Image.NEAREST)
+    colors = {}
+    for a, b in key.items():
+        rid, col = (b, a) if str(a).startswith("#") else (a, b)
+        c = str(col).lstrip("#")
+        colors[(int(c[0:2], 16), int(c[2:4], 16), int(c[4:6], 16))] = rid
+    W, H = im.size
+    px = im.load()
+    return [[colors.get(px[x, y]) for x in range(W)] for y in range(H)]
+
+
 # ---------------------------------------------------------------- fonts
 
 _FONT_CACHE = {}
@@ -927,14 +1439,17 @@ class Labeler:
         """A box no label may cover (a settlement mark, the compass, the scale bar)."""
         self.obstacles.append(tuple(box))
 
-    def add(self, xy, lines, priority=50, anchor="mm", marker=None, leader=False):
+    def add(self, xy, lines, priority=50, anchor="mm", marker=None, leader=False, within=None):
         """Queue a label group. lines: [(text, size, style, fill, alpha, dy)], the first the name.
         anchor "mm" centers the group on xy; "lm" sets it to the right of a marker at xy (and may
-        move it to the left, above or below the marker)."""
+        move it to the left, above or below the marker). `within` (sheet points of a polygon) keeps
+        the group inside that shape when any place inside it fits, shrinking it if need be (a narrow
+        sea's name on its water, never over the coast, change list 44); if none fits it is laid
+        down as any other label."""
         lines = [l for l in lines if l[0]]
         if lines:
             self.queue.append({"xy": xy, "lines": lines, "priority": priority, "anchor": anchor,
-                               "order": len(self.queue), "marker": marker, "leader": leader})
+                               "order": len(self.queue), "marker": marker, "leader": leader, "within": within})
 
     @staticmethod
     def _line_box(xy, s, size, style, anchor):
@@ -1028,6 +1543,34 @@ class Labeler:
             self.di.line([xy, (px, py)], fill=tuple(fill) + (150,), width=1)
             self.di.ellipse([xy[0] - 1.5, xy[1] - 1.5, xy[0] + 1.5, xy[1] + 1.5], fill=tuple(fill) + (170,))
 
+    @staticmethod
+    def _inside(boxes, poly):
+        """Every corner and edge middle of every box lies inside the polygon."""
+        for b in boxes:
+            for x, y in ((b[0], b[1]), (b[2], b[1]), (b[0], b[3]), (b[2], b[3]),
+                         ((b[0] + b[2]) / 2, b[1]), ((b[0] + b[2]) / 2, b[3]), (b[0], (b[1] + b[3]) / 2), (b[2], (b[1] + b[3]) / 2)):
+                if not point_in_poly(x, y, poly):
+                    return False
+        return True
+
+    def _try(self, g, lines, scale, within=None):
+        """Lay the group down at the first free candidate place (inside `within` when given); True if laid."""
+        for i, (xy, anchor) in enumerate(self._candidates(g, lines, scale)):
+            boxes, ops = self._layout(g, xy, anchor, lines, scale)
+            if within and not self._inside(boxes, within):
+                continue
+            if self._free(boxes) and (not (g["leader"] and i) or self._leader_free(g, boxes)):
+                if g["leader"] and i:
+                    self._leader(g["xy"], boxes, lines[0][3])
+                for p, s_, sz, style, fill, alpha, anc in ops:
+                    self.text(p, s_, size=sz, style=style, fill=fill, alpha=alpha, anchor=anc)
+                self.placed += boxes
+                self.groups.append(boxes)
+                if i or scale != 1.0 or len(lines) < len(g["lines"]):
+                    self.moved += 1
+                return True
+        return False
+
     def place(self):
         """Lay down every queued group, highest priority first; returns the names dropped."""
         for g in sorted(self.queue, key=lambda g: (-g["priority"], g["order"])):
@@ -1037,25 +1580,9 @@ class Labeler:
             if len(g["lines"]) > 1:
                 tries.append((g["lines"][:1], 1.0))
             tries.append((g["lines"][:1], 0.8))
-            done = False
-            for lines, scale in tries:
-                for i, (xy, anchor) in enumerate(self._candidates(g, lines, scale)):
-                    boxes, ops = self._layout(g, xy, anchor, lines, scale)
-                    if self._free(boxes) and (not (g["leader"] and i) or self._leader_free(g, boxes)):
-                        if g["leader"] and i:
-                            self._leader(g["xy"], boxes, lines[0][3])
-                        for op in ops:
-                            p, s_, sz, style, fill, alpha, anc = op
-                            self.text(p, s_, size=sz, style=style, fill=fill, alpha=alpha, anchor=anc)
-                        self.placed += boxes
-                        self.groups.append(boxes)
-                        if i or scale != 1.0 or len(lines) < len(g["lines"]):
-                            self.moved += 1
-                        done = True
-                        break
-                if done:
-                    break
-            if not done:
+            # a group kept within a shape tries inside it first, smaller too, then anywhere as before
+            passes = ([(g["within"], tries + [(g["lines"][:1], 0.65)])] if g.get("within") else []) + [(None, tries)]
+            if not any(self._try(g, lines, scale, within) for within, ts in passes for lines, scale in ts):
                 self.dropped.append(g["lines"][0][0])
         self.queue = []
         return self.dropped
@@ -1181,6 +1708,54 @@ def draw_settlement(canvas, xy, kind, alpha=255):
         d.ellipse([x - 5, y - 5, x + 5, y + 5], fill=paper, outline=ink, width=2)
 
 
+def clip_poly_rect(poly, rect):
+    """The part of a polygon inside a rectangle (x0, y0, x1, y1), by Sutherland-Hodgman."""
+    x0, y0, x1, y1 = rect
+    out = [tuple(p) for p in poly]
+    for inside, cut in ((lambda p: p[0] >= x0, lambda a, b: (x0, a[1] + (b[1] - a[1]) * (x0 - a[0]) / (b[0] - a[0]))),
+                        (lambda p: p[0] <= x1, lambda a, b: (x1, a[1] + (b[1] - a[1]) * (x1 - a[0]) / (b[0] - a[0]))),
+                        (lambda p: p[1] >= y0, lambda a, b: (a[0] + (b[0] - a[0]) * (y0 - a[1]) / (b[1] - a[1]), y0)),
+                        (lambda p: p[1] <= y1, lambda a, b: (a[0] + (b[0] - a[0]) * (y1 - a[1]) / (b[1] - a[1]), y1))):
+        src, out = out, []
+        for i in range(len(src)):
+            cur, prev = src[i], src[i - 1]
+            if inside(cur):
+                if not inside(prev):
+                    out.append(cut(prev, cur))
+                out.append(cur)
+            elif inside(prev):
+                out.append(cut(prev, cur))
+        if not out:
+            return []
+    return out
+
+
+def pole_point(poly, n=24, rounds=3):
+    """A point well inside a polygon, as far from its edges as a grid search finds (the pole of
+    inaccessibility): where a label best sits in a narrow or bent shape. Falls back to the centroid."""
+    x0, y0, x1, y1 = bbox(poly)
+    best, bd = None, -1.0
+    cx, cy, w, h = (x0 + x1) / 2, (y0 + y1) / 2, x1 - x0, y1 - y0
+    for _ in range(rounds):
+        for i in range(n + 1):
+            for j in range(n + 1):
+                p = (cx - w / 2 + w * i / n, cy - h / 2 + h * j / n)
+                if not point_in_poly(p[0], p[1], poly):
+                    continue
+                d = edge_distance(p, poly)
+                if d > bd:
+                    best, bd = p, d
+        if best is None:
+            return tuple(centroid(poly))
+        cx, cy, w, h = best[0], best[1], w * 2.5 / n, h * 2.5 / n
+    return best
+
+
+def edge_distance(p, poly):
+    """The distance from p to the nearest edge of a polygon."""
+    return dist_to_polyline(p, list(poly) + [poly[0]])[0]
+
+
 def draw_region_labels(lab, view, regions, painting, dim=1.0):
     for k in regions:
         if k["grade"] == "rumored":
@@ -1190,28 +1765,36 @@ def draw_region_labels(lab, view, regions, painting, dim=1.0):
             continue
         if not k.get("named", True):
             continue  # ground seen with no name heard: no label until the name is told or seen (81)
-        c = centroid(k["polygon"])
-        if not view.inside(c):
-            # the centroid of a region cut by the crop may fall outside; label the visible part instead
-            vis = [p for p in k["polygon"] if view.inside(p)]
-            if not vis:
+        poly = k["polygon"]
+        water = terrain_word({"terrain": k.get("terrain", "")}) in WATER_TERRAIN
+        cell_at = centroid(poly)
+        shape = poly
+        if not all(view.inside(p) for p in poly):
+            # cut by the crop (change list 60): the label goes on the part in view, and its cell is that part's
+            shape = clip_poly_rect(poly, (view.x0, view.y0, view.x1, view.y1))
+            if len(shape) < 3 or abs(poly_area(shape)) < 1e-6:
                 continue
-            x0, y0, x1, y1 = bbox(vis)
-            c = (max(view.x0, min(view.x1, (x0 + x1) / 2)), max(view.y0, min(view.y1, (y0 + y1) / 2)))
+            c = pole_point(shape)
+            cell_at = c
+        elif water:
+            c = pole_point(poly)   # a narrow sea or a bent lake: on the water, never over the coast (44)
+        else:
+            c = centroid(poly)
+            # the label sits a little above the centroid, where features cluster, if that is still inside the region
+            x0, y0, x1, y1 = bbox(poly)
+            lifted = (c[0], c[1] - (c[1] - y0) * 0.3)
+            if point_in_poly(lifted[0], lifted[1], poly) and view.inside(lifted):
+                c = lifted
         reported = k["grade"] == "reported"
-        # the label sits a little above the centroid, where features cluster, if that is still inside the region
-        x0, y0, x1, y1 = bbox(k["polygon"])
-        lifted = (c[0], c[1] - (c[1] - y0) * 0.3)
-        if point_in_poly(lifted[0], lifted[1], k["polygon"]) and view.inside(lifted):
-            c = lifted
         x, y = view.pt(c)
         fill = INK if not reported else INK_LIGHT
         a = int((255 if not reported else 225) * dim)
         lines = [(k["name"], 22, "regular", fill, a, -9),
-                 (f"({painting.cell_of(centroid(k['polygon']))})", 13, "regular", fill, a, 11)]
+                 (f"({painting.cell_of(cell_at)})", 13, "regular", fill, a, 11)]
         if reported:
             lines.append((f"reported: {k['source']}", 12, "italic", INK_LIGHT, int(210 * dim), 27))
-        lab.add((x, y), lines, priority=PRIORITY["region-reported" if reported else "region"])
+        lab.add((x, y), lines, priority=PRIORITY["region-reported" if reported else "region"],
+                within=view.pts(shape) if water else None)
 
 
 def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
@@ -1249,7 +1832,7 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
         else:
             d.line(pts, fill=ink, width=2, joint="curve")
         canvas.alpha_composite(over)
-        if k["name"]:
+        if k["name"] and k.get("named", True):
             mid = coords[len(coords) // 2]
             if view.inside(mid):
                 lab.add(view.pt(mid), [(k["name"], 11, "italic", ROAD_INK, a, 0)],
@@ -1263,13 +1846,17 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
         draw_settlement(canvas, (x, y), t, alpha=a)
         r = 8 if t == "city" else 6
         lab.obstacle((x - r, y - r, x + r, y + r))
+        if not k.get("named", True):
+            return   # seen with no name heard: the mark alone (39)
         size = 17 if t == "city" else (15 if t == "town" else 13)
         lines = [(k["name"], size, "regular", color, a, 0)]
         if reported:
             lines.append((f"reported: {k['source']}", 10, "italic", INK_LIGHT, a, 14))
         lab.add((x, y), lines, priority=PRIORITY[t] - (10 if reported else 0), anchor="lm", leader=True)
         return
-    # a named natural feature: label only
+    # a named natural feature: label only, and only once its name is heard (39)
+    if not k.get("named", True):
+        return
     if k["shape"] == "line" and len(coords) >= 2:
         # the label at the middle of the line, by length
         half = polyline_length(coords) / 2
@@ -1422,10 +2009,32 @@ LANDING_MIN_MARGIN = 6    # painting pixels
 LANDING_MIN_SIZE = 32     # painting pixels across, at the least
 
 
-def landing_rect(regions_k, features_k, painting):
+LANDING_MAX_UPSCALE = 3.0   # the landing frame is never blown up more than this from the painting (42)
+
+
+def landing_rect(regions_k, features_k, painting, size_px=1024):
     """The landing zoom: the bounding box of the seen regions, plus a margin of a quarter of the
     box (at least LANDING_MIN_MARGIN pixels) on every side, clamped to the painting. With no
-    seen region it falls back to the known zoom."""
+    seen region it falls back to the known zoom. A frame so small that the sheet would blow the
+    painting up more than LANDING_MAX_UPSCALE times is widened about its middle (shifted to stay on
+    the painting) until it is not, so the first morning's sheet stays sharp (change list 42)."""
+    r = _landing_rect(regions_k, features_k, painting)
+    need = min(size_px / LANDING_MAX_UPSCALE, painting.size[0], painting.size[1])
+    x0, y0, x1, y1 = r
+    out = []
+    for lo, hi, full in ((x0, x1, painting.size[0]), (y0, y1, painting.size[1])):
+        if hi - lo < need:
+            c = (lo + hi) / 2
+            lo, hi = c - need / 2, c + need / 2
+            if lo < 0:
+                lo, hi = 0, need
+            if hi > full:
+                lo, hi = full - need, full
+        out.append((lo, hi))
+    return (out[0][0], out[1][0], out[0][1], out[1][1])
+
+
+def _landing_rect(regions_k, features_k, painting):
     pts = []
     for k in regions_k.values():
         if k["grade"] == "seen" and k["polygon"]:
@@ -1455,18 +2064,75 @@ def zoom_rect(zoom, regions_k, features_k, layer_id, painting):
     return (0, 0, *painting.size)
 
 
-def beyond_notes(view, regions_k, features_k, layer_id):
+def beyond_notes(view, regions_k, features_k, layer_id, skip=()):
+    """The footer line for rumors whose cell lies off the sheet, each with one direction (change list
+    42): the direction its told name gives ("smoke to the north-west"), else the bearing from the
+    sheet's middle to its cell. Rumors in `skip` (sightings drawn as ticks) are left out."""
     cx, cy = (view.x0 + view.x1) / 2, (view.y0 + view.y1) / 2
     items = [(k["name"], k["near"]) for k in regions_k.values() if k["grade"] == "rumored"]
-    items += [(k["name"], k["coords"][0]) for k, lid in features_k.values() if lid == layer_id and k["grade"] == "rumored"]
-    notes = [f"{name}, {bearing_name(p[0] - cx, p[1] - cy)}" for name, p in items if not view.inside(p)]
+    items += [(k["name"], k["coords"][0]) for k, lid in features_k.values()
+              if lid == layer_id and k["grade"] == "rumored" and k["id"] not in skip]
+    notes = [name if compass_in(name) else f"{name}, {bearing_name(p[0] - cx, p[1] - cy)}"
+             for name, p in items if not view.inside(p)]
     return ["rumored, beyond this sheet: " + "; ".join(notes)] if notes else []
 
 
+def sighting_bearing(k):
+    """The compass bearing of a rumored feature that is a far sighting (smoke seen from where the god
+    stands, change list 60): told.bearing, or the direction a told name gives when the source is the
+    god's own sight ("smoke to the north-west", "own sight at the landing"). None for any other rumor."""
+    if k["grade"] != "rumored":
+        return None
+    if bearing_degrees(k.get("bearing")) is not None:
+        return str(k["bearing"]).strip().lower().replace(" ", "-")
+    if "sight" in str(k.get("source", "")).lower():
+        return compass_in(k["name"])
+    return None
+
+
+GOD_MARK_R = 7          # sheet pixels: the god's mark at the landing
+TICK_FROM, TICK_TO = 11, 40   # sheet pixels from the mark: where a sighting's bearing tick starts and ends
+
+
+def draw_god_mark(canvas, lab, xy, ticks):
+    """The god's mark at the landing (a small four-pointed star in a ring) and, for each bearing in
+    `ticks`, a short ink tick pointing from it toward what the god saw far off (change list 60)."""
+    over = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(over)
+    x, y = xy
+    for b in sorted(set(ticks), key=bearing_degrees):
+        a = math.radians(bearing_degrees(b))
+        p0 = (x + math.sin(a) * TICK_FROM, y - math.cos(a) * TICK_FROM)
+        p1 = (x + math.sin(a) * TICK_TO, y - math.cos(a) * TICK_TO)
+        d.line([p0, p1], fill=INK + (220,), width=2)
+        lab.obstacle((min(p0[0], p1[0]) - 2, min(p0[1], p1[1]) - 2, max(p0[0], p1[0]) + 2, max(p0[1], p1[1]) + 2))
+    r = GOD_MARK_R
+    d.ellipse([x - r - 2, y - r - 2, x + r + 2, y + r + 2], fill=PARCHMENT + (210,), outline=INK + (255,), width=1)
+    star = []
+    for i in range(8):
+        ang = math.radians(i * 45)
+        rr = r if i % 2 == 0 else r * 0.35
+        star.append((x + math.sin(ang) * rr, y - math.cos(ang) * rr))
+    d.polygon(star, fill=INK + (255,))
+    canvas.alpha_composite(over)
+    lab.obstacle((x - r - 3, y - r - 3, x + r + 3, y + r + 3))
+
+
+def sighting_note(sights):
+    """The footer line naming the ticks: each told name once, with how many there are."""
+    counts = {}
+    for k in sights:
+        counts[k["name"]] = counts.get(k["name"], 0) + 1
+    parts = [f"{n} ({c})" if c > 1 else n for n, c in sorted(counts.items(), key=lambda t: bearing_degrees(compass_in(t[0]) or "north") or 0)]
+    return ["The star is the god where it landed; each tick points to what it saw far off: " + "; ".join(parts) + "."]
+
+
 LAST_LABELS = {"dropped": [], "moved": 0}
+LAST_NOTES = []   # notes from the last draw (a layer with no painting yet)
 
 
-def draw_sheet(world, painting, paintings_dir, painting_file, regions, features, view, title, notes, layer_name=None):
+def draw_sheet(world, painting, paintings_dir, painting_file, regions, features, view, title, notes, layer_name=None,
+               mark=None, ticks=()):
     paint = load_painting(paintings_dir, painting_file, painting.size)
     clouds = load_painting(paintings_dir, "clouds.png", painting.size)
     mask = fog_mask(regions, painting.size)
@@ -1478,6 +2144,8 @@ def draw_sheet(world, painting, paintings_dir, painting_file, regions, features,
     for box in furniture_boxes(view, painting):
         lab.obstacle(box)
     region_names = {k["name"] for k in regions if k["grade"] != "rumored" and k.get("named", True)}
+    if mark is not None and view.inside(mark):
+        draw_god_mark(canvas, lab, view.pt(mark), ticks)
     # settlement marks first, so that every label (region names included) keeps off them
     for shape in ("area", "line", "point"):
         for k in features:
@@ -1536,6 +2204,7 @@ def unchanged_since_last_draw(world, paintings_dir, knowledge, out_dir, zoom, wh
 
 
 def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
+    LAST_NOTES[:] = []
     painting = Painting(world)
     regions_k, features_k = gather(world, knowledge, painting)
     surface_regions = [k for rid, k in regions_k.items() if any(r["id"] == rid for r in world.get("regions", []))]
@@ -1551,8 +2220,18 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
         rect = zoom_rect(zoom, regions_k, features_k, None, painting)
         view = View(rect)
         feats = [k for k, lid in features_k.values() if lid is None]
-        view, notes = make_view(rect, legend + beyond_notes(view, regions_k, features_k, None))
-        im = draw_sheet(world, painting, paintings_dir, "surface.png", surface_regions, feats, view, f"{name}: the god's map", notes)
+        mark, sights = None, []
+        if zoom == "landing":   # the god's mark, and far sightings as ticks from it (change list 60)
+            mark = landing_point((world.get("landings") or {}).get("player"))
+            if mark is not None and is_point(mark) and View(rect).inside(mark):
+                sights = [k for k in feats if sighting_bearing(k)]
+            else:
+                mark = None
+        feats = [k for k in feats if k not in sights]
+        extra = sighting_note(sights) if sights else []
+        view, notes = make_view(rect, legend + extra + beyond_notes(view, regions_k, features_k, None, skip={k["id"] for k in sights}))
+        im = draw_sheet(world, painting, paintings_dir, "surface.png", surface_regions, feats, view, f"{name}: the god's map", notes,
+                        mark=mark, ticks=[sighting_bearing(k) for k in sights])
         path = os.path.join(out_dir, "map.png")
         im.save(path, optimize=True)
         written.append(path)
@@ -1567,13 +2246,18 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
         under = [k for k, l in features_k.values() if l == lid]
         if not under and which is None:
             continue
+        pfile = layer.get("painting", f"under-{depth}.png")
+        if not os.path.exists(os.path.join(paintings_dir, pfile)):
+            # a layer is written before it is painted, and painted only if it exists (change list 68)
+            LAST_NOTES.append(f"layer {lid} has no painting yet ({pfile}); its sheet is not drawn, and the gazetteer lists what is known below")
+            continue
         layer_regions = [regions_k[r["id"]] for r in layer.get("regions", []) if r["id"] in regions_k]
         regions = layer_regions if layer.get("regions") else surface_regions
         rect = zoom_rect(zoom, {k["id"]: k for k in regions}, features_k, lid, painting)
         view = View(rect)
         view, notes = make_view(rect, ["The ground below is fogged by what is known of the ground above it unless the layer has its own regions.",
                                        "Only known ground below is named."] + beyond_notes(view, {}, features_k, lid))
-        im = draw_sheet(world, painting, paintings_dir, layer.get("painting", f"under-{depth}.png"), regions, under, view,
+        im = draw_sheet(world, painting, paintings_dir, pfile, regions, under, view,
                         f"{name}: below, layer {depth}", notes, layer_name=f"Below, layer {depth}: {layer.get('name', '')}")
         path = os.path.join(out_dir, f"map-under-{depth}.png")
         im.save(path, optimize=True)
@@ -1870,9 +2554,18 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
     entry = {"grade": args.grade, "source": args.source, "year": args.year}
     correction = ""
     old_told = old.get("told", {}) or {}
-    # a name once heard stays heard (change list 81): kept from the old entry or its told name, or set now
-    if getattr(args, "named", False) or old.get("named") or (old_told.get("name") and args.grade == "seen"):
+    # a name once heard stays heard (change lists 81 and 39): the Keeper's name kept from the old entry or
+    # set now; seeing a place never gives its name, so a told name is kept as told.name when it is seen
+    if getattr(args, "named", False) or old.get("named"):
         entry["named"] = True
+    if args.grade == "seen" and not entry.get("named"):
+        heard = told.get("name") or old_told.get("name")
+        if heard and heard == truth.get("name"):
+            entry["named"] = True
+        elif heard:
+            entry["told"] = {"name": heard}
+        elif old_grade == "reported":
+            entry["named"] = True   # the report gave the Keeper's name (heard_name), and seeing keeps it
     if args.grade == "seen":
         true_c = centroid(truth.get("polygon") or truth["coords"])
         shape = old_told.get("coords") or old_told.get("polygon")
@@ -1881,7 +2574,8 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
             far = painting.miles(math.dist(centroid(shape), true_c)) > 1 if shape else told_cell != painting.cell_of(true_c)
             if far:
                 correction = f"; told at {told_cell} by {old.get('source', '?')}, found at {painting.cell_of(true_c)}"
-        if old_told.get("name") and old_told["name"] != truth["name"]:
+        if old_told.get("name") and old_told["name"] != truth["name"] and entry.get("named"):
+            # only once the Keeper's name is heard; the public log never prints a name the god lacks (39)
             correction += f"; called {old_told['name']} by {old.get('source', '?')}, found to be {truth['name']}"
     elif args.grade == "reported":
         if PIXEL_KEYS & set(told) == {"near"}:
@@ -1923,9 +2617,13 @@ def migrate(world, knowledge, painting):
             e = knowledge[table][ident]
             g = grade_of(e)
             t = e.get("told") or {}
-            if g == "seen" and "told" in e:
-                del e["told"]
-                notes.append(f"{kind} {ident}: dropped told from a seen entry")
+            if g == "seen" and "told" in e and set(t) - {"name"}:
+                if t.get("name"):
+                    e["told"] = {"name": t["name"]}   # the name heard is kept (39)
+                    notes.append(f"{kind} {ident}: kept only the told name of a seen entry")
+                else:
+                    del e["told"]
+                    notes.append(f"{kind} {ident}: dropped told from a seen entry")
             if g == "rumored":
                 if kind == "region" and not RUMORED_REGIONS_ALLOWED:
                     del knowledge[table][ident]
@@ -1953,7 +2651,8 @@ STAMP_NOTES = []   # notes from the last stamp (placeholder labels shared by sev
 
 def stamp_names(world):
     """{name variant: sorted ids} for every map name (with and without a leading article), kept only
-    when capitalized and four letters or more, the rule lockcheck --places warns by. A placeholder label
+    when capitalized and four letters or more, the rule lockcheck --places warns by. Aliases are never
+    stamped (change list 38): an alias is often a common word that means something else in prose. A placeholder label
     ("unnamed town") is kept too, lower case and all, under the key "~" + its lower-case form, and is
     matched without regard to case; one shared by several places is left out (it cannot say which)."""
     names, holders = {}, {}
@@ -1962,12 +2661,10 @@ def stamp_names(world):
         if is_placeholder(nm):
             holders.setdefault(name_core(nm).lower(), set()).add(el["id"])
             continue
-        variants = set()
-        for a in [nm] + [x["name"].strip() for x in el.get("aliases") or [] if isinstance(x, dict) and isinstance(x.get("name"), str)]:
-            variants.add(a)   # an alias is stamped with the place's id like its map name (92)
-            m = re.match(r"^(The|the|A|An)\s+(.+)$", a)
-            if m:
-                variants.add(m.group(2))
+        variants = {nm}   # the map name only: aliases are never stamped, and print in the gazetteer only (38)
+        m = re.match(r"^(The|the|A|An)\s+(.+)$", nm)
+        if m:
+            variants.add(m.group(2))
         for v in variants:
             if len(v) >= 4 and v[0].isupper():
                 names.setdefault(v, set()).add(el["id"])
@@ -2223,16 +2920,24 @@ def plan_trip(world, a, b, vias, painting):
     return legs
 
 
+BOAT_WALK_MILES = 10.0   # a boat trip may start or end with a walk this long to or from the water, under a day (41)
+
+
 def price_trip(world, legs, means, rates=None):
     """Segments with miles, ground, rate and days for the means (foot, horse, wagon, boat), each
     open-ground leg split by the regions it crosses and priced by their ground, each route leg at the
     route's rate (a road at the road rate whatever it crosses; a river by boat downstream or upstream,
-    or walked along its bank by the ground). days is None when any segment has no passage."""
+    or walked along its bank by the ground). days is None when any segment has no passage.
+
+    Change list 41: a boat trip may start with a walk to the water and end with a walk from it, each
+    of up to BOAT_WALK_MILES over land, priced on foot by the ground (land between two waters is still
+    no passage by boat); and an open-ground leg on land that a straight line would take across water (a
+    lake, a sea) goes around it instead, by the shortest way over land the map gives (land_route)."""
     painting = Painting(world)
     rates = rates or pace_rates()
     table = rates[MEANS[means]]
     segs = []
-    for leg in legs:
+    for li, leg in enumerate(legs):
         if leg["kind"] == "route":
             f = leg["feature"]
             t = f.get("type")
@@ -2252,14 +2957,29 @@ def price_trip(world, legs, means, rates=None):
                 segs.append({"how": "bank", "feature": f["id"], "type": t, "region": r["id"] if r else None,
                              "ground": ground_of(r), "miles": m})
             continue
-        for r, m in split_by_region(world, leg["pts"], painting):
+        pts, around = leg["pts"], False
+        if means != "boat":
+            runs = split_by_region(world, pts, painting)
+            if any(ground_of(r) == "sea" for r, _m in runs) and all(ground_of(region_at(world, q)) != "sea" for q in (pts[0], pts[-1])):
+                path = land_route(world, pts[0], pts[-1], painting)
+                if path:
+                    pts, around = path, True
+        runs = split_by_region(world, pts, painting)
+        if around:
+            runs = shore_runs(runs, painting)
+        leg_segs = []
+        for r, m in runs:
             g = ground_of(r)
             if means == "boat" and g != "sea":
                 g = "land"
-            segs.append({"how": "open", "feature": None, "type": None, "region": r["id"] if r else None, "ground": g, "miles": m})
+            leg_segs.append({"how": "open", "feature": None, "type": None, "region": r["id"] if r else None, "ground": g,
+                             "miles": m, "around": around, "walk_ground": ground_of(r)})
+        if means == "boat":
+            walk_ends(leg_segs, first=li == 0, last=li == len(legs) - 1, has_water=any(l["kind"] == "route" for l in legs))
+        segs += leg_segs
     total_days, blocked = 0.0, None
     for s in segs:
-        rate = table.get(s["ground"])
+        rate = (rates["walk"] if s.get("on_foot") else table).get(s["ground"])
         s["rate"] = rate
         s["days"] = s["miles"] / rate if rate else None
         if rate is None and blocked is None:
@@ -2270,6 +2990,148 @@ def price_trip(world, legs, means, rates=None):
             "blocked": blocked, "means": means}
 
 
+def walk_ends(segs, first, last, has_water):
+    """For a boat trip: the land at the start of the first leg and at the end of the last, up to
+    BOAT_WALK_MILES each, is walked (change list 41). A leg wholly on land is walked only when the trip
+    also goes by water (a route leg) and the leg is a short walk to or from it."""
+    def land_run(order):
+        run = []
+        for i in order:
+            if segs[i]["ground"] != "land":
+                break
+            run.append(i)
+        return run
+    any_water = has_water or any(s["ground"] == "sea" for s in segs)
+    if not any_water:
+        return
+    picks = []
+    if first:
+        picks.append((land_run(range(len(segs))), True))
+    if last:
+        picks.append((land_run(range(len(segs) - 1, -1, -1)), False))
+    for run, to_water in picks:
+        if run and len(run) == len(segs) and not has_water:
+            continue   # all land and no water on the trip: no boat trip at all
+        if run and sum(segs[i]["miles"] for i in run) <= BOAT_WALK_MILES + 1e-9:
+            for i in run:
+                if segs[i].get("on_foot"):
+                    continue
+                segs[i].update({"how": "walk", "on_foot": True, "to_water": to_water, "ground": segs[i]["walk_ground"]})
+
+
+def shore_runs(runs, painting):
+    """A detour hugs the shore, so a sliver of water a few pixels long at a turn is the shore itself:
+    it takes the ground of the land run before it (or after it)."""
+    out = [[r, m] for r, m in runs]
+    tiny = painting.miles(3 * land_cell(painting))
+    for i, (r, m) in enumerate(out):
+        if ground_of(r) == "sea" and m <= tiny:
+            j = i - 1 if i > 0 else i + 1
+            if 0 <= j < len(out) and ground_of(out[j][0]) != "sea":
+                out[i][0] = out[j][0]
+    merged = []
+    for r, m in out:
+        if merged and merged[-1][0] is r:
+            merged[-1][1] += m
+        else:
+            merged.append([r, m])
+    return [(r, m) for r, m in merged]
+
+
+def land_cell(painting):
+    """Pixels per cell of the grid land_route searches on (about 512 cells on the long side)."""
+    return max(1.0, max(painting.size) / 512.0)
+
+
+_LAND_GRID = {}
+
+
+def water_grid(world, painting):
+    """(cells, columns, rows, cell size) of the painting with every water region (sea, lake) and every
+    lake or sea area feature on the surface marked as water, for land_route."""
+    c = land_cell(painting)
+    polys = [r["polygon"] for r in world.get("regions", []) if ground_of(r) == "sea" and len(r.get("polygon") or []) >= 3]
+    polys += [f["coords"] for f in world.get("features", []) if f.get("type") in ("lake", "sea") and f.get("shape") == "area"
+              and len(f.get("coords") or []) >= 3]
+    key = (json.dumps(polys), painting.size, c)
+    if key in _LAND_GRID:
+        return _LAND_GRID[key]
+    cols, rows = int(math.ceil(painting.size[0] / c)), int(math.ceil(painting.size[1] / c))
+    im = Image.new("L", (cols, rows), 0)
+    d = ImageDraw.Draw(im)
+    for poly in polys:
+        d.polygon([(p[0] / c - 0.5, p[1] / c - 0.5) for p in poly], fill=255)
+    px = im.load()
+    grid = [[px[x, y] > 0 for x in range(cols)] for y in range(rows)]
+    _LAND_GRID.clear()
+    _LAND_GRID[key] = (grid, cols, rows, c)
+    return _LAND_GRID[key]
+
+
+def land_route(world, a, b, painting=None):
+    """The shortest way over land from a to b around water (change list 41), as points in painting
+    pixels: an eight-way search on a grid of about 512 cells a side, pulled straight wherever the line
+    between two of its points stays on land. None when no way over land joins them."""
+    import heapq
+    painting = painting or Painting(world)
+    grid, cols, rows, c = water_grid(world, painting)
+
+    def cell(p):
+        return (min(cols - 1, max(0, int(p[0] / c))), min(rows - 1, max(0, int(p[1] / c))))
+    s, g = cell(a), cell(b)
+
+    def free(x, y):
+        return 0 <= x < cols and 0 <= y < rows and (not grid[y][x] or (x, y) in (s, g))
+    if s == g:
+        return [tuple(a), tuple(b)]
+    openq = [(math.dist(s, g), 0.0, s)]
+    came, cost = {s: None}, {s: 0.0}
+    steps = [(1, 0, 1.0), (-1, 0, 1.0), (0, 1, 1.0), (0, -1, 1.0),
+             (1, 1, math.sqrt(2)), (1, -1, math.sqrt(2)), (-1, 1, math.sqrt(2)), (-1, -1, math.sqrt(2))]
+    while openq:
+        _f, gc, cur = heapq.heappop(openq)
+        if cur == g:
+            break
+        if gc > cost.get(cur, float("inf")) + 1e-12:
+            continue
+        for dx, dy, w in steps:
+            nx, ny = cur[0] + dx, cur[1] + dy
+            if not free(nx, ny) or (dx and dy and not (free(cur[0] + dx, cur[1]) and free(cur[0], cur[1] + dy))):
+                continue
+            nc = gc + w
+            if nc < cost.get((nx, ny), float("inf")):
+                cost[(nx, ny)] = nc
+                came[(nx, ny)] = cur
+                heapq.heappush(openq, (nc + math.dist((nx, ny), g), nc, (nx, ny)))
+    if g not in came:
+        return None
+    path = []
+    cur = g
+    while cur is not None:
+        path.append(cur)
+        cur = came[cur]
+    path.reverse()
+    pts = [tuple(a)] + [((x + 0.5) * c, (y + 0.5) * c) for x, y in path[1:-1]] + [tuple(b)]
+
+    def clear(p, q):
+        n = max(2, int(math.dist(p, q) / (c * 0.4)))
+        for i in range(1, n):
+            x = p[0] + (q[0] - p[0]) * i / n
+            y = p[1] + (q[1] - p[1]) * i / n
+            cx, cy = cell((x, y))
+            if grid[cy][cx] and (cx, cy) not in (s, g):
+                return False
+        return True
+    out, i = [pts[0]], 0
+    while i < len(pts) - 1:
+        j = i + 1
+        while j + 1 < len(pts) and clear(pts[i], pts[j + 1]):
+            j += 1
+        out.append(pts[j])
+        i = j
+    return out
+
+
 def fmt_days(d):
     if d is None:
         return "no passage"
@@ -2278,25 +3140,67 @@ def fmt_days(d):
     return f"{d:.1f} days"
 
 
-def resolve_place(world, ident):
-    """(point, how it is read) for a trip's end: a point feature, an area feature's middle, a region's
-    middle, or a god's landing point."""
+END_FORMS = {"edge": "edge", "start": "start", "source": "start", "end": "end", "mouth": "end"}
+
+
+def split_end(ident):
+    """(id, form) for a trip's end written `id:edge`, `id:start` (or `:source`), `id:end` (or
+    `:mouth`); (id, None) for a bare id."""
+    if ":" in str(ident):
+        i, form = str(ident).split(":", 1)
+        f = END_FORMS.get(form.strip().lower())
+        if f is None:
+            sys.exit(f"map.py: {ident!r}: an end is an id, or id:edge, id:start (source) or id:end (mouth)")
+        return i.strip(), f
+    return ident, None
+
+
+def resolve_place(world, ident, toward=None):
+    """(point, how it is read) for a trip's end (change list 50): a point feature, an area feature's
+    middle, a region's middle, or a god's landing point; `rNN:edge` (or an area feature's) is the point
+    of its edge nearest `toward` (the trip's other end), and a line's `:start` (source) or `:end`
+    (mouth) is its first or last point. A bare line is a route, not a place."""
     by_id = index_world(world)
+    ident, form = split_end(ident)
     if ident in by_id:
         kind, el, layer = by_id[ident]
         if layer is not None:
             sys.exit(f"map.py: {ident} is underground; travel prices the surface")
+        if form == "edge":
+            ring = el.get("polygon") if kind == "region" else (el.get("coords") if el.get("shape") == "area" else None)
+            if not ring or len(ring) < 3:
+                sys.exit(f"map.py: {ident}:edge needs a region or an area feature")
+            ref = toward if toward is not None else centroid(ring)
+            foot = dist_to_polyline(ref, list(ring) + [ring[0]])
+            return tuple(point_along(list(ring) + [ring[0]], foot[1])), "its nearest edge"
+        if form in ("start", "end"):
+            if el.get("shape") != "line" or len(el.get("coords", [])) < 2:
+                sys.exit(f"map.py: {ident}:{form} needs a line (a river, a road or a path)")
+            word = {"start": "source" if el.get("type") == "river" else "first point",
+                    "end": "mouth" if el.get("type") == "river" else "last point"}[form]
+            return tuple(el["coords"][0 if form == "start" else -1]), f"its {word}"
         if kind == "region":
             return tuple(centroid(el["polygon"])), "the middle of the region"
         if el.get("shape") == "area" and len(el.get("coords", [])) >= 3:
             return tuple(centroid(el["coords"])), "its middle"
         if el.get("shape") == "line":
-            sys.exit(f"map.py: {ident} is a line ({el.get('type')}); go by it with --via, from a place")
+            sys.exit(f"map.py: {ident} is a line ({el.get('type')}); go by it with --via, from a place, "
+                     f"or name one of its ends ({ident}:start, {ident}:end)")
         return tuple(el["coords"][0]), None
-    land = (world.get("landings") or {}).get(ident)
-    if land is not None and landing_point(land) is not None:
-        return tuple(landing_point(land)), "the landing point"
+    if form is None:
+        land = (world.get("landings") or {}).get(ident)
+        if land is not None and landing_point(land) is not None:
+            return tuple(landing_point(land)), "the landing point"
     sys.exit(f"map.py: no place {ident!r} in the sealed map (a feature id, a region id or a god's landing)")
+
+
+def resolve_ends(world, start, end):
+    """Both ends of a trip; an edge end is read toward the other end (the other end first)."""
+    if split_end(start)[1] == "edge" and split_end(end)[1] != "edge":
+        b = resolve_place(world, end)
+        return resolve_place(world, start, b[0]), b
+    a = resolve_place(world, start)
+    return a, resolve_place(world, end, a[0])
 
 
 def routes_near_both(world, a, b, painting):
@@ -2315,8 +3219,7 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
     namer = namer or Namer(world, None, True)
     if means not in MEANS:
         sys.exit(f"map.py: --by must be one of {', '.join(MEANS)}")
-    a, a_how = resolve_place(world, start)
-    b, b_how = resolve_place(world, end)
+    (a, a_how), (b, b_how) = resolve_ends(world, start, end)
     via_items = []
     for v in vias:
         if v not in by_id:
@@ -2331,8 +3234,12 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
 
     def nm(i):
         return f"{namer.name(i)}{f' [{i}]' if show_ids else ''}"
-    head = f"Travel from {nm(start) if start in by_id else start}{' (' + a_how + ')' if a_how else ''} to " \
-           f"{nm(end) if end in by_id else end}{' (' + b_how + ')' if b_how else ''}, {MEANS_WORDS[means]}"
+
+    def end_nm(e):
+        i = split_end(e)[0]
+        return nm(i) if i in by_id else e
+    head = f"Travel from {end_nm(start)}{' (' + a_how + ')' if a_how else ''} to " \
+           f"{end_nm(end)}{' (' + b_how + ')' if b_how else ''}, {MEANS_WORDS[means]}"
     head += (", by " + ", then ".join(nm(v) for v in vias)) if vias else ", over open ground (no route chosen)"
     lines = [head + ":"]
     for i, s in enumerate(trip["segments"], 1):
@@ -2340,11 +3247,17 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
             where = f"along {nm(s['feature'])} ({s['type']})"
         elif s["how"] == "bank":
             where = f"along the bank of {nm(s['feature'])}, through {nm(s['region'])}" if s["region"] else f"along {nm(s['feature'])}"
+        elif s["how"] == "walk":
+            where = f"on foot {'to' if s.get('to_water') else 'from'} the water, through {nm(s['region'])}" if s["region"] \
+                else f"on foot {'to' if s.get('to_water') else 'from'} the water"
         else:
             where = f"open ground through {nm(s['region'])}" if s["region"] else "open ground"
+            if s.get("around"):
+                where += " (around the water)"
         ground = GROUND_WORDS.get(s["ground"], s["ground"].replace("_", " ")) if s["ground"] != "land" else "land, which a boat cannot cross"
         if s["rate"]:
-            lines.append(f"{i}. {where}, {ground}: {s['miles']:.1f} miles at {s['rate']:g} miles a day, {fmt_days(s['days'])}.")
+            rate_words = f"{s['rate']:g} miles a day{' on foot' if s['how'] == 'walk' else ''}"
+            lines.append(f"{i}. {where}, {ground}: {s['miles']:.1f} miles at {rate_words}, {fmt_days(s['days'])}.")
         else:
             lines.append(f"{i}. {where}, {ground}: {s['miles']:.1f} miles, no passage {MEANS_WORDS[means]}.")
     if trip["days"] is None:
@@ -2359,6 +3272,9 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
         if near:
             lines.append("Routes that pass within half a mile of both ends: " + "; ".join(
                 f"{nm(f['id'])} (--via {f['id']})" for f in near) + ".")
+    if any(s.get("around") for s in trip["segments"]):
+        lines.append("The open ground goes around water a walker cannot cross, by the shortest way the map gives "
+                     "(change list 41); a ferry or a boat may be quicker.")
     data = {"from": start, "to": end, "by": means, "via": list(vias), "miles": round(trip["miles"], 2),
             "days": round(trip["days"], 3) if trip["days"] is not None else None,
             "segments": [{"how": s["how"], "route": s["feature"], "region": s["region"], "ground": s["ground"],
@@ -2484,17 +3400,10 @@ class Namer:
         kind = self.by_id.get(ident, (None,))[0]
         table = "regions" if kind == "region" else "features"
         e = self.k.get(table, {}).get(ident)
-        g = grade_of(e)
-        if g == "none":
+        if grade_of(e) == "none":
             return None
-        told = (e.get("told") or {}) if g != "seen" else {}
-        if told.get("name"):
-            return told["name"]
-        if kind == "region" and not region_name_known(e):
-            return None   # seen with no name heard (map.md 1.2, 4.2): shown by id and terrain
-        if g in ("seen", "reported"):
-            return self.by_id[ident][1].get("name")
-        return None
+        # the name as heard (change list 39): seen with no name heard is shown plainly (map.md 1.2, 4.2)
+        return heard_name(self.by_id[ident][1], e)
 
     def graded(self, ident):
         kind = self.by_id.get(ident, (None,))[0]
@@ -2551,6 +3460,7 @@ def god_knowledge(campaign, god, sealed_dir):
 
 
 SMOKE_MILES = SKYLINE_MILES   # a settlement's smoke, walls or lights show out to the forty-mile skyline
+PLAIN_VIEW_MILES = NEAR_MILES["open"]   # within this a settlement is never missed (change list 40)
 
 
 def describe(world, region_id=None, at=None, knowledge=None, all_names=False, label=None, reference=True, data=None):
@@ -2573,7 +3483,11 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
       in view within NEAR_MILES: two miles on open ground, half a mile in forest or hill (line of sight
       in mountains is read as the open-ground two miles). A settlement farther off is given as its
       smoke, walls or lights only, within SMOKE_MILES (the forty-mile skyline) from any ground, and
-      never past ground that stands above the line to it. Sight crosses region borders the same as it
+      never past ground that stands above the line to it. A settlement in plain view, within
+      PLAIN_VIEW_MILES (two miles), is never missed (change list 40): it is in view, or past the near
+      distance of hill or forest ground it is given as its smoke, walls or lights with no ground
+      between taken to hide it; a settlement of any shape is read at its nearest point, and no region
+      it stands in hides it. Sight crosses region borders the same as it
       runs inside a region (change list 58): which region a thing stands in never hides it.
     - A mountain feature is read as the highest region it touches. Nothing underground is seen.
     - Distances under 0.2 miles are given in yards; a thing at the point itself has no bearing (74).
@@ -2715,12 +3629,15 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
             in_view.append((d, f"- {names.name(f['id'])} ({f.get('type')}), {dist_dir(d, *dxy)}{seg}{on}."))
             D["in_view"].append({"id": f["id"], "name": names.name(f["id"]), "kind": "feature", "type": f.get("type"),
                                  "miles": round(d, 2), "bearing": dirn, "on_it": bool(on)})
-        elif f.get("type") in SETTLEMENT_TYPES and f.get("shape", "point") == "point":
-            p = coords[0]
+        elif f.get("type") in SETTLEMENT_TYPES:
+            # a settlement of any shape, read at its nearest point (change list 40)
+            p = (at[0] + dxy[0], at[1] + dxy[1])
             if d <= SMOKE_MILES:   # the same rule across a region border as inside one (change list 58)
                 home = [r for r in f.get("regions", []) if r in by_id and by_id[r][0] == "region"]
                 tgt = parse_elevation(by_id[home[0]][1])[0] if home else eye_ground
-                if not blocker(world, at, p, tgt + 30, eye_ground, region_id, home[0] if home else None, painting):
+                # in plain view (within PLAIN_VIEW_MILES) a settlement is never missed: a region's highest
+                # figure cannot stand for the ground a mile or two off; farther, no region it stands in hides it
+                if d <= PLAIN_VIEW_MILES or not blocker(world, at, p, tgt + 30, eye_ground, region_id, home, painting):
                     smoke.append((d, f"- {names.generic(f['id'])}, {dist_dir(d, *dxy)}: its smoke, walls or lights only, not the place itself."))
                     D["smoke"].append({"id": f["id"], "name": names.generic(f["id"]), "miles": round(d, 2), "bearing": dirn})
     out.append("")
@@ -2783,7 +3700,9 @@ def reach_in_view(at, line, reach_mi, painting, step_mi=0.05):
 
 
 def blocker(world, at, target, target_top, eye_ground, own_id, target_id, painting, steps=40):
-    """The id of a region between the eye and the target that stands above the sight line, or None."""
+    """The id of a region between the eye and the target that stands above the sight line, or None.
+    target_id may be one region id or a list of them (a settlement on a border stands in each)."""
+    skip = {own_id} | (set(target_id) if isinstance(target_id, (list, tuple, set)) else {target_id})
     def curve(mi_):
         return (mi_ / HORIZON_K) ** 2
     D = painting.miles(math.dist(at, target))
@@ -2795,7 +3714,7 @@ def blocker(world, at, target, target_top, eye_ground, own_id, target_id, painti
         t = i / steps
         p = (at[0] + (target[0] - at[0]) * t, at[1] + (target[1] - at[1]) * t)
         for r, _layer in all_regions(world):
-            if r["id"] in (own_id, target_id) or not point_in_poly(p[0], p[1], r["polygon"]):
+            if r["id"] in skip or not point_in_poly(p[0], p[1], r["polygon"]):
                 continue
             d = D * t
             if (parse_elevation(r)[1] - eye - curve(d)) / d > want:
@@ -2803,16 +3722,65 @@ def blocker(world, at, target, target_top, eye_ground, own_id, target_id, painti
     return None
 
 
+def regions_from_paint_cmd(world, world_path, painting, args):
+    """`regions-from-paint`: region polygons cut from a flat-colored label painting so that they tile
+    the sheet (change list 44), checked with the tiling check, then saved or written into the map."""
+    key = load_json(args.key)
+    if not isinstance(key, dict) or not key:
+        sys.exit("map.py: --key must be a JSON object of region ids and colors")
+    labels = labels_from_image(args.labels, key, painting.size)
+    polys, notes = regions_from_labels(labels, args.tolerance)
+    for n in notes:
+        print(n)
+    target = world.get("regions", [])
+    if args.layer:
+        layer = next((l for l in world.get("layers", []) if l.get("id") == args.layer), None)
+        if layer is None:
+            sys.exit(f"map.py: no layer {args.layer!r} in the map")
+        target = layer.setdefault("regions", [])
+    have = {r["id"] for r in target}
+    missing = sorted(set(polys) - have)
+    keyed = {(b if str(a).startswith("#") else a) for a, b in key.items()}
+    for rid in sorted(keyed - set(polys)):
+        print(f"{rid}: no pixel of its color in the label painting")
+    probs = tiling_lines({"painting": world.get("painting", {}), "regions": [{"id": i, "polygon": p} for i, p in polys.items()]},
+                         gaps_fail=True)[0]
+    for p in probs:
+        print(p)
+    print(f"{len(polys)} region polygon(s), {sum(len(p) for p in polys.values())} points; "
+          + ("they tile the painting" if not probs else f"{len(probs)} tiling problem(s)"))
+    if args.save:
+        save_json(args.save, polys)
+        print(f"wrote {args.save}")
+    if args.apply:
+        if missing:
+            sys.exit(f"map.py: not applied: {', '.join(missing)} not among the {'layer' if args.layer else 'surface'} regions of the map")
+        for r in target:
+            if r["id"] in polys:
+                r["polygon"] = polys[r["id"]]
+        save_json(world_path, world)
+        print(f"applied to {len(polys)} region(s) in {world_path}")
+
+
 # ---------------------------------------------------------------- main
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="StarFall map tool (painted maps)")
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for name in ("draw", "gazetteer", "reveal", "validate", "migrate", "stamp", "describe", "travel"):
+    for name in ("draw", "gazetteer", "reveal", "validate", "migrate", "stamp", "describe", "travel", "tiles",
+                 "regions-from-paint"):
         s = sub.add_parser(name)
         s.add_argument("campaign")
+        if name == "regions-from-paint":
+            s.add_argument("--labels", required=True, help="a PNG of the painting's size with each region painted one flat color")
+            s.add_argument("--key", required=True, help="JSON mapping each region id to its color (\"#rrggbb\"), or each color to an id")
+            s.add_argument("--tolerance", type=float, default=1.0, help="how far, in pixels, a simplified border may stray (default 1)")
+            s.add_argument("--layer", help="cut a layer's own regions (under-N) instead of the surface's")
+            s.add_argument("--save", help="write the polygons as JSON ({id: polygon}) to this path")
+            s.add_argument("--apply", action="store_true", help="write the polygons into the map file's regions of the same ids")
         if name == "travel":
-            s.add_argument("start", metavar="from", help="a place: a feature id, a region id or a god's landing label")
+            s.add_argument("start", metavar="from", help="a place: a feature id, a region id or a god's landing label; "
+                                                          "or rNN:edge, a line's fNN:start (source) or fNN:end (mouth)")
             s.add_argument("end", metavar="to", help="a place, as for from")
             s.add_argument("--by", required=True, choices=sorted(MEANS), help="the means: foot, horse, wagon or boat")
             s.add_argument("--via", default="", help="the route chosen, as ids in order: roads, rivers or places (f26,f01)")
@@ -2866,9 +3834,12 @@ def main(argv=None):
         probs = check_world(world)
         cont, cont_line = continent_problems(world)
         probs += cont
+        tprobs, twarns = tiling_lines(world)   # overlapping regions fail (change list 53); gaps warn
+        probs += tprobs
+        probs += underground_problems(world, os.path.dirname(os.path.abspath(world_path)))   # change list 68
         if os.path.exists(knowledge_path):
             probs += [f"knowledge: {p}" for p in knowledge_problems(world, load_json(knowledge_path))]
-        warns = common_word_warnings(world) + edge_land_warnings(world)
+        warns = common_word_warnings(world) + edge_land_warnings(world) + twarns
         for p in probs:
             print(p)
         for w in warns:
@@ -2876,6 +3847,18 @@ def main(argv=None):
         print(cont_line)
         print(f"{len(probs)} problem(s), {len(warns)} warning(s)")
         sys.exit(1 if probs else 0)
+
+    if args.cmd == "tiles":
+        probs, _w = tiling_lines(world, gaps_fail=True)
+        for p in probs:
+            print(p)
+        n = len(world.get("regions", []))
+        print(f"{n} surface region(s): {'they tile the painting' if not probs else str(len(probs)) + ' problem(s)'}")
+        sys.exit(1 if probs else 0)
+
+    if args.cmd == "regions-from-paint":
+        regions_from_paint_cmd(world, world_path, painting, args)
+        return
 
     if args.cmd == "stamp":
         sealed = args.sealed or os.path.dirname(os.path.abspath(world_path))
@@ -2956,6 +3939,8 @@ def main(argv=None):
             print(f"wrote {os.path.relpath(p, ROOT)}")
         if LAST_LABELS["dropped"]:
             print(f"labels left off for want of room (the gazetteer still lists them): {', '.join(LAST_LABELS['dropped'])}")
+        for note in LAST_NOTES:
+            print(note)
     elif args.cmd == "gazetteer":
         print(f"wrote {os.path.relpath(gazetteer(world, knowledge, out_dir, log_path), ROOT)}")
 

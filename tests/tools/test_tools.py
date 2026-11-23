@@ -950,9 +950,12 @@ def test_region_label_only_when_named():
         assert reveal(repo, "--region", "r01", "--grade", "seen", "--source", "a shepherd named it", "--year", "1", "--named")[0] == 0
         assert json.load(open(know_p))["regions"]["r01"]["named"] is True
         assert labels() == ["The Wend Downs", "the Reach"]
-        # a told name stays heard when the ground is seen
+        # a told name stays heard when the ground is seen, as the told name: seeing never gives the
+        # Keeper's name (build 5, run 04 item 39)
         assert reveal(repo, "--region", "r02", "--grade", "seen", "--source", "walked", "--year", "2")[0] == 0
-        assert json.load(open(know_p))["regions"]["r02"]["named"] is True
+        e = json.load(open(know_p))["regions"]["r02"]
+        assert "named" not in e and e["told"] == {"name": "the Reach"}
+        assert labels() == ["The Wend Downs", "the Reach"]
         assert mapt.knowledge_problems(world, json.load(open(know_p))) == []
 
 
@@ -1179,16 +1182,15 @@ def test_aliases_schema_stamp_gazetteer_places():
         run_quiet(mapt.main, ["gazetteer", "fx", "--world", world_p, "--knowledge", know_p, "--out", out])
         g = open(os.path.join(out, "gazetteer.md")).read()
         assert "**Tallowford** (town), also called Tallowmouth," in g and "Greyford" not in g
+        # build 5, run 04 item 38: aliases are never stamped, and lockcheck --places does not ask for their ids
         names = mapt.stamp_names(world)
-        assert names["Tallowmouth"] == ["f01"] and names["Greyford"] == ["f01"]
+        assert "Tallowmouth" not in names and "Greyford" not in names and names["Tallowford"] == ["f01"]
         S = os.path.dirname(world_p)
         append(repo, "SPOILERS_do_not_open/campaigns/fx/alias-notes.md", "They call it Tallowmouth now.\n")
         code, o, err = lock(repo, "--places")
-        assert 'map name "Tallowmouth" written 1 time(s) with no id' in o + err
-        mapt.stamp("fx", S, world)
-        assert "Tallowmouth [f01]" in open(os.path.join(S, "alias-notes.md")).read()
-        code, o, err = lock(repo, "--places")
         assert "Tallowmouth" not in o + err
+        mapt.stamp("fx", S, world)
+        assert open(os.path.join(S, "alias-notes.md")).read() == "They call it Tallowmouth now.\n"
 
 
 def test_paint_player_asked_and_counts():
@@ -1288,3 +1290,463 @@ def test_validate_warns_land_off_the_sheet():
         code, out, _ = run_quiet(mapt.main, ["validate", "fx", "--world", wp, "--knowledge", os.path.join(repo, "none.json")])
         assert code == 0 and "traced land runs off the sheet's north, south, west, east edge(s)" in out
         assert "north: r01, r02" in out and "1 warning(s)" in out
+
+
+# ---------------------------------------------------------------- build 5 (run 04 change list)
+
+def test_lockcheck_dashes_without_sealed_folder():
+    """Item 2: --dashes alone runs on the public folder when no sealed folder exists yet (Day 1)."""
+    with tmpcopy() as repo:
+        shutil.rmtree(os.path.join(repo, "SPOILERS_do_not_open", "campaigns", "fx"))
+        code, out, _ = lock(repo, "--dashes")
+        assert code == 0 and "reads the public folder alone" in out and "dashes: 0 failure(s)" in out
+        append(repo, "campaigns/fx/player/transcript-day1.md", "A pause \u2014 then rain.\n")
+        code, out, _ = lock(repo, "--dashes")
+        assert code == 1 and "transcript-day1.md:1: 1 em or en dash(es)" in out
+        # every other check still needs the sealed folder
+        assert lock(repo, "--leaks")[0] != 0 and lock(repo)[0] != 0
+
+
+def test_lockcheck_people_knowledge_names():
+    """Item 46: a map name in campaigns/<name>/civs/<people>/knowledge.md is told to the people: allowed
+    there, and no leak; anywhere else it still fails, and a sealed term that is no map name fails there too."""
+    know = "campaigns/fx/civs/tallowfolk/knowledge.md"
+    with tmpcopy() as repo:
+        append(repo, know, "# What the Tallowfolk know\n\nBeyond the downs lies Hollow Moor (A3), and the ruin of Brackwater Hold (B4).\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 0, out
+        append(repo, "campaigns/fx/player/notes.md", "Hollow Moor lies south.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "notes.md" in out and "knowledge.md" not in out
+    with tmpcopy() as repo:   # a god's name is no map name: it fails in the people's file as anywhere
+        append(repo, know, "They fear Vessaline.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'knowledge.md:1: sealed term "Vessaline"' in out
+    with tmpcopy() as repo:   # only that file: another file in the people's folder is scanned as before
+        append(repo, "campaigns/fx/civs/tallowfolk/notes.md", "Hollow Moor.\n")
+        assert lock(repo, "--leaks")[0] == 1
+
+
+def test_stamp_never_stamps_aliases():
+    """Item 38: stamp never stamps an alias (often a common word); the gazetteer still prints it."""
+    w = small_world()
+    w["features"][0]["aliases"] = [{"name": "Ford", "by": "god-x", "since": 1}, {"name": "Oskmouth", "by": "player", "since": 1}]
+    assert mapt.check_world(w) == []
+    assert set(mapt.stamp_names(w)) == {"Vale of Osk", "The Shoulders", "Shoulders", "The White Teeth", "White Teeth",
+                                        "Oskby", "Osk Water", "Hob Hole", "Farstead"}
+    d = tempfile.mkdtemp()
+    try:
+        with open(os.path.join(d, "notes.md"), "w") as f:
+            f.write("At the Ford we met. Oskmouth, they call it. Oskby is near.\n")
+        mapt.stamp("t", d, w)
+        assert open(os.path.join(d, "notes.md")).read() == "At the Ford we met. Oskmouth, they call it. Oskby [f01] is near.\n"
+    finally:
+        shutil.rmtree(d)
+
+
+def test_seen_feature_name_told_or_none():
+    """Item 39: a seen feature shows its told name or none; a name the player gave at creation counts as
+    heard; seeing a told place keeps the told name; lockcheck keeps an unheard map name sealed."""
+    w = small_world()
+    k = {"regions": {"r01": {"grade": "seen", "source": "the landing", "year": 1}},
+         "features": {"f01": {"grade": "seen", "source": "the landing", "year": 1},
+                      "f02": {"grade": "seen", "source": "the landing", "year": 1, "told": {"name": "the quick water"}},
+                      "f04": {"grade": "reported", "source": "a drover", "year": 1}}}
+    assert mapt.knowledge_problems(w, k) == []
+    nm = mapt.Namer(w, k)
+    assert nm.name("f01") == "a town" and nm.name("f02") == "the quick water" and nm.name("f04") == "Farstead"
+    regions_k, features_k = mapt.gather(w, k, mapt.Painting(w))
+    assert features_k["f01"][0]["named"] is False and features_k["f01"][0]["name"] == "f01, a town"
+    assert regions_k["r01"]["named"] is False
+    # a name the player gave at creation is heard: the label stays
+    w["regions"][0]["aliases"] = [{"name": "Hearthvale", "by": "player", "since": "creation"}]
+    assert mapt.Namer(w, k).name("r01") == "Hearthvale" and mapt.region_name_known(k["regions"]["r01"], w["regions"][0])
+    # a seen settlement with no name heard: its mark, no label
+    lab = mapt.Labeler((1200, 1000))
+    canvas = mapt.Image.new("RGBA", (1200, 1000))
+    mapt.draw_feature(canvas, lab, mapt.View((0, 0, 100, 100)), features_k["f01"][0], mapt.Painting(w))
+    assert lab.queue == [] and len(lab.obstacles) == 1
+    bad = {"regions": {}, "features": {"f01": {"grade": "seen", "source": "x", "year": 1, "told": {"name": "n", "coords": [[1, 1]]}}}}
+    assert any("seen entries carry no told but a name heard" in p for p in mapt.knowledge_problems(w, bad))
+    with tmpcopy() as repo:
+        world_p, know_p = fx_paths(repo)
+        # the ruin (f05) rumored by a name, then seen: the told name is kept, the Keeper's is not given
+        assert reveal(repo, "--feature", "f05", "--grade", "rumored", "--source", "a tinker", "--year", "1",
+                      "--name", "the drowned hold", "--cell", "B4")[0] == 0
+        code, out, _ = reveal(repo, "--feature", "f05", "--grade", "seen", "--source", "walked", "--year", "2")
+        e = json.load(open(know_p))["features"]["f05"]
+        assert code == 0 and e["told"] == {"name": "the drowned hold"} and "named" not in e
+        assert "Brackwater" not in out and "Brackwater" not in open(os.path.join(os.path.dirname(know_p), "map-log.md")).read()
+        out_dir = os.path.join(repo, "out")
+        run_quiet(mapt.main, ["gazetteer", "fx", "--world", world_p, "--knowledge", know_p, "--out", out_dir])
+        g = open(os.path.join(out_dir, "gazetteer.md")).read()
+        assert "**the drowned hold** (ruin)" in g and "Brackwater" not in g
+        # the Keeper's name in a public file is a leak until it is heard
+        append(repo, "campaigns/fx/player/notes.md", "Brackwater Hold stands empty.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'unheard map name "Brackwater Hold"' in out, out
+        assert reveal(repo, "--feature", "f05", "--grade", "seen", "--source", "a fisher named it", "--year", "2", "--named")[0] == 0
+        assert lock(repo, "--leaks")[0] == 0
+
+
+def test_describe_settlement_in_plain_view():
+    """Item 40: a settlement in plain view (within two miles) is never missed, even from hill ground with
+    a high region between, and no region a border settlement stands in hides it."""
+    w = {"campaign": "t", "painting": {"size": [100, 100], "miles_per_pixel": 0.1, "grid": {"cols": 5, "rows": 4}},
+         "regions": [
+             {"id": "r01", "name": "Lowfold", "terrain": "hill, wooded folds", "elevation": "hill, 500 to 900 feet",
+              "water": "x", "climate": "x", "neighbors": [], "polygon": [[0, 0], [40, 0], [40, 100], [0, 100]]},
+             {"id": "r02", "name": "The Spur", "terrain": "mountain", "elevation": "high, to 9,000 feet",
+              "water": "x", "climate": "x", "neighbors": [], "polygon": [[40, 0], [45, 0], [45, 100], [40, 100]]},
+             {"id": "r03", "name": "Farvale", "terrain": "valley", "elevation": "low, 300 to 400 feet",
+              "water": "x", "climate": "x", "neighbors": [], "polygon": [[45, 0], [100, 0], [100, 100], [45, 100]]}],
+         "features": [
+             {"id": "f01", "name": "Nearby", "type": "town", "shape": "point", "coords": [[50, 50]], "regions": ["r03"]},
+             {"id": "f02", "name": "Farby", "type": "village", "shape": "point", "coords": [[90, 50]], "regions": ["r03"]},
+             {"id": "f03", "name": "Spurfoot", "type": "town", "shape": "area", "coords": [[44, 60], [52, 60], [52, 66], [44, 66]],
+              "regions": ["r02", "r03"]}],
+         "landings": {"player": {"region": "r01", "at": [35, 50]}}}
+    d = {}
+    t = mapt.describe(w, "r01", (35, 50), None, reference=False, data=d)
+    smoke = {e["id"]: e for e in d["smoke"]}
+    assert "f01" in smoke and round(smoke["f01"]["miles"], 1) == 1.5, t   # 1.5 miles, behind the spur: never missed
+    assert "f03" in smoke   # an area settlement, on the border with the spur, read at its nearest point
+    assert "f02" not in smoke and "f02" not in {e["id"] for e in d["in_view"]}   # 5.5 miles behind the spur: hidden
+    assert mapt.PLAIN_VIEW_MILES == 2.0
+
+
+def lake_world():
+    """A 200 by 100 sheet at 1 mile a pixel: plain all round a lake region in the middle (x 60 to 140,
+    y 20 to 80), a town each side of it on the shore, and a river from the west shore to the sheet's edge."""
+    plain = [[0, 0], [200, 0], [200, 100], [0, 100], [0, 0], [60, 20], [60, 80], [140, 80], [140, 20], [60, 20]]
+    return {"campaign": "t", "painting": {"size": [200, 100], "miles_per_pixel": 1.0, "grid": {"cols": 5, "rows": 4}},
+            "regions": [{"id": "r01", "name": "Shorefields", "terrain": "plain", "elevation": "low", "water": "x", "climate": "x",
+                         "neighbors": [], "polygon": plain},
+                        {"id": "r02", "name": "Mere Long", "terrain": "lake, still", "elevation": "low", "water": "x", "climate": "x",
+                         "neighbors": [], "polygon": [[60, 20], [140, 20], [140, 80], [60, 80]]}],
+            "features": [{"id": "f01", "name": "Westmere", "type": "town", "shape": "point", "coords": [[55, 50]], "regions": ["r01"]},
+                         {"id": "f02", "name": "Eastmere", "type": "town", "shape": "point", "coords": [[145, 50]], "regions": ["r01"]},
+                         {"id": "f03", "name": "Inland", "type": "village", "shape": "point", "coords": [[30, 50]], "regions": ["r01"]},
+                         {"id": "f04", "name": "Mere Run", "type": "river", "shape": "line", "coords": [[60, 30], [0, 30]], "regions": ["r01"]}],
+            "landings": {"player": {"region": "r01", "at": [55, 50]}}}
+
+
+def test_travel_boat_walk_and_around_water():
+    """Item 41: a walk routes around water; a boat trip may start or end with a short walk."""
+    w = lake_world()
+    assert mapt.check_world(w) == [] and mapt.tiling_lines(w)[0] == []
+    namer = mapt.Namer(w, None, True)
+    text, data = mapt.travel(w, "f01", "f02", "foot", (), namer, show_ids=True)
+    assert data["days"] is not None and all(s["ground"] == "rough" for s in data["segments"])
+    assert 140 < data["miles"] < 150 and "(around the water)" in text and "around water a walker cannot cross" in text
+    # by boat straight over the lake: five miles of shore walk each end, priced on foot
+    text, data = mapt.travel(w, "f01", "f02", "boat", (), namer, show_ids=True)
+    assert [s["how"] for s in data["segments"]] == ["walk", "open", "walk"] and data["days"] is not None
+    assert [s["ground"] for s in data["segments"]] == ["rough", "sea", "rough"]
+    assert abs(data["days"] - (5 / 14 + 80 / 50 + 5 / 14)) < 0.01 and "on foot to the water" in text and "14 miles a day on foot" in text
+    # down the river from a village 25 miles off it: the walk is too long, so no passage by boat
+    assert mapt.travel(w, "f03", "f04:end", "boat", ("f04",), namer)[1]["days"] is None
+    w["features"][2]["coords"] = [[30, 36]]   # six miles from the river: walked to it
+    _, data = mapt.travel(w, "f03", "f04:end", "boat", ("f04",), namer)
+    assert [s["how"] for s in data["segments"]] == ["walk", "route"] and data["segments"][1]["ground"] == "river_down"
+    # a boat trip all on land is still no passage
+    assert mapt.travel(w, "f03", "f01", "boat", (), namer)[1]["days"] is None
+    # a walk that crosses no water is priced straight, as before
+    _, straight = mapt.travel(w, "f03", "f01", "foot", (), namer)
+    assert not any(s.get("around") for s in mapt.price_trip(w, mapt.plan_trip(w, (30, 36), (55, 50), [], mapt.Painting(w)), "foot")["segments"])
+    assert mapt.BOAT_WALK_MILES == 10.0
+
+
+def test_travel_edges_and_line_ends():
+    """Item 50: travel takes a region's edge and a line's ends as endpoints."""
+    w = lake_world()
+    namer = mapt.Namer(w, None, True)
+    text, data = mapt.travel(w, "f03", "r02:edge", "foot", (), namer, show_ids=True)
+    assert abs(data["miles"] - 30) < 0.6 and "(its nearest edge)" in text
+    text, data = mapt.travel(w, "f04:start", "f04:end", "boat", ("f04",), namer, show_ids=True)
+    assert [s["ground"] for s in data["segments"]] == ["river_down"] and abs(data["miles"] - 60) < 0.01
+    assert "(its source)" in text and "(its mouth)" in text
+    _, up = mapt.travel(w, "f04:mouth", "f04:source", "boat", ("f04",), namer)
+    assert [s["ground"] for s in up["segments"]] == ["river_up"]
+    # the edge read toward the other end, whichever end it is
+    _, back = mapt.travel(w, "r02:edge", "f03", "foot", (), namer)
+    assert abs(back["miles"] - 30) < 0.6
+    d = tempfile.mkdtemp()
+    try:
+        wp = os.path.join(d, "map.json")
+        json.dump(w, open(wp, "w"))
+        assert run_quiet(mapt.main, ["travel", "t", "f03", "r02:edge", "--by", "foot", "--world", wp, "--names"])[0] == 0
+        assert run_quiet(mapt.main, ["travel", "t", "f03", "f04", "--by", "foot", "--world", wp])[0] != 0
+        try:
+            mapt.resolve_place(w, "f04")
+            assert False
+        except SystemExit as e:
+            assert "f04:start" in str(e.code)
+        assert run_quiet(mapt.main, ["travel", "t", "f03", "f01:edge", "--by", "foot", "--world", wp])[0] != 0
+        assert run_quiet(mapt.main, ["travel", "t", "f03", "r02:middle", "--by", "foot", "--world", wp])[0] != 0
+    finally:
+        shutil.rmtree(d)
+
+
+def test_landing_zoom_resolution_and_one_direction():
+    """Item 42: the landing frame is never blown up more than LANDING_MAX_UPSCALE times; a rumor beyond
+    the sheet carries one direction."""
+    w = json.load(open(fx_paths(FIXTURE)[0]))
+    painting = mapt.Painting(w)
+    tiny = {"r01": {"id": "r01", "grade": "seen", "polygon": [[500, 500], [504, 500], [504, 503]], "name": "x"}}
+    r = mapt.landing_rect(tiny, {}, painting)
+    need = 1024 / mapt.LANDING_MAX_UPSCALE
+    assert abs((r[2] - r[0]) - need) < 1e-6 and abs((r[3] - r[1]) - need) < 1e-6 and r[0] <= 500 and r[2] >= 504
+    assert mapt.View(r).scale <= mapt.LANDING_MAX_UPSCALE + 1e-9
+    edge = {"r01": {"id": "r01", "grade": "seen", "polygon": [[990, 790], [999, 790], [999, 799]], "name": "x"}}
+    r = mapt.landing_rect(edge, {}, painting)
+    assert r[2] == 1000 and r[3] == 800 and abs(r[2] - r[0] - need) < 1e-6   # shifted, not cut, at the sheet's edge
+    view = mapt.View((0, 0, 200, 200))
+    feats = {"f09": ({"id": "f09", "name": "smoke to the north-east", "grade": "rumored", "coords": [[900, 700]]}, None),
+             "f08": ({"id": "f08", "name": "a tall tower", "grade": "rumored", "coords": [[900, 100]]}, None)}
+    notes = mapt.beyond_notes(view, {}, feats, None)
+    assert notes == ["rumored, beyond this sheet: smoke to the north-east; a tall tower, east"]
+
+
+def test_tiles_and_regions_from_paint():
+    """Item 44: a region-from-paint helper whose polygons tile the sheet, and the tiling check; a narrow
+    sea's name kept on its water."""
+    W, H = 60, 40
+    labels = [["r01" if x < 30 else "r02" for x in range(W)] for y in range(H)]
+    for y in range(10, 20):
+        for x in range(8, 20):
+            labels[y][x] = "r03"   # a lake inside r01
+    for y in range(30, 40):
+        for x in range(25, 45):
+            labels[y][x] = None    # unclaimed: given to the nearest region
+    labels[0][59] = "r01"          # a stray pixel of r01 inside r02: given to r02
+    polys, notes = mapt.regions_from_labels(labels, tol=1.0)
+    assert set(polys) == {"r01", "r02", "r03"}
+    assert any("unclaimed" in n or "no region claimed" in n for n in notes) and any("r01: a part of 1 pixel" in n for n in notes)
+    world = {"painting": {"size": [W, H], "miles_per_pixel": 1.0}, "regions": [{"id": i, "polygon": p} for i, p in polys.items()]}
+    rep = mapt.tiling_report(world["regions"], (W, H))
+    assert rep["overlaps"] == {} and rep["gaps"][0] == 0.0
+    assert mapt.point_in_poly(12, 15, polys["r03"]) and not mapt.point_in_poly(12, 15, polys["r01"]) and mapt.point_in_poly(4, 4, polys["r01"])
+    # hand polygons a pixel apart: an overlap and a gap, both found
+    hand = [{"id": "r01", "polygon": [[0, 0], [31, 0], [31, 40], [0, 40]]}, {"id": "r02", "polygon": [[30, 0], [60, 0], [60, 40], [30, 40]]},
+            {"id": "r03", "polygon": [[0, 40], [60, 40], [60, 39.5]]}]
+    rep = mapt.tiling_report(hand[:2], (W, H))
+    assert set(rep["overlaps"]) == {("r01", "r02")} and abs(rep["overlaps"][("r01", "r02")][0] - 40) < 0.5
+    assert abs(rep["overlaps"][("r01", "r02")][2] - 1) < 0.05
+    gap = mapt.tiling_report([{"id": "r01", "polygon": [[0, 0], [29, 0], [29, 40], [0, 40]]}, hand[1]], (W, H))
+    assert abs(gap["gaps"][0] - 40) < 0.5
+    # the command: tiles fails on a gap; regions-from-paint writes polygons that pass it
+    d = tempfile.mkdtemp()
+    try:
+        from PIL import Image
+        im = Image.new("RGB", (W, H), (0, 0, 0))
+        px = im.load()
+        cols = {"r01": (200, 10, 10), "r02": (10, 200, 10), "r03": (10, 10, 200)}
+        for y in range(H):
+            for x in range(W):
+                if labels[y][x]:
+                    px[x, y] = cols[labels[y][x]]
+        im.save(os.path.join(d, "labels.png"))
+        json.dump({k: "#%02x%02x%02x" % v for k, v in cols.items()}, open(os.path.join(d, "key.json"), "w"))
+        wp = os.path.join(d, "map.json")
+        base = {"campaign": "t", "painting": {"size": [W, H], "miles_per_pixel": 1.0},
+                "regions": [{"id": "r01", "name": "A", "terrain": "plain", "elevation": "low", "water": "x", "climate": "x",
+                             "neighbors": [], "polygon": hand[0]["polygon"]},
+                            {"id": "r02", "name": "B", "terrain": "plain", "elevation": "low", "water": "x", "climate": "x",
+                             "neighbors": [], "polygon": [[32, 0], [60, 0], [60, 40], [32, 40]]},
+                            {"id": "r03", "name": "C", "terrain": "lake", "elevation": "low", "water": "x", "climate": "x",
+                             "neighbors": [], "polygon": [[8, 10], [20, 10], [20, 20], [8, 20]]}], "features": []}
+        json.dump(base, open(wp, "w"))
+        code, out, _ = run_quiet(mapt.main, ["tiles", "t", "--world", wp])
+        assert code == 1 and "regions r01 and r03 overlap" in out and "in no region" in out
+        code, out, _ = run_quiet(mapt.main, ["regions-from-paint", "t", "--world", wp, "--labels", os.path.join(d, "labels.png"),
+                                             "--key", os.path.join(d, "key.json"), "--apply"])
+        assert code == 0 and "they tile the painting" in out and "applied to 3 region(s)" in out, out
+        code, out, _ = run_quiet(mapt.main, ["tiles", "t", "--world", wp])
+        assert code == 0 and "they tile the painting" in out
+    finally:
+        shutil.rmtree(d)
+    # a narrow sea: its name sits on its water, not over the coast
+    sea = [[100, 100], [700, 100], [700, 140], [100, 140]]
+    lab = mapt.Labeler((800, 300), bounds=(0, 0, 800, 300))
+    k = {"id": "r09", "grade": "seen", "named": True, "name": "The Narrow Sea", "terrain": "sea", "polygon": sea, "source": "x"}
+    mapt.draw_region_labels(lab, mapt.View((0, 0, 800, 240), size_px=800, margins=(0, 0, 0, 0)), [k], mapt.Painting({"painting": {"size": [800, 240]}}))
+    assert lab.queue[0]["within"] is not None
+    lab.place()
+    box = mapt.bbox([(b[0], b[1]) for b in lab.groups[0]] + [(b[2], b[3]) for b in lab.groups[0]])
+    assert 100 <= box[0] and box[2] <= 700 and 100 <= box[1] and box[3] <= 140, box
+
+
+def test_validate_fails_overlapping_regions():
+    """Item 53: validate fails on overlapping regions and on a landing point inside two regions."""
+    w = small_world()
+    assert mapt.tiling_lines(w) == ([], [])
+    w["regions"][1]["polygon"] = [[39, 0], [60, 0], [60, 100], [39, 100]]   # a pixel over the valley
+    w["landings"]["player"]["at"] = [39.5, 50]
+    probs, _ = mapt.tiling_lines(w)
+    assert any(p.startswith("regions r01 and r02 overlap, about 400.0 square miles") and "about 2.0 miles thick" in p for p in probs), probs
+    assert any("landing player: its point lies inside 2 regions (r01, r02)" in p for p in probs)
+    d = tempfile.mkdtemp()
+    try:
+        wp = os.path.join(d, "map.json")
+        json.dump(w, open(wp, "w"))
+        code, out, _ = run_quiet(mapt.main, ["validate", "t", "--world", wp, "--knowledge", os.path.join(d, "none.json")])
+        assert code == 1 and "overlap" in out
+        w["regions"][1]["polygon"] = [[41, 0], [60, 0], [60, 100], [41, 100]]   # a gap warns in validate, fails in tiles
+        w["landings"]["player"]["at"] = [20.2, 50.1]
+        json.dump(w, open(wp, "w"))
+        code, out, _ = run_quiet(mapt.main, ["validate", "t", "--world", wp, "--knowledge", os.path.join(d, "none.json")])
+        assert "warning: the regions leave about 400.0 square miles" in out and "overlap" not in out
+        assert run_quiet(mapt.main, ["tiles", "t", "--world", wp])[0] == 1
+    finally:
+        shutil.rmtree(d)
+    # the fixture tiles
+    assert mapt.tiling_lines(json.load(open(fx_paths(FIXTURE)[0]))) == ([], [])
+
+
+def test_draw_god_mark_ticks_and_cropped_labels():
+    """Item 60: on the landing sheet the god's mark is drawn, far sightings are ticks from it (named once
+    in the footer, never as rumors beyond the sheet), and a cropped region is labeled on its visible part."""
+    with tmpcopy() as repo:
+        world_p, know_p = fx_paths(repo)
+        paint = os.path.join(repo, "paint")
+        out = os.path.join(repo, "out")
+        make_paintings(paint)
+        w = json.load(open(world_p))
+        w["landings"]["player"] = {"region": "r01", "at": [200, 200]}
+        json.dump(w, open(world_p, "w"))
+        k = json.load(open(know_p))
+        k["features"]["f05"] = {"grade": "rumored", "source": "own sight at the landing", "year": 1,
+                                "told": {"name": "smoke to the south", "cell": "B4"}}
+        k["features"]["f04"] = {"grade": "rumored", "source": "a carter", "year": 1,
+                                "told": {"name": "a smoke far east", "cell": "E1", "bearing": "east"}}
+        json.dump(k, open(know_p, "w"))
+        assert mapt.knowledge_problems(w, k) == []
+        painting = mapt.Painting(w)
+        regions_k, features_k = mapt.gather(w, k, painting)
+        assert mapt.sighting_bearing(features_k["f05"][0]) == "south" and mapt.sighting_bearing(features_k["f04"][0]) == "east"
+        assert mapt.sighting_bearing(features_k["f06"][0]) is None   # a drover's rumor is no sighting
+        code, o, err = run_quiet(mapt.main, ["draw", "fx", "--world", world_p, "--knowledge", know_p, "--paintings", paint,
+                                             "--out", out, "--zoom", "landing", "--layer", "surface"])
+        assert code == 0, err
+        rect = mapt.landing_rect(regions_k, features_k, painting)
+        view, notes = mapt.make_view(rect, ["x"] + mapt.sighting_note([features_k["f05"][0], features_k["f04"][0]]))
+        assert "each tick points to what it saw far off: a smoke far east; smoke to the south." in " ".join(notes)
+        # the full sheet has no mark, and the sightings are rumors as before
+        lab = mapt.Labeler((1200, 1000))
+        canvas = mapt.Image.new("RGBA", (1200, 1000))
+        mapt.draw_god_mark(canvas, lab, (100, 100), ["south", "east", "east"])
+        assert len(lab.obstacles) == 3   # two ticks and the mark
+        # a bad bearing is a knowledge problem
+        k["features"]["f04"]["told"]["bearing"] = "upward"
+        assert any("told.bearing" in p for p in mapt.knowledge_problems(w, k))
+    # a region cut by the crop: its label on the part in view, with that part's cell
+    w = json.load(open(fx_paths(FIXTURE)[0]))
+    painting = mapt.Painting(w)
+    k = {"regions": {"r02": {"grade": "seen", "source": "x", "year": 1, "named": True}}, "features": {}}
+    regions_k, _f = mapt.gather(w, k, painting)
+    view = mapt.View((0, 0, 500, 500))
+    lab = mapt.Labeler((1200, 1000))
+    mapt.draw_region_labels(lab, view, list(regions_k.values()), painting)
+    g = lab.queue[0]
+    x = (g["xy"][0] - view.ml) / view.scale
+    assert 400 < x < 500 and g["lines"][1][0] == "(C1)"   # r02 runs 400 to 1000; only 400 to 500 is in view
+
+
+def test_validate_underground_and_layers():
+    """Item 68: validate fails a world whose placement plan or history gives an underground that map.json
+    lacks; layers carry id under-N, a depth and uNN features; a layer with no painting yet is not drawn."""
+    d = tempfile.mkdtemp()
+    try:
+        S = os.path.join(d, "S")
+        os.makedirs(os.path.join(S, "world"))
+        w = small_world()
+        wp = os.path.join(S, "map.json")
+        json.dump(w, open(wp, "w"))
+
+        def validate():
+            return run_quiet(mapt.main, ["validate", "t", "--world", wp, "--knowledge", os.path.join(d, "none.json")])
+        with open(os.path.join(S, "world-draft.md"), "w") as f:
+            f.write("# World draft\n\nUnderground: none; the world has no underground.\n")
+        with open(os.path.join(S, "deep-history.md"), "w") as f:
+            f.write("The old ones dug nothing. There is no underground.\n")
+        assert "underground" not in validate()[1]
+        with open(os.path.join(S, "world", "placement-plan.md"), "w") as f:
+            f.write("# Placement plan\n\n## The underground\n\nOne cut gallery under the range.\n")
+        code, out, _ = validate()
+        assert code == 1 and "underground: world/placement-plan.md:3 give the world an underground, but map.json has no layer" in out
+        assert mapt.underground_claims(S) == [("world/placement-plan.md", 3, "## The underground")]
+        with open(os.path.join(S, "deep-history.md"), "a") as f:
+            f.write("- [x] The world has an underground (1.5)\n")
+        assert [c[0] for c in mapt.underground_claims(S)] == ["deep-history.md", "world/placement-plan.md"]
+        for line, n in (("The underground: none; the world has no layer.", 0), ("- **Underground:** no", 0),
+                        ("The underground: a layer at depth 1, mostly solid rock with one gallery.", 1),
+                        ("Underground: yes, one gallery.", 1), ("Nothing lies below.", 0)):
+            with open(os.path.join(S, "world-draft.md"), "w") as f:
+                f.write(line + "\n")
+            assert sum(c[0] == "world-draft.md" for c in mapt.underground_claims(S)) == n, line
+        # written into the data as a layer, it passes
+        w["layers"] = [{"id": "under-1", "name": "The Cut", "depth": 1,
+                        "features": [{"id": "u01", "name": "The Gallery", "type": "cave", "shape": "line",
+                                      "coords": [[60, 50], [90, 50]], "regions": ["r03"]}]}]
+        json.dump(w, open(wp, "w"))
+        code, out, _ = validate()
+        assert "underground" not in out and "layer" not in out   # (the small world fails only the continent rule)
+        # the layer's form
+        bad = json.loads(json.dumps(w))
+        bad["layers"][0]["id"] = "deep"
+        bad["layers"][0]["depth"] = 0
+        bad["layers"][0]["features"][0]["id"] = "f09"
+        bad["layers"].append({"id": "under-2", "depth": 2, "features": [], "painting": ""})
+        bad["features"].append({"id": "u05", "name": "Hole", "type": "cave", "shape": "point", "coords": [[5, 5]], "regions": ["r01"]})
+        probs = mapt.check_world(bad)
+        for want in ("layer deep: id must be under-N", "layer deep: depth must be a whole number", "feature f09 is underground, so its id is uNN",
+                     "layer under-2: painting must be a file name", "feature u05: uNN ids are for underground features"):
+            assert any(want in p for p in probs), (want, probs)
+        # a layer with no painting yet: the surface is drawn, the layer sheet is not
+        paint = os.path.join(d, "paint")
+        make_paintings(paint, size=(1000, 1000))   # resized to the 100-pixel sheet when drawn
+        os.remove(os.path.join(paint, "under-1.png"))
+        k = {"regions": {"r01": {"grade": "seen", "source": "x", "year": 1}},
+             "features": {"u01": {"grade": "seen", "source": "walked", "year": 1}}}
+        kp = os.path.join(d, "k.json")
+        json.dump(k, open(kp, "w"))
+        code, out, err = run_quiet(mapt.main, ["draw", "t", "--world", wp, "--knowledge", kp, "--paintings", paint, "--out", os.path.join(d, "out")])
+        assert code == 0 and "layer under-1 has no painting yet" in out and not os.path.exists(os.path.join(d, "out", "map-under-1.png")), err
+        assert os.path.exists(os.path.join(d, "out", "map.png"))
+    finally:
+        shutil.rmtree(d)
+
+
+def test_paint_help_and_no_arguments():
+    """Item 62: --help prints the usage; with no arguments paint.py only reports (outside the workflow)."""
+    import paint
+    code, out, _ = run_quiet(paint.main, ["--help"])
+    assert code == 0 and "--paint" in out and "--check" in out and "painted" not in out.split("Usage")[0]
+    real_pending = paint.pending
+    paint.pending = lambda skipped=None: [("r.json", {"id": "zz-001-morning", "prompt": "x"}, "out.png")]
+    old = os.environ.pop("GITHUB_ACTIONS", None)
+    try:
+        code, out, _ = run_quiet(paint.main, [])
+        assert code == 0 and "would paint r.json" in out and "nothing painted" in out
+        assert run_quiet(paint.main, ["--bogus"])[0] == 2
+        assert paint.wants_paint(["--paint"], {}) and not paint.wants_paint([], {})
+        assert paint.wants_paint([], {"GITHUB_ACTIONS": "true"}) and not paint.wants_paint(["--check"], {"GITHUB_ACTIONS": "true"})
+    finally:
+        paint.pending = real_pending
+        if old is not None:
+            os.environ["GITHUB_ACTIONS"] = old
+
+
+def test_stamp_time():
+    """Item 10: the stamp helper prints the Pacific clock time in the timing log's format."""
+    import datetime
+    import stamp_time
+    t = datetime.datetime(2026, 11, 23, 5, 39, 30, tzinfo=datetime.timezone.utc)   # 21:39 the day before, Pacific
+    assert stamp_time.stamp(now=t) == "2026-11-22 21:39" and stamp_time.stamp("time", t) == "21:39"
+    assert stamp_time.stamp("date", t) == "2026-11-22"
+    summer = datetime.datetime(2026, 7, 1, 19, 5, tzinfo=datetime.timezone.utc)
+    assert stamp_time.stamp(now=summer) == "2026-07-01 12:05"
+    code, out, _ = run_quiet(stamp_time.main, [])
+    assert code == 0 and len(out.strip()) == 16 and out.strip()[:10] == mapt.pacific_today()
+    assert run_quiet(stamp_time.main, ["--soon"])[0] == 2

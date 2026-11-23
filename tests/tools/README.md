@@ -58,6 +58,20 @@ labels with no id warned, every image request for the campaign scanned for leaks
 `--places` failing a continent outside the size rule. The fixture has `cast.md` and 1 mile a
 pixel so the clean fixture passes the new checks.
 
+Build 5 (run 04 change list) adds: in lockcheck, `--dashes` alone on the public folder when no sealed
+folder exists (2), a people's `civs/<people>/knowledge.md` where map names are told to the people and
+pass (46), map names known only once heard (39) and no warning on a bare alias (38); in map.py, stamp
+leaving aliases alone (38), a seen feature named only by its told name or a name the player gave (39),
+a settlement within two miles never missed by describe (40), travel's short walk to and from a boat and
+its walk around water (41), the landing frame's resolution and one direction per rumor (42), the
+`tiles` check, `regions-from-paint` (polygons that tile, a lake cut as a hole) and a narrow sea's label
+kept on its water (44), `rNN:edge` and `fNN:start`/`fNN:end` as trip ends (50), validate failing
+overlapping regions and a landing inside two (53), the god's mark, bearing ticks and cropped labels on
+the landing sheet (60), and validate failing an underground the plan or history gives but map.json
+lacks, with the layer's form checked and an unpainted layer not drawn (68); paint.py's `--help` and its
+report-only default (62); and `tools/stamp_time.py` (10). The fixture's seen features f01 to f03 carry
+`"named": true`, since its public notes use their names.
+
 `lockcheck-sim-01.txt` records what lockcheck found on sim-01, as counts only.
 
 ## Migration from the sim-01 and dryrun formats
