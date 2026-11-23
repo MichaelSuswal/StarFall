@@ -129,3 +129,36 @@ What the record should hold instead: the stage named by what was written, with n
 ## For the rerun
 
 Flag 3 is the Keeper's. On the rerun the checker reruns both scripts, reads `P/state/timing.md` and every other file the fix touches, and checks line 17 again.
+
+# Lock flags: sim-05, round 3
+
+Run by the continuity checker, 2026-11-23, from 15:02 to 15:02 Pacific, against the Keeper's fix commit 54ab7b5d4bc3d76c517bd6e42e7378af7ec22316 (`Creation night 3b: sim-05 lock flags fixed, round 2`). There is still no `S/rulings.md`. Both scripts were rerun; the commit's diff was read in full (it touches only the keeper log and `P/state/timing.md`); every public state file was read again against line 17 and the timing rule.
+
+Result: 0 flags open. Flag 3 is resolved. Every line of the checklist is yes. The lock passes. `P/years/000/lock.md` reads passed, and `S/LOCKED.md` follows in a commit of its own, naming 54ab7b5.
+
+## Script output
+
+```
+tools/lockcheck.py sim-05 --all
+(the same 12 place warnings as round 1, ruled there)
+places: 0 failure(s), 12 warning(s)
+leaks: 0 failure(s), 0 warning(s)
+mysteries: 0 failure(s), 0 warning(s)
+rolls: 0 failure(s), 0 warning(s)
+dashes: 0 failure(s), 0 warning(s)
+
+tools/map.py validate sim-05
+0 problem(s), 0 warning(s)
+```
+
+## Round 2 flag
+
+- Flag 3, resolved. `campaigns/sim-05/state/timing.md` 39 now reads "lock flags fixed: 15:00", and the added line "timing file corrected: 15:02" is named by what was written. No round number or count stands in any public file. The keeper log's correction (the limits stand in each Body) is noted and changes no file.
+
+## Rulings for review, round 3
+
+- Whether the timing rule reaches "first clock reading" (`P/state/timing.md` 24 and 34) and "first morning inputs" (37), asked by the Keeper. Ruled: neither is a flag. Reasons, by the judgment order: the rule bars an ordinal or a count that numbers the work (rounds, gods, agents, rolls), since a number there could tell the player how much stands behind the curtain; "first morning" is the name of an event the player sees (the first morning story; `state/images.md` 7 uses the same words, rightly), and "first clock reading" marks the earliest time read in a sitting and numbers nothing behind it. Neither reveals a count of anything sealed. For Michael's review, since a strict reading of "never by an ordinal" would take "first clock reading" too: if he wants that reading, the line becomes "clock read" with no change of fact.
+
+## Rulings for review, all rounds
+
+The rulings of round 1 stand as written there (the sealed factor's name in `god-fate`'s own words; "the unlucky" in the engine pace table, an engine change needing Michael's go if it is to be reworded; the sealed requests honored without confirmation; rule 1 and the short mortal mysteries; the pending ledger marks in DM-owned files as notes for the DM), with round 3's above.
