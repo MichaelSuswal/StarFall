@@ -168,3 +168,17 @@ Now the people, read back in plain words. If a line is off, name the line.
 **For the Keeper tonight.** Where the town stands; how long the Carrow have been on the ford; what they say came before them and who laid the road; the old word their name comes from; what lies past their borders, of which you said nothing; whether the gap can be seen from the walls.
 
 Is that the Carrow as you meant them? A yes closes the day.
+
+## Player:
+
+Yes. That's the Carrow as I meant them, and the day can close.
+
+I accept the ruling on the helpers. I land with no helpers in fact. The five offices are designed and not yet serving, and each becomes a helper only on the day its holder takes my orders. I asked for no edge, and it's right that I earn the offices one at a time. Unplayed time runs on my standing conduct alone and the town goes on under its own law, so I'll have to be careful what I put in that conduct.
+
+I have no line to name. The eighty are ordinary, and the read-back keeps the things that are theirs as theirs.
+
+Two points for the record, neither a correction:
+1. The Warden is the first office I'll try to win, and the first line is the first action. The fence-viewer and the gap are both in the conduct as wishes. I expect the world to place both, and I'll walk what it places.
+2. For the Keeper, you listed what lies past their borders as something I said nothing about. That's true, and I leave it to the world. I'd only repeat my Day 1 answer: some wild country, some old kingdoms, a hard mountain neighbor and one far-off surveyor I'd want to hire. Those were wishes. They aren't facts, and I'll find out in play.
+
+(One more answer was given privately, for the sealed record.)
