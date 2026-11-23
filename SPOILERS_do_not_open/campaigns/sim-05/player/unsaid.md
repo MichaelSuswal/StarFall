@@ -35,3 +35,11 @@ Given by the player privately, unasked, with the first reply of the day, beside 
 DM note: this is a wish about who a helper is, left to the Keeper's Night 3 fitting of the cast. The player did not say which office. The player sets who a mortal is, never what that mortal will do. Nothing of it was said at the open table and the DM asks nothing further about it there.
 
 Confirmations: none yet. Given today.
+
+Given by the player privately, unasked, with the second reply of the day, beside the names of the people and the town. In the player's words:
+
+> I'd like to learn the name of the place I lost, and I'd rather it never be told to me by anyone I'm trying to rule.
+
+DM note: "the place I lost" is the place of the backstory outline, whose name the god has lost. The DM does not know that name and asks nothing further about it. Whether and how it is ever learned is the Keeper's.
+
+Confirmations: none yet. Given today.

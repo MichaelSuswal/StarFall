@@ -118,3 +118,53 @@ Everything else you described, the hall, the five offices, the order copied, sea
 **Names.** The people are the **Carrow**, from the old word for the ford. The town is **Carrowford**. I'm called the Measure, and they can use a shorter name for me if they find one.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+(oog) Two rulings first, then the read-back.
+
+The eighty. Eighty paid and drilled in two companies, about one in sixty, with the levy behind them, is a town guard and ordinary. No price. What it costs is its food and pay, out of stores the Keeper sets tonight.
+
+The helpers. You have told me the Reeve, the Judge and the Clerk hold their seats under the town's own law and have never heard your name, that the Marshal is a captain called up in danger, and that the Warden of Marks does not exist until you make her. So the five offices go on the record as designed, not yet serving, and I say it plainly: Ostrane lands with no helpers in fact. Until each one is won in play, no one acts for the god while it is away, unplayed time runs on your standing conduct alone, and the town goes on under its own law as it did before you. Each office counts as a helper from the day its holder takes your orders, and not before. Nothing is charged for this and nothing is bought by it; it is how you chose to meet them.
+
+Now the people, read back in plain words. If a line is off, name the line.
+
+**Who they are.** The Carrow, a human people of about five thousand, of river and plain. Most farm the wet ground: barley, beans and flax. A good share are drovers with cattle and horses on the plain. The rest are ferrymen, smiths, carters and traders living off the road and the ford. Not great warriors and not meek: stubborn working people with a long habit of arguing over fences.
+
+**Their home.** Carrowford: a town of wood and stone with a market, a granary and a wall of earth and timber that has not been tested lately. You wish it on the rise above the ford. The Keeper places it.
+
+**How they live.** Early hours, because the melt and the floods punish late ones. Pride in fair weights and honest measures; a short bushel is the worst thing one neighbor can do to another.
+
+**Their code.** They will not break a bargain made at the ford with a witness and a drink on it. They will not move a boundary stone at night; it is the one thing they are all ashamed of. They honor the one who is early, pays on the day and stands their round. They do not honor a long speech. Slow to trust a stranger, quick to test one, loyal once they have decided.
+
+**What they believe.** Small gods of the house-hearth, the river and the road, kept with little rites and no priests. At a grave: "the ground has you, and the ground keeps its word." After a bad harvest: the river was owed and did not get it. When the river comes up in the night, a lit candle in the window, and the high ground without arguing. No god of lines. They believe the old paved road was laid by people before them, and that they have been on the ford a long time. The name Carrow they take from the old word for the ford.
+
+**Skills.** Farming, droving, ferrying, smithing, carting, trade, keeping counts and writing them. All ordinary.
+
+**Priced edges.** None. You asked for none and I found none: the Clerk's and the Judge's honesty is character, oath and custom, open to be checked and able to fail in play; the eighty are a guard.
+
+**Magic.** None beyond craft that you know of: a midwife with herbs, a ferryman who knows the river's mood, a smith who talks to the iron. If there is more, the world decides.
+
+**Their measures.** A ford-foot, a pace and a mile of their own.
+
+**Who settles disputes.** The Judge of the Ford, an old seat hearing weights, debts and fence cases, held now by someone respected and tired. Fence-viewers, men and women who settle where a hedge or a ditch runs. The fence quarrels have run for years and no one can end one.
+
+**The offices, as designed.** None serves you at landing.
+- The Reeve: stands, elected a year at a time. Runs the town day to day: grain, labor, disputes, the market. Meant to speak for you when you are away and to carry out what your decisions and standing conduct allow, and nothing more.
+- The Judge of the Ford: stands. Hears boundaries, weights and debts.
+- The Clerk of the Tally: stands, a small office keeping the market counts. Meant to keep all counts: people, grain, weights, tribute and tax.
+- The Marshal: today a captain of the muster called up in danger. You mean to make it a standing post over the levy and the eighty paid soldiers, answering to the Reeve in peace and to you in war.
+- The Warden of Marks: yours, new, made in play. Keeps the stones and stakes of your lines and the roll, written in duplicate with one copy kept away from the hall. You mean to offer it to the best fence-viewer in the town, one who already hates a moved stone.
+- How an order is meant to travel: spoken to the Reeve or written in a short plain hand; copied and sealed by the Clerk; carried by runners to the headman of each district; read aloud at the ford market on market day; a tally of the households that heard it sent back. An order with no tally is not delivered.
+
+**Your seat, as you mean it.** A plain hall on the highest ground, with a long table, a map wall and a yard where the chain can be laid straight. It is built or taken in play; it does not stand for you on the first morning.
+
+**How you meet them.** They are there before you, with their own history. They do not know you and were waiting for no god, only for a fair judge. You walk up from the river, a tall grey stranger with a chain, and begin by asking to see the oldest disputed fence. You tell the truth when asked what you are.
+
+**Standing conduct from today.** The first action above. You set your foot and your chain in iron on the market wall beside theirs, with the ratio cut between them, and say plainly how the two compare; you do not tear theirs down. You mean both to be lawful in trade for a year and the market to measure by the iron after that, the old names staying in speech. You mean each kept line to be walked yearly as a duty shared by the households along it, each standing up the mark nearest its land as part of its dues, led by the Warden's small paid party, which checks every mark against the roll and logs it, with a fire and bread at the end. You wish to start the first line from the gap in the hills. When an officer's honesty fails, you handle it as any ruler does.
+
+**Heard, not promised.** That a god who sets the lines is welcome. That they show you the fence. That the fence-viewer takes the office, and is one who disagrees with you. That the Reeve, the Judge, the Clerk and the captain come to serve you. That the town takes the iron measure after its year, and that the households take up the walk. Each of those is theirs to do or not.
+
+**For the Keeper tonight.** Where the town stands; how long the Carrow have been on the ford; what they say came before them and who laid the road; the old word their name comes from; what lies past their borders, of which you said nothing; whether the gap can be seen from the walls.
+
+Is that the Carrow as you meant them? A yes closes the day.
