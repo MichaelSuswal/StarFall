@@ -126,7 +126,7 @@ Flags 2 to 5 are the Keeper's. Every file they touch is the Keeper's own (`commo
 
 # Lock flags: sim-04, round 2
 
-Run by the continuity checker, 2026-11-22, from 21:12 to 21:15 Pacific, against the Keeper's rework commit 41a2ba3b5eeed7abbe35de6d8e7224e011cc739a as it stands at 279623d739cfce07fc9f2e8f4c861c2d71a17719 (Michael's ruling, recorded in `S/rulings.md` at about 12:05 Pacific, quoted with the question it answers, and the standing rule applied to `engine/roles/checker.md`, runbook 7.12's standing rule and `tools/lockcheck.py`). The whole lock was rerun: both scripts, every travel line in every sealed record, the world bible and the schedule through `tools/map.py travel`, all eight landing views against all eight knowledge files, the spacing, and every line the rework touched.
+Run by the continuity checker, 2026-11-22, from 21:12 to 21:14 Pacific, against the Keeper's rework commit 41a2ba3b5eeed7abbe35de6d8e7224e011cc739a as it stands at 279623d739cfce07fc9f2e8f4c861c2d71a17719 (Michael's ruling, recorded in `S/rulings.md` at about 12:05 Pacific, quoted with the question it answers, and the standing rule applied to `engine/roles/checker.md`, runbook 7.12's standing rule and `tools/lockcheck.py`). The whole lock was rerun: both scripts, every travel line in every sealed record, the world bible and the schedule through `tools/map.py travel`, all eight landing views against all eight knowledge files, the spacing, and every line the rework touched.
 
 Result: 1 flag open (flag 6, new, the Keeper's). Flags 1 to 5 are resolved. The lock does not pass. No `LOCKED.md` is written. The public `P/years/000/lock.md` reads flagged.
 
