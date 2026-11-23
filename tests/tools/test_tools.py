@@ -1252,6 +1252,25 @@ def test_lockcheck_unnamed_seen_region_is_sealed():
         assert lock(repo, "--leaks")[0] == 0
 
 
+def test_lockcheck_name_said_openly_by_player_is_not_sealed():
+    """A sealed term the player said in the open table talk (a "## Player:" section of a transcript)
+    is the player's own word, and its public use is no leak (Michael, 2026-11-22)."""
+    pub = "campaigns/fx/player/notes.md"
+    with tmpcopy() as repo:
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt", "Hollin Marsh\n")
+        append(repo, pub, "Hollin Marsh keeps nine skeps.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'sealed term "Hollin Marsh"' in out, out
+        append(repo, "campaigns/fx/player/transcript-day3.md",
+               "## DM:\n\nWho is he?\n\n## Player:\n\nHollin Marsh, about sixty.\n")
+        assert lock(repo, "--leaks")[0] == 0
+    with tmpcopy() as repo:  # said only by the DM, it stays sealed
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt", "Hollin Marsh\n")
+        append(repo, pub, "Hollin Marsh keeps nine skeps.\n")
+        append(repo, "campaigns/fx/player/transcript-day3.md", "## DM:\n\nHollin Marsh waits.\n")
+        assert lock(repo, "--leaks")[0] == 1
+
+
 def test_validate_warns_land_off_the_sheet():
     """map.py validate warns when traced land touches the painting border, naming the edges."""
     inside = {"painting": {"size": [1000, 1000], "miles_per_pixel": 1.0},

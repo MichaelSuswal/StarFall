@@ -331,6 +331,26 @@ def known_map_names(c):
     return out
 
 
+def player_said_text(c):
+    """Everything the player posted in the open creation table talk (the "## Player:" sections of
+    P/player/transcript-day*.md). A term found there is the player's own word, never a sealed term."""
+    out = []
+    folder = os.path.join(c.P, "player")
+    if not os.path.isdir(folder):
+        return ""
+    for name in sorted(os.listdir(folder)):
+        if not re.match(r"transcript-day\d+\.md$", name):
+            continue
+        part = None
+        for line in read(os.path.join(folder, name)).splitlines():
+            if line.startswith("## "):
+                part = line.strip().lower().startswith("## player")
+                continue
+            if part:
+                out.append(line)
+    return "\n".join(out)
+
+
 def leak_terms(c):
     """(kind, label, compiled regex, severity) for every sealed term. Severity is "fail" for the
     Keeper's sealed-terms.txt and the terms the data gives, "warn" for the older guesses from prose."""
@@ -350,9 +370,12 @@ def leak_terms(c):
         add(kind, s, r"(?<![\w])" + re.escape(s) + r"(?![\w])", 0 if case else re.I)
 
     known_lower = known_map_names(c)
+    said = player_said_text(c)
     for t in c.sealed_terms() or []:
         if {v.lower() for v in article_variants(t)} & known_lower:
             continue  # a map name the player's god has seen or been told may appear (runbook 7.12)
+        if re.search(r"(?<![\w])" + re.escape(t) + r"(?![\w])", said):
+            continue  # a name the player said in the open table talk is never sealed (Michael, 2026-11-22)
         for v in sorted(article_variants(t)):
             phrase("sealed term", v, case=True)
     for label in sorted(c.god_labels()):
