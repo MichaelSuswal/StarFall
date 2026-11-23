@@ -135,3 +135,23 @@ Hidden powers. Two hidden powers exist. They are found in play.
 What you want, as you said it: compliance with a standard and not worship; to be the unit; one line kept long enough that it cannot be lost. What you will not do: break a given word to its letter; put to the sword a people who surrendered under a line you agreed; salt or burn ground you mean to hold, or let your captains do it in your name. What you fear: ground you cannot read.
 
 If all of that is what you meant, give me a yes, the rung, and the answer on things carried. If any line is off, name the line.
+
+## Player:
+
+**Yes to the card.** I read it line by line and nothing is off. The unit, the letter and the slow chain are what I meant, and so is the correction about my name pulling me out of the read.
+
+**The rung.** A season, at the price of one item. I'll take the slower return and lose less of myself. I'd rather lose one item than two, and the empire will run through its captains and its marks while I'm walking back. A month for two items isn't worth it. I only ask that the roll be logged where the Keeper can show me, so I know what was taken once it's gone.
+
+**The trade.** Yes, as written. Only groups of a hundred or more, as a round figure, with no faces and no banners. That is all I wanted from it. A round "about two thousand" is enough to send a captain.
+
+**What Ostrane carries.** It's all ordinary, and I'm not asking for any of it to do anything:
+- A long coat of undyed wool, plain and dark, with deep pockets, worn at the elbows and cuffs.
+- A leather satchel on a cross strap, with a small wooden mallet, a bundle of iron-shod stakes and a sack of chalk.
+- A lead plumb bob on a waxed line.
+- A folding rule of boxwood and brass, marked in feet and in links.
+- A tally book, ruled by hand, with a stub of pencil on a cord, for counts and distances.
+- One old stake, much worn, with notches cut down one side that I can't read. I keep it in the inner pocket of the coat. I don't know where I got it.
+
+**Anything else.** Nothing is off in the card. I'm ready for Day 3.
+
+(One more answer was given privately, for the sealed record.)
