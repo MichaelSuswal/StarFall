@@ -30,3 +30,15 @@ Accepted. The standing scale, the season rung, as I named it.
 I accept the trade in principle, and I counter on one line. The count "runs from the day the god first wakes." I wake into a world with no people yet, and I will not have a people, a priest, or a rite taught until Night 3 and some seasons of play have passed. A weakness that begins to bite before the god has any priest to make a rite pays for a thing it cannot yet use, and buys nothing for it. I ask that the count begin on the day a rite is first taught to a priest or priest-king, and that until then the god is not counted as lapsed. My reasons: the weakness is meant to be a real cost against a god with a people, and it is such a cost from the moment there are priests who might fail me. Before that, it is only a penalty for arriving.
 
 If the Keeper refuses, I accept the trade as drafted, and I do not ask for the water reach to be lessened to match. The weakness is mine either way, and I would rather have the sea than not.
+
+## Round 2 reply
+
+I confirm every final text as written. Nothing is wrong with it.
+
+The Calling of Weather: I accept the refusal of my second counter. I said I would take the roll as written, and a debtor who names its own due day has a lighter debt than it should. The duration wording and the Sworn Stroke wording are both what I asked, and I thank the Keeper for them. I accept that the card weighs above the standing scale, and I ask for nothing further on its price.
+
+The Wind's Ear, The Sworn Stroke, Answer to Rite, Return to the Sky: confirmed as written. The hearing belongs to the judged offence, and an oath heard when it was sworn needs none.
+
+Trade, Hunger for Worship: confirmed as drafted, count from the day I first wake. The Keeper's reason holds. The line was my own offer, and a weakness that cost nothing would not buy the sea. I take the sea.
+
+Keeper trait: confirmed. No thunder I call is answered by an echo, in any country, and all who hear it notice the lack. I take it as a fact about myself that I know from arrival. It is not a power and has no price, and I ask nothing of it.

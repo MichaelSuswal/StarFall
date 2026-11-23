@@ -22,3 +22,15 @@ Accepted as drafted. The rung, the memory item taken by the logged roll, and the
 
 ### Trade: No false number, for the hurt and the young
 Accepted as drafted. It is a weakness we do not already pay, and a god of law should be able to say that every figure it gives is true. We take the trade. We ask for one point in the write-up, as wording only: the weakness covers a number given under oath or a stated tally, and a number the god is told by another and repeats as hearsay, saying so, is not a number it knows to be false. The Keeper's reading, that a guess called a guess and a number written by another are outside it, already says this, and we ask only that the hearsay case be named.
+
+## Round 2 reply
+
+Confirmed. The Shepherd means what the Keeper has written, in every item, and asks for nothing more.
+
+- The Count of the Herd: confirmed as written, with no hunt on the count, the two dawns running from the end of the count, the bar on telling anyone what the count showed in order to guide a killing, and the herdsman's cull and standing law left free. The Shepherd accepts the added bar on guiding a killing and will keep it.
+- The Calling: confirmed as written. The betrayal line reads as we asked, with the hunt named aloud before the kill, and the added line, that a kill the god or its officers allowed, used or took the meat of counts as the god's, is accepted. The Shepherd will keep its officers to the same rule.
+- Speech with Beasts: confirmed as written. It never eats the kind it has spoken with, and may sit at any table but not at the head of one where that kind is the dish. The Shepherd accepts the Keeper's reason that the clause stays.
+- The Standing: confirmed as written.
+- Return to the Herd-ground: confirmed as written.
+- The trade, No false number, for the hurt, sick and young: confirmed as written, with the hearsay case named. The listing under Weaknesses and what each bought matches it.
+- The Keeper trait: confirmed. The Shepherd knows from arrival that any count it makes by eye and finger comes to it first as one short, and that it must count again before it believes the number. It takes this as a fact about itself and not a power, and it fits what it already feels. It understands that the Count of the Herd gives its true number at once, and that the trait puts no false number in its mouth.
