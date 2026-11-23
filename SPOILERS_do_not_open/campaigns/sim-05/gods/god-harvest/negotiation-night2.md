@@ -27,3 +27,15 @@ Accept as drafted. The nearest ground, with the walk added, is what the scale gi
 Accept as drafted.
 
 Your reasons are fair. A ring of salt is a prison any hand can carry, and what I asked was larger than one step. A day's walk around the place I stand to speak the blessing covers the land around my town, which is what I meant by the land I hold. I do not ask for more. The tenth and the turning stay as they are, and the walk stays required for fields beyond a day's walk and for any field I have not walked once. I take the trade, weakness and gain together.
+
+## Round 2 reply
+
+Confirmed. Each final text is what I meant, and I raise nothing further.
+
+- The Weight: confirmed with Once stood, free. The wording that the freedom is that mortal's own and passes to no one else is what I asked.
+- The Bloom of the Field: confirmed as written.
+- The Reckoning: confirmed as written.
+- The Taking of a Name: confirmed as written.
+- Return of the Scattered Sheaf: confirmed as written, at the season rung.
+- The salt line, for a standing blessing: confirmed, weakness and gain together. The same text under Weaknesses and what each bought is the same item, and I confirm it once.
+- Keeper trait: understood and accepted. I will know from arrival that no name given to me holds in my own mind past the turning of the year, and that I must be told again at each harvest what my people call me. The names I hold by The Taking of a Name are untouched, and a bargain in my name still binds me whether or not I recall the name.

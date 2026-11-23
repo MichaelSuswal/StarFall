@@ -27,3 +27,17 @@ Accept, with choice (b), ground water.
 I take the weakness as written, and I name what I know of it. Anyone who learns it can keep me out of any room by saying nothing, and nothing in the world will end it. That is a price a host would feel in a guest, and I would not trade it for less.
 
 I asked for two reaches and am given one. I take the wells and the water under the ground. A walled town drinks from its wells and fears for them in a hard year or a siege, and a keeper of a town should know where the sweet water lies, how deep, and whether it has turned. The weather in the clouds I leave closed. Reading the Water already tells me the weather coming off the water for the next day, and that is the part a harbor needs.
+
+## Round 2 reply
+
+I confirm every final text as written. Nothing is wrong with any of it.
+
+Sea-Step: confirmed. The lit-water depth, the taste alone, and the day counted from the last moment any part of me is in the water are what I chose and asked for.
+
+Reading the Water: confirmed. The longer deafness, the reading as one act of attention that I begin and end at will, and nothing owed for water I merely stand beside, are as I understood them. The limit now reads "Rain in the air is not read," which is right, since ground water is the reach the trade bought.
+
+Washed Up Again: confirmed. The season rung, the nearest shore, and the one item taken by roll are as agreed.
+
+The Unasked Threshold: confirmed, with the one reach it bought, the wells and the water under the ground. I take it that the trade is closed for the rest of creation, as stated, and that I have no further trade to make.
+
+Keeper trait: confirmed. A debt owed to me I cannot let lie unless I say aloud, to the debtor's face, that I let it go. It reaches only my own claims, binds no one else, forces no collecting, and touches no power or price. It is a fact about me I know from arrival, and it sits true beside my habit of counting what I am owed.

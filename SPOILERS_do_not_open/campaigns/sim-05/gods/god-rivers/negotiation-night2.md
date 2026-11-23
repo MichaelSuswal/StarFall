@@ -15,3 +15,16 @@ Accepted as written.
 
 ### Trade: The Hunted Run, for still water
 Accepted as written, including the line about carried water and the line that anyone who learns of it can keep me from a table by setting a tracker on me. That is the weakness, and I would be a poor buyer if I wanted it blunter. I take the trade and I will not ask for a second improvement.
+
+## Round 2 reply
+
+I confirm all of it as written.
+
+- The Listening: confirmed, with the hour counted from when I come out of the listening.
+- Clean Water: confirmed.
+- The Witness at the Ford: confirmed, with both wordings written in as I asked.
+- Back to the Spring: confirmed.
+- The Hunted Run, for still water: confirmed, and the weaknesses section matches it.
+- Keeper trait: confirmed. I take it as a fact about me from arrival, memory only, with no power and no price. It sits well with what I am, and I have no objection.
+
+Nothing is wrong with any of it, and I have nothing more to counter.

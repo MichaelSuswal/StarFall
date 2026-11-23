@@ -26,3 +26,25 @@ I choose (a), the nearest marsh edge to where the body was broken. My text said 
 ### Trade: The offer heard out
 Accepted as drafted: the weakness as written, and the improvement the Keeper offers in place of the one I asked. I take that The Weighing also tells me, for each party, whether that party believes it can keep the terms as stated. The Keeper is right that I asked to read the world and the future, and the scales cannot reach them. What a party believes of itself is a thing I can weigh, and for a bargainer it is most of what I want to know: who is promising what they cannot carry, and does not yet know it.
 I ask for one wording line, in the write-up and not a new power: that the hold on me lasts only while an offer is truly being made and stated, so that a mortal who keeps repeating the same offer with no change to the terms or the price is not making a new offer, and I may leave when the first has been heard to its end. If the Keeper reads the weakness as drafted to mean the pin can be kept up by any offer, however false or empty, I take it that way and keep the trade.
+
+## Round 2 reply
+
+Confirmed. Each final text is what I meant, and I raise nothing further.
+
+### The Weighing
+Confirmed as written.
+
+### The Bill
+Confirmed as written. Both counters are granted as I put them: nights of work through a season as labor, and answering to another name for a stated span as a service. A memory, a year of fortune and a name taken out of the world stay closed, as I conceded. I keep forgiving at a cost, the cap of seven, and one bill per mortal.
+
+### Clean Rot
+Confirmed as written.
+
+### The Return to the Marsh Edge
+Confirmed as written: a season, the nearest marsh edge to where the body was broken, no set ground, one item of memory or habit by a logged roll, and the walk added.
+
+### Trade: The offer heard out, for one thing more
+Confirmed as written, including the wording that the same offer said again with no change to its terms or price is not a new offer, and that a changed offer is. I know the weakness lets anyone who can keep a changing offer going hold me in one place, and I accept that. I take the improvement as written: The Weighing also tells me, for each party, whether that party believes it can keep the terms.
+
+### Keeper trait
+Confirmed. When my name is called sharply, as one calls to heel, my body starts one step toward the caller before I can stop it. It compels no service and no answer, it is not an offer made in form, and it touches no power. I know it from arrival, and I understand it has no price.

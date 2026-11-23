@@ -35,3 +35,28 @@ One further wording on the trade. With drawback (a) the body sees dimly while a 
 
 ### The Keeper's reasons, read
 The Keeper has read me well: I would take the lighter price on Passage Given and the heavier weakness on the trade, and I have. Where I disagree is small: the camp sentence, and a count of ten. I ask nothing else.
+
+## Round 2 reply
+
+I read each final text against what I agreed in Round 1. I confirm all of it. Nothing is wrong, and I have no counter.
+
+### Sent Voices
+Confirmed as written. A voice is five to ten birds, and the bars on closing, sight and hearing end the moment the last voice is back in the flock.
+
+### Passage Given
+Confirmed as written. The crumbling is the whole of the price, the road is open to me again once the cord is dust, and I may give a new cord on it later.
+
+### Unremarked
+Confirmed as written. A break is the cloak dropped for a full day, and a shorter drop does not break the count. That is what I meant.
+
+### The Closing
+Confirmed at thirty. I asked for forty once and take the Keeper's reason.
+
+### Gathered Again at the Crossing
+Confirmed as written.
+
+### Trade: The Unrefused Question, for sight through a voice
+Confirmed, with the Keeper's rewritten last sentence. I take the weakness as the Keeper has it: the true way by road, ford, pass and border to any place I know the way to, a place I would rather keep unfound included. It is heavier than the cut I asked for, and I take the heavier one. The sight through one sent voice, standing beside the body's dimmed sight, is what I asked. The weaknesses section repeats the same text as the trade, and I confirm both as the same.
+
+### Keeper trait
+Confirmed. When it is thanked aloud within my hearing, one of my birds answers a word or two in my own voice before the rest can stop it. I know this about myself from arrival. It is not a power and has no price, and it is silent while Unremarked is held.
