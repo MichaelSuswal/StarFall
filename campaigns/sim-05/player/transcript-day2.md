@@ -155,3 +155,11 @@ If all of that is what you meant, give me a yes, the rung, and the answer on thi
 **Anything else.** Nothing is off in the card. I'm ready for Day 3.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+(oog) Yes recorded. The card is frozen as read back, with the season rung on the return and the trade as written. Everything Ostrane carries goes on the card as ordinary possessions, at no price: the coat, the satchel with its mallet, stakes and chalk, the plumb bob, the folding rule, the tally book, and the old worn stake. The return's roll is logged by rule; your ask to be shown what was taken is passed to the Keeper, who answers it. Three things on the card are provisional until the Keeper has reviewed them tonight: the chaining rate, where you gather if you hold no ground, and the shape of the map. If any of them changes, I put the change to you before anything is played. The court, the captains and the helpers are tomorrow.
+
+"Ostrane," the dark says, and the grain of it closes over the name like ground over a stake. "The Chain. The Measure. A hundred feet of iron and a book with nothing in it yet. Keep falling. There is ground under all of this, and it has not been walked."
+
+The dark thickens. The falling goes on.
