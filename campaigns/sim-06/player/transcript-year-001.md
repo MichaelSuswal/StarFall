@@ -51,3 +51,15 @@ The town holds debt-bonded folk, as you supposed. Its present terms are its own,
 Your sealed request to the Keeper from Day 3 was received and ruled. The line from your private answer that I set beside it for the Keeper to weigh was received and ruled.
 
 (oog) The world turns at 1:30am Pacific.
+
+## Player:
+
+I stand a minute on the bank while the light comes, and I check what I carry. The scales are at my belt and the dent is where it was. I take out the chalk and the cord and put them back. The empty pocket is still empty.
+
+Then I walk. I take the path south-east toward the town and keep to the top of the bank. I do not go into the reeds. I want to see the town before it sees me, so I stop where the road meets the path, about a mile out, and watch what moves in the morning: who comes out first, what they carry, whether anyone goes to the high bank with the drum.
+
+I do not announce myself. I walk in as a stranger with a scale under the coat and a pocketful of weights, and I go to the market, since that is where the four groups meet. I want to find the hall on the highest bank where track meets channel, and I want to see it from the gate before I speak to anyone.
+
+At the gate, if anyone asks, I say I am a weigher and I have come to see the market. I do not say I am a god. I do not lie about a measure. If someone asks what I weigh, I tell them I weigh what is put on the pans, and that I am happy to check anyone's scale for the price of a handful of grain.
+
+Question for the DM: as I walk in, do I feel anything from the town, or does anyone there feel me? And what are people carrying to the market at this hour?
