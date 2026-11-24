@@ -87,3 +87,15 @@ No one has spoken to you yet.
 One thing the record did not settle was whether today is a market day. It gives a market every few days, so I set the odds at 30 in 100 that this is one and rolled it in the open log before writing. It is a market day. I stated those odds with the roll and not before it, since it was the world's question and not an attempt of yours. If you think the odds were wrong, say so and I will log it for the next roll of its kind. The roll stands.
 
 A check I owe you on the first played day. Three lines of your standing conduct are marked for me to confirm with you before any unplayed time runs on them: that you mean to fill the vacant keeper's place in the open, by checking the town's standards against your own scales; that the keeper of the register is the office you would bring close and license first; and that anything touching the lost house, the lost name or the debt is left alone until you say. Do they stand as written? Answer when it suits you, privately if you prefer.
+
+## Player:
+
+I take a step through the gate and stop inside it, out of the way of the people waiting. I nod to the one who turned to look and say, "Morning. Is the hall open to anyone, or only to people the Warden knows?" I keep my hands where they can be seen, and I don't touch the scales at my belt.
+
+Then I ask what the quarrel at the bench is about and who sits behind the balance. I ask both quietly, of whoever is closest, and I do not name my business yet. If they ask, I am a weigher, passing through, curious about the hall.
+
+I move up along the wall of the yard to where I can see the pans on the bench from a few paces. I don't push in. I want to watch the weighing from there. I keep the coat closed, my scales on me, and my mouth shut about what I think of the result unless someone asks me. If the person at the bench reads the weight wrong, I say nothing in the first minute. I want to see how the hall handles a mistake. If they ask me directly what it weighs, I answer truthfully.
+
+On the three lines of standing conduct, they stand as written, with one note on the order. The keeper's place I fill in the open, by checking the town's standards against my scales, but only once the Warden knows what I am doing and has agreed to watch. The Clerk's office is the one I would license first, and only after I have seen that person work. I make no promise today. Anything touching the lost house, the name or the debt is left alone until I say. That one is firm.
+
+(One more answer was given privately, for the sealed record.)
