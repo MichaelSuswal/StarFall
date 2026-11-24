@@ -157,3 +157,22 @@ Two. The Warden and the dead keeper. You have a chief assayer who should be Ward
 Three. If you have a wish for how long they say they have lived on these banks, give it. If not, the night sets it.
 
 Is it a yes, with or without strikes?
+
+## Player:
+
+**Yes, with no strikes.** I accept all four rulings, including the cost to my seat and helpers. I landed without being asked to, and I will have to win the town.
+
+**On the rulings.**
+- The tide-reckoner is fine as priced, and she can be wrong about the hour. I expect to get use from her and to pay for it.
+- I accept that my scales do not know whether a sum on a stick is the sum that was agreed. The hall reckons a debt with witnesses and tallies, and my scales weigh only the goods put in a pan. That is a fair correction. I only asked that the town's law get the debt reckoned honestly, and I did not ask for an edge.
+- A watch of sixty and a call-up of three hundred are fine.
+
+**One. The factor's rule.** An oath that can be broken. It is a promise a mortal makes in front of the Clerk, and the Clerk and I can see whether they keep it. I do not want a binding, and I do not want to take a priced edge on myself for a factor's honesty. A factor who breaks the oath is a factor who has lied under my mark, and that should cost them my house and their standing with it. An oath that cannot be broken is not an oath.
+
+**Two. The Warden and the dead keeper.** Two offices. I would keep a living Warden of the Hall under the town's own name for it, the chief assayer, patient and humorless, who tests weights for the town. Separately there is a vacant keeper's place, the keeper of the standards, and that is the one I take myself, by checking the town's standards against my own scales. The Warden is the one who will argue with me, and I want that person alive, in office, and not beholden to me. The keeper's place is mine to fill, and I would fill it in the open, with the Warden watching.
+
+If the DM sees a problem with that, I would take the first reading, with the keeper's office as the Warden's own, as the second choice. But I want the Warden to be someone who can say no to me, and the second reading gives me that more cleanly.
+
+**Three. How long they have lived on the banks.** I have a wish and no demand. I would like them to say that they came to the banks in the time of the great-grandparents' grandparents, which is long enough to have a story and short enough to remember a time before it. I would also like their oldest weights to be older than they are, and nobody can explain why. That gives me my old roads and old measures without my naming them. If the night sets it differently, I will take what the night sets.
+
+(One more answer was given privately, for the sealed record.)
