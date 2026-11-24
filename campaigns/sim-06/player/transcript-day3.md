@@ -77,3 +77,31 @@ The wind has a smell now, mud and smoke and salt. The voice goes on.
 "Among these people there may be some who are owed labor, or who owe it. What do you make of them?"
 
 (oog) Last, the names. Their name as a people, and the town's, are yours to give. Nobody else gives them: if you leave the town unnamed, it stays "the town" in every record until a mortal names it in play, which sounds like what you want. Say so, and say whether the people have a name for themselves or wait for one the same way. As always, any part of your answer can go under SEALED:.
+
+## Player:
+
+I accept both corrections. The Clerk cannot feel a breaking. I tell the Clerk, and the register is where my knowing is matched to terms. Nobody holds a licence when I land, and I give them face to face in play. I also accept that the Warden's test is an honest test and nothing more. I will check the town's standards against my scales myself. I do not want the guarantee against being cheated. It is a temper, and it can fail.
+
+**Their kind.** Common mortal folk, like any other. The four groups differ in look and speech: the channel people are wiry and dark from the sun, the salt-rakers are weathered and quiet, the clay people are broad and stocky, and the hill people are tall and pale.
+
+**What they honor, and what the worst would not do.** They honor a debt paid on the day it falls due, and a witness who stays to the end of a bargain. A person who runs from a debt is called a dry channel. Even their worst thieves will not steal from a boat that is drawn up in a flood, or from a house with the door open and a lamp lit in the window. Those are the marks of someone sheltering, and they would not touch them.
+
+**Magic.** One person, and I want it plain. The tide-reckoner is an old woman of the salt flats who can tell the height of a flood several days ahead by what she feels in her feet. It costs her the feeling in her hands for a season after each telling. She cannot cure and cannot curse, and she can be wrong about a flood that is hours too late.
+
+**What they say of gods.** They say there are small gods in every channel and bank, who must be fed with the first of a catch. There was once a larger one, and the story is that it drowned, and that is why the tide keeps coming. They say no god has ever stayed to count what it was owed. They do not know I am coming. If one of them hears the word "scale" with "god", they will laugh and then stop laughing.
+
+**The hinge.** The market stands, the house stands, and the hall is in it. It is a poor hall: a plank bench, a few clay standards cracked and mismatched, and a scale nobody trusts. The eleven already sit, as a loose council that argues and decides little. The three offices exist under other names, held by the people I described, and they know they are in office. They are waiting for something, but not for me. The old keeper of the standards died last spring and nobody has replaced them, which is why the hall is poor and the market quarrels. I come to a town that has a vacancy where a keeper should be, and I fill it.
+
+**The watch.** Sixty carry a spear in ordinary times, and the Reeve could call up to three hundred in a flood or a raid. Most of them are fishermen and rakers, and few are trained.
+
+**Other disputes.** The council of eleven in its ring, with the head of whichever trade is not a party to the quarrel as the one who leads the hearing. A death, a boundary or a marriage gone bad is argued before them and settled by a price in measure. I rule only on questions of weight, and I do not take the other cases unless the council asks.
+
+**What a factor gives up.** Their right to a false word in anything they seal. A licensed factor binds themselves, in front of the Clerk, to the same rule I carry: no false measure in a sealed term. I ask a share of what they earn, a stake in the goods they carry, and an open ledger. In return, I owe them the standing of my house, a share in the market's protection, and cover for their risk if a seal is broken against them in good faith. Any other cost to the mortal is the Keeper's to fit.
+
+**A stranger at the hall.** Yes, a small fee, paid in measure, not in coin, such as a handful of grain, or a fired weight. If the scale fails, the Warden marks it openly, and the owner is offered a corrected one at the cost of the clay. The scale is not broken in front of anyone, and nobody is shamed for owning it. I want strangers to feel it is safe to be wrong in my hall.
+
+**People owed labor.** Debt-bonded folk exist here, and I accept it. I would add three rules to the town's law. Debt labor has a fixed term of years and a day, and then ends. It does not pass to a child. And a bonded person may bring the debt to the hall and have it weighed, and if the sum is wrong, it is struck. I will not make the town free of debt, because debt is what a market runs on. I will make it honest.
+
+**Names.** The town stays "the town" until a mortal names it in play. The people have no name for themselves that I will give, and they wait for one the same way.
+
+(One more answer was given privately, for the sealed record.)
