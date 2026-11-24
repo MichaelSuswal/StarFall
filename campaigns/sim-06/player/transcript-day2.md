@@ -153,3 +153,9 @@ What will you not do? Not what is unwise. What you would refuse even at a good p
 - I will not speak a false measure, but that is a drawback and not a choice. The vow I am adding is that I will not use silence to let a buyer believe a false measure when I could have corrected it, where the buyer is my partner and not my rival. With a rival I owe nothing past the truth.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+(oog) The card stands as read, with your yes and no strikes. Your note is written on it: the first time a god is party to a sealed bargain, you are told what was ruled and why. The name is filed as lost, under the Weigher. Your refusals are written into your conduct, and the vow about silence with them; it is a vow and not a card term, so it binds only as far as you keep it. The private answer is in the sealed record and nowhere else. The dent, the pocket and the word under the name go to the night. Tomorrow is the people, and the house.
+
+The light catches one side of you, then the other. Night falls in The Between, and the Weigher keeps falling.
