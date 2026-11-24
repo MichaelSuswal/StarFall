@@ -29,3 +29,24 @@ and to no other file.
 Then stop.
 
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.
+
+## Round 2
+### Your landing: the helpers and the seat
+Your reasons, answered: you chose to keep the meeting as you wrote it, at the cost named, and gave your reasons. Nothing is argued against them.
+Final text: Designed, not yet serving. You come to a people that does not know you. You land with no helpers in fact and no seat that is yours in fact. The offices you described stand and are filled, each under your people's own custom. Each becomes your helper when its holder hears you and takes your word, in play: for an office held for one awaited, when its holder takes you for that one. Until then nobody acts for you while you are away, your unplayed time runs on your standing conduct alone, and your people go their own way under their own court. It is a bend, not a refusal of a default. It was not priced, it bears on no edge, and it bought nothing.
+### The spears
+Final text: About six hundred who can carry a spear, called by beacon; about two hundred of them take the wall watch by turns and drill in the dry months. A levy. Ordinary, not priced.
+### Their magic
+Final text: The Night Sitter and her pupil in the town, and perhaps one such woman in a few of the hamlets, at the cost you wrote; a pupil comes by sitting beside her, and many cannot. Ordinary, and no edge. You cannot make another by telling.
+### The shrines and the hall
+Final text: No household keeps a shrine of yours at landing, and the court names no kept households until you have lit them. A gate and a hall wide enough for you are yours to ask for in play, built by your people at the pace of the work.
+Weaknesses and what each bought: none. You proposed no edge, nothing was priced, and no weakness is owed.
+Read and not priced, as in round 1: the habits and prides are tempers, able to fail; what you said of the land and its past is your wish or your people's belief; who each office holder is stands as who they are, never what they will do; skills and culture are ordinary and free. Where your people's town or ground stands, and what the land round it holds, is the world's, and is written into their record from the map.
+Confirm that this is what you meant, or say what is wrong with it.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-06/gods/god-dreams/negotiation-night3.md,
+and to no other file.
+Then stop.
+
+A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.

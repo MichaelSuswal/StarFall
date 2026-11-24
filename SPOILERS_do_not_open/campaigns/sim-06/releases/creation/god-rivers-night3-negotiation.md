@@ -30,3 +30,25 @@ and to no other file.
 Then stop.
 
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.
+
+## Round 2
+### Your landing: the helpers and the seat
+Your reasons, answered: you chose to keep the meeting as you wrote it, at the cost named, and gave your reasons. Nothing is argued against them.
+Final text: Designed, not yet serving. You come to a people that does not know you. You land with no helpers in fact and no seat that is yours in fact. The offices you described stand and are filled, each under your people's own custom. Each becomes your helper when its holder hears you and takes your word, in play: for an office held for one awaited, when its holder takes you for that one. Until then nobody acts for you while you are away, your unplayed time runs on your standing conduct alone, and your people go their own way under their own council. It is a bend, not a refusal of a default. It was not priced, it bears on no edge, and it bought nothing.
+### The low seat
+Final text: The low seat by the water gate and the cup filled each morning stand as a custom of your people, a courtesy with no remembered beginning. At landing the Seat Warden's office is the keeping of the seat and the cup. Where the town stands, and whether a spring rises by its wall, is the world's.
+### The spears
+Your reasons, answered: your count is right. Thirty kept as a standing watch in about two thousand is under one in fifty, which would be forty.
+Final text: About three hundred who carry a spear when it comes to that, a call-up of working people; a standing watch of about thirty at the water gate and along the wall, fed from the town's stores in turn by the houses. Ordinary, not priced.
+### Their magic
+Final text: Two or three among your people who work a small thing, most likely among the ferrymen, midwives and well keepers, each at her own cost; who they are is your people's own, written in their record. Ordinary, and no edge.
+Weaknesses and what each bought: none. You proposed no edge, nothing was priced, and no weakness is owed.
+Read and not priced, as in round 1: the habits and prides are tempers, able to fail; what you said of the land and its past is your wish or your people's belief; who each office holder is stands as who they are, never what they will do; skills and culture are ordinary and free. Where your people's town or ground stands, and what the land round it holds, is the world's, and is written into their record from the map.
+Confirm that this is what you meant, or say what is wrong with it.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-06/gods/god-rivers/negotiation-night3.md,
+and to no other file.
+Then stop.
+
+A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.

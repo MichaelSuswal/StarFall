@@ -38,3 +38,29 @@ and to no other file.
 Then stop.
 
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.
+
+## Round 2
+### Your landing: the helpers and the seat
+Your reasons, answered: you chose the second way and rewrote the meeting. It is taken as you wrote it. It is no bend and no refusal; nothing is priced and nothing is bought. One thing is said plainly so that it is not mistaken later: knowing whose they are is who your office holders are, never what they will do, as you wrote yourself.
+Final text: Served from landing. At the first snow you come down by the pass to the ford, stooping, with the key at your neck, and your people know you on sight for the Guest they have awaited and for whose they are. The Warlord, the First Doorwarden, the Steward of Salt and Stores, the Marshal of the Road and the Mother of the Hearth serve you from the first night, and your word is carried while you are away by horn and smoke, by the Marshal's riders and by the keepers of rite. They do not know a name for you or what you can do. Each can fail you in play.
+### How many: the cost of eighteen thousand
+Final text: Eighteen thousand or near it, with a winter city holding about four thousand in the cold months. Not priced against a weakness. The costs agreed, which the Keeper applies in play: (1) food and fuel: the country does not feed this many from its own grass and barley; your people live in part on tolls in kind and on carrying, a closed pass, a bad summer or a lost season of carrying is felt in the stores sooner than a smaller people would feel it, and the winter ground must hold fodder and fuel for all from first snow to thaw; (2) moving: the whole people with its old, its young and its herds goes at about half a walker's pace, in columns stretched over days of road, and cannot turn or gather quickly; (3) growth: slow, and a hard winter takes more than it gives back for some years; (4) grass: the herds strip a valley, so the host cannot stay long in one place outside the winter ground.
+### The war band
+Your reasons, answered: you took the smaller band and asked one ruling. It is given as you asked. The Marshal's riders and the watchers at the toll houses and crossings, posted in ones and twos and living by their trade, are keepers of a trade and not a force kept as a body; they are ordinary and are not counted against the sworn band. The reading runs both ways: if they are gathered and drilled as a body, they count from that day.
+Final text: About three hundred and sixty sworn spears under the eight captains, at one in fifty and not over it. About three thousand five hundred more who carry a spear when the host calls, the rest of the nine hundred among them. The toll watch and the riders as above. Ordinary, not priced.
+### The two tempers
+Final text: Hard to ambush in a pass, and slow to turn a stranger away: tempers, able to fail in the ways you wrote. Not priced.
+### Their magic
+Final text: The salt wives, a few, each laying a line of salt and waking when it is crossed while she is within a day's walk, twenty miles, of it, knowing only that it was crossed and by how many, at the cost you wrote. A mortal's working and no part of your powers. Ordinary, and no edge. You cannot make another by telling.
+### Names
+Final text: The name you gave your people, and the names of the two office holders, are written as names given, in your words.
+Weaknesses and what each bought: none. You proposed no edge, you took the war band at the size that needs no price, and no weakness is owed.
+Read and not priced, as in round 1: what you said of the land and its past is your wish or your people's belief; who each office holder is stands as who they are, never what they will do; skills and culture are ordinary and free. Where the winter city and the crossings stand, and what the land round them holds, is the world's, and is written into your people's record from the map.
+Confirm that this is what you meant, or say what is wrong with it.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-06/gods/god-thresholds/negotiation-night3.md,
+and to no other file.
+Then stop.
+
+A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.

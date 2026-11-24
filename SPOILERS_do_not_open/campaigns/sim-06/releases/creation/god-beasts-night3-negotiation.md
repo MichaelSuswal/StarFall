@@ -31,3 +31,24 @@ and to no other file.
 Then stop.
 
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.
+
+## Round 2
+### Your landing: the helpers and the seat
+Your reasons, answered: you chose to keep the meeting as you wrote it, at the cost named, and gave your reasons. Nothing is argued against them.
+Final text: Designed, not yet serving. You come to a people that does not know you. You land with no helpers in fact and no seat that is yours in fact. The offices you described stand and are filled, each under your people's own custom. Each becomes your helper when its holder hears you and takes your word, in play. Until then nobody acts for you while you are away, your unplayed time runs on your standing conduct alone, and your people go their own way under their own council. It is a bend, not a refusal of a default. It was not priced, it bears on no edge, and it bought nothing.
+### The spears
+Final text: About nine hundred who can carry a spear, about three hundred of them hunters by trade; a call-up, not a body kept. Ordinary, not priced.
+### Their magic
+Final text: The old woman who sits by a herd at dusk and tells its mood and its trouble, at the cost you wrote; she trains no one, and it ends with her unless play makes another. One or two others among your people may work some other small thing; who they are is your people's own. Ordinary, and no edge.
+### Names
+Final text: The name you gave your people, and the two names you hoped for, are written as names given, in your words.
+Weaknesses and what each bought: none. You proposed no edge, nothing was priced, and no weakness is owed.
+Read and not priced, as in round 1: the habits and prides are tempers, able to fail; what you said of the land and its past is your wish or your people's belief; who each office holder is stands as who they are, never what they will do; skills and culture are ordinary and free. Where your people's town or ground stands, and what the land round it holds, is the world's, and is written into their record from the map.
+Confirm that this is what you meant, or say what is wrong with it.
+
+Write your reply as "## Round 2 reply" at the end of
+SPOILERS_do_not_open/campaigns/sim-06/gods/god-beasts/negotiation-night3.md,
+and to no other file.
+Then stop.
+
+A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.
