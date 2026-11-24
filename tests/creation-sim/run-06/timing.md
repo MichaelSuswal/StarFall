@@ -11,3 +11,5 @@ Models: DM fable, Keeper fable, NPC gods sonnet, civ agents sonnet, stand-in pla
 | Day 3 | 10:45 | 10:52 | DM 1.3 + 1.1 + 1.4 + 4.6 min, stand-in 0.4 + 0.6 + 0.2 min |
 | Night 3a | 10:54 | 11:25 | Keeper 4.5 + 4.5 + 1.2 + 17.7 min, gods about 1 min each per round |
 | Night 3b | 11:27 | 15:34 (paused for the usage limit 12:02 to 15:34; working time about 35 minutes) | Keeper about 35 min |
+| Lock | 15:35 | 15:43 | checker about 8 min |
+| First morning, read, fix, close | 15:43 | 15:50 | DM 2.5 + 0.4 min, checker 1.7 + 0.5 min, Keeper 0.5 + 0.7 min |
