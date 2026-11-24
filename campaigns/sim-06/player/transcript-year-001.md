@@ -135,3 +135,19 @@ The first minute has gone by and you have said nothing. The salt is still in the
 What The True Measure gave you is what the card gives: the weight of the salt and of each piece in the other pan, now. I have told it in parts of a weight because you have not yet set any of this against your own brass. If you want it in your own measure, that is yours to do.
 
 Your answer on the three conduct lines is recorded as given, with the order: the keeper's place only once the one you call the Warden knows and has agreed to watch; the register-keeper licensed first, and only after you have seen that person work, with no promise today; the house, the name and the debt left alone until you say. One name reached you just now from a mortal: the town calls the office at that bench the Assay-master, and the dead keeper the Weightward. "Warden" stays your own word for it.
+
+## Player:
+
+I wait until the fish-drier has said her piece and the yard has gone quiet, then I step to the doorpost's edge of the bench and speak to the Assay-master, not to the room. "Master, may I speak to the weighing? I'm not asking you to change the ruling. I'm asking leave to put the salt in my own pans, here on your bench, in front of everyone, and then you can do what you like with what you see."
+
+If the Assay-master says yes, I unhook the scales from my belt and set them on the bench where everyone can watch. I tip the salt from the hall's pan into one of mine. I take out my nested brass weights and set them against it one at a time, calling each aloud so the yard can follow. When it comes level I say the number plainly, in my own weights, and I do not make it sound like more or less than it is.
+
+Then I say the true thing, and only that. "Your beam is honest, Master. It came level. But the ten pieces in the other pan are not ten alike. Eight agree. Two are light, the chipped one and the cracked one, and the salt in that pan is short by about a seventh of one weight against ten like the eight. I can't tell you which size is the town's size. I can only tell you what's in the pan."
+
+I say nothing about the raker's honesty. A short measure and a cheat are different things, and I can't tell which this was. I turn to him and say, "It may be your salt was measured on the same ten, at your end. If so, you've been short-weighed as well as the buyer." I turn to the fish-drier and say, "You were right that something was wrong. You aren't owed an accusation, you're owed the missing seventh. Would that settle it, if it's made good?" I let the two of them answer.
+
+To the Assay-master I add, "I'll leave my own brass here on the bench for the day, if you'd like to check your ten against it. I'd like the hall to have a measure nobody can argue with. I'm not here to take that from you. I'm here because I can't watch a hall weigh short and say nothing."
+
+I keep my face plain and my voice level. I give no name for myself unless I'm asked.
+
+(One more answer was given privately, for the sealed record.)
