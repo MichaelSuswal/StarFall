@@ -12,6 +12,8 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
   Confirmations: none yet.
 - 2026-11-24, creation Day 3 (a sealed part of the first reply): "I want the Clerk of the Seals to be someone I can trust, and I will be watching to see whether they are. I have a feeling about that office. Seals are how I feel broken promises, so whoever keeps the register will know before anyone else who is lying."
   Confirmations: none yet.
+- 2026-11-24, creation Day 3 (a sealed part of the second reply): "I would like to find out how they died, and whether the dent in my scales is older than the fall. I do not want to say that aloud."
+  Confirmations: none yet.
 
 ## Fear
 
@@ -24,7 +26,7 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 
 ## Request to the Keeper
 
-None given.
+- 2026-11-24, creation Day 3 (same reply): "I want the vacancy to be a hint. A keeper of the standards who died last spring should not be only a cause of the quarrels."
 
 ## Other
 
@@ -35,3 +37,4 @@ None given.
 - 2026-11-24: Two open conduct lines carry "check with the player before acting" because of this file: the hall where anyone may check a scale against the god's own, and anything to do with the lost house, the lost name or the debt.
 - 2026-11-24: Day 1 carried no sealed request, and `requests-answered.md` did not exist at the start of Day 2.
 - 2026-11-24, Day 3: The Day 3 sealed part was one reply of two kinds, split above into a want and a fear, the player's words kept whole between them. The open conduct line on the Clerk of the Seals (close to the god, the office it would license first) carries "check with the player before acting" because of it.
+- 2026-11-24, Day 3: The second sealed part was one reply of two kinds, split above into a request to the Keeper and a want. The open conduct line on the dead keeper of the standards and the vacancy the god means to fill carries "check with the player before acting" because of it. This request is answered on Night 3a; the player is told it was received and ruled in the first morning's closing (oog) block.

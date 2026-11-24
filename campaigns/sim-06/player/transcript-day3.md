@@ -105,3 +105,55 @@ I accept both corrections. The Clerk cannot feel a breaking. I tell the Clerk, a
 **Names.** The town stays "the town" until a mortal names it in play. The people have no name for themselves that I will give, and they wait for one the same way.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+(oog) That covers the ground. Four rulings first, then the read-back, with three marked gaps for you to fill in the same reply as your yes.
+
+The tide-reckoner. A mortal knack, priced at the table: she tells the height of a flood several days ahead, and each telling takes the feeling from her hands for a season. I am taking her cost as the whole price. It is one old woman, she can be wrong about the hour, she cannot teach it by your telling, and when she dies it dies unless play makes another. No weakness is asked of the people for her. It is subject to the Keeper's fitting tonight, since I do not know how common such workers are.
+
+The helpers and the seat. You come to a town that does not know you. The house is the town's house, the eleven are the town's council, and the three office holders serve the town under its own law and its own names for them. So the form is "designed, not yet serving", and I say it plainly: you land with no helpers in fact and no seat that is yours in fact. Until each is won in play, nobody acts for you while you are away, your unplayed time runs on your standing conduct alone, and the town goes its own way under its own council. That is the cost, the same for any god who lands so. It is not a refusal of a default, it bears on no edge, and it buys nothing.
+
+The factor's rule. "No false measure in a sealed term" I am writing as an oath sworn in front of the Clerk: who a factor is, able to be broken, with your own refusal behind it. A rule a factor cannot break would be a binding, and a binding is a priced edge on you. Gap one asks which you mean. Whatever else the licence costs the mortal is the Keeper's to fit tonight.
+
+The weighing of a debt. Your scales know weight, count and purity of what is set in them. They do not know whether a sum on a stick is the sum that was agreed. A bonded person's debt brought to the hall is reckoned by the hall the ordinary way, with witnesses and tallies, and by your scales only where there are goods to put in a pan.
+
+Nothing else needed a price. A watch of sixty is ordinary, and so is a call-up of three hundred untrained.
+
+Now the people, read back.
+
+Who they are. Common mortal folk, about five thousand, with no name for themselves and a town with no name; both wait for a mortal to name them in play. Four groups without shared kinship: channel people who fish and cut reed, wiry and sun-dark; salt-rakers of the flats, weathered and quiet; clay-bank farmers and potters, broad and stocky; hill people who came down with ore and charcoal, tall and pale. They differ in look and speech. They believe floods pushed them together and that the market, the only place all four meet, is older than any lord.
+
+How they live. On raised banks, in houses of reed and clay on stilts or mounds, joined by raised paths and flat-bottomed boats. Grain and reed gardens on the clay, nets and weirs in the channels, salt pans on the flats, pottery, mats, roofing, baskets, and bloomery iron from hill ore and charcoal. Their measures are fired clay weights, notched tally-sticks and reed baskets of fixed volume. They are practical, a little suspicious, good with small numbers, and proud of being hard to cheat: a temper, not a guarantee.
+
+Their code. They honor a debt paid on the day it falls due and a witness who stays to the end of a bargain. One who runs from a debt is called a dry channel. Even the worst of them will not steal from a boat drawn up in a flood, or from a house with its door open and a lamp lit in the window.
+
+Their magic. The tide-reckoner, as ruled above. No one else.
+
+What they believe. Small gods in every channel and bank, fed with the first of a catch. A larger one that drowned, which is why the tide keeps coming. That no god has ever stayed to count what it was owed.
+
+How you meet them. They are already there, with their own history, and they do not know you are coming. The market stands. A house stands with a poor hall in it: a plank bench, a few cracked and mismatched clay standards, a scale nobody trusts. The old keeper of the standards died last spring and has not been replaced, and the market quarrels. You come to a town with a vacancy where a keeper should be, and you mean to fill it.
+
+The offices, as you designed them, none yet yours. The Warden of the Hall, the chief assayer, patient, slightly humorless, one who will argue with you. The Reeve of the Gate, practical and well liked, who runs the market, its fees, its disputes between buyer and seller, the watch of sixty and the call-up, and the runners. The Clerk of the Seals, close to you, who keeps the register of sealed bargains and licensed factors, and whom you tell when a seal breaks. Two or three factors, to be found and licensed in play. The council of eleven in its ring: the heads of the four trades, the masters of the potters, boatwrights, weavers and smiths, two ship-owners, and the chief assayer.
+
+How orders travel, once anyone takes them: split tally-sticks, one half in the hall and one carried, the ruling notched and spoken aloud at the gate by the Reeve's runners, carried by boat to the far channels, with a drum on the highest bank to call the town. Your first law: a word of yours is yours only if the stick matches.
+
+Disputes. Buyer and seller go to the Reeve. A death, a boundary, a marriage gone bad go to the eleven, the hearing led by the head of a trade that is no party, and are settled by a price in measure. You rule only on questions of weight, and take other cases only if the council asks.
+
+Your standing conduct from today. The hall is open to anyone with a scale, for a small fee in measure, grain or a fired weight; a scale that fails is marked openly by the Warden and its owner offered a corrected one at the cost of the clay, never broken, nobody shamed. You check the town's standards against your own scales yourself. Of a factor you ask the oath, a share of earnings, a stake in the goods, and an open ledger, and you owe standing, protection, and cover if a seal is broken against them in good faith. You accept debt bondage and mean to put three rules into the town's law: a fixed term of years and a day, no passing to a child, and any bonded person may have the debt reckoned at the hall and struck if the sum is wrong. You bring the scale to the potters' clay first, salt second, ore third.
+
+Heard, not promised. That the town lets you fill the vacancy. That clay is what they bring first and that they come to trust the scale. That one who hears "scale" beside "god" laughs and then stops. That the council brings you only questions of weight. That the town takes your three rules on debt. That each office holder turns out as designed.
+
+For the world to place or settle tonight. The floods and the age of the market, the house on the highest bank where track meets channel, ships on open water, ore in the hills, the drowned one and the tide, the keeper's death last spring, what the people say of the ground toward the hills and of any old road, and how long they have been on the banks.
+
+Priced edges: the tide-reckoner's knack, at her own cost, and nothing else. Premises: none refused. The seat and helpers are bent, designed and not yet serving, at the cost stated.
+
+The gaps.
+
+One. The factor's rule: an oath that can be broken, or a binding that cannot, priced on you?
+
+Two. The Warden and the dead keeper. You have a chief assayer who should be Warden, and a keeper of the standards who died last spring and was not replaced. Is the keeper's office the Warden's own, so that it stands empty and the chief assayer is the one you would raise to it? Or are they two offices, with a living Warden under the town's name for it and a separate, vacant keeper's place that you take yourself?
+
+Three. If you have a wish for how long they say they have lived on these banks, give it. If not, the night sets it.
+
+Is it a yes, with or without strikes?
