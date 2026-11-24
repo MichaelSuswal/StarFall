@@ -676,3 +676,4 @@ Neutrality:
 - The public files written tonight carry no sealed term, no count and no history beyond what the town's people say.
 - The clock: the session was stopped by its usage limit after the close check was written. Paused 12:02. Resumed 15:34, by the orchestrator's word. On resuming: pulled, found every file of tonight in the tree as left, ran `tools/lockcheck.py sim-06 --all` and `tools/map.py validate sim-06` again with the same results, and found one stage time in the timing file that had been written from memory and not from the clock; it was corrected from the commit record (11:56). No step waited on anyone.
 Handed to the checker 2026-11-24 15:34 Pacific. Night 3b is not closed: the lock, the first morning and the clock follow.
+Lock commit: 2550a79e74f275a031580cbeedff46aa93c43098 (`Creation night 3b: sim-06 ready for lock`), logged 2026-11-24 15:35 Pacific.
