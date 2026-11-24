@@ -1,7 +1,7 @@
 """Lock checks a script can run for a campaign. The continuity checker runs these before
 writing LOCKED.md, and reads every public file itself as well.
 
-Usage: python3 tools/lockcheck.py <campaign> [--places] [--leaks] [--mysteries] [--rolls] [--dashes] [--all]
+Usage: python3 tools/lockcheck.py <campaign> [--places] [--leaks] [--releases] [--mysteries] [--rolls] [--dashes] [--all]
                                              [--root DIR] [--counts-only]
 With no check named, --all. Exit 1 on any failure. One line per finding, then one count
 line per check. Warnings are printed but do not fail. --counts-only prints the count lines
@@ -54,13 +54,28 @@ layout (tests use a fixture).
                not, a # comment after it or on its own line), exempts terms; a number-word
                hit is exempted by its quoted phrase, or by a longer allowed phrase that holds
                it and stands in the line.
+               Build 6: a number word before a fraction word ("three quarters", "two thirds") or a
+               numeral fraction (3/4) is no count (change list 23). In a people's knowledge file another
+               people's name (a sealed term whose form without "the" is a people's folder label) passes
+               only when told to them in their record: S/civs/<people>/record.md, S/civs/<people>-sealed.md
+               or P/civs/<people>/record.md (change list 55). The campaign's timing file is sealed,
+               S/state/timing.md (change list 74): a public P/state/timing.md is warned on, to be moved,
+               and is not scanned for ordinals.
+  --releases   the Keeper's releases (every .md under S/releases/) and the Day 3 brief,
+               P/player/day3-brief.md, against the world draft (change list 37): a sentence naming one
+               of the world's scarce things (the items of a "Scarcities:", "World scarcities:" or "Local
+               shortages:" line of S/world-draft.md) beside a word of scarcity ("scarce", "rare", "dear",
+               "came short") is warned on, for the Keeper to reword or keep by reading; a kept sealed term
+               fails in any of them.
   --mysteries  every mystery follows runbook template 7.8: Truth; Body; Cost if ignored;
                Clock or trigger; Clues; Branches; Never found, a Kind: line, an
                "Answers questions: yes|no" line, each clue with Location: and Readings:,
                each branch with What the world does:, and a Limit: line in the Truth or
                Body of every mystery marked "Answers questions: yes", the same limit word
                for word in S/cast.md (emphasis, map ids and punctuation aside); one epic,
-               two or more long, three or more short.
+               two or more long, three or more short. Each cast being's "Mysteries:" pointers name
+               mysteries that exist, and a being with a Limit: line (it answers questions) is in no
+               mystery marked "Answers questions: no" (change list 71).
   --rolls      every r-NNNN cited in a sealed file is in S/state/rolls.jsonl, nothing is
                rolled twice, every reroll has a reason; the public rolls log is empty.
   --dashes     no em or en dash in any campaign file, sealed or public, or in the campaign's
@@ -363,7 +378,7 @@ def unheard_places(c):
 def known_map_names(c):
     """Lower-case names the player's god knows: the map names it has heard (heard_ids), with and
     without a leading article, every name it was told, and every name the player gave a place itself
-    (an alias by "player", change list 39)."""
+    (an alias by "player", change list 39, or its map name with "named_by": "player", change list 52)."""
     known_ids, out = heard_ids(c), set()
     for table in ("regions", "features"):
         for ident, e in c.knowledge.get(table, {}).items():
@@ -371,7 +386,7 @@ def known_map_names(c):
             if t.get("name"):
                 out |= {v.lower() for v in article_variants(t["name"])}
     for kind, el in c.elements():
-        for a in mapt.player_aliases(el):
+        for a in mapt.player_names(el):
             out |= {v.lower() for v in article_variants(a)} | {v.lower() for v in name_variants(a)}
         if el["id"] in known_ids:
             nm = el.get("name", "")
@@ -476,7 +491,7 @@ def leak_terms(c):
             if t.get("name"):
                 told_names.add(t["name"].lower())
     for kind, el in c.elements():
-        told_names |= {a.lower() for a in mapt.player_aliases(el)}
+        told_names |= {a.lower() for a in mapt.player_names(el)}
     known_names = set()
     for kind, el in c.elements():
         if el["id"] in known_ids:
@@ -620,7 +635,7 @@ def _words_re(phrase):
 
 
 COUNT_RE = re.compile(r"(?<![\w-])(?:" + "|".join(_words_re(w) for w in sorted(COUNT_WORDS, key=len, reverse=True)) + r")(?![\w-])"
-                      r"|(?<![\w.,-])(?:1[0-2]|[2-9])(?![\w-]|[.,]\d)", re.I)   # numerals 2 to 12 count alike
+                      r"|(?<![\w.,/-])(?:1[0-2]|[2-9])(?![\w-]|[.,]\d|/\d)", re.I)   # numerals 2 to 12 count alike; 3/4 is a fraction
 TRIGGER_RE = re.compile(r"(?<![\w])(?:" + "|".join(_words_re(w) for w in sorted(GOD_TRIGGERS, key=len, reverse=True)) + r")(?![\w])", re.I)
 WORD_RE = re.compile(r"[A-Za-z0-9']+")
 # a numeral that names a day, night, year, question or step is a label, not a count ("Day 3", "question 8")
@@ -638,9 +653,21 @@ UNIT_AFTER_RE = re.compile(r"^\s+(?:(?:" + "|".join(UNIT_MODIFIERS) + r")\s+)?(?
                            "|".join(_words_re(w) for w in sorted(UNIT_NOUNS, key=len, reverse=True)) + r")(?![\w-])", re.I)
 
 
+# A number word before a fraction word is a fraction, not a count (build 6, change list 23): card text in the
+# third person ("the god's reach falls to three quarters"), "two thirds", "four fifths".
+FRACTION_WORDS = ["half", "halves", "third", "thirds", "quarter", "quarters", "fourth", "fourths", "fifth", "fifths",
+                  "sixth", "sixths", "seventh", "sevenths", "eighth", "eighths", "ninth", "ninths", "tenth", "tenths",
+                  "twelfth", "twelfths"]
+FRACTION_AFTER_RE = re.compile(r"^\s+(?:" + "|".join(FRACTION_WORDS) + r")(?![\w-])", re.I)
+
+
 def is_unit_count(sent, m):
-    """True when the number word at match m counts units or things: "two days", "five full acres"."""
-    return m.group(0).lower() != "twice" and UNIT_AFTER_RE.match(sent[m.end():]) is not None
+    """True when the number word at match m counts units or things ("two days", "five full acres"), or is
+    the top of a fraction ("three quarters", "two thirds", change list 23)."""
+    if m.group(0).lower() == "twice":
+        return False
+    rest = sent[m.end():]
+    return UNIT_AFTER_RE.match(rest) is not None or FRACTION_AFTER_RE.match(rest) is not None
 
 
 def count_hits(line):
@@ -690,6 +717,33 @@ def is_transcript(c, path):
     return not rel.startswith("..") and TRANSCRIPT_RE.match(rel) is not None
 
 
+def people_folder(c, path):
+    """The people's folder label of a knowledge file, campaigns/<name>/civs/<people>/knowledge.md."""
+    return os.path.relpath(path, c.P).replace(os.sep, "/").split("/")[1]
+
+
+def people_labels(c):
+    """Every people's folder label, lower case: S/civs/<people>/, S/civs/godless/<people>/ and P/civs/<people>/."""
+    out = set()
+    for d in (os.path.join(c.S, "civs"), os.path.join(c.S, "civs", "godless"), os.path.join(c.P, "civs")):
+        if os.path.isdir(d):
+            out |= {x.lower() for x in os.listdir(d) if os.path.isdir(os.path.join(d, x)) and x != "godless"}
+    return out
+
+
+def is_people_name(label, labels):
+    """True when a sealed term is a people's name: its form without a leading article is a people's folder label."""
+    return mapt.name_core(label).lower().replace(" ", "-") in labels
+
+
+def record_text(c, people):
+    """What a people's own record tells them (change list 55): its record and the world's side of it,
+    S/civs/<people>/record.md, S/civs/<people>-sealed.md, and the public P/civs/<people>/record.md."""
+    paths = [os.path.join(c.S, "civs", people, "record.md"), os.path.join(c.S, "civs", f"{people}-sealed.md"),
+             os.path.join(c.S, "civs", "godless", people, "record.md"), os.path.join(c.P, "civs", people, "record.md")]
+    return "\n".join(read(p) for p in paths if os.path.exists(p))
+
+
 def map_names_lower(c):
     """Every map name and alias in map.json, lower case, with and without a leading article."""
     out = set()
@@ -717,9 +771,21 @@ def check_leaks(c, rep):
         rep.fail("leaks", f"{c.rel(os.path.join(c.P, 'player', 'map-knowledge.json'))}: {p}")
     if not os.path.isdir(c.P):
         rep.warn("leaks", f"no public folder {c.rel(c.P)}")
+    # the campaign's timing file is sealed, S/state/timing.md (change list 74): nothing public carries night
+    # or stage times, so a public one is named to be moved; the ordinal rule is no longer scanned in public
+    pub_timing = os.path.join(c.P, "state", "timing.md")
+    if os.path.exists(pub_timing):
+        rep.warn("leaks", f"{c.rel(pub_timing)} is public; the campaign's timing file is "
+                          f"{c.rel(os.path.join(c.S, 'state', 'timing.md'))}, sealed (change list 74)")
+    labels = people_labels(c)
+    records = {}
     for path in public_files(c):
         people = is_people_knowledge(c, path)
         transcript = is_transcript(c, path)
+        if people:
+            folk = people_folder(c, path)
+            if folk not in records:
+                records[folk] = record_text(c, folk)
         for ln, line in enumerate(read(path).splitlines(), 1):
             failed_labels = set()
             for kind, label, rx, sev in terms:
@@ -728,6 +794,15 @@ def check_leaks(c, rep):
                 if transcript and kind == KEPT_KIND:
                     continue  # the player's own words, kept verbatim (decision 8)
                 if sev == "fail" and rx.search(line):
+                    if people and kind == "sealed term" and is_people_name(label, labels):
+                        # another people's name, in a people's knowledge file, only if told to them in
+                        # their record (change list 55)
+                        if rx.search(records[folk]):
+                            failed_labels.add(label.lower())   # settled here: no guess from prose either
+                            continue
+                        failed_labels.add(label.lower())
+                        rep.fail("leaks", f"{c.rel(path)}:{ln}: people's name \"{label}\", not told to the {folk} in their record")
+                        continue
                     failed_labels.add(label.lower())
                     rep.fail("leaks", f"{c.rel(path)}:{ln}: {kind} \"{label}\"")
             for kind, label, rx, sev in terms:
@@ -743,6 +818,74 @@ def check_leaks(c, rep):
                 if ph in allow or any(ph in a and a in low_line for a in allow):
                     continue
                 rep.fail("leaks", f"{c.rel(path)}:{ln}: number word \"{num}\" near \"{trig}\": \"{phrase_}\"")
+
+
+# ---------------------------------------------------------------- releases (change list 37)
+
+SCARCITY_LINE_RE = re.compile(r"^\s*(?:[-*]\s+)?\**(?:world\s+scarcit(?:y|ies)|scarcit(?:y|ies)|local\s+shortages?)\**\s*:\**\s*(.+)$",
+                              re.I | re.M)
+SCARCITY_WORD_RE = re.compile(r"(?<![\w-])(?:scarce|scarcer|scarcest|scarcity|scarcities|rare|rarer|rarest|dear|dearer|"
+                              r"dearest|shortage|shortages|short\s+of|in\s+short\s+supply|came\s+short|runs?\s+short|"
+                              r"lack|lacks|lacking|wanting|precious|hard\s+to\s+come\s+by|hard\s+to\s+find|prized)(?![\w-])", re.I)
+ORDER_WORDS = {"first", "second", "third", "chiefly", "above all", "most", "least"}
+
+
+def world_scarcities(c):
+    """The world draft's scarce things (S/world-draft.md): each item of a "Scarcities:", "World
+    scarcities:" or "Local shortages:" line, by its last word ("salt", "good iron" gives "iron"), up to
+    the line's first full stop, with "(unplaced)" and order words ("first", "second") set aside."""
+    p = os.path.join(c.S, "world-draft.md")
+    out = []
+    for m in SCARCITY_LINE_RE.finditer(read(p) if os.path.exists(p) else ""):
+        body = re.split(r"\.(?:\s|$)", m.group(1), maxsplit=1)[0]
+        body = re.sub(r"\([^)]*\)", "", body)
+        for item in re.split(r"\s*;\s*", body):
+            head = re.split(r"\s*[,:]\s*", item.strip())[0]
+            head = re.sub(r"^and\s+", "", head, flags=re.I)
+            head = re.split(r"\s+(?:that|which|who|where|in|of|for|as|at|on|from|to|by|with)\s+", head, maxsplit=1)[0]
+            for part in re.split(r"\s+(?:and|or)\s+", head):
+                words = [w for w in re.findall(r"[A-Za-z][A-Za-z'-]*", part) if w.lower() not in ORDER_WORDS]
+                if words and len(words[-1]) >= 3 and words[-1].lower() not in out:
+                    out.append(words[-1].lower())
+    return out
+
+
+def release_files(c):
+    """The Keeper-written releases (every .md under S/releases/, the god releases and landing releases
+    among them) and the Day 3 brief, P/player/day3-brief.md."""
+    out = text_files(os.path.join(c.S, "releases")) if os.path.isdir(os.path.join(c.S, "releases")) else []
+    out = [p for p in out if p.endswith(".md")]
+    brief = os.path.join(c.P, "player", "day3-brief.md")
+    if os.path.exists(brief):
+        out.append(brief)
+    return out
+
+
+def check_releases(c, rep):
+    """The Keeper's releases and the Day 3 brief against the world draft (change list 37): a sentence that
+    names one of the world's scarce things beside a word of scarcity states a world fact the reader may not
+    have, and is warned on for the Keeper to reword or keep, by reading; a kept sealed term (a "!" line in
+    sealed-terms.txt) fails in any of them."""
+    goods = world_scarcities(c)
+    good_res = [(g, re.compile(r"(?<![\w-])" + re.escape(g) + r"(?:s|es)?(?![\w-])", re.I)) for g in goods]
+    kept = []
+    for t in c.sealed_terms(kept=True) or []:
+        for v in sorted(article_variants(t)):
+            if len(v.strip()) >= 3:
+                kept.append((v.strip(), re.compile(r"(?<![\w])" + re.escape(v.strip()) + r"(?![\w])")))
+    for path in release_files(c):
+        for ln, line in enumerate(read(path).splitlines(), 1):
+            for label, rx in kept:
+                if rx.search(line):
+                    rep.fail("releases", f"{c.rel(path)}:{ln}: {KEPT_KIND} \"{label}\"")
+            for sm in SENTENCE_RE.finditer(line):
+                sent = sm.group(0)
+                if not SCARCITY_WORD_RE.search(sent):
+                    continue
+                for g, rx in good_res:
+                    if rx.search(sent):
+                        rep.warn("releases", f"{c.rel(path)}:{ln}: names the world scarcity \"{g}\" beside a word of scarcity: "
+                                             f"\"{' '.join(sent.split())[:160]}\"; a release states no world fact its reader lacks")
 
 
 # ---------------------------------------------------------------- mysteries
@@ -813,6 +956,44 @@ def limit_words(text):
     return tuple(re.findall(r"[\w']+(?:-[\w']+)*", t))
 
 
+MYSTERY_ID_RE = re.compile(r"^[ \t]*(?:#{2,4}[ \t]+|\*\*)(?:(?:EPIC|LONG|SHORT)[ \t:.]+)?([A-Z]{1,2}\d+)\b")
+CAST_HEAD_RE = re.compile(r"^#{2,4}\s+(.+?)\s*$", re.M)
+CAST_POINTERS_RE = re.compile(r"\bMysteries\**:\**\s*((?:[A-Z]{1,2}\d+\b[\s,;]*(?:and\s+)?)+)")
+
+
+def mystery_id(body):
+    """A mystery unit's id from its heading line ("## E01 The Widening Quiet", "**S06. ...**"), or None."""
+    m = MYSTERY_ID_RE.match(body.split("\n", 1)[0])
+    return m.group(1) if m else None
+
+
+def cast_entries(text):
+    """(heading, own text) for each heading in S/cast.md, up to the next heading of any level."""
+    heads = list(CAST_HEAD_RE.finditer(text))
+    return [(m.group(1).strip(), text[m.end():heads[i + 1].start() if i + 1 < len(heads) else len(text)])
+            for i, m in enumerate(heads)]
+
+
+def check_cast_pointers(c, rep, cast_path, answers_by_id):
+    """Each cast being's "Mysteries:" pointers against the mysteries' Answers questions line (change
+    list 71): a being with a Limit: line answers questions, so every mystery it is in is marked yes; and
+    every pointer names a mystery that exists."""
+    for head, own in cast_entries(read(cast_path)):
+        ids = []
+        for m in CAST_POINTERS_RE.finditer(own):
+            ids += re.findall(r"[A-Z]{1,2}\d+", m.group(1))
+        if not ids:
+            continue
+        limited = LIMIT_LINE_RE.search(own) is not None
+        where = f"{c.rel(cast_path)}: \"{head}\""
+        for mid in ids:
+            if mid not in answers_by_id:
+                rep.fail("mysteries", f"{where}: Mysteries: names {mid}, which is not a mystery")
+            elif limited and answers_by_id[mid] != "yes":
+                rep.fail("mysteries", f"{where} has a Limit: line (it answers questions) and is in {mid}, "
+                                      "which is marked Answers questions: no")
+
+
 def chunks(sec):
     """A section's #### sub-entries (clues or branches), or None when it has none."""
     parts = re.split(r"^####\s+.*$", sec, flags=re.M)
@@ -832,10 +1013,15 @@ def check_mysteries(c, rep):
     kinds = {"epic": 0, "long": 0, "short": 0}
     cast_path = os.path.join(c.S, "cast.md")
     cast = {limit_words(m.group(1)) for m in LIMIT_LINE_RE.finditer(read(cast_path))} if os.path.exists(cast_path) else None
+    answers_by_id = {}   # mystery id (E01, L02, S06) -> "yes" or "no", for the cast pointers (change list 71)
     for path in files:
         for title, body in mystery_units(read(path)):
             total += 1
             where = f"{c.rel(path)}: \"{title}\""
+            mid = mystery_id(body)
+            ans = ANSWERS_FIELD_RE.findall(body)
+            if mid and len(ans) == 1:
+                answers_by_id[mid] = ans[0].lower()
             missing = [l for l in REQUIRED if not LABEL_RES[l].search(body)]
             if missing:
                 rep.fail("mysteries", f"{where} lacks {'; '.join(missing)}")
@@ -887,6 +1073,8 @@ def check_mysteries(c, rep):
     if total == 0:
         rep.fail("mysteries", "no mystery found")
         return
+    if cast is not None:
+        check_cast_pointers(c, rep, cast_path, answers_by_id)
     if kinds["epic"] != 1 or kinds["long"] < 2 or kinds["short"] < 3:
         rep.fail("mysteries", f"kinds: {kinds['epic']} epic, {kinds['long']} long, {kinds['short']} short; "
                               "the lock needs one epic, two or more long, three or more short")
@@ -955,7 +1143,7 @@ def check_dashes(c, rep):
                 rep.fail("dashes", f"{c.rel(path)}:{ln}: {n} em or en dash(es)")
 
 
-CHECKS = [("places", check_places), ("leaks", check_leaks), ("mysteries", check_mysteries),
+CHECKS = [("places", check_places), ("leaks", check_leaks), ("releases", check_releases), ("mysteries", check_mysteries),
           ("rolls", check_rolls), ("dashes", check_dashes)]
 
 

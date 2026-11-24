@@ -9,7 +9,9 @@ status: creation|open|closed, creation_night: 1|2|3a|3b while in creation, and s
 During creation there is no resolved year: the script says so and exits 0.
 A year turns only on a day the player posted: a resolved year needs player/decisions-NNN.md
 or a waited note. A day the world waited leaves years/NNN/waited-YYYY-MM-DD.md (Pacific date)
-and no advance. In state/timing.md only lines that start with a Pacific date count (a list
+and no advance. The timing file is sealed, SPOILERS_do_not_open/campaigns/<name>/state/timing.md (build 6,
+change list 74); an older campaign's public campaigns/<name>/state/timing.md is read when the sealed one
+does not exist. In the timing file only lines that start with a Pacific date count (a list
 marker before the date is allowed); no date may have both a line containing "waited" and a
 line containing "clock advanced".
 Rolls are sealed: SPOILERS_do_not_open/campaigns/<name>/state/rolls.jsonl.
@@ -64,6 +66,13 @@ def timing_conflicts(timing_path):
     return [f"timing: {d} has both a waited line and a clock advance" for d in sorted(waited & advanced)]
 
 
+def timing_path(base, sealed):
+    """The campaign's timing file: the sealed S/state/timing.md (change list 74), else, for an older
+    campaign, the public P/state/timing.md."""
+    s = os.path.join(sealed, "state", "timing.md")
+    return s if os.path.exists(s) else os.path.join(base, "state", "timing.md")
+
+
 def waited_notes(base, year):
     d = os.path.join(base, "years", f"{year:03d}")
     return sorted(f for f in os.listdir(d) if re.fullmatch(r"waited-\d{4}-\d{2}-\d{2}\.md", f)) if os.path.isdir(d) else []
@@ -111,7 +120,7 @@ def main(argv=None):
             findings.append(f"clock not advanced to year {year + 1}")
 
     # 2. A day the world waited never also advances the clock
-    findings += timing_conflicts(os.path.join(base, "state", "timing.md"))
+    findings += timing_conflicts(timing_path(base, sealed))
 
     # 3. Required outputs for the year (a waited year has none)
     if not notes and not os.path.exists(os.path.join(base, "player", f"decisions-{year:03d}.md")):

@@ -30,3 +30,14 @@ Agent E, 2026-11-24.
 - `engine/style/house-style.md`: 79.
 - `tests/creation-sim/README.md`: 26, 36, 74.
 - `CLAUDE.md`: no change needed.
+
+## Tools
+
+Agent T, 2026-11-24.
+
+- `tools/lockcheck.py`: 23 (fractions are no count), 37 (new `--releases` check: releases and the Day 3 brief against the world draft's scarcities, warned; kept sealed terms, failed), 55 (another people's name in a knowledge file only if told in their record), 71 (cast `Mysteries:` pointers against each mystery's yes or no), 74 (a public `P/state/timing.md` is warned on; no ordinal scan in public), and 52 (a map name with `named_by: player` is the player's own).
+- `tools/map.py`: 52 (`"named_by": "player"` on the home's element; validate checks it), 56 (stamp skips god-written files and the keeper log), 61 (describe finds the god's knowledge file by label, reports the standing height from an optional landing `ground_ft`, lists wood edges), 76 (landing sheet draws a line only as far as seen from the landing; told words over a creation name for a rumor or report; creation names shown are noted for the (oog) line).
+- `tools/roll.py`: 63 (weighted draw, `--weight name=N`, bands logged).
+- `tools/check.py`: 74 (reads the sealed `S/state/timing.md`, falling back to the public one for older campaigns), at the coordinator's word.
+- `tests/tools/test_tools.py`: one test per item above (10 new; 71 in all, all passing).
+- Runs: `lockcheck.py sim-05 --all` passes as before, with one new warning (its public timing file, item 74) and the new `releases` line at 0 and 0; `map.py validate sim-05` unchanged (0 problems, 0 warnings).

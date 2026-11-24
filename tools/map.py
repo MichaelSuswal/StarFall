@@ -57,7 +57,9 @@ four letters or more; never an alias, change list 38) in every .md file of the s
 warns by, and after every placeholder label ("unnamed town", matched in any case) that only one place
 carries. A name already followed by one of its ids (after any 's or a parenthesis) is left alone, so
 running it twice changes nothing. Headings and bold mystery titles are never stamped. It skips
-LOCKED.md and the checker's lock-flags*.md, never touches the public folder, and prints the count per
+LOCKED.md, the checker's lock-flags*.md, the keeper log and every file a god's agent writes in
+S/gods/<god>/ (survey-day1, self, goals, record-of-gods, people-hoped, negotiation-night*, decisions-NNN;
+change list 56), never touches the public folder, and prints the count per
 file, then any placeholder shared by several places (left unstamped) and any common-word name.
 
 Feature types include `site` (a marked place smaller than a hill: a shrine, a stone, a burial ground,
@@ -123,6 +125,21 @@ Build 5 (run 04 change list):
   and so does a layer in map.json when the world draft's decision line reads `Underground: none`;
   layers are checked for their form (id under-N, depth, features uNN). `tiles` fails on gaps too.
   `regions-from-paint` cuts region polygons that tile the sheet from a flat-colored label painting (44).
+
+Build 6 (run 05 change list):
+- Names (52): the player's people's home carries the player's name as its map name, marked
+  `"named_by": "player"` on the element (validate fails any other value); it counts as the player's own
+  name, as an alias by "player" does, and lockcheck never treats it as sealed.
+- stamp (56): skips the keeper log and the files a god's agent writes in S/gods/<god>/.
+- describe (61): --landing finds the god's own knowledge file by its label (and says which on stderr);
+  a landing may carry `ground_ft`, the point's own height, which is reported and read as the eye's
+  ground (validate checks it is a number); without it the reading says the height is not given; a
+  wood's edge beyond the near distance shows as a tree line (TREE_FT above its floor).
+- draw --zoom landing (76): a road, path or river known from the landing (seen, or reported with no told
+  shape) is drawn only as far as it is in view from the landing point (the near distance, as describe
+  reads it); a rumor or report keeps its told words over a name the player gave the place (smoke stays
+  smoke); a name the player gave at creation that the sheet shows before it is heard in play is named on
+  the command line and in map-meta.json (`creation_names`), for the first morning's (oog) map line.
 
 The sealed map's regions carry elevation, water, climate and neighbors ({id, days});
 the sheet carries landings (god label to region id), roads and paths (feature types, drawn
@@ -426,24 +443,50 @@ def player_aliases(el):
             and isinstance(a.get("name"), str) and a["name"].strip()]
 
 
+def player_named(el):
+    """True when the place's map name is the player's own, given at creation (`"named_by": "player"`):
+    the player's people's home carries the name the player gave it as its map name, never as an alias
+    (map.md 1.2, build 6 change list 52)."""
+    return el.get("named_by") == "player" and bool((el.get("name") or "").strip())
+
+
+def player_names(el):
+    """Every name the player gave a place at creation: its map name when the player gave it (player_named),
+    then its aliases by "player"."""
+    return ([el["name"]] if player_named(el) else []) + player_aliases(el)
+
+
+def creation_name(el, entry):
+    """The name a sheet shows for a place because the player gave it at creation, not because the god heard
+    it in play (change list 76), or None: the god's heard name is one of the player's names, and the entry is
+    not marked `"named": true` and has no told name."""
+    nm = heard_name(el, entry)
+    if nm is None or (entry or {}).get("named") or ((entry or {}).get("told") or {}).get("name"):
+        return None
+    return nm if nm in player_names(el) else None
+
+
 def heard_name(el, entry):
     """The name the god has for a place (change list 39), or None when it has heard none.
 
-    In order: the Keeper's name when the god has heard it (`"named": true`, set by `reveal --named`); a
-    name the player gave the place itself at creation (an alias `by` "player"), which counts as heard;
-    the name it was told (`told.name`, kept when the place is later seen); for a report that gave no
-    other name, the Keeper's name (the teller named it accurately, map.md 4.2: "told, reported"); else
-    none. Seeing a place gives its ground, never its name, so a seen place with no name heard has none,
+    In order: the Keeper's name when the god has heard it (`"named": true`, set by `reveal --named`); for a
+    rumor or a report, the name it was told (`told.name`: smoke seen from afar keeps its told words, change
+    list 76); a name the player gave the place itself at creation (its map name with `"named_by": "player"`,
+    change list 52, or an alias `by` "player"), which counts as heard; the name it was told (kept when the
+    place is later seen); for a report that gave no other name, the Keeper's name (the teller named it
+    accurately, map.md 4.2: "told, reported"); else none. Seeing a place gives its ground, never its name, so a seen place with no name heard has none,
     and the sheet labels it with nothing."""
     g = grade_of(entry)
     if g == "none":
         return None
     if entry.get("named"):
         return el.get("name")
-    own = player_aliases(el)
+    told = entry.get("told") or {}
+    if g in ("rumored", "reported") and told.get("name"):
+        return told["name"]
+    own = player_names(el)
     if own:
         return own[0]
-    told = entry.get("told") or {}
     if told.get("name"):
         return told["name"]
     return el.get("name") if g == "reported" else None
@@ -649,6 +692,8 @@ def check_world(world):
         if not OPAQUE_RE.match(i):
             probs.append(f"id {i} is not opaque (use r01, f03, u01)")
         probs += alias_problems(el)
+        if "named_by" in el and el["named_by"] != "player":
+            probs.append(f"{i}: named_by must be \"player\" (the map name is the player's own, given at creation)")
     for r, _layer in all_regions(world):
         region_ids.add(r["id"])
         if len(r.get("polygon", [])) < 3:
@@ -687,6 +732,9 @@ def check_world(world):
         at = landing_point(land)
         if at is not None and not is_point(at):
             probs.append(f"landing {god}: point {at!r} is not an [x, y] pair of numbers")
+        g_ft = land.get("ground_ft") if isinstance(land, dict) else None
+        if g_ft is not None and (isinstance(g_ft, bool) or not isinstance(g_ft, (int, float)) or not math.isfinite(g_ft)):
+            probs.append(f"landing {god}: ground_ft {g_ft!r} is not a number of feet")
     size = (world.get("painting") or {}).get("size", [1024, 1024])
     for el, _layer in list(all_regions(world)) + list(all_features(world)):
         pts = el.get("polygon") if "polygon" in el else el.get("coords", [])
@@ -2234,6 +2282,65 @@ def unchanged_since_last_draw(world, paintings_dir, knowledge, out_dir, zoom, wh
     return meta
 
 
+def seen_part(line, at, reach_mi, painting, step_mi=0.05):
+    """The part of a line within reach_mi of the point, as a polyline: the run of the line, sampled every
+    step_mi, that holds the line's nearest point to `at`; None when no part of it is within reach."""
+    total = polyline_length(line)
+    step = step_mi / painting.mpp
+    runs, cur, t = [], [], 0.0
+    while t <= total + 1e-9:
+        p = point_along(line, t)
+        if painting.miles(math.dist(at, p)) <= reach_mi:
+            cur.append(p)
+        elif cur:
+            runs.append(cur)
+            cur = []
+        t += step
+    if cur:
+        runs.append(cur)
+    runs = [r for r in runs if len(r) >= 2]
+    if not runs:
+        return None
+    best = min(runs, key=lambda r: min(math.dist(at, p) for p in r))
+    return [[round(p[0], 2), round(p[1], 2)] for p in best]
+
+
+def landing_lines(world, feats, at, painting):
+    """Change list 76: on the landing sheet a line feature the god knows from its own landing (a road, a path
+    or a river, seen or reported with no told shape) is drawn only as far as it was seen from the landing:
+    the part within the near distance of the landing region's ground (describe's reading). A line with no
+    part in reach is drawn as known."""
+    by_id = index_world(world)
+    land = (world.get("landings") or {}).get("player")
+    rid = land.get("region") if isinstance(land, dict) else land
+    near = NEAR_MILES[openness(by_id[rid][1])] if rid in by_id and by_id[rid][0] == "region" else NEAR_MILES["open"]
+    out, cut = [], []
+    for k in feats:
+        if (k.get("shape") == "line" and k.get("type") in ROUTE_TYPES and k.get("grade") in ("seen", "reported")
+                and len(k.get("coords") or []) >= 2 and k["coords"] == (by_id.get(k["id"], (None, {}))[1].get("coords"))):
+            part = seen_part(k["coords"], at, near, painting)
+            if part:
+                k = dict(k, coords=part)
+                cut.append(k["id"])
+        out.append(k)
+    return out, cut
+
+
+def creation_names_shown(world, knowledge, features_k, regions_k):
+    """(id, name) for each place the sheet labels with a name the player gave at creation and the god has
+    not heard in play (change list 76): the first morning's (oog) map line says why each shows."""
+    by_id = index_world(world)
+    out = []
+    for ident, k in list(regions_k.items()) + [(i, kv[0]) for i, kv in features_k.items()]:
+        if ident not in by_id or k.get("grade") == "rumored":
+            continue
+        table = "regions" if by_id[ident][0] == "region" else "features"
+        nm = creation_name(by_id[ident][1], knowledge.get(table, {}).get(ident))
+        if nm:
+            out.append((ident, nm))
+    return sorted(out)
+
+
 def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
     LAST_NOTES[:] = []
     painting = Painting(world)
@@ -2259,6 +2366,8 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
             else:
                 mark = None
         feats = [k for k in feats if k not in sights]
+        if mark is not None:
+            feats, _cut = landing_lines(world, feats, mark, painting)   # a seen line only as far as seen (76)
         extra = sighting_note(sights) if sights else []
         view, notes = make_view(rect, legend + extra + beyond_notes(view, regions_k, features_k, None, skip={k["id"] for k in sights}))
         im = draw_sheet(world, painting, paintings_dir, "surface.png", surface_regions, feats, view, f"{name}: the god's map", notes,
@@ -2299,6 +2408,10 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
     def frame_cells(rect):
         return f"{painting.cell_of((rect[0], rect[1]))}:{painting.cell_of((rect[2] - 1, rect[3] - 1))}"
 
+    shown = creation_names_shown(world, knowledge, features_k, regions_k) if zoom == "landing" else []
+    if shown:
+        LAST_NOTES.append("names the player gave at creation, shown before the god has heard them in play (the first "
+                          "morning's (oog) map line says why each shows): " + ", ".join(f"{n} ({i})" for i, n in shown))
     meta = {"frames": {k: frame_cells(rect) for k, rect in frames.items()},
             "grid": [painting.ncols, painting.nrows], "sheet_miles": [round(painting.miles(v)) for v in painting.size],
             "zoom": zoom or "full",
@@ -2307,6 +2420,7 @@ def draw_sheets(world, paintings_dir, knowledge, out_dir, zoom, which):
             "regions_drawn": {g: sum(1 for k in regions_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "features_drawn": {g: sum(1 for k, _ in features_k.values() if k["grade"] == g) for g in ("seen", "reported", "rumored")},
             "drawn": pacific_today(), "files": [os.path.basename(w) for w in written],
+            "creation_names": [{"id": i, "name": n} for i, n in shown],
             "input_hash": inputs_hash(world, paintings_dir, knowledge, zoom, which)}
     save_json(os.path.join(out_dir, "map-meta.json"), meta)
     return written
@@ -2674,7 +2788,16 @@ def migrate(world, knowledge, painting):
 
 # ---------------------------------------------------------------- stamp
 
-STAMP_SKIP = {"LOCKED.md"}
+STAMP_SKIP = {"LOCKED.md", "keeper-log.md"}   # the keeper log is a record, never stamped (change list 56)
+# Files a god's own agent writes in S/gods/<god>/ (the creation runbook): its own words, never stamped (56).
+GOD_WRITTEN_RE = re.compile(r"^(?:survey-day1|self|goals|record-of-gods|people-hoped|negotiation-night\w*|decisions-\d+)\.md$")
+
+
+def is_god_written(rel):
+    """True for a file a god's agent writes: S/gods/<god>/<one of GOD_WRITTEN_RE>, by its path relative to
+    the sealed folder."""
+    parts = rel.replace(os.sep, "/").split("/")
+    return len(parts) == 3 and parts[0] == "gods" and GOD_WRITTEN_RE.match(parts[2]) is not None
 
 
 STAMP_NOTES = []   # notes from the last stamp (placeholder labels shared by several places, left unstamped)
@@ -2764,7 +2887,8 @@ def stamp_text(text, names):
 
 def stamp(campaign, sealed_dir, world, dry_run=False):
     """Stamp every .md file in the sealed campaign folder. Never reads or writes the public folder.
-    Skips the checker's flags files and LOCKED.md. Returns (files changed, names stamped, per-file counts)."""
+    Skips the checker's flags files, LOCKED.md, the keeper log and the files a god's agent writes in
+    S/gods/<god>/ (change list 56). Returns (files changed, names stamped, per-file counts)."""
     sealed_dir = os.path.abspath(sealed_dir)
     public = os.path.abspath(os.path.join(ROOT, "campaigns", campaign))
     names = stamp_names(world)
@@ -2777,6 +2901,8 @@ def stamp(campaign, sealed_dir, world, dry_run=False):
             path = os.path.join(dirpath, fn)
             if not fn.endswith(".md") or fn in STAMP_SKIP or re.match(r"^lock-flags.*\.md$", fn):
                 continue
+            if is_god_written(os.path.relpath(path, sealed_dir)):
+                continue  # a god's own words, as it wrote them (change list 56)
             if os.path.commonpath([os.path.abspath(path), public]) == public:
                 continue  # never the public folder
             with open(path, encoding="utf-8") as f:
@@ -3480,21 +3606,29 @@ class Namer:
         return self.scrub(str(v))
 
 
+def god_knowledge_path(campaign, god, sealed_dir):
+    """A god's own map knowledge file, by its label: the player's public file, or S/gods/<god>/map-knowledge.json."""
+    if god == "player":
+        return os.path.join(ROOT, "campaigns", campaign, "player", "map-knowledge.json")
+    return os.path.join(sealed_dir, "gods", god, "map-knowledge.json")
+
+
 def god_knowledge(campaign, god, sealed_dir):
     if god in (None, ""):
         return None
-    if god == "player":
-        p = os.path.join(ROOT, "campaigns", campaign, "player", "map-knowledge.json")
-    else:
-        p = os.path.join(sealed_dir, "gods", god, "map-knowledge.json")
-    return load_json(p, default={"regions": {}, "features": {}})
+    return load_json(god_knowledge_path(campaign, god, sealed_dir), default={"regions": {}, "features": {}})
 
 
 SMOKE_MILES = SKYLINE_MILES   # a settlement's smoke, walls or lights show out to the forty-mile skyline
 PLAIN_VIEW_MILES = NEAR_MILES["open"]   # within this a settlement is never missed (change list 40)
 
 
-def describe(world, region_id=None, at=None, knowledge=None, all_names=False, label=None, reference=True, data=None):
+TREE_FT = 60.0   # a wood's tree line stands about this far above its own floor (change list 61)
+WOOD_TERRAIN = {"forest", "wood", "woods", "woodland", "jungle"}
+
+
+def describe(world, region_id=None, at=None, knowledge=None, all_names=False, label=None, reference=True, data=None,
+             ground_ft=None):
     """A land description read off the map data: the region's terrain, elevation, water and climate;
     its neighbors with travel days and directions; what is in view from the point and the sight line.
 
@@ -3522,6 +3656,12 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
       runs inside a region (change list 58): which region a thing stands in never hides it.
     - A mountain feature is read as the highest region it touches. Nothing underground is seen.
     - Distances under 0.2 miles are given in yards; a thing at the point itself has no bearing (74).
+    - The standing ground (change list 61): a landing's own height, `ground_ft` on the landing in map.json,
+      is reported and is the eye's ground; without it the reading takes the region's figure as above and
+      says that the point's own height is not set.
+    - Wood edges (change list 61): a forest region or forest area beyond the near distance shows as a tree
+      line, TREE_FT above its own floor, out to sight_miles of that height above the eye's ground (from a
+      floor), or to the forty-mile skyline (from a height or a coast), unless ground between hides it.
 
     With `data` (a dict), the same reading is filled in as data for `describe --json`: miles, bearings,
     grid cells and ids, with names as the god has learned them; never a pixel."""
@@ -3587,6 +3727,15 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
     kind = viewpoint(region)
     near = NEAR_MILES[openness(region)]
     eye_ground = floor if kind == "floor" else top
+    if isinstance(ground_ft, (int, float)) and not isinstance(ground_ft, bool):
+        eye_ground = int(round(ground_ft))
+        out.append(f"Standing ground: about {eye_ground:,} feet at the point (the landing's own height).")
+        D["standing_ft"] = eye_ground
+    else:
+        out.append(f"Standing ground: the point's own height is not given; the region runs "
+                   f"{floor:,} to {top:,} feet, and the sight line reads its {'lowest' if kind == 'floor' else 'highest'} figure.")
+        D["standing_ft"] = None
+    out.append("")
     cap = None if kind == "floor" else SKYLINE_MILES
     out.append(f"Sight line ({VIEW_WORDS[kind]}): a tall mortal's eye, {EYE_FT:g} feet above ground at about {eye_ground:,} feet, "
                f"sees level ground out to {fmt_miles(sight_miles(0))}; things at ground level are in view within {fmt_miles(near)} "
@@ -3671,6 +3820,30 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
                 if d <= PLAIN_VIEW_MILES or not blocker(world, at, p, tgt + 30, eye_ground, region_id, home, painting):
                     smoke.append((d, f"- {names.generic(f['id'])}, {dist_dir(d, *dxy)}: its smoke, walls or lights only, not the place itself."))
                     D["smoke"].append({"id": f["id"], "name": names.generic(f["id"]), "miles": round(d, 2), "bearing": dirn})
+    # wood edges: a tree line stands above the ground it grows on (change list 61)
+    woods = [(r["id"], r["polygon"], parse_elevation(r)[0], r["id"]) for r, _layer in all_regions(world)
+             if r["id"] != region_id and terrain_word(r) in WOOD_TERRAIN]
+    for f, layer in all_features(world):
+        if layer is None and f.get("type") == "forest" and f.get("shape") == "area" and len(f.get("coords") or []) >= 3:
+            home = [r for r in f.get("regions", []) if r in by_id and by_id[r][0] == "region"]
+            woods.append((f["id"], f["coords"], parse_elevation(by_id[home[0]][1])[0] if home else eye_ground, home))
+    D["wood_edges"] = []
+    for wid, poly, wfloor, skip in woods:
+        if point_in_poly(at[0], at[1], poly):
+            continue   # the god stands in the wood
+        d_px, foot = dist_to_poly_edge(at, poly)
+        d = mi(d_px)
+        if d <= near:
+            continue   # within the near distance it is in view already, as ground or as a feature
+        crown = wfloor + TREE_FT
+        reach = sight_miles(max(crown - eye_ground, 0)) if cap is None else cap
+        if d > reach or blocker(world, at, foot, crown, eye_ground, region_id, skip, painting):
+            continue
+        dirn = bearing_or_none(d, foot[0] - at[0], foot[1] - at[1])
+        in_view.append((d, f"- {names.name(wid)} (forest), its wood edge {dist_dir(d, foot[0] - at[0], foot[1] - at[1])}: "
+                           f"a tree line, trees about {TREE_FT:g} feet tall, seen to {fmt_miles(reach)}."))
+        D["wood_edges"].append({"id": wid, "name": names.name(wid), "miles": round(d, 2), "bearing": dirn,
+                                "reach_miles": round(reach, 2)})
     out.append("")
     out.append("In view from the point:" if in_view else "In view from the point: nothing beyond the region's own ground.")
     out += [t for _d, t in sorted(in_view, key=lambda x: x[0])]
@@ -3911,11 +4084,15 @@ def main(argv=None):
                 sys.exit(f"map.py: no landing for {args.landing!r} in the sealed map")
             rid = land.get("region") if isinstance(land, dict) else land
             at = landing_point(land)
-            kn = load_json(args.knowledge, default={"regions": {}, "features": {}}) if args.knowledge \
-                else god_knowledge(args.campaign, args.landing, sealed)
+            # the god's own knowledge file, found by its label (change list 61); --knowledge overrides
+            kpath = args.knowledge or god_knowledge_path(args.campaign, args.landing, sealed)
+            kn = load_json(kpath, default={"regions": {}, "features": {}})
+            print(f"names as {args.landing} knows them, from {os.path.relpath(kpath, ROOT)}"
+                  + ("" if os.path.exists(kpath) else " (no such file: every name is put plainly)"), file=sys.stderr)
+            ground = land.get("ground_ft") if isinstance(land, dict) else None
             label = f"Landing of {args.landing}"
         else:
-            rid, at = args.region, None
+            rid, at, ground = args.region, None, None
             kn = load_json(args.knowledge, default={"regions": {}, "features": {}}) if args.knowledge \
                 else god_knowledge(args.campaign, args.god, sealed)
             label = f"Region {rid}"
@@ -3924,7 +4101,8 @@ def main(argv=None):
         if at is not None and not is_point(at):
             sys.exit(f"map.py: the landing point {at!r} is not an [x, y] pair of numbers")
         data = {}
-        text = describe(world, rid, at, kn, args.names, label, reference=bool(args.reference or not args.landing), data=data)
+        text = describe(world, rid, at, kn, args.names, label, reference=bool(args.reference or not args.landing), data=data,
+                        ground_ft=ground)
         if args.json:
             if not (args.reference or not args.landing):
                 data.pop("neighbors", None)

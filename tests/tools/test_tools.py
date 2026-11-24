@@ -1810,3 +1810,241 @@ def test_stamp_time():
     code, out, _ = run_quiet(stamp_time.main, [])
     assert code == 0 and len(out.strip()) == 16 and out.strip()[:10] == mapt.pacific_today()
     assert run_quiet(stamp_time.main, ["--soon"])[0] == 2
+
+
+# ---------------------------------------------------------------- build 6 (run 05 change list)
+
+def test_build6_lockcheck_fractions_are_not_counts():
+    """Item 23: a number word before a fraction word, or a numeral fraction, is no count of gods."""
+    assert lockcheck.count_hits("The god's reach falls to three quarters of a day's walk.") == []
+    assert lockcheck.count_hits("Two thirds of what the god holds.") == []
+    assert lockcheck.count_hits("The god keeps 3/4 of the toll.") == []
+    assert lockcheck.count_hits("Four fifths of the measure, says the god.") == []
+    assert lockcheck.count_hits("Three gods came down.")   # a count still hits
+    assert lockcheck.count_hits("Three of us fell, and a quarter of the sky with us.")
+
+
+def test_build6_lockcheck_releases():
+    """Item 37: the Keeper's releases and the Day 3 brief against the world draft's scarcities (warned,
+    by sentence, beside a word of scarcity) and the kept sealed terms (failed)."""
+    with tmpcopy() as repo:
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/world-draft.md",
+               "# World draft\n- Scarcities: salt, first; good iron, second. Trust is dear.\n"
+               "- Local shortages: clean water (unplaced); seed that breeds true (unplaced).\n")
+        c = lockcheck.Campaign(repo, "fx")
+        assert lockcheck.world_scarcities(c) == ["salt", "iron", "water", "seed"]
+        code, out, _ = lock(repo, "--releases")
+        assert code == 0 and "releases: 0 failure(s), 0 warning(s)" in out
+        rel = "SPOILERS_do_not_open/campaigns/fx/releases/creation/god-tide-night2.md"
+        append(repo, rel, "Salt is scarce in this land. You taste salt on your lips.\n")
+        append(repo, "campaigns/fx/player/day3-brief.md", "The road is old. Iron came short last year.\n")
+        code, out, _ = lock(repo, "--releases")
+        assert code == 0 and 'god-tide-night2.md:1: names the world scarcity "salt"' in out
+        assert 'day3-brief.md:1: names the world scarcity "iron"' in out and "releases: 0 failure(s), 2 warning(s)" in out
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt", "!Weight of Debt\n")
+        append(repo, rel, "Your Weight of Debt grows.\n")
+        code, out, _ = lock(repo, "--releases")
+        assert code == 1 and 'god-tide-night2.md:2: kept sealed term "Weight of Debt"' in out
+
+
+def test_build6_lockcheck_people_names_in_knowledge():
+    """Item 55: another people's name in a people's knowledge file passes only if told to them in their record."""
+    know = "campaigns/fx/civs/tallowfolk/knowledge.md"
+    with tmpcopy() as repo:
+        os.makedirs(os.path.join(repo, "SPOILERS_do_not_open/campaigns/fx/civs/orvanne"))
+        append(repo, know, "Traders from the Orvanne come at midsummer.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'knowledge.md:1: people\'s name "Orvanne", not told to the tallowfolk in their record' in out
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/civs/tallowfolk-sealed.md", "They trade with the Orvanne.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 0, out
+        append(repo, "campaigns/fx/player/notes.md", "The Orvanne.\n")   # elsewhere it still fails
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "notes.md" in out and "knowledge.md" not in out, out
+    with tmpcopy() as repo:   # a sealed term that is no people's name fails there as before
+        append(repo, know, "They fear Vessaline.\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/civs/tallowfolk/record.md", "Vessaline.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'knowledge.md:1: sealed term "Vessaline"' in out
+
+
+def test_build6_lockcheck_cast_pointers():
+    """Item 71: a cast being with a Limit: line is in no mystery marked Answers questions: no; every pointer resolves."""
+    cast = "SPOILERS_do_not_open/campaigns/fx/cast.md"
+    with tmpcopy() as repo:
+        append(repo, cast, "Mysteries: S03.\n")
+        assert lock(repo, "--mysteries")[0] == 0
+        append(repo, cast, "\n## The bell-ringer\nA mortal. Mysteries: E01, L01.\n")
+        assert lock(repo, "--mysteries")[0] == 0   # no limit: it answers nothing, and may be in a "no" mystery
+    with tmpcopy() as repo:
+        append(repo, cast, "Mysteries: S03, E01.\n")
+        code, out, _ = lock(repo, "--mysteries")
+        assert code == 1 and '"The Drowned Choir [f02]" has a Limit: line (it answers questions) and is in E01' in out
+        assert "is in S03" not in out
+    with tmpcopy() as repo:
+        append(repo, cast, "Mysteries: X09.\n")
+        code, out, _ = lock(repo, "--mysteries")
+        assert code == 1 and "Mysteries: names X09, which is not a mystery" in out
+
+
+def test_build6_timing_file_is_sealed():
+    """Item 74: lockcheck warns on a public timing file and scans it for nothing else; check.py reads the
+    sealed timing file, and an older campaign's public one when there is no sealed one."""
+    with tmpcopy() as repo:
+        assert "is public" not in lock(repo, "--leaks")[1]
+        append(repo, "campaigns/fx/state/timing.md", "- 2026-11-20 first clock reading, round 2 of the lock.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 0 and "WARN leaks: campaigns/fx/state/timing.md is public" in out
+    conflict = "- 2026-11-22 01:45 the world waited.\n- 2026-11-22 03:00 clock advanced\n"
+    for where in ("SPOILERS_do_not_open/campaigns/fx/state/timing.md", "campaigns/fx/state/timing.md"):
+        with tmpcopy() as repo:
+            append(repo, where, conflict)
+            code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])
+            assert "timing: 2026-11-22 has both a waited line and a clock advance" in out, (where, out)
+    with tmpcopy() as repo:   # the sealed file wins over an older public one
+        append(repo, "campaigns/fx/state/timing.md", conflict)
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/state/timing.md", "- 2026-11-22 01:45 the world waited.\n")
+        assert "timing:" not in run_quiet(check.main, ["fx", "1", "--root", repo])[1]
+
+
+def test_build6_roll_weighted_draw():
+    """Item 63: a weighted draw over 1..T, bands in the order given, logged with the outcome."""
+    b, total = roll.bands([("a", 10), ("b", 0), ("c", 5)])
+    assert total == 15 and [x["band"] for x in b] == [[1, 10], None, [11, 15]]
+    assert [roll.chosen(b, r) for r in (1, 10, 11, 15)] == ["a", "a", "c", "c"]
+    for bad in (["a"], ["a=x"], ["a=1", "a=2"], ["a=0"], ["=3"], ["a=-1"]):
+        try:
+            roll.parse_weights(bad)
+            assert False, bad
+        except ValueError:
+            pass
+    d = tempfile.mkdtemp()
+    try:
+        log = os.path.join(d, "rolls.jsonl")
+        seen = set()
+        for _ in range(60):
+            code, out, _ = run_quiet(roll.main, ["--log", log, "--who", "k", "--what", "storm", "--weight", "a=3", "--weight", "b=0", "--weight", "c=1"])
+            e = read_lines(log)[-1]
+            assert e["mode"] == "weighted" and e["of"] == 4 and 1 <= e["roll"] <= 4
+            assert e["outcome"] == ("a" if e["roll"] <= 3 else "c")
+            seen.add(e["outcome"])
+        assert "b" not in seen
+        e = read_lines(log)[0]
+        run_quiet(roll.main, ["--log", log, "--who", "k", "--what", "storm", "--weight", "a=1", "--weight", "c=1",
+                              "--reason", "a people already struck", "--replaces", e["id"]])
+        last = read_lines(log)[-1]
+        assert last["replaces"] == e["id"] and last["reason"] == "a people already struck"
+        for bad in (["--die", "d6"], ["--factor", "x=+10"]):
+            assert run_quiet(roll.main, ["--log", log, "--who", "k", "--what", "x", "--weight", "a=1", *bad])[0] != 0
+    finally:
+        shutil.rmtree(d)
+
+
+def test_build6_player_given_map_name():
+    """Item 52: the player's people's home carries the player's name as its map name ("named_by": "player"),
+    which counts as the player's own: heard, and never a leak."""
+    w = small_world()
+    w["features"][0]["named_by"] = "player"
+    assert mapt.check_world(w) == []
+    seen = {"grade": "seen", "source": "landing", "year": 1}
+    assert mapt.heard_name(w["features"][0], seen) == "Oskby"
+    assert mapt.heard_name(w["features"][3], seen) is None
+    w["features"][3]["named_by"] = "the Keeper"
+    assert any("named_by must be" in p for p in mapt.check_world(w))
+    with tmpcopy() as repo:
+        wp = os.path.join(repo, "SPOILERS_do_not_open/campaigns/fx/map.json")
+        append(repo, "campaigns/fx/player/notes.md", "Brackwater Hold stands empty.\n")
+        assert lock(repo, "--leaks")[0] == 1   # a place it never heard of
+        world = json.load(open(wp))
+        next(f for f in world["features"] if f["id"] == "f05")["named_by"] = "player"
+        json.dump(world, open(wp, "w"))
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 0, out
+
+
+def test_build6_stamp_skips_god_written_files_and_the_log():
+    """Item 56: stamp never touches a god's own files in S/gods/<god>/ or the keeper log."""
+    with tmpcopy() as repo:
+        world_p, _ = fx_paths(repo)
+        S = os.path.dirname(world_p)
+        skipped = ["gods/god-tide/people-hoped.md", "gods/god-tide/self.md", "gods/god-tide/survey-day1.md",
+                   "gods/god-tide/negotiation-night3.md", "gods/god-tide/decisions-002.md", "keeper-log.md"]
+        for rel in skipped + ["gods/god-tide/sheet.md", "notes.md"]:
+            append(repo, f"SPOILERS_do_not_open/campaigns/fx/{rel}", "Tallowford is near.\n")
+        _changed, _total, per = mapt.stamp("fx", S, json.load(open(world_p)))
+        done = {r for r, _n in per}
+        assert done == {"gods/god-tide/sheet.md", "notes.md"}, done
+        for rel in skipped:
+            assert open(os.path.join(S, rel)).read() == "Tallowford is near.\n"
+    assert mapt.is_god_written("gods/god-x/goals.md") and not mapt.is_god_written("gods/god-x/power-card.md")
+    assert not mapt.is_god_written("gods-sealed/god-x/self.md")
+
+
+def test_build6_describe_standing_height_wood_edges_and_knowledge():
+    """Item 61: the standing height (ground_ft), wood edges as a tree line, and the god's own knowledge file by label."""
+    w = small_world()
+    land = w["landings"]["player"]
+    t = mapt.describe(w, "r01", mapt.landing_point(land), None, reference=False)
+    assert "Standing ground: the point's own height is not given; the region runs 1,000 to 1,400 feet" in t
+    t2 = mapt.describe(w, "r01", mapt.landing_point(land), None, reference=False, ground_ft=1180)
+    assert "Standing ground: about 1,180 feet at the point" in t2 and "at about 1,180 feet, sees" in t2
+    # a wood 8 miles west, on ground as low as the eye's: its tree line shows (sight_miles(60 - 0) is about 12.4)
+    w["features"].append({"id": "f09", "name": "Ash Holt", "type": "forest", "shape": "area",
+                          "coords": [[2, 40], [16, 40], [16, 60], [2, 60]], "regions": ["r01"]})
+    data = {}
+    t3 = mapt.describe(w, "r01", mapt.landing_point(land), None, reference=False, data=data)
+    assert "a forest (forest), its wood edge about 8 miles west: a tree line, trees about 60 feet tall" in t3, t3
+    assert data["wood_edges"][0]["id"] == "f09"
+    w["features"][-1]["coords"] = [[2, 40], [5, 40], [5, 60], [2, 60]]   # 30 miles off: past the tree line's reach
+    assert "wood edge" not in mapt.describe(w, "r01", mapt.landing_point(land), None, reference=False)
+    land["ground_ft"] = "high"
+    assert any("ground_ft" in p for p in mapt.check_world(w))
+    # the command line finds a god's own knowledge file by its label and says which
+    with tmpcopy() as repo:
+        world_p, _ = fx_paths(repo)
+        kdir = os.path.join(os.path.dirname(world_p), "gods", "god-tide")
+        os.makedirs(kdir, exist_ok=True)
+        json.dump({"regions": {"r02": {"grade": "seen", "source": "landing", "year": 1, "named": True}}, "features": {}},
+                  open(os.path.join(kdir, "map-knowledge.json"), "w"))
+        code, out, err = run_quiet(mapt.main, ["describe", "fx", "--world", world_p, "--landing", "god-tide"])
+        assert code == 0 and out.startswith("Landing of god-tide: Saltmarsh Reach"), out + err
+        assert "names as god-tide knows them, from" in err and "gods/god-tide/map-knowledge.json" in err
+
+
+def test_build6_landing_lines_and_creation_names():
+    """Item 76: on the landing sheet a line the god knows from its landing is drawn only as far as seen;
+    smoke keeps its told words over the player's name; a creation name shown is named for the (oog) line."""
+    w = small_world()
+    painting = mapt.Painting(w)
+    at = mapt.landing_point(w["landings"]["player"])
+    part = mapt.seen_part(w["features"][1]["coords"], at, 2.0, painting)
+    assert part and all(painting.miles(math.dist(at, p)) <= 2.0 + 1e-6 for p in part)
+    assert painting.miles(mapt.polyline_length(part)) < 4.1
+    k = {"regions": {"r01": {"grade": "seen", "source": "landing", "year": 1, "named": True}},
+         "features": {"f02": {"grade": "reported", "source": "own sight at landing", "year": 1, "told": {"name": "a quick river"}}}}
+    _r, feats = mapt.gather(w, k, painting)
+    clipped, cut = mapt.landing_lines(w, [kv[0] for kv in feats.values()], at, painting)
+    assert cut == ["f02"] and len(clipped[0]["coords"]) < 100 and clipped[0]["coords"] != w["features"][1]["coords"]
+    # smoke seen from afar: its told words, not the name the player gave the place
+    w["features"][0]["aliases"] = [{"name": "Homefire", "by": "player", "since": "creation Day 3"}]
+    smoke = {"grade": "rumored", "source": "own sight at landing", "year": 1, "told": {"name": "smoke to the north", "cell": "B2", "bearing": "north"}}
+    assert mapt.heard_name(w["features"][0], smoke) == "smoke to the north"
+    seen = {"grade": "seen", "source": "landing", "year": 1}
+    assert mapt.heard_name(w["features"][0], seen) == "Homefire" and mapt.creation_name(w["features"][0], seen) == "Homefire"
+    assert mapt.creation_name(w["features"][0], dict(seen, named=True)) is None
+    k["features"]["f01"] = seen
+    rk, fk = mapt.gather(w, k, painting)
+    assert mapt.creation_names_shown(w, k, fk, rk) == [("f01", "Homefire")]
+    d = tempfile.mkdtemp()
+    try:
+        make_paintings(d)
+        wp, kp, out = os.path.join(d, "map.json"), os.path.join(d, "k.json"), os.path.join(d, "out")
+        json.dump(w, open(wp, "w"))
+        json.dump(k, open(kp, "w"))
+        code, o, e = run_quiet(mapt.main, ["draw", "t", "--world", wp, "--knowledge", kp, "--out", out, "--paintings", d, "--zoom", "landing"])
+        assert code == 0, o + e
+        meta = json.load(open(os.path.join(out, "map-meta.json")))
+        assert meta["creation_names"] == [{"id": "f01", "name": "Homefire"}]
+        assert "names the player gave at creation" in o and "Homefire (f01)" in o
+    finally:
+        shutil.rmtree(d)
