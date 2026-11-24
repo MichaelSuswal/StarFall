@@ -10,10 +10,12 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
   Confirmations: none yet.
 - 2026-11-24, creation Day 2 (same reply): "I do not want to find the house again, and I do not want anyone else to either."
   Confirmations: none yet.
+- 2026-11-24, creation Day 3 (a sealed part of the first reply): "I want the Clerk of the Seals to be someone I can trust, and I will be watching to see whether they are. I have a feeling about that office. Seals are how I feel broken promises, so whoever keeps the register will know before anyone else who is lying."
+  Confirmations: none yet.
 
 ## Fear
 
-None given.
+- 2026-11-24, creation Day 3 (same reply): "I am afraid of being the one that register catches."
 
 ## Request not to be told
 
@@ -32,3 +34,4 @@ None given.
 
 - 2026-11-24: Two open conduct lines carry "check with the player before acting" because of this file: the hall where anyone may check a scale against the god's own, and anything to do with the lost house, the lost name or the debt.
 - 2026-11-24: Day 1 carried no sealed request, and `requests-answered.md` did not exist at the start of Day 2.
+- 2026-11-24, Day 3: The Day 3 sealed part was one reply of two kinds, split above into a want and a fear, the player's words kept whole between them. The open conduct line on the Clerk of the Seals (close to the god, the office it would license first) carries "check with the player before acting" because of it.

@@ -37,3 +37,43 @@ I would also like a handful of factors, two or three to start, who go out with s
 **Things I want, with no demand attached.** I would like a name for the town. I will let the people choose it, and I will not suggest one. I would also like to hear what the people believe about the empty ground to the hills, and whether there is an old road. I said yesterday that I wanted old roads, and the DM said the world decides, so I will wait and see.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+The voice takes all of it in, the way a clerk takes a long reckoning, and does not hurry.
+
+(oog) Most of that is ordinary culture and costs nothing, so I will say what I ruled and then ask what is left, in one round.
+
+Not priced: the four trades and how they live, the bloomery, the fired clay weights, the notched sticks and fixed baskets, the council in its ring, the drum, and the split tally as your first law. "Good with small numbers, quick to notice short measure, proud of being hard to cheat" is a habit of a market people and I am taking it as that: a temper, able to fail, not a guarantee that they cannot be cheated. If you want the guarantee, say so and I will price it as an edge.
+
+Recorded as wishes, for the world to place: that they were pushed together by floods and that the market is older than any lord (their belief about themselves, until the night reconciles it); the house on the highest firm bank where a main track meets a main channel; a ship-owner from the open water, which supposes ships and somewhere for them to go; ore and charcoal from the hills. Naming a place for the house does not put a bank there. What the people believe about the ground toward the hills, and whether there is an old road, I cannot tell you today. It is on the list for the night, and you will hear it from a mortal's mouth or see it.
+
+On the three offices: you have set who each holder is, patient and humorless, practical and well liked, close to you. That is who they are, never what they will do. Each can fail you in play.
+
+Two things about the Clerk and the factors, from your card. First, no mortal feels a breaking. Only you do, and you know which seal and which party, never where or why. So the Clerk cannot send you word that a seal has broken. The word runs the other way: you tell the Clerk, and the register is where your knowing is matched to terms, which you do not have for a factor's seal until you are told them. Second, a licence is given face to face and sleeps until you give it in play, so nobody holds one when you land. The Clerk and three factors would be all four.
+
+And one about the hall. A scale tested by the Warden while you are away is an honestly tested scale and nothing more. Only one checked against your own scales, with you within a few paces, is a true scale as the card means it, the kind you gather at if your body is broken.
+
+The wind has a smell now, mud and smoke and salt. The voice goes on.
+
+"Are they what you are, to look at? Mortal folk of the common kind, or some other?"
+
+"You named what they are proud of. Name what is always so of them. What do they honor, and what would the worst of them still not do?"
+
+"Is there any among them who works a thing that cannot be done by hand? It is simple where it exists, and it costs the one who works it. If you want such a one in your town, say who, what they do, and what it takes from them."
+
+"What do they say of gods, on the morning before you come?"
+
+"Now the hinge. When your feet touch that bank, does the house already stand with the hall in it, do the eleven already sit, do the Warden, the Reeve and the Clerk already hold their offices and know whose they are? Were they waiting for something? Or do you come to a market that has never heard of you?"
+
+"The Reeve keeps the watch. How many carry a spear for the town, when it comes to that?"
+
+"The Reeve settles buyer and seller, and you rule on measure. Who settles the rest, a death, a boundary, a marriage gone bad, between a salt-raker and a hill family who share no kin?"
+
+"You will put your mark into other hands. What does one of them give up to carry it, and what do you ask in return?"
+
+"A stranger comes to your hall with a scale under one arm. Do they pay? And if the scale fails, what is done with it?"
+
+"Among these people there may be some who are owed labor, or who owe it. What do you make of them?"
+
+(oog) Last, the names. Their name as a people, and the town's, are yours to give. Nobody else gives them: if you leave the town unnamed, it stays "the town" in every record until a mortal names it in play, which sounds like what you want. Say so, and say whether the people have a name for themselves or wait for one the same way. As always, any part of your answer can go under SEALED:.
