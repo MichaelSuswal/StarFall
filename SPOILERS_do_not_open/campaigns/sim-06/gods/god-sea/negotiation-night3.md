@@ -15,3 +15,7 @@ Accept. About one hundred and fifty, a levy drilled some days a year, ordinary a
 
 ### Their magic
 Accept. One or two who work a small thing, written in their record, each bearing her own cost, ordinary and no edge. I ask nothing of them and do not ask to be told who they are.
+
+## Round 2 reply
+
+Confirmed. The landing as designed, not yet serving, the spears as a levy of about one hundred and fifty, and the one or two small workers of magic stand as written. I owe no weakness and ask for no change.

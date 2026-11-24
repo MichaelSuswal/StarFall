@@ -12,3 +12,7 @@ Accept as drafted. The sitters are ordinary in this world and each pays her own 
 
 ### Nothing else
 No edge was proposed and none is asked. Nothing else is reopened.
+
+## Round 2 reply
+
+Confirmed. The landing is as I meant it: a stranger to a people who do not know me, no helpers in fact until an office is won in play, and the cost carried plainly. The spears and the sitters stand as written. No edge was proposed, no weakness is owed, and nothing is reopened. I leave the place of their town and ground to the world and the map.

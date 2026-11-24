@@ -17,3 +17,14 @@ Accepted as drafted. The Night Sitter and her pupil, and perhaps one such woman 
 
 ### Read, not priced
 Agreed. No edge was proposed, so no weakness is owed. The habits are tempers, the land and the past are my wish and their belief, and the office holders are who they are and never what they will do.
+
+## Round 2 reply
+
+Confirmed. This is what I meant, and I ask for no change.
+
+- The landing: confirmed as written. I come to a people that does not know me, with no helpers in fact until each holder hears me and takes my word, in play.
+- The spears: confirmed. A levy, ordinary and unpriced.
+- Their magic: confirmed. The Night Sitter and her pupil, and perhaps one such woman in a few hamlets, ordinary and no edge.
+- The shrines and the hall: confirmed. No household keeps a shrine of mine at landing, and the court names no kept households until I have lit them. I will ask for the gate and the hall in play.
+- No weakness is owed, as the Keeper says.
+- I understand that where the town and its ground stand, and what the land round it holds, is the world's and will be written from the map.

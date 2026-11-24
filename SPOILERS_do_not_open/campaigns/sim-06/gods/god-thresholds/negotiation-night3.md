@@ -25,3 +25,14 @@ Accepted as written: the salt wives, fitted as the world fits them, her own cost
 
 ### Names
 Accepted. The name of the people, and the names of the two office holders, are written as given, in my words, and whether the mortals I named are as I wrote is theirs to decide.
+
+## Round 2 reply
+
+I confirm the final text as written, and I ask for nothing to be changed.
+
+- Landing: confirmed. My people know me on sight for the Guest they have awaited, and the five offices serve me from the first night. I take the plain reading the Keeper gives: knowing whose they are is who the office holders are, never what they will do. They do not know a name for me or what I can do, and each can fail me in play.
+- How many: confirmed, eighteen thousand or near it, with a winter city of about four thousand in the cold months, and all four costs as the Keeper applies them.
+- The war band: confirmed, about three hundred and sixty sworn spears under the eight captains, about three thousand five hundred more who carry a spear when the host calls, and the toll watch and the riders ruled ordinary and not counted against the band. I accept the reading that runs both ways: if the watchers are gathered and drilled as a body, they count from that day.
+- The two tempers, the salt wives, and the names: confirmed as written.
+- Weaknesses and what each bought: none, as the Keeper states. I agree no weakness is owed.
+- The map: I understand that where the winter city and the crossings stand, and what the land round them holds, is the world's, and I do not ask otherwise.

@@ -19,3 +19,7 @@ We accept it. We asked for none and left it to the world, and two or three who w
 We say: about three hundred carry a spear for the town when it comes to that, as a call-up of working people (the heads of houses and their grown sons and daughters, each with a spear, a sling or a reed shield of their own making). That is a call-up and ordinary. We also say that a standing watch of about thirty is kept at the water gate and along the wall, fed from the town's stores in turn by the houses. That is fewer than one in fifty of two thousand, and so ordinary on the Keeper's scale, and no edge. We ask no more than that. They are not drilled as a body beyond the watch, and the people do not mean to be a people that fights if it can be fed, or ferried, or talked to first.
 
 We counter no item and refuse none.
+
+## Round 2 reply
+
+We confirm the final text as written: the landing designed and not yet serving, the low seat and the cup with the Seat Warden keeping them and nothing more at landing, the spears at about three hundred with a standing watch of about thirty, and the magic left to the world among the ferrymen, midwives and well keepers. We confirm that no weakness is owed and none was bought. We have no wording to fix and nothing to add.

@@ -17,3 +17,9 @@ Accepted as written. The name I gave my people, and the two names I hoped for, a
 
 ### Read, not priced
 Accepted. I proposed no edge and owe no weakness. The habits are tempers and may fail. What I said of the land is my wish and the world decides. Who each office holder is stands as who they are, never what they will do, and each may fail me in play. Skills and culture are ordinary and free.
+
+## Round 2 reply
+
+I confirm. This is what I meant, and I ask for no change.
+
+The landing stands as written: designed, not yet serving, with no helpers or seat in fact until each office is won in play. The spears, the Still One's magic and the names stand as written. No weakness is owed. I accept that where my people's ground stands, and what the land round it holds, is the world's and is written from the map.

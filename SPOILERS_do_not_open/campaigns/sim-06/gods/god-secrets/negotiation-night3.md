@@ -14,3 +14,16 @@ Accept as drafted. A hundred in the standing watch is at the line and not over i
 
 ### Their magic
 Accept as drafted. Five or six, each working one small thing at her own cost, none every day, ordinary and no edge. I take that I cannot make another by telling, and I do not try. Such a one comes as the world gives her.
+
+## Round 2 reply
+
+Confirmed. This is what I meant, and I ask for no change.
+
+- The helpers and the seat: confirmed as written. Designed, not yet serving, a bend and not a refusal of a default, unpriced, buying nothing. I accept the cost as the Keeper states it.
+- The Clerk of the Tally: confirmed. It is my hope for the office in play, not a thing true at landing.
+- The spears: confirmed. About six hundred, a hundred of them the standing watch, at one in fifty and not over it.
+- Their magic: confirmed. Five or six known by name, each working one small thing at her own cost, none every day, no edge.
+- Weaknesses: none owed, none taken.
+- I take the note that where the town and ground stand, and what the land round it holds, are the world's and come from the map. I hold what I said of the land as my wish and no more.
+
+I have no wording to fix.
