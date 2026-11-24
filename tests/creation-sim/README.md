@@ -44,3 +44,7 @@ Campaign `sim-04`, on build 4. No test override. Three images approved: surface,
 ## Run 05 (2026-11-23)
 
 Campaign `sim-05`, on build 5. Test override: the first NPC god rolled is a lone god that refuses its helpers. Stand-in plays a conqueror, mirror mode on with `person.md`. Three images approved: surface, clouds, first morning.
+
+## Run 06 (2026-11-24)
+
+Campaign `sim-06`, on build 6. No test override. Stand-in plays a trader, standard mode. Three creation images approved (surface, clouds, first morning) and three play-year mornings (Years 2 to 4). After creation, a 3-year play test in the same world: one play day and one night turn per year.
