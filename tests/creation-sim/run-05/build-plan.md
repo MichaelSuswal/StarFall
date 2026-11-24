@@ -35,3 +35,11 @@ Three agents work at once, each on its own files.
 - **Agent K (sealed):** `SPOILERS_do_not_open/keeper/`: the creation runbook (6, 8, 10, 11, 21, 27, 28, 29, 31, 32, 34, 35, 36, 48, 50, 51, 54, 57, 60, 63, 65, 66, 67, 72, 73, 74, 80, 81), the rubric (7, 9, 30, 51), the survey Keeper notes (6), the sealed factors file (20, 31, 58, 63), templates 7.6, 7.10, 7.13, 7.15 (30, 35, 60, 68).
 
 Each agent logs what it changed in `tests/creation-sim/run-05/applied.md` under its own heading, by item number. Then an independent check (`build-check.md`), then fixes.
+
+## Decisions after the build (2026-11-24, 09:51 Pacific)
+
+Asked three questions when build 6 was done; Michael answered:
+
+8. **Creation images for run 06.** "yes". Surface sheet, cloud sheet and first morning painting approved, with the three play-year morning paintings approved on 2026-11-24 00:00.
+9. **Knacks and growth (68).** Asked whether knacks never grow: "yes, but only by using related skills". A knack does not grow as a power grows; it grows only through use of the skills related to it, never by any other trigger.
+10. **A priced bend toward the sealed factors (check note 13).** Asked whether a player's priced bend of a default counts: "it depends what the default does. Does it make their life harder or easier? how much? are they paying an additional price elsewhere?" The Keeper judges each bend: it counts only when the bend makes the god's life harder, by how much, net of any price paid for it elsewhere; a bend that makes life easier, or is already paid for, counts nothing. The same rule for NPC gods. Reason logged.
