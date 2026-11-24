@@ -1,0 +1,12 @@
+# Leak allow file: sim-06. Written by the continuity checker under engine/roles/checker.md (the lock,
+# last paragraph). One phrase per line, exactly as tools/lockcheck.py --leaks quotes it. Each phrase
+# was read in its sentence and ruled not a leak under DESIGN 12.2 at lock round 1; neither states,
+# implies or lets anyone work out a count of gods. Both stand in the verbatim Day 2 transcript, which
+# is never edited. Listed in years/000/lock-flags.md.
+#
+# 2026-11-24. player/transcript-day2.md 13, the DM's own opening: "Those three" are the three given world
+# rules (one body, god-sense at close quarters, the price of mortal magic), same for every god.
+three are given, the same for every god
+# 2026-11-24. player/transcript-day2.md 23, the player's words: "two people agree on what a thing is
+# worth", the god's domain, two mortals at a bargain.
+god of the moment two

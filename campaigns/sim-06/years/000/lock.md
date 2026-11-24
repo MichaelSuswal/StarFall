@@ -1,1 +1,1 @@
-The lock is running.
+The lock passed.
