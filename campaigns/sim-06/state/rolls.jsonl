@@ -1,0 +1,1 @@
+{"id": "r-0001", "time": "2026-11-24T23:53:48Z", "pacific": "2026-11-24T15:53:48-08:00", "who": "dm", "what": "sim-06 Year 1, landing morning: is this a market day in the town, as the Weigher walks in", "base": 50, "factors": [{"factor": "market held every few days, not daily (civs/unnamed-people/state.md)", "step": -20}], "odds": 30, "roll": 7, "success": true}
