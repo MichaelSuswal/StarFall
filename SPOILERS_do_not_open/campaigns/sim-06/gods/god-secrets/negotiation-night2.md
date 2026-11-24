@@ -25,3 +25,16 @@ Reasons: the Keeper says twelve for seven is a small step for this weakness. I d
 
 ### Read, not priced
 Agreed. The coat, boots, knife, purse, weights and tally stick are ordinary. Caution and the wish to be unremarkable are conduct and buy nothing.
+
+## Round 2 reply
+
+Confirmed. This is what I meant, and I ask for no change.
+
+- Second Face: confirmed as written, heavier price, nothing given for it, no limit on how often, the growing cost the only fence.
+- Kept Word: confirmed at twelve, with a thirteenth displacing the oldest. I accept the Keeper's note that the Keeper does not think twelve more than the weakness covers.
+- Finding What Was Hidden: confirmed. I take the Keeper's correction that whoever I search not being told is no part of the drawback. Nothing marks a finding, and that is all I need.
+- Return: confirmed, the nearest market street, anyone's, a season, one item of memory or habit by a logged roll, and I am not told which.
+- The key as the instrument: confirmed as written, including that anyone who learns of it can take the finding by taking the key. I knew that when I asked for it.
+- Keeper trait: accepted. People say more to me than they meant to. I take the Keeper's limits: it is long talk only, what a mortal chooses in the moment to say aloud, it opens no mind, a thing let slip is not a thing told in trust and takes no place in Kept Word, and it touches no power or price. It suits a god who would rather be taken for a clever stranger and kept as a listener.
+
+I have no wording to fix.

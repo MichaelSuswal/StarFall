@@ -47,3 +47,19 @@ What it buys: the lesser marks of my priesthood. I counter on one point, and giv
 
 ### Read, not priced
 Accepted as written. The salt is spent by The Latch; the cloak and staff are ordinary; my fear and my quick hand are who I am.
+
+## Round 2 reply
+
+I confirm the final text as written, and I answer the two things I was given leave to answer once.
+
+### Standing in a threshold to bless it
+I accept the Keeper's version. I see the hole it closes: as I wrote it, a handful of salt would have let me walk into any house, and the drawback I chose would have cost me nothing. I did not mean it so, and I will not pretend I did not look for the gap. The reason I respect is that the power can still be begun in the places I will use it first: among my own people, at every ford and pass, anywhere I am welcomed to the sill, and at any door with no keeper. That is where I expect to be. I ask nothing further on it.
+
+### The trade
+I take the three lesser marks, apart from the seven, in place of the round 1 text. The Keeper's reason is one I respect: seven more watched doorways would be fourteen places known to me, and I see that is more than one step. Three of my own is still a purchase of real use, enough for the doorways of the places my people hold longest, and I will not have it counted among my seven. I keep the rest as written: the oath from me in person, the mark staying known to me if the place is lost, and all lesser marks dark if the key is taken. I also accept the line that anyone who learns this can take my doors by taking the key. I knew it when I took the weakness.
+
+### Powers
+The Latch, The Step, The Breaker's Hand, The Reading of the Host and The Return Home: confirmed as written. I ask nothing further on any of them.
+
+### Keeper trait
+Accepted as written: at a table where I have eaten the host's food I cannot speak a lie until I rise from it. I note, as a wording I understand and do not ask to change, that it binds my own spoken words at that table only and that I may keep silent, as the Keeper says. A host who feeds me gets the truth from me or my silence, and I would sooner be seen as a guest who says little than as one who lies at a table. It suits what I am.
