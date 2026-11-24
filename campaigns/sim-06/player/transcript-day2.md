@@ -137,3 +137,19 @@ The voice again, closer now than the wind.
 What will you not do? Not what is unwise. What you would refuse even at a good price.
 
 (oog) Last, and privately. What does the Weigher want that it would not say aloud, the part of it that is not flattering? Answer that one in a separate reply headed SEALED:. It goes to the sealed record and never into this transcript or the open profile. Any other part of your reply may be sealed the same way.
+
+## Player:
+
+**Yes, with no strikes.** I accept the card as read, including every term marked (new). The narrowings on the factors' licences, the face-to-face revocation and the four-licence cap are fair for what they buy. The reading of "in your presence" for checking a scale is fair too. The Scattering is priced harder than I pictured, but it is countable, and I asked for the risk to be real.
+
+**One note, not a strike.** "A god as party to a sealed bargain is unruled until it happens" is fine with me. I ask only that the first time it happens, I am told what was ruled and why.
+
+**The name.** "Weigher" is what I answer to. I do not think it is my name. Under it there is a shorter word, the sound of a pan settling, and it went with the house. If anyone asks, I say I am the Weigher and that the rest was left at a door I cannot find.
+
+**What I will not do, even at a good price.**
+- I will not put my mark, or let a factor of mine put it, on a bargain I know to be a lie to one of its parties. A seal on a swindle would spend the only thing I am selling.
+- I will not weigh people. No sale of a person, no bargain whose goods are a person's freedom or a child, however the terms are phrased and however willing the seller says they are.
+- I will not break a seal of my own to free myself from a bad bargain. If I want out, I pay the price, or I lift it by hand on the thing itself, in the open.
+- I will not speak a false measure, but that is a drawback and not a choice. The vow I am adding is that I will not use silence to let a buyer believe a false measure when I could have corrected it, where the buyer is my partner and not my rival. With a rival I owe nothing past the truth.
+
+(One more answer was given privately, for the sealed record.)
