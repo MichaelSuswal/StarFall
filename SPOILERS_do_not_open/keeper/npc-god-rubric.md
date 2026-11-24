@@ -128,7 +128,7 @@ Every god gives a reason for each thing it asks and for each price it accepts. A
 ## 12. The people it leans toward
 Worked out from the leans when the sheet is written, and written on the sheet in words, so that seven gods do not come out alike. It is the god's own lean, as a lean is: the god builds within it, and may hope otherwise if it gives its reasons in `people-hoped.md`.
 
-Every god comes down to lead a people, to build, rule and spread (the premise of The Between). The leans below decide the form that takes, never whether. Every NPC god starts with a people and with helpers who run things in its absence (the `## Helpers` section of the people record); the rule lean decides the form they take. The god may refuse them, dismiss them or never meet them in play, always for a reason it gives, logged; once dismissed they are not forced back.
+Every god comes down to lead a people, to build, rule and spread (the premise of The Between). The leans below decide the form that takes, never whether. Every NPC god starts with a people and with helpers who run things in its absence (the `## Helpers` section of the people record); the rule lean decides the form they take. The god may refuse them, dismiss them or never meet them in play, always for a reason it gives, logged; once dismissed they are not forced back. A god that bends or refuses a default when it builds its people gets a negotiation round on that alone, even with no edge, the cost stated plainly, and the change itself may be the price (runbook 3a.1; Michael, 2026-11-23).
 
 The helpers serve the god from landing only if its meeting says its people already know it. A god that comes to a people who do not yet know it finds the offices there and filled; each becomes its helper as it hears the god, in play, and until then runs on the people's own custom, as the player's designed helpers do before they know their god. The world listens and does not obey.
 
@@ -159,15 +159,17 @@ How the god's people are ruled, and who holds rule under the god. Rule score: th
 
 | Score | Rule lean | On the sheet |
 |---|---|---|
-| 1 to 12 | a lone god that refuses its helpers | It starts with helpers like every god (a council's or elders' offices, by default), and its rolls lean it to refuse them: it gives its reason in `people-hoped.md`, the refusal is logged with the date, and its people then go their own way. Rare; it comes only on an extreme roll. |
+| 1 to 12 | a lone god that refuses its helpers | It starts with helpers like every god (a council's or elders' offices, by default), and its rolls lean it to refuse them: it gives its reason when it builds its people, the refusal is logged with the date, and its people then go their own way. |
 | 13 to 39 | a council of elders or chieftains | The people is ruled by a council of its own (elders, headmen, chieftains); the god is heard there, and the council's helpers carry out what is agreed. |
 | 40 to 54 | a sacred monarch behind a court | A mortal line holds the throne in the god's name and is held sacred for it; a court stands between the throne and the people, and the god is reached through it. |
 | 55 to 69 | a mortal ruler under the god | One ruler answers to the god and rules for it: a priest-king, a warlord or a merchant-prince, by the variety table below (those three only). |
 | 70 to 100 | a god-king with a court and priesthood | The god holds the crown itself, with a court and officers; its word is law, carried by them. A priesthood stands in it only as the worship lean gives one. Its manner is set by the variety table below (all five). |
 
+The "On the sheet" column is the sheet's words, whole: no file name and no word of how rare a result is goes on a sheet, a forced one included. The lone god is rare and comes only on an extreme roll; that is the Keeper's reference.
+
 Odds, for the Keeper's reference: about 1 in 130 for the lone god that refuses its helpers, a quarter for a council, a third for a sacred monarch, a quarter for a mortal ruler, one in seven or eight for a god-king.
 
-**Variety table.** For each kind, take the lean value given; the highest wins; a tie is settled by one roll at even odds, logged.
+**Variety table.** For each kind, take the lean value given; the highest wins; a tie is the Keeper's call, by what makes the more interesting game, with its reason logged and no die (Michael, 2026-11-23). On the sheet the kind is written out with its meaning from this table (a warlord in manner: rules by force, through its war band and captains), never as a pointer to the table.
 
 | Kind | Value | What it means |
 |---|---|---|
@@ -195,7 +197,7 @@ Calibration, for the rubric's spread: the gods real players ran at length in the
 
 ### On the sheet
 Write the result as four short lines in the sheet's `## The people it leans toward` section, for example:
-"Size: large, seven to fifteen thousand, with a town of size. Settlement: a walled town, gathered close. Rule: a god-king with a court and priesthood, a merchant-prince in manner. Worship: a priesthood."
+"Size: large, seven to fifteen thousand, with a town of size. Settlement: a walled town, gathered close. Rule: a god-king with a court and priesthood, a merchant-prince in manner: rules by bargain, debt, toll and trade. Worship: a priesthood."
 or
 "Size: a few hundred. Settlement: a close band on the move, no fixed seat. Rule: a council of chieftains. Worship: local shrines."
 
@@ -224,3 +226,7 @@ Rule lean, every NPC god: a god-king with a court; its manner by the variety tab
 ## 14. Luck
 
 Every NPC god has a luck modifier, as the player's god does, earned the same way: by taking heavier prices than it needs, or by refusing powers. The Keeper sets it on Night 2 (runbook 2.4) and again on Night 3a for edges (3a.1), keeps it in the sealed `S/state/luck.md`, and uses it in the god's rolls and in the weight of the world's choices that fall on it (runbook standing rules; `SPOILERS_do_not_open/keeper/sealed-factors.md`, with the 5 to 95 cap and, in a contest between two gods, only the difference in their luck counting). It is never on the sheet, never in any release, and never told to the god's agent; the god's bargaining stance is the same with it or without it, and no release suggests that a heavier price earns anything. A god that volunteers a heavier price than its power needs has it written as asked.
+
+## 15. Knacks
+
+Every NPC god has two or three small innate knacks, drawn from its own secret backstory on Night 2 (runbook 2.7). Whether it has two or three is a balance tool: the Keeper sets the count by the god's weight in `S/balance.md`, toward the band, and logs the count with its reason. The knack format is in runbook template 7.13.
