@@ -6,3 +6,4 @@ Models: DM fable, Keeper fable, NPC gods sonnet, civ agents sonnet, stand-in pla
 |---|---|---|---|
 | Day 1 | 09:53 | 09:56 | DM 0.6 + 0.5 min, stand-in 0.5 min |
 | Night 1 | 09:57 | 10:05 | Keeper 3.5 + 4.0 min, gods 0.4 to 0.8 min each |
+| Day 2 | 10:06 | 10:14 | DM 0.6 + 1.4 + 4.1 + 2.7 min, stand-in 0.3 + 0.3 + 0.2 min |
