@@ -69,3 +69,7 @@ Standard mode.
 18. A truth about why the old trading power fell, or a market that opens only at certain tides or in certain years. I'd like a companion who is a rival first.
 
 19. I want a world in which a promise has weight. Where a bargain made in good faith holds, and a broken one costs the breaker something the whole world can see.
+
+## DM:
+
+The world below has heard you, along with the rest. Keep falling; the ground is nearer than it was.
