@@ -5,7 +5,7 @@ A repeatable test of the three creation days and nights. A stand-in player agent
 Per run, this folder holds:
 - `stand-in.md`: the stand-in player's brief.
 - `person.md`: a short fictional person file for the stand-in, read by the DM in mirror mode as if it were the player's chat history and memory (DESIGN 3.4c). Invented for the run; no real person's details.
-- `timing.md`: when each stage started and finished, Pacific, and which models ran.
+- `timing.md`: when each stage started and finished, Pacific, which models ran, and beside the clock times each agent's own reported duration. The agent durations are the measure: the container clock that stamps commits does not track real time and can run short (run 05 item 26). This is the orchestrator's file; the campaign's own timing file is sealed, `SPOILERS_do_not_open/campaigns/sim-NN/state/timing.md`, and nothing public in the campaign carries night or stage times (run 05 item 74).
 - `changes.md`: the change list. Proposals only. Nothing in the engine changes until Michael approves a line. Status: proposed, approved, rejected, applied.
 - `check-report.md`: the independent checker's report on the locked world, spoiler-free above its SEALED line.
 - For a build made from a run: `build-plan.md` (Michael's decisions and the shared specifications) and `applied.md` (what each side changed, by item number).
@@ -27,7 +27,7 @@ Agents report process problems (unclear instructions, missing paths, contradicti
 - The stand-in brief names a different kind of player each run (a builder, a conqueror or a trader), keeping Michael's style only in how it plays the table (run 04 item 1).
 - One NPC god may be given a forced lean that invites refusal (of helpers, or of the default size), by the sealed test override, so refusal pricing runs for an NPC as well as the player (run 04 item 37).
 - The stand-in gets a `person.md` and may choose either mode at the Day 1 question.
-- Every agent pulls with `git pull --rebase --autostash`.
+- Every agent pulls with `git pull --rebase --autostash`. When agents pull at once a pull can fail ("Cannot rebase onto multiple branches"); the agent retries once. God agents write their files and do not commit; the orchestrator commits them (run 05 item 36).
 
 ## Run 01 (2026-11-18, 23:00 to 00:21 Pacific)
 

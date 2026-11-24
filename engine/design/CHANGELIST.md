@@ -77,3 +77,18 @@ The findings are `tests/creation-sim/run-04/changes.md`, with run 03 item 94 (mi
 - ~~Only the player's god gets small innate knacks.~~ Every god gets two or three: an NPC god's drawn from its own sealed backstory and written on Night 2 in its sealed folder, the player's as before; all sealed, found only in play, counted toward balance, named in no public file, and checked at the lock. (Michael, 2026-11-22, decision 7; section 3.9)
 - ~~A sealed term the player says in the open table talk comes off the list, whatever it is.~~ The sealed factors' names never come off the sealed list and are never exempted by the scan; the creation transcripts, the player's own words kept verbatim, are not scanned for them, and every other public file is. (Michael, 2026-11-22, decision 8)
 - ~~A tie in the survey blend is settled by an even-odds roll, and a quarter step is rounded.~~ Every tie in the survey blend (an even vote, a half or quarter median, any even-odds tie) is decided by the Keeper by what makes the more interesting game, with its reason logged; no die. (Michael, 2026-11-22, decision 9; section 3.19)
+
+## Build 6, after creation simulation run 05 (November 2026)
+
+The findings are `tests/creation-sim/run-05/changes.md`; Michael's decisions are in `run-05/build-plan.md`. Reversed decisions:
+
+- ~~A variety-table tie in the rubric is broken by an even-odds roll.~~ It is the Keeper's call, by what makes the more interesting game, reason logged, no die. (Michael, 2026-11-23, item 7; section 3.8)
+- ~~A return is taken only on the standing rungs.~~ A god, player or NPC, may take a slower, costlier return than the rungs, priced by the DM or the Keeper, as a heavier price taken willingly; a return never takes a possession. (Michael, 2026-11-23, item 20; section 6.11, `engine/rules/powers.md`, the Keeper's sealed files)
+- ~~A sealed request gets no answer the DM can see.~~ The Keeper writes one line per request in the sealed `S/player/requests-answered.md`, which the DM may read: "received and ruled", not how, unless the Keeper gives an explicit reason to tell more and the DM agrees. (Michael, 2026-11-23, item 32; section 10.7)
+- ~~A god that bends a default but proposes no edge gets no negotiation round.~~ It gets a round on the bent default alone, with the cost stated, and the change itself may be the price. (Michael, 2026-11-23, item 51; section 3.8a)
+- ~~How far travelers arrive, and which season a cross-country event takes, are unsaid.~~ How each far traveler arrived is the Keeper's to decide, logged sealed; an event takes the season it was designed for at creation, or the one the world's actions determine. (Michael, 2026-11-23, item 67; sections 4.10, 8.1)
+- ~~The campaign's timing file is public.~~ It is sealed, `S/state/timing.md`; nothing public carries night or stage times; the player sees in-game data such as the years passed. (Michael, 2026-11-23, item 74; section 12.2a)
+- ~~A test run's first morning ends without the 1:30 line.~~ Every first morning closes with it, a test run's too. (Michael, 2026-11-23, item 78; section 3.3)
+- ~~One sealed answer, the unsaid want, asked last.~~ Any reply on any creation day may carry a `SEALED:` part on any subject, written as it arrives under a heading for its kind. (Items 14, 43, 64; section 10.7)
+- ~~A name the player gave at creation shows on the map from the first morning.~~ It shows only once heard in play, or the (oog) map line says why it shows; the landing sheet draws a seen line only as far as it was seen. (Item 76; `engine/rules/map.md` 2.1, 4.2)
+- ~~Whether the player learns what a return took is unsettled.~~ The player is told in (oog) after a return; the god in the fiction does not know. (Item 22; `engine/rules/powers.md`)

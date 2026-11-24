@@ -9,7 +9,7 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 ## 0. Setup
 
 - Pull the repository. Confirm `state/clock.md` says year NNN is open.
-- **The engage rule.** Look for `player/decisions-NNN.md`. The DM writes it at 1:30 only on a day the player posted in the game. If it is missing, the player did not play today and the world waits: write `years/NNN/waited-YYYY-MM-DD.md` (the Pacific date) holding one (oog) line for the morning ("The world waited. Year NNN is still open.") and the Pacific time, append a line to `state/timing.md` that starts with the Pacific date and contains "waited", commit, push, and stop. Do not advance the clock. Do not run any agent.
+- **The engage rule.** Look for `player/decisions-NNN.md`. The DM writes it at 1:30 only on a day the player posted in the game. If it is missing, the player did not play today and the world waits: write `years/NNN/waited-YYYY-MM-DD.md` (the Pacific date) holding one (oog) line for the morning ("The world waited. Year NNN is still open.") and the Pacific time, append a line to the sealed `SPOILERS_do_not_open/campaigns/<name>/state/timing.md` that starts with the Pacific date and contains "waited", commit, push, and stop. Do not advance the clock. Do not run any agent.
 - If the decisions file is present, start `years/NNN/` and `releases/NNN/`.
 - **Year 1 only.** Each NPC god's first release carries its landing release (`S/releases/000/<label>-landing.md`, written on Night 3b): the night turn hands it to the god in step 1, before the god decides its year.
 - Spawn agents as needed. Each agent gets only its own files. Use the models set in `state/models.md`. Take every real time from `python3 tools/stamp_time.py` (`--time` for the time alone, `--date` for the date), which prints the Pacific clock time in the log's format.
@@ -35,7 +35,7 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 
 ## 4. Keeper pass two: resolution
 
-- Overlay every civ's actions and reactions with the world events. Resolve contests by factors and `tools/roll.py`, applying the sealed factors after the stated odds on every roll for a god or its people's acts. A roll the DM made in the open during the day stands unless the Keeper overrules its outcome by the sealed factors, as that file gives; any overrule is logged in the sealed log only. Deliver messages per `engine/rules/messages.md` and log each one's fate.
+- Overlay every civ's actions and reactions with the world events. Resolve contests by factors and `tools/roll.py`, applying the sealed factors after the stated odds on every roll for a god or its people's acts. A roll the DM made in the open during the day stands unless the Keeper overrules its outcome by the sealed factors, as that file gives; any overrule is logged in the keeper log only. Deliver messages per `engine/rules/messages.md` and log each one's fate.
 - Check the sealed ruling ledger before any ruling; record every ruling made. A matter the files do not settle is ruled by the judgment order, applied, and logged under "Rulings for review"; nothing waits on the owner.
 - Record new fixed facts in the keeper log when an action reached something unspecified.
 - Each god's waking season is checked against its weaknesses (a god whose weakness holds through its own waking season opens the year unable to act, and the civ agent is told so).
@@ -67,17 +67,17 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 ## 8. Close
 
 - Run `tools/lockcheck.py <name> --leaks --dashes` again, now that the releases, the morning story, the closing and the chronicle exist. Fix any hit before anything is pushed.
-- Set `state/clock.md` to year NNN+1 open, and append a line to `state/timing.md` that starts with the Pacific date and reads "clock advanced: year NNN+1 open". Every timing line starts with its Pacific date; no other line uses the words "clock advanced".
+- Set `state/clock.md` to year NNN+1 open, and append a line to the sealed `SPOILERS_do_not_open/campaigns/<name>/state/timing.md` that starts with the Pacific date and reads "clock advanced: year NNN+1 open". Every timing line starts with its Pacific date; no other line uses the words "clock advanced".
 - Pull with `git pull --rebase --autostash`, then commit everything and push. The 6:30 wake in the play chat reads the morning story and the painting from the repository and posts them.
 
 ## Sealed and public outputs
 
-Sealed, in `SPOILERS_do_not_open/campaigns/<name>/`: `years/NNN/year.md` (the full record), every NPC god's release and decisions, every NPC civ's record and years, the message log, the keeper log, the ruling ledger, the growth files, the sealed god folders. Public, in `campaigns/<name>/`: the player's folder, the player's civ record, the DM release, the morning story, the closing, the waited notes, flags, and the state files the player may see (clock, timing, the player's map knowledge). The rolls log is sealed; the player sees only outcomes. Nothing public names the count of gods, a vote, a pool, a hidden power, or a phenomenon's count before it has been seen.
+Sealed, in `SPOILERS_do_not_open/campaigns/<name>/`: `years/NNN/year.md` (the full record), every NPC god's release and decisions, every NPC civ's record and years, the message log, the keeper log, the ruling ledger, the growth files, the sealed god folders. Public, in `campaigns/<name>/`: the player's folder, the player's civ record, the DM release, the morning story, the closing, the waited notes, flags, and the state files the player may see (clock, the player's map knowledge). The timing file is sealed (`S/state/timing.md`): night and stage times are diagnostics, not play, and the player sees only in-game data such as the year. The rolls log is sealed; the player sees only outcomes. Nothing public names the count of gods, a vote, a pool, a hidden power, or a phenomenon's count before it has been seen.
 
 ## Public state files
 
-`state/models.md`, `state/timing.md` and `state/images.md` are public. They name the models by role (DM, Keeper, god agent, civ agent, checker) and never carry a line per god, an agent count, or anything that gives the number of gods.
+`state/models.md` and `state/images.md` are public; the timing file is sealed (`S/state/timing.md`). They name the models by role (DM, Keeper, god agent, civ agent, checker) and never carry a line per god, an agent count, or anything that gives the number of gods.
 
 ## Timing record
 
-Append to `state/timing.md`: when the turn started, when each stage finished, which models ran, and the token usage if known, all in Pacific time from the clock. Stage B uses this to choose the night model.
+Append to the sealed `SPOILERS_do_not_open/campaigns/<name>/state/timing.md`: when the turn started, when each stage finished, which models ran, and the token usage if known, all in Pacific time from the clock. Stage B uses this to choose the night model.
