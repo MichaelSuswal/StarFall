@@ -438,7 +438,8 @@ def rumor_near(told, el, painting):
 
 
 def player_aliases(el):
-    """The names the player gave a place itself (aliases `by` "player"), which count as heard (39)."""
+    """The names the player gave a place itself (aliases `by` "player"), which the sheet shows as the god's (39),
+    noted as creation names until heard in play (creation_name, change list 76)."""
     return [a["name"] for a in el.get("aliases") or [] if isinstance(a, dict) and a.get("by") == "player"
             and isinstance(a.get("name"), str) and a["name"].strip()]
 
@@ -472,7 +473,7 @@ def heard_name(el, entry):
     In order: the Keeper's name when the god has heard it (`"named": true`, set by `reveal --named`); for a
     rumor or a report, the name it was told (`told.name`: smoke seen from afar keeps its told words, change
     list 76); a name the player gave the place itself at creation (its map name with `"named_by": "player"`,
-    change list 52, or an alias `by` "player"), which counts as heard; the name it was told (kept when the
+    change list 52, or an alias `by` "player"), which the sheet shows as the god's name before it is heard in play, noted by creation_name for the first morning's (oog) map line (change list 76); the name it was told (kept when the
     place is later seen); for a report that gave no other name, the Keeper's name (the teller named it
     accurately, map.md 4.2: "told, reported"); else none. Seeing a place gives its ground, never its name, so a seen place with no name heard has none,
     and the sheet labels it with nothing."""

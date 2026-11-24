@@ -1856,6 +1856,9 @@ def test_build6_lockcheck_people_names_in_knowledge():
         code, out, _ = lock(repo, "--leaks")
         assert code == 1 and 'knowledge.md:1: people\'s name "Orvanne", not told to the tallowfolk in their record' in out
         append(repo, "SPOILERS_do_not_open/campaigns/fx/civs/tallowfolk-sealed.md", "They trade with the Orvanne.\n")
+        code, out, _ = lock(repo, "--leaks")   # the world's side is told to no one (build 6 check, must-fix 3)
+        assert code == 1 and 'people\'s name "Orvanne", not told to the tallowfolk' in out, out
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/civs/tallowfolk/record.md", "They trade with the Orvanne.\n")
         code, out, _ = lock(repo, "--leaks")
         assert code == 0, out
         append(repo, "campaigns/fx/player/notes.md", "The Orvanne.\n")   # elsewhere it still fails
@@ -1978,6 +1981,22 @@ def test_build6_stamp_skips_god_written_files_and_the_log():
             assert open(os.path.join(S, rel)).read() == "Tallowford is near.\n"
     assert mapt.is_god_written("gods/god-x/goals.md") and not mapt.is_god_written("gods/god-x/power-card.md")
     assert not mapt.is_god_written("gods-sealed/god-x/self.md")
+
+
+def test_build6_places_skips_what_stamp_skips():
+    """Build 6 check, should-fix 7: --places warns on no bare map name in a file stamp skips (the keeper log,
+    a god's own files), and still fails a bracketed id the map lacks there."""
+    with tmpcopy() as repo:
+        for rel in ("gods/god-tide/people-hoped.md", "keeper-log.md"):
+            append(repo, f"SPOILERS_do_not_open/campaigns/fx/{rel}", "Tallowford is near.\n")
+        code, out, _ = lock(repo, "--places")
+        assert code == 0 and "people-hoped.md" not in out and "keeper-log.md" not in out, out
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/notes.md", "Tallowford is near.\n")
+        code, out, _ = lock(repo, "--places")
+        assert "notes.md" in out, out
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/keeper-log.md", "The ford [f99].\n")
+        code, out, _ = lock(repo, "--places")
+        assert code == 1 and "keeper-log.md:2: [f99] is not in map.json" in out, out
 
 
 def test_build6_describe_standing_height_wood_edges_and_knowledge():

@@ -79,6 +79,24 @@ exempted (not by the player's open words, a known map name, a people's knowledge
 line reads `Underground: none` (should-fix 8); paint.py reporting only with no arguments inside the
 workflow too (should-fix 9), and the paint workflow test reading `--paint` (must-fix 1).
 
+Build 6 (run 05 change list) adds: in lockcheck, a number word before a fraction word or a numeral
+fraction is no count (23); the `--releases` check, the Keeper's releases under `S/releases/` and the
+Day 3 brief against the world draft's scarcities (warned) and the kept sealed terms (failed) (37);
+another people's name in a people's knowledge file passing only when told to them in their record (55);
+each cast being's `Mysteries:` pointers against each mystery's yes or no (71); a public
+`P/state/timing.md` warned on, with no ordinal scan in public (74); and a map name with
+`"named_by": "player"` taken as the player's own (52). In map.py: `"named_by": "player"` on the home's
+element, checked by validate (52); stamp skipping the keeper log and the files a god's agent writes (56);
+describe finding the god's knowledge file by label, reporting a landing's `ground_ft`, and listing wood
+edges (61); and the landing sheet drawing a seen line only as far as seen, keeping a rumor's told words,
+and noting the creation names it shows in `map-meta.json` `creation_names` (76). In roll.py, the
+weighted draw, `--weight name=N`, with its bands logged (63). In check.py, the sealed
+`S/state/timing.md` read first (74).
+
+The build 6 fixes (run 05 `build-check.md`) add: in lockcheck, `S/civs/<people>-sealed.md` no longer
+counted as told to the people (must-fix 3), and `--places` warning on no bare map name in the files
+stamp skips, while still failing a bracketed id the map lacks there (should-fix 7).
+
 `lockcheck-sim-01.txt` records what lockcheck found on sim-01, as counts only.
 
 ## Migration from the sim-01 and dryrun formats
@@ -107,4 +125,4 @@ The tool and its rules are in the docstrings of `tools/map.py` and `tools/lockch
 
 ## Running the lockcheck before a lock
 
-Before the continuity checker writes `LOCKED.md`, run `python3 tools/lockcheck.py <campaign> --all` from the repository root (or `--places`, `--leaks`, `--mysteries`, `--rolls`, `--dashes` one at a time while fixing). It reads `SPOILERS_do_not_open/campaigns/<campaign>/` and `campaigns/<campaign>/`, prints one line per finding and a count line per check, and exits 1 on any failure; warnings (names written without an id, old reroll lines) do not fail but should be read. Findings name sealed terms, so the full output stays in the sealed session or the keeper log, never in a public file; for a record outside the spoiler folder use `--counts-only`. A leak hit that is an ordinary word gets a line in `SPOILERS_do_not_open/campaigns/<campaign>/leak-allow.txt` only after the checker has read the public line and agreed it reveals nothing. `--leaks` reads `S/sealed-terms.txt` (the Keeper's list) as its primary sealed list and fails a campaign without one; the older guesses from prose only warn, and a warning names a term to add to the file if it is sealed. A number-word hit near a god term that the checker has read and agreed reveals nothing is exempted by its quoted phrase in `leak-allow.txt`. `--mysteries` reads each mystery's `Answers questions: yes|no` line and requires a `Limit:` line on yes; the checker still reads every Truth and Body for a being marked no that does answer. Every mode skips the checker's own `lock-flags*.md`. Lock only when every check shows 0 failures.
+Before the continuity checker writes `LOCKED.md`, run `python3 tools/lockcheck.py <campaign> --all` from the repository root (or `--places`, `--leaks`, `--releases`, `--mysteries`, `--rolls`, `--dashes` one at a time while fixing). It reads `SPOILERS_do_not_open/campaigns/<campaign>/` and `campaigns/<campaign>/`, prints one line per finding and a count line per check, and exits 1 on any failure; warnings (names written without an id, old reroll lines) do not fail but should be read. Findings name sealed terms, so the full output stays in the sealed session or the keeper log, never in a public file; for a record outside the spoiler folder use `--counts-only`. A leak hit that is an ordinary word gets a line in `SPOILERS_do_not_open/campaigns/<campaign>/leak-allow.txt` only after the checker has read the public line and agreed it reveals nothing. `--leaks` reads `S/sealed-terms.txt` (the Keeper's list) as its primary sealed list and fails a campaign without one; the older guesses from prose only warn, and a warning names a term to add to the file if it is sealed. A number-word hit near a god term that the checker has read and agreed reveals nothing is exempted by its quoted phrase in `leak-allow.txt`. `--mysteries` reads each mystery's `Answers questions: yes|no` line and requires a `Limit:` line on yes; the checker still reads every Truth and Body for a being marked no that does answer. Every mode skips the checker's own `lock-flags*.md`. Lock only when every check shows 0 failures.

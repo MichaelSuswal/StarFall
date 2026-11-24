@@ -1,6 +1,6 @@
 # Day 2: The God
 
-The DM's guide for the second day of creation. Read with DESIGN.md section 3 and section 6, and `engine/rules/powers.md` for the card format, and the pace table's rates by means and ground (`engine/rules/time-and-pace.md` sections 1 to 4 and 7), so any rate the DM sets rests on them.
+The DM's guide for the second day of creation. Read with DESIGN.md section 3 and section 6, and `engine/rules/powers.md` for the card format, and the pace table's rates by means and ground and its work rates (`engine/rules/time-and-pace.md` sections 1 to 5 and 7), so any rate the DM sets rests on them, a god-specific work rate on section 5.
 
 ## The shape of the day
 
@@ -12,10 +12,11 @@ Before the day closes, the DM goes back over its checklist and raises anything s
 
 - `player/followups-day2.md`: the Keeper's follow-up questions, each in a form that can be woven into the fiction, with an (oog) fallback. The DM writes the player's answer under each question before the close.
 - `player/world-rules.md`: the world's rules that are innate to a god and are given, not discovered: god-sense as set for this campaign, how many bodies a god may have, and the pricing terms for mortal magic (it is simple and it costs the worker), never how common it is. These are stated to the player plainly when they come up, and every item not yet stated is stated once before the close. They are never framed as a vote or as which wishes the world kept. Everything the player must discover in play (how common magic is among mortals, how much gods stand out, the wild, the scarcities) is not in this file and is not told.
+- `SPOILERS_do_not_open/campaigns/<name>/player/requests-answered.md`, if Day 1 carried a sealed request: the Keeper's line for each, read by its path directly, never by listing the folder (Sealed answers, below).
 
 ## Opening
 
-Begin from `world-rules.md` and the player's own Day 1 words (`survey-day1.md`, its `## Also said`, `rejected-premises.md`), not from a blank page; the DM sees nothing else of the night. First, answer any question carried from the Day 1 close, and say plainly which part of it is Day 3's to settle. Then let the player talk.
+Begin from `world-rules.md` and the player's own Day 1 words (`survey-day1.md`, its `## Also said`, `rejected-premises.md`), not from a blank page; the DM sees nothing else of the night but the Keeper's line for each Day 1 sealed request in `S/player/requests-answered.md` (Sealed answers, below). First, answer any question carried from the Day 1 close, and say plainly which part of it is Day 3's to settle; then tell the player in (oog) of each Day 1 sealed request that it was received and ruled. Then let the player talk.
 
 When a world rule runs against something the player named as its god's center (one body allowed where the player wanted many), state it as a fact of every god, offer the power path where one exists ("more than that is a power, and priced"), and say nothing of wishes or of what the world kept.
 
@@ -47,7 +48,7 @@ Any reply on any creation day may carry a part headed `SEALED:`, on any subject,
 - A sealed want is never deferred to a Night 3 fitting: no want can be fitted at creation, since it is confirmed only in play (DESIGN 10.7). The DM writes it and leaves it.
 - When a sealed wish is later said openly at the table, the open words are used and recorded where open words go, and the sealed line stays sealed.
 - A sealed request not to be told something is never named in the open: the `Requests not to be told something:` line in `rejected-premises.md` reads "one, kept in the sealed record", or the count.
-- The Keeper answers each sealed request on the next night, in the sealed ledger, and writes one line per request in `S/player/requests-answered.md`: its date and "received and ruled", nothing more, unless the Keeper gives an explicit reason to tell the DM more and the DM agrees, both logged. The DM reads that file (its path written directly, never by listing the folder) at the start of the next day and may tell the player in (oog) that each request was received and ruled.
+- The Keeper answers each sealed request on the next night, in the sealed ledger, and writes one line per request in `S/player/requests-answered.md`: its date and "received and ruled", nothing more. When the Keeper has an explicit reason to tell the DM more about a sealed request, it writes the reason as an indented line under that request's entry in `S/player/requests-answered.md`. The DM records whether it agrees in `S/player/unsaid.md`, beneath the request, dated. Only when the DM agrees does the Keeper add the further line. The DM reads that file (its path written directly, never by listing the folder) at the start of the next day, records its agreement or not beneath the request for each reason line it finds, and may tell the player in (oog) that each request was received and ruled. The DM never writes `requests-answered.md`.
 - When a sealed answer qualifies an open conduct line, the open line carries the plain mark "check with the player before acting", with no reason.
 
 ## Pricing and balance

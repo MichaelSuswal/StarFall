@@ -16,6 +16,9 @@ layout (tests use a fixture).
                or a one-word name that is not a common word). Headings and bold mystery
                titles are not counted, and a name inside a longer map name is the longer one's.
                Aliases are never stamped (change list 38), so a bare alias is not warned on.
+               The files map.py stamp skips (the keeper log, LOCKED.md and the files a god's agent
+               writes in S/gods/<god>/, change list 56) are not warned on for a bare name; their
+               bracketed ids are still checked.
   --leaks      reads the sealed term list S/sealed-terms.txt, which the Keeper writes (god
                names and bynames, hidden power names, names in the common secrets, places
                off the map; one term per line, # for comments, matched as written, case
@@ -57,8 +60,9 @@ layout (tests use a fixture).
                Build 6: a number word before a fraction word ("three quarters", "two thirds") or a
                numeral fraction (3/4) is no count (change list 23). In a people's knowledge file another
                people's name (a sealed term whose form without "the" is a people's folder label) passes
-               only when told to them in their record: S/civs/<people>/record.md, S/civs/<people>-sealed.md
-               or P/civs/<people>/record.md (change list 55). The campaign's timing file is sealed,
+               only when told to them in their record: S/civs/<people>/record.md or P/civs/<people>/record.md
+               (change list 55). S/civs/<people>-sealed.md is the world's side, told to no one, and never
+               counts as told (build 6 check, must-fix 3). The campaign's timing file is sealed,
                S/state/timing.md (change list 74): a public P/state/timing.md is warned on, to be moved,
                and is not scanned for ordinals.
   --releases   the Keeper's releases (every .md under S/releases/) and the Day 3 brief,
@@ -304,6 +308,8 @@ def check_places(c, rep):
                     rep.fail("places", f"{c.rel(path)}:{ln}: [{tok}] is not in map.json")
         if not path.endswith(".md"):
             continue
+        if base in mapt.STAMP_SKIP or mapt.is_god_written(os.path.relpath(path, c.S)):
+            continue   # what stamp skips carries no ids, so no bare name is warned on there (build 6 check, should-fix 7)
         spans = mapt.heading_spans(text)   # headings and bold mystery titles are never stamped
         claimed = []
 
@@ -737,9 +743,10 @@ def is_people_name(label, labels):
 
 
 def record_text(c, people):
-    """What a people's own record tells them (change list 55): its record and the world's side of it,
-    S/civs/<people>/record.md, S/civs/<people>-sealed.md, and the public P/civs/<people>/record.md."""
-    paths = [os.path.join(c.S, "civs", people, "record.md"), os.path.join(c.S, "civs", f"{people}-sealed.md"),
+    """What a people's own record tells them (change list 55): S/civs/<people>/record.md (or the godless
+    one) and the public P/civs/<people>/record.md. S/civs/<people>-sealed.md is the world's side of the
+    record, told to no one, so a name found only there is not told (build 6 check, must-fix 3)."""
+    paths = [os.path.join(c.S, "civs", people, "record.md"),
              os.path.join(c.S, "civs", "godless", people, "record.md"), os.path.join(c.P, "civs", people, "record.md")]
     return "\n".join(read(p) for p in paths if os.path.exists(p))
 

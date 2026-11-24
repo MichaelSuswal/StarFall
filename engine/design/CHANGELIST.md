@@ -52,7 +52,7 @@ The findings are `tests/creation-sim/run-02/changes.md`. Reversed decisions:
 
 The findings are `tests/creation-sim/run-03/changes.md`; Michael's decisions are in `run-03/build-plan.md`. Reversed decisions:
 
-- ~~A heavier price that buys nothing is not taken.~~ A heavier price taken willingly is written as asked and buys nothing on the card. (Section 12.6; the Keeper's sealed files)
+- ~~A heavier price that buys nothing is not taken.~~ A heavier price a god asks for is written as asked. (Section 12.6; the Keeper's sealed files)
 - ~~The technology line gives the world's starting level only.~~ The starting level is not a ceiling; a god may introduce what it knows, built in play from what the player knows or looks up. (Section 4.7)
 - ~~A name a god gives as a wish counts as given.~~ A place keeps its name; other names are aliases, and a name changes only when the place's people come to use it. (Section 3.11a)
 - ~~Travel over mixed ground priced by the ground the straight line crosses, or by a road's length.~~ Priced by route and means, segment by segment. (Section 10.1)
@@ -83,8 +83,8 @@ The findings are `tests/creation-sim/run-04/changes.md`, with run 03 item 94 (mi
 The findings are `tests/creation-sim/run-05/changes.md`; Michael's decisions are in `run-05/build-plan.md`. Reversed decisions:
 
 - ~~A variety-table tie in the rubric is broken by an even-odds roll.~~ It is the Keeper's call, by what makes the more interesting game, reason logged, no die. (Michael, 2026-11-23, item 7; section 3.8)
-- ~~A return is taken only on the standing rungs.~~ A god, player or NPC, may take a slower, costlier return than the rungs, priced by the DM or the Keeper, as a heavier price taken willingly; a return never takes a possession. (Michael, 2026-11-23, item 20; section 6.11, `engine/rules/powers.md`, the Keeper's sealed files)
-- ~~A sealed request gets no answer the DM can see.~~ The Keeper writes one line per request in the sealed `S/player/requests-answered.md`, which the DM may read: "received and ruled", not how, unless the Keeper gives an explicit reason to tell more and the DM agrees. (Michael, 2026-11-23, item 32; section 10.7)
+- ~~A return is taken only on the standing rungs.~~ A god, player or NPC, may take a slower, costlier return than the rungs, priced by the DM or the Keeper; a return never takes a possession. (Michael, 2026-11-23, item 20; section 6.11, `engine/rules/powers.md`, the Keeper's sealed files)
+- ~~A sealed request gets no answer the DM can see.~~ The Keeper writes one line per request in the sealed `S/player/requests-answered.md`, which the DM may read: "received and ruled", not how, unless the Keeper gives an explicit reason to tell more and the DM agrees: the reason as an indented line under the request's entry there, the DM's dated agreement beneath the request in `S/player/unsaid.md`, and only then the further line. (Michael, 2026-11-23, item 32; section 10.7)
 - ~~A god that bends a default but proposes no edge gets no negotiation round.~~ It gets a round on the bent default alone, with the cost stated, and the change itself may be the price. (Michael, 2026-11-23, item 51; section 3.8a)
 - ~~How far travelers arrive, and which season a cross-country event takes, are unsaid.~~ How each far traveler arrived is the Keeper's to decide, logged sealed; an event takes the season it was designed for at creation, or the one the world's actions determine. (Michael, 2026-11-23, item 67; sections 4.10, 8.1)
 - ~~The campaign's timing file is public.~~ It is sealed, `S/state/timing.md`; nothing public carries night or stage times; the player sees in-game data such as the years passed. (Michael, 2026-11-23, item 74; section 12.2a)
