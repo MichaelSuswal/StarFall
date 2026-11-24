@@ -151,3 +151,41 @@ To the Assay-master I add, "I'll leave my own brass here on the bench for the da
 I keep my face plain and my voice level. I give no name for myself unless I'm asked.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+The Assay-master looks up at you for the first time, and takes a while over it: the coat, the stained hands, the face.
+
+"I said bring a better set and I would weigh it against these," the Assay-master says. "I did not expect it within the breath. Speak to the weighing. The bench is the town's, so do it where the town can see." A thick finger taps the plank. "Here."
+
+You unhook the scales and set them on the bench. In the dim room the brass looks small and plain beside the clay pans, and the dent shows. The yard has come up to the door behind you; you can hear them breathing. You tip the salt from the hall's pan into one of yours, and you take out the nest of weights and set them against it one at a time, the largest first, calling each. It takes the whole nest but the two smallest cups. The pans come level and stay there, and what the scales tell you agrees with what you already knew. You say the count as it is.
+
+Then you say the rest, to the Assay-master, in a level voice: that the beam is honest, that the ten are not ten alike, that eight agree and the chipped one and the cracked one are light, that the salt is short by about a seventh of one weight against ten like the eight, and that you cannot say which size is the town's.
+
+Nobody laughs. The man who said "Ten's ten" says nothing at all.
+
+You turn to the raker and tell him he may have been short-weighed himself. He is a long time answering. "I fill by the basket," he says at last. "My father's basket, struck level. Ten baskets to the load, and the load was weighed here when the basket was made." He looks at the two pieces on the bench as if they had been in his house without his knowing. "I never took a pinch out of anyone's salt."
+
+You ask the fish-drier whether the missing seventh, made good, would settle it. "It would," she says at once. "I never wanted more than what I paid for. I've no quarrel with him if it's the hall's stones that are wrong." She does not take her hand off the bench.
+
+The raker looks at the Assay-master, not at her. "If the bench says short, I'll make it good today, out of this morning's raking. The bench said full."
+
+So it comes back to the one behind the balance, and you make your offer of the brass for the day, and say why you spoke.
+
+The Assay-master hears all of it out, and then answers in the order you gave it, like someone checking a tally.
+
+"First. You have told me nothing about those two that I do not know. I know the chipped one and I know the cracked one. So does she, so does half the yard. I use them because the hall has ten of that size and a ten-weight wants ten. The old weights they could be set right against are the Weightward's to bring out, and there is no Weightward, and the council has sat on that since spring.
+
+"Second. You say eight agree to a hair, one is light by a twentieth and one by a tenth. You weighed the salt. You did not weigh my pieces. I watched your hands and they never touched one. A good eye can see a chip. No eye sees a twentieth." The Assay-master picks up the cracked piece and holds it out over your pans without setting it down. "So you will put them in your pans, one by one, where the town can see, and we will find out whether you told me a thing you know or a thing you guessed. If you guessed, the ruling stands and you may go and be curious somewhere else. If you knew, I will say the salt is short, and he will make it good, and then you and I will talk about how you knew.
+
+"Third. No, I will not keep a stranger's brass on the town's bench for a day. By evening the market would say the hall weighs by a foreign measure, and I would have forty quarrels where I had one. You may stand at this bench and weigh while I watch. That is what I offered and that is what you may have.
+
+"And fourth, since you have had my bench: who are you?"
+
+The cracked weight is still held out over your pan. The raker and the fish-drier are both watching it. In the doorway the woman with the hand balance has stopped pretending to look anywhere else.
+
+(oog) No roll this time. The Assay-master had said aloud, a minute before, "If you have a better set, bring it and I will weigh it against these," so leave to speak to the weighing was not in doubt, on those terms. Nothing else here was rolled.
+
+Your count in your own brass is told as "the whole nest but the two smallest cups" because your card gives the nest no figures. If you want the nest to have named sizes, say what they are and I will hold you to them from here on.
+
+Two things have now been asked of you by someone in the world, and I am holding both as pending until you answer: the Assay-master's demand that you weigh the hall's pieces one by one in your pans, and the Assay-master's question, "Who are you?"

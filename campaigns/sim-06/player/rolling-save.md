@@ -30,3 +30,18 @@ Asked of the player in (oog), not yet answered: whether the three conduct lines 
 - Names heard from mortals so far: the Assay-master (the office), the Weightward (the dead keeper's office). No place name has been told, so nothing new in map knowledge.
 - The three conduct lines were confirmed by the player, with an order; written in `conduct-profile.md` under Now and as a dated entry.
 - One sealed answer taken to the sealed record.
+
+## 3. Speaking to the weighing
+
+- The Weigher asked the Assay-master's leave to put the salt in its own pans on the bench. Leave given, not rolled: the Assay-master had just offered to weigh any better set against the hall's.
+- It set its scales on the bench, weighed the salt against its nested brass, calling each: the whole nest but the two smallest cups. It said the count plainly.
+- It then said, in the player's words: the beam is honest; the ten are not ten alike; eight agree; the chipped one and the cracked one are light; the salt is short by about a seventh of one weight against ten like the eight; it cannot say which size is the town's. It said nothing of the raker's honesty.
+- To the raker: he may have been short-weighed himself. His answer: he fills by his father's basket, struck level, ten baskets to the load, the load weighed at the hall when the basket was made; he never took a pinch.
+- To the fish-drier: would the missing seventh made good settle it? Her answer: yes; no quarrel with him if the hall's stones are wrong.
+- The raker: if the bench says short he will make it good today from the morning's raking; the bench said full.
+- The Weigher offered to leave its brass on the bench for the day, and said it is not here to take the hall's measure from the Assay-master but cannot watch a hall weigh short and say nothing.
+- The Assay-master's answer: knows the two bad pieces and uses them because the hall has only ten of that size; the old weights they could be set right against are the Weightward's to bring out, there is no Weightward, and the council has sat on it since spring. Noted that the stranger never weighed the pieces and no eye sees a twentieth: demands each piece be weighed in the stranger's pans in front of the town. If guessed, the ruling stands. If known, the bench will say the salt is short, the raker makes it good, and then "you and I will talk about how you knew." Refuses to keep a stranger's brass on the bench; the stranger may weigh at the bench while watched. Asks: "Who are you?"
+- Board as left: the cracked piece held out over the Weigher's pan; the salt in the Weigher's other pan; the scales on the bench, out of its hand but within reach; the yard at the door.
+- Pending: the demand to weigh the pieces; "Who are you?" (`pending.md`).
+- The Weigher has given no name and has not said what it is.
+- One sealed answer taken to the sealed record.

@@ -36,6 +36,7 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 ## Other
 
 - 2026-11-24, creation Day 2 (same reply, the god's belief about its own past): "I think the debt I forgot is mine. I think I was the one who shorted a house that trusted me, and I became a god of true measure because I could not bear to know what I had weighed false. When I say I am owed something and owe something, I believe the second sum is larger. I do not want to find the house again, and I do not want anyone else to either."
+- 2026-11-24, Year 1 played day (a sealed part of the third reply, after speaking to the weighing at the bench): "I did not enjoy that it was easy. The True Measure made me right in front of a whole yard in the first hour, and the only thing I felt was how much I wanted to be right again. I'm going to watch myself on that."
 
 ## The DM's notes
 
