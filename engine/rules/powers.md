@@ -86,7 +86,7 @@ Set by the world. Not shown.
 - An edge a helper or other mortal performs that changes what the god can do is a power of the god's, priced on the god, with any cost the mortal bears marked for the Keeper's Night 3 fitting. A power that sleeps until a mortal learns or does something carries that dormant condition as a Limit.
 - An ask that describes no act only a god can do is offered both ways, as an ordinary act at no price or as a real power inside the card's limits, and the god chooses.
 - Hidden powers are discovered through play (3.9). They are not on any card, the player's or an NPC's, until they surface. The Keeper keeps them in the sealed god folder (`S/player/hidden-powers.md`, `S/gods-sealed/<god>/hidden-powers.md`), each with the kind of trigger that would surface it. When one surfaces, the Keeper releases it to the DM, who adds it to the card the same day with the scene it surfaced in.
-- Knacks are found the same way. Every god, player and NPC, has two or three small innate knacks (3.9), kept in the same sealed file, each with the kind of moment that would show it. No card names a knack, or says how many there are, before it surfaces. A knack surfaces when the god does the kind of thing it touches and the knack would show in the result: the Keeper, resolving the scene or the year, releases it to the DM (for the player's god) or in the god's next release (for an NPC god), and the DM, or the Keeper for an NPC god's card, adds it to the card the same day under the hidden powers heading, marked "knack", with the scene it surfaced in. A knack is small: it shades an outcome or a craft and never does what a power does.
+- Knacks are found the same way. Every god, player and NPC, has two or three small innate knacks (3.9), kept in the same sealed file, each with the kind of moment that would show it. No card names a knack, or says how many there are, before it surfaces. A knack surfaces when the god does the kind of thing it touches and the knack would show in the result: the Keeper, resolving the scene or the year, releases it to the DM (for the player's god) or in the god's next release (for an NPC god), and the DM, or the Keeper for an NPC god's card, adds it to the card the same day under the hidden powers heading, marked "knack", with the scene it surfaced in. A knack is small: it shades an outcome or a craft and never does what a power does. It grows only by use of its related skills (section 4).
 - The ceiling is never on a card. The Keeper keeps each world's ceiling in `S/star.md` and in each sealed god folder.
 - Growth is never on a card beyond the words "Possible. Not shown." until a tier lands (section 5).
 - Loopholes belong to whoever finds them (3.10). A loophole found is recorded as a ruling in the finder's favor, never closed retroactively. Countermeasures come only through the world (6.4).
@@ -126,7 +126,7 @@ Two further checks on any ruling:
 
 ## 4. Tiers of growth
 
-Three things grow in different ways (6.5). The Keeper rules on which tier an attempt belongs to before it is tracked.
+Three things grow in different ways (6.5), and a knack in a fourth. The Keeper rules on which tier an attempt belongs to before it is tracked.
 
 ### Craft
 
@@ -135,6 +135,10 @@ Craft is how time is spent. Its reward is what that time produces: a wall built,
 ### God powers
 
 Powers are innate, separate from craft and from mortal magic, like eyes or legs (4.8, 6.5). Practice at craft never produces a power. Powers grow only by the two tiers below.
+
+### Knacks
+
+A knack grows only by use of the skills related to it, never by a trigger, a tier or any other way a power grows, and never into a power. It stays small. Its use is tracked in the god's sealed growth file in the same form as a power's practice (section 5).
 
 ### Small refinements
 
@@ -187,7 +191,7 @@ Rules:
 - The player is told nothing of the count. What reaches the DM's release each year is only what the god would feel: an attempt that went better or worse than before, a cost paid, a sense of something near. The DM weaves it into the morning story as the god's own sensation and never names a count, a tier or a ceiling.
 - The player may abandon an attempt at any time, by saying so. The block stays, marked abandoned. If the player returns to it later, the old practice counts.
 - When all five needs are met, the Keeper tells the DM only that the god may now attempt the thing in full. The player plays the final attempt as a scene. It is rolled. Success adds the power or upgrade to the card as a dated entry, with its drawback. Failure costs what was staked and adds one more failure line; the player may try again the next year.
-- The growth file is created empty on Night 3b and holds one section per power block on the card, whatever its status (main, hidden, added Day 3, added Night 3); attempts are opened under the power they belong to.
+- The growth file is created empty on Night 3b and holds one section per power block on the card, whatever its status (main, hidden, added Day 3, added Night 3), and one per knack; attempts are opened under the power they belong to, and a knack's section takes one line for each year a related skill was used.
 - The ceiling check is made by the Keeper against `S/star.md`. "The ceiling holds" is all that is ever said.
 - An NPC god's attempts are tracked in exactly the same block in its sealed growth file. Its civ agent's report and the year's resolution fill the practice lines; the god's agent learns only what its release says it felt.
 

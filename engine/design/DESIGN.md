@@ -128,6 +128,7 @@ Hidden material (deep lore, the mystery standard, the NPC god rubric, Keeper not
    - God powers are innate, separate from craft and magic.
    - New powers and big upgrades need a trigger in the world (a mentor, a realization, an example witnessed), years of practice with failures, real risk, a new drawback, and a ceiling.
    - Small refinements need time, practice and risk.
+   - Knacks grow only by use of the skills related to them, never by any other trigger, and never into a power (Michael, 2026-11-24).
 6. NPC gods negotiate their powers with the Keeper on Night 2, keep power cards in the same format in the spoiler folder, grow under the same rules, and can find loopholes.
 7. The ceiling on growth is secret deep lore, rolled within a small range per world. Power growth stays rare and modest; the status quo holds.
 8. Growth is tracked in secret. The Keeper keeps a sealed growth file per god (`S/player/growth.md` for the player, `S/gods-sealed/<god>/growth.md` for each NPC): for each power, the triggers met, the years practiced, the failures, the near misses, and the tier reached. The night turn logs progress only when something in the world earns it, never on a schedule. The player learns of growth only through what the god feels, woven into the morning story, and the public card changes only when a tier actually lands, as a dated entry. The card's Growth line says only that growth is possible.

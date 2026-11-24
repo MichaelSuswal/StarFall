@@ -229,4 +229,4 @@ Every NPC god has a luck modifier, as the player's god does, earned the same way
 
 ## 15. Knacks
 
-Every NPC god has two or three small innate knacks, drawn from its own secret backstory on Night 2 (runbook 2.7). Whether it has two or three is a balance tool: the Keeper sets the count by the god's weight in `S/balance.md`, toward the band, and logs the count with its reason. The knack format is in runbook template 7.13.
+Every NPC god has two or three small innate knacks, drawn from its own secret backstory on Night 2 (runbook 2.7). Whether it has two or three is a balance tool: the Keeper sets the count by the god's weight in `S/balance.md`, toward the band, and logs the count with its reason. The knack format is in runbook template 7.13. A knack grows only by use of its related skills, never by any other trigger, and never into a power; the Keeper tracks its use in its block of the god's sealed growth file (runbook template 7.10), the same for every god (Michael, 2026-11-24).

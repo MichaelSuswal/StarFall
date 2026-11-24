@@ -83,3 +83,23 @@ Agent T, 2026-11-24.
 14. `map.md`: the second 1.4 is now 1.5 (every reference to 1.4 meant the sight rule). No dashes added.
 
 Runs: the suite, 72 passed. `lockcheck.py sim-05 --all`: 0 failures in every check; places 7 warnings (12 before; the files stamp skips are no longer warned on), leaks 1 (the public timing file, as before), releases 0 and 0. `map.py validate sim-05`: 0 problems, 0 warnings. sim-05 unchanged.
+
+## Decisions 9 and 10
+
+2026-11-24. Michael's go: decisions 9 and 10 of `build-plan.md`.
+
+### Decision 9, knacks (68)
+
+- `SPOILERS_do_not_open/keeper/creation-runbook.md`: template 7.10 gains a knack block (`## <knack name> (knack)`, `Related skills`, `Use` lines in the form of a power's practice line, `Grown`); the "Knacks do not grow" paragraph now says a knack grows only by use of its related skills, never by any other trigger, with how the Keeper writes each year's `Use` line and `Grown`; 3b.3 writes one block per knack, `Related skills` filled from `hidden-powers.md`.
+- `SPOILERS_do_not_open/keeper/npc-god-rubric.md`: section 15, the same rule, with the growth file block.
+- `engine/rules/powers.md`: section 4 has a Knacks subsection (grows only by use of related skills, never by a trigger or tier, never into a power, tracked as practice in the sealed growth file); the knack line in section 1 points to it; section 5 says the growth file holds one section per knack.
+- `engine/design/DESIGN.md`: 6.5, a knack line.
+- `engine/design/CHANGELIST.md`: build 6, "Knacks never grow" reversed.
+
+### Decision 10, a priced bend (check note 13)
+
+- `SPOILERS_do_not_open/keeper/sealed-factors.md` (What counts): a priced bend counts by the Keeper's judgment of whether it makes the god's life harder, by how much, net of any price paid for it elsewhere; easier, or already paid for, counts nothing; the player's Day 3 table included; same for NPC gods, reason logged. Header cites the decision.
+- Runbook 2.4 and 3a.1 luck lines: the same judgment, reason logged; 3a.1 names the player's Day 3 bend.
+- No public engine file changed for decision 10.
+
+Runs: the suite, 72 passed. `lockcheck.py sim-05 --all`: as before (places 7 warnings, leaks 1, every other check 0 and 0). `map.py validate sim-05`: 0 problems, 0 warnings. sim-05 unchanged. No dashes added.
