@@ -155,3 +155,8 @@ Offered once, on Day 2. Taken: the scales as the instrument, for Seals by factor
 Set by the world. Not shown.
 
 ## Dated entries
+- 2026-11-24, Day 3: The provisional mark on the four powers priced by shape, effects and never causes (The True Measure, The Good-Faith Reading, The Seal, the hearing in The Scattering) is lifted. Confirmed unchanged by the Keeper on Night 2. Ledger: L-0006. The lines "for the Keeper's Night 2 review" under "More than ordinary craft, a scarcity" on The True Measure, The Good-Faith Reading and The Seal are answered by this entry and the next: nothing is added.
+- 2026-11-24, Day 3: The provisional mark on the price that rests on what true measure is worth is lifted. Confirmed unchanged. Ledger: L-0007.
+- 2026-11-24, Day 3: The provisional mark on The Scattering as a slower return, one item of memory or habit, with "the nearest true scale" as its ground, is lifted. Confirmed unchanged. Ledger: L-0008.
+- 2026-11-24, Day 3: The provisional mark on the things carried (the magnifying glass, the wax and seal-ring, the ink, the stones for testing metal, and the word "coin") is lifted. Confirmed unchanged. Each is an ordinary possession the god came down with and does only what such a thing does. Having one does not mean more can be had for the asking: a lost or broken one is replaced only by work in play. Ledger: L-0009.
+- 2026-11-24, Day 3: From the Keeper, put to the player at the opening of Day 3. The dent in the scales and the always-empty pocket are settled, out of the god's sight, with the rest of its past. Nothing changes on the card: the dent is there and the god did not put it there on the way down; the pocket is empty and does nothing. No Limit is added to any power. No work rate of the god's own was set.

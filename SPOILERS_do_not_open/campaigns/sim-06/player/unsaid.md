@@ -18,6 +18,7 @@ None given.
 ## Request not to be told
 
 None given. (The DM read "I do not want to find the house again" as the god's want, not as the player asking not to be told; filed under Want. Flagged for the Keeper to weigh.)
+  - 2026-11-24, creation Day 3, the DM on the Keeper's reason in `requests-answered.md` (that the DM filed the line itself and marked open conduct lines by it, and cannot run those lines without knowing whether its filing stands): agreed. The Keeper may add the one further line saying whether the filing stands, and nothing else.
 
 ## Request to the Keeper
 
