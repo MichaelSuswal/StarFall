@@ -36,13 +36,15 @@ Rule: a mortal ruler under the god, a warlord: rules by force, through its war b
 Worship: a priesthood. Keepers of rite with standing among the people, offerings brought, no tithe by law. (score 66)
 
 ## Name
-(Night 2)
+It has none. It remembers having one and cannot say where the place is. Mortals who meet it will call it what they like; it answers to "Guest" and to "Mother of the Door" without correcting anyone, and it listens, every time, for the one name that is not there.
 
 ## Traits (own)
-(Night 2)
+**The Host Who Counts the Cost.** Warm, mothering, patient in speech, with iron under it. She is clever and wary, and she hides what she is until she has weighed the one in front of her. She feeds a stranger, seats him, asks nothing, and watches his hands. It reconciles Mind (clever), Trust (wary), Presence (a little hidden), Regard for mortals (sovereign: the kindness is real and it is also hers to give or withhold), and the virtue of justice: she keeps accounts of who was welcomed and who was turned away.
+
+**The Slammed Door.** Impulsive, hungry, a breaker. When a wrong is done at a threshold, or when fear rises, she acts before she has weighed, and what she does is to shut, break, take or burn. It reconciles Temper (impulsive), Making (breaker), Appetite (hungry), Body (strong, in the manner of a woman who has never been refused a heavy door), and the flaw of fear: she is afraid of being shut in, of being shut out, of a door that does not open, and she breaks things to be sure of them. The two traits live in the same body. The host decides slowly and kindly; the other one slams a door and regrets it in the morning, or does not.
 
 ## Keeper trait
-(Night 2)
+At a table where you have eaten the host's food you cannot speak a lie, until you rise from it. Its reach: your own spoken words at that table only; you may keep silent, and it binds no one else, reads no one, and touches none of your powers or their prices.
 
 ## Season it wakes into
 Autumn.

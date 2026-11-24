@@ -37,13 +37,14 @@ Rule: a council of elders or chieftains. The people is ruled by a council of its
 Worship: none. It asks no rites; what the people do about it is theirs. (score 34)
 
 ## Name
-(Night 2)
+None. It has a blank where a name was and it feels the blank like a missing tooth. Until a people gives it one, it is called "friend" or "the stranger" by whoever speaks to it, and it lets them. It gives no name of its own and does not say it has none unless asked straight, and then it says so plainly and with a small smile.
 
 ## Traits (own)
-(Night 2)
+1. **Keeps accounts and shows nothing.** The god counts debts, favours and doors, and tells little of what it counts. Reconciles: Mind toward intelligent, Presence toward hidden, Making toward builder, Order toward freedom, Appetite a little hungry. It would sooner be one large merchant among many than a light in a dark room, and it builds slowly and in the background. Where its freedom lean pulls against its counting, it settles it by letting others keep their own books as long as they keep honest ones.
+2. **Wants company and flinches from being known.** The god draws people close and then holds back one pace from the door. Reconciles: Company hard toward gathering, Regard toward shepherd, Trust between open and wary, Temper a little patient, and the flaw, cowardice dressed as caution. It calls the flinch prudence, and sometimes it is. It forgives where it would be easier to punish (its virtue is mercy), and so it is slow to make an enemy and quick to slip out of a room where one might be made.
 
 ## Keeper trait
-(Night 2)
+People say more to you than they meant to: a mortal who talks with you for an hour comes away having told you something they had not planned to, knows it afterward, and remembers to whom. Its reach: only what a mortal chooses in the moment to say aloud in long talk with you; it opens no mind, a thing let slip so is not a thing told in trust and takes no place in Kept Word, and it touches none of your powers or their prices.
 
 ## Season it wakes into
 Autumn.

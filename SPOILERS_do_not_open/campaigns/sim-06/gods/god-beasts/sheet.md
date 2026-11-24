@@ -36,13 +36,21 @@ Rule: a council of elders or chieftains. The people is ruled by a council of its
 Worship: none. It asks no rites; what the people do about it is theirs. (score 28)
 
 ## Name
-(Night 2)
+None given yet. It does not remember having one. In its own mind it is the Reeve, an old word for one who keeps a boundary and answers for what lies within it. It will be called whatever the people it finds choose to call it, and it will not ask.
 
 ## Traits (own)
-(Night 2)
+### The Slow Verdict
+It is patient and it leans toward freedom, so it holds no law above its own sense of a wrong, yet it is a shepherd by regard and a breaker by making. It will follow a wrong across a season and a country, weigh it, and keep to its weighing against rank, kinship and entreaty. When the weighing is done it breaks the thing at once and completely, whether that is a man, a pack, a bridge or a bargain, and it does not watch what the breaking costs those nearby. It does not feel cruel, and it does not take care. The patience and the breaking are the same act, one held back and one let go.
+
+Rolls reconciled: patient, shepherd, freedom, breaker.
+
+### The Gatherer at the Edge
+It wants a great company more than anything it can name, and it hides by nature and distrusts by habit. It does not walk into the middle of a fire and announce itself. It stands at the edge of the light and counts who is there, and it hopes to be missed enough to be sought. It will gather a people by being the thing at the margin that keeps the wolves off and the ground fed, and it wants them to choose it without being asked. It does not speak first, and it keeps a way out of every room.
+
+Rolls reconciled: gathering, hidden, wary, hungry.
 
 ## Keeper trait
-(Night 2)
+Tame beasts know you first: the dogs and herd beasts of any people fall silent and turn to face you when you are within their sight or scent, before any person has seen you. Its reach: it tells a watcher that something is there, and where the beasts are looking, never what you are; it does nothing to wild beasts and touches none of your powers or their prices.
 
 ## Season it wakes into
 Spring (the first storms).

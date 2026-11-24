@@ -35,13 +35,14 @@ Rule: a sacred monarch behind a court. A mortal line holds the throne in the god
 Worship: none. It asks no rites; what the people do about it is theirs. (score 25)
 
 ## Name
-(Night 2)
+Skerr. It is the only word it has for itself, and it does not know who gave it. Mortals who come to know it will call it what they like.
 
 ## Traits (own)
-(Night 2)
+Keeps its own counsel. Reconciles: hidden (hard), wary (hard), solitary (a little), shepherd (hard). It watches its people from the edge and trusts no one with all of it, yet it cannot stop caring for them. It gives out only what a task needs.
+Stubborn pride. Reconciles: pride as flaw, courage as virtue, enduring body, a leaning toward builder. It will not leave a thing half done, will not ask for help, and will not admit a craft is past it, even when it is, and it will walk into a bad place before it sends a mortal.
 
 ## Keeper trait
-(Night 2)
+Where you have lain a night in the water, the sea goes quiet: gulls and seals leave that stretch for some days, and fishers notice the empty shore. Its reach: it marks the water where you rested and nothing else; it gives no one your shape or your name, and it touches none of your powers or their prices.
 
 ## Season it wakes into
 Autumn.

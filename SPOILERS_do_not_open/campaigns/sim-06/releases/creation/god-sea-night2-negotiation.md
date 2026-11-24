@@ -116,7 +116,7 @@ Limits settled at creation:
 - A scarcity: it makes a harbor safe for a night and makes no harbor.
 - Use across a year: each stretch of water stilled is closed to the god for a season.
 - Not applicable: falling.
-- First wording, kept as intent: "Calm water looks like luck." The night and a day is what the trade bought; before it the calm lasted one filling of oil.
+- First wording, kept as intent: "It wants a safe harbor and time before the storm." The night and a day is what the trade bought; before it the calm lasted one filling of oil.
 Rulings:
 Trades: its instrument, the lamp, is the weakness that bought the longer hold (see Weaknesses taken).
 Growth: Possible. Not shown.
@@ -171,3 +171,7 @@ and to no other file.
 Then stop.
 
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.
+
+## Round 3
+Confirmation of wording only. No reply is needed.
+The lamp weakness, its last sentence, is written as you asked: "Anyone who learns this can take the calm from the god by taking the lamp; no one gains it." It changes no number, reach or cost. Everything else stands as confirmed.

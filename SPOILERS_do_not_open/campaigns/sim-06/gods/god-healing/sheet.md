@@ -37,13 +37,17 @@ Rule: a sacred monarch behind a court. A mortal line holds the throne in the god
 Worship: local shrines. Household and village shrines, kept by whoever keeps them; no order of priests. (score 51)
 
 ## Name
-(Night 2)
+Ilvane. It chose the name on waking and has told it to no one. No one yet calls it anything.
 
 ## Traits (own)
-(Night 2)
+### Tender contempt
+It leans toward the shepherd's regard for mortals and holds trust back hard, and it is proud. It will walk all night to a sickbed and then think the family beneath it for weeping. It cares for what it tends and does not expect to be thanked, and it would rather be underestimated than needed. Reconciles: shepherd regard, wary trust, flaw of pride, hidden presence.
+
+### Hunger held in the hands
+Its appetite is great and it wants a lot: to know, to try, to mend what no one has mended. It is also restrained, and the restraint is real but not gentle: it holds back by clenching, and it goes impulsive when the clench slips. It acts fast, regrets rarely, and does not apologize. Reconciles: hungry appetite, impulsive temper, virtue of restraint, solitary company, leaning toward freedom and a little toward breaking.
 
 ## Keeper trait
-(Night 2)
+What you have mended knows you: any person or creature you have mended can tell, eyes shut, when you are within a few paces. Its reach: only those you have mended, only your nearness; it tells them nothing of what you think or mean, and it touches none of your powers or their prices.
 
 ## Season it wakes into
 Spring (the thaw).

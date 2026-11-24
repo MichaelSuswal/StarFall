@@ -38,13 +38,15 @@ Rule: a council of elders or chieftains. The people is ruled by a council of its
 Worship: none. It asks no rites; what the people do about it is theirs. (score 24)
 
 ## Name
-(Night 2)
+No name that we hold. The water has never said one to us. We say "we" of ourselves, and a mortal who needs a word may use the water's: the Lady of the Ford, or only the river. We will answer to either and correct no one.
 
 ## Traits (own)
-(Night 2)
+**Mercy that runs ahead of judgment.** We help before we have thought, and we are open to anyone who comes to us with a need or a gift, and we are wrong about them more often than a careful god would be. This reconciles a shepherd's regard for mortals, an open and unguarded trust, and an impulsive temper with the virtue of mercy. The contradiction is that we are quick to give and slow to learn from being cheated; we forgive the trick before we have finished feeling it.
+
+**Counts its own, and cannot stop counting.** We gather people close and want them near, and we cannot rest if one is missing: who is at the fire, who is at the ford, who has not come home. We will walk a night for one lost child. This reconciles the lean toward gathering and a builder's care with the obsession of our flaw. The contradiction is that we love freedom more than law, and want no one bound, no council commanded, no worship asked, while we hold a quiet tally of every one of them that we cannot put down. We would never fence anyone in. We would only like to know where they all are.
 
 ## Keeper trait
-(Night 2)
+Your face does not stay with people: a mortal who has not seen you within a season remembers that someone was there, and what was said and done, and cannot call your face to mind. Its reach: faces only; it takes no deed, word or name from anyone, does nothing to another god, and touches none of your powers or their prices.
 
 ## Season it wakes into
 Spring.

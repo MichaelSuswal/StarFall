@@ -77,8 +77,8 @@ Binds: the sealed record; the DM's filing stands.
 ## L-0011
 Date: 2026-11-24. Year: creation, Night 2. Card: every card (a world rule of the table).
 Matter: how an instrument of a power is priced.
-Arguments: three gods' drafts gave the holder of an instrument the power, or let a free gift pass it (god-sea, god-rivers, god-secrets in one sentence, god-beasts at a breaking of the body); two gave a way to remake a destroyed one (god-sea over a season, god-beasts from a beast freely given); one a sense of where it lies (god-rivers). Against each: the terms the player's instrument carries from the Day 2 table, which every card must share for the weakness to weigh the same.
-Ruling: in any other hand an instrument is only the ordinary thing and no one else gains the power; destroyed, the power is gone until the god's next return, when the thing comes back with the body; held by another at a breaking of the body, it stays where it is; the god has no sense of where it lies unless it buys one. Settled against the four gods named, in part. No god was told another argued it.
+Arguments: three drafts gave the holder of an instrument the power, or let a free gift pass it (god-sea, god-rivers, god-secrets in one sentence, god-beasts at a breaking of the body); two gave a way to remake a destroyed one (god-sea over a season, god-beasts from a beast freely given); one a sense of where it lies (god-rivers). Against each: the terms the player's instrument carries from the Day 2 table, which every card must share for the weakness to weigh the same.
+Ruling: in any other hand an instrument is only the ordinary thing and no one else gains the power; destroyed, the power is gone until the god's next return, when the thing comes back with the body; held by another at a breaking of the body, it stays where it is; the god has no sense of where it lies unless it buys one. Settled against the four named, in part. No god was told another argued it.
 Binds: every card. Confirmed by god-sea, god-rivers, god-beasts and god-secrets in their round 1 replies.
 
 ## L-0012
@@ -164,3 +164,7 @@ Matter: the god's counter that lesser marks have their own count of seven, apart
 Arguments: the god: "a mark that crowds out my own is a mark I will never ask my priesthood to lay, and then the trade buys me nothing." The Keeper: the weakness is heavy and covers a step of real use; seven more watched doorways is more than one step; and the card stands above the band, which the Keeper told her in round 2.
 Ruling: a count of their own, three. First made in round 2; the god may take it or the round 1 text. Settled against the god in part.
 Binds: god-thresholds's card.
+
+## Confirmations, Night 2
+2026-11-24. L-0011 to L-0023 stand as entered, each confirmed by the god's round 2 reply. L-0016: god-rivers answered the Keeper's round 2 word once and kept the valley's flood with its price. L-0021: god-thresholds accepted the Keeper's version ("I will not pretend I did not look for the gap"). L-0023: god-thresholds took the three lesser marks apart from the seven. No confirmation changed a term. One wording was fixed at confirmation at god-sea's asking, in its weakness text, changing no term; no entry is amended by it.
+Rungs taken: a season for one item, god-sea, god-dreams, god-rivers, god-healing, god-beasts, god-secrets; a month for two items, god-thresholds; a slower return at its own asking, the player's god (L-0005, L-0008).

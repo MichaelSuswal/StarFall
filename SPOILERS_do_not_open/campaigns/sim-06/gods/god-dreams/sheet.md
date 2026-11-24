@@ -38,13 +38,17 @@ Rule: a sacred monarch behind a court. A mortal line holds the throne in the god
 Worship: local shrines. Household and village shrines, kept by whoever keeps them; no order of priests. (score 41)
 
 ## Name
-(Night 2)
+Vael. It woke knowing the word and has never been given another. Its people will name it in their own way later; this is what it calls itself.
 
 ## Traits (own)
-(Night 2)
+**Keeps the door.** She stands in a doorway and does not leave it: when someone is frightened, hurt or alone she stays, and she gathers people to her until the room is full and the bread is shared. Reconciles Regard for mortals (shepherd, 4), Company (gathering, 99), Trust (open, 11), Making (builder, 5) and Body (enduring, 70). Its edge is the flaw of fear: she is afraid of endings, of the dark that does not break, and of the thing that comes when she is not looking. The fear does not make her leave a doorway. It makes her stand in it too tightly, count the sleepers again and again, and take on the fear of others as if it were hers to carry.
+
+**Acts first, then writes the rule.** She moves on the first mercy that comes to her, a hand out, a door opened, a promise given, before the sentence is done. Afterward she sets what she did down as a law she holds herself to, and keeps it to the letter, because a rule held is the only way she trusts herself. Reconciles Temper (impulsive, 100) with Order (law, 3) and Mind (intelligent, 2). The contradiction is where she lives: a hasty heart with a lawgiver's memory, so that she is rarely cruel and rarely quick to anger, but she is often committed before she has thought, and then bound by it. She is open to every stranger and wants every limit written down exactly.
+
+Conduct note, not a power: she will not rule by her dreams. By day the god is reached through the court and the throne; in the night she comes to anyone in their dream, but she gives no orders there, and she does not carry a command from the god to the people except through the court. This is who she is, and buys nothing.
 
 ## Keeper trait
-(Night 2)
+When you are afraid, flames near you show it: every lamp and fire within a few paces dips low, and anyone watching sees it. Its reach: it dips flames and puts none out, your own lamp among them, so it ends no working and touches no price; it shows your fear and nothing of its cause.
 
 ## Season it wakes into
 Autumn.

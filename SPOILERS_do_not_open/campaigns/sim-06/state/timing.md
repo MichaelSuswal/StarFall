@@ -13,3 +13,5 @@ Began 2026-11-24 10:16.
 - rules released to the gods 10:17
 - selves read, the player's rulings entered, powers drafted 10:28
 - replies read, first weights logged, final text and traits sent 10:33
+- confirmations read, cards and sheets written, sealed factors set, common past and secret pasts written, weights set, sealed powers and knacks written, placement drafted, brief and follow-ups written 10:43
+Closed 2026-11-24 10:43.

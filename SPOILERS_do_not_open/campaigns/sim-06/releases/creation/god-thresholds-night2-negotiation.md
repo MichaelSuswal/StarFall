@@ -213,3 +213,7 @@ and to no other file.
 Then stop.
 
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.
+
+## Round 3
+Confirmation only. No reply is needed.
+Settled by your round 2 reply: the Keeper's version on standing in a threshold to bless it stands in the Limits of The Latch, and lesser marks have a count of their own, three, apart from the seven. The text is as round 2 wrote it. Nothing else was open.
