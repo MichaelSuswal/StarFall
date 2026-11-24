@@ -16,7 +16,7 @@ What each people calls the world, and its star:
 - god-dreams's people: the Table; the Guest's Lamp.
 - god-healing's people: the Silt; the Watch Light.
 - The Sarrow: the Sill; the Door Lamp.
-- The Aldermark: the Mark; the Crown Light, and in its oldest rolls the High Assayer.
+- The Aldermark [r10]: the Mark; the Crown Light, and in its oldest rolls the High Assayer.
 - The mining holds: the Ridge and the Low; the Cold Bloom.
 - The harbor league: the Coasts; the Steerlight.
 - The water folk have no word for the world and do not name the star.
@@ -50,7 +50,7 @@ Godless, under `civs/godless/`: the Aldermark [r10], with the Mollen quarter at 
 Not counted as peoples: plainsfolk of the Ansel Plain [r04], the Hollin Reaches [r08] and the Cander Plain [r16]; shepherds of the Bren Hills [r05]; the rim herders of Whitmoor [r09].
 
 ## The cast
-`cast.md`: the Whitmoor Ring, the rim herders, the carriers, the voices that come down, the Mollen of Aldermoot, the unnamed fallen stone, Brid of the hill, the house of the Aldermark, Josse Tarn, Captain Maud Sennet.
+`cast.md`: the Whitmoor Ring [f76], the rim herders, the carriers, the voices that come down, the Mollen of Aldermoot [f70], the unnamed fallen stone [f77], Brid of the hill, the house of the Aldermark [r10], Josse Tarn, Captain Maud Sennet.
 
 ## The history, the mysteries and the schedule
 `deep-history.md`; `mysteries.md` (E01; L01 to L05; S01 to S11); `event-schedule.md`; `state/phenomena.json`; `state/standing.md`.
@@ -59,7 +59,7 @@ Not counted as peoples: plainsfolk of the Ansel Plain [r04], the Hollin Reaches 
 The hour before first light, the same for all eight. The stone fell in that hour.
 
 ## Where each Night 1 candidate went
-Fears. Hunger after a bad year: rows W-1, W-3, W-5, T-3. Sickness that travels: S04, S07, T-1. Something old and patient that does not care: the Whitmoor Ring. The patient neighbor who counts: the Aldermark's claim (S01, S09) and House Corran (S06). A rumor that outruns its truth: the random table. Drowning and what comes up from below: W-4 and the water folk's kept hall. A fear that comes in sleep and stays: the dreams at the Ring and at the stone. A pack that has lost its fear: T-2. A drought the stories said could not come: W-5. A currency that fails: S09-b. A ruinous fashion: the random table. Hospitality abused and the unwatched door: the random table.
+Fears. Hunger after a bad year: rows W-1, W-3, W-5, T-3. Sickness that travels: S04, S07, T-1. Something old and patient that does not care: the Whitmoor Ring [f76]. The patient neighbor who counts: the Aldermark's [r10] claim (S01, S09) and House Corran (S06). A rumor that outruns its truth: the random table. Drowning and what comes up from below: W-4 and the water folk's kept hall. A fear that comes in sleep and stays: the dreams at the Ring and at the stone. A pack that has lost its fear: T-2. A drought the stories said could not come: W-5. A currency that fails: S09-b. A ruinous fashion: the random table. Hospitality abused and the unwatched door: the random table.
 Scarcity. Salt and iron: in every record, and S06. Trust, rest and time: tempers in the records. Safe harbor and sound timber: god-sea's people and the league. Draught beasts and breeding stock: S04. Clean water: S07. The knowing of medicine: the fen's moss. Old standard weights: S01, S10. The one particular good: stream tin in the Tawn Hills [r27], between seats and in no god's country.
 Buried. Old roads: the Old Rudd Way [f23], the Alder Road [f24], the Pass Road [f65], the Drowned Causeway [f33]. Sealed doors: the Pellow Vaults [f26], the Kennoch Gates [f64]. The trading power's leavings and why it ended: the Assize of Maun, L03, L05, S10. Enormous bones: the Cliff of Bones [f32], Ribhill [f42]. Graves made with care: the Ellow Barrows [f52], the Morrow Mounds [f56]. A sealed spring: the Stopped Spring [f48]. A buried dry riverbed: the Dry Braid [f49]. A forgotten offering place: the bell and the jar under the quay of the unnamed harbor town [f30]. Gates in hillsides: the Kennoch Gates [f64]. A grave not clearly for the dead or against them: the walled field of the hollow at the old yards, Pellow Downs [r15]. A place under the water still kept: the lower hall of the Maun Stair [f27]. A thing made to shelter someone: the Wreck House at Port Sennet [f75].
 Non-human peoples. The water folk, certain; the Mollen, the rare second, as an enclave.

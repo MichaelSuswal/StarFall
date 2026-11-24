@@ -23,3 +23,12 @@ Began 2026-11-24 10:54.
 - replies read, sheets found returned, final text sent 11:07
 - confirmations read, sheets traced, records agreed, land written, starting knowledge written 11:25
 Closed 2026-11-24 11:25.
+
+## Night 3b
+Began 2026-11-24 11:27.
+- plane rolled, history dates and schedule rolled, growth files written 11:37
+- deep history, mysteries, schedule, cast and world bible written 11:56
+- first morning inputs and landing releases written 12:01
+- travel lines rerun, checks run 12:02
+- paused 12:02, the session stopped by its usage limit; resumed 15:34
+- handed to the checker 15:34

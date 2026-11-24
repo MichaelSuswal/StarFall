@@ -16,7 +16,7 @@ Beyond the downs are the Rudd Hills (C3), where the ore and the charcoal come fr
 
 ## Upriver
 
-The Alder Road follows the river north from the head of the delta into the Aldermark (B2), an old kingdom of the river plain. Its nearer town is Wenlow: 198.5 miles from the town on foot, 12 days, the first stretch over marsh and the rest by the road. Its king's city is Aldermoot: 309.5 miles on foot, 17 days; by boat it is 30 days up the river and 12 days back down. The old people say a reeve of that king once sat on the bank and took a share of the market. No one has come for it in three generations, and the town says the market is older than any lord.
+The Alder Road follows the river north from the head of the delta into the Aldermark (B2), an old kingdom of the river plain. Its nearer town is Wenlow: 198.5 miles from the town on foot, 12 days, the first stretch over marsh and the rest by the road. Its king's city is Aldermoot: 309.5 miles on foot, 17 days; by boat it is 30 days up the river and 13 days back down. The old people say a reeve of that king once sat on the bank and took a share of the market. No one has come for it in three generations, and the town says the market is older than any lord.
 
 ## The forest and the fen
 

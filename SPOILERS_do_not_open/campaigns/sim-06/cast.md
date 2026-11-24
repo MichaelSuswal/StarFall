@@ -28,8 +28,8 @@ Mysteries: L03.
 
 ## The Mollen of Aldermoot
 Place: the Mollen quarter of Aldermoot [f70]. About three hundred.
-Nature: the slow people. Not human; each lives about two hundred and fifty years. They keep their own law of guest and debt and their own books, of which the Ninth Book is the oldest still read. Its keeper is Emmerin, who was a child when the Aldermark was young. They are exact, incurious and fair once a price is agreed.
-Limit: The Mollen of Aldermoot know every bargain entered in their books since the Assize's founding, the parties, the terms and the day; they do not know why any party acted, anything never entered, or anything of the star, the gods or the fading; they answer only what is asked exactly, to one who pays the search price in advance, one question to a search; and of a matter not in the books they say it is not in the books.
+Nature: the slow people. Not human; each lives about two hundred and fifty years. They keep their own law of guest and debt and their own books, of which the Ninth Book is the oldest still read. Its keeper is Emmerin, who was a child when the Aldermark [r10] was young. They are exact, incurious and fair once a price is agreed.
+Limit: The Mollen of Aldermoot [f70] know every bargain entered in their books since the Assize's founding, the parties, the terms and the day; they do not know why any party acted, anything never entered, or anything of the star, the gods or the fading; they answer only what is asked exactly, to one who pays the search price in advance, one question to a search; and of a matter not in the books they say it is not in the books.
 Mysteries: E01, S09.
 
 ## The unnamed fallen stone

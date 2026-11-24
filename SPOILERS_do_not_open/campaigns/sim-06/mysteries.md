@@ -19,7 +19,7 @@ None of these is a scheduled visitor. The carriers come on a clock and bring no 
 
 ### Body
 The star. The Gannel Stones [f80]: two uprights and a notched third on the grass of the Hollin Reaches [r08], whose frame now points about a hand's breadth above the star. The blue-grey glass under the old workings at Haskhold [f72] and behind the Kennoch Gates [f64], and the one whole stone in it, cut with the name Ulmarre. The Mollen of Aldermoot [f70], whose books alone date the notches.
-Limit: The Mollen of Aldermoot know every bargain entered in their books since the Assize's founding, the parties, the terms and the day; they do not know why any party acted, anything never entered, or anything of the star, the gods or the fading; they answer only what is asked exactly, to one who pays the search price in advance, one question to a search; and of a matter not in the books they say it is not in the books.
+Limit: The Mollen of Aldermoot [f70] know every bargain entered in their books since the Assize's founding, the parties, the terms and the day; they do not know why any party acted, anything never entered, or anything of the star, the gods or the fading; they answer only what is asked exactly, to one who pays the search price in advance, one question to a search; and of a matter not in the books they say it is not in the books.
 
 ### Cost if ignored
 Nothing falls on a god for not measuring. What it loses is the means to read the other clocks: the losses of the fading places, the Ring's hunger in Year 38, and the voices will each arrive unexplained. Every great working, anywhere, by anyone, brings the fall one year nearer and the Ring's clock one year nearer.
@@ -368,13 +368,13 @@ Kind: short. Span: 6 years. Related to: S09, S10.
 Answers questions: no
 
 ### Truth
-The last Weightward of the unnamed town [f20] sank the largest of the seven old standard weights in the main channel of the River Alder [f03] on a night of the spring flood, so that the Aldermark's old due on the market, which is written in that measure, could never be struck. He was past seventy and stood in the water to his waist. He died nine days later of a fever in the chest and his age. No one killed him. This answers ruling L-0029.
+The last Weightward of the unnamed town [f20] sank the largest of the seven old standard weights in the main channel of the River Alder [f03] on a night of the spring flood, so that the Aldermark's [r10] old due on the market, which is written in that measure, could never be struck. He was past seventy and stood in the water to his waist. He died nine days later of a fever in the chest and his age. No one killed him. This answers ruling L-0029.
 
 ### Body
 The hall of the unnamed town [f20]: a rack with seven seats and six weights; a sealed jar of kept halves; the dead man's loft. The bed of the River Alder [f03] below the hall, where the weight lies in the silt.
 
 ### Cost if ignored
-In Year 6 the Aldermark's chancery sends its claim to the delta market, written out in the old measure, and the town has neither a keeper of the standard nor the weight to answer it with. Meanwhile the market's fired standards, made each from the last, drift further every year, and the quarrel between the clay diggers and the kiln-masters goes with them.
+In Year 6 the Aldermark's [r10] chancery sends its claim to the delta market, written out in the old measure, and the town has neither a keeper of the standard nor the weight to answer it with. Meanwhile the market's fired standards, made each from the last, drift further every year, and the quarrel between the clay diggers and the kiln-masters goes with them.
 Cost check: The True Measure (the player's card; L-0026) knows the weight of what is set in the pans and not whether a sum on a tally is the sum agreed, and nothing here needs it to do more. A true scale as the card defines it (L-0007, L-0008) is not made or unmade by this. L-0029 is answered and not contradicted.
 
 ### Clock or trigger
@@ -567,7 +567,7 @@ Wellen Ford [f47], the weirs above it, the Brook Path [f46].
 
 ### Cost if ignored
 By Year 12 the ford will not carry a laden beast, the ferry is a mile of mud from deep water, and the market at the water gate has no one to sell to.
-Cost check: god-rivers's Calling the water (L-0016) may turn or hold a channel at its own price; this cost is what happens if no one does, and contradicts nothing. The power may also open a stopped spring: the Stopped Spring [f48] lies in this country and is L05's, not this one's.
+Cost check: god-rivers's Calling the water (L-0016) may turn or hold a channel at its own price; this cost is what happens if no one does, and contradicts nothing. The power may also open a spring shut under a stone: the Stopped Spring [f48] lies in this country and is L05's, not this one's.
 
 ### Clock or trigger
 Clocked: Year 12 [r-0219]. Row S05-a in `event-schedule.md`.
@@ -601,7 +601,7 @@ Kind: short. Span: 9 years. Related to: none.
 Answers questions: no
 
 ### Truth
-Salt reaches the unnamed bend town [f50] by one carrying family out of Port Sennet [f75]. Two years ago House Corran of Port Sennet bought that family's debts, and has set the price since. The league's pans did have two poor summers, which is what the carriers say, and it is true, and it is not the reason.
+Salt reaches the unnamed bend town [f50] by one carrying family out of Port Sennet [f75]. Two years ago House Corran of Port Sennet [f75] bought that family's debts, and has set the price since. The league's pans did have two poor summers, which is what the carriers say, and it is true, and it is not the reason.
 
 ### Body
 The salt carriers' road between Port Sennet [f75] and the unnamed bend town [f50]. House Corran's counting room.
@@ -688,13 +688,13 @@ Kind: short. Span: 3 years. Related to: S09.
 Answers questions: no
 
 ### Truth
-Carrying over the Pass Road [f65] has fallen by about a fifth: Hask iron now goes south, and the Aldermark sends more by river. The Sarrow's tolls have fallen by half. The difference is the watchman's tenth, an old custom by which a toll house keeps a share in kind, which at the two far houses has grown to a third since the Marshal stopped counting in person. The Warlord thinks the Doorwardens hoard; the Doorwardens think the Warlord spends.
+Carrying over the Pass Road [f65] has fallen by about a fifth: Hask iron now goes south, and the Aldermark [r10] sends more by river. The Sarrow's tolls have fallen by half. The difference is the watchman's tenth, an old custom by which a toll house keeps a share in kind, which at the two far houses has grown to a third since the Marshal stopped counting in person. The Warlord thinks the Doorwardens hoard; the Doorwardens think the Warlord spends.
 
 ### Body
 The toll houses on the Pass Road [f65], the two farthest above all. The Steward's count at the unnamed winter city [f60].
 
 ### Cost if ignored
-In the winter of Year 3 the stores run short before the thaw. The Warlord raises the toll by half. In Year 4 the Aldermark's traders stay away for a season, and the stores are shorter still.
+In the winter of Year 3 the stores run short before the thaw. The Warlord raises the toll by half. In Year 4 the Aldermark's [r10] traders stay away for a season, and the stores are shorter still.
 Cost check: The Latch holds a ford or pass as watched, never shut (L-0020), and this cost shuts nothing. The riders and the toll watch are keepers of a trade and no force (L-0030); nothing here gathers them. The costs of a people of eighteen thousand, agreed on Night 3a, are the same costs this one presses on.
 
 ### Clock or trigger
@@ -729,15 +729,15 @@ Kind: short. Span: 8 years. Related to: S01, S10.
 Answers questions: yes
 
 ### Truth
-The Aldermark's founding roll has one line scraped out. It was Corvin Alder's oath, taken when he was made king in 358 BA, to answer for the Assize's debts. The chancery, under the clerk Peverel Stane, has been finding old claims in the rolls because the treasury is thinner than the kingdom's written credit, which many peoples hold. The old king dies in Year 6. His daughter Marit and his nephew Edric each have a party, and neither can pay what the other promises.
-Limit: The Mollen of Aldermoot know every bargain entered in their books since the Assize's founding, the parties, the terms and the day; they do not know why any party acted, anything never entered, or anything of the star, the gods or the fading; they answer only what is asked exactly, to one who pays the search price in advance, one question to a search; and of a matter not in the books they say it is not in the books.
+The Aldermark's [r10] founding roll has one line scraped out. It was Corvin Alder's oath, taken when he was made king in 358 BA, to answer for the Assize's debts. The chancery, under the clerk Peverel Stane, has been finding old claims in the rolls because the treasury is thinner than the kingdom's written credit, which many peoples hold. The old king dies in Year 6. His daughter Marit and his nephew Edric each have a party, and neither can pay what the other promises.
+Limit: The Mollen of Aldermoot [f70] know every bargain entered in their books since the Assize's founding, the parties, the terms and the day; they do not know why any party acted, anything never entered, or anything of the star, the gods or the fading; they answer only what is asked exactly, to one who pays the search price in advance, one question to a search; and of a matter not in the books they say it is not in the books.
 
 ### Body
 The founding roll in the chancery at Aldermoot [f70]. The Mollen quarter of Aldermoot [f70] and its books, the Ninth Book above all, which holds the oath's text as a witnessed bargain.
 
 ### Cost if ignored
-In Year 6 the king dies. In Year 8 the heirs' quarrel comes into the open, the chancery stops honoring written dues, and everyone who holds the Aldermark's paper holds nothing: ship-owners of the delta and the league, the Sarrow's toll-keepers, the holds.
-Cost check: no agreed weakness or ruling bears on it. Checked: the player's Seal and Good-Faith Reading (L-0002, L-0003) act only on bargains struck in the god's presence or sealed by its mark, which no Aldermark paper is.
+In Year 6 the king dies. In Year 8 the heirs' quarrel comes into the open, the chancery stops honoring written dues, and everyone who holds the Aldermark's [r10] paper holds nothing: ship-owners of the delta and the league, the Sarrow's toll-keepers, the holds.
+Cost check: no agreed weakness or ruling bears on it. Checked: the player's Seal and Good-Faith Reading (L-0002, L-0003) act only on bargains struck in the god's presence or sealed by its mark, which no Aldermark [r10] paper is.
 
 ### Clock or trigger
 Clocked: Year 6 [r-0180] and Year 8 [r-0223]. Rows S09-a and S09-b in `event-schedule.md`.
@@ -749,7 +749,7 @@ What is shown: the founding roll, shown on feast days, has a pale strip between 
 Readings: a clerk's error mended; a clause struck by a later king; something the first king wanted forgotten.
 
 #### Claims out of old rolls
-Location: any people that deals with the Aldermark
+Location: any people that deals with the Aldermark [r10]
 What is shown: letters come from the chancery asking for dues no one living has paid. REPORTED, earliest Year 2.
 Readings: a zealous clerk; a king short of silver; a kingdom readying for a quarrel.
 
@@ -782,7 +782,7 @@ The Pellow Vaults [f26] were sealed in 361 BA by the steward Ysmay Tallow. They 
 The Pellow Vaults [f26], 57.2 miles from the unnamed town [f20] on foot over open ground: three doors of fired clay block in a down side beside the Old Rudd Way [f23], each with a ring's print in it.
 
 ### Cost if ignored
-In Year 8 a chancery party from the Aldermark opens the vaults to fetch the master standards. They carry the standards to Aldermoot [f70] and break the ledgers.
+In Year 8 a chancery party from the Aldermark [r10] opens the vaults to fetch the master standards. They carry the standards to Aldermoot [f70] and break the ledgers.
 Cost check: The True Measure would weigh a master standard like any stone (L-0026) and is asked for nothing more. No agreed weakness or other ruling bears on it.
 
 ### Clock or trigger

@@ -34,5 +34,5 @@ Added on creation Night 3b, 2026-11-24. The truth of each is in `deep-history.md
 - The floods of 165 to 160 BA came when the last of the Assize's held banks failed. Hale the Raker led the salt people onto the levee.
 - The old yards on the Pellow Downs [r15] are where the Assize's school worked; the clay from there has no temper (mystery L05). Some diggers have been cutting the delta's flood-silt clay with it, which is what the kiln-masters half suspect.
 - The list-singers the old remember are the carriers (mystery L04); their last round was in 29 BA and the next reaches the town in Year 9.
-- The last reeve of the Aldermark on the levee was Odo Penn; his last reckoning is in the sealed jar in the hall.
+- The last reeve of the Aldermark [r10] on the levee was Odo Penn; his last reckoning is in the sealed jar in the hall.
 - What the town says of the old keeper's death, when asked, is in the public knowledge file, and is true as far as it goes.
