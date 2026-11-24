@@ -14,6 +14,8 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
   Confirmations: none yet.
 - 2026-11-24, creation Day 3 (a sealed part of the second reply): "I would like to find out how they died, and whether the dent in my scales is older than the fall. I do not want to say that aloud."
   Confirmations: none yet.
+- 2026-11-24, creation Day 3 (a sealed part of the third reply, the yes): "I would like the old keeper's death last spring to turn out to be ordinary. A fever, an old man, a hall that fell quiet. I do not trust that I want it to be ordinary, and I do not trust that I want to be right about it. I will watch for who benefits from the vacancy."
+  Confirmations: none yet.
 
 ## Fear
 
@@ -38,3 +40,5 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24: Day 1 carried no sealed request, and `requests-answered.md` did not exist at the start of Day 2.
 - 2026-11-24, Day 3: The Day 3 sealed part was one reply of two kinds, split above into a want and a fear, the player's words kept whole between them. The open conduct line on the Clerk of the Seals (close to the god, the office it would license first) carries "check with the player before acting" because of it.
 - 2026-11-24, Day 3: The second sealed part was one reply of two kinds, split above into a request to the Keeper and a want. The open conduct line on the dead keeper of the standards and the vacancy the god means to fill carries "check with the player before acting" because of it. This request is answered on Night 3a; the player is told it was received and ruled in the first morning's closing (oog) block.
+- 2026-11-24, Day 3: The third sealed part is filed whole under Want; the DM read it as the god's wish and its distrust of the wish, not as a request. For the Keeper to weigh beside the same day's sealed request about the vacancy: the two pull different ways, and the DM settles neither.
+- 2026-11-24, Day 3, at the close: `requests-answered.md` still carries the Keeper's reason line and no further line. The DM's agreement stands as written above.

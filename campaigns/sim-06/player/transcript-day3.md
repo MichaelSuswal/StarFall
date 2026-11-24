@@ -176,3 +176,11 @@ If the DM sees a problem with that, I would take the first reading, with the kee
 **Three. How long they have lived on the banks.** I have a wish and no demand. I would like them to say that they came to the banks in the time of the great-grandparents' grandparents, which is long enough to have a story and short enough to remember a time before it. I would also like their oldest weights to be older than they are, and nobody can explain why. That gives me my old roads and old measures without my naming them. If the night sets it differently, I will take what the night sets.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+(oog) The people stand as read, with your yes and no strikes. The factor's rule is an oath, not a binding, and nothing is priced on you for it. I see no problem with your first reading of the keeper's place, so it is the one written: a living Warden under the town's own law, who owes you nothing, and a separate, vacant keeper's place that you mean to take in the open. Whether the town gives it to you is the town's. Your wish for how long they have lived on the banks, and for weights older than they are, goes to the night as a wish, in your words. The people and the town are unnamed until a mortal names them. What you sent privately today is in the sealed record and nowhere else; anything in it that asks something of the Keeper is answered tonight, and you will hear that it was received and ruled at the end of the first morning.
+
+Tonight the world is built around what you have said, and you will not see it built. In the morning you wake in it.
+
+The turning slows. One face of you takes the light and holds it. Below, the mist lies on the water, and the smoke of more than one fire stands up through it. Night falls in The Between for the last time, and the Weigher lands with it.

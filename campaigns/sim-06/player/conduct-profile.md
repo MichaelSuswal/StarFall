@@ -4,25 +4,36 @@ Campaign: sim-06.
 
 ## Now
 
-As of creation Day 2, 2026-11-24 (Pacific).
+As of creation Day 3, 2026-11-24 (Pacific).
 
 What it is about: fair measure, and the price of the unfair kind. Not wealth as such. "The moment two people agree on what a thing is worth."
 
-Wants: its people known as the ones whose weights are true, whose word is good, and whose market a stranger can walk into without guarding a purse. Honest dealing as its reputation and its edge. To be known as a trader who keeps terms, and to make that the reason people deal with it. Reach through its people and not through itself.
+Wants: its people known as the ones whose weights are true, whose word is good, and whose market a stranger can walk into without guarding a purse. Honest dealing as its reputation and its edge. To be known as a trader who keeps terms. Reach through its people and not through itself. A town where debt is honest, not a town free of debt.
 
-How it goes about things: contract before decree. Fair where fair dealing pays; hard bargaining where it does not, without apology. It would break a rival on honest dealing "without blinking". It guards the scales. It argues a point of weight longer than it is worth and finds it hard to leave an unequal bargain alone even when leaving would be wiser. With a partner it corrects a false belief about a measure; with a rival it owes "nothing past the truth". Asked who it is, it says it is the Weigher and that the rest was left at a door it cannot find.
+How it goes about things: contract before decree. Fair where fair dealing pays; hard bargaining where it does not, without apology. It would break a rival on honest dealing "without blinking". It guards the scales. It argues a point of weight longer than it is worth and finds it hard to leave an unequal bargain alone. With a partner it corrects a false belief about a measure; with a rival it owes "nothing past the truth". Asked who it is, it says it is the Weigher and that the rest was left at a door it cannot find. It rules only on questions of weight and takes other cases only if the town's council asks. It does not decide who wins a quarrel about price.
 
 Refusals:
 - No mark of its own, or of a factor's, on a bargain it knows to be a lie to a party.
-- It will not weigh people: no sale of a person, no bargain whose goods are a person's freedom or a child, however phrased and however willing the seller.
-- It will not break a seal of its own to get out of a bad bargain. It pays the price, or lifts the seal by hand on the thing itself, in the open.
+- It will not weigh people: no sale of a person, no bargain whose goods are a person's freedom or a child. It accepts debt bondage where it finds it and means to bound it by law.
+- It will not break a seal of its own to get out of a bad bargain.
 - It will not use silence to let a partner go on believing a false measure it could have corrected.
+- It wants no wall on its house: a gate never locked, and a door that is.
 
-How it means to lead (Day 3 settles this; recorded here so it is not lost): a seat that is a house and not a throne, a counting-house with a hall where weights are kept and tested and where anyone can bring a scale to be checked against the god's own (check with the player before acting). Helpers who are factors, assayers and clerks. A court of the kind a market town has, guild-masters and ship-owners who argue in front of it. The people as partners in a house that is getting richer, who also know that cheating the house is a bad idea.
+Where it stands at landing: it comes to a town that does not know it, with no helpers and no seat of its own in fact. It means to win the town.
+
+How it means to be found: it comes to the town's house and means to fill the vacant place of the keeper of the standards, in the open, with the Warden watching, by checking the town's standards against its own scales (check with the player before acting). It brings the scale to the potters' clay first, salt second, ore third.
+
+The hall: open to anyone with a scale, for a small fee in measure, grain or a fired weight. A scale that fails is marked openly and its owner offered a corrected one at the cost of the clay; it is never broken and nobody is shamed. The Weigher checks the town's standards against its own scales itself. (check with the player before acting. Checked at the Day 3 table, 2026-11-24: the player said again, in the open, that the hall is open to everyone.)
+
+The offices it means to win: the Warden of the Hall, whom it wants "alive, in office, and not beholden to me"; the Reeve of the Gate; the Clerk of the Seals, close to it, the office it would license first (check with the player before acting); two or three factors. Of a factor it asks an oath of no false measure in a sealed term, a share, a stake and an open ledger, and it owes standing, protection, and cover if a seal is broken against the factor in good faith. A factor who breaks the oath loses its house.
+
+Its law, as it means to make it: a word of its own is its own only if the split stick matches. Debt labor has a fixed term of years and a day, does not pass to a child, and may be brought to the hall and reckoned, and struck if the sum is wrong.
+
+What it will not give in unplayed time: no licence (by the card they are given face to face, so only in play), and no ruling outside questions of weight unless the council asks.
 
 Its past: it knows there is a debt and does not know whose. Anything to do with the lost house, the lost name or the debt: check with the player before acting.
 
-Helpers: not yet known. Day 3.
+Helpers: none at landing. Designed, not yet serving (`hierarchy.md`). Until an office is won in play, unplayed time runs on this profile alone and no one acts for it.
 
 Unsaid wants are kept sealed.
 
@@ -47,3 +58,22 @@ Unsaid wants are kept sealed.
 - "I will not break a seal of my own to free myself from a bad bargain. If I want out, I pay the price, or I lift it by hand on the thing itself, in the open."
 - "I will not speak a false measure, but that is a drawback and not a choice. The vow I am adding is that I will not use silence to let a buyer believe a false measure when I could have corrected it, where the buyer is my partner and not my rival. With a rival I owe nothing past the truth."
 - Unsaid wants: asked last, answered privately, kept sealed.
+
+### 2026-11-24, creation Day 3
+
+- On the people: "They are practical, a little suspicious, good with small numbers, and quick to notice when a friend gives short measure. I want them to be proud of being hard to cheat." And: "I do not want the guarantee against being cheated. It is a temper, and it can fail."
+- On what is weighed first: "I want them to weigh the flood-silt clay that their potters use." "Salt comes second, and ore third, once they have learned to trust the scale."
+- On the house: "The house is mine, but the hall is open to everyone, and I want the town to see that. I do not want a wall. I want a gate that is never locked and a door that is."
+- On ruling: "They argue in front of me, and I listen, and I rule when the argument turns to a question of measure. I do not decide who wins a quarrel about price, because the point of the house is that they settle it on a true scale." And: "I rule only on questions of weight, and I do not take the other cases unless the council asks."
+- On the Clerk of the Seals: "I want this one close to me. It is the office I would license first." (check with the player before acting)
+- Its first law: "a word of mine is only a word of mine if the stick matches."
+- On the town's name: "I will let the people choose it, and I will not suggest one."
+- On the land's past: "I said yesterday that I wanted old roads, and the DM said the world decides, so I will wait and see."
+- How it means to be found, a stated first action: "I come to a town that has a vacancy where a keeper should be, and I fill it." And: "The keeper's place is mine to fill, and I would fill it in the open, with the Warden watching." Where the house stands is the world's; recorded as the player's wish for the Keeper to place. (check with the player before acting)
+- On the Warden: "I want the Warden to be someone who can say no to me."
+- On the hall: "I want strangers to feel it is safe to be wrong in my hall." And: "I will check the town's standards against my scales myself." The hall line was checked with the player at the table today; the player said it again in the open.
+- On factors: "A factor who breaks the oath is a factor who has lied under my mark, and that should cost them my house and their standing with it. An oath that cannot be broken is not an oath."
+- On debt: "I will not make the town free of debt, because debt is what a market runs on. I will make it honest."
+- On landing with nothing: "I landed without being asked to, and I will have to win the town."
+- On the tide-reckoner: "I expect to get use from her and to pay for it."
+- Three answers were given privately today and are kept sealed.
