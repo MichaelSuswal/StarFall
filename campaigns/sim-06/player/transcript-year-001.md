@@ -189,3 +189,19 @@ The cracked weight is still held out over your pan. The raker and the fish-drier
 Your count in your own brass is told as "the whole nest but the two smallest cups" because your card gives the nest no figures. If you want the nest to have named sizes, say what they are and I will hold you to them from here on.
 
 Two things have now been asked of you by someone in the world, and I am holding both as pending until you answer: the Assay-master's demand that you weigh the hall's pieces one by one in your pans, and the Assay-master's question, "Who are you?"
+
+## Player:
+
+I set the cracked weight where it is held, over my pan, and say, "Set it down, Master, or let me take it, whichever the bench allows. I'd rather you set it down yourself." If it is offered, I take it. I put the pieces in my pan one at a time, in front of the door, and I call each aloud so the yard can hear.
+
+I weigh all ten, starting with the eight that agree and finishing with the chipped one and the cracked one. I do not skip any, and I do not weigh them in the order that makes me look best. I call each piece against my nest and say it plainly. If the Assay-master wants a piece weighed twice, or on the hall's beam against mine, I do it.
+
+Before I begin I say, so it is on the record, "For the nest, I'll hold to it. Seven cups, each one twice the last, the smallest I call one, the largest sixty-four. Whatever I say a piece weighs, I say in those, and I can't give you a false number even if I wanted to."
+
+When the last piece is down I say, "You know the two are light. Now you can see how light, in numbers you can check against any scale you trust. If the numbers I call don't match what you'd expect, say so, and we'll weigh it again."
+
+Then I answer the question. "Who am I? I'm a weigher, as I said. I came down the old bank at first light and I haven't been in this town before today. People who ask what to call me have said the Weigher, and I've not argued with it. I had another name once, and I can't give it to you, because I've lost it. That's the truth and it's all of it I can give."
+
+I say it flat, with no pause for effect. I leave it open as to whether I'm more than that, and I tell no lie. I add, "I'll tell you what I want here, if you like. I want a hall where nobody in that yard has to wonder whether the ruling is fair. That's all I'm asking about today." I ask the Assay-master's name, and I wait.
+
+(One more answer was given privately, for the sealed record.)
