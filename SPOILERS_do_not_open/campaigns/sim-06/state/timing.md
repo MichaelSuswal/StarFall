@@ -11,3 +11,4 @@ Closed 2026-11-24 10:05.
 ## Night 2
 Began 2026-11-24 10:16.
 - rules released to the gods 10:17
+- selves read, the player's rulings entered, powers drafted 10:28

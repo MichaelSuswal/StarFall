@@ -55,7 +55,7 @@ Limits settled at creation:
 - Not applicable: falling, water, being watched.
 - Silence: the player was offered a heavier price, silence closed to the god as well, and declined it: "Leave it open to me. I can keep quiet and I can refuse to answer."
 - First wording, kept as intent: "Anything weighed in my presence, or sealed under my mark, becomes known to me. I mean its true weight, its true count and its true purity, and also whether the bargain struck over it was struck in good faith or in lies. I can't be shorted at a scale or fooled by a plated coin." And of the drawback: "I also cannot lie about a measure. If I say a thing weighs a pound, it does, and that binds me when a lie would be convenient."
-- The first asking was divided at the table into The True Measure, The Good-Faith Reading and The Seal, since they cost differently. Settled at creation. Ledger: pending, Night 2.
+- The first asking was divided at the table into The True Measure, The Good-Faith Reading and The Seal, since they cost differently. Settled at creation. Ledger: L-0001.
 Rulings:
 Trades: its instrument, the scales, is the weakness that bought Seals by factors (see Weaknesses taken).
 Growth: Possible. Not shown.
@@ -76,7 +76,7 @@ Limits settled at creation:
 - More than ordinary craft, a scarcity: it touches neither as written; for the Keeper's Night 2 review.
 - Not applicable: light and dark, falling, carrying, water, being watched.
 - The drawback was chosen from a pair offered at the table. The other, a blind spot for the god's own house, was declined: "I pick two, both pans show."
-- Trimmed by the DM, said so at the table, from a reading of minds to a reading of the bargain. Settled at creation. Ledger: pending, Night 2.
+- Trimmed by the DM, said so at the table, from a reading of minds to a reading of the bargain. Settled at creation. Ledger: L-0002.
 - First wording, kept as intent: "and also whether the bargain struck over it was struck in good faith or in lies"; and "the good-faith reading is close to reading minds. So price it."
 Rulings:
 Trades: none.
@@ -95,7 +95,7 @@ Limits settled at creation:
 - The god's own people: a seal binds and is felt the same whoever the parties are.
 - More than ordinary craft, a scarcity: for the Keeper's Night 2 review.
 - Not applicable: light and dark, falling, carrying, water, being watched.
-- The price was first set at the table as the cap and a darkening of all three powers. The player argued it was priced twice: "My offer is that a breaking darkens the Seal and the Reading until dawn and leaves the True Measure alone." The DM agreed and the price was changed as asked. Settled at creation. Ledger: pending, Night 2.
+- The price was first set at the table as the cap and a darkening of all three powers. The player argued it was priced twice: "My offer is that a breaking darkens the Seal and the Reading until dawn and leaves the True Measure alone." The DM agreed and the price was changed as asked. Settled at creation. Ledger: L-0003.
 - First wording, kept as intent: "A seal I put on a contract also lets me feel when it is broken, wherever the breaker is." And of its price: "a limit on how many seals I can hold at once, or a cost to me each time one is broken".
 Rulings:
 Trades: none of its own. Seals by factors, below, extends it.
@@ -110,7 +110,7 @@ Limits settled at creation:
 - What holding a licence costs the mortal, if anything, is for the Keeper's Night 3 fitting.
 - When the body is scattered: licences stand.
 - Other gods: unruled until it happens.
-- Narrowed by the DM so that the single weakness covers it: licences given and revoked face to face only, four at most, terms and contents unknown to the god until told. Settled at creation. Ledger: pending, Night 2.
+- Narrowed by the DM so that the single weakness covers it: licences given and revoked face to face only, four at most, terms and contents unknown to the god until told. Settled at creation. Ledger: L-0004.
 - Not applicable: light and dark, falling, carrying, water, being watched.
 - First wording, kept as intent: "For the trade, I want my factors to be able to set seals in my name. I would count those seals against my twelve and give each factor a standing licence that I can revoke. I do not need more than twelve. I want the reach to come through my people, and not through a bigger pocket for me."
 Rulings:
@@ -128,7 +128,7 @@ Limits settled at creation:
 - That a truly measured thing "carries a piece" of the god is so in the telling only: it gives nothing to whoever holds one and no hold over the god.
 - If another holds the scales when the body breaks, they stay where they are.
 - The hearing while scattered was trimmed by the DM, said so at the table, to the drift and not every figure. It is an information power priced by shape, for the Keeper's Night 2 review.
-- Priced at the table as a slower return than the standing rungs, at the first rung's price of one item, the time growing with the distance to a true scale. Settled at creation. Ledger: pending, Night 2.
+- Priced at the table as a slower return than the standing rungs, at the first rung's price of one item, the time growing with the distance to a true scale. Settled at creation. Ledger: L-0005.
 - Not applicable: light and dark, falling, water, being watched.
 - First wording, kept as intent: "I am scattered into the weights, the brass, the coin and the grain, and whatever has been truly measured in my name carries a piece of me. I come back together at the nearest scale that has been checked against mine, slowly, and the weaker the true houses nearby, the longer it takes. While I am scattered I can hear every measure struck in my markets, but I can do nothing about them. If no true scale is near, I am lost for a long time. I would rather that be a real risk than a convenient escape."
 Rulings:
@@ -146,7 +146,7 @@ The drawback of The True Measure, no false measure, holds whether or not the god
 The dent in them has a story the god does not know.
 It bought: Seals by factors.
 The player's words: "I take them as the instrument of the True Measure, and I accept the weakness. They are a relic in fact. A thief takes my edge, and I will have to guard them."
-Settled at creation. Ledger: pending, Night 2 (the same matter as the narrowing under Seals by factors).
+Settled at creation. Ledger: L-0004 (the same matter as the narrowing under Seals by factors).
 
 ## Trades
 Offered once, on Day 2. Taken: the scales as the instrument, for Seals by factors. Not taken: more than twelve seals ("I do not need more than twelve"), a longer reach for The True Measure, a far pull when another god's goods cross the god's markets. Trades are closed for the rest of creation and may be raised again only in play.
