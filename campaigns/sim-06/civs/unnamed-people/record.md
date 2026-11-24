@@ -39,10 +39,10 @@ What matters most at their market, as the player described it: "the flood-silt c
 
 ## Priced edges and weaknesses
 
-- The tide-reckoner's knack, a mortal's magic, priced at the table. Her own cost is the whole price; no weakness is asked of the people. See Their magic. Subject to the Keeper's reconciliation. Settled at creation. Ledger: pending, Night 3.
-- Their being hard to cheat is a temper and not a guarantee. Not priced. Settled at creation. Ledger: pending, Night 3.
-- A watch of sixty and a call-up of three hundred, few trained: ordinary. Not priced. Settled at creation. Ledger: pending, Night 3.
-- A factor's rule, "no false measure in a sealed term", is an oath that can be broken, not a binding. Not priced. It is recorded on the power card. Settled at creation. Ledger: pending, Night 3.
+- The tide-reckoner's knack, a mortal's magic, priced at the table. Her own cost is the whole price; no weakness is asked of the people. See Their magic. Confirmed as priced by the Keeper on Night 3, nothing changed. Settled at creation. Ledger: L-0024.
+- Their being hard to cheat is a temper and not a guarantee. Not priced. Settled at creation. Ledger: L-0027.
+- A watch of sixty and a call-up of three hundred, few trained: ordinary. Not priced. Settled at creation. Ledger: L-0027.
+- A factor's rule, "no false measure in a sealed term", is an oath that can be broken, not a binding. Not priced. It is recorded on the power card. Settled at creation. Ledger: L-0025.
 - No default was refused for a step in any edge price. See Helpers.
 
 ## Their magic
