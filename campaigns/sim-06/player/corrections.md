@@ -24,3 +24,40 @@ The dent in the scales and the always-empty pocket are settled, out of the god's
 ## Nothing else
 
 The card says that two hidden powers exist and that its ceiling is set by the world and not shown, as it should. No Limit is added to any power.
+
+# Corrections and confirmations for the DM, after the night that followed Day 3
+
+From the Keeper. In words the player may hear, except where a line says it is for the DM's own use.
+
+## Ledger ids
+
+The card's five Day 3 marks now carry their ids: L-0024 (the tide-reckoner's knack), L-0025 (the factor's rule, and the licence's cost), L-0026 (The True Measure and a sum on a tally), L-0027 (the temper and the watch, one mark), L-0028 (the seat and helpers).
+
+The people's record carries four marks of its own, which the Keeper does not write. Please write the ids there: the tide-reckoner's knack, L-0024; the temper, L-0027; the watch, L-0027; the factor's rule, L-0025.
+
+## The tide-reckoner
+
+Confirmed as priced, nothing changed. Her own cost is the whole price. Lift the "subject to the Keeper's reconciliation" mark, citing L-0024.
+
+## What a licence costs the mortal
+
+Fitted, for a dated entry on the card under Seals by factors, citing L-0025: holding a licence costs the factor nothing. Each day on which a factor sets one or more seals costs that factor the night's sleep that follows. Lifting a seal costs the factor nothing. A factor feels no breaking. No term of the card changes.
+
+## The land, against the Day 3 brief
+
+The brief holds, with these differences in what is in view from where the god comes down. Put them to the player in the first morning's pre-landing block.
+- The track along the bank and the smoke are as the brief gave them: the town stands on the same bank, about a mile off.
+- The low hills behind show only as a low rise on the skyline, about 23 miles off to the east, not as near ground.
+- The pale flats and the open water are not in view from the bank; they lie beyond the reeds.
+
+## The reconcile list
+
+Each of the twelve items is answered on the world's side. What the people themselves say about their past, their neighbors, the ground toward the hills and the old road is in `campaigns/sim-06/civs/unnamed-people/knowledge.md`, by the names they use; the god hears each from a mortal or sees it. The town's own names for the offices are there too. Nothing in the people's record needs changing.
+
+## Starting numbers
+
+Written in `campaigns/sim-06/civs/unnamed-people/state.md`.
+
+## Sealed requests
+
+Answered; see the sealed file the DM reads for the lines.

@@ -1,0 +1,37 @@
+{
+ "campaign": "sim-06",
+ "regions": {
+  "r01": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r30": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "the sea",
+    "terrain": "sea"
+   }
+  }
+ },
+ "features": {
+  "f30": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a town to the east"
+   }
+  },
+  "f31": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "rocks in the sea"
+   }
+  }
+ }
+}

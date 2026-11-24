@@ -72,3 +72,13 @@ The Road Lamp
 Knock-Knowing
 Table-Seating
 Sleeper's Carry
+# Night 3a: names of NPC peoples and mortals
+Longwalk
+the Sarrow
+Sarrow
+Kessan
+the Lintel
+Idris Veld
+Orrin Haddock
+Tessaly
+the Still One

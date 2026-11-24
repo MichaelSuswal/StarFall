@@ -1,0 +1,69 @@
+{
+ "campaign": "sim-06",
+ "regions": {
+  "r03": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r02": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a mountain country to the south-west",
+    "terrain": "mountain"
+   }
+  }
+ },
+ "features": {
+  "f01": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a river to the north-east"
+   }
+  },
+  "f60": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a city to the south-east"
+   }
+  },
+  "f61": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a ford to the south-east"
+   }
+  },
+  "f62": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a pass to the north-west"
+   }
+  },
+  "f63": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a pass to the north-east"
+   }
+  },
+  "f65": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a road to the north-east"
+   }
+  }
+ }
+}

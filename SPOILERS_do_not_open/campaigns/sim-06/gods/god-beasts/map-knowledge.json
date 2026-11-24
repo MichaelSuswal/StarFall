@@ -1,0 +1,37 @@
+{
+ "campaign": "sim-06",
+ "regions": {
+  "r21": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r22": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a plain country to the east",
+    "terrain": "plain"
+   }
+  }
+ },
+ "features": {
+  "f40": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a path"
+   }
+  },
+  "f41": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "wet ground in a hollow to the south-east"
+   }
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "campaign": "sim-06",
+ "regions": {
+  "r14": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r15": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a hill country to the east",
+    "terrain": "hill"
+   }
+  }
+ },
+ "features": {
+  "f03": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a river channel to the east"
+   }
+  },
+  "f20": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a town to the south-east"
+   }
+  },
+  "f21": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a path"
+   }
+  },
+  "f23": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a road to the south-east"
+   }
+  }
+ }
+}

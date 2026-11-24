@@ -1,0 +1,45 @@
+{
+ "campaign": "sim-06",
+ "regions": {
+  "r13": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  },
+  "r12": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a forest country to the west",
+    "terrain": "forest"
+   }
+  }
+ },
+ "features": {
+  "f02": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a river to the west"
+   }
+  },
+  "f55": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a village to the south-east"
+   }
+  },
+  "f56": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "low mounds to the north-west"
+   }
+  }
+ }
+}

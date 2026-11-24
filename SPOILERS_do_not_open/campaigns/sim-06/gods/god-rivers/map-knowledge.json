@@ -1,0 +1,37 @@
+{
+ "campaign": "sim-06",
+ "regions": {
+  "r25": {
+   "grade": "seen",
+   "source": "the landing",
+   "year": 1
+  }
+ },
+ "features": {
+  "f12": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a river"
+   }
+  },
+  "f46": {
+   "grade": "reported",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "a path"
+   }
+  },
+  "f45": {
+   "grade": "rumored",
+   "source": "own sight at landing",
+   "year": 1,
+   "told": {
+    "name": "smoke to the south-east",
+    "cell": "D3"
+   }
+  }
+ }
+}
