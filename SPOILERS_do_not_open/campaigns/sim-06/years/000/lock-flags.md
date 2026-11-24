@@ -82,7 +82,7 @@ None.
 
 ## First morning read
 
-Read by the continuity checker, 2026-11-24, from 15:46 to 15:52 Pacific, against commit b8cd583 (the DM's first morning, its painting request, the landing map and the corrections applied), outside the lock (runbook 4.1; checker.md, the lock). Read: `P/years/001/morning-story.md`, `images/requests/sim-06-001-morning.json`, `P/player/map-meta.json`, and the DM's edits in the same commit (`P/player/power-card.md`, `P/civs/unnamed-people/record.md`, `people/tide-reckoner.md`), against `P/world/world.md`, `P/releases/000/dm.md`, `P/player/corrections.md`, `S/map.json`, `tools/map.py describe sim-06 --landing player`, `S/player/requests-answered.md` and the ledger ids.
+Read by the continuity checker, 2026-11-24, from 15:46 to 15:48 Pacific, against commit b8cd583 (the DM's first morning, its painting request, the landing map and the corrections applied), outside the lock (runbook 4.1; checker.md, the lock). Read: `P/years/001/morning-story.md`, `images/requests/sim-06-001-morning.json`, `P/player/map-meta.json`, and the DM's edits in the same commit (`P/player/power-card.md`, `P/civs/unnamed-people/record.md`, `people/tide-reckoner.md`), against `P/world/world.md`, `P/releases/000/dm.md`, `P/player/corrections.md`, `S/map.json`, `tools/map.py describe sim-06 --landing player`, `S/player/requests-answered.md` and the ledger ids.
 
 Result: 1 flag.
 
