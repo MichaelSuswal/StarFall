@@ -65,3 +65,23 @@ Under the coat, what is there? A face like a mortal's, or something a mortal wou
 Who were you, before the fall, and what did you lose? The outline is enough. The rest is fog.
 
 And one thing that will matter below. You cannot die there. You can be hurt, held, scattered, shut out. When the body is broken, what do you wish to happen?
+
+## Player:
+
+**Standard mode, as before.**
+
+**Silence.** Leave it open to me. I can keep quiet and I can refuse to answer. If silence were closed, every bargain would turn into a trap for me, and the no-false-measure rule already binds me everywhere.
+
+**Good-Faith Reading drawback.** I pick two, both pans show. A trader who is known to keep his terms is worth more than a blind spot that lets my own factors lie at my table. Anyone I read will know I mean to keep my terms, and I will try to make that the reason people deal with me.
+
+**The scales.** I take them as the instrument of the True Measure, and I accept the weakness. They are a relic in fact. A thief takes my edge, and I will have to guard them. For the trade, I want my factors to be able to set seals in my name. I would count those seals against my twelve and give each factor a standing licence that I can revoke. I do not need more than twelve. I want the reach to come through my people, and not through a bigger pocket for me.
+
+**Pushback on the Seal.** I think it is priced twice. The cap of twelve already limits it, and each breaking also darkens all three powers until dawn. A rival who wants me blind can break a cheap seal on the morning of a fair, which I am willing to live with for the Seal and the Good-Faith Reading. But the True Measure should not go dark with them. A scale that stops being true because someone far away broke a promise is a cost that is too steep for the thing it buys. My offer is that a breaking darkens the Seal and the Reading until dawn and leaves the True Measure alone. If that is not fair, I will keep the cap at twelve and accept the full blackout, but I want it said plainly that I asked.
+
+**Under the coat.** A mortal face, nothing to look away from. It is middle-aged, plain, and hard to describe afterward. The only strange thing is the eyes, which look at a person the way a man looks at a scale as the pans settle. My hands are stained with ink and verdigris.
+
+**The pockets.** There are many, and most are full of ordinary things. They hold a set of nested brass weights, wax and a seal-ring, chalk, a coil of knotted counting-cord, a magnifying glass, and a few small stones of known purity for testing metal. One pocket is always empty, and I do not know why. I would like the DM to decide what that pocket is for.
+
+**Who I was.** I kept a reckoning. I think I was the one who stood at the door of a house where things were counted, and I know the work better than the place. What I lost is the name of that house and the faces of the ones I counted for. I remember that I was owed something and that I owed something, and I have lost the sums. I know there is a debt, and I do not know whether it is mine or someone else's.
+
+**When my body is broken.** I am scattered into the weights, the brass, the coin and the grain, and whatever has been truly measured in my name carries a piece of me. I come back together at the nearest scale that has been checked against mine, slowly, and the weaker the true houses nearby, the longer it takes. While I am scattered I can hear every measure struck in my markets, but I can do nothing about them. If no true scale is near, I am lost for a long time. I would rather that be a real risk than a convenient escape.
