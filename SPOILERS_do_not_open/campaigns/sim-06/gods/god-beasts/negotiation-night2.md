@@ -28,3 +28,13 @@ I accept that a destroyed horn means the power is gone until my next return, and
 
 ### Read, not priced
 Accepted. The staff is ordinary, and my slowness to speak, my way out of every room and my indifference are conduct.
+
+## Round 2 reply
+
+I confirm. This is what I meant, and I ask for no change of substance and no wording fix.
+
+On the Keeper's answer to my argument about the horn: I accept it. The reach beyond a mile stands whole whether or not I hold the horn, because the trade bought its step outright, and only The Horn Call is lost while the horn is held by another or destroyed. That is what I asked the write-up to say, and the final text of The Listening says it.
+
+The Listening, Beast Tongue, The Trail, The Horn Call, The Fed Storm and Return by the Herd stand as written, including the heavier part of The Fed Storm and the quarter hour counted from the last note sounded. The horn as the instrument stands as the one weakness, and it bought the longer Listening, as I chose in (a).
+
+The Keeper trait I take as given: tame beasts know me first, and fall silent and turn to face me before any person has seen me. I note only that it cuts against my wish to stand at the edge of a fire unseen, and that I would notice it in every camp and village I come near. I take it as who I am, and I will keep a way out of every room.

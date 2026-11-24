@@ -22,3 +22,13 @@ Two clarifications, in the write-up and not new powers:
 
 ### Read, not priced
 Agreed. Not ruling by dreams buys nothing, and I do not ask it to.
+
+## Round 2 reply
+
+Confirmed. This is what I meant, and I ask for no change.
+
+- Walk the Dream: confirmed as written.
+- Keeping Sleep: confirmed as written, with both clarifications as the Keeper wrote them: the chain of flames serves, the seven hold for the whole chain, and flames lit from the lamp serve again at once when I hold it again.
+- Rising: confirmed as written, with the nearest house, anyone's, where a lamp is kept burning through the night.
+- The lamp as the instrument: confirmed. I know the weakness is that anyone who learns of it can take my people's kept sleep by taking the lamp, and I carry it knowingly.
+- Keeper trait: accepted. Flames near me dipping when I am afraid fits what I am, and it shows my fear and nothing of its cause. I would not wish it hidden.

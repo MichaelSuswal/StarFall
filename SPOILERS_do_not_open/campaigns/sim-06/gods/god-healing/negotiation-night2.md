@@ -15,3 +15,11 @@ Accept the season rung and the one item of memory or habit, as drafted. I accept
 
 ### Trades and the rest
 No trade, as read. Nothing else asked.
+
+## Round 2 reply
+
+Confirmed. The four cards read as I meant them: Mending with the tremor until the thaw, Reading the Rot with the blind spot toward my own people, Hasten the Rot with the growing cost per use, and Return from Ground on the season rung with one item of memory or habit. My clarifications are written as I asked, and I accept that the held-body rule stands. No trade was taken, and none is owed.
+
+The Keeper trait I take as a fact about myself and ask nothing of it. I will say only that it is not welcome: I would rather be a stranger no one has noticed, and I will have to be careful where I have mended. That is mine to manage, not a thing to change.
+
+No wording fix is asked.

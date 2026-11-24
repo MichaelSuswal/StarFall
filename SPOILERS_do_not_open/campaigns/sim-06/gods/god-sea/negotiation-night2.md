@@ -21,3 +21,11 @@ One clarification, in the write-up, not a new power: under (a), whoever refills 
 
 ### Read, not priced
 Agreed as read.
+
+## Round 2 reply
+
+Confirmed. The four powers, the lamp weakness and the longer hold stand as written. I accept the Keeper's answers, including that held or shut out brings no return.
+
+One wording to fix, which changes no number, reach or cost: the lamp weakness ends with "Anyone who learns this can take the calm by taking the lamp." That sits against the line before it, "no one else gains the power." I read it as meaning that whoever takes the lamp takes the calm from me, and no one gains it. I ask that it be written so.
+
+Keeper trait: I know it and take it. I note, once, that I wished my doings untraceable, and fishers who see an empty shore may learn where I lie. It is not a power and nothing was traded for it, so I do not ask to change it. I will lie in water out of sight of the town when I can.

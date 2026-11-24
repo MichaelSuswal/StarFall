@@ -29,3 +29,13 @@ We choose (a), as written. We accept the weakness with the Keeper's corrections:
 Our reason: we are open and wish to find the others slowly and by choice, and a pull in the water is the gentlest way we can think of to be told someone is there. We carry the stone already and would carry it whatever its price, and we will be the kind of god that is anxious for it. The Keeper has written the weakness truthfully and priced it fairly. We argue nothing against it.
 
 We do not counter any item. We have no further reasons to give.
+
+## Round 2 reply
+
+We confirm the final text as written, and have no wording to fix.
+
+On Calling the water, we answer the Keeper's plain word once: we keep (b), to the size of a valley, with its season in the water and its item of memory for a working beyond sight. We said in round 1 that we knew it was a heavy card and would not have it lighter, and nothing said here is new to us except that the Keeper has weighed it above its usual mark. We hold to our reason: the night a flood comes down out of the hills is the whole of why we want this power, and a shepherd that cannot reach past its own sight on that night has not been given the thing it asked for. The price is the price, and we take it knowing the item may be one we would miss. We expect to pay it rarely.
+
+The two shapes, Listening water, Warm hands, Unsigned, Rise at the spring, The pull in the water, and the stone as the instrument all stand as we accepted them. We understand that anyone who learns of the stone can take Calling the water from our hand by taking it, and we accept that as the weakness we offered.
+
+On the Keeper trait, that our face does not stay with people: we accept it, with no argument. We take it as a fact about us from the moment we arrive, and we ask nothing of it.
