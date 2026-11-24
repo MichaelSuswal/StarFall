@@ -1,0 +1,17 @@
+# Sealed terms: kept by the Keeper from Night 1. One term per line, exactly
+# as written in the sealed files, case and all. Lines starting with # are
+# comments. tools/lockcheck.py --leaks fails on any of these in campaigns/<name>/.
+# A line starting with ! is a kept term: the scan never exempts it, and it is
+# not looked for in the creation transcripts, which are the player's own words.
+# Night 1: the sealed factor's name, in each case form, each on a ! line; labels
+# Night 2: god names and bynames; every god's hidden power and knack names; common-past names
+# Night 3: sealed names not on the map; names of NPC peoples and mortals
+!luck
+!Luck
+god-sea
+god-dreams
+god-rivers
+god-healing
+god-beasts
+god-secrets
+god-thresholds
