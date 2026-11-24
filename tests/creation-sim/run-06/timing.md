@@ -5,4 +5,4 @@ Models: DM fable, Keeper fable, NPC gods sonnet, civ agents sonnet, stand-in pla
 | Stage | Start | End | Agent durations |
 |---|---|---|---|
 | Day 1 | 09:53 | 09:56 | DM 0.6 + 0.5 min, stand-in 0.5 min |
-| Night 1 | 09:57 | 10:05 (commit clock about 10:15) | Keeper 3.5 + 4.0 min, gods 0.4 to 0.8 min each |
+| Night 1 | 09:57 | 10:05 | Keeper 3.5 + 4.0 min, gods 0.4 to 0.8 min each |
