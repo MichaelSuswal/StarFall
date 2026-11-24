@@ -12013,6 +12013,22 @@
     "r05"
    ],
    "notes": "A warm blue-grey stone, heavy for its size, that fell in the Bren Hills on the night the gods came down. No one has named it. Placed by r-0141 and r-0142."
+  },
+  {
+   "id": "f80",
+   "name": "Gannel Stones",
+   "type": "site",
+   "shape": "point",
+   "coords": [
+    [
+     470.0,
+     405.0
+    ]
+   ],
+   "regions": [
+    "r08"
+   ],
+   "notes": "Added on Night 3b. Three standing stones on the open grass of the Hollin Reaches, north of Whitmoor: two uprights and a notched third behind them, a sightline on the star. Data only, smaller than the sheet paints. Known to: plainsfolk who pass; the Aldermark's chancery, as a line in an old survey roll."
   }
  ],
  "landings": {
@@ -12080,5 +12096,57 @@
    ],
    "ground_ft": 1900
   }
+ },
+ "plane": {
+  "starfalls": [
+   {
+    "id": "p01",
+    "bearing": "north-west",
+    "distance_years_walk": 910,
+    "age_years": 0,
+    "alive": true,
+    "phase": null,
+    "throw": true,
+    "rolls": [
+     "r-0144",
+     "r-0145",
+     "r-0146"
+    ]
+   },
+   {
+    "id": "p02",
+    "bearing": "west",
+    "distance_years_walk": 460,
+    "age_years": 600,
+    "alive": true,
+    "phase": null,
+    "throw": false,
+    "rolls": [
+     "r-0148",
+     "r-0149",
+     "r-0150",
+     "r-0151",
+     "r-0152",
+     "r-0153"
+    ]
+   },
+   {
+    "id": "p03",
+    "bearing": "west",
+    "distance_years_walk": 460,
+    "age_years": null,
+    "alive": "not yet fallen",
+    "phase": "young",
+    "throw": false,
+    "rolls": [
+     "r-0154",
+     "r-0155",
+     "r-0156",
+     "r-0157",
+     "r-0158"
+    ]
+   }
+  ],
+  "count_roll": "r-0147"
  }
 }

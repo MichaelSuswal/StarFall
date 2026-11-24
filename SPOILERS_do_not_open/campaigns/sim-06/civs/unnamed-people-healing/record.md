@@ -66,3 +66,10 @@ Neighbors: few; forest between them and everyone. Salt comes up the river from t
 
 ## Named mortals
 None named. The Hearth-Holder is a person of the line, left to be found in play. Office holders are filed by office.
+
+## What the old tell
+Added on creation Night 3b, 2026-11-24. The people's own telling, which may be wrong; nothing agreed on Night 3a is changed.
+- That the Morrow Mounds [f56] are all their own people's work. The Keeper of the Mounds knows the oldest are of a different make and says nothing.
+- That a sitter named Edda Marsh first boiled water for the sick, because the Tender told her to in a dream.
+- That the mound moss was the Tender's gift against the wasting, and that it has grown weak because the seat stands empty.
+- That walkers come out of the forest once in a lifetime, sing names at the mounds through a night, and go back into the trees. The fen calls them the night-counters and thinks them a kind of mourner.

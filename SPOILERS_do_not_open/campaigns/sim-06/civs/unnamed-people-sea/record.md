@@ -67,3 +67,10 @@ Neighbors: shepherds of the Bren Hills [r05], who trade wool and mutton for salt
 
 ## Named mortals
 None named. Office holders are filed by office until play names them.
+
+## What the old tell
+Added on creation Night 3b, 2026-11-24. The people's own telling, which may be wrong; nothing agreed on Night 3a is changed.
+- That the promise is older than the walls: whoever keeps the lamp is kept count of. The eldest say it was made to a lamp-warden named Brennis by something that came up the quay steps and went down them again, and that the bell was hung so it could be called. Most say Brennis made it herself, to the town.
+- That the Drowned Causeway [f33] led to a town called Low Garrow, which the sea took in one night for its pride, and that this town was founded by those the sea spared. They do not say that most of Low Garrow had already left.
+- That when the old were children, walkers came who sang names all night on the quay, asked the name of every cove and sang them back, and wanted nothing. The town calls them the tally-voices.
+- That the stones of the causeway were once square.

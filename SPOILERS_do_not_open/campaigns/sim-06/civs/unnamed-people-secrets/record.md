@@ -69,3 +69,10 @@ Neighbors: plainsfolk of the Ansel Plain [r04] who drive stock in to market; coa
 
 ## Named mortals
 None named. Office holders are filed by office until play names them.
+
+## What the old tell
+Added on creation Night 3b, 2026-11-24. The people's own telling, which may be wrong; nothing agreed on Night 3a is changed.
+- That the town has always been there. The boat families say a boat master named Ivo Strand brought the first of them up the River Iss [f11] from a drowned harbor in the west, and that he found the cellars already dug.
+- That the lowest cellars belonged to merchants of an old league whose weights turn up when a floor is lifted, and that the marks on their tallies could once be read by any clerk.
+- That when the old were young, walkers came in by the land gate, were entered as guests, sang lists of names in the market street for three nights and left on the fourth. The clerks wrote down some of the names and still argue over what they are.
+- That the odd folk of the Iss Marsh [f36] were here before any of them.

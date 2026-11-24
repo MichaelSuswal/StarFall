@@ -72,3 +72,10 @@ Neighbors: the mining holds of the Hask Ridge [r20], who sell them iron and salt
 
 ## Named mortals
 Orrin Haddock, hoped for as Speaker: patient and well liked, past sixty. Tessaly, hoped for as Houndwarden: lean and watchful, of middle years, close to the dogs and slow to speak. The Still One. Each is who they are, never what they will do.
+
+## What the old tell
+Added on creation Night 3b, 2026-11-24. The people's own telling, which may be wrong; nothing agreed on Night 3a is changed.
+- That a keeper lies under Ribhill [f42], and that the first walkers were told by it to pass and not camp. The song for that stretch has a verse that only says to pass and not look.
+- That the round is as old as the grass. The clans that married in from older bands say the round once ran farther south, and bent north in their grandmothers' time.
+- That the miners of the Hask Ridge [r20] were once bondsmen who walked out on a master, and so owe everyone a fair price and give no one one.
+- That in the old Speaker's youth a band of walkers on foot, with no beasts, sat at the fires for some nights, asked the name of every ford and grazing ground and sang them back better than the Marchwarden. The band calls them the song-thieves, and not unkindly.

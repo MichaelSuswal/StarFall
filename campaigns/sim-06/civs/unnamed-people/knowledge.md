@@ -32,6 +32,16 @@ Across the Gulf is a hilly horn of land, the Dunmar Horn (B4), with few people. 
 
 That the town came to the bank in the time of the great-grandparents' grandparents, pushed together by the floods. That the oldest weights in the hall are older than the town. That there is a drowned stair on the Gulf shore east of the delta, the Maun Stair, and that a larger god drowned there, which is why the tide keeps coming.
 
+## What the old tell
+
+That a man called Hale the Raker led the salt people onto the bank in the flood years, and that the flood drum on the bank was his.
+
+That the old yards on the downs were worked by some people before them, and that clay from there was never good.
+
+That when the oldest of them were young, walkers came who sang lists of names all night on the bank, asked the name of every channel and hamlet and sang them back, and traded nothing. The town calls them the list-singers. Nobody knows where they went.
+
+Asked how the old Weightward died, people say he was old, took a chill in the spring flood, and died in his bed within a fortnight.
+
 ## The offices, by the town's own names
 
 The chief assayer is the Assay-master. The one who runs the market, its stalls, fees and watch, is the Stallreeve. The keeper of the kept halves of the split sticks is the Tally-keeper. The keeper of the old weights was the Weightward; the last one died last spring and the place is empty.

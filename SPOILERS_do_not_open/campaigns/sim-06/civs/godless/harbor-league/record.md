@@ -31,3 +31,12 @@ Set in full on Night 3b.
 
 ## Trouble
 Sound timber is running short; two houses are close to a feud over a lost cargo.
+
+## Night 3b: what the old tell, and their part in the great events
+Added on creation Night 3b, 2026-11-24. The telling may be wrong; the truth is in `deep-history.md`.
+- They tell that Captain Sabeth Corr shut the old sea-door at Corrith [f74], kept the fleet from the stewards and founded the league. That is true. They add that she sank the last steward's ship, which she did not.
+- At Port Sennet [f75] crews say one word as they pass in under the old sea-door, and call it the door's name. They say it keeps a hull from wreck.
+- The Wreck House at Port Sennet [f75] enters every crew pulled from the water since the founding; the town says it has never lost a crew it took in.
+- Josse Tarn, wrecked on Sutter Strand [r28] in 12 BA, lives at Port Sennet [f75]; three coasters carry his hung steering board.
+- House Corran of Port Sennet holds the debts of the family that carries salt to the bend town (mystery S06). House Sennet and House Corran are the two near a feud over a lost cargo.
+- Their part in the great events: rows W-4, S06-a and L04-f of `event-schedule.md`.

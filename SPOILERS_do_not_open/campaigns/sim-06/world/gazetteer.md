@@ -95,7 +95,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The Aldermark [r10] (plain), lying west: 13 days on foot at the pace table's cross-country rate; its nearest edge about 93 miles north-west of the point, 6.6 days on foot over open ground by the ground crossed.
 - The Cander Plain [r16] (plain), lying south: 14 days on foot at the pace table's cross-country rate; its nearest edge about 79 miles south-east of the point, 5.7 days on foot over open ground by the ground crossed.
 - The Hask Ridge [r20] (mountain), lying south-east: 19 days on foot at the pace table's cross-country rate; its nearest edge about 139 miles south-east of the point, 9.9 days on foot over open ground by the ground crossed.
-Places: River Alder [f03] (river); Hollin Water [f04] (river).
+Places: River Alder [f03] (river); Hollin Water [f04] (river); Gannel Stones [f80] (site), added on Night 3b: three standing stones on the open grass, 94.8 miles from the Whitmoor Ring [f76] on foot over open ground, 6.8 days.
 Ordinary wonders, no mystery attached: Rolling grass with wild horses in small bands; larks; summer storms seen coming for half a day.
 
 ## Whitmoor [r09]
@@ -106,7 +106,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The Aldermark [r10] (plain), lying north-west: 11 days on foot at the pace table's cross-country rate; its nearest edge about 83 miles north-west of the point, 6.0 days on foot over open ground by the ground crossed.
 - The Cander Plain [r16] (plain), lying south: 7 days on foot at the pace table's cross-country rate; its nearest edge about 43 miles south of the point, 3.1 days on foot over open ground by the ground crossed.
 Places: Whitmoor Ring [f76] (site).
-Ordinary wonders, no mystery attached: A pale, treeless upland where the ground is chalk-white under thin turf and sounds carry strangely; hares, and very few birds.
+Ordinary wonders, no mystery attached: A pale, treeless upland of thin turf over chalk, with long views and dew ponds; hares box on it in spring.
 
 ## The Aldermark [r10]
 The ground is plain, a broad settled river plain of field and pasture. Elevation: 100 to 500 feet. Water: the River Alder [f03] and its feeder the Hollin Water [f04]. Climate: cool temperate: four real seasons, hard winters, a loud thaw.
@@ -324,6 +324,7 @@ Neighbors (reference for the Keeper, not the seen view):
 - The Lome Sea [r32] (sea), lying south-west: 5 days on foot at the pace table's cross-country rate; its nearest edge about 83 miles south of the point, 6.0 days on foot over open ground by the ground crossed.
 Places: River Wellen [f08] (river).
 Ordinary wonders, no mystery attached: Brown hills with stone pines; cicadas in summer; honey from the hill bees is dark and strong.
+Added on Night 3b: stream tin lies in the becks of the southern Tawn Hills [r27], the one place on the sheet it is found in any amount. Hill folk pan a little and the league buys it. No one holds the ground.
 
 ## Sutter Strand [r28]
 The ground is coast, a coastal lowland of harbors. Elevation: 0 to 300 feet. Water: small streams; the sea. Climate: temperate: four seasons, wet winters with hard spells, long warm summers.

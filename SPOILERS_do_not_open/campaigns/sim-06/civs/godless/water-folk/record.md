@@ -31,3 +31,11 @@ Set in full on Night 3b.
 
 ## Trouble
 Fewer children each generation. Land people's weirs close channels they have always used.
+
+## Night 3b: what the old tell, and their part in the great events
+Added on creation Night 3b, 2026-11-24. The telling may be wrong; the truth is in `deep-history.md`.
+- They say they were here before the banks were raised. They were: they are the last of the first people of this country.
+- They keep the drowned lower hall of the Maun Stair [f27]: at certain tides they clear its weed and set reed lights on the steps. They say it is rude to say for whom.
+- An old boat-mother of the Gulf of Maun [r31] has it from her mother's mothers that "the heavy one went light at the steps" (mystery L03).
+- The bands gather at the islets off the Whin Flats [r29] at the lowest tides of spring and autumn, three nights each (row PH-2). In a band no one is struck and no one is put out; a child is every boat's.
+- Their part in the great events: rows W-2 and PH-2 of `event-schedule.md`.

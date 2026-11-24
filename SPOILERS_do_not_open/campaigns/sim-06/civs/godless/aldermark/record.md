@@ -31,3 +31,13 @@ Set in full on Night 3b. Their country is among the oldest held ground of the we
 
 ## Trouble
 An old king with two heirs who do not speak; a chancery that has begun to find old claims in its rolls.
+
+## Night 3b: what the old tell, and their part in the great events
+Added on creation Night 3b, 2026-11-24. The telling may be wrong; the truth is in `deep-history.md`.
+- They tell that their first king, Corvin Alder, was the Assize's last steward and received its rights whole. He was a steward's son, and one line of the founding roll is scraped (mystery S09).
+- They tell that the patron of the old houses went down to the sea in the hundred and eighty-fourth year and will return when the dues are paid in full.
+- An old survey roll in the chancery lists "the stones on the grass": the Gannel Stones [f80], added to the map on Night 3b, 182.7 miles from Aldermoot [f70] on foot over open ground, 13.0 days. Grade of their knowledge: rumored. No one from the kingdom has gone in living memory.
+- The reciters, as they call the singing walkers, last came when the old king was a young man, and the Mollen counted every name.
+- Named mortals, by the Keeper: the old king, Hale Aldren; his daughter Marit; his nephew Edric; the chancery clerk Peverel Stane, who went down to the delta last summer. The traveler Calla Wend, who came in 36 BA and is buried at Wenlow [f71].
+- The Mollen quarter: about three hundred of the slow people, under the keeper of the Ninth Book, Emmerin. What they know and how they may be asked is in `cast.md`.
+- Their part in the great events: rows W-1, S09-a, S09-b, S01-a, S10-a and L04-h of `event-schedule.md`; fading place 1.

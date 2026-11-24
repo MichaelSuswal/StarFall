@@ -69,3 +69,10 @@ Neighbors: the Aldermark [r10], whose traders pay their tolls and resent them; p
 
 ## Named mortals
 Kessan, called the Lintel, the Warlord: fifty winters, heavy, scarred, careful with his word, short in temper, eleven years over the war band; respected, not much loved; afraid he will not be ready. Idris Veld, the First Doorwarden: an old woman, patient, shrewd, well liked, thirty years in the rite. Each is who they are, never what they will do.
+
+## What the old tell
+Added on creation Night 3b, 2026-11-24. The people's own telling, which may be wrong; nothing agreed on Night 3a is changed.
+- That the passes were theirs from the first snow of the world. The Doorwardens' own recital says otherwise: that they guided for wardens of a league in the lowlands, and that Marda Sill was the first to take the toll at Marle Ford [f61] for the Sarrow themselves.
+- That the Kennoch Gates [f64] were shut from inside by a king's last servant, and that to open them is to let in the cold he was holding out.
+- That the Guest was described to them by walkers who come over the heights once in a generation and sing names at the ford. The Sarrow call them the counted road, feed them, and take no toll.
+- That a blue flower on the cutting by the gates marks the summer's height.

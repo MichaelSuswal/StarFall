@@ -26,3 +26,13 @@ Read as hope only. Nothing in it is placed, scheduled or refused.
 
 ## Their neighbors and their trouble
 The Aldermark [r10] upriver, with its unpressed claim. Hill kin at Ruddfold [f25]. The water folk in the channels, who trade reed work at dusk and are blamed for missing nets. Their trouble: the market has quarreled since the Weightward died; the clay diggers and the kiln-masters are near a break; and a clerk of the Aldermark [r10] was seen in the town last summer, asking how many stalls there are.
+
+## Night 3b: what stands behind their tellings
+Added on creation Night 3b, 2026-11-24. The truth of each is in `deep-history.md`; nothing here is told to anyone.
+- The oldest weights are the Assize of Maun's, and the keeper's office was its ward of the standard. There were seven; six are on the rack (mystery S01).
+- The drowned one is Maunath, which did not drown (mystery L03). Its ground is the Maun Stair [f27].
+- The floods of 165 to 160 BA came when the last of the Assize's held banks failed. Hale the Raker led the salt people onto the levee.
+- The old yards on the Pellow Downs [r15] are where the Assize's school worked; the clay from there has no temper (mystery L05). Some diggers have been cutting the delta's flood-silt clay with it, which is what the kiln-masters half suspect.
+- The list-singers the old remember are the carriers (mystery L04); their last round was in 29 BA and the next reaches the town in Year 9.
+- The last reeve of the Aldermark on the levee was Odo Penn; his last reckoning is in the sealed jar in the hall.
+- What the town says of the old keeper's death, when asked, is in the public knowledge file, and is true as far as it goes.

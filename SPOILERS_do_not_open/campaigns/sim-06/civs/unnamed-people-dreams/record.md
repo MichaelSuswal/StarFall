@@ -83,3 +83,10 @@ Neighbors: the harbor towns of Sutter Strand [r28], who sell salt; the mining ho
 
 ## Named mortals
 None named. Office holders are filed by office until play names them.
+
+## What the old tell
+Added on creation Night 3b, 2026-11-24. The people's own telling, which may be wrong; nothing agreed on Night 3a is changed.
+- That the Ellow Barrows [f52] are the graves of their own first ancestors, and that the barrow songs are in the old form of their own speech. No one can say what the words mean. There were five songs in their grandparents' time and there are three.
+- That the guest with the lamp was promised by the first of the seated line, in a dream.
+- That the Ellow Scar [f51] was first cut by giants, since the lowest cuts are too large for any tool they have.
+- That singers on foot came when the old were children, ate at the Dusk Table for three nights, and sang the names of every hamlet. Some households date the tale of the guest from an earlier coming of the same singers, and are laughed at.

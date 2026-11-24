@@ -73,3 +73,11 @@ Neighbors: salt carriers who cross at the ford; boat bands of the water folk in 
 
 ## Named mortals
 None named. Office holders are filed by office until play names them.
+
+## What the old tell
+Added on creation Night 3b, 2026-11-24. The people's own telling, which may be wrong; nothing agreed on Night 3a is changed.
+- That the first ferry elder, Nessa Ferry, set the low seat and the cup. Why, no one says the same way twice: for her drowned husband; for a guest who never came back; because she dreamed it.
+- That the Stopped Spring [f48] was stopped by a woman from the west who was paid for it and forgot her own name on the way home, and that it is not their stone to move.
+- That the Dry Braid [f49] was a river once and was drunk dry by a great beast.
+- That every river is one spring, come up in many places.
+- That walkers who sing names come through once in a long while, cross at the ford, and pay the ferry with a song of every channel's name. The town calls them the namers.
