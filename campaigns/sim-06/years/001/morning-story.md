@@ -1,6 +1,6 @@
 (oog) Before you land
 
-The Day 3 brief was written before the map was drawn, and the finished land differs from it in what is in view from the spot where you land. The track along the bank and the smoke are as the brief gave them: the town stands on the same bank as you, about a mile off. The low hills behind are not near ground. They show only as a low rise on the skyline, about 23 miles off to the east. The pale flats and the open water are not in view from the bank. They lie beyond the reeds.
+The Day 3 brief was written before the map was drawn, and the finished land differs from it in what is in view from the spot where you land. The track along the bank and the smoke are as the brief gave them: the town lies about a mile to the south-east, and the path you stand on runs that way. A river channel lies about a quarter mile to the east. The low hills behind are not near ground. They show only as a low rise on the skyline, about 23 miles off to the east. The pale flats and the open water are not in view from the bank. They lie beyond the reeds.
 
 Year 1. Early autumn, the hour before first light. The turning has stopped. You are standing where you landed, on the top of an old raised bank, with firm clay under your feet and the wet on either side of it. The air has the first edge of cold in it. Mist lies on the water and thins over the bank. You smell reed, wet clay and woodsmoke. Water is moving in a channel close by, low and slow after the summer, and rain is not far off. The coat is on you with what its pockets hold, and the scales hang at your belt where they hang, with their dent. It is dark still. A round blue light stands in the north-east, about a fifth of the way up the sky, wider than the moon and steady, and it gives light enough to walk by. You have no name for it. By it you can see the bank under your feet and the pale line of a path running along the bank's top. You feel no other like yourself. That knowing comes only at close quarters, and nothing here gives it.
 
@@ -10,7 +10,7 @@ As the light comes, the rest shows. This is low wet country, channels and reed i
 
 The path passes under your feet. About 4 miles of it are in view, coming from the north and going on to the south-east. About a quarter of a mile to the east a river channel runs from the north to the south, with about 4 miles of it in view.
 
-About a mile to the south-east, on this same bank, there is a town: roofs, and smoke from more than one fire. By the town there is a road, about a mile from you, with about half a mile of it in view.
+About a mile to the south-east there is a town: roofs, and smoke from more than one fire. By the town there is a road, about a mile from you, with about half a mile of it in view.
 
 On the skyline to the east there is a low rise of hills, its nearest edge about 23 miles off. Of what lies beyond the reeds, nothing shows.
 
