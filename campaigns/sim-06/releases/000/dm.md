@@ -22,7 +22,7 @@ Standing ground: about 12 feet up, on a marsh country's old bank. A level stretc
 
 - A path, at the point where it stands: about 4 miles of it in view, from the north to the south-east.
 - A river channel about a quarter mile to the east: about 4 miles of it in view, running from the north to the south.
-- A town about a mile to the south-east, on the same bank: its roofs, and smoke from more than one fire.
+- A town about a mile to the south-east: its roofs, and smoke from more than one fire.
 - A road about a mile to the south-east, by the town: about half a mile of it in view.
 - A low rise of hills on the skyline to the east, their nearest edge about 23 miles off.
 

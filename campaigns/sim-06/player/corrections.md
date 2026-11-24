@@ -46,7 +46,7 @@ Fitted, for a dated entry on the card under Seals by factors, citing L-0025: hol
 ## The land, against the Day 3 brief
 
 The brief holds, with these differences in what is in view from where the god comes down. Put them to the player in the first morning's pre-landing block.
-- The track along the bank and the smoke are as the brief gave them: the town stands on the same bank, about a mile off.
+- The track along the bank and the smoke are as the brief gave them: the town lies about a mile to the south-east, and the path you stand on runs that way. A river channel lies about a quarter mile to the east. (Reworded on 2026-11-24 after the first morning read: an earlier wording said the town stands on the same bank, which the map does not give. For the DM: drop that phrase from the first morning story and its painting request, and keep the distances and directions as they are.)
 - The low hills behind show only as a low rise on the skyline, about 23 miles off to the east, not as near ground.
 - The pale flats and the open water are not in view from the bank; they lie beyond the reeds.
 
