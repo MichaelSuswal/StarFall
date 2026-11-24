@@ -47,4 +47,4 @@ Worship: local shrines. Household and village shrines, kept by whoever keeps the
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Autumn.

@@ -45,4 +45,4 @@ Worship: a priesthood. Keepers of rite with standing among the people, offerings
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Autumn.

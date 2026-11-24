@@ -45,4 +45,4 @@ Worship: none. It asks no rites; what the people do about it is theirs. (score 2
 (Night 2)
 
 ## Season it wakes into
-(filled by the Keeper from answer 3)
+Spring (the first storms).

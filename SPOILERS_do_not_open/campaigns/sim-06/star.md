@@ -23,4 +23,5 @@ Magic range the rain density allows on the Q6 scale: 7 to 9.
 - The hoarder is a ring of standing stones that is one organism, at the center point.
 
 ## Ceiling
-(rolled in 1.6, after the Q8 blend)
+73. Method: Q8 blended to 5, so one d10; face 3 [r-0140]; 70 plus 3. Never released. Copied to every god's sealed `hidden-powers.md` on Night 2.
+The voices begin at four fifths of it: 58 (58.4, rounded).
