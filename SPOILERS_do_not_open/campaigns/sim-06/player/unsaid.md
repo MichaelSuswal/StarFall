@@ -17,6 +17,9 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
 - 2026-11-24, creation Day 3 (a sealed part of the third reply, the yes): "I would like the old keeper's death last spring to turn out to be ordinary. A fever, an old man, a hall that fell quiet. I do not trust that I want it to be ordinary, and I do not trust that I want to be right about it. I will watch for who benefits from the vacancy."
   Confirmations: none yet.
 
+- 2026-11-24, Year 1 played day (a sealed part of the second reply, standing in the gate of the town's house): "I am less calm than I look in that gate. I am watching the person at the balance more than the basket. If the weights on the wall are mismatched and cracked, I want to see whether anyone in this yard hears that as a lie."
+  Confirmations: none yet.
+
 ## Fear
 
 - 2026-11-24, creation Day 3 (same reply): "I am afraid of being the one that register catches."
@@ -42,3 +45,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24, Day 3: The second sealed part was one reply of two kinds, split above into a request to the Keeper and a want. The open conduct line on the dead keeper of the standards and the vacancy the god means to fill carries "check with the player before acting" because of it. This request is answered on Night 3a; the player is told it was received and ruled in the first morning's closing (oog) block.
 - 2026-11-24, Day 3: The third sealed part is filed whole under Want; the DM read it as the god's wish and its distrust of the wish, not as a request. For the Keeper to weigh beside the same day's sealed request about the vacancy: the two pull different ways, and the DM settles neither.
 - 2026-11-24, Day 3, at the close: `requests-answered.md` still carries the Keeper's reason line and no further line. The DM's agreement stands as written above.
+- 2026-11-24, Year 1 played day: The three open conduct lines marked "check with the player before acting" were put to the player in (oog) and answered in the open: they stand as written, with an order (the keeper's place only once the Warden knows and has agreed to watch; the Clerk licensed first and only after the god has seen that person work, no promise today; the house, the name and the debt left alone until the player says, "That one is firm."). This confirms the open lines. It is not a confirmation of any sealed want above; none was asked for today.

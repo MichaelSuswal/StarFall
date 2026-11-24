@@ -99,3 +99,39 @@ I move up along the wall of the yard to where I can see the pans on the bench fr
 On the three lines of standing conduct, they stand as written, with one note on the order. The keeper's place I fill in the open, by checking the town's standards against my scales, but only once the Warden knows what I am doing and has agreed to watch. The Clerk's office is the one I would license first, and only after I have seen that person work. I make no promise today. Anything touching the lost house, the name or the debt is left alone until I say. That one is firm.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+The one who turned is a wiry woman off the boats, dark from the sun, with a small hand balance of wood and cord hung from her wrist and a string of dried fish over her shoulder. She looks at your hands, then at your face, then at your coat.
+
+"Morning. Warden?" She says the word as if tasting it. "There's no warden here. That's the Assay-master's bench. It's open to anyone with a thing to weigh and the patience to wait, and you'll want the patience." She tips her head at the door. "That's the Assay-master behind the balance. Those two are a raker and a woman who dries fish up the east channel. She bought ten weights of salt off him three days back and says it came to nine and a bit on her stone at home. He says his measure is good. So they've brought the basket to be told." She shrugs. "You waiting to weigh something?"
+
+You tell her you are a weigher, passing through, curious about the hall.
+
+"Then you've come on a good day for it," she says, not smiling, and goes back to watching the door.
+
+You move up along the house wall to the doorpost, out of the line of those waiting, and from there the bench is a few paces off and the pans are in plain sight. The room smells of dry clay and old smoke. The one behind the balance is grey-haired and unhurried, with a potter's thick fingers, and does not look up at the door. The balance is a wooden beam on a cord with two shallow pans of fired clay. The salt has been tipped out of the basket into one pan. Into the other the Assay-master sets weights from the row along the wall, one at a time, squat fired pieces each with a mark pressed into its top, until there are ten. The beam swings, slows and comes level.
+
+"Ten," the Assay-master says. "It is full."
+
+And you know what is in the pans, as surely as you know your own hands. The salt and the ten pieces do weigh the same. The beam is honest. But the ten are not ten of one thing. Eight of them agree with one another to a hair. Two do not. One, chipped at the foot, is lighter than the eight by about a twentieth part. The other, with a crack running down from its mark, is lighter by nearly a tenth. Set against ten like the eight, the salt in that pan is short by about a seventh part of one weight. That is all it tells you. It does not tell you which of the pieces is the size a weight in this town is meant to be, or how the two came to be light, or what the raker's own measure at home is like.
+
+The raker lets out his breath and reaches for the basket. The fish-drier puts her hand flat on the bench.
+
+"Which ten?" she says. "That's the chipped one. I can see it from here. Everybody knows the chipped one."
+
+"They are the hall's weights," the Assay-master says, without heat. "The hall has ten of that size and I have used ten. If you have a better set, bring it and I will weigh it against these."
+
+"Against these," she says.
+
+"There are no others."
+
+In the yard behind you a man laughs, short, through his nose. "Ten's ten," someone says. Someone else says, "It's been like this since the Weightward died, and it'll be like this till they seat another." The woman with the hand balance says nothing. She has the look of someone who has heard this exact quarrel before and expects to hear it again. Nobody in the yard seems surprised, and only the fish-drier seems angry. The raker stands with his hands on the rim of the basket, looking at the bench and not at her.
+
+The first minute has gone by and you have said nothing. The salt is still in the pan. No one has asked you what it weighs.
+
+(oog) A roll, as before. Whether the bench's reading would come out wrong was the world's to answer and no file settled it, so I set odds from the record: even, plus 20 for the hall's standards being cracked and mismatched, plus 10 for a scale nobody trusts, minus 10 for an assayer who is patient and careful and knows these weights. That is 70 in 100 that the reading goes wrong, rolled in the open log before I wrote. It went wrong, in the way you see.
+
+What The True Measure gave you is what the card gives: the weight of the salt and of each piece in the other pan, now. I have told it in parts of a weight because you have not yet set any of this against your own brass. If you want it in your own measure, that is yours to do.
+
+Your answer on the three conduct lines is recorded as given, with the order: the keeper's place only once the one you call the Warden knows and has agreed to watch; the register-keeper licensed first, and only after you have seen that person work, with no promise today; the house, the name and the debt left alone until you say. One name reached you just now from a mortal: the town calls the office at that bench the Assay-master, and the dead keeper the Weightward. "Warden" stays your own word for it.

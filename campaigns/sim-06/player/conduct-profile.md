@@ -4,7 +4,7 @@ Campaign: sim-06.
 
 ## Now
 
-As of creation Day 3, 2026-11-24 (Pacific).
+As of the Year 1 played day, 2026-11-24 (Pacific).
 
 What it is about: fair measure, and the price of the unfair kind. Not wealth as such. "The moment two people agree on what a thing is worth."
 
@@ -32,6 +32,8 @@ Its law, as it means to make it: a word of its own is its own only if the split 
 What it will not give in unplayed time: no licence (by the card they are given face to face, so only in play), and no ruling outside questions of weight unless the council asks.
 
 Its past: it knows there is a debt and does not know whose. Anything to do with the lost house, the lost name or the debt: check with the player before acting.
+
+Checked with the player, Year 1 played day, 2026-11-24: the three marked lines stand as written, in this order. The keeper's place is filled in the open by checking the town's standards against its own scales, "but only once the Warden knows what I am doing and has agreed to watch." The Clerk's office is licensed first, "and only after I have seen that person work. I make no promise today." Anything touching the lost house, the name or the debt "is left alone until I say. That one is firm." The marks stay on the lines; this check is dated here.
 
 Helpers: none at landing. Designed, not yet serving (`hierarchy.md`). Until an office is won in play, unplayed time runs on this profile alone and no one acts for it.
 
@@ -77,3 +79,11 @@ Unsaid wants are kept sealed.
 - On landing with nothing: "I landed without being asked to, and I will have to win the town."
 - On the tide-reckoner: "I expect to get use from her and to pay for it."
 - Three answers were given privately today and are kept sealed.
+
+### 2026-11-24, Year 1 played day
+
+- It came into the town unannounced, as a stranger: "I do not announce myself." "I do not say I am a god." It wanted to see the town before the town saw it.
+- Asked its business, it says it is a weigher, passing through, curious about the hall. It kept its hands in view and did not touch the scales.
+- At the hall it watched before it spoke: "If the person at the bench reads the weight wrong, I say nothing in the first minute. I want to see how the hall handles a mistake. If they ask me directly what it weighs, I answer truthfully."
+- On the three marked conduct lines, checked in (oog): they stand, with the order written under Now.
+- One answer was given privately today and is kept sealed.
