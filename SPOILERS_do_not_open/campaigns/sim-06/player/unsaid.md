@@ -20,6 +20,9 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
 - 2026-11-24, Year 1 played day (a sealed part of the second reply, standing in the gate of the town's house): "I am less calm than I look in that gate. I am watching the person at the balance more than the basket. If the weights on the wall are mismatched and cracked, I want to see whether anyone in this yard hears that as a lie."
   Confirmations: none yet.
 
+- 2026-11-24, Year 1 played day (a sealed part of the fourth reply, after answering "Who are you?" at the bench): "I'm uneasy about "who are you" and how close I came to saying the other word. I did not lie, and I would have been right not to. But I noticed I wanted the yard to know. I want to be told I'm the standard, and a town that stops quarrelling about weights because of me is a town that has made me the standard."
+  Confirmations: none yet.
+
 ## Fear
 
 - 2026-11-24, creation Day 3 (same reply): "I am afraid of being the one that register catches."

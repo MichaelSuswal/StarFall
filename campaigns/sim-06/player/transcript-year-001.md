@@ -205,3 +205,39 @@ Then I answer the question. "Who am I? I'm a weigher, as I said. I came down the
 I say it flat, with no pause for effect. I leave it open as to whether I'm more than that, and I tell no lie. I add, "I'll tell you what I want here, if you like. I want a hall where nobody in that yard has to wonder whether the ruling is fair. That's all I'm asking about today." I ask the Assay-master's name, and I wait.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+"I set my own weights down," the Assay-master says, and puts the cracked piece back in its place at the end of the row. "And I choose the order, so nobody says you chose it. You asked for the eight first. You may have them first."
+
+You say what your nest is, so that it is on the record: seven cups, each twice the last, the smallest called one and the largest sixty-four, and that you cannot give a false number. The Assay-master's eyes go once to the brass and back to your face, and then the first piece comes down into your pan.
+
+It beats the eight and the four together. It loses to them with the one added. You call it: twelve, and a little better than half of one over. The Assay-master sets down the second. The same. The third. The fourth. You do not hurry and you do not skip, and by the sixth the yard is calling it with you under its breath. All eight come out alike, twelve and a little better than a half, and what your scales tell you of each agrees with what you said of them before you had touched one.
+
+The ninth is the chipped one. It does not beat the eight and the four. It hangs just under them, by so little that the Assay-master leans in until the grey head is nearly over the pans. You call it: twelve, less a hair. The tenth is the cracked one, and nobody has to lean. The eight and the four take it straight down. It beats the eight and the two and the one. You call it: eleven, and something under a half.
+
+"Again," the Assay-master says. "The third and the ninth." You weigh them again and call the same. Then the Assay-master takes those two without a word, puts one in each clay pan of the hall's own beam, and lets go. The side with the third piece sinks. It is a small sinking, and every person in the doorway sees it.
+
+You say what you have to say: that they can now see how light, in numbers anyone can check, and that if the numbers are not what the bench expected it should say so and you will weigh again.
+
+"They are what I expected," the Assay-master says. "Near enough. I had the cracked one at a tenth by feel and never proved it." And then, in the same voice, to the room: "The salt is short by a seventh part of one weight, against the eight. The bench was wrong in its ten and says so. Raker, you will make it good today, as you said. There is no fault found in your basket and none in your word." The raker nods once, slowly, and says, "Today." The fish-drier takes her hand off the bench. She looks at you, and at the brass, and says, "Well," and that is all she says.
+
+Then your answer to the fourth thing. You give it flat: a weigher, down the old bank at first light, never in this town before; called the Weigher by those who ask, another name once and lost. And what you want here, a hall where nobody in that yard has to wonder whether the ruling is fair. You ask the Assay-master's name.
+
+The Assay-master considers the answer for about as long as the ninth piece took.
+
+"That is a trade and a lost name," the Assay-master says. "I will give you as much as I was given. I am the Assay-master. When you have a name to put in the pan, I will put mine in the other." There is no smile with it. "As for what you want. What you want is what the Weightward was for. That seat is not mine to give and not yours to take. It is the council's, and the council has not agreed on the hour of the day since spring.
+
+"And we have not talked about how you knew. You called a twentieth before your pans did. I have weighed for this town for most of my life and I do not know how a person does that, and I do not like not knowing a thing about weights." A glance at the door, where the waiting line has grown by half. "Not now. I have a market's worth of quarrels in my yard. The bench closes when the light goes. Come then, with the brass, and we will talk with the door shut. Or do not, and I will know something about you from that too."
+
+You take up your scales and your nest. As you turn from the bench the woman with the hand balance is in front of you, holding it up by its cord so the two little wooden pans swing.
+
+"Weigher," she says. It is the first time anyone in this country has called you by it. "The bench won't have your brass on it. Nobody said a word about the yard. What would you take to try mine?"
+
+Behind her, two more people in the line have their hands on their own scales and are waiting to hear what you say.
+
+(oog) Nothing here was rolled. The weighing was certain once the pieces were in your pans, and the Assay-master had said beforehand what the bench would do if you had known and not guessed.
+
+The figures, so you can hold me to them: in your nest the salt is 124. Each of the eight is about twelve and six tenths. The chipped piece is a hair under twelve and the cracked one about eleven and four tenths. Ten like the eight would come to about 126, which is where the missing seventh of a weight is. Your nest is written on your card as a dated entry, as you gave it.
+
+The Assay-master's two asks of last time are answered and closed. Two things are now asked of you and I am holding both as pending: the Assay-master's invitation to come back when the bench closes at dusk, with the brass, and talk with the door shut; and the channel woman's question, what you would take to try her balance, here in the yard.

@@ -86,4 +86,8 @@ Unsaid wants are kept sealed.
 - Asked its business, it says it is a weigher, passing through, curious about the hall. It kept its hands in view and did not touch the scales.
 - At the hall it watched before it spoke: "If the person at the bench reads the weight wrong, I say nothing in the first minute. I want to see how the hall handles a mistake. If they ask me directly what it weighs, I answer truthfully."
 - On the three marked conduct lines, checked in (oog): they stand, with the order written under Now.
-- One answer was given privately today and is kept sealed.
+- At the bench it asked leave before it weighed: "I'm not asking you to change the ruling." It weighed in front of everyone and said only what was in the pan. Of the raker: "A short measure and a cheat are different things, and I can't tell which this was." To the buyer: "You aren't owed an accusation, you're owed the missing seventh."
+- It weighed all ten of the hall's pieces in the Assay-master's order: "I do not weigh them in the order that makes me look best."
+- Asked who it is: "I'm a weigher, as I said. I came down the old bank at first light and I haven't been in this town before today. People who ask what to call me have said the Weigher, and I've not argued with it. I had another name once, and I can't give it to you, because I've lost it." It left open whether it is more than that and told no lie.
+- What it says it wants in the town: "a hall where nobody in that yard has to wonder whether the ruling is fair." And: "I'm not here to take that from you. I'm here because I can't watch a hall weigh short and say nothing."
+- Three more answers were given privately today and are kept sealed.

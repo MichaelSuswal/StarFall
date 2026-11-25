@@ -45,3 +45,19 @@ Asked of the player in (oog), not yet answered: whether the three conduct lines 
 - Pending: the demand to weigh the pieces; "Who are you?" (`pending.md`).
 - The Weigher has given no name and has not said what it is.
 - One sealed answer taken to the sealed record.
+
+## 4. The ten pieces
+
+- The player set the nest's sizes: seven cups, each twice the last, one to sixty-four (127 in all). Written on the power card as a dated entry.
+- The Assay-master set the pieces down in the Weigher's pan one by one, the eight first as asked. Called: each of the eight, twelve and a little better than a half (about 12.6); the chipped piece, twelve less a hair; the cracked piece, eleven and something under a half (about 11.4). The salt is 124; ten like the eight would be about 126.
+- The third and ninth were weighed again at the Assay-master's asking, then set against each other on the hall's own beam: the third sank, in sight of the door.
+- The Assay-master's ruling, aloud: the salt is short by a seventh of one weight against the eight; the bench was wrong in its ten and says so; the raker makes it good today; no fault found in his basket or his word. The raker: "Today." The fish-drier took her hand off the bench.
+- The Weigher answered "Who are you?" in the player's words (a weigher, down the old bank at first light, called the Weigher, another name lost) and said what it wants (a hall where nobody in the yard has to wonder whether the ruling is fair). It asked the Assay-master's name.
+- The Assay-master gave no name: "When you have a name to put in the pan, I will put mine in the other." Said the Weightward's seat is the council's to fill and the council has not agreed on anything since spring. Has not yet had its talk about how the stranger knew: invited it back when the bench closes at dusk, with the brass, door shut.
+- The Weigher took up its scales and nest; they are on it again.
+- The channel woman called it "Weigher" and asked what it would take to try her balance in the yard. Two more in the line wait on the answer.
+- Board as left: the Weigher inside the hall door, turned from the bench, scales and nest in hand; the woman before it with her hand balance held up; the line at the door; the Assay-master back at the bench with the next quarrel.
+- No scale has yet been checked against the god's scales, so no true scale stands anywhere.
+- No seal set, no licence given, no promise made.
+- Pending: the dusk invitation; the woman's question (`pending.md`).
+- One sealed answer taken to the sealed record.
