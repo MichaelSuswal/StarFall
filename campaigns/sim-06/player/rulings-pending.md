@@ -16,6 +16,20 @@ Against, for the Keeper to weigh: the test was against the nest and not pan agai
 
 Not urgent: nothing turns on it until the body is broken.
 
+## 2. Year 2 play day, 2026-11-24. What does The True Measure give of a lump of clay beyond its weight?
+
+Power: The True Measure, "its true weight, its true count and its true purity".
+
+The use: none yet. In Year 1 the Weigher gave the potters the weights of diggers' baskets and nothing else. The player now means to go to the diggers' pits and say "weight, count, and what part of the lump is clay and what part is not, as the scale gives it", and to read three lumps from loads that fired well against three from loads that cracked. The player has hedged it in its own words: "if the scale gives it", and "If it doesn't read, I say it doesn't read."
+
+The player's intent on Day 2: "its true weight, its true count and its true purity", with the plated coin as the example; and on Day 3, that the first thing its people weigh should be the flood-silt clay, because "the quality of the clay decides whether a kiln load cracks".
+
+The DM's argument for the player: the card says purity in so many words and names no kind of thing it stops at. Grit in clay is the plainest case of a thing that is partly what it is sold as and partly not, the same shape as plate over base metal. The player chose clay on Day 3 as the first thing weighed, at the table, with the power already written, and nobody told it then that the power gives nothing of clay but weight. It tells what a thing is now and no cause, so it would say how much of the lump is not clay, and not who put it there or whether the kiln will crack.
+
+Against, for the Keeper to weigh: "purity" needs a standard of what the pure thing is, and clay is a mixture by nature; the reading could be read to say what fires well, which is the potters' craft and a cause, not a measure; and Year 1 was resolved with weights only.
+
+Wanted: a ruling before the Weigher weighs clay at the pits. The DM tells weight only until then.
+
 ## Trims
 
 None today.

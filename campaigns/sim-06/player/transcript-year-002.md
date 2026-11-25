@@ -193,3 +193,45 @@ Now the waiting asks.
 **The witness.** I'll stand witness to a bargain if both parties ask me, in front of the Stallreeve's watch if they like. I say what I saw and heard and nothing more. I won't tell either side whether I think the other means it, and I won't be held to a verdict on whether it was kept.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You let the day go and did not send after her. At the next market the Stallreeve came down to the gatepost with a quarrel of weight, a buyer and a seller and two scales, as he does, and the Tally-keeper came with her stick. You read the two scales first and he ruled at the stall. When he came back past the gatepost you asked his leave, and hers, together, with the line listening.
+
+You put it as you had worked it out. A token hangs on a scale and says "read" for ever. A stick does not hang on anything. It is split, one half in the Tally-keeper's keeping and one in the owner's, and it carries a date and a reading, which pan and how far, and it says in its own notches that it holds for that day and no longer. A stick not read again within a season lapses, and she cuts its end. The stallholder who wants one pays her a pinch in measure, the same as at the gate. You take nothing from it. It is her work and her stick.
+
+The Stallreeve turned it over the way he turns over a scale. "Who says it has lapsed?" he asked, and answered himself: "She does. The kept half is hers." He looked at the two of the watch, and then at the line. "A man who waves his half about in midwinter can be asked for the date on it. Good. No stick on a stall, no stick on a scale. In the hand, or in her house. If I see one hanging, they all come down." He turned to her. "It's your knife."
+
+The Tally-keeper had been counting on her fingers while he talked. "A season is long," she said. "I'll cut the end at a season, and I'll cut a notch at each market it is not brought, so that anyone can see how stale it is." She did not ask whether you agreed. "A pinch will do."
+
+The stallholder of the last market was sent for and came with the scale under her arm. You said the first stick was hers if she would have it, with both readings on it, the one out and the one level. She looked at the Tally-keeper and not at you. "The whole yard saw both," she said. "Cut both." The two of the watch who had stood at the gatepost that day said what they had heard you call, and it was what you had called. The Tally-keeper cut the day, then the first reading, selling pan heavy and how far, then the second, level, and split the stick down its length on the gatepost with the heel of her hand on the knife. One half went into the stallholder's apron. The other went under the Tally-keeper's arm with the rest. The stallholder paid her a pinch of barley, and the Tally-keeper held it out for you to weigh, and you weighed it.
+
+By the time the light slanted she had cut four more.
+
+You are at the foot of the gatepost at the end of that market day, with the scales and the nest on you and the half-stick of the asking in your coat. The Stallreeve has gone back to the stalls. The Tally-keeper is tying her sticks into a bundle on the hall step. No one is asking you anything.
+
+(oog) The odds, the roll, and what is left.
+
+I took both of your arguments. Naming her fee removes the minus for work with nothing in return, whole. Asking the Stallreeve's leave first, with her, and the lapse term, remove the minus for going round him. Two smaller things stood against, both from the record: the owner's half still sits in a stallholder's hand to be shown, which is near what he took down; and the attempt now needed two officers to agree, with a season's standing work added to her office. Five each. That came to 75 in 100, the figure you gave, and I rolled that list and no other. It succeeded. The attempt was yours. What he added (no stick on a stall or a scale) and what she added (a notch for each market a scale is not brought) are theirs, and they did not ask your leave for either. The stick carries no mark of yours and no seal was set.
+
+What the eleven have answered to your terms, and to your question about where the old weights are kept, is not mine to tell today. The two terms you asked me to carry up go up with the rest: nothing leaves the hall, and both readings are cut where they differ.
+
+Your answers to the five asks are written down in your words as what the Weigher says when each comes to it again. Two things on them.
+
+The pits. You have said you will come and weigh what the diggers bring up. When? Before the weighing or after it, and for how long away from the gate? The gate stands empty while you are gone, since no one reads for you.
+
+What part of a lump is clay and what part is not. Your card gives The True Measure the weight, the count and the purity of what is in the pans. Last year you gave the potters weights and nothing else, so what purity means for a lump of clay has never been read at this table, and it is a question about your power, which is the Keeper's to rule. I am putting it to the Keeper tonight and arguing your side: the card says purity in so many words and names no kind of thing it stops at. Until it is ruled I will tell you the weight of clay and nothing further, and the Weigher's own words cover that: if it does not read, it says it does not read.
+
+Now the last of the asks, the Assay-master's, from the shut room at dusk on the landing day. He is not at the gatepost, and nothing puts him in front of you before the weighing unless you go to him. They are yours to answer to him when you next stand across a bench from him, or to let lie.
+
+"Why should the eleven take a stranger's scale for the town's standards?" When you said nothing he said, "A man who is selling has an answer to that."
+
+"Are you something more than a man with good brass?"
+
+"Who sent you? Does a king of the river towns want his share of our market again?"
+
+"Why did you ask how the old Weightward died?" He said only, "He was my friend."
+
+"What does the Weigher want of the hall after the weighing?"
+
+And one of your own making. You told the yard you would answer on the Weightward's seat after the weighing and not before. If you mean that answer to be given this year, tell me what it is and on what it turns. If you would sooner give it yourself at the table, say that, and it waits for you.

@@ -39,9 +39,9 @@ Campaign sim-06. Every question someone in the world has asked the god that the 
 
 - Answered in play (post 2): 13 (the mark: two pans, level), 17 (no price claimed from a bonded man; remitted on a condition), 18 (not before the weighing; it will say after), 19 (it will weigh the new nest the same day if the eleven want it; it does not set the hall's standards). The DM's question on the nights: answered.
 - Answered in play (post 3), words in the rolling save: 6, 7, 8 (kept as a standing word for the hill carriers), 9, 12 (the saying allowed, on a day and by its reading, never "true"; the reading-sticks proposed, waiting on a roll).
-- Put to the player, second batch (post 3), waiting on the answer: 10, 11, 14, 15, 16.
-- Not yet put: the Assay-master's 1 to 5.
-- Asked by the DM in (oog), waiting: whether the first two of the four weighing-day terms go up to the eleven; the go or an argument on the reading-sticks roll, and whose stick is first.
+- Answered in play (post 4), as standing words in the rolling save: 10 (it will come to the pits and weigh; when is asked), 11, 14, 15, 16. The reading-sticks: rolled, granted by the Stallreeve and the Tally-keeper.
+- Put to the player, last batch (post 4), waiting on the answer: the Assay-master's 1 to 5.
+- Asked by the DM in (oog), waiting: when the Weigher goes to the pits and for how long; what it answers on the Weightward's seat after the weighing, or whether that waits for a played day.
 
 ## Answered in Year 1
 

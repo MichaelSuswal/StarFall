@@ -123,3 +123,21 @@ For the Keeper tonight (not decisions): where the old weights are kept, who hold
 - The reading-sticks (a split stick per scale, date and reading cut, one half the owner's, one the Tally-keeper's, each new reading added, both halves open to anyone): proposed by the player and asked of the Tally-keeper, "if she'll have it". NOT RESOLVED. She is at the hall. Odds stated to the player, 65, with factors; waiting on the player's go or argument, and on which stallholder the first stick is for.
 - Asks put to the player, second batch, waiting: Orrin and the pits; the ball of clay; the net-mender's debt; the reed island; standing witness.
 - One sealed answer taken to the sealed record.
+
+## 3. The reading-sticks (Year 1, the eleventh month, the next market)
+
+- The two weighing-day terms go up to the eleven as terms, by the player's word: nothing leaves the hall; where the two readings differ, both are cut. The other two (no guessed weight; no fee or gift) are the Weigher's own conduct.
+- The player argued two factors on the reading-sticks and added terms: the Stallreeve's leave asked first, with her; her fee a pinch in measure from the owner, nothing to the Weigher; each stick says it holds for its day and no longer, and lapses if not read again within a season. Both arguments accepted; two small factors kept. Odds 75.
+- Roll r-0010 (the Weigher's attempt, odds 75): success. The Stallreeve gave leave, on his own condition: no stick on a stall or a scale, in the hand or in her house, and if one hangs they all come down. The Tally-keeper took it on, with her own addition: the end cut at a season, and a notch for each market a scale is not brought. Fee to her: a pinch.
+- The first stick: for the stallholder whose scale was read twice at the last market. She said to cut both. Cut on the word of the Weigher and of the two of the watch who stood at the gatepost: the day, the first reading (selling pan heavy by about one part in forty), the second (level). Split; one half hers, one the Tally-keeper's. Four more cut that day.
+- No mark of the Weigher's is on the sticks. No seal set, no licence given.
+- Standing answers, in the player's words, for when each comes to it again:
+  - Orrin's pits: "I'll come to the pits and weigh what the diggers bring up, in front of the diggers and the kiln-masters. I'll say what the pan says: weight, count, and what part of the lump is clay and what part is not, as the scale gives it. I can't tell which clay is good for a kiln, and I'm not going to pretend to." When it goes: asked of the player, not yet answered.
+  - "Is this clay clean?": "I can tell you what's in the pan and how much of it is clay, if the scale gives it. Whether that's clean for your fire, I can't say. Bring me three lumps from loads that fired well and three from loads that cracked. I'll tell you what I read of each, and you tell me if the two sets look different. If they don't, I've told you nothing, and I'll say so." If it does not read, it says so.
+  - The net-mender's debt: it does not strike debts and will not say it can. It will weigh the goods a debt is owed in, if brought. "The sum on a stick is for the hall to reckon, with witnesses and tallies. I'll stand at the bench while it's reckoned and weigh the goods if the Assay-master asks me to."
+  - The reed island: "I can't say who owns it, because owning is not a weight." It will weigh what each household says was cut, drawn or carried off it, if brought. The rest is the council's.
+  - Standing witness: yes, if both parties ask, before the watch if they like. "I say what I saw and heard and nothing more. I won't tell either side whether I think the other means it, and I won't be held to a verdict on whether it was kept."
+- Put to the Keeper: what purity means for a lump of clay under The True Measure (`rulings-pending.md`, 2).
+- Put to the player, last batch: the Assay-master's five; and what it answers on the Weightward's seat after the weighing, or whether that waits for a played day.
+- Board as left: the foot of the gatepost at the end of that market day; no one asking anything.
+- One sealed answer taken to the sealed record.

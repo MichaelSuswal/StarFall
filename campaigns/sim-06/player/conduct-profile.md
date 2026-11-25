@@ -39,6 +39,8 @@ Its nights (said Year 2 play day): at the landing, by the channel folk's lamp, w
 
 The weighing and the seat (said Year 2 play day): it has said yes to weighing the hall's old weights before the eleven, on terms it spoke to the whole yard so that none are set in private. It does not set the town's standard; it says what each piece is now and the eleven decide. It will not say whether it will be Weightward until after the weighing. It will not claim a price from a bonded man.
 
+What it does with what the town brings it (said Year 2 play day): it weighs what is put in the pans and says so; it does not say which clay is good for a kiln, does not strike a debt, does not say who owns a thing, and leaves those to the potters, the hall and the council. It will stand witness to a bargain if both parties ask, and says what it saw and heard and nothing more (check with the player before acting). It will go to the diggers' pits and weigh there, in front of diggers and kiln-masters. It asks an officer's leave before it starts a practice in that officer's ground: "I'd rather lose a day than have a stick cut behind his back."
+
 Helpers: none at landing. Designed, not yet serving (`hierarchy.md`). Until an office is won in play, unplayed time runs on this profile alone and no one acts for it.
 
 Unsaid wants are kept sealed.
@@ -117,4 +119,10 @@ Unsaid wants are kept sealed.
 - Asked whose child it is: "I couldn't tell you whose child I am. I've a name I answer to and one I've lost."
 - The fee is a pinch, the same measure of salt, fish, grain or a fired weight, weighed in its own pans with the payer watching.
 - On a scale read at the gate: "He may say it was read on a day, and what the reading was, which pan and how far. He may not say it is true." And: "The stick can't say more than was true on the day."
+- It carried two of its weighing-day terms up to the eleven: "They only work if the eleven agree to them in advance, and I'd rather they were the hall's rules than my habits."
+- On the reading-sticks it asked the Stallreeve's leave first: "I'd rather lose a day than have a stick cut behind his back." It took nothing from the fee: "It is her work and her stick." Of the first stick: "I'd rather the first stick show a scale found wrong and mended, because that is the honest case."
+- On clay: "I can't tell which clay is good for a kiln, and I'm not going to pretend to. That's the potter's craft, and I'd be selling it badly." And: "If they don't, I've told you nothing, and I'll say so."
+- On debt: "I don't strike debts, and I won't say I can." Of the council's taking a twentieth off: "I'd say that was well done."
+- On the reed island: "owning is not a weight."
+- On standing witness: "I say what I saw and heard and nothing more." (check with the player before acting)
 - Answers given privately today are kept sealed.
