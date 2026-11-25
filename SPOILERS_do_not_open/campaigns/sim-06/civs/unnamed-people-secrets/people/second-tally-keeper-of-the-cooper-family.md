@@ -19,3 +19,7 @@ She asked the stranger whether the sum closed. He told her it did not.
 
 ## Standing and risk
 Nobody in her family knows she spoke. If it were known she would lose her place and perhaps more. She does not come to the bench again that winter. In the spring she nods to him in the market street and does not stop.
+
+## Year 2 (added by the civ agent)
+- Winter, month 5: nodded to the stranger at the granary yard bench and went by. Did not sit.
+- Month 8: heard, from the gallery, a boat headman say at the council table that his family owes more than the open books show to houses at that table. She did not look at her family's head, nor he at her. She has told no one. Nobody in her family knows she spoke to the stranger last winter.

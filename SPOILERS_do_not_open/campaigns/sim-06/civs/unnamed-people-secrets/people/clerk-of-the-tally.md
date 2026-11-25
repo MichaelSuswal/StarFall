@@ -20,3 +20,11 @@ Born in the town to a clerk's family; his father and his father's father held th
 
 ## Standing
 Respected, not loved. Sits at the council's long table by custom without a vote. Will be asked for in any matter of the rolls.
+
+## Year 2 (added by the civ agent)
+- Month 1: stood at the yard wall at the Granary Warden's wish while the stranger put his bargain, and sent his boy to mark the cried count on his own stick as a matter of office. Gave the closing count to the Crier as the Warden's.
+- Month 2: said nothing when the stranger answered for himself at the council table, since this time he was not asked to answer for him.
+- Month 7: set the stranger's figure for last spring's groundings beside the last dredging's cost (about thirteen hundred worker-days and the hire of two boats, the bar back in four to seven years by his sticks) and laid the three soundings in a row on his table. Took a league weight from a mason, as custom, for a pinch of scrap silver.
+- Month 8: wrote in his private book what a boat headman said at the table of debts to houses that sit there.
+- Month 12: asked over a cup by the stranger whether he might sit with the league tallies for an evening and count the notches, not the meaning, and not the names. Long quiet. Said he will think on it and will not answer until the harvest is in. Wrote it in his private book.
+- Still does not take the stranger's word as a god's.
