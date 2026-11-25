@@ -1219,3 +1219,16 @@ Stamped 11:21. Ready for the checker's recheck.
 ### Rulings for review, Year 3 night (the check)
 - Step 5: what a sealed note seals. Ruled with the checker: the asking of a sealed question, and the fact that a sealed thing was told, are sealed with it; the public file says only that the ring heard and what it then did in the open.
 - Step 5: an event a people's agent adds to a stretch that stands as told. Ruled: taken out unless play gives it a cause (L-0046).
+
+### 5. The check, rounds 2 and 3
+The checker's round 2 held flags 1 to 9 as fixed. Its round 3 (at b06572c) read the DM's step 7 and passed it: Year 3 stands at 11 raised, 11 resolved, none open. It confirmed the DM's four judgment calls, with one condition for any coming played day: the two asks that fall after the held moment are put to the player after that moment is played and before the save.
+
+### 7. The morning story
+The DM's files are in (39b043b): `P/years/004/morning-story.md`, `P/years/003/closing.md`, the painting request, the chronicle, and the DM's own rewording of the four scan hits listed in `corrections.md`. The painting is back (b06572c), the last of the three play mornings `P/state/images.md` approves.
+
+### 8. Close
+`tools/lockcheck.py sim-06 --leaks --dashes`, run after the releases, the morning story, the closing and the chronicle were in: 0 and 0. `tools/check.py sim-06 3` before the clock was set: two findings, the clock (set now) and the public roll log (the checker's standing ruling, for the owner).
+The clock: `year: 4`, `status: closed`, `season_opens: early autumn`. This is the test's last year, and by Michael's entry in `S/rulings.md` the clock is closed after the third played year; year 4 is recorded and not opened. The sealed timing line is written. It reads "clock closed", not the words night-turn.md keeps for an opened year, since no year is opened; if the check script reads the timing file for those words it will report the year as not advanced, which is true of a closed test.
+Left standing in the record, for whoever opens Year 4 if it is ever opened: one held moment for the player (the ring's asking for the words, month 1 of Year 3), with the coasters' word provisional on it; four pending asks; the seventh weight in the river and the town no longer looking; row S01-b met and the old six named, so row S01-a meets a seated keeper and a named weight in Year 6; the Aldermark and the south coast each holding word of a god at the delta market; a pair of gods each holding a rumor of another; row S08-b standing for Year 4 and the raised toll with it; row S03-a met early; one hidden power discovered among the seven; a sealed act the player gave privately, not carried out; L-0046 and the design question behind it.
+One line per god for the year: god-sea, shown to one more and still hidden from the town; god-dreams, the one awaited, with a harbor's order and a rumor; god-rivers, Knee Deep, who has seen the reed country; god-healing, who found where the foulness stops; god-beasts, whose word was once acted on; god-secrets, the Counter who can read a dead man's stick; god-thresholds, served through a hungry winter. The player's god: seated for a term by a town it told what it is.
+Year 3 night turn closed 2026-11-25 11:34 Pacific. The three-year play test of run 06 ends here.

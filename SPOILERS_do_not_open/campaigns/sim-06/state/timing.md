@@ -73,3 +73,6 @@ Closed 2026-11-24 15:50.
 - 2026-11-25 11:03 step 4 done: pass two, the year record, the ledger, growth, standing, messages and state written; step 6 releases written ahead of the check; step 5 begun, scripts run, scan hits reworded, the year handed to the checker. DM: fable, checker: opus, run by the orchestrator.
 - 2026-11-25 11:19 step 5: the checker's round 1 read, eleven flags.
 - 2026-11-25 11:21 step 5: flags 1 to 9 fixed; ready for recheck.
+- 2026-11-25 11:33 step 7 done by the DM and passed by the checker's round 3: the Year 4 morning story, the Year 3 closing, the painting request and the chronicle are in; the Year 4 morning painting is back.
+- 2026-11-25 clock closed: year 4 recorded, status closed (the three-year play test ends; the year is not opened)
+- 2026-11-25 11:34 the Year 3 night turn closed. Models: keeper fable, npc-god sonnet, civ sonnet, checker opus, dm fable. Token usage not known to the Keeper. The turn sat overnight between the release to the seven and their return, and the Keeper's work ran in sittings on either side of it.
