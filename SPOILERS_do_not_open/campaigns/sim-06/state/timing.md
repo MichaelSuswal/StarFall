@@ -63,3 +63,7 @@ Closed 2026-11-24 15:50.
 - 2026-11-24 23:14 step 7 done by the DM: morning story, closing, painting request and chronicle in; the Year 3 morning painting is back. The checker's round 3 flag 11 fixed by the Keeper.
 - 2026-11-24 clock advanced: year 3 open
 - 2026-11-24 23:14 the Year 2 night turn closed. Models: keeper fable, npc-god sonnet, civ sonnet, checker opus, dm fable. Token usage not known to the Keeper. The Keeper's work ran in sittings broken by one usage limit before anything was written.
+
+## Year 3 night turn
+- 2026-11-24 23:25 began. Keeper: fable.
+- 2026-11-24 23:39 step 0 done and the seven decisions releases written (step 1 released). God agents: sonnet, run by the orchestrator.
