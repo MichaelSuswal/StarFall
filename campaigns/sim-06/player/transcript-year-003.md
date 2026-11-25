@@ -353,3 +353,23 @@ The winter and spring above were resolved before the hall and the landing were p
 The seat is the answer you kept for the table. One more ask goes with it: a few days after this market the yard cried "Weightward" at you, a boy first, as on the day of the weighing. What you say here I will take as your answer to the yard as well, unless you tell me otherwise.
 
 One moment more is waiting behind this one.
+
+## Player:
+
+I put the scale in my hand down on the clay, read, and say what it reads. Then I pick up the half-stick and answer.
+
+"Yes, with two things said first, so nobody has to ask later. If anyone in the ring has not heard it from me, I say it now. I am a god. The Assay-master asked, and I told him, and the Stallreeve has known since the evening of the weighing.
+
+"I take the seat for three years and a day, as the eleven set it, with the Assay-master's hand on the beam beside mine, and with the ring's right to put it down at any sitting three of them call. I don't ask for that to be softened. A keeper the ring cannot put down is not a keeper, it is a lord.
+
+"I keep the standards. I do not set the town's weight. I call what each piece is now, and the eleven say which is the town's. The seventh is still missing, and the answer I said I would give after the seventh was looked for is this one: I will not wait for it to be found, because a hall without a keeper while it is looked for is a hall that keeps nothing. The rack stays as it is, with the seventh seat unwiped. If it turns up, it turns up in front of the ring.
+
+"The chest is opened only before two of the eleven, as the ring said, and never by me alone. I take the old keeper's key off its peg in front of them, and when my term ends it goes back on the peg. I take no fee for the seat. The hall's pinch at the bench is the hall's, and I keep none of it.
+
+"The gate stays as it is, market mornings at the foot of the post, and the Stallreeve's rules on sticks and tokens stand. The Assay-master tests, as he has always done, and I check what he has passed against my scales when he asks, not when I like.
+
+"Last, the yard has been calling that word since the day of the weighing. Let it hear it from me once, so nobody takes it from a boy. I am the Weightward, for a term. I am not their god, and nothing here is mine."
+
+For the rest of the year I keep the gate on market mornings, read the boats at the ship owner's landing on the other dawns, and ask the Tally-keeper, with him present, what sticks for boats would do to her count. If she says no, I leave it. I weigh the old weights again, the six, in front of the ring at the first sitting after the next grain, as the ring set. I give the clay diggers and the kiln-masters one more day at the pits when the tiles fail, because I told them I would, and I will tell them again that I cannot say which clay is good. And I ask the Assay-master quietly what the three of them saw in the loft, once. If he will not say, I leave it.
+
+(One more answer was given privately, for the sealed record.)
