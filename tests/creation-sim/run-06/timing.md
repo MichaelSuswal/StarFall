@@ -14,3 +14,4 @@ Models: DM fable, Keeper fable, NPC gods sonnet, civ agents sonnet, stand-in pla
 | Lock | 15:35 | 15:43 | checker about 8 min |
 | First morning, read, fix, close | 15:43 | 15:50 | DM 2.5 + 0.4 min, checker 1.7 + 0.5 min, Keeper 0.5 + 0.7 min |
 | Year 1 play day | 15:51 | 16:04 | DM 0.9 + 3.8 + 6.1 + 1.3 + 3.4 + 6.8 min, stand-in about 0.2 min per post (5 posts) |
+| Year 1 night turn | 16:05 | 16:57 | Keeper about 30 min over six stops, gods about 1 min each, civs 2 to 8.5 min each, checker 10.5 + 3.5 + 1.8 min, DM 3.6 + 0.5 min |
