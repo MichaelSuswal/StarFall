@@ -257,3 +257,21 @@ Your words for the sitting are written down and go to the night as you gave them
 The autumn above was resolved before any of this was said, with no one in the town told. It is told to you as it stood. The Keeper works tonight's hall into it, and the ship owner at the landing is to be played as he stands here.
 
 The map is unchanged: the pits are in ground you already know.
+
+## Player:
+
+"Welcome to the landing, Councilman. Sit by the lamp if you like. I'll tell you what I can do and what I won't, and then we can bargain.
+
+"What I can do: read what's put in my pans, and what's weighed beside them while I'm standing near. A boat's load is not a thing I can put in a pan. So at dawn the captain sets out what he's carrying, sack by sack or basket by basket, on your landing's beam or on mine, and I call what each one is, weight, count, and how much of it is the stuff it's sold as and how much isn't. I can't read a hold I can't see, and I can't say what's under the top layer. That's the captain's to show. If he won't show, I say I wasn't shown. Does your landing accept that?
+
+"What I won't do: be yours alone. If I read at your landing and no other, then what I say becomes a thing you own, and the first time a rival's boat is read at yours and found wanting, they'll say the Weigher was bought. I'll read at the landing of any ship owner who asks, same terms, same fee, on a day I'm not at the gate. Yours gets the first dawn, since you asked first, and a standing place. No exclusivity.
+
+"On the fee: a measure of salt per boat is fair, but it comes from the captain, not from you, so nobody can say the landing's owner paid for a good reading. I take it weighed, in my own pans, with the Tally-keeper watching. I add one more thing. The reading is cut on a stick, which pan and how much, the same as at the gate, and one half goes to the captain and one to the buyer, if he wants one. The reading holds for that day only, and it says so in its notches.
+
+"I want the Stallreeve present when we set it, as you offered, and I want the gate kept as it is, market mornings at the foot of the gatepost. Boats on the other days. If the two clash, the gate wins.
+
+"One thing more, since you're a hard man to bargain with and I respect it. You'll want a nod from me that your boats are better than the rest. I won't give it. I'll tell you what the pan says, about yours and about theirs. If yours are clean, that's the best thing I can do for you. If they aren't, you'd better hear it from me before the buyer does.
+
+"If you want it on those terms, I'll walk up to the Stallreeve with you now."
+
+(One more answer was given privately, for the sealed record.)
