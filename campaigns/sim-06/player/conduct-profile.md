@@ -110,4 +110,11 @@ Unsaid wants are kept sealed.
 - It asked the Stallreeve where the old weights are kept and who holds the key, "so I'm not seen asking after."
 - On the thief: "I won't claim a price from a bonded man." It asked for the price to be cut as remitted on a condition, "as a way of putting the matter to bed without a quarrel."
 - Its nights: at the landing by the channel folk's lamp, awake. "I count the day's readings over in my head, and I watch the blue light, which I'd like to learn the habits of."
-- One answer was given privately today and is kept sealed.
+- To a stallholder whose scale read heavy in her own favor: "That favors you, and nobody in this line is going to thank you for it." It read the scale again and said what it found.
+- On the price, once more: "I'm not asking for it either way."
+- For the weighing day: nothing leaves the hall, "I don't carry a weight out"; every figure cut, and both readings where they differ; "If a piece does not read true, or is more than ordinary craft, I say so in those words and do not guess a weight"; no fee and no gift for the day.
+- How long it stays: "Till I've seen the town's weights set right. Past that I don't know. I don't walk off a quarrel half-weighed."
+- Asked whose child it is: "I couldn't tell you whose child I am. I've a name I answer to and one I've lost."
+- The fee is a pinch, the same measure of salt, fish, grain or a fired weight, weighed in its own pans with the payer watching.
+- On a scale read at the gate: "He may say it was read on a day, and what the reading was, which pan and how far. He may not say it is true." And: "The stick can't say more than was true on the day."
+- Answers given privately today are kept sealed.

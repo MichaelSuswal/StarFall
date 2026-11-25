@@ -107,3 +107,19 @@ Campaign sim-06. Kept by the DM during the Year 2 play day, 2026-11-24 (Pacific)
 - One sealed answer taken to the sealed record.
 
 For the Keeper tonight (not decisions): where the old weights are kept, who holds a key, and what the council answers to the terms; whether the Year 1 nights the blue light dimmed are released as seen, now that the player has said how the Weigher keeps its nights; the master stallholder's scale within the month.
+
+## 2. The rest of the market day at the gatepost (Year 1, the eleventh month)
+
+- To the stallholder, in the player's words: the selling pan heavy by about one part in forty, in her favor; file the pan or take up the cord and bring it back; it will read it again and say what it finds.
+- Roll r-0009 (DM, odds 65): she took up the cord in the yard and the second trial read level. The Weigher said level. A true scale from that trial, for as long as it holds (L-0031).
+- The thief's price, settled by the player: the scale is the bonded man's master's. If it is not brought within the month, or reads out, the price lies unclaimed as now. The Weigher asks for it in neither case.
+- Fixed by the player for the weighing day, in its words: (1) "The weighing is done in the hall, in front of the eleven, and nothing leaves the hall. I don't carry a weight out." (2) "The Tally-keeper cuts every figure I call, and the Assay-master's reading is cut beside mine. Where the two differ, both are cut." (3) "If a piece does not read true, or is more than ordinary craft, I say so in those words and do not guess a weight." (4) "I take no fee and no gift for the day, from the hall or from any of the eleven." Asked of the player: whether (1) and (2) are carried up to the eleven as terms or are the Weigher's own conduct on the day.
+- Standing answers given at the gate, where the line could hear, in the player's words:
+  - How long it stays: "Till I've seen the town's weights set right. Past that I don't know. I don't walk off a quarrel half-weighed."
+  - The drowned one's child: "Not that I know. I couldn't tell you whose child I am. I've a name I answer to and one I've lost. That's all I have of it."
+  - Hask (kept for the hill carriers, none in the yard today): "I've not been there that I know of, and I'd like to hear what a load of their iron weighs on your scale before it gets to mine. Where I came from I can't say. I came down the old bank."
+  - The fee: "Yes. Salt, fish, grain or a fired weight, the same measure for each, and no more than a pinch of any of them. I'll weigh the pinch in my pans and the raker can watch." A salt-raker paid in salt the same day.
+  - Saying a scale was read at the gate: "He may say it was read on a day, and what the reading was, which pan and how far. He may not say it is true."
+- The reading-sticks (a split stick per scale, date and reading cut, one half the owner's, one the Tally-keeper's, each new reading added, both halves open to anyone): proposed by the player and asked of the Tally-keeper, "if she'll have it". NOT RESOLVED. She is at the hall. Odds stated to the player, 65, with factors; waiting on the player's go or argument, and on which stallholder the first stick is for.
+- Asks put to the player, second batch, waiting: Orrin and the pits; the ball of clay; the net-mender's debt; the reed island; standing witness.
+- One sealed answer taken to the sealed record.

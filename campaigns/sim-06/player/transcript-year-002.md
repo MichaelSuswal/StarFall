@@ -139,3 +139,29 @@ For the line's asks, in the order they were put:
 **May a stallholder say his scale was read at my gate.** "He may say it was read on a day, and what the reading was, which pan and how far. He may not say it is true. A scale is true for as long as it holds, and by midwinter a clay thumbnail has done what a clay thumbnail does. If a stallholder wants proof, I'd put it on a stick. The Tally-keeper splits one with the date and the reading cut on it, he keeps one half and she keeps the other, and when the scale is read again the new reading goes on the same stick. Anyone can ask to see both halves. The stick can't say more than was true on the day." I ask the Tally-keeper, if she'll have it, to cut the first one for the stallholder in front of me.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You said it to the stallholder as you had it: the selling pan heavy, about one part in forty, in her favor, and nobody in the line likely to thank her for it; file the pan or take up the cord, bring it back, and you would read it again like any scale and say what you found.
+
+She did not leave the yard to do it. She took up the cord a finger's width where she knelt, with the line watching her hands, and held the scale out again. You set the same brass in each pan in turn. The pans agreed. You said so: level.
+
+"Cut that too," someone in the line said, and there was no one at the gatepost to cut it. The Tally-keeper had gone up to the hall behind the Stallreeve.
+
+You took the next scale, and the next. The sun came round onto the gatepost and the clay of the yard gave its heat back through the afternoon. Those who had put the old questions to you were not all in the yard, but the line carries a thing said at the gate to the far end of the market before the pans stop, and you said each answer where the line could hear it. That you stay till you have seen the town's weights set right, and past that you do not know. That you are not the drowned one's child that you know of, and could not say whose child you are. That you have not been to Hask that you know of, and would like to hear what a load of their iron weighs on a carrier's scale before it gets to yours. That salt will do, the same pinch as of fish or grain, weighed in your pans with the raker watching. And that a stallholder may say his scale was read on a day, and what the reading was, and may not say that it is true.
+
+A salt-raker paid in salt before the hour was out. You weighed the pinch in your pan and he watched the pan and not your face.
+
+(oog) Where things stand, and one thing I need before I can go on with it.
+
+A roll, the world's again: whether her scale would read level on the second trial. I set it at 65 in 100: even, plus 10 because she had been told which pan and how far, plus 10 for a people good with small numbers, minus 5 for wood and cord adjusted by hand in a full yard. Rolled in the open log before writing. It read level, and you said so. By the Keeper's ruling on your card it is a true scale from that trial, for as long as it holds.
+
+The price is recorded as you gave it: the scale is the master's; if it is not brought this month, or reads out, the price lies unclaimed as now, and you ask for it in neither case.
+
+Your four things for the weighing day are written down in your words and go to the Keeper tonight with the terms you spoke to the yard. One question on them. The first two bind others as well as you: that nothing leaves the hall, and that both readings are cut where they differ. Do you want them carried up to the eleven as terms, with the rest, or are they only what the Weigher itself will do and insist on at the bench on the day? The last two I take as your own conduct and need nothing more.
+
+The answer on Hask I have kept as a standing word for the hill carriers, who come down in the autumn. None was in the yard today that the record gives me.
+
+The reading-sticks. This is an asking of the Tally-keeper, and it is hers to grant or refuse, so it is an attempt of yours and I owe you the odds before anything is rolled. She has gone up to the hall; the asking is put when she is next at the gatepost. Success means she agrees to cut split reading-sticks for stallholders who ask, on your terms, and cuts the first in front of you. Failure means she will not take it on as you put it; what she says instead is hers. I make it 65 in 100: even; plus 20 because she has cut a stick of the gate's readings of her own accord since the first night; plus 10 because she asked you for a mark and today has one; plus 5 because your stick says only what was read on the day, which is the Stallreeve's own objection to the tokens answered; minus 10 because what hangs on scales in the market is the Stallreeve's to allow, and he took the tokens down; minus 10 because you ask her work for every stallholder who wants one and have named nothing for her in return. You may argue any factor, or add to the asking, before I roll. Tell me also which stallholder the first stick is for. If you mean the one whose scale you read twice today, the stick would carry both of today's readings, the first out and the second level, and whether she wants that cut is hers to say.
+
+The next asks that are waiting, from the third month to the sixth. The kiln-master Orrin said, "Bring your brass to the diggers' pits and say which clay is good." A potter held up a ball of clay and asked, "Is this clay clean?" A bonded net-mender, whose owner's grain scale the gate had read out by about a twentieth in the owner's favor, said, "Reckon my debt for me, and strike it." The council later took a twentieth off it. Two households said of a reed island that split, "Who owns it? You say what is true," and took it to the council when you did not. And a stallholder asked you to stand witness to a bargain; two of the watch stood instead. Answer as the Weigher would, or say which it lets lie.

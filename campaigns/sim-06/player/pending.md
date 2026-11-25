@@ -37,10 +37,11 @@ Campaign sim-06. Every question someone in the world has asked the god that the 
 
 ## Status, Year 2 play day
 
-- Put to the player, first batch (post 2), waiting on the answer: 6, 7, 8, 9, 12.
 - Answered in play (post 2): 13 (the mark: two pans, level), 17 (no price claimed from a bonded man; remitted on a condition), 18 (not before the weighing; it will say after), 19 (it will weigh the new nest the same day if the eleven want it; it does not set the hall's standards). The DM's question on the nights: answered.
-- Not yet put: the Assay-master's 1 to 5; 10, 11, 14, 15, 16.
-- Asked by the DM in (oog), waiting: whose scale the remission turns on, and what happens if it is not brought or reads out.
+- Answered in play (post 3), words in the rolling save: 6, 7, 8 (kept as a standing word for the hill carriers), 9, 12 (the saying allowed, on a day and by its reading, never "true"; the reading-sticks proposed, waiting on a roll).
+- Put to the player, second batch (post 3), waiting on the answer: 10, 11, 14, 15, 16.
+- Not yet put: the Assay-master's 1 to 5.
+- Asked by the DM in (oog), waiting: whether the first two of the four weighing-day terms go up to the eleven; the go or an argument on the reading-sticks roll, and whose stick is first.
 
 ## Answered in Year 1
 
