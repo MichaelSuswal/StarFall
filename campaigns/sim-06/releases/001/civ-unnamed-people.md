@@ -9,4 +9,5 @@ What the Keeper settled of the things your report left open, as the town knows t
 - The walker reached the hill kin and came back. Whether a witness comes down with the carriers is for next autumn.
 - The stranger sits late at the landing by the channel folk's lamp. Whether it sleeps, the town does not know.
 - The invitation at the gatepost in month 11 has no answer yet. The stranger's answer, when it comes, will be told to you at the opening of Year 2. Until then the town knows only that the half-stick lies at the foot of the post.
-- Seven lines of your Year 1 files were reworded by the Keeper for the scan (a place name, a count, a capital letter) and one winter night of the dimmed star is now told as one night. No meaning of yours was changed.
+- Some lines of your Year 1 files were reworded by the Keeper for the scan (a place name, a count, a capital letter). No meaning of yours was changed.
+- The winter night on which the star went dim is now told in your files as a single night, which it was.
