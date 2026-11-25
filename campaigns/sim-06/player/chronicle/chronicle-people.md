@@ -95,3 +95,75 @@ Long and warm. The reed was cut early. Boats from the Aldermark came down with g
 ## What the town says it needs
 
 A weight, which the eleven have not set. A name for the town, which it has not decided and will.
+
+# The people's side of the chronicle: Year 2 told again, from the evening of the weighing
+
+Where this section and the Year 2 section above differ, this section is what happened. Held back: anything the Keeper has yet to settle.
+
+## The first month
+
+On the evening of the weighing the eleven rose, the yard went to its supper, and the stranger stayed in the hall with the Assay-master and the door was shut. When it opened the Assay-master sent for the Stallreeve, who stood over him while he locked the old weights in the chest with his own key. The key on the peg was not touched and the seventh seat was left unwiped. At the hall door the stranger told the Stallreeve what it is. He said the gate was kept as it was and he would say nothing in the yard. He carried the Assay-master's asking for a sitting round to the eleven that night without naming the matter. It went to the winter sitting.
+
+On the third day the Assay-master, the Stallreeve and the clay head went up the old keeper's loft and came down quiet.
+
+## The second to the third month
+
+The boat people were gone at the lowest tides and came back. The stranger's word for the old weigher of the hill kin went home with the carriers on a stick the Tally-keeper cut. The Stallreeve went down to the landing alone one evening. The pits day, the first stale stick, the tiles and the scraped marks were as the old section has them. Bren's household brought it the first of a catch and it took no gift.
+
+## The fourth month: the landing
+
+The ship owner of the channels put a bargain to it at the landing before Bren and two boatmen. It said no to his landing and no other. It gave its terms: the captain sets out the load, it calls the weight, the count and what the stuff is, what it is not shown it says it was not shown, and it reads at the landing of any owner who asks. He took them, for a pinch of salt a boat. The Stallreeve said the gate comes first and a landing's line is its owner's to keep. The Tally-keeper agreed to cut sticks for boats on her own terms. Other owners asked for a dawn: the ship owner of the open water, two smaller owners of the channels, Bren's household. Some captains would not show, and sold a tenth low.
+
+## The fifth and sixth months
+
+Ice, fever in the back houses, fewer than the year before. The tide-reckoner called the water four days ahead, right in height, a few hours off the hour. The star went dim on a night in the dead of winter.
+
+Early in the sixth month a boat of the channel ship owner's own came in with salt that was one part in six sand and grit under a clean top. The stranger called it basket by basket before the captain and the landing. The ship owner said "Read the rest." The household that raked it had a thin season. The Stallreeve ruled short measure, not theft, and the household made good the sixth in clean salt in two instalments. Captains at the landing now turn out every fifth basket.
+
+In the middle of the month the ring sat. It let the yard in, nine to two. The stranger stood at the foot of the ring and said it is a god, what it had told the Assay-master, that it weighs and the ring decides, that it did not ask to be Weightward and did not refuse it yet, that it would answer for the seat when the loft had been looked in and the seventh looked for, and that it did not take the seventh or touch the chest. The Assay-master said it was said to him in the hall on the evening of the weighing and that he asked. The head of salt asked whether it can tell when a man is lying; it said it reads a bargain and never a mind and will not use it on anyone in the town without their asking. The hall went silent, then breathed, and the yard went to its supper. The line at the gate next morning was twice as long and nobody bought fish until noon.
+
+In the last week two households of boatwrights asked it to stand witness to a boat sale, and said they asked nothing of the other thing.
+
+## The seventh to the ninth month
+
+The reed island, the flood and the second nest were as the old section has them. The second nest agreed with itself to a hair. The spring flood was ordinary, sowing took five weeks, the boat people were gone at the lowest tides of spring and the star dimmed on a night in spring.
+
+The ring sat after the sowing and offered the seat, six to four, the ship owner of the open water away on the Gulf. The Stallreeve carried it to the gatepost. The stranger read a stallholder's scale first, heavy on the buying side by about one part in thirty, and said so. Then it said it is a god, said yes, and gave its terms: three years and a day, the Assay-master's hand on the beam, the ring's right to put it down at any sitting three of them call, the seat unwiped and not waited on, the chest never opened by it alone, no fee for the seat, the gate as it was. To the yard last: "I am the Weightward, for a term. I am not their god, and nothing here is mine." The yard cried "Weightward" until the Stallreeve put up his hand.
+
+## The tenth to the twelfth month
+
+In the first days of the tenth month the ring sat and the stranger took the old keeper's key off its peg in front of them. A coaster of the southern harbor towns came to the landing. Her master stood in the line and asked it nothing at first. It asked her what the southern harbors read their scales against, whether Corrith has a measure the other towns will take, and what a southern captain would want to know of the town's weights. She said each house against its own, that Corrith keeps a set for quarrels and nobody swears it is what it was, and that she wanted to know which is the town's weight, the old stones or the clay. It gave her no answer. She asked who it works for and whether it said it was a god. It said yes. She said a god ashore is a landlord and it takes barley. Her coaster went down the channel after three days.
+
+At the gatepost at dusk the stranger asked the Stallreeve, with the Assay-master by, whether the town wants a keeper's word sent down the coast. The Stallreeve said not this summer and to ask after the grain sitting. In the hall's doorway the stranger asked the Assay-master what the three saw in the loft, and he told it: the old man's coat and boots hanging on a peg, stiff with dried river silt to above the knee, nobody had moved them, nothing else was out of its place, they touched nothing and came down, and the ring had had it since the winter.
+
+The channels ran low. The diggers asked for a second day at the pits. The pan said as before and the quarrel keeps. Boats from the Aldermark came down in the summer and went away with the story. The grain came in. The council did not sit on the weight in the twelfth month.
+
+# The people's side of the chronicle: Year 3
+
+## Autumn
+
+The grain was in. At the first sitting after the grain the stranger weighed the six again before the ring with the Assay-master's hand on the beam, and called 48, 96, 192, 384, 766 and 1,536. The Assay-master read the fifth light on the first trial and said he had learned that one. The ring then voted the old six the town's weight, six to two, from the first market of the autumn that comes round next year, with the clause that bargains made before the change stand as made. The master of the potters is to fire a nest to the old six in the spring. The seventh seat stays as it is.
+
+The star dimmed on some nights early in the month. The boat people were gone at the lowest tides and came back.
+
+The hill carriers came down the old road in the middle of the month with ore and charcoal. The old weigher of the hill kin came with them, a year older, in a cart, and on the third market morning had his six stones weighed at the gate in front of the head of the hill goods, the Assay-master, the master of the smiths and the Stallreeve. The stranger called 48, 96, 193, 384, 768 and 1,536. The three large stones needed a beam and the Assay-master brought his own. The old weigher said the hill kin's stones and the hall's agreed as far as anyone knew. Asked what his people say the seventh was, he said it is a story, that the six weigh what is and the seventh weighs what is owed, and he would not stand behind it.
+
+The autumn catch was ordinary. The dawns at the landings ran on the terms given.
+
+## Winter
+
+The wet, with its hard spells. The Assay-master asked the stranger to check six scales he had passed; two read level and four a hair out. Two households of boatwrights asked it to stand witness to the lease of a boatyard and said again they asked nothing of the other thing.
+
+Fever in the back houses, fewer than the year before, with four stalls and four braziers under the hall's roof. The tide-reckoner called the winter water four days ahead and was right in height and a few hours off the hour. The star went dim on nights in the dead of winter.
+
+## Spring
+
+The Alder rose to an ordinary flood. The master of the potters fired a nest to the old six and brought the pieces to the line like anyone. Sowing took five weeks. The boat people were gone at the lowest tides of spring and came back. The star dimmed on nights in spring.
+
+## Summer
+
+Long and warm. The reed was cut early. The ship owner of the open water's coasters went out past the Horn. No coaster of the southern towns came. Boats from the Aldermark came down with grain, wool and some bronze, two traders had their scales read, and they asked in the yard what the keeper of the town's weights was. The grain came in.
+
+## What the town says it needs
+
+A name for the town, which it has not decided and will. The new nest to hold, so that the old six are the town's weight on the first market of the new autumn.

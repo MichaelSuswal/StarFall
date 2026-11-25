@@ -1,0 +1,9 @@
+# The ship owner of the open water
+
+Unnamed: the name has not been said aloud in the stranger's hearing. One of the eleven. Fixed by the civ agent at the close of Year 3.
+
+A man of about 55, weathered, spare of speech, who keeps two coasters that go out past the Horn each summer and is on the Gulf more than in the ring. Absent for the vote on the offer in Year 1 and on the seat in the ninth month of Year 2 (out on the Gulf). Present at the weighing, where he said he had been on the water the day they voted to ask and would be on the water the day they decided, and that he would weigh his cargo against any of the pieces.
+
+History: asked, through his landing man, in the fifth month of Year 2 for a dawn when his coasters were in, and had it on the terms the channel ship owner took. At the winter sitting asked for it again plainly. At the first sitting after the grain in Year 3 did not vote on the old six. The ring has named him to carry a keeper's word down the coast when his coasters go out, if the Weightward gives the words (held).
+
+Temper: patient, dry, a man of the water. Says a thing that does not sleep is a good pilot.

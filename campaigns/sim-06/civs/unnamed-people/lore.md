@@ -128,3 +128,68 @@ The clay is the other thing. The diggers and the kiln masters met at the pits an
 ### What the town does not say
 
 They do not say what the Assay-master and the stranger said in the hall after the eleven rose. The Assay-master has not said, and nobody asked. They do not say what the three saw in the old keeper's loft, because the three have not told them. They do not say why the old Weightward's seat was clean.
+
+## Year 2 told again, and Year 3: what they say at the close of Year 3
+
+Where this section differs from the sections above, this is what they now say. The Year 2 section above was written before the evening of the weighing was known to the town, before the winter sitting, and before the gatepost. It is what they said then.
+
+### The stranger
+
+They call it the Weigher still, and now the Weightward, since it said yes at the gatepost, and the yard has stopped cheering the word and started using it. The channel folk say Bren's weigher less than they did. The salt-rakers still say the Cupman. The hill folk say the coat, and since the autumn of Year 3 a few say the seventh that walked.
+
+What they say it is, now that it has said it:
+- The channel folk say it is a god that came into the town the way a man comes into a house, asking only for a table, and that it ate Bren's bream because it liked it. They have put it to the children. They are right that it asked for nothing and wrong that it needs feeding: it took no gift and said so.
+- The salt-rakers say it came to count what the town owes, since it said nothing here is its own and a god that owns nothing can count everything. They stand a little further from the gatepost than they did and say it quietly. They are wrong in this: it takes a pinch and nothing else, and has said it will not read a bargain without being asked.
+- The old of the flats say it is the drowned god's child come up the bank to see what the tide has done, and that the tide keeps coming because the town has not paid. They take bread to the Maun Stair at the low tide and leave it. It said it does not know whose child it is. They say that is what a child would say.
+- The hill kin say the coat is the seventh that walked: the old weigher said at the gate that the saying in Ruddfold is that the six weigh what is and the seventh weighs what is owed, and that the hall dared not weigh with it. He said it was a boy's saying and he would not stand behind it. The carriers have gone home with it anyway. They are wrong that anyone knows what the seventh was.
+- The potters say it is a gentle one. The master of the potters said it, and the potters do not argue with her.
+- The back houses say it could cure and will not. They say a god of scales does not bring a sick child to a pan, and that it said nothing when it was asked. They do not know whether it could, and nobody has asked it again.
+- The boatmen say it sees through the top of a basket because it is a god. They also say "I wasn't shown," which is what it says of a hold it cannot see, and they say both without minding. They are wrong in that it reads what is set before it and said so.
+- The yard says it can tell when a man is lying. It said it reads a bargain and never a mind, that it will not read one without being asked, and that it knows nothing of a word said outside a bargain. The yard has kept the first half. Some stallholders moved their haggling a few paces from the post, and some moved it closer and say it was struck in front of the Weightward, which is an honor and a joke.
+- The line says a god ashore is a landlord and that this one takes barley.
+- The Stallreeve says it is the same stranger it was, with a bigger word on it.
+
+They say it is never seen to sleep, as before. They say the lamp at the landing burns, and now they say that the Weightward counts the day's readings over by it.
+
+### Their own council and officers
+
+- The Assay-master is said to have been the first to ask it a plain question and the first to be told the answer, and to have stood at the foot of the ring and said he would not say he believed it and would not say he did not. He is said to have said "I will not be alone with a second," and it has become what the yard says of a secret no one will keep alone. They say he comes to the gate in the mornings to watch it and that he was a little harder on it at the beam for a year. They say he lost his friend and has not said how he feels. They are right in most of it.
+- The Stallreeve is said to have known for half a year before the town did, and to have said nothing, which some call honest and some, led by the head of salt, call half a year of lies by silence. He says he told nothing false. They say he walked the stalls earlier that autumn than before. They say that a man who keeps a thing that long should have to say why, and he has not.
+- The Tally-keeper is said to be the one it trusts more than the ring. She cut the keys, the boat sticks, the table of the twentieth and the day it took the seat, and the yard says her stick is the town's second hall. She is blamed for "the stick matches" still and has stopped denying it.
+- The eleven are said to have decided two things in two years and to be proud of neither. They say the ring let the yard in on the day it was said, nine to two, and that this was the best thing it did. They say the vote on the seat was six and four and that the four were not wrong. The master of the weavers is said to have called a seat for a thing that does not sleep a throne, and the town has not forgotten it.
+- The head of salt is said to be the one who asked what the room wanted asked, and to be thanked for it and avoided. He said no bargain in the town is safe from it and was told it had said as much as it would. He is said not to have forgiven the joke of "read at the gate" and to have forgiven a year's worth of "a stick cut once."
+- The master of the smiths is said to have asked whether it could be broken, and to have been answered, and to be saying nothing of how. He says the ring's right to put it down is an edge he will hold to.
+- The ship owner of the channels is said to have bought a morning and a pinch. They say it read his own boat against him in front of the water and that he stood and said "read the rest." The water says he paid it to read his own boat first for a show. They are wrong about that, and have not stopped saying it. He says it is the best bargain he ever lost.
+- The clay head is said to be the one who put bread out for a god and had it put away. The head of reed and fish is said to have called its answer a good broker's. The master of the potters is said to have called it a gentle one. The master of the boatwrights is said to have been for it because his men quarrel less.
+- The tide-reckoner is said to have called two winters' water four days ahead and been right in height and a few hours off the hour both times. She says she does not need her feet for an ordinary flood. They say she has said nothing of the star.
+- The old weigher of the hill kin is said to have come down a second time in a cart, a year older, to see his stones weighed, and to have said he had come to see agreeing done in front of him. They say he looked at the stranger a long time and said nothing. They are right.
+
+### Their neighbors
+
+- Ruddfold is said to have the saying of the seventh and the figures on a stick, and to be pleased. The town's own hill kin say the hall still owes them a twentieth. The ring said debts stand as made, and the head of the hill goods said nothing and counted.
+- The Aldermark's traders went home twice with the story, that the hall's pieces were found heavy and that the keeper said so, and now that it says it is a god. The town says a king's reeve will come, at last, to ask why a market needs a keeper of its weights, and that this time he will have to be answered. The Stallreeve says he would say what he has always said.
+- The southern coaster's master is said to have stood in the line like anyone and asked the Weightward three things and been told it is a god, and to have called it a landlord. The line says she will tell every house on the coast that the town has two weights. The ring has decided, since, that it has one. The town says the south sent no coaster in Year 3 because it is waiting to hear. The ship owner of the channels says it is waiting on the Gulf tides.
+- The water folk went at the lowest tides of autumn and of spring, in each year, and came back. The salt-rakers say they went to the Maun Stair to pay the old god's tide, and that they went because a god had come to the gate. The oldest say they went before it came. They are right about that.
+
+### The strange things
+
+The blue star dimmed on more nights this year than the last, in the first month, in the dead of winter and in spring. The old say it is the drowned god turning in its sleep, and now some say the god at the gate is counting it. The young say it comes with the Weightward. The channel folk say it is the Weightward's lamp seen from a long way. The line says the Weightward watches the light and means to learn its habits, and is used to that. They are all wrong in this: the dimming began before it came, as the oldest say, and nobody has found a cause. A boy at the gate asked whether the star is its own. It gave him no answer. He said it was. The line told him to hush.
+
+The clay is the other thing. The diggers and the kiln masters met at the pits twice and the pan said the same twice. The diggers say it proves their clay clean. The kiln masters say the cracking is in the drying, or the wind, or the moon of the loading, and the tiles Orrin fires have not told him anything either, and he fires them for the habit. They are wrong at least in this: each of them has a cause that suits him, and none has found it.
+
+### Sayings that came up in these two years
+
+- "A god ashore is a landlord." Said now of any one who asks nothing and takes something. The coaster master's.
+- "Read the rest." The ship owner's. Said of bearing a hard thing to its end.
+- "I wasn't shown." What the Weightward says of a hold it cannot see, and what a man says of anything he has not been told.
+- "Not alone with a second." The Assay-master's. Said of a secret nobody will keep alone.
+- "Weigh and decide." From "I weigh, and they decide." Said of any honest division of labor, and as a joke of a man who gives the work to his neighbor.
+- "A pinch for a morning." The ship owner's. Said of a bargain that costs little and is not small.
+- "An edge to hold to." The master of the smiths'. Said of the ring's right to put a thing down.
+- "The old six." The town's weight, now, by the ring's word, from the first market of the new autumn.
+- "A twentieth" is said of any debt the town thinks the hall owes, and of any that the hall thinks the town owes it.
+- "A god of scales." Said by the back houses, and not kindly.
+
+### What the town does not say
+
+They do not say what the three saw in the old keeper's loft. The three have told the ring and the ring has said nothing, which in a ring that argues is itself a story. They do not say what the old Weightward did in his last spring. They do not say what the Assay-master and the stranger said in the hall with the door shut, beyond what the Assay-master said before the ring. They do not say whether the seventh was ever a weight. They do not say whose child it is, because it does not know, and has said so.

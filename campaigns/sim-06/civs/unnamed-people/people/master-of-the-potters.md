@@ -9,3 +9,5 @@ History: asked by the stranger at the end of Year 1 to bring the nest to the hal
 Temper: proud of her work and not hurt by being shown it was wrong, only slowed. Says nothing in the ring until she has something to say.
 
 This year: the nest, the second nest, the vote for the seat.
+
+Year 2 told again and Year 3: fired the second nest in the seventh month of Year 2; it came out agreeing with itself to a hair (the Keeper's). At the winter sitting said that if it was a god it was a gentle one and brought the pieces to the line like anyone. Voted for the seat. At the first sitting after the grain stood for the chest as one of a pair, and agreed to fire a third nest to the old six in the spring, twenty-two pieces to choose eleven. Whether it holds is the Keeper's; see the report.
