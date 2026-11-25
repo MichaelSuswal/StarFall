@@ -17,3 +17,4 @@ Models: DM fable, Keeper fable, NPC gods sonnet, civ agents sonnet, stand-in pla
 | Year 1 night turn | 16:05 | 16:57 | Keeper about 30 min over six stops, gods about 1 min each, civs 2 to 8.5 min each, checker 10.5 + 3.5 + 1.8 min, DM 3.6 + 0.5 min |
 | Year 2 play day | 16:58 | 17:08 | DM 1.0 + 4.2 + 6.2 + 1.9 + 3.9 min, stand-in about 0.3 min per post (4 posts) |
 | Year 2 night turn | about 17:10 | 23:14 (stopped at the usage limit after the first sitting read the files, nothing written; resumed 22:03, working time about 71 minutes) | Keeper about 14 min to STOP C, 11.6 min pass two, 2.5 + 0.6 min fixes and close; gods about 2 min; civs 6.2 to 8.7 min each, the player's civ 17.8 min; checker 13.2 + 1.9 + 2.5 min; DM 6.0 + 6.8 min |
+| Year 3 play day | 23:16 | 23:35 | DM 1.4 + 2.1 + 4.4 + 8.3 + 1.1 + 3.9 + 2.1 + 1.5 min, stand-in about 0.2 min per post (7 posts) |
