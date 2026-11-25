@@ -113,3 +113,29 @@ The nights are written down as you gave them: at the landing by the channel folk
 The potters' master's ask I take as answered by your words in the yard: you will weigh the new nest the same day and the same way if the eleven want it, and you do not set the hall's standards. The Tally-keeper's mark, the Weightward question and the Stallreeve's question of a price are answered too.
 
 Now the first of the asks that are still waiting, from the line in the first months. A stallholder asked, "How long will you stay?" A child asked, "Are you the drowned one's child?" A hill carrier asked, laughing, "Do you come from Hask?" A salt-raker asked whether salt will do for the fee. And a stallholder asked, "May I say my scale was read at your gate?" The Stallreeve has since had the tokens taken down, but the question was put to you and not to him. Answer any of them as the Weigher would at the gate, or tell me which it lets lie.
+
+## Player:
+
+To the stallholder on one knee by the cord: "The selling pan reads heavy, about one part in forty, in my cups. That favors you, and nobody in this line is going to thank you for it. File the pan or take up the cord and bring it back. I'll read it again, the same as any scale. I'll say what I find then, level or not."
+
+On the price, you read it right. The scale is the bonded man's master's, the one the gate read out by about a tenth. If it is not brought this month, or is brought and reads out, the price lies unclaimed as it does now. I'm not asking for it either way.
+
+For the weighing day, I'd fix four things before the close:
+- The weighing is done in the hall, in front of the eleven, and nothing leaves the hall. I don't carry a weight out.
+- The Tally-keeper cuts every figure I call, and the Assay-master's reading is cut beside mine. Where the two differ, both are cut.
+- If a piece does not read true, or is more than ordinary craft, I say so in those words and do not guess a weight.
+- I take no fee and no gift for the day, from the hall or from any of the eleven.
+
+For the line's asks, in the order they were put:
+
+**How long will I stay.** "Till I've seen the town's weights set right. Past that I don't know. I don't walk off a quarrel half-weighed."
+
+**Am I the drowned one's child.** "Not that I know. I couldn't tell you whose child I am. I've a name I answer to and one I've lost. That's all I have of it."
+
+**Do I come from Hask.** To the hill carrier, "I've not been there that I know of, and I'd like to hear what a load of their iron weighs on your scale before it gets to mine. Where I came from I can't say. I came down the old bank."
+
+**Will salt do for the fee.** "Yes. Salt, fish, grain or a fired weight, the same measure for each, and no more than a pinch of any of them. I'll weigh the pinch in my pans and the raker can watch."
+
+**May a stallholder say his scale was read at my gate.** "He may say it was read on a day, and what the reading was, which pan and how far. He may not say it is true. A scale is true for as long as it holds, and by midwinter a clay thumbnail has done what a clay thumbnail does. If a stallholder wants proof, I'd put it on a stick. The Tally-keeper splits one with the date and the reading cut on it, he keeps one half and she keeps the other, and when the scale is read again the new reading goes on the same stick. Anyone can ask to see both halves. The stick can't say more than was true on the day." I ask the Tally-keeper, if she'll have it, to cut the first one for the stallholder in front of me.
+
+(One more answer was given privately, for the sealed record.)
