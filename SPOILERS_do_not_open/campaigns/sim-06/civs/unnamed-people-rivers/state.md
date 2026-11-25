@@ -17,3 +17,6 @@ strength: a standing watch of about 30 and a call-up of about 300, unchanged. Th
 mood: curious, wary, loud and kind. The Wary are quiet and the Fond are fond. The worry about the ford has deepened, since the deep water lay farther from it again and the carriers crossed less. They are easy about the guest, though no one has taken her for anything more than a guest with a hard gift.
 
 factions: the Wary (the head of the oldest kin house and some of the weir hands), who think her counting serves someone else; the Fond (the midwives, the ferry keepers, the children); the rest keep their own counsel and wait.
+
+## Keeper, Year 1, pass two
+Nothing came against the sleeping woman at the water gate; no roll. Each of the three she laid hands on recovered, as her card gives: the numbers take the year file's branch for that.

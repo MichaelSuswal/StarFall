@@ -1,0 +1,2 @@
+- 2026-11-24 | year 1 | feature f55 | reported -> seen | walked in, spring
+- 2026-11-24 | year 1 | feature f56 | reported -> seen | walked on the landing morning

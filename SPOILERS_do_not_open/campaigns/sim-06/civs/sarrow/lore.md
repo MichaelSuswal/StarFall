@@ -28,7 +28,7 @@ What the people now say. Where they explain a cause, they are wrong about someth
 
 ## About their neighbors
 
-- The Aldermark traders resent the tolls and trade on; now they bring word home that a tall woman stands in the pass. The Sarrow say that the Aldermark men go quieter at the ford than they did, which may be true. They say the plainsfolk have heard the cranes.
+- The Aldermark [r10] traders resent the tolls and trade on; now they bring word home that a tall woman stands in the pass. The Sarrow say that the Aldermark [r10] men go quieter at the ford than they did, which may be true. They say the plainsfolk have heard the cranes.
 - The counted road, the walkers who come over the heights once in a generation, did not come this year. The Doorwardens say they will come when the Guest has been fed a full year, and the old say it is the other way about.
 
 ## About themselves

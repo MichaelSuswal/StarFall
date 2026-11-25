@@ -1,0 +1,3 @@
+- 2026-11-24 | year 1 | region r22 | reported -> seen | walked with the band, spring and summer; called a plain country to the east by own sight at landing, found to be The Farrow Grass [r22]
+- 2026-11-24 | year 1 | feature f40 | reported -> seen | walked from the wood's edge; named in the Marchwarden's songs; called a path by own sight at landing, found to be Herd Road [f40]
+- 2026-11-24 | year 1 | feature f10 | none -> seen | the summer camp on the river

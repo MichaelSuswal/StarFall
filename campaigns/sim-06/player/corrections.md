@@ -61,3 +61,12 @@ Written in `campaigns/sim-06/civs/unnamed-people/state.md`.
 ## Sealed requests
 
 Answered; see the sealed file the DM reads for the lines.
+
+## Year 1 night, from the Keeper (2026-11-24)
+
+- Map names. When a mortal says a place's own name in the god's hearing, record it with `tools/map.py reveal ... --named` (and `--name` for a place only heard of). Two entries from the played day carried the name as a told name only, which the scan reads as a name not yet heard. The Keeper has marked both as heard in the night turn; nothing in your day's files needs changing.
+- The Bank Way is now recorded as seen: the god walked it on the landing morning.
+- Names heard in the year, recorded in the god's map knowledge as rumors with their tellers: Maun Stair, Ruddfold, Hask, Aldermark. Each is a name and a rough place and nothing more.
+- The ruling you asked for is in the release for the year, with its ledger id, for a dated entry on the card.
+- Seven lines in the people's own Year 1 files and the people's side of the chronicle were reworded by the Keeper so the scan passes (a place name the god has not heard, a count beside a recurring thing, a capital letter). No meaning changed.
+

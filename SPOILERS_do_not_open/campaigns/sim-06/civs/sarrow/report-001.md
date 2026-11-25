@@ -4,7 +4,7 @@
 
 ## How the god was met
 
-Autumn, month 1, first day, before first light. The older of the two toll watchers at Marle Ford saw her come and bless it. He knew the oath, stood with his hands open, was asked nothing. The younger ran for the city.
+Autumn, month 1, first day, before first light. The older of the two toll watchers at Marle Ford [f61] saw her come and bless it. He knew the oath, stood with his hands open, was asked nothing. The younger ran for the city.
 
 The same morning, at the gate of the winter city. The senior of the two sworn guards did not bar it and did not bid her in. He held for a long breath, sent a Doorwarden's boy for Idris Veld, and the god said "I am a guest and I ask the sill" and waited. Idris Veld came and bade her in by word in the old form. The gate guard stood aside. The household teaching was to bid in the first who stoops, and it held out of season.
 
@@ -34,8 +34,8 @@ Her orders, carried by the offices: the Marshal's riders and the keepers of rite
 
 ## What turns on a power
 
-- The ford blessing (month 1), the hall door and city gate (month 3), Stair Pass (spring): what each did, and what the god knew of who crosses. The year turns little on the answer.
-- The Reading of the Host on Kessan and Idris (month 1), and in summer on three others (an Aldermark trader with a false measure, a Sarrow packer in debt to the toll who sold the loading of two mules, a captain's cousin). Each was in fact harmless to a guest at the table; what the god saw is the Keeper's. The packer's and the trader's matters were settled at the sill without it.
+- The ford blessing (month 1), the hall door and city gate (month 3), Stair Pass [f62] (spring): what each did, and what the god knew of who crosses. The year turns little on the answer.
+- The Reading of the Host on Kessan and Idris (month 1), and in summer on three others (an Aldermark [r10] trader with a false measure, a Sarrow packer in debt to the toll who sold the loading of two mules, a captain's cousin). Each was in fact harmless to a guest at the table; what the god saw is the Keeper's. The packer's and the trader's matters were settled at the sill without it.
 - The three lesser marks: whether they hold.
 - Whether the god read the Steward's favorable count (month 4).
 - The Breaker's Hand: not used. No door was held against a refused traveler.
@@ -43,9 +43,9 @@ Her orders, carried by the offices: the Marshal's riders and the keepers of rite
 
 ## What touches anyone else
 
-- The trains from the river kingdom crossed and paid as before, no more than last year. The word that a tall woman with a key stands in the passes and sits at the sill goes home with them to the Aldermark.
+- The trains from the river kingdom crossed and paid as before, no more than last year. The word that a tall woman with a key stands in the passes and sits at the sill goes home with them to the Aldermark [r10].
 - The Marshal's order to feed a traveler a night and keep an honest count may reach traders.
-- The god looked at, and in three cases read, travelers of the Aldermark and the Ansel Plain at the toll houses. One Aldermark trader paid in kind for a false measure.
+- The god looked at, and in three cases read, travelers of the Aldermark [r10] and the Ansel Plain [r04] at the toll houses. One Aldermark [r10] trader paid in kind for a false measure.
 - No party was sent out of the Sarrow's country. No message was carried. The counted road did not come this year.
 - Columns turned toward the winter ground at the year's close. The god's return to the ford falls in Year 2.
 

@@ -1,0 +1,2 @@
+- 2026-11-24 | year 1 | feature f50 | reported -> seen | walked in on the landing morning
+- 2026-11-24 | year 1 | feature f51 | reported -> seen | sat with the cutters, summer

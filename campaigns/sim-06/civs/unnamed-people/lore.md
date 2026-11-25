@@ -34,7 +34,7 @@ The eleven are said to argue and decide little. This year they voted, seven to t
 
 ## Their neighbors
 
-The Aldermark's traders were amused and a little uneasy, and the town noted that they went back up the river with a story. Some in the town say the king will send a reeve again, to take a share of a market that now has a famous gate. Nobody has seen one.
+The traders from the Aldermark were amused and a little uneasy, and the town noted that they went back up the river with a story. Some in the town say the king will send a reeve again, to take a share of a market that now has a famous gate. Nobody has seen one.
 
 The hill folk of Ruddfold are said to be offended and curious in the same breath. The town's own hill kin say they have been waiting for something like the gate for a generation, and say it very quietly.
 

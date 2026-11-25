@@ -55,3 +55,6 @@ Grown (year, how far):
 Related skills: measuring a dose of a known herb for a known body; helping a healer dose
 Use:
 Grown (year, how far):
+
+## Year notes
+- Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.

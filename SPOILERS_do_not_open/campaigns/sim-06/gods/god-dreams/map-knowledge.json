@@ -1,54 +1,54 @@
 {
- "campaign": "sim-06",
- "regions": {
-  "r19": {
-   "grade": "seen",
-   "source": "the landing",
-   "year": 1
+  "campaign": "sim-06",
+  "regions": {
+    "r19": {
+      "grade": "seen",
+      "source": "the landing",
+      "year": 1
+    },
+    "r18": {
+      "grade": "reported",
+      "source": "own sight at landing",
+      "year": 1,
+      "told": {
+        "name": "a hill country to the west",
+        "terrain": "hill"
+      }
+    },
+    "r20": {
+      "grade": "reported",
+      "source": "own sight at landing",
+      "year": 1,
+      "told": {
+        "name": "a mountain country to the north",
+        "terrain": "mountain"
+      }
+    }
   },
-  "r18": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a hill country to the west",
-    "terrain": "hill"
-   }
-  },
-  "r20": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a mountain country to the north",
-    "terrain": "mountain"
-   }
+  "features": {
+    "f07": {
+      "grade": "reported",
+      "source": "own sight at landing",
+      "year": 1,
+      "told": {
+        "name": "a river to the south-west"
+      }
+    },
+    "f50": {
+      "grade": "seen",
+      "source": "walked in on the landing morning",
+      "year": 1,
+      "told": {
+        "name": "a town to the south-east"
+      }
+    },
+    "f51": {
+      "grade": "seen",
+      "source": "sat with the cutters, summer",
+      "year": 1,
+      "told": {
+        "name": "a scar where stone was cut to the north-west"
+      }
+    }
   }
- },
- "features": {
-  "f07": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a river to the south-west"
-   }
-  },
-  "f50": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a town to the south-east"
-   }
-  },
-  "f51": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a scar where stone was cut to the north-west"
-   }
-  }
- }
 }

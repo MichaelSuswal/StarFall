@@ -45,3 +45,11 @@ Asked how the old Weightward died, people say he was old, took a chill in the sp
 ## The offices, by the town's own names
 
 The chief assayer is the Assay-master. The one who runs the market, its stalls, fees and watch, is the Stallreeve. The keeper of the kept halves of the split sticks is the Tally-keeper. The keeper of the old weights was the Weightward; the last one died last spring and the place is empty.
+
+## Year 1
+Kept by the Keeper at the year's turn. No new ground was walked by anyone of the town this year. What changed in what they know and say:
+- A walker of the hill-goods head went up the Old Rudd Way to Ruddfold in the spring with a split stick and came back. The hill kin there know the hall means to weigh its old weights.
+- The boat people were away at the lowest tides of autumn and of spring, as they are each year. The story went round that they go to the Maun Stair. Nobody followed.
+- The upriver traders say nothing has changed in the Aldermark. No one came from its king.
+- The southern ships kept to the Gulf this summer and their goods came up in the town's own boats.
+

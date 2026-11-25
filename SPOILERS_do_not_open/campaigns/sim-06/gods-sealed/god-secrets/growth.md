@@ -48,7 +48,7 @@ Tier reached (year):
 
 ## Figure-Memory (knack)
 Related skills: reading and recalling accounts: sums, dates, quantities
-Use:
+Use: Year 1: surfaced. Asked three times at the council's table in winter for a figure from the autumn books, it gave each without the book. Three uses.
 Grown (year, how far):
 
 ## Even Shares (knack)
@@ -58,5 +58,8 @@ Grown (year, how far):
 
 ## Stray's Welcome (knack)
 Related skills: going as the dog among hearths that do not know it
-Use:
+Use: Year 1: surfaced. As the dog, on its one night out, it was let lie across a bone-setter's threshold and given water, and the town's dogs did not bark at it. One use.
 Grown (year, how far):
+
+## Year notes
+- Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.

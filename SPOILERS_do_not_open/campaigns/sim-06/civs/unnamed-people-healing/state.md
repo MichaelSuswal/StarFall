@@ -10,3 +10,6 @@ treasure: little: cloth, pots, a few bronze things laid by for burials. Unchange
 trade: flax, linen and smoked eel out; salt in, by river. About five salt boats this year, as in most years. No new trade. Why: no stranger came before the god, and nothing changed the river traffic.
 strength: a levy of about 400, little trained; no walls. Unchanged.
 mood: wary, a little hopeful; the court steading and the three nearest steadings are warmer toward the stranger than the far ones, which have only heard of it. The Judge-Mother is cautious. The Hearth-Holder's mood is not given. The Reckoner of Bodies takes the god's word and tells nobody. Why: a bad winter was followed by a survivable one, and the stranger sat with the dying and was not turned from the door.
+
+## Keeper, Year 1, pass two
+Each mending did what the card gives, the Hearth-Holder's granddaughter among them: the numbers take the year file's branch in which the mendings held. The court steading's well and store read sound; the branch for that stands.

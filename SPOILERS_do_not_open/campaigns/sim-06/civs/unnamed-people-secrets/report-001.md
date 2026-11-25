@@ -19,7 +19,7 @@ Winter. He sat at the granary yard, the gate and the market bench, was asked thr
 
 Spring. In month 7 the Clerk, asked over a cup about old unreadable things and whether the rolls hold any name, told him: the league tallies in a chest in the Clerk's house, the walkers' sung list of names in a private book he will not show, twenty and some names unlike any on the rolls. In month 8 the stranger walked open ground with a small bronze thing in his hand, watched at a distance by a man the Gate Warden sent.
 
-Summer, month 10. He told the Clerk only that he would be gone about a fortnight down the Iss Track to the south-west and back by the harvest, and left nothing in his hands.
+Summer, month 10. He told the Clerk only that he would be gone about a fortnight down the Iss Track [f37] to the south-west and back by the harvest, and left nothing in his hands.
 
 No office holder has taken the stranger's word as a god's. All five met him; the Clerk and the Granary Warden took his counsel as a trader's, the Boat Master took one weighing, the Gate Warden did not, the Crier cried what the Clerk gave him. No office is the god's helper as of Year 1. If the Keeper holds that taking a counsel in the course of trade is taking the word, that is the Keeper's ruling, not mine.
 
@@ -29,9 +29,9 @@ Nothing. No office acted in his name, and none was asked to. The Clerk gave the 
 
 ## Uncertain outcomes for the Keeper
 
-1. The search of open ground in month 8. The stranger walked the rise, the verge of the Iss Track for a mile each way, the public ground by the river gate and the strip of common between the east wall and the marsh, with a small bronze object in his hand. A watcher sent by the Gate Warden saw him stop at four places. Success would mean something was found on open ground that was put there on purpose (a cache, a sealed cellar, a closed road); failure, nothing. Circumstances from the record that bear on it: the town is old and says it has always been there; the lowest cellars were dug before the first boat family came and belonged to merchants of an old league whose weights turn up under floors; the walkers of the old people's days came in by the land gate; the lowest cellars take water. The year file writes it both ways.
+1. The search of open ground in month 8. The stranger walked the rise, the verge of the Iss Track [f37] for a mile each way, the public ground by the river gate and the strip of common between the east wall and the marsh, with a small bronze object in his hand. A watcher sent by the Gate Warden saw him stop at four places. Success would mean something was found on open ground that was put there on purpose (a cache, a sealed cellar, a closed road); failure, nothing. Circumstances from the record that bear on it: the town is old and says it has always been there; the lowest cellars were dug before the first boat family came and belonged to merchants of an old league whose weights turn up under floors; the walkers of the old people's days came in by the land gate; the lowest cellars take water. The year file writes it both ways.
 
-2. The journey. He set out in month 10 at first light on a market day, on foot, by the Iss Track to the south-west as a trader with his scales, for about a fortnight, meaning to be back by the harvest. I give no distance or time. The Keeper prices the trip and whether he is back before the year's end. The year file writes it both ways.
+2. The journey. He set out in month 10 at first light on a market day, on foot, by the Iss Track [f37] to the south-west as a trader with his scales, for about a fortnight, meaning to be back by the harvest. I give no distance or time. The Keeper prices the trip and whether he is back before the year's end. The year file writes it both ways.
 
 3. Whether anyone could have taken the key from his room in the winter, after the dog's night. Nobody entered the room as far as my people's account goes: the woman who lets it was in her own rooms and heard him cough at midnight, the door was shut as he left it, and the Gate Warden's quiet watch had been relaxed. This turns on a power (the dog form and the key) and I leave it to the Keeper.
 
@@ -44,7 +44,7 @@ Nothing. No office acted in his name, and none was asked to. The Clerk gave the 
 ## What touches anyone else
 
 - Trade: unchanged in kind. Drovers from the Ansel Plain [r04] brought stock as always; coasting boats came in summer. The river gate bar grounded loaded boats twice in the spring.
-- Travelers: only the stranger, who set out for the south-west by the Iss Track in month 10.
+- Travelers: only the stranger, who set out for the south-west by the Iss Track [f37] in month 10.
 - Parties sent out: none. No messages carried. Word has gone down the river on the boats as a curiosity: a counter sits at the foot of the council's table in the town on the bend. This is talk, not a message.
 - Nothing carried to any other people. No migrants of note.
 

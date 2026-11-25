@@ -105,6 +105,10 @@ Growth: Possible. Not shown.
 ## Hidden powers
 Two hidden powers exist. Discovered powers are added above as they surface.
 
+### Banked Coal
+Status: knack (surfaced Year 1: month 4, keeping its lamp alight at the water's edge as the late boat came in)
+What it does: It keeps a fire, a forge or a lamp alive through wind and wet when another hand would lose it. A knack is small: it shades an outcome or a craft and never does what a power does.
+
 ## Weaknesses taken
 
 ### The lamp as the instrument
@@ -118,3 +122,5 @@ Offered once, on Night 2. Taken: the lamp as the instrument, for the longer hold
 Set by the world. Not shown.
 
 ## Dated entries
+- 2026-11-24, Year 1: Calm Under the Lamp, a ruling. Set at the water's edge by the harbor mouth, the lamp's light shows across the mouth and the inner water of a harbor of this size, and no farther: not the skerries and not the open water outside. Ledger: L-0033.
+- 2026-11-24, Year 1: a knack surfaced, written under Hidden powers as a knack. Banked Coal: it keeps a fire, a forge or a lamp alive through wind and wet when another hand would lose it. A craft of the hands; it does nothing a power does. Surfaced in month 4, when it kept its lamp alight at the water's edge in the wind and spray as the late boat came in.

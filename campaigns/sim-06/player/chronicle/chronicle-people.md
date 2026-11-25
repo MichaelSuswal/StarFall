@@ -14,7 +14,9 @@ The boat people left the channels for some days at the lowest tides and came bac
 
 The wet came, with its hard spells. Fever went through the short-stilted houses at the back of the bank and took the old and the very young. The Stallreeve moved four stalls under the hall's roof and the market stayed open. Nobody died there.
 
-The tide-reckoner of the salt flats called the midwinter water four days ahead. It crested half a day later than she said and at the height she gave. Stalls moved, boats were drawn up, three families went to the mounds with their goats. The star dimmed on some nights in the dead of winter.
+The tide-reckoner of the salt flats called the midwinter water four days ahead. It crested half a day later than she said and at the height she gave. Stalls moved, boats were drawn up, three families went to the mounds with their goats.
+
+The star went dim for a time on some nights of the cold season.
 
 The kiln-masters began weighing a fixed basket of every digger's clay before they would take it, on scales that had been read at the gate. The council argued the diggers and the kiln-masters and settled it by a price in measure.
 
@@ -30,7 +32,7 @@ The council of eleven voted, seven for and three against, to ask the stranger to
 
 ## Summer
 
-Long and warm. The reed was cut early. The Aldermark's boats came down with grain, wool and some bronze, and two of their traders had their scales read at the gate and went home laughing. No one came from their king. Ships of the southern harbor towns lay in the Gulf and their goods came up the river in the town's own boats.
+Long and warm. The reed was cut early. Boats from the Aldermark came down with grain, wool and some bronze, and two of their traders had their scales read at the gate and went home laughing. No one came from their king. Ships of the southern harbor towns lay in the Gulf and their goods came up the river in the town's own boats.
 
 The Stallreeve carried the council's invitation to the gatepost himself, on a market day, in front of the yard.
 

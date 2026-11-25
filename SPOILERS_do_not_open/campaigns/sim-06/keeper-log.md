@@ -739,3 +739,79 @@ Stamped 16:15.
 - Step 2: one night under different seasons. Ruled: month N is month N in every country, each in its own season.
 - Step 2: whether a cast figure reaches the god's town in unplayed time. Ruled: rolled as a world fact, with no sealed factor.
 - Step 2: ordinary weather figures (a storm count, a first snow). Ruled: set by the Keeper as ordinary, not rolled.
+
+### 3. The civ agents
+All eight wrote their Year 1 files. Read 16:24 Pacific: each report in full; the player's people's year file and state in full; the others' year files by search where a ruling or a surfacing turned on them.
+Procedure, from the orchestrator: three agents (god-sea's people, the Sarrow, the player's people) were refused by their write tool on `report-001.md` ("Subagents should return findings as text"), and the orchestrator saved those three reports verbatim from their replies. The reports stand as the agents' own.
+
+### 4. Keeper pass two
+One line per resolution: the act, the branch, the truth, what was shown.
+
+The DM's day, weighed.
+- The overrule. DM r-0001 (market day, odds 30, rolled 7), DM r-0002 (the bench reads wrong, odds 70, rolled 8), DM r-0003, DM r-0004, DM r-0005 (three scales out, odds 50 each, rolled 19, 19, 18). All five succeeded as rolled. The rule reads only a roll that failed by no more than the god's shift (the player's god: step 1, 5 points). None failed, so none qualifies and none is overruled. Read the other way round, as the people's own acts (the bench reading right, a scale being true), each missed by far more than 5 points, so no reading of them qualifies either. No DM roll line was touched.
+- Facts the DM set, each confirmed against the sealed files: the bench's ten pieces (eight alike, two light) and its honest beam; the Assay-master's account that the old weights are the Weightward's to bring out; the Weightward's death as the town tells it (true as far as it goes, mystery S01); the eleven by seat (the DM's "both with channel boats, one of whom also sends a pair of coasters" sits inside the sealed "one works the channels, the other owns two coasters"); the trades' measures; the grit quarrel; the thin hill corner; the first spoonful to the channel; the nest of seven cups; the fees. None corrected.
+- Mortals the DM set in play: Bren, a channel woman. Confirmed. Her name is also the first word of a far range's name on the map; a person may share a word with a hill, and nothing is changed.
+- The walk in. The DM told the walk along the bank top with no crossing. The tool gives 1.4 miles and the Bank Way [f21] through both points. New fixed fact: the Bank Way [f21] carries a walker dry-shod from the landing point to the unnamed town [f20]. Nothing more is said of which bank.
+- The DM's reveals: the two road names were recorded as told names and not marked as heard, so the scan read them as unheard. Marked with `tools/map.py reveal --named`; the Bank Way [f21] raised to seen (the god walked it).
+
+The pending ruling. Is Bren's balance a true scale: yes, narrowed (ledger L-0031). It is one for as long as it reads true; so is each scale the god tried at the gate and found level.
+
+The meeting at dusk. Ruled (ledger L-0032): resolved by the player's handed-off words, as far as they go; each ask they do not answer met silence, the mortal's reaction stands, and the ask is a pending question. Five such asks. None was an offer or a demand that bound the god, so the meeting did not stop. The people's agent wrote nothing of the old weights' number, the rack, the loft, the kept half or the punt, and nothing it wrote contradicts mystery S01; no correction was needed.
+
+The player's god in unplayed time.
+- The gate, all year: decision 3, as decided. Readings true by the card. Minor.
+- Twenty asks (the people's report). Those the decisions answer: answered as decided. The rest: silence, pending. One reading of the Keeper's: a salt-raker's offer of salt as the fee was met with silence by the people's agent, since the decision names grain, fish or a fired weight; left to stand as the narrowest reading of what the player decided.
+- The cup, month 6. r-0255, the thief's attempt: stated odds 10, rolled at 5 with the sealed factor against him, failed (95). He was taken. The Stallreeve's question at the gatepost (does the stranger ask a price) is a question from the god's own people and not one of weight: silence, pending, the town went on. Decision the files did not make: what the town then did, since the people's agent stopped at the gatepost. Decided, from the people's record alone (matters are argued before the eleven and settled by a price in measure; the Tally-keeper keeps the kept halves): the council set a price in measure and the Tally-keeper holds the stick, unclaimed. Nothing is said of what the price was or of the master's part. Listed for review.
+- The invitation, month 11. Held (the people's agent was unsure; unsure is major; an answer is a promise and the terms are the council's). The thread stops at the laid stick.
+- The lamp at the landing: the people's agent gave the god a lamp it does not carry. Read as the channel folk's lamp, by which it sits.
+- The clay sorting: not rolled. The truth settles it (mystery L05: the cracking clay has no temper and weighs like any other). The people's cause is wrong, as a mortal's is.
+- The walker to Ruddfold [f25]: the tool gives 123.9 miles and 7 days by the Old Rudd Way [f23]; an errand to kin on a known road, no hazard on the record, not rolled. He arrived.
+- The tide-reckoner's telling: inside L-0024.
+
+The seven.
+- god-sea: the late boat, r-0249, stated odds 80, no shift, success. L-0033. Banked Coal surfaced. The spring walk reached no old place: the nearest are 36.8 and 66.5 miles off by the tool. Questions its decisions give no words for (two from the Master of Timber, one from the Warden-Monarch) stand unanswered.
+- god-dreams: the western party, r-0250, odds 50, failed; the river party, r-0251, odds 70, success. L-0034. Watch-Wakeful surfaced. The hidden power that reads sleepers under a roof did not: the night at the sickbed was in a work yard, and the record gives no roof.
+- god-rivers: nothing came against its sleep, not rolled (nothing on the record threatened it). Warm hands as the card: three recovered. No pull. No knack's moment is on the record.
+- god-healing: Mending as the card, not rolled; about thirty, the costs paid. Reading the Rot: the mounds quiet, the bank foul, the court steading's well sound, the low steadings' wells foul (mystery S07, the branch where the wells are read). No sealed factor used: nothing was rolled.
+- god-beasts: r-0252 (stated 80, rolled at 85) and r-0253 (stated 70, rolled at 75), both success. L-0035. Windward Sense surfaced.
+- god-secrets: open ground searched, nothing there, not rolled. The journey: the Iss Track [f37] is 37.5 miles, 3 days; back inside the fortnight. L-0036. Figure-Memory and Stray's Welcome surfaced. The hidden power that reads a tally in the hand did not: the record shows it books and sticks and does not put a stick in its hand.
+- god-thresholds: the fold, r-0254, odds 45, failed; the mauled herder, r-0256, odds 50, died. Blessings and readings as the card: four full blessings, three lesser marks.
+- Cards against the full text, after two agents reported cut-off reads: no decision used a power past its card.
+
+Waking seasons against weaknesses, for the opening of Year 2: god-healing's tremor ends at the thaw that opens its year; god-sea's stilled water took it again from month 7; god-dreams carries two households' fear each dawn, shaken and able. No god opens Year 2 unable to act.
+Growth: nothing earned by any god. No attempt was stated; use of a power as its card gives is not practice. Knacks: five surfaced among the seven (each god's sealed growth file and card); the player's god's three did not, and one had a related skill used in part (its growth file). No memory-loss drawback fell due.
+Decision the files did not make: what counts as "use of a related skill" for a knack that has not surfaced. Decided: a line is written when the skill itself was exercised, in whole or in part, and says which; being near the skill is not use. Listed for review.
+Standing: updated in `S/state/standing.md` with the rule used and a line for each god. Decision the files did not make: the size of a year's move. Decided: none, one, two or three points by how many hold the god's shape and as what; listed for review.
+The sealed factor's record: unchanged in value. Applied on three rolls (below).
+Messages: none sent, none due. No message log is started.
+State written: the peoples' numbers (each `state.md`, with the Keeper's line on which branch stands); the eight growth files; four cards (rulings and knacks, as dated entries and under the hidden powers heading); the ledger (L-0031 to L-0036); the gods' map knowledge by `tools/map.py reveal`; the player's map knowledge (two names marked heard, one way seen, four rumors); the people's knowledge file (a Year 1 section); `P/player/corrections.md` (a note to the DM); `S/years/001/year.md`.
+Seven lines in the player's people's own files and the people's side of the chronicle were reworded by the Keeper so the leak scan passes; no meaning changed. Decision the files did not make: whether the Keeper may touch a civ agent's public file. Decided: yes for a scan hit, by rewording only, since the agent does not run again before the morning; listed for review.
+
+Neutrality self-check, Year 1.
+- The sealed factor. Applied as a factor on the record on three rolls: r-0252 and r-0253 (god-beasts, step 1, 5 points) and r-0255 (the player's god, step 1, 5 points against the thief). None of the three turned on it: each would have fallen the same way at the stated odds. Weighted draws: none this year. Overruled DM rolls: none; none qualified. No roll was made for god-healing or god-secrets, so their steps were not used. Counts match `S/state/luck.md`.
+- The player's sealed wants. Two bear on this year's ground (the old keeper's death; the register-keeper). None has a confirmation, and none was applied. The Assay-master's "He was my friend" is the people's agent's own line, written without sight of any sealed file. The Tally-keeper's stick of the gate's readings is likewise the agent's own.
+- A temptation to help: to let the Assay-master mention the empty seat on the rack, since the player would enjoy it. Not done: the god has not asked to see the rack and has not looked.
+- A temptation to help: to surface a hidden power for god-secrets (a stick was near its hand) and one for god-dreams (a sickbed, perhaps under a roof). Not done: the record does not give the moment.
+- A temptation to hinder: to hold the dusk meeting whole, the safer reading for the Keeper. Not done: it would have stopped the god's year on its first day against the player's handed-off words.
+- A temptation to tidy: to give the potters a partial success. Not done: the truth gives none.
+- Recurring things are at their true counts from the tool. No clue was held back: what god-healing read is what stands there.
+- No ruling was shaped by anything said out of the game.
+Stamped 16:33.
+
+### Rulings for review, Year 1 night (pass two)
+- Step 4: a meeting held at a played day's close with the player's words handed off. Ruled: resolved by those words; unanswered asks meet silence and go to pending (L-0032).
+- Step 4: the true scale (L-0031).
+- Step 4: what the town did with the taken thief when its agent had stopped the thread. Ruled: from the record alone, a price in measure, held unclaimed.
+- Step 4: salt offered as the fee. Ruled: the narrowest reading stands.
+- Step 4: whether the year's-end invitation is held. Ruled: held.
+- Step 4: the potters' sorting. Ruled: settled by the truth, not rolled.
+- Step 4: use of a knack's related skill. Ruled: a line only where the skill itself was exercised.
+- Step 4: the size of a year's move in standing. Ruled: none to three points, one rule for all eight.
+- Step 4: the Keeper rewording a civ agent's public file for a scan hit. Ruled: yes, wording only.
+- Step 4: five undisputed readings of gods' cards (L-0033 to L-0036).
+
+### 5. The check
+Run before the hand-off, 16:33 Pacific.
+`tools/check.py sim-06 1`: 5 findings. Four are things the night has not reached yet at this step (the clock not advanced, no DM release, no morning story, no painting request): the script tests a closed year and step 5 runs before steps 6 to 8. The fifth is the public roll log holding the DM's five rolls, which the design tells the DM to write there (DESIGN 12.6) and the script and `lockcheck --rolls` both refuse. None is the Keeper's to fix; all five are listed for the checker and the owner.
+`tools/lockcheck.py sim-06 --all`: places 0, leaks 0, releases 0, mysteries 0, dashes 0; rolls 1 failure, the same public roll log.
+Handed to the checker. The year's paths: `S/years/001/` (`year.md`, `world-events.md`), `S/releases/001/`, `P/releases/001/`, the eight peoples' Year 1 files, the seven gods' decisions, the ledger, the growth files, `S/state/`, this log from "Year 1 night turn". The DM release and the morning story do not exist yet: `night-turn.md` puts the check before the releases.

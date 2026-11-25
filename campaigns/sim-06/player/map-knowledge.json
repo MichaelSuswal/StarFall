@@ -15,6 +15,24 @@
         "name": "a hill country to the east",
         "terrain": "hill"
       }
+    },
+    "r20": {
+      "grade": "rumored",
+      "source": "hill carriers at the gate",
+      "year": 1,
+      "told": {
+        "name": "Hask",
+        "cell": "D3"
+      }
+    },
+    "r10": {
+      "grade": "rumored",
+      "source": "upriver traders at the gate",
+      "year": 1,
+      "told": {
+        "name": "Aldermark",
+        "cell": "B2"
+      }
     }
   },
   "features": {
@@ -35,19 +53,36 @@
       }
     },
     "f21": {
-      "grade": "reported",
-      "source": "the channel woman Bren, in the yard",
+      "grade": "seen",
+      "source": "walked on the landing morning; named by the channel woman Bren",
       "year": 1,
-      "told": {
-        "name": "the Bank Way"
-      }
+      "named": true
     },
     "f23": {
       "grade": "reported",
-      "source": "market talk on the landing day",
+      "source": "seen where it meets the town; named in market talk on the landing day",
       "year": 1,
+      "named": true,
       "told": {
         "name": "the Old Rudd Way"
+      }
+    },
+    "f27": {
+      "grade": "rumored",
+      "source": "an old salt-raker in the line at the gate",
+      "year": 1,
+      "told": {
+        "name": "Maun Stair",
+        "cell": "B3"
+      }
+    },
+    "f25": {
+      "grade": "rumored",
+      "source": "hill carriers at the gate",
+      "year": 1,
+      "told": {
+        "name": "Ruddfold",
+        "cell": "B3"
       }
     }
   }

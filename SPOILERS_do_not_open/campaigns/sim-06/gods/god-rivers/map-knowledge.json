@@ -1,37 +1,36 @@
 {
- "campaign": "sim-06",
- "regions": {
-  "r25": {
-   "grade": "seen",
-   "source": "the landing",
-   "year": 1
-  }
- },
- "features": {
-  "f12": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a river"
-   }
+  "campaign": "sim-06",
+  "regions": {
+    "r25": {
+      "grade": "seen",
+      "source": "the landing",
+      "year": 1
+    }
   },
-  "f46": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a path"
-   }
-  },
-  "f45": {
-   "grade": "rumored",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "smoke to the south-east",
-    "cell": "D3"
-   }
+  "features": {
+    "f12": {
+      "grade": "reported",
+      "source": "own sight at landing",
+      "year": 1,
+      "told": {
+        "name": "a river"
+      }
+    },
+    "f46": {
+      "grade": "reported",
+      "source": "own sight at landing",
+      "year": 1,
+      "told": {
+        "name": "a path"
+      }
+    },
+    "f45": {
+      "grade": "seen",
+      "source": "walked in on the landing morning",
+      "year": 1,
+      "told": {
+        "name": "smoke to the south-east"
+      }
+    }
   }
- }
 }

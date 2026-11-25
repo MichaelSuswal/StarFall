@@ -9,7 +9,7 @@ About the keeper at the margin
 - They say it asks nothing, and that this is the proof of what it is: a keeper asks nothing and forgives nothing, as the old saying has it. They say, wrongly, that it therefore cannot be asked for anything either, and the dog handlers have taken to not asking it for things.
 - They say the dogs "knew it first". That is true as far as it goes, and the dog handlers take it as proof for what the old say about dogs.
 - The hunters say the keeper does not eat, does not sleep and does not look at the share on the flat stone. They say it has kept the margin so as not to be a guest. They are right about some of that and wrong about why.
-- Some say it is the beast that outlived its own kind. Some say it is the keeper of Ribhill, walked down to the road. The Marchwarden says not, because the verse for that stretch says only to pass and not look, and the keeper did not come from there.
+- Some say it is the beast that outlived its own kind. Some say it is the keeper of Ribhill [f42], walked down to the road. The Marchwarden says not, because the verse for that stretch says only to pass and not look, and the keeper did not come from there.
 - Tessaly's dog handlers say that wild beasts near the tents have grown bold since it came. The cord of bold beasts is read at council as a small thing and a thing to be watched.
 
 About their own rulers
@@ -18,7 +18,7 @@ About their own rulers
 - Of the Still One: that she knew before anyone, and she says only that the herd was listening and was not afraid.
 
 About their neighbors
-- The miners of the Hask Ridge cut the winter woods and sell salt and iron dear; they say the miners were bondsmen who walked out on a master and owe everyone a fair price and give no one one. This year the price was higher, and the story gets told with more heat.
+- The miners of the Hask Ridge [r20] cut the winter woods and sell salt and iron dear; they say the miners were bondsmen who walked out on a master and owe everyone a fair price and give no one one. This year the price was higher, and the story gets told with more heat.
 - The song-thieves (the walkers on foot who once sat at the fires and sang the fords back) have come up again in talk, because the keeper learned the song of the ford below the river camp in the nights. Some say it is one of them. They are wrong about that, and it is only a joke so far.
 
 About the strange things of the year

@@ -3,7 +3,7 @@
 Campaign: sim-06. Written by the civ agent at the end of Year 1 (early autumn of Year 2 opens next). Opening figures are the starting state; each line below says why it moved.
 
 population: about 5,040, in the unnamed market town and its raised banks, channels, flats and clay farms
-  Why: about 190 born, about 150 dead, about 10 came down from the hills to stay. The winter fever in the short-stilted houses at the back of the bank took the old and the very young in the ordinary way. No famine, no flood loss, no raid.
+  Why: about 190 born, about 150 dead, about 10 hill folk moved into the town to stay. The winter fever in the short-stilted houses at the back of the bank took the old and the very young in the ordinary way. No famine, no flood loss, no raid.
 
 stores: grain and dried fish through the coming winter if the autumn catch is ordinary; the grain harvest was good and the bins are fuller than a year ago; salt in plenty; reed and clay without stint; charcoal and ore thin again, as every late summer, until the hill carriers come down
   Why: ordinary year, a long warm summer, a flood of ordinary height, and the deep-winter bins ran lower than the Stallreeve liked but never low. A few forges went cold in the last week of the sixth month when the charcoal ran out.

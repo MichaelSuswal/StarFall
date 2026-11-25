@@ -41,7 +41,7 @@ Tier reached (year):
 
 ## Watch-Wakeful (knack)
 Related skills: sitting a night watch at a sickbed; minding a sleeper
-Use:
+Use: Year 1: surfaced. It sat a whole night beside the Night Sitter with a child in fever and a very sick old man, winter. One long watch.
 Grown (year, how far):
 
 ## Fair Loaf (knack)
@@ -53,3 +53,6 @@ Grown (year, how far):
 Related skills: learning names said to her face and greeting people by them
 Use:
 Grown (year, how far):
+
+## Year notes
+- Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.

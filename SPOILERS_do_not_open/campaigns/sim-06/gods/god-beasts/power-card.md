@@ -136,6 +136,10 @@ Growth: Possible. Not shown.
 ## Hidden powers
 Two hidden powers exist. Discovered powers are added above as they surface.
 
+### Windward Sense
+Status: knack (surfaced Year 1: spring, coming to the camp's edge at dusk and keeping the night watch)
+What it does: It always knows where the wind is and keeps downwind without thinking. A knack is small: it shades an outcome or a craft and never does what a power does.
+
 ## Weaknesses taken
 
 ### The horn as the instrument
@@ -149,3 +153,5 @@ Offered once, on Night 2. Taken: the horn as the instrument, for the longer List
 Set by the world. Not shown.
 
 ## Dated entries
+- 2026-11-24, Year 1: The Listening, a ruling. Its own people read as nothing at all. An empty place is not a thing the Listening marks; it can only be reasoned to from kept beasts that move and rest as kept beasts do. A herder with a dog reads as a dog alone; a few of its people apart from any beast read as nothing. Ledger: L-0035.
+- 2026-11-24, Year 1: a knack surfaced, written under Hidden powers as a knack. Windward Sense: it always knows where the wind is and keeps downwind without thinking. It does nothing a power does. Surfaced in spring, coming to the camp's edge at dusk and keeping the night watch against the wolves.

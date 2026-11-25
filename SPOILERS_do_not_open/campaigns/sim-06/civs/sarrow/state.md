@@ -15,3 +15,6 @@ trade: carrying, guiding and tolls as before. Wool, felt and iron out; grain, sa
 strength: about 360 sworn spears under eight captains; about 3,500 more when the host calls; the passes themselves. Unchanged. The sworn band is unhurt by the wolves. The captains are wary of the sill court and of the god's closeness to the Doorwardens.
 
 mood: steadier at the hearth, unsettled above it. The households are warm toward the Guest, since she heard them first and fed the poorest first. The Doorwardens are exalted and proud. The captains are wary and say little. The Steward is uneasy over the mark on his salt store. Kessan keeps his own counsel and has kept the host. The people say the Guest is in their house, and the old women have a new thing to argue.
+
+## Keeper, Year 1, pass two
+The fold on the road broke in month 2 [r-0254]: the numbers take the year file's branch for the broken fold. One herder, a grown man, was mauled and died of it within days [r-0256]; the boys were not hurt.

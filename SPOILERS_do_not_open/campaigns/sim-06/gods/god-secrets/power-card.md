@@ -107,6 +107,14 @@ Growth: Possible. Not shown.
 ## Hidden powers
 Two hidden powers exist. Discovered powers are added above as they surface.
 
+### Figure-Memory
+Status: knack (surfaced Year 1: winter, three figures given at the council's table without the book)
+What it does: It keeps figures it has read: sums, dates, quantities. A knack is small: it shades an outcome or a craft and never does what a power does.
+
+### Stray's Welcome
+Status: knack (surfaced Year 1: winter, its one night out as the dog)
+What it does: As the dog, it is let lie and given scraps or water where a strange dog would be driven off. A knack is small: it shades an outcome or a craft and never does what a power does.
+
 ## Weaknesses taken
 
 ### The key as the instrument
@@ -120,3 +128,5 @@ Offered once, on Night 2. Taken: the key as the instrument, for Kept Word's twel
 Set by the world. Not shown.
 
 ## Dated entries
+- 2026-11-24, Year 1: Finding What Was Hidden and the key, two rulings. The townspeople are its own people from the landing; no roll makes or unmakes that, and their hidings are closed to it. The key is in its keeping only while it is on it: left anywhere else, whoever picks it up holds it. Ledger: L-0036.
+- 2026-11-24, Year 1: two knacks surfaced, written under Hidden powers as knacks. Figure-Memory: it keeps figures it has read, sums, dates and quantities. Surfaced in winter, giving the council three figures from the autumn books without the book. Stray's Welcome: as the dog, it is let lie and given scraps or water where a strange dog would be driven off. Surfaced on its one night out as the dog. Neither does what a power does.

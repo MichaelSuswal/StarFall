@@ -22,7 +22,7 @@ What the people now say. It is their own telling, and where they explain a cause
 
 ## About their neighbors
 
-- The shepherds of the Bren Hills have heard something of the bell, and are said to be telling it on the hills as a tale of "the sea town that rings for the sea." The town does not know how much they know.
+- The shepherds of the Bren Hills [r05] have heard something of the bell, and are said to be telling it on the hills as a tale of "the sea town that rings for the sea." The town does not know how much they know.
 - The coasting boats from the river town on the levels brought oak and took salt fish, as they do. The town says they are good traders and a little close.
 
 ## About the strange things of the year

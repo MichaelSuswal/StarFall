@@ -1,37 +1,38 @@
 {
- "campaign": "sim-06",
- "regions": {
-  "r21": {
-   "grade": "seen",
-   "source": "the landing",
-   "year": 1
+  "campaign": "sim-06",
+  "regions": {
+    "r21": {
+      "grade": "seen",
+      "source": "the landing",
+      "year": 1
+    },
+    "r22": {
+      "grade": "seen",
+      "source": "walked with the band, spring and summer",
+      "year": 1,
+      "named": true
+    }
   },
-  "r22": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a plain country to the east",
-    "terrain": "plain"
-   }
+  "features": {
+    "f40": {
+      "grade": "seen",
+      "source": "walked from the wood's edge; named in the Marchwarden's songs",
+      "year": 1,
+      "named": true
+    },
+    "f41": {
+      "grade": "reported",
+      "source": "own sight at landing",
+      "year": 1,
+      "told": {
+        "name": "wet ground in a hollow to the south-east"
+      }
+    },
+    "f10": {
+      "grade": "seen",
+      "source": "the summer camp on the river",
+      "year": 1,
+      "named": true
+    }
   }
- },
- "features": {
-  "f40": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "a path"
-   }
-  },
-  "f41": {
-   "grade": "reported",
-   "source": "own sight at landing",
-   "year": 1,
-   "told": {
-    "name": "wet ground in a hollow to the south-east"
-   }
-  }
- }
 }

@@ -67,5 +67,8 @@ Grown (year, how far):
 
 ## Windward Sense (knack)
 Related skills: stalking and being stalked; reading the wind and keeping downwind
-Use:
+Use: Year 1: surfaced. It came to the camp from downwind each dusk until met, and kept downwind of the packs through the spring and summer night watches. Used through the year.
 Grown (year, how far):
+
+## Year notes
+- Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.

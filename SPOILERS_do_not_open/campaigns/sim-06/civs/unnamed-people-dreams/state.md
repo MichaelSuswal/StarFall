@@ -10,7 +10,7 @@ stores: grain in after an ordinary harvest, threshing still to do, enough to rea
 
 treasure: middling and unchanged: cut stone, linen, pots; some bronze in the court's keeping. The court spent its bread and a little oil on a guest, and some cut stone and timber on the wall repairs. No gift came in.
 
-trade: linen, pots, cut stone and grain out; salt and iron in, dear. The salt carriers came twice, with less than was wanted, at last year's price or a little over. Two parties of the court's runners are out, one west toward the Rudd Hills by the road and one by boat down the Ellow, to learn what salt neighbours have. Nothing has come of them yet in these records.
+trade: linen, pots, cut stone and grain out; salt and iron in, dear. The salt carriers came twice, with less than was wanted, at last year's price or a little over. Two parties of the court's runners are out, one west toward the Rudd Hills [r18] by the road and one by boat down the Ellow, to learn what salt neighbours have. Nothing has come of them yet in these records.
 
 strength: about 600 by beacon, about 200 of them on the wall watch by turns, unchanged. A settled stretch of footing on the river side of the wall was relaid and two rotted posts of the beacon platform were replaced in the dry months. No spears went out for or against the guest.
 
@@ -19,3 +19,6 @@ mood: settled and hospitable, still anxious over salt. New this year: most of th
 households keeping the guest's flame (the Keeper of the Count's roll): about 330 of about 1,000: about 250 in the town and about 80 in the hamlets. The court's hearth is one of them. The seventh place of the guest's keeping is empty.
 
 helpers (who has taken the god's word): the Warden of the Door, from the third night; the seat, from late autumn, when the court's hearth was lit; the Keeper of the Count, from the first lots; the Steward of the Store, from the winter count, grudgingly. The Warden of the Wall has not. The Gate Bench is split, two for, one against, and agrees on the custom of the table.
+
+## Keeper, Year 1, pass two
+The river party reached people at the river's mouth, was received and came home in month 12 with word of salt [r-0251]. The western party found no one and had not come home at the year's end [r-0250]; it comes in early in Year 2.

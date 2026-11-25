@@ -77,7 +77,7 @@ Mortals only: in month 3 some stallholders hung "read at the gate" tokens on the
 - Aldermark boats came down in summer, as most summers. Two traders had scales read on a dare and took the story upriver. Nothing came from the king.
 - Southern ships lay in the Gulf. The town's boats carried their goods up, a trip I am not pricing. A coaster's mate asked in month 11 for its captain's scale to be read, and it was.
 - The water folk left the channels at the lowest tides in months 2 and 8. The town did not follow.
-- Nothing was sent to Hask, the Sutherwold or the fen people.
+- Nothing was sent to Hask, across the great forest or to the fen people.
 
 ## Asked of the god
 
@@ -113,6 +113,6 @@ Names said in the god's hearing:
 - **The list-singers**, said by an old woman in the line in month 1.
 - **Ruddfold** and **Hask**, said by hill carriers in month 2.
 - **Orrin**, a kiln-master, who said it himself in month 3 with his fee.
-- **The Aldermark**, said by a trader in month 10.
+- **Aldermark** (the Aldermark), said by a trader in month 10.
 
 No name for the town or the people was said in its hearing. No office holder's own name was said. The town's nicknames for the stranger were not said to it: "Bren's weigher" (channel folk), "the Cupman" (salt-rakers), "the coat" (hill folk).

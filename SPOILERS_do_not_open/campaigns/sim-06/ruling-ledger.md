@@ -217,3 +217,45 @@ Matter: what counts as a paid or drilled force toward the measure of about one i
 Arguments: the Day 3 guide gives the measure and not its terms. The peoples wrote a spring muster drilled by captains, a wall watch taken by turns with some weeks of drill, hunters by trade, standing watches fed from a common store, a sworn war band, and (god-thresholds) riders and a toll watch: "A man who stands a ford and takes a toll is not kept as a body."
 Ruling: a force kept as a body, paid or fed for it and drilled, counts. A muster of working people drilled some days or weeks a year, a watch taken by turns, hunters who hunt for their living, and keepers of a trade posted in ones and twos are ordinary and are not counted; any of them gathered and drilled as a body counts from that day. A call-up is ordinary at any number a people could raise. By this reading the player's watch of sixty, and every NPC people's force as finally written, is ordinary. god-thresholds's sworn band of nine hundred in eighteen thousand was over the line and was put to her both ways; she took about three hundred and sixty at no price. Settled against a god in part.
 Binds: every people's record; god-thresholds's people.
+
+## L-0031
+Date: 2026-11-24. Year: 1 (night turn). Card: the player's god. The definition of a true scale; The Scattering.
+Matter: whether a mortal's scale that the god itself read with its own brass, its scales on the ground beside it, and found level on a second trial after the owner took up the cord, is a true scale (the DM's case 1 in `player/rulings-pending.md`).
+Arguments: for (the DM, for the player): the check was by the god's own hand, in its presence, with its scales on it and The True Measure telling it what the pans held; the brass is the nest of the god's own scales; after the cord was taken up the balance read true; the player's Day 2 words were "the nearest scale that has been checked against mine". Against (the Keeper's side): the trial was against the nest and not pan against pan with the god's scales; the same reading would make a true scale of every scale the god found level; and the player asked that the return be "a real risk" and not "a convenient escape".
+Ruling: yes. A scale is a true scale when the god has tried it by its own hand, with its scales on it or in its hand so that The True Measure bears on the trial, and it read level under that trial, at once or on a new trial after it was adjusted. The nest is part of the god's scales for this. Narrowed for balance, from the card's own words "and still reads true": the scale is a true scale only for as long as it reads true. A balance of wood and cord drifts; on the day a body breaks, the Keeper judges from the record whether a given scale still reads true, and one read "out" and never tried again was never one. A scale the god only watched in use, without trying it, is not one. A scale tested by anyone else is not one (the card's Day 3 entry stands).
+Binds: the player's card (the Definitions and The Scattering). The channel woman's balance has been a true scale since its second trial on the landing day. So is every scale the god tried at the gate in Year 1 and found level, each for as long as it reads true.
+
+## L-0032
+Date: 2026-11-24. Year: 1 (night turn). Card: none; the engine's rule on held encounters (`engine/rules/encounters.md` 5 and 6).
+Matter: a meeting the DM held at its first moment, at the close of a played day, for which the player handed off the god's own words in the decisions file.
+Arguments: for holding it whole: a meeting with a question in it is a major encounter, and a major encounter is played live. For resolving it: the player gave the words for exactly this meeting and handed them off to be used; standing conduct is "what the player set", and a scheduled act is conduct for its time; holding the first dusk of a year would stop the god's whole year at its first day, which the player did not ask for.
+Ruling: the meeting is resolved as far as the handed-off words answer it, in those words and no others. Each thing the mortal asks that those words do not answer meets silence, as a petition of the god's own people does in unplayed time (ruling r-001 in the engine), the mortal's reaction stands, and the ask goes to the DM as a pending question. Had an ask been an offer or a demand that bound the god or changed its footing in the town, the meeting would have stopped there and been held.
+Binds: every meeting held at the close of a played day with the player's words handed off for it.
+
+## L-0033
+Date: 2026-11-24. Year: 1 (night turn). Card: god-sea. Calm Under the Lamp.
+Matter: how much water "as far as the lamp's light would show on a still night" covers at its own harbor.
+Arguments: the god's: at most the harbor mouth; it accepts narrower water. The Keeper's side: the words name the lamp's light, not the lamp's being seen from afar.
+Ruling: set at the water's edge by the harbor mouth, the lamp's light shows across the mouth and the inner water of a harbor of this size, and no farther: not the skerries and not the open water outside. Undisputed.
+Binds: god-sea's card.
+
+## L-0034
+Date: 2026-11-24. Year: 1 (night turn). Card: god-dreams. Keeping Sleep.
+Matter: (1) whether a flame lit from her lamp at the court's hearth is a household kept and one of the seven; (2) which fear arrives at dawn.
+Arguments: the god's own readings, stated for correction.
+Ruling: (1) lighting a flame from the lamp makes a shrine kept for her and is not Keeping Sleep. The court's hearth is such a shrine. It is one of the seven only on a night she lights her lamp there at dusk to keep that household's sleep. (2) As the card says: what arrives is the fear that would have broken that household's sleep that night. Grief is not fear and does not arrive; fear for a dying one, where it is fear, does. Undisputed.
+Binds: god-dreams's card.
+
+## L-0035
+Date: 2026-11-24. Year: 1 (night turn). Card: god-beasts. The Listening.
+Matter: what its own people read as, a few standing apart, or one herder with a dog.
+Arguments: the god's: its people are "the empty place". The Keeper's side: the card says they are never read.
+Ruling: its own people read as nothing at all. An empty place is not a thing the Listening marks; the god can only reason to it from kept beasts that move and rest as kept beasts do. A herder with a dog reads as a dog alone. A few of its people apart from any beast read as nothing. Undisputed.
+Binds: god-beasts's card.
+
+## L-0036
+Date: 2026-11-24. Year: 1 (night turn). Card: god-secrets. Finding What Was Hidden; the key as the instrument.
+Matter: (1) whether the townspeople are its own people before the town enters it on any roll; (2) whether the key, left on its clothes in a hired room while it walks as the dog, is left where another could take it.
+Arguments: the god chose the narrower reading of (1) itself and asked only to be corrected. On (2) it accepts whatever the answer costs.
+Ruling: (1) they are its own people from the landing; a roll makes no one its people and unmakes no one, as with every god whose card names its own people. Its narrower reading is the right one. (2) Yes: the key is in its keeping only while it is on it. In any place where it is not, whoever picks it up holds it, as the card says. On the night in question no one entered the room, so it cost nothing. Undisputed.
+Binds: god-secrets's card.

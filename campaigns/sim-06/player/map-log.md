@@ -2,3 +2,9 @@
 - 2026-11-24 | year 1 | feature f21 | reported -> reported | the channel woman Bren, in the yard
 - 2026-11-24 | year 1 | feature f23 | reported -> reported | market talk on the landing day
 - 2026-11-24 | year 1 | region r14 | seen -> seen | market talk on the landing day
+- 2026-11-24 | year 1 | feature f21 | reported -> seen | walked on the landing morning; named by the channel woman Bren; called the Bank Way by the channel woman Bren, in the yard, found to be Bank Way
+- 2026-11-24 | year 1 | feature f23 | reported -> reported | seen where it meets the town; named in market talk on the landing day
+- 2026-11-24 | year 1 | feature f27 | none -> rumored | an old salt-raker in the line at the gate
+- 2026-11-24 | year 1 | feature f25 | none -> rumored | hill carriers at the gate
+- 2026-11-24 | year 1 | region r20 | none -> rumored | hill carriers at the gate
+- 2026-11-24 | year 1 | region r10 | none -> rumored | upriver traders at the gate

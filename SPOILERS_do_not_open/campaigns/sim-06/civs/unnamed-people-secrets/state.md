@@ -15,3 +15,6 @@ trade: grain, reed work, salt fish and leather out; stock, wool and metal in, by
 strength: a standing watch of about 100 and a call-up of about 500; earth and timber walls. Unchanged. The Gate Warden had a quiet watch put on the stranger's room in the first month and relaxed it in the winter.
 
 mood: busy and talkative, still a little sour over the dredging, which is sharper and not settled. A stir about the stranger who counts: half amused, half wary, and a joke that the books come right behind him. The council is divided five to four over his stool and has not moved from it.
+
+## Keeper, Year 1, pass two
+Nothing was found on the open ground in month 8: nothing lies hidden there. The stranger was back from the south-west inside the fortnight, before the year's end. No one entered his room on the dog's night.

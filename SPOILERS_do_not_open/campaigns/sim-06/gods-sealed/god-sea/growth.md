@@ -48,7 +48,7 @@ Tier reached (year):
 
 ## Banked Coal (knack)
 Related skills: tending a fire, a forge or a lamp through wind and wet
-Use:
+Use: Year 1: surfaced. It lit and kept its own lamp at the water's edge by the harbor mouth through a night of wind and spray, month 4 (the late boat). One use.
 Grown (year, how far):
 
 ## Crew Count (knack)
@@ -60,3 +60,6 @@ Grown (year, how far):
 Related skills: smithing: working hot metal and judging a heat by its color
 Use:
 Grown (year, how far):
+
+## Year notes
+- Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.

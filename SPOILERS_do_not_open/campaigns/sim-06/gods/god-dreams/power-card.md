@@ -90,6 +90,10 @@ Growth: Possible. Not shown.
 ## Hidden powers
 Two hidden powers exist. Discovered powers are added above as they surface.
 
+### Watch-Wakeful
+Status: knack (surfaced Year 1: winter, the night she sat beside the Night Sitter)
+What it does: She stays attentive through a long watch and notices a change in a sleeper's breathing. A knack is small: it shades an outcome or a craft and never does what a power does.
+
 ## Weaknesses taken
 
 ### The lamp as the instrument
@@ -103,3 +107,5 @@ Offered once, on Night 2. Taken: the lamp as the instrument, for the keepers' li
 Set by the world. Not shown.
 
 ## Dated entries
+- 2026-11-24, Year 1: Keeping Sleep, two rulings. Lighting a flame from the lamp makes a shrine kept for her and is not Keeping Sleep; the court's hearth is such a shrine, and it is one of the seven only on a night she lights her lamp there at dusk to keep that household's sleep. What arrives at dawn is the fear that would have broken that household's sleep that night: grief is not fear and does not arrive; fear for a dying one, where it is fear, does. Ledger: L-0034.
+- 2026-11-24, Year 1: a knack surfaced, written under Hidden powers as a knack. Watch-Wakeful: she stays attentive through a long watch and notices a change in a sleeper's breathing. It does nothing a power does. Surfaced in winter, in the night she sat beside the Night Sitter.
