@@ -4,7 +4,7 @@ Campaign: sim-06.
 
 ## Now
 
-As of the Year 3 played day, 2026-11-24 (Pacific). It has now told two mortals it is a god, the Assay-master and the Stallreeve, and has said it before the yard at the gatepost. It has taken the Weightward's seat for a term of three years and a day, on the eleven's terms, and struck a bargain to read boats at dawn at any landing that asks (dated entry below).
+As of the Year 3 played day, 2026-11-24 (Pacific). It has now told the Assay-master and the Stallreeve what it is, a god, and has said it before the yard at the gatepost. It has taken the Weightward's seat for a term of three years and a day, on the eleven's terms, and struck a bargain to read boats at dawn at any landing that asks (dated entry below).
 
 What it is about: fair measure, and the price of the unfair kind. Not wealth as such. "The moment two people agree on what a thing is worth."
 
