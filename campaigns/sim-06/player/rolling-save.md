@@ -234,3 +234,19 @@ For the Keeper tonight (not decisions): when the ring sits and whether it lets t
 - One sealed answer taken to the sealed record.
 
 For the Keeper tonight (not decisions): the winter and spring as told have no dawn readings at a landing and no sitting.
+
+## 6. Held, third: the gatepost, the seat (Year 2, the ninth month); the third held moment played
+
+- Rolls r-0014 (DM, the world's question, odds 35 that it was out) and r-0015 (weighted draw): the scale in its hand was out, heavy on the buying side by about one part in thirty. It said so.
+- The Weigher took up the half-stick and said yes before the yard, in the player's words. Said first: it is a god; the Assay-master asked and was told; the Stallreeve has known since the evening of the weighing.
+- Its terms, spoken: the seat for three years and a day as the eleven set it, the Assay-master's hand on the beam beside its own, the ring's right to put the seat down at any sitting three of them call, not softened. It keeps the standards and does not set the town's weight. It does not wait for the seventh; the rack stays as it is, the seventh seat unwiped; if the seventh turns up it turns up before the ring. The chest opened only before a pair of the eleven and never by it alone. It takes the old keeper's key off the peg before the ring and puts it back when the term ends. No fee for the seat and none of the hall's pinch. The gate as it is; the Stallreeve's rules stand. The Assay-master tests as before; it checks what he has passed when he asks.
+- To the yard: "I am the Weightward, for a term. I am not their god, and nothing here is mine." Taken as its answer to the yard's cry (pending, silence 6).
+- The Tally-keeper fitted her half to its half and said the terms back. The Stallreeve: the Weigher has said yes on the eleven's terms; he carries the rest up as said; the key is taken in the ring, before the ring, and not before. The Assay-master: "Expect to be argued with at the beam."
+- NOT TOLD: how the yard and the ring take the word god at the gatepost. It turns on whether they had heard it at the sitting asked for in the first month, which is the Keeper's tonight. Said to the player in (oog).
+- God-sense: no weight in the air.
+- The half-stick of the seat is in its hand. The half-stick of the first asking is in its coat.
+- Promises standing: the seat, on the terms spoken; the sitting; the boats.
+- Given by the player for the rest of the year (for decisions-003): the gate on market mornings; the boats at the ship owner's landing on other dawns; the Tally-keeper asked, with the ship owner present, what sticks for boats would do to her count, and left alone if she says no; the six weighed again before the ring at the first sitting after the next grain, as its offer (the ring set only that the matter comes back then; corrected in (oog)); one more day at the pits when the tiles fail, a new decision (no file has it promised; corrected in (oog)), saying again that it cannot tell which clay is good; the Assay-master asked once, quietly, what the three saw in the loft, and left alone if he will not say.
+- Told to the player: one dim night in the ninth month; the coaster out of Corrith at the town's landing in the first month of summer.
+- Board laid, held fourth: the tenth month, the gate, the coaster's master at the head of the line with a ship's balance. Nothing said by either. Her words are the Keeper's; the player was asked for the Weigher's words and conduct to hand over.
+- One sealed answer taken to the sealed record.

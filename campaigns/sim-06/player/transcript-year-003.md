@@ -373,3 +373,43 @@ I put the scale in my hand down on the clay, read, and say what it reads. Then I
 For the rest of the year I keep the gate on market mornings, read the boats at the ship owner's landing on the other dawns, and ask the Tally-keeper, with him present, what sticks for boats would do to her count. If she says no, I leave it. I weigh the old weights again, the six, in front of the ring at the first sitting after the next grain, as the ring set. I give the clay diggers and the kiln-masters one more day at the pits when the tiles fail, because I told them I would, and I will tell them again that I cannot say which clay is good. And I ask the Assay-master quietly what the three of them saw in the loft, once. If he will not say, I leave it.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You set the scale down on the clay with your own beside it and read it before anything else. It was heavy on the buying side by about one part in thirty, and you said so, in your cups, to the stallholder whose scale it was, who took it back without a word and stood holding it.
+
+Then you bent and took up the half-stick, and you answered the eleven before the yard.
+
+You said yes, with things said first. That if anyone in the ring has not heard it from you, you say it now: you are a god; the Assay-master asked and you told him, and the Stallreeve has known since the evening of the weighing. That you take the seat for three years and a day, as the eleven set it, with the Assay-master's hand on the beam beside yours and with the ring's right to put it down at any sitting three of them call, and that you do not ask for that to be softened: a keeper the ring cannot put down is not a keeper, it is a lord.
+
+That you keep the standards and do not set the town's weight; you call what each piece is now, and the eleven say which is the town's. That you will not wait for the seventh to be found, because a hall without a keeper while it is looked for keeps nothing; that the rack stays as it is, with the seventh seat unwiped, and if the seventh turns up, it turns up in front of the ring. That the chest is opened only before a pair of the eleven, as the ring said, and never by you alone; that you take the old keeper's key off its peg in front of them and it goes back on the peg when your term ends. That you take no fee for the seat, and none of the hall's pinch at the bench. That the gate stays as it is, and the Stallreeve's rules on sticks and tokens stand; that the Assay-master tests as he always has, and you check what he has passed against your scales when he asks, and not when you like.
+
+And last, to the yard: that it has been calling that word since the day of the weighing, and may hear it from you once. You are the Weightward, for a term. You are not their god, and nothing here is yours.
+
+The half-stick was in your hand, dry and light, the cut face toward your palm.
+
+The Tally-keeper fitted her half to it while you held it, as she does, and the cut ran true across both. She said your terms back in your words, every one, and the Stallreeve nodded at each. "The eleven asked, and the Weigher has said yes on the eleven's terms," he said, loud enough for the line. "The rest it has said in front of you, and I'll carry it up as it was said. The key is taken in the ring, before the ring, and not before." He did not look at the yard while he said it. He looked at you.
+
+The Assay-master unfolded his arms. "Expect to be argued with at the beam," he said. It is what he said to you at the hall door a year before.
+
+No weight is in the air. The stallholder is still at your elbow with the scale.
+
+(oog) Why I stop the yard there, and some corrections.
+
+How the yard and the ring take the word "god" at this gatepost depends on something that is not yet settled: whether they had already heard it months before, at the sitting you asked for in the first month, with the yard let in. That sitting is the Keeper's to resolve tonight. If I told you the yard's answer now I would be inventing one or the other. So the seat is taken, on the eleven's terms and yours, in front of the three who carried the offer, and what the town does with what you said is in the morning's telling. I take your words to the yard as your answer to its cry of "Weightward" as well.
+
+Two rolls, the world's, made in the open log before writing: whether the scale in your hand was out, at 35 in 100 (even; plus 10 for wood and cord; minus 10 for a people good with small numbers; minus 10 for the years of readings at this gate; minus 5 for the reading-sticks and their notches), and then which way and how far. It was out, and you called it.
+
+Two points of record on what you gave for the rest of the year. The ring did not set a second weighing of the six; it set that the matter of the town's weight comes back at the first sitting after the next grain. I have written your weighing them again before the ring as your offer for that sitting. You told the diggers and kiln-masters at the pits that you had told them nothing and cannot tell which clay is good; no file has you promising them another day. I have written the second day as a new decision of yours and not as a promise kept.
+
+The rest is written as you gave it: the gate on market mornings, the boats at the ship owner's landing on the other dawns, the Tally-keeper asked with him present what sticks for boats would do to her count and left alone if she says no, and the Assay-master asked once, quietly, what was seen in the loft, and left alone if he will not say. What each of them answers is the world's.
+
+Now the last moment that is waiting, with the year as it stood between.
+
+On one night of the ninth month the blue light dimmed, as before, and you saw it from the landing.
+
+In the first month of summer a coaster of the southern harbor towns came up the main channel to the town's own landing, which did not happen last year. Her master is a woman of about forty, with a mate and about a dozen hands. For some days she traded at the landing: took salt, pots and reed mats, paid in goods of the south coast weighed on the town's scales, and asked the news of the town as such masters do. A boatman told Bren, in your hearing, that she is out of Corrith. A man of her crew stood at the gatepost through one market morning watching the readings, and went away without a scale. She asked the Stallreeve where she might have her scale read, and he told her the line.
+
+It is the tenth month, a market day, early. She joined the line before light like anyone and waited her turn. Your hand has just come off the last scale before hers. She steps up to the foot of the gatepost with a ship's balance in her hand. The yard behind her has gone quiet. Nothing has been said by either of you. No weight has come into the air.
+
+(oog) She is not of the town, and her words are not mine to give: what the Weigher says and asks of her goes to the Keeper, who answers for her tonight. So tell me what the Weigher does and says at this moment, what it asks her if anything, and what it will and will not answer if she asks about itself, and I will hand it over whole. The year past this morning I cannot tell you until it is played, and that is for the morning.

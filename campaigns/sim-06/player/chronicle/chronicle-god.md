@@ -20,7 +20,7 @@ The Stallreeve's carrying of the council's invitation to the gatepost, in the hi
 
 # The god's side of the chronicle: Year 2
 
-The DM's working draft, from the Year 2 played day (`player/rolling-save.md`, Year 2, sections 1 to 4; `player/transcript-year-002.md`), the decisions handed off (`player/decisions-002.md`) and the Keeper's release (`releases/002/dm.md`). The year line: the played day stood late in the eleventh month of Year 1, so this draft runs from there to the end of Year 2. Everything after the evening of the weighing is provisional, resolved with the Assay-master's question unanswered, and everything after the ninth month with the seat unanswered. The player has been told the year as far as the third held moment (the ninth month); the player-facing files hold no more than that until each held moment is played.
+The DM's working draft, from the Year 2 played day (`player/rolling-save.md`, Year 2, sections 1 to 4; `player/transcript-year-002.md`), the decisions handed off (`player/decisions-002.md`) and the Keeper's release (`releases/002/dm.md`). The year line: the played day stood late in the eleventh month of Year 1, so this draft runs from there to the end of Year 2. Everything after the evening of the weighing is provisional, resolved with the Assay-master's question unanswered, and everything after the ninth month with the seat unanswered. The player has been told the year as far as the fourth held moment (the tenth month); the player-facing files hold no more than that until each held moment is played.
 
 ## The held moment at the gatepost, played (Year 1, the eleventh month)
 
@@ -67,14 +67,22 @@ As the release gives it, resolved before the hall and the landing were played; t
 - Spring. Its standing answer on the split reed island. The master of the potters fired the nest again and chose eleven by the gate's readings that agree to a hair; that nest is at the potters' hall. The test tiles do not tell. The spring flood, ordinary; the boat people gone at the lowest tides and back.
 - Held, third, told as its board: the ninth month, at the gatepost. The council voted for the seat, six for and four against with one away. The Stallreeve, before the yard: the eleven ask the Weigher to take the Weightward's seat for a term of three years and a day, with the Assay-master's hand on the beam beside its own, and with the eleven's right to put the seat down at any sitting that three of them call. Half a split stick lies at the foot of the gatepost. Nothing answered.
 
-## After the third held moment (provisional; not yet told to the player)
+## The third held moment, played (Year 3 play day; rolling save, Year 3, section 6)
 
-- Held, fourth: the tenth month, at the gate. A coaster of the southern harbor towns came up to the town's own landing; a boatman said she is out of Corrith. Her master, a woman of about forty, stands at the head of the line with a ship's balance. Nothing said by either. Her words are the Keeper's to give.
+Read the scale in its hand: out, heavy on the buying side by about one part in thirty (r-0014, r-0015). Took up the half-stick and said yes to the seat before the yard, saying first that it is a god, with its own terms spoken. The Tally-keeper matched the halves; the Stallreeve carries its words up and says the key is taken in the ring; the Assay-master expects to argue at the beam. The yard's and the ring's taking of it is left to the Keeper, since it turns on the sitting of the first month.
+
+## Told to the player on the Year 3 play day: the ninth month to the tenth
+
+- One dim night in the ninth month.
+- Held, fourth, told as its board: the tenth month, at the gate. A coaster of the southern harbor towns came up to the town's own landing; a boatman said she is out of Corrith. Her master, a woman of about forty, stands at the head of the line with a ship's balance. Nothing said by either. Her words are the Keeper's to give.
+
+## After the fourth held moment (provisional; not yet told to the player)
+
 - Summer. Upriver traders had scales read and went home with the story of the heavy pieces. A salt-raker's pinch of salt taken as the fee. The grain came in. The council sat after the grain, could not decide the weight, and waits on the answer about the seat.
 
 ## The sky
 
-Year 1's dim nights are released as seen, since the player has said how it keeps its nights: two in the first month of autumn and one in the dead of winter, from the landing. Year 2: it saw the star dim on five nights from the landing, in the second, sixth, ninth, eleventh and twelfth months, each as before. The one in the second month is told (Year 3 play day); the one in the sixth month is told too; the other three are not yet told.
+Year 1's dim nights are released as seen, since the player has said how it keeps its nights: two in the first month of autumn and one in the dead of winter, from the landing. Year 2: it saw the star dim on five nights from the landing, in the second, sixth, ninth, eleventh and twelfth months, each as before. The one in the second month is told (Year 3 play day); those in the sixth and ninth months are told too; the eleventh and twelfth are not yet told.
 
 ## Senses, body, powers
 

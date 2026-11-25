@@ -72,5 +72,8 @@ Told of. Walkers who came when the oldest were young, sang names all night on th
 ## Other gods
 None met. The god knows only that others like it came down when it did.
 
+## The master of the coaster
+Alive, name not given. A woman of about forty, master of a coaster of the southern harbor towns, with a mate and about a dozen hands; a boatman says she is out of Corrith. Came up to the town's own landing in the first month of summer, Year 2, traded some days, and asked the Stallreeve where to have her scale read. Last seen: at the head of the line at the gate, the tenth month, a ship's balance in her hand. No weight in the air from her as far as the line.
+
 ## The tide-reckoner
 Alive, not met. Her word went to the line by the Stallreeve in the fifth month of Year 2: the Alder would crest over the lowest paths in four days. It did, at the height she gave and a few hours off the hour.

@@ -55,3 +55,6 @@ As found, Year 1. None of it was set by the god.
 - The blue light dimmed on one night in the sixth month of Year 2. (Seen from the landing.)
 - The potters' second nest, eleven chosen from twenty-two by the gate's readings, agrees with itself to a hair. It is kept at the potters' hall. (Read at the gate, Year 2, the seventh month.)
 - The people's code, added: by the god's bargain with the ship owner of the channels, set before the Stallreeve, a boat's load may be set out and called at dawn at any landing whose owner asks, for a pinch from the captain, on days the gate is not kept; no reading on a market morning anywhere but the gatepost. (Played, Year 2, the fourth month.)
+- The god holds the Weightward's seat by its yes at the gatepost, Year 2, the ninth month: a term of three years and a day, the Assay-master's hand on the beam beside its own, the eleven's right to put the seat down at any sitting that three of them call. It keeps the standards and does not set the town's weight. The old keeper's key is to be taken in the ring. (Played on the Year 3 day.)
+- It said before the yard that day that it is a god, and that it is not the town's god and nothing there is its own. This adds to the lines above.
+- The blue light dimmed on one night in the ninth month of Year 2. (Seen from the landing.)

@@ -9,10 +9,11 @@ Kept current by the DM. Status lines added beneath the morning's list as each is
 - Post 4: the first held moment is played and ended. The two decisions put in post 3 are answered (it told the Stallreeve itself; it comes to the sitting and says it first). Silence 5 answered: a word sent to Ruddfold by the next carrier. Held 2 (the ship owner's bargain) told to the player as its board, post 4; waiting on the player.
 - Post 5: held 2 answered in play with a counter-offer (rolling save, Year 3, section 4); odds 45 stated, the roll waits on the player.
 - Post 6: held 2 played and ended: rolled, the ship owner took the Weigher's terms. Held 3 (the seat) told to the player as its board, with silence 6 (the yard's "Weightward") put beside it; waiting on the player.
+- Post 7: held 3 answered in play: yes to the seat, on the eleven's terms and its own spoken ones (rolling save, Year 3, section 6). Silence 6 answered by the same words. Held 4 (the coaster's master) told to the player as its board; the player asked for the Weigher's words to hand to the Keeper.
 - Silence 1 (say that to the eleven on the day): overtaken, he said it himself; told to the player, who may still answer.
 - Silence 2 (where it learned to weigh): not asked again; told to the player, who may still answer.
 - Silence 5: answered, post 4. Silence 6: put with held 3, post 6.
-- Held 4: not yet told to the player.
+- Open asks of the god at this point: none but held 4.
 
 # Pending questions: Year 3, at the morning
 

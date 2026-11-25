@@ -4,7 +4,7 @@ Campaign: sim-06.
 
 ## Now
 
-As of the Year 3 played day, 2026-11-24 (Pacific). It has now told two mortals it is a god, the Assay-master and the Stallreeve, and means to say it to the ring itself (dated entry below).
+As of the Year 3 played day, 2026-11-24 (Pacific). It has now told two mortals it is a god, the Assay-master and the Stallreeve, and has said it before the yard at the gatepost. It has taken the Weightward's seat for a term of three years and a day, on the eleven's terms, and struck a bargain to read boats at dawn at any landing that asks (dated entry below).
 
 What it is about: fair measure, and the price of the unfair kind. Not wealth as such. "The moment two people agree on what a thing is worth."
 
@@ -157,4 +157,10 @@ Unsaid wants are kept sealed.
 - It brought the boats' fee down to the gate's pinch of its own accord: "A pinch of salt from the captain is small enough to be honest and large enough to keep the line. If he wants to give more, he can give it to the Tally-keeper for her sticks, not to me."
 - Of a short load: "that is exactly what I'm for, and I won't pretend otherwise."
 - If refused: "I won't chase him."
+- It took the Weightward's seat, before the yard, and said first that it is a god. "A keeper the ring cannot put down is not a keeper, it is a lord."
+- "I keep the standards. I do not set the town's weight." It would not wait for the seventh: "a hall without a keeper while it is looked for is a hall that keeps nothing." "If it turns up, it turns up in front of the ring."
+- The chest is "never by me alone"; the old keeper's key comes off its peg before the ring and goes back when the term ends; no fee for the seat.
+- It checks what the Assay-master has passed "when he asks, not when I like."
+- To the yard: "I am the Weightward, for a term. I am not their god, and nothing here is mine."
+- Of the loft it asks the Assay-master once, quietly: "If he will not say, I leave it."
 - Answers were given privately today and are kept sealed.

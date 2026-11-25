@@ -26,6 +26,9 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
 - 2026-11-24, Year 2 played day (a sealed part of the first reply, after remitting the thief's price at the gatepost): "Remitting the price is half generosity and half tactics. A man who is not forced to pay me will talk to me, and a bonded man who tried my pocket is a man whose master I want to know. I'd rather the town think I was soft than think I was hunting."
   Confirmations: none yet.
 
+- 2026-11-24, Year 3 played day (a sealed part of the sixth reply, after taking the Weightward's seat at the gatepost): "I took it because I want it. I told myself it was because a hall without a keeper keeps nothing, and that is true, and it is not the reason. I am a god of measure being offered the standards of a town, and I have just been told that a rack with a clean empty seat is mine to guard. If the seventh turns up in my coat, I do not know what I would do. I do not think it is there. I have not checked the pocket I keep empty, and I am going to."
+  Confirmations: none yet.
+
 ## Fear
 
 - 2026-11-24, creation Day 3 (same reply): "I am afraid of being the one that register catches."
@@ -79,3 +82,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24, Year 3 played day: the third sealed part is filed under Fear. Its decision (to say what the Reading is if asked outright) was also given in the open post and is in the rolling save; its sealed reason is not. The Weigher did not read the Stallreeve: no bargain was struck and the player said it would not. Whether he asked was rolled as the world's question (r-0012); he did not. Not put to the player for confirmation and not acted on.
 - 2026-11-24, Year 3 played day: the fourth sealed part is filed under Other. Not put to the player and not acted on; it is no factor in the roll on the bargain.
 - 2026-11-24, Year 3 played day: the fifth sealed part is filed under Other. Not put to the player and not acted on. The bargain at the landing was not read by the Weigher; the player did not choose to read it.
+- 2026-11-24, Year 3 played day: the sixth sealed part is filed under Want (its first sentences; the fear about the seventh and the pocket kept whole with it). Not put to the player for confirmation and not acted on. It says the Weigher is going to check the empty pocket. That act was given only here, so it is not in the transcript, the rolling save or the decisions; if the player says it in the open it is answered from the card, which gives the pocket as always empty. For the Keeper to see.
