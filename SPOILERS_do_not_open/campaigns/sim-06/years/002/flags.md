@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 2
 
-Status now: raised 10, resolved 0, open 10.
+Round 2 (the recheck) is at the end of this file. Status now: raised 10 in all, resolved 10 (nine fixed, one cleared by a ruling the checker accepts, for review), open 0.
 
 ## Round 1
 
@@ -136,3 +136,51 @@ None new from the checker this round. The Keeper's own list for Year 2 (keeper l
 ## Counts, round 1
 
 Raised 10 (moderate 3, minor 7, major 0). Resolved 0. Open 10.
+
+## Round 2: the recheck
+
+Run by the continuity checker, 2026-11-24, from 23:04 to 23:09 Pacific, at head 46526ad ("the checker's round 1 flags answered"). Pulled first; already up to date. Read in full: the diff of 46526ad (29 files), the keeper log from "5. The check, round 1: ten flags", ledger L-0043, the changed lines of `year.md`, the releases, the peoples' files, the growth file and the four map knowledge files; the Year 1 keeper log's step 2 ruling on one night under different seasons, keeper log 3b.8 (the landing hour), and DESIGN 8.1 (natural events: "Each country opens its year in its own season").
+
+### Scripts at 46526ad
+
+```
+tools/check.py sim-06 2
+clock not advanced to year 3
+missing: the morning story (campaigns/sim-06/years/003/morning-story.md)
+no painting request for the morning story
+campaigns/sim-06/state/rolls.jsonl: rolls in the public log; rolls are sealed
+4 finding(s)
+
+tools/lockcheck.py sim-06 --all
+FAIL rolls: campaigns/sim-06/state/rolls.jsonl: the public rolls log is not empty; rolls are sealed
+places 0 failures, 31 warnings; leaks 0; releases 0; mysteries 0; rolls 1; dashes 0
+```
+
+Judged as in round 1: the clock, the morning story and the painting request are steps 7 and 8; the public roll log stands as ruled in Year 1. Of the 31 place warnings, 24 are the civ agents' own files as in round 1, and the seven new ones are names inside this flags file, which do not count (checker.md).
+
+### The ten round 1 flags
+
+1. **Cleared by ruling L-0043, accepted by the checker.** The Keeper ruled that there is one count of months, month N of the clock being month N of every country's year on the same nights, each country in its own season; no month changes. Judged by the judgment order:
+   - Fairness: the ruling changes no outcome, roll or branch for any god or people, and takes no dim night out of a record a people already holds. The checker's reading would move three peoples' nights across a year's turn and need Year 3's sky rolled early, unfair to no one but unsettling to all three.
+   - Fit with the design as written: DESIGN 8.1 has each country open its year in its own season, and the lock fixes one landing night and one hour for all eight (keeper log 3b.8), with each god waking into its own season on that night. On the landing night it was already autumn in some countries and spring in others. One night in more than one season is therefore the design's own premise, and the checker's round 1 reading (one season for the whole land at a time) is the one that breaks it. The schedule's month rule ("a month is counted from the waking season of the country the row names") reads cleanly as naming each country's season for month 1 of the one count. The Year 1 night made the same ruling (keeper log, Year 1, step 2, listed for review), and the Year 1 checker passed the year on it; round 1 of this year missed that line. The ruling is now in the ledger, so it binds and can be found.
+   - Balance: the same for all eight.
+   Accepted. The months in the six Year 2 releases, the three Year 1 god releases and the three peoples' files stand as written, and `year.md` now names the rule. Resolved.
+2. Fixed: "blessed" in god-sea's people's lore; "Ivo Strand's fortune" in the year file, the report and the steersman's file. No word of the factor remains in any civ file (searched). Resolved.
+3. Fixed: `tools/map.py reveal` raised god-rivers's Wellen Brook [f12], Brook Path [f46], Wellen Ford [f47] and River Wellen [f08]; god-secrets's River Iss [f11] and r06; god-sea's Garrow Skerries [f31] and r30; god-thresholds's Kennoch Heights [r02]. Each is now seen, Year 2, with the god's own source. The Keeper ruled that the two farthest toll houses stand on the road in the Kennoch Heights [r02], short of the road's end and the Aldermark [r10]. Its reasons are that a people's toll houses stand on ground it holds, and that the record has the Sarrow holding passes and fords. It fits mystery S08 ("the two farthest" on the Pass Road [f65]) and fixes no new map feature. "To its far end" and "eight days" are gone from her release, her people's release, the state line and `year.md`. The Aldermark [r10] stays ungraded for her. The flower is now told to her at a rite fire and not seen, which agrees with her people's year file (line 105: the herders went up and told it at the fire, where she sat). So the Kennoch Gates [f64] rightly take no grade. The keeper log's wrong line is corrected. Resolved.
+4. Fixed: Sound Timber twice, the Year 1 keel found sound, in `year.md` and the growth file. Resolved.
+5. Fixed: the skerries and the bay from month 7, the harbor bed from month 8, in `year.md` and the god's release; the keeper log names the earlier line. Resolved.
+6. Fixed: the god release, the Longwalk's release, the state line and `year.md` give three gatherings of people with draught beasts, where, which way, their state, and no number. The truth is kept in `year.md`, marked as not read. The Longwalk's own year file still says it told the Marchwarden "how many". The civ release tells its agent to read the corrected line in its place. That is the right way to correct a civ agent's own file from the Keeper's side, and it reaches that agent in Year 3. Resolved.
+7. Fixed: Orrin and the west kiln-master judge the two sets; the god says it has then told them nothing, in `dm.md`, `year.md` and the people's year file. Resolved.
+8. Fixed: the card text in `dm.md` now gives L-0037's ruling whole, matching the ledger word for word. Resolved.
+9. Fixed: "Traders from the Aldermark" and "Boats from the Aldermark"; the scan is clean. Resolved.
+10. Fixed: god-sea's people's release now says she told the water and no stick answered. Resolved.
+
+### New in round 2
+- No new flags. The changed lines bring in no new name, place, distance, count or sealed term; the leak and dash scans are clean. The DM release's sky line now carries its own handling note, which is for the DM and not for the morning story.
+
+### Rulings for review, round 2
+- **One count of months under different seasons (L-0043), accepted by the checker.** For Michael: the design puts neighboring countries in different seasons on the same night: the Longwalk's summer grazing beside the delta's winter, a dry month on one side of a ridge in a season the other side does not share. The world's records already carry it and nothing in this year turns on it. Should DESIGN 8.1 and the schedule's month rule say so in words, so that no later checker reads one season for the land, as this one did in round 1? And should events that move between countries (trade, the coaster's summer, a sickness by trade) name the season of the country they arrive in, as row S06-a and others already do?
+- **Where the farthest toll houses stand (keeper log, round 1).** Checked against S08 and the Sarrow's record; it holds.
+
+### Counts, round 2
+Raised 0 new (10 in all). Resolved 10. Open 0. Severity of the ten as raised: moderate 3, minor 7, major 0.
