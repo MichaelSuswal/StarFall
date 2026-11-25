@@ -159,3 +159,21 @@ State at the close:
 - Rolls today: r-0006 to r-0010.
 - Pending questions: the Assay-master's five are answered by handed-off words, not yet spoken to him. No other ask is open. Open with the Keeper: where the old weights are kept and what the eleven answer to the terms; the Year 1 nights as seen or heard; the master stallholder's scale within the month; clay under The True Measure.
 - Sealed answers taken today: four, all in the sealed record.
+
+# Rolling save: Year 3
+
+Campaign sim-06. Kept by the DM during the Year 3 play day, 2026-11-24 (Pacific). Newest entry last.
+
+## 1. Held, first: the evening of the weighing, in the hall (Year 2, the first month)
+
+- The Weigher answered "What are you?" in the player's words, standing, scales on its belt, hands in view: it is a god; others came down into this country when it did and it has felt none of them; it came down the old bank at first light and does not know where from or whose child it is.
+- It told him the scales are the whole of what it carries that he can use, what they give (weight, count, purity; nothing of who or how), that it cannot give a false measure and can keep silent, that there is more to it than the scales which it will not list tonight, and that asked about a particular power it will say yes or no or that it will not answer, and will not say no to a yes.
+- It told him it did not come to take his hall; that it did not take the seventh weight, never touched the chest, and did not know the rack was cut for seven until he lifted it out; and that it will say so before the eleven if he wants it said.
+- Its asking, his to refuse: that he keep this between them until he has decided what the ring should hear, say nothing false, and tell the ring what it told him if plainly asked. NOT RESOLVED. He has said he will answer after it answers him. Odds stated to the player, 60, with factors; waiting on the player's answers and any argument.
+- On the seat: not tonight. "It is not whole, as you said, and I will not take it half."
+- One phrase was not said: the player wrote "for two years"; the evening is a year and about a month after the landing, and the card forbids a false count. Said as "since the day you came". Told to the player in (oog).
+- The Assay-master: he will not say he believes it and will not say he does not; he has nothing to set against the word, and has six calls his beam could not fault. He noted that it denied taking the seventh unasked. He asked three things: why it asked the Stallreeve where the weights are kept and who holds the key, before it had seen the chest (asked again); whether he was right to answer the master of the smiths for it, and whether it can find the seventh; and what he could put on a beam that tells a god from a man with good brass.
+- God-sense: no weight in the air. He is a mortal, as before.
+- Board as left: the hall, the door shut, one lamp, the six on the cloth, the Assay-master waiting for its answers.
+- The Weigher has now told one mortal it is a god: the Assay-master. No seal set, no licence given. No promise made beyond what it said it would answer.
+- One sealed answer taken to the sealed record.

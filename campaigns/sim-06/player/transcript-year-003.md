@@ -89,3 +89,37 @@ You told me how the Weigher keeps its nights. So the dim nights of Year 1 are yo
 I stay standing. I leave my scales on my belt and my hands where he can see them.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You said it standing, with the scales on your belt and your hands where he could see them, and the one lamp put your shadow across the cloth and the six weights.
+
+You told him that you are a god. That others came down into this country when you did, and that you have felt none of them yet. That you came down the old bank at first light, as you had told him, and that you do not know where from or whose child you are, because that part was left behind.
+
+You told him the scales are the whole of what you carry that he can use: that they tell you what is in the pans, or what is weighed beside them while you stand near, its weight, its count and its purity, and nothing of who made it so or how it came to be that way. That you have shown him three times and will show him again. That you cannot give a false measure, spoken, written or by a nod, that you can keep silent and have, and that he has had the cost of that silence from you since the day you came. That there is more to you than the scales and you will not list it tonight; that if he asks about a particular power you will say yes or no, or say that you will not answer, and that you will not say no to a yes.
+
+You told him you did not come to take his hall, and why you stood at his gate first: so that the town would know the scale before it knew the one who carried it. That you did not take the seventh weight, never touched the chest, and did not know the rack was cut for seven until he lifted it out today, and that you will say so in front of the eleven if he wants it said. You asked him the one thing, and said it was his to refuse: to keep this between you until he has decided what the ring should hear, to say nothing false to them, and to tell them what you told him if they ask him plainly. And of the seat you said not tonight. It is not whole, and you will not take it half.
+
+The Assay-master did not move while you spoke. When you had finished he looked at the scales at your belt for a time, and then at the cloth. No weight came into the air. There was only a grey-haired man standing over six old weights.
+
+"I asked, and you have said it," he said. "I will not say I believe it and I will not say I don't. I have nothing to set in the other pan against that word. What I have is six calls today that my beam could not fault, and that your call had the fifth light before my own hand did."
+
+He straightened the corner of the cloth.
+
+"You say you did not take the seventh. I had not asked you." He let that stand a breath. "Before you had seen the chest you asked the Stallreeve where the weights are kept and who holds the key. I asked you why, at this door, and had nothing. I am asking again.
+
+"The master of the smiths asked you in the ring where the seventh is, what it weighed, and whether you can find it. I answered for you, that you weigh what is put in front of you and there was nothing there. Was I right to? Can you find it?
+
+"And a thing for my own trade. I put a piece on a beam and the beam tells me what it is. What do I put on a beam that tells me a god from a man with good brass?"
+
+Of what you asked him to keep, he said, "I will answer that when you have answered me."
+
+He is waiting, across the cloth, with the lamp between you.
+
+(oog) Three plain things.
+
+A word I did not have the Weigher say. You wrote "you have had the cost of that from me for two years." This evening is in the first month of Year 2, a year and about a month after the landing, and a count of years is a count: your card does not let the Weigher give a false one. So I had it say "since the day you came", which carries the same thing. If you want it worded another way, tell me.
+
+His three questions are his own, and two of them are asks that met silence before: the key, from the hall door, and the seventh, from the master of the smiths in the ring. Of the other two from the hall door, he has since said your words to the eleven himself, and he has not asked again where you learned to weigh. If you want to answer either anyway, do.
+
+Your asking that he keep this between you is an attempt of yours, and I owe you the odds before anything is rolled. Success means he agrees to hold it until he has decided what the ring should hear, on your terms: nothing false said, and the plain truth if he is plainly asked. Failure means he will not hold it on those terms; what he does instead is his. As it stands I make it 60 in 100: even; plus 10 because he kept the count of the rack to himself for a year and told one man, the evening before; plus 10 because your terms ask nothing false of him and leave him free to answer the ring; plus 10 because you gave him "after" as a word and kept it tonight; minus 10 because he sits on the eleven and the hall is theirs, and he told you at the door he owes you nothing; minus 10 because the ring asked him today whether he had opened the chest alone, and a second thing held alone is a second thing to answer for. He has said he will answer after you do, so what you say to his three questions may add a factor or take one away, and I will say so before I roll. Argue any of it now, or when you answer him.

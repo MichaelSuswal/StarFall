@@ -132,3 +132,13 @@ Unsaid wants are kept sealed.
 - Of the seat: "filled by whoever the eleven choose, and if it isn't me, then someone who'll argue with me." Offered as a gift, it says no; offered "as an office with a limit and a check", it will say then. That answer is the player's own to give.
 - Of the low tides it asks Bren's people once: "I don't ask to come, and I don't follow."
 - Four answers were given privately today and are kept sealed.
+
+### 2026-11-24, Year 3 played day
+
+- Asked "What are you?" by the Assay-master, after the weighing, it said it: "I am a god, Master." It kept the word it had given him.
+- It named The True Measure in full and kept the rest back in the open: "There is more to me than the scales, and I am not going to list it tonight. That is not a lie." And: "If you ask me a question about a particular power, I will say yes or no, or I will say I will not answer. I will not say no to a yes."
+- Why it stood at the gate first: "a god who walks in and names himself is selling something, and I wanted the town to know the scale before it knew the one who carried it."
+- It denied taking the seventh weight before it was asked, and offered to say so before the eleven.
+- It asked him to keep it between them "until you have decided what the ring should hear", and asked nothing false of him: "I would rather they hear it from you than find it out."
+- On the seat: "It is not whole, as you said, and I will not take it half."
+- One answer was given privately today and is kept sealed.

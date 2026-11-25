@@ -1,3 +1,15 @@
+# Pending questions: Year 3, during the play day
+
+Kept current by the DM. Status lines added beneath the morning's list as each is put and answered.
+
+## Status, Year 3 play day
+
+- Held 1 (the Assay-master's "What are you?"): answered in play, post 2, in the player's words (rolling save, Year 3, section 1). The scene is still open. Asked by him in it and not yet answered: why it asked the Stallreeve about the key (silence 3, asked again); whether it can find the seventh, and whether he was right to answer the master of the smiths for it (silence 4, in his mouth); what he could put on a beam that tells a god from a man with good brass (new).
+- Silence 1 (say that to the eleven on the day): overtaken, he said it himself; told to the player, who may still answer.
+- Silence 2 (where it learned to weigh): not asked again; told to the player, who may still answer.
+- Silences 5 and 6 (the old hill weigher's stones; the yard's "Will you be our Weightward now?"): not yet put to the player today.
+- Held 2 to 4: not yet told to the player.
+
 # Pending questions: Year 3, at the morning
 
 Campaign sim-06. Every question someone in the world has asked the god that the player has not answered. From the Keeper's release for Year 2 (`releases/002/dm.md`). Each is to be put to the player in the next played day. The held moments are played in the order below; the player has been told only the first, and each later one is laid out as its own board when the one before it has been played.
