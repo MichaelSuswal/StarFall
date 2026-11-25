@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 2
 
-Round 2 (the recheck) is at the end of this file. Status now: raised 10 in all, resolved 10 (nine fixed, one cleared by a ruling the checker accepts, for review), open 0.
+Rounds 2 and 3 are at the end of this file. Status now: raised 11 in all, resolved 10, open 1.
 
 ## Round 1
 
@@ -184,3 +184,73 @@ Judged as in round 1: the clock, the morning story and the painting request are 
 
 ### Counts, round 2
 Raised 0 new (10 in all). Resolved 10. Open 0. Severity of the ten as raised: moderate 3, minor 7, major 0.
+
+## Round 3: the read after step 7
+
+Run by the continuity checker, 2026-11-24, from 23:10 to 23:16 Pacific, at head 375c5e1. It covers the DM's step 7 files (50b60c3, 375c5e1) and the painting the paint job returned (23f7a60). Pulled first; already up to date. Read in full: the Year 3 morning story, the Year 2 closing, the painting request and the painting, the diffs of `chronicle-god.md`, `years.md`, `canon.md`, `people.md`, `threads.md` and `messages.md`, the Year 2 part of `chronicle-people.md`, the card's new entries and `player/pending.md`. Checked against `P/releases/002/dm.md` as fixed in round 2, `year.md`, the ledger, `engine/rules/morning-story.md`, `engine/rules/chronicle.md`, `engine/rules/encounters.md` 6 and the failures checklist.
+
+### Scripts at 375c5e1
+
+```
+tools/check.py sim-06 2
+clock not advanced to year 3
+campaigns/sim-06/state/rolls.jsonl: rolls in the public log; rolls are sealed
+2 finding(s)
+
+tools/lockcheck.py sim-06 --all
+places 0 failures, 31 warnings; leaks 0; releases 0; mysteries 0; rolls 1; dashes 0
+```
+
+The clock is step 8's. The public roll log stands as ruled in Year 1. The place warnings are as in round 2.
+
+### The DM's reading of chronicle.md: ruled
+The DM asks to confirm that `chronicle-god.md` holds the whole released year, the part after the first held moment marked provisional, while the player-facing files (`years.md`, `canon.md`, `people.md`, `threads.md`, `messages.md`) hold only what the morning story has told.
+
+Ruled: confirmed. Reasons, by the judgment order:
+- Fairness to the player: the held moments are played in order and "the second is told after the first is played, as its own board" (morning-story.md, the held encounter). What the player reads at any time must not run ahead of the board it is playing.
+- Fit with the design: the rest of the year was resolved with the first moment unanswered and is provisional (encounters.md 6). chronicle.md 2 has the DM assemble the player-facing files after each night turn, but it lets nothing in that the Keeper did not release and puts nothing out of order. The working draft is "not read by the player" (chronicle.md 1), so it is the place for the released year in full.
+- Balance: nothing is lost, because the draft holds it.
+
+Two conditions bind the reading:
+- As each held moment is played and the year past it is told, the DM carries that part into the player-facing files the same day and drops "provisional" from it in the draft. Any change the played answer makes goes in as the Keeper releases it.
+- A player-facing file that says "told as far as" (`years.md`, `threads.md`) keeps that line until the year is told whole.
+
+The files as written meet the reading. Nothing after the evening of the weighing is in a player-facing file: the loft, the pits, the Alder's name, Corrith, the Year 2 dim nights and the later held moments are in the draft only, each marked.
+
+### New flag
+
+#### 11. The people's chronicle draft keeps two errors fixed elsewhere (minor)
+- Check: DESIGN 12.8 (a phenomenon at its true count; Year 1 flag 3, the same kind in the same file); failures checklist 6 and round 1 flag 7.
+- Where: `P/player/chronicle/chronicle-people.md`, Year 2 part, written by the people's agent (761ff44) and not touched by the round 1 fixes:
+  - The dim nights: "The blue star dimmed on some nights" in autumn, where the record has one (month 2). "The star dimmed on a night late in the summer", where it has two (months 11 and 12). The winter and spring lines are right. Five in all are owed; the draft gives an uncountable "some" and three single nights.
+  - The pits: "It said so, and that it had told them nothing", which gives the god the judgment of the two sets. Round 1 flag 7 moved that judgment to Orrin and the west kiln-master in the people's year file, `year.md` and `dm.md`.
+- Record says instead: `year.md`, the world events and the people's year file (five dim nights, one in each of months 2, 6 and 9 and two in summer); the fixed pits line.
+- Effect: none yet. The draft is the raw material the DM assembles the player-facing files from (chronicle.md 1 and 2). Both lines fall after the first held moment and are not in any player-facing file.
+- Fix: the Keeper corrects the two lines in the draft, as for Year 1 flag 3: "on a night in the second month"; "on two nights late in the summer"; the pits judgment given to Orrin and the kiln-master, the god saying it has then told them nothing. The scan allows a dim-nights count (`S/leak-allow.txt`). Owner: the Keeper; it is the people's agent's file and the agent is not running.
+
+### Checked and holding, round 3
+- **The morning story.** It is made only from `dm.md` and holds no more than it does.
+  - The return sequence gives the year, the season, the people's state and mood at the year's turn, the god's place and body, god-sense (no weight all year), and that more than one moment is unfinished.
+  - The tail of Year 1 and the weighing agree with the release item by item: the five answers in the player's words; the three silences; the key; eight to three; the rack; 48 to 1,536; the fifth read level then light; fifty against forty-eight; the smiths' question; the bread; the fifth; the nest's eleven figures; Ruddfold; the three motions; the seat not voted on; the boy.
+  - It stops at the first held moment with the board and the Assay-master's words, and has no "what do you do", as morning-story.md gives for two or more held encounters.
+  - The rack's and the chest's lines are told at the weight of the day around them. There is no pointer to the seventh, no list of threads, no flattery, no correction of a belief, no count of gods, no other god, no sealed term and no trace of the sealed factor.
+- **The (oog).** It says the weighing was not played live and why. It says more than one moment is waiting (encounters.md 6), without saying how many or what they are, which is right while the later boards are untold. It gives L-0038 and L-0037 in plain words, the ruling whole. It names the pending asks, which are questions someone asked the god (DESIGN 12.9). It states the true scale under L-0031. It gives the Year 1 dim nights as seen, under the round 2 reading.
+- **The closing.** Four sentences, inside two to five. It states no outcome, sums up nothing and hints at nothing, and is built from the god's own things (the lamp at the landing, the brass, the half-stick, the empty pocket).
+- **The card.** L-0037 is entered under The True Measure, Rulings, and in the dated list beneath, each matching the ledger word for word, dated, with the ledger id. No other term changed. L-0038 is not on the card, as the release says.
+- **The chronicle, player-facing.**
+  - canon.md: the rulings as released; the settled facts with their sources. The Year 1 sky line is added beneath and not written over (chronicle.md 4).
+  - people.md: only what was seen or told.
+  - threads.md: the open and closed threads as far as told, with the weighing closed and the held question held.
+  - years.md: the Year 002 block, told so far, and the Year 1 sky note added beneath.
+  - messages.md: none.
+  - No sealed fact, no hidden power and no count of gods in any of them.
+- **pending.md.** It lists the four held moments in order, marking which is told and which is not. It lists the six asks met with silence as the release gives them, and the standing answers given after the first moment, marked untold. Last year's note (the DM's own question in pending) is answered: "From the DM, in (oog): None open."
+- **The painting request and the painting.** The scene is the board of the first held moment, from the release. The figure is seen from behind with its face lost, and the house style is copied in. The Assay-master is grey-haired with a potter's fingers, as the Year 1 transcript gives him. The painting is within Michael's approved count (`S/rulings.md`). It shows nothing the god does not know.
+- **Dashes:** none. **Leaks:** none.
+
+### Noted, not flagged
+- The painting shows four metal weights and two stone where the record has three bronze and three stone, and puts the chip at the foot of the first stone rather than the fifth piece. It reveals nothing, the text of the story gives the true count, and the painting is final.
+- The return sequence gives the people's mood at the year's turn, including the master of the weavers now against the gate, which comes from after the first held moment. morning-story.md asks the return sequence for the people's state and mood, and this is that, at the weight of a line. It is provisional like the rest; the DM should keep it in mind if a played answer changes the year.
+
+### Counts, round 3
+Raised 1 new (11 in all; minor 8, moderate 3, major 0). Resolved 10. Open 1.
