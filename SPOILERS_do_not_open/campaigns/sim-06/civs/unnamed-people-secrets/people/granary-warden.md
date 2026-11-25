@@ -18,3 +18,11 @@ Born in the town to a granary family. Keeps the tally sticks and the clay and wa
 
 ## Standing
 Respected, now a little warmer to the stranger than the Gate Warden is, though not his friend. Sits at the council's long table by custom.
+
+## Year 3 (added by the civ agent)
+- Month 1, second day: heard the stranger's proposal in the granary yard with the Clerk standing by at his own wish. Took it on his own terms: told the two heads himself, took the facing down himself, carried the gap to the council in his own mouth. Asked whether the stranger knew where the grain went, and was told he did not ask and would not guess. Does not take the stranger as a god; he does not know of one.
+- Month 1, fourth day: took down the 140 facing sacks of the far run of twelve bins before both families' keepers and found bare floor behind. Filled the far run first by the sack, 5,860 new sacks, 6,000 standing. The closing count squared: whole store 35,670, the gap 5,800 sacks against his roll by his own count.
+- Month 2, fourth day: stood at the council and gave the gap, and said the roll was his to walk and he had carried it forward without walking it. The council ordered him to walk the roll every spring and every autumn. Stood at the Crier's stone for the cry on the sixth.
+- Month 6: was told at his own door by the cooper house's second tally keeper that her house's second tally has lines for barley lent out. Said he would carry only what he had counted. Keeps a stick of it behind his lintel.
+- Month 11: walked the store with the stranger on his return, if he returned. The far run stood behind its four marks.
+- Standing: has not been turned on. A man who named his own floor. Does not like to be spoken of.

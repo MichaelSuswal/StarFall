@@ -72,3 +72,51 @@ Written by the civ agent. This is the people's own telling, and it is wrong abou
 
 ## The odd folk of the marsh
 - They say they were here before any of the town's people, and that they deal by night. A reed cutter began to tell a thing to the stranger on a bench in the winter, and did not finish it. His daughter says it was about the marsh at night. Nobody else knows more.
+
+# What the unnamed people now say: Year 3
+
+Written by the civ agent. This is the people's own telling, and it is wrong about things that matter. No god is named by the people, because none is known to them. Where the Year 2 telling above says the Warden's count was cried at the stone, the Keeper's line is that the cry was held for the council; the town knew only that it was held, and in the winter of Year 2 the market said the Counter's count had not come right. That is the town's own mistake about whose count it was.
+
+## The hollow bins
+- They say the far bins were hollow behind a wall of sacks, and that the Warden said so himself at the council table and the Crier cried it. This is true, and they are proud of it as of a thing the town did. They say it has never happened before, which is true of the saying and not known of the thing.
+- They say the Warden is an honest man who walked nothing for nineteen years. The cooper stall says the Warden lost a fifth of a harvest. The boat families say he found it. Both say it of one fact.
+- Where the grain went, the town has every answer. The east fields house says it was robbed or drawn and not struck, in the Warden's uncle's day. The old say the rats took it, which cannot be, since rats do not face a wall in sacks, and they say it anyway. The farming families say the carters. The boat families say the farming houses carted it at night and sold it. A fish stall woman says the marsh folk carry grain off by night. A number say the star dims for a short bin: that the two things come from one cause, and the cause is hunger coming. None of these is known to be right. Some of them are wrong about the thing that matters, which is that the roll was never walked and anyone's story could stand on it.
+- The boys had a rhyme about the hollow bins. It lasted three weeks.
+- The count is now spoken of as the town's own custom, cried at the Warden's stone. They say the Warden stood at the foot of it with his hands folded and did not look at anyone. This is true.
+
+## The Counter
+- They say the Counter found the hollow bins. This is half true and the town draws the wrong half: they say he found it and made the Warden say it. The Warden says he said it himself, and the market does not hear him.
+- They say the Clerk let him into the chest. The boy told the boy, who told his mother. They say the Clerk gave him the league tallies, which he did not; they say the Clerk has given the Counter the walkers' names, which he did not. Some clerks say the Counter can read the old marks after all. The Clerk says he counted, and that the man counted better than the Clerk. The market takes that for a sign.
+- They say he does not take a telling you do not mean to give. They now say it is because the Counter is afraid to be told things that could not be unheard. This is wrong about why.
+- They say a child asked him if he makes the star dim and he said he did not know. A fish stall woman says a child may ask what a council may not. The boat families say he is a good-natured man and that is all there is to it.
+- They say he went up the river in the summer on the cousin's family's boats, as a weigher, for a month. The boat families tell it as a curiosity, as they told the mouth. The farming families say a man who goes away twice in two summers and comes back twice is a man with somewhere to be. The Gate Warden says nothing.
+- They say the books come right behind him. The old woman at the tanners' end says it again at her stall, and her son does not hush her.
+
+## The dim star
+- It dimmed six times this year, once in the first month, a pair in the fifth, a pair in the seventh and one in the eighth. The town counts fourteen since the Counter came, and speaks of it more as one speaks of a thing in the house than of the sky. The Crier says it is a count he does not like to cry and cries it.
+- They say the Counter brings it. They say it comes oftener since he had the far bins opened. They say it dims for a short bin. They say the marsh was loud on the second night of the pair in the seventh month. The old say the star dims when the river is low, and also when it is high, and when the river is middling, and have not noticed.
+- A bone-setter at the marsh edge says her hands were dull for a day after the second night in the fifth month. A woman who finds strayed beasts says the same. Nobody else says it. The two do not say it together.
+- More cups and crusts are set on the river steps after such nights than the town has ever set in an ordinary year. They call it manners.
+
+## Their own rulers
+- The Granary Warden: they say he has been proved honest by being shamed in public. He says the shame was a thing he carried forward from his uncle and that he walks the store now. He is spoken of as a man who stood at his own stone and said it. He does not like to be spoken of.
+- The two families of the far end: the cooper house is thought to be smooth and the east fields house to be loud, and the town thinks neither is the whole of it. The east fields head says he was robbed. He is believed more than he is liked.
+- The Clerk: they say he is the one man in the town who has not been wrong in public. He has been, in the dark, about a notch.
+- The council: they say the motion to search the Warden's house had no second and that this shows the council has sense. It shows the cooper head looked at his hands.
+- The new Speaker, the head of the west fields family: they say he holds the table to counts. He says he does.
+- The Gate Warden: they say he asked the Counter a plain question at the watch's fire and got a plain answer and did not like it. This is true.
+
+## The dredging and the river
+- The soundings are spoken of as if they had always been counted. They say the bar is three inches shallower than last year, which is so, and that the river is closing, which is likely, and that the council has made a rule, which is true. Some say the rule means the dredging will be done in the spring. It will be done only if the count says so.
+- The boat families say the bar closes in four years. The farming families say the boat families made the bar. The latter is not so.
+- The toll of one copper bit on every loaded boat and cart is spoken of as the Counter's toll, which it is not. It was the council's, put by the Speaker.
+
+## The river above the town
+- They say little of it. The boat families go up each summer with salt and beer and come down with what they took on at the landing at the head. They say the Counter has now seen both ends of the water. The farming families say they have never asked what is up the river and do not mean to.
+
+## The old things
+- The market says the Counter counted the league tallies in the Clerk's house on a night of frost. They say the tallies are a count of grain, of years, of dead men or of debts, and argue which, as they have argued every winter.
+- The clerks say the old walkers sang their lists of names for three nights, and that the Counter has been in the town for three years. They say it to one another and not to the market.
+
+## The odd folk of the marsh
+- They say they were here before any of the town's people, and that they deal by night. The reed cutter who began a telling on the bench two winters ago died this winter. His daughter is said to have kept what he began. Nobody knows what it was.

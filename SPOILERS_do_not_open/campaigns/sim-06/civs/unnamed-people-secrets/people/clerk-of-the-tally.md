@@ -28,3 +28,9 @@ Respected, not loved. Sits at the council's long table by custom without a vote.
 - Month 8: wrote in his private book what a boat headman said at the table of debts to houses that sit there.
 - Month 12: asked over a cup by the stranger whether he might sit with the league tallies for an evening and count the notches, not the meaning, and not the names. Long quiet. Said he will think on it and will not answer until the harvest is in. Wrote it in his private book.
 - Still does not take the stranger's word as a god's.
+
+## Year 3 (added by the civ agent)
+- Month 1: came after the first bin when the facing was taken down. Set the keepers' sticks and the Warden's beside the roll as his office. Agreed to within four sacks in the whole.
+- Month 2: laid the sticks before the council. Said no stick of his shows a draw from the far run for the sum in question, and that he would go through the old sticks of the Warden's uncle over the winter. Said it was not a promise to find.
+- Month 5, the fourteenth day: asked again over a cup by the stranger, said yes, one evening, on his terms. On the twenty-second night opened the chest himself and counted three tallies with the stranger, his hand on each stick. Their counts differed by one notch on the third; he counted again and the stranger was right. Wrote it in his private book, and wrote that the man did not read and paused at one stick longer than the others. The boy talked, and the market knows he sat in the house.
+- Still does not take the stranger's word as a god's. Says the man counts better than he does and that he does not mind it.

@@ -18,3 +18,9 @@ Keeps the standing watch of about a hundred and the call-up of about five hundre
 
 ## Standing
 Hard, and proved fair. Sits at the council's long table by custom.
+
+## Year 3 (added by the civ agent)
+- Month 4: asked the stranger at the watch's fire, with the watch captain by, where the grain went. Was told the stranger did not ask and would not guess. Said it is the answer of a man who knows or of one who truly does not, and that the two sound alike.
+- Month 7: said at the council that the nights of the star were coming faster.
+- Month 9: asked what the stranger meant to do in the summer; said that his going up the river was the third sensible thing he had done and that he did not like to count it.
+- Still does not take the stranger's word as a god's. Keeps the watch's rations at the figure the stranger gave.

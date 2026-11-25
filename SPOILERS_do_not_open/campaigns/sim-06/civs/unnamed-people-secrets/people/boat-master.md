@@ -17,3 +17,9 @@ Holds word and goods along the river and the Boat Master's crews. Took the stran
 
 ## Standing
 Liked by his crews and the Speaker, and thought too easy with strangers by some of the boat families. Sits at the council's long table by custom.
+
+## Year 3 (added by the civ agent)
+- Month 7: gave the stranger the first loaded boat at the gate, a boat of the cousin's family, and let his crews sound the bar at the spring high water and the dry-spell low water.
+- Month 8: his cousin's family's boat and a farming house's hired boat grounded on the bar in the dry spell. Gave the Clerk the crews' figures for the two springs.
+- Month 10: gave the stranger a berth on the upriver crew of the cousin's family for three weights of scrap silver. Asked why; was told he could take it or leave it. Told only the Clerk.
+- Still takes the stranger's counsel in the course of trade and does not take him as a god.
