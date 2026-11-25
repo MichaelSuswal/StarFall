@@ -54,3 +54,5 @@ Closed 2026-11-24 15:50.
 ## Year 2 night turn
 - 2026-11-24 22:03 began (an earlier sitting read the files and stopped at its usage limit with nothing written). Keeper: fable.
 - 2026-11-24 22:06 step 0 done and the seven decisions releases written (step 1 released). God agents: sonnet, run by the orchestrator.
+- 2026-11-24 22:05 step 1 done: the seven decisions read.
+- 2026-11-24 22:15 step 2 done: pass one, the world events list, the eight civ releases and one sealed note written. Civ agents: sonnet, run by the orchestrator.
