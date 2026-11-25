@@ -1043,3 +1043,16 @@ Stamped 23:02. Ready for the checker's recheck.
 - Step 5: how a spring country's year lines up with the clock (L-0043). Ruled: one count of months, each country's own season; no month changed. Against the checker's reading.
 - Step 5: where the two farthest toll houses stand. Ruled: in the Kennoch Heights [r02], short of the Aldermark [r10].
 - Step 5: the cutters. Ruled: the release is cut back to what the card gives; the truth stays in the sealed record.
+
+### 5. The check, round 3: one flag, fixed
+- Flag 11, the people's side of the chronicle, Year 2 part, the people's agent's file with the agent not running: the autumn dim night put in the singular and in its month ("on a night in the second month"); the summer ones as two ("on two nights late in the summer"); the pits judgment given to Orrin and the west kiln-master, the god saying it had then told them nothing. Wording only, as for Year 1's flag 3. The counts by the tool stand: five in the year.
+
+### 7. The morning story
+The DM's files are in (375c5e1): `P/years/003/morning-story.md`, `P/years/002/closing.md`, the painting request, the chronicle, the card and the pending list. The painting is back (23f7a60), one of the three play mornings `P/state/images.md` approves. The checker's round 3 holds all of it but flag 11, fixed above.
+
+### 8. Close
+`tools/lockcheck.py sim-06 --leaks --dashes`, run after the releases, the morning story, the closing and the chronicle were in and after the fix: 0 and 0. `tools/check.py sim-06 2` before the clock was set: two findings, the clock (set now) and the public roll log (the checker's standing ruling, for the owner).
+The clock: `year: 3`, `status: open`, `season_opens: early autumn`. The sealed timing line is written.
+Open for Year 3, carried in the record: four held moments for the player, in order (the DM's release), with everything in the town after the first of them provisional; the pending questions; the loft and the punt, known to three of the town (the sealed note for the people's agent); the league captain's side (`S/years/002/held-coaster.md`), to be voiced by the Keeper; the chancery's letter with the league; the granary's hollow bins, known to three in the walled town; the bend town's answer from the salt house; row S04-c met, so S04-a is confined when it falls in Year 3; rows L05-d, L05-l and S08-a, which fall in Year 3; L-0043 on the months, for the owner's review. Each god's Year 3 release is framed as its Year 2 one was, with `S/releases/002/<label>.md` handed on.
+One line per god for the year: god-sea, known to seven and still hidden from the town; god-dreams, the one awaited who says she does not know; god-rivers, a guest who counts and has seen the ford; god-healing, seen at the hearth; god-beasts, a keeper at two margins; god-secrets, the Counter who found the far bins; god-thresholds, served a second year. The player's god: it weighed the old weights, and four people are waiting on its answer.
+Year 2 night turn closed 2026-11-24 23:14 Pacific.

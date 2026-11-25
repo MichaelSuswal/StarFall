@@ -70,9 +70,9 @@ The eleven did not decide which is the town's weight. They decided to wait. The 
 
 The stranger took no fee and no gift that day. The hill weigher went home ahead of the carriers. The hill carriers came down in the middle of autumn with ore and charcoal and went home with the figures.
 
-The boat people were gone from the channels some days at the lowest tides and came back. The blue star dimmed on some nights.
+The boat people were gone from the channels some days at the lowest tides and came back. The blue star dimmed on a night in the second month.
 
-In the last week of the second month, on a day with no market, the stranger went to the diggers' pits and weighed three lumps from loads that fired well and three from loads that cracked, in front of the diggers and the kiln masters. Each lump was about a twentieth part sand and shell, and the cracked lumps carried no more than the well fired. It said so, and that it had told them nothing about the cracking, and that it could not tell which clay is good for a kiln.
+In the last week of the second month, on a day with no market, the stranger went to the diggers' pits and weighed three lumps from loads that fired well and three from loads that cracked, in front of the diggers and the kiln masters. Each lump was about a twentieth part sand and shell, and the cracked lumps carried no more than the well fired. Orrin and the west kiln master looked at the figures and said the sets did not differ. It said that it had then told them nothing about the cracking, and that it could not tell which clay is good for a kiln.
 
 Rain came in. The first reading stick lapsed unbrought. Some stallholders carved the two pans on their scales and the Stallreeve had them scraped off.
 
@@ -90,7 +90,7 @@ The Alder rose to an ordinary flood. A reed island split and two households aske
 
 ## Summer
 
-Long and warm. The reed was cut early. Boats from the Aldermark came down with grain, wool and some bronze; no one came from their king. The grain came in. The council sat after the grain and left the weight where it stood. The star dimmed on a night late in the summer.
+Long and warm. The reed was cut early. Boats from the Aldermark came down with grain, wool and some bronze; no one came from their king. The grain came in. The council sat after the grain and left the weight where it stood. The star dimmed on two nights late in the summer.
 
 ## What the town says it needs
 
