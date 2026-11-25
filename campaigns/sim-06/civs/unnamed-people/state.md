@@ -19,3 +19,10 @@ strength: a watch of sixty-four with spears, up from sixty; up to three hundred 
 
 mood: practical, suspicious and short-tempered at market, but easier than a year ago; fed, housed and not afraid. Split about the stranger
   Why: most of the channel and salt folk and the potters like the gate and say so; the hill goods head, the master of the smiths and the head of salt do not like a stranger's brass setting a measure and say so. The council voted seven to three to ask the stranger to weigh the old weights before the eleven, after the harvest. Nobody wants it to go wrong in front of the town. The fever winter left a few houses short of an elder, and the town noted who sat with whom.
+
+## Keeper, Year 1, pass two
+- Month 6: the bonded man did not get the cup. He was taken at the landing and held by the watch. The Stallreeve asked the stranger at the gatepost whether it asked a price of him and got no answer. The council set a price in measure for a theft tried on a guest of the yard; the Tally-keeper holds the stick and the price lies unclaimed. The numbers above stand.
+- The potters' sorting of clay by weight: by summer the kilns that sorted had cracked as many loads as before. Some potters now say the gate's scale is no use for clay; the digger with the heavy loads still sells low.
+- The walker to the hill kin arrived and came back. Any witness comes down with the carriers next autumn.
+- Month 11: the council's invitation was spoken at the gatepost and the half-stick laid at its foot. The stranger has not answered. That matter is open at the year's turn, and the day the council set is the first market of the new autumn.
+

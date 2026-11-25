@@ -16,7 +16,7 @@ The wet came, with its hard spells. Fever went through the short-stilted houses 
 
 The tide-reckoner of the salt flats called the midwinter water four days ahead. It crested half a day later than she said and at the height she gave. Stalls moved, boats were drawn up, three families went to the mounds with their goats.
 
-The star went dim for a time on some nights of the cold season.
+The star went dim for a time on a night of the cold season.
 
 The kiln-masters began weighing a fixed basket of every digger's clay before they would take it, on scales that had been read at the gate. The council argued the diggers and the kiln-masters and settled it by a price in measure.
 

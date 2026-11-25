@@ -17,7 +17,7 @@ What the people now say. It is their own telling, and where they explain a cause
 
 - The Warden-Monarch is held to have been right to haul the boats early, and her standing within the court has grown. Outside the court she is spoken of with a mix of respect and a little unease, as one who has been spoken to.
 - The Harbormaster is said to be sour, and he is, but he kept the lean fair and kept the boats in the worst weather, and the town does not hold his doubt against him. He is said to have been wrong about nothing and right about little.
-- The Master of Timber is said to have had a lucky year.
+- The Master of Timber is said to have had a good year.
 - The two Captains are said to have drilled the levy well and to have asked no questions.
 
 ## About their neighbors
