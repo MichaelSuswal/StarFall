@@ -13,3 +13,4 @@ Models: DM fable, Keeper fable, NPC gods sonnet, civ agents sonnet, stand-in pla
 | Night 3b | 11:27 | 15:34 (paused for the usage limit 12:02 to 15:34; working time about 35 minutes) | Keeper about 35 min |
 | Lock | 15:35 | 15:43 | checker about 8 min |
 | First morning, read, fix, close | 15:43 | 15:50 | DM 2.5 + 0.4 min, checker 1.7 + 0.5 min, Keeper 0.5 + 0.7 min |
+| Year 1 play day | 15:51 | 16:04 | DM 0.9 + 3.8 + 6.1 + 1.3 + 3.4 + 6.8 min, stand-in about 0.2 min per post (5 posts) |
