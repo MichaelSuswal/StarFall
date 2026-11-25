@@ -47,3 +47,6 @@ Closed 2026-11-24 15:50.
 - 2026-11-24 16:45 step 5: the checker's six flags fixed; ready for recheck.
 - 2026-11-24 16:49 step 6 done: the releases written. DM: fable, run by the orchestrator.
 - 2026-11-24 16:54 step 5: round 2's three flags fixed.
+- 2026-11-24 16:57 step 7 done by the DM: morning story, closing, painting request and chronicle in; the Year 2 morning painting is back.
+- 2026-11-24 clock advanced: year 2 open
+- 2026-11-24 16:57 the Year 1 night turn closed. Models: keeper fable, npc-god sonnet, civ sonnet, checker opus, dm fable. Token usage not known to the Keeper.

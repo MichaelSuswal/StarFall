@@ -849,3 +849,13 @@ Stamped 16:54. Ready for the checker.
 
 ### Rulings for review, Year 1 night (the check, round 2)
 - Step 5: how the player's god keeps its nights in unplayed time when the player has not said. Ruled: it has only what the record puts in front of it; the DM asks.
+
+### 7. The morning story
+The DM's files are in (f628b03 and before): `P/years/002/morning-story.md`, `P/years/001/closing.md`, `images/requests/sim-06-002-morning.json`, the chronicle's player-facing files and the god's side. The painting is back: `images/out/sim-06-002-morning.png`, one of the three play mornings `P/state/images.md` approves. The checker's round 3 is clean: nine raised, nine resolved.
+
+### 8. Close
+`tools/lockcheck.py sim-06 --leaks --dashes`, run after the releases, the morning story, the closing and the chronicle were in: 0 and 0. `tools/check.py sim-06 1` before the clock was set: two findings, the clock (set now) and the public roll log (the checker's ruling for review, for the owner).
+The clock: `year: 2`, `status: open`, `season_opens: early autumn`. The sealed timing line is written.
+Open for Year 2, carried in the record: the held invitation at the gatepost (the DM's release); the pending questions (`P/player/pending.md`); the western party of god-dreams's people, home early in Year 2 [r-0250]; the sickness to show in the mining holds' beasts [r-0247]; any witness from the hill kin with the autumn carriers; the first letters of old claims (row S01-a's lead); row L05-f and row L05-k, which fall in Year 2. Each god's Year 2 release must be framed as its Year 1 one was, naming its files, with `S/releases/001/<label>.md` handed on.
+One line per god for the year: god-sea, met by one holder and hidden from the town; god-dreams, taken for the one awaited; god-rivers, a guest who counts; god-healing, a stranger who tends, known to one office; god-beasts, a keeper at the margin; god-secrets, a counter at the foot of the table; god-thresholds, served from the first day. The player's god: a weigher at the gate, asked to weigh the old weights.
+Year 1 night turn closed 2026-11-24 16:57 Pacific.
