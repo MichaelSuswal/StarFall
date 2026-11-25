@@ -163,4 +163,8 @@ Unsaid wants are kept sealed.
 - It checks what the Assay-master has passed "when he asks, not when I like."
 - To the yard: "I am the Weightward, for a term. I am not their god, and nothing here is mine."
 - Of the loft it asks the Assay-master once, quietly: "If he will not say, I leave it."
-- Answers were given privately today and are kept sealed.
+- To a stranger with a ship it reads the scale first and says nothing first: "I don't make the line wait on her, and I don't hurry her either." It asks what the southern harbors read their scales against, because it "would like to know whether what the hall keeps can be read by anyone who comes up the channel."
+- It keeps the town's business from her: "Those are the town's, and she is a guest at the gate." It names no price and guesses nothing aloud "to a stranger with a ship".
+- "I do not leave the gate." A far harbor "may bring its scales here or send its own to be set against the hall's."
+- It will not send a keeper's word down the coast "without their say".
+- Seven answers were given privately today and are kept sealed.

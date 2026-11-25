@@ -1,3 +1,7 @@
+# Pending questions: Year 3, at the close of the play day
+
+No question asked of the god is open and unanswered by the player. One held moment is handed to the night unplayed, on the player's words: the master of the coaster at the head of the line, the tenth month (`decisions-003.md`, item 5); what she asks beyond those words comes back to the player. Asked by the Weigher and waiting on the world: the ring (the sitting, the yard let in, the key); the Tally-keeper (sticks for boats); the Assay-master (the loft); the Stallreeve and the Assay-master (a keeper's word down the coast); the diggers (a second day); the old weigher at Ruddfold. The day's working notes follow.
+
 # Pending questions: Year 3, during the play day
 
 Kept current by the DM. Status lines added beneath the morning's list as each is put and answered.

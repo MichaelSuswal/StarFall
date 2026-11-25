@@ -429,3 +429,17 @@ If she offers pay for a reading at her own harbor, I say that I do not leave the
 For the rest of the year, I keep the gate and the landing as I said. I ask the Stallreeve, in front of the Assay-master, whether the town wants a keeper's word sent down the coast with this captain on what the hall's weights are and are not, in the plain terms I gave the eleven, and I do not send it without their say. I say once to the diggers that I can come to the pits one more day if they want it, and that I still cannot say which clay is good. I leave it to them.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You are at the foot of the gatepost, early on a market day in the tenth month, with the half-stick of the seat in your coat beside the other. The master of the coaster stands in front of you with a ship's balance held out. The line is quiet behind her. Nothing has been said.
+
+(oog) The close.
+
+That is where I stop. She is the Keeper's to speak for, so the moment is handed to the night in your words and no others. The Weigher takes her balance like anyone's, says nothing first, reads it against its brass pan by pan and tells her what it does, takes the pinch, and neither hurries her nor makes the line wait. Then it asks its three things, quietly, and says why it asks: what the southern harbors read their scales against, whether Corrith has a measure the other harbor towns will take, and what a southern captain would want to know of this town's weights before she bought in them. What it says of itself if she asks, what it will not speak of, and its answers to pay for a reading at her harbor and to a gift, all go over as you gave them. Where she asks something those words do not cover, the Weigher keeps silent, as its card lets it, and the ask comes back to you.
+
+The rest of the year goes to the night as you gave it. The gate on market mornings and the boats on the other dawns. The Tally-keeper asked, with the ship owner there, what sticks for boats would do to her count, and left alone if she says no. The Stallreeve asked, in front of the Assay-master, whether the town wants a keeper's word sent down the coast with this captain on what the hall's weights are and are not, and nothing sent without their say. The diggers told once that you can come to the pits one more day if they want it, and that you still cannot say which clay is good. The Assay-master asked once, quietly, what was seen in the loft, and left alone if he will not say. Your word to the old weigher at Ruddfold. Your words for the sitting, and for the weight when it comes back to the ring.
+
+Today's play changed what the year held: the hall, the Stallreeve, the landing and the seat. The Keeper works all of it into the year tonight, so the morning may tell the autumn, winter and spring differently from how I told them today, and it will tell you what the yard did when you said the word at the gatepost.
+
+The world turns at 1:30am Pacific.

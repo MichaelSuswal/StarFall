@@ -250,3 +250,20 @@ For the Keeper tonight (not decisions): the winter and spring as told have no da
 - Told to the player: one dim night in the ninth month; the coaster out of Corrith at the town's landing in the first month of summer.
 - Board laid, held fourth: the tenth month, the gate, the coaster's master at the head of the line with a ship's balance. Nothing said by either. Her words are the Keeper's; the player was asked for the Weigher's words and conduct to hand over.
 - One sealed answer taken to the sealed record.
+
+## 7. Held, fourth: the coaster's master at the gate (Year 2, the tenth month); final save, at the close
+
+- Not played live: her words are the Keeper's. The player gave the Weigher's conduct and words for the moment, handed whole to the night (`decisions-003.md`, item 5). Nothing has been said by either. HELD HERE.
+- Given for the rest of the year (`decisions-003.md`, items 6 to 12).
+
+State at the close:
+- By the played clock the Weigher is at the foot of the gatepost, the tenth month of Year 2, a market day, early, the coaster's master before it with a ship's balance. Scales at its belt, the nest and all it carries on it. Two half-sticks in its coat: the council's first asking, and the seat.
+- Seals standing: none. Licences: none. The Good-Faith Reading has not been used on anyone.
+- True scales: as at the Year 2 close (L-0031), with the bonded man's master's scale from the twelfth month of Year 1. The scale read out at the gatepost in the ninth month (r-0014, r-0015) is not one.
+- It has told the Assay-master and the Stallreeve that it is a god, on the evening of the weighing, and has said it before the yard at the gatepost in the ninth month. It has named The True Measure and said there is more; it has named neither The Seal nor the Reading to anyone.
+- It holds the Weightward's seat by its yes, for three years and a day, on the eleven's terms; the old keeper's key is still on its peg, to be taken in the ring.
+- Promises made: the seat and its terms; to come to the sitting the Assay-master asked for and say it first; to read boats at dawn at the ship owner's landing, and at any landing whose owner asks, on days the gate is not kept, for a pinch from the captain; its word to Ruddfold that it will weigh the old weigher's stones at the gate.
+- Rolls today: r-0011 (the asking to keep it between them, failed), r-0012 (the Stallreeve did not ask), r-0013 (the ship owner took its terms), r-0014 and r-0015 (the scale at the gatepost, out).
+- Pending questions: none open but the coaster's master's moment, handed to the night.
+- Not told to the player: how the yard and the ring took the word at the gatepost; the year past the tenth month; the dim nights of the eleventh and twelfth months.
+- Sealed answers taken today: seven, all in the sealed record.
