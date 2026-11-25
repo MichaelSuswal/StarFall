@@ -39,7 +39,7 @@ Dead, the spring before the landing; learned Year 1. A man. Kept the hall's old 
 Alive. Sits on the eleven. Put out bread and water at the weighing, which was put away. Moved the motion the ring carried, nine to one, and said the seat should be offered then (Year 2). Speaks well of the gate.
 
 ## The ship owner of the channels
-Alive. Sits on the eleven; runs boats up and down the channels and has a landing of his own. Came to the god at the landing at dusk in the fourth month of Year 2 with an offer: every boat at his landing read at dawn, a measure of salt for every boat, at his landing and no other, before the Stallreeve. Held.
+Alive. Sits on the eleven; runs boats up and down the channels and has a landing of his own. Came to the god at the landing at dusk in the fourth month of Year 2 with an offer: every boat at his landing read at dawn, a measure of salt for every boat, at his landing and no other, before the Stallreeve. Played on the Year 3 day: the god refused "no other" and he took its terms, with a pinch for a boat where he had offered a measure. "I came down here to buy a year of you, and you have sold me a morning and kept the rest."
 
 ## The head of reed and fish
 Alive. Sits on the eleven. Asked the Assay-master at the weighing whether he had opened the chest alone (Year 2).
@@ -71,3 +71,6 @@ Told of. Walkers who came when the oldest were young, sang names all night on th
 
 ## Other gods
 None met. The god knows only that others like it came down when it did.
+
+## The tide-reckoner
+Alive, not met. Her word went to the line by the Stallreeve in the fifth month of Year 2: the Alder would crest over the lowest paths in four days. It did, at the height she gave and a few hours off the hour.

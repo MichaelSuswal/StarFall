@@ -51,3 +51,7 @@ As found, Year 1. None of it was set by the god.
 - The chest of the old weights was locked that evening by the Assay-master with his own key, before the Stallreeve; the empty seat was left as it was, unwiped; the key on the peg was not touched. (Seen, Year 2.)
 - Clay at the diggers' pits, in the nest's ones. From loads that fired well: 96 (91 clay, 5 not), 104 (99, 5), 88 (84, 4). From loads that cracked: 100 (96, 4), 92 (88, 4), 108 (102, 6). What was not clay was sand and shell. (Weighed, Year 2, the second month.)
 - The blue light dimmed on one night in the second month of Year 2. (Seen from the landing.)
+- The river the town stands on is the Alder. (Named by the Stallreeve at the gatepost, Year 2, the fifth month.)
+- The blue light dimmed on one night in the sixth month of Year 2. (Seen from the landing.)
+- The potters' second nest, eleven chosen from twenty-two by the gate's readings, agrees with itself to a hair. It is kept at the potters' hall. (Read at the gate, Year 2, the seventh month.)
+- The people's code, added: by the god's bargain with the ship owner of the channels, set before the Stallreeve, a boat's load may be set out and called at dawn at any landing whose owner asks, for a pinch from the captain, on days the gate is not kept; no reading on a market morning anywhere but the gatepost. (Played, Year 2, the fourth month.)
