@@ -218,3 +218,19 @@ For the Keeper tonight (not decisions): when the ring sits and whether it lets t
 - NOT RESOLVED. Odds stated to the player, 45, with factors; waiting on the player's go or argument. The sticks on a landing are the Tally-keeper's and the Stallreeve's to grant and are not part of the roll.
 - God-sense: no weight in the air from him.
 - One sealed answer taken to the sealed record.
+
+## 5. The landing, the bargain struck (Year 2, the fourth month); the second held moment ends
+
+- The player changed the asking: the boats' fee is a pinch for a boat, from the captain, weighed, as at the gate; anything more he gives goes to the Tally-keeper for her sticks.
+- Arguments on the two minuses declined as put (his reason for "no other" is not in the record; that a paid captain comes back is not in the record); 5 given for the pinch where he offered a measure. Odds 50.
+- Roll r-0013 (the Weigher's attempt, odds 50): success. The ship owner of the channels took it: his landing first and standing, any landing after, the captains pay a pinch, the load set out and called, the gate kept. Hands shaken at the landing before Bren and a pair of boatmen.
+- Set before the Stallreeve the same evening. His additions: the gate first, and no reading on a market morning anywhere but the gatepost; a landing is its owner's ground and its line is the owner's to keep, not the watch's.
+- The split sticks for the boats: NOT SETTLED. The Stallreeve sent them both to the Tally-keeper. Taken as the Weigher's asking of her, to be put at the gate; handed to the night unless the player plays it.
+- The Weigher did not read the bargain. No seal set, no licence given.
+- Promises standing: to read at his landing at dawn on days it is not at the gate, on the terms spoken, and at any other landing whose owner asks.
+- If he had refused, the player's words: it keeps the gate, the offer stands for any boat that brings its load to the gate on a market morning, and it does not chase him.
+- Told to the player, the year as it stood from the fifth month to the ninth: the hard spell and the Alder's crest at the tide-reckoner's word; the net-mender; the boat sale witnessed; one dim night in the sixth month; the reed island; the nest fired again and the eleven chosen by the gate's readings; the test tiles; the spring flood; the council's vote on the seat, six to four with one away.
+- Board laid, held third: the ninth month, the gatepost, the eleven's offer of the seat by the Stallreeve, the half-stick at the foot of the gatepost. Nothing answered. The yard's "Weightward" put with it.
+- One sealed answer taken to the sealed record.
+
+For the Keeper tonight (not decisions): the winter and spring as told have no dawn readings at a landing and no sitting.

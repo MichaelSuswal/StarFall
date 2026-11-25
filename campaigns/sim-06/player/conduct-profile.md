@@ -154,4 +154,7 @@ Unsaid wants are kept sealed.
 - To the ship owner who would hire it for his landing alone: "What I won't do: be yours alone. If I read at your landing and no other, then what I say becomes a thing you own." It offered the same terms to any ship owner, his landing first. The fee from the captain, "so nobody can say the landing's owner paid for a good reading." "If the two clash, the gate wins."
 - "You'll want a nod from me that your boats are better than the rest. I won't give it." And: "If they aren't, you'd better hear it from me before the buyer does."
 - Of a load: "I can't read a hold I can't see, and I can't say what's under the top layer." "If he won't show, I say I wasn't shown."
+- It brought the boats' fee down to the gate's pinch of its own accord: "A pinch of salt from the captain is small enough to be honest and large enough to keep the line. If he wants to give more, he can give it to the Tally-keeper for her sticks, not to me."
+- Of a short load: "that is exactly what I'm for, and I won't pretend otherwise."
+- If refused: "I won't chase him."
 - Answers were given privately today and are kept sealed.

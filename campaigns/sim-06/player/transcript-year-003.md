@@ -315,3 +315,41 @@ By my count that comes to about 55, with the pinch. Roll it on that, or on whate
 If he says yes, I walk up with him now. If he says no, I keep the gate as it is, and I tell him the offer stands for any boat that wants to bring its load to the gate on a market morning. I won't chase him.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You changed one thing before he answered: the fee is a pinch of salt for a boat, from the captain, weighed, the same as at the gate, and anything he wants to give beyond that goes to the Tally-keeper for her sticks and not to you.
+
+He laughed, once, short. "A pinch. I offered you a measure a boat and you beat me down to a pinch." He looked at Bren, who was still not looking up, and at the boatmen, who were. "Every man on this water will know by morning what I asked and what I got, so I had better be seen to like it." He held out his hand. "My landing first, and standing. Any landing after. The captains pay their pinch. Come up."
+
+You went up the bank with him and found the Stallreeve, and he heard it where he stood. The ship owner said the terms and you said them, and they were the same terms. "Heard," the Stallreeve said. "The gate first, and no reading on a market morning anywhere but the gatepost. A landing is the owner's ground and I'll not send the watch to keep a line on it; that's his to keep." Of the sticks he said, "That's her knife and her mornings. Ask her at the gate, the pair of you, and ask her what it does to her season's count." He looked at you a moment longer than at the ship owner, and said nothing else.
+
+No weight came into the air from either of them. You went back down to the lamp.
+
+What follows is the year from there to the next moment that waits for you, told as it stood.
+
+The fifth month brought a hard spell, with ice on the shallows. The Stallreeve told the line the tide-reckoner's word, that the Alder would crest over the lowest paths in four days. It did, at the height she gave and a few hours off the hour. The winter fever in the back houses was lighter than the year before. A net-mender asked again that you reckon her debt and strike it, and had your settled answer.
+
+In the last week of the sixth month two households of boatwrights asked you to stand witness to the sale of a boat. You stood, with a pair of the watch beside you, and said afterward what you had seen and heard: the price named, the hands shaken, the day. Neither side asked what you thought of the other. On one night of that month the blue light dimmed, as before, and you saw it from the landing.
+
+In the seventh month a reed island split and two households asked who owns it. You gave your settled answer, and they took it to the council. The master of the potters fired the nest again, twenty-two pieces in one kiln, and brought them to the line like anyone, to choose eleven by the gate's readings. The eleven she chose agree with each other to a hair. That second nest is kept at the potters' hall, and no one has asked for it to be weighed before the ring. By spring the potters' talk at the gate was that the test tiles do not tell: a load cracks whose tile did not, and the other way about. The quarrel of diggers and kiln-masters goes on, without grit to blame.
+
+The eighth month brought the spring flood, ordinary in height. The boat people were gone for some days at the lowest tides and came back.
+
+The council sat after the sowing and brought the Weightward's seat to the ring. The town talked of it in the line beforehand, and of the vote after: six for, four against, and one away on the Gulf. The Assay-master spoke for it.
+
+It is the ninth month, a market day, with the yard in its line. You are at the foot of the gatepost with a scale in your hand. The Stallreeve stands before you with the Tally-keeper beside him holding a cut stick. The Assay-master stands a little apart with his arms folded. No weight is in the air.
+
+The Stallreeve says: "The eleven ask the Weigher to take the Weightward's seat and keep the hall's standards, for a term of three years and a day, with the Assay-master's hand on the beam beside yours, and with the eleven's right to put the seat down at any sitting that three of them call." He lays half of a split stick at the foot of the gatepost.
+
+(oog) The roll, and where this leaves you.
+
+I took the change to the asking and neither argument as you put it. Why he wanted "no other" is not in the record, only that he said it, so that minus stayed at 20. That a paid captain comes back is a guess about captains and the record does not carry it; but a pinch where he had offered a measure is plainly on the table, and I gave 5 for it. That came to 50 in 100, and I rolled that list in the open log. It succeeded. The attempt was yours. What the Stallreeve added, that there is no reading on a market morning anywhere but the gatepost and that a landing's line is its owner's to keep, is his.
+
+The sticks for the boats are not settled. The Tally-keeper was not there, and the Stallreeve has sent you both to her. I take your terms for them as your asking of her, to be put at the gate, and it goes to the night as that unless you want to play it.
+
+The winter and spring above were resolved before the hall and the landing were played, so there is no dawn at a landing in them and no sitting. They are told as they stood, and the Keeper works today's play into them tonight.
+
+The seat is the answer you kept for the table. One more ask goes with it: a few days after this market the yard cried "Weightward" at you, a boy first, as on the day of the weighing. What you say here I will take as your answer to the yard as well, unless you tell me otherwise.
+
+One moment more is waiting behind this one.
