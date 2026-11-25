@@ -235,3 +235,25 @@ Now the last of the asks, the Assay-master's, from the shut room at dusk on the 
 "What does the Weigher want of the hall after the weighing?"
 
 And one of your own making. You told the yard you would answer on the Weightward's seat after the weighing and not before. If you mean that answer to be given this year, tell me what it is and on what it turns. If you would sooner give it yourself at the table, say that, and it waits for you.
+
+## Player:
+
+**The tide of the day.** I thank the Tally-keeper for the notch and the pinch, weigh the barley she holds out, and say it's true. I don't ask her to change anything. The Stallreeve's term, no stick on a stall or a scale, is a good one, and I'll say so to him next time he's at the gate.
+
+**The clay pits.** After the weighing, not before. I want the hall's weights settled before I put my scales on anything else the town argues over. I'll go for one day and no more, with the gate left empty. Before I go I'll ask the Stallreeve whether the watch will keep the line and the Tally-keeper keep her sticks, because I won't have the market without a reading for a day if it can be helped. I accept that purity of clay is the Keeper's to rule. Until then, weight only, and if it doesn't read, I say it doesn't.
+
+**The Assay-master's five.** I'll answer them to him, across the bench, when I'm next there. I'll go at dusk when the bench closes, with the brass, and say these to him and no one else.
+
+1. **Why should the eleven take a stranger's scale?** "They shouldn't, on my word. Take the Weightward's own weights, which are the town's, and weigh them in front of the eleven with your hand on the beam. I give you numbers you can check against any scale you trust. If the numbers hold, you have what you need. If they don't, you've lost an afternoon. I'm offering a measurement, not a standard."
+2. **Am I something more than a man with good brass?** "Yes. I'm not going to give you the rest before the weighing, because a man who explains himself first is selling. I'll tell you what you ask after, and I won't lie to you about it."
+3. **Who sent me?** "No one. No king. I came down the old bank alone, and I have nobody behind me that I know of."
+4. **Why did I ask how the Weightward died?** "Because the seat has stood empty a year, and I wanted to know whether the quiet was an ordinary one. I'm sorry he was your friend. I won't ask again unless you tell me."
+5. **What do I want of the hall after the weighing?** "The weights set right and anyone able to check them. The seat filled by whoever the eleven choose, and if it isn't me, then someone who'll argue with me. I'd call you the likeliest, but that isn't mine to say."
+
+**The Weightward's seat.** I'll give that answer myself, at the table, after the weighing. It turns on two things: whether the eleven take the terms as I gave them, and whether the Assay-master and I are still arguing as equals when the weights are down. If the seat is offered as a gift, I'll say no. If it's offered as an office with a limit and a check, I'll say it again then.
+
+**For the rest of the year.** I keep the gate. I read the line in order, I take my fee in measure, and I take no silver. I'll keep the gate sticks, the Stallreeve's rule and the Tally-keeper's notch as they are, and I'll watch for the first stale stick. At dusk I go to the Assay-master. Before the weighing I ask the potters' master to bring the new nest to the hall and not to the gate, so the eleven see it from the first.
+
+I also ask Bren's people, quietly and once, about the low-tide trips to the Maun Stair. I don't ask to come, and I don't follow. I only want to know what they would be willing to say if someone asked.
+
+(One more answer was given privately, for the sealed record.)
