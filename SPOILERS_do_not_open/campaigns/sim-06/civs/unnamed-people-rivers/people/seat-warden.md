@@ -1,0 +1,9 @@
+> SPOILER WARNING: Keeper material. Players should not read this file.
+
+# The Seat Warden (unnamed)
+
+Office: keeps the low seat by the water gate and its cup. A woman of about fifty eight in Year 1, small and weathered, a widow, with grown children in the town. She has kept the seat for about twenty years and filled the cup fresh every morning in that time, and has never seen it drunk until the first morning of Year 1.
+
+Nature: dry, unhurried, funny, and slow to say what she thinks until she has watched. She does not say she believes anything of the guest. She says only that the cup is for whoever the river sends and that she has not poured out a cup since.
+
+Year 1: first fed and cupped the stranger. Took her request to keep a cord of her sayings, and has said it back at two sittings. Sat the half day watch in autumn with a well keeper and a ferry keeper, drove off a stray dog, and refused to carry the sleeper indoors because she had asked to be left. Did not take the guest for the one the cup awaits; has said only that the cup has not been empty of her. Not a helper by the Keeper's rule unless the Keeper so rules.

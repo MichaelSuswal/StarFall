@@ -1,0 +1,9 @@
+> SPOILER WARNING: Keeper material. Players should not read this file.
+
+# The Ferry Elder (unnamed)
+
+Office: heads the ferry keepers, the ford and the barges, and sits on the council. A man of about sixty three in Year 1, thick, loud, practical, with a ferryman's arms and a bad knee. Born in a hamlet, has counted sixty three floods, and watches the deep water leave the ford more than any other worry.
+
+Nature: practical to the bone and fond of arguing. Distrusts anything that cannot be poled. Took to the guest for her questions about the water.
+
+Year 1: sent two ferry keepers with the guest to the hamlets. Had the first flood marks cut on the gate stone, and had the old ferrymen recall the earlier four. Wanted the sleeper carried in. Does not take her for more than a woman with a gift and a manner. Not a helper by the Keeper's rule unless the Keeper so rules.
