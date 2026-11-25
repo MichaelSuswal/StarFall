@@ -286,7 +286,7 @@ You told him what you will not do, which is be his alone. That you will read at 
 
 And the last thing: that he will want a nod from you that his boats are better than the rest, and will not have it. You will tell him what the pan says, of his and of theirs. If his are clean, that is the best thing you can do for him. If they are not, he had better hear it from you before the buyer does. On those terms, you said, you will walk up to the Stallreeve with him now.
 
-He heard all of it without moving, a broad man with his thumbs in his belt and the lamp on one side of his face. When you had finished he looked out at the dark water where his boats lie, and back.
+He heard all of it without moving, with the lamp on one side of his face. When you had finished he looked out at the dark water where his boats lie, and back.
 
 "I came down here to buy a year of you," he said, "and you have sold me a morning and kept the rest." He has not said yes and he has not said no. One of the boatmen coughed.
 
