@@ -297,3 +297,21 @@ Success means he takes it on your terms and walks up to the Stallreeve with you 
 Two things for you to weigh before you commit. A measure of salt for a boat is his word for the fee and now yours; at the gate you have held it to a pinch, "and no more than a pinch of any of them". I have taken the measure as the boats' fee because you said it, and left the gate's as it is. And the sticks on a landing are the Tally-keeper's work and the Stallreeve's to allow, as the gate's were; you have asked for him to be there, and whether they take it on is theirs to say when it is put to them, and is not part of this roll.
 
 Argue any factor or change the asking, or tell me to roll it as it stands.
+
+## Player:
+
+Roll it, with one change to the asking and one factor argued.
+
+**The change.** I make the boats' fee a pinch per boat, weighed, the same as the gate. I said a measure out of habit, and the DM is right that it clashes with what I told the yard. A pinch of salt from the captain is small enough to be honest and large enough to keep the line. If he wants to give more, he can give it to the Tally-keeper for her sticks, not to me.
+
+**The factor.** The minus 20 for refusing "his landing and no other" is what I would dispute. He asked for exclusivity as a means. What he wants is the read before the unload, at dawn, every boat, so no captain short-weighs his landing and no buyer says his boats are crooked. My terms give him that, plus the first dawn and a standing place. He pays nothing from his own hand, and his captains pay a pinch. A man who runs a landing is better served by a reading nobody can call bought than by one that is his. I would put that minus at 10.
+
+I'd also argue the minus 5 for the fee leaving his hand. It leaves his hand and stays his advantage. A captain who has paid a pinch to be read, and has the stick to show for it, is a captain who comes back to the landing where he's read first. That is a thing he can't have with exclusive terms.
+
+I leave the last minus alone. If his loads are short, that is exactly what I'm for, and I won't pretend otherwise.
+
+By my count that comes to about 55, with the pinch. Roll it on that, or on whatever the DM thinks the factors are worth.
+
+If he says yes, I walk up with him now. If he says no, I keep the gate as it is, and I tell him the offer stands for any boat that wants to bring its load to the gate on a market morning. I won't chase him.
+
+(One more answer was given privately, for the sealed record.)
