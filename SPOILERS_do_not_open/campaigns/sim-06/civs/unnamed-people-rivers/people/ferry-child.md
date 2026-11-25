@@ -9,3 +9,5 @@ Nature: curious, unembarrassed. She gave the guest a name in front of the other 
 Year 1: first sight of the stranger; asked her a hundred questions; carried messages. Takes her for the cup's guest. Will be ten in the spring.
 
 Year 2: ten in the spring. Sat at the front when the guest told the children where she woke, and said "then you are a spring's," which went round the town. Asked to go with her to the ford and was refused by the Ferry Elder. Carried messages and sulked. Still takes her for the cup's guest.
+
+Year 3: eleven in the spring. Asked again at the fire whether she could go to the ford, and was answered that the Ferry Elder had said no and that the guest would tell her what she saw. Asked whether she was a spring's, and was answered that the guest did not know. Hid under the reed mat in the stern of the barge before it cast off, with a day's bread, and was walked up the bank by the ear by the Ferry Elder. Carried the Reckoner's cord messages all summer. In winter asked the Elder again and was told when she is twelve and has a pole of her own. Still takes the guest for the cup's guest.
