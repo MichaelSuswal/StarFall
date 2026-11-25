@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 3
 
-Status now: raised 11, resolved 1, open 10 (as raised: moderate 1, minor 10, major 0). Flag 11 resolved by the allow line, below.
+Round 2 is at the end of this file. Status now: raised 11, resolved 10, open 1 (flag 10, the DM's at step 7). As raised: moderate 1, minor 10, major 0.
 
 ## Round 1
 
@@ -153,3 +153,55 @@ Judged: the clock, the morning story and the painting request are steps 7 and 8;
 ## Counts, round 1
 
 Raised 11 (moderate 1, minor 10, major 0). Resolved 1 (flag 11). Open 10. Owners: the Keeper, flags 1 to 9; the DM at step 7, flag 10.
+
+## Round 2: the recheck
+
+Run by the continuity checker, 2026-11-25, from 11:24 Pacific, at head 743c6a7 ("the checker's round 1 flags 1 to 9 answered"). Pulled first; already up to date. Read in full: the diff of 743c6a7 (14 files) and the keeper log from "5. The check, round 1: eleven flags". Searched the whole public folder again for the round 1 matter (a lent boat, the jar, the Keeper's or sealed note, the Tally-keeper's plain answer, what the boatmen said, the punt, the third-month gift, the light's habits).
+
+### Scripts at 743c6a7
+
+```
+tools/check.py sim-06 3
+clock not advanced to year 4
+missing: the morning story (campaigns/sim-06/years/004/morning-story.md)
+no painting request for the morning story
+campaigns/sim-06/state/rolls.jsonl: rolls in the public log; rolls are sealed
+4 finding(s)
+
+tools/lockcheck.py sim-06 --all
+FAIL leaks: the four lines of flag 10 (conduct-profile.md 7, rolling-save.md 207, canon.md 50 twice)
+FAIL rolls: campaigns/sim-06/state/rolls.jsonl: the public rolls log is not empty; rolls are sealed
+places 0 failures, 44 warnings; leaks 4; releases 0; mysteries 0; rolls 1; dashes 0
+```
+
+Judged as in round 1: steps 7 and 8, and the standing ruling on the public roll log. The transcript hit is gone (the allow line, flag 11). The place warnings are the NPC civ agents' own files and the flags files.
+
+### The round 1 flags
+
+1. Fixed. `years/003.md` (header, the Stallreeve's autumn, the shut hall, the looking, the seventh month), `years/003-report.md` (lines 13, 36, 46, 100, 109) and `people/head-of-reed-and-fish.md` now say only that the ring heard the three in the shut hall and set the looking in the open. No public file holds a lent boat, the jar, the Tally-keeper's answer, what the boatmen said or a Keeper's note on S01. The matter stands in `S/years/003/year.md`, marked as the people's agent's telling. Resolved.
+2. Fixed: "a sunk boat" in all five places. Resolved.
+3. Fixed: the half of item 4 on things never told is gone; the key's taking is given as new; item 4 now names the Assay-master's watching and the Stallreeve's look in the told autumn. The list leaks nothing (checked again). Resolved.
+4. Fixed: the gift is struck from the year file, the report (marked struck, numbering kept), `bren.md`, the chronicle draft and the DM release. Resolved.
+5. Fixed: the DM release (the held board and the tenth month) and `year.md` mark the word's going with the coasters as provisional, and tell the DM to say so. Resolved.
+6. Fixed: the last week of the sixth month in both; the sixth month's lines under winter in the release. Resolved.
+7. Fixed: the people's year file and chronicle draft give one in month 6, one in month 9, two late in summer (11 and 12) for Year 2, and one in month 1, two in month 5, two in month 7 and one in month 8 for Year 3. Each agrees with `year.md` and r-0300 to r-0305. Resolved.
+8. Fixed, in the year file and `lore.md`: the town sees it sit awake by the lamp. Resolved.
+9. Fixed: the DM release gives the god's calls of the third nest before the ring in the ninth month; god-secrets's release lists the daughter's ask as answered. Resolved.
+10. Open: the DM's at step 7, by `corrections.md`. Not a failure now.
+11. Resolved after round 1 (above).
+
+### New in round 2
+- No new flags. The changed lines bring in no new name, place, count or sealed term, and no new event. The scans are clean but for flag 10.
+
+### Noted, not flagged, round 2
+- `years/003-report.md` line 12 still says of the loft "What they saw is the sealed note's", and line 127 "as the Keeper's note gave it" (the clay figures). Neither carries S01 matter: the loft's contents were told in the god's hearing in month 10, and the clay figures are public. That a sealed note exists is engine practice already in the public Year 2 releases.
+- `years/003-report.md` line 173 quotes the god's decided words on the light as the agent's reading of them; it is not a saying in the town, so flag 8 does not reach it.
+- `lore.md` line 176 gives the Year 3 dim nights as "more nights ... in the first month, in the dead of winter and in spring": no count and no wrong month. Allowed, as no count is stated.
+- `years/002.md` keeps its own Year 2 lines unedited, as L-0046 has it; `years/003.md` is what happened.
+
+### Rulings for review, round 2
+- The Keeper's two new rulings (what a sealed note seals; an event added to a stretch that stands as told) are read and accepted; each agrees with the flag it answers and with L-0046.
+- The Keeper's and the checker's shared note for the owner: a pass-one release that names a seen phenomenon's months for the player's people (flag 7 here, Year 2 flag 11, Year 1 flag 3).
+
+### Counts, round 2
+Raised 0 new (11 in all; moderate 1, minor 10, major 0). Resolved 10. Open 1: flag 10, the DM's at step 7.
