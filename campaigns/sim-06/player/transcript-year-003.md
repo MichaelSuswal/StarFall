@@ -179,3 +179,21 @@ Two things follow that you should know before you answer. The year after this ev
 And one ask from the day that is still waiting. The old weigher of the hill kin asked you to weigh his stones before the ring, had nothing, and has gone home to Ruddfold. If the Weigher has a word for him, or for the next of the hill kin who asks the same, give it, or let it lie.
 
 When you are done in the hall, say so, and I will tell you the year as far as the next moment.
+
+## Player:
+
+"Then I'll walk with you, Master. I would rather the Stallreeve heard it from my mouth with you beside me than from yours with me somewhere else. I carry nothing I mean to hide from him, and I'd like him to see my face when I say it."
+
+I help him with the rack if he'll allow it, and I touch nothing in the chest. I ask him to lock it with the Stallreeve's second key present, or in front of him, so that no one can say the chest was opened in the dark after I left. I also ask that the empty seat be left exactly as it is, and that nobody wipes it.
+
+On the road to the Stallreeve I say it plainly, with the Assay-master at my side: "I'm a god, Stallreeve. I told the Assay-master tonight, as he asked, and he's brought me to tell you. I didn't take the seventh weight and I never touched the chest. I'm telling you first, before the yard, and I'll say it to the ring at the sitting, first, as the Assay-master has said. I ask nothing for it. If the ring wants me gone from the gate, I'll hear that and weigh my answer. I won't run off, and I won't change my reading for anyone's sake."
+
+I tell him what I told the Assay-master, and no more: the scales, the weight, count and purity of what is in the pans, nothing of where or who. I do not volunteer the seals or the Reading. If either of them asks me about a particular power, I say yes or no, or I say I won't answer. I will not say no to a yes. I do not need to be asked twice about the Seal. If the Stallreeve asks whether I can tell who is lying, I will not say no, because that would be a false word, and I will say what the Reading does and what it will not do, and I will tell him that I will not use it on anyone in this town without their asking.
+
+On the sitting, I'll come and say it first. I'll ask to say it standing at the foot of the ring, with the yard allowed in, so nobody hears it from a neighbor. I'll tell the eleven what I told him, and I'll tell them the same terms I gave for the weighing: I weigh, and they decide. I do not ask to be Weightward and I do not refuse it yet. I will answer for the seat when the loft has been looked in and the seventh has been looked for.
+
+For the old hill weigher: I send a word to Ruddfold by the next carrier down the Old Rudd Way. "The Weigher will weigh your stones in front of any of the ring who want to see it, at the gate, any market morning. No fee but a pinch. Bring the stones in your own bag, and I'll call them in my own cups." I add that the old weights and his stones agreed to the beam's tremble, and I'd like to hear what his people think the seventh was. I ask nothing more.
+
+I'm done in the hall. I'll walk to the Stallreeve with the Assay-master when he has locked the rack.
+
+(One more answer was given privately, for the sealed record.)
