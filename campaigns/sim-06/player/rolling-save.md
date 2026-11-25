@@ -141,3 +141,21 @@ For the Keeper tonight (not decisions): where the old weights are kept, who hold
 - Put to the player, last batch: the Assay-master's five; and what it answers on the Weightward's seat after the weighing, or whether that waits for a played day.
 - Board as left: the foot of the gatepost at the end of that market day; no one asking anything.
 - One sealed answer taken to the sealed record.
+
+## 4. The hall door at dusk (final save, at the close)
+
+- The Weigher thanked the Tally-keeper for the notch and the pinch, and called the weight of the barley she held out. It asked her to change nothing.
+- At dusk of that market day, when the bench closes, it went up to the hall with the brass. HELD at the hall door, for the night, as a major encounter. Nothing has been said. The player's words for it are in `decisions-002.md`, item 5.
+- Handed to the night, not played: the word to the Stallreeve on his rule; the ask to the Stallreeve before the pits day; the ask to the potters' master to bring the new nest to the hall; the one quiet question to Bren's people about the low tides; the weighing; the day at the pits; the gate for the rest of the year.
+- The Weightward's seat: the player gives that answer itself, at the table. Not answered in unplayed time.
+
+State at the close:
+- The Weigher is at the door of the hall of the town's house, at dusk, late in the eleventh month of Year 1. Scales at its belt, the nest and all it carries on it, a few days' fees, the clay cup, and the half-stick of the council's asking in a pocket that is not the empty one.
+- Seals standing: none. Licences: none.
+- True scales: Bren's balance and each scale found level at the gate, each for as long as it holds (L-0031); among them the stallholder's scale of the held market day, from its second trial.
+- It has not said it is a god to anyone. It means to say "Yes" to the Assay-master's question whether it is more than a man with good brass, and no more before the weighing.
+- Promises made: to weigh the hall's old weights before the eleven on the council's day, on the terms spoken; to read the stallholder's scale again, done.
+- Standing in the market that was not there a year ago: the Tally-keeper's split reading-sticks, by the Stallreeve's leave, on his rule and with her notch. No mark of the Weigher's is on them.
+- Rolls today: r-0006 to r-0010.
+- Pending questions: the Assay-master's five are answered by handed-off words, not yet spoken to him. No other ask is open. Open with the Keeper: where the old weights are kept and what the eleven answer to the terms; the Year 1 nights as seen or heard; the master stallholder's scale within the month; clay under The True Measure.
+- Sealed answers taken today: four, all in the sealed record.

@@ -257,3 +257,23 @@ And one of your own making. You told the yard you would answer on the Weightward
 I also ask Bren's people, quietly and once, about the low-tide trips to the Maun Stair. I don't ask to come, and I don't follow. I only want to know what they would be willing to say if someone asked.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You thanked the Tally-keeper for the notch and for the pinch. You had weighed the barley she held out, and you called what the pan gave, in your cups. She put it in her apron and went on tying her bundle. You asked her to change nothing.
+
+The market came down around you. The last of the line went home with what they had come for. The stalls were struck or covered, and the clay of the yard began to give up the day's heat. When the light went off the channel you took up your scales from the foot of the gatepost and hung them at your belt, and you went up the yard to the hall with the brass on you, at the hour the bench closes.
+
+You are at the hall door at dusk. Nothing has been said.
+
+(oog) The close.
+
+That door is where I stop, as I did a year ago. The talk across the bench is handed to the night in your words and no others: your five answers to the Assay-master, to him and to no one else, in the order he asked. Where he asks something those words do not cover, the Weigher keeps silent, as its card lets it, and the ask comes back to you.
+
+A small thing on the barley. No file gives a pinch a set weight, so I had the Weigher call the weight of it and not the word "true". If you have a figure for the pinch, give it next time and it becomes the fee's measure.
+
+The rest goes to the night as you gave it. The pits after the weighing, for one day, weight only until the Keeper rules on clay, with the Stallreeve asked first whether the watch will keep the line and the Tally-keeper her sticks. Your word to the Stallreeve that his rule on the sticks is a good one, when he is next at the gate. The potters' master asked, before the weighing, to bring the new nest to the hall and not to the gate. The one quiet question to Bren's people about the low tides, asked once, with no asking to come and no following. What any of them answers is the world's, and you will have it in the morning. And the gate for the rest of the year, on its terms.
+
+The Weightward's seat waits for you at the table. If it is offered this year, the Weigher gives no answer in your absence, and the offer is held for you.
+
+The world turns at 1:30am Pacific.

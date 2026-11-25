@@ -4,7 +4,7 @@ Campaign: sim-06.
 
 ## Now
 
-As of the Year 1 played day, 2026-11-24 (Pacific).
+As of the Year 2 played day, 2026-11-24 (Pacific).
 
 What it is about: fair measure, and the price of the unfair kind. Not wealth as such. "The moment two people agree on what a thing is worth."
 
@@ -125,4 +125,10 @@ Unsaid wants are kept sealed.
 - On debt: "I don't strike debts, and I won't say I can." Of the council's taking a twentieth off: "I'd say that was well done."
 - On the reed island: "owning is not a weight."
 - On standing witness: "I say what I saw and heard and nothing more." (check with the player before acting)
-- Answers given privately today are kept sealed.
+- It put the hall's weights first: "I want the hall's weights settled before I put my scales on anything else the town argues over."
+- It will not leave the market without a reading if it can be helped, and asks the Stallreeve before it goes to the pits for a day.
+- To the Assay-master it means to say: "I'm offering a measurement, not a standard." And that it is more than a man with good brass, and no more before the weighing: "a man who explains himself first is selling."
+- Of the Weightward's death: "I wanted to know whether the quiet was an ordinary one. I'm sorry he was your friend. I won't ask again unless you tell me."
+- Of the seat: "filled by whoever the eleven choose, and if it isn't me, then someone who'll argue with me." Offered as a gift, it says no; offered "as an office with a limit and a check", it will say then. That answer is the player's own to give.
+- Of the low tides it asks Bren's people once: "I don't ask to come, and I don't follow."
+- Four answers were given privately today and are kept sealed.

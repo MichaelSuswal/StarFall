@@ -49,6 +49,8 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 
 - 2026-11-24, Year 2 played day (a sealed part of the second reply, after the stallholder's scale was read out and then level): "The stallholder's scale being out was the right answer, and I still felt relieved that I hadn't been the one to say it was level. I'd have said it. I couldn't have said it falsely. I have not yet been tested on whether I'd keep silent when a lie would have saved a friend."
 
+- 2026-11-24, Year 2 played day (a sealed part of the fourth reply, after giving its answers for the Assay-master): "I told the Assay-master I'd say "yes" to being more than a man with brass. It was the first time I let someone hear it. I felt lighter, and then I felt like someone who has shown a pocket. I want to see what he does with it."
+
 ## The DM's notes
 
 - 2026-11-24: Two open conduct lines carry "check with the player before acting" because of this file: the hall where anyone may check a scale against the god's own, and anything to do with the lost house, the lost name or the debt.
@@ -61,3 +63,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24, Year 1 played day, at the close: five sealed parts were taken today, filed above by kind (two wants, one under Other, one under Fear, and the first under Want). None was put to the player for confirmation and none was acted on by the DM. The open decision that goes with the last one (to tell the Assay-master of The True Measure and say nothing of seals, the Reading or the word god) was given in the open post and is in `player/decisions-001.md`; its sealed reason is not.
 - 2026-11-24, Year 2 played day: two sealed parts so far, one filed under Want (the remitted price) and one under Other (the scale that was not level). Neither was put to the player for confirmation and neither is acted on.
 - 2026-11-24, Year 2 played day: the third sealed part is filed under Fear. The open conduct line on standing witness carries "check with the player before acting" because of it: no agent has the Weigher use The Good-Faith Reading at a witnessing in unplayed time.
+- 2026-11-24, Year 2 played day, at the close: four sealed parts were taken today, filed above by kind (one want, two under Other, one under Fear). None was put to the player for confirmation and none was acted on by the DM. No sealed want was confirmed today; every Confirmations line still reads none.
