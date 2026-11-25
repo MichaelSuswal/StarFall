@@ -90,4 +90,9 @@ Unsaid wants are kept sealed.
 - It weighed all ten of the hall's pieces in the Assay-master's order: "I do not weigh them in the order that makes me look best."
 - Asked who it is: "I'm a weigher, as I said. I came down the old bank at first light and I haven't been in this town before today. People who ask what to call me have said the Weigher, and I've not argued with it. I had another name once, and I can't give it to you, because I've lost it." It left open whether it is more than that and told no lie.
 - What it says it wants in the town: "a hall where nobody in that yard has to wonder whether the ruling is fair." And: "I'm not here to take that from you. I'm here because I can't watch a hall weigh short and say nothing."
-- Three more answers were given privately today and are kept sealed.
+- In the yard it read scales for a small fee in measure, in the order people stood: "I don't cut the line for anyone who offers more." It took grain, fish or a fired weight and refused metal, "so nobody can say the hall's neighbor sells measures for money." It gave the reading and made no repair.
+- It weighed outside the hall, by the gate, "where nobody can say I'm using the bench."
+- Of the Weightward's death it asked "in the offhand way a stranger would" and did not push.
+- Of what it tells the Assay-master: what its scales tell it of what is in the pans and what is weighed beside them, and nothing of seals or the Reading, and not the word god. "I won't call that hiding, because I haven't said anything false, and he hasn't asked."
+- Of the old weights: it will weigh them "in front of the council, not in a back room", and would like that to be the Assay-master's offer to the eleven, "his offer, not mine."
+- Five answers were given privately today and are kept sealed.

@@ -257,3 +257,41 @@ I eat with whoever will have me. I keep the coat closed and the scales on my bel
 At dusk I go to the Assay-master, with the brass, door shut, as invited. I'll answer how I knew as truthfully as I can without the rest. My scales tell me what is in the pans, and what's weighed beside them while I'm near. That's the whole of it, and I'll show it again if asked. I'll say nothing about seals or the Reading, and I won't say the word god. I won't call that hiding, because I haven't said anything false, and he hasn't asked. I will tell him I want to see the Weightward's old weights set right, and that I'll weigh them in front of the council, not in a back room. I'd like that to be the offer he takes to the eleven, and I'd like it to be his offer, not mine.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+"A fish," she says, and unhooks one from the string before you can think better of the price. "Bren. I pole a reed boat on the islands west of the Bank Way, and I've been nowhere you'd want to hear about." The Bank Way is the path you came in on. It is the first name anyone here has given you for anything.
+
+You set your scales at the foot of the gatepost, on the yard's clay and nowhere near the bench, and take her balance by its cord. You put the same brass in one of its pans and then the other, with the yard watching, and you know what it does before the pans stop. It is not true. The cord on the left has stretched. With twenty of your ones in each pan the left side hangs as if it held twenty-one. You tell her so, plainly, which pan and by how much, and that she can take up the cord herself or be shown where.
+
+Bren looks at the left cord for a while. "That's the selling side," she says. "I've been giving a fish in twenty away since the spring." She does not sound sure whether to be pleased with you. She takes it up herself, with her teeth and a thumbnail, and has you try it again, and this time the two pans agree, and then she goes off down the bank holding the balance in front of her like something that might spill.
+
+The two behind her get the same. The second is a potter's boy with his master's beam, and it is out by one part in thirty, toward the buying side. The third is a tall pale man from the hill people's corner with a charcoal balance of his own making, and it is out by one part in ten, and he is so plainly astonished that the yard laughs at him and not at you. You tell each of them which pan and how much, and nothing else. A woman at the back holds up a pinch of scrap silver and you tell her no, grain or fish or a fired weight, and she goes away and comes back with a cupped handful of barley.
+
+More come. They come a few at a time through the middle of the day, off the stalls and up from the boats, some with scales and some only to stand and watch a stranger read one. You take them in the order they stand. Most of what you are handed is out by something, the boat people's cord balances worst and the potters' beams least, and you do not find one that you could call a cheat's scale by the look of it: they are out both ways, as often against their owners as for them. For a while one of the market's watch stands at the corner of the yard with his spear grounded, looking on. He says nothing to you, and after a time he is gone. When the light slants you stop and tell the ones still waiting that you will be back tomorrow. You have a string's worth of dried fish, a fold of barley in a pocket, and two small fired weights of the town's making.
+
+The rest of the day you are in the market, listening.
+
+They price in salt. Nearly everything is called in weights of salt, and settled in whatever the buyer has, fish or reed or pots or a little bronze. The quarrels are at the joins. The rakers measure by the basket, the reed people by the hand and the bundle, the fishers by the string, the potters by the piece and the kiln load, and each trade turns its own measure into weights of salt by its own stones. You hear the same plain pot priced three ways at three stalls. The loudest voices in the place belong to two kiln-masters and a clay-digger, over a boatload that one side calls good flood silt and the other calls half grit, and nobody near them has any way to say which. The hill people's corner is thin. The charcoal and ore are low, you are told, until the carriers come down the Old Rudd Way, which is the sunken road you watched this morning. And more than once you hear this country called by a name: the Reedmouths.
+
+You buy a clay cup from a potter's wife for three of the dried fish. She counts the fish and you take the cup, and nothing is weighed at all. In your own pan afterward it comes to forty-one of your ones, and it is sound.
+
+Asked offhand who sits on the eleven, people tell you readily, by seat: the heads of the four trades, reed and fish, salt, clay and the hill goods; the masters of the potters, the boatwrights, the weavers and the smiths; two ship-owners; and the Assay-master. Both ship-owners keep boats on the channels, and one of the two also sends a pair of coasters out to sea in the summer. The eleven meet in the house on the high bank, in a ring on the floor of the hall you stood in this morning, when they meet. Nobody you ask can say when they last settled anything.
+
+Of the Weightward they say he was old. He kept the old weights, the ones older than the town, and brought them out when the hall's pieces wanted setting right. Asked how he died, they say what people say of the old: he took a chill in the spring flood and was dead in his bed within a fortnight. You do not push, and no one adds to it.
+
+You eat at the landing, on the edge of a drawn-up boat, with Bren and four of her people, out of one pot of fish and barley. Before anyone eats, the oldest of them flicks the first spoonful into the channel without looking where it goes. They ask you nothing about yourself. They want to know whether the Assay-master's face really did that when the third piece sank.
+
+At dusk the stalls come down. You climb the bank with the brass. The yard is empty, the drum hangs on its frame, and the gate is open as it was. The Assay-master is alone in the hall, setting the ten pieces back along the wall one at a time, the chipped one and the cracked one last, and looks round when your shadow comes through the door. A reed lamp is lit on the bench. The Assay-master crosses the room, shuts the door behind you, and goes back to stand on the far side of the bench with both hands flat on the plank, waiting.
+
+(oog) The story stops here, at the door shut. This meeting is held for the night as a major encounter: what you mean to say in it is handed off as you gave it, and the morning will tell what came of it. Nothing in that room has been resolved.
+
+Three rolls today that I have not yet told you of, each in the open log before I wrote. Whether each of the first three scales in the yard was out by an amount worth telling was the world's to answer. I set each at even: plus 10 for home-made scales in a town with no keeper of standards since spring, minus 10 for a people good with small numbers and proud of being hard to cheat. All three were out. The later scales were not rolled one by one, and I have told them only in the round.
+
+What I could not give you. The record I hold gives the eleven by seat and not by name, and gives no prices. I will not invent eleven people or a price list. Both are the world's, and you will have what the town says when it comes.
+
+Three names reached you from mortals today and are on your map: the Bank Way, the Old Rudd Way and the Reedmouths. Two offices too: the Assay-master and the Weightward. And one person: Bren.
+
+Both pending asks are answered by what you did: you tried Bren's balance for a fish, and you went to the hall at dusk. Nothing asked of you is left unanswered.
+
+No scale you read today was adjusted in your presence and tested again against your own, apart from Bren's cord, which she took up herself and you tried a second time with brass. I have not counted hers as a true scale in the card's sense, because you read it against your nest and not against your scales. If you meant otherwise, say so tomorrow and I will put it to the Keeper.

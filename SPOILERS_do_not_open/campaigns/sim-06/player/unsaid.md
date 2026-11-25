@@ -26,6 +26,7 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
 ## Fear
 
 - 2026-11-24, creation Day 3 (same reply): "I am afraid of being the one that register catches."
+- 2026-11-24, Year 1 played day (a sealed part of the fifth reply, before the dusk meeting with the Assay-master; a decision and a fear in one reply, kept whole): "I've decided to tell the Assay-master about the True Measure, and not the other two, because a man who has weighed all his life will find out what I can do within a month, and I would rather he hear it from me. The Reading frightens me more. If he knew I could tell whether a man meant his terms when he struck them, the first thing he would do is ask me to read him. I do not want to learn what I would read."
 
 ## Request not to be told
 
@@ -50,3 +51,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24, Day 3: The third sealed part is filed whole under Want; the DM read it as the god's wish and its distrust of the wish, not as a request. For the Keeper to weigh beside the same day's sealed request about the vacancy: the two pull different ways, and the DM settles neither.
 - 2026-11-24, Day 3, at the close: `requests-answered.md` still carries the Keeper's reason line and no further line. The DM's agreement stands as written above.
 - 2026-11-24, Year 1 played day: The three open conduct lines marked "check with the player before acting" were put to the player in (oog) and answered in the open: they stand as written, with an order (the keeper's place only once the Warden knows and has agreed to watch; the Clerk licensed first and only after the god has seen that person work, no promise today; the house, the name and the debt left alone until the player says, "That one is firm."). This confirms the open lines. It is not a confirmation of any sealed want above; none was asked for today.
+- 2026-11-24, Year 1 played day, at the close: five sealed parts were taken today, filed above by kind (two wants, one under Other, one under Fear, and the first under Want). None was put to the player for confirmation and none was acted on by the DM. The open decision that goes with the last one (to tell the Assay-master of The True Measure and say nothing of seals, the Reading or the word god) was given in the open post and is in `player/decisions-001.md`; its sealed reason is not.

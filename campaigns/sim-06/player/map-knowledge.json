@@ -3,8 +3,9 @@
   "regions": {
     "r14": {
       "grade": "seen",
-      "source": "the landing",
-      "year": 1
+      "source": "market talk on the landing day",
+      "year": 1,
+      "named": true
     },
     "r15": {
       "grade": "reported",
@@ -35,18 +36,18 @@
     },
     "f21": {
       "grade": "reported",
-      "source": "own sight at landing",
+      "source": "the channel woman Bren, in the yard",
       "year": 1,
       "told": {
-        "name": "a path"
+        "name": "the Bank Way"
       }
     },
     "f23": {
       "grade": "reported",
-      "source": "own sight at landing",
+      "source": "market talk on the landing day",
       "year": 1,
       "told": {
-        "name": "a road to the south-east"
+        "name": "the Old Rudd Way"
       }
     }
   }

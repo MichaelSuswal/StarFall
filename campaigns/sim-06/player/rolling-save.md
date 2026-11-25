@@ -61,3 +61,27 @@ Asked of the player in (oog), not yet answered: whether the three conduct lines 
 - No seal set, no licence given, no promise made.
 - Pending: the dusk invitation; the woman's question (`pending.md`).
 - One sealed answer taken to the sealed record.
+
+## 5. The yard, the market, and the door at dusk (final save, at the close)
+
+- To Bren (the channel woman; she gave her name): the fee is a dried fish. She poles a reed boat on the islands west of the Bank Way. Names told: Bren; the Bank Way (the path, f21).
+- The Weigher set its scales at the foot of the gatepost, off the bench, and read her balance with brass from the nest set in each pan in turn. Rolls r-0003, r-0004, r-0005 (DM, odds 50 each): all three of the first scales were out. Bren's: left pan heavy by one in twenty (her selling side). A potter's boy's beam: one in thirty, toward the buying side. A hill man's charcoal balance: one in ten. Bren took up her cord herself; tried again, her pans agreed.
+- It refused scrap silver from a woman at the back; she paid in barley.
+- More came through the middle of the day, taken in line order, reading only. Not rolled singly: most were out by something, cord balances worst, potters' beams least, out both ways, none a cheat's scale by its look. One of the watch stood by for a time and left without speaking.
+- It stopped when the light slanted and told those waiting it will be back tomorrow.
+- Fees held: about a string of dried fish (less three spent), a fold of barley, two small fired weights of the town's making.
+- In the market it listened. Told and heard: everything is priced in weights of salt and settled in kind; each trade has its own measure (basket, hand and bundle, string, piece and kiln load) and its own stones; two kiln-masters and a clay-digger quarrelling over grit in a boatload of flood silt; the hill corner thin until the carriers come down the Old Rudd Way (the sunken road, f23); the country is called the Reedmouths (r14).
+- It bought a clay cup from a potter's wife for three dried fish. Nothing was weighed in the sale. In its own pan: forty-one, and sound.
+- Who sits on the eleven, told by seat: heads of reed and fish, salt, clay, hill goods; masters of the potters, boatwrights, weavers, smiths; two ship-owners, both with channel boats, one of whom also sends a pair of coasters to sea in summer; the Assay-master. They meet in a ring on the floor of the hall, when they meet. No names given (the DM holds none).
+- Of the Weightward: old; kept the old weights, older than the town, and brought them out when the hall's pieces wanted setting right; took a chill in the spring flood and died in his bed within a fortnight. The Weigher did not push.
+- It ate at the landing with Bren and four of her people. The oldest gave the first spoonful to the channel.
+- At dusk it went up to the hall with the brass. The Assay-master was alone, putting the ten pieces back, a reed lamp on the bench; shut the door behind it and stood across the bench, hands on the plank, waiting. HELD HERE, for the night, as a major encounter. Nothing in the room is resolved.
+
+State at the close:
+- The Weigher is in the hall of the town's house, door shut, facing the Assay-master. Scales at its belt, nest and all it carries on it, plus the fees and the cup.
+- Seals standing: none. Licences: none. True scales: none counted (one question put to the Keeper, `rulings-pending.md`).
+- It has not said it is a god to anyone. It is called the Weigher by Bren and by those in the yard.
+- Promises made: only that it will be back in the yard tomorrow.
+- Pending questions: none open.
+- Names in the god's knowledge: the Bank Way, the Old Rudd Way, the Reedmouths; the Assay-master, the Weightward; Bren.
+- Sealed answers taken today: five, all in the sealed record.

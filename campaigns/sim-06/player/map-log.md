@@ -1,1 +1,4 @@
 - 2026-11-24 | year 1 | feature f20 | reported -> seen | walked in on the landing morning
+- 2026-11-24 | year 1 | feature f21 | reported -> reported | the channel woman Bren, in the yard
+- 2026-11-24 | year 1 | feature f23 | reported -> reported | market talk on the landing day
+- 2026-11-24 | year 1 | region r14 | seen -> seen | market talk on the landing day
