@@ -13,7 +13,7 @@ What you saw, heard, were told and felt in Year 1, and what your people report. 
 - In autumn the council asked you, after a short quarrel, to stand with the hunters and say where the game lay. You did, and asked that the hunt keep its season.
 - You wintered at the margin of the main camp in the high wood. The cutters of the stone towns were in the winter woods farther in than last year. Three clans camped apart all year and wintered apart, farther off than before, after a quarrel over fuel wood in which a boy of the main band was cut on the forearm; the Three at the Fire judged it.
 - The band's trade party went to the stone towns in the fifth month with beasts, hides and felt, and came back before the going up with what the Saltkeeper counts as two parts in three of what was sent for, and with tools of the stone towns' make. The stone towns asked more for it than last year.
-- The cattle of two clans that coughed last autumn still cough, some of them. A few died in the winter.
+- The cattle. Some beasts of the two clans that coughed the autumn before you came still cough. In the ninth month the cough came back in those two clans' herds in a small way, a few beasts only. The two clans put those beasts apart from the herd, as they had learned to, and lost four.
 - No office holder has taken your word. You felt no other like yourself.
 
 ## Asked of you and not answered
