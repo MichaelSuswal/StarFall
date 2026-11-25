@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 1
 
-Round 2 (the recheck) is at the end of this file. Status now: raised 9 in all, resolved 6, open 3.
+Rounds 2 and 3 (the rechecks) are at the end of this file. Status now: raised 9 in all, resolved 9, open 0.
 
 ## Round 1
 
@@ -166,3 +166,41 @@ The clock, the morning story and the painting request come after this step. The 
 
 ### Counts, round 2
 Raised 3 new (9 in all). Resolved 6. Open 3.
+
+## Round 3: the recheck after step 7
+
+Run by the continuity checker, 2026-11-24, from 16:55 to 16:59 Pacific, at head f628b03. It covers the Keeper's round 2 fixes (bd2a43e, f993790) and the DM's step 7 files (80e217a, f628b03), plus the painting the paint job returned (2e07da5). Read in full: the diffs, the Year 1 closing, the Year 2 morning story, the painting request and the painting, the chronicle files (README, years, canon, threads, messages, and the god's and people's working files), the new card entry, the new appearance card and `player/pending.md`. Checked against the DM release, `year.md`, the ledger, the power card, the player's record and the engine rules.
+
+### Scripts at f628b03
+
+```
+tools/check.py sim-06 1
+clock not advanced to year 2
+campaigns/sim-06/state/rolls.jsonl: rolls in the public log; rolls are sealed
+2 finding(s)
+
+tools/lockcheck.py sim-06 --all
+places 0, leaks 0, releases 0, mysteries 0, rolls 1, dashes 0
+```
+
+The clock is step 8's. The public roll log stands as ruled in round 1.
+
+### The three round 2 flags: all resolved
+7. The keeper log names the stamp tool's change to this file and says the Keeper runs it no more tonight. The tool change is left for Michael. Resolved.
+8. `P/releases/001/dm.md` now gives the dim nights as the town told them in the god's hearing (the line at the gate in month 1; the watch and the boatmen for the winter one), says that whether the god saw them itself is not set, and tells the DM to ask. The count still stands under the allow line. Resolved.
+9. god-beasts's release gives the cough's month 9 return as the Longwalk report it, and `year.md` matches. Resolved.
+
+### "It needs no sleep" in the morning's (oog)
+Confirmed. The player's card, world rules, transcripts and conduct profile say nothing about sleep (searched). The public engine says it for every god: `engine/rules/time-and-pace.md` 149 ("What a god does not have is a need for food or sleep. Sleep is a choice."), from DESIGN 10.2. The sentence states a need, not a habit. The same (oog) says the record has the Weigher only sitting late at the landing, and asks the player how it keeps its nights. It matches the release, `pending.md` and the chronicle, which all tell the nights as heard and not as seen.
+
+### Checked and holding, round 3
+- The morning story. It is made only from the DM release and holds no more than it does. The return sequence gives the year, the season, the people's state and mood, the god's place and body, and no weight in the air. The meeting at dusk, the year's asks and the events agree with the release item by item. The dim nights are at their true count, as heard. The tide gathering is told as the yard said it, with no number. The story stops at the laid stick with the board, and has no "what do you do". The (oog) has four parts: the handling of the year, the L-0031 ruling in plain words, the map names (which match `player/map-knowledge.json`), and the nights question. There is no list of loose threads, no pointing at signs, no correction of a belief, no flattery, no count of gods, no other god, no sealed term, and no trace of the sealed factor.
+- The closing. It has five sentences, inside morning-story.md's two to five. It states no outcome, sums up nothing, hints at nothing, and is built from the god's own things (the brass, the pockets, the empty pocket).
+- The painting request and the painting. The scene is the gate and yard as seen on the landing day (the rolling save; the new appearance card), with the line of the four kinds of townsfolk as the people's record describes them, the watch, the landing and the reeds. The figure is seen from behind with no face. The house style is copied in. The painting is within Michael's approved count (`S/rulings.md`, the Year 2 morning). It shows nothing the god does not know. One note, not a flag: a short paling shows at the right edge, where the card says no fence. It reveals nothing, and the painting is final.
+- The card entry. It matches L-0031 word for word, dated, with the ledger id. No other term of the card changed.
+- The chronicle. Only what the god knows. The sky is told as heard. The canon carries L-0031 and L-0025 and the code as seen or told. The threads are the god's open matters, and none is a sealed thread. Messages: none.
+- `pending.md`. It holds the held encounter, the five asks from the meeting and the fourteen from the year, matching the release. One note, not a flag: it also lists the DM's own (oog) question about the nights, which no one in the world asked (DESIGN 12.9). It is harmless as a reminder, but it belongs in the conduct or rolling-save notes, not in pending.
+- Dashes: none. Leaks: none, with the round 2 allow line.
+
+### Counts, round 3
+Raised 0 new (9 in all). Resolved 9. Open 0.
