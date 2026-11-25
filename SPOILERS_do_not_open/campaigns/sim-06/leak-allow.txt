@@ -10,3 +10,10 @@ three are given, the same for every god
 # 2026-11-24. player/transcript-day2.md 23, the player's words: "two people agree on what a thing is
 # worth", the god's domain, two mortals at a bargain.
 god of the moment two
+# 2026-11-24, Year 1 check round 2. P/releases/001/dm.md 94, the sky: the true count of the Year 1 dim
+# nights (tools/phenomena.py), which the player's people all saw (S/years/001/year.md; their year file).
+# A count of nights already seen is no leak under DESIGN 12.2, and DESIGN 12.8 and morning-story.md
+# require the true count. The scan exempts a phenomenon count only by its label, so this line lets
+# every dim-nights count through in public files: the checker reads each such count for meaning
+# (seen or not) every year. Listed in S/years/001/flags.md, round 2.
+dim-nights

@@ -1,6 +1,10 @@
 > SPOILER WARNING. Sealed. Year 1 continuity flags for campaign sim-06. Players must never read this file.
 
-# Continuity flags: sim-06, Year 1, round 1
+# Continuity flags: sim-06, Year 1
+
+Round 2 (the recheck) is at the end of this file. Status now: raised 9 in all, resolved 6, open 3.
+
+## Round 1
 
 Run by the continuity checker (night turn step 5), 2026-11-24, from 16:34 to 16:43 Pacific, against commit f5f2479 ("pass two, the year resolved, handed to the checker"). Pulled first; already up to date. Every check below was made against the files, not against the keeper log's word. Read in full: `CLAUDE.md`, `engine/roles/checker.md`, `engine/night/night-turn.md`, `engine/design/DESIGN.md`, `S/keeper/sealed-factors.md`, `S/rulings.md`, `S/years/001/year.md` and `world-events.md`, the keeper log from "Year 1 night turn", the ledger L-0031 to L-0036, `S/state/luck.md`, `standing.md`, both roll logs from the year's first roll, the player's decisions, the player's people's year file, the public pass-one release, the god-sea decide release. Read by search and in part, where a check needed them: `engine/rules/*.md` (powers, failures checklist, morning story, time and pace, encounters), the event schedule, mysteries S04 and S07, the seven decisions files, the seven records of gods, the four changed cards, every sealed hidden-powers file, the eight growth files, the eight peoples' Year 1 files, every map log, the player's map knowledge and the people's knowledge file, and the diff of f5f2479.
 
@@ -94,6 +98,71 @@ Judged: the clock, the DM release, the morning story and the painting request co
 - **The public roll log (DESIGN 12.6 against the "rolls are sealed" lines and both scripts).** DESIGN 12.6 and sealed-factors.md ("DM rolls in play") tell the DM to roll in the open into `P/state/rolls.jsonl` and say those lines are never edited; DESIGN's "Sealed and public outputs" says the rolls log is sealed and the player sees only outcomes; `check.py` and `lockcheck --rolls` refuse a non-empty public log. The public lines also carry the die's value, which 12.6 says stays hidden, and their ids r-0001 to r-0005 repeat ids in the sealed log (the keeper log writes "DM r-000N" to tell them apart). Only Michael can settle it. Ruled by the judgment order: fairness to the player's intent (the odds stated in the open, outcomes shown, dice hidden), then fit with the design as written (12.6 and sealed-factors.md name the public log as the DM's and forbid editing it), then balance (nothing in the year turns on it): the five DM lines stand as written, unedited, and the two script findings are not flags against Year 1. For Michael: whether the DM's open rolls stay in `P/state/rolls.jsonl` (and the scripts and the "rolls are sealed" line change), or move to a sealed DM log with the open file holding odds and outcome only; and whether the two logs should share one id sequence.
 - **Counts of a seen phenomenon in public files (DESIGN 12.2 and 12.8, morning-story.md, against the scan).** 12.2 bars a phenomenon's count from public files only before it has been seen; 12.8 and the morning story rule require the true count whenever it appears. The scan's phenomenon check refuses any count of two or more beside the phenomenon's words in any public file, seen or not, and the Keeper told the player's people's agent to give no count for that reason. The DM release and the morning story (steps 6 and 7) will meet this if the god saw the dim nights. Ruled by the judgment order: fit with the design comes before the tool, so where the god or its people saw them, the true count stands in the DM release and the morning story, and a scan hit on that line is ruled at step 8 as no leak under 12.2 (the count was seen) and, if needed, its exact phrase written to `S/leak-allow.txt` with its reason, as checker.md allows for a phrase ruled not a leak. For Michael: whether the scan should learn "seen" (from the people's and the god's records) so no allow line is needed.
 
-## Counts
+## Counts, round 1
 
-Raised 6. Resolved 0.
+Raised 6. Resolved 0 at round 1; all 6 resolved at round 2 (below).
+
+## Round 2: the recheck
+
+Run by the continuity checker, 2026-11-24, from 16:50 to 16:53 Pacific, at head 6328501 (after the Keeper's fixes in 7255373 and the step 6 releases in 2cffee8 and 6328501). Read in full: the diff of all three commits, the keeper log from "5. The check, round 1" on, `P/releases/001/dm.md`, `P/releases/001/civ-unnamed-people.md`, the seven god releases and seven civ releases in `S/releases/001/`, and the changed lines of the people's files. Checked against the year record, the people's reports and year files, the ledger, the cards, the map knowledge files and the roll log.
+
+### Scripts at 6328501
+
+```
+tools/check.py sim-06 1
+clock not advanced to year 2
+missing: the morning story (campaigns/sim-06/years/002/morning-story.md)
+no painting request for the morning story
+campaigns/sim-06/state/rolls.jsonl: rolls in the public log; rolls are sealed
+4 finding(s)
+
+tools/lockcheck.py sim-06 --all, before the allow line
+FAIL leaks: campaigns/sim-06/releases/001/dm.md:94: phenomenon count "dim-nights"
+FAIL rolls: campaigns/sim-06/state/rolls.jsonl: the public rolls log is not empty; rolls are sealed
+places 0, leaks 1, releases 0, mysteries 0, rolls 1, dashes 0
+
+after the allow line: places 0, leaks 0, releases 0, mysteries 0, rolls 1, dashes 0
+```
+
+The clock, the morning story and the painting request come after this step. The public roll log stands as ruled in round 1.
+
+### The six round 1 flags: all resolved
+1. Sarrow year file: "chance" in place of the factor's name. Resolved.
+2. god-sea's people's lore: "a good year". Resolved.
+3. The winter dim night is singular in the people's year file and the chronicle. Resolved.
+4. `P/civs/unnamed-people/state.md` carries the Keeper's pass two section, and the month 6 line of the year file now says what the town saw. Both agree with `year.md`. Resolved.
+5. The keeper log names the unsupported factor on r-0255 and the odds it should have carried (30, rolled at 25), and says the outcome stands. No roll line edited. Resolved.
+6. The keeper log lists the stamp run and its files, with a ruling for review. Resolved.
+
+### The allow line
+`P/releases/001/dm.md` line 94 gives the true count of the Year 1 dim nights: three, two in the first month and one in the dead of winter. The player's people saw all three (their year file; `year.md`), so this is a count already seen. It is no leak under DESIGN 12.2, and DESIGN 12.8 requires it. Allowed: `dim-nights` written to `S/leak-allow.txt` with its reason and date. The scan exempts a phenomenon count only by its label, so the line lets every dim-nights count through in public files from now on. The checker reads each such count for meaning every year. For Michael: a line-level allow for phenomenon counts would be narrower. (Flag 8 is about a different sentence on the same line, not the count.)
+
+### New flags
+
+#### 7. The stamp tool wrote into the checker's sealed flags file
+- Check: CLAUDE.md (an agent in a run has a go for exactly the files its role names); checker.md (the checker writes the flags file).
+- Where: 2cffee8 changed `S/years/001/flags.md`, adding bracketed map ids beside eleven place names in three lines. The keeper log for that step says the flags file is the checker's and "the Keeper does not edit" it, and does not mention the change.
+- Record says instead: the flags file is the checker's alone. No meaning changed, and the checker keeps the ids as its own from this round.
+- Fix: a keeper log line naming the change. The stamp tool needs to skip `years/*/flags.md` and the lock flags, and only Michael can change a tool, so that part is for his review.
+
+#### 8. The DM release says the Weigher was awake for every dim night
+- Check: DESIGN 10.2 (sleep is optional); checker.md 4 (no release holds more than its agent could know); the Keeper's own note on flag 5.
+- Where: `P/releases/001/dm.md` line 94: "The Weigher was awake under a clear sky for each."
+- Record says instead: no file of the player's says whether this god sleeps. The Keeper said so in its flag 5 entry, and it told the people's agent "Whether it sleeps, the town does not know" (`P/releases/001/civ-unnamed-people.md`). The record shows that it sits late at the landing and was awake in the dark of month 6. It also shows that the line at the gate talked of the nights in its hearing (the people's year file, month 1).
+- Fix: tie the god's knowledge of the nights to the record. Either it heard them spoken of in the line, or it saw them where the record puts it at night. Otherwise log a ruling for review on how the player's god spends its nights in unplayed time when the player has not set it, and let the DM ask in (oog). The count itself stands as allowed above.
+
+#### 9. god-beasts's release leaves out the month 9 return of the cough
+- Check: failures checklist 21 (a clue held back) and 2 (contradiction); mystery S04 ("SEEN by anyone who walks the herds").
+- Where: `S/releases/001/god-beasts.md`: "The cattle of two clans that coughed last autumn still cough, some of them. A few died in the winter." This is the pass one sentence about the winter before the year began, carried over.
+- Record says instead: `S/civs/longwalk/years/001.md` line 39: the cough came back in a small way in the ninth month, a few beasts only. The two clans separated those beasts from the herd and lost four. The god kept the herds' margin all autumn.
+- Fix: give the month 9 return as the people report it, and drop or date the winter deaths line.
+
+### Checked and holding, round 2
+- The DM release. It holds only what the Weigher saw, heard or was told. It leaves out the Assay-master's reasoning, the nine days, his winter test as a test, the walker, the nicknames and the master's part. The meeting at dusk matches the people's report ask by ask. The held encounter stops at the laid stick, with its board. The pending list holds the five asks from the meeting and the year's, which match the report's list. The names told match `player/map-knowledge.json`. God-sense is nothing. No power was felt new. The L-0031 card text matches the ledger. No count of gods, no other god, no sealed term, no hidden power, no knack, and no trace of the sealed factor.
+- The public civ release. It gives only the branches the town saw, and no sealed fact.
+- The seven god releases. Each names only its own god. Each gives the Keeper's rulings as outcomes. A surfaced knack is given only as "a small thing of your own", and no unsurfaced one is named. Distances agree with the travel tool (37.5 miles and 3 days on the track; 4 days down the river by boat and 10 back). Every place named is seen or named in that god's map knowledge (the River Farrow [f10] is seen and named for god-beasts). The dim nights are at the true count in each. Nothing names the factor, a standing or a ceiling.
+- The seven sealed civ releases. Each agrees with `year.md` and that people's report. The western party's return early in Year 2 lies inside the failure branch of r-0250 as the Keeper set it, and is noted, not flagged.
+- Dashes: none in either campaign folder. Leaks: none, with the allow line.
+
+### Counts, round 2
+Raised 3 new (9 in all). Resolved 6. Open 3.
