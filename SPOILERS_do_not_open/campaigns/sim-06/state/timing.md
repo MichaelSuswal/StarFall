@@ -39,3 +39,5 @@ Closed 2026-11-24 15:50.
 ## Year 1 night turn
 - 2026-11-24 16:05 began. Keeper: fable.
 - 2026-11-24 16:07 step 0 done and the seven decisions releases written (step 1 released). God agents: sonnet, run by the orchestrator.
+- 2026-11-24 16:10 step 1 done: the seven decisions read.
+- 2026-11-24 16:15 step 2 done: pass one, the world events list and the eight civ releases written. Civ agents: sonnet, run by the orchestrator.
