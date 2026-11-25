@@ -10,4 +10,4 @@ Temper: dry, patient, fond of the Stallreeve. Does not say what she is told to s
 
 This year: the question of the chest; the vote for the old six.
 
-Year 2 told again and Year 3: asked the stranger at the winter sitting "What else are you?" and said its answer was one a good broker gives. Asked the Tally-keeper plainly in the shut hall whether she held anything of the seventh weight. Spoke for the seat in the ninth month: her people said for years the bench ran heavy against the fish and it took a stranger to say it aloud. Voted for the old six in Year 3. Dry, patient, fond of the Stallreeve.
+Year 2 told again and Year 3: asked the stranger at the winter sitting "What else are you?" and said its answer was one a good broker gives. Spoke in the shut hall after the three. Spoke for the seat in the ninth month: her people said for years the bench ran heavy against the fish and it took a stranger to say it aloud. Voted for the old six in Year 3. Dry, patient, fond of the Stallreeve.

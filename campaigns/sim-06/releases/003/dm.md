@@ -10,8 +10,9 @@ Campaign sim-06. From the Keeper, at the turn of Year 3. Everything the Weigher 
   1. The sitting the Assay-master asked for did not gather that week. It fell in the sixth month of Year 2, as the ring's winter sitting. So the autumn and most of the winter went by with the word held by the Assay-master and the Stallreeve alone, and the landing bargain in the fourth month was struck with a man who did not know.
   2. The ring let the yard in, and the town heard it from the Weigher's own mouth in the sixth month. So at the gatepost in the ninth month the yard was hearing it a second time, and the eleven had voted the seat knowing it.
   3. Dawn readings at the landing ran from the fourth month, and one of them went against the ship owner's own boat.
-  4. The yard's later cry of "Weightward" with no answer, and the year-end sitting that "waits on the Weigher's answer", did not happen. The key was taken in the ring early in the tenth month.
+  4. The told autumn now also holds the Assay-master standing at the gate on market mornings, watching, and the Stallreeve's look each dawn. Both follow from what the Weigher said in the hall.
   5. The ring had the seventh looked for, and it was not found.
+- New, and not a change to anything told: the key was taken in the ring early in the tenth month. That is the answer you promised the player on the yard and the ring.
 - The coaster's master was not played live: her words were the Keeper's and the Weigher's were the player's, handed over whole. The exchange is below in full.
 - Where the night stopped in Year 3. One moment is held, in the first month. It stops its own thread only; the rest of the year went on around it and is told below as it stands.
 - A plain question the Weigher's decided words did not answer met silence, as before, and is listed under pending. That includes each question about a particular power: the player's words say it answers yes, no, or that it will not answer, and do not say which, so each waits for the player.
@@ -25,7 +26,6 @@ The three of you went down the yard, and at the gate they went one way and the W
 ### Autumn, with the word held
 - Everything you told of the autumn stands: the loft looked in by three, quiet when they returned; the gate; the hill carriers, who took the Weigher's word for the old weigher up the Old Rudd Way on a stick the Tally-keeper cut; the Stallreeve among the boatmen, seen and not heard; the boat people gone at the lowest tides; the dim night of the second month; the day at the pits and its figures; the third month.
 - New, as the Weigher saw it: from the first market after the weighing the Assay-master came to the gate on market mornings and stood a little way off with his arms folded. He watched its hands, then its face, then what it did with a reading that went against someone who could hurt it. He said nothing to it of the evening. The Stallreeve looked at it each dawn as a boatman looks at weather, and said nothing of it either.
-- In the third month Bren's household brought it the first of a catch. Offered as a gift, it said no. They took the fish back and ate it.
 
 ### The fourth month: the landing, and the sticks for boats
 - The bargain stands as played, and what the Stallreeve added.
@@ -59,9 +59,13 @@ What it learned of the shut sitting, as the town did: that the ring voted to hav
 What the town did, as the Weigher saw: at the next market the line was twice as long, and nobody bought fish until noon, and then everybody did. The Stallreeve put eight of the watch at the post and sent six home by midday. Bren said aloud that she had fed it first and would feed it again. The old of the flats took bread out toward the Maun Stair at the next low tide. The back houses went on bringing their scales. The woman who had asked about the fever did not come to the gate again that winter; the line said her child died in the last week of the month, with the cold.
 In the last week of the month the boatwright households asked it to stand witness to their sale, as told, and said before the line that they asked nothing of the other thing. It stood, and said what it saw and heard.
 
+### The rest of winter
+- The dim night of the sixth month: as told.
+- The looking for the seventh began, as the town saw it and the line told it: in the last week of the sixth month four of the hall's officers went through the hall's rooms for three days. Nothing was brought to the ring.
+
 ### Spring
-- The reed island, the second nest, the tiles that do not tell, the flood, the boat people at the lowest tides: as told. The dim night of the sixth month and the one of the ninth: as told.
-- The looking for the seventh, as the town saw it and the line told it: in the last week of the sixth month four of the hall's officers went through the hall's rooms for three days. In the seventh month the Stallreeve and the Assay-master went to the old keeper's house. Through the spring the Stallreeve was at every landing among the boatmen. Nothing was brought to the ring.
+- The reed island, the second nest, the tiles that do not tell, the flood, the boat people at the lowest tides, the dim night of the ninth month: as told.
+- The looking went on: in the seventh month the Stallreeve and the Assay-master went to the old keeper's house. Through the spring the Stallreeve was at every landing among the boatmen. Nothing was brought to the ring.
 
 ### The ninth month: the gatepost
 As played. The vote was six for, four against, one away on the Gulf, and it was taken by a ring that had heard the Weigher in the sixth month. When it had spoken its last words to the yard, a boy cried "Weightward" and the whole line took it up, the channel folk and the potters loudest, until the Stallreeve put up his hand. The salt-rakers stood silent. The line was the longest of the year. Nobody called a sitting to put the seat down.
@@ -83,7 +87,7 @@ In the line afterward, how the ring had divided: for the seat, the Assay-master,
 
 ### The rest of that summer
 - The eleventh month: the Weigher said once to the diggers that it could come to the pits one more day and still cannot say which clay is good. They wanted it. Orrin brought lumps of both kinds and a tile fired from each. The pans said as before: every lump much alike, about a twentieth part sand and shell, the cracked no worse than the sound. It said so. The quarrel keeps.
-- The last ten days of the eleventh month, at the lowest water: the Stallreeve, twelve of the watch and the boatmen of a pair of households dragged the reach of the Alder below the hall's landing and the reaches either side, with hooks, weighted nets and long poles. The Weigher saw it from the landing and the gate. Nothing that was a weight came up: silt, old pots, a sunk punt. Nothing was brought to its scales.
+- The last ten days of the eleventh month, at the lowest water: the Stallreeve, twelve of the watch and the boatmen of a pair of households dragged the reach of the Alder below the hall's landing and the reaches either side, with hooks, weighted nets and long poles. The Weigher saw it from the landing and the gate. Nothing that was a weight came up: silt, old pots, a sunk boat. Nothing was brought to its scales.
 - The upriver traders, the salt-raker's pinch, the grain: as told. The traders went home with the story that the hall had been found heavy and had said so.
 - The ring did not sit in the twelfth month. Its sitting on the weight was set for the first market of the new autumn.
 
@@ -98,7 +102,7 @@ The board. The first market after that sitting. The yard in its line, the Weighe
 
 The Stallreeve says: "The eleven say yes to what you asked of me at the gatepost, Weightward. The town wants a keeper's word sent down the coast, in the plain terms you gave the eleven: what each of the hall's pieces is now, in your ones, and that the eleven have said which is the town's weight. The ship owner of the open water will carry it when his coasters go out past the Horn. The eleven ask you for the words." He lays half of a split stick at the foot of the gatepost.
 
-Nothing has been answered. The Weigher asked whether the town wanted such a word and said it would send none without their say; the words themselves the player has not given. Since then the Stallreeve has said nothing more of it at the gate. The half-stick lies where it was laid. The coasters went out in the tenth month without a word.
+Nothing has been answered. The Weigher asked whether the town wanted such a word and said it would send none without their say; the words themselves the player has not given. Since then the Stallreeve has said nothing more of it at the gate. The half-stick lies where it was laid. The open-water owner's coasters went out in the tenth month. Whether a word went with them turns on the answer, and is provisional: as the year stands with the moment unanswered, none did. Tell the player so.
 
 ### The rest of autumn
 - The second month. The old weigher of the hill kin came down with the carriers, in a cart, with his stones in his own bag, and said the Weigher's word had reached him. On the third market morning he stood at the gate with the head of the hill goods, the Assay-master, the master of the smiths and the Stallreeve. The three largest stones wanted a beam; the Assay-master sent for his own. The Weigher called the stones in its own cups: 48, 96, 193, 384, 768 and 1,536. He named his village again: Ruddfold. Asked what his people say the seventh was, he said it was a story: in Ruddfold they tell boys that the six weigh what is and the seventh weighs what is owed, and that the hall dared not weigh with it. He said it was his grandfather's saying and he would not stand behind it. He asked nothing, cut the figures on his own stick, and went home with the carriers.
@@ -113,10 +117,10 @@ Nothing has been answered. The Weigher asked whether the town wanted such a word
 ### Spring
 - The seventh month. The master of the potters fired a third nest, to the old six, and chose her eleven at the gate like anyone. They agree with one another to a hair, and with the old first as far as the gate's readings go. A netmaker asked at the gate: "Can you tell the height of the water like the tide-reckoner?" Its words gave no answer. She said it was good at that too.
 - The eighth month. The flood, ordinary. The boat people at the lowest tides.
-- The ninth month. The ring sat on the third nest, and the date for the town's weight holds. It did not sit on the seat.
+- The ninth month. The ring sat on the third nest. The master of the potters brought the eleven to the hall, the Assay-master set them against the old six, and the Weightward called each piece in its pans, in its own ones. Its calls agree with one another and with the old six to a hair. The date for the town's weight holds. The ring did not sit on the seat.
 
 ### Summer
-- The tenth month. The open-water owner's coasters went out. No coaster of the southern harbor towns came up to the town's landing this summer.
+- The tenth month. The open-water owner's coasters went out (see the held moment for what is provisional). No coaster of the southern harbor towns came up to the town's landing this summer.
 - The eleventh month. Traders from the kingdom upriver asked at the landing and in the yard what the keeper of the town's weights is. The town told them what the town says. One of them named his country in the Weigher's hearing: the Aldermark. None of them asked the Weigher.
 - The twelfth month. The grain. The ring did not sit.
 - Through the year: the gate on market mornings, the landings on the other dawns, the standing answers given when asked.

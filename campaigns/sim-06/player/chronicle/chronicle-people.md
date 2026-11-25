@@ -108,7 +108,7 @@ On the third day the Assay-master, the Stallreeve and the clay head went up the 
 
 ## The second to the third month
 
-The boat people were gone at the lowest tides and came back. The stranger's word for the old weigher of the hill kin went home with the carriers on a stick the Tally-keeper cut. The Stallreeve went down to the landing alone one evening. The pits day, the first stale stick, the tiles and the scraped marks were as the old section has them. Bren's household brought it the first of a catch and it took no gift.
+The boat people were gone at the lowest tides and came back. The stranger's word for the old weigher of the hill kin went home with the carriers on a stick the Tally-keeper cut. The Stallreeve went down to the landing alone one evening. The pits day, the first stale stick, the tiles and the scraped marks were as the old section has them.
 
 ## The fourth month: the landing
 
@@ -144,7 +144,7 @@ The channels ran low. The diggers asked for a second day at the pits. The pan sa
 
 The grain was in. At the first sitting after the grain the stranger weighed the six again before the ring with the Assay-master's hand on the beam, and called 48, 96, 192, 384, 766 and 1,536. The Assay-master read the fifth light on the first trial and said he had learned that one. The ring then voted the old six the town's weight, six to two, from the first market of the autumn that comes round next year, with the clause that bargains made before the change stand as made. The master of the potters is to fire a nest to the old six in the spring. The seventh seat stays as it is.
 
-The star dimmed on some nights early in the month. The boat people were gone at the lowest tides and came back.
+The star dimmed on one night of the month. The boat people were gone at the lowest tides and came back.
 
 The hill carriers came down the old road in the middle of the month with ore and charcoal. The old weigher of the hill kin came with them, a year older, in a cart, and on the third market morning had his six stones weighed at the gate in front of the head of the hill goods, the Assay-master, the master of the smiths and the Stallreeve. The stranger called 48, 96, 193, 384, 768 and 1,536. The three large stones needed a beam and the Assay-master brought his own. The old weigher said the hill kin's stones and the hall's agreed as far as anyone knew. Asked what his people say the seventh was, he said it is a story, that the six weigh what is and the seventh weighs what is owed, and he would not stand behind it.
 
@@ -154,11 +154,11 @@ The autumn catch was ordinary. The dawns at the landings ran on the terms given.
 
 The wet, with its hard spells. The Assay-master asked the stranger to check six scales he had passed; two read level and four a hair out. Two households of boatwrights asked it to stand witness to the lease of a boatyard and said again they asked nothing of the other thing.
 
-Fever in the back houses, fewer than the year before, with four stalls and four braziers under the hall's roof. The tide-reckoner called the winter water four days ahead and was right in height and a few hours off the hour. The star went dim on nights in the dead of winter.
+Fever in the back houses, fewer than the year before, with four stalls and four braziers under the hall's roof. The tide-reckoner called the winter water four days ahead and was right in height and a few hours off the hour. The star went dim on two nights of the fifth month, in the dead of winter.
 
 ## Spring
 
-The Alder rose to an ordinary flood. The master of the potters fired a nest to the old six and brought the pieces to the line like anyone. Sowing took five weeks. The boat people were gone at the lowest tides of spring and came back. The star dimmed on nights in spring.
+The Alder rose to an ordinary flood. The master of the potters fired a nest to the old six and brought the pieces to the line like anyone. Sowing took five weeks. The boat people were gone at the lowest tides of spring and came back. The star dimmed on two nights of the seventh month and one of the eighth.
 
 ## Summer
 

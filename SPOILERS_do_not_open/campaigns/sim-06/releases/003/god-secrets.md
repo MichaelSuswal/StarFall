@@ -15,7 +15,7 @@ What you saw, heard, were told and felt in Year 3, and what your people report. 
 - You felt no other like yourself.
 
 ## Asked of you and not answered
-- The reed cutter's daughter: "My father began a thing to you and did not finish it. Will you hear it from me?" (You told her to keep it until she knows whether it is hers to give.) Nothing asked of you went unanswered.
+- Nothing asked of you went unanswered. The reed cutter's daughter asked whether you would hear from her what her father began; you told her to keep it until she knows whether it is hers to give.
 
 ## What the Keeper ruled
 - Your word on the sky is noted; no ruling was asked.

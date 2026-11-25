@@ -45,7 +45,7 @@ population: about 5,090. stores: grain and dried fish through the winter; salt i
 - Held and open at the year's turn, in order: the Assay-master's question on the evening of the weighing; the channel ship owner's bargain at the landing; the eleven's offer of the Weightward's seat; the southern coaster's master at the head of the line. The numbers above stand.
 
 ## Keeper, Year 3, pass two
-- The drag at the lowest water in the eleventh month of Year 2 brought up nothing that was a weight: silt, old pots and a sunk punt of no one's. The hall's rooms, the old keeper's house and the boatmen gave nothing more. The seventh is not found.
+- The drag at the lowest water in the eleventh month of Year 2 brought up nothing that was a weight: silt, old pots and a sunk boat. The hall's rooms, the old keeper's house and the boatmen gave nothing more. The seventh is not found.
 - The potters' third nest, fired to the old six, agrees with itself and with them to a hair. The date the ring set for the town's weight holds.
 - The three questions put to the Weightward about what it can do (whether it can be killed, whether it can cure a fever, whether it can tell the height of the water) each met no answer. Your numbers take the branch with no answer.
 - Held at the year's turn: the ring's yes to a keeper's word for the coast, and its asking for the words, at the gatepost in the first month of Year 3. The half-stick lies at the foot of the post. The numbers above stand.

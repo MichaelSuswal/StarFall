@@ -64,7 +64,7 @@ Kept by the Keeper at the year's turn. No new ground was walked by anyone of the
 
 ## Year 3
 Kept by the Keeper at the year's turn. No new ground was walked by anyone of the town this year. What changed in what they know and say:
-- The reach of the Alder below the hall's landing and the reaches either side were dragged at the lowest water in the last summer but one. The boatmen know that bed now better than they did: silt, old pots, a sunk punt.
+- The reach of the Alder below the hall's landing and the reaches either side were dragged at the lowest water in the last summer but one. The boatmen know that bed now better than they did: silt, old pots, a sunk boat.
 - The old weigher of Ruddfold came down the Old Rudd Way again with the carriers and had his stones weighed at the gate. Ruddfold has the ring's decision that the old six are to be the town's weight.
 - The master of a southern coaster said at the gate that each harbor house in the south keeps its own weights, and that the council in Corrith keeps a set for quarrels.
 - The open-water owner's coasters go out past the Horn each summer, as they always have.
