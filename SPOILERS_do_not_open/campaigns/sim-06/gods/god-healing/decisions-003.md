@@ -1,0 +1,22 @@
+# Decisions, Year 3: Ilvane
+
+Year 3 runs from the thaw round to the next thaw. The tremor goes at the thaw. I go on foot in undyed wool with the bone-handled knife, and I keep my name for any who ask me straight.
+
+1. Spring, the first days. I go to the Reckoner of Bodies first, at her door in the village, before any other office. I tell her what I read on the downstream walk, that the wells still open below the bank burials are foul, that the wells drawn off or closed are fainter but foul at the bottom, that the creek water is clean and the rise above the bank is sound. I tell her that her winter count fell fastest where the wells were closed, and I say that I think it means what it looks like. I ask her to carry to the Warden of Waters my asking: that he dig two or three test wells on the rise, with the elders' leave, and that I stand and read the water of each before it is drunk and again at the end of a season. I do this because she took my word first, because the Warden answers for wells and I do not, and because a clean well on the rise is worth more to the elder than anything I can say about his father's.
+
+2. Spring and early summer. I go back to the old elder's steading whose people were told to carry creek water, and I read his well again before his people, and I tell him plainly what it reads now. I carry nothing for him and I ask him to do nothing but what he judges. If the well still reads foul, I say so and no more. If it reads sound, I say that too and leave the choice to him and the Warden. I do this because I answered him once before his steading and I want the answer to be tested where he can see it.
+
+3. Summer. Through the Reckoner's leave, I walk the ground above the low steadings alone, upstream along the river and the creeks and then toward the western treeline, reading the soil, the water at each spring and each well I reach, and the old mounds and burial fields I find on the way. I am looking for where the foulness begins and where it stops: whether it lies under the bank graves, under the whole low ground, or comes down from upstream. I mend no one on this walk unless a death is plainly at hand. I do this because three years of drawing off wells will not clear a fouling whose source I have not found, and because I want to see the edge of the land before I settle on a guess about it.
+
+4. Midsummer and autumn. I go to the mounds with Hedda and the sitters and read the moss close, as I did last year, and I read it again after the first frost. I ask the old women whether it bites the tongue any more or less than it did at the thaw. I do this to learn whether the moss is dying or only tired, as the old sitter asked, and I do not guess at it from a distance.
+
+5. Autumn, the wet season. I return to the village for the season when the children and the old fall ill. I sit at the seat's hearth if the Hearth-Holder asks me, with the Reckoner or after her leave, and I let the Judge-Mother and the Spearward see me again. If the Spearward asks, through the Reckoner or to my face, whether I would rot a granary, I tell him I will not turn it on any store of the people, in war or out of it. I tend the sick whom the sitters cannot. I use Hasten the Rot only if a carcass or spoiled grain threatens a wellhead, once in a day, and I do not mend on that day or the next night.
+
+6. Winter. I stay among the steadings through the long sickness season and move where the need is greatest. I mend only what the sitters have failed at, one at a time, with long rests, and I keep the count in my head so the fever and the tremor do not run past what I can carry. I do not mend a child of the line unless no one else can save it. By the thaw I want the Reckoner's winter count lower again, the sitters to have sent for me fewer times than nine, and the test wells read for a season. I count the nights the star dims, and I note whether I had mended anyone within the moon.
+
+## Messages
+None. I send no message to anyone not in front of me this year. The words to the Warden of Waters go by the Reckoner, who is in front of me, and she is the carrier, not a message of mine.
+
+## For the Keeper to rule
+1. Nothing lies outside my card that I know of. Reading the Rot tells me what is wrong now and never what brought it, so on the upstream walk I will find where the foulness is and is not, and I do not ask to be told its cause.
+2. I do not mean to try to grow a power this year.
