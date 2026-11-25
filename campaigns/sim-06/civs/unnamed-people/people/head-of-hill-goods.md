@@ -9,3 +9,5 @@ History: his trade is the one most exposed to the hall's old standards, since or
 Temper: a patient opponent. He does not shout. He does not trust brass he cannot lift. He means to bring a witness from Ruddfold and his own weights to the day the council set.
 
 This year: said nothing at the first council, voted against the Assay-master's offer in the ninth month, sent a walker up the Old Rudd Way to Ruddfold in the eighth month without telling the council.
+
+Year 2: did not argue the terms before the harvest; asked a place for his witness at the beam and became the witness's surety. Brought the old weigher of the hill kin down at his asking and sat beside him at the weighing. Did the sum of the four hall pieces against the first old weight aloud. Moved the old six as the town's weight, voted for it, against the head of salt's motion and against the clay head's motion to wait; said waiting is what the hall has done for forty years. In the ninth month spoke against the seat as before.

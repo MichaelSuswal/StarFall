@@ -7,3 +7,5 @@ Practical, quick to anger and quicker to laugh, proud of being hard to cheat, wh
 Temper: loyal and loud. Believes the stranger is a man who lost his house, and says so to anyone who will listen. Distrusts the Stallreeve's care of the market and likes him for it. Has not asked the stranger who it is.
 
 This year: kept the landing's lamp lit for the stranger, spread the word of the gate along the channels, and said the stranger's name for it in the market: Bren's weigher, a name that is not hers to give and that the channel folk now use.
+
+Year 2: asked quietly and once at the end of Year 1 by the stranger what her people would be willing to say about the low-tide trips, she answered for the household in front of the others: the town's two stories, that none had ever followed, that they would say it again as quietly to anyone who asked and tell the Stallreeve first if the question came from anyone else. Present at the landing in the fourth month when the ship owner of the channels put a bargain to the stranger (held, see report).
