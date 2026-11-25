@@ -1,10 +1,10 @@
-# Pending questions: Year 2 opens
+# Pending questions: Year 2, during the play day
 
 Campaign sim-06. Every question someone in the world has asked the god that the player has not answered. From the Keeper's release for Year 1. Each is to be put to the player in the next played day.
 
-## Held, to be played first
+## Held, played
 
-- The Stallreeve, at the gatepost, a market day in the high summer of Year 1, before the yard: the eleven ask the Weigher to weigh the hall's old weights before them, at the first market after the grain is in, with the Assay-master's hand on the beam. Half of a split stick lies at its feet. Held at the moment of contact.
+- Answered in play, Year 2 play day: yes, with terms spoken to the yard (rolling save, Year 2, section 1). The Stallreeve, at the gatepost, a market day in the high summer of Year 1, before the yard: the eleven ask the Weigher to weigh the hall's old weights before them, at the first market after the grain is in, with the Assay-master's hand on the beam. Half of a split stick lies at its feet. Held at the moment of contact.
 
 ## From the meeting at dusk on the landing day, the Assay-master's
 
@@ -34,6 +34,13 @@ Campaign sim-06. Every question someone in the world has asked the god that the 
 ## From the DM, in (oog)
 
 - How does the Weigher keep its nights? Put to the player in the Year 2 morning's (oog). Until answered, the nights the blue light dimmed are told as heard from the town, not as seen.
+
+## Status, Year 2 play day
+
+- Put to the player, first batch (post 2), waiting on the answer: 6, 7, 8, 9, 12.
+- Answered in play (post 2): 13 (the mark: two pans, level), 17 (no price claimed from a bonded man; remitted on a condition), 18 (not before the weighing; it will say after), 19 (it will weigh the new nest the same day if the eleven want it; it does not set the hall's standards). The DM's question on the nights: answered.
+- Not yet put: the Assay-master's 1 to 5; 10, 11, 14, 15, 16.
+- Asked by the DM in (oog), waiting: whose scale the remission turns on, and what happens if it is not brought or reads out.
 
 ## Answered in Year 1
 

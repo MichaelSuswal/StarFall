@@ -81,3 +81,35 @@ The nights: I sit at the landing, by the channel folk's lamp, where the boats co
 For the rest of the day, I take the line in its order. I'll answer the Assay-master's open asks and the rest of the year's, one at a time, when the DM puts them.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You set the stallholder's scale down on the clay with your own beside it. It did not read level, so that word was not said. The pan the stallholder sells from sits heavy by about one part in forty, and you gave that, in your cups, as you give any reading. The stallholder looked at the cord and not at you.
+
+Then you bent and took up the half-stick. The cut face was rough under your thumb and the wood was warm from lying in the sun. You said it loud enough for the yard: "Yes. I'll weigh the hall's old weights before the eleven, at the first market after the grain is in, with the Assay-master's hand on the beam." And you gave the terms, all of them, in the same voice: each piece in your pans and called in your cups, out loud, one at a time; the Tally-keeper to cut what you call; the Assay-master to check each reading on his own beam beside yours; that you do not set the town's standard, you say what each piece is now, and the eleven decide which is the town's weight; and that the potters' master may bring the new clay nest the same day, if the eleven want it, to be weighed the same way.
+
+The yard had been holding its breath and let it go all at once. The Stallreeve waited for the noise to drop. "I was sent to carry an asking down," he said. "I'll carry the yes up, and the terms with it, as you said them. The terms are the eleven's to take." He looked at the Tally-keeper. She said the terms back, every one, in your words, and he nodded.
+
+To her you said, "Cut two pans, level. Nothing else." She took the knife from her belt and cut it then and there at the head of her stick of the gate's readings, and held the cut where you could see it: two short strokes hanging from one long one. The half-stick of the asking went into your coat, in a pocket that is not the empty one.
+
+You asked the Stallreeve where the old weights are kept, and who holds the key. He did not answer at once. "They were the Weightward's to keep and the Weightward's to bring out," he said. "There is no Weightward. That is the eleven's to tell you, and I'll put it to them with the rest." He did not say where, and he did not name a key.
+
+Then you told the yard the other thing: that you have not said yes to being Weightward, that you will say it after the weighing and not before, and that a man who answers before he has seen the weights is selling something. Nobody in the line argued it. An old raker near the front said, "After, then," to no one, and that was all.
+
+Of the price, you asked the Tally-keeper to cut it as remitted if the stallholder's scale reads level at the gate this month, and said that you will not claim a price from a bonded man. "I cut what is said," she said. "Said by the one it's owed to, before the yard and the Stallreeve. I'll cut it so, and the ring will hear of it." The Stallreeve said nothing to that. He turned and went back up toward the hall, and she went a pace behind him.
+
+You are at the foot of the gatepost. The stallholder is on one knee by the scale you read, taking up the cord. The line has started to move and to talk again, and the next in it is holding a scale out. The two of the watch are at their places. The half-stick is in your coat. It is high summer, a market day, and the yard is full.
+
+(oog) Some plain things, and then the first of the asks.
+
+A roll. Whether the scale in your hand was level was the world's to answer and no file settled it. I set the odds that it was out at 40 in 100: even, plus 10 for a home-made scale of wood and cord, minus 10 for a people good with small numbers, minus 10 for eleven months of readings at this gate. I rolled it in the open log before writing, and two draws after it for how far and which way. It was out. Your card does not let you call it level, so I gave the reading under your standing terms for the yard (which pan and by how much, in your cups) and nothing more. If you want to say anything else to the stallholder, say it.
+
+One thing I need from you on the price. I read "the stallholder's scale" as the scale of the bonded man's master, the one the gate read out by about a tenth. If you meant another, tell me. And if that scale is not brought this month, or is brought and reads out, does the price lie unclaimed as it does now?
+
+Where the old weights are kept, who holds a key, how many there are and what they weigh are not in any file I may read. They are the Keeper's. The Stallreeve's answer above is cut to what you have already been told, and I have put your question to the Keeper for tonight. The same holds for the weighing itself. The day the council named falls at the opening of this autumn, which is where the clock now stands. It will be resolved tonight on the words you have given and whatever you add today, or held for you at the first moment it needs a decision you have not made. Anything you want fixed for that day, say it before the close.
+
+The nights are written down as you gave them: at the landing by the channel folk's lamp, awake, listening, counting the day's readings over, watching the blue light. Whether that makes last year's three nights yours to tell as seen is the Keeper's to release, and I have asked.
+
+The potters' master's ask I take as answered by your words in the yard: you will weigh the new nest the same day and the same way if the eleven want it, and you do not set the hall's standards. The Tally-keeper's mark, the Weightward question and the Stallreeve's question of a price are answered too.
+
+Now the first of the asks that are still waiting, from the line in the first months. A stallholder asked, "How long will you stay?" A child asked, "Are you the drowned one's child?" A hill carrier asked, laughing, "Do you come from Hask?" A salt-raker asked whether salt will do for the fee. And a stallholder asked, "May I say my scale was read at your gate?" The Stallreeve has since had the tokens taken down, but the question was put to you and not to him. Answer any of them as the Weigher would at the gate, or tell me which it lets lie.

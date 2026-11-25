@@ -35,6 +35,10 @@ Its past: it knows there is a debt and does not know whose. Anything to do with 
 
 Checked with the player, Year 1 played day, 2026-11-24: the three marked lines stand as written, in this order. The keeper's place is filled in the open by checking the town's standards against its own scales, "but only once the Warden knows what I am doing and has agreed to watch." The Clerk's office is licensed first, "and only after I have seen that person work. I make no promise today." Anything touching the lost house, the name or the debt "is left alone until I say. That one is firm." The marks stay on the lines; this check is dated here.
 
+Its nights (said Year 2 play day): at the landing, by the channel folk's lamp, where the boats come in. It does not sleep and does not pretend to. It listens to the water and the talk, counts the day's readings over, and watches the blue light, whose habits it would like to learn.
+
+The weighing and the seat (said Year 2 play day): it has said yes to weighing the hall's old weights before the eleven, on terms it spoke to the whole yard so that none are set in private. It does not set the town's standard; it says what each piece is now and the eleven decide. It will not say whether it will be Weightward until after the weighing. It will not claim a price from a bonded man.
+
 Helpers: none at landing. Designed, not yet serving (`hierarchy.md`). Until an office is won in play, unplayed time runs on this profile alone and no one acts for it.
 
 Unsaid wants are kept sealed.
@@ -96,3 +100,14 @@ Unsaid wants are kept sealed.
 - Of what it tells the Assay-master: what its scales tell it of what is in the pans and what is weighed beside them, and nothing of seals or the Reading, and not the word god. "I won't call that hiding, because I haven't said anything false, and he hasn't asked."
 - Of the old weights: it will weigh them "in front of the council, not in a back room", and would like that to be the Assay-master's offer to the eleven, "his offer, not mine."
 - Five answers were given privately today and are kept sealed.
+
+### 2026-11-24, Year 2 played day
+
+- It accepted the council's asking before the yard and gave its terms aloud, "so nobody can say later I set them in private."
+- "I don't set the town's standard. I tell you what each piece is now, and the eleven decide which is the town's weight."
+- On the Weightward's seat: "I'll say it after the weighing, not before. A man who answers before he's seen the weights is selling something."
+- Its mark for the Tally-keeper's stick: "Cut two pans, level. Nothing else."
+- It asked the Stallreeve where the old weights are kept and who holds the key, "so I'm not seen asking after."
+- On the thief: "I won't claim a price from a bonded man." It asked for the price to be cut as remitted on a condition, "as a way of putting the matter to bed without a quarrel."
+- Its nights: at the landing by the channel folk's lamp, awake. "I count the day's readings over in my head, and I watch the blue light, which I'd like to learn the habits of."
+- One answer was given privately today and is kept sealed.

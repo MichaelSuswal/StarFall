@@ -85,3 +85,25 @@ State at the close:
 - Pending questions: none open.
 - Names in the god's knowledge: the Bank Way, the Old Rudd Way, the Reedmouths; the Assay-master, the Weightward; Bren.
 - Sealed answers taken today: five, all in the sealed record.
+
+# Rolling save: Year 2
+
+Campaign sim-06. Kept by the DM during the Year 2 play day, 2026-11-24 (Pacific). Newest entry last.
+
+## 1. The held moment at the gatepost (Year 1, the eleventh month, high summer)
+
+- Rolls r-0006 (DM, odds 40 that it was out), r-0007, r-0008 (weighted draws): the stallholder's scale in the Weigher's hand was out, the selling pan heavy by about one part in forty, in the stallholder's own favor. The player had written that it tells her the scale was level; the card forbids a false measure, so the word was not said and the reading was given under decision 3 of `decisions-001.md`. Said to the player in (oog).
+- The Weigher took up the half-stick and said yes before the yard: it will weigh the hall's old weights before the eleven, at the first market after the grain is in, with the Assay-master's hand on the beam.
+- Its terms, spoken to the yard: each piece in its pans, called in its cups, aloud, one at a time; the Tally-keeper cuts what it calls; the Assay-master checks each reading on his own beam beside it; it does not set the town's standard, it says what each piece is now, and the eleven decide which is the town's weight; the potters' master may bring the new clay nest the same day, if the eleven want it, weighed the same way.
+- The Stallreeve: he carries the yes up and the terms with it; the terms are the eleven's to take. The Tally-keeper said the terms back in the Weigher's words. Not accepted by anyone yet.
+- The Tally-keeper's mark, named by the Weigher: "Cut two pans, level. Nothing else." Cut at the head of her stick of the gate's readings.
+- The half-stick of the asking is in the Weigher's coat, in a pocket that is not the empty one.
+- Asked of the Stallreeve: where the old weights are kept and who holds the key. His answer: they were the Weightward's to keep and bring out; there is no Weightward; it is the eleven's to tell, and he will put it to them. No place and no key named. Not rolled: the fact is not in the DM's files. Put to the Keeper.
+- Said to the yard: it has not said yes to being Weightward; it will say after the weighing, not before.
+- The thief's price: the Weigher will not claim a price from a bonded man. It asked the Tally-keeper to cut the price as remitted if the stallholder's scale reads level at the gate this month. She will cut it as said, and the council will hear of it. The DM reads "the stallholder" as the bonded man's master; asked of the player, with what happens if the scale is not brought or reads out.
+- The nights, in the player's words: "I sit at the landing, by the channel folk's lamp, where the boats come in. I don't sleep, and I don't pretend to. I listen to the water and the talk. I count the day's readings over in my head, and I watch the blue light, which I'd like to learn the habits of."
+- Board as left: the Weigher at the foot of the gatepost, the line moving again, the next scale held out; the Stallreeve and the Tally-keeper gone up toward the hall.
+- No seal set, no licence given. Promises made: to weigh the old weights on the council's day, on the terms spoken.
+- One sealed answer taken to the sealed record.
+
+For the Keeper tonight (not decisions): where the old weights are kept, who holds a key, and what the council answers to the terms; whether the Year 1 nights the blue light dimmed are released as seen, now that the player has said how the Weigher keeps its nights; the master stallholder's scale within the month.

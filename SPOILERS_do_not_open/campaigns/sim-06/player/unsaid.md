@@ -23,6 +23,9 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
 - 2026-11-24, Year 1 played day (a sealed part of the fourth reply, after answering "Who are you?" at the bench): "I'm uneasy about "who are you" and how close I came to saying the other word. I did not lie, and I would have been right not to. But I noticed I wanted the yard to know. I want to be told I'm the standard, and a town that stops quarrelling about weights because of me is a town that has made me the standard."
   Confirmations: none yet.
 
+- 2026-11-24, Year 2 played day (a sealed part of the first reply, after remitting the thief's price at the gatepost): "Remitting the price is half generosity and half tactics. A man who is not forced to pay me will talk to me, and a bonded man who tried my pocket is a man whose master I want to know. I'd rather the town think I was soft than think I was hunting."
+  Confirmations: none yet.
+
 ## Fear
 
 - 2026-11-24, creation Day 3 (same reply): "I am afraid of being the one that register catches."
