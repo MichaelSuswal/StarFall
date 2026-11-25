@@ -20,3 +20,10 @@ Hard, practical, proud and fair. He does not lie. He does what the court orders 
 
 ## Aging
 One year older each year.
+
+## Year 2
+- Month 1: gave the haul as the court's order, on his own count. Stood at the cairn beside the Warden-Monarch.
+- Month 2: assented to the quay repair without being told.
+- Month 5: on the quay himself in the swell; had the chain let down and put out the Captains' boat. Not a helper of the god by the Keeper's record. See state.md for the two ways he speaks of it.
+- Month 10: took the stand-by boat's new keel at no price, for the boat's sake.
+- Has begun a tally of his own of the mouth. Fifty-nine at the year's end.

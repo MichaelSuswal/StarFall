@@ -19,3 +19,10 @@ A man of the hands: sharp-eyed, dry, unsentimental, and given to testing a thing
 
 ## Aging
 One year older each year.
+
+## Year 2
+- Month 1: heard the god's two answers from the Warden-Monarch. Found the ferryman's keel clean after a year in salt.
+- Month 2: had the yard fit three step-boards so none could be told from the others; saw the god lay its hand on one.
+- Month 10: chose the Captains' stand-by boat for the keel, with the Harbormaster's assent.
+- Month 11: saw the god lay its hand on the keel. Said that was the fourth piece in two years and enough.
+- Sixty-two at the year's end.

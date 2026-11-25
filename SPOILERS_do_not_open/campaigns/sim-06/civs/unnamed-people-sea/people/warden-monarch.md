@@ -21,3 +21,10 @@ Quiet, exact, stubborn and plain, a keeper of books and of habits. Dislikes show
 
 ## Aging
 One year older each year. Her heir is the line's next.
+
+## Year 2
+- Month 1: set the jar and struck the bell; was told by the god at the tide-door that it does not know the name Brennis, wants the eldest's telling, and will not take the bed. Kept the Brennis answer from the court and told only her heir (month 4).
+- Months 1 to 3: asked the eldest, one by one, for the telling of the promise, and told it to the water at the tide-door in month 3.
+- Month 4: chose the old woman at the east lamp and the boy as tenders of the keeping's lamp.
+- Month 5: stood at the water's edge in the swell. [Standing outside the court depends on the boat: see state.md.]
+- Fifty-three at the year's end.
