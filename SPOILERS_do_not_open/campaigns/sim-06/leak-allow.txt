@@ -17,3 +17,8 @@ god of the moment two
 # every dim-nights count through in public files: the checker reads each such count for meaning
 # (seen or not) every year. Listed in S/years/001/flags.md, round 2.
 dim-nights
+# 2026-11-25, Year 3 check round 1 (flag 11). P/player/transcript-year-003.md 295, the DM's (oog) odds post
+# on the landing bargain: "plus 10 because he came down to you himself". "Came down" is the ship owner
+# walking down to the landing; the figure is a step of the stated odds. No count of gods is stated or
+# implied (DESIGN 12.2). The transcript is the verbatim record and is never reworded.
+10 because he came down

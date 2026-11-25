@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 3
 
-Status now: raised 11, resolved 0, open 11 (moderate 1, minor 10, major 0).
+Status now: raised 11, resolved 1, open 10 (as raised: moderate 1, minor 10, major 0). Flag 11 resolved by the allow line, below.
 
 ## Round 1
 
@@ -115,7 +115,8 @@ Judged: the clock, the morning story and the painting request are steps 7 and 8;
 - Check: checker.md (the leak scan, `leak-allow.txt`).
 - Where: `P/player/transcript-year-003.md` line 295, the DM's (oog) odds post: "plus 10 because he came down to you himself".
 - Ruled: not a leak under DESIGN 12.2. "Came down" is the ship owner walking to the landing; the figure is a step of the stated odds. The transcript is the verbatim record and is not reworded.
-- Fix: one line in `S/leak-allow.txt` for the phrase "10 because he came down", with its reason and date. This round's go covers the two flags files only, so the line is not written here; it is the checker's to write at its recheck, with the orchestrator's go, before the step 8 scan. Owner: the checker.
+- Fix: one line in `S/leak-allow.txt` for the phrase "10 because he came down", with its reason and date. Owner: the checker.
+- Resolved, 2026-11-25, after round 1: the coordinator pointed to `engine/roles/checker.md`, which names `leak-allow.txt` as the checker's to write for a hit it rules reveals nothing. The line is written with its `#` reason and date. The scan rerun: leaks 4 (flag 10's lines only), dashes 0.
 
 ## Checked and holding
 
@@ -146,9 +147,9 @@ Judged: the clock, the morning story and the painting request are steps 7 and 8;
 ## Rulings for review
 
 - **Silence on a plain question about a particular power (keeper log pass two; L-0032).** The Keeper's ruling stands and is applied as logged. For Michael, the cost the checker sees: the god had just said before the yard, in the player's words, "I will say yes or no, or I will say I will not answer", and then met three such questions with none of the three, in the same sitting. "I will not answer" is one of the god's own stated answers and decides nothing about the power. The fever question's silence is followed in the people's record by the child's death (an ordinary winter death, with its cause in the told fever) and the back houses' saying. Should standing words that promise one of a closed set of answers default to the least committal one in that set, instead of to silence?
-- **The transcript hit (flag 11).** Ruled not a leak; the allow line waits on a go.
+- **The transcript hit (flag 11).** Ruled not a leak. Written to `S/leak-allow.txt` as the phrase "10 because he came down", listed here for review.
 - **The told year reworked (L-0046).** Checked as applied; the design question (resolve a year only to its first held moment and resume it after) stands as the Keeper listed it.
 
 ## Counts, round 1
 
-Raised 11 (moderate 1, minor 10, major 0). Resolved 0. Open 11. Owners: the Keeper, flags 1 to 9; the DM at step 7, flag 10; the checker at its recheck, flag 11.
+Raised 11 (moderate 1, minor 10, major 0). Resolved 1 (flag 11). Open 10. Owners: the Keeper, flags 1 to 9; the DM at step 7, flag 10.
