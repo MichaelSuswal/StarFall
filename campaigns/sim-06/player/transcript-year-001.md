@@ -241,3 +241,19 @@ Behind her, two more people in the line have their hands on their own scales and
 The figures, so you can hold me to them: in your nest the salt is 124. Each of the eight is about twelve and six tenths. The chipped piece is a hair under twelve and the cracked one about eleven and four tenths. Ten like the eight would come to about 126, which is where the missing seventh of a weight is. Your nest is written on your card as a dated entry, as you gave it.
 
 The Assay-master's two asks of last time are answered and closed. Two things are now asked of you and I am holding both as pending: the Assay-master's invitation to come back when the bench closes at dusk, with the brass, and talk with the door shut; and the channel woman's question, what you would take to try her balance, here in the yard.
+
+## Player:
+
+To the woman with the hand balance: "For the first one, a dried fish off that string. It's a small fee in measure, the same as any other scale gets at the hall. I'll weigh it where the whole yard can see, here by the gate, not inside. Your name, if you'll give it, and where your boat works, because I'm going to want to hear where you've been."
+
+I set my scales on the ground-side step of the gate, where nobody can say I'm using the bench, and I take her balance. I test it against my nest and tell her plainly what it does, whether it reads true, light or heavy, and by how much in my cups. I make no repair, only the reading. If it's off, I tell her which pan and by how much, and that she can adjust the cord herself or I'll show her where. I take the fish, and nothing else.
+
+The two behind her get the same fee and the same service, in the order they're standing. I don't cut the line for anyone who offers more. I do not take coin if anyone has it, only grain, fish or a fired weight, so nobody can say the hall's neighbor sells measures for money. If more come, I weigh until the light slants, then stop and tell the rest I'll be back tomorrow.
+
+For the rest of the day I stay in the market and listen. I want to know what a basket of salt, a hand of reed, a pot and a fish go for, in whose measure, and who argues with whom. I buy one small thing, a clay cup, with a few of the dried fish, because I want to see how my own purchase weighs. I ask quietly who sits on the eleven, which of them own the coasters, and where the council meets. I ask what the Weightward was like and how the keeper died, in the offhand way a stranger would. I don't push on the death.
+
+I eat with whoever will have me. I keep the coat closed and the scales on my belt.
+
+At dusk I go to the Assay-master, with the brass, door shut, as invited. I'll answer how I knew as truthfully as I can without the rest. My scales tell me what is in the pans, and what's weighed beside them while I'm near. That's the whole of it, and I'll show it again if asked. I'll say nothing about seals or the Reading, and I won't say the word god. I won't call that hiding, because I haven't said anything false, and he hasn't asked. I will tell him I want to see the Weightward's old weights set right, and that I'll weigh them in front of the council, not in a back room. I'd like that to be the offer he takes to the eleven, and I'd like it to be his offer, not mine.
+
+(One more answer was given privately, for the sealed record.)
