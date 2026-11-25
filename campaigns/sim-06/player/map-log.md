@@ -8,3 +8,6 @@
 - 2026-11-24 | year 1 | feature f25 | none -> rumored | hill carriers at the gate
 - 2026-11-24 | year 1 | region r20 | none -> rumored | hill carriers at the gate
 - 2026-11-24 | year 1 | region r10 | none -> rumored | upriver traders at the gate
+- 2026-11-24 | year 2 | feature f03 | reported -> reported | named by the Stallreeve at the gatepost, giving the tide-reckoner's word
+- 2026-11-24 | year 2 | feature f74 | none -> rumored | a boatman at the landing, of the southern coaster's home port
+- 2026-11-24 | year 2 | feature f25 | rumored -> rumored | hill carriers at the gate; named again by the hill kin's weigher in the hall

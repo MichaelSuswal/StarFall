@@ -26,3 +26,8 @@ offices: the old Warden of the Door named his successor in month 3; the seat nam
 
 ## Keeper, Year 1, pass two
 The river party reached people at the river's mouth, was received and came home in month 12 with word of salt [r-0251]. The western party found no one and had not come home at the year's end [r-0250]; it comes in early in Year 2.
+
+## Keeper, Year 2, pass two
+- The salt party: branch B [r-0294]. It reached the harbor, was received, bought salt at the harbor's price, wintered there and came home in month 8 with the salt and a spoken answer. The second lean winter for salt stands.
+- The Night Sitter did not sleep on the kept night (branch B).
+- The flame a household lit from its own kept flame is a shrine, not a third household; the cap of two was kept.

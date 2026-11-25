@@ -42,6 +42,7 @@ Tier reached (year):
 ## Watch-Wakeful (knack)
 Related skills: sitting a night watch at a sickbed; minding a sleeper
 Use: Year 1: surfaced. It sat a whole night beside the Night Sitter with a child in fever and a very sick old man, winter. One long watch.
+Use: Year 2: one long watch. It sat a night in the Night Sitter's yard with an old woman and a boy in fever (month 5).
 Grown (year, how far):
 
 ## Fair Loaf (knack)
@@ -56,3 +57,4 @@ Grown (year, how far):
 
 ## Year notes
 - Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.
+- Year 2: no attempt stated or made. Keeping Sleep as the card gives, three households on three named nights at the card's price (L-0039); use is not practice. No hidden power's moment came: the night with the sick was in a work yard, under no roof, and the record puts it at no table with a place kept for the newly dead. No trigger, failure or near miss. Knacks not named under Use had no use.

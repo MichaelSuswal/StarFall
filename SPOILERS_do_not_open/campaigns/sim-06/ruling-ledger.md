@@ -273,3 +273,31 @@ Matter: a major public act the player scheduled and prepared for through a whole
 Arguments: for holding it at its opening moment: it is the year's main event and scenes are the heart of the game; the hall will show the god a thing it has not seen; a mortal may ask the god something at the worst moment. For resolving it: a scheduled act is standing conduct for its time; the terms and conduct handed off are as complete as conduct can be; the player set later acts "after the weighing" and kept exactly one answer for the table; the handoff lists the weighing as handed to the night; holding it would stop the year in its first month against all of that.
 Ruling: resolved on the handed-off terms, exactly and no further. It stops, and that thread is held for the player, at any offer of the Weightward's seat, at the Assay-master's asking "after" for what the god promised to tell him, and at any offer, demand, charge or bargain that binds the god or changes its footing. A plain question the god's words do not answer meets silence and is a pending question (L-0032). What the god sees in the hall is released to the DM in full. A piece too heavy for the god's pans is weighed on the hall's beam in its presence, with its scales in its hand, and called the same way.
 Binds: any scheduled act of the player's god handed off with its terms. A promise the god has given to answer a mortal later is never met with silence in unplayed time: the asking is held.
+
+## L-0039
+Date: 2026-11-24. Year: 2 (night turn). Card: god-dreams. Keeping Sleep.
+Matter: (1) whether a household kept under Keeping Sleep eases the sleeplessness a worker's own work lays on her for three nights after she sits; (2) whether three households on a named night in deep winter carry what the card says and no more.
+Arguments: the god's own: it takes the night's fear and weariness; she is not under a fear, but a mended night is what the god means to give; it will not promise it. The Keeper's side: the card says the fear that would have broken the household's sleep; in this world a worker pays for her work with herself, and nothing on the card pays another's price.
+Ruling: (1) no. Keeping Sleep keeps a household's sleep from fear. What a worker's own work takes from her is hers to pay and is not fear; the gift does not reach it. The rest of her household sleeps kept, and what arrives in the god at dawn is that household's fear, if it had any, and nothing more. (2) As the card says and no more; the town's winter changes nothing. Undisputed: the god stated its case and asked only to be told.
+Binds: god-dreams's card.
+
+## L-0040
+Date: 2026-11-24. Year: 2 (night turn). Card: god-healing. Reading the Rot.
+Matter: whether the Reading reaches a living plant (the moss of the mounds).
+Arguments: the god's: it means to read it as a creature of any kind, and expects it may read as nothing it knows. The Keeper's side: the card names a person or creature, and water, grain and ground; a plant is a living thing a healer gathers, and the card's sense is what ails a living thing or fouls a store.
+Ruling: it reaches a living plant as it reaches a creature: the god knows what ails it, if a sickness or a rot ails it. Of the moss it knows that it is living moss, sound, with nothing foul in it and no sickness on it. The Reading knows sickness and foulness; a thing that is whole and merely weaker in its use reads as whole. Undisputed.
+Binds: god-healing's card.
+
+## L-0041
+Date: 2026-11-24. Year: 2 (night turn). Card: god-beasts. The Listening.
+Matter: whether reading a gathering as hurt, afraid or resting lets the god tell herds that cough from herds that do not.
+Arguments: the god's: it does not count on it and will say only what the Listening shows.
+Ruling: the Listening gives a gathering's state as the card says and no more. A herd with sick beasts in it reads as hurt in part; it does not read with what, or which beasts. The god may say "that herd is hurt"; what the herders find when they look is theirs. Undisputed.
+Binds: god-beasts's card.
+
+## L-0042
+Date: 2026-11-24. Year: 2 (night turn). Card: god-sea. Sound Timber; Calm Under the Lamp.
+Matter: (1) three pieces of Sound Timber in a year, each weeks apart; (2) the lamp tended by mortal tenders for up to a night and a day after the god lights it; whether they tended it right.
+Arguments: the god's readings, stated for correction.
+Ruling: (1) within the card: one piece at a time, each at its day's price; the card sets no count for a year. (2) Within the card and its trade. The two tenders refilled and trimmed it as shown and did not leave it; it was tended right, and the mouth lay calm while it burned. Undisputed.
+Binds: god-sea's card.

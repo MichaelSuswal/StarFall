@@ -38,10 +38,11 @@
   "features": {
     "f03": {
       "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "source": "named by the Stallreeve at the gatepost, giving the tide-reckoner's word",
+      "year": 2,
+      "named": true,
       "told": {
-        "name": "a river channel to the east"
+        "name": "the Alder"
       }
     },
     "f20": {
@@ -78,11 +79,21 @@
     },
     "f25": {
       "grade": "rumored",
-      "source": "hill carriers at the gate",
-      "year": 1,
+      "source": "hill carriers at the gate; named again by the hill kin's weigher in the hall",
+      "year": 2,
+      "named": true,
       "told": {
         "name": "Ruddfold",
         "cell": "B3"
+      }
+    },
+    "f74": {
+      "grade": "rumored",
+      "source": "a boatman at the landing, of the southern coaster's home port",
+      "year": 2,
+      "told": {
+        "name": "Corrith",
+        "cell": "C4"
       }
     }
   }

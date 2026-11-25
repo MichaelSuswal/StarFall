@@ -17,3 +17,7 @@ strength: about 150 in the spring-drilled levy, drilled in the eighth month; the
 mood: patient and watchful as before, and divided in the court as before. The Warden-Monarch and the Master of Timber are quietly hopeful. The Harbormaster does what the court orders, does not take the word, and has begun to put the thing to the test of a tide in a tally of his own. The Eldest Midwife still waits and has said so to the step. Among the people at large, curious and a little afraid: a figure at the water's edge with the lamp, the listener gone into the water through the lean, and five nights of the star dimmed in one year against three the year before.
 - [BOAT CAME IN] Why: the second year running a boat came in under the lamp. The town is grateful and more at ease with the keeping than the year before, and a little more at odds with the Harbormaster, who says the crew did it.
 - [BOAT LOST] Why: two drowned in the lamp's light. The town is bitter and quiet. The line is held against it in private, the Harbormaster's doubt is louder, the Warden-Monarch's standing is thinner outside the court than at the end of Year 1, and two households of the headland cove are in mourning.
+
+## Keeper, Year 2, pass two
+- The crab boat came in with all four [r-0296]: population 2,023.
+- The keeping's lamp and the harbor lamp are two lamps, as written. The tenders tended it right. The quay board and both keels are sound, the first keel clean after a year.

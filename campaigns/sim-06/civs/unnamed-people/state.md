@@ -25,3 +25,8 @@ mood: practical, suspicious, short-tempered at market, easier than a year ago ab
 - The potters' sorting of clay by weight: by summer the kilns that sorted had cracked as many loads as before. Some potters now say the gate's scale is no use for clay; the digger with the heavy loads still sells low.
 - The walker to the hill kin arrived and came back. Any witness comes down with the carriers next autumn.
 - Month 11: the council's invitation was spoken at the gatepost and the half-stick laid at its foot. The stranger has not answered. That matter is open at the year's turn, and the day the council set is the first market of the new autumn.
+
+## Keeper, Year 2, pass two
+- The kiln-masters' test tiles did not tell which loads would crack. The quarrel of diggers and kilns keeps, and the tiles are called Orrin's folly or Orrin's patience by who one asks.
+- The potters' second nest came out agreeing with itself to a hair. It is kept at the potters' hall.
+- Held and open at the year's turn, in order: the Assay-master's question on the evening of the weighing; the channel ship owner's bargain at the landing; the eleven's offer of the Weightward's seat; the southern coaster's master at the head of the line. The numbers above stand.

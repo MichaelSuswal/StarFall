@@ -53,3 +53,11 @@ Kept by the Keeper at the year's turn. No new ground was walked by anyone of the
 - The upriver traders say nothing has changed in the Aldermark. No one came from its king.
 - The southern ships kept to the Gulf this summer and their goods came up in the town's own boats.
 
+
+## Year 2
+Kept by the Keeper at the year's turn. No new ground was walked by anyone of the town this year. What changed in what they know and say:
+- The hill kin's weigher came down the Old Rudd Way for the weighing and went home with the figures of the hall's old weights on his own stick. Ruddfold knows the figures, the empty seat on the rack and that the hall's pieces run heavy.
+- The traders from the Aldermark took the story of the heavy pieces upriver with them. No one came from its king.
+- A coaster of the southern harbor towns came up to the town's own landing in the first month of summer. The boatmen say she is out of Corrith.
+- The boat people were away at the lowest tides of autumn and of spring, as they are each year. Nobody followed.
+- The pits on the clay banks and the pits on the downs are both dug; the town now knows the loads that crack carry no more grit than the loads that fire well.

@@ -58,3 +58,4 @@ Grown (year, how far):
 
 ## Year notes
 - Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.
+- Year 2: no attempt stated or made. Mending nine times, the Reading many times (once on a living plant, L-0040) and Hasten the Rot once, as the card gives; use is not practice. No hidden power's moment came: it laid out no dead and gave no drink from its hands. No knack's skill was used on the record. No trigger, failure or near miss.

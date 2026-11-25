@@ -21,3 +21,8 @@ mood: more watchful than last year, and the surface less unhurried. The dry mont
 ## Keeper, Year 2, pass two
 
 (Left for the Keeper's rulings on the spring wolves and the dry month.)
+
+## Keeper, Year 2, pass two
+- The wolves of the calving were not turned on the three nights [r-0291]: about thirty calves lost; the numbers take that branch.
+- The dry month: the turns at the river held [r-0292]; the numbers take the lighter branch (about eighty cattle, thirty goats, twenty sheep; the children of the flux as written).
+- The cutters the keeper read: about eighty, in three camps with draught oxen, a day's walk deeper into the winter woods than last year.

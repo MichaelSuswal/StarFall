@@ -117,3 +117,4 @@ Offered once, on Night 2. None taken. Trades are closed for the rest of creation
 Set by the world. Not shown.
 
 ## Dated entries
+- 2026-11-24, Year 2: Reading the Rot, a ruling. It reaches a living plant as it reaches a creature: the god knows what ails it, if a sickness or a rot ails it. A thing that is whole and only weaker in its use reads as whole. Ledger: L-0040.

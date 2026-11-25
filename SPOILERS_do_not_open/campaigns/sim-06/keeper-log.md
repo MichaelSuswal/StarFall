@@ -932,3 +932,93 @@ Stamped 22:15.
 - Step 2: a piece too heavy for the god's pans. Ruled: weighed on the hall's beam in its presence.
 - Step 2: a sealed note for the player's people's agent.
 - Step 2: contests of the player's thread rolled in pass one, before the people's agent writes.
+
+### 3. The civ agents
+All eight wrote their Year 2 files. Read 22:34 Pacific: the player's people's report and the sealed hall notes in full, the Longwalk's and the Sarrow's reports in full, the other five reports from "Uncertain outcomes" to the end with how the god was met and what was asked of it; each year file by search where a ruling, a surfacing or a release turned on it; each state file's first figures.
+Procedure, from the orchestrator: every report was saved at `years/002-report.md` by its own agent, with no refusal. The civ of god-sea's people rewrote its state file whole and dropped the Keeper's Year 1 pass-two note, carrying the figures forward; the player's people's agent overwrote its state file and restored the Keeper's Year 1 note under a heading that says it is kept as written. The Longwalk's agent could not pull ("Cannot rebase onto multiple branches") and worked from the tree as it stood; its files read whole and nothing in them is behind the others. The Keeper's Year 1 note for god-sea's people is in the commit record and in `S/years/001/year.md`; nothing is restored by hand.
+The sealed note worked as meant: the player's people's agent wrote the weighing with the weights, kept the marked lines out of every public file (checked by search for the clerk, the loft's contents and the punt: none), and sent back one sealed file. It flagged one fault of the Keeper's: the note dated the clerk's visit "last summer, before the stranger came", which read as the summer after the old man's death. The deep history has the visit in the summer before his last winter. The agent chose no dating and wrote nothing from it. Corrected in the sealed note for Year 3 (`S/releases/002/civ-unnamed-people-hall-after.md`).
+
+### 4. Keeper pass two
+One line per resolution: the act, the branch, the truth, what was shown.
+
+The DM's day, weighed.
+- The overrule. DM r-0006 (the stallholder's scale out, the world's question, odds 40, rolled 38: success), DM r-0007 and DM r-0008 (weighted draws, no success or failure), DM r-0009 (level on the second trial, odds 65, rolled 10: success), DM r-0010 (the reading-sticks, the god's own attempt, odds 75, rolled 8: success). The rule reads only a roll for an act of the god or its people that failed by no more than 5 points. None failed. None is overruled. No DM roll line was touched.
+- Facts the DM set, each read against the sealed files: the stallholder's scale and its second trial; the Stallreeve's rule and the Tally-keeper's notch; five sticks cut; the Stallreeve's answer that the key is the eleven's to tell. None contradicts a sealed fact; none corrected.
+
+The tail of Year 1.
+- The talk at the hall door: resolved on the handed-off words (L-0032). Three asks of the Assay-master's not answered by them: silence, pending. None was an offer or a demand that bound the god. His "Then say that to the eleven on the day" is a demand in form; it binds nothing, he answered it himself in the same breath, and it is listed as pending, not held.
+- The master's scale, r-0285: level. The terms, r-0286: taken whole. (Pass one.)
+- Bren's household's answer: the people's own telling. It names the Maun Stair [f27], which the god had as a rumor.
+
+The weighing: the pass-one ruling confirmed (L-0038). What came back keeps to the terms at every step: the calls are the Keeper's figures; the god says nothing the decisions do not give; two asks in the ring met silence (the master of the smiths on the seventh; the hill weigher's stones); two were answered by its decided words (the bread; "what should the fifth be"). The agent judged the smith's question plain and not a charge. Confirmed: he asked, he did not accuse, and the ring turned to the Assay-master. The seat was not offered that day. Nothing in the people's account contradicts mystery S01. The ring's decision is the people's own.
+- New fixed facts from the people's agent, accepted: the chest has two keys and either opens it; the old keeper's own key hangs in the ring by custom and has not been turned; the ring's third motion; the nest's sizes in hall pieces and the figures called for it (13, 25, 37, 52, 75, 89, 98, 130, 150, 179, 181); the hill weigher's stones against the six.
+- The hill kin now hold the six figures and know of the empty seat. The Aldermark's traders carried the story of the heavy pieces upriver in summer. Both are in the record for whoever it reaches (row S01-a meets what is then there).
+
+Held, four moments, each confirmed as held:
+- Month 1, the Assay-master's "What are you?": held, as ruled in pass one.
+- Month 4, the channel ship owner's bargain: an offer that would bind the god and change its footing. Held.
+- Month 9, the eleven's offer of the seat, with its terms: held and not answered.
+- Month 10, the league captain at the head of the line: a world-level figure. Held. What she carries is fixed now, in `S/years/002/held-coaster.md`, so that it cannot be shaped later by what the player says: why she came, what she asks, and three pieces of news she sells, each already in the year's record (r-0284; m-0001; the league's own record). Decision the files did not make: who voices a cast figure in a held scene, since the DM cannot read her file and a public file may not hold what the god does not know. Decided: the DM's release gives her as the god sees her and tells the DM to put the god's words to the Keeper, who answers for her from the sealed note. Listed for review.
+
+The loft and the boatmen. The people's agent stopped both threads for the Keeper.
+- The loft: the three saw the coat and boots, stiff with river silt to above the knee (mystery S01). The god was not there. Not released to the DM beyond that three went up and came down quiet.
+- The boatmen: one told the Stallreeve of the punt lent on a flood night (mystery S01). Whether the god, sitting at that landing as it does every night, heard it: r-0290, stated odds 50, rolled at 55 with the sealed factor, failed (89). It saw him come and speak apart; it heard nothing. Released so.
+- Both go to the people's agent for Year 3 in a sealed note, as things three of its people now know.
+
+The pits. L-0037 confirmed. The six readings the agent wrote sit inside the Keeper's line (about a twentieth, a hair more or less; no more in the cracked). Not rolled.
+- The test tiles, r-0288: stated odds 70, rolled at 75, failed (88). The tiles do not tell.
+- The second nest, r-0289: stated odds 80, rolled at 85, success (57).
+- The witnessing, month 6: decision 15, no power used, as the conduct line requires.
+- The first stale stick shown to it: it watched, as decision 8 says.
+
+The seven.
+- god-sea. Sound Timber three times and the tenders at the lamp: within the card (L-0042). The crab boat, r-0296, odds 75, success. The Warden-Monarch's telling at the tide door: new fixed fact, the god was in that water and heard it (it keeps to the water and the step, and asked for the telling). The swim: the god searched the harbor bed and the nearer bay through a spring, tireless and fast in water; what lies on a harbor bed is seen by one who swims it slowly, so not rolled. What is there is the truth of mystery S02 as a thing on the bottom: ballast and the broken lower timbers of two boats under the chain's line. Shown as that and no more; no cause. Nothing made by hands in the nearer bay; the old places are 36.8 miles and more away by the tool. No hidden power's moment.
+- god-dreams. L-0039. The salt party and m-0001: r-0294, odds 60, failed (88): delayed, not lost. Delivered at Port Sennet [f75]; the answer carried home is mystery S06's own branch. The harbor's side was played by the Keeper from the league's record and no more. A flame from a kept flame is a shrine (L-0034, followed).
+- god-rivers. No pull: no other god stands in or on the River Wellen [f08]. The listening as the card gives. Warm hands twice, as the card, not rolled. The strayed herd, r-0295, odds 55, failed by 6: part home. Nothing on the record threatened the sleep; not rolled.
+- god-healing. L-0040. Mending nine times as the card gives, not rolled, as last year. The wells read as mystery S07 has them. No roll was made for this god, so its step was not used.
+- god-beasts. L-0041. The wolves, r-0291: stated 80, rolled at 85, failed (91). The dry month, r-0292: stated 60, rolled at 65, success (17). The cutters' count set by the Keeper from the holds' record (the near timber gone, cutting deeper each winter). Row S04-c: met. The two clans' herds wintered on their own ground on their own browse with the coughing beasts penned, by the clans' own doing after the god's asking through the Houndwarden. S04-a is confined to the two clans' beasts; S04-b does not come. Entered in the year record; the schedule's rows stand as written and are read with this line.
+- god-secrets. The closing count, r-0297: stated 45, rolled at 50, failed (100). The mouth of the River Iss [f11], r-0298: stated 50, rolled at 55, failed (96): only the ordinary talk. The walk through the store, r-0299: stated 45, rolled at 50, success (25): the far bins hollow. No tally was put in its hand.
+- god-thresholds. The far toll houses, r-0293, odds 45, failed (96). Row S08-c is not met. The road's far end is up to 148.1 miles and 8 days each way; the walk fits the spring. Far Notch [f63] blessed as the card. A verdict and an answer its decisions did not give go back to it as asked and unanswered.
+
+Waking seasons against weaknesses, for the opening of Year 3: god-healing's tremor ended at the thaw that closes its year; god-sea's stilled water took it again from the eighth month and holds no bar at the year's opening; god-dreams carries two households' fear each dawn, shaken and able. No god opens Year 3 unable to act.
+Growth in a second year. Nothing earned by any god. No attempt was stated by any of the eight, and use of a power as its card gives is not practice, in a second year as in a first. Two rulings widened what a card was already read to cover (L-0037 for the player, L-0040 for god-healing); a ruling is not growth and nothing is entered against a power for it. Knacks: none surfaced this year. Lines of use were written for those whose skill was exercised: the player's Bargain-Ear (a witnessing) and Dusk Reckoning (in part); god-sea's Banked Coal; god-dreams's Watch-Wakeful; god-beasts's Windward Sense; god-secrets's Figure-Memory; god-thresholds's Table-Seating (in part). No hidden power surfaced for any god. No memory-loss drawback fell due.
+Standing: updated in `S/state/standing.md` by last year's rule. player 22, god-sea 20, god-dreams 24, god-rivers 22, god-healing 21, god-beasts 22, god-secrets 22, god-thresholds 26. Far under 58.
+The sealed factor's record: unchanged in value.
+Messages: `S/state/messages.jsonl` begun; m-0001 sent and delivered in Year 2; `S/messages/m-0001.md`.
+State written: each people's state file with a "Keeper, Year 2, pass two" section; the eight growth files; four cards (dated entries for L-0039 to L-0042); the ledger (L-0037 to L-0042); the player's map knowledge by `tools/map.py reveal` (the River Alder [f03] named; Corrith [f74] a rumor by name; Ruddfold [f25] marked heard); the people's knowledge file (a Year 2 section); `S/years/002/year.md`. No NPC god's map knowledge changed: none saw new ground beyond its own country but god-secrets, whose river was already seen and whose record already holds the coast as reported. The stamp tool was not run.
+
+Neutrality self-check, Year 2.
+- The sealed factor. Applied as a factor on the record on ten rolls: for the player's god, r-0285, r-0286, r-0288, r-0289, r-0290; for god-beasts, r-0291, r-0292; for god-secrets, r-0297, r-0298, r-0299. None of the ten turned on it: each fell the same way at the stated odds as at the odds rolled. Weighted draws: one (r-0284), where the only god among the targets has step 0 and no share moved. Overruled DM rolls: none; none qualified. No roll was made for god-healing. Counts match `S/state/luck.md`.
+- The player's sealed wants. Several bear on this year's ground (that the old keeper's death be ordinary; who gains by the vacancy; the register-keeper; to be the measure nobody can check). None has a confirmation and none was applied. The offer of the seat came from the people's agent, which has never seen the sealed file; its terms (a term, a check, the eleven's right to put it down) are close to what the player said in the open it would accept (decision 4), which that agent did read. That is the town answering what the god said to the yard, not the Keeper serving a want. Flagged for the checker.
+- A likeness logged again: the old set runs by doubling, as the god's own nest does. The Keeper set it so because a standard set that halves and doubles is the plainest kind and the deep history gives no other; it was not taken from the sealed past. The checker is pointed at it.
+- A temptation to help: to let the god overhear the boatman, since the player would enjoy the punt. Not done by choice either way: rolled, and it failed.
+- A temptation to help: to have the Tally-keeper speak up in the ring about the clerk. Not done: her fixed temper is that she does not volunteer, and no one asked her plainly.
+- A temptation to help: to make the lumps from cracked loads read a little cleaner, as a pointer. Not done: the Keeper's line was "alike", and the truth gives no figure for it.
+- A temptation to hinder: to hold the whole weighing, the safer course for the Keeper. Not done: see the pass-one ruling.
+- A temptation to tidy: to let the test tiles work, since the fault is in the clay. Not done: rolled, with that as a factor, and it failed.
+- A temptation to help god-secrets to a rumor of another like itself at the river's mouth. Rolled; failed; nothing given.
+- A temptation to spare the Longwalk the calves after the dry month. Not done: both were rolled and both stand.
+- Recurring things are at their true counts from the tool. No clue was held back: the rack was seen; what god-sea swam over is what lies there; what god-healing read is what stands there; what god-secrets walked past is what is there.
+- No ruling was shaped by anything said out of the game.
+
+### 6. Releases (written before the check, at the orchestrator's word, so the checker sees them in one round)
+- For each of the seven: `S/releases/002/<label>.md`: what it did and what came of it, what was asked and not answered, the Keeper's rulings as outcomes, the sky at its true count (it saw them), its people at the year's turn. No release names another god, a count of gods, a sealed factor, a hidden power or a truth behind a people's telling. Each ends "you felt no other like yourself", which is true of all seven.
+- For each of the eight peoples: `S/releases/002/civ-<label>.md` and, public, `P/releases/002/civ-unnamed-people.md`, with a sealed note for the player's people's agent (`S/releases/002/civ-unnamed-people-hall-after.md`) holding the loft, the punt and the corrected date.
+- For the DM: `P/releases/002/dm.md`. The tail of Year 1; the weighing in order as the god saw it; the four held moments, each with its board; the year between them; the pending questions; the sky (Year 1's three and Year 2's five, as seen); god-sense (nothing); the powers (nothing new felt); L-0037 as card text and L-0038 for handling; map knowledge; messages (none). Left out, as out of the god's sight or hearing: what was seen in the loft; what the boatman said; what the Tally-keeper holds; what the Assay-master told the Stallreeve; the coaster's master's name, house and news; the town's nicknames.
+Stamped 22:45.
+
+### Rulings for review, Year 2 night (pass two)
+- Step 4: who voices a cast figure in a held scene. Ruled: the Keeper, from a sealed note fixed this night; the DM relays.
+- Step 4: whether the god overheard at the landing. Ruled: rolled as its own listening.
+- Step 4: what a god finds on a harbor bed it swims slowly for a season. Ruled: what lies there, not rolled.
+- Step 4: whether a god in the water heard what was told to the water. Ruled: yes.
+- Step 4: row S04-c read as met by the clans' own wintering.
+- Step 4: four undisputed readings of gods' cards (L-0039 to L-0042).
+- Step 4: a demand in form that binds nothing ("say that to the eleven"). Ruled: pending, not held.
+- Step 3: a civ agent's state file that dropped the Keeper's earlier note. Ruled: not restored by hand; the record holds it.
+
+### 5. The check
+Run before the hand-off, 22:46 Pacific.
+`tools/check.py sim-06 2`: 4 findings. Three wait on steps 7 and 8 (the clock not advanced, no morning story, no painting request). The fourth is the public roll log holding the DM's rolls, which the design tells the DM to write there; the checker ruled on it last year and it is the owner's.
+`tools/lockcheck.py sim-06 --all`, first run: leaks 13, all number words beside "came down" or "fell" and a capitalised "The" before a known name, in the player's people's agent's public files (eleven) and in the Keeper's DM release (two). Reworded by the Keeper, wording only, under last year's ruling: "sank", "arrived", "failed", a lower-case "the". No meaning changed. After: leaks 0, dashes 0, releases 0, mysteries 0, places 0 failures; rolls 1 (the public roll log, as above). The place warnings left are names without ids in the civ agents' own sealed files; the Keeper added ids by hand in its own three files and did not run the stamp tool, so the checker's flags files are untouched.
+Handed to the checker. The year's paths: `S/years/002/` (`year.md`, `world-events.md`, `hall-notes.md`, `held-coaster.md`), `S/releases/002/`, `P/releases/002/`, the eight peoples' Year 2 files, the seven gods' decisions, the ledger from L-0037, the growth files, `S/state/`, `S/messages/`, and this log from "Year 2 night turn". The releases of step 6 are written and are part of this round. The morning story does not exist yet.

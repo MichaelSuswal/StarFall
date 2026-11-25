@@ -20,3 +20,7 @@ factions: the Wary (the head of the oldest kin house and some of the weir hands)
 
 ## Keeper, Year 1, pass two
 Nothing came against the sleeping woman at the water gate; no roll. Each of the three she laid hands on recovered, as her card gives: the numbers take the year file's branch for that.
+
+## Keeper, Year 2, pass two
+- The strayed herd [r-0295]: part home, part lost: about thirty-five goats and three cattle home, no searcher hurt.
+- Nothing came against the short listening. Both whom the god warmed recovered. The council had a mark set to read by at the autumn low water.

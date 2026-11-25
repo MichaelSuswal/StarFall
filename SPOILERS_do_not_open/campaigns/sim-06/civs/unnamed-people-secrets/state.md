@@ -15,3 +15,8 @@ trade: grain, reed work, salt fish and leather out; stock, wool and metal in, by
 strength: a standing watch of about 100 and a call-up of about 500; earth and timber walls. Unchanged. The Gate Warden relaxed the quiet watch on the stranger's room in the fifth month, after the ration weighing showed the watch eats a thirty-eighth of the store's issue, where the council had reckoned a twenty-fifth.
 
 mood: busier and a little warmer than last year, easier at the granary, which has been credited to the Warden, and less sour over the dredging, which is now argued from a count and still not settled. The council renewed the stranger's stool six to three. The town is uneasy about the sky: the star dimmed five times, eight since the stranger came, and the cups set on the river steps after such nights are more than any year before.
+
+## Keeper, Year 2, pass two
+- The closing count did not reach the far wall and was not squared [r-0297]; the cry was held.
+- The stranger came back with the string on the ordinary run and was in the town for the month 11 night.
+- On the walk through the store the far bins were found hollow [r-0299]; the Clerk was sent for. What the store holds against the roll is now known to the Warden, the Clerk and the stranger.

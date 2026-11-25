@@ -13,3 +13,7 @@ mood: the court steading and the nearest three steadings are warmer toward the s
 
 ## Keeper, Year 1, pass two (kept)
 Each mending did what the card gives, the Hearth-Holder's granddaughter among them: the numbers take the year file's branch in which the mendings held. The court steading's well and store read sound; the branch for that stands.
+
+## Keeper, Year 2, pass two
+- All nine mendings held; the numbers take that branch.
+- The moss read as sound living moss. The rise read sound; the first burials stand there. The kept wells below the bank read foul as before; the closed wells fainter, still foul; the emptied steadings' wells foul.
