@@ -61,3 +61,13 @@ Kept by the Keeper at the year's turn. No new ground was walked by anyone of the
 - A coaster of the southern harbor towns came up to the town's own landing in the first month of summer. The boatmen say she is out of Corrith.
 - The boat people were away at the lowest tides of autumn and of spring, as they are each year. Nobody followed.
 - The pits on the clay banks and the pits on the downs are both dug; the town now knows the loads that crack carry no more grit than the loads that fire well.
+
+## Year 3
+Kept by the Keeper at the year's turn. No new ground was walked by anyone of the town this year. What changed in what they know and say:
+- The reach of the Alder below the hall's landing and the reaches either side were dragged at the lowest water in the last summer but one. The boatmen know that bed now better than they did: silt, old pots, a sunk punt.
+- The old weigher of Ruddfold came down the Old Rudd Way again with the carriers and had his stones weighed at the gate. Ruddfold has the ring's decision that the old six are to be the town's weight.
+- The master of a southern coaster said at the gate that each harbor house in the south keeps its own weights, and that the council in Corrith keeps a set for quarrels.
+- The open-water owner's coasters go out past the Horn each summer, as they always have.
+- The traders from the Aldermark asked in the yard what the keeper of the town's weights is, and went home with what the town says.
+- The salt of the flats came cleaner after the winter the baskets were turned out.
+- The boat people were away at the lowest tides of autumn and of spring, as they are each year. Nobody followed.

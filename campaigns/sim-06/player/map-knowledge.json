@@ -27,11 +27,21 @@
     },
     "r10": {
       "grade": "rumored",
-      "source": "upriver traders at the gate",
-      "year": 1,
+      "source": "upriver traders at the gate; named by a trader at the landing, Year 3",
+      "year": 3,
+      "named": true,
       "told": {
         "name": "Aldermark",
         "cell": "B2"
+      }
+    },
+    "r17": {
+      "grade": "rumored",
+      "source": "named by the Stallreeve at the gatepost: where the open-water owner's coasters go out past",
+      "year": 3,
+      "told": {
+        "name": "the Horn",
+        "cell": "B4"
       }
     }
   },

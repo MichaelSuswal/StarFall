@@ -73,3 +73,4 @@ Grown (year, how far):
 ## Year notes
 - Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.
 - Year 2: no attempt stated or made. Warm hands twice, the listening once and the pull tried once, each as the card gives; use is not practice. No hidden power's moment came: it stood in no dry bed and led no one across a strange ford. No knack's skill was used on the record. No trigger, failure or near miss.
+- Year 3: no attempt stated or made. The listening once and the standing in the river, as the card gives; Warm hands not used. No hidden power's moment came: it led no one across a strange ford and stood in no dry bed. No knack was exercised that the record shows. No trigger, failure or near miss.

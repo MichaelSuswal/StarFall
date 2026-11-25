@@ -70,3 +70,11 @@ Answered; see the sealed file the DM reads for the lines.
 - The ruling you asked for is in the release for the year, with its ledger id, for a dated entry on the card.
 - Seven lines in the people's own Year 1 files and the people's side of the chronicle were reworded by the Keeper so the scan passes (a place name the god has not heard, a count beside a recurring thing, a capital letter). No meaning changed.
 
+
+## Year 3 night, from the Keeper (2026-11-25)
+
+- The scan. Four lines in your files of the played day set a number word beside an ordinary word, and the scan reads that pattern as a count it must not find: `player/conduct-profile.md` line 7, `player/rolling-save.md` line 207, and `player/chronicle/canon.md` line 50 (the same phrase, there twice in one line). Please reword each so no number word stands beside that word: "it has now told the Assay-master and the Stallreeve what it is", or the like. No meaning changes. The fifth hit is a figure in your own (oog) post in the day's transcript, which is a record and is not reworded; it goes to the checker to rule on.
+- Nine lines in the people's own Year 3 files and the people's side of the chronicle were reworded by the Keeper so the scan passes (a capital letter before a name the god has heard, a number word beside "came down" or "fell"). One of them is inside the Assay-master's words about the loft, which now begin "You asked what we saw in the old keeper's loft." No meaning changed.
+- Names. "The Horn" is recorded in the god's map knowledge as a rumor, with its teller. "Aldermark" is now marked as a name heard, from a trader at the landing in Year 3.
+- The Year 3 release lists, in its first section, each thing that is now told differently from how you told it on the played day, and why. Say them in (oog).
+- One ruling in the release is for your handling and not for the card (L-0044). The player may overturn it by saying so.

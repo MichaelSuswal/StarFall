@@ -19,3 +19,9 @@ mood: the households are thin and steady and hold to the custom of the sharing a
 ## Keeper, Year 2, pass two
 - At the two farthest toll houses the Guest and the Marshal left with the watchmen's word and the cords as shown [r-0293]. The thin toll stands; the Marshal keeps his office. The two farthest houses stand on the road in the Kennoch Heights [r02], short of the road's end; the walk fits between the thaw and month 9.
 - Far Notch holds, the fifth blessing. No verdict in the grass dispute is on the record: her decisions gave none.
+
+## Keeper, Year 3, pass two
+- The stores failed some weeks short of the thaw. The last fortnight was eaten on dried meat, herd and seed. About three hundred died over the ordinary, the old and the under fives. The sowing was short. Your numbers take that branch.
+- At the far toll houses the Marshal and the first captain counted stores, beasts and roofs and left with the watchmen's word. Each house had its account of a good year's barter. Nothing was found that the captain could prove. The Marshal keeps his office.
+- The Reading at the table in the fourth month: the senior Doorwarden means no harm to a guest at that table, and he learned the same of her. She taught him the oath in person that winter. No lesser mark was laid.
+- She gave no word on the toll and none on the letter.

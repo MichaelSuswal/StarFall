@@ -26,3 +26,10 @@ mood: tired and tighter than last year, with the surface still unhurried. The tw
 - The wolves of the calving were not turned on the three nights [r-0291]: about thirty calves lost; the numbers take that branch.
 - The dry month: the turns at the river held [r-0292]; the numbers take the lighter branch (about eighty cattle, thirty goats, twenty sheep; the children of the flux as written).
 - The cutters as the keeper told them: three gatherings with draught beasts, deeper in than the songs put them; no number.
+
+## Keeper, Year 3, pass two
+- The wolves of the calving were turned on all three nights. About six calves were lost. Your numbers take that branch.
+- The council's word to the stone towns was heard and nothing was promised. The cutters were a little farther in again.
+- What the keeper told the Marchwarden of the cutters: three gatherings of people with draught beasts, working and unafraid, a little deeper. No number.
+- The keeper's readings give where a gathering is and whether it is hurt, afraid or resting. That a herd was drinking is its own guess, and it said so.
+- The herder's question, what the cough is, had no answer.

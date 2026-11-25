@@ -49,6 +49,15 @@
       "told": {
         "name": "a scar where stone was cut to the north-west"
       }
+    },
+    "f20": {
+      "grade": "rumored",
+      "source": "quay talk at the harbor, brought home by the court's party: a market town in the western delta where one is seated who says it is a god",
+      "year": 3,
+      "told": {
+        "name": "the market town in the western delta",
+        "cell": "B3"
+      }
     }
   }
 }

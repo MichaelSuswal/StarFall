@@ -31,3 +31,9 @@ The river party reached people at the river's mouth, was received and came home 
 - The salt party: branch B [r-0294]. It reached the harbor, was received, bought salt at the harbor's price, wintered there and came home in month 8 with the salt and a spoken answer. The second lean winter for salt stands.
 - The Night Sitter did not sleep on the kept night (branch B).
 - The flame a household lit from its own kept flame is a shrine, not a third household; the cap of two was kept.
+
+## Keeper, Year 3, pass two
+- The harbor party did not come home before the cold. A boat grounded on a bar under its stone; no ship lay at the mouth; they went round the shore with the samples, were given bread and three nights, and the leader spoke the words on the third night. The house took the samples, sold salt at a standing price below the carriers', and named its order: sixty blocks a year dressed to a cord it gave, to be lifted by its own ship at the river's mouth. The gales shut the shore. They wintered at the harbor and came up at high water, home in month 8, all eight. Your numbers take the branch with no word all winter.
+- At the harbor the leader heard this on the quays and brought it home: at the market town in the western delta a stranger who reads scales for a pinch of barley has been seated as keeper of the weights, and says before the market that it is a god.
+- Of the three who sat the winter beside the Night Sitter, the hamlet girl found she could. Your numbers take that branch.
+- At the dawns after three households the wall's men saw what the guest had told them they would see, and no more.

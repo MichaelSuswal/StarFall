@@ -162,7 +162,7 @@ The Alder rose to an ordinary flood. The master of the potters fired a nest to t
 
 ## Summer
 
-Long and warm. The reed was cut early. The ship owner of the open water's coasters went out past the Horn. No coaster of the southern towns came. Boats from the Aldermark came down with grain, wool and some bronze, two traders had their scales read, and they asked in the yard what the keeper of the town's weights was. The grain came in.
+Long and warm. The reed was cut early. The ship owner of the open water's coasters went out past the Horn. No coaster of the southern towns came. Boats from the Aldermark arrived with grain, wool and some bronze, a pair of traders had their scales read, and they asked in the yard what the keeper of the town's weights was. The grain came in.
 
 ## What the town says it needs
 

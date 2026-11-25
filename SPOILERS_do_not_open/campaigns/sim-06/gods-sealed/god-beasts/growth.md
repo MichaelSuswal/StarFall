@@ -69,8 +69,10 @@ Grown (year, how far):
 Related skills: stalking and being stalked; reading the wind and keeping downwind
 Use: Year 1: surfaced. It came to the camp from downwind each dusk until met, and kept downwind of the packs through the spring and summer night watches. Used through the year.
 Use: Year 2: used through the year. It kept the margin with the wind or the timber behind it at two camps.
+Use: Year 3: used. By night through the timber toward the cutters, months 7 and 8, never within a mile, unseen.
 Grown (year, how far):
 
 ## Year notes
 - Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.
 - Year 2: no attempt stated or made. The Listening daily as the card gives (L-0041); use is not practice. No hidden power's moment came: it pronounced at no kill site and set no antler. It dressed no kill. No trigger, failure or near miss.
+- Year 3: no attempt stated or made. The Listening daily as the card gives, under two readings of it (L-0041, L-0045). No hidden power's moment came: it pronounced over no kill and set no antler. No trigger, failure or near miss.

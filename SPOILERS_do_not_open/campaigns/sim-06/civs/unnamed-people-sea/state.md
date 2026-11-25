@@ -25,3 +25,10 @@ mood: patient and watchful as before, and divided in the court, now more openly.
 ## Keeper, Year 2, pass two
 - The crab boat came in with all four [r-0296]: population 2,023.
 - The keeping's lamp and the harbor lamp are two lamps, as written. The tenders tended it right. The quay board and both keels are sound, the first keel clean after a year.
+
+## Keeper, Year 3, pass two
+- The long-liner came in with all three. Your numbers take that branch: about 2,031. The tenders tended the lamp right.
+- The Harbormaster's lead and grapnel took nothing that is a hull, on either morning. Your year takes that branch.
+- The chain post's heel and the crab boat's keel are sound.
+- At the bedside the keeping said what it counts and showed its shape at her asking. It gave no answer to her four questions.
+- The keeping had the net-mender's slip from the jar. It heard the Warden's telling of the Harbormaster's answer in the ninth month. It was not in that water for the telling in the seventh.

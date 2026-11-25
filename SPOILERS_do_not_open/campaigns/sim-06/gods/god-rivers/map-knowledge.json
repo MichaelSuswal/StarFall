@@ -5,6 +5,11 @@
       "grade": "seen",
       "source": "the landing",
       "year": 1
+    },
+    "r26": {
+      "grade": "seen",
+      "source": "went into its channels by barge below the hills, summer",
+      "year": 3
     }
   },
   "features": {
@@ -39,8 +44,8 @@
     },
     "f08": {
       "grade": "seen",
-      "source": "stood in it at the ford",
-      "year": 2
+      "source": "three days down it by barge below the ford, summer",
+      "year": 3
     }
   }
 }

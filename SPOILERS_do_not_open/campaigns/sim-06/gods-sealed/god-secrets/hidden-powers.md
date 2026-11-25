@@ -13,7 +13,7 @@ Fitted to: the gate's book (secret past). Fitted up: its card is the lightest.
 Growth: Possible. Not shown.
 
 ### Tally-Reader
-Status: hidden (undiscovered)
+Status: hidden (discovered Year 3, month 5: the Clerk put the old league's tallies in its hand)
 Kind: minor
 Description: Any tally stick, knotted cord or private merchant's mark the god holds in its hand, it can read as its maker would.
 Drawback: For a day after, it cannot speak a false figure about that account.

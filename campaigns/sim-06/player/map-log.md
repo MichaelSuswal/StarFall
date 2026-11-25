@@ -11,3 +11,5 @@
 - 2026-11-24 | year 2 | feature f03 | reported -> reported | named by the Stallreeve at the gatepost, giving the tide-reckoner's word
 - 2026-11-24 | year 2 | feature f74 | none -> rumored | a boatman at the landing, of the southern coaster's home port
 - 2026-11-24 | year 2 | feature f25 | rumored -> rumored | hill carriers at the gate; named again by the hill kin's weigher in the hall
+- 2026-11-25 | year 3 | region r17 | none -> rumored | named by the Stallreeve at the gatepost: where the open-water owner's coasters go out past
+- 2026-11-25 | year 3 | region r10 | rumored -> rumored | upriver traders at the gate; named by a trader at the landing, Year 3

@@ -42,10 +42,19 @@
     },
     "f37": {
       "grade": "seen",
-      "source": "walked to its end in summer",
-      "year": 1,
+      "source": "three weeks at the landing where it meets the river's head, summer",
+      "year": 3,
       "told": {
         "name": "a path"
+      }
+    },
+    "f60": {
+      "grade": "rumored",
+      "source": "drovers at the river's head: the pass herders' winter hall, where a guest is served",
+      "year": 3,
+      "told": {
+        "name": "the pass herders' winter hall",
+        "cell": "B1"
       }
     }
   }

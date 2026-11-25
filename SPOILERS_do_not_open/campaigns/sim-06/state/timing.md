@@ -69,3 +69,5 @@ Closed 2026-11-24 15:50.
 - 2026-11-24 23:39 step 0 done and the seven decisions releases written (step 1 released). God agents: sonnet, run by the orchestrator.
 - 2026-11-25 10:20 step 1 done: the seven decisions read (the turn sat overnight between the release and the gods' return).
 - 2026-11-25 10:30 step 2 done: pass one, the world events list, the eight civ releases and one sealed note written. Civ agents: sonnet, run by the orchestrator.
+- 2026-11-25 10:51 step 3 done: the eight civ files read.
+- 2026-11-25 11:03 step 4 done: pass two, the year record, the ledger, growth, standing, messages and state written; step 6 releases written ahead of the check; step 5 begun, scripts run, scan hits reworded, the year handed to the checker. DM: fable, checker: opus, run by the orchestrator.

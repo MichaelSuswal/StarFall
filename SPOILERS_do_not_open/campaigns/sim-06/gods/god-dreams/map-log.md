@@ -1,2 +1,3 @@
 - 2026-11-24 | year 1 | feature f50 | reported -> seen | walked in on the landing morning
 - 2026-11-24 | year 1 | feature f51 | reported -> seen | sat with the cutters, summer
+- 2026-11-25 | year 3 | feature f20 | none -> rumored | quay talk at the harbor, brought home by the court's party: a market town in the western delta where one is seated who says it is a god

@@ -4,14 +4,14 @@
 
 Sealed. Kept by the Keeper. Never released, and told to no god. Each god's standing on the lore's scale, where an arriving god stands near 20 and a god ruling fifty thousand who have held it in mind for a century stands near 70. Under this star the voices begin at 58 and the weight a god rises past is 73 (`star.md`). The Keeper updates each line in pass two of a year's night turn, by how many minds hold the god's shape and for how long, with a dated line under History for every change and its reason.
 
-player: 22
+player: 23
 god-sea: 20
-god-dreams: 24
-god-rivers: 22
-god-healing: 21
-god-beasts: 22
-god-secrets: 22
-god-thresholds: 26
+god-dreams: 26
+god-rivers: 23
+god-healing: 22
+god-beasts: 23
+god-secrets: 23
+god-thresholds: 29
 
 ## History
 - 2026-11-24, creation Night 3b, all eight: set at 20, the landing value. One value for all: a people that keeps a place for one awaited holds a tale in mind and not yet this god, and the one people that knows its god on sight has known it for no time at all.
@@ -33,3 +33,12 @@ god-thresholds: 26
   - god-beasts: 21 to 22. The band and now the three clans know the keeper at the margin.
   - god-secrets: 21 to 22. The town talks of the Counter and counts dim nights against him.
   - god-thresholds: 23 to 26. About eighteen thousand have served her a second year.
+- 2026-11-25, Year 3 night turn, pass two. The same rule as Years 1 and 2, for all eight.
+  - player: 22 to 23. The town has held its shape a third year, and since the sixth month of Year 2 holds it by its own word as a god, seated for a term.
+  - god-sea: 20, no move. Eight or nine know of it; the town does not.
+  - god-dreams: 24 to 26. The town and the kept households hold her as the one awaited.
+  - god-rivers: 22 to 23. The town, the ford and now the reed staithes below know the woman who stands in the river.
+  - god-healing: 21 to 22. Most steadings know the stranger who mends and reads wells.
+  - god-beasts: 22 to 23. The band knows the keeper at the margin and has once acted on its word.
+  - god-secrets: 22 to 23. The town talks of the Counter and counts dim nights against him.
+  - god-thresholds: 26 to 29. About eighteen thousand have served her a third year.

@@ -3,3 +3,5 @@
 - 2026-11-24 | year 2 | feature f46 | reported -> seen | walked home by it from the ford
 - 2026-11-24 | year 2 | feature f47 | none -> seen | six days at the ford in summer
 - 2026-11-24 | year 2 | feature f08 | none -> seen | stood in it at the ford
+- 2026-11-25 | year 3 | feature f08 | seen -> seen | three days down it by barge below the ford, summer
+- 2026-11-25 | year 3 | region r26 | none -> seen | went into its channels by barge below the hills, summer

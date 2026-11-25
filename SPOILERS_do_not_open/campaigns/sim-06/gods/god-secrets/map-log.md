@@ -3,3 +3,6 @@
 - 2026-11-24 | year 1 | region r04 | reported -> seen | walked onto it from the track's end, summer
 - 2026-11-24 | year 2 | feature f11 | reported -> seen | went down it to the mouth with the boat string
 - 2026-11-24 | year 2 | region r06 | reported -> seen | a fortnight at the river's mouth
+- 2026-11-25 | year 3 | feature f37 | seen -> seen | three weeks at the landing where it meets the river's head, summer
+- 2026-11-25 | year 3 | feature f60 | none -> rumored | drovers at the river's head: the pass herders' winter hall, where a guest is served
+- 2026-11-25 | year 3 | feature f60 | rumored -> rumored | drovers at the river's head: the pass herders' winter hall, where a guest is served

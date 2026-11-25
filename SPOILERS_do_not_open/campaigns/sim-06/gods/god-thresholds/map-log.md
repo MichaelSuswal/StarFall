@@ -4,3 +4,4 @@
 - 2026-11-24 | year 1 | feature f61 | reported -> seen | blessed on the landing morning; called a ford to the south-east by own sight at landing, found to be Marle Ford [f61]
 - 2026-11-24 | year 1 | feature f60 | reported -> seen | bidden in on the landing morning
 - 2026-11-24 | year 2 | region r02 | reported -> seen | walked the road to the two farthest toll houses with the Marshal
+- 2026-11-25 | year 3 | feature f64 | none -> seen | went up to the old cutting with the lower columns, summer

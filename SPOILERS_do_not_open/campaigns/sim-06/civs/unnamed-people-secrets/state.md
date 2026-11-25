@@ -20,3 +20,8 @@ mood: shaken at the granary and then steadier. The town learned the far bins wer
 - The closing count did not reach the far wall and was not squared [r-0297]; the cry was held.
 - The stranger came back with the string on the ordinary run and was in the town for the month 11 night.
 - On the walk through the store the far bins were found hollow [r-0299]; the Clerk was sent for. What the store holds against the roll is now known to the Warden, the Clerk and the stranger.
+
+## Keeper, Year 3, pass two
+- The granary's figures, to be read in place of your own wherever they differ: the roll's old stock 9,950 sacks; what stood, 6,630 (the near bins 6,490 and the 140 facing sacks); the gap, 3,320, a third of the roll; the far run by the roll's entry 3,460, filled with 3,320 new sacks and the 140 facing sacks. The count squared and was cried as the Warden's.
+- The evening with the league's tallies: the Clerk put the sticks in the stranger's hand to count. His count was right where the Clerk's was out by one. He said nothing of the stick he paused at.
+- The journey up the river went as the crew's ordinary run and he came back with it on the thirteenth day of month 11.

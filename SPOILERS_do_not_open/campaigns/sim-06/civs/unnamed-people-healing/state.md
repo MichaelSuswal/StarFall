@@ -17,3 +17,11 @@ Each mending did what the card gives, the Hearth-Holder's granddaughter among th
 ## Keeper, Year 2, pass two
 - All nine mendings held; the numbers take that branch.
 - The moss read as sound living moss. The rise read sound; the first burials stand there. The kept wells below the bank read foul as before; the closed wells fainter, still foul; the emptied steadings' wells foul.
+
+## Keeper, Year 3, pass two
+- All seven mendings held, each with its days of shaking after. Your numbers take that branch.
+- The three test wells on the rise read sound before any drank and sound at the season's end.
+- The old elder's well read foul, as before.
+- The summer walk: the river and every creek and spring above the bank burials read clean; the ground under the bank burials and the wells below them read foul; nothing foul comes down from upstream. Your year takes the branch where the foulness lies under the bank graves and the low ground alone.
+- The moss read living and sound, with nothing in it that common moss lacks. It found only what the old women knew.
+- The old sitter's question had no answer.
