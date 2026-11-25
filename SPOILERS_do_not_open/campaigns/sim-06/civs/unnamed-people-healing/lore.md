@@ -1,29 +1,34 @@
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
-# What the people now say, end of Year 1
+# What the people now say, end of Year 2
 
 Their own telling, which may be wrong. Each saying names who tells it.
 
 ## About the stranger
-- Hedda's house and the court steading: that a great sitter has come out of the marsh, one who pays harder than any, and who learned the sitters' art in a place where it was kept longer. They are wrong about what it is, and about where it learned.
-- The three nearest steadings: that the stranger is the quiet one who walks the marsh edge and the mounds and whom they leave the milk and beer for, now come in at the door. Some have left a bowl at the court steading's wellhead for it, which it has not taken.
-- The old women: that the stranger is the Tender, come at last. They say this in whispers only, and they do not say it before the Hearth-Holder.
-- The far steadings: that a stranger went about doing what sitters do and that it was a good thing, since the wasting fever did not come.
-- The steading by the heap: that the stranger can call the rot out of a thing as one calls a dog. They fear this and do not speak ill of it.
+- Hedda's house and the court steading: that the stranger is a great sitter who has stayed, and who now reads the ground and the wells as it reads a sufferer, and who goes first to the Reckoner as a person of manners does. They are wrong that it is only a sitter, and wrong that its reading is a sitter's gift.
+- The three nearest steadings: that the stranger is the quiet one who walks the marsh edge, and that the bowl of milk and beer left at the wellheads is why the wells it touched kept the fever off. Wrong: the wells that kept the fever off were the wells closed or drawn off, whether it touched them or not.
+- The old women: that the stranger is the Tender, and they say so now a little louder, since the Hearth-Holder sat it at the hearth. Wrong about the Hearth-Holder, who has not said so.
+- The far steadings: that a great sitter went down the river and told the low steadings to carry water, and that the low steadings that did were spared. They do not know whether it was the sitter or the carrying.
+- The steading of the heap, and now the steading of the weir: that the stranger calls the rot out of a thing as one calls a dog, and has done it twice. They fear this and do not speak ill of it. Some of them say it could do it to a granary, or a well, or a stack of fish, and would do it at a word from the seat. This is wrong in the part that matters: it has never done it at anyone's word.
+- The yard of the court: that the Spearward asked it a question at the hearth and did not like the answer. Wrong in how it is told, since no one of the yard was there.
 
 ## About the dim star
-- That the star dims when something comes down to the fen or goes back up from it. In the fifth month the story grew that the star was weeping for the stranger's price, and that the dimming is the Tender's lamp turned low whenever the stranger takes the shake onto itself. This is wrong in cause: the dimming nights were not tied to any mending, and two fell in the first month before any was done.
+- Five nights this year, more than last. The old women say the nights come oftener because the seat is half full, as the stranger sits at the hearth but not on the seat. Wrong: the nights were not tied to any sitting.
+- The weeping star of last year, that the Tender's lamp is turned low when the stranger takes the shake, has lost its hold. Two of the nights fell where nobody had been mended within the moon. Hedda, who counts, has said nothing.
+- Some say the star dims when the stranger does a thing of the seat, since the first fell the month of the mounds and the second the month after the hearth. Wrong: the third, fourth and fifth fell in the wet season and the winter, among sickbeds.
 
 ## About their rulers
-- The Hearth-Holder keeps the seat in the Tender's name, as ever, and has said nothing about the stranger in the open. The court says he is waiting to see.
-- The Reckoner of Bodies is said to be hard to move and not to like a stranger. They are wrong about her this year; the court does not know she took the god's word.
-- The Judge-Mother is said to want the stranger gone or tested. Wrong in part: she wants it watched.
-- The Warden of Waters says the stranger knew wells. Nothing more.
+- The Hearth-Holder keeps the seat in the Tender's name, as ever. The court says he has met the stranger and is waiting to see. He has said in the open that it is welcome at his hearth, and nothing more.
+- The Reckoner is said to be the stranger's carrier. Wrong: she carries what she is asked to carry and keeps her office to the people.
+- The Judge-Mother is said to want the stranger gone or tested. Wrong in part, still: she wants it watched, and has found nothing to hold against it.
+- The Spearward is said to be afraid of it. Not known.
+- The Warden of Waters says that no well will be dug below the bank graves and that the wells that were closed kept better than the wells that were not. Nothing more.
+- The Keeper of the Mounds says nothing. The court says he took the stranger out to the moss, and that he agreed to lay some of the dead on the rise on the stranger's word. Wrong: he chose it himself, as a trial.
 
-## About the old tellings
-- Hedda's household says Edda Marsh first boiled water because the Tender told her to in a dream, and that the stranger has the same kind of dream. Wrong: the stranger tells no one what it dreams.
-- The mound moss, they say, grew weak because the seat stood empty, and that a stranger who tends the seat's people will bring it back. The sitters of the three nearest steadings have asked Hedda to ask the stranger to look at the moss. Nobody has seen it do so.
-- The Keeper of the Mounds says nothing. The court steading says he saw the stranger on the mounds in spring and that it knelt at an old one, and that is all they say.
+## About the dead and the moss
+- The court steading says the stranger told the Keeper the bank dead were foul and moved them. Wrong: no laid body was moved, and it said the ground was foul, not the dead.
+- The sitters of the three nearest steadings say they have been answered about the moss. They say it is weak because the seat stood empty, and will come back when it is full. Wrong, or not known: they have the saying from their grandmothers.
+- The old man's line says he was cut from his fathers on the rise. The Judge-Mother ruled that no one is, since his name stands at both places in the Keeper's records.
 
 ## Of neighbors
-- Nothing new. Salt came up the river and the boatmen are the only people the steadings see, besides the walkers out of the forest, who did not come this year.
+- Nothing new. Salt came up the river and the boatmen are the only people the steadings saw. The walkers out of the forest did not come this year.
