@@ -156,7 +156,7 @@ Raised 11 (moderate 1, minor 10, major 0). Resolved 1 (flag 11). Open 10. Owners
 
 ## Round 2: the recheck
 
-Run by the continuity checker, 2026-11-25, from 11:24 Pacific, at head 743c6a7 ("the checker's round 1 flags 1 to 9 answered"). Pulled first; already up to date. Read in full: the diff of 743c6a7 (14 files) and the keeper log from "5. The check, round 1: eleven flags". Searched the whole public folder again for the round 1 matter (a lent boat, the jar, the Keeper's or sealed note, the Tally-keeper's plain answer, what the boatmen said, the punt, the third-month gift, the light's habits).
+Run by the continuity checker, 2026-11-25, at 11:22 Pacific, at head 743c6a7 ("the checker's round 1 flags 1 to 9 answered"). Pulled first; already up to date. Read in full: the diff of 743c6a7 (14 files) and the keeper log from "5. The check, round 1: eleven flags". Searched the whole public folder again for the round 1 matter (a lent boat, the jar, the Keeper's or sealed note, the Tally-keeper's plain answer, what the boatmen said, the punt, the third-month gift, the light's habits).
 
 ### Scripts at 743c6a7
 
