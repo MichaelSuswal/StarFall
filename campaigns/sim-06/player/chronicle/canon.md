@@ -32,5 +32,5 @@ As found, Year 1. None of it was set by the god.
 - The Assay-master is a mortal. No one who came within a few paces of the god in Year 1 was one like itself. (Its own sense.)
 - The path is the Bank Way; the sunken road is the Old Rudd Way; the country is called the Reedmouths. (Told by Bren and in the market, Year 1.)
 - The town has no name for itself. (Year 1.)
-- The blue light in the sky dims on some nights for about an hour. The god has no name for it. (Seen, Year 1.)
+- The town says the blue light in the sky dims on some nights for about an hour, and that it has seen such nights in other years. The god has no name for the light. (Told at the gate and the landing, Year 1. Not recorded as seen by the god.)
 - Bren's balance has been a true scale since its second trial on the landing day, and so is each scale the god found level at the gate in Year 1, each for as long as it reads true. (Ruling L-0031.)

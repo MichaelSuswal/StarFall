@@ -31,6 +31,10 @@ Campaign sim-06. Every question someone in the world has asked the god that the 
 18. The yard, seventh month, more than once: "Will you be our Weightward?"
 19. The master of the potters, ninth month: "Will you weigh our new nest of eleven against the old and set the hall's standards by them?"
 
+## From the DM, in (oog)
+
+- How does the Weigher keep its nights? Put to the player in the Year 2 morning's (oog). Until answered, the nights the blue light dimmed are told as heard from the town, not as seen.
+
 ## Answered in Year 1
 
 - The Assay-master's demand to weigh the hall's ten small pieces one by one: answered in play, done.

@@ -12,7 +12,7 @@ Resolved on its handed-off words. It told the Assay-master that its scales tell 
 
 ## The year at the gate, unplayed
 
-Stood at the gatepost every day and read scales in line order for grain, fish or a fired weight. Refused silver a second time. Kept silent on everything its decided words did not answer. Its hand was on the nest before a thief's in the sixth month; it did not strike and asked no price. Awake under a clear sky on each of the nights the blue light dimmed. No weight in the air from anyone all year. Body whole; everything carried is on it. Nothing new felt of its powers. No seal, no licence, no promise.
+Stood at the gatepost every day and read scales in line order for grain, fish or a fired weight. Refused silver a second time. Kept silent on everything its decided words did not answer. Its hand was on the nest before a thief's in the sixth month; it did not strike and asked no price. It heard at the gate and the landing of the nights the blue light dimmed; whether it was awake and looking up on any of them is not set, and the player is to be asked how it keeps its nights. No weight in the air from anyone all year. Body whole; everything carried is on it. Nothing new felt of its powers. No seal, no licence, no promise.
 
 ## Held
 

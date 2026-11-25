@@ -36,7 +36,7 @@ In the ninth month the yard had it within the day that the eleven had voted, sev
 
 In the tenth month boats came down from the kingdom upriver, which their traders call the Aldermark, with grain, wool and some bronze. Two of the traders had their scales read on a dare. Both were out by a little, and they laughed and paid in barley. No one came from their king. In the eleventh month a mate off one of the southern coasters asked to have his captain's scale read, and it was. The southern ships did not come up to the town's landing this year.
 
-Twice in the first month of autumn, some days apart, and once in the dead of winter, the blue light in the sky changed. Each time the blue deepened for about an hour, the light stood dim for about an hour in the middle of the night, and then it was as before. You were awake under a clear sky for each. The town says it has seen such nights in other years. Many in the line tied this year's to the stranger's coming.
+Twice in the first month of autumn, some days apart, and once in the dead of winter, the town says, the blue light in the sky changed. You have it from them: the line at the gate talked of the first two nights in your hearing that same month, and the watch and the boatmen at the landing spoke of the winter one. As they tell it, each time the blue deepened for about an hour, the light stood dim for about an hour in the middle of the night, and then it was as before. The town says it has seen such nights in other years. Many in the line tied this year's to the stranger's coming.
 
 No one you knew by name died. The winter fever took the old and the very young in the ordinary way. The town still has no name for itself, and none was said.
 
@@ -44,10 +44,12 @@ Then a market day in high summer, in the eleventh month, with the yard full. The
 
 You are standing at the gatepost with a stallholder's scale in your hand. Your own scales are on the clay beside you and the nest is on you. The half-stick lies at your feet. The Stallreeve has not turned to go. The Tally-keeper holds the other half. The line has gone quiet and the whole yard can hear. The Assay-master is not in the yard. Nothing has been asked in words beyond what was said. No weight is in the air from anyone present. You have not seen the old weights, and no one has told you how many there are or where they are kept.
 
-(oog) Three plain things.
+(oog) Four plain things.
 
 The meeting at dusk ran on the words you handed off, in those words and no others. Where the Assay-master asked something those words did not answer, you kept silent, as your card lets you. The rest of the year ran the same way: you had no helper, you did what your decisions and your conduct already said, and what the town brought you beyond that met silence. Every one of those asks is still waiting for you, the Assay-master's five and the year's, and I will put each to you today.
 
 The Keeper has ruled on the question I carried from the landing day. A scale is a true scale when you have tried it by your own hand, with your scales on you or in your hand, and it read level, at once or on a new trial after it was adjusted. Your nest counts as part of your scales for this. It stays a true scale only for as long as it reads true. So Bren's balance has been one since its second trial, and so is each scale you found level at the gate this year, each for as long as it holds. It is on your card as a dated ruling.
 
 Your map has grown by names: the Bank Way, the Old Rudd Way, and as rumors with their tellers, the Maun Stair, Ruddfold, Hask and the Aldermark.
+
+A question for you. How does the Weigher keep its nights? It needs no sleep, and the record has it sitting late at the landing and no more. Until you say, I can tell you only what the town told you of those nights in the sky, not what you saw.

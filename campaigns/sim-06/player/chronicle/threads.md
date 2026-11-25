@@ -10,7 +10,7 @@
 - The hand at the nest. Opened Year 1. A price in measure is set and unclaimed; the Tally-keeper holds the stick.
 - The Tally-keeper's stick of the gate's readings, and her asking for a mark.
 - The Assay-master's five questions from the dusk meeting, unanswered, and his name, not given.
-- The dimming of the blue light, seen in Year 1.
+- The dimming of the blue light, told of by the town in Year 1.
 - The lost house, the lost name and the debt. Left alone until the god says.
 
 ## Closed
