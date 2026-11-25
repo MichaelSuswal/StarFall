@@ -15,20 +15,19 @@
       }
     },
     "r06": {
-      "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "grade": "seen",
+      "source": "a fortnight at the river's mouth",
+      "year": 2,
       "told": {
-        "name": "a mountain country to the south",
-        "terrain": "mountain"
+        "name": "a mountain country to the south"
       }
     }
   },
   "features": {
     "f11": {
-      "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "grade": "seen",
+      "source": "went down it to the mouth with the boat string",
+      "year": 2,
       "told": {
         "name": "a river to the north-west"
       }

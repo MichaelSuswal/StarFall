@@ -1,3 +1,5 @@
 - 2026-11-24 | year 1 | feature f35 | reported -> seen | walked in on the landing morning
 - 2026-11-24 | year 1 | feature f37 | reported -> seen | walked to its end in summer
 - 2026-11-24 | year 1 | region r04 | reported -> seen | walked onto it from the track's end, summer
+- 2026-11-24 | year 2 | feature f11 | reported -> seen | went down it to the mouth with the boat string
+- 2026-11-24 | year 2 | region r06 | reported -> seen | a fortnight at the river's mouth

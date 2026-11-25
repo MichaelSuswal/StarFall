@@ -131,7 +131,7 @@ No other outcome in my year is uncertain and contested. The hill witness, the bo
 ## What touches anyone else
 
 - The hill kin: their weigher came down the Old Rudd Way ahead of the carriers and went back up it with the figures cut on his own stick. The carriers arrived in the middle of the second month and had the figures from his mouth. The kin at Ruddfold know the six figures, the empty seat and the hall's twentieth.
-- the Aldermark: boats came down in summer; two traders had their scales read; the story of the heavy hall pieces went up the river with them. No one came from its king.
+- Boats from the Aldermark came down in summer; two traders had their scales read; the story of the heavy hall pieces went up the river with them. No one came from its king.
 - The southern coaster of month 10: she and her crew; the thread is held.
 - The boat people: gone from the channels for some days at the lowest tides in months 2 and 8. The town did not follow. The stranger asked Bren's people once, at the end of Year 1; they did not follow either.
 - Nothing was sent to Hask, across the great forest or to the fen people.

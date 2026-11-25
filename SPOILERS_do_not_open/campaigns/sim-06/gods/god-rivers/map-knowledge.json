@@ -9,17 +9,17 @@
   },
   "features": {
     "f12": {
-      "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "grade": "seen",
+      "source": "went down it by barge in summer",
+      "year": 2,
       "told": {
         "name": "a river"
       }
     },
     "f46": {
-      "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "grade": "seen",
+      "source": "walked home by it from the ford",
+      "year": 2,
       "told": {
         "name": "a path"
       }
@@ -31,6 +31,16 @@
       "told": {
         "name": "smoke to the south-east"
       }
+    },
+    "f47": {
+      "grade": "seen",
+      "source": "six days at the ford in summer",
+      "year": 2
+    },
+    "f08": {
+      "grade": "seen",
+      "source": "stood in it at the ford",
+      "year": 2
     }
   }
 }

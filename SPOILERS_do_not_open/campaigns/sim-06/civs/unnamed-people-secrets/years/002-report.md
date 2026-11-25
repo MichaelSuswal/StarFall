@@ -73,5 +73,5 @@ Offers the stranger put, for the record: a count aloud by the Warden's own peopl
 ## Names said aloud
 
 - "The Counter" (a nickname for the stranger), said at the council table, in the market and at the stalls through the year. Not a name the stranger gave. At the table in month 2 he said he has no name.
-- "Ivo Strand", said by the steersman of the first boat at the town quay, month 10, the ninth day, at first light, to the water, in the boat families' words "Ivo Strand's water, Ivo Strand's luck", with the stranger aboard and the crew and the dockmen present.
+- "Ivo Strand", said by the steersman of the first boat at the town quay, month 10, the ninth day, at first light, to the water, in the boat families' words "Ivo Strand's water, Ivo Strand's fortune", with the stranger aboard and the crew and the dockmen present.
 - No name has been said aloud for my people, the town, or any office holder. The Clerk of the Tally, the Granary Warden, the Gate Warden, the Boat Master, the Crier, the Speakers, the steersman, the old woman at the tanners' end and the second tally keeper of the cooper family stay unnamed.

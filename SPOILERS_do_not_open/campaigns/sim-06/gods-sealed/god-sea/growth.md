@@ -65,4 +65,4 @@ Grown (year, how far):
 
 ## Year notes
 - Year 1: no attempt to grow a power was stated or made. Its powers were used as the card gives them; use without an attempt is not practice and nothing is counted. No trigger, failure or near miss. Knacks not named above under Use had no use this year.
-- Year 2: no attempt stated or made. Sound Timber three times and Calm Under the Lamp once, as the card gives (L-0042); use is not practice. No hidden power's moment came: it took hold of no chain and no surge came. No trigger, failure or near miss.
+- Year 2: no attempt stated or made. Sound Timber twice (the Year 1 keel was hauled and found sound, no power used) and Calm Under the Lamp once, as the card gives (L-0042); use is not practice. No hidden power's moment came: it took hold of no chain and no surge came. No trigger, failure or near miss.

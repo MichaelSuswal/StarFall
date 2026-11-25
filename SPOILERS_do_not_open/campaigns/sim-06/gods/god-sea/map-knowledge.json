@@ -7,12 +7,11 @@
       "year": 1
     },
     "r30": {
-      "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "grade": "seen",
+      "source": "swam the floor of the nearer bay in spring",
+      "year": 2,
       "told": {
-        "name": "the sea",
-        "terrain": "sea"
+        "name": "the sea"
       }
     }
   },
@@ -26,9 +25,9 @@
       }
     },
     "f31": {
-      "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "grade": "seen",
+      "source": "swam them in spring",
+      "year": 2,
       "told": {
         "name": "rocks in the sea"
       }

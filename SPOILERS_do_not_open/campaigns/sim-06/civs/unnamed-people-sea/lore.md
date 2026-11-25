@@ -39,4 +39,4 @@ What the people now say. It is their own telling, and where they explain a cause
   - [BOAT CAME IN] The town says the lamp brought it in again, and that the second time is no accident.
   - [BOAT LOST] The town says the lamp lit the mouth and the sea took two. The old woman at the east lamp, who had no knowing that week, says no one could have known.
 - The quiet at the point through the lean: the gleaners will not walk the strand on those nights, and the seals and gulls stayed away from the skerry on more nights than the year before. The old marks on the rocks are still not touched.
-- The ferryman's keel, a full year in salt water with no worm and no check: the ferryman says the yard was kind. The yard says the keel is lucky.
+- The ferryman's keel, a full year in salt water with no worm and no check: the ferryman says the yard was kind. The yard says the keel is blessed.

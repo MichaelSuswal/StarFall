@@ -106,7 +106,7 @@ They are all wrong about at least this much: the town does not know why the seat
 ### Their neighbors
 
 - The hill folk of Ruddfold are said to have the figures of the hall's weights cut on a stick in their hall and to be pleased and offended in the same breath. The town's own hill kin say the hall owes them a twentieth. The head of the hill goods says nothing of the twentieth and counts the room.
-- the Aldermark traders went home with the story that the hall's pieces were heavy, and the town is ashamed of it and cannot stop telling it. They say a king's reeve will come now to take a share of a market that cannot keep its own weights. Nobody has seen one.
+- Traders from the Aldermark went home with the story that the hall's pieces were heavy, and the town is ashamed of it and cannot stop telling it. They say a king's reeve will come now to take a share of a market that cannot keep its own weights. Nobody has seen one.
 - The southern coaster that came to the landing in the summer is said to have had a master who asked the news and stood in the line like anyone. The town says no more of her, because it does not know what to say. Some say she came to see the gate.
 - The water folk went at the lowest tides of autumn and of spring and came back. Bren's household told the stranger what the town says, and the town says the stranger asked because it means to go. It did not say so.
 

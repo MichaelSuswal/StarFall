@@ -7,12 +7,11 @@
       "year": 1
     },
     "r02": {
-      "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "grade": "seen",
+      "source": "walked the road to the two farthest toll houses with the Marshal",
+      "year": 2,
       "told": {
-        "name": "a mountain country to the south-west",
-        "terrain": "mountain"
+        "name": "a mountain country to the south-west"
       }
     }
   },

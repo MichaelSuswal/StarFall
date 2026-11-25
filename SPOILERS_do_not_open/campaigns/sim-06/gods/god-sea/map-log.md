@@ -1,1 +1,3 @@
 - 2026-11-24 | year 1 | feature f30 | reported -> seen | watched from the water, autumn
+- 2026-11-24 | year 2 | feature f31 | reported -> seen | swam them in spring
+- 2026-11-24 | year 2 | region r30 | reported -> seen | swam the floor of the nearer bay in spring

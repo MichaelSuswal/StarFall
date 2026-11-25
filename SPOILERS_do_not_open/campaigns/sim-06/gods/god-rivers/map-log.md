@@ -1,1 +1,5 @@
 - 2026-11-24 | year 1 | feature f45 | rumored -> seen | walked in on the landing morning
+- 2026-11-24 | year 2 | feature f12 | reported -> seen | went down it by barge in summer
+- 2026-11-24 | year 2 | feature f46 | reported -> seen | walked home by it from the ford
+- 2026-11-24 | year 2 | feature f47 | none -> seen | six days at the ford in summer
+- 2026-11-24 | year 2 | feature f08 | none -> seen | stood in it at the ford
