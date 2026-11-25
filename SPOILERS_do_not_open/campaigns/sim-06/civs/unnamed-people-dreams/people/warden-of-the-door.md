@@ -9,3 +9,5 @@ An old man, about seventy winters at the end of Year 1 (a year older than at its
 Year 1: met the guest at the gate, gave her the custom's words, took her for the awaited one on the third night and said so to the throne alone, spoke for her to the court, asked that the court's hearth be lit, took her to the Night Sitter. He is the guest's first helper among the offices. He does not repeat what she says about herself.
 
 Year 2 (end): about seventy-one winters. Gave the guest's answer from the wall in month 1 and took her to the scar and the yard of the watch. Taught the salt party's leader the words, three evenings. In month 3, a few days before the first frost, named his successor, a woman of about forty winters of a storytelling household of the lower town; she carries the guest's asks from the first frost, and the seat named the office hers at the winter's first dusk. He keeps his house and his lamp and counsels. Kept his bed three weeks in month 5 with a chest fever, in a kept house, and lived.
+
+Year 3 (end): about seventy-two winters. Alive, at his lamp, counsels his successor. Not asked for this year beyond his house.
