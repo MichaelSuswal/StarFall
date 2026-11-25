@@ -1,6 +1,36 @@
-# Pending questions: Year 2, at the close of the play day
+# Pending questions: Year 3, at the morning
 
-Campaign sim-06. Every question someone in the world has asked the god that the player has not answered. From the Keeper's release for Year 1. Each is to be put to the player in the next played day.
+Campaign sim-06. Every question someone in the world has asked the god that the player has not answered. From the Keeper's release for Year 2 (`releases/002/dm.md`). Each is to be put to the player in the next played day. The held moments are played in the order below; the player has been told only the first, and each later one is laid out as its own board when the one before it has been played.
+
+## Held, to be played in this order
+
+1. The first month of Year 2, the evening of the weighing, in the hall, the door shut. The Assay-master: "It is after. You told me at this door there was more than a man in you and that you would tell me what I asked after. I am asking. What are you?" Nothing answered. The Weigher gave him its word that it would tell him and would not lie to him about it. Told to the player in the Year 3 morning story.
+2. The fourth month, at the landing at dusk, by the channel folk's lamp, with Bren and a pair of boatmen present. The ship owner of the channels, who sits on the eleven: "Weigher, I run boats up and down. Every boat that comes to my landing from the south or goes down from the north, read it before it's unloaded, at dawn, and say what's in it. I'll pay you for the year, not in silver, a measure of salt for every boat, and I'll have you at my landing and no other, and that in front of the Stallreeve." Nothing answered. Since then he has said in the town only that he spoke and it listened. Bren's household has said nothing of it. The Stallreeve has not heard of it. Not yet told to the player.
+3. The ninth month, at the gatepost, a market day, the yard in its line. The Stallreeve, with the Tally-keeper beside him and the Assay-master a little apart: "The eleven ask the Weigher to take the Weightward's seat and keep the hall's standards, for a term of three years and a day, with the Assay-master's hand on the beam beside yours, and with the eleven's right to put the seat down at any sitting that three of them call." Half of a split stick lies at the foot of the gatepost, untouched. Nothing answered. The player gives this answer itself. Since then the Stallreeve has said nothing more of it at the gate; a few days after, the yard cried "Weightward" at it, a boy first, it gave no answer, and nobody acted as if it had. Not yet told to the player.
+4. The tenth month, at the gate, a market day, early. The master of a coaster of the southern harbor towns, a woman of about forty, stands at the head of the line with a ship's balance in her hand. Nothing has been said by either. She is not of the town: what the Weigher says and asks is put to the Keeper, who gives her answers. Not yet told to the player.
+
+## Asked and met with silence
+
+Each met silence because the player's decided words did not answer it. How the other side took the silence is given with each.
+
+1. The Assay-master, at the hall door, the eleventh month of Year 1, after the Weigher's answer on why the eleven should take a stranger's scale: "Then say that to the eleven on the day, in those words." He said, "Then I'll say it, and I'll say it was said to me."
+2. The Assay-master, the same dusk: "Where did you learn to weigh, then, if no one sent you?" He said, "That is a no or a not yet, and I have had both from you."
+3. The Assay-master, the same dusk: "You asked the Stallreeve who holds the key and where the weights are kept. Why?" He said the eleven would answer the Stallreeve what the Stallreeve had asked, and plainly. They did, by the Stallreeve, in the twelfth month.
+4. The master of the smiths, in the ring at the weighing: "Weigher, where is the seventh? What did it weigh? Can you find it?" The ring looked at the Assay-master, who said the stranger weighs what is put in front of it and there was nothing there. The master of the smiths said, "It is good at that."
+5. The old weigher of the hill kin, in the ring at the weighing: "Weigh my stones in front of the ring." The Assay-master said the hall's day was the hall's. The old man cut the figures on a stick of his own as they were called, and no one stopped him. He has gone home.
+6. The yard, a boy first, as the Weigher came out on the day of the weighing: "Weigher, will you be our Weightward now?" No one answered for it. Cried again in the ninth month, after the third held moment; not yet told to the player.
+
+Told to the player in the Year 3 morning story: 1 to 5, and the first asking of 6.
+
+## Answered by standing words in the year
+
+Asked again in Year 2 and answered by the words the player gave on the Year 2 played day (`decisions-002.md`): how long it stays; whose child it is; whether it comes from Hask; the fee; what a stallholder may say of a reading; "Is this clay clean?"; the net-mender's debt; who owns the split reed island. Each was given after the first held moment and is not yet told to the player.
+
+## From the DM, in (oog)
+
+None open.
+
+# Earlier: Year 2, at the close of the play day
 
 ## Held, played
 
