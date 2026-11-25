@@ -61,3 +61,23 @@ The Keeper has ruled on the question I carried from the landing day. A scale is 
 Your map has grown by names: the Bank Way, the Old Rudd Way, and as rumors with their tellers, the Maun Stair, Ruddfold, Hask and the Aldermark.
 
 A question for you. How does the Weigher keep its nights? It needs no sleep, and the record has it sitting late at the landing and no more. Until you say, I can tell you only what the town told you of those nights in the sky, not what you saw.
+
+## Player:
+
+I put the stallholder's scale down on the clay, read, and tell her it was level. Then I pick up the half-stick from the foot of the gatepost and say, loud enough for the yard, "Yes. I'll weigh the hall's old weights before the eleven, at the first market after the grain is in, with the Assay-master's hand on the beam."
+
+I add the terms, so nobody can say later I set them in private. "I weigh each piece in my pans and call it in my cups, out loud, one at a time. The Tally-keeper cuts what I call, and the Assay-master checks each reading on his own beam beside mine. I don't set the town's standard. I tell you what each piece is now, and the eleven decide which is the town's weight. If the eleven want the new clay nest weighed against the old set the same day, the potters' master can bring it, and I'll weigh that the same way."
+
+To the Tally-keeper, who has asked for a mark: "Cut two pans, level. Nothing else." I keep the half-stick in the coat, in a pocket that isn't the empty one.
+
+To the Stallreeve: "Where are the old weights kept, and who holds the key? I want to know before the day, so I'm not seen asking after." I wait for his answer.
+
+I tell the yard one more thing, since they've asked it enough. "I haven't said yes to being Weightward. I'll say it after the weighing, not before. A man who answers before he's seen the weights is selling something." That draws the answer to the line's question and nothing more. I keep my face plain, then go back to the next scale in the line.
+
+I leave the thief's unclaimed price with the Tally-keeper's stick, and I ask her to cut it as remitted if the stallholder's scale reads level at the gate this month, as a way of putting the matter to bed without a quarrel. I won't claim a price from a bonded man.
+
+The nights: I sit at the landing, by the channel folk's lamp, where the boats come in. I don't sleep, and I don't pretend to. I listen to the water and the talk. I count the day's readings over in my head, and I watch the blue light, which I'd like to learn the habits of. If the DM wants it written down, that's how I keep them.
+
+For the rest of the day, I take the line in its order. I'll answer the Assay-master's open asks and the rest of the year's, one at a time, when the DM puts them.
+
+(One more answer was given privately, for the sealed record.)
