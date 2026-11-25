@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 3
 
-Round 2 is at the end of this file. Status now: raised 11, resolved 10, open 1 (flag 10, the DM's at step 7). As raised: moderate 1, minor 10, major 0.
+Rounds 2 and 3 are at the end of this file. Status now: raised 11, resolved 11, open 0. As raised: moderate 1, minor 10, major 0.
 
 ## Round 1
 
@@ -205,3 +205,42 @@ Judged as in round 1: steps 7 and 8, and the standing ruling on the public roll 
 
 ### Counts, round 2
 Raised 0 new (11 in all; moderate 1, minor 10, major 0). Resolved 10. Open 1: flag 10, the DM's at step 7.
+
+## Round 3: the read after step 7
+
+Run by the continuity checker, 2026-11-25, at 11:33 Pacific, at head b06572c (the DM's step 7, 39b043b, and the paint job's b06572c). Pulled first. Read in full: `years/004/morning-story.md`, `years/003/closing.md`, `images/requests/sim-06-004-morning.json` and the painting `images/out/sim-06-004-morning.png`, the diffs of `chronicle-god.md`, `years.md`, `canon.md`, `people.md`, `threads.md`, `messages.md`, `player/pending.md`, `player/power-card.md`, `conduct-profile.md` and `rolling-save.md`. Checked against `P/releases/003/dm.md` as fixed in round 2, `S/years/003/year.md`, the ledger, `engine/rules/morning-story.md`, `engine/rules/chronicle.md`, `engine/rules/encounters.md` 6 and the failures checklist.
+
+### Scripts at b06572c
+
+```
+tools/check.py sim-06 3
+clock not advanced to year 4
+campaigns/sim-06/state/rolls.jsonl: rolls in the public log; rolls are sealed
+2 finding(s)
+
+tools/lockcheck.py sim-06 --all
+places 0 failures, 44 warnings; leaks 0; releases 0; mysteries 0; rolls 1 (the public roll log); dashes 0
+```
+
+The clock is step 8's. The public roll log stands as ruled in Year 1. Leaks 0: flag 10 is fixed.
+
+### Flag 10
+Fixed: "told the Assay-master and the Stallreeve what it is, a god" in `conduct-profile.md`, `rolling-save.md` and `canon.md` (both hits). No meaning changed. Resolved.
+
+### The DM's judgment calls: ruled
+1. **Events past the held moment held untold** (the Year 3 dim nights, the boy's and the netmaker's asks, m-0002's fate). Confirmed. encounters.md 6 and morning-story.md have the story stop at contact, and the Year 2 round 3 ruling on chronicle.md holds the same line for the player-facing files. Every held item stands in `chronicle-god.md` under "After the held moment (provisional; not yet told to the player)" and in `pending.md`, each marked untold. One condition, from DESIGN 12.9: the boy's and the netmaker's asks are put to the player on the coming played day, as soon as the held moment is played and the year past it is told, and before the 1:30 save. "As far as this telling runs, nothing has come back" for m-0002 is true of what is told.
+2. **The people's mood at the year's turn in the return sequence**, which falls after the held moment. Allowed, as in Year 2 round 3: morning-story.md asks the return sequence for the people's state and mood at the year's turn. Each line agrees with the release ("The people at the year's turn"), is told at the weight of a line, and none turns on the held answer. If the played answer changes the year, the DM keeps it in mind, as last year.
+3. **Time of day and weather in the painting prompt.** Allowed. Daytime follows from the record (the sitting fell on a no-market day after the dawn reading, `years/003.md`). "Heavy overcast" is one of the two light sources the house style names (DESIGN 14.1), and the story's text states no weather. It is the painting's light and not a fact of the record. The painting shows the god from behind with no face, at the foot of the ring, a child on its mother's hip and the beam by the wall: nothing the god did not see. In the painting the door's light falls from beyond the figure and not behind the viewer, and the ring sits on the floor, a detail the record neither gives nor denies. The painting is final and reveals nothing.
+4. **`years.md` keeps the earlier Year 2 telling, with the re-resolved year beneath it and a header saying which governs.** Confirmed. DESIGN 12.4 (nothing is deleted) and chronicle.md 4 (a line added beneath, not written over; the Year 1 sky precedent) support it. The header names the governing paragraph plainly, the old people line carries a pointer to it, and L-0046 records the stretch the same way in the sealed files.
+
+### Checked and holding, round 3
+- **The morning story.** It is made only from `dm.md` and holds no more than it does. The return sequence gives the year, the season, the people's state and mood, the god's place and body, god-sense (no weight all year), and that one moment is unfinished. Year 2 again follows the release item by item, with the round 1 fixes carried: no third-month gift; the hall's rooms in the last week of the sixth month; "a sunk boat"; the Assay-master's watching and the Stallreeve's look in the told autumn. The sitting, the salt, the gatepost's aftermath, the key, the coaster in full, the loft in his words, the drag, the dim nights of months 11 and 12, and Year 3's first sitting (48, 96, 192, 384, 766, 1,536) all agree with the release and `year.md`. The story stops at the held board with the Stallreeve's words and the half-stick, with no "what do you do".
+- **The (oog).** It gives the told-differently list as fixed in round 2, the key as new, the coaster's price, the provisional line on the coasters' word, the two silences (put today), L-0044 in plain words with the player's right to overturn it, L-0037 applied to salt, the true scales, m-0002 as far as told, and the Horn. No list of threads, no flattery, no correction of a belief, no pointer, no count of gods, no other god, no sealed term, no trace of the overrule or the sealed factor.
+- **The closing.** Four sentences, inside two to five, built from the god's own things (the landing, the lamp, the brass, the year's pans, the blue light). It states no outcome and hints at nothing.
+- **The card.** The true-scales entry matches the release's ruling word for word, dated, under L-0031. L-0044 and L-0046 are rightly not card entries. No term changed.
+- **The chronicle, player-facing.** Each file says "told as far as the first month of Year 3, at the gatepost". canon.md, people.md, threads.md, messages.md and years.md hold only what the story told; the Year 3 sky, the old weigher's coming, the third nest, the netmaker and the boy are in the draft only. No sealed fact, no shut-hall matter, no punt, clerk or jar, no hidden power and no count of gods. `chronicle-god.md` holds the released year in full, the part after the held moment marked provisional, as the Year 2 ruling requires.
+- **pending.md.** The held moment with its board; the four silences, two told and two marked untold; the coaster's price as told; L-0044 for the player to overturn; "From the DM, in (oog): None open."
+- **Dashes:** none. **Leaks:** none.
+
+### Counts, round 3
+Raised 0 new (11 in all; moderate 1, minor 10, major 0). Resolved 11. Open 0.
