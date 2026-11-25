@@ -1,0 +1,1 @@
+The lamp at the landing burns low and the channel goes on past it in the dark. You sit where you sit every night, awake, with the brass at your belt and a half-stick in your coat, and you count the year's readings over, each one what it was when you called it. One pocket holds nothing, as it always has. The year turns.
