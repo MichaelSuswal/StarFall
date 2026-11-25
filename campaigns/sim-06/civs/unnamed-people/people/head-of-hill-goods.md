@@ -1,0 +1,11 @@
+# The head of the hill goods
+
+Unnamed: the name has not been said aloud in the stranger's hearing. One of the four trade heads of the council. Fixed by the civ agent at the close of Year 1.
+
+A man of 52, tall and pale, of the town's own hill folk, with kin at Ruddfold. He deals in ore, charcoal, timber and the carriers' loads. Clever with figures, close with words, a long-standing quiet man at council who counts the room before he speaks. He votes the way his kin in the hills would, and his kin dislike being measured by anyone who is not their own.
+
+History: his trade is the one most exposed to the hall's old standards, since ore and charcoal are sold by weight and the hall's pieces were wrong in ten. He suspects, rightly or wrongly, that the old bench has favored the buyers for years and that the new scale will say so out loud. He has not decided whether he wants that said.
+
+Temper: a patient opponent. He does not shout. He does not trust brass he cannot lift. He means to bring a witness from Ruddfold and his own weights to the day the council set.
+
+This year: said nothing at the first council, voted against the Assay-master's offer in the ninth month, sent a walker up the Old Rudd Way to Ruddfold in the eighth month without telling the council.

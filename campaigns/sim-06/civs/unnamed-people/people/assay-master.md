@@ -1,0 +1,11 @@
+# The Assay-master
+
+Unnamed: his name has not been said aloud in the stranger's hearing, and the stranger was told he would have one when it had a name of its own to put in the other pan. This is the town's own chief assayer, the holder of the office the player calls the Warden of the Hall (see warden-of-the-hall.md). Fixed by the civ agent at the close of Year 1.
+
+A man of 58, of the clay-bank people, broad and slow, a little stooped from forty years over a beam. Patient, honest, humorless in the way of a man who has been right about small things for a long time and been thanked for it rarely. He has tested weights for the town since his thirties, sits among the eleven, and has never been accused of favor. He is not loved and not disliked. He does not sulk when he is wrong in public, and he said so aloud in front of the yard on the first day.
+
+History: he was the old Weightward's friend of thirty years and the one who held the second key to the chest of old weights. The Weightward died last spring within a fortnight of a chill. The Assay-master has opened the chest twice since and says he does not know the true state of what is in it. He has told nobody what he thinks of the Weightward's death. He suspects the chill was not the whole of it and cannot say why.
+
+Temper: tests everything slowly and trusts the test. Argues from weight, not from feeling. Does not like surprises and handles them by making a plan. Does not like to owe. Will argue with the stranger and has said he will.
+
+This year: heard the stranger at dusk, took the offer to the eleven as his own on the ninth day of the year, tested the stranger quietly through the winter with scales carrying faults he had set himself, carried the council's vote in the ninth month, and agreed with the Stallreeve to set the day after the grain is in. He means to stand at the bench with his hand on the beam.

@@ -1,0 +1,9 @@
+# Bren
+
+A channel woman of about 40, wiry and dark from the sun, a fish seller and net-mender at the landing, who keeps a household of her own people (about a dozen). The first scale the stranger read was hers. It read a fish in twenty against her, and she took up the cord herself. Her name was said aloud on the first day. Fixed by the civ agent at the close of Year 1.
+
+Practical, quick to anger and quicker to laugh, proud of being hard to cheat, which the true scale told her she had been. She ate with the stranger at the landing that evening with four of her people, and they have fed it since when it would take food. She has become the gate's unofficial voice among the channel folk. She is not a petitioner and has asked it for nothing.
+
+Temper: loyal and loud. Believes the stranger is a man who lost his house, and says so to anyone who will listen. Distrusts the Stallreeve's care of the market and likes him for it. Has not asked the stranger who it is.
+
+This year: kept the landing's lamp lit for the stranger, spread the word of the gate along the channels, and said the stranger's name for it in the market: Bren's weigher, a name that is not hers to give and that the channel folk now use.
