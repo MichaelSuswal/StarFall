@@ -1,12 +1,13 @@
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
-# The Longwalk people of god-beasts: starting state
+# The Longwalk people of god-beasts: state at the end of Year 1
 
-Campaign: sim-06. Set by the Keeper on creation Night 3a, 2026-11-24.
+Rough figures from the people's own cords, not a census. Where a number turns on a ruling the Keeper holds (the wolves of the east flank, see report-001.md), it is given for the plain case.
 
-population: about 5,000, one band on the move between the Ossenwold [r21] and the Farrow Grass [r22]
-stores: dried and salted meat low after winter; herds thin but calving well; salt short
-treasure: the herds and the dogs; little metal
-trade: beasts, hides and felt out; salt and iron in, from the mining holds
-strength: about 900 who can carry a spear, about 300 of them hunters by trade; no walls
-mood: unhurried; uneasy about the cattle sickness and the cut woods
+population: about 5,045, one band on the move, now coming down from the winter woods toward spring. Births about 205, deaths about 160 (the old in winter, a few infants, two hunters and a herder lost to wounds and accidents, no sickness among the people). The band grew by about 45 because the calving year was good and the winter ordinary.
+stores: dried and salted meat low again at the year's end but not worse than last spring; salt about two thirds of the year's wanting came in from the stone towns and is nearly spent; iron a few tools more than last year. The larders were filled enough from the autumn hunt, not well.
+herds: about 4,300 cattle, 5,400 goats, 900 sheep, about 700 dogs (rough cords). Cattle are thin but alive; the coughing sickness came back to a few beasts of the two clans and four died. Calves held about even with last year's losses.
+treasure: the herds and the dogs; little metal; salt and iron bought at the stone towns' price, dearer than last year.
+trade: out, beasts, hides and felt by one trade party to the stone towns in the fifth month; in, salt and iron at a higher price. No other trade. No stranger came to the fires.
+strength: about 905 who can carry a spear, about 300 of them hunters by trade; no walls. Two hunters wounded in the autumn hunt, one gravely, both alive. A knife man of the three clans is walked behind the camp by the Three at the Fire's judgment.
+mood: unhurried on the surface; uneasy about the thinning woods and the price of salt. The three clans that want to winter apart are farther apart than last year and angry at a judgment against their clan. The rear camp and the hunters have grown used to the keeper at the margin, and speak of it as one speaks of a post, with a trace of fondness among the dog handlers. The head and the council do not speak of it with trust or distrust, only with attention.
