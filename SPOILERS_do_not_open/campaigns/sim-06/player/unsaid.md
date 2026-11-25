@@ -35,6 +35,8 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
 
 - 2026-11-24, Year 3 played day (a sealed part of the first reply, after telling the Assay-master in the hall that it is a god; fears and a belief about itself in one reply, kept whole): "I told him true things and left the shape of a lie around the edges. The seals and the Reading are still in my coat, and I told him there was more to me than the scales. I am afraid he will ask the question that makes me choose. I am also afraid of the empty seat in the rack, and of how clean it was. I do not know that I did not do it. I only know that I would have remembered."
 
+- 2026-11-24, Year 3 played day (a sealed part of the second reply, after answering the Assay-master's three questions in the hall): "I did not say that the Reading is the one thing I am afraid he will ask about. I was careful with "I will not say no to a yes", and it was true, and it was the closest I have come to hiding behind my own rule. If he asks me whether I can tell when a man is lying, I will have to choose. I would rather choose before he asks."
+
 ## Request not to be told
 
 None given. (The DM read "I do not want to find the house again" as the god's want, not as the player asking not to be told; filed under Want. Flagged for the Keeper to weigh.)
@@ -67,3 +69,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24, Year 2 played day: the third sealed part is filed under Fear. The open conduct line on standing witness carries "check with the player before acting" because of it: no agent has the Weigher use The Good-Faith Reading at a witnessing in unplayed time.
 - 2026-11-24, Year 2 played day, at the close: four sealed parts were taken today, filed above by kind (one want, two under Other, one under Fear). None was put to the player for confirmation and none was acted on by the DM. No sealed want was confirmed today; every Confirmations line still reads none.
 - 2026-11-24, Year 3 played day: one sealed part so far, filed whole under Fear (its last two sentences are a belief about itself, kept with the fear they explain). Not put to the player for confirmation and not acted on: the Assay-master's three questions in the hall were written from the open scene (the unasked denial, the two old silences, his trade) before and apart from this part, and none of them is the question it names.
+- 2026-11-24, Year 3 played day: the second sealed part is filed under Fear. Not put to the player and not acted on. The Assay-master asked nothing about a particular power in the post that followed; that was written from the open scene (he had just refused the asking and turned to lock the weights), not to spare or to press this.

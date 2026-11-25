@@ -139,3 +139,43 @@ On the odds, I would argue two factors. The minus for the ring: what I ask is no
 If it helps, I will add a term: I will say it to the ring myself at the next sitting, so he never has to be the one to bring it. I would put the odds at 70.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You answered him in his order.
+
+Of the key: that you asked because you wanted to weigh the old weights, and a weighing nobody can open is a promise with nothing behind it; that a man asks where the well is before he agrees to carry water; that you had no other reason, did not know the rack was short, and do not think anyone told you it was; and that you will say so in front of the ring if it helps him.
+
+"The ring had its answer to that by the Stallreeve, in the twelfth month," he said. "I wanted mine. A well. Good."
+
+Of the seventh: that he was right in what he said, since you weigh what is in the pans and what is weighed beside them while you stand near, and the seventh was in neither. That you cannot find it as he means. That your scales do not say where a thing is, or who took it, or where it was. That if he brings you a piece you can tell him what it weighs, and whether that is what the seat should hold if he tells you the size he expects, and that this is a weaker thing than finding it and you will not call it more.
+
+He looked at the empty seat while you said it. "Twice the sixth, by the run of them," he said, "if the old man's set ran true to the top." He did not say more about it.
+
+Of the beam: that there is nothing he can put on it, because a beam tells him what is in the pan and you are not in the pan. That a man with a true pair is no god, and a god with a lost pair is only a man. That if he wants to know you he should watch what you do when the true reading costs you, and whether you say what the pan says when it favors the one who is paying and when it favors you. And that you ask him not to call today a test you passed, because you are not asking to be believed.
+
+"I had not meant to," he said.
+
+Then he took his hands off the cloth and answered what you had asked of him. You had added to it while you spoke: that you would tell the Stallreeve yourself, in his presence, if he thought that better, and that you would say it to the ring yourself at the next sitting, so that he never has to be the one to bring it.
+
+"No," he said. "Not as you put it. You ask me to hold it until I have decided what the ring should hear. I am the wrong man to decide that, and today is the wrong day. I held one thing for a year because I did not know what it meant, and today the head of reed and fish asked me before the ten of them whether I was alone when I found it. I was. I will not be alone with a second.
+
+"I will say nothing false, and I would not have. I will say nothing in the yard. But the Stallreeve hears it tonight, before I sleep, and I will ask for a sitting, and at that sitting it is said. You offered to say it yourself. Come and say it first, and I will say only that it was said to me in this hall on the evening of the weighing, and that I asked. If you are not there, I will say it as you said it to me, and no more than you said."
+
+He began to set the six back in the rack, smallest first, each in its own seat. The seventh seat he did not touch.
+
+"I am going to find the Stallreeve when these are locked," he said. "You may walk with me or not."
+
+You are in the hall with the door still shut. The lamp is burning. He has the third bronze in his hand.
+
+(oog) The roll, and what it leaves with you.
+
+I took both of your arguments. Your offer to tell the Stallreeve in his presence met the minus for a second thing held alone, whole. Your added term, that you say it to the ring yourself at the next sitting, met the eleven's claim on him; what was left of that minus was his own word at the door that he owes you nothing, and I kept 5 for it. That came to 75 in 100, above the figure you gave, and I rolled that list and no other, in the open log. It failed. The attempt was yours. What he does instead is his, and you have it above: he will not be the one who decides what the ring hears, the Stallreeve is told tonight, and he will ask for a sitting.
+
+Nothing of yours is spent or lost by it, and no promise of yours stands from it: you offered two things as terms of a bargain he did not take. Whether the Weigher walks down with him tonight and tells the Stallreeve itself, and whether it comes to that sitting and says it first, are yours to decide now. When the sitting falls is the ring's and not in any file I may read.
+
+Two things follow that you should know before you answer. The year after this evening was resolved overnight with his question unanswered, so I will still tell it to you as it stood, and the moments waiting in it are still yours to play. What you said tonight, and what he and the Stallreeve do with it, is worked into that year by the Keeper tonight, and some of what I tell you today may be told differently in the morning.
+
+And one ask from the day that is still waiting. The old weigher of the hill kin asked you to weigh his stones before the ring, had nothing, and has gone home to Ruddfold. If the Weigher has a word for him, or for the next of the hill kin who asks the same, give it, or let it lie.
+
+When you are done in the hall, say so, and I will tell you the year as far as the next moment.

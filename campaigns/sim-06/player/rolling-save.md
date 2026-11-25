@@ -177,3 +177,17 @@ Campaign sim-06. Kept by the DM during the Year 3 play day, 2026-11-24 (Pacific)
 - Board as left: the hall, the door shut, one lamp, the six on the cloth, the Assay-master waiting for its answers.
 - The Weigher has now told one mortal it is a god: the Assay-master. No seal set, no licence given. No promise made beyond what it said it would answer.
 - One sealed answer taken to the sealed record.
+
+## 2. The hall, the Assay-master's answer (Year 2, the first month)
+
+- "Since the day you came" kept, by the player's word.
+- The Weigher's answers, in the player's words. The key: it asked so that the weighing could be opened, "a man asks where the well is before he agrees to carry water"; no other reason; it did not know the rack was short. The seventh: he was right to answer for it; it cannot find it; its scales do not say where a thing is, who took it or where it was; brought a piece, it can say what it weighs and whether that is the weight he expects, "a weaker thing than finding it". The beam: nothing he can put on it; "watch what I do when the true reading costs me"; it does not ask to be believed and asks him not to call today a test passed.
+- He said the seventh would be twice the sixth by the run of the set, if the set ran true to the top.
+- Added by the player to the asking: it would tell the Stallreeve itself, in his presence, if he thought that better; it would say it to the ring itself at the next sitting. Both arguments accepted; 5 kept for "he owes it nothing". Odds 75.
+- Roll r-0011 (the Weigher's attempt, odds 75): failure. He will not hold it until he has decided what the ring should hear: "I will not be alone with a second." He will say nothing false and nothing in the yard. The Stallreeve hears it tonight. He will ask for a sitting, and it is said there: by the Weigher first if it comes, he adding only that it was said to him in the hall on the evening of the weighing and that he asked; by him, as it was said and no more, if it does not.
+- No promise of the Weigher's stands from the refused bargain. Asked of the player: whether it walks down with him tonight and tells the Stallreeve itself; whether it comes to that sitting and says it first.
+- Put to the player: the old hill weigher's "weigh my stones".
+- Board as left: the hall, the door shut, the lamp; he is setting the six back in the rack and means to find the Stallreeve when they are locked.
+- One sealed answer taken to the sealed record.
+
+For the Keeper tonight (not decisions): the Assay-master has been told it is a god and will tell the Stallreeve that night and ask for a sitting; the year after this evening was resolved without that.

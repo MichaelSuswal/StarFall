@@ -5,6 +5,7 @@ Kept current by the DM. Status lines added beneath the morning's list as each is
 ## Status, Year 3 play day
 
 - Held 1 (the Assay-master's "What are you?"): answered in play, post 2, in the player's words (rolling save, Year 3, section 1). The scene is still open. Asked by him in it and not yet answered: why it asked the Stallreeve about the key (silence 3, asked again); whether it can find the seventh, and whether he was right to answer the master of the smiths for it (silence 4, in his mouth); what he could put on a beam that tells a god from a man with good brass (new).
+- Post 3: silences 3 and 4 and the beam question answered in play to the Assay-master (rolling save, Year 3, section 2). The asking to keep it between them: rolled, refused. Put to the player and waiting: whether it tells the Stallreeve itself that night; whether it comes to the sitting and says it first; silence 5 (the old hill weigher's stones).
 - Silence 1 (say that to the eleven on the day): overtaken, he said it himself; told to the player, who may still answer.
 - Silence 2 (where it learned to weigh): not asked again; told to the player, who may still answer.
 - Silences 5 and 6 (the old hill weigher's stones; the yard's "Will you be our Weightward now?"): not yet put to the player today.

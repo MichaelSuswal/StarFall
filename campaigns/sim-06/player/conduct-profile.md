@@ -141,4 +141,8 @@ Unsaid wants are kept sealed.
 - It denied taking the seventh weight before it was asked, and offered to say so before the eleven.
 - It asked him to keep it between them "until you have decided what the ring should hear", and asked nothing false of him: "I would rather they hear it from you than find it out."
 - On the seat: "It is not whole, as you said, and I will not take it half."
-- One answer was given privately today and is kept sealed.
+- Of the key: "a man asks where the well is before he agrees to carry water."
+- Of the seventh: it can weigh a piece brought to it and say whether it is the weight expected; "That is a weaker thing than finding it, and I will not call it more."
+- How it would be known: "watch what I do when the true reading costs me. Watch whether I say what the pan says when it favors the person who is paying and when it favors me." And: "I am not asking to be believed."
+- It did not need the telling kept secret: "I need him to carry it for a season, so the ring does not hear 'a god' before it hears the weights." It offered to tell the Stallreeve and the ring itself.
+- Answers were given privately today and are kept sealed.
