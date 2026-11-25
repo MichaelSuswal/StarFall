@@ -413,3 +413,19 @@ In the first month of summer a coaster of the southern harbor towns came up the 
 It is the tenth month, a market day, early. She joined the line before light like anyone and waited her turn. Your hand has just come off the last scale before hers. She steps up to the foot of the gatepost with a ship's balance in her hand. The yard behind her has gone quiet. Nothing has been said by either of you. No weight has come into the air.
 
 (oog) She is not of the town, and her words are not mine to give: what the Weigher says and asks of her goes to the Keeper, who answers for her tonight. So tell me what the Weigher does and says at this moment, what it asks her if anything, and what it will and will not answer if she asks about itself, and I will hand it over whole. The year past this morning I cannot tell you until it is played, and that is for the morning.
+
+## Player:
+
+I take her scale from her hand, the same as I'd take anyone's in the line, and I say nothing first. I read it against my brass, pan by pan, and I tell her what it does, which pan and how far, in my cups, and if it reads level I say so. I take the pinch of barley for it. I don't make the line wait on her, and I don't hurry her either.
+
+Then I ask her three things, and only these, quietly, so the yard has to lean to hear. "What do the southern harbors read their scales against, Master? Is there a measure in Corrith that the other harbor towns will take, or does each house keep its own? And what would a southern captain want to know about this town's weights before she signed to buy in them?" I tell her why I ask. I am keeper of the hall's standards for a term, and I would like to know whether what the hall keeps can be read by anyone who comes up the channel.
+
+If she asks me about myself, I answer with what is already true in the yard. I am the Weightward of this hall for three years and a day. The scales tell me what is in the pans and what is weighed beside them while I stand near. I did not come from Corrith or Hask or any harbor, and I do not know where I came from. I will say yes or no to a plain question about a power of mine, or I will say that I will not answer, and I will not say no to a yes. I will not tell her what I am beyond that unless she asks it plainly, and if she asks it plainly, I tell her, because the town already knows.
+
+What I will not answer is anything about what the Assay-master and I found in the chest, the missing seventh, or what the eleven argue. Those are the town's, and she is a guest at the gate. I will not name a price on any good she carries, or say what her salt, pots or mats are worth to her. I will say what the pan reads of them if she sets them there. I will not tell her what the Aldermark, Hask or the hill kin think of her trade, because I don't know and I would not guess aloud to a stranger with a ship.
+
+If she offers pay for a reading at her own harbor, I say that I do not leave the gate, and that her harbor may bring its scales here or send its own to be set against the hall's. If she offers a gift, I say no, as I do to everyone.
+
+For the rest of the year, I keep the gate and the landing as I said. I ask the Stallreeve, in front of the Assay-master, whether the town wants a keeper's word sent down the coast with this captain on what the hall's weights are and are not, in the plain terms I gave the eleven, and I do not send it without their say. I say once to the diggers that I can come to the pits one more day if they want it, and that I still cannot say which clay is good. I leave it to them.
+
+(One more answer was given privately, for the sealed record.)
