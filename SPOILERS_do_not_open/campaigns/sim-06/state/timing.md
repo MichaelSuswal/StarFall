@@ -35,3 +35,7 @@ Began 2026-11-24 11:27.
 - first morning flag fixed in the corrections and the release 15:48 (the commit record)
 - final scan run, clock set to Year 1 open 15:50
 Closed 2026-11-24 15:50.
+
+## Year 1 night turn
+- 2026-11-24 16:05 began. Keeper: fable.
+- 2026-11-24 16:07 step 0 done and the seven decisions releases written (step 1 released). God agents: sonnet, run by the orchestrator.
