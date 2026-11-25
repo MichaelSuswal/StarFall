@@ -1,0 +1,28 @@
+# Decisions, Year 2: Skerr (god-sea)
+
+## The year
+
+1. Autumn, the first nights. I answer the Warden through the jar on the lowest step, struck once on the bell, and I meet her once more alone at the tide door at the lowest tide at dusk, in my cloak, in the dim. I tell her three things. I do not know the name Brennis and I cannot say I am the one who spoke to him. I ask her to tell me what the eldest remember of the promise and who made it. I thank her for the bed in the lamp house and I will not take it. A roof over me is a place to be found in, and I will keep to the water and the step. Reason: she asked in good faith and has kept my word for a year. She is owed a plain answer, and I will not claim a name that is not mine to claim. The Warden carries my answer to no one unless she chooses.
+
+2. Autumn, the same dusk. I ask the Warden to carry two answers to the Master of Timber, in her own words. To "What do I owe for it": nothing. To "Why must it be secret": a quay that is known to be a god's work will be leaned on, and a god that is known will be asked for what it cannot give. I would rather the town trust its own timber and its own hands. I ask him to keep which piece is mine, as he has. I do one piece of Sound Timber at the quay in the dark, a pile or a step the Master chooses, joined with my right hand, and I keep the hand idle the next day. Reason: the autumn storms test the quay first. The Master decides which piece, with the Harbormaster's assent and the Warden's seal, as the town's custom is.
+
+3. Autumn, the first night after that, in the water at the point. I put my right hand in the salt and give the night to listening (Water's Hearing), and spend the deaf day under the rocks, out of sight. Reason: a year ago I knew nothing of this coast. I want to hear whether anything has come along it that was not tide: hulls that are not the town's, voices that are not the town's. I accept the deaf day. I will lie in water out of sight of the town, and I know the shore will go quiet of gulls and seals there and the fishers may see it.
+
+4. Winter. I ask the Warden, through the jar, to choose two of the lamp tenders, the old woman and the boy at the quay's ends, or whom she judges, and show them how to refill and trim my lamp and how it is lit. I tell them nothing of what it does. I say only that it is not to be lent, and not snuffed, and not carried off. I ask that the lamp stay in the Warden's keeping when I am not at the water. If a boat is caught out in a swell short of a storm, I light the lamp myself at the water's edge by the harbor mouth, and the tenders refill and keep it while it is needed, up to a night and a day, so that I need not stay on the step. I do not use it for comfort and do not use it for a storm. Reason: I will not be tied to the shore for a night and a day, and I will not lose a boat to a swell I could have stilled. I know the harbor water will not take me for a season after.
+
+5. Winter. I ask the court, through the Warden, to do what it did last year and early: haul and tar the boats, check the chain, count the stores and share them evenly through the lean, keep the harbor lamp lit every dusk through the dark half, and send no boat out in the worst weather for a catch. I leave the tally of storms and boats on the step, as last year. Where the Harbormaster takes it as the court's order and not my word, I do not mind. The boats are hauled either way.
+
+6. Spring, the lean time. I go under the water. By night, in the sea off the point, the harbor bed and the skerries, I swim the floor of the nearer bay slowly and look for what the sea took from the old places: roads, posts, walls, the shape of anything made. In the water I am fast and do not tire. I go myself and send no mortal into a bad place. I listen as I go, for anything that moves along the bottom. I mark what I find and say nothing of it to the town until I know what it is. If I find something that is kept by someone, I do not go near it. I come back and decide. Reason: the strand held nothing made by hands. The water may. It is what I wanted to learn from the first night.
+
+7. Summer. I do one more piece of Sound Timber, the keel of the boat that goes out latest and comes in last, chosen by the Master of Timber if the court still takes my word. I watch the ferryman at the point whose keel I joined last year, and the lamp tenders, from the town's edge and the water. I do not speak to them. I look for a keeper of something small who stays. I choose no one. Reason: those are the boats the sea will take first, and I will not lose a crew this time.
+
+## How I mean to be met
+As before. Rarely, at dusk or the lowest tide, hooded, in a dim place, through the Warden at the tide door. I do not show my shape in the open. I give no name beyond Skerr. My word is short. I ask for no rites or worship. I say nothing of the answered bell, and I ask the Warden to say nothing of it.
+
+## Messages
+None. Everything above reaches the Warden through the jar and the bell, or in front of her at the tide door, as in Year 1. I send no message to anyone not in front of me.
+
+## For the Keeper to rule
+- Sound Timber: the card says one piece, then a day without the hand. I mean to do three pieces across the year, each many weeks apart, never within a day of the last. If the Keeper holds that this is more than the card plainly covers, I will do fewer.
+- Calm Under the Lamp: I mean the tenders to refill and tend the lamp for up to a night and a day, as the card and my trade say, with me away from the water. I light it myself first. I ask the Keeper to tell me in the release if the tenders did not tend it right.
+- I try to grow no power this year.

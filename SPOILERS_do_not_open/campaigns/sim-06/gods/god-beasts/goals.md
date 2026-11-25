@@ -1,13 +1,14 @@
 # Goals: The Reeve of the Low Ground
 
-Year 1, standing on the ground at the wood's edge, spring, the first storms. I have a trail, a hollow, a plain, and no smoke in view. I have not yet found my people.
+Year 2, at the turn of the year, wintering at the margin of the main camp in the high wood. I have a people now, and an edge of their fire to stand at. No office holder has taken my word, and I do not ask it yet.
 
-1. Find the people I am to lead before I let them find me. Listen first, from still ground, for the long moving line of herd and flock with an empty place in it. Go to the edge of their first fire at dusk, to the dogs first, and count who is there. Let the Houndwarden see me before any other, and let myself be asked in.
-2. Be missed before I am met. Offer only to watch the herds. Say nothing of what I am until I am asked, and then say the plain truth.
-3. Gather them into a company that is many and various and bound by no fear of me. Be heard at their council from the edge of the firelight and do not rule it. Earn each office by service, since none holds my word until its holder has heard me and taken it.
-4. Learn the country as I walk it with them: which beasts keep which ground, where the game comes down to drink, where the old roads run to no town, who hunts here, and who counts.
-5. Keep the boundary of my people's ground, and keep a ledger of what the boldness of beasts costs them, since that cost is mine. Speak with beasts rarely and for a reason.
-6. Hold my anger. It is a storm, and it falls on the innocent and the guilty alike. Take no trail unless the wrong is plain to me, for I cannot put one down or call it less once it is taken.
-7. Learn what ruling costs by watching those who pay it, and by watching the old kingdoms at the edges when the people's round brings me near them.
-8. Find what answers the verdict not given at the beginning of me. I do not know what it looks like. I will know it when I see it.
-9. Keep a way out of every room, and keep the horn on me and out of every other hand.
+1. Stay at the margin and be wanted there. A year at the edge has made the herds sleep better and the rear camp easier. Let that be the whole of my case. Do not ask for a seat, a share or a title.
+2. Answer the eldest head's saying plainly when the council is ready to hear it: a keeper that asks nothing will want something later. It is true. What I want is the people many, various and unhurried, and to be told when what I do costs them. Say so once, at council, and not again unless asked.
+3. Keep the ledger of what boldness costs. Through Tessaly's cord, count every beast grown bold, where, and what it took. Speak with no beast this year unless a herd is in danger and no other way serves. The cost is mine.
+4. Gather the three apart clans. They camped and wintered apart after the quarrel over fuel wood. A people is not many and various while a part of it stands off. Do not mend it by force or by word from me. Keep the margin of their camp as I keep the main camp's, and let them see I stand there too.
+5. Watch the cough in the cattle, and the cutters of the stone towns in the winter woods. Both are slow things that grow, and neither is yet a wrong. Read the herds' state by the Listening at dusk, tell Tessaly what I read, and watch the cutters from the timber to count how many, how far in, and how long.
+6. Hold my anger. A storm falls on innocent and guilty alike. Take no trail, sound no horn, unless the wrong is plain and the doer is not of the people I keep. I cannot put a trail down once taken.
+7. Learn what ruling costs by watching the council pay it: the Speaker, the Three at the Fire, the Saltkeeper's count against the stone towns' asking.
+8. Say plainly that I know nothing of the dimming star, if I am asked. Do not take credit for it and do not deny what I cannot know.
+9. Find what answers the verdict not given at the beginning of me. I have seen nothing yet that looks like it. I will know it when I see it.
+10. Keep a way out of every room, and keep the horn on me and out of every other hand.

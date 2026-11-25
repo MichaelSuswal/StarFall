@@ -1,11 +1,13 @@
 # Goals
 
-Held now that I stand on the shore, in order of weight.
+Held now, after a year among them, in order of weight.
 
-1. Be met by the town in the right way, once, and keep it quiet. Win one office holder who hears me and takes my word, so that someone acts for me when I am away. Until then the town runs on its own custom and I do not push it.
-2. Keep the people alive through the first winter. Boats hauled and caulked, stores counted, the harbor lamp lit every dusk, no crew lost to the first storm.
-3. A safe harbor. Start with the quay piles and the keels of the last boats out, one sound piece at a time, a piece I joined myself. Hold the lamp's calm in reserve for a night that needs it.
-4. Learn the coast: the rocks at the point, the old places, what the sea took from them. Listen first, walk after. Learn what lies under the water near the town.
-5. Stay unseen. Be met rarely, doubted often. Do not let the town learn my shape from a fisher's mouth.
-6. Find a keeper of something small who stays. Watch for one before I choose one.
-7. Judge other gods from close quarters only. Trust none yet.
+1. Keep the people alive through the second winter, and the lean spring after it. Boats hauled and tarred early, stores counted and shared, the harbor lamp lit every dusk. No crew lost.
+2. Make the one office I have won into a standing thing. The Warden took my word and tells the court as she judges. I do not push her. I keep my answers short and prompt, so that my word is worth what she says it is. Win a second holder only if one comes to me, not by reaching.
+3. Pay what I owe the Master of Timber in the only coin I have: an honest answer. Keep my hand to the quay and the late boats, one piece at a time, pieces I joined myself.
+4. Make the lamp's calm able to stand without me. Teach, through the Warden, who may refill and tend it, so that a night and a day can be held with me away. Still hold it for a swell short of a storm and nothing else.
+5. Learn what lies under the water near the town, and what the sea took from the old places. The strand I walked held nothing made by hands. The water may hold what the land does not. Listen first, swim after.
+6. Learn who Brennis was and what was promised. Ask for what the eldest remember. Do not claim the name.
+7. Stay unseen. Be met rarely, doubted often. Let the gulls and seals be the only thing that notices me. Say nothing of the answered bell.
+8. Find a keeper of something small who stays. I have not found one I am ready to name. Watch the ferryman whose keel I joined, and the lamp tenders. Choose nothing yet.
+9. Judge other gods from close quarters only. Trust none.
