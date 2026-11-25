@@ -191,3 +191,22 @@ Campaign sim-06. Kept by the DM during the Year 3 play day, 2026-11-24 (Pacific)
 - One sealed answer taken to the sealed record.
 
 For the Keeper tonight (not decisions): the Assay-master has been told it is a god and will tell the Stallreeve that night and ask for a sitting; the year after this evening was resolved without that.
+
+## 3. The hall door, the Stallreeve told (Year 2, the first month); the first held moment ends
+
+- The Weigher touched nothing in the chest; the Assay-master would not have it help with the rack.
+- At its asking the chest was locked before a witness: the Assay-master sent for the Stallreeve, and locked the rack in the chest with his own key with the Stallreeve standing over him. The key on the peg was not touched. The empty seat was left as it was, unwiped. (Record corrected in (oog): the second key is the Assay-master's; the Stallreeve holds none.)
+- The Weigher told the Stallreeve, in the player's words, with the Assay-master beside it: it is a god; it told the Assay-master tonight as he asked; it did not take the seventh and never touched the chest; it will say it to the ring at the sitting, first; it asks nothing; it will not run off and will not change a reading for anyone. Then what it told the Assay-master and no more: the scales and what they give; that there is more, answered yes or no if asked.
+- The Assay-master to the Stallreeve: it was said to him in the hall; he asked; he has not said he believes it; he will not hold it alone.
+- The Stallreeve: the gate is kept as it was and the watch stands where it stood; he says nothing in the yard; he carries the Assay-master's asking for a sitting round that night; the Weigher's asking to say it standing at the foot of the ring with the yard let in is the ring's to grant, and he will put it to them.
+- Roll r-0012 (DM, the world's question, odds 60): the Stallreeve did not ask whether it can tell when a man is lying. He asked nothing about what else there is to it.
+- Standing words given by the player, for whoever asks outright whether it can tell who is lying: it will not say no; it says what the Reading does and what it will not do, and that it will not use it on anyone in the town without their asking. Asked about the Seal, it answers at the first asking.
+- The Weigher's words for the sitting, handed to the night: it comes and says it first; standing at the foot of the ring, the yard let in if the ring allows; what it told the Assay-master; the weighing's terms, it weighs and they decide; it does not ask to be Weightward and does not refuse it yet; it answers for the seat when the loft has been looked in and the seventh has been looked for.
+- A word to the old weigher at Ruddfold, by the next carrier on the Old Rudd Way, read back to the player: "The Weigher will weigh your stones in front of any of the ring who want to see it, at the gate, any market morning. No fee but a pinch. Bring the stones in your own bag, and I'll call them in my own cups." With it: the old weights and his stones agreed to the beam's tremble; it would like to hear what his people think the seventh was. Not yet logged as a message; the Keeper's tonight.
+- The player ended the scene. The Weigher went down to the landing.
+- It has now told two mortals it is a god: the Assay-master and the Stallreeve. No seal set, no licence given. Promises standing: to come to the sitting and say it first.
+- Told to the player, the year as it stood from the third day after the weighing to the third month: the loft looked in by three; the gate; the hill carriers; the Stallreeve among the boatmen; the boat people at the lowest tides; one dim night in the second month; the day at the pits with its figures; the third month.
+- Board laid, held second: the fourth month, the landing at dusk, the ship owner of the channels and his offer. Nothing answered.
+- One sealed answer taken to the sealed record.
+
+For the Keeper tonight (not decisions): when the ring sits and whether it lets the yard in; what the old weigher of Ruddfold answers; the autumn as told was resolved with no one told.

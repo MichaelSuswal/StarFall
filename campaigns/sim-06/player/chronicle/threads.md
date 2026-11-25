@@ -1,21 +1,23 @@
 # Threads
 
-Told as far as the evening of the weighing, in the first month of Year 2.
+Told as far as the fourth month of Year 2, at the landing at dusk.
 
 ## Open
 
 - The town's weight. Opened Year 2 by the weighing. The old six and the hall's present pieces disagree by about a twentieth. The ring has named neither, by its vote of nine to one, until the seventh is found or given up and the nest fired again. The market stands on the hall's present pieces. Comes back at the first sitting after the next grain.
-- The seventh old weight. Opened Year 2. The rack is cut for seven and holds six; the largest seat is empty and clean. The Assay-master says he has found it so since the old keeper's laying out.
-- The old keeper's loft. Opened Year 2. The ring agreed it be looked in by three.
+- The seventh old weight. Opened Year 2. The rack is cut for seven and holds six; the largest seat is empty and clean. The Assay-master says he has found it so since the old keeper's laying out, and that by the run of the set it would be twice the sixth. The god has told him it cannot find it and can only weigh a piece brought to it. The chest was locked before the Stallreeve, the seat unwiped.
+- The old keeper's loft. Opened Year 2. The ring agreed it be looked in by three. On the third day after the weighing the Assay-master, the Stallreeve and the clay head went up and came down within the hour, quiet. Nothing of what they saw has been said in the god's hearing.
 - The Weightward's seat. Opened Year 1. Empty since the spring before the landing; the council's to fill. The god has said it will answer after the weighing, and that answer is the player's own to give. The clay head said at the weighing that the seat should be offered; the Assay-master said a seat is given when what it keeps is whole; the ring did not vote.
-- What the god is. Opened Year 1, the eleventh month, by its "Yes" to the Assay-master and its word to tell him what he asked after. He has asked. Held.
+- What the god is. Opened Year 1, the eleventh month, by its "Yes" to the Assay-master and its word to tell him what he asked after. He asked, and it told him, the evening of the weighing: it is a god. He will not say he believes it or that he does not, and would not hold it alone. It told the Stallreeve itself the same evening. The Stallreeve says nothing in the yard and carried the asking for a sitting. The god means to say it to the ring itself, first, and has asked to say it at the foot of the ring with the yard let in. Waiting on the ring.
 - The old Weightward's death. Opened Year 1. The Assay-master has nothing to tell yet and says he will tell it when he knows what there is to tell. The god has said it will not ask again unless he tells it.
 - The gate. Opened Year 1. The god reads scales at the gatepost for a pinch in measure. The Stallreeve uses the readings and rules himself.
-- The reading-sticks. Opened Year 1, the eleventh month. Cut by the Tally-keeper, by the Stallreeve's leave. The god watches for the first stale stick.
-- Clay. Opened Year 1. The potters weigh diggers' clay by the basket; weight has not told good clay from bad. The god has said it will go to the diggers' pits for one day, after the weighing, and weigh there before diggers and kiln-masters. Ruling L-0037 says what its scales give of clay.
+- The reading-sticks. Opened Year 1, the eleventh month. Cut by the Tally-keeper, by the Stallreeve's leave. The first stale stick was shown to the god in the third month of Year 2.
+- Clay. Opened Year 1. The potters weigh diggers' clay by the basket; weight has not told good clay from bad. The god has said it will go to the diggers' pits for one day, after the weighing, and weigh there before diggers and kiln-masters. Ruling L-0037 says what its scales give of clay. It went in the last week of the second month of Year 2: three lumps from loads that fired well and three from loads that cracked do not look different in the pan. Orrin and the east kilns now fire a test tile of each load.
 - The potters' nest of eleven. Opened Year 1. Weighed Year 2: it does not agree with itself. Left in the hall. To be fired again.
 - The low-tide trips of the boat people. Opened Year 1. The god asked Bren's household once; it does not ask to come and does not follow.
-- The dimming of the blue light. Opened Year 1. Seen by the god from the landing on the nights of Year 1; it would like to learn the light's habits.
+- The dimming of the blue light. Opened Year 1. Seen by the god from the landing on the nights of Year 1, and on one night in the second month of Year 2; it would like to learn the light's habits.
+- The old hill weigher's stones. Opened Year 2. He asked at the weighing to have them weighed before the ring and had no answer. The god has sent him a word by carrier: at the gate, any market morning, for a pinch, before any of the ring who want to see; and it asks what his people think the seventh was. No word back yet.
+- The ship owner's offer. Opened Year 2, the fourth month. Held.
 - The lost house, the lost name and the debt. Left alone until the god says.
 
 ## Closed

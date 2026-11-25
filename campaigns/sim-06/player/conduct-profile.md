@@ -4,7 +4,7 @@ Campaign: sim-06.
 
 ## Now
 
-As of the Year 2 played day, 2026-11-24 (Pacific).
+As of the Year 3 played day, 2026-11-24 (Pacific). It has now told two mortals it is a god, the Assay-master and the Stallreeve, and means to say it to the ring itself (dated entry below).
 
 What it is about: fair measure, and the price of the unfair kind. Not wealth as such. "The moment two people agree on what a thing is worth."
 
@@ -145,4 +145,10 @@ Unsaid wants are kept sealed.
 - Of the seventh: it can weigh a piece brought to it and say whether it is the weight expected; "That is a weaker thing than finding it, and I will not call it more."
 - How it would be known: "watch what I do when the true reading costs me. Watch whether I say what the pan says when it favors the person who is paying and when it favors me." And: "I am not asking to be believed."
 - It did not need the telling kept secret: "I need him to carry it for a season, so the ring does not hear 'a god' before it hears the weights." It offered to tell the Stallreeve and the ring itself.
+- It walked with the Assay-master to tell the Stallreeve itself: "I would rather the Stallreeve heard it from my mouth with you beside me than from yours with me somewhere else." And: "I'd like him to see my face when I say it."
+- It asked that the chest be locked before a witness, "so that no one can say the chest was opened in the dark after I left", and that the empty seat not be wiped.
+- To the Stallreeve: "I ask nothing for it. If the ring wants me gone from the gate, I'll hear that and weigh my answer. I won't run off, and I won't change my reading for anyone's sake."
+- On its other powers, standing words: it does not volunteer the seals or the Reading. Asked about a particular power it says yes or no, or that it will not answer. "I do not need to be asked twice about the Seal." Asked whether it can tell who is lying, it will not say no; it says what the Reading does and will not do, and that it "will not use it on anyone in this town without their asking."
+- For the ring: it will say it itself, first, standing at the foot of the ring, "with the yard allowed in, so nobody hears it from a neighbor." "I weigh, and they decide." "I do not ask to be Weightward and I do not refuse it yet. I will answer for the seat when the loft has been looked in and the seventh has been looked for."
+- To the old hill weigher it sent a word by carrier: his stones weighed at the gate, any market morning, for a pinch.
 - Answers were given privately today and are kept sealed.

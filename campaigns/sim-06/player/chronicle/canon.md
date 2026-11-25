@@ -47,3 +47,7 @@ As found, Year 1. None of it was set by the god.
 - The dimming of the blue light, Year 1: seen by the god itself from the landing, two nights in the first month of autumn and one in the dead of winter. (Released as seen at the Year 2 night.) This adds to the Year 1 line above.
 - The scale of the bonded man's master has been a true scale since the god tried it in the twelfth month of Year 1, for as long as it reads true. The hall's beam was not tried by the god and is not one. (Ruling L-0031.)
 - The god has told no one it is a god. It has said "Yes" to the Assay-master's asking whether it is more than a man with good brass. (Year 1, the eleventh month.)
+- Added on the Year 3 played day. The god has told two mortals it is a god: the Assay-master, at his asking, in the hall on the evening of the weighing, and the Stallreeve, the same evening at the hall door. It told them what its scales give and that there is more to it, unlisted. This adds to the line above.
+- The chest of the old weights was locked that evening by the Assay-master with his own key, before the Stallreeve; the empty seat was left as it was, unwiped; the key on the peg was not touched. (Seen, Year 2.)
+- Clay at the diggers' pits, in the nest's ones. From loads that fired well: 96 (91 clay, 5 not), 104 (99, 5), 88 (84, 4). From loads that cracked: 100 (96, 4), 92 (88, 4), 108 (102, 6). What was not clay was sand and shell. (Weighed, Year 2, the second month.)
+- The blue light dimmed on one night in the second month of Year 2. (Seen from the landing.)

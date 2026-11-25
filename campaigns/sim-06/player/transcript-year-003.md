@@ -197,3 +197,63 @@ For the old hill weigher: I send a word to Ruddfold by the next carrier down the
 I'm done in the hall. I'll walk to the Stallreeve with the Assay-master when he has locked the rack.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You offered to help him with the rack. "Keep your hands where they have been all day," the Assay-master said, not unkindly. "It is the better for you." You touched nothing.
+
+You asked that the chest be locked in front of the Stallreeve, so that no one can say it was opened in the dark after you left, and that the empty seat be left as it is, and not wiped. He stopped with the fourth weight in both hands.
+
+"Then he comes here, and not I to him," he said. "That is sense. As for the seat, no hand has wiped it in my time. It was clean when I found it." He set the fourth down in its place, went to the door, opened it, and sent word down the yard for the Stallreeve. The two of you stood in the doorway with the lamp behind you and the rack in plain sight on its cloth until he came. The yard was dark. The blue light stood over the roofs where it stands.
+
+The Stallreeve came up alone, wiping his hands on his coat. He looked at the open door, the rack, the Assay-master, and then at you.
+
+You said it to him plainly, with the Assay-master at your side: that you are a god; that you told the Assay-master tonight, as he asked, and he has brought you to tell him; that you did not take the seventh weight and never touched the chest; that you are telling him first, before the yard, and will say it to the ring at the sitting, first, as the Assay-master has said. That you ask nothing for it. That if the ring wants you gone from the gate you will hear that and weigh your answer, and that you will not run off, and will not change your reading for anyone's sake. Then you told him what you had told the Assay-master and no more: the scales, and the weight, count and purity of what is in the pans or weighed beside them, and nothing of where or who; and that there is more, which you will answer yes or no about if asked.
+
+The Assay-master said, "It was said to me in this hall an hour ago. I asked. I have not said I believe it. I have said I will not hold it alone."
+
+The Stallreeve did not answer for a while. He is a man who looks at a thing the way he looks at a scale brought up in a quarrel, and he looked at you that way. No weight came into the air from him.
+
+"A year at my gatepost for a pinch of barley," he said at last. "Well." He rubbed his jaw. "I'll tell you what I know how to do with that, and it is not much. I know how to keep a line. Is the gate kept at the next market?"
+
+You gave him what you have given the line: that you stay till you have seen the town's weights set right, and that you do not walk off a quarrel half-weighed.
+
+"Then it is kept as it was, and the watch stands where it stood, and I say nothing in the yard. A yard that hears that word on a market morning stops buying fish." He turned to the Assay-master. "The asking for a sitting is yours to make. I'll carry it round tonight." And to you: "You want to say it standing at the foot of the ring, with the yard let in. That is the ring's door, not mine. I'll put it to them with the rest, as you said it."
+
+He asked you nothing about what else there is to you.
+
+The Assay-master set the last two weights in the rack, lifted the rack into the chest with the seventh seat as it was, shut the lid and turned his key with the Stallreeve standing over him. The key on the peg was not touched. "Seen," the Stallreeve said. The lamp was put out and the hall door shut, and the three of you went down the yard, and at the gate they went one way and you went the other, to the landing.
+
+Your word for the old weigher at Ruddfold goes with the next carrier on the Old Rudd Way. I read it back as you gave it: "The Weigher will weigh your stones in front of any of the ring who want to see it, at the gate, any market morning. No fee but a pinch. Bring the stones in your own bag, and I'll call them in my own cups." With it, that the old weights and his stones agreed to the beam's tremble, and that you would like to hear what his people think the seventh was.
+
+What follows is the year after that evening, as far as the next moment that waits for you, told as it stood.
+
+On the third day after the weighing three went up the old keeper's loft stair: the Assay-master, the Stallreeve, and the clay head as witness. They came down within the hour, quiet. You were at the gate and were not with them. Nothing of what they saw has been said in your hearing, and the ring has been told nothing that the town has heard.
+
+The gate went on. The line asked what it had asked before, and you gave the words you had settled: how long you stay, whose child you are, the fee, what a stallholder may say of a reading. In the middle of the second month the hill carriers came down the Old Rudd Way with ore and charcoal. They had the figures of the hall's weights from the old weigher's mouth before they came. One asked in jest whether you come from Hask, and had your answer. Their own scale read a little out in their favor, and they mended it at the stalls.
+
+Some days after the carriers' market, in the evening, the Stallreeve came down to the landing alone. You were by the channel folk's lamp. You saw him go among the boatmen, his old company, and speak with some of them apart. You did not hear what was asked or what was answered. He went back up alone.
+
+The boat people were gone from the channels for some days at the lowest tides of autumn, in the second month, and came back. On one night of that month the blue light dimmed. You saw it from the landing: the blue deepened for about an hour, the light stood dim for about an hour in the middle of the night, and then it was as before. You saw nothing else in the sky, and nothing in the town or on the water that went with it.
+
+You asked the Stallreeve and the Tally-keeper before you went to the pits. He said the watch would keep the line and nobody would be read. She said she would cut no notch against any scale for a day the gate was shut by your own word. Both asked that it be a day without a market. It was set with Orrin, the east kiln-master, for the last week of the second month.
+
+You went out at first light and were back before dusk. The pits are on the clay banks, in the town's own ground. The diggers, the kiln-masters and the potters had all come, and a digger from a lower pit stood a little apart. Orrin brought three lumps from loads that had fired well. A kiln-master of the west kilns brought three from loads that had cracked. You weighed each before them and called what the pan gave: the weight, the part that is clay, and the part that is not, which was sand and shell. From the loads that fired well: 96, of it 91 clay and 5 not; 104, of it 99 and 5; 88, of it 84 and 4. From the loads that cracked: 100, of it 96 and 4; 92, of it 88 and 4; 108, of it 102 and 6. The pan told you nothing else of any lump. Orrin and the kiln-master of the west kilns looked at the figures and said the two sets do not look different. You said that you had then told them nothing, and that you cannot tell which clay is good for a kiln. The diggers cheered the reading. The kiln-masters did not forgive them. Orrin said nothing for a while, and then that it was something he could not see in a pan.
+
+In the third month a potter asked, "Is this clay clean?", and had your settled answer. The Tally-keeper showed you the first stale stick: a scale not brought within its season, the end cut. You looked and said nothing. A few stallholders carved two pans on their scale beams, after the mark she cuts, and the Stallreeve had them scraped off, saying the mark is the Tally-keeper's stick and not a beam. Orrin began firing a small tile of each load's clay before filling his kiln, to see whether the tile would crack when the load would, and the east kilns followed him.
+
+It is the fourth month, winter coming on, and it has been a good autumn for the channel boats. You are at the landing at dusk, by the channel folk's lamp. Bren is there, and a pair of boatmen. The ship owner of the channels, who sits on the eleven, has come down to the landing and stands in front of you. No weight is in the air.
+
+He says: "Weigher, I run boats up and down. Every boat that comes to my landing from the south or goes down from the north, read it before it's unloaded, at dawn, and say what's in it. I'll pay you for the year, not in silver, a measure of salt for every boat, and I'll have you at my landing and no other, and that in front of the Stallreeve."
+
+(oog) Some plain things.
+
+One point of record. You wrote of the Stallreeve's second key. The second key is the Assay-master's own; the old keeper's key hangs on its peg in the ring; the Stallreeve holds none and does not sit on the eleven. I took your asking as you meant it, that the chest be locked before a witness, and that is what was done.
+
+Whether the Stallreeve would ask you outright if you can tell when a man is lying was the world's to answer, so I rolled it in the open log before writing, at 60 in 100 that he would: even; plus 10 because he rules the market's quarrels himself and brings them to your readings; plus 10 because you had just told him there is more and that you answer yes or no; minus 10 because he has never once asked you for more than a reading. He did not ask. Your words for it stand for whoever does.
+
+Your words for the sitting are written down and go to the night as you gave them: you come and say it first, you ask to say it standing at the foot of the ring with the yard let in, you tell the eleven what you told him, on the terms of the weighing, that you weigh and they decide; you do not ask to be Weightward and do not refuse it yet, and you answer for the seat when the loft has been looked in and the seventh has been looked for. When the ring sits, whether it lets the yard in, and what it says, are the Keeper's tonight. So is what the old weigher at Ruddfold sends back.
+
+The autumn above was resolved before any of this was said, with no one in the town told. It is told to you as it stood. The Keeper works tonight's hall into it, and the ship owner at the landing is to be played as he stands here.
+
+The map is unchanged: the pits are in ground you already know.
