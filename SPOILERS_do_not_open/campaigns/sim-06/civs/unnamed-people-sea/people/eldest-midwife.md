@@ -17,3 +17,9 @@ Blunt, tired, exact. Believes the dead and the living both want an account.
 
 ## Aging
 One year older each year.
+
+## Year 3
+- Month 1: heard the god's words from the Warden-Monarch's own mouth, alone, in her kitchen. Said it was the first thing out of that water to tell her what it failed at. Said she would name a bed within the month.
+- Month 2: sat alone at the bedside of the eldest of the smokers and met the god there, once, at the lowest tide at dusk. Put it four questions and asked to see it. Offered it the clerks' list of the year's dead each autumn, through the Warden-Monarch. Told the Warden-Monarch it was honest and that she would not take its word as the court's order. Told the inner court she had sat with it and would hear no more said of the line using it for the chain.
+- Takes its word as honest and not as an order. Whether her office is now a helper is the Keeper's.
+- Seventy-one at the year's end.

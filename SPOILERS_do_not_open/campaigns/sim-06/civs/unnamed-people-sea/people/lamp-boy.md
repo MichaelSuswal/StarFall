@@ -16,3 +16,7 @@ Watches more than he says. Asks the one question and then keeps it.
 
 ## Aging
 One year older each year.
+
+## Year 3
+- Month 5: ran oil from the lamp-house to the water's edge through the swell and did not fall. Kept the lamp with the old woman.
+- Fifteen at the year's end.

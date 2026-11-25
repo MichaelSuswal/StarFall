@@ -19,3 +19,8 @@ Plain, dry, patient and cold. Says little and says it once. Does not claim the k
 
 ## Aging
 One year older each year.
+
+## Year 3
+- Month 1: said the listener had gone into the water to listen, and was cold for two days.
+- Month 5: kept the keeping's lamp at the water's edge through the swell and did not leave it. Had no knowing that week and had not been cold in the days before; said so again.
+- Counts the star's nights: "it counts up." Seventy-four at the year's end.

@@ -26,3 +26,10 @@ One year older each year.
 - Month 10: chose the Captains' stand-by boat for the keel, with the Harbormaster's assent.
 - Month 11: saw the god lay its hand on the keel. Said that was the fourth piece in two years and enough.
 - Sixty-two at the year's end.
+
+## Year 3
+- Month 3: told by the Warden-Monarch that the keeping asks for nothing. Named the chain-post's foot as the piece.
+- Month 4: had the yard cut two new heels and scarf them on by day; saw the god lay its hand on one in the dark. Said that was the fifth piece in three years.
+- Month 10: chose the headland cove's crab boat for the keel, with the Harbormaster's assent.
+- Month 11: saw the god lay its hand on the keel. Said that was the sixth piece in three years and enough.
+- Sixty-three at the year's end.

@@ -28,3 +28,12 @@ One year older each year. Her heir is the line's next.
 - Month 4: chose the old woman at the east lamp and the boy as tenders of the keeping's lamp.
 - Month 5: stood at the water's edge in the swell. [Standing outside the court depends on the boat: see state.md.]
 - Fifty-three at the year's end.
+
+## Year 3
+- Month 1: set the jar and struck the bell; was told by the god at the tide-door that it does not cause the star's dimming and does not know what does, and was given words for the Eldest Midwife, which she said back whole and carried by her own mouth in the fourth week. Told the inner court of the star and began the stick of notches.
+- Month 2: gave the Midwife's house to the water at the tide-door.
+- Month 4: brought the Master of Timber to the chain-post; asked the Harbormaster about the two boats under the chain's line and carried his answer back.
+- Month 5: stood at the water's edge in the swell; told the senior Captain whose lamp it was. [Standing outside the court depends on the boat: see state.md.]
+- Month 7: asked the oldest net-mender where Low Garrow lay and left the answer in the jar.
+- Month 12: left the stick of six notches and the Midwife's list of the dead in the jar.
+- Fifty-four at the year's end.

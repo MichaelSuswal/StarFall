@@ -27,3 +27,11 @@ One year older each year.
 - Month 5: on the quay himself in the swell; had the chain let down and put out the Captains' boat. Not a helper of the god by the Keeper's record. See state.md for the two ways he speaks of it.
 - Month 10: took the stand-by boat's new keel at no price, for the boat's sake.
 - Has begun a tally of his own of the mouth. Fifty-nine at the year's end.
+
+## Year 3
+- Month 1: gave the haul as his own order and said it was the quay's custom now.
+- Month 4: assented to the chain-post repair without being told. Was asked by the Warden-Monarch whether the town lost two boats under the chain's line, and said: two boats, the autumn before the keeping came, the chain down by his order and written, nine men, his sister's son on the second, nothing found. He said the line and he each say the other's tender held the key that night. He said he would put a lead and grapnel along the line himself.
+- Month 5: on the quay himself in the swell; had the chain let down and put out the Captains' boat. Did not come to the water's edge. Not a helper of the god by the Keeper's record. See state.md.
+- Month 8: put a lead and grapnel along the chain's line from the Captains' boat at the lowest springs. See state.md for the two ways.
+- Month 10: took the headland cove crab boat's new keel at no price, for the cove's sake.
+- His tally of his own has three entries at the year's end. Sixty at the year's end.
