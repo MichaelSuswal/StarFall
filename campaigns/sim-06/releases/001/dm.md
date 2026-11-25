@@ -91,7 +91,9 @@ From the year:
 
 ## The sky
 
-The star dimmed on three nights of the year: two in the first month of autumn, some days apart, and one in the dead of winter. Each time the blue deepened for about an hour, the star stood dim for about an hour in the middle of the night, and then it was as before. The Weigher was awake under a clear sky for each. The town says it has seen such nights in other years. Many in the line tied this year's to the stranger's coming.
+The star dimmed on three nights of the year: two in the first month of autumn, some days apart, and one in the dead of winter. Each time the blue deepened for about an hour, the star stood dim for about an hour in the middle of the night, and then it was as before. The Weigher has this from the town: the line at the gate talked of the first two in its hearing in the first month, and the watch and the boatmen at the landing spoke of the winter one. The town says it has seen such nights in other years. Many in the line tied this year's to the stranger's coming.
+
+Whether the Weigher itself was awake and looking up on any of those nights is not set. The player has not said how it spends its nights; the record has it sitting late at the landing and no more. Tell the nights as heard, and ask the player in (oog) how the Weigher keeps its nights before telling them as seen.
 
 ## God-sense and the body
 
