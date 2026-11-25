@@ -165,3 +165,31 @@ The answer on Hask I have kept as a standing word for the hill carriers, who com
 The reading-sticks. This is an asking of the Tally-keeper, and it is hers to grant or refuse, so it is an attempt of yours and I owe you the odds before anything is rolled. She has gone up to the hall; the asking is put when she is next at the gatepost. Success means she agrees to cut split reading-sticks for stallholders who ask, on your terms, and cuts the first in front of you. Failure means she will not take it on as you put it; what she says instead is hers. I make it 65 in 100: even; plus 20 because she has cut a stick of the gate's readings of her own accord since the first night; plus 10 because she asked you for a mark and today has one; plus 5 because your stick says only what was read on the day, which is the Stallreeve's own objection to the tokens answered; minus 10 because what hangs on scales in the market is the Stallreeve's to allow, and he took the tokens down; minus 10 because you ask her work for every stallholder who wants one and have named nothing for her in return. You may argue any factor, or add to the asking, before I roll. Tell me also which stallholder the first stick is for. If you mean the one whose scale you read twice today, the stick would carry both of today's readings, the first out and the second level, and whether she wants that cut is hers to say.
 
 The next asks that are waiting, from the third month to the sixth. The kiln-master Orrin said, "Bring your brass to the diggers' pits and say which clay is good." A potter held up a ball of clay and asked, "Is this clay clean?" A bonded net-mender, whose owner's grain scale the gate had read out by about a twentieth in the owner's favor, said, "Reckon my debt for me, and strike it." The council later took a twentieth off it. Two households said of a reed island that split, "Who owns it? You say what is true," and took it to the council when you did not. And a stallholder asked you to stand witness to a bargain; two of the watch stood instead. Answer as the Weigher would, or say which it lets lie.
+
+## Player:
+
+**The weighing day.** Carry both up to the eleven as terms. Nothing leaves the hall, and where the two readings differ, both are cut. They only work if the eleven agree to them in advance, and I'd rather they were the hall's rules than my habits. The last two are my own conduct.
+
+**The reading-sticks.** I'll argue two of the factors and add to the asking.
+
+- On the Stallreeve's objection, the thing he took down was a token that hangs on a scale and says "read" forever. A stick lives in the Tally-keeper's hands, not on the stall. It can't hang on a scale and can't be worn as a claim. Put it to him that way, and ask his leave first, since what hangs in the market is his to allow. The asking goes to him and to her together. I'd rather lose a day than have a stick cut behind his back.
+- On what I'm asking of her with nothing named in return, I name it. The stallholder who wants a stick pays her a pinch in measure, grain, salt or fish, the same fee as at my gate. I take nothing from it. It is her work and her stick.
+- Add one term. Each stick carries a date and a reading, and it says in plain notches that it is true on that day and no longer. A stick that is not read again within a season lapses, and the Tally-keeper cuts its end. That answers the Stallreeve's midwinter objection directly.
+
+With those, I'd say the odds are nearer 75 than 65. The two minuses are met, and the plus for the mark she already has stands.
+
+**The first stick.** It is for the stallholder whose scale I read twice today, the first out and the second level, with both cut, if the Tally-keeper is willing. I'd rather the first stick show a scale found wrong and mended, because that is the honest case. If she won't cut the first reading, she can cut the second alone and I won't argue.
+
+Now the waiting asks.
+
+**Orrin's pits.** I'll come to the pits and weigh what the diggers bring up, in front of the diggers and the kiln-masters. I'll say what the pan says: weight, count, and what part of the lump is clay and what part is not, as the scale gives it. I can't tell which clay is good for a kiln, and I'm not going to pretend to. That's the potter's craft, and I'd be selling it badly.
+
+**"Is this clay clean?"** To the potter: "I can tell you what's in the pan and how much of it is clay, if the scale gives it. Whether that's clean for your fire, I can't say. Bring me three lumps from loads that fired well and three from loads that cracked. I'll tell you what I read of each, and you tell me if the two sets look different. If they don't, I've told you nothing, and I'll say so." If it doesn't read, I say it doesn't read.
+
+**The net-mender's debt.** I don't strike debts, and I won't say I can. What I can do is weigh the grain or the fish the debt is owed in, if she brings them, and say what's in the pans. The sum on a stick is for the hall to reckon, with witnesses and tallies. I'll stand at the bench while it's reckoned and weigh the goods if the Assay-master asks me to. The council has already taken a twentieth off, and I'd say that was well done.
+
+**The reed island.** I can't say who owns it, because owning is not a weight. I can weigh what each household says was cut, drawn or carried off it, if they bring it. The rest is for the council, and I leave it there.
+
+**The witness.** I'll stand witness to a bargain if both parties ask me, in front of the Stallreeve's watch if they like. I say what I saw and heard and nothing more. I won't tell either side whether I think the other means it, and I won't be held to a verdict on whether it was kept.
+
+(One more answer was given privately, for the sealed record.)
