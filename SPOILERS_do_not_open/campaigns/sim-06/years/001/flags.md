@@ -169,7 +169,7 @@ Raised 3 new (9 in all). Resolved 6. Open 3.
 
 ## Round 3: the recheck after step 7
 
-Run by the continuity checker, 2026-11-24, from 16:55 to 16:59 Pacific, at head f628b03. It covers the Keeper's round 2 fixes (bd2a43e, f993790) and the DM's step 7 files (80e217a, f628b03), plus the painting the paint job returned (2e07da5). Read in full: the diffs, the Year 1 closing, the Year 2 morning story, the painting request and the painting, the chronicle files (README, years, canon, threads, messages, and the god's and people's working files), the new card entry, the new appearance card and `player/pending.md`. Checked against the DM release, `year.md`, the ledger, the power card, the player's record and the engine rules.
+Run by the continuity checker, 2026-11-24, from 16:55 to 16:56 Pacific, at head f628b03. It covers the Keeper's round 2 fixes (bd2a43e, f993790) and the DM's step 7 files (80e217a, f628b03), plus the painting the paint job returned (2e07da5). Read in full: the diffs, the Year 1 closing, the Year 2 morning story, the painting request and the painting, the chronicle files (README, years, canon, threads, messages, and the god's and people's working files), the new card entry, the new appearance card and `player/pending.md`. Checked against the DM release, `year.md`, the ledger, the power card, the player's record and the engine rules.
 
 ### Scripts at f628b03
 
