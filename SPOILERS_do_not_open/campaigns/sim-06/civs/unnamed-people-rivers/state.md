@@ -1,22 +1,22 @@
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
-# Unnamed people of god-rivers: state at the end of Year 1
+# Unnamed people of god-rivers: state at the end of Year 2
 
-Written by the civ agent at the close of Year 1. Where a number turns on what a power did, a range is given.
+Written by the civ agent at the close of Year 2, pass one. Where a number turns on an uncertain outcome or on what a power did, a range is given.
 
-population: about 2,015 (about 1,865 in the walled town, about 150 in four reed hamlets), in about 340 hearths. Why: about 74 births and about 59 deaths in an ordinary year, a net rise of about 15. Deaths were the old and infants as in other winters, two drowned in the channels, and one cut that went bad. On the alternatives for the warm hands, the number may differ by up to two or three persons either way.
+population: about 2,030 (about 1,875 in the walled town, about 155 in four reed hamlets), in about 345 hearths. Why: about 75 births and about 60 deaths in an ordinary year, a net rise of about 15. Deaths were the old and infants as in other winters, and the usual one or two to the channels. On the two warm-hands branches the number may differ by up to two either way, and on the search for the strayed herd by one more (a searcher lost to the channels). Range about 2,027 to 2,033.
 
-stores: barley, millet, beans, flax, onions and dried eel and fish, enough to the next harvest in an ordinary flood. A new flood store at the water gate of about one part in twenty of the barley and millet and a quantity of smoked fish and eel. Why: ordinary harvest, and the council's decision at the god's counsel. Salt is short: the town's salt will not outlast the thaw. Why: the salt carriers crossed fewer times than last year.
+stores: barley, millet, beans, flax, onions and dried eel and fish, enough to the next harvest in an ordinary flood. The flood store at the water gate stands at about one part in twenty of the barley and millet, the older grain turned to the table and new put by, with smoked fish and eel. Salt: none in store; the thaw took the last; what the carriers brought in summer was little and is rationed by house cord. Why: ordinary harvest; the council's habit now; the carriers crossed fewer times again. Livestock: if the strayed herd was found, down by a few goats; if not, down about 60 goats and 5 cattle, and the winter's milk and fat short.
 
-treasure: little: cords, boats, a few bronze tools. A new small fish weir in a side channel. Flood marks cut on the gate stone for five floods. Why: the ferry keepers cut the marks at the god's asking, and the council has kept them as its own.
+treasure: little: cords, boats, a few bronze tools. New: the low-water cord, four marks at the gate stone and four at the ford stone, and the sixth flood mark on the gate stone. The small fish weir of last year stands and took eel. Why: the council's own keeping of the god's asking; no new building.
 
-trade: reed work, eels, linen and pots out; salt in at the ford, less than last year. The boat bands traded at dusk as before and left twice for some days at the lowest tides. Why: the carriers come less each year and the town cannot make them come.
+trade: reed work, eels, linen and pots out; salt in at the ford, less than last year. The boat bands traded at dusk as before. The carriers who come say others go a southern way. Why: the carriers come less each year and the town cannot make them come.
 
-strength: a standing watch of about 30 and a call-up of about 300, unchanged. The earth wall, palisade and ditch repaired after the flood. Why: no fighting, no new arms.
+strength: a standing watch of about 30 and a call-up of about 300, unchanged. Earth wall, palisade and ditch repaired after the flood. Why: no fighting, no new arms.
 
-mood: curious, wary, loud and kind. The Wary are quiet and the Fond are fond. The worry about the ford has deepened, since the deep water lay farther from it again and the carriers crossed less. They are easy about the guest, though no one has taken her for anything more than a guest with a hard gift.
+mood: curious, steady, a little worried. The worry about the ford is the same and now has cords to it; the star dimming five nights worries the weirs and the midwives more than the ford; the herd's loss or recovery sets the autumn's temper. They are easy about the guest, who is a guest, and a few say she is the town's own.
 
-factions: the Wary (the head of the oldest kin house and some of the weir hands), who think her counting serves someone else; the Fond (the midwives, the ferry keepers, the children); the rest keep their own counsel and wait.
+factions: the Wary (the head of the oldest kin house and some of the weir hands) are quieter, since the cords are the Reckoner's and the council's; the Fond (the midwives, the ferry keepers, the ford keepers, the children) are fonder; the Counters (the Reckoner and his cord walkers, with the ferry keepers who cut the marks) are new and say the cords are the town's and not hers; the rest keep their own counsel.
 
 ## Keeper, Year 1, pass two
 Nothing came against the sleeping woman at the water gate; no roll. Each of the three she laid hands on recovered, as her card gives: the numbers take the year file's branch for that.

@@ -7,3 +7,5 @@ Office: heads the ferry keepers, the ford and the barges, and sits on the counci
 Nature: practical to the bone and fond of arguing. Distrusts anything that cannot be poled. Took to the guest for her questions about the water.
 
 Year 1: sent two ferry keepers with the guest to the hamlets. Had the first flood marks cut on the gate stone, and had the old ferrymen recall the earlier four. Wanted the sleeper carried in. Does not take her for more than a woman with a gift and a manner. Not a helper by the Keeper's rule unless the Keeper so rules.
+
+Year 2: heard her at the hearing about the ford and said yes at once to the flood marks and the low-water cord. Sent a barge to the ford with the order in the second month. Named two ferry keepers to go with her (an older woman of the ford landing and a younger man who cuts the marks) and stayed home with his knee. Refused the ferry child leave to go. Asked her in autumn what she would do about the ford. Still does not take her for more than a woman with a gift and a good eye for water. Not a helper by the Keeper's rule unless the Keeper so rules.
