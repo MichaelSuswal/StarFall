@@ -71,3 +71,21 @@ A second ruling, for the record and not the card: a piece too heavy for your pan
 The scale of the bonded man's master has been a true scale since you tried it in the twelfth month, for as long as it holds. The hall's beam was not tried by you and is not one.
 
 You told me how the Weigher keeps its nights. So the dim nights of Year 1 are yours to have seen, and not only heard of: two in the first month of autumn, some days apart, and one in the dead of winter. You were awake at the landing under a clear sky each time.
+
+## Player:
+
+"I am a god, Master. One of a number who came down into this country together, though I have felt none of the others yet. I came down the old bank at first light, as I told you. I do not know where from, and I do not know whose child I am. That part was left behind.
+
+"The scales are the whole of what I carry that you can use. They tell me what is in the pans, or what is weighed beside them while I stand near, its weight, its count and its purity. They tell me nothing of who made it so or how it came to be that way. I have shown you that three times, and I will show it again. I cannot give a false measure, spoken, written or by a nod. I can keep silent, and I have, and you have had the cost of that from me for two years. That is why I never said a thing I could not stand behind.
+
+"There is more to me than the scales, and I am not going to list it tonight. That is not a lie. You asked what I am, and I have answered. If you ask me a question about a particular power, I will say yes or no, or I will say I will not answer. I will not say no to a yes.
+
+"I did not come to take your hall. I stood at your gate because a god who walks in and names himself is selling something, and I wanted the town to know the scale before it knew the one who carried it. I did not take the seventh weight. I never touched the chest. I did not know the rack was cut for seven until you lifted it out today, and I will say that in front of the eleven if you want it said.
+
+"I ask one thing, and it is yours to refuse. Keep this between us until you have decided what the ring should hear. I will not ask you to say anything false to them. If they ask you plainly, tell them what I told you. I would rather they hear it from you than find it out.
+
+"I have not answered about the seat and I will not tonight. It is not whole, as you said, and I will not take it half. Ask me what you like. I will answer what I can."
+
+I stay standing. I leave my scales on my belt and my hands where he can see them.
+
+(One more answer was given privately, for the sealed record.)
