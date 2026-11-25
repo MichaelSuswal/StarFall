@@ -275,3 +275,25 @@ The map is unchanged: the pits are in ground you already know.
 "If you want it on those terms, I'll walk up to the Stallreeve with you now."
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You bade him welcome to the landing and offered him the lamp. He stayed on his feet. Bren went on coiling a line and did not look up, and the pair of boatmen had stopped talking.
+
+You told him what you can do: read what is put in your pans, and what is weighed beside them while you stand near. That a boat's load is not a thing you can put in a pan, so at dawn the captain sets out what he carries, sack by sack or basket by basket, on the landing's beam or on yours, and you call what each one is: weight, count, and how much of it is the stuff it is sold as and how much is not. That you cannot read a hold you cannot see, or say what is under the top layer; that it is the captain's to show, and if he will not show, you say you were not shown. You asked whether his landing accepts that.
+
+You told him what you will not do, which is be his alone. That you will read at the landing of any ship owner who asks, on the same terms and for the same fee, on a day you are not at the gate; that his gets the first dawn, since he asked first, and a standing place; and that there is no "no other". That a measure of salt for a boat is fair, but it comes from the captain and not from him, weighed in your own pans with the Tally-keeper watching. That the reading is cut on a stick, which pan and how much, as at the gate, one half to the captain and one to the buyer if he wants one, holding for that day only and saying so in its notches. That you want the Stallreeve there when it is set, as he offered, and the gate kept as it is on market mornings, boats on the other days, and where the two clash the gate wins.
+
+And the last thing: that he will want a nod from you that his boats are better than the rest, and will not have it. You will tell him what the pan says, of his and of theirs. If his are clean, that is the best thing you can do for him. If they are not, he had better hear it from you before the buyer does. On those terms, you said, you will walk up to the Stallreeve with him now.
+
+He heard all of it without moving, a broad man with his thumbs in his belt and the lamp on one side of his face. When you had finished he looked out at the dark water where his boats lie, and back.
+
+"I came down here to buy a year of you," he said, "and you have sold me a morning and kept the rest." He has not said yes and he has not said no. One of the boatmen coughed.
+
+(oog) This is a bargain, and what you have put back to him is an attempt of yours, so here are the odds before anything is rolled.
+
+Success means he takes it on your terms and walks up to the Stallreeve with you tonight. Failure means he will not have it as you put it; what he does instead is his. I make it 45 in 100: even; plus 10 because he came down to you himself and wants the readings; minus 20 because the one thing he asked for in so many words, his landing and no other, is the thing you refuse; plus 10 because you leave him the first dawn and a standing place; minus 5 because the fee comes out of his hand and into his captains', so he can no longer say he keeps you; plus 5 because you want it set in front of the Stallreeve, as he does; minus 5 because a stick in a buyer's hand shows a short load as plainly as a full one, and nothing in the record says what his loads are.
+
+Two things for you to weigh before you commit. A measure of salt for a boat is his word for the fee and now yours; at the gate you have held it to a pinch, "and no more than a pinch of any of them". I have taken the measure as the boats' fee because you said it, and left the gate's as it is. And the sticks on a landing are the Tally-keeper's work and the Stallreeve's to allow, as the gate's were; you have asked for him to be there, and whether they take it on is theirs to say when it is put to them, and is not part of this roll.
+
+Argue any factor or change the asking, or tell me to roll it as it stands.

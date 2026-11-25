@@ -210,3 +210,11 @@ For the Keeper tonight (not decisions): the Assay-master has been told it is a g
 - One sealed answer taken to the sealed record.
 
 For the Keeper tonight (not decisions): when the ring sits and whether it lets the yard in; what the old weigher of Ruddfold answers; the autumn as told was resolved with no one told.
+
+## 4. Held, second: the landing at dusk, the ship owner's offer (Year 2, the fourth month)
+
+- The Weigher refused "at my landing and no other" and put terms back to him, in the player's words, before Bren and a pair of boatmen: the captain sets the load out sack by sack or basket by basket on the landing's beam or its own, and it calls weight, count, and how much is the stuff it is sold as; what it is not shown it says it was not shown; it reads at any ship owner's landing who asks, same terms and fee, on days it is not at the gate; his landing has the first dawn and a standing place; the fee is a measure of salt for a boat, from the captain and not from him, weighed in its own pans with the Tally-keeper watching; each reading cut on a split stick, half to the captain and half to the buyer if wanted, holding for the day; the Stallreeve present when it is set; the gate kept on market mornings and winning any clash; no nod that his boats are better.
+- The ship owner: "I came down here to buy a year of you, and you have sold me a morning and kept the rest." Neither yes nor no.
+- NOT RESOLVED. Odds stated to the player, 45, with factors; waiting on the player's go or argument. The sticks on a landing are the Tally-keeper's and the Stallreeve's to grant and are not part of the roll.
+- God-sense: no weight in the air from him.
+- One sealed answer taken to the sealed record.

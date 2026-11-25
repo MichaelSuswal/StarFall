@@ -57,6 +57,8 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 
 - 2026-11-24, Year 2 played day (a sealed part of the fourth reply, after giving its answers for the Assay-master): "I told the Assay-master I'd say "yes" to being more than a man with brass. It was the first time I let someone hear it. I felt lighter, and then I felt like someone who has shown a pocket. I want to see what he does with it."
 
+- 2026-11-24, Year 3 played day (a sealed part of the fourth reply, after refusing the ship owner's exclusive bargain at the landing): "I priced my own refusal with some care. Had I said yes to the salt and the exclusive landing, I would have had the first real hold on a house on the council, and I thought about that longer than I like. A trader who isn't willing to be bought for a year is cheap to read, and one who is willing is cheap to buy, and I'm not sure which I am."
+
 ## The DM's notes
 
 - 2026-11-24: Two open conduct lines carry "check with the player before acting" because of this file: the hall where anyone may check a scale against the god's own, and anything to do with the lost house, the lost name or the debt.
@@ -73,3 +75,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24, Year 3 played day: one sealed part so far, filed whole under Fear (its last two sentences are a belief about itself, kept with the fear they explain). Not put to the player for confirmation and not acted on: the Assay-master's three questions in the hall were written from the open scene (the unasked denial, the two old silences, his trade) before and apart from this part, and none of them is the question it names.
 - 2026-11-24, Year 3 played day: the second sealed part is filed under Fear. Not put to the player and not acted on. The Assay-master asked nothing about a particular power in the post that followed; that was written from the open scene (he had just refused the asking and turned to lock the weights), not to spare or to press this.
 - 2026-11-24, Year 3 played day: the third sealed part is filed under Fear. Its decision (to say what the Reading is if asked outright) was also given in the open post and is in the rolling save; its sealed reason is not. The Weigher did not read the Stallreeve: no bargain was struck and the player said it would not. Whether he asked was rolled as the world's question (r-0012); he did not. Not put to the player for confirmation and not acted on.
+- 2026-11-24, Year 3 played day: the fourth sealed part is filed under Other. Not put to the player and not acted on; it is no factor in the roll on the bargain.
