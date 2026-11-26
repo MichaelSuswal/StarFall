@@ -69,3 +69,7 @@ Q17. A builder or a keeper. Someone with a story worth following because they fi
 Q18. A truth about why things fall. I'd like to find out what makes a work last and what makes it quietly fail, and I'd like that to turn out to matter in a way I can't see yet.
 
 Q19. I want something I build to still be standing, and still in use, long after anyone remembers who made it. I'm not asking for my name on it. I'd like it to belong to the people who use it.
+
+## DM:
+
+The world below has taken your words in with the others, and it gives nothing back yet. The fall goes on, and the ground is a night nearer.
