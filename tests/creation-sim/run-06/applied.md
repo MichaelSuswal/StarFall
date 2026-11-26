@@ -142,6 +142,10 @@ From `build-check.md` (030b3a3), under the same go:
 - Minor 2: runbook section 4. The leak allow file's line form `in <file>: "<phrase>"` named beside the bare phrase.
 - Minor 8, the sealed half: `year-turn.md` section 3.3 names the player's people's three sealed things and says the side release is drawn from the sealed record, the world-side file among it, carrying only what the mortals know.
 
+Then, at the coordinator's word:
+- Decision 7 applied to the day sheet (the rest of moderate 1): `year-turn.md` section 2 and runbook 3b.8. The public sheet carries only what the god can see, hear and know; every fact it does not know (true figures, a weight's true value, a market day or name not yet told it, anything a mortal would have to tell or a reading show, and every board's facts, parameters, odds and reasons) is in `S/releases/NNN/dm-sealed.md`, now written every night the sheet is. Both templates rewritten to match; in doubt, a fact goes sealed.
+- Moderate 2 wording aligned with Agent E's `night-turn.md` step 0 and `morning-story.md` (read from the working tree before E's push): the thread stops at the next held moment wherever it falls; while a tail has an unplayed held moment the open year's player thread does not begin and is not told; it begins the night after the tail's last held moment is played; the world is resolved whole and the clock advances one year a night.
+
 Held for Michael, unchanged: moderate 4 (a search for a placed thing, found with no roll or rolled), moderate 5 (an ask the god promised to answer later becoming a held moment), the overrule of DM rolls, and the knack figures. The true figures on the public day sheet (the rest of moderate 1's finding) are left as the coordinator scoped the fix.
 
 ### Readings made, and conflicts for the build check
