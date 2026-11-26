@@ -33,3 +33,5 @@ Michael chose: "All three (Recommended)".
 Question: whether the three creation images for run 06 (surface sheet, cloud sheet, first morning painting) are approved.
 
 Michael wrote: "1. yes"
+
+- 2026-11-25 21:16 Pacific. Question: build and run 0.7? Michael: "ok.... go build and run .7". Then, asked the scope of run 07: "Fresh Day 1 + reopen sim-06 (Recommended)"; asked about paintings: "No paintings (Recommended)". So, as run 07 Part B (`tests/creation-sim/run-07/plan.md`): the sim-06 clock reopens at Year 4 for two play days and two night turns (Years 4 and 5), then closes. From Year 4, build 7 governs sim-06: L-0038 and L-0046 are set aside; sim-06 keeps its per-country seasons and L-0043, since its world was built on them. A Keeper setup pass first writes the carried Year 4 held moment's board and the Year 4 day sheet under build 7. No image requests: morning requests are written to `images/held/`.

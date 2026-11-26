@@ -1,4 +1,4 @@
 campaign: sim-06
 year: 4
-status: closed
+status: open
 season_opens: early autumn
