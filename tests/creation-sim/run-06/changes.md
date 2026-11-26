@@ -122,3 +122,10 @@ Build 7 is on hold (13:05: "okay. just hold on that.").
 - **Acts said in a sealed note.** 21:10: an ordinary habit the god states, such as checking a pocket, is conduct, carried out and never priced. An act the god says it does is done, wherever it is said.
 - **Powers given to mortals (33).** 21:10: "it costs the god something to give powers to its mortals. I'll leave it to the Keeper to price appropriately. If it dies with a person, then it is less powerful, so the price is less..."
 - **Everything else.** 13:23: "the rest you can change as recommended."
+
+## Michael's decisions after the build 7 check, 2026-11-25 (Pacific)
+
+- **A search for a thing the Keeper placed.** 21:57: "depends on the situation. I would default to things generally working out when there is no pressure or race." With no pressure or race, the search works out, no roll; under pressure or a race, it is rolled.
+- **An ask the god promised to answer later.** 22:00: "if it is a live scene that is super crucial.... then hold it. pending is fine in most cases". Pending by default; held only for a crucial live scene. This replaces the Year 2 Keeper ruling that such a promise is always held.
+- **The Keeper's overrule of DM rolls.** 22:03, agreeing to drop it: the Keeper never changes the result of a roll the DM made in play. Luck stays and works only through the odds the Keeper sets. This removes the build 5 overrule (DESIGN 12.6) everywhere.
+- **Knack growth.** 22:03: "no so rigid... after 10 years?? using a skill once per year for 10 years is not the same, or as good, as using it everyday for 5 years.... they grow slow... how much are they being used? how intentful is the player in trying to grow them? Generally, slower is better." No fixed figures. The Keeper judges growth by how much and how often the skill is used and how intently the god tries to push it, and errs slow. Agent K's figures are removed.
