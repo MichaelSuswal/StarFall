@@ -1,0 +1,132 @@
+{"id": "r-0001", "time": "2026-11-26T06:09:01Z", "pacific": "2026-11-25T22:09:01-08:00", "who": "keeper", "what": "star, phase", "die": "d100", "roll": 91, "face": 91}
+{"id": "r-0002", "time": "2026-11-26T06:09:01Z", "pacific": "2026-11-25T22:09:01-08:00", "who": "keeper", "what": "star, rain density", "die": "d6", "roll": 90, "face": 6}
+{"id": "r-0003", "time": "2026-11-26T06:09:01Z", "pacific": "2026-11-25T22:09:01-08:00", "who": "keeper", "what": "star, living radius", "die": "d8", "roll": 68, "face": 4}
+{"id": "r-0004", "time": "2026-11-26T06:09:01Z", "pacific": "2026-11-25T22:09:01-08:00", "who": "keeper", "what": "star, center body", "die": "d6", "roll": 65, "face": 5}
+{"id": "r-0005", "time": "2026-11-26T06:09:01Z", "pacific": "2026-11-25T22:09:01-08:00", "who": "keeper", "what": "star, long-game presence", "die": "d6", "roll": 72, "face": 6}
+{"id": "r-0006", "time": "2026-11-26T06:09:01Z", "pacific": "2026-11-25T22:09:01-08:00", "who": "keeper", "what": "star, Remainder", "die": "d10", "roll": 60, "face": 10}
+{"id": "r-0007", "time": "2026-11-26T06:09:01Z", "pacific": "2026-11-25T22:09:01-08:00", "who": "keeper", "what": "star, star content", "die": "d10", "roll": 6, "face": 6}
+{"id": "r-0008", "time": "2026-11-26T06:09:01Z", "pacific": "2026-11-25T22:09:01-08:00", "who": "keeper", "what": "star, ascended temper", "die": "d6", "roll": 6, "face": 6}
+{"id": "r-0009", "time": "2026-11-26T06:10:01Z", "pacific": "2026-11-25T22:10:01-08:00", "who": "keeper", "what": "god rolled first, lean Mind", "die": "d100", "roll": 85, "face": 85}
+{"id": "r-0010", "time": "2026-11-26T06:10:01Z", "pacific": "2026-11-25T22:10:01-08:00", "who": "keeper", "what": "god rolled first, lean Body", "die": "d100", "roll": 93, "face": 93}
+{"id": "r-0011", "time": "2026-11-26T06:10:01Z", "pacific": "2026-11-25T22:10:01-08:00", "who": "keeper", "what": "god rolled first, lean Presence", "die": "d100", "roll": 85, "face": 85}
+{"id": "r-0012", "time": "2026-11-26T06:10:01Z", "pacific": "2026-11-25T22:10:01-08:00", "who": "keeper", "what": "god rolled first, lean Temper", "die": "d100", "roll": 78, "face": 78}
+{"id": "r-0013", "time": "2026-11-26T06:10:01Z", "pacific": "2026-11-25T22:10:01-08:00", "who": "keeper", "what": "god rolled first, lean Regard for mortals", "die": "d100", "roll": 95, "face": 95}
+{"id": "r-0014", "time": "2026-11-26T06:10:01Z", "pacific": "2026-11-25T22:10:01-08:00", "who": "keeper", "what": "god rolled first, lean Order", "die": "d100", "roll": 68, "face": 68}
+{"id": "r-0015", "time": "2026-11-26T06:10:01Z", "pacific": "2026-11-25T22:10:01-08:00", "who": "keeper", "what": "god rolled first, lean Making", "die": "d100", "roll": 100, "face": 100}
+{"id": "r-0016", "time": "2026-11-26T06:10:01Z", "pacific": "2026-11-25T22:10:01-08:00", "who": "keeper", "what": "god rolled first, lean Company", "die": "d100", "roll": 26, "face": 26}
+{"id": "r-0017", "time": "2026-11-26T06:10:02Z", "pacific": "2026-11-25T22:10:02-08:00", "who": "keeper", "what": "god rolled first, lean Appetite", "die": "d100", "roll": 77, "face": 77}
+{"id": "r-0018", "time": "2026-11-26T06:10:02Z", "pacific": "2026-11-25T22:10:02-08:00", "who": "keeper", "what": "god rolled first, lean Trust", "die": "d100", "roll": 79, "face": 79}
+{"id": "r-0019", "time": "2026-11-26T06:10:14Z", "pacific": "2026-11-25T22:10:14-08:00", "who": "keeper", "what": "god rolled first, archetype seed", "die": "d30", "roll": 95, "face": null, "void": "draw above 90, rerolled"}
+{"id": "r-0020", "time": "2026-11-26T06:10:14Z", "pacific": "2026-11-25T22:10:14-08:00", "who": "keeper", "what": "god rolled first, archetype seed", "die": "d30", "roll": 6, "face": 6, "reason": "die reroll", "replaces": "r-0019"}
+{"id": "r-0021", "time": "2026-11-26T06:10:22Z", "pacific": "2026-11-25T22:10:22-08:00", "who": "keeper", "what": "god rolled first, domain", "die": "d20", "roll": 8, "face": 8}
+{"id": "r-0022", "time": "2026-11-26T06:10:23Z", "pacific": "2026-11-25T22:10:23-08:00", "who": "keeper", "what": "god rolled first, form", "die": "d12", "roll": 39, "face": 3}
+{"id": "r-0023", "time": "2026-11-26T06:10:23Z", "pacific": "2026-11-25T22:10:23-08:00", "who": "keeper", "what": "god rolled first, virtue", "die": "d10", "roll": 21, "face": 1}
+{"id": "r-0024", "time": "2026-11-26T06:10:23Z", "pacific": "2026-11-25T22:10:23-08:00", "who": "keeper", "what": "god rolled first, flaw", "die": "d10", "roll": 39, "face": 9}
+{"id": "r-0025", "time": "2026-11-26T06:10:23Z", "pacific": "2026-11-25T22:10:23-08:00", "who": "keeper", "what": "god rolled first, wound", "die": "d12", "roll": 1, "face": 1}
+{"id": "r-0026", "time": "2026-11-26T06:10:23Z", "pacific": "2026-11-25T22:10:23-08:00", "who": "keeper", "what": "god rolled first, voice", "die": "d10", "roll": 34, "face": 4}
+{"id": "r-0027", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Mind", "die": "d100", "roll": 22, "face": 22}
+{"id": "r-0028", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Body", "die": "d100", "roll": 84, "face": 84}
+{"id": "r-0029", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Presence", "die": "d100", "roll": 32, "face": 32}
+{"id": "r-0030", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Temper", "die": "d100", "roll": 93, "face": 93}
+{"id": "r-0031", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Regard for mortals", "die": "d100", "roll": 68, "face": 68}
+{"id": "r-0032", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Order", "die": "d100", "roll": 99, "face": 99}
+{"id": "r-0033", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Making", "die": "d100", "roll": 45, "face": 45}
+{"id": "r-0034", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Company", "die": "d100", "roll": 9, "face": 9}
+{"id": "r-0035", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Appetite", "die": "d100", "roll": 77, "face": 77}
+{"id": "r-0036", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, lean Trust", "die": "d100", "roll": 86, "face": 86}
+{"id": "r-0037", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, archetype seed", "die": "d30", "roll": 32, "face": 2}
+{"id": "r-0038", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, domain", "die": "d20", "roll": 81, "face": 1}
+{"id": "r-0039", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, form", "die": "d12", "roll": 5, "face": 5}
+{"id": "r-0040", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, virtue", "die": "d10", "roll": 48, "face": 8}
+{"id": "r-0041", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, flaw", "die": "d10", "roll": 25, "face": 5}
+{"id": "r-0042", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, wound", "die": "d12", "roll": 92, "face": 8}
+{"id": "r-0043", "time": "2026-11-26T06:10:28Z", "pacific": "2026-11-25T22:10:28-08:00", "who": "keeper", "what": "god rolled second, voice", "die": "d10", "roll": 51, "face": 1}
+{"id": "r-0044", "time": "2026-11-26T06:10:32Z", "pacific": "2026-11-25T22:10:32-08:00", "who": "keeper", "what": "god rolled third, lean Mind", "die": "d100", "roll": 13, "face": 13}
+{"id": "r-0045", "time": "2026-11-26T06:10:32Z", "pacific": "2026-11-25T22:10:32-08:00", "who": "keeper", "what": "god rolled third, lean Body", "die": "d100", "roll": 81, "face": 81}
+{"id": "r-0046", "time": "2026-11-26T06:10:32Z", "pacific": "2026-11-25T22:10:32-08:00", "who": "keeper", "what": "god rolled third, lean Presence", "die": "d100", "roll": 3, "face": 3}
+{"id": "r-0047", "time": "2026-11-26T06:10:32Z", "pacific": "2026-11-25T22:10:32-08:00", "who": "keeper", "what": "god rolled third, lean Temper", "die": "d100", "roll": 35, "face": 35}
+{"id": "r-0048", "time": "2026-11-26T06:10:32Z", "pacific": "2026-11-25T22:10:32-08:00", "who": "keeper", "what": "god rolled third, lean Regard for mortals", "die": "d100", "roll": 59, "face": 59}
+{"id": "r-0049", "time": "2026-11-26T06:10:32Z", "pacific": "2026-11-25T22:10:32-08:00", "who": "keeper", "what": "god rolled third, lean Order", "die": "d100", "roll": 28, "face": 28}
+{"id": "r-0050", "time": "2026-11-26T06:10:32Z", "pacific": "2026-11-25T22:10:32-08:00", "who": "keeper", "what": "god rolled third, lean Making", "die": "d100", "roll": 94, "face": 94}
+{"id": "r-0051", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, lean Company", "die": "d100", "roll": 64, "face": 64}
+{"id": "r-0052", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, lean Appetite", "die": "d100", "roll": 32, "face": 32}
+{"id": "r-0053", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, lean Trust", "die": "d100", "roll": 79, "face": 79}
+{"id": "r-0054", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, archetype seed", "die": "d30", "roll": 56, "face": 26}
+{"id": "r-0055", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, domain", "die": "d20", "roll": 97, "face": 17}
+{"id": "r-0056", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, form", "die": "d12", "roll": 59, "face": 11}
+{"id": "r-0057", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, virtue", "die": "d10", "roll": 66, "face": 6}
+{"id": "r-0058", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, flaw", "die": "d10", "roll": 59, "face": 9}
+{"id": "r-0059", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, wound", "die": "d12", "roll": 47, "face": 11}
+{"id": "r-0060", "time": "2026-11-26T06:10:33Z", "pacific": "2026-11-25T22:10:33-08:00", "who": "keeper", "what": "god rolled third, voice", "die": "d10", "roll": 79, "face": 9}
+{"id": "r-0061", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Mind", "die": "d100", "roll": 54, "face": 54}
+{"id": "r-0062", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Body", "die": "d100", "roll": 8, "face": 8}
+{"id": "r-0063", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Presence", "die": "d100", "roll": 4, "face": 4}
+{"id": "r-0064", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Temper", "die": "d100", "roll": 95, "face": 95}
+{"id": "r-0065", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Regard for mortals", "die": "d100", "roll": 48, "face": 48}
+{"id": "r-0066", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Order", "die": "d100", "roll": 76, "face": 76}
+{"id": "r-0067", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Making", "die": "d100", "roll": 32, "face": 32}
+{"id": "r-0068", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Company", "die": "d100", "roll": 22, "face": 22}
+{"id": "r-0069", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Appetite", "die": "d100", "roll": 18, "face": 18}
+{"id": "r-0070", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, lean Trust", "die": "d100", "roll": 44, "face": 44}
+{"id": "r-0071", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, archetype seed", "die": "d30", "roll": 80, "face": 20}
+{"id": "r-0072", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, domain", "die": "d20", "roll": 87, "face": 7}
+{"id": "r-0073", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, form", "die": "d12", "roll": 72, "face": 12}
+{"id": "r-0074", "time": "2026-11-26T06:10:37Z", "pacific": "2026-11-25T22:10:37-08:00", "who": "keeper", "what": "god rolled fourth, virtue", "die": "d10", "roll": 94, "face": 4}
+{"id": "r-0075", "time": "2026-11-26T06:10:38Z", "pacific": "2026-11-25T22:10:38-08:00", "who": "keeper", "what": "god rolled fourth, flaw", "die": "d10", "roll": 26, "face": 6}
+{"id": "r-0076", "time": "2026-11-26T06:10:38Z", "pacific": "2026-11-25T22:10:38-08:00", "who": "keeper", "what": "god rolled fourth, wound", "die": "d12", "roll": 96, "face": 12}
+{"id": "r-0077", "time": "2026-11-26T06:10:38Z", "pacific": "2026-11-25T22:10:38-08:00", "who": "keeper", "what": "god rolled fourth, voice", "die": "d10", "roll": 97, "face": 7}
+{"id": "r-0078", "time": "2026-11-26T06:10:41Z", "pacific": "2026-11-25T22:10:41-08:00", "who": "keeper", "what": "god rolled fifth, lean Mind", "die": "d100", "roll": 62, "face": 62}
+{"id": "r-0079", "time": "2026-11-26T06:10:41Z", "pacific": "2026-11-25T22:10:41-08:00", "who": "keeper", "what": "god rolled fifth, lean Body", "die": "d100", "roll": 2, "face": 2}
+{"id": "r-0080", "time": "2026-11-26T06:10:41Z", "pacific": "2026-11-25T22:10:41-08:00", "who": "keeper", "what": "god rolled fifth, lean Presence", "die": "d100", "roll": 57, "face": 57}
+{"id": "r-0081", "time": "2026-11-26T06:10:41Z", "pacific": "2026-11-25T22:10:41-08:00", "who": "keeper", "what": "god rolled fifth, lean Temper", "die": "d100", "roll": 14, "face": 14}
+{"id": "r-0082", "time": "2026-11-26T06:10:41Z", "pacific": "2026-11-25T22:10:41-08:00", "who": "keeper", "what": "god rolled fifth, lean Regard for mortals", "die": "d100", "roll": 97, "face": 97}
+{"id": "r-0083", "time": "2026-11-26T06:10:41Z", "pacific": "2026-11-25T22:10:41-08:00", "who": "keeper", "what": "god rolled fifth, lean Order", "die": "d100", "roll": 53, "face": 53}
+{"id": "r-0084", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, lean Making", "die": "d100", "roll": 85, "face": 85}
+{"id": "r-0085", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, lean Company", "die": "d100", "roll": 60, "face": 60}
+{"id": "r-0086", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, lean Appetite", "die": "d100", "roll": 30, "face": 30}
+{"id": "r-0087", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, lean Trust", "die": "d100", "roll": 45, "face": 45}
+{"id": "r-0088", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, archetype seed", "die": "d30", "roll": 93, "face": null, "void": "draw above 90, rerolled"}
+{"id": "r-0089", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, archetype seed", "die": "d30", "roll": 68, "face": 8, "reason": "die reroll", "replaces": "r-0088"}
+{"id": "r-0090", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, domain", "die": "d20", "roll": 62, "face": 2}
+{"id": "r-0091", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, form", "die": "d12", "roll": 10, "face": 10}
+{"id": "r-0092", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, virtue", "die": "d10", "roll": 74, "face": 4}
+{"id": "r-0093", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, flaw", "die": "d10", "roll": 59, "face": 9}
+{"id": "r-0094", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, wound", "die": "d12", "roll": 30, "face": 6}
+{"id": "r-0095", "time": "2026-11-26T06:10:42Z", "pacific": "2026-11-25T22:10:42-08:00", "who": "keeper", "what": "god rolled fifth, voice", "die": "d10", "roll": 57, "face": 7}
+{"id": "r-0096", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Mind", "die": "d100", "roll": 13, "face": 13}
+{"id": "r-0097", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Body", "die": "d100", "roll": 26, "face": 26}
+{"id": "r-0098", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Presence", "die": "d100", "roll": 77, "face": 77}
+{"id": "r-0099", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Temper", "die": "d100", "roll": 98, "face": 98}
+{"id": "r-0100", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Regard for mortals", "die": "d100", "roll": 22, "face": 22}
+{"id": "r-0101", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Order", "die": "d100", "roll": 30, "face": 30}
+{"id": "r-0102", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Making", "die": "d100", "roll": 23, "face": 23}
+{"id": "r-0103", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Company", "die": "d100", "roll": 3, "face": 3}
+{"id": "r-0104", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Appetite", "die": "d100", "roll": 84, "face": 84}
+{"id": "r-0105", "time": "2026-11-26T06:10:46Z", "pacific": "2026-11-25T22:10:46-08:00", "who": "keeper", "what": "god rolled sixth, lean Trust", "die": "d100", "roll": 15, "face": 15}
+{"id": "r-0106", "time": "2026-11-26T06:10:47Z", "pacific": "2026-11-25T22:10:47-08:00", "who": "keeper", "what": "god rolled sixth, archetype seed", "die": "d30", "roll": 100, "face": null, "void": "draw above 90, rerolled"}
+{"id": "r-0107", "time": "2026-11-26T06:10:47Z", "pacific": "2026-11-25T22:10:47-08:00", "who": "keeper", "what": "god rolled sixth, archetype seed", "die": "d30", "roll": 53, "face": 23, "reason": "die reroll", "replaces": "r-0106"}
+{"id": "r-0108", "time": "2026-11-26T06:10:47Z", "pacific": "2026-11-25T22:10:47-08:00", "who": "keeper", "what": "god rolled sixth, domain", "die": "d20", "roll": 92, "face": 12}
+{"id": "r-0109", "time": "2026-11-26T06:10:47Z", "pacific": "2026-11-25T22:10:47-08:00", "who": "keeper", "what": "god rolled sixth, form", "die": "d12", "roll": 8, "face": 8}
+{"id": "r-0110", "time": "2026-11-26T06:10:47Z", "pacific": "2026-11-25T22:10:47-08:00", "who": "keeper", "what": "god rolled sixth, virtue", "die": "d10", "roll": 62, "face": 2}
+{"id": "r-0111", "time": "2026-11-26T06:10:47Z", "pacific": "2026-11-25T22:10:47-08:00", "who": "keeper", "what": "god rolled sixth, flaw", "die": "d10", "roll": 69, "face": 9}
+{"id": "r-0112", "time": "2026-11-26T06:10:47Z", "pacific": "2026-11-25T22:10:47-08:00", "who": "keeper", "what": "god rolled sixth, wound", "die": "d12", "roll": 32, "face": 8}
+{"id": "r-0113", "time": "2026-11-26T06:10:47Z", "pacific": "2026-11-25T22:10:47-08:00", "who": "keeper", "what": "god rolled sixth, voice", "die": "d10", "roll": 21, "face": 1}
+{"id": "r-0114", "time": "2026-11-26T06:10:51Z", "pacific": "2026-11-25T22:10:51-08:00", "who": "keeper", "what": "god rolled seventh, lean Mind", "die": "d100", "roll": 11, "face": 11}
+{"id": "r-0115", "time": "2026-11-26T06:10:51Z", "pacific": "2026-11-25T22:10:51-08:00", "who": "keeper", "what": "god rolled seventh, lean Body", "die": "d100", "roll": 7, "face": 7}
+{"id": "r-0116", "time": "2026-11-26T06:10:51Z", "pacific": "2026-11-25T22:10:51-08:00", "who": "keeper", "what": "god rolled seventh, lean Presence", "die": "d100", "roll": 29, "face": 29}
+{"id": "r-0117", "time": "2026-11-26T06:10:51Z", "pacific": "2026-11-25T22:10:51-08:00", "who": "keeper", "what": "god rolled seventh, lean Temper", "die": "d100", "roll": 89, "face": 89}
+{"id": "r-0118", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, lean Regard for mortals", "die": "d100", "roll": 8, "face": 8}
+{"id": "r-0119", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, lean Order", "die": "d100", "roll": 52, "face": 52}
+{"id": "r-0120", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, lean Making", "die": "d100", "roll": 23, "face": 23}
+{"id": "r-0121", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, lean Company", "die": "d100", "roll": 9, "face": 9}
+{"id": "r-0122", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, lean Appetite", "die": "d100", "roll": 1, "face": 1}
+{"id": "r-0123", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, lean Trust", "die": "d100", "roll": 96, "face": 96}
+{"id": "r-0124", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, archetype seed", "die": "d30", "roll": 18, "face": 18}
+{"id": "r-0125", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, domain", "die": "d20", "roll": 66, "face": 6}
+{"id": "r-0126", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, form", "die": "d12", "roll": 99, "face": null, "void": "draw above 96, rerolled"}
+{"id": "r-0127", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, form", "die": "d12", "roll": 98, "face": null, "reason": "die reroll", "replaces": "r-0126", "void": "draw above 96, rerolled"}
+{"id": "r-0128", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, form", "die": "d12", "roll": 73, "face": 1, "reason": "die reroll", "replaces": "r-0127"}
+{"id": "r-0129", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, virtue", "die": "d10", "roll": 89, "face": 9}
+{"id": "r-0130", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, flaw", "die": "d10", "roll": 99, "face": 9}
+{"id": "r-0131", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, wound", "die": "d12", "roll": 64, "face": 4}
+{"id": "r-0132", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, voice", "die": "d10", "roll": 13, "face": 3}
