@@ -128,7 +128,7 @@ Every god gives a reason for each thing it asks and for each price it accepts. A
 ## 12. The people it leans toward
 Worked out from the leans when the sheet is written, and written on the sheet in words, so that seven gods do not come out alike. It is the god's own lean, as a lean is: the god builds within it, and may hope otherwise if it gives its reasons in `people-hoped.md`.
 
-Every god comes down to lead a people, to build, rule and spread (the premise of The Between). The leans below decide the form that takes, never whether. Every NPC god starts with a people and with helpers who run things in its absence (the `## Helpers` section of the people record); the rule lean decides the form they take. The god may refuse them, dismiss them or never meet them in play, always for a reason it gives, logged; once dismissed they are not forced back. A god that bends or refuses a default when it builds its people gets a negotiation round on that alone, even with no edge, the cost stated plainly, and the change itself may be the price (runbook 3a.1; Michael, 2026-11-23).
+Every god comes down to lead a people, to build, rule and spread (the premise of The Between). The leans below decide the form that takes, never whether. Every NPC god starts with a people and with helpers who run things in its absence (the `## Helpers` section of the people record); the rule lean decides the form they take. The god may refuse them, dismiss them or never meet them in play, always for a reason it gives, logged; once dismissed they are not forced back. A god that bends or refuses a default when it builds its people has the cost stated plainly in its round 1, beside any edges, or in a round 1 of its own when it proposed no edge, and the change itself may be the price (runbook 3a.1; Michael, 2026-11-23; run 06 item 38).
 
 The helpers serve the god from landing only if its meeting says its people already know it. A god that comes to a people who do not yet know it finds the offices there and filled; each becomes its helper as it hears the god, in play, and until then runs on the people's own custom, as the player's designed helpers do before they know their god. The world listens and does not obey.
 
@@ -230,3 +230,10 @@ Every NPC god has a luck modifier, as the player's god does, earned the same way
 ## 15. Knacks
 
 Every NPC god has two or three small innate knacks, drawn from its own secret backstory on Night 2 (runbook 2.7). Whether it has two or three is a balance tool: the Keeper sets the count by the god's weight in `S/balance.md`, toward the band, and logs the count with its reason. The knack format is in runbook template 7.13. A knack grows only by use of its related skills, never by any other trigger, and never into a power; the Keeper tracks its use in its block of the god's sealed growth file (runbook template 7.10), the same for every god (Michael, 2026-11-24).
+
+## 16. Growth and the gods' agents
+
+Powers feel limited to what was given. A power or a knack progresses slowly, by being done a lot and by pushing at new boundaries, and a god a little faster than a mortal (Michael, 2026-11-25). Nothing prevents a god from trying, and some gods have a reason to start early; others never explore. So:
+- No release, round or prompt asks an NPC god to grow, invites it to state an attempt, or names growth as a thing it might do. An attempt arises from the god's own decisions or not at all.
+- No hint of any kind about a change in powers reaches any god's agent, the player or the DM before year 70 (`SPOILERS_do_not_open/keeper/year-turn.md`, growth): no release line, no DM line, no felt change, no prompt. Growth earned before then is kept in the sealed growth file and shows only in use, as what happened.
+- A hidden power surfaces when its condition is met, and its condition is set on Night 2 to be rarely met in the early years (runbook 2.7).

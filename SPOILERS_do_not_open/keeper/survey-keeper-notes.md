@@ -21,12 +21,14 @@ How the Keeper uses the Day 1 survey answers (and the Day 2 and 3 follow-ups) to
 
 ## Given and discovered
 
-The player is never told which wishes the world kept. What is innate to a god is given before Day 2: the Keeper writes it to `P/player/world-rules.md` for the DM, in the same words the NPC gods receive in their Night 2 releases, as plain facts of being a god here. That file carries three things and nothing else: god-sense as set, the bodies rule as set, and the pricing terms for mortal magic (it is simple, and it costs the worker). The god's own power limits are settled at the Day 2 table and live on its card. Everything else the survey sets is learned from the world, in play, through what the god and its people meet.
+The player is never told which wishes the world kept. What is innate to a god is given before Day 2: the Keeper writes it to `P/player/world-rules.md` for the DM, in the same words the NPC gods receive in their Night 2 releases, as plain facts of being a god here. That file carries three things and nothing else: god-sense as set, the bodies rule as set, and the pricing terms for mortal magic (it is simple, and it costs the worker). The waking month is given too, but not in that file: it goes to the DM in the Day 3 brief and to the NPC gods in their Night 2 and Night 3 releases, in the same words. The god's own power limits are settled at the Day 2 table and live on its card. Everything else the survey sets is learned from the world, in play, through what the god and its people meet.
 
 | Question | Given before Day 2 | Discovered in play |
 |---|---|---|
 | Q15 god-sense | yes, as direction, nearness or weight, never a count | |
 | Q16 bodies | yes | |
+| The waking month (Q3's vote) | yes, the month decided on Night 1 and its season, the same for every god, in the Night 2 and Night 3 releases and the Day 3 brief | |
+| Q3 the climate | | yes |
 | Q7 what magic feels like and costs | only "it costs the worker", as a pricing term | its feel, and what the cost takes and from whom |
 | Q6 how much magic mortals have | | yes |
 | Q8 how much a god stands out | | yes |
@@ -121,7 +123,14 @@ Principle from run 01 (Night 3, step 3.4, shading): when one result is said to "
 
 **2. The land that calls.** Placement, not a rule. Each god lands in country that suits its own answer (DESIGN 7.5). The answers also tell the Keeper what terrain the world must contain. Lay the land so each god's country shifts realistically into its neighbors' over distance.
 
-**3. Seasons, and the season each year opens on.** Scale for the climate (table above), applied consistently and varying by geography as real climate does: latitude, altitude, distance from sea. The season each god wakes into is personal: the last sentence of answer 3, written to the god's sheet by the Keeper. It sets that god's return sequence. The climate is discovered; the waking season is the god's own.
+**3. Seasons, and the month the world wakes in.** Scale for the climate (table above), applied consistently and varying by geography as real climate does: latitude, altitude, distance from sea. How hard a season is varies by place; when it comes does not. All the world goes through the seasons at the same time (Michael, 2026-11-25): one count of months, and month N is the same month, in the same season, in every country. The climate is discovered.
+
+The waking month is not blended. Every god, the player's and each NPC's, votes its top two months to wake in the Day 1 survey, a first and a second. The Keeper decides the month on Night 1 (runbook 1.5) and logs why:
+- Count every month named, first choices and second choices apart, in the keeper log only. A god that names no month casts no vote; one that names a single month casts one. An answer that names a season and no month counts toward that season, and the Keeper weighs it for each of the season's months, logged.
+- The Keeper decides with the count in view: a month named by more gods weighs more, and a first choice more than a second. Where the count leaves the choice open, the Keeper decides by what makes the more interesting game, as a tie is decided (arithmetic, rule 4), with its reason logged and no die. The reason never names which god the month favors or hinders, and the Keeper writes in the neutrality self-check that it weighed none.
+- The month is one month for the whole world and the same for every god. It is month 1 of every country's count, the month of the landing, and the clock's `season_opens` (runbook 3b.8). Nothing any god is told reads like a vote result: the releases give the month as the month the world wakes in, never as chosen.
+
+This replaces each country opening its year in its own season (DESIGN 8.1, as it stood) and ruling L-0043 of sim-06, which bound only that campaign.
 
 **4. What lies past the borders.** Scale. Sets how much land is held by godless peoples and how much is open, by area as well as by count of regions. Balance per DESIGN 4.9. Discovered.
 
@@ -151,7 +160,7 @@ Principle from run 01 (Night 1, Q15): a vote on a world rule stands whole. Where
 
 **16. Bodies.** Rule, by vote: "Can a god be in more than one place at once? One body, or several, and if several, what should it cost?" Count one body against more than one; a bent answer counts with the nearer side. If more than one carries, the number allowed and the cost are sub-points from the answers on that side, and every god pays the same cost. If no answer speaks to it, one body, logged as a default. Given before Day 2.
 
-There is no rule on oaths. A promise between gods is worth what the god who gave it is worth; nothing in the world enforces it or punishes breaking it, and reputation applies.
+There is no rule on oaths. A promise between gods is worth what the god who gave it is worth; nothing in the world enforces it or punishes breaking it, and reputation applies. A wish about promises (that a promise has weight, that an oath binds) is blended as mood, in the Q1 pool, and as what mortals honor, in the peoples' codes and customs, and never as a binding on gods (run 06 item 3).
 
 **17. The mortals worth following.** Pool. Feeds the kinds of mortals the world's peoples tend to produce and the Keeper's small cast of world-level figures. Does not script anyone. The best characters still come from play. Discovered.
 

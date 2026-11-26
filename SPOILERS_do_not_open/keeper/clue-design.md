@@ -88,6 +88,8 @@ Truth 8.
 | Hask, after the great working and the surge of desperate worship, is seen one night a hand's breadth off the ground, then sets down shaken, and shortly after begins giving away its power to its priests | REPORTED | 28 | Ostrel refugees and traders | Struck by the star; a trick of the eye; Hask is leaving | The god checks its own shadow |
 | The god's own shadow pales as it approaches the ceiling; temple stone softens at the edges; prayers come back as echoes | SEEN | When power exceeds 60 | God's own body | Illness; the star's blessing; the star's hunger | The ascended speak (Conclusion 7) |
 
+No hint of a change in powers before year 70 (Michael, 2026-11-25): in every campaign, a clue that shows a god a change in its own power (the first, second and fifth rows above: its power felt rising or falling, the god made lighter, its shadow paling) surfaces no earlier than year 70, whatever the Earliest column says, and the pacing spine is read the same way. What others are seen to do (Oldmark's proverb, Hask lifting) is the world, not the god's own power, and keeps its years.
+
 Wrong branch: the god, feeling light, demands more worship to "root itself." Rises faster. The world warns three times. If the god rises, the campaign continues from inside the star, which is a different game and a short one.
 
 ## Conclusion 6. The Night Stone is kin to the gods; the gods are the remainder of a far fall
