@@ -86,7 +86,7 @@ Sealed part: <none, or the path of dm-sealed.md>
 
 `P/releases/NNN/civ-<people>-pass1.md`, public. Every NPC people's pass-one release (`S/releases/NNN/civ-<people>-pass1.md`) takes the same form, sealed, without the held-moment line.
 
-- **Months and counts (run 06 item 98).** Every phenomenon the people would see is given by their own word for it, with the months it was seen and how many times in all. The months come from `S/state/phenomena.json` where it carries them; otherwise each occurrence's month is rolled in pass one, one d12 each in the one count, before the release is written, logged. The count is the true figure from `tools/phenomena.py`, and is given only where the people would see every occurrence; where they would see only some, the release gives the months of those seen and no count (mystery standard rule 15). All the world counts one set of months (Michael, 2026-11-25), so the same months go to every people that would see them.
+- **Months and counts (run 06 item 98).** Every phenomenon the people would see is given by their own word for it, with the months it was seen and how many times in all. The months come from `tools/phenomena.py SPOILERS_do_not_open/campaigns/<name> NNN`, which prints them after the count when `S/state/phenomena.json` carries a `months` field for the year (months counted from the waking month). Where the year has none, each occurrence's month is rolled in pass one, one d12 each in the one count, before the release is written, logged, and written into the file's `months` for that year, so the tool prints them from then on and checks that they number the count. The count is the true figure from `tools/phenomena.py`, and is given only where the people would see every occurrence; where they would see only some, the release gives the months of those seen and no count (mystery standard rule 15). All the world counts one set of months (Michael, 2026-11-25), so the same months go to every people that would see them.
 - **The held moment.** The release names the first held moment already known (a held moment carried from the morning, or a scene the decisions file prepares), by its month and day, and tells the agent to write nothing of its people past it in their public files; anything past it goes in their sealed files, marked as in section 1. A major encounter the agent meets in unplayed time is stopped at contact the same way.
 - **What goes where (decision 7).** The people's public files hold only what the god could witness or be told. What they did, said and knew out of its sight and hearing goes in their sealed files, `SPOILERS_do_not_open/campaigns/<name>/civs/<people>/`.
 
@@ -127,7 +127,45 @@ never say that such a thing was asked, told or known.
 <the report's full path, as night-turn.md names it>
 ```
 
-### 3.2 The sealed side release
+### 3.2 The decide release
+
+`S/releases/NNN/<label>-decide.md`, one for each NPC god, the frame it decides its year from (`engine/night/night-turn.md` step 0; run 06 item 74). The same frame, in the same words, for all seven but the label and what is the god's own. It prompts nothing about growth (section 8) and nothing about prices, beyond a cost the Keeper puts back to the god for a gift it gave a mortal (section 6).
+
+```
+# Decide: <label>, Year NNN
+
+<the premise, runbook template 7.0>
+
+## The year
+Year NNN begins in <the waking month>, the same month for the whole world. A
+year here is twelve months.
+
+## Last year
+<the full path of last year's release for this god; at Year 1, its landing
+release, SPOILERS_do_not_open/campaigns/<name>/releases/000/<label>-landing.md>
+
+## What your people tell you
+<the section "What the people tell their god", copied whole from its civ
+agent's last report (years/NNN-1-report.md in the people's folder); at Year 1,
+"Nothing yet.">
+
+## Messages delivered to you
+<each message delivered this year, by its file's full path, or "None.">
+
+## Put back to you
+<a cost for a gift to a mortal, in plain words, which you take or decline in
+your decisions; asks still pending to you, by the asker's words; or "Nothing.">
+
+## Write
+Update record-of-gods.md and goals.md in your own folder, then write your
+decisions for the year to
+SPOILERS_do_not_open/campaigns/<name>/gods/<label>/decisions-NNN.md. Write no
+other file. Then stop.
+```
+
+It ends with the release lines of runbook section 7.
+
+### 3.3 The sealed side release
 
 `S/releases/NNN/civ-<people>-sealed.md`, for the player's people's agent only, never the DM (run 06 item 76). What the people's office holders and other mortals know that the god does not, so the agent can play them.
 
@@ -195,5 +233,5 @@ Michael, 2026-11-25 (decision 2; run 06 items 79 and 99).
 - **No hint before year 70.** Until at least year 70, no hint of any kind about a change in powers reaches any god, the player or any NPC: no release line, no DM line, no felt change, no day sheet line, no prompt. The growth file records what the year earned; what grows shows only in use, as what happened, and its card entry is written when it shows.
 - **Hidden powers.** A hidden power surfaces when its condition is met, and its condition was set on Night 2 to be rarely met in the early years (runbook 2.7). The Keeper never arranges the condition and never steers away from it. A surfacing is discovery, not growth: it is told as what the god meets.
 - **Knack use** is counted as runbook template 7.10 gives: a line when the skill itself was exercised, in whole or in part; being near it is not use.
-- **The knack figures** (`engine/rules/powers.md` section 4 leaves them here; run 06 item 79), the same for every god. A year counts as a year of use when a related skill was exercised at least once in a scene or in unplayed time. A year of use counts as a year that pushed when the skill was taken past anything it had done before (a new kind of work, a harder case, a farther reach), named in its `Use` line. A god's knack shades one step further after ten years of use, at least three of them years that pushed; a knack or power a god gave a mortal, after twelve years of use, at least four of them years that pushed (gods a little faster than mortals). Gaps do not reset the count. Each step is written `Grown` in the growth file with the years it rests on.
+- **The knack figures** (`engine/rules/powers.md` section 4 leaves them here; run 06 item 79), the same for every god. Set by Agent K in build 7 and awaiting Michael's ruling; applied as written until he rules. A year counts as a year of use when a related skill was exercised at least once in a scene or in unplayed time. A year of use counts as a year that pushed when the skill was taken past anything it had done before (a new kind of work, a harder case, a farther reach), named in its `Use` line. A god's knack shades one step further after ten years of use, at least three of them years that pushed; a knack or power a god gave a mortal, after twelve years of use, at least four of them years that pushed (gods a little faster than mortals). Gaps do not reset the count. Each step is written `Grown` in the growth file with the years it rests on.
 - **Standing, each year** (written in from sim-06's Year 1 ruling, run 06 item 79): the same rule for every god. No move where only a few hold the god's shape in mind; one point where most of its people have held its shape in mind through the year, as whatever they take it for; two where a large part hold it as the one they awaited; three where a people several times the usual size has held it so, and served it, all year. Each move a dated line in `S/state/standing.md` with its reason.

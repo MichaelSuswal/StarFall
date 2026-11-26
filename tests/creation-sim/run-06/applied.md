@@ -107,6 +107,14 @@ Applied 2026-11-25 under Michael's go of 21:16 Pacific, in `SPOILERS_do_not_open
 - Agent E: `powers.md` section 5 says the DM's release carries what the god feels of an attempt each year; under decision 2 that is no earlier than year 70. Check the section matches.
 - Agent T: `lockcheck.py` should treat `S/releases/NNN/dm-sealed.md` as sealed; `phenomena.json` may carry each occurrence's months, which the pass-one release reads when present, and otherwise the Keeper rolls one d12 each.
 
+### Second pass, after Agents E and T
+
+Checked every note in Agent E's "For Agent K" list against the sealed files. Covered already: two waking months per god in the Night 1 release and the blend, the month decided and logged on Night 1 (decision 6); the day sheet template with facts, parameters and reasons for the DM only and named mortals with sex (item 60, decision 1, item 65); the player's people's sealed side release (item 76); Night 3a pricing of powers given to mortals, written to `corrections.md` (decision 9, item 33); `card-summary.md` in each god folder (item 77); the knack figures (item 79); the `## Act` heading (decision 8). Changed now:
+- `year-turn.md`: new section 3.2, the decide release template (item 74, decision 2: no growth prompt; decision 9: a cost put back to an NPC god); the sealed side release renumbered 3.3. Section 3.1: the months of a seen phenomenon come from `tools/phenomena.py`, which prints the optional `months` field; a year without them is rolled in pass one and written into that field (item 98, with Agent T's change). The knack figures marked as set by Agent K and awaiting Michael's ruling (item 79).
+- `creation-runbook.md` 3b.6: the `name` field read as Agent T documents it, the words a count is matched beside; months may be written at creation under `months` (items 53, 98).
+
+Held, as the coordinator directed: the overrule of DM rolls stays on the narrow reading, and the knack figures stand as written, both awaiting Michael.
+
 ### Readings made, and conflicts for the build check
 
 - Item 24 read to cover every god release, Night 3's people release included ("an NPC god's release says nothing about prices, trades or weaknesses at all"): the self form asks no drawback or trade, the people form no weakness, and the force measure is given without "edge" or "price". Every price the player was told at the table reaches the god in its round 1, by kind.
