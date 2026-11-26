@@ -15,19 +15,20 @@ Michael, 2026-11-25 (decision 1; run 06 items 81, 82, 90 and 94).
 - **The world goes on.** The rest of the world (the NPC gods and their peoples, the godless peoples, the sky, the schedule) is resolved for the whole year, as `night-turn.md` gives. Whatever of it would reach the player's god or its people after the held moment (a trader's boat, a storm, a letter) is resolved as the world's and stands, and is not told: it reaches them on the night that resolves that stretch. Whatever turns on what the player's god or people do after the moment (an NPC people's answer to them) is held with the thread, logged under `Held past the first moment` in the keeper log, and resolved on that night.
 - **Only the first is boarded.** The DM's release carries the first held moment as a board (section 2). A later moment in the unresolved stretch is not yet reached and carries no board.
 - **A played scene holds.** The night after a held moment is played, the Keeper reads the transcript, the decisions file and what the DM and the player's people's agent feed up, and accepts the result as played. It never unmakes it: no reroll, no overrule of any roll made in it (`sealed-factors.md`, DM rolls in play; the sealed factors entered through the board), no new board laid under it, no told line taken back. Where the DM played outside a parameter the Keeper wrote, the played result still holds, and the departure is logged under `Rulings for review` as a finding, never corrected.
-- **Working the answer in.** That night resolves the player's people's stretch from the moment on, with the played answer: the agent's sealed draft of it is set aside, the agent writes the stretch again from its release, and pass two resolves it with the world's events already fixed for those months. It stops again at the next held moment, if one comes, and the morning tells up to it.
+- **Working the answer in.** That night resolves the player's people's stretch from the moment on, with the played answer: the agent's sealed draft of it is set aside, the agent writes the stretch again from its release, and pass two resolves it with the world's events already fixed for those months.
+- **A second held moment.** Where that stretch (the held year's tail) reaches another held moment, the player's thread stops at it, as at the first: nothing of the god or its people past it is resolved as what happened, released or told, the morning tells only up to it, and it is boarded as section 2 gives. At most one untold stretch of the player's thread is open at a time: the stretch past the new moment is the open one, and no later year's player thread is resolved until it is told. The world is still resolved whole, each night, as above. The clock, and how the decisions file carries the earlier year, follow `engine/night/night-turn.md` and `engine/rules/morning-story.md`.
 - **Dating.** A held moment keeps its own date: its month in the one count, and its year. What was played sits under the year it was played in, as `night-turn.md` and `engine/rules/morning-story.md` give.
 - **Superseded.** For every new campaign this replaces sim-06's L-0038 (a prepared event resolved in the night on the handed-off terms) and L-0046 (the told year reworked against the played moments): no prepared event is resolved in the night, and no told stretch is reworked, since nothing past the first held moment is told. Run 06 item 101 falls away.
 
 ## 2. The day sheet
 
-Run 06 item 60, with decision 1, and items 65, 72, 83, 92, 93 and 94. The DM's source for small world facts in play. The Keeper writes it in pass two, after the year is resolved and before the releases are checked, as the `## Day sheet` section of `P/releases/NNN/dm.md`; on Night 3b it is written into `P/releases/000/dm.md` for the first played day. It is for the DM only. A fact the DM needs that is not on it is rolled by the DM, its odds stated to the player in (oog) before the roll, and logged for the Keeper, who reads the year's DM rolls in pass two.
+Run 06 item 60, with decision 1, and items 65, 72, 83, 92, 93 and 94. The DM's source for small world facts in play. The Keeper writes it in pass two, after the year is resolved and before the releases are checked, as the `## Day sheet` section of `P/releases/NNN/dm.md`, with its sealed part in `S/releases/NNN/dm-sealed.md` (below); on Night 3b both are written for the first played day, in `releases/000/`. It is for the DM only. A fact the DM needs that is not on it is rolled by the DM, its odds stated to the player in (oog) before the roll, and logged for the Keeper, who reads the year's DM rolls in pass two.
 
 What goes on it:
 - What the next played day is likely to need, judged from the decisions file, the pending list, the conduct profile and the held moment: the days it may cover, the people the god is likely to meet, the places in reach. It is not the world's whole record.
 - The cast the god is likely to meet, each with a name and sex (run 06 item 65), by the naming rule: the Keeper names what is its to name, never what the player left unnamed for play. A name the god has not heard is marked "not yet said", for the DM to use only when the mortal says it or is named in the god's hearing.
 - Every figure with its true value where the god can test it (a weight's true figure, a scale's error, the price at market and the price asked of a stranger).
-- For the first held moment, and for each scene the player has said it will prepare or play, the board: its facts, its parameters and their reasons (decision 1). Parameters are what each figure wants, what it will and will not do, what it will and will not accept, its stance and its opening words, and the ranges the outcomes fall in. The reasons are for the DM only: the DM may share them, lie about them in a figure's voice, or not mention them.
+- For the first held moment, and for each scene the player has said it will prepare or play, the board: what the god can see, hear and know at its opening, in the public sheet; and its facts, its parameters and their reasons (decision 1), in the sealed part only, never in the public release (build 7 check, moderate 1). Parameters are what each figure wants, what it will and will not do, what it will and will not accept, its stance and its opening words, and the ranges the outcomes fall in. The reasons are for the DM only: the DM may share them, lie about them in a figure's voice, or not mention them.
 - For each world question the board may raise, its odds with their factors, written as the DM will state them: whose attempt or whose question it is, and what success means for that party (run 06 item 72).
 
 The sealed factors enter a board only as `sealed-factors.md` gives: a range that turns on chance for the god or its people is set with the god's steps before the board is written, logged in the keeper log only, and never named in the facts, parameters or reasons. The odds the sheet gives the DM to state leave it out.
@@ -36,7 +37,7 @@ Where it comes from: the sealed record. A fact the record does not hold is set b
 
 What never goes on it: the sealed factor, by name or effect; another god, or a count of gods, beyond what the scene puts before the god's own senses; a mystery's truth beyond what a figure present knows; a phenomenon's count before it is seen; any hint of a change in powers before year 70 (section 8); a sealed term.
 
-**The sealed part.** What the board needs that may not stand in a public file (a sealed term, a truth a figure holds that the god has not witnessed and the public file may not show, what an act in a sealed note shows the god, section 5) goes in `S/releases/NNN/dm-sealed.md`, "Written by the Keeper. Read by the DM, the Keeper and the checker.", sealed only where needed (run 06 item 94). The public sheet names it at the board ("Sealed part: in SPOILERS_do_not_open/campaigns/<name>/releases/NNN/dm-sealed.md") or writes "Sealed part: none". No civ or NPC god agent is given it.
+**The sealed part.** `S/releases/NNN/dm-sealed.md`, "Written by the Keeper. Read by the DM, the Keeper and the checker." It holds, for every held moment and prepared scene on the sheet, its facts, its parameters, its world-question odds and its reasons, in the template below; and anything else the sheet needs that may not stand in a public file (a sealed term, a truth a figure holds that the god has not witnessed, what an act in a sealed note shows the god, section 5). It is written whenever the sheet has a held moment or prepared scene, or such a need, and otherwise not. The public sheet points to it at each board ("Facts, parameters and reasons: in SPOILERS_do_not_open/campaigns/<name>/releases/NNN/dm-sealed.md"). No civ or NPC god agent is given it.
 
 The template:
 
@@ -67,6 +68,17 @@ its true value where the god can test it>
 (and one section like it for each scene the player has said it will prepare)
 Board: <where; its date, month and hour; who is present; what is in view, from
 tools/map.py describe>
+Facts, parameters and reasons: in
+SPOILERS_do_not_open/campaigns/<name>/releases/NNN/dm-sealed.md
+```
+
+The sealed part, `S/releases/NNN/dm-sealed.md`:
+
+```
+# Day sheet, sealed part: Year NNN
+Written by the Keeper. Read by the DM, the Keeper and the checker.
+
+### Held moment: <the same title as on the public sheet>
 Facts: <what is so, with figures>
 Parameters:
 - <figure>: wants <...>; will <...>; will not <...>; accepts <...>; will not
@@ -77,7 +89,9 @@ Parameters:
 Reasons (for you only; share them, lie about them in a figure's voice, or leave
 them unsaid):
 - <one for each parameter>
-Sealed part: <none, or the path of dm-sealed.md>
+
+### Other sealed matter
+<a sealed term a scene needs; what a sealed act showed the god; or "None.">
 ```
 
 ## 3. Pass-one releases
@@ -167,6 +181,8 @@ It ends with the release lines of runbook section 7.
 
 ### 3.3 The sealed side release
 
+The player's people have three sealed things, each its own: the Keeper's world side of their past and customs, `S/civs/<people>-sealed.md`, written on Night 3a and given to no agent; their agent's sealed folder, `S/civs/<people>/`, for what the god did not witness (decision 7); and this yearly side release. The side release is the Keeper's, drawn from the sealed record as a whole, the world-side file among it, and carries only what the people's office holders and other mortals know; nothing of the world-side file goes in it that they do not (build 7 check, minor 8).
+
 `S/releases/NNN/civ-<people>-sealed.md`, for the player's people's agent only, never the DM (run 06 item 76). What the people's office holders and other mortals know that the god does not, so the agent can play them.
 
 The asking and the telling are themselves sealed content (run 06 item 100; the sim-06 Year 3 checker's ruling). The public files never say that a sealed question was asked, that a sealed thing was told, who told it, or that a sealed note exists. They say only what the god could witness or be told, and what the people then did in its sight or hearing. A meeting the god did not attend is told in public, if at all, only by what came out of it in the open.
@@ -230,7 +246,7 @@ Michael, 2026-11-25 (decision 2; run 06 items 79 and 99).
 
 - **Slow, and earned.** Powers feel limited to what was given. A power or knack progresses slowly, only by being done a lot and by pushing at new boundaries; a god a little faster than a mortal. The Keeper judges each year's earning by that rule, the same for every god, with its reasons logged. Nothing prevents an attempt.
 - **No prompt.** No release, decide release or round asks an NPC god to grow or to state an attempt. The run 06 question (item 99) is settled: growth arises unprompted or not at all.
-- **No hint before year 70.** Until at least year 70, no hint of any kind about a change in powers reaches any god, the player or any NPC: no release line, no DM line, no felt change, no day sheet line, no prompt. The growth file records what the year earned; what grows shows only in use, as what happened, and its card entry is written when it shows.
+- **No hint before year 70.** Until at least year 70, no hint of any kind about a change in powers reaches any god, the player or any NPC: no release line, no DM line, no felt change, no day sheet line, no prompt, and no card entry. The growth file records what the year earned; what grows shows only in use, as what happened. Its card entry is written no earlier than year 70 (build 7 check, minor 9).
 - **Hidden powers.** A hidden power surfaces when its condition is met, and its condition was set on Night 2 to be rarely met in the early years (runbook 2.7). The Keeper never arranges the condition and never steers away from it. A surfacing is discovery, not growth: it is told as what the god meets.
 - **Knack use** is counted as runbook template 7.10 gives: a line when the skill itself was exercised, in whole or in part; being near it is not use.
 - **The knack figures** (`engine/rules/powers.md` section 4 leaves them here; run 06 item 79), the same for every god. Set by Agent K in build 7 and awaiting Michael's ruling; applied as written until he rules. A year counts as a year of use when a related skill was exercised at least once in a scene or in unplayed time. A year of use counts as a year that pushed when the skill was taken past anything it had done before (a new kind of work, a harder case, a farther reach), named in its `Use` line. A god's knack shades one step further after ten years of use, at least three of them years that pushed; a knack or power a god gave a mortal, after twelve years of use, at least four of them years that pushed (gods a little faster than mortals). Gaps do not reset the count. Each step is written `Grown` in the growth file with the years it rests on.

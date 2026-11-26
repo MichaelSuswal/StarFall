@@ -115,6 +115,17 @@ Checked every note in Agent E's "For Agent K" list against the sealed files. Cov
 
 Held, as the coordinator directed: the overrule of DM rolls stays on the narrow reading, and the knack figures stand as written, both awaiting Michael.
 
+### Fixes after the build check
+
+From `build-check.md` (030b3a3), under the same go:
+- Moderate 1: `year-turn.md` section 2 and runbook 3b.8. Every held moment's and prepared scene's facts, parameters, world-question odds and reasons go in `S/releases/NNN/dm-sealed.md`, in its own template; the public day sheet keeps the board (what the god can see, hear and know) and points to the sealed part. The sealed part is written whenever the sheet has a held moment, a prepared scene or other sealed matter.
+- Moderate 2: `year-turn.md` section 1, a second held moment. The player's thread stops at it; the morning tells only up to it; at most one untold stretch of the player's thread is open at a time; the world is still resolved whole; the clock and the decisions file follow `night-turn.md` and `morning-story.md`.
+- Minor 9: `year-turn.md` section 8, runbook template 7.10, rubric section 16. Growth earned before year 70 shows only in use, as what happened, with no card entry before year 70.
+- Minor 2: runbook section 4. The leak allow file's line form `in <file>: "<phrase>"` named beside the bare phrase.
+- Minor 8, the sealed half: `year-turn.md` section 3.3 names the player's people's three sealed things and says the side release is drawn from the sealed record, the world-side file among it, carrying only what the mortals know.
+
+Held for Michael, unchanged: moderate 4 (a search for a placed thing, found with no roll or rolled), moderate 5 (an ask the god promised to answer later becoming a held moment), the overrule of DM rolls, and the knack figures. The true figures on the public day sheet (the rest of moderate 1's finding) are left as the coordinator scoped the fix.
+
 ### Readings made, and conflicts for the build check
 
 - Item 24 read to cover every god release, Night 3's people release included ("an NPC god's release says nothing about prices, trades or weaknesses at all"): the self form asks no drawback or trade, the people form no weakness, and the force measure is given without "edge" or "price". Every price the player was told at the table reaches the god in its round 1, by kind.
