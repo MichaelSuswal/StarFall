@@ -178,10 +178,11 @@ The Keeper, during pass two of the night turn, for everything the god saw, was t
 ```
 python3 tools/map.py reveal <campaign> --region r05 --grade seen --source "walked in autumn" --year 3
 python3 tools/map.py reveal <campaign> --feature f07 --grade reported --source "a drover's telling" --year 2 --told '{"coords": [[430,760]]}'
+python3 tools/map.py reveal <campaign> --feature f01 --grade seen --source "walked a mile of its bank" --year 2 --seen-from f02 --reach 1
 python3 tools/map.py reveal <campaign> --feature f12 --grade rumored --source "Orrin the drover" --year 1 --told '{"name": "the old kings fort", "cell": "D3"}'
 ```
 
-The command refuses to lower a grade (use `--force` with a reason, logged, for the false chart case) and refuses ids not in the sealed map, so a typo cannot create ground. On raising to `seen` it drops `told` and records the correction. Every change appends a line to `player/map-log.md`: date, year, id, old grade, new grade, source. That log is the history the gazetteer reads.
+Raising a line feature (a road, a path, a river) to `seen` needs one of `--seen-from <place> [--reach <miles>]` (the stretch within reach of that place, by default the near distance of the ground there), `--stretch "x0,y0 x1,y1"`, or `--whole "<reason>"`, as in the first river example; the entry keeps only the stretches seen. The command refuses to lower a grade (use `--force` with a reason, logged, for the false chart case) and refuses ids not in the sealed map, so a typo cannot create ground. On raising to `seen` it drops `told` and records the correction. Every change appends a line to `player/map-log.md`: date, year, id, old grade, new grade, source. That log is the history the gazetteer reads.
 
 ### 3.3 Granularity of rumor
 

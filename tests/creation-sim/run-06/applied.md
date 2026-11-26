@@ -74,6 +74,24 @@ Applied 2026-11-25 under Michael's go of 21:16 Pacific. Decisions are numbered a
 - Names checked: `card-summary.md`, `dm-sealed.md` and `year-turn.md` now match. Not checked, since I may not read the sealed folder: whether `year-turn.md` names the decide release `S/releases/NNN/<label>-decide.md` and the side release `S/releases/NNN/civ-<people>-sealed.md` as the engine does. Agent T's section mentions a Keeper file `S/civs/<people>-sealed.md`; if that is the side release under another name, one of the two needs to change. For the build check.
 - The overrule of DM rolls is left on the narrow reading, waiting on Michael.
 
+### Fixes after the build check
+
+From `build-check.md` (030b3a3), under the coordinator's relay of the same go.
+
+- B1 (moderate 1): the day sheet and every held moment's and prepared scene's facts, parameters and reasons move from the public `releases/NNN/dm.md` to the sealed `S/releases/NNN/dm-sealed.md`, which the DM reads by its path; the public release carries the board as the god sees it and a pointer. Changed in DESIGN 10.5 and 10.5a, `night-turn.md` steps 4 and 5, `creation-nights.md` Night 3b (`S/releases/000/dm-sealed.md` for the first played day), `encounters.md` sections 1 and 6, `dm.md` (reads, held moments, world facts), `keeper.md` (owns, releases), `checker.md` (reads). Header line as Agent K gives it: "Written by the Keeper. Read by the DM, the Keeper and the checker."
+- B2 (moderate 2): the player's thread stops at the next held moment wherever it falls, a tail included; at most one untold stretch of the player's thread is open at a time, so the open year's player thread does not begin until the tail's held moments are played; the world is resolved whole and the clock turns one year a night. In `night-turn.md` step 0, `morning-story.md` (held encounter) and DESIGN 10.5a.
+- B3 (moderate 3): `powers.md` section 4 needs 4 and 5: before year 70 the new drawback is set sealed by the Keeper and comes with the power in use, and a ceiling held is met only as the attempt failing; nothing said to the player.
+- C9 (minor 9): growth earned before year 70 shows only in use, as what happened, with no card entry before year 70. In `powers.md` (rules for the card, section 5), DESIGN 6.8, `keeper.md` (Growth), `night-turn.md` step 4.
+- B6 (moderate 6): `npc-god.md` line 11 left as is, on the coordinator's word.
+- B7 (moderate 7): a morning painting request that `state/images.md` does not approve is written to `images/held/<campaign>-NNN+1-morning.json`. In `night-turn.md` step 6 and `morning-story.md` section 2. The `check.py` side is Agent T's.
+- C1: `checker.md`, the allow paragraph ends with the exception for a seen count or frozen card text.
+- C3: `checker.md`, `check.py --step 7` in a night turn's step 7.
+- C5: `dm.md`, the `--who` form `roll.py --public` requires, naming whose attempt it is.
+- C6: `map.md` 3.2, a reveal example raising a river to seen with `--seen-from`, and the rule for `--seen-from`, `--stretch` or `--whole`.
+- C7: `night-turn.md` step 0 pulls once. The single pull now opens step 0, before the clock is read, which is also before anything is spawned.
+- C8 (my half): `night-turn.md` step 2 names the player's people's three sealed things (the Keeper's world side `S/civs/<people>-sealed.md`, the agent's sealed folder `S/civs/<people>/`, the yearly side release) and says the side release is drawn from the world side and the year.
+- Held, waiting on Michael: B4 (the search for a placed thing) and the Keeper's overrule of DM rolls. Left as they stand.
+
 ## Sealed side (Agent K)
 
 Applied 2026-11-25 under Michael's go of 21:16 Pacific, in `SPOILERS_do_not_open/keeper/` only. Decisions are numbered as in `build-plan.md`. Procedure only; no world content.

@@ -35,7 +35,7 @@ One painting each morning, of the year's highlight. The highlight is one of thre
 
 The painting shows only what the god knows (DESIGN 14.4). If the people told the god of a thing and the god has not seen it, the painting may show the telling, or the god hearing it, but not the thing as if the god had been there.
 
-The prompt is built from `engine/style/house-style.md`: the house style block copied word for word, then the scene, with every recurring subject described from its appearance card (`engine/style/appearance-card.md`). The request is written to `images/requests/<campaign>-NNN+1-morning.json` as early in the night as the highlight is known, so the painting is back by 6:30.
+The prompt is built from `engine/style/house-style.md`: the house style block copied word for word, then the scene, with every recurring subject described from its appearance card (`engine/style/appearance-card.md`). The request is written to `images/requests/<campaign>-NNN+1-morning.json` as early in the night as the highlight is known, so the painting is back by 6:30. If `state/images.md` does not approve the morning painting, the request goes to `images/held/<campaign>-NNN+1-morning.json` instead, nothing is painted, and the morning posts without one (build check B7).
 
 In the post, the painting follows the return sequence with no caption and no title. If the player asks what it shows, the DM says so in prose.
 
@@ -60,7 +60,7 @@ During unplayed time the avatar runs on standing conduct, and minor encounters r
 
 When the release holds one, the morning story ends at it. The return sequence and the painting come as usual. The summary runs up to the moment of contact and stops there, with the board laid out as a scene opens: what the god can see, hear and know, and nothing resolved. Then the DM waits. No "what do you do?" The stopped story is the question.
 
-The morning tells the year only up to the first held moment. Nothing after it is told, not even what did not seem to depend on it: the year is paused there for the god. The player plays the moment live, the night after works the played answer into the rest of that year, and the next morning tells the rest, from the held moment's own date, up to the next held moment if there is one, and then the year that followed (Michael, 2026-11-25). A later held moment of the same year is never laid out beside the first.
+The morning tells the year only up to the first held moment. Nothing after it is told, not even what did not seem to depend on it: the year is paused there for the god. The player plays the moment live, the night after works the played answer into the rest of that year, and the next morning tells the rest, from the held moment's own date, up to the next held moment if there is one, and then the year that followed (Michael, 2026-11-25). A later held moment of the same year is never laid out beside the first. The player's thread stops at the next held moment wherever it falls, a held year's tail included: the morning then tells the tail only up to that moment, and the open year's player thread is not told, or begun, until the tail's held moments are played. At most one untold stretch of the player's thread is open at a time; the world is still resolved whole (build check B2).
 
 ## When the world is taking longer
 
