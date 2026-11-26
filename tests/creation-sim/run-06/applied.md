@@ -183,5 +183,12 @@ Applied 2026-11-25 under Michael's go of 21:16 Pacific, in `tools/*.py` and `tes
 
 - Agent E: `night-turn.md`'s quick script check after pass two runs `tools/check.py <name> NNN`; it needs `--step 4`, or it reports the DM release, the morning story and the painting request missing and the clock not advanced. The step 7 round needs `--step 7`, or the clock line is a finding until step 8.
 - Agent E: `checker.md` could name the line-level allow form, `in <file>: "<phrase>"`, for a phenomenon count once seen, in place of an allow by label (item 71).
-- `tests/tools/README.md` was not updated (outside the files named for me); the test docstrings carry the item numbers.
+- `tests/tools/README.md`: updated after the build check (minor 10, below).
 - A reading for review: item 96's "as the creation transcripts are" taken to mean what `checker.md` now says (no kept term, no number word in the Player and DM sections). The rule that a name the player said in the open table talk is never sealed still covers the creation transcripts only.
+
+### Fixes after the build check
+
+- Moderate 7 (B7), `check.py`: the morning painting request may be held in `images/held/<campaign>-NNN+1-morning.json`. When the campaign's `state/images.md` does not approve it (read as `paint.py` reads it), that is a note, not a finding; a held request that `images.md` does approve is a finding (it belongs in `images/requests/`); with neither a request nor a held one it is a finding, as before. Test: `test_build7_check_held_morning_request`.
+- Minor 4 (C4), `check.py`: the comment and docstring now number the releases step 5, the morning story and its painting request step 6, and the check step 7, as `night-turn.md` does.
+- Minor 10 (C10), `tests/tools/README.md`: a build 7 paragraph naming the new tests by item.
+- Tests: `python3 -m pytest -q tests/tools` 86 passed; `python3 tests/tools/run.py` 86 passed, 0 failed. `check.py sim-06 3` unchanged (0 findings, 1 note); `lockcheck.py sim-06 --all` unchanged (exit 0).

@@ -4,12 +4,15 @@ checks; this script runs the ones a script can run.
 Usage: python3 tools/check.py <campaign-name> <year> [--step 4|7] [--root DIR]
 Exit code 1 if any check fails. Prints one line per finding, then any notes (which do not count).
 
---step (build 7, run 06 change list 73): the night turn runs the check after step 7, one round over
-everything, with a quick script check after step 4. `--step 4` checks what step 4 has made: the clock
+--step (build 7, run 06 change list 73): the night turn runs the check at step 7, one round over
+everything, with a quick script check at the end of step 4. `--step 4` checks what step 4 has made: the clock
 still on year NNN, the timing file, the engage rule, the sealed year record and the rolls; the releases,
 the morning story and its painting request are later steps and are not looked for. `--step 7` checks
-everything step 7 has made, the clock still on year NNN (step 8 advances it). With no --step, the full
-check after step 8: the clock advanced to NNN+1.
+everything the night has made by its step 7 check, the clock still on year NNN (step 8 advances it). With no
+--step, the full check after step 8: the clock advanced to NNN+1.
+The morning painting request (build check B7): images/requests/<name>-NNN+1-morning.json, or, when the
+campaign's state/images.md does not approve it, the same file held in images/held/, which is a note, not a
+finding. A held request images.md does approve is a finding (it belongs in images/requests/), and a morning with neither is a finding.
 
 The clock (campaigns/<name>/state/clock.md) carries campaign, year,
 status: creation|open|closed, creation_night: 1|2|3a|3b while in creation, and season_opens.
@@ -83,6 +86,17 @@ def timing_path(base, sealed):
     return s if os.path.exists(s) else os.path.join(base, "state", "timing.md")
 
 
+def held_request_approved(root, path):
+    """(approved, reason) for a held request, by its campaign's state/images.md, as tools/paint.py reads it."""
+    sys.path.insert(0, TOOLS)
+    import paint
+    try:
+        req = json.load(open(path, encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return False, "the held request is not readable JSON"
+    return paint.covered(req, root)
+
+
 def waited_notes(base, year):
     d = os.path.join(base, "years", f"{year:03d}")
     return sorted(f for f in os.listdir(d) if re.fullmatch(r"waited-\d{4}-\d{2}-\d{2}\.md", f)) if os.path.isdir(d) else []
@@ -144,12 +158,23 @@ def main(argv=None):
         findings.append(f"engage: year {year} turned with no player/decisions-{year:03d}.md and no waited note")
     if not waited:
         need(os.path.join(sealed, "years", f"{year:03d}", "year.md"), "the year's sealed record")
-        if step >= 7:   # the releases are step 6, the morning story and its painting request step 7 (change list 73)
+        if step >= 7:   # the releases are step 5, the morning story and its painting request step 6, the check step 7 (change list 73)
             need(os.path.join(base, "releases", f"{year:03d}", "dm.md"), "the DM release")
             need(os.path.join(base, "years", f"{year + 1:03d}", "morning-story.md"), "the morning story")
-            req = os.path.join(a.root, "images", "requests", f"{camp}-{year + 1:03d}-morning.json")
+            rid = f"{camp}-{year + 1:03d}-morning"
+            req = os.path.join(a.root, "images", "requests", f"{rid}.json")
+            held = os.path.join(a.root, "images", "held", f"{rid}.json")
             if not os.path.exists(req):
-                findings.append("no painting request for the morning story")
+                # a morning whose painting images.md does not approve waits in images/held/ (build check B7)
+                if os.path.exists(held):
+                    ok, why = held_request_approved(a.root, held)
+                    if ok:
+                        findings.append(f"the morning painting request is held in {rel(held)}, but "
+                                        f"campaigns/{camp}/state/images.md approves it ({why}); it belongs in images/requests/")
+                    else:
+                        notes_out.append(f"the morning painting request waits in {rel(held)}: {why}")
+                else:
+                    findings.append("no painting request for the morning story (none in images/requests/ or images/held/)")
 
     # 4. Rolls: sealed log readable, nothing rolled twice without a reroll reason; the public log holds the
     # DM's open rolls only (change list 70)

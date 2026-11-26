@@ -97,6 +97,20 @@ The build 6 fixes (run 05 `build-check.md`) add: in lockcheck, `S/civs/<people>-
 counted as told to the people (must-fix 3), and `--places` warning on no bare map name in the files
 stamp skips, while still failing a bracketed id the map lacks there (should-fix 7).
 
+Build 7 (run 06 change list) adds, in `test_build7_*`: in roll.py, `--public` writing the DM's open rolls to the
+campaign's public log with `dm-NNNN` ids, needing `--campaign` and a DM `--who`, and `public_log_problems` (62, 70);
+in check.py, the public log of the DM's rolls (an older `r-` id a note), `--step 4` and `--step 7` (73), and the
+morning painting request held in `images/held/` (a note when `state/images.md` does not approve it, a finding when it
+does or when there is neither, build check B7); in lockcheck, `--rolls` on the public log and cited `dm-` ids (70),
+`--leaks` passing "no sealed terms yet" on Day 1 (1), no number words in the creation transcripts, the play
+transcripts' Player and DM sections or the power card's frozen terms, and no kept term in those sections (12, 13,
+96), the line allow `in <file>: "<phrase>"` and the warning on a phenomenon allowed by label (71), and a kept term in
+a civ agent's sealed files (78); in map.py, stamp skipping the flags files, `rulings.md` and other agents' logs (78),
+validate failing land at a sheet edge when the plan asks for sea on every side (43), a coasting boat trip round a
+headland and describe's in-region areas past the view (44), and a line seen only in stretches through reveal, the
+knowledge file, the gazetteer and the sheet (61); phenomena.py's `name` and `months` fields (53, 98) and paint.py's
+note on an edited request (58).
+
 `lockcheck-sim-01.txt` records what lockcheck found on sim-01, as counts only.
 
 ## Migration from the sim-01 and dryrun formats

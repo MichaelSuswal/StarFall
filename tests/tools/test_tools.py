@@ -2399,3 +2399,25 @@ def test_build7_docs_phenomena_name_and_paint_edit():
         assert run("2").returncode == 1 and run("3").stdout.strip() == "dim-nights: 0"
     finally:
         shutil.rmtree(d)
+
+
+def test_build7_check_held_morning_request():
+    """Build check B7: a morning painting request held in images/held/ is a note when the campaign's
+    images.md does not approve it, a finding when it does; with neither a request nor a held one, a finding."""
+    with tmpcopy() as repo:
+        append(repo, "campaigns/fx/player/decisions-001.md", "Go north.\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/001/year.md", "The year.\n")
+        append(repo, "campaigns/fx/releases/001/dm.md", "Release.\n")
+        append(repo, "campaigns/fx/years/002/morning-story.md", "Morning.\n")
+        run = lambda: run_quiet(check.main, ["fx", "1", "--root", repo, "--step", "7"])
+        code, out, _ = run()
+        assert code == 1 and "no painting request for the morning story (none in images/requests/ or images/held/)" in out
+        append(repo, "images/held/fx-002-morning.json", '{"id": "fx-002-morning", "campaign": "fx", "prompt": "dawn"}\n')
+        code, out, _ = run()
+        assert code == 0 and "note: the morning painting request waits in images/held/fx-002-morning.json" in out, out
+        append(repo, "campaigns/fx/state/images.md", "- year morning painting: approved, one per played year\n")
+        code, out, _ = run()
+        assert code == 1 and "it belongs in images/requests/" in out, out
+        os.remove(os.path.join(repo, "images", "held", "fx-002-morning.json"))
+        append(repo, "images/requests/fx-002-morning.json", '{"id": "fx-002-morning", "campaign": "fx", "prompt": "dawn"}\n')
+        assert run()[0] == 0
