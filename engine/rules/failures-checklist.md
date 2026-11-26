@@ -1,6 +1,6 @@
 # The failures checklist
 
-Built from the 703 mistakes the original game's DM made, as the player logged them. The continuity checker runs every check here each night, after the Keeper's second pass and before the morning story. The DM runs it before any report, scene board or (oog) answer about the record. Read with DESIGN.md sections 12.5 and 13 and `engine/roles/checker.md`.
+Built from the 703 mistakes the original game's DM made, as the player logged them. The continuity checker runs every check here each night, once over everything the night wrote, after the releases, the morning story, the closing and the chronicle (night-turn.md step 7). The DM runs it before any report, scene board or (oog) answer about the record. Read with DESIGN.md sections 12.5 and 13 and `engine/roles/checker.md`.
 
 Each check is a question answered yes or no. A yes is a flag. Examples are from the original game, given so an agent recognizes the shape of the mistake.
 

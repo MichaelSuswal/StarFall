@@ -4,9 +4,11 @@ How any uncertain outcome is given odds and rolled, how the player argues odds, 
 
 ## 1. What is rolled
 
-A roll decides an outcome that is uncertain and contested: a fight, a chase, a search, a persuasion, a crossing, a craft attempt with a real chance of failure, a hazard on a message's route, a random world event. A roll is not used for anything certain or impossible (12.6): a god does not roll to lift a cup, and a mortal does not roll to leap a river. The agent states which it is and moves on. If the player disputes that something is certain or impossible, the dispute is an appeal under section 4 and the DM takes it seriously.
+A roll decides an outcome that is uncertain and contested: a fight, a chase, a search, a persuasion, a crossing, a craft attempt with a real chance of failure, a hazard on a message's route, a random world event. A roll is not used for anything certain or impossible (12.6): a god does not roll to lift a cup, and a mortal does not roll to leap a river. The agent states which it is and moves on.
 
-Only `tools/roll.py` rolls (12.6). Every call is appended to `state/rolls.jsonl` before the result is shown. No agent uses any other source of chance, including its own judgment of "probably." The checker flags any contested outcome with no logged roll and anything rolled twice.
+A small world fact a scene needs (a market day, a weight's true figure, a mortal's name) is not rolled when the DM's day sheet has it (DESIGN 10.5). One the day sheet lacks is rolled by the DM as a world fact, its odds stated to the player before the roll. Whether a clue is there to find: a thing the Keeper placed is there, and only the search for it is rolled; a thing that came about in play (a trace an act would leave, a witness who might have seen) is found by a roll with modifiers, weighed by the evidence in the record, Bayesian fashion (DESIGN 8.7). If the player disputes that something is certain or impossible, the dispute is an appeal under section 4 and the DM takes it seriously.
+
+Only `tools/roll.py` rolls (12.6). Every call is logged before the result is shown: the DM's open rolls to the public `state/rolls.jsonl` (`--public`, with the DM's own id prefix), the Keeper's and every other agent's to the sealed roll log (`--campaign`). No agent uses any other source of chance, including its own judgment of "probably." The checker flags any contested outcome with no logged roll and anything rolled twice.
 
 ## 2. Odds from factors
 
@@ -26,7 +28,7 @@ A ruling may set a step other than 5, 10 or 20 for a specific power or circumsta
 
 ### Procedure
 
-1. The agent writes out, before rolling, what is being attempted, by whom, and what success and failure each mean. In a scene the DM states this to the player: costs, risks and odds first, nothing resolves until the player commits (10.5).
+1. The agent writes out, before rolling, what is being attempted, by whom, and what success and failure each mean for that party. A roll is always the attempt of a named party (the god, a mortal, the world for a world fact), and success always means that party's attempt succeeds, never that the world goes against it. In a scene the DM states this to the player: costs, risks and odds first, nothing resolves until the player commits (10.5).
 2. The agent lists every factor with its step and the fact in the record it comes from.
 3. The agent sums, clamps, and states the odds. In a scene the DM gives the player the odds and the factors in (oog).
 4. The player may argue (section 4). The odds are recalculated if the argument is accepted.
@@ -57,11 +59,15 @@ NPC gods and civ agents argue factors with the Keeper in the night turn the same
 
 The player does not play every hour of the year (1.7, 10.4). In the time the player did not play, the avatar follows standing conduct (10.6):
 
-1. **What the player set.** `player/conduct.md` holds the player's standing instructions, in their words: where the god is, what it is doing, how it responds to strangers, to threats, to its own people's requests, to news. The player may set these at any time and the DM confirms them back. A scheduled action ("in autumn I go to the ford") is standing conduct for that time.
-2. **Else, the conduct profile.** `player/conduct-profile.md`, kept by the DM from the player's choices, musings and answers (10.7). It describes how this god acts: what it fears, what it protects, how it treats the unknown, how it speaks.
+1. **What the player set.** `player/conduct-profile.md` holds the player's standing instructions, in their words, as dated entries: where the god is, what it is doing, how it responds to strangers, to threats, to its own people's requests, to news. The player may set these at any time and the DM confirms them back. A scheduled action ("in autumn I go to the ford") is standing conduct for that time.
+2. **Else, the rest of the conduct profile,** kept by the DM from the player's choices, musings and answers (10.7). It describes how this god acts: what it fears, what it protects, how it treats the unknown, how it speaks. Where it states the god's temper toward a kind of ask (it refuses bribes, it names its fee), a simple ask of that kind is answered by it in unplayed time, logged as conduct and not as a decision (Michael, 2026-11-24, run 06 item 69).
 3. **Default, under both: cautious and in character, never reckless.** Where neither source speaks, the god does the careful version of what this god would do. It does not start fights, does not accept offers, does not give away anything of its own, does not cross into unknown ground, does not use a power in a new way, does not make a promise. It watches, withdraws if threatened, and holds the matter for the player.
 
 Standing conduct is never a licence for the DM or the civ agent to act for the player (13.1). It is the narrowest reading of what the player already decided. Anything that would be a decision the player has not made is not resolved by conduct; it is held (section 6).
+
+An act the god said it does, wherever it said it (a sealed part included), is done; an ordinary habit it stated is conduct, carried out and never priced (DESIGN 10.7).
+
+**When the god is away.** A question put to an absent god meets silence and stays pending, unless the god noted otherwise (its conduct profile, its standing words). People know only what happened: no answer came; any reason they give is their own guess. The god's people may act on its behalf only where the god expressed that intention or obviously assumed it; with no way to reach it, the town has no answer from it, which is the price of not giving explicit permission, and the civ agent may decide that someone in the town took it upon themselves to make the call (Michael, 2026-11-25).
 
 The NPC gods have no unplayed time; their agents decide the whole year. Their peoples and the player's people act under their civ agents' own will (5.7), not under conduct.
 
@@ -81,16 +87,14 @@ An encounter is major when any of these holds:
 - it threatens the god's body, freedom or people in a way that could change the year;
 - it involves another god, a god's envoy, or a world-level figure placed by the Keeper (9.1);
 - it is a pending question (12.9) from another god, a god's envoy, or a world-level figure, reaching the god in person;
-- the player has marked this kind of event as one they want to play;
+- the player has marked this kind of event as one they want to play, or prepared for it at the table (a prepared scene: the meeting at dusk, the weighing next month);
 - the agent is unsure. Unsure means major.
 
 A petition from the god's own people in unplayed time (a request, a plea, a question of law) is not a held encounter. The god was not available to receive it: standing conduct answers it in the moment, usually by silence, the world goes on, and the people feel the answer. The petition becomes a pending question put to the player the next day (12.9), and the people's reaction to the god's silence stands as what happened. This is ruling r-001, accepted by Michael on 2026-11-18. It encourages a god to be a god and not only a sovereign; a player who wants to be asked in the moment can set standing conduct to say so.
 
-A major encounter is held (10.6). The civ agent and the Keeper resolve the year up to the moment of contact for that thread and stop it there. Everything else in the year that does not depend on the outcome continues. The Keeper writes the held encounter into the DM's release with the board as it stands: where the god is, what it can see, hear and know, who is present, what has just happened.
+A major encounter, or a prepared scene, is held (10.5a, 10.6). The civ agent and the Keeper resolve the year up to the moment of contact for that thread and stop it there. The Keeper writes the held moment into the DM's release with the board as it stands (where the god is, what it can see, hear and know, who is present, what has just happened), the scene's facts, its parameters (what each figure wants, what it will and will not do or accept, its stance and opening words, the ranges outcomes fall in) and the reasons for the parameters. The reasons are for the DM only; it may share them, lie about them in a figure's voice, or not mention them.
 
-The morning story stops at the moment of contact (10.6). The DM writes the year up to that moment, then the board, then waits. The player plays it live as a scene, odds stated before any commitment (10.5). The outcome of the scene goes into the player's decisions for the following night, and the civ agent and the Keeper resolve its consequences into the rest of that held thread then. Time inside the held encounter is the scene's own; the world does not wait for it elsewhere.
-
-If a year has more than one major encounter, each is held at its own moment and the morning story presents them in order; the player plays them in order, and the DM says plainly in (oog) that more than one is waiting. If a held encounter's consequences would have changed something already resolved in the same year, the Keeper notes the dependency in the release, and the DM tells the player which parts of the summary are provisional.
+The year is told only up to the first held moment of the year (Michael, 2026-11-25). The DM's release and the morning story stop there: the DM writes the year up to that moment, then the board, then waits, and tells nothing past it. The player plays it live as a scene, the DM voicing its mortals and world figures within the parameters (an NPC god speaks through its own agent), odds stated before any commitment (10.5). A played scene holds: the Keeper accepts the result the DM and the civ agent feed up, and never unmakes it. The outcome goes into the decisions file, under the year the moment belongs to, and the night after it is played works it into the rest of that year; the next morning tells the rest, up to the next held moment if there is one. A held moment keeps its own date. Time inside the held moment is the scene's own; the world does not wait for it elsewhere.
 
 ## 7. Example factors
 

@@ -12,6 +12,7 @@ When the DM asks whether you want mirror mode or standard mode, choose standard 
 
 How to play:
 - Day 1 is a survey. Answer what speaks to you, skip what does not.
+- Play only your god. Never script what the mortals or anyone else says or does; the DM plays them. One turn per post: say what your god says and does, then stop and let the DM answer (run 06 item 66).
 - Days 2 and 3 are conversations with the DM. Answer what is asked, volunteer what you care about, push back when a price seems unfair. At least once, ask for a power or an edge that is stronger than it should be, and see how the DM prices it. Accept a fair price.
 - After creation you will play three years, one play day each. Each day you read the morning story and talk with the DM as your god: decide, act, ask, travel, bargain. Play as a person would, for a sitting of ordinary length. Make at least one choice each day that matters.
 - If the DM asks you anything you would not say aloud, or asks you to answer privately, put that answer in a final section headed `SEALED:`. Use it only when you mean it.

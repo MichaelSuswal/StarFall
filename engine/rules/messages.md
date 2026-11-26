@@ -104,7 +104,7 @@ When a route crosses another god's country, the Keeper writes the carrier's pass
 
 ## 5. Delivery in the night turn
 
-Delivery happens in Keeper pass two (night-turn.md 4) and is released in stage 6.
+Delivery happens in Keeper pass two (night-turn.md 4) and is released in step 5.
 
 1. In pass two the Keeper takes every message whose `expected` is this year or earlier and whose last status is `sent`, `in transit` or `delayed`, and rolls its hazards for the year's leg of the route, factors first.
 2. For each message that arrives, the Keeper writes a `delivered` line to the log and copies the message file's Text, Carried with it, and the carrier's name and condition into the recipient agent's release (`releases/NNN/<agent>.md`), under a heading `Messages received`. For the player's god, that is the DM's release. The recipient's agent sees the sender's instructions to the carrier only if the carrier would reveal them.

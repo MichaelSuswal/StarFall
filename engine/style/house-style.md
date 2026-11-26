@@ -18,6 +18,8 @@ The map paintings (Night 3a: the surface, the cloud layer, and an underground sh
 
 > A hand-painted map of a whole continent seen from directly above, in the manner of a painted fantasy map such as a map of Middle-earth: coastlines, mountain ranges drawn as shaded ridges, rivers as fine dark lines running downhill to the sea, forests as textured masses, marsh, desert and open plain each in its own tone. Oil on parchment in a 19th-century academic manner with a smooth, finely blended surface, soft glazed transitions, fine detail, no heavy impasto. Palette of umber, ochre, gold, olive and sea-green with near-black shading. Less detail at larger scale; nothing drawn smaller than a hill or a wood; no settlements, no roads, no figures, no borders between countries. No text, no lettering, no compass rose, no scale bar, no frame, no grid, not photographic. The whole sheet is land and sea; nothing is cut off at the edges.
 
+When the placement plan has sea all round, the surface brief repeats it as a hard rule, as the brief's last line, word for word: "Sea on every side: open water runs along all four edges of the sheet, and no land touches any edge." (run 06 item 43; `tools/map.py validate` fails land at a sheet edge when the plan says sea all round.)
+
 For the cloud layer:
 
 > A continuous sheet of pale cloud seen from directly above, painted in oil in a 19th-century academic manner with a smooth, finely blended surface: soft, dense, overcast cloud with slow variations of grey, cream and faint ochre where light comes through, no gaps, no ground visible, no horizon, no text, no border, no frame, not photographic.
@@ -70,7 +72,7 @@ One painting each morning, made overnight. During the day the player may ask for
 {"id": "<campaign>-NNN-morning", "shape": "wide", "prompt": "<house style block>\n\n<scene>"}
 ```
 
-The `id` is the output filename without `.png`. The GitHub job paints anything in `images/requests/` that has no output yet and puts the painting in `images/out/<id>.png`.
+The `id` is the output filename without `.png`. The GitHub job paints anything in `images/requests/` that has no output yet and puts the painting in `images/out/<id>.png`. A request edited after its painting has returned starts the job but paints nothing, since the output exists: the request and the painting then differ. (run 06 item 58).
 
 ## Three complete example prompts
 

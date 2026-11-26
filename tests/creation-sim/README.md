@@ -27,7 +27,7 @@ Agents report process problems (unclear instructions, missing paths, contradicti
 - The stand-in brief names a different kind of player each run (a builder, a conqueror or a trader), keeping Michael's style only in how it plays the table (run 04 item 1).
 - One NPC god may be given a forced lean that invites refusal (of helpers, or of the default size), by the sealed test override, so refusal pricing runs for an NPC as well as the player (run 04 item 37).
 - The stand-in gets a `person.md` and may choose either mode at the Day 1 question.
-- Every agent pulls with `git pull --rebase --autostash`. When agents pull at once a pull can fail ("Cannot rebase onto multiple branches"); the agent retries once. God agents write their files and do not commit; the orchestrator commits them (run 05 item 36).
+- The orchestrator pulls once with `git pull --rebase --autostash` before it spawns agents in parallel, and the parallel agents do not pull, since pulls at once in one working tree fail ("Cannot rebase onto multiple branches", run 06 item 88). An agent that runs alone may pull. God and civ agents write their files and do not commit; the orchestrator commits them (run 05 item 36).
 
 ## Run 01 (2026-11-18, 23:00 to 00:21 Pacific)
 

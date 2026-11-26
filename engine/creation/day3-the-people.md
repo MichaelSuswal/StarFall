@@ -27,11 +27,11 @@ Then begin from what Night 2 built. The Keeper now knows where this god will lan
 2. **How many.** About 5,000 by default. The god may want fewer, or more, or plan to grow. A larger people is not a priced edge; its costs are practical and come from the world (more food and fuel, slower growth, harder to move, and for a larger kind of people a longer gestation), argued case by case and left to the Keeper to apply in play. Record what was argued.
 3. **Their code.** What is always true of them: customs, taboos, what they honor, what they will not do.
 4. **Their skills and culture.** Described freely. Ordinary culture is not priced.
-5. **Edges, priced.** Anything that gives a real edge over other peoples (a rare skill, unusual longevity, a magic most peoples lack) is priced against a weakness, like a power. An edge that would change the god's own powers (a mortal who can do what only the god can, a helper who performs it) is priced on the god, not the people, with any cost the mortal bears marked for the Keeper's Night 3 fitting, and goes on the power card as its own power block marked "added Day 3". It may not undo a limit agreed on Day 2; price a version that keeps the limit. A Day 3 answer that narrows a Day 2 definition or weakness is a dated entry. A paid or drilled force of up to about one in fifty of the people is ordinary and not an edge; above that the DM prices it as an edge, or the Keeper rules it.
-6. **Their magic,** within what the star allows. The DM knows only the pricing terms in `world-rules.md` (simple, and it costs the worker), not how common magic is; a specific mortal with a knack is priced by the DM and marked subject to the Keeper's reconciliation.
+5. **Edges, priced.** Anything that gives a real edge over other peoples (a rare skill, unusual longevity, a magic most peoples lack) is priced against a weakness, like a power. A power the god gives a mortal (a mortal who can do what only the god can, a helper who performs it, a knack the god grants) is not priced at the table: it costs the god something, and the Keeper prices it on Night 3a (DESIGN 3.16a). The DM records the player's wish, in its words, with whom it is for and whether it dies with that person, on the power card as its own block marked "added Day 3, price: for the Keeper" and in `player/power-lean.md`; one that dies with the person is less powerful and will cost less. The Keeper's price comes back through `player/corrections.md` and is put to the player as a cost, which the player takes or lets the wish go. Such a power may not undo a limit agreed on Day 2. A Day 3 answer that narrows a Day 2 definition or weakness is a dated entry. A paid or drilled force of up to about one in fifty of the people is ordinary and not an edge; a call-up in need does not count toward it (run 06 item 42); above that the DM prices it as an edge, or the Keeper rules it.
+6. **Their magic,** within what the star allows. The DM knows only the pricing terms in `world-rules.md` (simple, and it costs the worker), not how common magic is. A specific mortal's knack that the god gives is a power given to a mortal (item 5): the DM records the wish and the Keeper prices it (run 06 item 33, as Michael changed it).
 7. **How the god meets them.** Already there with their own history, waiting for something, or arrived with the god. This comes from the world and the player together. The DM cannot read the deep history, so it writes what the player agreed and lists, in `player/people-meeting.md` under `## For the Keeper to reconcile`, every point that needs reconciling with it: how long the people have been there, what they say came before them, what lies past their borders, and any custom that claims an origin. Customs that claim no origin do not go on the list. A separate `## Heard, not promised` section holds the player's hopes about what mortals will do. The Keeper reconciles on Night 3a and makes the smallest change that fits, logged, with a line for the DM in `player/corrections.md`.
 8. **What they believe** about gods, before this one arrives.
-9. **The helpers.** Who runs things when the god is absent: a court, a council, priests, stewards, captains, a single steward, and how orders travel. This is the default and the DM asks about it as such, by office rather than by named person. The god may refuse helpers, may dismiss any it is given, may never meet or employ them; the refusal or dismissal is recorded with its date, and dismissed helpers are never forced back. New loyal helpers may come later through play. Helpers the player designs who do not know the god at landing are a third form, beside served and refused: `designed, not yet serving` (the hierarchy file is headed "bent, and empty at landing"). The DM says plainly that the god lands with no helpers in fact; until each is won in play, unplayed time runs as with none. "Designed, not yet serving" is not a refused default: it bears on no edge and buys nothing, and the DM says so. It is a bend all the same, so its cost is stated plainly, as above, the same for every god; it is never priced. Two cases sit inside it and are recorded as such, office by office: an office that stands under the people's own law at landing (an elected reeve, a judge the town appointed), which serves the people and not the god until its holder takes the god's orders; and an office the god means to create, or to convert from one the people already have, in play, which does not exist as the god's until then. With no helpers, the god's unplayed time runs on standing conduct alone, no one acts for it while it is away, and its people drift; the DM says so plainly when the player refuses.
+9. **The helpers.** Who runs things when the god is absent: a court, a council, priests, stewards, captains, a single steward, and how orders travel. This is the default and the DM asks about it as such, by office rather than by named person. The god may refuse helpers, may dismiss any it is given, may never meet or employ them; the refusal or dismissal is recorded with its date, and dismissed helpers are never forced back. New loyal helpers may come later through play. Helpers the player designs who do not know the god at landing are a third form, beside served and refused: `designed, not yet serving` (the hierarchy file is headed "bent, and empty at landing"). The third form covers the seat too: a seat the player designs that stands as the town's own (a house, a hall) is not the god's seat at landing, and the DM says so plainly (run 06 item 31). The DM says plainly that the god lands with no helpers and no seat in fact; until each is won in play, unplayed time runs as with none. "Designed, not yet serving" is not a refused default: it bears on no edge and buys nothing, and the DM says so. It is a bend all the same, so its cost is stated plainly, as above, the same for every god; it is never priced. Two cases sit inside it and are recorded as such, office by office: an office that stands under the people's own law at landing (an elected reeve, a judge the town appointed), which serves the people and not the god until its holder takes the god's orders; and an office the god means to create, or to convert from one the people already have, in play, which does not exist as the god's until then. With no helpers, the god's unplayed time runs on standing conduct alone, no one acts for it while it is away, and its people drift; the DM says so plainly when the player refuses.
 10. **Who settles disputes** among the people, whether or not there is a hierarchy.
 11. **Their name,** and the name of their home. The player gives both; "unnamed" is a valid answer and the Keeper uses "unnamed location" and the like until play names them. Naming a home does not place it: whether a walled town stands where the player says is the world's, and the DM says so. Sub-groups the player declines to name (houses, clans) stay unnamed the same way. An unnamed people's folder is `civs/unnamed-people/`; an unnamed mortal is filed by office (`people/steward.md`).
 
@@ -50,7 +50,7 @@ Few at a time, woven in. (oog) when needed. When the player's first answer is lo
 
 ## Sealed answers
 
-Any reply may carry a `SEALED:` part on any subject, taken exactly as on Day 2 (`day2-the-god.md`, Sealed answers): written as it arrives to `S/player/unsaid.md`, dated, under the heading for its kind, a two-kind part split into two lines, with only "(One more answer was given privately, for the sealed record.)" left in the transcript; no want deferred to Night 3; a sealed request named in the open only as "one, kept in the sealed record" (or the count). When a sealed wish is later said openly, the open words are used and recorded as heard, and the sealed line stays sealed. When a sealed answer qualifies an open conduct line, that line carries the plain mark "check with the player before acting", with no reason. When the Keeper has an explicit reason to tell the DM more about a sealed request, it writes the reason as an indented line under that request's entry in `S/player/requests-answered.md`. The DM records whether it agrees in `S/player/unsaid.md`, beneath the request, dated. Only when the DM agrees does the Keeper add the further line. Day 3's own sealed requests are answered on Night 3a; no creation day follows, so the DM tells the player that each was received and ruled in the first morning's closing (oog) block (`engine/rules/morning-story.md`, The first morning).
+Any reply may carry a `SEALED:` part on any subject, taken exactly as on Day 2 (`day2-the-god.md`, Sealed answers): written as it arrives to `S/player/unsaid.md`, dated, under the heading for its kind, a two-kind part split into two lines, with only "(One more answer was given privately, for the sealed record.)" left in the transcript; no want deferred to Night 3; a sealed request named in the open only as "one, kept in the sealed record" (or the count). When a sealed wish is later said openly, the open words are used and recorded as heard, and the sealed line stays sealed. When a sealed answer qualifies an open conduct line, that line carries the plain mark "check with the player before acting", with no reason. When the Keeper has an explicit reason to tell the DM more about a sealed request, it writes the reason as an indented line under that request's entry in `S/player/requests-answered.md`. The DM records whether it agrees in `S/player/unsaid.md`, beneath the request, dated. Only when the DM agrees does the Keeper add the further line, at the next night's first step, lifting there any conduct mark it settles. An act the god says it does in a sealed part is done; a habit is conduct; wants and fears stay feelings (`day2-the-god.md`). Day 3's own sealed requests are answered on Night 3a; no creation day follows, so the DM tells the player that each was received and ruled in the first morning's closing (oog) block (`engine/rules/morning-story.md`, The first morning).
 
 ## At the close
 
@@ -59,10 +59,10 @@ Read the people back to the player in plain words, including every priced edge a
 - `civs/<people>/state.md` with the population only; the Keeper sets stores, treasure, trade, strength and mood on Night 3a.
 - how the god meets them, as agreed, with the reconcile list and the heard-not-promised list: `player/people-meeting.md`
 - the hierarchy, or the record that the god refused one and how the people settle things, or the third form (designed, not yet serving, with who each helper is and how it may be won): `player/hierarchy.md`
-- any premise rejected or bent, under `## Day 3` in `player/rejected-premises.md`
+- any premise rejected or bent, under `## Day 3` in `player/rejected-premises.md`, with the `Requests not to be told something:` line and a line `Sealed requests to the Keeper:` giving the count, or `none` (run 06 item 35)
 - the player's answers under each question in `player/followups-day3.md`
-- a new power block marked "added Day 3" on `player/power-card.md` for any edge that is a power of the god's, dated entries for narrowings, each ruling and every pricing made at the table (an edge, a refusal's step, a mortal's knack) marked "settled at creation. Ledger: pending, Night 3"; and dated entries on `player/conduct-profile.md` for any standing conduct the day produced (how the god means to be found, what it will not give in unplayed time), with its `## Now` summary rewritten to match. A stated first action ("I walk in at the burial ground") is conduct and goes in the profile; where it happens is the world's, recorded as the player's wish for the Keeper to place
-- The transcript, `player/transcript-day3.md`, is the verbatim record of the table and is never changed. A file that copies the player's words (the people's record, the meeting, the hierarchy, the follow-up answers) keeps them as said; where the Keeper later replaces a word in one with a plain word of the same sense, the DM keeps the replacement and does not restore it.
+- a new power block marked "added Day 3" on `player/power-card.md` for any edge that is a power of the god's, dated entries for narrowings, each ruling and every pricing made at the table (an edge, a refusal's step) marked "settled at creation. Ledger: pending, Night 3"; and dated entries on `player/conduct-profile.md` for any standing conduct the day produced (how the god means to be found, what it will not give in unplayed time), with its `## Now` summary rewritten to match. A stated first action ("I walk in at the burial ground") is conduct and goes in the profile; where it happens is the world's, recorded as the player's wish for the Keeper to place
+- The transcript, `player/transcript-day3.md`, is the verbatim record of the table, append-only: each post is added as it is made and none is ever changed. A file that copies the player's words (the people's record, the meeting, the hierarchy, the follow-up answers) keeps them as said; where the Keeper later replaces a word in one with a plain word of the same sense, the DM keeps the replacement and does not restore it.
 
 ### Templates for the close files
 
@@ -79,6 +79,49 @@ treasure:
 trade:
 strength:
 mood:
+```
+
+`civs/<people>/record.md`:
+
+```
+# <People>: record
+
+Campaign <name>. Written by the DM at the close of creation Day 3, <YYYY-MM-DD>, with the player's yes.
+
+## Who they are
+<Kind, how they live, what they do with their days, how many, in the player's words where it gave them.>
+
+## Their code
+<What is always true of them: customs, taboos, what they honor, what they will not do.>
+
+## Skills and culture
+<Ordinary, unpriced.>
+
+## Edges and weaknesses
+<Each priced edge with the weakness that bought it, and any refusal's step; or "none". Powers given to mortals are on the power card, not here.>
+
+## Magic
+<What they have, within the pricing terms.>
+
+## Beliefs
+<What they believe about gods, before this one arrives.>
+
+## Disputes
+<Who settles them, and how.>
+
+## Helpers
+<The offices and how orders travel, or the refusal with its date, or the third form, pointing to player/hierarchy.md.>
+```
+
+`civs/<people>/people/<name>.md`, one per named mortal the player created (an unnamed one by office, `people/steward.md`):
+
+```
+# <Name, or the office>
+
+Campaign <name>. Written by the DM at the close of creation Day 3, <YYYY-MM-DD>.
+
+Who: <who this mortal is, in the player's words: office, age, sex where given, nature>.
+Heard, not promised: <what the player hopes this mortal will do, or "none">.
 ```
 
 `player/hierarchy.md`, with its heading for the form agreed: `# Hierarchy` (served), `# Hierarchy: refused` or `# Hierarchy: bent, and empty at landing` (designed, not yet serving):

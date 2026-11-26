@@ -168,7 +168,7 @@ Working, a god labors sixteen hours to a mortal's ten, so a god working alone co
 
 ## 8. How much of the year is yours
 
-A year holds about 365 days and four seasons, and every year opens in the same season. The DM will tell you the season when you ask. No calendar is shown; you decide how much time passes in a scene or a journey, and the DM holds you to what has already been decided.
+A year holds about 365 days and four seasons. The whole world goes through the seasons together, and every year opens in the same month. The DM will tell you the season when you ask. No calendar is shown; you decide how much time passes in a scene or a journey, and the DM holds you to what has already been decided.
 
 That is a long time. Here is what fits in a year:
 
@@ -180,7 +180,7 @@ That is a long time. Here is what fits in a year:
 
 One to three scenes are played live each year, and god-scale decisions besides. The rest of the year is not lost. Time you do not spend in scenes still passes in the world, and your god is still in it: your standing orders run, your advisors and kings do what you told them, your tasks get done and your journeys arrive. Say "I will do this then" and it is scheduled; say "see to it" and it is delegated. Long tasks resolve overnight and the morning story tells you what came of them.
 
-Where time is spent in the world and not in a scene, your god follows the conduct you set, or by default its own character, cautious and never reckless. Minor encounters resolve by that conduct. A major one is held for you: the morning story stops at the moment of contact and you play it live.
+Where time is spent in the world and not in a scene, your god follows the conduct you set, or by default its own character, cautious and never reckless. Minor encounters resolve by that conduct. A major one is held for you, and so is a scene you prepared for: the morning story stops at the moment of contact, tells nothing of the year past it, and you play it live; the next morning tells the rest.
 
 If you want to spend the whole year in the world, working with your hands and walking your land, you may. It counts.
 

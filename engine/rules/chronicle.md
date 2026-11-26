@@ -26,7 +26,7 @@ The player reads `years.md`, `canon.md`, `people.md`, `threads.md`, `messages.md
 
 - **The civ agent** writes the people's side (12.3): what the people did, produced, lost, built, feared, and what they say about their god and their kings. It writes `chronicle-people.md` each night (civ.md 6) from its own year file and `lore.md`. It writes about the people, never about the god's inner life, and it writes only what the people would tell their god or what the god could see of them.
 - **The DM** writes the god's side (12.3): where the god went, what it did, saw, sensed, decided, who it met, what it was told, what it learned of other gods. It writes `chronicle-god.md` from the day's scenes, the rolling save, the decisions handed off, and the Keeper's release.
-- **The DM assembles** both into the five player-facing files after each night turn (night-turn.md 7), before the morning story is finished. Assembly is the DM's job alone; the civ agent does not touch the player-facing files.
+- **The DM assembles** both into the five player-facing files after each night turn (night-turn.md 6), before the morning story is finished. Assembly is the DM's job alone; the civ agent does not touch the player-facing files.
 - **The Keeper** writes none of it. It releases to the DM what the god could know (12.2) and the DM writes from that. If the DM finds in assembly that the release and the chronicle disagree, the DM does not reconcile them silently: it logs the disagreement in `player/corrections.md` and tells the player in (oog), citing both (13.6).
 
 Nothing enters the chronicle that the player did not experience in the chat or that the Keeper did not release. The chat is the first authority (2.6, 12.1): if the player points to something in the chat the chronicle lacks or contradicts, the chronicle is corrected and the correction logged with its proof.
@@ -38,7 +38,7 @@ Nothing enters the chronicle that the player did not experience in the chat or t
 ```
 ## Year NNN
 
-Season opened: <the same season each year, 5.5>
+Season opened: <the waking month, the same each year for the whole world, 8.1>
 The god: <where it was, its condition, what it decided and did; scenes played,
 one line each with a pointer to the scene in the save; what it saw and sensed;
 whom it met; what it was told>
