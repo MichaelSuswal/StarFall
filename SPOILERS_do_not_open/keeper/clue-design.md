@@ -8,6 +8,8 @@ Kind codes: SEEN means the god or its people witness it directly. REPORTED means
 
 The rule under every clue: it shows an effect, an object, or a behavior. It never states a cause. Any mortal who states a cause is wrong about something that matters.
 
+How a clue is found (Michael, 2026-11-25; `mystery-standard.md` rule 17): every clue here is placed by the Keeper, so it is there. A god or envoy that goes where it sits and looks by a means that can find it, with no pressure or race, finds it, with no roll; under pressure or a race (a flood, a rival, a closing season) the search is rolled. A thing that came about in play is found by a roll weighed by the evidence.
+
 In a campaign, these tables are written into the mystery template (`creation-runbook.md` section 7.8). Each clue row becomes a clue under `### Clues`: its location (with map id) from "How surfaced" and the place it sits, "What is shown" from the clue column, and "Readings" from "Also supports" together with the reading the clue points toward. Kind and Earliest stay in the clue's text. Each wrong branch and restraint branch goes under `### Branches` with what the world does. "Opens next" is the Keeper's own thread and needs no heading. Names in this file are the test world's and carry no map ids; names in a campaign file always do.
 
 God-sense is set per campaign (DESIGN 7.2) and nothing here fixes it. However it is set, it is never a tally: direction, nearness or weight, never a count of gods. Rows that rest on gods feeling one another at a distance are marked; they exist only in a campaign whose god-sense gives that.

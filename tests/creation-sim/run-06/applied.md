@@ -158,6 +158,15 @@ Then, at the coordinator's word:
 
 Held for Michael, unchanged: moderate 4 (a search for a placed thing, found with no roll or rolled), moderate 5 (an ask the god promised to answer later becoming a held moment), the overrule of DM rolls, and the knack figures. The true figures on the public day sheet (the rest of moderate 1's finding) are left as the coordinator scoped the fix.
 
+### Michael's last four decisions
+
+From `changes.md`, "Michael's decisions after the build 7 check" (e3eb528), under the same go:
+- A search for a thing the Keeper placed: with no pressure or race it works out, no roll; under pressure or a race it is rolled. `mystery-standard.md` rule 17, `year-turn.md` section 7, `sealed-factors.md` (a search), `clue-design.md` (a line on how a clue is found). Replaces the no-roll reading of decision 3.
+- An ask the god promised to answer later: pending by default, held only for a crucial live scene. `year-turn.md` section 4 (build check moderate 5). Replaces the sim-06 Year 2 ruling that such a promise is always held.
+- The Keeper's overrule of DM rolls removed everywhere in the sealed files: `sealed-factors.md` (DM rolls in play rewritten, the Keeper's record, the checker's line 5, the source line), the runbook's standing rule on luck, `year-turn.md` section 1. The Keeper never changes a result the DM rolled; luck works only through the odds and ranges the Keeper itself sets (its own rolls, its weightings, the chance ranges on a board it writes). The luck record template (7.14) carried no overrule and needed no change.
+- Knack growth: the fixed figures removed from `year-turn.md` section 8 and runbook template 7.10. The Keeper judges by how much and how often the skill is used and how intently the god pushes it, and errs slow.
+- Not changed: `build7-check-sealed.md` is the build checker's record and still describes the two points as awaiting Michael.
+
 ### Readings made, and conflicts for the build check
 
 - Item 24 read to cover every god release, Night 3's people release included ("an NPC god's release says nothing about prices, trades or weaknesses at all"): the self form asks no drawback or trade, the people form no weakness, and the force measure is given without "edge" or "price". Every price the player was told at the table reaches the god in its round 1, by kind.
