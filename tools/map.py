@@ -8,6 +8,7 @@
   python3 tools/map.py travel <campaign> <from> <to> --by foot|horse|wagon|boat [--via <id>,<id>] [--god G] [--names] [--json]
   python3 tools/map.py reveal <campaign> (--region R | --feature F) --grade G --source "..." --year N
                                         [--told '<json>'] [--name N] [--cell C3] [--named] [--force "reason"]
+                                        [--seen-from PLACE [--reach MILES] | --stretch "x0,y0 x1,y1" | --whole "reason"]
   python3 tools/map.py validate <campaign>     check the sealed map's ids, neighbors, landings and types, and the
                                                continent's size; warn on common-word names
   python3 tools/map.py migrate <campaign>      rewrite an older knowledge file to the current rules
@@ -57,9 +58,10 @@ four letters or more; never an alias, change list 38) in every .md file of the s
 warns by, and after every placeholder label ("unnamed town", matched in any case) that only one place
 carries. A name already followed by one of its ids (after any 's or a parenthesis) is left alone, so
 running it twice changes nothing. Headings and bold mystery titles are never stamped. It skips
-LOCKED.md, the checker's lock-flags*.md, the keeper log and every file a god's agent writes in
-S/gods/<god>/ (survey-day1, self, goals, record-of-gods, people-hoped, negotiation-night*, decisions-NNN;
-change list 56), never touches the public folder, and prints the count per
+LOCKED.md, rulings.md, the checker's flags files (lock-flags*.md and years/NNN/flags.md), the keeper log,
+every other agent's log (a god's map-log.md, any *-log.md; build 7, change list 78) and every file a god's
+agent writes in S/gods/<god>/ (survey-day1, self, goals, record-of-gods, people-hoped, negotiation-night*,
+decisions-NNN; change list 56), never touches the public folder, and prints the count per
 file, then any placeholder shared by several places (left unstamped) and any common-word name.
 
 Feature types include `site` (a marked place smaller than a hill: a shrine, a stone, a burial ground,
@@ -140,6 +142,28 @@ Build 6 (run 05 change list):
   reads it); a rumor or report keeps its told words over a name the player gave the place (smoke stays
   smoke); a name the player gave at creation that the sheet shows before it is heard in play is named on
   the command line and in map-meta.json (`creation_names`), for the first morning's (oog) map line.
+
+Build 7 (run 06 change list):
+- stamp (78): skips the checker's flags files (lock-flags*.md and years/NNN/flags.md), rulings.md and every
+  other agent's log (a god's map-log.md, any *-log.md); stamp_skipped() names them, and lockcheck --places
+  warns on no bare name in them.
+- validate (43): land traced at a sheet edge fails, not warns, when the plan asks for sea on every side:
+  map.json `painting.sea_all_round: true`, a line of the placement plan or draft or the world draft, or the
+  prompt of the campaign's surface map request (SEA_ROUND_RE: "sea on every side", "sea all round", "no
+  coast is cut off").
+- travel (44): a boat trip whose straight line crosses land between two waters (a headland, a spit) goes
+  round it by water, coasting by the shortest way the map gives (coasting_route, water_route), the walks
+  to and from the water kept; the segments say "coasting, around the land".
+- describe (44): a marsh, lake, forest or sea area of the described region that lies past the sight rule's
+  reach is listed in its own section, "In this region, past the near distance and not in view" (JSON
+  `in_region`), for the Keeper, never as seen.
+- reveal, gazetteer and draw (61): a line (a road, a path, a river) revealed as seen is seen only as far as
+  it was seen. `reveal --grade seen` on a line needs `--seen-from PLACE [--reach MILES]` (the part within
+  reach of the place, by default the near distance), `--stretch "x0,y0 x1,y1"` (the two ends, on the line),
+  or `--whole "reason"`; the knowledge entry keeps `stretches`, the two ends of each stretch seen (merged as
+  more is seen; an entry seen with no stretches is seen whole, as older files are). The gazetteer gives only
+  the stretches seen ("seen in part, about 1.0 miles of it seen, from B3 to B3; its length is not known"),
+  never the whole length or the far end, and the sheet draws and labels only the seen stretches.
 
 The sealed map's regions carry elevation, water, climate and neighbors ({id, days});
 the sheet carries landings (god label to region id), roads and paths (feature types, drawn
@@ -512,6 +536,10 @@ def known_feature(f, entry, painting=None):
     k["type"] = told.get("type", f["type"] if g != "rumored" else "")
     if g == "seen":
         k["coords"] = f["coords"]
+        parts = stretch_parts(f, entry)
+        if parts:   # a line seen only in part: only the stretch seen (build 7, run 06 change list 61)
+            k["parts"] = parts
+            k["coords"] = max(parts, key=polyline_length)
     elif g == "reported":
         k["coords"] = told.get("coords", f["coords"])
     else:
@@ -522,6 +550,38 @@ def known_feature(f, entry, painting=None):
     if k["shape"] == "area" and len(k["coords"]) < 3:
         k["shape"] = "point"
     return k
+
+
+def stretch_parts(f, entry):
+    """The parts of a line feature the god has seen, as polylines along its true course, from the entry's
+    `stretches` (each the two ends of a seen stretch, on the line, in painting pixels); None when the line is
+    seen whole (no stretches: an older file, or `reveal --whole`), or is not a line (change list 61)."""
+    st = (entry or {}).get("stretches")
+    line = f.get("coords") or []
+    if not st or f.get("shape") != "line" or len(line) < 2:
+        return None
+    out = []
+    for a, b in stretch_intervals(line, st):
+        if b - a > 1e-9:
+            out.append([[round(p[0], 2), round(p[1], 2)] for p in sub_line(line, a, b)])
+    return out or None
+
+
+def stretch_intervals(line, stretches):
+    """[(t0, t1)] along-distances on the line, sorted and merged, for stretches given by their two ends."""
+    ivs = sorted(tuple(sorted((dist_to_polyline(p, line)[1], dist_to_polyline(q, line)[1]))) for p, q in stretches)
+    out = []
+    for a, b in ivs:
+        if out and a <= out[-1][1] + 0.5:
+            out[-1] = (out[-1][0], max(out[-1][1], b))
+        else:
+            out.append((a, b))
+    return out
+
+
+def line_parts(k):
+    """A known line's parts: the seen stretches when it is seen in part, else its one known course."""
+    return k.get("parts") or [k["coords"]]
 
 
 def known_region(r, entry, painting=None):
@@ -661,6 +721,15 @@ def knowledge_problems(world, knowledge):
                 probs.append(f"{kind} {ident}: `near` is not a reported shape")
             if "named" in e and not isinstance(e["named"], bool):
                 probs.append(f"{kind} {ident}: named must be true or false")
+            if "stretches" in e:   # a line seen in part (build 7, change list 61)
+                el = hit[1]
+                st = e["stretches"]
+                if kind != "feature" or el.get("shape") != "line" or g != "seen":
+                    probs.append(f"{kind} {ident}: stretches are for a line feature seen in part")
+                elif not isinstance(st, list) or not st or not all(isinstance(x, list) and len(x) == 2 and all(is_point(p) for p in x) for x in st):
+                    probs.append(f"{kind} {ident}: stretches is a list of [[x, y], [x, y]] pairs, the two ends of each seen stretch")
+                elif any(dist_to_polyline(p, el["coords"])[0] > 1.0 for x in st for p in x):
+                    probs.append(f"{kind} {ident}: a stretch's end does not lie on the line")
     return probs
 
 
@@ -969,6 +1038,60 @@ def edge_land_warnings(world):
     detail = "; ".join(f"{e}: {', '.join(hits[e])}" for e in edges)
     return [f"warning: traced land runs off the sheet's {', '.join(edges)} edge(s) ({detail}); "
             "the land touches the painting border, so the sheet does not show where it ends"]
+
+
+# A plan that asks for sea on every side of the land (change list 43): validate then fails land traced at a sheet edge.
+SEA_ROUND_RE = re.compile(r"\bsea\s+(?:all\s+round|all\s+around|on\s+(?:every|all|all\s+four)\s+sides?)\b|\bno\s+coast\s+is\s+cut\s+off\b|"
+                          r"\bnothing\s+is\s+cut\s+off\s+at\s+the\s+edges\b", re.I)
+SEA_ROUND_FILES_RE = re.compile(r"^(?:placement-(?:plan|draft)|world-draft)\.md$")
+
+
+def sea_all_round_sources(world, sealed_dir):
+    """Where the plan asks for sea on every side (change list 43): map.json's `painting.sea_all_round: true`;
+    a line of the placement plan or draft or the world draft (anywhere in the sealed campaign folder); or the
+    prompt of the campaign's surface map request, S/images/requests/ or S/images/held/<campaign>-map-surface.json
+    (beside the sealed campaigns folder). Returns the sources found, as short labels."""
+    out = []
+    if (world.get("painting") or {}).get("sea_all_round") is True:
+        out.append("map.json painting.sea_all_round")
+    if sealed_dir and os.path.isdir(sealed_dir):
+        for dirpath, dirs, files in os.walk(sealed_dir):
+            dirs[:] = sorted(d for d in dirs if not d.startswith("."))
+            for fn in sorted(files):
+                if not SEA_ROUND_FILES_RE.match(fn):
+                    continue
+                path = os.path.join(dirpath, fn)
+                try:
+                    lines = open(path, encoding="utf-8").read().splitlines()
+                except (OSError, UnicodeDecodeError):
+                    continue
+                out += [f"{os.path.relpath(path, sealed_dir)}:{i}" for i, l in enumerate(lines, 1) if SEA_ROUND_RE.search(l)][:1]
+        camp = world.get("campaign") or os.path.basename(os.path.normpath(sealed_dir))
+        images = os.path.join(os.path.dirname(os.path.dirname(os.path.normpath(sealed_dir))), "images")
+        for sub in ("requests", "held"):
+            rp = os.path.join(images, sub, f"{camp}-map-surface.json")
+            if os.path.exists(rp):
+                try:
+                    prompt = str(json.load(open(rp)).get("prompt", ""))
+                except (OSError, json.JSONDecodeError, AttributeError):
+                    prompt = ""
+                if SEA_ROUND_RE.search(prompt):
+                    out.append(f"the surface map request ({sub}/{camp}-map-surface.json)")
+    return out
+
+
+def edge_land_problems(world, sealed_dir):
+    """(problems, warnings) for land traced at a sheet edge: a problem when the plan asks for sea on every side
+    (sea_all_round_sources, change list 43), else the warning edge_land_warnings gives."""
+    warns = edge_land_warnings(world)
+    if not warns:
+        return [], []
+    src = sea_all_round_sources(world, sealed_dir)
+    if not src:
+        return [], warns
+    line = warns[0][len("warning: "):].split("; the land touches")[0]
+    return [f"{line}; but {', '.join(src)} asks for sea on every side: the land must end inside the sheet "
+            "(repaint, or trace the coast as painted only with the plan changed)"], []
 
 
 # ---------------------------------------------------------------- the continent's size (change list 87)
@@ -1897,20 +2020,23 @@ def draw_feature(canvas, lab, view, k, painting, region_names=(), dim=1.0):
         # the features drawn as a line (a road, a path): a thin ink trace, dashed when only reported
         if k["shape"] != "line" or len(coords) < 2:
             return
-        pts = view.pts(coords)
         over = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
         d = ImageDraw.Draw(over)
         ink = ROAD_INK + (int(200 * dim) if not reported else int(150 * dim),)
-        if reported:
-            for i in range(len(pts) - 1):
-                (x0, y0), (x1, y1) = pts[i], pts[i + 1]
-                L = math.dist(pts[i], pts[i + 1])
-                n = max(1, int(L // 6))
-                for j in range(0, n, 2):
-                    d.line([(x0 + (x1 - x0) * j / n, y0 + (y1 - y0) * j / n),
-                            (x0 + (x1 - x0) * min(j + 1, n) / n, y0 + (y1 - y0) * min(j + 1, n) / n)], fill=ink, width=1)
-        else:
-            d.line(pts, fill=ink, width=2, joint="curve")
+        for part in line_parts(k):   # a line seen in part is drawn only along its seen stretches (61)
+            if len(part) < 2:
+                continue
+            pts = view.pts(part)
+            if reported:
+                for i in range(len(pts) - 1):
+                    (x0, y0), (x1, y1) = pts[i], pts[i + 1]
+                    L = math.dist(pts[i], pts[i + 1])
+                    n = max(1, int(L // 6))
+                    for j in range(0, n, 2):
+                        d.line([(x0 + (x1 - x0) * j / n, y0 + (y1 - y0) * j / n),
+                                (x0 + (x1 - x0) * min(j + 1, n) / n, y0 + (y1 - y0) * min(j + 1, n) / n)], fill=ink, width=1)
+            else:
+                d.line(pts, fill=ink, width=2, joint="curve")
         canvas.alpha_composite(over)
         if k["name"] and k.get("named", True):
             mid = coords[len(coords) // 2]
@@ -2470,6 +2596,11 @@ def told_span(a, b, knowledge, painting):
     return f"about {painting.miles(math.dist(centroid(pa), centroid(pb))):.0f} miles center to center as told, days not known"
 
 
+def fmt_seen_miles(m):
+    """A seen stretch's length: tenths under ten miles, whole miles above."""
+    return f"about {m:.1f} miles" if m < 10 else f"about {m:.0f} miles"
+
+
 def gazetteer(world, knowledge, out_dir, log_path):
     painting = Painting(world)
     hist = read_log(log_path)
@@ -2550,6 +2681,12 @@ def gazetteer(world, knowledge, out_dir, log_path):
             regs = ", ".join(reg_name.get(r, "a region not yet known") for r in k["regions"] if regions_k.get(r, {}).get("grade") != "rumored") if k["grade"] == "seen" else ""
             if k["shape"] == "point":
                 where = f"at {fmt_pt(k['coords'][0], painting)}"
+            elif k["shape"] == "line" and k.get("parts"):
+                # seen in part: only the stretches seen, never the whole length or its far end (change list 61)
+                seen_mi = sum(mi(polyline_length(pt)) for pt in k["parts"])
+                spans = "; ".join(f"from {fmt_pt(pt[0], painting)} to {fmt_pt(pt[-1], painting)}" for pt in k["parts"])
+                many = f" in {len(k['parts'])} stretches" if len(k["parts"]) > 1 else ""
+                where = f"seen in part{many}, {fmt_seen_miles(seen_mi)} of it seen, {spans}; its length is not known"
             elif k["shape"] == "line":
                 where = f"{mi(polyline_length(k['coords'])):.0f} miles long, from {fmt_pt(k['coords'][0], painting)} to {fmt_pt(k['coords'][-1], painting)}"
             else:
@@ -2571,13 +2708,16 @@ def gazetteer(world, knowledge, out_dir, log_path):
         lines.append("No river known.")
     for r in routes:
         along = []
-        for p in points:
-            d, t = dist_to_polyline(p["coords"][0], r["coords"])
-            if mi(d) <= 3:
-                along.append((t, p["name"]))
+        for part in line_parts(r):
+            for p in points:
+                d, t = dist_to_polyline(p["coords"][0], part)
+                if mi(d) <= 3:
+                    along.append((t, p["name"]))
         along.sort()
         stops = ", ".join(n for _, n in along) if along else "no known place along it"
-        lines.append(f"- **{r['name']}**, {mi(polyline_length(r['coords'])):.0f} miles, {r['grade']}: {stops}.")
+        length = (f"{fmt_seen_miles(sum(mi(polyline_length(pt)) for pt in r['parts']))} of it seen" if r.get("parts")
+                  else f"{mi(polyline_length(r['coords'])):.0f} miles")
+        lines.append(f"- **{r['name']}**, {length}, {r['grade']}: {stops}.")
     lines.append("")
 
     # travel by route (change list 93): between known places on a known road or river, along it
@@ -2590,10 +2730,10 @@ def gazetteer(world, knowledge, out_dir, log_path):
     rates = pace_rates()
     trav = [k for k, l in surface if k["type"] in ROUTE_TYPES and k["grade"] != "rumored" and k["shape"] == "line" and len(k["coords"]) >= 2]
     any_route = False
-    for r in sorted(trav, key=lambda k: k["name"]):
+    for r, part in sorted(((r, pt) for r in trav for pt in line_parts(r)), key=lambda x: x[0]["name"]):
         on = []
         for p in points:
-            d, t = dist_to_polyline(p["coords"][0], r["coords"])
+            d, t = dist_to_polyline(p["coords"][0], part)
             if mi(d) <= ON_ROUTE_MILES:
                 on.append((t, p))
         on.sort(key=lambda x: x[0])
@@ -2700,6 +2840,34 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
     entry = {"grade": args.grade, "source": args.source, "year": args.year}
     correction = ""
     old_told = old.get("told", {}) or {}
+    stretch_note = ""
+    is_line = kind == "feature" and truth.get("shape") == "line" and len(truth.get("coords") or []) >= 2
+    want_stretch = getattr(args, "stretch", None) or getattr(args, "seen_from", None)
+    if (want_stretch or getattr(args, "whole", None)) and not (is_line and args.grade == "seen"):
+        sys.exit("map.py: --stretch, --seen-from and --whole are for a line feature (a road, a path, a river) revealed as seen")
+    if is_line and args.grade == "seen":
+        # a line is seen only as far as it was seen (build 7, run 06 change list 61): a stretch, or the whole
+        # line with a reason; an older whole sighting (seen, no stretches) stays whole
+        if want_stretch and getattr(args, "whole", None):
+            sys.exit("map.py: give a stretch (--stretch or --seen-from) or --whole, not both")
+        if want_stretch:
+            new = seen_stretch(world, truth, args, painting)
+            line = truth["coords"]
+            ivs = stretch_intervals(line, (old.get("stretches") or []) + [new]) if (old_grade != "seen" or old.get("stretches")) \
+                else [(0.0, polyline_length(line))]
+            entry["stretches"] = [[[round(c_, 1) for c_ in point_along(line, a)], [round(c_, 1) for c_ in point_along(line, b)]]
+                                  for a, b in ivs]
+            if ivs == [(0.0, polyline_length(line))] and old_grade == "seen" and not old.get("stretches"):
+                del entry["stretches"]   # already seen whole: a new stretch narrows nothing
+            else:
+                seen_len = painting.miles(abs(dist_to_polyline(new[1], line)[1] - dist_to_polyline(new[0], line)[1]))
+                stretch_note = f"; stretch seen from {painting.cell_of(new[0])} to {painting.cell_of(new[1])}, {fmt_seen_miles(seen_len)}"
+        elif getattr(args, "whole", None):
+            stretch_note = f"; seen whole: {args.whole}"
+        elif not (old_grade == "seen" and not old.get("stretches")):
+            sys.exit(f"map.py: {ident} is a line: say how much of it was seen, --seen-from <place> [--reach MILES] or "
+                     "--stretch \"x0,y0 x1,y1\" (painting pixels on the line), or --whole \"reason\" when the god saw "
+                     "or went its whole length (change list 61)")
     # a name once heard stays heard (change lists 81 and 39): the Keeper's name kept from the old entry or
     # set now; seeing a place never gives its name, so a told name is kept as told.name when it is seen
     if getattr(args, "named", False) or old.get("named"):
@@ -2748,8 +2916,36 @@ def reveal(world, knowledge, knowledge_path, log_path, args):
     os.makedirs(os.path.dirname(log_path) or ".", exist_ok=True)
     reason = f"; forced: {args.force}" if args.force else ""
     with open(log_path, "a") as f:
-        f.write(f"- {pacific_today()} | year {args.year} | {kind} {ident} | {old_grade} -> {args.grade} | {args.source}{correction}{reason}\n")
-    print(f"{kind} {ident}: {old_grade} -> {args.grade} ({args.source}, year {args.year}){correction}")
+        f.write(f"- {pacific_today()} | year {args.year} | {kind} {ident} | {old_grade} -> {args.grade} | {args.source}{correction}{stretch_note}{reason}\n")
+    print(f"{kind} {ident}: {old_grade} -> {args.grade} ({args.source}, year {args.year}){correction}{stretch_note}")
+
+
+def seen_stretch(world, line_el, args, painting):
+    """The two ends, on the line, of the stretch a reveal names (change list 61): `--stretch "x0,y0 x1,y1"`
+    (painting pixels, each end set onto the line), or `--seen-from PLACE` (a feature, a region or a god's
+    landing, as travel reads it), the part of the line within `--reach` miles of it (default: the near
+    distance of the ground there, NEAR_MILES, the sight rule's reach for a thing at ground level)."""
+    line = line_el["coords"]
+    if getattr(args, "stretch", None):
+        nums = re.findall(r"-?\d+(?:\.\d+)?", args.stretch)
+        if len(nums) != 4:
+            sys.exit("map.py: --stretch takes two points, \"x0,y0 x1,y1\" in painting pixels")
+        pts = [(float(nums[0]), float(nums[1])), (float(nums[2]), float(nums[3]))]
+        for p in pts:
+            if painting.miles(dist_to_polyline(p, line)[0]) > 1.0:
+                sys.exit(f"map.py: --stretch point {p} is more than a mile from {line_el['id']}; give points on the line")
+        ends = [point_along(line, dist_to_polyline(p, line)[1]) for p in pts]
+    else:
+        at = resolve_place(world, args.seen_from)[0]
+        reach = args.reach if args.reach is not None else NEAR_MILES[openness(region_at(world, at))]
+        part = seen_part(line, at, reach, painting)
+        if not part:
+            sys.exit(f"map.py: no part of {line_el['id']} lies within {reach:g} miles of {args.seen_from}")
+        ends = [part[0], part[-1]]
+    a, b = sorted(ends, key=lambda p: dist_to_polyline(p, line)[1])
+    if math.dist(a, b) < 1e-9:
+        sys.exit("map.py: the stretch has no length")
+    return [list(a), list(b)]
 
 
 def migrate(world, knowledge, painting):
@@ -2789,7 +2985,11 @@ def migrate(world, knowledge, painting):
 
 # ---------------------------------------------------------------- stamp
 
-STAMP_SKIP = {"LOCKED.md", "keeper-log.md"}   # the keeper log is a record, never stamped (change list 56)
+STAMP_SKIP = {"LOCKED.md", "keeper-log.md", "rulings.md"}   # the keeper log is a record, never stamped (change list 56);
+# rulings.md is the orchestrator's alone (CLAUDE.md)
+# The checker's flags files (lock-flags*.md and years/NNN/flags.md) and every other agent's log (a god's
+# map-log.md, any *-log.md) are another agent's own record: never stamped (build 7, run 06 change list 78).
+STAMP_SKIP_RE = re.compile(r"^(?:lock-)?flags.*\.md$|^.*-log\.md$|^log\.md$")
 # Files a god's own agent writes in S/gods/<god>/ (the creation runbook): its own words, never stamped (56).
 GOD_WRITTEN_RE = re.compile(r"^(?:survey-day1|self|goals|record-of-gods|people-hoped|negotiation-night\w*|decisions-\d+)\.md$")
 
@@ -2799,6 +2999,14 @@ def is_god_written(rel):
     the sealed folder."""
     parts = rel.replace(os.sep, "/").split("/")
     return len(parts) == 3 and parts[0] == "gods" and GOD_WRITTEN_RE.match(parts[2]) is not None
+
+
+def stamp_skipped(rel):
+    """True for a sealed file stamp never touches, by its path relative to the sealed folder: LOCKED.md, the
+    keeper log, rulings.md, the checker's flags files, any other agent's log (change list 78) and the files a
+    god's agent writes (change list 56). lockcheck --places warns on no bare name in them."""
+    base = os.path.basename(rel)
+    return base in STAMP_SKIP or STAMP_SKIP_RE.match(base) is not None or is_god_written(rel)
 
 
 STAMP_NOTES = []   # notes from the last stamp (placeholder labels shared by several places, left unstamped)
@@ -2888,8 +3096,9 @@ def stamp_text(text, names):
 
 def stamp(campaign, sealed_dir, world, dry_run=False):
     """Stamp every .md file in the sealed campaign folder. Never reads or writes the public folder.
-    Skips the checker's flags files, LOCKED.md, the keeper log and the files a god's agent writes in
-    S/gods/<god>/ (change list 56). Returns (files changed, names stamped, per-file counts)."""
+    Skips what stamp_skipped names: the checker's flags files (lock-flags*.md and years/NNN/flags.md), LOCKED.md,
+    the keeper log, rulings.md, any other agent's log (a god's map-log.md; change list 78) and the files a god's
+    agent writes in S/gods/<god>/ (change list 56). Returns (files changed, names stamped, per-file counts)."""
     sealed_dir = os.path.abspath(sealed_dir)
     public = os.path.abspath(os.path.join(ROOT, "campaigns", campaign))
     names = stamp_names(world)
@@ -2900,10 +3109,8 @@ def stamp(campaign, sealed_dir, world, dry_run=False):
         dirs[:] = sorted(d for d in dirs if not d.startswith("."))
         for fn in sorted(files):
             path = os.path.join(dirpath, fn)
-            if not fn.endswith(".md") or fn in STAMP_SKIP or re.match(r"^lock-flags.*\.md$", fn):
-                continue
-            if is_god_written(os.path.relpath(path, sealed_dir)):
-                continue  # a god's own words, as it wrote them (change list 56)
+            if not fn.endswith(".md") or stamp_skipped(os.path.relpath(path, sealed_dir)):
+                continue  # a god's own words, the checker's flags, another agent's log (change lists 56, 78)
             if os.path.commonpath([os.path.abspath(path), public]) == public:
                 continue  # never the public folder
             with open(path, encoding="utf-8") as f:
@@ -3122,9 +3329,13 @@ def price_trip(world, legs, means, rates=None):
                 path = land_route(world, pts[0], pts[-1], painting)
                 if path:
                     pts, around = path, True
+        else:
+            path = coasting_route(world, pts[0], pts[-1], painting)   # round a headland by water (run 06, 44)
+            if path:
+                pts, around = path, True
         runs = split_by_region(world, pts, painting)
         if around:
-            runs = shore_runs(runs, painting)
+            runs = shore_runs(runs, painting) if means != "boat" else coast_runs(runs, painting)
         leg_segs = []
         for r, m in runs:
             g = ground_of(r)
@@ -3196,6 +3407,81 @@ def shore_runs(runs, painting):
     return [(r, m) for r, m in merged]
 
 
+def coast_runs(runs, painting):
+    """A coasting voyage hugs the shore, so a sliver of land a few pixels long at a turn is the shore itself:
+    it takes the water of the run before it (or after it). The land at either end (a walk to or from the
+    water) is kept."""
+    out = [[r, m] for r, m in runs]
+    tiny = painting.miles(3 * land_cell(painting))
+    for i, (r, m) in enumerate(out):
+        if 0 < i < len(out) - 1 and ground_of(r) != "sea" and m <= tiny:
+            if ground_of(out[i - 1][0]) == "sea":
+                out[i][0] = out[i - 1][0]
+            elif ground_of(out[i + 1][0]) == "sea":
+                out[i][0] = out[i + 1][0]
+    merged = []
+    for r, m in out:
+        if merged and merged[-1][0] is r:
+            merged[-1][1] += m
+        else:
+            merged.append([r, m])
+    return [(r, m) for r, m in merged]
+
+
+def coasting_route(world, a, b, painting, step_mi=0.25):
+    """A boat's way from a to b by water when the straight line between them crosses land a boat cannot
+    cross (a headland, a spit; build 7, run 06 change list 44), as points: from where the line first reaches
+    the water to where it last leaves it, or, when the line meets no water it can use, from the water nearest
+    each end (within BOAT_WALK_MILES, a walk), the shortest way the map gives over water (water_route), the
+    walks at either end kept. None when the straight line is a boat's way already (land only in a short walk
+    at either end), or no way by water joins the two."""
+    L = painting.miles(math.dist(a, b))
+    n = max(2, int(math.ceil(L / step_mi)))
+    wet = []
+    for k in range(n + 1):
+        t = k / n
+        q = (a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t)
+        wet.append((t, q, ground_of(region_at(world, q)) == "sea"))
+    idx = [i for i, (_t, _q, w) in enumerate(wet) if w]
+    if idx and all(wet[i][2] for i in range(idx[0], idx[-1] + 1)) \
+            and L * wet[idx[0]][0] <= BOAT_WALK_MILES and L * (1 - wet[idx[-1]][0]) <= BOAT_WALK_MILES:
+        return None   # water all the way between, with a short walk at most at either end
+    if len(idx) >= 2 and not all(wet[i][2] for i in range(idx[0], idx[-1] + 1)) \
+            and L * wet[idx[0]][0] <= BOAT_WALK_MILES and L * (1 - wet[idx[-1]][0]) <= BOAT_WALK_MILES:
+        entry, exit_ = wet[idx[0]][1], wet[idx[-1]][1]
+    else:
+        entry, exit_ = nearest_water(world, a, painting), nearest_water(world, b, painting)
+        if entry is None or exit_ is None:
+            return None
+    path = water_route(world, entry, exit_, painting)
+    if not path:
+        return None
+    out = [tuple(a)]
+    for q in [entry] + path[1:-1] + [exit_, tuple(b)]:
+        if math.dist(out[-1], q) > 1e-9:
+            out.append(tuple(q))
+    return out
+
+
+def nearest_water(world, p, painting, max_miles=BOAT_WALK_MILES):
+    """The middle of the nearest water cell off the shore (as water_route enters it) within max_miles of p,
+    or None: where a boat trip from a place inland or on a coast takes to the water."""
+    grid, cols, rows, c = water_grid(world, painting)
+    cx, cy = int(p[0] / c), int(p[1] / c)
+    r = int(math.ceil(max_miles / painting.mpp / c))
+    best = None
+    for y in range(max(0, cy - r), min(rows, cy + r + 1)):
+        for x in range(max(0, cx - r), min(cols, cx + r + 1)):
+            if not all(grid[yy][xx] for xx, yy in ((x, y), (x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1))
+                       if 0 <= xx < cols and 0 <= yy < rows):
+                continue
+            q = ((x + 0.5) * c, (y + 0.5) * c)
+            d = math.dist(p, q)
+            if painting.miles(d) <= max_miles and (best is None or d < best[0]):
+                best = (d, q)
+    return best[1] if best else None
+
+
 def land_cell(painting):
     """Pixels per cell of the grid land_route searches on (about 512 cells on the long side)."""
     return max(1.0, max(painting.size) / 512.0)
@@ -3230,6 +3516,17 @@ def land_route(world, a, b, painting=None):
     """The shortest way over land from a to b around water (change list 41), as points in painting
     pixels: an eight-way search on a grid of about 512 cells a side, pulled straight wherever the line
     between two of its points stays on land. None when no way over land joins them."""
+    return grid_route(world, a, b, painting, on_water=False)
+
+
+def water_route(world, a, b, painting=None):
+    """The shortest way by water from a to b around land (a coasting voyage, build 7, run 06 change list 44):
+    land_route's search with water and land changed over. None when no way by water joins them."""
+    return grid_route(world, a, b, painting, on_water=True)
+
+
+def grid_route(world, a, b, painting=None, on_water=False):
+    """The search land_route and water_route share: over land (on_water False) or over water (True)."""
     import heapq
     painting = painting or Painting(world)
     grid, cols, rows, c = water_grid(world, painting)
@@ -3238,8 +3535,18 @@ def land_route(world, a, b, painting=None):
         return (min(cols - 1, max(0, int(p[0] / c))), min(rows - 1, max(0, int(p[1] / c))))
     s, g = cell(a), cell(b)
 
+    def ok(x, y):
+        """A cell the search may enter: land, or for a voyage water a cell off the shore (the cell and its four
+        neighbors all water), so a coasting line never cuts the land's edge as the grid draws it."""
+        if not (0 <= x < cols and 0 <= y < rows):
+            return False
+        if not on_water:
+            return not grid[y][x]
+        return all(grid[yy][xx] for xx, yy in ((x, y), (x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1))
+                   if 0 <= xx < cols and 0 <= yy < rows)
+
     def free(x, y):
-        return 0 <= x < cols and 0 <= y < rows and (not grid[y][x] or (x, y) in (s, g))
+        return 0 <= x < cols and 0 <= y < rows and (ok(x, y) or (x, y) in (s, g))
     if s == g:
         return [tuple(a), tuple(b)]
     openq = [(math.dist(s, g), 0.0, s)]
@@ -3277,7 +3584,7 @@ def land_route(world, a, b, painting=None):
             x = p[0] + (q[0] - p[0]) * i / n
             y = p[1] + (q[1] - p[1]) * i / n
             cx, cy = cell((x, y))
-            if grid[cy][cx] and (cx, cy) not in (s, g):
+            if not ok(cx, cy) and (cx, cy) not in (s, g):
                 return False
         return True
     out, i = [pts[0]], 0
@@ -3411,7 +3718,7 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
         else:
             where = f"open ground through {nm(s['region'])}" if s["region"] else "open ground"
             if s.get("around"):
-                where += " (around the water)"
+                where += " (coasting, around the land)" if means == "boat" else " (around the water)"
         ground = GROUND_WORDS.get(s["ground"], s["ground"].replace("_", " ")) if s["ground"] != "land" else "land, which a boat cannot cross"
         if s["rate"]:
             rate_words = f"{s['rate']:g} miles a day{' on foot' if s['how'] == 'walk' else ''}"
@@ -3431,8 +3738,12 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
             lines.append("Routes that pass within half a mile of both ends: " + "; ".join(
                 f"{nm(f['id'])} (--via {f['id']})" for f in near) + ".")
     if any(s.get("around") for s in trip["segments"]):
-        lines.append("The open ground goes around water a walker cannot cross, by the shortest way the map gives "
-                     "(change list 41); a ferry or a boat may be quicker.")
+        if means == "boat":
+            lines.append("The voyage keeps to the water around the land between, coasting by the shortest way the map "
+                         "gives (run 06 change list 44); a portage may be quicker.")
+        else:
+            lines.append("The open ground goes around water a walker cannot cross, by the shortest way the map gives "
+                         "(change list 41); a ferry or a boat may be quicker.")
     data = {"from": start, "to": end, "by": means, "via": list(vias), "miles": round(trip["miles"], 2),
             "days": round(trip["days"], 3) if trip["days"] is not None else None,
             "segments": [{"how": s["how"], "route": s["feature"], "region": s["region"], "ground": s["ground"],
@@ -3625,6 +3936,7 @@ PLAIN_VIEW_MILES = NEAR_MILES["open"]   # within this a settlement is never miss
 
 
 TREE_FT = 60.0   # a wood's tree line stands about this far above its own floor (change list 61)
+REGION_AREA_TYPES = {"marsh", "lake", "forest", "sea"}   # areas of a region's own ground describe lists (run 06, 44)
 WOOD_TERRAIN = {"forest", "wood", "woods", "woodland", "jungle"}
 
 
@@ -3663,6 +3975,10 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
     - Wood edges (change list 61): a forest region or forest area beyond the near distance shows as a tree
       line, TREE_FT above its own floor, out to sight_miles of that height above the eye's ground (from a
       floor), or to the forty-mile skyline (from a height or a coast), unless ground between hides it.
+    - The region's own areas (build 7, run 06 change list 44): a marsh, lake, forest or sea area that lies in
+      the described region but past what the sight rule puts in view is listed in its own section, "In this
+      region, past the near distance and not in view", with its distance and bearing, for the Keeper; it is
+      never written as seen (JSON `in_region`).
 
     With `data` (a dict), the same reading is filled in as data for `describe --json`: miles, bearings,
     grid cells and ids, with names as the god has learned them; never a pixel."""
@@ -3682,7 +3998,7 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
     head = names.name(region_id)
     D.update({"label": label or "Land description", "region": {"id": region_id, "name": head, "terrain": terrain_word(region)},
               "from": "landing point" if where == "from the landing point" else "middle of the region",
-              "cell": painting.cell_of(at), "neighbors": [], "in_view": [], "smoke": [], "hidden": []})
+              "cell": painting.cell_of(at), "neighbors": [], "in_view": [], "smoke": [], "hidden": [], "in_region": []})
     out.append(f"{label or 'Land description'}: {head}, {where}, in grid cell {painting.cell_of(at)}.")
     out.append("")
     terrain = names.scrub(region.get("terrain", ""))
@@ -3742,7 +4058,7 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
                f"sees level ground out to {fmt_miles(sight_miles(0))}; things at ground level are in view within {fmt_miles(near)} "
                f"({'open' if near == NEAR_MILES['open'] else 'hill or forest'} ground)"
                + (f"; nothing past a skyline of {SKYLINE_MILES:g} miles." if cap else "; higher ground shows on the skyline as far as its height carries, unless ground between hides it."))
-    in_view, hidden, smoke = [], [], []
+    in_view, hidden, smoke, in_region = [], [], [], []
     for r, _layer in all_regions(world):
         if r["id"] == region_id:
             continue
@@ -3803,6 +4119,12 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
             dxy, seg = (coords[0][0] - at[0], coords[0][1] - at[1]), ""
         d = mi(d_px)
         dirn = bearing_or_none(d, *dxy)
+        if d > reach and f.get("shape") == "area" and f.get("type") in REGION_AREA_TYPES and region_id in (f.get("regions") or []):
+            # an area of the region's own ground past the near distance (a marsh, a lake, a wood): listed as
+            # in the region, never as seen (build 7, run 06 change list 44)
+            in_region.append((d, f"- {names.name(f['id'])} ({f.get('type')}), {dist_dir(d, *dxy)} to its nearest edge."))
+            D["in_region"].append({"id": f["id"], "name": names.name(f["id"]), "type": f.get("type"), "miles": round(d, 2),
+                                   "bearing": dirn})
         if d <= reach:
             on = ""
             if f.get("type") in ROUTE_TYPES and f.get("shape") == "line" and d <= ON_ROUTE_MILES:
@@ -3856,6 +4178,10 @@ def describe(world, region_id=None, at=None, knowledge=None, all_names=False, la
         out.append("")
         out.append("Within reach of the eye but hidden by higher ground between:")
         out += hidden
+    if in_region:
+        out.append("")
+        out.append("In this region, past the near distance and not in view (for the Keeper; never written as seen):")
+        out += [t for _d, t in sorted(in_region, key=lambda x: x[0])]
     return "\n".join(out).rstrip() + "\n"
 
 
@@ -4029,6 +4355,10 @@ def main(argv=None):
             s.add_argument("--force", help="reason, to lower a grade")
             s.add_argument("--named", action="store_true",
                            help="the god has heard or seen the place's name with it; a seen region is labeled on the sheet only then")
+            s.add_argument("--stretch", help="a line seen in part: the two ends of the stretch seen, \"x0,y0 x1,y1\" in painting pixels on the line")
+            s.add_argument("--seen-from", dest="seen_from", help="a line seen in part: the place it was seen from (a feature, a region or a god's landing)")
+            s.add_argument("--reach", type=float, help="with --seen-from: how far along it was seen, in miles (default: the near distance of the ground there)")
+            s.add_argument("--whole", help="a line seen its whole length: the reason (the god walked or saw all of it)")
     args = ap.parse_args(argv)
     world_path, paintings_dir, knowledge_path, out_dir = campaign_paths(args)
     world = load_json(world_path)
@@ -4044,7 +4374,9 @@ def main(argv=None):
         probs += underground_problems(world, os.path.dirname(os.path.abspath(world_path)))   # change list 68
         if os.path.exists(knowledge_path):
             probs += [f"knowledge: {p}" for p in knowledge_problems(world, load_json(knowledge_path))]
-        warns = common_word_warnings(world) + edge_land_warnings(world) + twarns
+        eprobs, ewarns = edge_land_problems(world, os.path.dirname(os.path.abspath(world_path)))   # change list 43
+        probs += eprobs
+        warns = common_word_warnings(world) + ewarns + twarns
         for p in probs:
             print(p)
         for w in warns:

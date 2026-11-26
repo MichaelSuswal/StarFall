@@ -40,6 +40,15 @@ SPOILERS_do_not_open/campaigns/NAME/state/rolls.jsonl (sealed); otherwise state/
 at the repo root. Paths are resolved from the repository root, whatever the working directory.
 `time` is UTC ISO; `pacific` is the same moment in America/Los_Angeles.
 Dice are hidden from the player; the DM reports only outcomes.
+
+The DM's open rolls (build 7, run 06 change list 62 and 70): the DM rolls in play with
+  python3 tools/roll.py --campaign NAME --public --who dm --what "..." --factor ...
+which writes the campaign's public log, campaigns/NAME/state/rolls.jsonl, never the sealed one. The
+DM's open rolls stay in that public log (Michael, 2026-11-24 22:06), and their ids carry the DM's own
+prefix, dm-NNNN, numbered per log file as r-NNNN is, so the two logs never share an id. --public
+needs --campaign and a --who that names the DM ("dm", or "the Weigher (player), rolled by the dm"), and
+takes no --log. The Keeper's rolls stay sealed, r-NNNN. public_log_problems() is the check that
+tools/check.py and tools/lockcheck.py --rolls run on the public log.
 """
 import argparse, datetime, json, os, re, secrets, subprocess, sys
 
@@ -48,7 +57,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # die: (reroll when the draw is above this, or None; number of faces)
 DICE = {"d6": (96, 6), "d8": (96, 8), "d10": (None, 10), "d12": (96, 12), "d20": (None, 20), "d30": (90, 30),
         "d100": (None, 100)}
-ID_RE = re.compile(r"^r-\d{4,}$")
+ID_RE = re.compile(r"^(?:r|dm)-\d{4,}$")
+DM_PREFIX = "dm"   # the DM's open rolls in the public log (change list 70)
 
 
 def face_of(die, roll):
@@ -73,9 +83,16 @@ def pacific_now(now_utc):
 def log_path(args):
     if args.log:
         return args.log
+    if getattr(args, "public", False) and args.campaign:
+        return public_log_path(args.campaign)
     if args.campaign:
         return os.path.join(ROOT, "SPOILERS_do_not_open", "campaigns", args.campaign, "state", "rolls.jsonl")
     return os.path.join(ROOT, "state", "rolls.jsonl")
+
+
+def public_log_path(campaign, root=None):
+    """The campaign's public log of the DM's open rolls, campaigns/<name>/state/rolls.jsonl (change list 62)."""
+    return os.path.join(root or ROOT, "campaigns", campaign, "state", "rolls.jsonl")
 
 
 def read_log(path):
@@ -94,18 +111,66 @@ def read_log(path):
     return out
 
 
-def entry_id(entry, lineno):
-    """A logged line's id; lines written before ids existed take their line number."""
-    return entry.get("id") or f"r-{lineno:04d}"
+def entry_id(entry, lineno, prefix="r"):
+    """A logged line's id; lines written before ids existed take their line number (with the log's prefix)."""
+    return entry.get("id") or f"{prefix}-{lineno:04d}"
+
+
+DM_WHO_RE = re.compile(r"\bdm\b", re.I)
+
+
+def is_dm(who):
+    """True when a roll's `who` names the DM ("dm", "the Weigher (player), rolled by the dm")."""
+    return bool(DM_WHO_RE.search(str(who or "")))
+
+
+def public_log_problems(entries, where):
+    """(failures, warnings) for the public log of the DM's open rolls (change list 70): every line readable
+    and the DM's; a reroll has a reason and replaces an earlier line of this log; nothing rolled twice
+    without one. A line with no id, or an older r-NNNN id from before the dm- prefix (build 7), is warned
+    on, not failed: it was written before the prefix and is never edited."""
+    fails, warns, ids, firsts, legacy = [], [], {}, {}, []
+    for i, e in enumerate(entries, 1):
+        if not e:
+            fails.append(f"{where}:{i}: unreadable line")
+            continue
+        rid = entry_id(e, i, DM_PREFIX)
+        if not is_dm(e.get("who")):
+            fails.append(f"{where}:{i}: {rid} is not the DM's (who: {e.get('who')!r}); only the DM's open rolls are public, every other roll is sealed")
+        if not e.get("id"):
+            warns.append(f"{where}:{i}: no id (an older line; read as {rid})")
+        elif not e["id"].startswith(DM_PREFIX + "-"):
+            legacy.append(e["id"])
+        elif e["id"] != f"{DM_PREFIX}-{i:04d}":
+            warns.append(f"{where}:{i}: id {e['id']} is not its line number")
+        if rid in ids:
+            fails.append(f"{where}:{i}: id {rid} used twice")
+        if e.get("replaces"):
+            if not e.get("reason"):
+                fails.append(f"{where}:{i}: reroll of {e['replaces']} has no reason")
+            if e["replaces"] not in ids:
+                fails.append(f"{where}:{i}: replaces {e['replaces']}, which is not an earlier roll of this log")
+        else:
+            firsts.setdefault(e.get("what", ""), []).append(rid)
+        ids[rid] = e
+    for what, rids in firsts.items():
+        if len(rids) > 1:
+            fails.append(f"{where}: rolled more than once without a reroll reason: {', '.join(rids)}")
+    if legacy:
+        span = legacy[0] if len(legacy) == 1 else f"{legacy[0]} to {legacy[-1]}"
+        warns.append(f"{where}: {len(legacy)} line(s) with an older id and no dm- prefix ({span}), written before build 7; "
+                     "they may repeat ids of the sealed log, so cite them as \"DM r-NNNN\"")
+    return fails, warns
 
 
 class Log:
-    def __init__(self, path):
+    def __init__(self, path, prefix="r"):
         self.path = path
+        self.prefix = prefix
         self.count = len(read_log(path))
 
     def next_id(self):
-        return f"r-{self.count + 1:04d}"
+        return f"{self.prefix}-{self.count + 1:04d}"
 
     def write(self, entry):
         os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
@@ -170,10 +235,17 @@ def main(argv=None):
     p.add_argument("--replaces", help="the roll id this reroll replaces, r-NNNN")
     p.add_argument("--log", default=None, help="log file; default state/rolls.jsonl at the repo root, or the campaign's sealed state when --campaign is given")
     p.add_argument("--campaign", default=None)
+    p.add_argument("--public", action="store_true",
+                   help="the DM's open roll: the campaign's public log campaigns/NAME/state/rolls.jsonl, ids dm-NNNN (needs --campaign and --who dm)")
     a = p.parse_args(argv)
 
     if not a.campaign and not a.log:
         p.error("give --campaign NAME (the campaign's sealed log) or --log PATH; a roll never lands in an unchecked log")
+    if a.public:
+        if a.log or not a.campaign:
+            p.error("--public needs --campaign NAME and takes no --log: it writes the campaign's public log")
+        if not is_dm(a.who):
+            p.error("--public is the DM's open roll: --who names the DM (\"dm\", or whose attempt it is and \"rolled by the dm\"); every other roll is sealed")
     if a.die and (a.factor or a.base is not None):
         p.error("--die takes no --factor or --base; a die returns a face, not a success")
     if a.weight and (a.die or a.factor or a.base is not None):
@@ -187,11 +259,12 @@ def main(argv=None):
     if bool(a.reason) != bool(a.replaces):
         p.error("a manual reroll needs both --reason and --replaces")
     path = log_path(a)
-    log = Log(path)
+    prefix = DM_PREFIX if a.public else "r"
+    log = Log(path, prefix)
     if a.replaces:
         if not ID_RE.match(a.replaces):
-            p.error("--replaces takes a roll id like r-0012")
-        known = {entry_id(e, i + 1) for i, e in enumerate(read_log(path))}
+            p.error("--replaces takes a roll id like r-0012 (or dm-0012 in the public log)")
+        known = {entry_id(e, i + 1, prefix) for i, e in enumerate(read_log(path))}
         if a.replaces not in known:
             p.error(f"--replaces {a.replaces}: no such roll in {os.path.relpath(path, ROOT)}")
 

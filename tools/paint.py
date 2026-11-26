@@ -22,6 +22,11 @@ images/held/ (outside both request folders and outside the workflow's trigger pa
 writing one starts no job); it is moved into a request folder only with Michael's go. The
 scan reads only the top level of each request folder, and any path with a `held` folder in
 it is skipped as well, so an older images/requests/held/ is never painted either.
+
+A request edited after its painting has come back (build 7, run 06 change list 58) still starts the
+paint workflow, since the workflow watches the request folders, but nothing is painted: a request
+with an output is skipped. The painting stands as it returned, and the edited request no longer
+matches it word for word. A new painting needs a new request id, under the campaign's images.md.
 """
 import base64, glob, json, os, re, sys, urllib.error, urllib.request
 

@@ -384,8 +384,9 @@ def test_lockcheck_rolls_and_dashes():
         assert code == 1
         assert "cites r-0042" in out and "rolled more than once" in out and "has no reason" in out
         assert "dashes: 1 failure(s)" in out
+        # build 7 (change list 70): the public log holds the DM's open rolls; a line that is not the DM's fails
         append(repo, "campaigns/fx/state/rolls.jsonl", '{"what": "public"}\n')
-        assert "public rolls log is not empty" in lock(repo, "--rolls")[1]
+        assert "is not the DM's" in lock(repo, "--rolls")[1]
 
 
 # ---------------------------------------------------------------- check.py
@@ -2065,5 +2066,336 @@ def test_build6_landing_lines_and_creation_names():
         meta = json.load(open(os.path.join(out, "map-meta.json")))
         assert meta["creation_names"] == [{"id": "f01", "name": "Homefire"}]
         assert "names the player gave at creation" in o and "Homefire (f01)" in o
+    finally:
+        shutil.rmtree(d)
+
+
+# ---------------------------------------------------------------- build 7 (run 06 change list)
+
+def test_build7_roll_public_dm_prefix():
+    """Items 62 and 70: roll.py --public writes the DM's open roll to the campaign's public log, with its own
+    id prefix dm-NNNN; it needs --campaign and a DM --who, and takes no --log. The sealed log is untouched."""
+    d = tempfile.mkdtemp()
+    real = roll.ROOT
+    roll.ROOT = d
+    try:
+        code, out, err = run_quiet(roll.main, ["--campaign", "zz", "--public", "--who", "dm", "--what", "is it market day",
+                                               "--factor", "market every few days=-20"])
+        assert code == 0, err
+        pub = os.path.join(d, "campaigns", "zz", "state", "rolls.jsonl")
+        e = read_lines(pub)[0]
+        assert e["id"] == "dm-0001" and e["odds"] == 30 and json.loads(out)["id"] == "dm-0001"
+        assert not os.path.exists(os.path.join(d, "SPOILERS_do_not_open", "campaigns", "zz", "state", "rolls.jsonl"))
+        run_quiet(roll.main, ["--campaign", "zz", "--public", "--who", "the Weigher (player), rolled by the dm", "--what", "the scale"])
+        run_quiet(roll.main, ["--campaign", "zz", "--public", "--who", "dm", "--what", "the scale, again",
+                              "--reason", "the player argued a factor", "--replaces", "dm-0002"])
+        lines = read_lines(pub)
+        assert [l["id"] for l in lines] == ["dm-0001", "dm-0002", "dm-0003"] and lines[2]["replaces"] == "dm-0002"
+        assert run_quiet(roll.main, ["--public", "--who", "dm", "--what", "x", "--log", pub])[0] != 0
+        assert run_quiet(roll.main, ["--campaign", "zz", "--public", "--who", "keeper", "--what", "x"])[0] != 0
+        assert run_quiet(roll.main, ["--campaign", "zz", "--public", "--who", "dm", "--what", "x", "--log", pub])[0] != 0
+        # the Keeper's rolls stay sealed, r-NNNN
+        run_quiet(roll.main, ["--campaign", "zz", "--who", "keeper", "--what", "storm"])
+        assert read_lines(os.path.join(d, "SPOILERS_do_not_open", "campaigns", "zz", "state", "rolls.jsonl"))[0]["id"] == "r-0001"
+        fails, warns = roll.public_log_problems(lines, "pub")
+        assert fails == [] and warns == []
+        fails, warns = roll.public_log_problems(lines + [{"id": "dm-0004", "who": "keeper", "what": "y"},
+                                                        {"id": "dm-0005", "who": "dm", "what": "is it market day"}], "pub")
+        assert any("is not the DM's" in f for f in fails) and any("rolled more than once" in f for f in fails)
+        _f, warns = roll.public_log_problems([{"id": "r-0001", "who": "dm", "what": "a"}, {"id": "r-0002", "who": "dm", "what": "b"}], "pub")
+        assert len(warns) == 1 and "2 line(s) with an older id" in warns[0] and "r-0001 to r-0002" in warns[0]
+    finally:
+        roll.ROOT = real
+        shutil.rmtree(d)
+
+
+def test_build7_check_public_rolls_and_steps():
+    """Items 70 and 73: check.py takes the DM's open rolls in the public log (an older r- id is a note), and
+    --step 4 and --step 7 look only for what those steps have made, the clock still on the year."""
+    with tmpcopy() as repo:
+        append(repo, "campaigns/fx/player/decisions-001.md", "Go north.\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/001/year.md", "The year.\n")
+        code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo, "--step", "4"])
+        assert code == 0, out
+        code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo, "--step", "7"])
+        assert code == 1 and "the DM release" in out and "the morning story" in out and "clock" not in out
+        code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo])
+        assert code == 1 and "clock not advanced to year 2" in out
+        append(repo, "campaigns/fx/state/rolls.jsonl",
+               '{"id": "dm-0001", "who": "dm", "what": "market day", "odds": 30, "roll": 7, "success": true}\n'
+               '{"id": "r-0002", "who": "dm", "what": "the scale", "odds": 50, "roll": 19, "success": true}\n')
+        code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo, "--step", "4"])
+        assert code == 0 and "note:" in out and "older id" in out and "rolls are sealed" not in out, out
+        append(repo, "campaigns/fx/state/rolls.jsonl", '{"id": "dm-0003", "who": "keeper", "what": "storm", "roll": 4}\n')
+        code, out, _ = run_quiet(check.main, ["fx", "1", "--root", repo, "--step", "4"])
+        assert code == 1 and "is not the DM's" in out
+        with open(os.path.join(repo, "campaigns", "fx", "state", "clock.md"), "w") as f:
+            f.write("campaign: fx\nyear: 2\nstatus: open\nseason_opens: spring\n")
+        assert "at step 4 the clock is still on year 1" in run_quiet(check.main, ["fx", "1", "--root", repo, "--step", "4"])[1]
+
+
+def test_build7_lockcheck_public_rolls():
+    """Item 70: lockcheck --rolls passes the DM's open rolls in the public log, fails a line that is not the
+    DM's, fails a dm-NNNN cited anywhere that the public log lacks, and warns on older r- ids there."""
+    with tmpcopy() as repo:
+        append(repo, "campaigns/fx/state/rolls.jsonl", '{"id": "dm-0001", "who": "dm", "what": "market day", "roll": 7}\n')
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/notes.md", "Overruled DM roll dm-0001 by the factors.\n")
+        code, out, _ = lock(repo, "--rolls")
+        assert code == 0 and "rolls: 0 failure(s), 0 warning(s)" in out, out
+        append(repo, "campaigns/fx/player/rolling-save.md", "The scale read off (dm-0002).\n")
+        code, out, _ = lock(repo, "--rolls")
+        assert code == 1 and "cites dm-0002, which is not in the public log" in out
+    with tmpcopy() as repo:
+        append(repo, "campaigns/fx/state/rolls.jsonl", '{"id": "r-0001", "who": "dm", "what": "market day", "roll": 7}\n')
+        code, out, _ = lock(repo, "--rolls")
+        assert code == 0 and "1 line(s) with an older id" in out and "rolls: 0 failure(s), 1 warning(s)" in out
+
+
+def test_build7_lockcheck_day1_no_sealed_terms():
+    """Item 1: on Day 1, before Night 1 writes S/sealed-terms.txt, --leaks passes with "no sealed terms yet",
+    with or without a sealed folder; once Night 1's work is there a missing file fails as before."""
+    with tmpcopy() as repo:
+        shutil.rmtree(os.path.join(repo, "SPOILERS_do_not_open", "campaigns", "fx"))
+        with open(os.path.join(repo, "campaigns", "fx", "state", "clock.md"), "w") as f:
+            f.write("campaign: fx\nyear: 0\nstatus: creation\ncreation_night: 1\nseason_opens: not yet set\n")
+        os.remove(os.path.join(repo, "campaigns", "fx", "player", "map-knowledge.json"))
+        code, out, _ = lock(repo, "--leaks", "--dashes")
+        assert code == 0 and "no sealed terms yet" in out and "leaks: 0 failure(s)" in out, out
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/player/unsaid.md", "No sealed answers on Day 1.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 0 and "no sealed terms yet" in out, out
+        append(repo, "campaigns/fx/player/survey-day1.md", "We were seven when we came down.\n")
+        assert lock(repo, "--leaks")[0] == 1   # the other leak rules still run on Day 1
+    with tmpcopy() as repo:   # Night 1 has written its world draft: the file is due
+        os.remove(os.path.join(repo, "SPOILERS_do_not_open", "campaigns", "fx", "sealed-terms.txt"))
+        with open(os.path.join(repo, "campaigns", "fx", "state", "clock.md"), "w") as f:
+            f.write("campaign: fx\nyear: 0\nstatus: creation\ncreation_night: 1\nseason_opens: not yet set\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "sealed-terms.txt is missing" in out
+
+
+def test_build7_lockcheck_transcripts_and_card_number_words():
+    """Items 12, 13 and 96: number words are not scanned in the creation transcripts (the DM's posts too), in
+    the play transcripts' "## Player:" and "## DM:" sections, or in the card's frozen terms; a kept term is not
+    scanned in a play transcript's sections; the player's own words there pass; everything else is scanned."""
+    sealed = "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt"
+    with tmpcopy() as repo:
+        append(repo, "campaigns/fx/player/transcript-day2.md", "## DM:\n\nThose three are given, the same for every god.\n"
+                                                              "## Player:\n\nI am the god of the moment two people agree.\n")
+        append(repo, "campaigns/fx/player/transcript-year-001.md",
+               "# Transcript: Year 1\n\n## DM:\n\n(oog) Odds 60, plus 10 because he came down to you himself.\n\n"
+               "## Player:\n\nTwo of us came down to the landing. I ask after the kettle.\n")
+        append(repo, "campaigns/fx/player/power-card.md",
+               "# Power card\n\n### The Seal\nDescription: Up to two seals a season may the god set.\n"
+               "Limits settled at creation:\n- Two at most, the god says.\n- Not applicable: water.\n"
+               "Rulings:\n- Year 2. The god may set two.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "power-card.md:9" in out, out   # the Rulings line is not frozen text
+        assert "transcript-day2" not in out and "transcript-year-001" not in out and "power-card.md:4" not in out
+        assert "power-card.md:6" not in out and out.count("FAIL") == 1
+    with tmpcopy() as repo:   # outside the sections of a play transcript the scan runs; a kept term is skipped inside
+        append(repo, sealed, "!kettle\n")
+        append(repo, "campaigns/fx/player/transcript-year-002.md",
+               "# Transcript: Year 2\nThree gods came down, the header says.\n\n## DM:\n\nThe kettle sings.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "transcript-year-002.md:2" in out and "transcript-year-002.md:6" not in out, out
+        append(repo, "campaigns/fx/player/rolling-save.md", "The kettle sings.\n")
+        assert "rolling-save.md:1" in lock(repo, "--leaks")[1]
+    with tmpcopy() as repo:   # the DM's words in a play transcript are still scanned for an ordinary sealed term
+        append(repo, "campaigns/fx/player/transcript-year-001.md", "## DM:\n\nThe Undertow Oath waits.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and "Undertow Oath" in out
+
+
+def test_build7_lockcheck_line_allow():
+    """Item 71: a line allow, `in <file>: "<phrase>"`, exempts the phrase on a line of that file only; a
+    phenomenon allowed by its label is warned on, since it lets every count through."""
+    allowf = "SPOILERS_do_not_open/campaigns/fx/leak-allow.txt"
+    with tmpcopy() as repo:
+        append(repo, "campaigns/fx/releases/001/dm.md", "The bell hum came on 3 nights this year.\n")
+        append(repo, "campaigns/fx/player/notes.md", "The bell hum came on 3 nights this year.\n")
+        assert lock(repo, "--leaks")[1].count("phenomenon count") == 2
+        append(repo, allowf, 'in campaigns/fx/releases/001/dm.md: "bell hum came on 3 nights"  # seen, 2026-11-25\n')
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and out.count("phenomenon count") == 1 and "player/notes.md" in out and "releases/001" not in out, out
+        append(repo, allowf, 'in P/player/notes.md: "came on 3 nights"\n')
+        assert lock(repo, "--leaks")[0] == 0
+        c = lockcheck.Campaign(repo, "fx")
+        assert ("releases/001/dm.md", "bell hum came on 3 nights") in c.allow_lines()
+        assert not any(p.startswith("in ") for p in c.allow())
+    with tmpcopy() as repo:
+        append(repo, allowf, "bell-hum-nights\n")
+        append(repo, "campaigns/fx/player/notes.md", "The bell hum came on 5 nights.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 0 and 'the phenomenon "bell-hum-nights" is allowed by its label' in out
+
+
+def test_build7_lockcheck_civs():
+    """Item 78: --leaks fails a kept sealed term in a civ agent's sealed files (S/civs/<people>/); the godless
+    peoples and the Keeper's <people>-sealed.md are not a civ agent's files."""
+    sealed = "SPOILERS_do_not_open/campaigns/fx/sealed-terms.txt"
+    with tmpcopy() as repo:
+        append(repo, sealed, "!luck\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/civs/godless/hill-folk/record.md", "By luck the ford held.\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/civs/marsh-folk-sealed.md", "Sealed factor: luck.\n")
+        assert lock(repo, "--leaks")[0] == 0
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/civs/marsh-folk/years/001.md", "By luck the nets came home full.\n")
+        code, out, _ = lock(repo, "--leaks")
+        assert code == 1 and 'civs/marsh-folk/years/001.md:1: kept sealed term "luck"' in out
+        assert "leaks: 1 failure(s)" in lock(repo)[1]   # in --all too
+
+
+def test_build7_stamp_skips_flags_logs_and_rulings():
+    """Item 78: stamp skips the checker's flags files (years/NNN/flags.md too), rulings.md and other agents'
+    logs (a god's map-log.md); lockcheck --places warns on no bare name in them."""
+    with tmpcopy() as repo:
+        S = os.path.join(repo, "SPOILERS_do_not_open", "campaigns", "fx")
+        for rel in ("years/001/flags.md", "rulings.md", "gods/god-tide/map-log.md", "years/001/year.md"):
+            append(repo, os.path.join("SPOILERS_do_not_open/campaigns/fx", rel), "They met at Tallowford.\n")
+        world = json.load(open(os.path.join(S, "map.json")))
+        changed, total, per = mapt.stamp("fx", S, world)
+        assert [r for r, _n in per] == ["years/001/year.md"], per
+        for rel in ("years/001/flags.md", "rulings.md", "gods/god-tide/map-log.md"):
+            assert "[f01]" not in open(os.path.join(S, rel)).read()
+            assert mapt.stamp_skipped(rel)
+        assert not mapt.stamp_skipped("years/001/year.md") and mapt.stamp_skipped("years/000/lock-flags.md")
+        code, out, _ = lock(repo, "--places")
+        assert "flags.md" not in out and "rulings.md" not in out and "map-log.md" not in out
+
+
+def test_build7_validate_sea_all_round():
+    """Item 43: land traced at a sheet edge fails validate when the plan asks for sea on every side (the
+    placement plan, the world draft, map.json, or the surface map request); otherwise it warns as before."""
+    w = {"campaign": "t", "painting": {"size": [1000, 1000], "miles_per_pixel": 1.0},
+         "regions": [{"id": "r01", "terrain": "sea", "polygon": [[0, 0], [1000, 0], [1000, 1000], [0, 1000]]},
+                     {"id": "r02", "terrain": "plain", "polygon": [[0, 100], [900, 100], [900, 900], [0, 900]]}]}
+    d = tempfile.mkdtemp()
+    try:
+        S = os.path.join(d, "SPOILERS_do_not_open", "campaigns", "t")
+        os.makedirs(os.path.join(S, "world"))
+        assert mapt.edge_land_problems(w, S)[0] == [] and len(mapt.edge_land_problems(w, S)[1]) == 1
+        with open(os.path.join(S, "world", "placement-plan.md"), "w") as f:
+            f.write("# Plan\nOne continent with sea on every side.\n")
+        probs, warns = mapt.edge_land_problems(w, S)
+        assert len(probs) == 1 and warns == [] and "west edge(s)" in probs[0] and "world/placement-plan.md:2" in probs[0]
+        os.remove(os.path.join(S, "world", "placement-plan.md"))
+        req = os.path.join(d, "SPOILERS_do_not_open", "images", "requests")
+        os.makedirs(req)
+        json.dump({"id": "t-map-surface", "prompt": "A continent, with a margin of sea on every side so that no coast is cut off."},
+                  open(os.path.join(req, "t-map-surface.json"), "w"))
+        assert "surface map request" in mapt.edge_land_problems(w, S)[0][0]
+        wp = os.path.join(S, "map.json")
+        json.dump(w, open(wp, "w"))
+        code, out, _ = run_quiet(mapt.main, ["validate", "t", "--world", wp, "--knowledge", os.path.join(d, "none.json")])
+        assert code == 1 and "asks for sea on every side" in out
+        assert mapt.edge_land_problems(dict(w, painting=dict(w["painting"], sea_all_round=True)), None)[0]
+    finally:
+        shutil.rmtree(d)
+
+
+def coast_world():
+    """A sea with a headland of land between two coves: a straight boat line from one cove to the other crosses it."""
+    return {"campaign": "t", "painting": {"size": [400, 400], "miles_per_pixel": 0.5, "grid": {"cols": 4, "rows": 4}},
+            "regions": [{"id": "r01", "name": "Grey Sea", "terrain": "sea",
+                         "polygon": [[0, 0], [150, 0], [150, 250], [250, 250], [250, 0], [400, 0], [400, 400], [0, 400]],
+                         "elevation": "sea", "water": "the sea", "climate": "cold", "neighbors": []},
+                        {"id": "r02", "name": "Ness", "terrain": "coast", "polygon": [[150, 0], [250, 0], [250, 250], [150, 250]],
+                         "elevation": "0 to 300 feet", "water": "springs", "climate": "cold", "neighbors": []}],
+            "features": [{"id": "f01", "name": "West Cove", "type": "village", "shape": "point", "coords": [[100, 100]], "regions": ["r01"]},
+                         {"id": "f02", "name": "East Cove", "type": "village", "shape": "point", "coords": [[300, 100]], "regions": ["r01"]}],
+            "landings": {}}
+
+
+def test_build7_travel_boat_coasting():
+    """Item 44: a boat trip whose straight line crosses a headland goes round it by water, coasting, and is
+    priced; a walk still goes over the land."""
+    w = coast_world()
+    namer = mapt.Namer(w, None, True)
+    text, data = mapt.travel(w, "f01", "f02", "boat", (), namer, show_ids=True)
+    assert data["days"] is not None and "coasting, around the land" in text and "coasting by the shortest way" in text, text
+    assert all(s["ground"] == "sea" for s in data["segments"]) and data["miles"] > 100 * 0.5, data
+    path = mapt.coasting_route(w, (100, 100), (300, 100), mapt.Painting(w))
+    assert path and all(not (150 < p[0] < 250 and p[1] < 250) for p in path)
+    assert mapt.coasting_route(w, (100, 300), (300, 300), mapt.Painting(w)) is None   # open water all the way
+    _t, walk = mapt.travel(w, "f01", "f02", "foot", (), namer)
+    assert walk["days"] is None or all(s["ground"] != "land" for s in walk["segments"])
+
+
+def test_build7_describe_lists_region_areas():
+    """Item 44: a marsh area of the landing's own region past the near distance is listed in its own section
+    (and JSON in_region), never as in view."""
+    w = {"campaign": "t", "painting": {"size": [400, 400], "miles_per_pixel": 0.1, "grid": {"cols": 4, "rows": 4}},
+         "regions": [{"id": "r01", "name": "Reedmouths", "terrain": "marsh, a wide delta", "polygon": [[0, 0], [400, 0], [400, 400], [0, 400]],
+                      "elevation": "0 to 20 feet", "water": "channels", "climate": "mild", "neighbors": []}],
+         "features": [{"id": "f01", "name": "Maun Flats", "type": "marsh", "shape": "area",
+                       "coords": [[200, 230], [260, 230], [260, 280], [200, 280]], "regions": ["r01"]},
+                      {"id": "f02", "name": "Near Pond", "type": "lake", "shape": "area",
+                       "coords": [[200, 205], [210, 205], [210, 210], [200, 210]], "regions": ["r01"]}],
+         "landings": {"player": {"region": "r01", "at": [200, 200], "ground_ft": 12}}}
+    data = {}
+    text = mapt.describe(w, "r01", (200, 200), {"regions": {}, "features": {}}, False, "Landing", reference=False, data=data, ground_ft=12)
+    assert "In this region, past the near distance and not in view" in text and "a marsh (marsh), about 3 miles south" in text, text
+    assert [x["id"] for x in data["in_region"]] == ["f01"] and "f01" not in [x["id"] for x in data["in_view"]]
+    assert "f02" in [x["id"] for x in data["in_view"]]
+
+
+def test_build7_reveal_line_stretch_and_gazetteer():
+    """Item 61: a line revealed as seen needs a stretch (or --whole); the knowledge file keeps the stretch's
+    ends; the gazetteer gives only what was seen, never the whole length or the far end; the sheet draws it."""
+    with tmpcopy() as repo:
+        world_p, know_p = fx_paths(repo)
+        k = json.load(open(know_p))
+        del k["features"]["f03"]
+        json.dump(k, open(know_p, "w"))
+        code, out, err = reveal(repo, "--feature", "f03", "--grade", "seen", "--source", "walked", "--year", "1")
+        assert code != 0 and "f03" not in json.load(open(know_p))["features"]
+        code, out, err = reveal(repo, "--feature", "f03", "--grade", "seen", "--source", "walked a mile of it", "--year", "1",
+                                "--seen-from", "f01", "--reach", "1", "--named")
+        assert code == 0, err
+        e = json.load(open(know_p))["features"]["f03"]
+        assert len(e["stretches"]) == 1 and e["stretches"][0][0] == [220.0, 260.0]
+        world = json.load(open(world_p))
+        assert mapt.knowledge_problems(world, json.load(open(know_p))) == []
+        log = open(os.path.join(os.path.dirname(know_p), "map-log.md")).read()
+        assert "stretch seen from B2 to B2, about 1.0 miles" in log
+        out_d = os.path.join(repo, "out")
+        run_quiet(mapt.main, ["gazetteer", "fx", "--world", world_p, "--knowledge", know_p, "--out", out_d])
+        g = open(os.path.join(out_d, "gazetteer.md")).read()
+        line = next(l for l in g.splitlines() if "The Chalk Way" in l and "(road)" in l)
+        assert "seen in part" in line and "about 1.0 miles of it seen" in line and "D2" not in line and "miles long" not in line, line
+        paint = os.path.join(repo, "paint")
+        make_paintings(paint)
+        code, o, err = run_quiet(mapt.main, ["draw", "fx", "--world", world_p, "--knowledge", know_p, "--paintings", paint,
+                                             "--out", out_d, "--zoom", "known"])
+        assert code == 0, err
+        # a second stretch farther on is added beside the first; --whole makes the line whole
+        assert reveal(repo, "--feature", "f03", "--grade", "seen", "--source", "x", "--year", "2", "--stretch", "600,207.3 640,200")[0] == 0
+        assert len(json.load(open(know_p))["features"]["f03"]["stretches"]) == 2
+        assert reveal(repo, "--feature", "f03", "--grade", "seen", "--source", "x", "--year", "2", "--whole", "walked it all")[0] == 0
+        assert "stretches" not in json.load(open(know_p))["features"]["f03"]
+        # a seen line already whole stays whole without a stretch; a stretch is only for a line
+        assert reveal(repo, "--feature", "f02", "--grade", "seen", "--source", "x", "--year", "2")[0] == 0
+        assert reveal(repo, "--feature", "f01", "--grade", "seen", "--source", "x", "--year", "2", "--whole", "x")[0] != 0
+        bad = json.load(open(know_p))
+        bad["features"]["f02"]["stretches"] = [[[900, 900], [950, 950]]]
+        assert any("does not lie on the line" in p for p in mapt.knowledge_problems(world, bad))
+
+
+def test_build7_docs_phenomena_name_and_paint_edit():
+    """Items 53 and 58: phenomena.py documents the name field; paint.py's docs say an edited request with a
+    painting paints nothing."""
+    import paint
+    import subprocess
+    assert '"name"' in open(os.path.join(ROOT, "tools", "phenomena.py")).read().split('"""')[1]
+    assert "edited after its painting has come back" in paint.__doc__
+    d = tempfile.mkdtemp()
+    try:   # the optional months are printed after the count, and must number as many as it
+        os.makedirs(os.path.join(d, "state"))
+        json.dump({"dim-nights": {"name": "dim nights", "rate": "fixed", "per_year": {"1": 3, "2": 2},
+                                  "months": {"1": [8, 7, 5], "2": [4]}}}, open(os.path.join(d, "state", "phenomena.json"), "w"))
+        run = lambda y: subprocess.run([sys.executable, os.path.join(ROOT, "tools", "phenomena.py"), d, y], capture_output=True, text=True)
+        r = run("1")
+        assert r.returncode == 0 and r.stdout.strip() == "dim-nights: 3 (months 5, 7, 8)"
+        assert run("2").returncode == 1 and run("3").stdout.strip() == "dim-nights: 0"
     finally:
         shutil.rmtree(d)

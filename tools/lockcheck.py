@@ -65,6 +65,25 @@ layout (tests use a fixture).
                counts as told (build 6 check, must-fix 3). The campaign's timing file is sealed,
                S/state/timing.md (change list 74): a public P/state/timing.md is warned on, to be moved,
                and is not scanned for ordinals.
+               Build 7 (run 06 change list): on Day 1, before Night 1 has written S/sealed-terms.txt (the
+               clock at creation night 1 and no Night 1 work in the sealed folder: no world-draft.md,
+               star.md, map.json or gods/), a missing file is "no sealed terms yet", a pass, and --leaks
+               runs with no sealed folder at all (1). The creation transcripts are not scanned for number
+               words either, the DM's own posts in them included (12). In P/player/power-card.md the frozen
+               terms (Description: and Drawback: lines, and the list under "Limits settled at creation:")
+               are not scanned for number words; every other line of the card is (13). The play
+               transcripts, P/player/transcript-year-NNN.md, are verbatim records as the creation
+               transcripts are (96): in their "## Player:" and "## DM:" sections no kept term and no number
+               word is scanned (an ordinary sealed term still is, as in the creation transcripts' DM posts);
+               any other line of them is scanned in full. A line-level allow (71):
+               a leak-allow.txt line `in <file>: "<phrase>"` exempts that phrase only on a line of that file
+               holding it (the file as campaigns/<name>/..., P/... or a path inside the public folder), so
+               a count once seen is allowed where it stands and nowhere else. A phenomenon's label in
+               leak-allow.txt still exempts its counts, as before, and is warned on every run, since it
+               lets every count through, a year to come's included. The sealed civ files (78): every text
+               file of S/civs/<people>/ for each people a civ agent plays (not S/civs/godless/ or the Keeper's
+               S/civs/<people>-sealed.md) fails on a kept sealed term, since a civ agent cannot be told to avoid
+               the word; so night-turn step 4's --leaks covers them.
   --releases   the Keeper's releases (every .md under S/releases/) and the Day 3 brief,
                P/player/day3-brief.md, against the world draft (change list 37): a sentence naming one
                of the world's scarce things (the items of a "Scarcities:", "World scarcities:" or "Local
@@ -81,7 +100,11 @@ layout (tests use a fixture).
                mysteries that exist, and a being with a Limit: line (it answers questions) is in no
                mystery marked "Answers questions: no" (change list 71).
   --rolls      every r-NNNN cited in a sealed file is in S/state/rolls.jsonl, nothing is
-               rolled twice, every reroll has a reason; the public rolls log is empty.
+               rolled twice, every reroll has a reason. The DM's open rolls stay in the public log,
+               P/state/rolls.jsonl, with ids dm-NNNN (Michael, 2026-11-24 22:06; run 06 change list 70):
+               every line there is the DM's, its rerolls have a reason, nothing is rolled twice
+               (tools/roll.py public_log_problems), and every dm-NNNN cited in any campaign file is in it.
+               An older public line with an r-NNNN id (before build 7) is warned on, never failed.
   --dashes     no em or en dash in any campaign file, sealed or public, or in the campaign's
                image requests, scene or map (a JSON escape counts). Run alone, it needs no
                sealed folder: before Night 1 it reads the public folder alone (change list 2).
@@ -102,6 +125,7 @@ NUM_WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eig
              "nineteen", "twenty"]
 BRACKET_RE = re.compile(r"(?<!\])\[([a-z0-9][a-z0-9-]*(?:\s*,\s*[a-z0-9][a-z0-9-]*)*)\](?![(\[])")
 ROLL_RE = re.compile(r"\br-(\d{4,})\b")
+DM_ROLL_RE = re.compile(r"(?<![\w-])dm-(\d{4,})\b")   # the DM's open rolls, in the public log (change list 70)
 BRACKET_SKIP = {"x", "sic", "tbd", "todo", "ok"}
 SEALED_TERMS = "sealed-terms.txt"
 KEPT_KIND = "kept sealed term"   # a "!" line in sealed-terms.txt: never exempted (decision 8)
@@ -217,7 +241,48 @@ class Campaign:
         p = os.path.join(self.S, "leak-allow.txt")
         if not os.path.exists(p):
             return set()
-        return {ph for ph in (allow_phrase(l) for l in read(p).splitlines()) if ph}
+        return {ph for ph in (allow_phrase(l) for l in read(p).splitlines() if not LINE_ALLOW_RE.match(l.strip())) if ph}
+
+    def allow_lines(self):
+        """The line-level allows of S/leak-allow.txt (change list 71): (file, phrase) for each line
+        `in <file>: "<phrase>"`, the file normalized to its path inside the public folder, the phrase
+        lower case with spaces collapsed."""
+        p = os.path.join(self.S, "leak-allow.txt")
+        out = []
+        for l in (read(p).splitlines() if os.path.exists(p) else []):
+            m = LINE_ALLOW_RE.match(l.strip())
+            if m:
+                ph = allow_phrase(m.group(2))
+                if ph:
+                    out.append((self.public_rel(m.group(1)), ph))
+        return out
+
+    def public_rel(self, given):
+        """A file named in leak-allow.txt as its path inside the public folder: campaigns/<name>/x, P/x
+        and x all give x."""
+        g = given.strip().strip(QUOTES).replace(os.sep, "/").lstrip("./")
+        for pre in (f"campaigns/{self.name}/", "P/"):
+            if g.startswith(pre):
+                return g[len(pre):]
+        return g
+
+    def clock(self):
+        """The public clock, P/state/clock.md, as key: value pairs."""
+        p = os.path.join(self.P, "state", "clock.md")
+        out = {}
+        for line in (read(p).splitlines() if os.path.exists(p) else []):
+            m = re.match(r"^\s*([a-z_]+)\s*:\s*(.*?)\s*$", line)
+            if m:
+                out[m.group(1)] = m.group(2)
+        return out
+
+    def before_night1(self):
+        """True on Day 1 (change list 1): the clock at creation night 1, and no Night 1 work in the sealed
+        folder yet (no world-draft.md, star.md, map.json or gods/), so S/sealed-terms.txt cannot exist yet."""
+        ck = self.clock()
+        if (ck.get("status") or "").split()[:1] != ["creation"] or ck.get("creation_night") != "1":
+            return False
+        return not any(os.path.exists(os.path.join(self.S, x)) for x in ("world-draft.md", "star.md", "map.json", "gods"))
 
     def sealed_terms(self, kept=None):
         """The Keeper's sealed term list, S/sealed-terms.txt: one term per line, # for comments,
@@ -239,6 +304,7 @@ class Campaign:
 
 
 QUOTES = "\"'“”‘’`"
+LINE_ALLOW_RE = re.compile(r"^in\s+(\S+?):\s+(\S.*)$")   # a line-level allow (change list 71)
 
 
 def allow_phrase(line):
@@ -308,7 +374,7 @@ def check_places(c, rep):
                     rep.fail("places", f"{c.rel(path)}:{ln}: [{tok}] is not in map.json")
         if not path.endswith(".md"):
             continue
-        if base in mapt.STAMP_SKIP or mapt.is_god_written(os.path.relpath(path, c.S)):
+        if mapt.stamp_skipped(os.path.relpath(path, c.S)):
             continue   # what stamp skips carries no ids, so no bare name is warned on there (build 6 check, should-fix 7)
         spans = mapt.heading_spans(text)   # headings and bold mystery titles are never stamped
         claimed = []
@@ -707,6 +773,8 @@ def count_hits(line):
 
 PEOPLE_KNOWLEDGE_RE = re.compile(r"^civs/[^/]+/knowledge\.md$")
 TRANSCRIPT_RE = re.compile(r"^player/transcript-day\d+\.md$")
+PLAY_TRANSCRIPT_RE = re.compile(r"^player/transcript-year-\d+\.md$")   # a play day's verbatim record (96)
+POWER_CARD_REL = "player/power-card.md"
 MAP_NAME_KINDS = {"unknown place", "unnamed seen region", "unheard map name"}
 
 
@@ -721,6 +789,55 @@ def is_transcript(c, path):
     words, kept verbatim, never scanned for a kept term."""
     rel = os.path.relpath(path, c.P).replace(os.sep, "/")
     return not rel.startswith("..") and TRANSCRIPT_RE.match(rel) is not None
+
+
+def public_rel_of(c, path):
+    return os.path.relpath(path, c.P).replace(os.sep, "/")
+
+
+def verbatim_lines(c, path, text):
+    """Line numbers of a public file that are a verbatim record of the table: every line of a creation
+    transcript, and the "## Player:" and "## DM:" sections of a play transcript (change list 96)."""
+    rel = public_rel_of(c, path)
+    lines = text.splitlines()
+    if TRANSCRIPT_RE.match(rel):
+        return set(range(1, len(lines) + 1))
+    if not PLAY_TRANSCRIPT_RE.match(rel):
+        return set()
+    out, part = set(), False
+    for ln, line in enumerate(lines, 1):
+        if line.startswith("## "):
+            h = line.strip().lower()
+            part = h.startswith("## player") or h.startswith("## dm")
+            continue
+        if part:
+            out.add(ln)
+    return out
+
+
+FROZEN_LABEL_RE = re.compile(r"^\s*\**(?:Description|Drawback)\**\s*:")
+LIMITS_LABEL_RE = re.compile(r"^\s*\**Limits settled at creation\**\s*:")
+CARD_LABEL_RE = re.compile(r"^\s*\**[A-Z][\w ,'()-]*\**\s*:")
+
+
+def frozen_card_lines(c, path, text):
+    """Line numbers of the player's power card that hold its frozen terms (change list 13): the
+    Description: and Drawback: lines, and the list under "Limits settled at creation:" up to the next
+    label, heading or blank line. Empty for any other file."""
+    if public_rel_of(c, path) != POWER_CARD_REL:
+        return set()
+    out, in_limits = set(), False
+    for ln, line in enumerate(text.splitlines(), 1):
+        if FROZEN_LABEL_RE.match(line):
+            out.add(ln)
+            in_limits = False
+        elif LIMITS_LABEL_RE.match(line):
+            in_limits = True
+        elif in_limits and re.match(r"^\s*[-*]\s+", line):
+            out.add(ln)
+        elif not line.strip() or line.startswith("#") or CARD_LABEL_RE.match(line):
+            in_limits = False
+    return out
 
 
 def people_folder(c, path):
@@ -772,8 +889,12 @@ def check_leaks(c, rep):
         and a kept term always does."""
         return kind != KEPT_KIND and (kind in MAP_NAME_KINDS or label.lower() in place_names)
     if c.sealed_terms() is None:
-        rep.fail("leaks", f"{c.rel(os.path.join(c.S, SEALED_TERMS))} is missing; the Keeper writes it "
-                          "(god names and bynames, hidden power names, common-secrets names, places off the map)")
+        if c.before_night1():
+            if not rep.counts_only:   # Day 1: Night 1 writes the file (change list 1)
+                print(f"note leaks: no sealed terms yet ({c.rel(os.path.join(c.S, SEALED_TERMS))} is written on Night 1); a pass on Day 1")
+        else:
+            rep.fail("leaks", f"{c.rel(os.path.join(c.S, SEALED_TERMS))} is missing; the Keeper writes it "
+                              "(god names and bynames, hidden power names, common-secrets names, places off the map)")
     for p in mapt.knowledge_problems(c.world, c.knowledge) if c.world else []:
         rep.fail("leaks", f"{c.rel(os.path.join(c.P, 'player', 'map-knowledge.json'))}: {p}")
     if not os.path.isdir(c.P):
@@ -786,20 +907,38 @@ def check_leaks(c, rep):
                           f"{c.rel(os.path.join(c.S, 'state', 'timing.md'))}, sealed (change list 74)")
     labels = people_labels(c)
     records = {}
+    line_allows = c.allow_lines()
+    pp = os.path.join(c.S, "state", "phenomena.json")
+    try:
+        phen = json.load(open(pp)) if os.path.exists(pp) else {}
+    except json.JSONDecodeError:
+        phen = {}
+    for label in sorted(x for x in phen if x.lower() in allow):
+        rep.warn("leaks", f"{c.rel(os.path.join(c.S, 'leak-allow.txt'))}: the phenomenon \"{label}\" is allowed by its label, "
+                          "which lets every count of it through, a year to come's included; a line allow, "
+                          "in <file>: \"<phrase>\", passes one count on one line (change list 71)")
     for path in public_files(c):
         people = is_people_knowledge(c, path)
-        transcript = is_transcript(c, path)
+        text = read(path)
+        verbatim = verbatim_lines(c, path, text)
+        frozen = frozen_card_lines(c, path, text)
+        prel = public_rel_of(c, path)
+        mine = [ph for f, ph in line_allows if f == prel]
         if people:
             folk = people_folder(c, path)
             if folk not in records:
                 records[folk] = record_text(c, folk)
-        for ln, line in enumerate(read(path).splitlines(), 1):
+        for ln, line in enumerate(text.splitlines(), 1):
             failed_labels = set()
+            low = " ".join(line.split()).lower()
+            line_ok = any(ph in low for ph in mine)   # a line-level allow (change list 71)
             for kind, label, rx, sev in terms:
                 if people and told_to_people(kind, label):
                     continue
-                if transcript and kind == KEPT_KIND:
-                    continue  # the player's own words, kept verbatim (decision 8)
+                if ln in verbatim and kind == KEPT_KIND:
+                    continue  # a verbatim record of the table (decision 8; play transcripts, change list 96)
+                if kind != KEPT_KIND and line_ok:
+                    continue  # allowed on this line (change list 71)
                 if sev == "fail" and rx.search(line):
                     if people and kind == "sealed term" and is_people_name(label, labels):
                         # another people's name, in a people's knowledge file, only if told to them in
@@ -815,16 +954,21 @@ def check_leaks(c, rep):
             for kind, label, rx, sev in terms:
                 if people and told_to_people(kind, label):
                     continue
+                if line_ok:
+                    continue
                 if sev == "warn" and label.lower() not in failed_labels and rx.search(line):
                     rep.warn("leaks", f"{c.rel(path)}:{ln}: {kind} \"{label}\" (a guess from prose; "
                                       "add it to sealed-terms.txt if it is sealed)")
-            low_line = " ".join(line.split()).lower()
+            low_line = low
+            if ln in verbatim or ln in frozen or line_ok:
+                continue  # transcripts kept verbatim (12, 96), frozen card terms (13), a line-level allow (71)
             for num, trig, phrase_ in count_hits(line):
                 ph = " ".join(phrase_.split()).lower()
                 # exempt by its quoted phrase, or by a longer allowed phrase that holds it and stands in the line
                 if ph in allow or any(ph in a and a in low_line for a in allow):
                     continue
                 rep.fail("leaks", f"{c.rel(path)}:{ln}: number word \"{num}\" near \"{trig}\": \"{phrase_}\"")
+    check_civs(c, rep)   # the sealed civ files, for a kept term (change list 78)
 
 
 # ---------------------------------------------------------------- releases (change list 37)
@@ -893,6 +1037,36 @@ def check_releases(c, rep):
                     if rx.search(sent):
                         rep.warn("releases", f"{c.rel(path)}:{ln}: names the world scarcity \"{g}\" beside a word of scarcity: "
                                              f"\"{' '.join(sent.split())[:160]}\"; a release states no world fact its reader lacks")
+
+
+# ---------------------------------------------------------------- civs (change list 78)
+
+def civ_files(c):
+    """Every text file in the sealed folder of a people a civ agent plays, S/civs/<people>/ (the godless
+    peoples, S/civs/godless/, and the Keeper's S/civs/<people>-sealed.md are not a civ agent's)."""
+    d = os.path.join(c.S, "civs")
+    out = []
+    for name in sorted(os.listdir(d)) if os.path.isdir(d) else []:
+        if name == "godless" or not os.path.isdir(os.path.join(d, name)):
+            continue
+        out += text_files(os.path.join(d, name))
+    return out
+
+
+def check_civs(c, rep):
+    """A kept sealed term (a "!" line of sealed-terms.txt, the sealed factors' names) in a civ agent's sealed
+    files fails (change list 78): the agent cannot be told to avoid the word, so the scan finds it, at
+    night-turn step 4 and at the lock. Part of --leaks, reported under leaks."""
+    kept = []
+    for t in c.sealed_terms(kept=True) or []:
+        for v in sorted(article_variants(t)):
+            if len(v.strip()) >= 3:
+                kept.append((v.strip(), re.compile(r"(?<![\w])" + re.escape(v.strip()) + r"(?![\w])")))
+    for path in civ_files(c):
+        for ln, line in enumerate(read(path).splitlines(), 1):
+            for label, rx in kept:
+                if rx.search(line):
+                    rep.fail("leaks", f"{c.rel(path)}:{ln}: {KEPT_KIND} \"{label}\" in a civ agent's sealed file")
 
 
 # ---------------------------------------------------------------- mysteries
@@ -1128,9 +1302,24 @@ def check_rolls(c, rep):
                 rid = f"r-{m.group(1)}"
                 if rid not in ids:
                     rep.fail("rolls", f"{c.rel(path)}:{ln}: cites {rid}, which is not in the rolls log")
+    # the DM's open rolls stay in the public log, ids dm-NNNN (change list 70)
     pub = os.path.join(c.P, "state", "rolls.jsonl")
-    if os.path.exists(pub) and any(l.strip() for l in open(pub)):
-        rep.fail("rolls", f"{c.rel(pub)}: the public rolls log is not empty; rolls are sealed")
+    pub_entries = rollt.read_log(pub)
+    fails, warns = rollt.public_log_problems(pub_entries, c.rel(pub))
+    for f in fails:
+        rep.fail("rolls", f)
+    for w in warns:
+        rep.warn("rolls", w)
+    dm_ids = {rollt.entry_id(e, i, rollt.DM_PREFIX) for i, e in enumerate(pub_entries, 1) if e}
+    for base in (c.S, c.P):
+        for path in (text_files(base) if os.path.isdir(base) else []):
+            if os.path.basename(path) == "rolls.jsonl":
+                continue
+            for ln, line in enumerate(read(path).splitlines(), 1):
+                for m in DM_ROLL_RE.finditer(line):
+                    rid = f"{rollt.DM_PREFIX}-{m.group(1)}"
+                    if rid not in dm_ids:
+                        rep.fail("rolls", f"{c.rel(path)}:{ln}: cites {rid}, which is not in the public log of the DM's rolls")
 
 
 # ---------------------------------------------------------------- dashes
@@ -1166,12 +1355,15 @@ def main(argv=None):
     chosen = [n for n, _ in CHECKS if getattr(a, n)]
     if a.all or not chosen:
         chosen = [n for n, _ in CHECKS]
-    # --dashes alone runs on the public folder when the sealed folder does not exist yet (Day 1, change list 2)
-    c = Campaign(os.path.abspath(a.root), a.campaign, sealed_optional=chosen == ["dashes"])
+    # --dashes alone runs on the public folder when the sealed folder does not exist yet (Day 1, change list 2);
+    # so does --leaks on Day 1, before Night 1 (build 7, change list 1)
+    c = Campaign(os.path.abspath(a.root), a.campaign, sealed_optional=set(chosen) <= {"dashes", "leaks"})
     if c.sealed_missing:
         if not os.path.isdir(c.P):
             sys.exit(f"lockcheck: no campaign at {c.P} or {c.S}")
-        print(f"note: no sealed campaign at {c.rel(c.S)} yet; --dashes reads the public folder alone")
+        if "leaks" in chosen and not c.before_night1():
+            sys.exit(f"lockcheck: no sealed campaign at {c.S}")
+        print(f"note: no sealed campaign at {c.rel(c.S)} yet; {' and '.join('--' + n for n in chosen)} {'reads' if len(chosen) == 1 else 'read'} the public folder alone")
     rep = Report(a.counts_only)
     for name, fn in CHECKS:
         if name in chosen:
