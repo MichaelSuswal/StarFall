@@ -92,6 +92,16 @@ From `build-check.md` (030b3a3), under the coordinator's relay of the same go.
 - C8 (my half): `night-turn.md` step 2 names the player's people's three sealed things (the Keeper's world side `S/civs/<people>-sealed.md`, the agent's sealed folder `S/civs/<people>/`, the yearly side release) and says the side release is drawn from the world side and the year.
 - Held, waiting on Michael: B4 (the search for a placed thing) and the Keeper's overrule of DM rolls. Left as they stand.
 
+### Michael's last four decisions
+
+From "Michael's decisions after the build 7 check" in `changes.md` (e3eb528), under the coordinator's relay of the same go.
+
+- The overrule of DM rolls (22:03): removed everywhere. The Keeper never changes the result of a roll the DM made in play; luck works only through the odds the Keeper sets (its own rolls, and the odds and ranges it writes in advance in `dm-sealed.md`). Changed in DESIGN 12.6, `dm.md` (rulings, odds and rolls), `keeper.md` (contests and chance), `night-turn.md` step 4, `checker.md` item 5 (a check that no DM result was changed). My earlier narrow reading is gone with it.
+- A search for a thing the Keeper placed (21:57): with no pressure or race it works out, no roll; under pressure or in a race it is rolled. In `encounters.md` section 1, DESIGN 8.7, `keeper.md` (neutrality), `night-turn.md` step 4.
+- An ask the god promised to answer later (22:00): pending by default, held only when it is a crucial live scene. In `encounters.md` section 6 (after the major list) and DESIGN 12.9.
+- Knack growth (22:03): no fixed figures; the Keeper judges by how much and how often the skill is used and how intently the god pushes it, and errs slow. In `powers.md` section 4 (replacing the line that left figures to the sealed files) and DESIGN 6.5.
+- `CHANGELIST.md`: four struck lines added to the Build 7 section.
+
 ## Sealed side (Agent K)
 
 Applied 2026-11-25 under Michael's go of 21:16 Pacific, in `SPOILERS_do_not_open/keeper/` only. Decisions are numbered as in `build-plan.md`. Procedure only; no world content.

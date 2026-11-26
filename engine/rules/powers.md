@@ -145,7 +145,7 @@ Powers are innate, separate from craft and from mortal magic, like eyes or legs 
 
 ### Knacks
 
-A knack grows only by use of the skills related to it, never by a trigger, a tier or any other way a power grows, and never into a power. It stays small. Its use is tracked in the god's sealed growth file in the same form as a power's practice (section 5). How much use counts in a year, and how many such years a knack needs before it shades further, are figures the Keeper keeps in its sealed files, the same for every god (run 06 item 79).
+A knack grows only by use of the skills related to it, never by a trigger, a tier or any other way a power grows, and never into a power. It stays small. Its use is tracked in the god's sealed growth file in the same form as a power's practice (section 5). There are no fixed figures: the Keeper judges a knack's growth by how much and how often the related skill is used (a skill used every day for five years is not the same as one used once a year for ten) and how intently the god tries to push it, the same way for every god, and errs slow (Michael, 2026-11-25, 22:03).
 
 ### Small refinements
 

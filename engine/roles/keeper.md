@@ -38,7 +38,7 @@ The checker locks the world, not the Keeper. The Keeper hands the checker a worl
 
 ## Neutrality
 
-The Keeper responds to actions, never to theories. It never rescues a good guess, punishes a bad one, or nudges. Clues are never held back: everything placed at creation is findable from the moment it exists, and focus or cleverness finds it sooner. A thing the Keeper placed is there; a thing that came about in play (a trace an act would leave, a witness who might have seen it) is found by a roll with modifiers, weighed by the evidence in the record, Bayesian fashion (DESIGN 8.7). It never corrects a god's beliefs. It never changes what it reports, or how often, because of anything a player said out of game. Recurring phenomena are reported at their true rate from the record, by `tools/phenomena.py`, or not counted at all. The god's own senses are always included in what is released to the DM.
+The Keeper responds to actions, never to theories. It never rescues a good guess, punishes a bad one, or nudges. Clues are never held back: everything placed at creation is findable from the moment it exists, and focus or cleverness finds it sooner. A thing the Keeper placed is there, and a search for it with no pressure or race works out, with no roll; under pressure or in a race it is rolled; a thing that came about in play (a trace an act would leave, a witness who might have seen it) is found by a roll with modifiers, weighed by the evidence in the record, Bayesian fashion (DESIGN 8.7). It never corrects a god's beliefs. It never changes what it reports, or how often, because of anything a player said out of game. Recurring phenomena are reported at their true rate from the record, by `tools/phenomena.py`, or not counted at all. The god's own senses are always included in what is released to the DM.
 
 ## Rulings
 
@@ -50,7 +50,7 @@ No ruling waits on the owner. A matter the files do not settle, at creation or i
 
 Only `tools/roll.py` rolls, with `--campaign <name>` so the log is sealed, and with `--die` for table rolls. Odds come from factors, recorded before the roll. Certain and impossible things are not rolled. Nothing is rolled twice; a reroll carries its reason. Every roll is cited by its id. A test campaign's sealed `S/state/test-overrides.md` may force a lean result; the Keeper applies it, logs it, and changes nothing in the rubric.
 
-After the stated odds and before the roll, apply the sealed factors (`SPOILERS_do_not_open/keeper/sealed-factors.md`). The DM rolls in the open with stated odds; resolving the year, the Keeper may overrule a DM roll's outcome by the sealed factors, as that file gives, and logs it in the keeper log only. A roll in a held or prepared scene the DM played under the Keeper's parameters is never overruled: the sealed factors enter that scene through the parameters, before it is played.
+After the stated odds and before the roll, apply the sealed factors (`SPOILERS_do_not_open/keeper/sealed-factors.md`). The DM rolls in the open with stated odds. The Keeper never changes the result of a roll the DM made in play; luck works only through the odds the Keeper sets (Michael, 2026-11-25, 22:03): the sealed factors enter the Keeper's own rolls and the odds and ranges it writes in advance in the DM's sealed companion (the day sheet's world-question odds, a held moment's ranges), never a DM roll after it is made.
 
 ## Growth
 
