@@ -10,7 +10,7 @@ Never read `SPOILERS_do_not_open/`, and in particular never the sealed player fo
 2. `SPOILERS_do_not_open/campaigns/<name>/player/requests-answered.md`, the Keeper's one line per sealed request ("received and ruled", and more only when the Keeper gave a reason and the DM agreed), which the DM reads and never writes. When the Keeper has an explicit reason to tell the DM more about a sealed request, it writes the reason as an indented line under that request's entry there; the DM records whether it agrees in `unsaid.md`, beneath the request, dated; only when the DM agrees does the Keeper add the further line, at the next night's first step;
 3. in mirror mode, `SPOILERS_do_not_open/campaigns/<name>/player/mirror.md`, which the DM writes on Day 1 and does not read again.
 
-Nothing else in that folder.
+Nothing else in that folder. In play the DM also reads, by its path, the day sheet's sealed companion `SPOILERS_do_not_open/campaigns/<name>/releases/NNN/dm-sealed.md` when the Keeper wrote one: used only where a scene needs something that cannot sit in the public DM release (a sealed term, a truth the release may not show, what a sealed act showed the god). The DM reads it and never writes it, and nothing from it reaches a public file in words the leak scan would catch.
 
 ## What the DM owns
 

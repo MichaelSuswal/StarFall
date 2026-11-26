@@ -63,6 +63,17 @@ Applied 2026-11-25 under Michael's go of 21:16 Pacific. Decisions are numbered a
 - Item 18 ("examples allowed as a menu, as the runbook's Night 2 principle says") against item 24 (no worked example with a price): applied together as a menu of kinds of improvement, never a worked example with its price.
 - `npc-god.md` still says every power carries a drawback the god would notice losing. That states a rule of every god, not a price, so it stays; under item 24 Agent K's releases still say nothing of prices.
 
+### After Agents T and K (second pass, coordinator's go)
+
+- `engine/night/night-turn.md`: the quick check after pass two runs `tools/check.py <name> NNN --step 4`, the step 7 round `--step 7`, and the full check, with no step flag, after the clock is set in step 8 (item 73, Agent T's note); the sealed day-sheet companion `S/releases/NNN/dm-sealed.md` named in step 5 (item 60, decision 1, Agent K's note); the frame points to the Keeper's sealed procedure `SPOILERS_do_not_open/keeper/year-turn.md`.
+- `engine/roles/dm.md`: `dm-sealed.md` among the DM's reads, by path, read only, used only where a scene needs what the public release may not show (Agent K's note).
+- `engine/roles/checker.md`: reads `dm-sealed.md`; item 8 cites mystery standard rules 1 to 17 (Agent K, decision 3); the line allow form `in <file>: "<phrase>"` for `leak-allow.txt`, and a phenomenon's count allowed by line, never by label (item 71, Agent T's note).
+- `engine/design/DESIGN.md` 8.7: the mystery standard is 17 rules.
+- `engine/roles/civ.md`: new step 5, the player's people write nothing past the first held moment of the player's thread in a public file; what lies past it goes in their sealed folder under "Past the first held moment: not yet what happened" (decision 1, Agent K's note). Later steps renumbered.
+- `engine/rules/powers.md` section 5: already held every hint to year 70 from the first pass (decision 2); one line made plain that the yearly practice line is written in the sealed growth file only.
+- Names checked: `card-summary.md`, `dm-sealed.md` and `year-turn.md` now match. Not checked, since I may not read the sealed folder: whether `year-turn.md` names the decide release `S/releases/NNN/<label>-decide.md` and the side release `S/releases/NNN/civ-<people>-sealed.md` as the engine does. Agent T's section mentions a Keeper file `S/civs/<people>-sealed.md`; if that is the side release under another name, one of the two needs to change. For the build check.
+- The overrule of DM rolls is left on the narrow reading, waiting on Michael.
+
 ## Sealed side (Agent K)
 
 Applied 2026-11-25 under Michael's go of 21:16 Pacific, in `SPOILERS_do_not_open/keeper/` only. Decisions are numbered as in `build-plan.md`. Procedure only; no world content.

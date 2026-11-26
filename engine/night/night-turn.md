@@ -2,6 +2,8 @@
 
 How one year of the world is resolved. Runs in the overnight session, which starts fresh and knows only what is in the repository. Begins after the play chat's 1:30 save and handoff. Must finish, with the morning story and painting committed, before 6:30; if it cannot, the 6:30 wake posts a notice and the story follows when done.
 
+The Keeper's own procedure for each step is the sealed `SPOILERS_do_not_open/keeper/year-turn.md`; this file is the public frame.
+
 The campaign is `campaigns/<name>/`. The sealed campaign folder is `SPOILERS_do_not_open/campaigns/<name>/`. NNN is the year being resolved.
 
 The overnight session runs this file only when `state/clock.md` says `status: open`. When it says `status: creation`, it runs `engine/night/creation-nights.md` instead.
@@ -51,12 +53,12 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 - Update state: the player's people and the player's map knowledge in `P/state/` and `P/player/`, and what the player's people now know of the land in `P/civs/<people>/knowledge.md`; every NPC people's numbers, every NPC god's map knowledge and the message log in `S/state/` and the sealed folders; and `P/world/` where public facts changed through the world.
 - Write `years/NNN/year.md`: everything that happened, with causes, sealed.
 - Write the keeper log for the year, including the neutrality self-check.
-- **Quick script check.** Run `tools/check.py <name> NNN` and `tools/lockcheck.py <name> --leaks --dashes` (the scan covers the sealed civ files too) and fix what they find before the releases.
+- **Quick script check.** Run `tools/check.py <name> NNN --step 4` and `tools/lockcheck.py <name> --leaks --dashes` (the scan covers the sealed civ files too) and fix what they find before the releases.
 
 ## 5. Releases
 
 - For each NPC god and each civ: `releases/NNN/<agent>.md`, only what it could know. Any description of land comes from the map data.
-- For the DM: `releases/NNN/dm.md`, everything the player's god would know up to the first held moment and nothing past it: what it saw and sensed, what its people report, messages received with their state, the held moment as a board with its facts, parameters and reasons (for the DM only), deaths of significant people, and the map knowledge gained. Its **day sheet**: the small world facts the DM may need in play (market days, the hall's weights and their true figures, named mortals the god is likely to meet with their sex, prices), for the DM only (run 06 item 60). No line about growth until at least year 70.
+- For the DM: `releases/NNN/dm.md`, everything the player's god would know up to the first held moment and nothing past it: what it saw and sensed, what its people report, messages received with their state, the held moment as a board with its facts, parameters and reasons (for the DM only), deaths of significant people, and the map knowledge gained. Its **day sheet**: the small world facts the DM may need in play (market days, the hall's weights and their true figures, named mortals the god is likely to meet with their sex, prices), for the DM only (run 06 item 60). Where a board needs something that cannot sit in the public DM release (a sealed term, a truth it may not show, what a sealed act showed the god), it goes in the sealed companion `S/releases/NNN/dm-sealed.md`, which the DM may read, and only there. No line about growth until at least year 70.
 
 ## 6. The morning story
 
@@ -67,14 +69,14 @@ The overnight session runs this file only when `state/clock.md` says `status: op
 
 ## 7. The check
 
-- One round over everything the night wrote, now that the releases, the morning story, the closing and the chronicle exist (run 06 item 73). Run `tools/check.py <name> NNN` and `tools/lockcheck.py <name> --leaks --dashes`.
+- One round over everything the night wrote, now that the releases, the morning story, the closing and the chronicle exist (run 06 item 73). Run `tools/check.py <name> NNN --step 7` (the clock is still on the year until step 8) and `tools/lockcheck.py <name> --leaks --dashes`.
 - The checker agent runs `engine/roles/checker.md` against the year and writes the sealed `S/years/NNN/flags.md`, with the public `years/NNN/flags.md` carrying counts only.
 - The Keeper reworks anything flagged and reruns the check. Loop until clean or until 6:00; anything left goes into the morning notice.
 
 ## 8. Close
 
 - Fix any script hit before anything is pushed.
-- Set `state/clock.md` to year NNN+1 open, and append a line to the sealed `SPOILERS_do_not_open/campaigns/<name>/state/timing.md` that starts with the Pacific date and reads "clock advanced: year NNN+1 open". Every timing line starts with its Pacific date; no other line uses the words "clock advanced".
+- Set `state/clock.md` to year NNN+1 open, run the full check, `tools/check.py <name> NNN` with no step flag, and fix any finding; then append a line to the sealed `SPOILERS_do_not_open/campaigns/<name>/state/timing.md` that starts with the Pacific date and reads "clock advanced: year NNN+1 open". Every timing line starts with its Pacific date; no other line uses the words "clock advanced".
 - Pull with `git pull --rebase --autostash`, then commit everything and push. The 6:30 wake in the play chat reads the morning story and the painting from the repository and posts them.
 
 ## Sealed and public outputs
