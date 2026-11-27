@@ -5,7 +5,7 @@ What the Keeper settled of the stretch you wrote: Year 3 again from the fourteen
 - Your stretch stands as you wrote it. Your reckonings are taken and are now fixed: the market on the second, fifth, eighth and so on of every month; the days you gave the nights the star dimmed and the boat people's absences; the ring's sittings and the counts the Stallreeve brought to the post; the old weigher of the hill kin not coming down a third time; the open-water owner's coasters lying loaded at his landing on the twelfth to the fourteenth of the tenth month of Year 4.
 - The figures of the halves and of clay and not clay stand as the release gave them.
 - The tide-reckoner's call in the fifth month of Year 4 stands as you wrote it.
-- Orrin's stick of tile weights is not settled in this stretch. Write nothing of what it tells him until you are told.
+- Orrin's stick of tile weights is settled: it shows him nothing that tells one load from another. His tiles lose in the fire alike, whichever loads go on to crack. That holds for the months you have written and after.
 - The carrier's word: said at Corrith as cut. No answer came.
 - Year 3 is told to its end. Its count of the nights the star dimmed is six.
 - Pending, asked of the Weightward and not answered: whether the star is its own, asked by a boy at the gate on the eighth of the eighth month of Year 3 and on the seventeenth of the second month of Year 4, and by a girl on the twentieth of the eighth month of Year 4, after the two askings of the first and second months of Year 3.

@@ -63,3 +63,6 @@ None the player's god would know as significant, as far as its thread is told. A
 
 ## Changes to the map
 None to the ground. Knowledge: the player's god saw the Maun Flats [f22]; god-rivers saw the River Wellen [f08] to its mouth, the Braidwater [r26] and the edge of the Lome Sea [r32]; god-healing saw the River Morrow [f02] some 58 miles below the court steading; god-secrets saw the Iss Track [f37] and the Ansel Plain [r04]; god-thresholds saw the Pass Road [f65] to its farthest house.
+
+## Corrected at the Year 5 check (flag 2)
+The farthest toll house stands on the western stretch of the Pass Road [f65], in the Kennoch Heights [r02], short of the road's first point in the Aldermark [r10]. From the unnamed winter city [f60] to that first point is 148.1 miles by the road, 7.4 days on foot (8 full days) by `tools/map.py travel`, and the house lies a little short of it. The 68.2 miles and 5 days written above for god-thresholds's walk in month 7 were measured to the road's other end and were wrong. She laid her sixth blessing on that door in month 7 as written; no outcome of Year 4 turns on the figure.
