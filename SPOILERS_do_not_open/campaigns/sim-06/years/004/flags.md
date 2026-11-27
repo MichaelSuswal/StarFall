@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 4
 
-Status: raised 7, resolved 0, open 7. By severity: major 0, moderate 2, minor 5.
+Rounds 1 and 2. Status now: raised 8, resolved 6, open 2. By severity, as raised: major 0, moderate 3, minor 5. Open: flag 7 (minor, the DM's at step 6) and flag 8 (moderate, the Keeper's, raised in round 2).
 
 ## Round 1
 
@@ -92,3 +92,46 @@ Read in full: `CLAUDE.md`, `engine/roles/checker.md`, `engine/night/night-turn.m
 - **The near stone without the sealed factor (r-0392).** The Keeper classed what the stones weigh as "came about in the game", which `year-turn.md` section 7 rolls with the sealed factors after the odds, and then rolled it without the factor, since a near stone that is not the weight is no success of the search and the god's favor has no side. The roll fell at 10 against 40, so 45 would not have changed it. Accepted as a reasoned judgment. For Michael: does a "near miss" world fact turned up by a search take the factor?
 - **The Year 3 public line on the sealed act (flag 7).** `decisions-003.md` line 55 names the pocket in public. Reword it too, or let it stand as the record of its day?
 - **The `dim-nights` label allow.** Standing from Year 1, against run 06 item 71. Every count read for meaning tonight; none is past what was seen. For Michael, as before: replace it with line allows.
+
+## Round 2
+
+Recheck by the continuity checker, 2026-11-26, written at 21:15 Pacific, against commit 5cadf4c ("sim-06 Year 4 night: the checker's round 1, flags 1 to 6 fixed"). Pulled first; already up to date. Read: the diff 3a8da0f to 5cadf4c in full, the new `S/releases/003/dm-set-aside.md`, the keeper log section "7. The check, round 1", r-0407 in the sealed roll log, the Longwalk's Year 4 report for the lines added to god-beasts's release, and every public file for the firing's outcome by search.
+
+### Scripts
+
+- `tools/check.py sim-06 4 --step 7`: the same 2 findings (the morning story and the held painting request, both step 6) and the same note. Not flags now.
+- `tools/lockcheck.py sim-06 --leaks --dashes`: leaks 0 failures, 1 warning (the standing `dim-nights` label allow); dashes 0.
+- `tools/lockcheck.py sim-06 --all`: 0 failures; 60 place warnings (the two more are in the new sealed `dm-set-aside.md`, the moved build 6 lines, as before in their old place); the same release warning and roll note.
+
+### Round 1 flags, rechecked
+
+- **Flag 1: resolved.** `P/civs/unnamed-people/state.md`: the two lines are moved whole to `S/releases/003/dm-set-aside.md`, with a set-aside line in their place; what remains (the two asks of the Year 2 winter sitting met no answer then) lies before the played moment and is true. `P/releases/003/dm.md`: a set-aside line at its head, and its Year 3 sections from "The rest of autumn" through "Summer" moved whole to the same sealed file, with a marker; the line left at 214 is the second nest of Year 2, before the moment. Nothing deleted. The people's two drafts keep their head line, as the open question to Michael. See flag 8 for a file of the same kind that round 1 did not name.
+- **Flag 2: resolved.** The Keeper's ruling is withdrawn and logged. r-0407: the master of the potters' firing of the spares, on the branch "spares fired", factors written before the die and now resting on the fixed kiln capacity (flag 6), sealed factor at player step 1, stated 45, rolled at 50, 1: success either way. `dm-sealed.md` gives the outcome as a fact ("come out whole, every one of them, as many as were shaped") and the kiln board has nothing for the DM to roll. The factor is named in the roll's `--what` and in the keeper log only; nothing the DM reads names it. The reason line no longer marks the spares as at more risk, and agrees with the fact.
+- **Flag 3: resolved.** The pass-one release (line 24), the people's year file (line 23) and report (line 10) now say only that the Weigher told the Stallreeve where it stands on the master of the smiths' ask, and that he would not carry that one either; the pass-one release adds that the answer for the woman of the back houses was not spoken at the post. This matches transcript lines 245 to 247 and `decisions-004.md` item 6.
+- **Flag 4: resolved.** `P/releases/004/dm.md` now ends the line at "The boatmen saw."
+- **Flag 5: resolved.** god-beasts's release tells both askings of the apart clans' herder, the month 10 answer in the words of its decisions (item 6) and what his clan made of it, and lists nothing unanswered. The added line on the herder of the two clans (reading his herd at dusk in month 10) is in the Longwalk report, line 26. "A thing given twice is a custom" is the eldest head's in month 1, in the ring and not to the god (report lines 10 and 66), and the release gives it that way.
+- **Flag 6: resolved.** The keeper log names the r-0378 factor as unsupported; the roll stands (26 is a success at 50, 55 and 60). The kiln's capacity is set as a new fixed fact, conservatively (about sixty pieces of these sizes at a stacking; twenty-two its usual load for weights), on the sheet in the master's parameters, and the kiln roll's factor is reworded to "two and a half times as full", which matches fifty-five against twenty-two.
+- **Flag 7: open,** the DM's at step 6, as in round 1.
+
+### Raised in round 2
+
+**Flag 8 (moderate). One more public file tells the held scene's outcome.**
+- Rule: as flag 1: build 7 point 2 and `year-turn.md` section 1; checker item 6.
+- Where: `P/releases/003/civ-unnamed-people.md`, the Keeper's Year 3 pass-two release to the player's people, line 6: "The potters' third nest, fired to the old six, agrees with itself and with them to a hair. The date the ring set for the town's weight holds." Line 7 tells the netmaker's seventh-month question as already met with no answer. The file has no set-aside mark.
+- What the record says instead: the same two lines the Keeper moved out of `state.md` for flag 1. The firing is held behind the potters' door, and the netmaker's question is now pending from tonight's stretch (`P/releases/004/dm.md`, pending 3). Round 1 missed this file. The fault is the checker's search as much as the Keeper's fix.
+- Fix (Keeper, correct the record): as for `state.md`. Move lines 6 and 7 whole to `S/releases/003/dm-set-aside.md`, put a set-aside line at the file's head, and keep only the part of line 7 that lies before the played moment.
+
+### Build 7 points, round 2
+
+1. The played moment accepted whole: held. The misstatement (flag 3) is corrected.
+2. The thread stops at the next held moment, and no public file tells past it: not yet held. Flag 1 is fixed. Flag 8 is a further public file, and the provisional section of `chronicle-god.md` waits on the DM at step 6. The people's two set-aside drafts are with Michael.
+3. Both boards in `dm-sealed.md`, and `dm.md` limited to what the god knows: held.
+4. No DM result changed: held. The DM still has no roll on the kiln board, and r-0407 is the Keeper's.
+5. Search, day away, pending asks, habit, sealed act: held, apart from flag 7.
+6. Phenomena months and counts by month: held. Nothing changed.
+7. No hint of growth before year 70: held. Nothing in the fixes touches powers.
+
+### Rulings for review, round 2
+
+- The Keeper's three new rulings (build 6 matter moved to a sealed set-aside file and marked; a board's chance range for the player's people rolled by the Keeper with the factor and given as a fact; a roll whose factor proved unsupported stands, with the fact it assumed set conservatively) are read and accepted. Each agrees with the flag it answers and with `sealed-factors.md`.
+- The open questions of round 1 stand for Michael: whether set-aside drafts stay in the public folder; the two lines of `year-turn.md` on boarding (L-0051); the near stone and the factor (r-0392); the Year 3 public line on the sealed act; the `dim-nights` label allow.
