@@ -37,3 +37,11 @@ One year older each year. Her heir is the line's next.
 - Month 7: asked the oldest net-mender where Low Garrow lay and left the answer in the jar.
 - Month 12: left the stick of six notches and the Midwife's list of the dead in the jar.
 - Fifty-four at the year's end.
+
+## Year 4
+- Month 1: set the jar and struck the bell; was told by the god at the tide-door its answers for the Harbormaster and the Eldest Midwife, said each back once whole, gave it the Midwife's list of the dead from the jar, and was told it would be gone from the water by the town for some weeks in the spring and that the lamp stayed in her keeping. Carried the words to the Midwife in her kitchen in the fourth week.
+- Month 2: carried the words to the Harbormaster at the chain-post and the question he sent back.
+- Month 7: told the Master of Timber, the Midwife, her heir and the senior Captain that the keeping would be gone some weeks; told the tenders nobody lit the lamp without her word. Left the jar three times and found it as she left it.
+- Month 8: with the god away, ordered the keeping's lamp lit at the water's edge by the harbor mouth for the boat in the swell, on her own word, and said so aloud before the tenders and her heir. Afterward asked the water at the tide-door whether she had had the right; no stick came. See state.md for the two ways.
+- Month 12: left the stick of seven notches and the Midwife's list of the dead in the jar.
+- Fifty-five at the year's end.

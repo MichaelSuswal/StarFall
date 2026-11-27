@@ -20,3 +20,7 @@ One year older each year.
 ## Year 3
 - Month 5: ran oil from the lamp-house to the water's edge through the swell and did not fall. Kept the lamp with the old woman.
 - Fifteen at the year's end.
+
+## Year 4
+- Month 8: with the god away, ran oil from the lamp-house to the water's edge through the swell and did not fall. Kept the lamp with the old woman.
+- Sixteen at the year's end.

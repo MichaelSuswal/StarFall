@@ -24,3 +24,9 @@ One year older each year.
 - Month 1: said the listener had gone into the water to listen, and was cold for two days.
 - Month 5: kept the keeping's lamp at the water's edge through the swell and did not leave it. Had no knowing that week and had not been cold in the days before; said so again.
 - Counts the star's nights: "it counts up." Seventy-four at the year's end.
+
+## Year 4
+- Month 1: said the listener had gone into the water to listen, and was cold for two days.
+- Month 5: no knowing and no cold all winter.
+- Month 8: with the god away, lit the keeping's lamp at the water's edge on the Warden-Monarch's word, with a coal from the lamp-house, and tended it as a lamp. Had no knowing that week and had not been cold in the days before; said so. Said the lamp burned as a lamp does and she could not say it did anything else.
+- Counts the star's nights: seven this year, "it counts up, but not by the same step." Seventy-five at the year's end.

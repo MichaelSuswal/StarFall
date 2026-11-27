@@ -23,3 +23,8 @@ One year older each year.
 - Month 2: sat alone at the bedside of the eldest of the smokers and met the god there, once, at the lowest tide at dusk. Put it four questions and asked to see it. Offered it the clerks' list of the year's dead each autumn, through the Warden-Monarch. Told the Warden-Monarch it was honest and that she would not take its word as the court's order. Told the inner court she had sat with it and would hear no more said of the line using it for the chain.
 - Takes its word as honest and not as an order. Whether her office is now a helper is the Keeper's.
 - Seventy-one at the year's end.
+
+## Year 4
+- Month 1: heard the god's answers from the Warden-Monarch's own mouth, alone, in her kitchen. Said it counts as an honest midwife counts, and that she would stop saying it was Low Garrow. Said she would send a house when one fitted and not for her own sake.
+- Month 10: sent the second house above the east cove landing, a dying widow past knowing for four days; met the god there once at the lowest tide at dusk and put it two things (where it was in the spring and what it found; whether it read her list by the same hand as the others). Told the Warden-Monarch it came when it said, asked nothing, took nothing, was honest, and had not sat as the dying sit. Takes its word as honest and not as an order. Whether her office is a helper is the Keeper's.
+- Seventy-two at the year's end.

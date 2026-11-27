@@ -35,3 +35,11 @@ One year older each year.
 - Month 8: put a lead and grapnel along the chain's line from the Captains' boat at the lowest springs. See state.md for the two ways.
 - Month 10: took the headland cove crab boat's new keel at no price, for the cove's sake.
 - His tally of his own has three entries at the year's end. Sixty at the year's end.
+
+## Year 4
+- Month 1: gave the haul as his own order, and a rule of his own: no boat past the mouth while the watch on the lamp-house stair can hear the Skerries breaking from the northwest.
+- Month 2: heard the god's answer at the chain-post from the Warden-Monarch's mouth, alone. Said a boat's lower timbers is a hull to him, that he dragged both sides of the line and took none, and asked where inside the mouth. Said nobody had thanked him for the lead, that "I ask nothing more of your chain" was the first thing from that water he would have put his name to, and that he takes a tide and not a word. Added a fourth line to his tally. Not a helper of the god by the Keeper's record.
+- Month 4: assented to the quay head pile without being told; stood on the quay head through the longest storm.
+- Month 8: on the quay himself in the swell, with the god away; had the chain let down and put out the Captains' boat. Did not come to the water's edge. Added a fifth line to his tally. See state.md for the two ways.
+- Month 10: took the east cove long-liner's new strake at no price, for the cove's sake.
+- Sixty-one at the year's end.

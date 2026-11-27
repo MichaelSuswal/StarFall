@@ -33,3 +33,11 @@ One year older each year.
 - Month 10: chose the headland cove's crab boat for the keel, with the Harbormaster's assent.
 - Month 11: saw the god lay its hand on the keel. Said that was the sixth piece in three years and enough.
 - Sixty-three at the year's end.
+
+## Year 4
+- Month 3: named the outer pile at the quay head as the piece.
+- Month 4: had the yard cut two piles and drive them side by side; saw the god lay its right hand on one in the dark. Said that was the seventh piece in four years.
+- Month 7: told by the Warden-Monarch that the keeping would be gone some weeks.
+- Month 10: chose the east cove's open long-liner, a garboard strake, with the Harbormaster's assent.
+- Month 11: saw the god lay its right hand on the strake in the yard. Said that was the eighth piece in four years and enough.
+- Sixty-four at the year's end.
