@@ -1,0 +1,9 @@
+> SPOILER WARNING: Keeper material. Players should not read this file.
+
+# The young herder of the three clans that camp apart
+
+Of the Longwalk. A young herder of the three clans that camp apart, sent by his own clan and not by his eldest head. His name is not in my record and none has been said aloud. Young, direct, counts what others only say. He and his clan counted the band's heads against the nights of the star and hold that the star dims when the band is too many to walk as one.
+
+History fixed in Year 4: in the eighth month he came to the margin of the main camp at dusk and asked the keeper whether the star dimmed because the band was too many to walk as one. The keeper was away along the timber; he waited two nights at the edge of the Houndwarden's fire as a guest and went home on the third morning with no answer. In the tenth month he came again with a man of the main band beside him and was answered in front of him: the keeper knew nothing of the dimming, had done nothing at those hours that it knew of, and did not say it was not any god's. He told his clan the keeper had not said no, and his clan said that meant yes.
+
+Year 5 (a dated line): in the first month, at the first storm, he heard the keeper's answer carried into the ring by Tessaly, standing at the back of his eldest head's men: that it had not said yes, that it knew nothing of the dimming, that if the band parts it parts by the council's word and the clans' own, and that a body keeps one margin and not two. He said his clan had counted on the strength of a thing the keeper never said, and did not say whose fault it was. Part of his clan were angry and part relieved. The star dimmed three times this year and not seven, with the band larger, and his count is broken. His clan wintered a little nearer. He has not taken the keeper's word, and does not say the keeper lied.
