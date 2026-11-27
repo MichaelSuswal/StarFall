@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 5
 
-Round 1. Status now: raised 9, resolved 0, open 9. By severity: major 0, moderate 2, minor 7. The check fails for now: every flag is the telling or a board line, none needs the year reworked, and each is fixable before the morning.
+Rounds 1 and 2. Status now: raised 10, resolved 8, open 2. By severity, as raised: major 0, moderate 2, minor 8. Open: flag 8 (minor, the DM's at step 6) and flag 10 (minor, the Keeper's). The check fails for now; neither open flag needs the year reworked.
 
 ## Round 1
 
@@ -115,3 +115,50 @@ Read in full: `CLAUDE.md`, `engine/roles/checker.md`, `engine/night/night-turn.m
 - **The `dim-nights` label allow.** Standing from Year 1, as before.
 - **The place scan reading an earlier year's flags file.** A tool fault, for the coordinator.
 - The Keeper's other rulings for review in the Year 5 log are read and accepted for this run: the tide-reckoner's cost as known; the asking in session held as pending; a conditional roll not made; the player's standing not entered for a year told in part; the people's report reworded for the scan; the bell and the lamp; salt in water; a watcher at a god's door; the kiln-master's tiles (apart from flag 7).
+
+## Round 2
+
+Recheck by the continuity checker, 2026-11-26, written at 22:51 Pacific, against commit 50a317f ("sim-06 Year 5 night: the checker's round 1, flags 1 to 7 and 9 fixed"). Pulled first; already up to date. Read: the diff b2d2d36 to 50a317f in full, the keeper log section "7. The check, round 1: nine flags" and its rulings for review, the new cast line, parameters and reasons on the sealed sheet, the appended correction in `S/years/004/year.md` and its Year 4 god-thresholds paragraph, the new m-0014 line in the message log. No roll was added or changed (r-0464 is the last id).
+
+### Scripts
+
+- `tools/check.py sim-06 5 --step 7`: the same 2 findings (the morning story and the painting request, both step 6) and the same note. Not flags now.
+- `tools/lockcheck.py sim-06 --leaks --dashes`: leaks 0 failures, 1 warning (the standing label allow); dashes 0.
+- `tools/map.py travel sim-06 f60 f65:start --by foot --via f65`: 148.1 miles, 8 full days, as the correction gives. `f65:start` to Aldermoot by horse: 117.6 miles, 6 full days, as the releases now give.
+
+### Round 1 flags, rechecked
+
+- **Flag 1: resolved.** The eleven's parameter, outcome 4, the reason line and `year.md` now give the success as written before the die: the first carrying each summer is hers. The keeper log withdraws the condition and marks its earlier lines superseded. No roll redone.
+- **Flag 2: resolved.** All five places now give 117.6 miles and 6 days by horse from the road's first point, with Aldermoot south-west and "north-east" kept only as the people's own phrase; the old message log line stands and a new one corrects it, as the log is never rewritten. The timeline holds: out from the farthest house on day 12 of month 1, there about day 19, some three weeks waiting, home on day 20 of month 2, which the road back (6 days to the road's end and some 5 by horse on the road to the city) allows. Year 4's 68.2 miles is corrected to 148.1 and 8 days on foot by a dated entry appended to `S/years/004/year.md`; no Year 4 outcome turns on it, since her blessing was laid in month 7 and her next act falls in month 8. Ruled on the Keeper's question: the Sarrow pass-one release, already read by its agent, may stand unedited. Its pass-two release corrects it and says that where it differs this is what happened, and the agent reads it at the next turn; editing a read release would change what the agent was given. Accepted.
+- **Flag 3: resolved.** Both asks are listed in god-thresholds's release, with month, place and the Marshal's own orders, and the second "still waits for your word".
+- **Flag 4: resolved.** Both public files now have the Assay-master asking and the master setting the pairs in her own beam's pans, as transcript line 143.
+- **Flag 5: resolved.** The Tally-keeper, the ship owner of the open water and the mate each have wants, stance, opening words and a reason, each in keeping with the earlier sheets and the record. No range or outcome moved.
+- **Flag 6: resolved.** The cast line now holds her own Year 2 news on her quay since the winter of Year 3, and the word's figures and the ring's day by way of Corrith after month 10 of Year 3.
+- **Flag 7: resolved** as a contradiction; see flag 10 for where the fixed fact now stands.
+- **Flag 8: open,** the DM's at step 6.
+- **Flag 9: resolved.** god-rivers's release has both pasture nights (months 3 and 7) and the question left with the Seat Warden in month 5, met with silence and answered yes on its return.
+
+### Raised in round 2
+
+**Flag 10 (minor). A public release now states what a mortal's private record shows him.**
+- Rule: DESIGN 12.2 and `year-turn.md` section 3.1 (the player's people's public files hold only what the god could witness or be told); checker item 6b; mystery standard rule 15 (nothing given before it is earned).
+- Where: `P/releases/005/civ-unnamed-people.md`, the Orrin line: "it shows him nothing that tells one load from another. His tiles lose in the fire alike, whichever loads go on to crack."
+- What the record says instead: the people's public year file has Orrin keeping his stick from month 3 of Year 4, and "What it showed him he did not say." Nobody has told the god what the stick shows, and `S/years/005/year.md` gives it as "not told". The player may read `releases/`. The fault is in part the checker's: the round 1 fix asked for the fact to be told to the agent and did not say where.
+- Fix (Keeper, correct the record): move the sentence to the sealed side release, `S/releases/005/civ-unnamed-people-sealed.md`, as what Orrin knows; in the public release keep only that the stick is settled and that nothing of it has been said where the Weightward hears, without saying where the rest is written.
+
+### Build 7 points, round 2
+
+1. Both prepared scenes accepted whole, and the run-on ruled: held. The misstatement (flag 4) is corrected.
+2. The two unrolled facts settled as the files give: held.
+3. The player's thread as one untold stretch to the first held moment, nothing public past it: held. Flag 10 is a fact inside the told stretch that the god does not know, not a fact past the moment.
+4. The board complete with no open roll, and `dm.md` limited to what the god knows: held.
+5. No DM result changed: held.
+6. Phenomena months and counts: held.
+7. No hint of growth before year 70: held. Nothing in the fixes touches powers.
+8. The lag entry and L-0056: held.
+
+### Rulings for review, round 2
+
+- The Keeper's three rulings of the check are read and accepted: the condition withdrawn with the success as written; the wrong end corrected by dated entries in both years with the old message line kept; a pass-one release already read left unedited and corrected in pass two.
+- The tool-clarity point (which end of a line `:start` and `:end` name on the ground) is for Michael, with the place scan reading an earlier year's flags file. Both are tool matters, not campaign flags.
+- The open questions of round 1 stand for Michael.
