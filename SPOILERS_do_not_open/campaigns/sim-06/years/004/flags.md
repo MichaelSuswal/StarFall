@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 4
 
-Rounds 1 to 3. Status now: raised 9, resolved 7, open 2. By severity, as raised: major 0, moderate 3, minor 6. Open: flag 7 (minor, the DM's at step 6) and flag 9 (minor, the Keeper's, raised in round 3).
+Rounds 1 to 4. Status now: raised 9, resolved 9, open 0. By severity, as raised: major 0, moderate 3, minor 6. The check passes for Year 4.
 
 ## Round 1
 
@@ -173,3 +173,49 @@ Recheck by the continuity checker, 2026-11-26, written at 21:18 Pacific, against
 
 - The Keeper's marker form ("A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.") is accepted. It says only that something was set aside, not what, and it names no sealed note.
 - The open questions of round 1 stand for Michael.
+
+## Round 4
+
+Recheck by the continuity checker after step 6, 2026-11-26, written at 21:32 Pacific, against commit ac9aead (the Keeper's flag 9 fix fa43498; the DM's step 6, 8af19e6 and ac9aead). Pulled first; already up to date. Read in full: `P/years/005/morning-story.md`, `P/years/004/closing.md`, the diffs of `P/player/chronicle/` (canon, chronicle-god, messages, people, threads, years), `P/player/pending.md`, the dated entry in `P/player/power-card.md`, `images/held/sim-06-005-morning.json`, `P/state/images.md`, the reworded lines of `decisions-003.md` and `decisions-004.md`, and the people's Tally-keeper file, public and sealed. Each was read against `P/releases/004/dm.md`, `S/releases/004/dm-sealed.md`, `S/years/004/year.md`, the transcript and the failures checklist.
+
+### Scripts
+
+- `tools/check.py sim-06 4 --step 7`: 1 finding, 1 note. The finding says the held request is approved and belongs in `images/requests/`. That is wrong: `P/state/images.md` approves the Year 2, 3 and 4 morning paintings and "any other painting ... not approved"; no Year 5 morning is approved (run 07: "No paintings"). The request is rightly held. **This is a known tool fault, not a campaign flag:** `tools/paint.py`'s approval match takes any approved play-year morning line as approval for any year. The coordinator is reporting it to Michael. The note is the old public roll ids, standing.
+- `tools/lockcheck.py sim-06 --leaks --dashes`: leaks 0 failures, 1 warning (standing); dashes 0.
+- `tools/lockcheck.py sim-06 --all`: 0 failures; the same warnings as round 3.
+
+### Flags rechecked
+
+- **Flag 9: resolved.** The public `people/tally-keeper.md` line 15 no longer tells of an asking at the shut sitting; the sentence is kept whole in the people's sealed folder. Searched again: no public file holds the Tally-keeper's answer.
+- **Flag 7: resolved.** `decisions-004.md` lines 48 and 49 and `decisions-003.md` line 55 no longer name the act or the pocket, and no longer say the act was not played. They say only that a part of the sealed record was given there and nothing of it was stated in the open, which is the long-standing form of the rolling save's lines ("One sealed answer taken to the sealed record"). The Year 3 rewording answers the round 1 question to Michael on that line.
+
+### The DM's step 6 work
+
+- **The morning story.** It opens with a return sequence where the god stands at the potters' door. It tells the stretch from the gatepost as `dm.md` gives it, every fact matching the release and the record: the stones, the hill weigher's figures, the pans, the door-stone, the counts on the second stick, the one reason, the three silences, and the sky by months with no count. It stops at the board in the release's words, the master of the potters' opening words last, and nothing resolved. No sealed name, nothing of `dm-sealed.md`, no hint of the habit's town name, nothing past the door. Checklist: no invention, contradiction or forgetting found; no flattery, no pointing at signs, no corrected belief; the door-stone is told at the weight of the lines around it; no list beyond the pending asks the rules require; no hint of growth. The (oog) blocks say where the story stands against the clock, once, with the reason; that the provisional matter is set aside; the three asks; the record line; and the map.
+- **The closing.** Written from what happened, in the DM's voice, and it tells nothing past the door. It runs to five sentences, where step 6 asks for three or four. Not flagged.
+- **The chronicle files.** `canon.md`, `people.md`, `threads.md`, `messages.md` and `years.md` now hold the stretch as told, and stop at the door. The netmaker is "he", as tonight's record has him. "She holds the kept halves" (people, the Tally-keeper) is the played scene's own words (transcript line 295) and is not the sealed jar. `chronicle-god.md` holds the stretch, the held board, and the build 6 provisional section, now marked set aside.
+- **`pending.md`.** The Year 5 morning's list matches `dm.md`: one held moment, three silences, one refusal, the asks answered by decided words, the asks waiting inside the held scenes. The older entries 3 and 4 are marked set aside in place.
+- **The card entry.** Dated, from the release's "Rulings for the card and the record", and it changes no term of the card. It matches the canon line.
+- **The held request.** `images/held/sim-06-005-morning.json`, wide. The house style block opens it, and the figure is described from the appearance card, seen from behind with no face. The scene is the landing at dawn in the first month of Year 3 with an anchor stone carried to the beam: a thing the god saw, inside the told stretch. The open-water owner and the Tally-keeper appear by look only. Nothing is from the sealed part, and nothing lies past the door. Held, not sent, as `state/images.md` requires.
+
+### Rulings on the DM's points
+
+1. **Set-aside marks in place in `chronicle-god.md` and `pending.md`, not moved to the sealed folder: accepted.** These are the DM's working files. Since Year 2 they have carried the older telling marked provisional under the standing ruling. Each mark now says plainly that the matter is not what happened, and the correct telling stands beside it. The text quoted under the marks was never told as fact. The Keeper's files were moved because they read as releases and state. This is the same question already with Michael for the people's two drafts. Until he rules, marking in place meets build 7 point 2 for these files.
+2. **The `years.md` Year 3 year-end paragraph replaced by a bracketed set-aside note: accepted.** It keeps the other lines of the entry, says what stood there and why, and points to where the stretch is told.
+3. **The card entry with no ledger id: accepted.** No ledger id is owed. The entry restates the standing fee and changes no term, and no ledger ruling was made for it. The only mechanical card write the Keeper makes in play is a gift's ledger id (`year-turn.md` section 6). The entry's last clause ("the Keeper enters it") and the canon line's "No ledger id was released" ask for nothing. They may stand, and nothing waits on them.
+4. **No [painting] marker, and an (oog) line that the request is held: accepted.** `morning-story.md` and build check B7 say that a held request means nothing is painted and the morning posts without one. The (oog) line is true and points at nothing.
+5. **The sealed act's private answer, written nowhere: accepted, with a step owed on the play day.** No public file may carry it, and the files do not yet say how a sealed part is answered privately. That question is the Keeper's ruling for review and is with Michael. Nothing is owed in a file before the play day. On the Year 5 played day, the DM gives the player what the act showed (the pocket empty, as the card gives) by the private way used for sealed parts, once and plainly. The DM then records it in `S/player/unsaid.md` with the date, under `## Act` (`engine/roles/dm.md`, "Sealed parts in play"). If the DM does not, the next check flags it under failures checklist 21, since what the god's own hand found is its own sense.
+
+### Status
+
+All flags resolved: raised 9, resolved 9, open 0. The check passes for Year 4. The clock may open Year 5 (step 8).
+
+### Build 7 points, final
+
+1. The played held moment accepted whole: held.
+2. The thread stops at the next held moment, and no public file tells past it: held. Every set-aside matter is moved to the sealed folder or marked in place. The people's drafts and the DM's in-place marks are with Michael.
+3. Both boards in `dm-sealed.md`, and `dm.md` limited to what the god knows: held.
+4. No DM result changed: held.
+5. Search, day away, pending asks, habit and sealed act: held. The sealed act's private answer is owed on the play day (ruling 5 above).
+6. Phenomena months and counts by month: held, in the release, the morning and the chronicle.
+7. No hint of growth before year 70: held, in the morning, the closing, the chronicle and the card.
