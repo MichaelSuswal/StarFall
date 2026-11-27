@@ -1,11 +1,21 @@
-# Goals: Vael (Year 3)
+# Goals: Vael (Year 4)
 
-1. Win the Warden of the Wall by keeping to what he asked, not by arguing. He wants no flame of mine within the watch's yards, none lit for a man on duty, nothing asked of the wall but through him, and the days I walk beyond the gate told to him. All four are mine to keep, so I keep them and say so. He asked, by his captain, that the men who sit my door be told by me what they sit against. I owe that answer and I give it plainly this autumn.
-2. Salt, held by the town's own road. The house at the harbor will set a standing price for stone cut to its order. I want the court, the Steward and the cutters to judge that offer for themselves and send the stone and the party their own way. I do not commit them. I do not go. I send no flame.
-3. Close the western party in the town's mind. Four went at my asking and found nothing. The ringed cuts at the scar and the families of the four are the places where I should be seen to carry it. I send no one out blind again, and I send no one at all unless the court asks.
-4. Keep the nights, one door at a time. Two households a night by lot as a rule. Three only on named nights of deep winter, told the day before to the Warden of the Door and to the wall men at my door, so that no one asks a plan of me on the morning after. The seventh place stays empty. I give no orders in any dream.
-5. Keep the star honest. Five dim nights this year, two with a dying and three without. I do not know that it is mine. I give the Keeper of the Count a plain list of the days I was afraid and the days I was not, so that the cords can be set beside each other. If they agree, I will say so. If they do not, I will say so.
-6. Help the Night Sitter without taking her work or promising what my gift cannot reach. My gift does not reach what her work takes from her. That is ruled. What I can offer is hands at her yard on her nights and a word to the court that a second sitter is worth teaching.
-7. Hold the lamp. I do not tell it to strangers, I do not hand it to any hand, I do not set it down out of reach, and no flame of mine goes to a people who are not mine.
-8. Be reached through the court. I do not rule by my dreams. The Warden of the Door who holds both lamps has not said she takes me for the one awaited, and I do not press her. I wait to be told.
-9. Keep to shrines and lamps, kept by whoever keeps them. A companion who is not a god and who will tell me when I am wrong, if one comes. The empty chair at the long table, if I find where it stands. One of my own kind at a gate, if the road goes that way.
+1. Pay what I owe in answers. Three questions were put to me in Year 3 and I gave no words. The captain asked how a man knows the standing body from the sleeping one. One of the four asked whether they are to move me if fire comes into the yard. A father at the second house asked who told me the four had not come home. A question left a year is a door left open to the cold. I answer all three in the first month, plainly, and I write down what I say so that I keep it.
+
+2. Learn who tells me what, before I say it to others. I told the families the four had not come home, on what I was told, and I did not ask whose word it was. I was wrong, and a father has asked me why. From now on, when I carry a thing to a house, I ask the one who gave it to me where it came from.
+
+3. Send one plain word to the one in the delta who says it is a god, and go nowhere yet. I do not know that it is a god. I will not go to a place I cannot see, on one man's hearing, with the lamp on my waist and the court not yet speaking for me while I am away. I send words by the harbor's own road. I ask to meet at a gate. I tell it where I am and nothing of what the lamp does. I weigh what comes back by what it asks of me.
+
+4. Settle with the court what happens when I am away, so that a later year can be free. I ask the Warden of the Door and the throne, and the Keeper of the Count, who names the seven, who tends the chain of flames, who answers a question put to me while I am gone, and what the Warden of the Wall wants told him. I do not leave this year. I want the answers in hand so that, if the road goes west, I am not a god who vanishes and leaves the nights to drift.
+
+5. Keep the harbor's road to salt as the town's own. The house has named its order: sixty blocks a year dressed to its cord, lifted by its own ship at the river's mouth. The court holds the cord and the bargain. I help only by asking that the Steward and the old cutter judge what can be spared. I do not go, I send no flame, and the people who carry it are the court's.
+
+6. Keep the nights, one door at a time. Two households a night by lot as a rule. Three only on named nights of deep winter, told the day before to the Warden of the Door and to the wall men at my door. The seventh place stays empty. I give no orders in any dream.
+
+7. Keep the star honest. Six dim nights this year, more again. I give the Keeper of the Count my list of the days I was afraid and the days I was not, beside his cords. I say so whichever way they fall. I do not claim it and I do not clear myself.
+
+8. Be a guest to the new sitter. A hamlet girl found she could sit beside the Night Sitter. I do not take the work and my gift does not reach what it takes from her. I ask the seat whether the girl's household is heard by the court on what she needs, and I sit again on a night the Night Sitter sits, if she will have me.
+
+9. Hold the lamp. I do not tell it to strangers, I do not hand it to any hand, I do not set it down out of reach, and I send no flame to a people who are not mine. Any god who learns the lamp can take my people's kept sleep by taking it. If one comes to my gate, I meet it with the lamp on my waist.
+
+10. Be reached through the court. I do not rule by my dreams. I wait to be told whether the Warden of the Door takes me for the one awaited, and I do not press her. A companion who is not a god and who will tell me when I am wrong, if one comes. The empty chair at the long table, if I find where it stands.
