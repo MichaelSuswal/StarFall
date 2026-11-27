@@ -43,3 +43,12 @@ One year older each year.
 - Month 8: on the quay himself in the swell, with the god away; had the chain let down and put out the Captains' boat. Did not come to the water's edge. Added a fifth line to his tally. See state.md for the two ways.
 - Month 10: took the east cove long-liner's new strake at no price, for the cove's sake.
 - Sixty-one at the year's end.
+
+## Year 5
+- Month 1: gave the haul as his own order, the fifth autumn, with the Skerries rule kept. Heard the god's answer at the chain's post from the Warden-Monarch's mouth, alone. Said he had said the lead, not the tide. Did not take the word.
+- Month 2: put a lead and grapnel along the chain's line at the lowest springs with both Captains and the Master of Timber; the lead rang on three stones and the grapnel took a strake and a rib beside them. Laid the pieces on the cairn before the nine families; had the key written by two hands from that day. Put a sixth line in his tally and took the old question out of the jar. Not a helper of the god by the Keeper's record.
+- Month 4: assented to the point's keel for the point's sake, without being told it was the keeping's. Gave the rule naming the point at the harbor-court as the quay's.
+- Month 9: sounded the near shoal on three mornings with the god's notched stick and drew it half in ink and half in charcoal. Will not send a boat down it until his lead has been down it in a long swell three times.
+- Month 10: took the ferryman's strake at no price, for the ferryman's sake.
+- Month 11: on the quay himself in the swell; had the chain let down and put out the Captains' boat with the long line made fast to the quay head's outer pile. Did not come to the water's edge. Put a seventh line in his tally. See state.md for the two ways.
+- Sixty-two at the year's end.

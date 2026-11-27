@@ -28,3 +28,7 @@ One year older each year.
 - Month 1: heard the god's answers from the Warden-Monarch's own mouth, alone, in her kitchen. Said it counts as an honest midwife counts, and that she would stop saying it was Low Garrow. Said she would send a house when one fitted and not for her own sake.
 - Month 10: sent the second house above the east cove landing, a dying widow past knowing for four days; met the god there once at the lowest tide at dusk and put it two things (where it was in the spring and what it found; whether it read her list by the same hand as the others). Told the Warden-Monarch it came when it said, asked nothing, took nothing, was honest, and had not sat as the dying sit. Takes its word as honest and not as an order. Whether her office is a helper is the Keeper's.
 - Seventy-two at the year's end.
+
+## Year 5
+- Month 1: heard the god's words from the Warden-Monarch's own mouth, alone, in her kitchen. Said a half answer called a half is the only kind a midwife trusts. Told the widow's daughters yes, it was in the house. Said she sends no house this year. Put the two from the point at the head of the list. Takes its word as honest and not as an order. Whether her office is a helper is the Keeper's.
+- Seventy-three at the year's end.

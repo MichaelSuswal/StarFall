@@ -41,3 +41,11 @@ One year older each year.
 - Month 10: chose the east cove's open long-liner, a garboard strake, with the Harbormaster's assent.
 - Month 11: saw the god lay its right hand on the strake in the yard. Said that was the eighth piece in four years and enough.
 - Sixty-four at the year's end.
+
+## Year 5
+- Month 2: sat in the stern of the Captains' boat in the drag; knew the strake for his own, laid nineteen years before in a decked boat of the point; knew the rib for his own master's.
+- Month 3: asked by the Warden-Monarch about the point's keel; said he would ask the point himself. Went to the point and told the widow the oak and the keel were the yard's, and that he would answer her straight if she asked whether any other hand would lie on it.
+- Month 4: had the yard cut two keel timbers of one length; saw the god lay its right hand on one at the scarf in the dark. Said that was the ninth piece in five years.
+- Month 10: chose the point ferryman's boat, a sheer strake, with the Harbormaster's assent.
+- Month 11: saw the god lay its right hand on the strake in the yard. Said that was the tenth piece in five years and enough.
+- Sixty-five at the year's end.

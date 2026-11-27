@@ -24,3 +24,8 @@ One year older each year.
 ## Year 4
 - Month 8: with the god away, ran oil from the lamp-house to the water's edge through the swell and did not fall. Kept the lamp with the old woman.
 - Sixteen at the year's end.
+
+## Year 5
+- Month 1: asked the Warden-Monarch whether the bell would be answered, and how fast. Was told the keeping said it would come at once, and that she did not know how fast.
+- Month 11: ran oil from the lamp-house to the water's edge through the swell and did not fall. Kept the lamp with the old woman.
+- Seventeen at the year's end.

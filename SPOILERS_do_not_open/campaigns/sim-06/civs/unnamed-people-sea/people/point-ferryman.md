@@ -12,3 +12,10 @@ Unnamed. The ferryman of the point, whose boat goes out latest and comes in last
 
 ## Nature
 A man who goes back out for the late boat and calls it nothing.
+
+## Year 5
+- Month 3: spoke for the point's boats to the Master of Timber, that the yard's keel on his boat had stood five winters with no worm and no check.
+- Month 4: heard the point named in the court's rule, and said he would keep it when he had buried his own.
+- Month 10: his sheer strake was chosen for renewal; said the yard had been kind to him twice and he had begun to wonder what it was repaying.
+- Month 11: stood on the quay head and did not put his boat out in the swell. Said again that the water off his bow lay strangely quiet on some evenings. See state.md for the two ways.
+- Month 12: went back out in fair weather for a late boat with a fouled sail and towed her in, and called it a small thing.

@@ -15,3 +15,9 @@ Steady, sparing of words, a man who obeys a plain order.
 ## Year 4
 - Month 7: told by the Warden-Monarch that the keeping would be gone from the water for some weeks and the lamp would stay in her keeping. Asked whether the lamp would be lit if a boat were caught; was told she did not know.
 - Month 8: stood by at the mouth in the Captains' boat in the swell; looked along the strand and the water's edge for the figure and saw none; told the Warden-Monarch so in the morning. Kept it from the levy. See state.md for the two ways.
+
+## Year 5
+- Month 1: told by the Warden-Monarch what the keeping said of the lamp and the bell. Told the second Captain only that the bell has two strokes.
+- Month 2: in the Captains' boat at the drag on the chain's line.
+- Month 5: stood the long line at the mouth with no boat out.
+- Month 11: stood by at the mouth in the Captains' boat with the long line made fast to the quay head's outer pile; looked along the strand and the water's edge for the figure. See state.md for the two ways.

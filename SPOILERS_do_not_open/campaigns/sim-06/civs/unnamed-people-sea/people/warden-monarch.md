@@ -45,3 +45,10 @@ One year older each year. Her heir is the line's next.
 - Month 8: with the god away, ordered the keeping's lamp lit at the water's edge by the harbor mouth for the boat in the swell, on her own word, and said so aloud before the tenders and her heir. Afterward asked the water at the tide-door whether she had had the right; no stick came. See state.md for the two ways.
 - Month 12: left the stick of seven notches and the Midwife's list of the dead in the jar.
 - Fifty-five at the year's end.
+
+## Year 5
+- Month 1: set the jar and struck the bell; was told by the god at the tide-door that she had the right, that its lamp is a lamp in any hand but its own and does not still water for her, that the boat broke because it was far, and (kept to herself) one more thing. Said she would try. Was given its words for the Harbormaster and the Eldest Midwife, said each back once whole, gave it the Midwife's list and the stick of seven notches, and was told to strike the bell once for a word and twice for a boat in trouble. Carried the words to the Midwife in her kitchen in the second week and to the Harbormaster at the chain's post in the fourth. Told the inner court, the senior Captain, her heir and the tenders of the lamp and the bell.
+- Month 2: stood beside the Harbormaster at the cairn and read the harbor-book's entry for the night the nine were lost aloud to the families. Told the water the two answers.
+- Month 3 and 4: asked the Master of Timber about the point's keel; asked the Harbormaster, as the court's own, to say the rule that names the point.
+- Month 11: struck the bell twice and twice again for the boat in the swell; had the keeping's lamp lit as a light and said aloud that it was one. See state.md for the two ways.
+- Fifty-six at the year's end.
