@@ -139,3 +139,11 @@ Star and blend on one matter: the late star and the Q5 blend both speak to age; 
 
 ### 1.6 Roll the ceiling
 Method, written before the die: the Q8 result is 6, so by the table the d10 is one roll, unshaded; the ceiling is 70 plus its face.
+The d10: face 8 [r-0138]. The ceiling is 78. Written to `star.md`; it is copied to every god's sealed `hidden-powers.md` on Night 2 and never released. By the lore's own fraction, the voices would begin at four fifths of it, 62 (62.4, rounded), a figure for 3b.
+The session stopped at its usage limit at 22:18 on 2026-11-25, after r-0138 and the month line on the sheets and before this line was written; the orchestrator saved the work as it stood (commit 9b28e67). Resumed 2026-11-26 20:01. Checked against the roll log: r-0138 is the last roll, nothing was cast twice, and the send-back and the follow-up were already in the two releases and unanswered.
+Stamped 2026-11-26 20:02.
+
+### 1.8 The world rules for the DM, and follow-ups for Day 2 (the parts that do not wait)
+`player/world-rules.md` written from template 7.9: god-sense as set (nearness and weight, only close at hand, never a count), one body with no cost line, and the pricing terms for mortal magic. Nothing discovered is in it, and the waking month is not in it (it reaches the DM in the Day 3 brief). `player/followups-day2.md` is the one line `No follow-ups for Day 2.`: the player's answers leave no gap, no premise was rejected or bent, and no request not to be told was made. No sealed request or flagged line arrived on Day 1, so `ruling-ledger.md` and `player/requests-answered.md` are not written.
+Still out: god-dead's answer 4 given again; god-healing's follow-up answers 5 and 14. Waiting on them: the Q4, Q5 and Q14 blends, the star-and-age reading, the world draft (1.7) and the close (1.9).
+Paused 20:02 on 2026-11-26 for god-dead's answer 4 given again and god-healing's follow-up answers 5 and 14.
