@@ -1,3 +1,35 @@
+# Pending questions: Year 6, at the morning
+
+Campaign sim-06. Every question someone in the world has asked the god that the player has not answered. From the Keeper's release for Year 5 (`releases/005/dm.md`). The clock has run on through Year 5 and is closed after this night. The story stands in Year 4, the tenth month, the fourteenth day, at the first held moment after the kiln yard, and is told only that far.
+
+## To be put first on the next played day
+
+1. "Is the star yours?" Asked five times, and no decided words answer it. A boy at the gate, Year 3, the first month. The same boy, of the empty post, in the second month. The boy again, at the gate, on the eighth day of the eighth month of Year 3, and on the seventeenth day of the second month of Year 4. A girl of about six, in the boy's words, on the twentieth day of the eighth month of Year 4. Each time it met silence, and the line told the child to hush. Nothing is read into the silence.
+
+Told to the player in the Year 6 morning story, each asking where it fell, and named in its (oog) as the one pending question.
+
+## Held, to be played
+
+1. Year 4, the tenth month, the fourteenth day, a market day, first light, the gate not yet open. The gatepost. The line is forming in the yard in the grey. The watch stand at the bar with their spears grounded. The Weigher is at the foot of the post with the nest of cups at its hand. The Stallreeve is at the gate and the Tally-keeper at her table. The master of the southern coaster, the woman who stood here in the tenth month of Year 2, has come up from the landing in the dark and stands at the head of the line, a brass balance in a leather case under her arm, one of her crew a pace behind her. She has said nothing yet in the Weigher's hearing. Told to the player in the Year 6 morning story as its board. Nothing is prepared behind it.
+
+## Refused by the player's own word, and not pending
+
+What would break it.
+
+## Answered in the stretch by the player's decided words
+
+A digger of the lower pit, whether the stick says his clay is good (Year 3, the eighth month, the eleventh day). Orrin, the figures of the sixes and the twelves, before the fire and after, given from the Tally-keeper's cuts (the same day). The head of the hill goods, as himself, whether it would cut the six things for the carrier now (Year 3, the ninth month, the seventeenth day). An upriver trader of the Aldermark, whether one of the hall's old weights is light (Year 3, the eleventh month, the eighth day). An old man of the flats, whether it goes now the weights are set (Year 4, the first month, the second day). A netmaker, the height of the water (Year 4, the fifth month, the eighth day). The woman of the back houses, who came to the gate and asked nothing (Year 4, the fifth month, the twenty-third day). Told to the player in the Year 6 morning story, each where it was said.
+
+The master of the smiths has not asked again. His answer waits on his asking, as the player decided.
+
+## Asked by the Weigher and answered by the world
+
+The carrier was told what the Weigher asked he be told, by the Stallreeve, before the line, on the twenty-ninth day of the ninth month of Year 3. The ring cut nothing more: its motion to cut a second stick for the carrier did not carry, five for, five against, one not voting.
+
+## From the DM, in (oog)
+
+None open.
+
 # Pending questions: Year 5, at the close of the play day
 
 One question asked of the god is open and unanswered by the player: a boy at the gate, Year 3, the first month, "Is the star yours?", asked again of the empty post in the second month. It was named to the player in the morning and at the close; it is to be put first on the next played day. Nothing is read into the silence.

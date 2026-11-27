@@ -232,3 +232,94 @@ m-0005, the keeper's word: given at the gatepost, the carrier's half in the hand
 ## Map
 
 The Flats, where the salt-rakers have their pans, seen: it walked there. Names said aloud in its hearing in the stretch: Corrith, the Horn and Ruddfold again; the Flats; the Alder. No person's name.
+
+# The god's side of the chronicle: Year 3 from the potters' door to its end, and Year 4 to the gate
+
+The DM's working draft, from the Year 5 played day (`player/rolling-save.md`, Year 5, sections 1 and 2; `player/transcript-year-005.md`), the decisions handed off (`player/decisions-005.md`) and the Keeper's release (`releases/005/dm.md`). The year line: the clock read Year 5 and the played day stood at the held moments of Year 3, the seventh month, the fourteenth day, and the eighth month, the first day. The night resolved the Weigher's own thread from the evening of the fourth day of the eighth month of Year 3 to that year's end and on into its Year 4, and stopped at the first held moment, the fourteenth day of the tenth month of Year 4. Nothing of the Weigher or its town past that moment is resolved, and nothing of it is drafted here. Its own Year 5 has not begun. The clock is closed after this night.
+
+## The weighing green, played (Year 5 play day; rolling save, Year 5, section 1)
+
+The seventh month of Year 3, the fourteenth day, at the potters' hall. It asked the master of the potters at her door for leave to weigh each piece of the third nest green and again after the kiln, and for three spares of each size. She took both on her own terms: no hand but hers and her firemen's carries a green piece, one piece at a time to the bench, and it says what a piece is and not what it should be. The Assay-master said the hall pays for clay and charcoal for a proving, on his word. The twenty-two were weighed green in its pans that afternoon, each called and cut by the Tally-keeper on a long stick; the figures are in `player/decisions-005.md`, item 3. At her asking it said yes to holding the green figures unsaid until the kiln was opened, and told the Stallreeve so at the gate on the seventeenth. On the twenty-fifth the thirty-three spares were weighed green the same way, on a second stick (item 7). The kiln was fired on the twenty-sixth and twenty-seventh. On the night of the thirtieth the blue light dimmed, seen from the landing.
+
+## The kiln-opening, played (rolling save, Year 5, section 2)
+
+The eighth month, the first day, the kiln yard. It stood clear and touched nothing. All fifty-five pieces came out whole. Each was weighed again, smallest first, and its fired figure cut beside its green one (item 8). It called only what the pan gave and said nothing of the loss: the stick says it. The master broke the fifth spare of each size, looking first: a close grey body, no stone, no hollow. It said it does not say which clay is better or whether the kiln did well. Both sticks were read through. On the second day, a market, at the gate, it gave the Stallreeve its answer on what is to be cut for the carrier: nothing more of its own, the second stick the ring's to cut or leave, and what it would have the carrier told (item 13). On the fourth day the Assay-master said at the hall door, before the yard, that eleven of the new pieces sit level with the old six and with one another on his beam, and that the ring's day for the town's weight stands.
+
+## The kiln yard's last figures (released at the Year 5 night; told at the Year 6 morning)
+
+It weighed the halves of each broken spare together, then each alone, and said what the pans gave, and how much of each piece is clay and how much is not clay, sand and shell. The Tally-keeper cut what she heard. Whole, the larger half, the smaller half; then what is not clay in the whole and in each half. The one: 12.3, 6.2, 6.1; 0.7, 0.4, 0.3. The two: 24.7, 14.8, 9.9; 1.3, 0.8, 0.5. The three: 36.9, 19.3, 17.6; 2.0, 1.0, 1.0. The four: 49.3, 34.3, 15.0; 2.7, 1.9, 0.8. The six: 73.5, 40.1, 33.4; 4.0, 2.2, 1.8. The seven: 86.2, 52.8, 33.4; 4.7, 2.9, 1.8. The eight: 98.5, 65.8, 32.7; 5.3, 3.5, 1.8. The ten: 122.8, 71.5, 51.3; 6.7, 3.9, 2.8. The twelve: 147.7, 93.6, 54.1; 8.0, 5.1, 2.9. The fourteen: 172.1, 87.8, 84.3; 9.3, 4.7, 4.6. The fifteen: 184.6, 97.8, 86.8; 10.0, 5.3, 4.7. The halves together give what each piece gave whole. What is not clay is sand and shell, spread alike through the body. It is the reading it had at the pits in the second month of Year 2. It said the reading says nothing of which clay is better or of how the kiln did.
+
+## Year 3, spring: the eighth and ninth months, from the evening of the fourth day
+
+- The yard had the Assay-master's word from the hall door. Fifty-five whole was a thing each trade accounted for in its own way.
+- From the fifth day the Tally-keeper kept both sticks on her table and read them aloud to anyone who asked, figure by figure, and nothing more. About forty asked in the month.
+- The night of the sixth day: the blue light dimmed, seen from the landing.
+- The eighth day, a market: a boy at the gate asked whether the star is its own. Met with silence. The line told him to hush.
+- The ninth day: the master of the smiths stood at the Tally-keeper's table, had the fifteens read, nodded once and asked nothing.
+- The eleventh day, a market: a digger of the lower pit asked whether the stick says his clay is good; answered in the player's words. A kiln-master of the east kilns, who said his name at the post, Orrin, asked for the figures of the sixes and the twelves, before the fire and after; it gave them from the Tally-keeper's cuts. He worked the loss out aloud to the line, not to it: a thirteenth off the whole, and not the same thirteenth twice. It read the next scale. Nothing of that was cut. The yard has "a thirteenth" by heart.
+- About the middle of the month the boat people were gone from the channels for some days, as at every lowest tide of spring.
+- The sixteenth day of the ninth month: the ring sat, the door shut. It was not sent for.
+- The seventeenth, at the post, before the yard: the Stallreeve brought what the ring let him bring. The hall's paying for the spares taken as the hall's cost, seven for, three against, one not voting. A motion that the ring itself cut a second stick for the carrier, of the six things it took in the winter, did not carry: five for, five against, one not voting. One reason given: a stick cut on a tied vote is a word the ring is not agreed on. He asked it nothing.
+- The same morning the head of the hill goods asked it, as himself, whether it would cut the six things for the carrier now; answered in the player's words of the second day.
+- The twenty-ninth, a market: the Stallreeve told the ship owner of the open water, before the line and in its hearing, what it would have the carrier told, in its words. The ship owner said that was on his stick and he would say it so, and that the pair of things he would not promise stands as he said it in the first month.
+
+## Year 3, summer: the tenth to the twelfth month
+
+- The third day of the tenth month, a dawn with no market: it read the loads of both coasters at the open-water landing. They went out past the Horn on the tide of the fourth, the carrier with his half of the first stick.
+- No southern coaster came up to the town that summer.
+- The eighth day of the eleventh month, a market: an upriver trader, who said he was of the Aldermark, asked whether one of the hall's old weights is light; answered in the player's words for a captain who asks about the fifth.
+- The twelfth month: the grain came in. The potters' hall fired sets of pieces for the stalls.
+- The nineteenth, evening: the coasters came back up the channel. The twentieth, a market: the ship owner of the open water laid his half-stick on the Tally-keeper's table; she fitted it to hers and said it matches. His account, before the yard, to the Stallreeve and to it: he said the town's word at Corrith, on the quay, to the masters of the houses his coasters deal with, as cut and no more, and put no price on it. One asked what the Weightward is; he said the Weightward of the hall. One asked whether a southern scale may be read against the hall's; he said a scale is read at the gate, like any. He found no hull and no man of the house of the master who stood at this post two summers before: her house has another port, along that coast, where his coasters do not go. So the word was not put to her house by name. The council's people at Corrith did not ask him for it. Nobody gave him an answer, a stick or a token to carry back. It said nothing.
+- The year turned.
+
+## Year 4, autumn: the first to the third month
+
+- The second day of the first month, a market, and the ring's day. Before the yard the Assay-master opened the chest, read the ring's word, and asked it to call the eleven new pieces in its pans so the market has a figure for each. It called them: 12, 24, 36, 48, 72, 84, 96, 120, 144, 168 and 180, each to a hair. The Tally-keeper cut them. From that market the old six are the town's weight and the eleven are what the market weighs by. The hall's ten fired pieces stand on the hall's bench and serve only to reckon bargains made before that day.
+- An old man of the flats asked whether it goes, now the weights are set. It gave its standing answer.
+- The line was twice its length all that month. Most stallholders' pieces read about a twentieth heavy, being copies of the hall's old pieces; a few read level; a pair were worse and were filed down. A pair of bargains made before the day came to the gate and the Stallreeve ruled both by the ten, as made. It read the scales and said nothing of the bargains.
+- About the ninth to the thirteenth the boat people were gone from the channels.
+- The second month: the hill carriers came down. Their scale read level. The old weigher of the hill kin did not come; the head carrier said at the gate that Ruddfold has the ring's decision and that the old man had seen agreeing done and would not come down a third time. The night of the fifteenth: the blue light dimmed. The seventeenth: a boy asked again whether the star is its own. Silence.
+- The third month: rain. The kilns cracked loads as before. The night of the twenty-second: the blue light dimmed.
+
+## Year 4, winter: the fourth to the sixth month
+
+- The night of the ninth day of the fourth month: the blue light dimmed. The twentieth: a pair of netmaker households asked it to stand witness to the lease of a weir. It stood, and said what it saw and heard. No power was used.
+- The fifth month: a hard spell, and fever in the back houses. The eighth, a market: the Stallreeve gave out the tide-reckoner's word. A netmaker, the one who asked in the spring of Year 3, asked again whether it can tell the height of the water as she does; answered in the player's words. The Alder crested on the twelfth at the height she gave. The twenty-third: the woman of the back houses who asked across the ring in Year 2 came to the gate, said who she was and that she had not come since, and asked nothing. It said what the player decided for her: no, it has no power for it, and it is sorry about her child.
+- The sixth month: the ring sat on the fifteenth, the door shut. On the seventeenth the Stallreeve said at the post that it had set no word for the Weigher.
+
+## Year 4, spring and summer: the seventh month to the fourteenth day of the tenth
+
+- The thaw; an ordinary flood.
+- The eighth month: the boat people gone from the twelfth to the sixteenth. The night of the nineteenth: the blue light dimmed. The twentieth: a girl of about six asked, in the boy's words, whether the star is its own. Silence. The boy has been put to a boatwright at the far channels for the season.
+- The ninth month: the second year of the seat came round. The line talked of a year to the term; the Stallreeve said the term is three years and a day. The ring sat on the fifteenth with the door shut. On the seventeenth he said at the post that it had spoken of the term, set no day to speak of it again but its first sitting after the grain, and asked nothing of the Weigher.
+- The twelfth day of the tenth month, evening: a southern coaster came up the channel and tied up at the town's landing. The boatmen knew her: the hull that lay three days at the town in the tenth month of Year 2, with the same master.
+- The thirteenth, a dawn with no market: at the fish landing Bren told it she was in, and that her master had asked the landing who sits in the Weightward's seat now and which is the town's weight, and had told the landing nothing. The Stallreeve said he had a pair of the watch on the gate as always and would put no more. It did not go to her boat. The ship owner of the open water's coasters lay loaded at his landing, waiting on a wind.
+- The fourteenth, a market day, before light: she came up from the landing in the dark and stood at the head of the line.
+
+## Held: the tenth month of Year 4, the fourteenth day, at the gatepost
+
+A market day, first light, the gate not yet open. The line is forming in the yard in the grey. The watch stand at the bar with their spears grounded. It is at the foot of the post with the nest of cups at its hand. The Stallreeve is at the gate and the Tally-keeper at her table. The master of the southern coaster stands at the head of the line, a brass balance in a leather case under her arm, one of her crew a pace behind her. She has said nothing yet in its hearing. This is as far as the Year 6 morning story tells. Nothing is prepared behind it.
+
+## Senses, body, powers
+
+No weight came into the air at any time in the stretch. Body whole; no sleep; nothing taken. Its nights are at the landing by the channel folk's lamp. In the stretch it read no bargain and no person, set no seal and gave no licence. Each scale it tried and found level in the stretch is a true scale for as long as it holds.
+
+## The sky
+
+Year 3 is told to its end. Seen from the landing, the blue light dimmed on six nights of that year: one in the first month, a pair in the fifth, a pair in the seventh and one in the eighth. Year 4, as far as it is told: the nights of the fifteenth of the second month, the twenty-second of the third, the ninth of the fourth and the nineteenth of the eighth. Each time the blue deepened for about an hour, the light stood dim for about an hour in the middle of the night, and then it was as before. Year 4 is not told to its end, and no count is given for it. The boat people left the channels at the lowest tides twice in Year 3, in the second and eighth months, and in the first and eighth months of Year 4 so far.
+
+## Rulings released
+
+For the card, under The True Measure: what it knows of a fired piece, a reading of the ruling of Year 2 and no widening of it; ledger L-0052. The standing words on the height of the water stand as the player gave them, the line on the tide-reckoner's cost included: her cost is common talk at the gate and it has heard it there through four winters. Every choice the DM listed from the played day is kept, and both scenes hold as played.
+
+## Asked and met with silence
+
+Pending, told at the Year 6 morning and to be put first on the next played day: "Is the star yours?", asked five times (a boy at the gate in the first month of Year 3; the same boy of the empty post in the second month; the eighth day of the eighth month of Year 3; the seventeenth day of the second month of Year 4; a girl of about six on the twentieth day of the eighth month of Year 4). Refused by the player's own word and not pending: what would break it.
+
+## Messages
+
+m-0005, the keeper's word: as it now knows from the carrier's own account at the post, said at Corrith on the quay, as cut, in the tenth month of Year 3; not put to the coaster master's house by name; no answer given him. Nothing has come to the Weigher from anyone outside the town.
+
+## Map
+
+Nothing changed. It went nowhere it had not been. Names said aloud in its hearing in the stretch: Orrin, by himself; Aldermark, by a trader of where he came from; Corrith, Ruddfold and the Alder again. No office holder's own name, and no name for the town.
