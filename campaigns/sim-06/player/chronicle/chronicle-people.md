@@ -210,3 +210,47 @@ On the fourteenth of the seventh month, a market day, when the gate was done, th
 ## What the town says it needs
 
 A name for the town, which it has not decided and will. A stone that is the seventh, or word that there is none. The new nest to hold.
+
+# The people's side of the chronicle: Year 3 told again from the fourteenth day of the seventh month, and Year 4 to the fourteenth day of the tenth month
+
+This section carries on from "Year 3 told again, from the fifth day of the first month", which stops at the door of the potters' hall. Where it differs from any section above, this is what happened. It stops on the fourteenth day of the tenth month of Year 4, at the opening of the gate. Held back: anything the Keeper has yet to settle.
+
+## The eighth month of Year 3
+
+The kiln at the potters' hall was opened on the first and all fifty-five pieces came out whole. The Weightward called each fired figure beside its green one, and the master of the potters broke the fifth spare of each size with a mallet and looked first: a close grey body, no stone, no hollow. The halves together gave what the whole gave, and each piece was about a twentieth part sand and shell, as the lumps at the pits were in Year 2. The Weightward said it did not say which clay is better or whether the kiln did well. On the second it told the Stallreeve at the gate that nothing more of its was to be cut for the carrier, and he said that was an answer and he had waited for one. On the fourth the Assay-master said at the hall door that eleven of the new pieces sit level with the old six and with one another, and that the ring's day stands.
+
+On the fifth the Tally-keeper set the two sticks on her table for anyone who could read a notch. About forty asked in the month. On the eleventh Orrin asked the Weightward for the figures of the two sixes and the two twelves and it gave them as cut, and he said to the line that the fire takes a thirteenth off a piece and not the same thirteenth twice. The star dimmed on the night of the sixth and a boy asked the next market whether it is the Weightward's, and got no answer. The boat people were gone from the thirteenth to the seventeenth. Sowing took five weeks.
+
+## The ninth to the twelfth month of Year 3
+
+On the sixteenth of the ninth month the ring sat with the door shut. On the seventeenth the Stallreeve brought its counts to the post: the hall's paying for the clay and charcoal of the spares, seven for, three against, one not voting; and on cutting the second stick for the carrier, five for, five against, one not voting, so that it did not carry, for the reason that a stick cut on a tied vote is a word the ring is not agreed on. The head of the hill goods asked the Weightward at the post whether it would cut the six things now, and it said what it had said on the second of the eighth month. On the twenty-ninth the Stallreeve told the ship owner of the open water what the Weightward would have the carrier told, and the ship owner said it was on his stick.
+
+On the third and fourth of the tenth month the Weightward read the loads of both coasters at his landing and they went out past the Horn with his half of the first stick. No coaster of the south came up in the summer. In the eleventh month boats of the Aldermark came down, and a trader asked the Weightward whether one of the old weights is light. It said it is light by a hair on the Assay-master's beam, because that is what it called, and that the ring did not take it as the town's word.
+
+The coasters came back on the nineteenth of the twelfth month. On the twentieth the ship owner laid his half of the stick on the Tally-keeper's table and it matched, and he said before the yard what he had done at Corrith: said the word as cut, on the quay, to the masters of the houses his coasters deal with, put no price on it, answered what the Weightward is and whether a southern scale may be read against the hall's in the words he was given, found nobody of the master's house, whose port is another town along that coast, did not go to the council's people and was not asked, and was given no answer, stick or token. The Weightward heard it and said nothing. The grain came in. The potters' hall fired sets of pieces for the stalls.
+
+## Year 4: the autumn
+
+On the second of the first month, the first market of the autumn, the ring sat with the door open. The Assay-master opened the chest before the head of salt and the clay head, read the ring's word of a year ago, and asked the Weightward to call the eleven new pieces in its pans: twelve, twenty-four, thirty-six, forty-eight, seventy-two, eighty-four, ninety-six, a hundred and twenty, a hundred and forty-four, a hundred and sixty-eight, a hundred and eighty, each to a hair. The old six are the town's weight from that market and the eleven are what the market weighs by. The hall's ten fired pieces are set in a row on the bench and serve only to reckon bargains made before the day. An old man of the flats asked the Weightward whether it goes now the weights are set, and it said: "Till I've seen the town's weights set right. Past that I don't know." The line was twice its length all day with stallholders' pieces to be read against the eleven. The boat people were gone from the ninth to the thirteenth.
+
+The carriers came down in the second month. The old weigher of the hill kin did not come; the head carrier said he had come twice to see agreeing done and it was done. The star dimmed on the night of the fifteenth and the boy asked the next market. The rain came in the third month, and the star dimmed on the twenty-second. The kilns cracked loads as before.
+
+## The winter
+
+The wet. The star dimmed on the ninth of the fourth month. Two households of netmakers asked the Weightward to stand witness to the lease of a weir, and it stood and said afterward what it saw and heard.
+
+A hard spell in the fifth month. The fever in the back houses, with five stalls and five braziers under the hall's roof. On the eighth the Stallreeve told the line the tide-reckoner's word, and a netmaker asked the Weightward whether it could tell the height of the water as she does. It said no, and said what it costs her, and that it can tell you the Alder is up because it can see it. The Alder crested on the twelfth at the height she gave, a few hours before the hour. On the twenty-third a woman of the back houses came to the gate and said she was the one who had asked in the sixth month of the year before last whether it could cure a fever. It said it has no power for it and that it was sorry about her child.
+
+The ring sat on the fifteenth of the sixth month with the door shut. The Stallreeve said at the post on the seventeenth that it had set no word for the Weightward.
+
+## The spring and the summer
+
+The thaw came down. The tide-reckoner said she did not need her feet for an ordinary flood. In the eighth month the boat people were gone from the twelfth to the sixteenth, and the star dimmed on the night of the nineteenth. A girl asked the Weightward on the twentieth in the boy's words whether the star is its own. The second year of the seat came round in the ninth month. The Stallreeve told the line the term is three years and a day. The ring sat on the fifteenth and set no day to speak of it again but the first sitting after the grain.
+
+In the tenth month the coasters of the ship owner of the open water lay loaded at his landing. On the evening of the twelfth a coaster of the southern harbors came up the channel and tied up, the same hull with the same master as two summers before. Her crew traded on the twelfth and thirteenth. She stayed by her boat and asked the landing who sits in the Weightward's seat now and which is the town's weight. Bren told the Weightward at the fish landing on the thirteenth.
+
+On the fourteenth, a market day, before light, the line formed in the yard. The master of the coaster came up from the landing and stood at the head of it. She had said nothing. The Weightward stood at the foot of the post.
+
+## What the town says it needs
+
+A name for the town, which it has not decided and will. A stone that is the seventh, or word that there is none. To know whether the fire's thirteenth tells which loads will crack. To know what the master of the coaster has come for.

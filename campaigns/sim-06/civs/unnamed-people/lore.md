@@ -268,3 +268,71 @@ The clay is the other thing. The diggers and kiln masters have been quiet this s
 ### What the town does not say
 
 They do not say what the seventh was, since nobody knows. They do not say what the stone at the net-maker's door was before it was a door-stone, since nobody knows. They do not say whose child the Weightward is, because it does not know, and has said so.
+
+## Year 3 told again from the fourteenth day of the seventh month, and Year 4 to the fourteenth day of the tenth month: what they say
+
+Where this section differs from the sections above, this is what they say. It goes no further than the fourteenth day of the tenth month of Year 4.
+
+### The Weightward
+
+They call it the Weightward. The names among themselves have not changed: the channel folk say Bren's weigher less than they did, the salt-rakers the Cupman, the hill folk the coat, and a few of the hill kin the seventh that walked. None of them has been said to it.
+
+What they say of the nest:
+- The potters say it weighed her pieces green and fired and said nothing of the loss, and that this was the most courteous thing a weigher has done in a potters' hall. The master of the potters is said to have called it gentle again, and to have said she would not call the load good.
+- The diggers say fifty-five whole is the proof of their clay and that the Weightward knew it and would not say. The heavy digger of the lower pit says nobody can call his pit the cracker now. They are wrong in this: it said it does not say which clay is better, and it meant that.
+- The kiln masters say a nest handled one piece at a time in the master's own hands is not a load, and some say that handling is the whole of it. They are right that it was handled with care and wrong that care is the cause of anything they have found.
+- The yard says it has both figures for every piece, and that a god of scales who cuts both figures and calls neither is a thing it had not met. It says "the stick says it" of anything that a man will not say aloud himself.
+- The old of the flats say the star dimmed within the week of the kiln and that the two are one. They are wrong in this: the dimming is older than the kiln.
+
+What they say of the fire: that it takes a thirteenth. Orrin said it at the post, to the line and not to the Weightward, from two pairs on the stick, the sixes that went in alike and came out apart and the twelves that went in apart and came out nearer, and every kiln master in the yard had it by the end of the market. They say it takes a thirteenth off a piece and not the same thirteenth twice. The Weightward did not say it. The Tally-keeper cut nothing of it, since it was not called. The master of the potters has said nothing of it in the yard. They do not agree what it means, and nobody has found whether it tells which loads will crack.
+
+What they say of the answers it gave this stretch:
+- Asked the figures of two pairs, it gave them from the stick and no more. The yard has made a joke of it: "from the stick" is said of an answer that goes no further than it was asked.
+- Asked whether it could tell the height of the water, it said no, and said what it costs the tide-reckoner. The netmaker who asked it said he had heard the cost every winter since he was a boy and wanted to hear it said at the post. The line says the Weightward is honest about what it cannot do in the way a good broker is honest about what a bargain will not carry, and cannot decide if that is a thing to like.
+- Asked by an old man of the flats whether, now the weights were set, it went, it said: "Till I've seen the town's weights set right. Past that I don't know." The old man said that is what a man says who has not decided. The yard says it has not decided, and that the term is three years and a day, and counts on its fingers.
+- Asked by the woman of the back houses whether it could cure a fever, it said no and said it was sorry about her child. The back houses say it was the first thing a god of scales has said to them that was not about weight. They do not say it is enough.
+- The line says it runs the cups before it counts and that it was running them before the nest, and goes on running them.
+
+### Their own council and officers
+
+- The Assay-master is said to have set the eleven against the old six before the yard and said the beam agrees, and to have asked the Weightward to call the eleven in its ones so that the market has a figure for each. They say a weight weighed once is a weighing and weighed twice is a keeping, and that he has said it three times and means it more each time. He is said to have sat with the sticks until the lamp was lit.
+- The Stallreeve is said to have told the carrier what the Weightward would have him told and nothing more, and to have given the ring's counts at the post, five and five on the second stick, and the one reason the ring gave, that a stick cut on a tied vote is a word the ring is not agreed on. They say it was the neatest reason the ring has ever given. They say he put a fifth brazier in the hall's roof and said it was the cold.
+- The Tally-keeper is said to have read her sticks to forty people in a month, figure by figure, green beside fired, and not one figure more. She fitted the carrier's half to hers before the yard and said the stick matches, and the yard says now of an honest account that it fits. She is blamed for it.
+- The ring is said to have been five and five on whether to cut the second stick itself, and to have taken the hall's paying for the spares seven to three. It is said to have set the old six for the first market of this autumn, and to have set the ten in a row on the bench, the chipped and the cracked last. It has not called a sitting on the seat, and the yard says that is the ring's way of saying the seat stands.
+- The master of the potters is said to have fired sets for the stalls faster than a kiln should be fired, and to have said at the post only that the other eleven sit on her shelves for anyone who comes.
+- The master of the smiths is said to have stood at the Tally-keeper's table with his arms folded and nodded once at the fifteens, and to have asked nothing.
+- The head of salt is said to have said at the post that a weight is what it is and that on the second of the first month it was the six. They say he said it with no heat, and that this alarmed the salt-rakers more.
+- The head of the hill goods is said to have said nothing and counted, and to have counted the line on the first market of the autumn twice.
+- The ship owner of the open water is said to be a man who carries what is on his stick and gives account of it. They say he laid the half on the table and the stick matched, and that he said what he was sent to do and what he did.
+- The old weigher of the hill kin did not come down the third time. The head carrier said he had come to see agreeing done and it was done. The hill kin say Ruddfold has the ring's decision and the old man has his stones.
+- The tide-reckoner is said to have called the winter water four days ahead again, right in height and a few hours off the hour, and to have lost the feeling in her hands again. She says she does not need her feet for an ordinary flood. They say she has said nothing of the star.
+
+### The word that went south and the south that did not come
+
+They say the ship owner of the open water carried the town's word to Corrith as cut and brought back no answer, stick or token, and that he found none of the master's house at Corrith, whose port is another town along the coast. The channel ship owner says the south is waiting on the Gulf tides. The line says the south has the word now and will say the town keeps two weights until the autumn and then one.
+
+They say a coaster of the southern harbors is in again, the same hull, with the same master, two summers on, and that she asked the landing who sits in the Weightward's seat now and which is the town's weight, and was told, and said nothing. The channel folk say she has come to see whether it is still there. The salt-rakers say she has come to count what the town owes. The boatmen say the hull has a mended strake and nothing else to say for itself.
+
+### The strange things
+
+The blue star dimmed on the night of the sixth of the eighth month of Year 3 and on the nights of the fifteenth of the second month, the twenty-second of the third, the ninth of the fourth and the nineteenth of the eighth of Year 4, each for about an hour in the middle of the night, and then was as before. The old say it is the drowned god turning in its sleep. The young say it comes with the Weightward. The channel folk say it is the Weightward's lamp seen from a long way. The line says it sits at the landing by the lamp through every such night and watches the star and runs the cups, and is used to that. A boy at the gate has asked four times, once of the empty post, and a girl once in his words, whether the star is its own, and it has not answered. He says it is. The line tells him to hush. The boy has gone to a boatwright at the far channels for the season, and the girl was told the same.
+
+The boat people were gone from the channels at the lowest tides of the eighth month of Year 3 and of the first and the eighth months of Year 4, and came back. Nobody followed. The salt-rakers say they went to the Maun Stair to pay the old god's tide. The channel folk say they went to meet kin. The oldest say they went before there was a Weightward, and are right.
+
+The clay is the other thing. The cracking went on in the kilns this stretch as it had before. Orrin keeps a stick of his own, of the green and fired weights of his tiles, and has not said what it shows.
+
+### Sayings that came up in this stretch
+
+- "Fifty-five whole." Said of anything that went through the fire and came out as it went in.
+- "To a hair." Said of the eleven, and now of any two things that agree.
+- "Both figures." Said of a man who keeps the whole of an account and not the half that suits him.
+- "A thirteenth, and not the same twice." Orrin's. Said of any loss that comes off every man and not equally.
+- "From the stick." Said of an answer that goes no further than it was asked.
+- "It fits." Said of an honest account. From the Tally-keeper's laying of the carrier's half beside hers.
+- "A tie does not carry." The Stallreeve's. Said of any quarrel that comes out even.
+- "The ten on the bench." Said of anything kept for the sake of a bargain that was made before it was altered.
+- "Till the weights are set." Said of any man who will not say how long he stays.
+
+### What the town does not say
+
+They do not say what the seventh was, since nobody knows. They do not say why the ring tied on the second stick beyond the one reason it gave. They do not say whether the hall's ten will be kept past the first year, since the ring has not said. They do not say what the master of the coaster has come for, since she has said nothing.

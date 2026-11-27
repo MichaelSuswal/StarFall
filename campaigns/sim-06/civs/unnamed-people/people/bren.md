@@ -13,3 +13,5 @@ Year 2: asked quietly and once at the end of Year 1 by the stranger what her peo
 Year 2 told again and Year 3: at the winter sitting heard it say it is a god and said loud to the yard that she had fed it first and would feed it again, and a god that eats her bream is no worse than a man that does. Does not feed it as a small god and feeds it at her table. Her household asked for a dawn at the fish landing in the sixth month and found it cost more in standing than in fish. Witnessed the ship owner's bargain.
 
 Year 3 again, from the fifth day of the first month, to the fourteenth day of the seventh month: had her own hearth stone carried to the fish landing on the third of the second month, 2,050, by four of her household.
+
+Year 3, from the fourteenth day of the seventh month, to Year 4, the fourteenth day of the tenth month: on the thirteenth of the tenth month of Year 4, at the fish landing, told the Weightward as it read a boat that the southern coaster of two summers ago was in, and what she had asked of the landing.

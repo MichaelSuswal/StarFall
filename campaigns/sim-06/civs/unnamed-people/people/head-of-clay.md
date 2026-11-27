@@ -9,3 +9,5 @@ History: moved the clay head's third motion at the weighing (wait, fire the nest
 Temper: patient, hospitable, slow to say what he thinks and clear when he does. Says a stranger that says what it cannot do is rare.
 
 Year 3: moved that the old six be the town's weight with the others, and would not move to wait again, since the whole south coast had seen the ring wait.
+
+Year 3, from the fourteenth day of the seventh month, to Year 4, the fourteenth day of the tenth month: stood as one of the pair for the chest on the second of the first month of Year 4.
