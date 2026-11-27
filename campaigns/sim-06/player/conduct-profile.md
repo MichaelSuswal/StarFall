@@ -4,7 +4,7 @@ Campaign: sim-06.
 
 ## Now
 
-As of the Year 3 played day, 2026-11-24 (Pacific). It has now told the Assay-master and the Stallreeve what it is, a god, and has said it before the yard at the gatepost. It has taken the Weightward's seat for a term of three years and a day, on the eleven's terms, and struck a bargain to read boats at dawn at any landing that asks (dated entry below).
+As of the Year 4 played day, 2026-11-26 (Pacific): it has given the eleven a keeper's word for the south coast at the gatepost, cut as it said it and mended in the open when the Assay-master corrected it; it lets what the eleven did not name wait on the eleven and does not push. Asked whether it can be killed it says no, and will not say what would break it unless the ring asks in session; asked whether it can cure a fever it says no. It does not carry an answer to someone who did not come for it. Earlier, as of the Year 3 played day, 2026-11-24 (Pacific): It has now told the Assay-master and the Stallreeve what it is, a god, and has said it before the yard at the gatepost. It has taken the Weightward's seat for a term of three years and a day, on the eleven's terms, and struck a bargain to read boats at dawn at any landing that asks (dated entry below).
 
 What it is about: fair measure, and the price of the unfair kind. Not wealth as such. "The moment two people agree on what a thing is worth."
 
@@ -180,4 +180,7 @@ Unsaid wants are kept sealed.
 - Of a search it asks: "I'm not asking anyone to give anything up." Of what it finds: "I say only what it is."
 - Of an answer owed to a man who asked across the ring and got silence: "I'm not going to carry it to him as if I owed him a visit." It says it when he or another next asks at the gate, or when the ring asks in session. The same for the woman of the back houses, if she comes to the gate.
 - Of the word: "I say what I weighed, piece by piece, and no more."
-- One answer was given privately today and is kept sealed.
+- Corrected by the Assay-master before the yard, it mended the line: "The Assay-master is right, and I won't have the word say less than the bench saw."
+- Of what the eleven did not take: "The second stick waits for the ring, as the Stallreeve said, and I'll not push it. If the ring says no to any of it, I'll want to hear which, so that the next word that goes is not the one that is cut short."
+- To a carrier of its word: "Carry it as cut and nothing more." "Do not say more than I did. Do not sell it as a price."
+- Two answers were given privately today and are kept sealed.

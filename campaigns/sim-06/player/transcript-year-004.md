@@ -279,3 +279,49 @@ To the carrier, the ship owner of the open water, I say in the Stallreeve's hear
 The word is as read, with those two mends, and the first stick goes. She may split them.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You mend the line, slowly, and the Tally-keeper pares the old cut away and makes the new one. The eight, each at twelve and a little better than a half in your ones on the first day. The chipped piece at twelve less a hair. The cracked piece at eleven and something under a half. The Assay-master's chin comes down again, as it did at seven hundred and sixty-six. He says nothing.
+
+You take the repeated pair out, and keep the plainer telling with its last line: that what was bargained before then is reckoned by the hall's fired pieces as it was made. She pares that too. You say that the first stick goes now, and that the second waits on the ring and you will not push it, and that if the ring says no to any of it you want to hear which.
+
+"The chipped and the cracked, in your ones, I take," the Stallreeve says. "That is what the eleven named. What they say to the rest I bring to this post, as I bring everything. When, I can't tell you."
+
+"Is that the word?" the Tally-keeper asks again, and reads the first stick back once more as it now stands.
+
+"This is the keeper's word of the hall of this town. It is not a price and not an offer. It says what the hall's pieces are, as read in the Weightward's brass, and what the eleven have said of them. The hall keeps six old weights, three of bronze and three of stone. In the Weightward's ones, where one is the smallest cup of his nest, they read forty-eight, ninety-six and a hundred and ninety-two for the bronze. The stone read three hundred and eighty-four, seven hundred and sixty-six and fifteen hundred and thirty-six, weighed on the hall's beam with the Assay-master's hand on it. The hall's fired pieces are not all alike. Eight of them agree with one another, and I called each at twelve and a little better than a half in my ones on the first day. The chipped piece I called at twelve less a hair, and the cracked piece at eleven and something under a half. The hall's fired pieces are in use this morning, and the eleven have said they stay in use for bargains made before the first market of next autumn. From that market the old six are the town's weight. What was bargained before then is reckoned by the hall's fired pieces as it was made."
+
+It is the word. She splits the first stick down its length with the heel of her knife, and the halves come apart clean. She splits the second the same way. A kept half of each goes into her apron. The other half of the second she gives to the Stallreeve, to carry up. The other half of the first she holds out flat on her palm, for the carrier.
+
+"Heard and cut," the Stallreeve says to the yard. "The word is the town's. It goes with the open-water owner's coasters when they go out past the Horn." The boy at her elbow calls the six figures down the line, one by one, and the channel folk say them after him.
+
+You ask for the carrier, to say a thing to him in the Stallreeve's hearing. The Stallreeve sends a runner along the bank. You go on with the line.
+
+The ship owner of the open water comes into the yard before the mist is quite gone, a spare, weathered man, in no hurry. He looks at the half-stick on the Tally-keeper's palm before he looks at you. "The eleven named me," he says. "Give me a stick I can hold up and a thing I can say in a breath, and I will say it at Corrith."
+
+You tell him who the word is for: the captains of the coasting houses of the southern harbors, and first the master who stood at this post in the tenth month of last year, and through her every house she will tell, her house by name if he knows it, and if not, the master of the first coaster of Corrith's he meets, to be carried to the council in Corrith that keeps the set for quarrels. Then you say your words to him. To carry it as cut and nothing more. If he is asked what the town's weight is, to say what the stick says. If a captain asks what you are, to tell him you are the Weightward of the hall, and that the Weightward answers yes or no about a power of its own, or does not answer. Not to say more than you did. Not to sell it as a price. If a house wants to send a scale to be read against the hall's, to say it may come here, and that you read it at the gate like any.
+
+He hears all of it without moving. Then he takes the half-stick from her palm and turns it over once.
+
+"As cut and nothing more. That I'll do, and gladly, since it is all I meant to do. It is more than a breath, but she has it on one stick, and I can hold it up. Asked what the town's weight is, I say what is cut here. It says it is no price, and I'll not make it one." He taps the cut face with a thumb. "What I say, I say at Corrith, to the houses my coasters trade with, and to the council's people there if they ask me. That is where your master will hear it, if she is to hear it from me.
+
+"The other pair of things I'll not promise. 'Weightward' is cut on this, so I can say Weightward. What the Weightward answers about itself is not cut on it, and I carry what I can hold up. And a southern scale read at the hall is on the stick that went up to the eleven, not on mine. I'll not answer for the eleven in the south before they have answered here. If they say yes, cut it, and I'll carry that too."
+
+He puts the half-stick inside his coat, nods to the Stallreeve, and goes back along the bank.
+
+The Assay-master has gone into the hall. The Tally-keeper is cutting a notch for the next scale. The half-stick of the ring's asking is still in your hand, with the line in front of you, and the day is turning warm. No weight is in the air.
+
+(oog) The close.
+
+The held moment is played, and it holds. What happened at the post on the fifth day of the first month of Year 3: you read the fish seller's balance and called it out. You took up the half-stick, which is your yes to the eleven's asking. You gave the word. The Stallreeve took the first stick for the eleven and it is the town's word, split, with the carrier's half in the hands of the ship owner of the open water. It goes when his coasters go out past the Horn, and what becomes of it after that is the world's. It is in your chronicle's messages as m-0005, in your words as cut, with who you sent it to and what you told the carrier. The second stick is with the Stallreeve for the eleven: the fifth being light and the hall saying so, the seventh seat and the looking, the four pieces against the bronze and the sum, the chipped and the cracked piece against the eight, that you have not weighed the ten against the six since, any captain's scale at the hall, and that the hall keeps no weight anyone may not see weighed, with your asking on the order. Nobody has said yes or no to any of it.
+
+The carrier took three of your instructions and would not promise a pair of them: what the Weightward answers about itself, and a southern scale read at the hall. I have written both his yes and his no as he gave them.
+
+One thing I could not settle and did not roll. Whether the ship owner knows the coaster master's house by name is not a fact I have, and a roll for it wants its odds put to you first, which the hour does not leave room for. He answered only where he will say the word, at Corrith. The question goes to the Keeper with your address as you gave it.
+
+For the rest of Year 3, to the night as you gave it. The gate on market mornings and the boats on the other dawns, as before. The nest fired to the old six in spring: you mean to weigh each piece green at the potters' hall beforehand, before the Assay-master and the Tally-keeper, and again fired and cooled at the kiln-opening before the same three, with the figure cut each time, and to ask the master of the potters for three spare pieces of each size, on a day set aside with the watch keeping the gate. Those are scenes you prepared, and the night holds them at their opening for you to play. The search for the seventh by what it weighs, on your landing dawns, on your terms. The day at the salt pans at the lowest tide, with the Stallreeve's leave asked, the watch keeping the line, nobody read and no notch cut, and "what would break you" left unanswered when you go and when you come back, unless the ring asks in session. Your answers to the master of the smiths and to the woman of the back houses, given when either next asks at the gate, or in session, and not carried to them. The Reading's ruling let stand, with the rest of it said if you are asked further.
+
+Under the build this world now runs on, the morning tells the rest of Year 3 from this post only as far as the next moment that is held for you, and stops there.
+
+The world turns at 1:30am Pacific.

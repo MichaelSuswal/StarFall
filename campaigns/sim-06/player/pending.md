@@ -1,3 +1,13 @@
+# Pending questions: Year 4, at the close of the play day
+
+No question asked of the god is open and unanswered by the player. The held moment (the ring's yes and its asking for the words) is played: the word was given, the first stick is the town's word and is with its carrier (`messages/m-0005.md`). The master of the smiths' "Can you be killed? What would it take to break you?" and the woman of the back houses' "Can you cure a fever?" are answered by the player; each answer is given when the asker, or another, next asks at the gate, or in session, and is not carried to them (`decisions-004.md`). "What would break you" is refused unless the ring asks in session.
+
+Asked by the Weigher and waiting on the world: the eleven, on each addition on the second stick and on the order; the master of the potters (each piece green, three spares of each size); the Stallreeve (a day for the potters' nest with the watch keeping the gate; a day at the salt pans at the lowest tide); the ship owners and captains (large stones brought to the landing's beam).
+
+Prepared by the player and held for live play: the weighing green at the potters' hall and the weighing at the kiln-opening.
+
+Silences 3 and 4 of the morning's list lie past the played moment and are the night's to work again.
+
 # Pending questions: Year 4, during the play day
 
 Kept current by the DM, 2026-11-26 (Pacific), under build 7. Status lines are added as each is put and answered.

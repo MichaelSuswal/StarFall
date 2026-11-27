@@ -7,3 +7,5 @@ A man of about 55, weathered, spare of speech, who keeps two coasters that go ou
 History: asked, through his landing man, in the fifth month of Year 2 for a dawn when his coasters were in, and had it on the terms the channel ship owner took. At the winter sitting asked for it again plainly. At the first sitting after the grain in Year 3 did not vote on the old six. The ring has named him to carry a keeper's word down the coast when his coasters go out, if the Weightward gives the words (held).
 
 Temper: patient, dry, a man of the water. Says a thing that does not sleep is a good pilot.
+
+Year 3, the first month, the fifth day, as the Weightward saw (filed by the DM on the Year 4 played day): sent for by the Stallreeve's runner, he came to the yard, took the carrier's half of the stick with the keeper's word cut on it, and said he will say it as cut at Corrith, to the houses his coasters trade with and to the council's people there if they ask. He would not promise to say what the Weightward answers about itself, or that a southern scale may be read at the hall before the eleven have answered.
