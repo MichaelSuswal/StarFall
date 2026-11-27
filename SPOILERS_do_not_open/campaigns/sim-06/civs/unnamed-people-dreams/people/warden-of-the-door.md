@@ -13,3 +13,5 @@ Year 2 (end): about seventy-one winters. Gave the guest's answer from the wall i
 Year 3 (end): about seventy-two winters. Alive, at his lamp, counsels his successor. Not asked for this year beyond his house.
 
 Year 4 (end): about seventy-three winters. Alive, at his lamp, counsels his successor. Said that he told the guest the evening the four came home, two autumns gone, and had not told her otherwise. Said in month 7 that he had told the successor three years ago she was the one.
+
+Year 5 (end): about seventy-four winters. Alive, at his lamp, counsels his successor. Said in month 12 that a place held is a place kept, and that his had been held fifty years for one who came.
