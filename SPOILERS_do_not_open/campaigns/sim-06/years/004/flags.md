@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 4
 
-Rounds 1 and 2. Status now: raised 8, resolved 6, open 2. By severity, as raised: major 0, moderate 3, minor 5. Open: flag 7 (minor, the DM's at step 6) and flag 8 (moderate, the Keeper's, raised in round 2).
+Rounds 1 to 3. Status now: raised 9, resolved 7, open 2. By severity, as raised: major 0, moderate 3, minor 6. Open: flag 7 (minor, the DM's at step 6) and flag 9 (minor, the Keeper's, raised in round 3).
 
 ## Round 1
 
@@ -135,3 +135,41 @@ Recheck by the continuity checker, 2026-11-26, written at 21:15 Pacific, against
 
 - The Keeper's three new rulings (build 6 matter moved to a sealed set-aside file and marked; a board's chance range for the player's people rolled by the Keeper with the factor and given as a fact; a roll whose factor proved unsupported stands, with the fact it assumed set conservatively) are read and accepted. Each agrees with the flag it answers and with `sealed-factors.md`.
 - The open questions of round 1 stand for Michael: whether set-aside drafts stay in the public folder; the two lines of `year-turn.md` on boarding (L-0051); the near stone and the factor (r-0392); the Year 3 public line on the sealed act; the `dim-nights` label allow.
+
+## Round 3
+
+Recheck by the continuity checker, 2026-11-26, written at 21:18 Pacific, against commit 0cb2e31 ("sim-06 Year 4 night: the checker's round 2, flag 8 fixed and the earlier build's public Year 3 lines set aside"). Pulled first; already up to date. Read: the diff 755068e to 0cb2e31 in full, the additions to `S/releases/003/dm-set-aside.md`, the keeper log's round 2 section, `P/civs/unnamed-people/people/tally-keeper.md`, and the Year 3 flags on the Tally-keeper's answer. Searched every public file under `campaigns/sim-06/` again for the older telling of the firing and of the pending asks.
+
+### Scripts
+
+- `tools/check.py sim-06 4 --step 7`: the same 2 findings (step 6) and the same note. Not flags now.
+- `tools/lockcheck.py sim-06 --leaks --dashes`: leaks 0 failures, 1 warning (standing); dashes 0.
+- `tools/lockcheck.py sim-06 --all`: 0 failures; the same 60 place warnings, release warning and roll note.
+
+### Rechecked
+
+- **Flag 8: resolved.** `P/releases/003/civ-unnamed-people.md` has a set-aside head line; line 6 is moved whole to the sealed set-aside file with a marker; line 7 keeps only the part before the played moment (the two asks of the Year 2 winter sitting, met with no answer then). The further places the Keeper found are moved or marked: nine in the later sections of `P/releases/003/dm.md`, each with a marker (the last "to a hair" hit there, line 214, is the second nest of Year 2, before the moment); the world section of `P/releases/003/civ-unnamed-people-pass1.md`, with a head line; and set-aside lines in `state.md`, `lore.md` (at its close-of-year Year 3 heading) and `chronicle-people.md` (at its Year 3 section). Nothing deleted. The search finds the firing's outcome in no public file except `chronicle-god.md` (the DM's, step 6) and the verbatim transcripts.
+- **Flag 7: open,** the DM's at step 6.
+
+### Raised in round 3
+
+**Flag 9 (minor). A people file says that an asking was made behind the shut door, and that it was answered.**
+- Rule: `year-turn.md` section 3.3 and DESIGN 12.2 (the public files never say that a sealed question was asked or that a sealed thing was told); checker item 6b.
+- Where: `P/civs/unnamed-people/people/tally-keeper.md` line 15, the "Year 2 told again and Year 3" entry: "Asked plainly at the shut sitting whether she held anything of the seventh weight, answered plainly."
+- What the record says instead: the Year 3 check (its flag 1, rounds 1 and 2) had this same asking and answer taken out of `years/003.md`, `years/003-report.md` and `people/head-of-reed-and-fish.md`, and recorded that no public file held the Tally-keeper's answer. This people file was missed in that search, by the Year 3 checker as well. The line lies before the played moment (the winter sitting of Year 2), so it is not a build 7 point 2 matter. The god heard none of it.
+- Fix (Keeper, correct the record): reword the sentence to what came out of the sitting in the open, or take it out and keep it whole in the people's sealed folder, as the Year 3 fix did for the other three files.
+
+### Build 7 points, round 3
+
+1. Played moment accepted whole: held.
+2. The thread stops at the next held moment, and no public file tells past it: held for every file but `chronicle-god.md`, which is the DM's at step 6. The people's two set-aside drafts are marked and with Michael.
+3. Both boards in `dm-sealed.md`, and `dm.md` limited to what the god knows: held.
+4. No DM result changed: held.
+5. Search, day away, pending asks, habit and sealed act: held, apart from flag 7 (step 6).
+6. Phenomena months and counts by month: held.
+7. No hint of growth before year 70: held.
+
+### Rulings for review, round 3
+
+- The Keeper's marker form ("A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.") is accepted. It says only that something was set aside, not what, and it names no sealed note.
+- The open questions of round 1 stand for Michael.
