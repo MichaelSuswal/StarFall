@@ -5,6 +5,9 @@ Kept current by the DM, 2026-11-26 (Pacific), under build 7. Status lines are ad
 ## Status, Year 5 play day
 
 - Post 1: the closing and the morning are posted. The held moment at the door of the potters' hall is laid out as its board; waiting on the player. The three asks that met silence (the boy, the Stallreeve, the netmaker) were named in the morning's (oog) and are still to be put, each in its turn.
+- Post 2: the weighing green is played as far as the last piece. Open, asked of the god by the master of the potters at her door: that the green figures stay on the Tally-keeper's stick until the kiln is opened, and are cried neither at the gate nor at the landing. Put to the player.
+- Post 2: the netmaker's "Can you tell the height of the water as the tide-reckoner does?" put to the player in (oog). Waiting.
+- Still to be put: the boy's "Is the star yours?" and the Stallreeve's question of what is to be cut for the carrier now.
 
 # Pending questions: Year 5, at the morning
 

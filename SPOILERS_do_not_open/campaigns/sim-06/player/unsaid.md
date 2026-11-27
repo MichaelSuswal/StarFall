@@ -42,6 +42,8 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
 
 - 2026-11-24, Year 3 played day (a sealed part of the third reply, on walking to the Stallreeve; a decision, a want and a fear in one reply, kept whole): "I decided in the hall that if the Stallreeve asks about the Reading outright, I will say it. I do not want to be a god who is found out. I also know I am about to learn who in this town means what they say, because the first person to hear it will be the Stallreeve, and I will be standing next to him when he decides what to do with me. I can feel how much I want to read him, and I will not do it, and I am more afraid of that wanting than of anything the ring can do."
 
+- 2026-11-26, Year 5 played day (a sealed part of the first reply, at the door of the potters' hall; a noticing and a fear in one reply, kept whole): "I did not ask the master of the potters for the seventh's weight, and I did not ask whether she had fired anything near three thousand and seventy-two. The old net-maker's stone read sixty-one short, and I keep coming back to that number. I am more afraid that it is nothing than that it is something."
+
 ## Request not to be told
 
 None given. (The DM read "I do not want to find the house again" as the god's want, not as the player asking not to be told; filed under Want. Flagged for the Keeper to weigh.)
@@ -102,3 +104,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-26, Year 4 played day: one sealed part so far, filed under Habit. It is a habit and not a want, so it needs no confirmation. No sealed want was put to the player and none was acted on. The check of the empty pocket (Year 3, the sixth part) has not been stated in the open today.
 - 2026-11-26, Year 4 played day, at the close: two sealed parts were taken today, one under Habit and one under Other (a noticing about itself; no want, no act, no request). Neither was put to the player and neither was acted on; the habit is conduct and is in the open profile. No sealed want was confirmed today; every Confirmations line still reads none. The check of the empty pocket (Year 3) was not stated in the open today and was not played.
 - 2026-11-26, Year 5 played day: the result of the check of the empty pocket was told to the player privately with the first post and recorded above under Act. No sealed want was put to the player and none was acted on.
+- 2026-11-26, Year 5 played day: one sealed part so far, filed whole under Fear. It states no act and no request. Not put to the player and not acted on: nobody at the potters' hall was made to speak of the seventh, and the door-stone was not raised.

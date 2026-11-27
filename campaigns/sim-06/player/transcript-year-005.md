@@ -95,3 +95,65 @@ I turn to the Assay-master and ask him, quietly, whether he would rather weigh f
 If she lets us in, I begin with the smallest piece on the first board, and I keep my hands at my belt until I am asked to take hold of anything.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+She hears all of it without moving, and looks at your hands at your belt while you say it.
+
+"You asked me nothing at the gate," she says. "I said at the post that my nest was drying, and you were there, and that is all that passed. There are no spares. There are twenty-two, a pair of each size, as the eleven ordered, to choose eleven. So you are asking me now. I will take it as asked now."
+
+She wipes one hand down her apron and does not get much of the clay off.
+
+"The weighing, yes. I asked you to weigh my first nest before you had a seat to weigh it from, and I have fired two since that did not serve. I'll not pretend I do not want that number. But a green piece chips at a touch, and a chip is weight. No hand carries one but mine and my firemen's. I bring each to the bench, one at a time, and it goes back to its board before the next one comes. And you say what it is. The old six say what it should be. I'll not have a figure of yours called the weight my pieces ought to come to."
+
+"The spares." She looks past you at the Assay-master. "The eleven ordered eleven. Thirty-three more is half as much clay and work again, and charcoal."
+
+The Assay-master has come up level with you, hands behind him. "The hall pays for clay and charcoal for a proving. On my word, as keeper of the bench. I will tell the ring after."
+
+"Then three of each size," she says. "I shape them tomorrow and the day after. They dry on the kiln's floor, where it is warm, and they are dry on the twenty-fifth. You weigh them green that day, here, the same way, before I stack. All of it goes in the one kiln and the one fire, spares among the rest. I do not fire weights in a pair of kilns, and I do not fire them twice. Pieces fired together shrink together. I fire the twenty-sixth and the twenty-seventh, it cools three days, and I open it on the morning of the first of next month. I had meant to open on the twenty-second. Clay dries when it dries."
+
+"A spare of each size broken, yes, if you ask it on the day. Green or fired. I look at the break first, and I keep what is left. None of the twenty-two is broken for anyone."
+
+Behind you the Tally-keeper says, to nobody in particular, that neither the twenty-fifth nor the first is a market day.
+
+You ask the Assay-master your question, quietly. He does not lower his voice to answer. "My beam is in the hall, and a green piece does not walk up to it. Green first. Then the fire. Then my beam. You call them. What I want to see twice I will see on hers." He nods at the beam with the brass pans.
+
+The master of the potters steps back out of the doorway. "One thing before the first goes in your pan, Weightward. Two nests of mine have been read out wrong before the yard. These figures stay on her stick until the kiln is opened. They are not cried at the gate, and not at the landing. After the beam has said what the nest is, cry what you like." She does not wait at the door for an answer. She goes to the first board.
+
+The hall is cool and smells of wet clay and reed. The pieces stand on a pair of boards along the north wall, a pair of each size, pale, with no mark on them. An older nest sits on a shelf above. The Tally-keeper sits down on the bench under the window with the long stick across her knees and her knife out. "Size, and which of the pair. Then the figure." She asks the master whether she may scratch the foot of each piece with the knife point, so that a figure stays with its piece after the fire. The master says yes, lightly, and that she holds the piece while it is done. One scratch for the first of a pair, a pair of scratches for the second, and the size beside it.
+
+You unhook the scales and hold them over the bench. She brings the smallest and sets it in your pan herself. The pans take every piece, the largest too. The largest sits no worse than the old hill weigher's third stone did.
+
+She names the size as she sets each down, by the count the market uses. You call what the pan gives, in your ones and tenths of a one, and the Tally-keeper cuts it and leaves a run of clean wood beside each cut.
+
+- The one: first 13.3, second 13.3.
+- The two: first 26.6, second 26.8.
+- The three: first 40.0, second 39.8.
+- The four: first 53.0, second 53.2.
+- The six: first 80.0, second 80.0.
+- The seven: first 93.6, second 92.8.
+- The eight: first 107.0, second 106.9.
+- The ten: first 133.4, second 133.3.
+- The twelve: first 159.0, second 160.6.
+- The fourteen: first 186.6, second 186.6.
+- The fifteen: first 199.4, second 198.9.
+
+The pans give you no stone in any of them, and no hollow.
+
+The Assay-master asks to see a pair of pairs again on her beam, the seven and the twelve, the first of each against the second. She sets them in the brass pans herself. Of the sevens the first sinks, a little. Of the twelves the second sinks, plainly. He says, "The beam agrees," and nothing about the figures.
+
+The master of the potters has said each figure over under her breath as it was called, and nothing aloud. When the last piece is back on its board she stands looking at the row.
+
+The light in the window has gone long and yellow. The Tally-keeper reads the stick back, all twenty-two, and it is as you called it. She keeps the stick. Nobody has asked you for a pinch. The master of the potters is at the door again, and this time she is waiting on you: her asking about the figures has not been answered. No weight is in the air.
+
+(oog) Two things from the record, and one from me.
+
+You said to her that you had asked for the spares when you spoke at the gate. By the record you had not: none of your askings had been put to anyone before this door, and I told you so on the board. I did not reword your line. She answered it as it was said, and took the asking as made now.
+
+You said the largest pieces would be too heavy for your pans. They are not: the old weigher's 193 sat in them in the second month, and these did too. So you called all twenty-two yourself, and the Assay-master's check on her beam was pair against pair.
+
+I took "I take what she gives" as far as going in and weighing on her terms for the handling. Her asking that the green figures stay on the stick until the kiln is opened is a new ask of you, and it sits against your own line that if the yard asks you after, you answer what is true. So that one is yours: what do you say to her, and what do you say to someone at the gate or the landing who asks for a green figure before the first of next month?
+
+By the count she gave, the spares are weighed green on the twenty-fifth and the kiln is opened on the first, and neither is a market day, so the gate does not need the watch for either unless you want to ask the Stallreeve anyway. On a day with no market your dawn is at whichever landing has asked.
+
+And one that has waited since the second day of this month, while we are in a quiet place. The netmaker at the gate asked, "Can you tell the height of the water as the tide-reckoner does?" The Alder is still up. If he or another asks it again, what do you say?
