@@ -7,7 +7,11 @@ Kept current by the DM, 2026-11-26 (Pacific), under build 7. Status lines are ad
 - Post 1: the closing and the morning are posted. The held moment at the door of the potters' hall is laid out as its board; waiting on the player. The three asks that met silence (the boy, the Stallreeve, the netmaker) were named in the morning's (oog) and are still to be put, each in its turn.
 - Post 2: the weighing green is played as far as the last piece. Open, asked of the god by the master of the potters at her door: that the green figures stay on the Tally-keeper's stick until the kiln is opened, and are cried neither at the gate nor at the landing. Put to the player.
 - Post 2: the netmaker's "Can you tell the height of the water as the tide-reckoner does?" put to the player in (oog). Waiting.
-- Still to be put: the boy's "Is the star yours?" and the Stallreeve's question of what is to be cut for the carrier now.
+- Post 3: the master of the potters' ask on the green figures is answered by the player (yes, with standing words for anyone who asks). Closed.
+- Post 3: the netmaker's question is answered by the player as standing words ("No. ... I have no such thing."), given when he or another next asks. Closed as a pending ask; the answer waits on the asking.
+- Post 3: the Stallreeve's question of what is to be cut for the carrier now, put to the player in (oog) at the market of the seventeenth. Waiting.
+- Post 3: the second held moment, the kiln-opening on the first day of the eighth month, is laid out as its board; waiting on the player.
+- Still to be put: the boy's "Is the star yours?"
 
 # Pending questions: Year 5, at the morning
 

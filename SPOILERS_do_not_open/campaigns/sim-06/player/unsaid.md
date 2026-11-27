@@ -70,6 +70,8 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 
 - 2026-11-26, Year 4 played day (a sealed part of the third reply, after mending the word at the gatepost): "I notice I am more careful with the word that goes down the coast than with anything I have said at this post, because it is the first thing I have said that I will not be standing next to. I would rather be corrected by the Assay-master in front of the yard than have a captain find a hair of error at a quay I will never see."
 
+- 2026-11-26, Year 5 played day (a sealed part of the second reply, after agreeing to hold the green figures): "I did not mention that the twelve's second piece was a full one and six tenths over its first, and that the fire would show whether that was water or grit. I held it back out of her request, and also because I wanted to be the one to say it on the first. I'm uneasy that I wanted that."
+
 ## Habit
 
 - 2026-11-26, Year 4 played day (a sealed part of the first reply, at the gatepost): "Whenever I sit at the landing at night, I run my thumbnail down the nest cups in order, smallest first, before I count the day's readings."
@@ -105,3 +107,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-26, Year 4 played day, at the close: two sealed parts were taken today, one under Habit and one under Other (a noticing about itself; no want, no act, no request). Neither was put to the player and neither was acted on; the habit is conduct and is in the open profile. No sealed want was confirmed today; every Confirmations line still reads none. The check of the empty pocket (Year 3) was not stated in the open today and was not played.
 - 2026-11-26, Year 5 played day: the result of the check of the empty pocket was told to the player privately with the first post and recorded above under Act. No sealed want was put to the player and none was acted on.
 - 2026-11-26, Year 5 played day: one sealed part so far, filed whole under Fear. It states no act and no request. Not put to the player and not acted on: nobody at the potters' hall was made to speak of the seventh, and the door-stone was not raised.
+- 2026-11-26, Year 5 played day: the second sealed part is filed whole under Other (a noticing about itself, with a belief about what the fire will show; no act, no request). Not put to the player and not acted on. The belief is not corrected and nobody in the scene speaks to it.

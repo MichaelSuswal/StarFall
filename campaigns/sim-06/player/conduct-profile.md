@@ -4,7 +4,7 @@ Campaign: sim-06.
 
 ## Now
 
-As of the Year 4 played day, 2026-11-26 (Pacific): it has given the eleven a keeper's word for the south coast at the gatepost, cut as it said it and mended in the open when the Assay-master corrected it; it lets what the eleven did not name wait on the eleven and does not push. Asked whether it can be killed it says no, and will not say what would break it unless the ring asks in session; asked whether it can cure a fever it says no. It does not carry an answer to someone who did not come for it. Earlier, as of the Year 3 played day, 2026-11-24 (Pacific): It has now told the Assay-master and the Stallreeve what it is, a god, and has said it before the yard at the gatepost. It has taken the Weightward's seat for a term of three years and a day, on the eleven's terms, and struck a bargain to read boats at dawn at any landing that asks (dated entry below).
+As of the Year 5 played day, 2026-11-26 (Pacific): it has weighed the potters' third nest green at her hall, on her terms for the handling, and holds the green figures unsaid at her asking until the kiln is opened; asked for one before then it says they are on the stick and sends the asker to her. Asked about the height of the water it says no, it has no such thing. As of the Year 4 played day, 2026-11-26 (Pacific): it has given the eleven a keeper's word for the south coast at the gatepost, cut as it said it and mended in the open when the Assay-master corrected it; it lets what the eleven did not name wait on the eleven and does not push. Asked whether it can be killed it says no, and will not say what would break it unless the ring asks in session; asked whether it can cure a fever it says no. It does not carry an answer to someone who did not come for it. Earlier, as of the Year 3 played day, 2026-11-24 (Pacific): It has now told the Assay-master and the Stallreeve what it is, a god, and has said it before the yard at the gatepost. It has taken the Weightward's seat for a term of three years and a day, on the eleven's terms, and struck a bargain to read boats at dawn at any landing that asks (dated entry below).
 
 What it is about: fair measure, and the price of the unfair kind. Not wealth as such. "The moment two people agree on what a thing is worth."
 
@@ -184,3 +184,12 @@ Unsaid wants are kept sealed.
 - Of what the eleven did not take: "The second stick waits for the ring, as the Stallreeve said, and I'll not push it. If the ring says no to any of it, I'll want to hear which, so that the next word that goes is not the one that is cut short."
 - To a carrier of its word: "Carry it as cut and nothing more." "Do not say more than I did. Do not sell it as a price."
 - Two answers were given privately today and are kept sealed.
+
+### 2026-11-26, Year 5 played day
+
+- At the potters' door it stopped a pace short, "so I'm not standing in her light", and asked leave before it went in: "I don't walk in until she moves, or says to." It kept its hands at its belt and touched no piece.
+- Of her work: "I don't want to find your work wrong. I want to be able to say what it is. If a piece is off, I'll say which pan and how far, and I'll say it to you first."
+- Asked to keep the green figures on the stick until the kiln is opened, it said yes: "You asked it plainly, and it costs me nothing." Standing words for anyone who asks before then: "The master of the potters asked that the figures stay on the stick until the kiln is opened, and I've said yes. After the first you can have them from the Tally-keeper, as called." Said flat, the same to everyone. To the Stallreeve or the ring it says the figure is on the stick and not its to cry, and asks that it be put to her first. "I won't say a false figure, and I won't say a true one that you've asked me to hold."
+- It asked that the stick not sit alone, and told the Stallreeve what it had promised, "so no one has to wonder why I won't say them."
+- Asked whether it can tell the height of the water as the tide-reckoner does (standing words): "No. The tide-reckoner tells the height of a flood days ahead, by what she feels, and it costs her the feeling in her hands for a season. I have no such thing. I can weigh what you bring to the pan. I can tell you the Alder is up, because I can see it, and that's all."
+- Of a broken piece: "I'll say only what is in the pans."
