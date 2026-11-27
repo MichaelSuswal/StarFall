@@ -11,3 +11,5 @@ Year 1: met the guest at the gate, gave her the custom's words, took her for the
 Year 2 (end): about seventy-one winters. Gave the guest's answer from the wall in month 1 and took her to the scar and the yard of the watch. Taught the salt party's leader the words, three evenings. In month 3, a few days before the first frost, named his successor, a woman of about forty winters of a storytelling household of the lower town; she carries the guest's asks from the first frost, and the seat named the office hers at the winter's first dusk. He keeps his house and his lamp and counsels. Kept his bed three weeks in month 5 with a chest fever, in a kept house, and lived.
 
 Year 3 (end): about seventy-two winters. Alive, at his lamp, counsels his successor. Not asked for this year beyond his house.
+
+Year 4 (end): about seventy-three winters. Alive, at his lamp, counsels his successor. Said that he told the guest the evening the four came home, two autumns gone, and had not told her otherwise. Said in month 7 that he had told the successor three years ago she was the one.
