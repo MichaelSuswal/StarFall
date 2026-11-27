@@ -259,3 +259,23 @@ Three. The Stallreeve's question. Does the first stick go as it is, with the sec
 If your answer to all of it is that the word stands as read back and the first stick goes, say so, and she splits them. On that the word becomes a message in your chronicle, carried by the ship owner of the open water. I need one thing more for it: who the word is sent to, in your words. And if you want to put anything to the carrier himself, he is in the town.
 
 Your answer on the master of the smiths is recorded as you gave it, and the woman of the back houses with it. Your preparations, the search and the day away stand as given, for the night.
+
+## Player:
+
+**One. Mend it.** The Assay-master is right, and I won't have the word say less than the bench saw. I give the line as my own calls, and I drop "about twelve and a half," which was the Tally-keeper's cut and not mine.
+
+"The hall's fired pieces are not all alike. Eight of them agree with one another, and I called each at twelve and a little better than a half in my ones on the first day. The chipped piece I called at twelve less a hair, and the cracked piece at eleven and something under a half."
+
+That belongs on the first stick, since it is my own reading and not the town's sum.
+
+**Two.** The eleven's decision is said twice, and one of them goes. I keep the first, the plainer one: "The hall's fired pieces are in use this morning, and the eleven have said they stay in use for bargains made before the first market of next autumn. From that market the old six are the town's weight. What was bargained before then is reckoned by the hall's fired pieces as it was made." The repeated pair, "The eleven have named the old six the town's weight, from the first market of the next autumn," comes out, because it says nothing the first does not.
+
+**Three. The first stick goes now,** as the Stallreeve offers. The eleven's own decision and the six figures are the town's word and the keeper's reading, and a captain going past the Horn wants those more than the rest. The second stick waits for the ring, as the Stallreeve said, and I'll not push it. If the ring says no to any of it, I'll want to hear which, so that the next word that goes is not the one that is cut short.
+
+**Four. To whom.** The word is sent to the captains of the coasting houses of the southern harbors, in the coaster master's own words: to the master who stood at this post in the tenth month of last year, and through her to every house she will tell. I put it to her house by name if the open-water owner knows it. If he does not, it goes to the master of whatever coaster of Corrith's he meets first, to be carried to the council of Corrith that keeps the set for quarrels.
+
+To the carrier, the ship owner of the open water, I say in the Stallreeve's hearing: "Carry it as cut and nothing more, and if you are asked what the town's weight is, say what the stick says. If a captain asks what I am, tell him I am the Weightward of the hall and that the Weightward answers yes or no about a power of its own, or does not answer. Do not say more than I did. Do not sell it as a price. If a house wants to send a scale to be read against the hall's, say it may come here, and that I read it at the gate like any."
+
+The word is as read, with those two mends, and the first stick goes. She may split them.
+
+(One more answer was given privately, for the sealed record.)
