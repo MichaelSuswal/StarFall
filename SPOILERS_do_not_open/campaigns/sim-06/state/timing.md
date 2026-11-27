@@ -87,3 +87,5 @@ Closed 2026-11-24 15:50.
 - 2026-11-26 21:14 step 7: the checker's round 1 read, seven flags; flags 1 to 6 fixed; ready for recheck.
 - 2026-11-26 21:17 step 7: the checker's round 2 read; flag 8 fixed and the public files searched; ready for round 3.
 - 2026-11-26 21:18 step 7: round 3 read; flag 9 fixed; handed to the DM for step 6.
+- 2026-11-26 clock advanced: year 5 open
+- 2026-11-26 21:33 the Year 4 night turn closed. Models: keeper fable, npc-god sonnet, civ sonnet, checker opus, dm fable. Token usage not known to the Keeper. The checker passed the year in its fourth round: 9 raised, 9 resolved.

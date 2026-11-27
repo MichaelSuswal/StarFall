@@ -1538,3 +1538,23 @@ Check: 0 finding(s), 1 note(s). Scan: leaks: 0 failure(s), 1 warning(s) dashes: 
 ### 7. The check, round 3: flag 9
 The checker's round 3 (at 19544d7) held flag 8 as resolved and the search clean, and raised flag 9, minor: the line in the Tally-keeper's public people file that the Keeper had pointed to. Fixed: the sentence is taken out of `P/civs/unnamed-people/people/tally-keeper.md` and kept whole in the people's sealed folder, `S/civs/unnamed-people/people/tally-keeper.md`. Nothing came out of that asking in the open, so nothing stands in its place. Flag 7 is the DM's at step 6. Scripts rerun: results on the line below. Stamped 2026-11-26 21:18. Handed to the DM for step 6.
 Check: 0 finding(s), 1 note(s). Scan: leaks: 0 failure(s), 1 warning(s) dashes: 0 failure(s), 0 warning(s) 
+
+### 6. The morning story
+The DM's files are in (the orchestrator's commits, to 4053d4d): `P/years/005/morning-story.md`, `P/years/004/closing.md`, the chronicle, `P/player/pending.md`, flag 7's rewording, and the morning painting request, written to `images/held/sim-06-005-morning.json`. Nothing is approved and nothing is painted.
+
+### 7. The check, round 4
+The checker passed the year (at 4053d4d): 9 raised, 9 resolved, none open. Flag 9 was confirmed with its step 6 read.
+
+### 8. Close
+`tools/check.py sim-06 4 --step 7`, before the clock was set: 1 finding, 1 note. The finding is a known fault of the tool and not a flag of the campaign: it reads `P/state/images.md`'s line for the Year 2 morning as approving the Year 5 morning, and says the held request belongs in `images/requests/`. `images.md` approves no painting for Year 5 and `S/rulings.md` (2026-11-25, 21:16) says no paintings; the request is rightly held. The orchestrator is reporting the fault to the owner. The note is the public roll log's old ids, standing since Year 1.
+The clock: `year: 5`, `status: open`, `season_opens: early autumn`. By the run 07 plan, Year 5 is played and turned once more, and the clock closes after that night. The sealed timing line is written.
+`tools/check.py sim-06 4`, the full check, after the clock was set: the same one finding (the tool's fault, as above) and the same note. `tools/lockcheck.py sim-06 --leaks --dashes`: leaks 0 (the one standing warning), dashes 0.
+Left standing for the Year 5 night:
+- The player's thread stands at a held moment of Year 3: month 7, day 14, the door of the potters' hall, with the kiln-opening held behind it. That night accepts what is played and works it into Year 3 from that door, as far as the next held moment if there is one; the player's Year 4 does not begin while a held moment of Year 3 is unplayed.
+- Held past the first moment, to be resolved on the night that reaches each: the carriage of m-0005 with the coasters in month 10 of Year 3 (the carrier knows the house by name, r-0391); what is cut for the carrier, pending on the player; the dim nights of month 7, day 30, and month 8, day 6, of Year 3; the potters' rubbing down and the proving on the beam (r-0331 stands; every spare whole, r-0407); and, in the town's Year 4, Captain Maud Sennet's coaster in month 10 (r-0376).
+- Pending on the player: the boy's question, the Stallreeve's, the netmaker's.
+- The player's standing has no Year 4 line yet.
+- The world: the Aldermark's draught beasts show the cough in Year 5 (r-0374); the bend town does not yet know its stone was lifted; god-dreams's word came home; the chancery holds god-thresholds's word unanswered; the Sarrow's salt is short at the turn; row S01-a comes in Year 6.
+- For the owner, from this night: L-0051 and the two lines of `year-turn.md` on boarding; whether set-aside drafts may stay public; how a sealed act's result is told to the player; whether a near miss turned up by a search takes the sealed factor; the tool's approval match for held painting requests.
+One line per god for the year: god-sea, away when a boat broke at the mouth under a lamp that was only a lamp; god-dreams, whose word for another came home unspoken; god-rivers, who followed the river to the salt; god-healing, who found where the foulness lies and that its own people are closed to its reading; god-beasts, whose true word did not save the calves; god-secrets, who told one man what a dead stick says and saw the plain; god-thresholds, who kept the seed through the winter and lost the river's trains. The player's god: stands at a potter's door in the spring of the year before, with a word in a carrier's coat and a door-stone sixty-one short.
+Year 4 night turn closed 2026-11-26 21:33 Pacific.
