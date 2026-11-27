@@ -132,7 +132,7 @@ The tenth month of Year 4, the first month of summer in this country, the fourte
 - The Tally-keeper (woman): at the post, with her sticks.
 - The Assay-master (man): in the hall. He has not given his name.
 - The ship owner of the open water (man): the town's carrier, one of the eleven. His coasters lie loaded at his landing.
-- Bren (man): at the fish landing most dawns.
+- Bren (woman): at the fish landing most dawns.
 - The others of the eleven and of the town, as on the earlier sheets.
 
 ### Places in reach
