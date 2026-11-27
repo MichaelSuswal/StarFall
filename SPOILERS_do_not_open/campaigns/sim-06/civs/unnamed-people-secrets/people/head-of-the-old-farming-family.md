@@ -15,3 +15,8 @@ About seventy years old in Year 3. Old, loud and proud, the head of the oldest o
 
 ## Standing
 Sore, not charged. Thought to be loud and not the whole of it.
+
+## Year 4
+- Month 1, third day: sent the grandson to the far run and a second grandson to the near bins. Said again his house was robbed.
+- Month 2, fourth day: said it at the council again and was cut off by the Speaker. Said it is not finished.
+- Month 6: said the Clerk's winter proves the carters left no stick.

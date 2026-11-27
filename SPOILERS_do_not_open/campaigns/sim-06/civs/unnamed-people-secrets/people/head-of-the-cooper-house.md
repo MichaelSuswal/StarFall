@@ -17,3 +17,8 @@ Set the widow of his second son's family to keep his books, both the open tally 
 
 ## Standing
 Smooth and not charged. Not trusted by the east fields house.
+
+## Year 4
+- Month 1, third day: sent the widow to the far run and a nephew to the near bins.
+- Month 2, fourth day: looked at his hands when the east fields head spoke of the carters.
+- Month 9: with the Speaker, said his house would lend the boat families their levy shares.

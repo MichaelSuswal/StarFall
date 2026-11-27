@@ -13,3 +13,6 @@ About thirty-one years old. The eldest son of the Boat Master's cousin, whose fa
 
 ## Standing
 Not on the council. Will be asked about the upper water by the boat families when he is back.
+
+## Year 4 (added by the civ agent)
+- Month 10, the twelfth day: took the stranger aboard the first of two planked boats again, about thirty-two now, ten runs up. Said the old words to the water. Was told the stranger will go on from the landing on his own and the crew need not wait past their ordinary day.

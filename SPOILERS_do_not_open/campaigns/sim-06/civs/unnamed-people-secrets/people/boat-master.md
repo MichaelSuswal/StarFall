@@ -23,3 +23,10 @@ Liked by his crews and the Speaker, and thought too easy with strangers by some 
 - Month 8: his cousin's family's boat and a farming house's hired boat grounded on the bar in the dry spell. Gave the Clerk the crews' figures for the two springs.
 - Month 10: gave the stranger a berth on the upriver crew of the cousin's family for three weights of scrap silver. Asked why; was told he could take it or leave it. Told only the Clerk.
 - Still takes the stranger's counsel in the course of trade and does not take him as a god.
+
+## Year 4 (added by the civ agent)
+- Month 7: gave the stranger the first loaded boat at the gate and had his crews sound the bar a third spring, high water and low.
+- Month 8: three boats grounded in the dry spell. Gave the Clerk the crews' figures.
+- Month 10: gave the stranger a berth on the upriver crew of the cousin's family for three weights of scrap silver, and told the Clerk the stranger means to be back before the harvest. Had charge of the dredging from the eighteenth day.
+- Said at the council that the marsh was loud on the night of the star in month 8.
+- Does not take the stranger as a god.

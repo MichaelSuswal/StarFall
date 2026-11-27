@@ -28,3 +28,7 @@ Nobody in her family knows she spoke. If it were known she would lose her place 
 - Month 1: sent by her head to the far run as her house's keeper, cutting a stick at each bin for the twenty-three days. Her stick agreed with the Warden's to the sack every day. Saw the facing come down.
 - Month 6: went at night to the Granary Warden's door and told him, standing in the doorway, that the second tally of her house has lines for barley lent out against the next season's carriage, that she cannot say they account for the far run, and that she will not say it at the table. Asked why she should be believed; was told he had not asked her to be.
 - Did not go to the stranger. Nobody in her family knows she went to the Warden.
+
+## Year 4 (added by the civ agent)
+- Month 1: sent by her head to the far run again; her stick agreed with the Warden's to the sack on every day.
+- Month 6: went at night to the Warden's door a second time and told him her house has lent a third more than the open tally shows, to the boat families. Did not go to the stranger.

@@ -34,3 +34,10 @@ Respected, not loved. Sits at the council's long table by custom without a vote.
 - Month 2: laid the sticks before the council. Said no stick of his shows a draw from the far run for the sum in question, and that he would go through the old sticks of the Warden's uncle over the winter. Said it was not a promise to find.
 - Month 5, the fourteenth day: asked again over a cup by the stranger, said yes, one evening, on his terms. On the twenty-second night opened the chest himself and counted three tallies with the stranger, his hand on each stick. Their counts differed by one notch on the third; he counted again and the stranger was right. Wrote it in his private book, and wrote that the man did not read and paused at one stick longer than the others. The boy talked, and the market knows he sat in the house.
 - Still does not take the stranger's word as a god's. Says the man counts better than he does and that he does not mind it.
+
+## Year 4 (added by the civ agent)
+- Month 2, second day: set the sticks of three autumns side by side (the roll's, last year's and this year's). Told the Warden it was no thing to cry.
+- Month 5, fifteenth day: asked by the stranger over a cup whether he wished to hear what an old stick said; said yes, once, in the room with the chest, his boy sent to bed. Was told the figures of a count of grain and salt owed by the old factory here to a salt house of the delta in the far west, never struck off, and that the stranger did not know whether the debt was live or the house stood. Wrote the figures in his private book, with a line that the man says he cannot read and read it. Told no one. Said he would carry it to the council himself if at all, not before the harvest.
+- Month 6: laid the result of his winter's work before the council: the Warden's uncle's sticks show no draw from the far run for the sum, and the roll's entry was carried unchanged eleven winters.
+- Month 10: was told the day the stranger names for his return (the twenty-second of month 11) and wrote it in the guest book.
+- Still does not take the stranger's word as a god's.

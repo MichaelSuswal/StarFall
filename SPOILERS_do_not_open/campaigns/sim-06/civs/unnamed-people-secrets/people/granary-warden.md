@@ -26,3 +26,10 @@ Respected, now a little warmer to the stranger than the Gate Warden is, though n
 - Month 6: was told at his own door by the cooper house's second tally keeper that her house's second tally has lines for barley lent out. Said he would carry only what he had counted. Keeps a stick of it behind his lintel.
 - Month 11: walked the store with the stranger on his return, if he returned. The far run stood behind its four marks.
 - Standing: has not been turned on. A man who named his own floor. Does not like to be spoken of.
+
+## Year 4 (added by the civ agent)
+- Month 1, second day: heard the stranger ask for the count the council had already ordered. Said so. Did it in his own way.
+- Month 1, fourth to twenty-seventh day: carried in 31,640 sacks, the far run first (3,460) and both ends stick-counted by keepers of both families. Whole store 38,500. Gave the count to the council himself on the fourth day of month 2 and stood at the Crier's stone on the sixth.
+- Month 6: was told once more at his own door by the cooper house's second tally keeper that her house has lent a third more than the open tally shows. Put a third stick behind the lintel.
+- Month 7, eighth day: walked the store, 22,360.
+- Still does not take the stranger as a god; he does not know of one.
