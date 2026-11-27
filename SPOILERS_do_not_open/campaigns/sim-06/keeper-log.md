@@ -1534,3 +1534,7 @@ The checker's round 2 (at 755068e) held flags 1 to 6 as fixed and raised flag 8,
 Rerun: `tools/check.py sim-06 4 --step 4` and `tools/lockcheck.py sim-06 --leaks --dashes`: results on the line below.
 Stamped 2026-11-26 21:17. Ready for the checker's round 3.
 Check: 0 finding(s), 1 note(s). Scan: leaks: 0 failure(s), 1 warning(s) dashes: 0 failure(s), 0 warning(s) 
+
+### 7. The check, round 3: flag 9
+The checker's round 3 (at 19544d7) held flag 8 as resolved and the search clean, and raised flag 9, minor: the line in the Tally-keeper's public people file that the Keeper had pointed to. Fixed: the sentence is taken out of `P/civs/unnamed-people/people/tally-keeper.md` and kept whole in the people's sealed folder, `S/civs/unnamed-people/people/tally-keeper.md`. Nothing came out of that asking in the open, so nothing stands in its place. Flag 7 is the DM's at step 6. Scripts rerun: results on the line below. Stamped 2026-11-26 21:18. Handed to the DM for step 6.
+Check: 0 finding(s), 1 note(s). Scan: leaks: 0 failure(s), 1 warning(s) dashes: 0 failure(s), 0 warning(s) 
