@@ -73,6 +73,12 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-26, Year 4 played day (a sealed part of the first reply, at the gatepost): "Whenever I sit at the landing at night, I run my thumbnail down the nest cups in order, smallest first, before I count the day's readings."
   An ordinary habit the god states: conduct under build 7, carried out and never priced. Written to the open conduct profile as a habit, as the orchestrator relayed.
 
+## Act
+
+- 2026-11-24, Year 3 played day (stated in the sealed part of the sixth reply, filed whole under Want): "I have not checked the pocket I keep empty, and I am going to."
+  An act the god says it does: done, under build 7. Carried out at night by the Keeper (the sealed day sheet, `releases/004/dm-sealed.md`, Other sealed matter): on the night of the fifth day of the first month of Year 3, at the landing, the Weigher put its hand in the pocket it keeps empty. It is empty. Nothing is in it and nothing has been. Nobody saw more than a hand in a coat.
+  2026-11-26, Year 5 played day, 21:34 Pacific: the result told to the player privately by the DM, through the orchestrator, with the first post of the day (the checker's duty from the Year 4 flags). The private line as given: "(oog, private) You wrote in the sealed record that you were going to check the pocket you keep empty. It was done: on the night of the fifth day of the first month of Year 3, at the landing, you put your hand in it. It is empty. Nothing is in it and nothing has been. Nobody saw more than a hand in a coat." It is in no public file and not in the transcript. If the player states the act in the open, the answer is the same.
+
 ## The DM's notes
 
 - 2026-11-24: Two open conduct lines carry "check with the player before acting" because of this file: the hall where anyone may check a scale against the god's own, and anything to do with the lost house, the lost name or the debt.
@@ -95,3 +101,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24, Year 3 played day, at the close: seven sealed parts were taken today, filed above by kind (three under Fear, one under Want, three under Other). None was put to the player for confirmation and none was acted on by the DM. No sealed want was confirmed today; every Confirmations line still reads none. For the Keeper: the sixth part's check of the empty pocket is in no public file.
 - 2026-11-26, Year 4 played day: one sealed part so far, filed under Habit. It is a habit and not a want, so it needs no confirmation. No sealed want was put to the player and none was acted on. The check of the empty pocket (Year 3, the sixth part) has not been stated in the open today.
 - 2026-11-26, Year 4 played day, at the close: two sealed parts were taken today, one under Habit and one under Other (a noticing about itself; no want, no act, no request). Neither was put to the player and neither was acted on; the habit is conduct and is in the open profile. No sealed want was confirmed today; every Confirmations line still reads none. The check of the empty pocket (Year 3) was not stated in the open today and was not played.
+- 2026-11-26, Year 5 played day: the result of the check of the empty pocket was told to the player privately with the first post and recorded above under Act. No sealed want was put to the player and none was acted on.

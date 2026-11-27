@@ -309,3 +309,11 @@ Post 4, the final save, at the close. The held moment is played and ended.
 - Facts set by the DM in play, for the Keeper to keep or overrule: the Stallreeve sent a runner for the ship owner and he came within the morning (the sheet has him in the town at his house above his landing); the Tally-keeper's apprentice called the six figures to the yard; a second fresh stick for what was carried; the word was cut on a fresh stick, not on the asking's blank run, and the asking's half stays with the Weigher.
 - Two sealed parts were taken today (a habit; a noticing, filed under Other).
 - Decisions for the night: `player/decisions-004.md`.
+
+# Rolling save: Year 5
+
+Campaign sim-06. Year 5 played day, 2026-11-26 (Pacific), under build 7. The clock reads Year 5. The day opens at a held moment of Year 3, the seventh month, the fourteenth day, at the door of the potters' hall. Newest entry last.
+
+## 1. Held: the weighing green, at the door of the potters' hall (Year 3, the seventh month, the fourteenth day)
+
+Post 1. The Year 4 closing and the Year 5 morning are posted, with the (oog) line in place of a painting, and the board. Nothing has been answered. The master of the potters is in the doorway and has asked what the Weigher wants of her boards. None of the Weigher's askings (each piece weighed green; three spares of each size; the Stallreeve's leave for a day) has been put to anyone. The kiln-opening is held behind this scene and is not laid out. Still to be put to the player today, not all at once: the boy's "Is the star yours?", the Stallreeve's question of what is to be cut for the carrier now, and the netmaker's question about the height of the water. No roll, no name said, nothing added to the map.
