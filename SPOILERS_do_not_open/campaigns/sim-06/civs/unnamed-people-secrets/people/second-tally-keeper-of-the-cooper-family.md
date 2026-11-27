@@ -32,3 +32,7 @@ Nobody in her family knows she spoke. If it were known she would lose her place 
 ## Year 4 (added by the civ agent)
 - Month 1: sent by her head to the far run again; her stick agreed with the Warden's to the sack on every day.
 - Month 6: went at night to the Warden's door a second time and told him her house has lent a third more than the open tally shows, to the boat families. Did not go to the stranger.
+
+## Year 5 (added by the civ agent)
+- Month 1: sent by her head to the far run again; her stick agreed with the Warden's to the sack on every day.
+- Month 6: went at night to the Warden's door a third time and told him her house's second tally now carries the levy lent to the boat houses, and that the second and open tally together lack a sixth or a little over. Was told she might carry her own to the Clerk. Said she will think on it. Did not go to the stranger.

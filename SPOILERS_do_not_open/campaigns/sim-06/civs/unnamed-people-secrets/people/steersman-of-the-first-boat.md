@@ -13,3 +13,6 @@ About twenty-eight years old. The Boat Master's sister's son, a river man who ha
 
 ## Standing
 Not on the council. Will be asked about the mouth by the boat families when he is back.
+
+## Year 5 (added by the civ agent)
+- Month 10, ninth day: took the Boat Master's string of three to the mouth on the ordinary run, the stranger not aboard. Said the old words to the water at the quay.

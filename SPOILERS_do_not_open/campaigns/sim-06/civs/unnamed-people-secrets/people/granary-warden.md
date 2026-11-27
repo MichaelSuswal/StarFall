@@ -33,3 +33,10 @@ Respected, now a little warmer to the stranger than the Gate Warden is, though n
 - Month 6: was told once more at his own door by the cooper house's second tally keeper that her house has lent a third more than the open tally shows. Put a third stick behind the lintel.
 - Month 7, eighth day: walked the store, 22,360.
 - Still does not take the stranger as a god; he does not know of one.
+
+## Year 5 (added by the civ agent)
+- Month 1, third day, evening: heard the stranger say the count was his this year and that he would not stand at the door. Said the man was asking to be shown he was not needed, and that it was not a trader's reason. Sent his sister's son to the two heads' doors with a word and not himself.
+- Month 1, fourth to twenty-sixth day: stood at the door himself and carried in 31,760 sacks, the far run first (3,460) and both ends stick-counted by keepers of both families. Whole store 38,620. Gave the count to the council himself on the fourth day of month 2 and stood at the Crier's stone on the sixth.
+- Month 6: was told at his own door a third time by the cooper house's second tally keeper. Told her she might carry her own to the Clerk. Put a fourth stick behind the lintel.
+- Month 7, sixth day: walked the store, 22,320.
+- Still does not take the stranger as a god; he does not know of one.

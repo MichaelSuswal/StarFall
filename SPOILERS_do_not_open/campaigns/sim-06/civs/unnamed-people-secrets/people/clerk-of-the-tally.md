@@ -41,3 +41,14 @@ Respected, not loved. Sits at the council's long table by custom without a vote.
 - Month 6: laid the result of his winter's work before the council: the Warden's uncle's sticks show no draw from the far run for the sum, and the roll's entry was carried unchanged eleven winters.
 - Month 10: was told the day the stranger names for his return (the twenty-second of month 11) and wrote it in the guest book.
 - Still does not take the stranger's word as a god's.
+
+## Year 5 (added by the civ agent)
+- Month 1, third day: stood by at the Warden's wish. Set four sets of sticks side by side (the roll's and three autumns') and said the roll no longer carries a bin the Warden has not walked.
+- Month 2, eighth day: asked by the stranger over a cup to cut a stick for each night the star dims, with the hours the watch gives. Said yes, as the council's sticks and not the man's. Carried the asking to the Gate Warden, and the Gate Warden's yes back.
+- Month 2, twenty-eighth day: laid the one stick of the river's cost and who paid it. Put on it only what had been said at the table of the lent levy.
+- Month 6: with his boy and two of the Boat Master's runners, set down by household the wet cellars and the fevers of the small ones in four winters, at the stranger's asking. Wrote that the count shows the two together and says nothing of a cause.
+- Winter evenings: began laying the league weights beside his scales and the marks on their faces beside the marks on the tallies. Told no one.
+- Has not carried the delta stick to the council.
+- Month 9: laid the watch's three sticks of the star beside the Crier's count.
+- Month 11: was told the day the stranger names for his return (the sixteenth) and wrote it in the guest book.
+- Still does not take the stranger's word as a god's.

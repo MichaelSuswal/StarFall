@@ -30,3 +30,10 @@ Liked by his crews and the Speaker, and thought too easy with strangers by some 
 - Month 10: gave the stranger a berth on the upriver crew of the cousin's family for three weights of scrap silver, and told the Clerk the stranger means to be back before the harvest. Had charge of the dredging from the eighteenth day.
 - Said at the council that the marsh was loud on the night of the star in month 8.
 - Does not take the stranger as a god.
+
+## Year 5 (added by the civ agent)
+- Month 6, fifth day: gave the stranger two of his runners, with the Clerk's boy, for the count of the wet cellars and the fevers in the boat families' row. Asked what the figures were for; was told he might take it or leave it.
+- Month 7: said he would have sounded a fifth year unasked. Set the first loaded boat to the gate himself on the ninth day and had his crews sound the cut, the stranger not at the gate.
+- Month 8: had his crews lighten loaded boats into skiffs before the shoals in the dry spell. Two boats grounded all the same, at the shoals.
+- Month 11: named the poorest boat family's headman as the house to carry the stranger to the marsh edge.
+- Said the marsh was loud on the nights of the star. Does not take the stranger as a god.

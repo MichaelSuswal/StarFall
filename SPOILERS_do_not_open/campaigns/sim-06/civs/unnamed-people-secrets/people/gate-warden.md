@@ -29,3 +29,10 @@ Hard, and proved fair. Sits at the council's long table by custom.
 - Month 4: said at the council that the nights of the star were three in the autumn and winter alone.
 - Month 9: asked the stranger what he meant to do in the summer. Said he has lost count of the man's sensible acts and will not start again.
 - Still does not take the stranger's word as a god's. Keeps the watch's rations at the stranger's figure.
+
+## Year 5 (added by the civ agent)
+- Month 2, tenth day: asked through the Clerk whether the watch would note the hour on the nights the star dims, said yes and that the watch would mark also whether the Counter is seen in the town, on his own account and not the man's.
+- Month 2 and month 7: the watch cut a stick on each of the three nights of the year. Told the table in month 9 that on all three the Counter was in the town.
+- Month 9: asked the stranger what he meant to do in the summer; said it had something in it to count and was not the sensible thing he was counting.
+- Month 11: said he has no number for a man who stays.
+- Still does not take the stranger's word as a god's. Keeps the watch's rations at the stranger's figure.

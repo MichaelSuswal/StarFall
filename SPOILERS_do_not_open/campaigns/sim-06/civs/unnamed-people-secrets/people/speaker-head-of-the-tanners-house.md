@@ -15,3 +15,8 @@ About fifty-eight years old in Year 4. Dry, measured and plain-spoken, a leather
 
 ## Standing
 Respected at the table, not loved. Not charged with anything.
+
+## Year 5
+- Month 1 to month 6: held the chair. Ordered the one stick of the river's cost on the stranger's asking, and said the table had heard the man's liking for one book. Said his house lent at a fair price.
+- Month 7: gave up the chair with the opening of the river.
+- Does not take the stranger as a god.

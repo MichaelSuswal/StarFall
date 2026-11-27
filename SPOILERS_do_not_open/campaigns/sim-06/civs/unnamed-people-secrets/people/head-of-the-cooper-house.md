@@ -22,3 +22,8 @@ Smooth and not charged. Not trusted by the east fields house.
 - Month 1, third day: sent the widow to the far run and a nephew to the near bins.
 - Month 2, fourth day: looked at his hands when the east fields head spoke of the carters.
 - Month 9: with the Speaker, said his house would lend the boat families their levy shares.
+
+## Year 5
+- Month 1: sent the widow to the far run and the nephew to the near bins again, by the Warden's boy's word.
+- Month 2, fourth day: looked at his hands when the stranger spoke of one book and two. At the sitting of the twenty-eighth, did not look at the Speaker.
+- Does not take the stranger as a god.

@@ -167,3 +167,53 @@ Written by the civ agent. This is the people's own telling, and it is wrong abou
 
 ## The odd folk of the marsh
 - They say they were here before any of the town's people and that they deal by night. The reed cutter's daughter keeps her father's house and her silence. The Boat Master says the marsh was loud on the night of the star in spring, and on the summer nights, and no one asks what he means.
+
+# What the unnamed people now say: Year 5
+
+Written by the civ agent. This is the people's own telling, and it is wrong about things that matter. No god is named by the people, because none is known to them. Where the Year 4 telling above has the Counter on the river on the dim nights of the tenth and eleventh months, the Keeper's line is that he was on the plain, away from the town; the town knew only that he was away, and went on saying the river for a month and then said only that he was away.
+
+## The count
+- They say the count is the town's, and that this autumn proves it, since it came right with the Counter on the market bench and not at the door. This is half right and the town draws the right half. What they leave out is that he told the Warden the evening before that he would not be at the door, and had asked the same of the town three autumns running.
+- They say he stayed away from the door so as not to be named if it came out short. The fish stall woman says the Warden shamed him off the yard. A carter says he asked the man at the bench whether the count was right and was told the man did not know, and that this is what a man says who is afraid of the answer. Each is wrong about why.
+- They say the Warden does not need a god, a Counter or a stranger to count his own bins. The Warden does not say it. The Gate Warden says it for him.
+- The old woman at the tanners' end says the books come right because he was not at them, and that a god would know to step back. Her son does not hush her. Nobody laughs.
+- The east fields head is spoken of as a man who will not live to see it found, and the town is a little sorry for him, and a little tired.
+
+## The Counter
+- They say he sat at the boat houses' tables on the marsh edge and heard them out, and that he is a man who sits at the farming houses' tables and the boat houses' both and so sits at neither. The boat houses say he is the first who has listened to them the length of a meal. The farming houses say a man who pays the poorest headman two weights of silver has bought the headman.
+- They say a teller at the marsh edge began a telling to him and he stopped it before it was done, and that what it was nobody who sat there will say. The marsh edge says it was a mercy. The market says a man who will not hear a telling is a man who has heard enough of them. The old say it was about the odd folk.
+- They say he stayed in the town the weeks before the harvest, the first summer he has not gone up or down some water. The Gate Warden says he has no number for it. The farming families say a man who stays is a man who has found what he was looking for. The boat families say he is waiting for the river.
+- They say the Counter counted the cellars. He did not; the Clerk's boy and the Boat Master's runners did, at his asking. The market says he counted them to buy the old houses cheap before the river takes them. This is wrong about why.
+- They say he does not know whether he dims the star, and that he said so again to the old headman at the marsh edge. The old woman at the tanners' end says an honest answer or a clever one, and that she has now heard it from him four years running, and that it has not changed.
+- They say the books come right behind him, and now they come right in front of him too. Her son says it proves the opposite, and has stopped saying it loudly.
+
+## The dim star
+- It dimmed three times this year, twice in the autumn and once in the spring, and the town counts twenty-four since the Counter came. It speaks of it as one speaks of a lodger who has gone quiet. The Crier cries the count of the nights between the price of salt and the day of the next market, and cries now also that the watch has marked the hours.
+- They say the star dims less because the watch counts it. The old woman says a star keeps away from a thing that is watched. A boy says it dims less because the cups on the river steps are fewer. They say the cranes went over and the star did not dim, which the old say has not been so before; they have not noticed that it did not dim in two earlier years when the cranes went over.
+- They say the Counter was in the town on all three nights, so that if he does it he does it from the bench. The boat families say it proves he does it from a distance on the nights he is away. The farming families say it proves it is not him on the nights he is away. They have all begun to say it with less smile.
+- A woman who finds strayed beasts says her hands were dull for a day after the second night in the autumn. The bone-setter at the marsh edge says hers were dull for two days after the night in the spring. A third says nothing. Nobody says it together.
+- The marsh edge says the marsh is loud on those nights and does not say why. The Boat Master says it is so.
+
+## The cellars and the fever
+- They say thirty-six houses took water and that the small ones who slept over the wet cellars took the fever worst. This is the Clerk's count and the market says it as if it had always known. The old say the lowest cellars are the league's, and the league's dead lie under them, and that the damp is the dead breathing up through the floor. It is wrong about what matters, which is that nobody knows what the damp does and the Clerk says so.
+- The Crier cried that the small ones be taken up out of the wet. They say the council has done what it can. Mothers say there is no upstairs.
+- The hedge-workers say the fever is easier eased in a dry bed.
+
+## The river and the cost
+- They say the cut a hand shallower than when it was cut, and the shoals above and below it a little shallower again, and that the river is closing, which is so. They say the council cut the wrong eighty paces. The boat families say the shoals are the bar's children. The farming families say the spoil laid on the south bank washes back. The Clerk says it will close when it closes.
+- They say the one stick of who paid what is the first book that has put the town's whole cost in one row. The farming houses say the boat houses paid in promises. The boat houses say they carry the lenders' hides and barrels for less than the market's price and that this is a payment. The market says the two houses at the table are the only ones who have gained by the dredging. This is wrong about what matters, which is that the two houses lent at a price the boat houses now say is fair, and that the second tallies are the thing nobody has put on a stick.
+- They say the toll is the Speaker's toll, or the Counter's, or the council's. It is the council's.
+
+## Their own rulers
+- The Granary Warden: they say he stood at the door himself with no man on a bench behind him and the count came right. He does not like to be spoken of. They say there are more sticks behind his lintel than the town knows. This is so, and the town does not know the rest.
+- The Clerk: they say he is the one man in the town who has been wrong in the dark and in the winter about a notch and a man who does not read, and has not been wrong in public. The clerks say he has been seen laying the league weights beside his scales in the long evenings. The Clerk says nothing.
+- The Gate Warden: they say he has the watch cut a stick on the star as if the star owed the town an account. He says the watch is awake in any case.
+- The Speaker, the head of the second large boat family: they say he is a slow man and a fair one and no speaker. He says the table has the sticks.
+- The cooper house and the tanners' house: the town says they are the two houses who lent the boat houses their levy at a fair price and have the boat houses' carriage for it. The boat houses say the price is fair.
+
+## The old things
+- The clerks say the old walkers sang their lists of names for three nights, and that the Counter has now been in the town five years. They say it to one another and not to the market.
+- The market says the old league's tallies are a count of grain, of years, of dead men or of debts, and argues which. The Clerk says nothing of the sticks.
+
+## The odd folk of the marsh
+- They say they were here before any of the town's people and that they deal by night. The marsh edge says the marsh is loud on the nights the star dims. The reed cutter's daughter keeps her father's house and her silence, and was seen to stand at the granary yard bench for the length of a few breaths and go home.

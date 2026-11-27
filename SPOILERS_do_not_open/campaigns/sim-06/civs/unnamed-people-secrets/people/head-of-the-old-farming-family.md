@@ -20,3 +20,9 @@ Sore, not charged. Thought to be loud and not the whole of it.
 - Month 1, third day: sent the grandson to the far run and a second grandson to the near bins. Said again his house was robbed.
 - Month 2, fourth day: said it at the council again and was cut off by the Speaker. Said it is not finished.
 - Month 6: said the Clerk's winter proves the carters left no stick.
+
+## Year 5
+- Month 1: sent the grandson to the far run and the second grandson to the near bins. The grandson's stick was right every day.
+- Month 2, fourth day: said once more that his house was robbed, and that he will not live to see it found. The Speaker moved on.
+- Month 6: said at the sitting that the lowest cellars are the league's and the league's dead lie under them.
+- Does not take the stranger as a god.
