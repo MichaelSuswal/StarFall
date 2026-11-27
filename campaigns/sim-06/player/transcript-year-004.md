@@ -119,3 +119,33 @@ One name is new on your map, as a name and no more: the Horn, from the Stallreev
 What that covers, since the story stopped at the gatepost and the list is short. The opening paragraph, the town and you as they stand at the start of Year 4, holds as far as the first month of Year 3 and is provisional after. My line above that the rest of Year 3 "went on around" the moment and "was resolved": the world beyond you and your town did go on, but your own year and the town's are not resolved past the moment. That the open-water owner's coasters went out, and that as the year stands no word went down the coast with them. And the closing of Year 3, where it has you at the landing at the year's end counting over the whole year's readings. Everything up to the gatepost stands as told, with the board, the Horn as a name on your map, your true scales, the ruling on the Reading's standing words, which is still yours to overturn, and that nothing has come back from Ruddfold as far as the telling runs.
 
 The board, as it stands. The fifth day of the first month of Year 3, a market morning, about an hour after first light, at the foot of the gatepost of the town's house. The mist is going off the channel below the bank. The yard is in its line, with a pair of the watch at the post. At the head of the line is a fish seller of the channel folk, and his hand balance is in your hand, not yet tried. The Stallreeve stands in front of you with the hall's door open behind him. The Tally-keeper is at his shoulder with the kept half of a cut stick and her knife. The Assay-master stands a little apart with his arms folded. The other half of the stick lies at the foot of the post where the Stallreeve laid it. On you are the scales at your belt, the nest, and in your coat the half-stick of the council's first asking, the half-stick of the seat and the old keeper's key. No weight is in the air. Nothing has been answered. He waits.
+
+## Player:
+
+I pick up the fish seller's balance first, because it is the next in the line, read it against my brass, and say what it does. Then I turn to the Stallreeve with the half-stick in my hand.
+
+"Heard, and thank the eleven. Here are the words, to be cut as I say them. The Tally-keeper may stop me where she needs to.
+
+"'This is the keeper's word of the hall of this town. It is not a price and not an offer. It says what the hall's pieces are, as read in the Weightward's brass, and what the eleven have said of them.
+
+"'The hall keeps six old weights, three of bronze and three of stone. In the Weightward's ones, where one is the smallest cup of his nest, they read forty-eight, ninety-six and a hundred and ninety-two for the bronze. The stone read three hundred and eighty-four, seven hundred and sixty-six and fifteen hundred and thirty-six, weighed on the hall's beam with the Assay-master's hand on it. The fifth is light by a hair, and the hall says so. The rack is cut for seven, and the seventh is not in it. The hall does not know what it weighed, and has looked for it.
+
+"'The hall's fired pieces, used in this town until the day the old six were weighed, are heavy against the old six by about a twentieth. The eleven have named the old six the town's weight, from the first market of the next autumn. What was bargained before then is reckoned by the hall's fired pieces as it was made.
+
+"'Any captain may bring a scale to the hall and have it read. It will be told what it does, which pan and how far, and nothing else. The hall keeps no weight that anyone may not see weighed.'
+
+"That is the whole of it. I ask that it go in the order I said it and with nothing added, and that the open-water owner's captains be told it is a keeper's word and not a price. I won't write more than I know. If the coaster's master wants to ask me anything, she can ask it at the gate, and I'll answer what I can."
+
+Now, for the rest of the year.
+
+**To prepare.** The potters' master is to fire a nest to the old six in the spring. I'll be at the kiln-opening in person, so I go to the potters' hall beforehand, with the Assay-master and the Tally-keeper, and ask her to bring each piece to me green, before it is fired. I weigh each in front of them and cut the figure. I cut the figure again once it's fired and cooled, in front of the same three. That gives her, and anyone else who fires weights, the loss from firing as a number, not a guess. I will also ask her to fire three spare pieces of each size so there is one to break. I'll set aside a day for it and ask the Stallreeve to have the watch keep the gate.
+
+**To search.** I want to look for the seventh by what it weighs. Twice the sixth, by the run of them, is three thousand and seventy-two in my ones. On my dawns at the landings, I ask the ship owners and the captains to bring me any large stone they own that might be near it: anchors, ballast, door-stones, quern stones, hearth stones. I weigh each on the landing's beam with the owner watching, and I say only what it is. I'm not asking anyone to give anything up. If one turns out close, I tell the Stallreeve and the Assay-master first and the ring second.
+
+**To be away.** I ask the Stallreeve for one day, at the lowest tide, to walk out to the salt pans and look at the raking household that sent the salted baskets. I want to see the pans and weigh a basket there. The watch keeps the line, nobody is read, and the Tally-keeper cuts no notch for the day. I leave one thing unanswered when I go. The master of the smiths asked me what it would take to break me, and I will not answer that before I go or when I come back unless the ring asks me in session.
+
+On the two asks that have waited. To the smiths' master, "Can you be killed?" No. I can be hurt, held or scattered, and I come together again. "What would break me" I won't answer. To the woman of the back houses, "Can you cure a fever?" No. I have no power for it. I am sorry about her child, and I would say so to her if she came to the gate.
+
+I let the Keeper's ruling on the Reading stand. If I'm asked a follow-up, I say the rest of it: that both pans show, and that anyone I read knows whether I mean my own terms.
+
+(One more answer was given privately, for the sealed record.)
