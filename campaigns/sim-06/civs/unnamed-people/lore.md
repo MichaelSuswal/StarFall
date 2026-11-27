@@ -193,3 +193,76 @@ The clay is the other thing. The diggers and the kiln masters met at the pits tw
 ### What the town does not say
 
 They do not say what the three saw in the old keeper's loft. The three have told the ring and the ring has said nothing, which in a ring that argues is itself a story. They do not say what the old Weightward did in his last spring. They do not say what the Assay-master and the stranger said in the hall with the door shut, beyond what the Assay-master said before the ring. They do not say whether the seventh was ever a weight. They do not say whose child it is, because it does not know, and has said so.
+
+## Year 3 told again, from the fifth day of the first month: what they say at the fourteenth day of the seventh month
+
+Where this section differs from the Year 3 section above, this is what they say. The Year 3 section above was written before the word was given at the gatepost, and is set aside from that day. This section goes no further than the fourteenth day of the seventh month.
+
+### The Weightward
+
+They call it the Weightward. The names among themselves have not changed: the channel folk say Bren's weigher less than they did, the salt-rakers the Cupman, the hill folk the coat. None of them has been said to it.
+
+What they say of the word it gave at the post:
+- The channel folk say it told the south what the hall's pieces are and that this is the first time a market has done so. They say it with a straight face and are proud.
+- The salt-rakers say it gave the south the hall's flaws in front of the whole yard. The head of salt says a weight is what it is and a weight is not light against itself. Some of the old say a god that says what the hall does not know is a god that knows what it does not know, which is the rarer thing.
+- The hill kin say Ruddfold has not heard a hall say what it does not know of itself, and do not say whether they like it.
+- The yard says the Weightward will carry the word south by the ship owner of the open water, and that the south will say the town keeps two weights until the first market of the new autumn, and then one.
+
+They say it asked for a stone and nobody has found it. They say it knew the figure before it asked. They say it asks no one to give up a stone because it does not want to be the one who took it. The channel folk say it is only being thorough. The salt-rakers say it came to count what the town owes and is counting. The hill carriers say the seventh weighs what is owed.
+
+What they say of how it answers:
+- Asked whether it can be killed, it said it can be hurt, held or scattered and comes together again. The salt-rakers say scattered like brine on the pans and gathered like salt. The channel folk say torn like a net and mended. The hill folk say hung up like a coat and shaken out. The master of the smiths is said to have heard it across the yard and said nothing, and the yard takes that for a speech.
+- Asked what would break it, it did not answer. The yard has settled on three answers for it. None of them is the same.
+- Asked whether it can cure a fever, it said it has no power for it. The back houses say it was honest and some of them say that is worse. The old woman who asked has told her street.
+- Asked who is lying, it said what it said before the ring, and when asked whether the man it read knows it, it said both pans show and the man knows whether it means its own terms. The young stallholder who asked says it is fair and does not know whether to be glad.
+- It has not read a bargain this season and nobody has asked. The head of salt's people keep to their word. The yard has stopped dreading it and started to joke.
+
+They say it runs the cups. At night at the landing, before it counts, it runs its thumbnail down the nest from the smallest, one cup after another. The boatmen say three things of it: that it is saying the cups their names, that it is seeing none has been taken, and that it is counting up to the seventh, since there are seven cups and seven seats. Bren says her mother counted beads that way. "Running the cups" is said now of anyone who counts before he speaks, and as a joke of a man who will not begin. The children do it on their knuckles and are told to stop.
+
+They say it went to the pans. The household that sent the salted baskets turned out every basket unasked and it weighed one it chose itself and called it clean. The town says the household was looked at and came out clean and that this is a better thing than anything it could have said of itself. The old of the flats say it came to count and what it counted was paid. The raking household says it was looked at in daylight. The head of salt says a short measure and a cheat are different things and this is the proof. The master of the weavers is said to have watched the day to see whether it did a thing that was not a weight, and said it weighed a basket.
+
+### Their own council and officers
+
+- The Assay-master is said to have read the fifth light on his own beam on two trials and to be ready to read it light on a third. They say he said the ring may refuse to carry a thing south but not refuse to know it. They say he went to the net-maker's step and put his hand flat on the stone and said what he saw, and that this was the humblest thing he has done in the hall.
+- The Stallreeve is said to have given the day at the pans on his own terms, that the household be told and not found, and to have forbidden a wager at the beam and the buying of a stone for its weight. He is said to have brought the ring's answer to the post on the first market after the sitting and to have named which things were refused when it asked, and to have given one reason of the ring's and not made up another. They say he asked it then what it would have cut for the carrier and got no answer, and that he said there was time.
+- The Tally-keeper is said to have cut every stone at the landing's table. They say her stick is the town's second hall and that "the stick matches" is said now of a stone as of a bargain. She has stopped denying it.
+- The eleven are said to have taken six things on the second stick and refused two. The yard knows the counts. The yard does not know why the fifth and the captains' scale were refused beyond what the head of salt, the master of the weavers and the master of the smiths have said in the open, and one reason the Stallreeve gave. The head of the hill goods is said to have said nothing and counted.
+- The master of the smiths is said to have brought a forge slab of five thousand nine hundred and sixty and to have nodded once, as at a good beam, and to have asked it nothing, then or after.
+- The master of the boatwrights is said to have brought his yard's door-stone to be read because his men asked whether the seventh lay at their gate.
+- The ship owner of the open water is said to be a man who carries what is on his stick, as cut, and no more. He is said to have promised three of its instructions and not a pair. They say of the pair that one the ring has answered, and the other is on no stick.
+- The master of the potters is said to have shaped the third nest over the winter, and to have said at the post in the seventh month that it is drying on its boards. She is said to have said it as one says the weather.
+- The old weigher of the hill kin came down a second time, in the carrier's cart, and had his stones weighed at the gate on the eighth of the second month. He said what the hill kin tell boys. They say he did not stand behind it, and that he looked at the Weightward a long time and said nothing.
+
+### The door-stone
+
+They say a net-maker of the landing, a woman of about seventy, brought her door-stone to the fish landing on a hand sledge, and that it read three thousand and eleven in the Weightward's ones, sixty-one short of what it said it was looking for. They say the Assay-master looked at it and said it was a door-stone. The yard says the seventh lay at her door a hundred years and the family's feet wore sixty-one off it. The Assay-master says a stone worn by feet is flat where the feet were and this one is round. The yard says that is what he would say.
+
+Four people have offered her a pinch, a pot, a goat and a week's fish for it. She has sold nothing. "Sixty-one short" is said now of anything that is nearly right and not it, and of a man who has almost kept his word. The hill carriers say sixty-one is what is owed, and laugh, and say it twice.
+
+### Their neighbors
+
+- Ruddfold is said to have the saying of the seventh and the figures on a stick, and to have heard from the carriers that the hall says what it does not know. The town's own hill kin say the hall still owes them a twentieth.
+- The southern coast is said to be waiting for the word. The ship owner of the channels says it is waiting on the Gulf tides. The line says the ship owner of the open water has the stick and will say it at Corrith, and that the south will have the same story the town has, by autumn.
+- The boat people were gone from the channels at the lowest tide of autumn, and came back on the sixteenth. Nobody followed. The old women of the flats took bread along the shore at the lowest tide, as they do, and the Weightward watched them go and did not follow. The salt-rakers say that is a good sign. The oldest say they went before it came, and are right about that.
+- No one from the Aldermark was in the town this stretch. The Stallreeve says a reeve of that king may come yet to ask why a market needs a keeper of its weights.
+
+### The strange things
+
+The blue star dimmed on the night of the twenty-second of the first month, on two nights of the fifth month and on the night of the seventh of the seventh month, each for about an hour in the middle of the night, and then was as before. The old say it is the drowned god turning in its sleep. The young say it comes with the Weightward. The channel folk say it is the Weightward's lamp seen from a long way. The line says the Weightward sits at the landing by the lamp through every such night and watches the star and runs the cups, and is used to that. A boy at the gate has asked twice whether the star is its own. It gave him no answer. He says it is. The line tells him to hush, and the post, when it was empty on the fourteenth of the second month, gave him no answer either, which the boy took for a yes.
+
+The clay is the other thing. The diggers and kiln masters have been quiet this stretch. The tiles are fired for the habit.
+
+### Sayings that came up in this stretch
+
+- "Running the cups." Said of a man who counts before he speaks.
+- "Sixty-one short." Said of anything nearly right and not it.
+- "Three thousand and seventy-two." Said of a stubborn man and of a hope for a bargain.
+- "A hair is not a figure." The master of the weavers'. Said of anything offered as a weight that is only a feeling.
+- "A weight is not light against itself." The head of salt's. Said of a standard nobody will admit is wrong.
+- "Told and not found." The Stallreeve's, of the pans. Said of a thing done in the open.
+- "It weighed a basket." The master of the weavers'. Said as a joke of a man who expected more of a day.
+- "Looked at and came out clean." The raking household's. Said of anyone who has had to show everything and had nothing to hide.
+
+### What the town does not say
+
+They do not say what the seventh was, since nobody knows. They do not say what the stone at the net-maker's door was before it was a door-stone, since nobody knows. They do not say whose child the Weightward is, because it does not know, and has said so.

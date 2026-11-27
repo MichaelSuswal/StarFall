@@ -1,3 +1,4 @@
+From the fifth day of the first month this file is set aside. `years/004.md` tells that stretch as it happened, as far as it has been told.
 # Report to the Keeper: Year 2 told again and Year 3, civ unnamed-people, pass one
 
 Sources: `CLAUDE.md`, the civ role file, the pace and encounter rules (sections 5 and 6), my whole folder (record, state, knowledge, lore, people files, year files and reports), the Keeper's Year 2 pass-two release, the release for this turn, decisions-003, the conduct profile, and the two sealed notes named for me. Nothing in the sealed notes is written in any file except where a mortal says or shows it in the stranger's hearing (below, under Year 2 again, summer). The loft, the boatmen and the Tally-keeper's witnessing appear here only as "what the three said", "what the boatmen said" and "what she answered", with no content.

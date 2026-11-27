@@ -7,3 +7,5 @@ A man of about 50, of the channel people, big, quick, proud of knowing his boats
 History: in the sixth month a boat of his own came in with salt that was one part in six sand and grit under a clean top. He said "Read the rest," bore half of the sixth himself and docked his captain the other half. Said before the ring that it read his own boat against him in front of the water and that he would sooner it did that than the buyer. The water says he paid it for a show. Was for the yard let in and for the seat. His gift of a measure of salt a month to the Tally-keeper's sticks she took as the hall's.
 
 Temper: proud, practical, hard to shame and quick to pay. Likes a bargain better for having lost the best of it.
+
+Year 3 again, from the fifth day of the first month, to the fourteenth day of the seventh month: brought the first stone, the anchor of one of his salt boats, to his landing on the sixth of the first month: 2,240. Nobody could say he had not brought the first.

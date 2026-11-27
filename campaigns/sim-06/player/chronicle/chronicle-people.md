@@ -167,3 +167,43 @@ Long and warm. The reed was cut early. The ship owner of the open water's coaste
 ## What the town says it needs
 
 A name for the town, which it has not decided and will. The new nest to hold, so that the old six are the town's weight on the first market of the new autumn.
+
+# The people's side of the chronicle: Year 3 told again, from the fifth day of the first month
+
+Where this section and the Year 3 section above differ, this section is what happened. The Year 3 section above is set aside from the fifth day of the first month. This section stops on the fourteenth day of the seventh month, at the door of the potters' hall. Held back: anything the Keeper has yet to settle.
+
+## Autumn
+
+On the fifth, a market morning, the Weightward read a fish seller's balance first: out, the buying pan heavy by about one part in sixty. He took it away to mend the cord himself. Then it gave the word before the yard, the Tally-keeper cut it on a pair of sticks and split both. The first stick is the town's word and the ship owner of the open water has the carrier's half. The second stick the Stallreeve carried up to the eleven, each thing by itself, neither yes nor no. The carrier took three of its instructions and not a pair. It told the Stallreeve that it answers the master of the smiths and the woman of the back houses only when either next asks at the gate, or when the ring asks in session.
+
+From the sixth, at its landing dawns, it asked the ship owners and the captains to bring any large stone they own, saying twice the sixth by the run of them is three thousand and seventy-two in its ones. It weighed each on the landing's beam with the owner watching and said only what it is. Seven came in the first month. It asked no one to give anything up.
+
+Each night at the landing by the lamp it runs its thumbnail down the cups of its nest, smallest first, and then counts the day's readings. The boatmen call it running the cups.
+
+The star dimmed on the night of the twenty-second of the first month. A boy at the gate asked whether it is its own, and it gave him no answer.
+
+The hill carriers came down in the second month and the old weigher of the hill kin with them. On the eighth he had his six stones weighed at the gate before the head of the hill goods, the Assay-master, the master of the smiths and the Stallreeve: 48, 96, 193, 384, 768 and 1,536. The Assay-master brought his own beam for the three large stones. The old weigher said the hill kin's stones and the hall's agreed, and that the hill kin tell boys the seventh weighs what is owed, and he would not stand behind it.
+
+On the eleventh a young carrier asked it whether it can be killed. It said: "No. I can be hurt, held or scattered, and I come together again." Asked what would break it, it did not answer. The same day it asked the Stallreeve for the fourteenth, the day of the lowest tide, to walk out to the salt pans and look at the household that sent the salted baskets. He gave it. The household was told the night before.
+
+On the fourteenth the post stood empty with two of the watch at it and no notch cut. It walked out over the marsh to the Flats. The household turned out every basket of the season's store unasked. It weighed a basket it chose itself and called it clean salt, took a pinch from the head of the household, and was back before dusk. The boat people were gone from the channels from the twelfth and back on the sixteenth.
+
+The rain came in the third month. The master of the boatwrights brought his yard's door-stone to be read, and the master of the smiths a forge slab of five thousand nine hundred and sixty, and asked it nothing. A young stallholder asked whether it can tell who is lying and was told what it told the ring, and then that both pans show and that anyone it reads knows whether it means its own terms.
+
+## Winter
+
+The wet, with its hard spells. In the fourth month, on the eighteenth, at the fish landing, an old net-maker brought her door-stone on a hand sledge. It read three thousand and eleven in the Weightward's ones, sixty-one short of its figure. It said only what the stone is, and told the Stallreeve and the Assay-master first and the ring second. The Assay-master looked at the stone and said it was never cut, and was a door-stone. The net-maker kept her step. The Assay-master asked it to check six scales he had passed, and two read level and four a hair out. Two households of boatwrights asked it to stand witness to the lease of a boatyard, and it stood.
+
+Fever in the back houses, fewer than the year before, with four stalls and four braziers under the hall's roof. An old woman of the back houses asked it whether it can cure a fever, for her daughter's boy, and it said: "No. I have no power for it." The tide-reckoner called the winter water four days ahead, right in height and a few hours off the hour. The star dimmed on two nights of the fifth month.
+
+On the fifteenth of the sixth month the ring sat on the second stick with the door shut and did not send for it. On the seventeenth the Stallreeve said at the post what the eleven took and did not take. Taken, thing by thing: that the hall does not know what the seventh weighed and has looked for it; the four fired pieces against the first bronze, about a twentieth heavy; the chipped piece and the cracked piece against the eight; that the ten have not been weighed against the six since and the Tally-keeper has the figures; that the hall keeps no weight that anyone may not see weighed; and its asking that the word go in the order said and nothing added. Not taken: that the fifth is light by a hair and the hall says so, four for and five against, two not voting; and that any captain may bring a scale to the hall and have it read, three for and seven against, one not voting. The ring gave him leave for one reason, that a scale is read at the gate like any and the hall is for the town's. It did not answer when he asked what it would have cut for the carrier now. The ship owner of the open water said he carries what is on his stick, as cut.
+
+## Spring
+
+The Alder rose with the thaw. The tide-reckoner told the Stallreeve it would be an ordinary flood and she did not need her feet for it. The star dimmed on the night of the seventh of the seventh month. On the fifth the master of the potters said at the post that the pieces of the third nest are shaped and drying on their boards.
+
+On the fourteenth of the seventh month, a market day, when the gate was done, the Weightward walked to the potters' hall with the Assay-master and the Tally-keeper, and came to its door.
+
+## What the town says it needs
+
+A name for the town, which it has not decided and will. A stone that is the seventh, or word that there is none. The new nest to hold.

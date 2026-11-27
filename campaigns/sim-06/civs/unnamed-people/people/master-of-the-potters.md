@@ -11,3 +11,5 @@ Temper: proud of her work and not hurt by being shown it was wrong, only slowed.
 This year: the nest, the second nest, the vote for the seat.
 
 Year 2 told again and Year 3: fired the second nest in the seventh month of Year 2; it came out agreeing with itself to a hair (the Keeper's). At the winter sitting said that if it was a god it was a gentle one and brought the pieces to the line like anyone. Voted for the seat. At the first sitting after the grain stood for the chest as one of a pair, and agreed to fire a third nest to the old six in the spring, twenty-two pieces to choose eleven. Whether it holds is the Keeper's; see the report.
+
+Year 3 again, from the fifth day of the first month, to the fourteenth day of the seventh month: brought the potters' hall's own scale to the gate on the fourteenth of the third month and it read level. Shaped the pieces of the third nest over the winter. Told the Stallreeve at the post on the fifth of the seventh month, in the Weightward's hearing, that they are shaped and drying on their boards.
