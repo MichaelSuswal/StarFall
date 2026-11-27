@@ -21,7 +21,7 @@ The decisions file, items 1 to 6, has it, and `messages/m-0005.md` has the word 
 - The first stick is the town's word. The Stallreeve took it for the eleven. The ship owner of the open water has the carrier's half and takes it out past the Horn when his coasters go, in the first days of the tenth month. That going is past the held moment: write nothing of it.
 - The second stick the Stallreeve carried up to the eleven, each thing on it by itself, neither yes nor no. Its words are in the decisions file, item 3.
 - The Weightward told the carrier how to carry it. He took three of its instructions and would not promise a pair of them.
-- It told the Stallreeve that it answers the master of the smiths, and the woman of the back houses, only when either next asks at the gate, or when the ring asks in session. He said he would not carry it either.
+- It told the Stallreeve where it stands on the master of the smiths' ask: it answers him only when he or another next asks at the gate, or when the ring asks in session. He said he would not carry that one either. Its answer to the woman of the back houses was not spoken at the post.
 
 ## Your god's decisions
 `campaigns/sim-06/player/decisions-004.md`, items 7 to 12, and the conduct profile `campaigns/sim-06/player/conduct-profile.md`, with its standing words. What comes of each among your people is yours to work out, but for the points marked settled.

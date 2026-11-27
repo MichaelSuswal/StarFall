@@ -84,3 +84,4 @@ Closed 2026-11-24 15:50.
 - 2026-11-26 20:30 step 2 done: pass one, the world events list, the eight civ releases and the sealed side release written. Civ agents: sonnet, run by the orchestrator.
 - 2026-11-26 20:51 step 3 done: the eight civ files read.
 - 2026-11-26 21:01 step 4 done: pass two, the year record, the ledger, growth, standing, messages and state written; step 6 releases and both boards written ahead of the check. Checker: opus, DM: fable, run by the orchestrator.
+- 2026-11-26 21:14 step 7: the checker's round 1 read, seven flags; flags 1 to 6 fixed; ready for recheck.

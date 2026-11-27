@@ -7,7 +7,7 @@ Three reckonings of mine, so the Keeper can overrule them. First, the calendar: 
 ## The stretch, in order
 
 **Month 1.**
-- Day 5, the gatepost, as played: the fish seller's balance read out, buying pan heavy by about one part in sixty, taken away to mend; the word given and mended twice; the first stick (the town's word) to the Stallreeve for the eleven, the carrier's half to the ship owner of the open water; the second stick up to the eleven, neither yes nor no; the carrier took three of its instructions and not a pair; its standing on the master of the smiths' ask and the woman of the back houses' ask told to the Stallreeve, who would not carry it. I wrote only what the yard saw and heard.
+- Day 5, the gatepost, as played: the fish seller's balance read out, buying pan heavy by about one part in sixty, taken away to mend; the word given and mended twice; the first stick (the town's word) to the Stallreeve for the eleven, the carrier's half to the ship owner of the open water; the second stick up to the eleven, neither yes nor no; the carrier took three of its instructions and not a pair; its standing on the master of the smiths' ask told to the Stallreeve, who would not carry it. I wrote only what the yard saw and heard.
 - That night and each night after: the landing, the lamp, the cups run smallest first, then the count. The boatmen's three reasons and name for it ("running the cups") are in the year file and lore.
 - Day 6 onward: the asking for stones at the landing dawns in the words of item 8. Seven stones in the month. The Tally-keeper cut each on a stick of her own kind at the landing table. The Stallreeve forbade wagers at the beam.
 - Day 8: the fish seller back with a mended cord, read level on the second trial.

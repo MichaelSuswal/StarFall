@@ -13,7 +13,7 @@ From the Keeper, for the morning and the next played day. Everything the Weigher
 ## Year 3 again, from the gatepost to the potters' door
 ### Autumn, the first to the third month
 - After the fifth day the line ran as before. The yard had heard the word given and mended and was proud and ashamed of it together.
-- Every night at the landing the Weigher ran its thumbnail down the cups, smallest first, and then counted. The boatmen saw. They have a name for it, which nobody has said to the Weigher.
+- Every night at the landing the Weigher ran its thumbnail down the cups, smallest first, and then counted. The boatmen saw.
 - From the sixth day it asked at its landing dawns for large stones. They came, a stone or two at most dawns: anchors, ballast, querns, door-stones, hearth stones. It weighed each with the owner watching and said what it was. The Tally-keeper cut a stick for every one, unasked. The Stallreeve forbade wagers at the beam. The figures are in the people's report, in a table.
 - The eighth day: the fish seller came back with a mended cord. His balance read level.
 - The night of the twenty-second day the star dimmed, as on the earlier nights, seen from the landing. The next morning a boy at the gate asked, "Is the star yours?" No decided words answer it. The line told him to hush.
