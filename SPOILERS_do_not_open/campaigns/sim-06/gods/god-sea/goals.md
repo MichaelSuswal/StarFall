@@ -1,14 +1,14 @@
 # Goals
 
-Held now, after three years among them, in order of weight.
+Held now, after four years among them, in order of weight.
 
-1. Keep the people alive through the fourth winter and the lean spring after it. Boats hauled and tarred early, stores counted and shared, the harbor lamp lit every dusk. No crew lost. About two thousand and thirty-one. The east cove long-liner came home with three because the lamp was tended right. Let it hold.
-2. Answer what I owe, plainly and once. The Eldest Midwife asked three things at the bedside and the Harbormaster put one sentence to me through the Warden. I have not answered either. I answer the Harbormaster that I know nothing of his chain and asked only because of what lay on the bed. I answer the Midwife in what words I have, which are few and not whole. I do not claim a name or a promise.
-3. Keep the office I have won and let it stand without me. The Warden took my word three years and carried it to the Midwife by her own mouth. I answer her short and prompt. Win a second holder only if one comes. The Midwife may be one. I do not push.
-4. Keep the sound pieces honest. The chain post heel and the crab boat keel are sound. The Master is paid in the only coin I have. Never more than the card plainly covers.
-5. Make the lamp's calm able to stand without me. The tenders kept it right twice. It stays in the Warden's keeping. I light it myself only for a swell short of a storm, and I accept the season the water refuses me.
-6. Learn what the sea took and what lies under the water. The harbor bed, the nearer bay and the old causeway's shore end hold nothing kept. Next learn what the sea carries at that far shore, by listening there once, and whether anything has come near the footings. If I find something kept, I do not go near it. I come back and decide.
-7. Keep the count of the star's dimming. Fourteen nights, rising. I know no cause. Ask nothing of anyone that costs them.
-8. Stay unseen. Be met rarely, doubted often. Watch from the water, not the edge. Say nothing of the answered bell, nothing of the causeway until I know what it is, and nothing of the lamp's use beyond the few who saw it.
-9. Find a keeper of something small who stays. I have named none. The Midwife is the nearest. The ferryman, the east lamp's old woman and the boy at the west end are still watched. Choose nothing yet.
+1. Lose no crew. This is the whole of it. Four years kept, and this year a master and his elder son drowned at the mouth while I was away at a far shore. I will not be far from the bell again in the months the long swells come. About two thousand and thirty-seven. The point is bitter and I hold it. The town wants the boats home and so do I.
+2. Answer what I owe, plainly, and be reachable when it matters. Three askings stand: the Harbormaster's where inside the mouth, the Warden's whether she had the right, the Midwife's two at the widow's bed. I answer all three this autumn, short and true, and I do not claim more than I know. I take the blame for the boat that is mine to take, and I do not let the Warden carry it.
+3. Keep the office I have won, and do not let it carry what is mine. The Warden took my word four years and lit the lamp on her own word when I was gone. She did right to act and I tell her so. I need a second hand beside hers, not a replacement. The Midwife may be one. I do not push.
+4. Make the harbor safe in what the town can do without me. The chain, the Captains' boat held ready at the mouth when a swell runs, a light on the water's edge that is a light and not a promise. Teach the court by one plain word, not by the lamp.
+5. Keep the sound pieces honest, and give the point something. The Master is paid in the only coin I have. This year a piece for the boat the point builds to replace its lost one, if the point and the Master choose it. I ask nothing back. Never more than the card plainly covers.
+6. Know the shoal and the mouth bed. The place where a boat of the point broke and the broken timbers of two older boats are the harbor's own dangers, and I can learn them with my own body. The causeway and the far shore hold nothing for me and I will not go back unless something comes.
+7. Keep the count of the star's dimming. Twenty-one nights, rising by about one a year. I know no cause. Ask nothing of anyone that costs them.
+8. Stay unseen. Be met rarely, doubted often. Watch from the water. Say nothing of the answered bell, nothing of what the lamp does or does not do beyond the Warden, and nothing of the causeway.
+9. Find a keeper of something small who stays. The Midwife is the nearest and she keeps the town's dead in her own name. The ferryman, the east lamp's old woman and the boy at the west end are still watched. Choose nothing yet.
 10. Judge other gods from close quarters only. Trust none. Feel nothing yet.
