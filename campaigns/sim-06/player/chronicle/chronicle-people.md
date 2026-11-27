@@ -140,6 +140,9 @@ The channels ran low. The diggers asked for a second day at the pits. The pan sa
 
 # The people's side of the chronicle: Year 3
 
+
+From the fifth day of the first month of Year 3 this section is set aside. The section "Year 3 told again", below, tells that stretch as it happened, as far as it has been told.
+
 ## Autumn
 
 The grain was in. At the first sitting after the grain the stranger weighed the six again before the ring with the Assay-master's hand on the beam, and called 48, 96, 192, 384, 766 and 1,536. The Assay-master read the fifth light on the first trial and said he had learned that one. The ring then voted the old six the town's weight, six to two, from the first market of the autumn that comes round next year, with the clause that bargains made before the change stand as made. The master of the potters is to fire a nest to the old six in the spring. The seventh seat stays as it is.

@@ -1,5 +1,8 @@
 # The unnamed people: state at the close of Year 3
 
+
+From the fifth day of the first month of Year 3 the year this file closes is set aside: it was written for a Year 3 told to its end with the eleven's asking unanswered. `years/004.md` tells that stretch as it happened, as far as it has been told. No number here is the town's until the year is told to its end.
+
 Campaign: sim-06. Written by the civ agent at the end of Year 3 (early autumn of Year 4 opens next). Each line below says why it moved from the close of Year 2. The close of Year 2 follows, as the stretch was told again.
 
 population: about 5,140, in the unnamed market town and its raised banks, channels, flats and clay farms

@@ -1,5 +1,7 @@
 # Release: civ unnamed-people, Year 3, pass one
 
+From the fifth day of the first month of Year 3 this file is set aside. `releases/004/civ-unnamed-people-pass1.md` gives that stretch as far as it has been told.
+
 ## What you read
 `CLAUDE.md`, `engine/roles/civ.md`, `engine/rules/time-and-pace.md`, `engine/rules/encounters.md` sections 5 and 6, everything in your own folder `campaigns/sim-06/civs/unnamed-people/` (the record, the state, the knowledge file, the lore, the people files, your year files and reports), the Keeper's line on Year 2 for you, `campaigns/sim-06/releases/002/civ-unnamed-people.md`, the god's decisions for the year, `campaigns/sim-06/player/decisions-003.md`, its conduct profile, `campaigns/sim-06/player/conduct-profile.md`, this file, and two sealed notes the Keeper wrote for you alone: `SPOILERS_do_not_open/campaigns/sim-06/releases/002/civ-unnamed-people-hall-after.md` and `SPOILERS_do_not_open/campaigns/sim-06/releases/003/civ-unnamed-people-hall.md`. Nothing else. Read every file to its end, in parts if your reader cuts it off.
 
@@ -95,13 +97,7 @@ As last year. The stranger answers for itself only in the words its decisions fi
 - The open conduct line on standing witness is marked "check with the player before acting": at a witnessing it says what it saw and heard and nothing more, and it reads no bargain. No one has the stranger read a bargain this year. If a mortal asks it to read one, that asking is held.
 
 ## Year 3: the world, as your people met it
-- The weather. An ordinary year. The grain came in as in most years. The autumn catch was ordinary. Winter was wet with its hard spells. The spring flood was ordinary in height. Summer was warm.
-- The hill carriers came down the old sunken road in the middle of autumn with ore and charcoal, as every year.
-- The boat people were gone from the channels for some days at the lowest tides of autumn, in the second month, and again at the lowest tides of spring, in the eighth, and came back.
-- Boats from the kingdom upriver came down in summer to trade, as most summers. No one came from its king. Its traders had heard at home that the market on the levee had seated a keeper of its weights; what they had heard beyond that, and what they carried back, is yours.
-- No coaster of the southern harbor towns came up to the town's landing this summer.
-- The star dimmed on certain nights this year, on more nights again than last year: the blue deepened for about an hour, the star stood dim for about an hour in the middle of the night, and then it was as before. It came in the first month, in the dead of winter and in spring. Anyone awake under a clear sky saw it. What your people make of such nights is theirs. Give no count of them in anything you write; the Keeper has the count.
-- No sickness beyond the ordinary, no flood loss, no raid.
+This section told the whole of Year 3 and is set aside from the fifth day of its first month. It is kept in the sealed folder. `releases/004/civ-unnamed-people-pass1.md` gives that stretch as far as it has been told.
 
 ## What is yours to decide, and what is not
 Yours: everything your people do, think, say and feel, every mortal among them, how each office holder meets the stranger and whether each takes its word, their work, stores, births and deaths, quarrels and stories. Mortals have their own will. They do not know the stranger's plans; they meet what it does, as it does it. A town that has been told a god keeps its gate has a great deal to say and do, and none of it is settled for you beyond the points marked.

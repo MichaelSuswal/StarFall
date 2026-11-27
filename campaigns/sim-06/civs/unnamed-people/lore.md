@@ -131,6 +131,8 @@ They do not say what the Assay-master and the stranger said in the hall after th
 
 ## Year 2 told again, and Year 3: what they say at the close of Year 3
 
+From the fifth day of the first month of Year 3 this section is set aside. The section for the stretch told again, below, and `years/004.md` tell that stretch as it happened, as far as it has been told.
+
 Where this section differs from the sections above, this is what they now say. The Year 2 section above was written before the evening of the weighing was known to the town, before the winter sitting, and before the gatepost. It is what they said then.
 
 ### The stranger

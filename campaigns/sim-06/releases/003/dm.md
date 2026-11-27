@@ -104,7 +104,7 @@ The board. The first market after that sitting. The yard in its line, the Weighe
 
 The Stallreeve says: "The eleven say yes to what you asked of me at the gatepost, Weightward. The town wants a keeper's word sent down the coast, in the plain terms you gave the eleven: what each of the hall's pieces is now, in your ones, and that the eleven have said which is the town's weight. The ship owner of the open water will carry it when his coasters go out past the Horn. The eleven ask you for the words." He lays half of a split stick at the foot of the gatepost.
 
-Nothing has been answered. The Weigher asked whether the town wanted such a word and said it would send none without their say; the words themselves the player has not given. Since then the Stallreeve has said nothing more of it at the gate. The half-stick lies where it was laid. The open-water owner's coasters went out in the tenth month. Whether a word went with them turns on the answer, and is provisional: as the year stands with the moment unanswered, none did. Tell the player so.
+Nothing has been answered. The Weigher asked whether the town wanted such a word and said it would send none without their say; the words themselves the player has not given. (A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
 
 ### From the gatepost on: set aside
 From the fifth day of the first month of Year 3 this release is set aside. What stood here told that year to its end with the eleven's asking unanswered; it is not what happened, and it is kept in the sealed folder. `releases/004/dm.md` tells that stretch as it happened, as far as it has been told.
@@ -116,8 +116,8 @@ Held, to be played: the ring's yes and its asking for the words, at the gatepost
 Asked and met with silence:
 1. The master of the smiths, at the winter sitting: "Can you be killed? What would it take to break you?"
 2. A woman of the back houses, at the winter sitting: "Can you cure a fever?"
-3. A boy at the gate, twice: "Is the star yours?"
-4. A netmaker at the gate: "Can you tell the height of the water like the tide-reckoner?"
+3. (A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
+4. (A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
 
 Answered by what was played or decided, and so closed: the Assay-master's three old asks; the master of the smiths on the seventh; the old weigher's stones; the yard's "Weightward".
 
@@ -128,20 +128,20 @@ Not a question to the Weigher, but left open before it: the coaster's master's p
 - What the three saw in the loft, from the Assay-master, and that the ring has had it since the winter.
 - That the ring had the seventh looked for, where, and that nothing came up.
 - That the southern harbor houses keep each its own weights, and that the council in Corrith keeps a set for quarrels.
-- The hill kin's saying about the seventh, given as a saying.
+- (A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
 - That the head of salt and his people will not ask it to read a bargain.
 - The town's names for it are still not said to its face.
-- In the line, of the star: the old say it is the drowned god; some of the young now say it is the Weightward's.
+- (A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
 
 ## The sky
 
 Year 2: the last pair of the five came in the eleventh and twelfth months, as released last year. It saw each from the landing.
 
-Year 3: the star dimmed on six nights, and it saw each from the landing: one in the first month, a pair in the fifth, a pair in the seventh and one in the eighth. Each time the blue deepened for about an hour, the star stood dim for about an hour in the middle of the night, and then it was as before. It saw nothing else in the sky on those nights, and nothing in the town or on the water that went with them. Six in the year, where there were five the year before and three the year before that. (For your handling: this is the whole of what its watching has given it; do not make a pointer of it.)
+(A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
 
 ## God-sense and the body
 
-It felt no other like itself in either year: at the gate, in the hall, at the landings, at the pits, or before the coaster's master. The body is whole. It did not sleep. Nothing was taken from it. In its coat: the half-stick of the council's first asking, the half-stick of the seat, and the old keeper's key. The half-stick of the ring's asking for the words lies at the foot of the gatepost.
+It felt no other like itself, to the fifth day of the first month of Year 3. The body is whole. It did not sleep. Nothing was taken from it. (A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
 
 ## What the Weigher feels of its powers
 
@@ -156,7 +156,7 @@ Nothing new. The True Measure answered as it always has. The Good-Faith Reading 
 
 ## The people at the year's turn, as the Weigher can see
 
-About five thousand, fed and not afraid. The town has a Weightward for a term, a weight it has named, and a seventh seat it has stopped looking to fill. The gate's line is longer than it was. The channel folk, the potters and the clay head speak well of it; the head of salt, the master of the smiths, the master of the weavers and the head of the hill goods voted against the seat and have found no cause to call it down. The back houses bring their scales and ask for nothing else. The salt-rakers are quiet about it. Some who bargain have moved their bargaining nearer the gatepost, and some farther off.
+(A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
 
 ## Deaths
 
@@ -170,7 +170,7 @@ The Keeper has entered the first in `player/map-knowledge.json`.
 
 ## Messages
 
-- Sent: its word to the old weigher at Ruddfold (`campaigns/sim-06/messages/m-0002.md`), by the hill carriers in the second month of Year 2. As the Weigher knows it: he came down the next autumn with his stones and said the word had reached him.
+- Sent: its word to the old weigher at Ruddfold (`campaigns/sim-06/messages/m-0002.md`), by the hill carriers in the second month of Year 2. (A line stood here that told Year 3 past the fifth day of its first month. It is set aside and kept in the sealed folder.)
 - Received: none.
 
 ## Build 7 setup, 2026-11-25
