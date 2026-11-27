@@ -77,3 +77,11 @@ A companion that is not a servant and not a rival. Someone who can tell me no an
 ## Answer 19
 
 That nothing in this world be forgotten that ought to be remembered, and that a wrong done in the dark be answerable in the light. Let the dead be heard in the end. I have said it plainly, and I will not say it prettily.
+
+## Answer 4, given again
+
+Some of each, and I will not pretend the two sit quiet in me. Hand me a blank on the far side of the ridge and I am over the ridge before the thought is finished. Haste is my own fault, and I know the weight of it. They say a hasty hand spills the water it came to carry. So I want the wild country, and I want it near, and I want to be the first to put a foot in it. Leave the unwalked land open and unclaimed.
+
+But I am a shepherd by the grain, and a shepherd who runs ahead has no flock behind him. What I am quick to do with my own feet I will not do with my people's. I go out alone, and I come back. Old kingdoms already rooted are the ones I would have my people deal with, at the gate, with a stone to mark the boundary and a judge to hear the quarrel. The wild is mine to scout. The old neighbors are theirs to bargain with. Over the wall by day, and home before the dark, as the saying goes.
+
+So there is no calm patience in me. There is a quick god and a careful keeper, and the one keeps the other from spending what is not his. I would find some of each, and I would be the one to find the wild part first.

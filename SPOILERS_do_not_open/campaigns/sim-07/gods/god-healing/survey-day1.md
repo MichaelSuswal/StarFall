@@ -75,3 +75,11 @@ What should a god find that it cannot imagine? Is it a place where the rot does 
 ## Answer 19
 
 Dare I say it? Could this world be one where no one can find the thing I ran from? Could there be a place so far down that even the patient cannot follow? And could someone, someday, ask me where I came from, and could I answer without my voice shaking? Is that too much to wish?
+
+## Follow-up, answer 5
+
+The young people. Could I not know every one of them by face, and by what ails them? Is that not what tending is? Would ruins under ruins not mean old things with long memories, and could any of them remember a thing I ran from? Let the old roads and the sealed door be older than the people, then, and let no one living know who built them.
+
+## Follow-up, answer 14
+
+One wanderer. Would a single stranger with a blade or a book no one can read not be enough to wonder over for a long while? Why would I ask for numbers, when numbers bring sickness I have not learned yet, and the people I tend are few? Let there be one, and let me be the one who notices.
