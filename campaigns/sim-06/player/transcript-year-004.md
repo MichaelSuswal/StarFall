@@ -149,3 +149,47 @@ On the two asks that have waited. To the smiths' master, "Can you be killed?" No
 I let the Keeper's ruling on the Reading stand. If I'm asked a follow-up, I say the rest of it: that both pans show, and that anyone I read knows whether I mean my own terms.
 
 (One more answer was given privately, for the sealed record.)
+
+## DM:
+
+You try the fish seller's balance against your brass, pan by pan, with the line watching. It is out. The buying pan sits heavy by about one part in sixty, and you say so, which pan and how far.
+
+His face goes dark for a breath. "Mine?" Then he lets the breath go. "Buying pan, a sixtieth," he says back, the way the channel folk do, so as to have it right. He takes the balance from your hand, sets down his pinch of fish for the reading, and stands off to one side picking at the cord with his thumbnail. He asks for no stick.
+
+You take up the half-stick from the foot of the post. It is dry and light, cut on one face, with a blank run left along it.
+
+The Stallreeve nods once at the stick in your hand, and there is something in it of a man who is glad to have carried a yes. "Taken up," he says, for the line as much as for you. "Then the eleven are owed the words, and here is as good a place as any."
+
+The Tally-keeper has her knife out and is looking at your mouth. "Say them slowly," she says. "I cut what is said."
+
+You say them slowly. Who speaks, and that it is not a price and not an offer, and what it tells. Then the six, figure by figure, and she cuts each as it comes: forty-eight, ninety-six, a hundred and ninety-two for the bronze; three hundred and eighty-four, seven hundred and sixty-six, fifteen hundred and thirty-six for the stone, on the hall's beam with the Assay-master's hand on it. The yard is quiet. Some of the channel folk and the potters nod at figures they know. The salt-rakers give nothing. At seven hundred and sixty-six the Assay-master's chin comes down a little, and he says nothing.
+
+You say that the fifth is light by a hair and that the hall says so. You say that the rack is cut for seven and the seventh is not in it, that the hall does not know what it weighed, and that it has looked.
+
+The Stallreeve puts up a hand, level, to the Tally-keeper and not to you. "Hold there a moment, Weightward, so the yard hears how this goes. I was sent to ask and to carry. What the eleven named I can take for them here: who speaks, what each piece is in your ones, and what they have said of the town's weight. The six figures are that, and I take them. That the fifth is light, and that the hall says so, I carry up. The empty seat, and that it was looked for, I carry up. I do not say no to any of it and I do not say yes. The eleven will. I'll not tell you when." He turns his head to her. "What I take on one stick. What I carry on another, word for word."
+
+She nods and turns a second stick up out of her apron. She has not split either.
+
+"Go on," he says.
+
+(oog) I stop you there, because the next line cannot be said as you gave it.
+
+"The hall's fired pieces, used in this town until the day the old six were weighed, are heavy against the old six by about a twentieth." Two things.
+
+The first is your card. The Weigher cannot give a false measure, spoken, written or cut. As worded, the line says it of the hall's fired pieces, all ten. By your own calls on your first day, eight of them read alike at twelve and a little better than a half, and four of those sank against the first bronze at the weighing, about a twentieth heavy. The chipped piece you called at twelve less a hair and the cracked piece at eleven and something under a half. Neither of those is heavy by a twentieth. So the line as it stands is a measure the Weigher cannot speak. I do not reword it. Give me the line as the Weigher says it.
+
+The second is the record, not the card. The fired pieces are not out of use. What the ring decided on the second day is that the old six are the town's weight from the first market of the autumn that comes round next year, and bargains made before then are reckoned by the present pieces. They are on the hall's wall and in use this morning. "Used in this town until the day the old six were weighed" does not match that. It is not a measure, so the card does not stop it, and it is yours to keep or change. I am telling you so that you choose it knowing.
+
+The rest of your words I hold as you gave them, unsaid until you have given me that line, and in your order. Nothing is cut past the seventh seat, and neither stick is split. The Tally-keeper takes a correction before a stick is split and none after, so what is already cut can still be mended if you want it mended.
+
+On what you gave for the rest of the year. None of it is played today, and I resolve none of it. It goes to the night as you gave it, and I will read it back to you at the close.
+
+The potters' nest. The weighing green at the potters' hall and the weighing again at the kiln-opening are scenes you have prepared, and under the build this world now runs on the night holds each at its opening moment for you to play live. The ring's decision gives the firing as "in spring" and no day, so the day is the world's to set. Your asks of the master of the potters, each piece brought to you green and three spares of each size, are put to her in the scene, and she answers there.
+
+The search for the seventh by weight, at your landing dawns, goes over as you gave it, with your terms: the owner watching, only what the thing is, nobody asked to give anything up, the Stallreeve and the Assay-master first and the ring second. Three thousand and seventy-two goes down as the Weigher's own reckoning from the run of the six. No one has told it what the seventh weighed.
+
+The day at the salt pans goes over as an asking of the Stallreeve for a day at the lowest tide, with the watch keeping the line, nobody read, and no notch cut.
+
+Your two answers are recorded as given. To the master of the smiths: no, you cannot be killed, you can be hurt, held or scattered and you come together again, and you will not say what would break you unless the ring asks you in session. To the woman of the back houses: no, you have no power for it, and that you are sorry about her child, said to her if she comes to the gate. One question on the first of these. The master of the smiths asked at the winter sitting, a year and a half back, and he is not at the post this morning. Does the Weigher go to him to say it, say it at the ring's next sitting, or say it when he or another next asks?
+
+The Keeper's ruling on the Reading stands, by your word, and your follow-up is written into your standing words: asked further, you say that both pans show, and that anyone you read knows whether you mean your own terms.

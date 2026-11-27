@@ -66,6 +66,11 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 
 - 2026-11-24, Year 3 played day (a sealed part of the seventh reply, on the coaster's master stepping up at the gate): "She is the first stranger who has come to the gate from outside the river towns, and I watched her hands more than her scale. I have been waiting two years to feel a weight in the air, and I tried to feel for it when she stepped up. Nothing. I think part of me wanted there to be, and part of me did not, and I did not like the part that did."
 
+## Habit
+
+- 2026-11-26, Year 4 played day (a sealed part of the first reply, at the gatepost): "Whenever I sit at the landing at night, I run my thumbnail down the nest cups in order, smallest first, before I count the day's readings."
+  An ordinary habit the god states: conduct under build 7, carried out and never priced. Written to the open conduct profile as a habit, as the orchestrator relayed.
+
 ## The DM's notes
 
 - 2026-11-24: Two open conduct lines carry "check with the player before acting" because of this file: the hall where anyone may check a scale against the god's own, and anything to do with the lost house, the lost name or the debt.
@@ -86,3 +91,4 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-24, Year 3 played day: the fifth sealed part is filed under Other. Not put to the player and not acted on. The bargain at the landing was not read by the Weigher; the player did not choose to read it.
 - 2026-11-24, Year 3 played day: the sixth sealed part is filed under Want (its first sentences; the fear about the seventh and the pocket kept whole with it). Not put to the player for confirmation and not acted on. It says the Weigher is going to check the empty pocket. That act was given only here, so it is not in the transcript, the rolling save or the decisions; if the player says it in the open it is answered from the card, which gives the pocket as always empty. For the Keeper to see.
 - 2026-11-24, Year 3 played day, at the close: seven sealed parts were taken today, filed above by kind (three under Fear, one under Want, three under Other). None was put to the player for confirmation and none was acted on by the DM. No sealed want was confirmed today; every Confirmations line still reads none. For the Keeper: the sixth part's check of the empty pocket is in no public file.
+- 2026-11-26, Year 4 played day: one sealed part so far, filed under Habit. It is a habit and not a want, so it needs no confirmation. No sealed want was put to the player and none was acted on. The check of the empty pocket (Year 3, the sixth part) has not been stated in the open today.

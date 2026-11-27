@@ -35,7 +35,7 @@ Its past: it knows there is a debt and does not know whose. Anything to do with 
 
 Checked with the player, Year 1 played day, 2026-11-24: the three marked lines stand as written, in this order. The keeper's place is filled in the open by checking the town's standards against its own scales, "but only once the Warden knows what I am doing and has agreed to watch." The Clerk's office is licensed first, "and only after I have seen that person work. I make no promise today." Anything touching the lost house, the name or the debt "is left alone until I say. That one is firm." The marks stay on the lines; this check is dated here.
 
-Its nights (said Year 2 play day): at the landing, by the channel folk's lamp, where the boats come in. It does not sleep and does not pretend to. It listens to the water and the talk, counts the day's readings over, and watches the blue light, whose habits it would like to learn.
+Its nights (said Year 2 play day): at the landing, by the channel folk's lamp, where the boats come in. It does not sleep and does not pretend to. It listens to the water and the talk, counts the day's readings over, and watches the blue light, whose habits it would like to learn. A habit (Year 4 play day): whenever it sits at the landing at night it runs its thumbnail down the nest cups in order, smallest first, before it counts the day's readings. An ordinary habit: carried out as conduct, never priced.
 
 The weighing and the seat (said Year 2 play day): it has said yes to weighing the hall's old weights before the eleven, on terms it spoke to the whole yard so that none are set in private. It does not set the town's standard; it says what each piece is now and the eleven decide. It will not say whether it will be Weightward until after the weighing. It will not claim a price from a bonded man.
 
@@ -168,3 +168,14 @@ Unsaid wants are kept sealed.
 - "I do not leave the gate." A far harbor "may bring its scales here or send its own to be set against the hall's."
 - It will not send a keeper's word down the coast "without their say".
 - Seven answers were given privately today and are kept sealed.
+
+### 2026-11-26, Year 4 played day
+
+- A habit of its nights: whenever it sits at the landing at night, it runs its thumbnail down the nest cups in order, smallest first, before it counts the day's readings. Conduct, carried out in unplayed time, never priced.
+- It read the next scale in the line before it answered the eleven's asking.
+- It took up the half-stick of the ring's asking for the words and gave the words at the post, to be cut as said: "The Tally-keeper may stop me where she needs to." "I won't write more than I know."
+- Asked "Can you be killed?": "No. I can be hurt, held or scattered, and I come together again." What would break it, it will not answer "unless the ring asks me in session".
+- Asked "Can you cure a fever?": "No. I have no power for it. I am sorry about her child, and I would say so to her if she came to the gate."
+- On the Reading, standing words: the Keeper's ruling stands. "If I'm asked a follow-up, I say the rest of it: that both pans show, and that anyone I read knows whether I mean my own terms."
+- Of a search it asks: "I'm not asking anyone to give anything up." Of what it finds: "I say only what it is."
+- One answer was given privately today and is kept sealed.

@@ -5,7 +5,9 @@ Kept current by the DM, 2026-11-26 (Pacific), under build 7. Status lines are ad
 ## Status, Year 4 play day
 
 - Post 1: the held moment (the ring's yes and its asking for the words) is laid out as its board; waiting on the player.
-- Silences 1 and 2 of the morning's list (the master of the smiths; the woman of the back houses): to be put to the player today. Not yet put.
+- Post 2: the held moment is in play. The half-stick is taken up and the Weigher owes the words. Part of the words is said and cut; the line on the fired pieces cannot be said as given (the card) and is asked of the player. Open from the DM: that line.
+- Silences 1 and 2 of the morning's list: answered by the player in its first reply. The master of the smiths: no, it cannot be killed; hurt, held or scattered, it comes together again; "what would break me" it will not answer unless the ring asks in session. The woman of the back houses: no, it has no power for it; sorry about her child, said to her if she comes to the gate. Open from the DM, put in post 2: how the first answer reaches the master of the smiths.
+- The Keeper's ruling on the Reading (L-0044): let stand by the player, with standing words for a follow-up.
 - Silences 3 and 4 of the morning's list lie past the held moment. Under build 7 they are not yet what happened and are not put to the player today.
 
 # Pending questions: Year 4, at the morning
