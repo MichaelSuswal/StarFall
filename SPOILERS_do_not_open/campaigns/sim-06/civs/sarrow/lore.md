@@ -1,6 +1,6 @@
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
-# Lore of the Sarrow, end of Year 3
+# Lore of the Sarrow, end of Year 4
 
 What the people now say. Where they explain a cause, they are wrong about something that matters. The wrongness is marked after each telling for the Keeper. Year 1 tellings that still stand are kept and marked.
 
@@ -86,3 +86,48 @@ What the people now say. Where they explain a cause, they are wrong about someth
 - That a household that sets the seat and leaves the door unlatched is rewarded, and that this is why the winter held. Wrong in Branch B, where it did not, and the households then say the door must be set better.
 - That a band that eats last two winters running has done the host a service. The captains say so in the hall, and say the opposite at the fire.
 - That the line of the grass is going up. The herders say it without grief, and the households do not yet believe them.
+
+## Year 4 tellings (added; earlier tellings that still stand are kept)
+
+### About the Guest
+
+- That she has a name now, Mother of the Door. The households say it is the old name and that she told it to the king of the river as one tells a name to a guest. The Doorwardens say it is the name of the sill itself, that she has said she is the door and not the one at it. Some captains say a god who names herself in a letter has begun to bargain. Wrong in all three: she said it in a word to a king, and said they call her Guest, and gave it no more weight than that.
+- That she sat alone with the Lintel at the hall table the night before she spoke, with bread, and that he came out pledged. The captains say the Lintel was given his road back; the Doorwardens say he was warned. Wrong in both: nobody but the two of them knows what was said, and Kessan has said only what he said.
+- That she said the toll is the sill's to keep and the host's to take, and that this is why the toll came down. Said in the quarter as the Guest's law of the toll. Wrong: the toll came down by what the cords showed, and by Kessan's own mouth with Idris's, and what she said at the table is hers.
+- That she walked to the farthest door and laid salt on it and counted the road. The riders say it is a thing a god does when she does not trust a house; the households say she told the keeper first and so it was no accusation. Wrong in the riders' telling, which she had named in advance.
+- That she stood at the rite fire through the names of all the winter's dead and did not sit, and that she wept. Said by the old women, and the households say it was a thing owed. Wrong in the weeping, which no one saw.
+- That the stone she asked the herders to cut is the Guest's mark on the grass and that the line stands because of it. Said by the herders of the upper columns, who cut it, and by the households. The herders themselves say a stone cut to count a line is not a stone that holds it, and the households do not hear them.
+- That she asked again at every fire of the upper columns what Marda is, and was told five things, and that a god who asks the same at every fire has lost a thing, as the lower columns said. The upper columns say the answer they gave is the true one, and each means a different thing by it.
+
+### About the strange things
+
+- The star. Seven nights this year, the most yet, twenty one in four years against six blessings, and the Doorwardens say the count does not agree and are told again that the sky keeps its own calendar. The households say it dimmed for the toll when it was settled, and the herders say it dimmed on the high grass because the line stood. The old women say it dims for the dead who were named at the first snow. Wrong in every telling: none fell on the night a thing was settled or a name said, and the people have set the cause after the night.
+- The flower. Bare again at the cutting. The herders say it is not coming back and that the stone will count the line of the grass year on year whether anyone listens or not. The Doorwardens say it will return when the toll is fairly kept. Wrong in the Doorwardens' telling, which ties it to the toll.
+- The cranes. Said still to count the doors, the stores, and now by some the dead. Wrong, and the plainsfolk have no word of it.
+- The summer without the river's trains. The households say the king has closed the road for the letter's answer. The captains say it was the raise, which the traders complained of, and that the lowering came too late. The Doorwardens say the king's heir keeps his claim by keeping away, and that no claim has been made at the sill, which proves nothing yet. The older watcher says only that he has not known a summer without one. Wrong in some part that matters, and not known to them: the cords say only that the river's trains did not come, and the trains of other peoples did.
+
+### About their rulers
+
+- Of Kessan: that he was told first and told not alone but by one who would keep his road, and that he halved his own raise at the table with Idris and the Guest and the captains have not forgiven it. The households say he did what he said he would do in the autumn, and said so. Wrong: the cords said it and he read them.
+- Of Idris Veld: that she said the sill takes one toll and not two, and took the middle of it, and that she carried a folded word to the ford with her own hand. The Doorwardens say she is the Guest's own door. Wrong in the last: she sent it by a boy and gave it no more weight than a word.
+- Of the Steward of Salt and Stores: that he gave a number first again, and that he now seals the seed with a mark beside the Mother's and says aloud the order the stores would fail in. The saying that a fortnight is the Steward's measure is said now with respect and no smile. Wrong in that it was never the measure, but he learned to give the number.
+- Of the Mother of the Hearth: that she holds half the seal and will not give it up, and that she said it was the first time she had heard the host's word held to a count. Said in the quarter as a good sign and a hard one.
+- Of the Marshal of the Road: that he stood at the farthest door with his cap in his hand, and that he sent riders for the loan and did not ride himself. The riders say it was a Marshal's duty. In the low quarter it is told as a thing he was not trusted to do. Wrong in the telling that makes it already a charge, in Branch A; in Branch B the farthest house's words are told as a thing that was not answered.
+- Of the youngest of the eight captains: that he said aloud that the Guest's thanks were the first the band had had for eating last. Said at the fires of the band. Wrong in the sense taken, that the band wants something, which he did not say.
+- Of the older toll watcher at the ford: that he took the Guest's word to the king of the river kingdom and kept it dry in his father's chest until a train master would carry it. Told at the ford as a thing the sill did. Wrong in the part that makes him the Guest's messenger to a king, which he says he is not.
+
+### About their neighbors
+
+- The river kingdom's trains paid the raised toll in the spring with open complaint, loud at the ford and the far houses, and did not come at all in the summer. The watchers say they know the faces and the faces did not come. Wrong in nothing the watchers know; wrong in every cause the hall gives, since the hall does not know the cause.
+- The word the Guest sent the king left the ford with a master of a river train who would take it for a waived toll, after another would not. Said at the ford and in the high rite, not in the quarter. Whether it was given is not known.
+- The two farthest toll houses are said still to have new roofs, good horses and full smokehouses, and the Guest to have marked the farthest door with salt and the oath before the keeper's eyes. The keeper said that his cord had nothing in it the knots did not say. Told in the quarter as it was said.
+- The counted road did not come, again, and the old say they will come when the house has been judged.
+- The plainsfolk have heard the cranes, the old women say.
+
+### About themselves
+
+- That the seed is sealed under two marks and that this is the Guest's law of the seed. Said by the Doorwardens. The Mother of the Hearth says it is the Steward's and the hearth mothers' own, made after the winter that ate it. Wrong in the Doorwardens' telling.
+- That the sharing from the first snow is now the households' own custom and the band's eating last is the band's own. The captains say so in the hall and say the opposite at the fire.
+- That a band that eats last three winters running has done the host a service, or has been used. Said both ways.
+- That the names of the winter's dead were said at the first snow for the first time, with the seat set, and that a house that names its dead is rewarded. Wrong in the reward; the winter that followed is the answer, and the people read it by the branch it took.
+- That the line of the grass stood this year. Said by the herders without hope and by the households with some. Wrong in the households' reading, which takes one year as the turn.

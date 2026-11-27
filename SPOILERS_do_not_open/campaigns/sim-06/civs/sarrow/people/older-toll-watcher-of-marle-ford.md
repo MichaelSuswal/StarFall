@@ -1,0 +1,7 @@
+> SPOILER WARNING: Keeper material. Players should not read this file.
+
+# The older toll watcher at Marle Ford
+
+Unnamed; no one said the name aloud. The older of the two watchers who keep the toll house at Marle Ford [f61], who had the oath of the sill as a boy at his mother's hearth, speaks the river speech a little and cannot read. He kept the ford cord. He met the Guest the first morning of Year 1 and has given her the count every autumn since, plain and unscolded.
+
+Year 4, dated: month 1, gave the Guest the count by the knotted cord and, asked how the toll was reckoned in his father's time, said by the beast: a knot a beast and a short knot for a man carrying on his back, the head never tolled, a man fed and the loaf the feeding and not the toll; the knot had stood unchanged to the raise, which made it a knot and a half; he could not say what a train of today's size would have paid in his father's day, since his father's trains were larger. Said no one but a watcher had met a train at the ford that season. Received the Guest's folded word to the king of the river kingdom by Idris's boy, read the terms back twice, kept it in the chest with his father's cord, asked a first master who would not take it and did not press him, and gave it to a second master of a river train who would take it for the waived toll, saying only that it was a word of the Sarrow to the one who had written to the ford. Month 10, said at the hall he had not known a summer without a river train. Ages one year.
