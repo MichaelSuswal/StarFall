@@ -75,3 +75,23 @@ The Flats are on your map as seen, since you walked there. Nothing else on it ch
 The thirty stones and their figures are in the record, each as you called it, if you want them read out.
 
 No painting this morning. The paintings approved for this run are used, so the request is held and nothing was painted.
+
+## Player:
+
+I stop a pace short of the door, so I'm not standing in her light, and I say it plainly.
+
+"Master. I want your leave to weigh your pieces before they are fired. Not to judge them. I told you at the gate I do not set the town's weight, and I do not set yours. I came to weigh each piece as it stands on your board, dry and unfired, and to weigh it again after the kiln, so that you and everyone else who fires a weight has the loss from the fire as a number and not a guess.
+
+"This is how I'd do it, if you allow it. You or your hands lift each piece from the board and set it in my pan. I do not touch them. I call each in my ones, smallest first, and the Tally-keeper cuts the figure beside the piece. The Assay-master checks the two or three largest on your beam, with my scales in my hand, since the biggest are too heavy for my pans. Nothing leaves your hall without you saying so. When the kiln is drawn and cooled, we come back, I weigh the same pieces in the same order, and she cuts the second figure on the same stick, so anyone can read the two together.
+
+"I also asked, when I spoke to you at the gate, for three spares of each size. If you've fired them, I'd like to weigh those too. One of each size I'd have broken, in front of you, so it can be seen inside. I don't ask for that to be done. I ask whether you'll allow it."
+
+I don't walk in until she moves, or says to. If she says no, or only to some of it, I ask which part and I take what she gives. If she wants a pinch for her trouble, I give it to her as the hall's fee, not mine, and I weigh it in my pans while she watches.
+
+To her question about her boards, I add one thing more. "I don't want to find your work wrong. I want to be able to say what it is. If a piece is off, I'll say which pan and how far, and I'll say it to you first, before the Assay-master or the yard. If they ask me after, I answer what is true."
+
+I turn to the Assay-master and ask him, quietly, whether he would rather weigh first on his own beam and then I on mine, so no one says I have only his word for it. I will do it either way.
+
+If she lets us in, I begin with the smallest piece on the first board, and I keep my hands at my belt until I am asked to take hold of anything.
+
+(One more answer was given privately, for the sealed record.)
