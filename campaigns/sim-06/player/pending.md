@@ -1,3 +1,43 @@
+# Pending questions: Year 5, at the morning
+
+Campaign sim-06. Every question someone in the world has asked the god that the player has not answered. From the Keeper's release for Year 4 (`releases/004/dm.md`). The clock reads Year 5. The story stands in Year 3, the seventh month, the fourteenth day, at the first held moment after the gatepost, and is told only that far. Each ask below is to be put to the player on the next played day.
+
+## Held, to be played
+
+1. Year 3, the seventh month, the fourteenth day, a market day, early afternoon, the gate done. The door of the potters' hall. The Weigher stands at the door with the Assay-master at its left hand and the Tally-keeper behind, her long stick under her arm. The master of the potters is in the doorway, clay to the elbows, and has not moved aside: "Weightward. Assay-master. You are early for a firing. What do you want of my boards?" Nothing answered. None of the Weigher's askings has yet been put to anyone. Told to the player in the Year 5 morning story.
+
+The second scene the player prepared, the kiln-opening, is held behind this one and is not yet reached. It is not laid out here.
+
+## Asked and met with silence
+
+Each met silence because no decided words answer it.
+
+1. A boy at the gate, Year 3, the first month, the morning after the night of the twenty-second day: "Is the star yours?" The line told him to hush. Asked again of the empty post on the fourteenth day of the second month, while the Weigher was at the pans; the watch had no answer to give, and the Weigher was told of it after.
+2. The Stallreeve, as himself, at the post, Year 3, the sixth month, the seventeenth day, after bringing the ring's answer on the second stick: what would it have cut for the carrier now, since the things the ring took are not on the stick the carrier holds? Nothing more has been cut, and he has not asked again. The coasters go out in the first days of the tenth month, which is not yet reached.
+3. A netmaker at the gate, Year 3, the seventh month, the second day: "Can you tell the height of the water as the tide-reckoner does?" He said it was good at that too.
+
+Told to the player in the Year 5 morning story: 1 to 3.
+
+## Refused by the player's own word, and not pending
+
+What would break it. Asked by a young carrier at the gate, Year 3, the second month, the eleventh day, and not answered. By the player's word it is answered only if the ring asks in session.
+
+## Answered in the stretch by the player's decided words
+
+Whether it can be killed (a young carrier, the second month). Whether it can cure a fever (an old woman of the back houses, the fifth month). Whether it can tell who is lying, and the follow-up (a young stallholder, the third month). Whether a door-stone was the seventh, and whether it wanted the stone for the hall (an old net-maker, the fourth month). Told to the player in the Year 5 morning story, each where it was said.
+
+The master of the smiths has not asked again, and the woman of the back houses has not come to the gate. Their answers wait on their asking, as the player decided.
+
+## Asked by the Weigher and answered by the world
+
+The Stallreeve, a day at the pans: given, on his own terms. The owners and captains, stones for the beam: brought. The eleven, the second stick: six things taken as the town's word and a pair not taken, the order kept, brought to the post by the Stallreeve with one reason.
+
+Still waiting on the world, inside the held scenes: the master of the potters (each piece green; three spares of each size) and the Stallreeve (a day for the nest, with the watch keeping the gate).
+
+## From the DM, in (oog)
+
+None open.
+
 # Pending questions: Year 4, at the close of the play day
 
 No question asked of the god is open and unanswered by the player. The held moment (the ring's yes and its asking for the words) is played: the word was given, the first stick is the town's word and is with its carrier (`messages/m-0005.md`). The master of the smiths' "Can you be killed? What would it take to break you?" and the woman of the back houses' "Can you cure a fever?" are answered by the player; each answer is given when the asker, or another, next asks at the gate, or in session, and is not carried to them (`decisions-004.md`). "What would break you" is refused unless the ring asks in session.
@@ -6,7 +46,7 @@ Asked by the Weigher and waiting on the world: the eleven, on each addition on t
 
 Prepared by the player and held for live play: the weighing green at the potters' hall and the weighing at the kiln-opening.
 
-Silences 3 and 4 of the morning's list lie past the played moment and are the night's to work again.
+Silences 3 and 4 of the morning's list lie past the played moment and are the night's to work again. (Worked again at the Year 4 night: both as first listed are set aside. See the Year 5 morning's list above.)
 
 # Pending questions: Year 4, during the play day
 
@@ -27,7 +67,7 @@ Campaign sim-06. Every question someone in the world has asked the god that the 
 
 ## Held, to be played
 
-1. The first month of Year 3, at the gatepost, the first market after the ring's sitting on the weight, the yard in its line. The Stallreeve, with the Tally-keeper beside him holding a cut stick and the Assay-master a little apart: "The eleven say yes to what you asked of me at the gatepost, Weightward. The town wants a keeper's word sent down the coast, in the plain terms you gave the eleven: what each of the hall's pieces is now, in your ones, and that the eleven have said which is the town's weight. The ship owner of the open water will carry it when his coasters go out past the Horn. The eleven ask you for the words." Half of a split stick lies at the foot of the gatepost. Nothing answered: the Weigher asked whether the town wanted such a word and said it would send none without their say; the words themselves the player has not given. Told to the player in the Year 4 morning story. The year past it was resolved with the asking unanswered; whether a word went down the coast turns on the answer and is provisional (as the year stands, none did), and the player has been told so.
+1. The first month of Year 3, at the gatepost, the first market after the ring's sitting on the weight, the yard in its line. The Stallreeve, with the Tally-keeper beside him holding a cut stick and the Assay-master a little apart: "The eleven say yes to what you asked of me at the gatepost, Weightward. The town wants a keeper's word sent down the coast, in the plain terms you gave the eleven: what each of the hall's pieces is now, in your ones, and that the eleven have said which is the town's weight. The ship owner of the open water will carry it when his coasters go out past the Horn. The eleven ask you for the words." Half of a split stick lies at the foot of the gatepost. Nothing answered: the Weigher asked whether the town wanted such a word and said it would send none without their say; the words themselves the player has not given. Told to the player in the Year 4 morning story. The year past it was resolved with the asking unanswered; whether a word went down the coast turns on the answer and is provisional (as the year stands, none did), and the player has been told so. (Set aside at the Year 4 night: the moment has been played, the year past it as then resolved is not what happened, and the coasters have not gone as far as the story is told.)
 
 ## Asked and met with silence
 
@@ -35,8 +75,8 @@ Each met silence because the player's decided words did not answer it: the stand
 
 1. The master of the smiths, at the ring's winter sitting, the sixth month of Year 2: "Can you be killed? What would it take to break you?" He said, "It is good at that."
 2. A woman of the back houses, at the same sitting: "Can you cure a fever?" She said nothing more. She did not come to the gate again that winter; the line said her child died in the last week of the month, with the cold.
-3. A boy at the gate, Year 3, in the first month and again later: "Is the star yours?" The boy said it was, and the line told him to hush. Past the held moment; not yet told to the player.
-4. A netmaker at the gate, Year 3, the seventh month: "Can you tell the height of the water like the tide-reckoner?" She said it was good at that too. Past the held moment; not yet told to the player.
+3. Set aside at the Year 4 night, 2026-11-26 (Pacific): this entry follows the older telling of Year 3 past the held moment, which is not what happened. The ask as it happened is in the Year 5 morning's list above. As first written: "A boy at the gate, Year 3, in the first month and again later: "Is the star yours?" The boy said it was, and the line told him to hush. Past the held moment; not yet told to the player."
+4. Set aside at the Year 4 night, 2026-11-26 (Pacific): this entry follows the older telling of Year 3 past the held moment, which is not what happened. The ask as it happened is in the Year 5 morning's list above. As first written: "A netmaker at the gate, Year 3, the seventh month: "Can you tell the height of the water like the tide-reckoner?" She said it was good at that too. Past the held moment; not yet told to the player."
 
 Told to the player in the Year 4 morning story: 1 and 2.
 
@@ -48,7 +88,7 @@ The coaster's master's price, the tenth month of Year 2: which is the town's wei
 
 The Assay-master's three old asks; the master of the smiths on the seventh; the old weigher's stones; the yard's "Weightward". The coaster's master's moment was resolved on the player's handed-off words.
 
-Asked by the Weigher and answered by the world: the ring (the sitting, the yard let in, the key); the Tally-keeper (sticks for boats, yes); the Assay-master (the loft, told); the Stallreeve (a keeper's word down the coast: "Not this summer", and then the held moment above); the diggers (a second day, wanted and done). The old weigher at Ruddfold: no word back as far as the telling runs.
+Asked by the Weigher and answered by the world: the ring (the sitting, the yard let in, the key); the Tally-keeper (sticks for boats, yes); the Assay-master (the loft, told); the Stallreeve (a keeper's word down the coast: "Not this summer", and then the held moment above); the diggers (a second day, wanted and done). The old weigher at Ruddfold: no word back as far as the telling runs. (As far as the first month of Year 3. He was at the gate in the second month; see the Year 5 morning's list above.)
 
 ## For the player to overturn if it wishes
 
