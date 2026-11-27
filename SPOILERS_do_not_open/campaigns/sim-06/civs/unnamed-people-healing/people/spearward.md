@@ -7,3 +7,5 @@ Nature and history, fixed. A broad man of about forty five at the end of Year 2,
 Year 3: month 8, at the seat's hearth, he asked the stranger from his place by the door whether it would rot a granary, ours or another's, if the seat bade it, in war. It answered in front of the hearth that it would not turn it on any store of the people, in war or out of it. He said nothing in the hall. In the yard he put two men on the court steading's grain house by night, on his own word, and said to them that a promise is not a lock. The levy is otherwise unchanged. His name was not said aloud this year.
 
 Year 4: he asked nothing at the seat's hearth in month 8 and said nothing in the hall. His two men stand at the court steading's grain house by night still. His name was not said aloud this year.
+
+Year 5: he asked nothing at the seat's hearth in month 8 and said nothing in the hall. His two men stand at the court steading's grain house by night still. His name was not said aloud this year.
