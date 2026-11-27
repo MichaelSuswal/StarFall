@@ -98,3 +98,4 @@ Closed 2026-11-24 15:50.
 - 2026-11-26 22:21 step 3 done: the eight civ files read.
 - 2026-11-26 22:33 step 4 done: pass two, the year record, the ledger, growth, standing, messages and state written; step 5 releases and the board written ahead of the check. Checker: opus, DM: fable, run by the orchestrator.
 - 2026-11-26 22:50 step 7: the checker's round 1 read, nine flags; flags 1 to 7 and 9 fixed; ready for recheck.
+- 2026-11-26 22:52 step 7: round 2 read; flag 10 fixed; handed to the DM for step 6.

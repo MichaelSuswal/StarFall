@@ -1776,3 +1776,7 @@ Stamped 2026-11-26 22:50. Ready for the checker's recheck.
 - Step 7: a ride priced from the wrong end of a road, this year and last. Corrected in the record by dated entries; no outcome turns on it. For the owner: `f65:start` and `f65:end` say nothing of which end is which on the ground, and the Keeper and last year's check both misread them.
 - Step 7: a pass-one release already read by its agent that carries a wrong figure. Ruled: not edited; corrected in the pass-two release.
 Check: 0 finding(s), 1 note(s) Scan: leaks: 0 failure(s), 1 warning(s) dashes: 0 failure(s), 0 warning(s) 
+
+### 7. The check, round 2: flag 10
+The checker's round 2 (at 49870e8) held flags 1 to 7 and 9 as fixed, accepted the Sarrow's pass-one release left unedited, and raised flag 10, minor, the Keeper's: the fix for flag 7 said in the public pass-two release what a mortal's private stick shows him, which the god has not been told. Fixed: the sentence is moved whole to the sealed side release, `S/releases/005/civ-unnamed-people-sealed.md`, and the public release says only that the matter is settled. Flag 8 is the DM's at step 6. Scripts rerun: results on the line below. Stamped 2026-11-26 22:52. Handed to the DM for step 6.
+Check: 0 finding(s), 1 note(s) Scan: leaks: 0 failure(s), 1 warning(s) dashes: 0 failure(s), 0 warning(s) 
