@@ -267,3 +267,11 @@ State at the close:
 - Pending questions: none open but the coaster's master's moment, handed to the night.
 - Not told to the player: how the yard and the ring took the word at the gatepost; the year past the tenth month; the dim nights of the eleventh and twelfth months.
 - Sealed answers taken today: seven, all in the sealed record.
+
+# Rolling save: Year 4
+
+Campaign sim-06. Year 4 played day, 2026-11-26 (Pacific), under build 7. The clock reads Year 4. The day opens at the held moment of Year 3, the first month, the fifth day, at the gatepost.
+
+## 1. Held: the gatepost, the ring's yes and its asking for the words (Year 3, the first month, the fifth day)
+
+Post 1. The Year 3 closing and the Year 4 morning are posted, with the build 7 (oog) line on what is provisional, and the board. Nothing has been answered. The half-stick lies at the foot of the post. The fish seller's hand balance is in the Weigher's hand, not yet tried. The two asks from the winter sitting of Year 2 (the master of the smiths, the woman of the back houses) are still to be put to the player today.

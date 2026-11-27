@@ -1,3 +1,13 @@
+# Pending questions: Year 4, during the play day
+
+Kept current by the DM, 2026-11-26 (Pacific), under build 7. Status lines are added as each is put and answered.
+
+## Status, Year 4 play day
+
+- Post 1: the held moment (the ring's yes and its asking for the words) is laid out as its board; waiting on the player.
+- Silences 1 and 2 of the morning's list (the master of the smiths; the woman of the back houses): to be put to the player today. Not yet put.
+- Silences 3 and 4 of the morning's list lie past the held moment. Under build 7 they are not yet what happened and are not put to the player today.
+
 # Pending questions: Year 4, at the morning
 
 Campaign sim-06. Every question someone in the world has asked the god that the player has not answered. From the Keeper's release for Year 3 (`releases/003/dm.md`). Each is to be put to the player in the next played day. The story is told as far as the held moment below; what lies past it is laid out when that moment has been played.
