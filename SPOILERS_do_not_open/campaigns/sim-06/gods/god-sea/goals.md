@@ -1,13 +1,14 @@
 # Goals
 
-Held now, after two years among them, in order of weight.
+Held now, after three years among them, in order of weight.
 
-1. Keep the people alive through the third winter and the lean spring after it. Boats hauled and tarred early, stores counted and shared, the harbor lamp lit every dusk. No crew lost. About two thousand and twenty-three, stores enough last year. Let it hold.
-2. Make the one office I have won into a standing thing. The Warden took my word two years and keeps it from the court as she judges. I do not push her. I answer her short and prompt, and I answer what she asks, including the five notches she left me and had no words for. The heir knows the keeping is real. Win a second holder only if one comes to me. One has: the Eldest Midwife asked me what I count for, and said to come to a bedside. I answer her, once, carefully, and see what she is.
-3. Pay what I owe the Master of Timber in the only coin I have: an honest answer, and sound pieces I joined myself. Never more than the card plainly covers.
-4. Make the lamp's calm able to stand without me. The two tenders have kept it right once. Keep it in the Warden's keeping. Light it myself only for a swell short of a storm, and accept the season the water will refuse me after.
-5. Learn what lies under the water near the town and what the sea took from the old places. The harbor bed and the nearer bay hold nothing kept. Next learn where Low Garrow lay, if the net-mender can say, and listen and swim there. If I find something kept by someone, I do not go near it. I come back and decide.
-6. Learn who Brennis was and what was promised. The eldest and the town disagree and I have no better answer. Do not claim the name. Do not drop the question. The count of the star's dimming may be tied to it. Keep the count, and ask nothing of anyone that costs them.
-7. Stay unseen. A hooded figure at dusk was seen by the tenders and the point ferryman in summer. Be met rarely, doubted often. Watch from the water, not the edge. Say nothing of the answered bell, and nothing of the lamp's use, beyond the few who saw it.
-8. Find a keeper of something small who stays. I have named none. The Eldest Midwife is the nearest I have been asked by. The ferryman, the east lamp's old woman and the boy at the west end are still watched. Choose nothing yet.
-9. Judge other gods from close quarters only. Trust none. Feel nothing yet.
+1. Keep the people alive through the fourth winter and the lean spring after it. Boats hauled and tarred early, stores counted and shared, the harbor lamp lit every dusk. No crew lost. About two thousand and thirty-one. The east cove long-liner came home with three because the lamp was tended right. Let it hold.
+2. Answer what I owe, plainly and once. The Eldest Midwife asked three things at the bedside and the Harbormaster put one sentence to me through the Warden. I have not answered either. I answer the Harbormaster that I know nothing of his chain and asked only because of what lay on the bed. I answer the Midwife in what words I have, which are few and not whole. I do not claim a name or a promise.
+3. Keep the office I have won and let it stand without me. The Warden took my word three years and carried it to the Midwife by her own mouth. I answer her short and prompt. Win a second holder only if one comes. The Midwife may be one. I do not push.
+4. Keep the sound pieces honest. The chain post heel and the crab boat keel are sound. The Master is paid in the only coin I have. Never more than the card plainly covers.
+5. Make the lamp's calm able to stand without me. The tenders kept it right twice. It stays in the Warden's keeping. I light it myself only for a swell short of a storm, and I accept the season the water refuses me.
+6. Learn what the sea took and what lies under the water. The harbor bed, the nearer bay and the old causeway's shore end hold nothing kept. Next learn what the sea carries at that far shore, by listening there once, and whether anything has come near the footings. If I find something kept, I do not go near it. I come back and decide.
+7. Keep the count of the star's dimming. Fourteen nights, rising. I know no cause. Ask nothing of anyone that costs them.
+8. Stay unseen. Be met rarely, doubted often. Watch from the water, not the edge. Say nothing of the answered bell, nothing of the causeway until I know what it is, and nothing of the lamp's use beyond the few who saw it.
+9. Find a keeper of something small who stays. I have named none. The Midwife is the nearest. The ferryman, the east lamp's old woman and the boy at the west end are still watched. Choose nothing yet.
+10. Judge other gods from close quarters only. Trust none. Feel nothing yet.
