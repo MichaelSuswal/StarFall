@@ -130,3 +130,9 @@ the Steerlight
 the Bend and Beyond
 the Wet and the Dry
 the Ridge and the Low
+# Run 07 setup, 2026-11-25: names of the town's mortals set for the day sheet, not yet said in the god's hearing
+Tam Wherry
+Annis Furrow
+Osric Marl
+Davin Sculler
+Hob Sedge
