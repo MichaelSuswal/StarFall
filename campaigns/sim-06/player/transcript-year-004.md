@@ -193,3 +193,19 @@ The day at the salt pans goes over as an asking of the Stallreeve for a day at t
 Your two answers are recorded as given. To the master of the smiths: no, you cannot be killed, you can be hurt, held or scattered and you come together again, and you will not say what would break you unless the ring asks you in session. To the woman of the back houses: no, you have no power for it, and that you are sorry about her child, said to her if she comes to the gate. One question on the first of these. The master of the smiths asked at the winter sitting, seven months back, and he is not at the post this morning. Does the Weigher go to him to say it, say it at the ring's next sitting, or say it when he or another next asks?
 
 The Keeper's ruling on the Reading stands, by your word, and your follow-up is written into your standing words: asked further, you say that both pans show, and that anyone you read knows whether you mean your own terms.
+
+## Player:
+
+Let me say the line again, from the six figures, as the Weigher says it.
+
+"The hall's fired pieces are not all alike. Eight of them agree with one another, and I called each at about twelve and a half in my ones on the first day. Four of those, set against the first bronze, sank against it. That is the sum the head of the hill goods did aloud in the ring: about a twentieth heavy against the old bronze. The chipped piece and the cracked piece are light against the eight, by about a twentieth and about a tenth. I have not weighed the whole ten against the old six piece by piece since, and I do not say more than I weighed. If the ring wants the figures, the Tally-keeper has them on her stick of the first day, in her own cuts."
+
+I keep out the claim that the pieces are heavy as a set. I say what I weighed, piece by piece, and no more.
+
+On the second point, the record is right and I change the line. I drop "used in this town until the day the old six were weighed." I say instead: "The hall's fired pieces are in use this morning, and the eleven have said they stay in use for bargains made before the first market of next autumn. From that market the old six are the town's weight."
+
+The Tally-keeper may mend what is cut before she splits it. I ask her to cut the corrected line in place of the first, and I say it slowly so she has it. I have no change to the six figures, the fifth being light by a hair, or the empty seventh seat. I'll add nothing past that.
+
+On the master of the smiths, I say it when he next asks, or when I'm asked in session. I don't go to him. A man who asked me across the ring and got silence did not come to the post for the answer, and I'm not going to carry it to him as if I owed him a visit. If he or another asks me at the gate, I say it plainly. If the ring asks me in session, I say it there. I'll tell the Stallreeve I've decided this, so he knows where I stand. And I say the same of the woman of the back houses. If she comes to the gate, I say it to her.
+
+I leave the preparations, the search and the day away as they stand. I'll play the kiln scenes live when the night holds them for me.
