@@ -36,3 +36,11 @@ mood: patient and watchful as before, and divided in the court, though less shar
 - The decked boat of the point broke at the harbor mouth on the twentieth day of the eighth month. Her master and his elder son drowned. The younger son and the hired hand were hauled out by the Captains' boat. Your numbers take that branch.
 - The keeping was back in the water by the town in the fourth week of the ninth month.
 - The pile and the strake are sound.
+
+## Keeper, Year 5, pass two
+- The boat in the swell on the nineteenth day of the eleventh month came in, all four, on the Captains' line. The keeping came at the first pair of strokes, within a quarter of an hour: a hooded figure at the water's edge below the lamp, which put out the flame the old woman had lit and lit the lamp again with its own hand. From then the mouth lay calm as far as the lamp's light would show. Your numbers take that branch: about 2,045.
+- The lamp lit by the tenders as a light was a light. The calm came only when the keeping lit it.
+- The lead rang on stone and the grapnel lifted a strake and a rib, as you wrote. The three pale stones are stones.
+- Both pieces of timber the keeping joined are sound.
+- The Warden-Monarch's telling to the water in the second month was heard.
+- The notches and the mark are the near shoal as a swimmer learns it; the Harbormaster's lead found it as the notches give.

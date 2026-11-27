@@ -59,6 +59,7 @@ Use: Year 1: no use. The cord stayed in the coat.
 Use: Year 2: no use. The cord stayed in the coat.
 Use: Year 3: no use. The cord stayed in the coat; the town cuts sticks.
 Use: Year 4 night (Year 3 again, to month 7): no use. The Tally-keeper cut a stick for every stone; the cord stayed in the coat.
+Use: Year 5 night (Year 3 from month 7 to its end, and Year 4 to month 10): no use. The town cuts sticks for every figure; the cord stayed in the coat.
 Grown (year, how far):
 
 ## Bargain-Ear (knack)
@@ -67,6 +68,7 @@ Use: Year 1: a related skill used in part. It heard small bargains struck daily 
 Use: Year 2: a related skill used. It stood witness to a boat sale between two households of boatwrights (month 6) and said what it saw and heard; it heard bargains struck daily at the gate. No old bargain's terms were disputed in front of it. Not surfaced.
 Use: Year 3: a related skill used. It struck a bargain at the landing and stood witness to a boat sale (Year 2 month 6 as told, Year 3 month 4); the Tally-keeper said its terms for the seat back and no one disputed them. No old bargain was disputed in front of it. Not surfaced.
 Use: Year 4 night (Year 3 again, to month 7): a related skill used. It gave a word at the post and heard it read back whole; it stood witness to the lease of a boatyard (month 4) and said what it saw and heard. No old bargain was disputed in front of it. Not surfaced.
+Use: Year 5 night (Year 3 from month 7 to its end, and Year 4 to month 10): a related skill used. It heard the terms at the potters' door and its own promise on the figures kept to the day; it stood witness to the lease of a weir (Year 4, month 4) and said what it saw and heard. Two bargains made before the ring's day came to the gate and were ruled by the Stallreeve; their terms were not disputed in front of it. Not surfaced.
 Grown (year, how far):
 
 ## Dusk Reckoning (knack)
@@ -75,6 +77,7 @@ Use: Year 1: no use. It read no marks and did no sums in poor light; the meeting
 Use: Year 2: a related skill used in part. It counted the day's readings over in its head each night by the channel folk's lamp (decision 16); it read no marks in poor light. Not surfaced.
 Use: Year 3: a related skill used in part. It read loads at dawn in half light, by weight in the pans; it read no marks and did no sums in poor light. Not surfaced.
 Use: Year 4 night (Year 3 again, to month 7): a related skill used in part. It counted the day's readings over each night by the lamp, after running the cups; it read no marks in poor light. Not surfaced.
+Use: Year 5 night (Year 3 from month 7 to its end, and Year 4 to month 10): a related skill used in part. It counted the day's readings over each night by the lamp, after running the cups; it read no marks in poor light. Not surfaced.
 Grown (year, how far):
 
 ## Year notes
@@ -82,3 +85,4 @@ Grown (year, how far):
 - Year 2 (with the tail of Year 1): no attempt to grow a power was stated or made. The True Measure was used daily as the card gives it, and in the hall and at the pits under two rulings (L-0037, L-0038); a ruling on what the card already covers is not growth, and use without an attempt is not practice. The Seal, the Reading and Seals by factors were not used. No hidden power's moment came: no pledge was pressed on it; the fees it weighed fed as food does; no food that does not feed was set in its pans. No trigger, failure or near miss.
 - Year 3: (with Year 2 again from the first held moment): no attempt to grow a power was stated or made. The True Measure was used daily as the card gives it, at the gate, at the landings (L-0037 covers salt cut with sand), in the hall and at the pits. The Good-Faith Reading was named aloud to the town and not used. The Seal and Seals by factors were not used. No hidden power's moment came: no pledge was pressed on it; the half-sticks it took up are the council's askings and its own yes, not surety for a debt; no food that weighs true and does not feed was set in its pans. The pocket was not checked in unplayed time (the keeper log). No trigger, failure or near miss. Three years in, nothing is counted against any power: use as the card gives is not practice.
 - Year 4 night (Year 3 again from month 1, day 5, to month 7, day 14; this replaces the Year 3 note for that stretch): no attempt to grow a power was stated or made. The True Measure was used daily as the card gives it, at the gate, the landings (thirty stones) and the pans. The Good-Faith Reading, the Seal and Seals by factors were not used. The pocket was checked, on the night of month 1, day 5, as an act the god said it does: empty. No hidden power's moment came: no pledge was pressed on it, and the pinch at the pans fed as salt does. No trigger, failure or near miss. The player's Year 4 is not yet resolved and has no note.
+- Year 5 night (Year 3 from month 7, day 14, to its end, and Year 4 to month 10, day 14): no attempt to grow a power was stated or made. The True Measure was used daily as the card gives it: fifty-five pieces before the fire and after, the halves and their reading under L-0037 and L-0052, the eleven called at the ring's day, the gate and the landings. A ruling on what the card already covers is not growth, and use without an attempt is not practice. The Good-Faith Reading, the Seal and Seals by factors were not used. No hidden power's moment came: no pledge was pressed on it, and no food that weighs true and does not feed was set in its pans. No trigger, failure or near miss. The rest of its Year 4 and its Year 5 are not resolved and have no note.

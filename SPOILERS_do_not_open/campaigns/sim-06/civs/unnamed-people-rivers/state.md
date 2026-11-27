@@ -35,3 +35,9 @@ Nothing came against the sleeping woman at the water gate; no roll. Each of the 
 - The journey: five days down, to where the river meets the sea in a shifting delta of reed and channels, and about twelve days home; all four came back. No salt comes up that river. Reed cutters of the lower channels say the salt for the stone towns is landed far to the west and goes up by land. Nothing came against the party.
 - Warm hands: the child's fever came down. Your numbers take that branch.
 - What the water does at the gap in the oldest weir shows at next spring's flood.
+
+## Keeper, Year 5, pass two
+- The carrier family would not have the Lady and the town's two on its road. They waited at the ford to the fifth day; no other family came; they came home by the Brook Path. Your year takes that branch.
+- At the ford the water was the larger river's and the Lady felt nothing in it.
+- The run of fish in the eleventh month was nobody's doing that anyone knows.
+- The measures at the weirs stand as your hands set them.

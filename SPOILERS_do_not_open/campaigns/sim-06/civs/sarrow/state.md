@@ -32,3 +32,10 @@ mood: the households are thin and steady, hold the sharing as their own custom, 
 - The stores lasted to within days of the thaw. The seed seal was whole at the sowing. About a hundred and fifty died over the ordinary, the old and the youngest.
 - The word for the river king was given to a clerk of the chancery in the second month. No answer and no envoy came this year.
 - From month 9 the toll stands at a knot and a quarter the beast, as the table settled it. In months 10 to 12 no train of the river kingdom came.
+
+## Keeper, Year 5, pass two
+- The riders: thirteen days from the far end of the road to the river king's town; received as guests; the word given into a clerk's hand; a written answer given them; one beast's load of salt bought, dear; home on the twentieth day of the second month, before the snow. What they tell and what the letter says are in your god's own telling.
+- The winter stores failed some weeks short of the thaw. The herd went, then the dried meat; in the last week the seal was broken before witnesses on part of the seed. About four hundred died over the ordinary. The sowing was short. Your year takes Branch B.
+- The day at the farthest door: about one part in three of the toll taken that day went into the house's own store, under the name of the watchman's tenth; the cord knots only the hall's part, and knots it truly. Your year takes Branch D2, large.
+- The night the Guest was at the far door, the ford stood open, as the older watcher could not know. The night after she stepped back, the far door stood open. At the ford she was guest again until the dawn after a full day.
+- The river kingdom's beasts cough. None of your own herds showed it by the year's end.

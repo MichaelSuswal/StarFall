@@ -51,3 +51,12 @@ god-thresholds: 32
   - god-beasts: 23 to 24. The band knows the keeper at the margin and acted on its word again.
   - god-secrets: 23 to 24. The town talks of the Counter and counts dim nights against him.
   - god-thresholds: 29 to 32. About eighteen thousand have served her a fourth year.
+- 2026-11-26, Year 5 night turn, pass two. The same rule as Years 1 to 4, for the seven.
+  - player: 23, no move entered tonight. Its Year 3 is now told whole and its line for that year stands as entered. Its Year 4 is resolved only to month 10 (its thread stands at a held moment); the Year 4 line is entered on the night that resolves that year to its end.
+  - god-sea: 20, no move. The quay saw a hooded figure answer the bell in month 11; the town has held a keeping in mind, not its shape, and not through the year.
+  - god-dreams: 28 to 30. The town and the kept households hold her as the one awaited, and met her at the gate.
+  - god-rivers: 24 to 25. The town and the ford hold the woman who stands in the river.
+  - god-healing: 23 to 24. Most steadings know the stranger who mends and reads wells.
+  - god-beasts: 24 to 25. The band knows the keeper at the margin and acted on its word a third spring.
+  - god-secrets: 24 to 25. The town talks of the Counter and now cuts sticks for the dim nights.
+  - god-thresholds: 32 to 35. About eighteen thousand have served her a fifth year.

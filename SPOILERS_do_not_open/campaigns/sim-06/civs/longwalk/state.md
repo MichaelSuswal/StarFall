@@ -39,3 +39,10 @@ mood: steadier than any year since the keeper came, with the surface unhurried. 
 - The trade party's beasts had not taken the cough; read at six weeks they showed no hurt and joined the herds.
 - At the pool below the third camp the herd read resting at the second dusk; the hurt of the first was a pair of beasts horned in a fight. The camp stayed.
 - The cough took about forty of the two clans' cattle in the winter and no other herd's.
+
+## Keeper, Year 5, pass two
+- The wolves at the calving were turned on all three nights. About six calves were lost in all. Your year takes the success branch.
+- The trade party's pack beasts had taken the cough at the stone towns. At six weeks the keeper read them hurt in part; two were coughing. They were killed and burned by the old rule, the rest kept apart another month and then read whole. The cough did not reach the gathered herds. Your year takes that branch.
+- On the dim nights the keeper read the herds resting, as your herders saw them.
+- No herd read hurt at a pool. The cutters were about as far in as last winter.
+- The keeper's readings at the two clans' herd named the gatherings with coughing beasts rightly.

@@ -56,3 +56,11 @@ population: about 5,090. stores: grain and dried fish through the winter; salt i
 - The numbers above were written for a Year 3 told to its end with the eleven's asking unanswered. From the fifth day of the first month that year is told again in `years/004.md`, as far as the fourteenth day of the seventh month. No number here is moved until the year is told to its end.
 - Among about thirty stones brought to the landings' beams, one read near the Weightward's figure: a door-stone, 3,011. The seventh is not found.
 - Held: the Weightward at the door of the potters' hall, the fourteenth day of the seventh month.
+
+## Keeper, Year 5 night, pass two (Year 3 to its end, and Year 4 as far as it is told)
+- Year 3 is told to its end and the lines above for its close are the town's. Year 4 is told only to the fourteenth day of the tenth month: no number is moved for it until that year is told to its end.
+- The third nest: fifty-five pieces came out whole. Eleven sit level with the old six. From the second day of the first month of Year 4 the old six are the town's weight and the eleven are what the market weighs by, at 12, 24, 36, 48, 72, 84, 96, 120, 144, 168 and 180 of the Weightward's ones, as it called them that day.
+- The town's word was said at Corrith in the tenth month of Year 3, as cut. No answer came.
+- Pending: whether the star is the Weightward's own, asked five times by children at the gate.
+- Held: the master of the southern coaster at the head of the line, the fourteenth day of the tenth month of Year 4.
+

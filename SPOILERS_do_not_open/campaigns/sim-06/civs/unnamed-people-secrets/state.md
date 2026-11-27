@@ -30,3 +30,9 @@ mood: steadier at the granary: the fourth autumn's count came the same way with 
 - The Counter went on from the landing at the river's head by the drovers' track onto the plain, and was back on the twentieth day of the eleventh month, before the day he named. Your numbers take the branch: later than the crew, on or before the twenty-second.
 - The dim nights of the tenth and eleventh months found him on the plain, away from the town.
 - The dredging stands as you wrote it.
+
+## Keeper, Year 5, pass two
+- The Counter was back through the river gate on the fifteenth day of the eleventh month, a day before the day he named.
+- The Clerk of the Tally's winter at the league weights gave him no mark he can use. He knows it gave him none.
+- The loaded boat crossed the cut as you wrote. The watch's sticks for the three nights stand as you wrote them.
+- What the hedge-workers say of their hands after such nights is talk; the Keeper settles nothing by it.

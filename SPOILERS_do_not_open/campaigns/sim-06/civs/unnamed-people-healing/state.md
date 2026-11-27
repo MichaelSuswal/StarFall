@@ -32,3 +32,10 @@ Each mending did what the card gives, the Hearth-Holder's granddaughter among th
 - The bank ground: foul under the rows laid in the wasting winter and since, and in the wells below them; sound under the older rows and on the rise. Your numbers take the branch where the Keeper of the Mounds pegs a limit on rows laid in one place.
 - The summer walk: the same foulness under the bank burials of the two emptied steadings and in their wells; the river clean; no other steading or people below within its reach.
 - The test wells read sound.
+
+## Keeper, Year 5, pass two
+- The three mendings held: the man with the fouled shin, the child, the old man. Each lived; the Tender took each fever and the shake after.
+- The reading beside the brew was closed, as last year; it asked the sitter and spoke from her words.
+- The bank ground: foul under the wasting winter's rows and those laid on the low bank since, as last year and no less, and the wells below the same; sound under the older rows, under the rows laid on the rise since the peg, and on the rise. The peg's limit stands.
+- The walk west: it made about fifteen miles of fen in two and a half days, saw no treeline, read every spring clean, met no one, and was back on the fifth day.
+- The test wells read sound.

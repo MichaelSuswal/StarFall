@@ -91,7 +91,7 @@ None that I have written as contested. Two things for the Keeper's eye that are 
 
 - **The south coast.** The carrier said the town's word at Corrith and brought back no answer, stick or token; he met none of the master's house, whose port is another town along that coast, and did not go to the council's people. No southern coaster came up in Year 3. A southern coaster came up on the twelfth of the tenth month of Year 4, the same hull and master as two summers before. Her words and business are the Keeper's, and the thread is held.
 - **Ruddfold.** The old weigher did not come down the third time. The head carrier said so at the gate on the eighth of the second month. The hill kin have the ring's decision.
-- **The Aldermark.** Traders came down in the eleventh month of Year 3, had scales read and one asked whether the fifth old weight is light. No one came from the king. Upriver boats of Year 4's summer were not in before the fourteenth day of the tenth month.
+- **Upriver, the Aldermark.** Traders came down in the eleventh month of Year 3, had scales read and one asked whether the fifth old weight is light. No one came from the king. Upriver boats of Year 4's summer were not in before the fourteenth day of the tenth month.
 - **The boat people.** Gone from the channels at the lowest tides, the eighth month of Year 3 and the first and eighth of Year 4. Nobody followed.
 - **The tide-reckoner.** Called the winter water of Year 4, as above.
 - **The ship owner of the open water's landing.** His coasters lay there loaded when the southern coaster came up. See the reckoning above.

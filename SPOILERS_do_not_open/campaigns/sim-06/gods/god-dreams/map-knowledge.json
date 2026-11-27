@@ -23,6 +23,11 @@
         "name": "a mountain country to the north",
         "terrain": "mountain"
       }
+    },
+    "r28": {
+      "grade": "seen",
+      "source": "walked the shore to the harbor in the summer of Year 5",
+      "year": 5
     }
   },
   "features": {
@@ -58,6 +63,11 @@
         "name": "the market town in the western delta",
         "cell": "B3"
       }
+    },
+    "f75": {
+      "grade": "seen",
+      "source": "walked to the harbor in the summer of Year 5",
+      "year": 5
     }
   }
 }

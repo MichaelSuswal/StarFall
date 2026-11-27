@@ -1,0 +1,66 @@
+> SPOILER WARNING: Keeper material. Players should not read this file.
+
+# Year 5: everything that happened, with causes
+
+Resolved on the night turn of 2026-11-26, under build 7 (run 07 Part B, its last night). Rolls are the sealed log's. The world's own events are in `world-events.md` beside this file. One count of months (L-0043).
+
+How the year is cut. The world's Year 5 is resolved whole: the sky, the schedule, the godless peoples, the seven and their peoples. The player's thread is not in Year 5. It stood at held moments of Year 3 (month 7, day 14; month 8, day 1), which were played live with a run-on to month 8, day 4, and hold. Tonight resolves it from that evening through the end of Year 3 and into Year 4, to the next held moment, month 10, day 14 of Year 4, and stops (L-0056). The first two sections below are that stretch. What `S/years/003/year.md` and `S/years/004/year.md` have of the town past those days is replaced by them.
+
+## Year 3 again: the unnamed town [f20], from day 14 of month 7 to the year's end
+Fixed by play (`P/player/decisions-005.md` items 1 to 13; the rolling save; the transcript): the askings at the potters' door and her terms; twenty-two pieces weighed before the fire on day 14 and thirty-three spares on day 25; the god's promise to keep those figures unsaid until the kiln was opened; one kiln, one firing, days 26 and 27; the kiln opened on day 1 of month 8, all fifty-five whole [r-0331, r-0407, of earlier nights]; every fired figure called; the fifth spare of each size broken; both sticks read; the god's answer to the Stallreeve on day 2; the rubbing down; the Assay-master's word on day 4. Nothing of it is changed.
+- Completed tonight, as part of day 1 of month 8: each half's weight alone [r-0436 to r-0446, table rolls] and clay against not clay, a twentieth part of each piece's weight before the fire, from the Year 2 reading at the pits, under L-0037 as read by L-0052. The table is in `P/releases/005/dm.md`.
+- Month 8. The Tally-keeper kept the sticks open. Night of day 6: a dim night [r-0406], seen. Day 8: a boy asked about the star; silence, pending. Day 11: a kiln-master, Orrin, asked for four figures and worked the loss out aloud: a thirteenth. Days 13 to 17: the water folk gone (row PH-2).
+- Month 9. Day 16: the ring sat shut. The hall's cost of the spares taken, 7 to 3. A second stick for the carrier of the six things: tied 5 to 5, not carried (the people's agent's; their own will). Day 29: the Stallreeve told the carrier what the god asked he be told.
+- Month 10. Day 4: the coasters went out past the Dunmar Horn [r17] with m-0005. At Corrith [f74] the carrier said the word as cut on the quay to the houses he trades with. He did not find House Sennet to put it to by name [r-0432; stated 60, rolled at 65 with the sealed factor; failed either way]. The league sent no answer (the Keeper's, from its record). The quays had most of it already from Captain Maud Sennet's selling in the winter of Year 3.
+- Month 11, day 8: a trader of the Aldermark [r10] asked about the fifth old weight; answered by the god's decided words.
+- Month 12, days 19 and 20: the coasters home; the carrier's account at the post, in the open. What he heard on the quay he told the Stallreeve, the Assay-master and later the ring, out of the god's hearing (sealed with the people's agent).
+- Year 3's phenomena, whole: dim nights 6 (months 1, 5, 5, 7, 7, 8); tide gathering 2 (months 2, 8). The count is given to the DM now that the year is told whole and the god saw each.
+
+## Year 4: the unnamed town [f20], to day 14 of month 10
+- Month 1, day 2: the ring's day. The god called the eleven at the Assay-master's asking: 12, 24, 36, 48, 72, 84, 96, 120, 144, 168 and 180. The old six are the town's weight. The ten on the bench for old bargains. Days 9 to 13: the water folk gone.
+- Month 2: the hill carriers; the old weigher of Ruddfold [f25] did not come. Night of day 15, a dim night; day 17, the boy again. Month 3: night of day 22, a dim night. Month 4: night of day 9, a dim night; day 20, the god stood witness to a weir lease.
+- Month 5: a hard spell; the tide-reckoner's call; someone asked again about the height of the water [r-0431, the world's question, odds 50, success] and was answered by the god's standing words; the woman of the back houses came and was answered. Month 6: the ring's winter sitting; nothing for the god.
+- Month 8: the water folk gone days 12 to 16; night of day 19, a dim night; day 20, a girl asked about the star. Month 9: the second year of the seat; the ring spoke of the term behind its door and asked nothing.
+- Orrin's stick of tile weights, kept from month 3: it tells him nothing, and will not. The loads that crack are cut with clay of the old yards on the Pellow Downs [r15], which loses in the fire as the other does (mystery L05). Not rolled; fixed; not told.
+- Month 10, day 12: Captain Maud Sennet's coaster tied up [r-0376 of the Year 4 night; day by r-0433]. Day 14, a market day, first light: she stood at the head of the line. Held there. The board is in `P/releases/005/dm.md` and `S/releases/005/dm-sealed.md`.
+- Set for the board: her balance is out, the buying pan heavy by about one part in sixty [r-0458, the world's question, odds 20, success; r-0461]. She does not know of god-dreams's word turned away at Port Sennet [f75] in the autumn of Year 4 [r-0459, the world's question, odds 50, failed]. She will carry a word of the hall for the reading and the first hearing [r-0460; stated 40, rolled at 45; success either way]. If her asking goes up, the ring sits on day 16 [r-0462; stated 60, at 65; success either way], lets the word be cut again for her [r-0463; stated 50, at 55; success either way] and gives her the first carrying on equal terms with its own carrier [r-0464; stated 30, at 35; success either way].
+- Held past the first moment: everything of the town from that morning; the dim night of the night of day 14 [r-0434] and those of months 11 and 12 of Year 4; the upriver boats from day 16 [r-0435] and what they tell (mystery L05, the fourth clue); the rest of the god's Year 4 and all of its Year 5, in which fall the end of the Weightward's term (month 9 of Year 5), Captain Sennet's Year 5 summer, and the arrival of m-0012, god-dreams's word, by a coaster of House Corran.
+- Names said aloud in the god's hearing in the stretch: Orrin; Aldermark; Corrith [f74], Ruddfold [f25] and the Alder again. No office holder's name.
+- Hidden powers and knacks: none surfaced. No pledge was pressed on it; no food that weighs true and does not feed was set in its pans. Growth: nothing earned; no attempt.
+
+## The sky and the world, Year 5
+- The star sank by its yearly figure (row E01-a). No one could notice.
+- Three dim nights (row PH-1; count 3 by `tools/phenomena.py`): months 2, 2 and 7 [r-0408 to r-0410]. Every people saw them and count twenty-four since the arrival. The cause is the star's own.
+- The water folk gathered twice (row PH-2), months 1 and 9 [r-0411, r-0413]. Cranes gathered once (row PH-3), month 3.
+- No L05 row, no weather row and no S row fell. One random event: a great run of fish at the weirs of the unnamed spring town [f45] in month 11 [r-0422, r-0429, r-0430].
+- T-1: the cough showed in the Aldermark's [r10] draught beasts. It travels to the Sarrow and shows there in Year 6 [r-0427]; not to the bend town [r-0426]; not to the unnamed town [f20] [r-0428]. It reached the Longwalk's trade party's pack beasts at the stone towns [r-0454] and was stopped there.
+- No letter of an old claim went out.
+- Messages: m-0005 delivered (above); m-0010, m-0011 (god-sea, within its town; delivered); m-0012 (god-dreams, toward the delta; in transit with House Corran, its arrival held); m-0013 (god-dreams to the factor; delivered); m-0014 (god-thresholds to the chancery; delivered, and answered in writing).
+- No god met another. A god stood in a godless people's harbor for the first time.
+
+## god-sea and its people
+Answered the Warden-Monarch; its words carried (m-0010, m-0011). Water's Hearing off the mouth: the ordinary day. Three stones laid on the line of the chain; in month 2 the Harbormaster's lead rang on them and his grapnel lifted a strake and a rib of the two boats lost the autumn before the arrival (mystery S02: the bodies of the truth, found two years before its row; who raised the chain that night is his own knowledge and the court's). Sound Timber twice (L-0042). The shoal learned by its own body. Month 11, day 19: a decked boat in a long swell; the bell struck twice; ruled (L-0054) that it heard and came, put out the tenders' flame and lit the lamp by its own hand; the mouth calm; the boat came in [r-0447; odds 70; success at 4]. The harbor water closed to it for a season. About 2,045.
+
+## god-dreams and its people
+Answered the wall. The third barrow song has no third part left (row L05-e of Year 4). The court's party of seven with forty blocks: a boat grounded [r-0448; odds 70; failed at 100], three days lost; a ship of House Corran lay at the mouth [r-0449, the world's question, odds 40, success], lifted the forty and carried the leader to Port Sennet [f75]. The factor heard m-0013 and gave salt at the standing price for both years' stone: the town's first full salting in five seasons (mystery S06's price stands; its row is Year 9). No carrier on the quay would take m-0012 in autumn [r-0450; odds 40; failed]. Home in the first days of month 4. Summer: leave given; the god walked to Port Sennet, 109.5 and 97.9 miles, fifteen days, arriving day 20 of month 10; a guest in the factor's yard three nights; on the third it asked him and he said yes [r-0451; odds 35; success]: a coaster of House Corran carries m-0012 into the Gulf of Maun [r31] in the last weeks of the summer. Its arrival is held with the player's thread. The asking on the quay for another carrier, written before the dice as rolled "only if the autumn roll fails", was not rolled: the factor's yes left nothing to ask. No weight in the air at the harbor. Home on day 9 of month 11.
+
+## god-rivers and its people
+Answered the council. The weir measures as the hands set them. The carrier family would not have it on the salt road [r-0452; odds 60; failed]; it waited five days at Wellen Ford [f47] and came home. No pull at the ford. The run of fish in month 11, nobody's doing. The second half of mystery S05's truth is where last year left it.
+
+## god-healing and its people
+The Reckoner first. Its people set it right about the salt boats. The bank ground in month 3: foul as last year under the wasting winter's rows and those since on the low bank, sound under the rows on the rise since the peg (mystery S07, as effects). The walk west in month 5: about fifteen miles of the Morrow Fen [r13] in two and a half days at the tool's 6 miles a day; the forest edge is 74.0 miles off; clean springs, no one met. Three mendings as the card gives. The brew reading closed (L-0049). Test wells sound. L-0055 on salt.
+
+## god-beasts and the Longwalk
+Its words at the first council. The people set it right: thirty calves last year. The wolves turned on all three nights [r-0453; stated 95, the clamp; success]: about six lost. The dim-night readings: herds resting. The trade party's pack beasts took the cough [r-0454, the world's question, odds 10, success at 2]; read hurt in part at six weeks; two killed and burned; contained. About forty of the two clans' cattle dead in winter, apart.
+
+## god-secrets and its people
+The harvest counted aloud without it. The council's one stick of the river's cost. The watch's sticks for the dim nights. The cellars counted. The fourth sounding; the cut holds. Ten days at the marsh holdings in month 11, back a day early. The Clerk of the Tally's winter at the league weights gave him nothing [r-0455; stated 35, rolled at 40 with the sealed factor; failed either way].
+
+## god-thresholds and the Sarrow
+The three answers. Kessan's riders: 239.4 miles and 13 days by horse from the far end of the Pass Road [f65] to Aldermoot [f70]; m-0014 given to a clerk of the chancery; a written answer given [r-0456; odds 50; success], restating the claim and promising to send "when the roads allow" (mysteries S08, S09); one beast's load of salt; home on day 20 of month 2. The winter stores failed [r-0457; odds 75; failed at 91]: the herd and the dried meat gone, the seed seal broken on part, about four hundred dead over the ordinary, the sowing short. From the thaw the Aldermark's trains at half, with coughing beasts. Month 8, day 19: The Step to the far door; it saw the watchman's tenth grown to a third (mystery S08's truth, found by a search that reached its place; not rolled); the step back ruled (L-0053). Judged at the sill by its people.
+
+## Deaths of significant people
+None the player's god would know as significant, as far as its thread is told. Among the Sarrow, about four hundred over the ordinary.
+
+## Changes to the map
+None to the ground. Knowledge: god-dreams saw Sutter Strand [r28] and Port Sennet [f75]. The player's god: nothing new.

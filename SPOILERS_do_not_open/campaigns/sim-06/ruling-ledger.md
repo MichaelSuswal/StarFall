@@ -362,3 +362,35 @@ Date: 2026-11-26. Year: 4 (night turn, pass one). Card: none; the resolution of 
 Matter: the player prepared two scenes days apart; `year-turn.md` section 1 boards only the first held moment, and section 2 gives a board for each scene the player has said it will prepare.
 Ruling: both are held, as two moments. The player's thread stops at the first and nothing past it is resolved as what happened. Both are boarded in the sealed day sheet, the second conditional on the first, so the DM may play on into it on the same day. Reasons in the keeper log, Year 4 night, pass one.
 Binds: this campaign's later turns, until the owner settles the two lines.
+
+## L-0052
+Date: 2026-11-26. Year: 5 (night turn, pass one). Card: the player's god. Power: The True Measure.
+Matter: at the kiln yard (Year 3, month 8, day 1) the player had the god weigh the halves of fired pieces and say how much of each is clay and how much is not. The DM had no figure and handed it to the Keeper.
+Arguments: for: L-0037 gives the reading of a lump of clay, and a fired piece is as much one stuff as the lump. Against: L-0037 speaks of clay, and a fired body is no longer clay a potter can work; a reading of what the fire did would be a cause.
+Ruling: a reading of L-0037 and no widening of it. Of a fired piece the god knows its weight and how much of it is the fired clay and how much is not: sand, grit, shell. It tells nothing of how the piece fired, how it will wear, or what the fire took. The figure follows the lump's: what was not clay before the fire is not clay after it.
+Binds: the player's card (a ruling under The True Measure). Undisputed; the DM argued neither way.
+
+## L-0053
+Date: 2026-11-26. Year: 5 (night turn, pass two). Card: god-thresholds's (The Step).
+Matter: the god steps from one blessed door to another, stays the full day, and steps back. It asks whether the door it first left stands open a second night.
+Arguments: the god's reading: the second step leaves the first door open again and the guest limit falls on her there. The card: the door she leaves stands open for a night and tells her nothing; where she arrives she is guest until the dawn after a full day.
+Ruling: the step back is a step like the first. The door she leaves, the far one, stands open for the night after. The first door does not stand open a second night. Where she arrives she is guest again until the dawn after a full day.
+Binds: god-thresholds's card. Settled against the god's reading in part.
+
+## L-0054
+Date: 2026-11-26. Year: 5 (night turn, pass two). Card: god-sea's (Calm Under the Lamp; its form).
+Matter: whether the god hears a bell struck on the quay, and what its lamp does when the tenders have already lit it as a light.
+Ruling: a bell on the quay carries into the water by the town, and the god hears it where its decisions keep it, below the quay. A flame another hand lit gives no calm (L-0048); the god must put it out and light the lamp by its own hand, and from then the card gives the calm and its cost.
+Binds: god-sea's card. Undisputed.
+
+## L-0055
+Date: 2026-11-26. Year: 5 (night turn, pass two). Card: god-healing's (Reading the Rot).
+Matter: what the reading gives of water with salt in it. Asked by the god; no such water was read this year.
+Ruling: salt in water is no sickness, rot or poison. Water that is only salt reads as whole, as L-0040 reads a thing that is whole and only weaker in its use.
+Binds: god-healing's card. Undisputed.
+
+## L-0056
+Date: 2026-11-26. Year: 5 (night turn, pass one). Card: none; the player's thread under build 7 (`engine/night/night-turn.md` step 0).
+Matter: the tail of a held year was played to its last held moment two clock years behind the open year, with a whole year of the player's thread between them never resolved.
+Ruling: the tail and everything after it is one untold stretch. The night after the tail's last held moment is played resolves the player's thread from that moment through the end of the tail's year and on through each later year in order, on standing conduct, and stops at the first held moment wherever it falls. No later year's thread begins while that moment is unplayed. The world is resolved whole each night and the clock advances one year a night whatever the thread does. Reasons in the keeper log, Year 5 night, pass one.
+Binds: this campaign's later turns, until the owner settles how a thread that falls behind the clock catches up.
