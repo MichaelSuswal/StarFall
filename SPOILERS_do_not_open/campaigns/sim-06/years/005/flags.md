@@ -2,7 +2,7 @@
 
 # Continuity flags: sim-06, Year 5
 
-Rounds 1 and 2. Status now: raised 10, resolved 8, open 2. By severity, as raised: major 0, moderate 2, minor 8. Open: flag 8 (minor, the DM's at step 6) and flag 10 (minor, the Keeper's). The check fails for now; neither open flag needs the year reworked.
+Rounds 1 to 3. Status now: raised 11, resolved 10, open 1. By severity, as raised: major 0, moderate 2, minor 9. Open: flag 11 (minor, the Keeper's, one word in `P/releases/005/dm.md`). The check fails until it is fixed; it needs no rework of the year and nothing told to the player turns on it.
 
 ## Round 1
 
@@ -162,3 +162,49 @@ Recheck by the continuity checker, 2026-11-26, written at 22:51 Pacific, against
 - The Keeper's three rulings of the check are read and accepted: the condition withdrawn with the success as written; the wrong end corrected by dated entries in both years with the old message line kept; a pass-one release already read left unedited and corrected in pass two.
 - The tool-clarity point (which end of a line `:start` and `:end` name on the ground) is for Michael, with the place scan reading an earlier year's flags file. Both are tool matters, not campaign flags.
 - The open questions of round 1 stand for Michael.
+
+## Round 3
+
+Recheck by the continuity checker after step 6, 2026-11-26, written at 23:01 Pacific, against commit fa94ac6 (the Keeper's flag 10 fix d2ccaa7; the DM's step 6, fa94ac6). Pulled first; already up to date. Read in full: `P/years/006/morning-story.md`, `P/years/005/closing.md`, `images/held/sim-06-006-morning.json`, the dated entries in `P/player/power-card.md`, the diffs of `P/player/pending.md` and of every file in `P/player/chronicle/` (canon, chronicle-god, messages, people, threads, years), the reworded lines of `decisions-005.md` and `rolling-save.md`, and the d2ccaa7 diff. Each was read against `P/releases/005/dm.md`, `S/releases/005/dm-sealed.md`, `S/years/005/year.md`, the people files, the transcript and the failures checklist.
+
+### Scripts
+
+- `tools/check.py sim-06 5 --step 7`: 1 finding, 1 note. The finding says the held request is approved and belongs in `images/requests/`. That is the known tool fault (an approved play-year morning read as approval for any year), reported to Michael; `P/state/images.md` approves no Year 6 morning and run 07 approves no paintings, so the request is rightly held. Not a campaign flag. The note is the old public roll ids, standing.
+- `tools/lockcheck.py sim-06 --leaks --dashes`: leaks 0 failures, 1 warning (the standing label allow); dashes 0.
+
+### Flags rechecked
+
+- **Flag 10: resolved.** The public pass-two release now says only that Orrin's stick is settled and that the people's public files say of it only that he keeps it. What it shows him is in the sealed side release as his own knowledge, told to nobody. No public file holds it.
+- **Flag 8: resolved.** `decisions-005.md` line 53 and the closing clause of `rolling-save.md` line 364 now say only that a part of the sealed record was given and nothing of it was stated in the open, the accepted form. Searched again: no public file outside the verbatim transcripts names the act, the pocket as checked, or a private telling.
+
+### The DM's step 6 work
+
+- **The morning story.** The first paragraph is the return sequence: the year, the month and the country's season, the town after its winter and its new weight, the god at the post, its body, its senses (no weight in the air), and where the telling runs. Then the played days as standing, the kiln yard's figures (every one matches `dm.md`), Year 3 to its end, Year 4 to the gate, and the board in the release's words; nothing resolved, and the coaster's master says nothing. Every fact was checked against `dm.md` and the people's public file. Nothing from `dm-sealed.md` appears: no name, house or port, nothing of her balance or her wants, no dim night of the fourteenth, no river boats. Bren is given no pronoun in the story. The sky: Year 3's six by month, from the release, which matches `tools/phenomena.py` (months 1, 5, 5, 7, 7, 8); Year 4's four nights to the stop with no count. One (oog) on where the story stands against the clock, with its reason. The one pending question named, with all five askings, and nothing read into the silence; the refusal named as not waiting. Checklist: no invention, contradiction or forgetting in the story; no flattery; no pointing at signs (the dim nights are told at the weight of the lines around them); no corrected belief; the lists given are the pending and answered asks the rules require; no hint of growth. The last line, that the clock is closed after this night, is true by the run 07 plan and the ruling of 2026-11-25.
+- **The closing.** Written from what happened in the stretch, in the DM's voice, and it tells nothing past the gate. It runs to five sentences where step 6 asks three or four; as in Year 4, not flagged.
+- **The held request.** `images/held/sim-06-006-morning.json`, wide, the house style block first, the figure from the appearance card seen from behind with no face. The scene is the ring's day, the second day of the first month of Year 4: the eleven on the hall's bench, the god's scales with the smallest piece in a pan, the Assay-master watching and the Tally-keeper cutting, the ring along the wall, the yard through the open door. A thing the god saw, inside the told stretch. The grey-haired Assay-master matches the approved Year 3 painting the player has already seen. Nothing from the sealed part and nothing past the gate. Held, not sent.
+- **The card.** L-0052 is entered twice: once under The True Measure, Rulings, and once as a dated entry quoting the release, the same practice as L-0037. Both carry the release's words exactly and change no term of the card. Accepted.
+- **`pending.md`.** The Year 6 list holds the one question asked five times and the refusal, and marks the Stallreeve's and the netmaker's as answered. It matches `dm.md`.
+- **The chronicle.** `canon.md`, `chronicle-god.md`, `messages.md`, `people.md`, `threads.md` and `years.md` hold the Year 5 played day, from the save, the decisions and the transcript, and the stretch as told, and stop at the gate. No sealed name, no figure of the master of the potters' working-out, nothing of the carrier's quay account beyond what he said at the post. `people.md` has Bren as a woman, as her people file has her (see flag 11).
+
+### Raised in round 3
+
+**Flag 11 (minor). The public DM release gets Bren's sex wrong.**
+- Rule: failures checklist 3 (forgetting: sex); checker item 4; `year-turn.md` section 2 (the cast with a name and sex).
+- Where: `P/releases/005/dm.md`, Day sheet, "The cast the god knows": "Bren (man): at the fish landing most dawns."
+- What the record says instead: `P/civs/unnamed-people/people/bren.md`: "A channel woman of about 40"; `P/releases/003/dm.md`: "Bren (woman)"; `P/player/chronicle/people.md`: "A woman of the channel folk". The morning story gives Bren no pronoun, so nothing told to the player is wrong.
+- Fix (Keeper, correct the record, before the next played day): "Bren (woman)". No corrections entry is owed, since the player has not been told otherwise.
+
+### Build 7 points, round 3
+
+1. Both prepared scenes accepted whole, and the run-on ruled: held, in the morning and the chronicle as in the record.
+2. The two unrolled facts settled as the files give: held; the morning tells them as what the pans gave that day, every figure matching.
+3. The player's thread as one untold stretch to the first held moment, nothing public past it: held, in the morning, the closing, the chronicle, pending and the held request.
+4. The board complete with no open roll, and `dm.md` limited to what the god knows: held, apart from flag 11, which is a slip of the record and not past the god's knowledge.
+5. No DM result changed: held. No roll was made.
+6. Phenomena months and counts: held. Year 3's six counted, Year 4 uncounted, in the morning, `dm.md` and the chronicle.
+7. No hint of growth before year 70: held, in the morning, the closing, the chronicle and the card.
+8. The lag entry and L-0056: held; the morning's (oog) states the same place against the clock.
+
+### Status
+
+Raised 11, resolved 10, open 1. The check fails until flag 11 is fixed. When it is, the check passes for Year 5 and the clock may close (step 8).
