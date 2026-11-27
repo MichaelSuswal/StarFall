@@ -1,8 +1,8 @@
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
-# What the people now say, end of Year 4
+# What the people now say, end of Year 5
 
-Where they explain a cause, they are wrong about something that matters. Year 1 and Year 2 sayings still told are kept in short; what is new in Year 3 and Year 4 is gathered at the end.
+Where they explain a cause, they are wrong about something that matters. Year 1 and Year 2 sayings still told are kept in short; what is new in Year 3, Year 4 and Year 5 is gathered at the end.
 
 ## About the woman at the water gate
 - That she is the guest the cup has waited for since Nessa Ferry first set it. Said by the children, the Seat Warden's neighbors and a few old women. The Warden says only that the cup has not been empty of her, and now that it is hers and the town's. Wrong, or unproven, in taking her for what the cup is for.
@@ -111,3 +111,46 @@ About the larger river below the ford
 
 What they say about gods
 They still hold no god. A few of the Fond say she is not a guest any longer and does not know what else to be called. Some of the Wary say the river sent a woman and the woman took keepers further down the river than anyone had been, and that it is not the same thing as the river sending one. The children say she is the one the boy was right about. No one has taken her for a god.
+
+## Year 5: what is new
+
+About the woman at the water gate
+- That she does not know what dims the star and said so, and that a guest who says it plainly is a guest who has nothing to hide. Said by the Fond and the old women. Wrong, or unproven: she said what she knew, and the people have made the plainness into a proof.
+- That "that she knows" is a small door. Said by a weir hand, and repeated by the young Wary. Right that it is a door, wrong in what they think is behind it.
+- That she wants the grandmothers not buried in a bad year, and that it was said for the old women. Said by the old women. Right in the saying, wrong in what it makes of her: they take it for a mother's wish, and she said it as a guest's.
+- That she wants a council that can say no to her, and that this is what a guest says who has been told no and wants more of it. Said by some of the young Wary. Wrong: the council has said no to her and she did not press, which the Warden's cord has.
+- That she looks for others like herself, and that the star's labor is the same labor: when it bears, it will bear another like her. Said by the midwives, and told to the children. Wrong in the connection: she did not tie the two, and the midwives have made the star's pains and her looking one story.
+- That she does not tire and walks the pasture all night and is not tired in the morning, and that it is the herd keepers' cord and not a story. Said by the pasture hands and the head herd keeper. Right in the saying, and fair, and no one makes more of it.
+- That Knee Deep walked the carriers' road and stood in the brooks it crossed. Said by the ford keepers and the ferry keepers. What was found on the road is not set down here; it is told as the Keeper gives it, and where they explain a cause they are wrong about something that matters.
+- That the Counting Woman, Knee Deep and the guest are one woman. Said by the town. Right.
+
+About the water and the weirs
+- That the gap is a hand lower because the weirs were the cause, and the deep water not back is because one gap is one gap. Said by the ferry keepers. Wrong or unproven: a hole in a weir passes the brook and scours where it runs, which the weir hands say and which does not say whether the ford is the weirs' doing.
+- That a gap scours as a gap does and says nothing of the ford. Said by the head of the weir hands. Right in what a gap does, wrong in what it spares: the ford is a different place from the gap, and nobody has shown that the two are not one water.
+- That every other weir is a half hand fuller because the oldest weir's gap has taken the brook's silt and laid it on the others. Said by the weir hands' wives. Wrong or unproven; nobody can say where a silt went.
+- That a flood lays silt thin and the low water shows what stays. Said by the head of the weir hands. Right, and the Reckoner wrote the season beside every figure for it.
+- That the head of the weir hands will keep his pole on its peg and eat it next year if the deep water comes back, and that the ferry keepers will remind him. Said at the fire, kindly.
+- That the fish came to the gap because the gap is the river's door, and a door is where a run stands. Said by the old women and some of the weir hands. Wrong in the cause: the fish stood at all the weirs and thickest at the gap, and nobody knows why they came.
+- That the fish came to the gap because the weirs are wrong, and the fish wanted to go up and the weirs held them. Said by some of the ferry keepers, softly, and not said by the others, who say they are waiting to hear it said. Wrong or unproven: the fish came thickest at the one weir that was open, which proves the gap and not the rest.
+- That the fish are the river's thanks for the gap. Said by the Fond and the children. Wrong in what they think a river does.
+- That the guest brought the fish, since she sits in the town through the ice and the fish came in the ice; and that she did not go to the water and so did not bring them, since she does not need to. Both said, by the Wary and the Fond in turn, at the same fire. Wrong in both ways, or in neither; no one knows, and the weir hand's child who asked her got no answer the town can repeat.
+- That a fish taken by hand is the hand's and the hand's house's, and that the oldest kin house's gap sent its fish back by cord as it sent its eel. Said by the Reckoner and then by everyone. Right, and fair.
+- That the oldest kin house has done three fair things. Said by the Fond. The young Wary say two were talked into him.
+
+About the star
+- Three nights this year, fewer than last and as few as the first year, none in the summer, none in the winter. The old women say the eye closes less because the river sleeps less, and the midwives say the star's pains have slowed and that a labor that slows ends one way or the other. The salt carriers say the sky god blinks less because the south is quieter. The Reckoner says it does not count by ones, three, five, six, seven, three. The Ferry Elder says it dimmed before she came and will dim after. All wrong or unproven, and none know a cause.
+- That it did not dim while she walked the carriers' road, and dimmed in the town three times of three. Said by the Wary. The ferry keepers answer that she was away about twenty four nights and the star came three times in the year, which is no sort of count. The Reckoner says he does not think it is nothing and does not think it is something. Which is true, and proves nothing.
+- That it dims fewer since she answered the weirs' people and said she did not know, and that a thing asked is a thing quieted. Said by some of the children and the old women. Wrong in the cause.
+
+About their rulers and neighbors
+- That this year's Speaker, the head of the second oldest kin house, says less than any Speaker in memory and has the Warden say the cord back after each thing. Said by the council's own, kindly.
+- That the carriers cross less because the sky god blinks, and because they have heard of the woman who stands in the river, and because the roads are closed. Said at the fire, all three, whichever the speaker likes. Wrong in all three; the carriers came less before she came.
+- That the reed cutters of the lower channels know where the salt comes ashore and will not say. Said by the Wary. Wrong: they said far to the west, by land, and the town hears "will not say" because it did not hear a place.
+- That the sea is salt and the salt does not come up the river, and that the ferry keepers could have told the council so. Said by the children, with pleasure. Right in the saying, and what the council makes of it is the council's.
+- That the road is not the town's, as the larger river was not. Said by the Elder and the young Wary. Wrong or unproven.
+
+About the road beyond the ford
+- What the party saw, who they met and what was said is not set down here; it is told as the Keeper gives it. What the town says of it is theirs, and where they explain a cause they are wrong about something that matters.
+
+What they say about gods
+They still hold no god. A few of the Fond say she is not a guest any longer and does not know what else to be called. Some of the Wary say that a guest who says she does not know what dims the star, and that she wants others like herself, is a guest who is looking for something, and that the town should ask what. The children say she is the one the boy was right about and the one who says it a third time. No one has taken her for a god.
