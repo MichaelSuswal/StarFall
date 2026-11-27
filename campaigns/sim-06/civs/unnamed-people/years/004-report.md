@@ -96,8 +96,8 @@ One thing for the Keeper's eye that is not an outcome. The stones at the landing
 ## What touches anyone else
 
 - **The south coast.** The first stick waits in the carrier's keeping. The second stick's contents were said before the yard and are known to anyone who was at the post, and the carriers took them up the old road. Nothing was sent. The ring's answer on the second stick is that six things are the town's word and two are not; no second stick has been cut for the carrier.
-- **Ruddfold.** The old weigher came down with the carriers, had his six stones weighed, said the saying of the seventh, and went home with the figures on his stick. He had already heard from the carriers that the hall said before the yard what it did not know. The carriers say Ruddfold will make something of sixty-one.
-- **The Aldermark.** No one came in the stretch, and none are asked for. What traders hear in the summer is past the held moment and not written.
+- **Ruddfold.** The old weigher arrived with the carriers, had his six stones weighed, said the saying of the seventh, and went home with the figures on his stick. He had already heard from the carriers that the hall said before the yard what it did not know. The carriers say Ruddfold will make something of sixty-one.
+- **Upriver, the Aldermark.** No one came in the stretch, and none are asked for. What traders hear in the summer is past the held moment and not written.
 - **The boat people.** Gone from the channels at the lowest tide of autumn, back on the sixteenth. The Weightward watched old women of the flats go along the shore toward the Maun Stair and did not follow them.
 - **The tide-reckoner.** Called the winter water four days ahead in the fifth month, right in height and a few hours off the hour, and lost the feeling in her hands for the season. In the seventh month she said she did not need her feet for an ordinary flood.
 - **The raking household.** Told the day before, turned out every basket unasked, was weighed and called clean. The town's word is that it was looked at and came out clean.

@@ -8,8 +8,13 @@
     },
     "r26": {
       "grade": "seen",
-      "source": "went into its channels by barge below the hills, summer",
-      "year": 3
+      "source": "crossed_it_by_barge",
+      "year": 4
+    },
+    "r32": {
+      "grade": "reported",
+      "source": "seen_from_the_river_mouth",
+      "year": 4
     }
   },
   "features": {
@@ -44,8 +49,8 @@
     },
     "f08": {
       "grade": "seen",
-      "source": "three days down it by barge below the ford, summer",
-      "year": 3
+      "source": "went_down_it_by_barge_to_its_mouth",
+      "year": 4
     }
   }
 }

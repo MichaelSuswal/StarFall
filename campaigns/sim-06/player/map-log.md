@@ -13,3 +13,4 @@
 - 2026-11-24 | year 2 | feature f25 | rumored -> rumored | hill carriers at the gate; named again by the hill kin's weigher in the hall
 - 2026-11-25 | year 3 | region r17 | none -> rumored | named by the Stallreeve at the gatepost: where the open-water owner's coasters go out past
 - 2026-11-25 | year 3 | region r10 | rumored -> rumored | upriver traders at the gate; named by a trader at the landing, Year 3
+- 2026-11-26 | year 3 | feature f22 | none -> seen | walked out to the pans at the lowest tide of autumn

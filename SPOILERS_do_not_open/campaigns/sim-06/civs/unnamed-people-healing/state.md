@@ -25,3 +25,10 @@ Each mending did what the card gives, the Hearth-Holder's granddaughter among th
 - The summer walk: the river and every creek and spring above the bank burials read clean; the ground under the bank burials and the wells below them read foul; nothing foul comes down from upstream. Your year takes the branch where the foulness lies under the bank graves and the low ground alone.
 - The moss read living and sound, with nothing in it that common moss lacks. It found only what the old women knew.
 - The old sitter's question had no answer.
+
+## Keeper, Year 4, pass two
+- The four mendings held, each with its days of shaking after.
+- The Tender's reading is closed on your people's sick; beside a brew it asked the sitter what ailed the sick one and said what it could from her words.
+- The bank ground: foul under the rows laid in the wasting winter and since, and in the wells below them; sound under the older rows and on the rise. Your numbers take the branch where the Keeper of the Mounds pegs a limit on rows laid in one place.
+- The summer walk: the same foulness under the bank burials of the two emptied steadings and in their wells; the river clean; no other steading or people below within its reach.
+- The test wells read sound.

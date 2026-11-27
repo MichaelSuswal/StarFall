@@ -30,3 +30,9 @@ mood: patient and watchful as before, and divided in the court, though less shar
 - The chain post's heel and the crab boat's keel are sound.
 - At the bedside the keeping said what it counts and showed its shape at her asking. It gave no answer to her four questions.
 - The keeping had the net-mender's slip from the jar. It heard the Warden's telling of the Harbormaster's answer in the ninth month. It was not in that water for the telling in the seventh.
+
+## Keeper, Year 4, pass two
+- The lamp lit by the tenders, without the keeping's hand, burned as a lamp does and calmed nothing.
+- The decked boat of the point broke at the harbor mouth on the twentieth day of the eighth month. Her master and his elder son drowned. The younger son and the hired hand were hauled out by the Captains' boat. Your numbers take that branch.
+- The keeping was back in the water by the town in the fourth week of the ninth month.
+- The pile and the strake are sound.

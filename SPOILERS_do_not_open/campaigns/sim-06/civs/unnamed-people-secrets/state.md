@@ -25,3 +25,8 @@ mood: steadier at the granary: the third autumn's count came the same way and wa
 - The granary's figures, to be read in place of your own wherever they differ: the roll's old stock 9,950 sacks; what stood, 6,630 (the near bins 6,490 and the 140 facing sacks); the gap, 3,320, a third of the roll; the far run by the roll's entry 3,460, filled with 3,320 new sacks and the 140 facing sacks. The count squared and was cried as the Warden's.
 - The evening with the league's tallies: the Clerk put the sticks in the stranger's hand to count. His count was right where the Clerk's was out by one. He said nothing of the stick he paused at.
 - The journey up the river went as the crew's ordinary run and he came back with it on the thirteenth day of month 11.
+
+## Keeper, Year 4, pass two
+- The Counter went on from the landing at the river's head by the drovers' track onto the plain, and was back on the twentieth day of the eleventh month, before the day he named. Your numbers take the branch: later than the crew, on or before the twenty-second.
+- The dim nights of the tenth and eleventh months found him on the plain, away from the town.
+- The dredging stands as you wrote it.

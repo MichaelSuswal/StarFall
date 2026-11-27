@@ -6,3 +6,5 @@
 - 2026-11-25 | year 3 | feature f37 | seen -> seen | three weeks at the landing where it meets the river's head, summer
 - 2026-11-25 | year 3 | feature f60 | none -> rumored | drovers at the river's head: the pass herders' winter hall, where a guest is served
 - 2026-11-25 | year 3 | feature f60 | rumored -> rumored | drovers at the river's head: the pass herders' winter hall, where a guest is served
+- 2026-11-26 | year 4 | feature f37 | seen -> seen | walked_it_with_drovers; seen whole: walked_its_length
+- 2026-11-26 | year 4 | region r04 | seen -> seen | walked_onto_it_with_drovers

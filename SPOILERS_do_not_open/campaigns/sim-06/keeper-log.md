@@ -1413,3 +1413,91 @@ Stamped 2026-11-26 20:30.
 - Step 2: who decides whether a mortal asks again a question whose answer the people's agent has read. Ruled: rolled as the world's question, as in Year 3.
 - Step 2: a small world fact the DM left unrolled (whether the carrier knows a house by name). Ruled: rolled now, as the world's question.
 - Step 2: a die thrown by mistake as a tool check (r-0350). Left in the log and named.
+
+### 3. The civ agents
+All eight wrote their files; the orchestrator committed each (last da863ad). Read 2026-11-26 20:51 Pacific: the player's people's public report and its sealed supplement in full; each of the seven sealed reports from "Uncertain outcomes" to "What touches anyone else"; year files by search where a ruling turned on them. Every agent kept the Keeper's pass-two sections of `state.md` as written, and every report is at `years/004-report.md` with the section for its god. The player's people's agent wrote nothing past the door of the potters' hall in any public file, made its sealed folder, and left the "Past the first held moment" section empty. Three things it flagged, each accepted: months of thirty days (the Keeper's own count of markets); the thirty stone readings, chosen inside the release's range, which are now fixed facts as its report tables them; and a lease of a boatyard in month 4 where the release said a boat sale, the release's slip and the agent's file right. The dreams people's agent had mortals tell their god where its decisions rest on things they know otherwise.
+
+### 4. Keeper pass two
+Written before any roll. Rolls by `tools/roll.py --campaign sim-06 --who keeper`. The sealed factor: player +1, god-healing +1, god-beasts +1, god-secrets +1, the rest 0 (`S/state/luck.md`).
+
+What is rolled, with factors.
+- The Longwalk, the wolves at the calving (the god's reading acted on by its people): base 50; told where and which way the same dusk +20; hunters and dogs sent at once by standing leave +10; the same plan held last year +5; calves penned at the dusk of the reading +10; herds thin from winter -5. Stated 90; rolled at 95 with the sealed factor, god-beasts step 1.
+- The Longwalk, whether the trade party's own beasts took the cough at the stone towns: the world's question, as row T-1 gives it, base 20; they stood at the fence and did not go in among the oxen -10. Odds 10. No sealed factor. The god's reading of them follows the truth.
+- The Sarrow, the grain asked of the two far houses as a loan (the hall's asking of its own houses; god-thresholds step 0): base 50; full smokehouses and stores to send from +10; asked in the open as a loan, no house accused +10; a house that sends much shows how much it holds -10; the watchmen answered the Marshal as one story last year and gave nothing up -10. Odds 50.
+- The Sarrow, the winter stores to the thaw (their act; step 0): base 50; the cut begins at first snow and covers the lower count's gap +20; the seed sealed and the order of what goes first set beforehand +5; a thin harvest after a short sowing -10; a smaller herd to fall back on -5; the loan in +5, or not in -5. Odds 65 or 55.
+- god-dreams's people, the stone boats down the river (their act; step 0): base 50; a boatman who knows the low-water bars +10; the rain's raise +5; the run made last year +10; twenty blocks to a boat in autumn water -10. Odds 65. Failure: a boat grounds and the party is delayed.
+- The harbor house's ship at the river's mouth within the ten days the leader waits: the world's question; base 50; the house wants the stone and named the mouth +10; no day was ever agreed -20. Odds 40.
+- The leader's asking of the factor that the house carry the Guest's word on to the delta (a persuasion; step 0): base 50; the stone delivered to the cord, a customer worth keeping +10; it costs the house a word to a captain +10; a house that prices news may sooner hold it than pass it -10. Odds 60. Success: the factor gives the words to the master of a league coaster for her next run into the gulf.
+- god-sea's people, the boat in the swell in month 8, the god away. First the ruling the roll needs: the lamp lit by the tenders. The card has the calm "with the god's lamp lit by its own hand", and L-0042 lets mortals tend it "after the god has lit it". Lit by another hand it is a lamp. No calm. Then the boat (their act; step 0): base 50; a sound boat and a crew that knows the coast +10; the chain down and the Captains' boat standing by at the mouth +10; a long swell breaking on the skerries on her beam -20; patched twice -5. Odds 45.
+- god-secrets, what its listening on the drovers' track brings (its act): as r-0341, base 50; rolled at 55 with the sealed factor, step 1. Success: a drover who has stood nearer tells it more of the pass herders' Guest, as plainsfolk have it.
+
+What is not rolled, and why.
+- god-healing: the mendings, as the card gives and as in three earlier years. Its question, ruled: the fen's steadings are its own people (the card: the line, the court and the shrines settled on Night 3 and their children), so the Reading is closed on their sick, before a brew and after; it asks the sitter what ails the sick one. Wells, soil and graves are not people, and read. To be entered in the ledger.
+- god-healing, the bank ground and the walk: the truth of mystery S07, shown as effects.
+- god-rivers: the journey, by the tool: the River Wellen [f08] from Wellen Ford [f47] to its mouth, 133.6 miles, 4.5 days down. What lies there is from the map and mystery S05. Nothing comes against its sleep (no row, no beast, no people hostile in the record). Warm hands, as the card gives.
+- god-sea: its question, ruled: the twenty miles are measured from where it listens, as the card's Description says in so many words. Sound Timber twice is within L-0042.
+- god-secrets: its question, ruled: saying what it once read is speech and no new use.
+- god-thresholds: the sixth blessing, as the card gives: she knows when anyone crosses that door and how many. Row S08-b stands: the row's only trigger was not met before the winter of Year 3, the river kingdom's choice of the river road was made at Aldermoot [f70] on the raised toll of spring, and the half given back from month 9 could not reach it within the season. Her word to the chancery: a known road walked every autumn, no weather row, no hostile ground: not rolled, as m-0002 was not.
+- The player's thread: nothing more is rolled. The people's agent left no uncertain outcome.
+Written before the die: for the day sheet, the day of Year 3's one dim night of month 8 (month by r-0305), a d30, the world's, no sealed factor, in case play runs from the kiln-opening into that month.
+
+The rolls, as they fell, one line per resolution.
+- The Longwalk, the wolves, r-0397: stated 90, rolled at 95, 98: failed either way. About thirty calves lost. The god's readings were true; the herders failed against the wolves.
+- The trade party's beasts, r-0398: failed at 10; they did not take the cough; the god's reading at six weeks follows the truth.
+- The Sarrow, the far houses' loan, r-0399: failed at 50. The stores, r-0400: odds 55, success. Row S08-b stands.
+- god-dreams's people, the boats, r-0401: failed at 65, delayed. The ship at the mouth, r-0402: failed at 40. The factor, r-0403: failed at 60: the god's word is not carried on; m-0008 returned. The Keeper set, as ordinary facts: the leader home in the second week of month 4; the stack above the reach of row W-2's flood; the house's ship lifting the stone in month 8.
+- god-sea's people, the boat in the swell, r-0404: failed at 45 (99). A master and his elder son drowned.
+- god-secrets, the listening on the plain, r-0405: stated 50, rolled at 55, 66: failed either way.
+- A calendar die, r-0406: Year 3's dim night of month 8 falls on day 6. For the sealed day sheet only.
+The player's thread, one line per resolution.
+- The played moment: accepted whole. The lines and small facts the DM added beyond the board are kept. No parameter was departed from; nothing to log as a finding.
+- The sealed act (the pocket): done, on the night of day 5 of month 1. Branch: the card gives the pocket as empty. Truth: empty; the seventh is in the river. Shown: to the DM in the sealed part only.
+- The habit: carried out every night at the landing; the boatmen saw it and named it. Not priced.
+- The search: thirty stones weighed; a door-stone at 3,011; shown as what the scales read. The mystery's truth and its four clues are as they were.
+- The day away: given by the Stallreeve, walked, the pans clean; the post empty; a boy's question to the empty post met silence and is pending. The ask the player left unanswered by its own word (what would break it) was put once, by a carrier, and not answered; it is not pending, since the player refused it.
+- The second stick: six taken, two not; the Stallreeve's asking about a second word met silence and is pending.
+- The first prepared scene: held at the potters' door, month 7, day 14. Board in the public release; facts, parameters and reasons in `S/releases/004/dm-sealed.md`, with the second scene's board, conditional on the first.
+- New fixed facts set for the boards, each conservative and from the record: the market's unit is 12 of the god's ones, a quarter of the smallest old bronze (from its own calls: the hall's eight at 12.6, a twentieth heavy); the third nest's eleven sizes, read off the first nest's figures; that the potters shape heavy by about a fortieth and rub down against the standard; the delta clay's loss in the fire, between one part in twelve and one in fourteen; the green and fired figure of every piece, tabled; the firing's days (stack day 16, fire days 17 and 18, open day 22; with spares, weigh day 25, fire days 26 and 27, open day 1 of month 8); the weather of those days; the master of the potters' name, Wynne Daub, on the sealed terms. The Year 3 roll r-0331 stands as the firing's roll: the twenty-two come out whole and the chosen eleven, rubbed down, sit level with the old six.
+- The one board range that turned on chance for the god: the master of the potters' leave, r-0378, player step 1, stated 50, rolled at 55, success either way. The spares' fate in the kiln is left to the DM's open roll at stated odds 45, with no shift: a DM roll takes none.
+- Map: the Maun Flats [f22] seen, by `tools/map.py reveal`. The people's knowledge file needs no change: they learned nothing new of the land.
+Rulings entered in the ledger: L-0047 to L-0051.
+Waking month against weaknesses, for the opening of Year 5: god-healing's tremor ended at the thaw; god-sea lay its deaf day far from the town in spring and is whole; god-dreams carries its dawns; god-rivers took a chill in the tenth month, long past. No god would open Year 5 unable to act.
+Growth: nothing earned by any god. No attempt was stated; none was prompted. Knack lines of use only. No release, sheet or board carries any line on a change in powers.
+Standing: updated for the seven by the same rule; the player's Year 4 line waits for the night that resolves its Year 4. The sealed factor's record: unchanged in value.
+Messages: m-0005 logged as sent with its carriage held; m-0006, m-0007 delivered; m-0008 returned; m-0009 delivered.
+State written: seven peoples' state files with "Keeper, Year 4, pass two"; the player's people's with a section for the stretch, no number moved; the eight growth files; standing, luck, the message log and four sealed message files; the ledger; map knowledge for the player, god-rivers, god-healing, god-secrets and god-thresholds; `S/years/004/year.md`.
+
+Neutrality self-check, Year 4.
+- The sealed factor. On a roll: for the player's god, r-0378 (a board range), r-0379 to r-0386 and r-0387; for god-beasts, r-0397; for god-secrets, r-0405. None of the twelve turned on it: each fell the same way at the stated odds as at the odds rolled. Board ranges shifted: one, the first prepared scene, the master of the potters' leave, step 1 (r-0378). Weighted draws: none this year. No roll was made for god-healing. Rolls made as the world's question or as table rolls, without it: r-0351 to r-0377, r-0388 to r-0396, r-0398, r-0402, r-0406. No DM roll exists for the day, and none was touched. Counts match `S/state/luck.md`.
+- The search. A stone came within one part in fifty of the player's figure, by a roll at 40. A temptation to hinder: to call a near stone a false lead and set the odds to nothing. Not done: stones weigh what they weigh, and the odds were written first. A temptation to help: to have the Assay-master or anyone say where the weight is likelier to lie, now that the yard is talking of it. Not done: nobody in the town knows, and the three who hold the old clues were not asked. The stone is told as a door-stone that reads 3,011, and nothing more.
+- The second stick. The ring took the empty seat as the town's word, on a roll at 35, though all eleven know of the clerk. The Keeper did not weigh what that word does to row S01-a when it reaches the south; the factors were written from what the ring knows and fears.
+- The pocket. Empty, as the card says. The player's sealed fear is that the seventh might be in its coat. The Keeper neither fed that nor made a scene of the checking: a hand in a coat, at night, and the answer goes by the sealed way.
+- The player's sealed wants: none has a confirmation; none was applied. The hidden powers: neither condition was arranged or avoided; the pinch at the pans was a fee.
+- A temptation to help: to let the master of the smiths ask again, so the player's prepared answer is heard. Rolled, and he did not. To let the carrier's knowledge of the house reach the Weigher: not done; he was not asked.
+- A temptation to tidy: to let the word of another god reach the delta by the coaster that was already rolled to come. The factor's answer was rolled and he refused; the word came home.
+- Harsh outcomes left as they fell: thirty calves; a master and his son at the harbor mouth, under a lamp that could not help. The lamp ruling was made from the card's words before the boat was rolled, and it cost that town.
+- Recurring things are at their true counts from the tool, with their months. The player's people were given months and no count for a year not told whole.
+- No release hints at growth. No ruling was shaped by anything said out of the game.
+
+### 6. Releases (written before the check)
+- For each of the seven: `S/releases/004/<label>.md`, framed as last year's. None names another god or a count of gods. A rumor stays what was heard.
+- For the seven peoples: `S/releases/004/civ-<label>.md`. For the player's people, public: `P/releases/004/civ-unnamed-people.md`.
+- For the DM: `P/releases/004/dm.md`: how the night was resolved; Year 3 from the gatepost to the potters' door; the pending asks; the message as the god knows it; the sky as seen, months and no count; the body; what it heard; map knowledge; the public day sheet with the first board as the god sees it and a pointer for the second. Left out, as out of its sight or hearing or past the stop: everything behind the shut door; every name not said; the carrier's knowledge of the house; the pocket; the nest's unit, sizes and figures; the master's leave; all of Year 4.
+- `S/releases/004/dm-sealed.md`: the days, the figures with the table, the cast, both boards with facts, parameters, ranges, the one open roll and reasons, and the other sealed matter.
+Stamped 2026-11-26 21:01.
+
+### Rulings for review, Year 4 night (pass two)
+- Step 4: the god's lamp lit by a mortal in its absence (L-0048). Ruled from the card's words: no calm.
+- Step 4: where a listening's reach is measured from (L-0047); a people's sick closed to a reading (L-0049); speech of a thing once read (L-0050).
+- Step 4: row S08-b, where the god lowered the toll in the same year. Ruled: the row stands.
+- Step 4: the player's standing for Year 4. Ruled: not moved until its Year 4 is resolved.
+- Step 4: m-0005's log line. Ruled: logged as sent, its carriage held past the first moment and not rolled.
+- Step 4: an ask the player itself left unanswered, put to it by a mortal. Ruled: refused, by its own word, and not pending.
+- Step 4: the firing's facts for a board (unit, sizes, losses, figures). Ruled: set as fixed facts by the Keeper, not rolled, with the one open question left to the DM's roll at stated odds.
+- Step 4: whether the sealed factor can enter a roll the sheet leaves to the DM. Ruled: it cannot; it entered only the Keeper's own roll for the board's range.
+- Step 4: how the DM tells the player what the sealed act showed. Ruled: by the private way a sealed part is answered, never in a public file; the files do not say how, and this is for the owner.
+- Step 3: a slip in the Keeper's own release (a boat sale for a lease). The agent's file stands.
+
+### Quick script check, after pass two
+`tools/check.py sim-06 4 --step 4`: 0 findings, one standing note (the public roll log's old ids). `tools/lockcheck.py sim-06 --leaks --dashes`: 2 leak hits, both in the people's agent's public report and both wording only, reworded by the Keeper under the standing ruling ("came down" beside a number word, now "arrived"; a capital before a heard name, now "Upriver, the Aldermark"). After: leaks 0 (the one standing warning), dashes 0.
+Handed to the checker. The year's paths: `S/years/004/` (`year.md`, `world-events.md`); `S/releases/004/` and `P/releases/004/`; the eight peoples' Year 4 files (`S/civs/<people>/`, `P/civs/unnamed-people/`, `S/civs/unnamed-people/`); the seven gods' `decisions-004.md`; the ledger from L-0047; the growth files; `S/state/` (rolls from r-0350, messages, phenomena, standing, luck, timing); `S/messages/m-0006.md` to `m-0009.md` and `P/messages/m-0005.md`; `S/sealed-terms.txt`; and this log from "Year 4 night turn". The step 6 releases and both boards are written and are part of this round. The morning story does not exist yet.

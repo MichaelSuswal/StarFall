@@ -49,3 +49,8 @@ population: about 5,090. stores: grain and dried fish through the winter; salt i
 - The potters' third nest, fired to the old six, agrees with itself and with them to a hair. The date the ring set for the town's weight holds.
 - The three questions put to the Weightward about what it can do (whether it can be killed, whether it can cure a fever, whether it can tell the height of the water) each met no answer. Your numbers take the branch with no answer.
 - Held at the year's turn: the ring's yes to a keeper's word for the coast, and its asking for the words, at the gatepost in the first month of Year 3. The half-stick lies at the foot of the post. The numbers above stand.
+
+## Keeper, Year 4 night, pass two (Year 3 again, as far as it is told)
+- The numbers above were written for a Year 3 told to its end with the eleven's asking unanswered. From the fifth day of the first month that year is told again in `years/004.md`, as far as the fourteenth day of the seventh month. No number here is moved until the year is told to its end.
+- Among about thirty stones brought to the landings' beams, one read near the Weightward's figure: a door-stone, 3,011. The seventh is not found.
+- Held: the Weightward at the door of the potters' hall, the fourteenth day of the seventh month.

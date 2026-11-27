@@ -33,3 +33,9 @@ mood: tired and a little steadier than last year, with the surface still unhurri
 - What the keeper told the Marchwarden of the cutters: three gatherings of people with draught beasts, working and unafraid, a little deeper. No number.
 - The keeper's readings give where a gathering is and whether it is hurt, afraid or resting. That a herd was drinking is its own guess, and it said so.
 - The herder's question, what the cough is, had no answer.
+
+## Keeper, Year 4, pass two
+- The wolves of the calving got in among the calves on the second and third nights, though the Houndwarden sent hunters and dogs at the dusk of each reading and the calves were penned. About thirty calves were lost. Your numbers take that branch.
+- The trade party's beasts had not taken the cough; read at six weeks they showed no hurt and joined the herds.
+- At the pool below the third camp the herd read resting at the second dusk; the hurt of the first was a pair of beasts horned in a fight. The camp stayed.
+- The cough took about forty of the two clans' cattle in the winter and no other herd's.

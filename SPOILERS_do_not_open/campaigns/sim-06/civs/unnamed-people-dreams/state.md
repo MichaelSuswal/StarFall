@@ -37,3 +37,8 @@ The river party reached people at the river's mouth, was received and came home 
 - At the harbor the leader heard this on the quays and brought it home: at the market town in the western delta a stranger who reads scales for a pinch of barley has been seated as keeper of the weights, and says before the market that it is a god.
 - Of the three who sat the winter beside the Night Sitter, the hamlet girl found she could. Your numbers take that branch.
 - At the dawns after three households the wall's men saw what the guest had told them they would see, and no more.
+
+## Keeper, Year 4, pass two
+- The stone party: a boat grounded on a bar and three days were lost; no ship lay at the river's mouth in ten days; the stone was stacked above the high water. The leader and a pair of runners went round the shore to the harbor. The factor gave bread and three nights, sold salt for the linen and oil at the standing price, said his house's ship lifts the stone at the first fair weather after the gales, and would not have the Guest's word carried on to the delta. The leader turned for home. All nine were home in the second week of month 4 with a little salt. Your numbers take the branch nearest that: home before the hard cold, with little salt, the late pigs cured lightly.
+- The Guest's word did not go on to the delta.
+- The oldest barrow singer died in the third month; no one holds the third song.

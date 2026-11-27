@@ -21,3 +21,4 @@ god-thresholds: 0
 - 2026-11-24, Year 1 night turn, pass two, all eight: no change. No god's growth reached a tier and nothing else moves a count. Counts stand: player +1, god-healing +1, god-beasts +1, god-secrets +1, the rest 0.
 - 2026-11-24, Year 2 night turn, pass two, all eight: no change. No god's growth reached a tier and nothing else moves a count. Counts stand: player +1, god-healing +1, god-beasts +1, god-secrets +1, the rest 0.
 - 2026-11-25, Year 3 night turn, pass two, all eight: no change. No god's growth reached a tier (a hidden power surfacing for god-secrets is not a tier of growth) and nothing else moves a count. Counts stand: player +1, god-healing +1, god-beasts +1, god-secrets +1, the rest 0.
+- 2026-11-26, Year 4 night turn, pass two, all eight: no change. No god's growth reached a tier and nothing else moves a count. Counts stand: player +1, god-healing +1, god-beasts +1, god-secrets +1, the rest 0.

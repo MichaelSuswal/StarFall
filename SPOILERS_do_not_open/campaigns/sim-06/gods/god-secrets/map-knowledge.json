@@ -8,8 +8,8 @@
     },
     "r04": {
       "grade": "seen",
-      "source": "walked onto it from the track's end, summer",
-      "year": 1,
+      "source": "walked_onto_it_with_drovers",
+      "year": 4,
       "told": {
         "name": "a plain country to the south-west"
       }
@@ -42,8 +42,8 @@
     },
     "f37": {
       "grade": "seen",
-      "source": "three weeks at the landing where it meets the river's head, summer",
-      "year": 3,
+      "source": "walked_it_with_drovers",
+      "year": 4,
       "told": {
         "name": "a path"
       }

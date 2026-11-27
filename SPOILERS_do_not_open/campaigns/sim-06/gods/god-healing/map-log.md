@@ -1,2 +1,3 @@
 - 2026-11-24 | year 1 | feature f55 | reported -> seen | walked in, spring
 - 2026-11-24 | year 1 | feature f56 | reported -> seen | walked on the landing morning
+- 2026-11-26 | year 4 | feature f02 | reported -> seen | walked_its_bank_downstream; stretch seen from A3 to A3, about 123 miles

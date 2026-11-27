@@ -30,3 +30,8 @@ Nothing came against the sleeping woman at the water gate; no roll. Each of the 
 - She stood in the larger river each dusk and dawn and felt nothing pull.
 - Nothing came against the listening at the ford. She slept about two hours.
 - What she told the council in autumn: what the keepers measured; what the reed cutters said of the salt; that the deep water lies farther again from the ford stones on the side away from the weirs and the bed behind each weir is shoaled; that fewer laden beasts crossed; and that she found none like herself in that water. The council's course is the one you wrote for that telling.
+
+## Keeper, Year 4, pass two
+- The journey: five days down, to where the river meets the sea in a shifting delta of reed and channels, and about twelve days home; all four came back. No salt comes up that river. Reed cutters of the lower channels say the salt for the stone towns is landed far to the west and goes up by land. Nothing came against the party.
+- Warm hands: the child's fever came down. Your numbers take that branch.
+- What the water does at the gap in the oldest weir shows at next spring's flood.

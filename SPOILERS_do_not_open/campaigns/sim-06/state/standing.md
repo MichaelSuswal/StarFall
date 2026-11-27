@@ -6,12 +6,12 @@ Sealed. Kept by the Keeper. Never released, and told to no god. Each god's stand
 
 player: 23
 god-sea: 20
-god-dreams: 26
-god-rivers: 23
-god-healing: 22
-god-beasts: 23
-god-secrets: 23
-god-thresholds: 29
+god-dreams: 28
+god-rivers: 24
+god-healing: 23
+god-beasts: 24
+god-secrets: 24
+god-thresholds: 32
 
 ## History
 - 2026-11-24, creation Night 3b, all eight: set at 20, the landing value. One value for all: a people that keeps a place for one awaited holds a tale in mind and not yet this god, and the one people that knows its god on sight has known it for no time at all.
@@ -42,3 +42,12 @@ god-thresholds: 29
   - god-beasts: 22 to 23. The band knows the keeper at the margin and has once acted on its word.
   - god-secrets: 22 to 23. The town talks of the Counter and counts dim nights against him.
   - god-thresholds: 26 to 29. About eighteen thousand have served her a third year.
+- 2026-11-26, Year 4 night turn, pass two. The same rule as Years 1 to 3, for the seven.
+  - player: 23, no move entered tonight. Its Year 4 is not yet resolved (its thread stands at a held moment of Year 3); the Year 4 line is entered on the night that resolves it.
+  - god-sea: 20, no move. A dozen or so know of it; the town knows a keeping and not its shape.
+  - god-dreams: 26 to 28. The town and the kept households hold her as the one awaited.
+  - god-rivers: 23 to 24. The town, the ford and the lower river have seen the woman who stands in the river.
+  - god-healing: 22 to 23. Most steadings know the stranger who mends and reads wells.
+  - god-beasts: 23 to 24. The band knows the keeper at the margin and acted on its word again.
+  - god-secrets: 23 to 24. The town talks of the Counter and counts dim nights against him.
+  - god-thresholds: 29 to 32. About eighteen thousand have served her a fourth year.

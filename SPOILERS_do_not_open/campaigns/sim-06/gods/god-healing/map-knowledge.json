@@ -18,9 +18,21 @@
   },
   "features": {
     "f02": {
-      "grade": "reported",
-      "source": "own sight at landing",
-      "year": 1,
+      "grade": "seen",
+      "source": "walked_its_bank_downstream",
+      "year": 4,
+      "stretches": [
+        [
+          [
+            94.2,
+            573.1
+          ],
+          [
+            102.8,
+            676.0
+          ]
+        ]
+      ],
       "told": {
         "name": "a river to the west"
       }

@@ -329,3 +329,36 @@ Matter: a year was resolved with several moments held, told to the player as it 
 Arguments and ruling: in the keeper log, Year 3 night turn, pass one ("the told year reworked against the played moments"). In short: what was played, with the boards it was played on, is fixed; what does not turn on what a mortal now knows stands as told; what the town's people did between is resolved again, and every told line an answer makes false is listed for the DM; in doubt the told line stands; nothing is edited, the stretch is written again.
 Binds: every later turn that follows a year with held moments, until the owner rules on the design question.
 
+
+## L-0047
+Date: 2026-11-26. Year: 4 (night turn, pass two). Card: god-sea's (Water's Hearing).
+Matter: the god listens far from its town and asks whether the twenty miles are measured from where it listens.
+Arguments: the god's case: the card says so. Against: none; the Description reads "within about a day's walk (twenty miles) of where it listens".
+Ruling: the twenty miles are measured along the coast from where it listens, wherever that is. The deaf day follows as always.
+Binds: god-sea's card. Undisputed.
+
+## L-0048
+Date: 2026-11-26. Year: 4 (night turn, pass two). Card: god-sea's (Calm Under the Lamp).
+Matter: the god was away; a mortal had the god's lamp lit by the tenders for a boat in a swell.
+Arguments: for a calm: L-0042 lets mortal tenders refill and keep the lamp. Against: the Description gives the calm "with the god's lamp lit by its own hand", and L-0042 speaks of tending "after the god has lit it".
+Ruling: lit by any hand but the god's, the lamp is a lamp and gives no calm. Nothing is spent and the harbor water is not closed to the god for it.
+Binds: god-sea's card. Settled against the reading its people acted on; the god did not ask it.
+
+## L-0049
+Date: 2026-11-26. Year: 4 (night turn, pass two). Card: god-healing's (Reading the Rot).
+Matter: the god means to read a sick person before and after a sitter's brew, and asks whether the steadings' sick are its own people, to whom the Reading is closed.
+Arguments: the god's own case is that it expects the Reading closes. The card's definition: the line, the court and the shrines settled on Night 3 and their children.
+Ruling: the fen's steadings are its own people. The Reading is closed on their sick, before a brew and after. It may ask what ails them and may mend them. Wells, soil, graves, moss and stores are not people and read as before.
+Binds: god-healing's card. Settled against the god in part, as it expected.
+
+## L-0050
+Date: 2026-11-26. Year: 4 (night turn, pass two). Card: god-secrets's (Tally-Reader).
+Matter: the god means to tell a mortal what it read by the power a year ago.
+Ruling: saying what it once read is speech and no new use of the power. The day in which it could speak no false figure of that account is long past and is not renewed by speaking.
+Binds: god-secrets's card. Undisputed.
+
+## L-0051
+Date: 2026-11-26. Year: 4 (night turn, pass one). Card: none; the resolution of prepared scenes under build 7.
+Matter: the player prepared two scenes days apart; `year-turn.md` section 1 boards only the first held moment, and section 2 gives a board for each scene the player has said it will prepare.
+Ruling: both are held, as two moments. The player's thread stops at the first and nothing past it is resolved as what happened. Both are boarded in the sealed day sheet, the second conditional on the first, so the DM may play on into it on the same day. Reasons in the keeper log, Year 4 night, pass one.
+Binds: this campaign's later turns, until the owner settles the two lines.

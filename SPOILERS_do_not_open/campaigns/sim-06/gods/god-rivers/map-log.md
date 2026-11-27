@@ -5,3 +5,6 @@
 - 2026-11-24 | year 2 | feature f08 | none -> seen | stood in it at the ford
 - 2026-11-25 | year 3 | feature f08 | seen -> seen | three days down it by barge below the ford, summer
 - 2026-11-25 | year 3 | region r26 | none -> seen | went into its channels by barge below the hills, summer
+- 2026-11-26 | year 4 | feature f08 | seen -> seen | went_down_it_by_barge_to_its_mouth; seen whole: went_its_length_below_the_ford
+- 2026-11-26 | year 4 | region r26 | seen -> seen | crossed_it_by_barge
+- 2026-11-26 | year 4 | region r32 | none -> reported | seen_from_the_river_mouth

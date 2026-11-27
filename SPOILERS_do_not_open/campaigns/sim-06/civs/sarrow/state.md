@@ -26,3 +26,9 @@ mood: the households are thin and steady, hold the sharing as their own custom, 
 - The Reading at the table in the fourth month: the senior Doorwarden means no harm to a guest at that table, and he learned the same of her. She taught him the oath in person that winter. No lesser mark was laid.
 - She gave no word on the toll and none on the letter.
 - The dimmings of the star are not known to be anyone's doing.
+
+## Keeper, Year 4, pass two
+- The far houses' loan: the nearer house sent about two days' worth; the farthest sent words only. Your numbers take that branch.
+- The stores lasted to within days of the thaw. The seed seal was whole at the sowing. About a hundred and fifty died over the ordinary, the old and the youngest.
+- The word for the river king was given to a clerk of the chancery in the second month. No answer and no envoy came this year.
+- From month 9 the toll stands at a knot and a quarter the beast, as the table settled it. In months 10 to 12 no train of the river kingdom came.
