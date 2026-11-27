@@ -1,6 +1,6 @@
 > SPOILER WARNING: Keeper material. Players should not read this file.
 
-# Lore of the Sarrow, end of Year 4
+# Lore of the Sarrow, end of Year 5
 
 What the people now say. Where they explain a cause, they are wrong about something that matters. The wrongness is marked after each telling for the Keeper. Year 1 tellings that still stand are kept and marked.
 
@@ -131,3 +131,52 @@ What the people now say. Where they explain a cause, they are wrong about someth
 - That a band that eats last three winters running has done the host a service, or has been used. Said both ways.
 - That the names of the winter's dead were said at the first snow for the first time, with the seat set, and that a house that names its dead is rewarded. Wrong in the reward; the winter that followed is the answer, and the people read it by the branch it took.
 - That the line of the grass stood this year. Said by the herders without hope and by the households with some. Wrong in the households' reading, which takes one year as the turn.
+
+## Year 5 tellings (added; earlier tellings that still stand are kept)
+
+### About the Guest
+
+- That she said at the hall, and again at the hearth mothers' fire, that she was not there when they asked and that it was her doing and not theirs. The households say a god that says so before the whole hall is a mother. The Doorwardens say it is how a Guest speaks of a door she left unlatched. Some captains say a god who owns a thing can be asked for the next. Wrong in all three: she said it so that the question would not stand against the three who asked it.
+- That she gave the Steward her whole bag of salt. Said at every hearth, and the Mother of the Hearth says it is the first gift of salt to the common stock from a god. Wrong: all but one handful, which the Steward knows and the hearths do not, and which she kept for a mark.
+- That she set her own seat at the warlord's door at the first snow, and unlatched the door, and that a Guest who sets her own seat is telling the house the next Guest has not come. The old women argue it from the first night. Wrong in the sense taken: she did it as the people do, and no one asked her why.
+- That she went into the ford at first light on a train day and came out at the farthest door, and that the door of the Sarrow is one door from the ford to the last house. Said at the ford by the watchers, who saw her go, and in the high rite as a thing the sill does. The riders say she was at the farthest door a day and a night and ate at the keeper's table. Wrong in the part that matters to the households: they say the farthest door is now hers, and it is the keeper's house still.
+- That at the farthest door a child asked her what she had had for her dinner, and she answered. Told in the low quarter as a game that has reached the road. Wrong in nothing anyone knows.
+- That she did not answer the Marshal about the coughing beasts and that the Marshal penned them himself. Said by the riders as the Marshal's courage and by the captains as the Marshal's habit. Wrong in the courage: he said it was a small order and a sensible one.
+- That she stood through the names again and did not sit. Said now as a thing the Guest does and not a thing she is asked to do.
+
+### About the strange things
+
+- The star. Three nights this year, in the second and the seventh months, fewer than any year since the first. The households say it is resting, as the herders have said. The Doorwardens, who said it dims when a door is blessed, say no door was blessed this year and the star dimmed three times, and say the count is twenty four in five years against six blessings, and are told the sky keeps its own calendar. The old women say it dims fewer times because the dead of the winter were named better. The households say it is fewer because the Guest set her own seat. Wrong in every telling: none fell on a night of a thing said or set, and the people have put the cause after the night.
+- The flower. Bare again at the cutting. The herders say it is not coming back and that the stone has counted the line two years and it has stood, and that two years is not a turn. The Doorwardens say the toll was fairly kept and the flower should have come. The households say the stone is holding it. Wrong in the Doorwardens' telling, which ties it to the toll, and in the households', which says a stone cut to count a line holds it.
+- The cranes. Said still to count the doors, the stores, the dead, and now the riders. Wrong, and the plainsfolk have no word of it.
+- The cough. Said by the households to be the Guest's salt on the ford, which the river's beasts do not like. Said by the Doorwardens to be the cold walking down. Said by the captains to be the king's excuse. The herders say beasts cough in a thin summer. The Marshal says it is a sick beast and a sick beast is penned. Wrong in the households' and the Doorwardens' tellings; the herders' is nearer and still guesses.
+- The salt. Said at the hearths to be short because the river's trains stayed away, which is true in part, and because the Guest took the trains' salt for herself, which is wrong. Told in the quarter that the Steward gave way on a beast of salt and so the second master asked and got his price. Wrong in the order: the first gave way, and the second asked no more than the Steward had named.
+
+### About their rulers
+
+- Of Kessan: that he sent riders beyond the houses and chose a captain who does not anger, and that the captains who were not chosen say it is because they do. Said that he was given his own road and used it. Wrong: he chose the man who was not at the far houses and who could be spared from a column.
+- Of Idris Veld: that she sent her own keeper of rite with the Warlord's riders, to keep the guest law at every table, and that this is the First Doorwarden at the Warlord's side. Said by the Doorwardens as a good sign and by the captains as a bad one. Wrong in both: she sent the one who has the river speech.
+- Of the Steward of Salt and Stores: that he gave way on a beast of salt and said so to Idris and the Mother, and that this is the same man who a fortnight ago gave a hard number. Said as a proof he is honest and as a proof he is soft. Wrong in both: he said a beast of salt held back in autumn is a pot of salt less in spring.
+- Of the Mother of the Hearth: that she told the households before the pot did, with the Guest at her shoulder, and that the old women have never had so much to argue. Said in the quarter as a good sign. Wrong in that she said she did not ask the Guest to stand there.
+- Of the Marshal of the Road: that he sent the Guest's word of the farthest door to every house in the same hour, and so none was named. Told by the riders as fairness and in the low quarter as a Marshal covering himself. Wrong in the telling that makes him either: he said it was his own act and a small one.
+- Of the older toll watcher at the ford: that he saw the Guest go into the ford and not come out, and kept the ford that night, and said in the morning nothing came by it that he did not count. Told at the ford as the sill keeping itself. He says he counts, and that a man who counts is not a sill.
+- Of the keeper of the farthest toll house: that he bade the Guest to his table with his hands open and his wife set the pot down on the step. Told in the low quarter as what a keeper does. Said by the Marshal's riders that the house stood as it did. Not known to be true in the rest; see what the sill says, if the sill sat.
+- Of the captain of the riders beyond the houses and the keeper of rite who went with him: that they are the first of the host to go as guests beyond the farthest house since the Sarrow kept the sill, that they carry the Guest's word to a king, and that they will be fed. Said by the Doorwardens that the sill goes with them, and by the captains that a man who wins a king's table is a man the Warlord should fear. Wrong in the second: nobody knows whether they are fed.
+
+### About their neighbors
+
+- The river kingdom's trains came back at the thaw, about half as many, with their masters saying it was not the toll. Said by the households that the Guest's word to the king brought them, since the word went in the autumn. Said by the captains that the king sent half to see what the ford would do. Said by the Doorwardens that the king's heir keeps his claim by sending half. The older watcher says only that the faces came again and fewer. Wrong in each cause the hall gives; the cords say the trains were half and that the masters said so.
+- The two trains that came short of beasts, and the carriers who carried for them. Said in the low quarter that the river's king has lost his draught beasts and that the Sarrow carriers, who have always said the passes were theirs from the first snow of the world, are proved. Wrong in the first part, since no one knows what the king has lost.
+- The salt trains of other peoples. Said at the hearths that the hall bought salt from two trains because no other would come, and that the masters asked double and were given the Steward's price. Wrong in the second: the first got the Steward's price on two beasts and the master's on one.
+- The two farthest toll houses are said still to have new roofs, good horses and full smokehouses, and the Guest to have stood in the farthest door on a train day and eaten at the keeper's table. The keeper's house is not said to have been judged in the quarter, except by those who say it should be, and by those who say it has been and was cleared. Not known to be true; the quarter keeps both.
+- The counted road is not spoken of this year.
+- The plainsfolk have heard the cranes, the old women say.
+
+### About themselves
+
+- That the salt offerings were given to the common stock this winter and the Guest's debt was entered on the separate cord, and that this is why the winter held, in Branch A. Wrong in the cause. In Branch B the households say the salt offerings were given too late, and that the seed should have been sealed a third mark.
+- That the sharing from the first snow is the households' own custom and the band's eating last is the band's own, as before. The captains say so at the hall and say the opposite at the fire.
+- That a band that eats last four winters running is a band that will ask something of the host one day. Said by one captain at the hall and by many at the fire.
+- That the seed is sealed under two marks and the Mother holds half and will not give it up. Said now as a saying: the Mother's half.
+- That the line of the grass stood a second year and the herders were heard at the hall in the cold. Said by the herders without hope and by the households with some. Wrong in the households' reading, which takes two years as the turn and the stone as the cause.
+- That the host said before the pot that the salt was short. Said as a new thing. The hearth mothers say it is the oldest custom there is, that the host has never kept it, and that it was kept this year.
