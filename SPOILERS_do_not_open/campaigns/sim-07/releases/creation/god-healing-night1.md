@@ -92,4 +92,19 @@ You are falling. Not through air. Through something thinner. Behind you is where
 18. What should a god be able to discover here that it can't yet imagine? A place, a power, a truth, a companion?
 19. Last: one wish for this world you haven't dared say yet. The world only listens, but this is when it's listening.
 
+## Follow-up
+Two of your answers each name two points far apart, and the world can take
+only one point from each.
+
+Question 5. You asked whether the human story should be thousands of years
+old, with ruins under ruins, or whether the people should be young enough
+that you could know them all. Which do you wish for?
+
+Question 14. You asked whether a few travelers would be enough, one wanderer,
+or whether it is better if they come in numbers. Which do you wish for?
+
+Add your two answers at the end of SPOILERS_do_not_open/campaigns/sim-07/gods/god-healing/survey-day1.md
+under the headings "## Follow-up, answer 5" and "## Follow-up, answer 14".
+Change nothing else in the file. Write to no other file. Then stop.
+
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.

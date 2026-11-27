@@ -48,4 +48,4 @@ Worship: a priesthood. Keepers of rite with standing among the people, offerings
 (Night 2)
 
 ## The month the world wakes in
-(filled by the Keeper on Night 1, after the waking vote; the same words on every sheet)
+The world wakes in March, the first of spring, the month of the thaw. Every year opens in it, for every country and every god.

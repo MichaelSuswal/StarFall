@@ -130,3 +130,9 @@
 {"id": "r-0130", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, flaw", "die": "d10", "roll": 99, "face": 9}
 {"id": "r-0131", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, wound", "die": "d12", "roll": 64, "face": 4}
 {"id": "r-0132", "time": "2026-11-26T06:10:52Z", "pacific": "2026-11-25T22:10:52-08:00", "who": "keeper", "what": "god rolled seventh, voice", "die": "d10", "roll": 13, "face": 3}
+{"id": "r-0133", "time": "2026-11-26T06:17:18Z", "pacific": "2026-11-25T22:17:18-08:00", "who": "keeper", "what": "Q3 seasons, variation roll", "die": "d100", "roll": 89, "face": 89}
+{"id": "r-0134", "time": "2026-11-26T06:17:18Z", "pacific": "2026-11-25T22:17:18-08:00", "who": "keeper", "what": "Q6 mortal magic, variation roll (moot under the star's range)", "die": "d100", "roll": 73, "face": 73}
+{"id": "r-0135", "time": "2026-11-26T06:17:18Z", "pacific": "2026-11-25T22:17:18-08:00", "who": "keeper", "what": "Q8 how much a god stands out, variation roll", "die": "d100", "roll": 100, "face": 100}
+{"id": "r-0136", "time": "2026-11-26T06:17:18Z", "pacific": "2026-11-25T22:17:18-08:00", "who": "keeper", "what": "Q9 strangeness of the wild, variation roll", "die": "d100", "roll": 72, "face": 72}
+{"id": "r-0137", "time": "2026-11-26T06:17:18Z", "pacific": "2026-11-25T22:17:18-08:00", "who": "keeper", "what": "Q13 non-human peoples, variation roll", "die": "d100", "roll": 40, "face": 40}
+{"id": "r-0138", "time": "2026-11-26T06:18:29Z", "pacific": "2026-11-25T22:18:29-08:00", "who": "keeper", "what": "ceiling, the d10 (Q8 result 6: one roll)", "die": "d10", "roll": 38, "face": 8}

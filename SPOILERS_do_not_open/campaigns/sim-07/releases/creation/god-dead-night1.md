@@ -91,4 +91,17 @@ You are falling. Not through air. Through something thinner. Behind you is where
 18. What should a god be able to discover here that it can't yet imagine? A place, a power, a truth, a companion?
 19. Last: one wish for this world you haven't dared say yet. The world only listens, but this is when it's listening.
 
+## Sent back
+Answer 4 is sent back to you, once. Your sheet gives Temper 89: it leans hard
+toward impulsive, the end that acts now. Your answer sets wild country aside
+"for later", for your people's grandchildren, and counsels looking over the
+wall before building it higher, which is the patient end, and it says nothing
+of the pull between the two. Answer question 4 again from inside your
+character, with your sheet in front of you. If both are true of you, say how
+they live together, in your own voice.
+
+Add your new answer at the end of SPOILERS_do_not_open/campaigns/sim-07/gods/god-dead/survey-day1.md
+under the heading "## Answer 4, given again". Leave your first answer as it
+is, and change nothing else in the file. Write to no other file. Then stop.
+
 A git pull --rebase --autostash origin main is always allowed; it writes no file of yours. If a pull fails, retry it once. Do not commit or push; the session that spawned you commits your files.

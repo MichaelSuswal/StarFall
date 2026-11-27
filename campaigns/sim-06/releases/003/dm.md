@@ -188,3 +188,69 @@ The Keeper has entered the first in `player/map-knowledge.json`.
 
 - Sent: its word to the old weigher at Ruddfold (`campaigns/sim-06/messages/m-0002.md`), by the hill carriers in the second month of Year 2. As the Weigher knows it: he came down the next autumn with his stones and said the word had reached him.
 - Received: none.
+
+## Build 7 setup, 2026-11-25
+
+From the Keeper, before the Year 4 play day. Michael reopened this world at Year 4 under build 7, and from Year 4 build 7 governs it. This section is written under build 7 and stands over anything above that it differs from. Its sealed companion, which you read by its path, is `SPOILERS_do_not_open/campaigns/sim-06/releases/003/dm-sealed.md`.
+
+### What changes in your handling
+- The year is told only as far as its first held moment, and nothing of the Weigher or its town past that moment is what happened until the moment has been played. The first held moment is the one above: Year 3, the first month, at the gatepost. It is played live today, by you, on the board below and within the parameters in the sealed companion. What is played holds.
+- Everything in this release that lies past that moment was written under build 6, resolved with the asking unanswered. It is not yet what happened. Tell none of it today, and do not play from it. That covers: the note under the held moment that no word went with the coasters; "The rest of autumn", "Winter", "Spring" and "Summer" of Year 3; pending asks 3 and 4 (the boy and the netmaker), which are not put to the player today; the Year 3 lines of "The sky"; "God-sense and the body" and "What the Weigher feels of its powers" as far as they speak of Year 3 after the first month; "The people at the year's turn"; and the third line of "What the Weigher was told and overheard" from the hill kin's saying on, where it comes from Year 3 after the first month. The night after today's play works that stretch again with what the player does, and the next morning tells it.
+- The first section's line on how a told year is worked again, and ruling 3 under "Rulings for the card and the record", no longer apply from Year 4. Nothing past a held moment is told, so nothing told is reworked.
+- Pending asks 1 and 2 (the master of the smiths and the woman of the back houses, from the winter sitting of Year 2) stand and are put to the player today, as you promised.
+- A scene the player prepares for today (a meeting set for a day, a thing to be done at a named time) is not resolved tonight. The night holds it at its opening moment and it is played live on the next play day. Write it in the decisions file with its time.
+- Small world facts come from the day sheet. A fact in neither part is rolled by you, as the sheet's head says.
+
+### Say this to the player, in (oog), before the board
+(oog) One thing before we play. This world now runs on a newer build of the rules. A year is told only as far as its first held moment, and nothing past that moment is settled until you have played it. So the little I told you this morning from after the gatepost is provisional: it was worked out with the Stallreeve's asking unanswered, and the night after you play the moment works that stretch again with your answer in it. I said I would tell you the rest of Year 3 when the moment was played. It comes tomorrow morning instead, as it then stands.
+
+### What that covers
+The Year 4 morning stopped at the gatepost, so the list is short.
+1. The return sequence at the head of the morning story, the town and the Weigher as they stand at the opening of Year 4: the season and the grain; the town fed and not afraid; that it has stopped looking to fill the seventh seat; the longer line; who speaks well of the Weigher and that the four who voted against the seat have found no cause to call it down; the back houses and the salt-rakers; the bargaining moved nearer the gatepost and farther off; where the Weigher stands and what it carries; that its body is whole, that it has not slept and that nothing has been taken from it; that no weight came into the air; that its scales told it nothing new. All of it holds as far as the first month of Year 3 and is provisional after.
+2. The (oog) line that the rest of Year 3 "went on around" the held moment and "was resolved". The world beyond the Weigher and its town did go on. The Weigher's own year and its town's are not resolved past the moment.
+3. That the open-water owner's coasters went out, and that as the year stands no word went down the coast with them.
+4. The closing of Year 3, where it has the Weigher at the landing at the year's end counting over the whole year's readings.
+Not covered, and standing as told: everything up to the gatepost in the first month of Year 3; the board itself, with the Horn as a name on the map; the list of true scales; the ruling on how the standing words about the Reading are run, which the player may still overturn; and that nothing has come back from Ruddfold as far as the telling runs.
+
+## Day sheet
+For the DM only. What the god can see, hear and know on the next played day.
+Everything it does not know is in the sealed part,
+SPOILERS_do_not_open/campaigns/sim-06/releases/003/dm-sealed.md. A fact in
+neither is rolled by you: state its odds to the player in (oog) before the
+roll, say whose attempt or question it is and what success means for them,
+and log it for the Keeper.
+
+### The days
+The first month of Year 3, the first month of autumn in this country, the fifth day: a market morning, about an hour after first light. Mist on the channels, lifting; dry; the day will be warm. The grain is in. The market falls every third day, as it has since the Weigher came: this month on the second day, when the ring sat on the weight, on this fifth day, and on the eighth and the eleventh. On the dawns between, it reads boats at the landings that ask. Its nights are at the landing by the channel folk's lamp. Of the ring's sittings it knows what it has seen and been told: the ring sets its own, and three of the eleven may call one out of turn. No feast is known to it in these days.
+
+### Figures, as the god knows them
+- Its own ones: the smallest of its seven brass cups, each cup twice the last, one to sixty-four.
+- The six old weights, as it called them twice, a year apart: 48, 96 and 192 in its own pans; 384, 766 and 1,536 on the hall's beam with the Assay-master's hand on it. The fifth has an old chip at its foot. The seventh seat is empty.
+- The hall's ten fired pieces, as it called them on its first day: eight alike, each twelve and a little better than a half; the chipped piece twelve less a hair; the cracked piece eleven and something under a half. Four of them sank against the first bronze at the weighing: about a twentieth heavy. The Tally-keeper's stick has the eight as about twelve and a half.
+- The potters' first nest, kept in the hall, as it called it: 13, 25, 37, 52, 75, 89, 98, 130, 150, 179, 181. The second nest, kept at the potters' hall: its pieces agree with one another to a hair, and with the hall's present pieces.
+- What the ring decided on the second day: the old six are the town's weight from the first market of the autumn that comes round next year; bargains made before then are reckoned by the present pieces; the master of the potters is to fire a nest to the old six in spring; the seventh seat stays as it is.
+- Its fee at the gate and at a landing: a pinch, weighed in its own pans. The Tally-keeper's fee for a stick: a pinch, hers.
+- No other price is known to it as a figure.
+
+### The cast the god knows
+- The Stallreeve (man): runs the market, the watch and the runners; brings the eleven's word to the gatepost. It told him itself what it is. He said "Not this summer. Ask us after the grain sitting" a year ago.
+- The Tally-keeper (woman): keeps the kept halves; cuts every figure it calls; cut its mark, two pans, level. Her apprentice (boy) calls the figures to the yard.
+- The Assay-master (man): the chief assayer, one of the eleven, his hand on the beam beside its own. He has told it what he saw in the loft. He has not given his name.
+- The ship owner of the open water (man): one of the eleven; keeps the coasters that go out past the Horn; has a dawn at his landing when they are in; named by the eleven to carry the word.
+- The ship owner of the channels (man): one of the eleven; the landing bargain is with him; was for the seat.
+- The clay head (man), the master of the potters (woman), the head of reed and fish (woman), the master of the boatwrights (man): of the eleven, for the seat.
+- The head of salt (man), the master of the smiths (man), the master of the weavers (man), the head of the hill goods (man): of the eleven, against the seat. The head of the hill goods and the master of the potters stood for the chest on the second day.
+- Bren (woman): of the channel folk, a fish seller at the landing; her balance was the first it read; her household keeps the lamp.
+- Orrin (man): a kiln master of the east kilns.
+- The tide-reckoner (woman): old, of the flats; it has heard her word given at the gatepost and has not met her.
+- The old weigher of the hill kin (man), of Ruddfold: it sent him a word a year ago by the carriers. Nothing has come back.
+- Two of the watch (men) at the post, as on every market morning.
+- At the head of the line, a fish seller of the channel folk (man), whose hand balance it holds. It does not know him by name.
+
+### Places in reach
+From `tools/map.py describe` and what the Weigher has walked. The town on the old clay bank, in the delta's marsh of channels, reed islands and old banks, with salt flats on its seaward side; the ground runs 0 to 20 feet and level ground is in view to about 3 miles. The town's house with its gate, never shut, its gatepost, its yard and its hall; in the hall, the bench, the ten fired pieces along the wall, and the room with the chest, under the old keeper's loft. The landing below the hall, on the main channel of the Alder. The landings where it reads boats: the ship owner of the channels', the ship owner of the open water's, a pair of smaller owners', and the fish landing of Bren's household. The Bank Way along the bank top, north to south-east. The Old Rudd Way where it meets the town. The diggers' pits, a day there and back with the Stallreeve's leave. On the eastern skyline, a hill country, about 23 miles to its nearest edge. Known by name only: Ruddfold, Hask, the Aldermark, Corrith, the Maun Stair, the Horn.
+
+### Held moment: the ring's yes, and its asking for the words
+Board: the foot of the gatepost of the town's house. Year 3, the first month, the fifth day, a market morning, about an hour after first light: the first market after the ring's sitting on the weight. Present: the yard in its line; two of the watch at the post; the Stallreeve before the Weigher, with the Tally-keeper beside him holding the kept half of a cut stick and her knife; the Assay-master a little apart with his arms folded; at the head of the line, the fish seller whose balance is in the Weigher's hand, not yet tried. In view: the gate, the yard, the hall's door standing open behind the Stallreeve, the mist going off the channel below the bank. On the Weigher: the scales at its belt, the nest, and in its coat the half-stick of the council's first asking, the half-stick of the seat and the old keeper's key. No weight is in the air.
+The Stallreeve has just said: "The eleven say yes to what you asked of me at the gatepost, Weightward. The town wants a keeper's word sent down the coast, in the plain terms you gave the eleven: what each of the hall's pieces is now, in your ones, and that the eleven have said which is the town's weight. The ship owner of the open water will carry it when his coasters go out past the Horn. The eleven ask you for the words." He has laid half of a split stick at the foot of the gatepost. Nothing has been answered. He waits.
+Facts, parameters and reasons: in the sealed part.
