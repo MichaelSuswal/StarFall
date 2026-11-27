@@ -93,3 +93,5 @@ Closed 2026-11-24 15:50.
 ## Year 5 night turn (run 07 Part B, the last night)
 - 2026-11-26 21:44 began. Keeper: fable.
 - 2026-11-26 21:47 step 0 done and the seven decide releases written (step 1 released). God agents: sonnet, run by the orchestrator.
+- 2026-11-26 21:52 step 1 done: the seven decisions read.
+- 2026-11-26 22:00 step 2 done: pass one, the world events list, the eight civ releases and the sealed side release written. Civ agents: sonnet, run by the orchestrator.
