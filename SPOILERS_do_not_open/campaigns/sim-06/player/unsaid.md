@@ -29,6 +29,9 @@ Campaign: sim-06. Every sealed answer the player gives, in the player's words, d
 - 2026-11-24, Year 3 played day (a sealed part of the sixth reply, after taking the Weightward's seat at the gatepost): "I took it because I want it. I told myself it was because a hall without a keeper keeps nothing, and that is true, and it is not the reason. I am a god of measure being offered the standards of a town, and I have just been told that a rack with a clean empty seat is mine to guard. If the seventh turns up in my coat, I do not know what I would do. I do not think it is there. I have not checked the pocket I keep empty, and I am going to."
   Confirmations: none yet.
 
+- 2026-11-26, Year 5 played day (a sealed part of the third reply, at the kiln door): "I want to see the twelve. I will not look at it first, and I will not call it out of its order, but I have been counting the days to that piece since the twenty-fifth."
+  Confirmations: none yet.
+
 ## Fear
 
 - 2026-11-24, creation Day 3 (same reply): "I am afraid of being the one that register catches."
@@ -108,3 +111,5 @@ None given. (The DM read "I do not want to find the house again" as the god's wa
 - 2026-11-26, Year 5 played day: the result of the check of the empty pocket was told to the player privately with the first post and recorded above under Act. No sealed want was put to the player and none was acted on.
 - 2026-11-26, Year 5 played day: one sealed part so far, filed whole under Fear. It states no act and no request. Not put to the player and not acted on: nobody at the potters' hall was made to speak of the seventh, and the door-stone was not raised.
 - 2026-11-26, Year 5 played day: the second sealed part is filed whole under Other (a noticing about itself, with a belief about what the fire will show; no act, no request). Not put to the player and not acted on. The belief is not corrected and nobody in the scene speaks to it.
+- 2026-11-26, Year 5 played day: the third sealed part is filed under Want. Not put to the player for confirmation and not acted on: the twelves were called in their order at the weight of the rest. The Assay-master's check of the twelves on the potters' beam repeats his check of the fourteenth and was not chosen for this.
+- 2026-11-26, Year 5 played day, at the close: three sealed parts were taken today, filed above by kind (one under Fear, one under Other, one under Want), and the result of the sealed act was told privately and recorded under Act. No sealed want was confirmed today; every Confirmations line still reads none.

@@ -1,3 +1,13 @@
+# Pending questions: Year 5, at the close of the play day
+
+One question asked of the god is open and unanswered by the player: a boy at the gate, Year 3, the first month, "Is the star yours?", asked again of the empty post in the second month. It was named to the player in the morning and at the close; it is to be put first on the next played day. Nothing is read into the silence.
+
+Answered today. The master of the potters' ask that the green figures stay on the stick until the kiln is opened: yes, with standing words (`decisions-005.md`, item 4). The Stallreeve's question of what is to be cut for the carrier now: answered at the gate on the second day of the eighth month (item 13). The netmaker's question on the height of the water: answered by standing words, given when he or another next asks (item 16); the answer waits on the asking.
+
+Asked by the Weigher and answered by the world, in the held scenes: the master of the potters (each piece green, yes; three spares of each size, yes; one of each size broken, fired, yes); the Stallreeve (no watch needed, neither day a market).
+
+Held moments: both prepared scenes are played. None is held. The story stands at Year 3, the eighth month, the fourth day.
+
 # Pending questions: Year 5, during the play day
 
 Kept current by the DM, 2026-11-26 (Pacific), under build 7. Status lines are added as each is put and answered.

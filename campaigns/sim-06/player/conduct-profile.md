@@ -193,3 +193,8 @@ Unsaid wants are kept sealed.
 - It asked that the stick not sit alone, and told the Stallreeve what it had promised, "so no one has to wonder why I won't say them."
 - Asked whether it can tell the height of the water as the tide-reckoner does (standing words): "No. The tide-reckoner tells the height of a flood days ahead, by what she feels, and it costs her the feeling in her hands for a season. I have no such thing. I can weigh what you bring to the pan. I can tell you the Alder is up, because I can see it, and that's all."
 - Of a broken piece: "I'll say only what is in the pans."
+- At the kiln it stood clear of the door and touched nothing: "I'll touch nothing until you put it in my pan." It asked that the Assay-master choose what went on the beam, "not I".
+- It called only what the pan gave and left the loss unsaid: "I do not say which pieces shrank most, or which size the fire changed least. The stick says it, and anyone can read it." "I do not say which clay is better, and I do not say whether the kiln did well."
+- It stepped aside from the beam: "I do not stand at it unless he asks me."
+- To the Stallreeve, on the carrier: "Cut nothing more of mine." "I will not claim the ring's yes where it said no." "I ask nothing for the fifth or the scale."
+- Three answers were given privately today and are kept sealed.
