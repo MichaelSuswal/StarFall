@@ -157,3 +157,21 @@ I took "I take what she gives" as far as going in and weighing on her terms for 
 By the count she gave, the spares are weighed green on the twenty-fifth and the kiln is opened on the first, and neither is a market day, so the gate does not need the watch for either unless you want to ask the Stallreeve anyway. On a day with no market your dawn is at whichever landing has asked.
 
 And one that has waited since the second day of this month, while we are in a quiet place. The netmaker at the gate asked, "Can you tell the height of the water as the tide-reckoner does?" The Alder is still up. If he or another asks it again, what do you say?
+
+## Player:
+
+"Master, I'll keep them on the stick. You asked it plainly, and it costs me nothing. Two of your nests have been cried wrong in the yard, and I'd have the same wish in your place. They stay on her stick until the kiln is opened. I don't cry them at the gate or the landing, and I don't say them over to anyone, even in passing.
+
+"One thing I can't promise, and I'd rather say it now than have you hear it at the gate. If I'm asked a plain question by the Stallreeve or the ring, in session or at the post, and I can't answer without saying a green figure, I'll tell them it is on the stick and not mine to cry until the first. That is not a lie. It is silence, and I've kept it before. If anyone says it to me as a thing I must say, I'll ask them to put it to you first. I won't say a false figure, and I won't say a true one that you've asked me to hold."
+
+"I'd also ask that the stick not sit alone. The Tally-keeper keeps it, and the Assay-master has seen it, and on the first the three of us read it together, green beside fired, before it is cried. If you want yourself at the reading, you'll have your place."
+
+To someone at the gate or the landing who asks me for a green figure before the first, I say: "The master of the potters asked that the figures stay on the stick until the kiln is opened, and I've said yes. After the first you can have them from the Tally-keeper, as called." I say it flat, the same to everyone, and I don't hint at the figures with my face. If they press, I say I've told them what I can.
+
+On the water, if the netmaker asks again, I say: "No. The tide-reckoner tells the height of a flood days ahead, by what she feels, and it costs her the feeling in her hands for a season. I have no such thing. I can weigh what you bring to the pan. I can tell you the Alder is up, because I can see it, and that's all."
+
+For the rest of the days between, I ask the Stallreeve whether the watch needs to stand at the gate on the twenty-fifth and the first. I ask him for nothing more than that, and I tell him what I told her about the green figures, so no one has to wonder why I won't say them.
+
+On the day of the kiln, I ask to break one spare of each size, as she offered, green on the twenty-fifth if she allows, fired on the first. I ask her to look at the break first, as she said. I'll weigh the two halves, and I'll say only what is in the pans. If she'd rather keep the broken ones, I'll ask that she say so before I touch one.
+
+(One more answer was given privately, for the sealed record.)
