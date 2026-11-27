@@ -43,3 +43,23 @@ The first day of the eighth month. First light, dry and bright, no market. The o
 You are in the kiln yard behind the potters' hall. There is one round kiln of clay and brick, with its door bricked up and clayed over. No heat comes off it. The master of the potters stands at the door with a mallet, her sleeves down. Her firemen stand behind her with an empty board apiece, and more boards are laid on trestles in the yard. The Assay-master is beside you. The Tally-keeper has both long sticks, the green figures on them and a clean run beside each. Your scales are at your belt. No weight is in the air.
 
 The master of the potters says: "It is cold. Stand back from the door, there is dust."
+
+## Player:
+
+I step back from the door, well clear of the dust, and stand with my hands at my belt. I say, "Stand where you like, Master. I'll touch nothing until you put it in my pan." I ask the Assay-master and the Tally-keeper to stand where they can see the brick come out and the first board drawn, and I take the yard side of them so I'm not between the door and the light.
+
+I say nothing while she works the mallet, and I keep my eyes on the door and not on her hands.
+
+When the first board is out and the pieces are set on the trestles, I ask three things, once, in this order:
+
+"Master, will you draw them in the order they stood on your boards, smallest first? Will you set each in my pan as you did green, and let the Tally-keeper read the scratch on its foot before I call it, so the fired figure goes beside the green? And will the Assay-master choose which two or three pairs go on your beam, not I?"
+
+I weigh the twenty-two in that order, the pair of each size, then the spares if she wants them weighed, and I call each in my ones and tenths. I say nothing about the green figures aloud. I say only what the pan gives now. If a piece is cracked or chipped, I say so when the master has looked at it and not before. The Tally-keeper cuts each fired figure beside its green, and she reads the two together when all are done, with the master and the Assay-master standing at her shoulder. I do not say which pieces shrank most, or which size the fire changed least. The stick says it, and anyone can read it.
+
+For the breaking, I ask her to break one fired spare of each size as she offered, looking first, and then set the halves in my pan. I weigh the two halves together, then each half alone, and I say what the pans give, how much of the lump is clay and how much is not clay, sand or grit or shell, as my reading gives it. I do not say which clay is better, and I do not say whether the kiln did well.
+
+When the last of it is cut, I step aside and let the Assay-master carry the pairs to her beam. I do not stand at it unless he asks me. The figures go out of the yard only when he has said what the beam says. After that I say nothing to the yard that the stick doesn't say, and I say it to anyone who asks, from the Tally-keeper's cuts.
+
+For the Stallreeve, I give my words now, before the coasters go. "Cut nothing more of mine. What the ring took is the town's word, and the first stick carries the part the ring let me send. The second is the ring's to cut or leave. If the carrier is asked about the fifth, let him say what the stick says and no more. If a captain asks me about the fifth, I say it is light by a hair on the Assay-master's beam, because that is what I called, and I say the ring did not take it as the town's word. I will not claim the ring's yes where it said no. I'd have the carrier told only this: that the town's word is what the stick says, and that the hall's pieces are the hall's and the old six the town's weight from next autumn's first market. If the ring wants more cut before the tenth month, I will say it in session. I ask nothing for the fifth or the scale."
+
+(One more answer was given privately, for the sealed record.)
