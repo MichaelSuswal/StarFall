@@ -147,3 +147,71 @@ Stamped 2026-11-26 20:02.
 `player/world-rules.md` written from template 7.9: god-sense as set (nearness and weight, only close at hand, never a count), one body with no cost line, and the pricing terms for mortal magic. Nothing discovered is in it, and the waking month is not in it (it reaches the DM in the Day 3 brief). `player/followups-day2.md` is the one line `No follow-ups for Day 2.`: the player's answers leave no gap, no premise was rejected or bent, and no request not to be told was made. No sealed request or flagged line arrived on Day 1, so `ruling-ledger.md` and `player/requests-answered.md` are not written.
 Still out: god-dead's answer 4 given again; god-healing's follow-up answers 5 and 14. Waiting on them: the Q4, Q5 and Q14 blends, the star-and-age reading, the world draft (1.7) and the close (1.9).
 Paused 20:02 on 2026-11-26 for god-dead's answer 4 given again and god-healing's follow-up answers 5 and 14.
+Resumed 20:03 on 2026-11-26. The orchestrator ran the two agents and committed their files (074a2d8). Pulled. `rulings.md` read again: one entry, unchanged.
+
+### 1.4, the replies
+- god-dead, `## Answer 4, given again`: it names the pull itself (a quick god who is first over the ridge alone, and a careful keeper who will not spend its people's steps), which is the sheet's impulsive temper beside its shepherd regard. It holds. The first answer stays in the file; the new one is the one blended.
+- god-healing, `## Follow-up, answer 5`: the young people, with the old roads and doors older than they are. `## Follow-up, answer 14`: one wanderer. Each replaces the answer it follows. Both hold against the sheet.
+No further send-back or follow-up is owed. Its Night 2 release will carry the follow-up as answered; the other gods get `No follow-up.` there.
+
+### 1.5, the questions that waited
+Placements, written before their rolls.
+
+Q4 past the borders, scale (1 wild and unwalked, 10 old kingdoms everywhere). Player 5 (some of each; kingdoms far off, wild near enough to claim); storms 5.5 (some of each, a neighbor and a frontier, tilting neither way); fire 4 (a little of each, wild with one old kingdom far off); rivers 5.5 (some of each, wild upstream, kingdoms downstream); sea 5 (some of each, edges still being drawn, a few far harbors); harvest 5 (some of each, wild first, kingdoms at the far edges); healing 3 (wild the kinder hope, one tired kingdom far off); dead, given again, 5.5 (some of each, the wild near and its own to scout, old neighbors for its people; tilts neither way). Sorted 3, 4, 5, 5, 5, 5.5, 5.5, 5.5. Median 5, no tie.
+
+Q5 age of the human story, scale (1 within living memory, 10 ruins under ruins over thousands of years). Player 10; storms 10; fire 10; rivers 10; sea 10; harvest 10; dead 10 (each: thousands of years, ruins under ruins, in those words). Healing, by its follow-up, 2 (a young people, known by face, with roads and doors older than they are: its second matter, older works that are not the people's, colors a place and not the placement). Sorted 2, 10, 10, 10, 10, 10, 10, 10. Median 10, no tie.
+
+Q14 travelers from afar, scale (1 none, 10 many). Player 2 (a few, one or two); storms 2 (a few, one worth a dozen); fire 2 (few, a traveler or two); rivers 3 (a few strays, not many); sea 2 (one or two, not a crowd); harvest 2 (one or two at a time); healing, by its follow-up, 2 (one wanderer); dead 2 (few, one or two). Sorted 2, 2, 2, 2, 2, 2, 2, 3. Median 2, no tie.
+
+Variation rolls, cast after the placements.
+- Q4: 62, no change [r-0139]. Past the borders is 5: about half the land held by godless peoples and half open, by area. Old rooted kingdoms lie mostly far off; unwalked country lies between and near.
+- Q5: 78, raises by one [r-0140]; 11 clamps to 10. The human story is at its deepest: thousands of years, ruins under ruins. The deep history (3b.4) must reach that far.
+- Q14: 3, lowers by one [r-0141]. Travelers from afar are 1: none.
+
+Q14 pool, what they brought. Player: a tool or technique, the bringers tired and settling. Storms: an unfamiliar tool and odd speech, knowledge partial. Fire: a strange tool or way of working metal. Rivers: odd tools and half a story. Sea: a tool, a song, a way of counting, off a ship. Harvest: a tool, a seed, a method, and the bringer does not stay. Healing: a strange blade or an unreadable book. Dead: a trade, a tool, a way of reckoning. Shared: a tool or technique (eight); a way of counting or reckoning (two). With the scale at 1 the pool has no build path as settled strangers; it is kept, unplaced, against the reading below.
+
+Star results and scale blends that speak to one matter, read before anything is built on them.
+- Travelers. The blend gives none; the star's long-game presence (6) requires the carriers, who cross from under other stars. Both stand. The bodies govern what exists: the carriers exist and come on their own clock, as the lore gives them. The blend sets the rest: there are no other travelers from afar, no settled strangers and no stray bringers of tools at the start. Whether anything in the Q14 pool rides with the carriers is for 3b, from the lore, and is not promised.
+- Age. The star is late and the blend is 10. They agree: a late star stands over long-spent ground, and the history must hold both a deep human story and the fading a late phase shows. The phase governs how near the end is; the blend sets how many layers lie under the present.
+- Magic. Rain density bounded Q6 by its table (above). The lone answer that asks for magic as a learnable craft stands only as a local understanding (Q7).
+- Non-human kinds and the star's content, ice and long memory, touch but do not bound each other; the content governs what the star holds, the blend how many kinds there are.
+Left out: nothing was dropped whole tonight. Two fears stand only as belief (Q10), and three undared wishes stand only as candidates, never rules (Q19).
+Stamped 20:04.
+
+### 1.7 Write the first world draft
+`world-draft.md` written: tone; climate 4 and one count of seasons; the waking month on its own line; the star's results that bear on the land; magic 9, final, with its feel and cost; god-sense and bodies as set; gods stand out 6; the wild 5; borders 5; age 10; non-human 3; travelers 1 with the reading above; the terrain list and each god's placement wish; `Underground: yes, location not set` with what it is; every pool, its widespread features apart from its rare candidates, every rare candidate marked unplaced. Vote counts are in this log only.
+
+### 1.8, completed
+No NPC god has a gap left. The player's follow-up file and the world rules stand as written at the earlier stamp.
+
+### 1.9 Close
+`sealed-terms.txt` holds the factor's name on two `!` lines and all the labels: god-storms, god-fire, god-rivers, god-sea, god-harvest, god-healing, god-dead. `tools/lockcheck.py sim-07 --leaks --dashes`: no failure and no warning on either. Possible false hits or misses to note for the checker: none tonight; no label is an ordinary word by itself.
+
+Decision the files did not make: this run ends after Night 1, by the `rulings.md` entry of 2026-11-25 21:16 ("After Night 1 the clock is set to `status: closed`"), while the close order sets `creation_night` to the next night and the runbook sets `season_opens` only in 3b.8, which this run never reaches. Decided: the clock is set to `status: closed` with `creation_night: 2` recorded, and `season_opens` is written now with the month decided in 1.5, as the orchestrator directed so the test can see it there. Reasons, by the judgment order: the status is Michael's own ruling; the month is final tonight by the runbook, so writing it early changes no outcome and favors no god; the clock is the Keeper's file. Night 2 is not opened. Applied; listed for review.
+
+### Rulings for review, Night 1
+- 1.3: the rubric's sheet words for the mortal-ruler band point to "the variety table below", against its own rule that a sheet never points to the table. Ruled: the sheet gives the lean, the kind with its meaning, and the band's sentence without the pointer.
+- 1.3: the sheet's bargaining stance, in the rubric's words, speaks of prices and drawbacks, and the Night 1 release carries the sheet whole, against "No price in a release". Ruled: the sheet stands and the release carries it whole.
+- 1.4: whether an answer whose manner sits at the far end of a hard lean, with no word of the pull, breaks character when it denies nothing outright. Ruled: yes; god-dead's answer 4 was sent back once.
+- 1.5, Q6: whether the variation roll is cast when the tie is moot under the star's bound. Ruled: cast for the record; it changed nothing.
+- 1.5, Q8: a median of 5.25. Ruled: 5, before the variation roll, for the reason logged.
+- 1.5, Q11: fuel, clean water and salt tied at three. Ruled: fuel and salt are the world's scarcities; clean water is local.
+- 1.5, the underground: whether two answers placing a people in the deep pass the threshold. Ruled: yes, a few joined hollows in mostly solid rock.
+- 1.5, Q15: whether "a faint pull at close range", added to a face-to-face answer, is a sub-point (how near) or an extra. Ruled: its nearness is a sub-point, read with the other winning answers; knowing a god by its works is an extra for Day 2.
+- 1.5, Q16: god-sea says one body and asks that a costly way exist. Ruled: counted with more than one; the vote is seven to one either way.
+- 1.5, Q14: the blend gives no travelers and the star requires the carriers. Ruled: both stand; the carriers exist, and there are no other travelers.
+- 1.9: the clock at the end of a run that stops after Night 1. Ruled: `status: closed`, `creation_night: 2`, `season_opens` written now.
+
+### Close check, Night 1
+Files: `keeper-log.md` present. `state/rolls.jsonl` present. `star.md` present, with the ceiling. `sealed-terms.txt` present. `gods/<label>/sheet.md` present for all the NPC gods, the month line filled in the same words on each. `gods/<label>/survey-day1.md` present for all, god-dead's with its answer given again and god-healing's with its two follow-up answers. `gods-sealed/<label>/.keep` present for all. `player/.keep` not needed: `player/` holds `unsaid.md`. `releases/creation/<label>-night1.md` present for all. `world-draft.md` present, with the `Waking month:` line and the `Underground: yes, location not set` line. `campaigns/sim-07/player/world-rules.md` present. `campaigns/sim-07/player/followups-day2.md` present, one line. `ruling-ledger.md` and `player/requests-answered.md` not written: Day 1 carried no sealed request and no flagged line. `state/timing.md` present.
+Rolls: r-0001 to r-0141. Void by the tool's own range rerolls: r-0019, r-0088, r-0106, r-0126, r-0127. No reroll for a duplicate or for the player's theme. Nothing rolled twice.
+Neutrality:
+- The theme match list was fixed before the first domain roll and not touched after; three neighbors of the player's theme came up (fire, rivers, harvest) and each stood as the list had it. I did not widen the match to clear them.
+- Every scale placement was written before its roll and none was moved after. The Q8 roll then raised the step I had set at the tie; it stands.
+- The ties were decided on what gives the gods more to meet and contest, and the reasons name no god. I note for review that the scarcity chosen first is one the player named and the one dropped to local is one it did not; the reason logged is the mechanics, and the count was even.
+- The waking month came from the count alone. I weighed no god's gain or loss in it, the player's included, and did not use the interesting-game rule.
+- The send-back and the follow-up went to NPC gods only because only their answers met the bar; the player's answers were read by the same bar and left no gap. Neither reply moved a median.
+- The underground was decided from the pools and the star, with no sheet in view.
+- The star's results were all kept as rolled, the one that removes a body included.
+- The sealed factor: no count was set or used tonight (they are set at 2.4), and no roll tonight was a roll for a god's or a people's act; the table rolls that build a god or the world take none.
+Closed 2026-11-26 20:05 Pacific.

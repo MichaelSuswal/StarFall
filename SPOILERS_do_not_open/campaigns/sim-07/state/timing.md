@@ -12,3 +12,7 @@ Began 2026-11-25 22:08.
 - stopped 22:18 at the session's usage limit; resumed 2026-11-26 20:01
 - star file, world rules and follow-ups written 20:02
 - paused for the send-back and follow-up answers 20:02
+- resumed 20:03; replies read, the waiting scales rolled, world draft written 20:04
+- checks run, close check written 20:04
+- clock set to closed, with creation_night 2 and season_opens recorded, by the run's rulings entry; Night 2 not opened
+Closed 2026-11-26 20:05.
