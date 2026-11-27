@@ -209,3 +209,53 @@ The Tally-keeper may mend what is cut before she splits it. I ask her to cut the
 On the master of the smiths, I say it when he next asks, or when I'm asked in session. I don't go to him. A man who asked me across the ring and got silence did not come to the post for the answer, and I'm not going to carry it to him as if I owed him a visit. If he or another asks me at the gate, I say it plainly. If the ring asks me in session, I say it there. I'll tell the Stallreeve I've decided this, so he knows where I stand. And I say the same of the woman of the back houses. If she comes to the gate, I say it to her.
 
 I leave the preparations, the search and the day away as they stand. I'll play the kiln scenes live when the night holds them for me.
+
+## DM:
+
+You go on, slowly, and she cuts.
+
+You say that the hall's fired pieces are not all alike. That eight of them agree with one another, and that you called each at about twelve and a half in your ones on the first day. That four of those, set against the first bronze, sank against it, and that this is the sum the head of the hill goods did aloud in the ring, about a twentieth heavy against the old bronze. That the chipped piece and the cracked piece are light against the eight, by about a twentieth and about a tenth. That you have not weighed the whole ten against the old six piece by piece since, and do not say more than you weighed, and that if the ring wants the figures the Tally-keeper has them on her stick of the first day.
+
+The Assay-master unfolds his arms. It is the first thing he has said this morning. "Her stick has about twelve and a half, because that is what she could cut. You called them twelve and a little better than a half, each of the eight, and the chipped one twelve less a hair, and the cracked one eleven and something under a half. I was at the bench. If the word is to say what the pieces are, say your own calls and not the town's reckoning of them." He folds his arms again. He does not look at the Stallreeve, and he says nothing of the twentieth.
+
+The Tally-keeper's knife has stopped. She looks at your mouth and waits to see whether there is more on that line or a mending of it.
+
+You say the rest. That the hall's fired pieces are in use this morning, and that the eleven have said they stay in use for bargains made before the first market of next autumn, and that from that market the old six are the town's weight. That the eleven have named the old six the town's weight, from the first market of the next autumn, and that what was bargained before then is reckoned by the hall's fired pieces as it was made. That any captain may bring a scale to the hall and have it read, and will be told what it does, which pan and how far, and nothing else. That the hall keeps no weight that anyone may not see weighed.
+
+Then, to the Stallreeve, that this is the whole of it, that you ask for it to go in the order you said it and with nothing added, and that the open-water owner's captains be told it is a keeper's word and not a price.
+
+The yard has not moved. Somewhere back in the line a potter lets out a breath at "light against the eight", and a woman of the channel folk says "any captain" over to herself. The salt-rakers give nothing.
+
+The Stallreeve has listened with his head a little on one side. He speaks to the line as much as to you.
+
+"Then here is how it lies, and the yard is my witness to it. I take for the eleven, here and now: who speaks. The six, in the Weightward's ones. The eight fired pieces, in the Weightward's ones. What the eleven said on the second day: the fired pieces in use this morning and for bargains made before the first market of next autumn, and from that market the old six the town's weight. That is what they named, and that goes on the first stick, and it goes with the open-water owner's coasters when they go out past the Horn. It is the town's word, and it was given at this post.
+
+"I carry up to the eleven, each by itself, and I say neither yes nor no to any: that the fifth is light, and the hall says so. The seventh seat, and the looking. That four of the fired pieces sank against the bronze, and the hill-goods head's sum. The chipped piece and the cracked piece against the eight. That you have not weighed the ten against the six since. That any captain may bring a scale to the hall. That the hall keeps no weight anyone may not see weighed. None of that is small and most of it is known to every soul standing here, and it is still not mine to give. Your asking on the order goes up with them, since I cannot keep an order across a pair of sticks. That the captains are told it is a keeper's word and not a price is in your own first words, and those I have taken."
+
+He looks at you a moment longer. "If you would sooner the word went whole or not at all, say so, and I carry all of it up and nothing goes till they have sat. Otherwise the first stick goes as it is."
+
+The Tally-keeper reads both sticks back, flatly, without looking up.
+
+The first stick: "This is the keeper's word of the hall of this town. It is not a price and not an offer. It says what the hall's pieces are, as read in the Weightward's brass, and what the eleven have said of them. The hall keeps six old weights, three of bronze and three of stone. In the Weightward's ones, where one is the smallest cup of his nest, they read forty-eight, ninety-six and a hundred and ninety-two for the bronze. The stone read three hundred and eighty-four, seven hundred and sixty-six and fifteen hundred and thirty-six, weighed on the hall's beam with the Assay-master's hand on it. The hall's fired pieces are not all alike. Eight of them agree with one another, and I called each at about twelve and a half in my ones on the first day. The hall's fired pieces are in use this morning, and the eleven have said they stay in use for bargains made before the first market of next autumn. From that market the old six are the town's weight. The eleven have named the old six the town's weight, from the first market of the next autumn. What was bargained before then is reckoned by the hall's fired pieces as it was made."
+
+The second stick: "The fifth is light by a hair, and the hall says so. The rack is cut for seven, and the seventh is not in it. The hall does not know what it weighed, and has looked for it. Four of those, set against the first bronze, sank against it. That is the sum the head of the hill goods did aloud in the ring: about a twentieth heavy against the old bronze. The chipped piece and the cracked piece are light against the eight, by about a twentieth and about a tenth. I have not weighed the whole ten against the old six piece by piece since, and I do not say more than I weighed. If the ring wants the figures, the Tally-keeper has them on her stick of the first day, in her own cuts. Any captain may bring a scale to the hall and have it read. It will be told what it does, which pan and how far, and nothing else. The hall keeps no weight that anyone may not see weighed."
+
+"Asked with it: that it go in the order said, and with nothing added," she finishes. She holds the knife across both sticks and does not split them. "Is that the word?"
+
+When she has done you tell the Stallreeve, in a few plain words, where you stand on the other matter: what the master of the smiths asked you across the ring you will answer when he or another next asks you at the gate, or when the ring asks you in session, and you will not carry it to him. The same for the woman of the back houses, if she comes to the gate.
+
+"Then I know where you stand," he says. "I'll not carry that one for you either."
+
+The fish seller is still off to the side with his cord. The line has not shortened. No weight is in the air.
+
+(oog) The word is said through and read back, and nothing is split. Three things are yours before she splits, because she takes a correction before the split and none after.
+
+One. The Assay-master asked that the eight, the chipped piece and the cracked piece be said by your own calls of the first day. Your line as spoken is not barred by your card: "about twelve and a half" is true of pieces you called at twelve and a little better than a half. So it stands unless you mend it. If you do, give me the line.
+
+Two. I held the last of your first word as you gave it, so the first stick now says the eleven's decision twice: once in your new line, and once in the pair of sentences from your first telling. Tell me whether both stay.
+
+Three. The Stallreeve's question. Does the first stick go as it is, with the second waiting on the eleven, or does the word go whole or not at all?
+
+If your answer to all of it is that the word stands as read back and the first stick goes, say so, and she splits them. On that the word becomes a message in your chronicle, carried by the ship owner of the open water. I need one thing more for it: who the word is sent to, in your words. And if you want to put anything to the carrier himself, he is in the town.
+
+Your answer on the master of the smiths is recorded as you gave it, and the woman of the back houses with it. Your preparations, the search and the day away stand as given, for the night.

@@ -178,4 +178,6 @@ Unsaid wants are kept sealed.
 - Asked "Can you cure a fever?": "No. I have no power for it. I am sorry about her child, and I would say so to her if she came to the gate."
 - On the Reading, standing words: the Keeper's ruling stands. "If I'm asked a follow-up, I say the rest of it: that both pans show, and that anyone I read knows whether I mean my own terms."
 - Of a search it asks: "I'm not asking anyone to give anything up." Of what it finds: "I say only what it is."
+- Of an answer owed to a man who asked across the ring and got silence: "I'm not going to carry it to him as if I owed him a visit." It says it when he or another next asks at the gate, or when the ring asks in session. The same for the woman of the back houses, if she comes to the gate.
+- Of the word: "I say what I weighed, piece by piece, and no more."
 - One answer was given privately today and is kept sealed.
