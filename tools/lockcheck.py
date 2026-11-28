@@ -110,7 +110,7 @@ layout (tests use a fixture).
                sealed folder: before Night 1 it reads the public folder alone (change list 2).
 
 Every mode skips the checker's own flags files (any lock-flags*.md, years/000/lock-flags.md
-among them): they quote what they flag.
+among them, and every year's years/NNN/flags.md, build 8, run 07 change list 26): they quote what they flag.
 """
 import argparse, json, os, re, sys
 
@@ -159,8 +159,12 @@ class Report:
 
 
 def is_flags_file(path):
-    """The checker's own flags files, which every mode skips: lock-flags.md and lock-flags*.md."""
-    return re.match(r"^lock-flags.*\.md$", os.path.basename(path)) is not None
+    """The checker's own flags files, which every mode skips: lock-flags.md and lock-flags*.md, and a
+    year's years/NNN/flags.md (change list 26), the night checker's file, which quotes what it flags."""
+    if re.match(r"^lock-flags.*\.md$", os.path.basename(path)):
+        return True
+    parts = os.path.normpath(path).split(os.sep)
+    return len(parts) >= 3 and parts[-1] == "flags.md" and parts[-3] == "years" and re.fullmatch(r"\d{3}", parts[-2]) is not None
 
 
 def text_files(folder):
@@ -168,7 +172,7 @@ def text_files(folder):
     for dirpath, dirs, files in os.walk(folder):
         dirs[:] = sorted(d for d in dirs if not d.startswith("."))
         for fn in sorted(files):
-            if os.path.splitext(fn)[1].lower() in TEXT_EXT and not is_flags_file(fn):
+            if os.path.splitext(fn)[1].lower() in TEXT_EXT and not is_flags_file(os.path.join(dirpath, fn)):
                 out.append(os.path.join(dirpath, fn))
     return out
 

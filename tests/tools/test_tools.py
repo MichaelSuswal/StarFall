@@ -519,7 +519,10 @@ def test_lockcheck_skips_flags_files():
             append(repo, rel, "Flag: Hollow Moor [r77] cited r-0099, Vessaline \u2014 seven gods came down.\n")
         code, out, _ = lock(repo, "--all")
         assert code == 0, out
+        # a year's flags.md is the checker's file too, skipped from build 8 on (run 07 change list 26)
         append(repo, "SPOILERS_do_not_open/campaigns/fx/years/000/flags.md", "[r77]\n")
+        assert lock(repo, "--places")[0] == 0
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/000/notes.md", "[r77]\n")
         assert lock(repo, "--places")[0] == 1
 
 
@@ -846,9 +849,14 @@ def test_paint_needs_images_md():
         why = {os.path.basename(p): w for p, w in skipped}
         assert set(why) == {"zz-002-morning.json", "zz-map-surface-2.json", "zz-map-under-1.json", "yy-001-morning.json"}
         assert "yy/state/images.md is missing" in why["yy-001-morning.json"] and "does not approve it" in why["zz-map-under-1.json"]
-        # a line that names the request's id covers it
+        # a line that names the request's id covers it; a morning line that names no year covers no play-year
+        # morning (build 8, run 07 change list 14), and the line naming Year 2 covers the Year 2 morning
         with open(os.path.join(d, "campaigns", "zz", "state", "images.md"), "a") as f:
             f.write("- zz-map-surface-2: approved by Michael, one repaint\n- morning paintings in play: approved\n")
+        assert sorted(r["id"] for _p, r, _t in paint.pending(d)) == ["zz-001-morning", "zz-map-clouds",
+                                                                     "zz-map-surface", "zz-map-surface-2"]
+        with open(os.path.join(d, "campaigns", "zz", "state", "images.md"), "a") as f:
+            f.write("- Year 2 morning painting: approved\n")
         assert sorted(r["id"] for _p, r, _t in paint.pending(d)) == ["zz-001-morning", "zz-002-morning", "zz-map-clouds",
                                                                      "zz-map-surface", "zz-map-surface-2"]
         assert paint.campaign_of({"id": "x", "campaign": "zz"}, d) == "zz"
@@ -1042,7 +1050,7 @@ def test_travel_by_route_and_means():
     text, data = mapt.travel(w, "f01", "f02", "foot", ("f03",), namer, show_ids=True)
     assert [s["how"] for s in data["segments"]] == ["route"] and data["segments"][0]["ground"] == "road"
     assert abs(data["miles"] - 2 * math.dist((20, 50.2), (100, 10))) < 0.6 and abs(data["days"] - data["miles"] / 20) < 0.01
-    assert "1. along The Bent Road [f03] (road), road:" in text
+    assert "1. along The Bent Road [f03] (road), toward its last point (:end), at Eastby [f02], in East Wood [r02] (E3), road:" in text
     # a wagon has no passage through the wood off the road, and goes by the road
     assert mapt.travel(w, "f01", "f02", "wagon", (), namer)[1]["days"] is None
     assert mapt.travel(w, "f01", "f02", "wagon", ("f03",), namer)[1]["days"] > 0
@@ -1098,8 +1106,10 @@ def test_gazetteer_travel_by_route():
         run_quiet(mapt.main, ["gazetteer", "fx", "--world", world_p, "--knowledge", know_p, "--out", out])
         g = open(os.path.join(out, "gazetteer.md")).read()
         assert "## Travel by route" in g
-        assert ("- **Tallowford** to **Mewsby** along **The Chalk Way** (road): 425 miles; 21.2 days on foot, "
+        assert ("- **Tallowford** to **Mewsby** along **The Chalk Way** (road): 425 miles; either way, 21.2 days on foot, "
                 "14.2 days on horse, 42.5 days by wagon (seen).") in g
+        # each line's ends are named by their places (build 8, run 07 change list 25)
+        assert "from its first point, at Tallowford (B2), to its last point, at Mewsby (D2)" in g
 
 
 def test_path_type():
@@ -1514,7 +1524,7 @@ def test_travel_edges_and_line_ends():
     assert abs(data["miles"] - 30) < 0.6 and "(its nearest edge)" in text
     text, data = mapt.travel(w, "f04:start", "f04:end", "boat", ("f04",), namer, show_ids=True)
     assert [s["ground"] for s in data["segments"]] == ["river_down"] and abs(data["miles"] - 60) < 0.01
-    assert "(its source)" in text and "(its mouth)" in text
+    assert "'s source (:start)" in text and "'s mouth (:end)" in text
     _, up = mapt.travel(w, "f04:mouth", "f04:source", "boat", ("f04",), namer)
     assert [s["ground"] for s in up["segments"]] == ["river_up"]
     # the edge read toward the other end, whichever end it is
@@ -2421,3 +2431,316 @@ def test_build7_check_held_morning_request():
         os.remove(os.path.join(repo, "images", "held", "fx-002-morning.json"))
         append(repo, "images/requests/fx-002-morning.json", '{"id": "fx-002-morning", "campaign": "fx", "prompt": "dawn"}\n')
         assert run()[0] == 0
+
+
+# ---------------------------------------------------------------- build 8 (1.0): run 07 change list
+
+
+def test_build8_paint_morning_named_by_its_own_year():
+    """Item 14 (Michael, 2026-11-27 19:32, "fix it"): a play-year morning is approved only by the images.md line
+    that names its own year, in paint.py and in check.py, which reads approval through paint.covered()."""
+    import paint
+    d = tempfile.mkdtemp()
+    try:
+        os.makedirs(os.path.join(d, "campaigns", "zz", "state"))
+        with open(os.path.join(d, "campaigns", "zz", "state", "images.md"), "w") as f:
+            f.write("- first morning painting: approved\n- Year 2 morning painting: approved\n"
+                    "- Year 3 morning painting: approved\n- **Year 4 morning painting**: approved\n"
+                    "- any other painting or repaint: not approved; hold and ask Michael\n")
+        cov = lambda n: paint.covered({"id": f"zz-{n:03d}-morning"}, d)
+        assert all(cov(n)[0] for n in (1, 2, 3, 4)), [cov(n) for n in (1, 2, 3, 4)]
+        assert cov(2)[1] == "year 2 morning painting: approved" and cov(4)[1] == "year 4 morning painting: approved"
+        assert not cov(5)[0] and not cov(6)[0] and "does not approve it" in cov(5)[1]
+        # a Year 5 morning is not approved by the Year 2 line alone
+        with open(os.path.join(d, "campaigns", "zz", "state", "images.md"), "w") as f:
+            f.write("- Year 2 morning painting: approved\n")
+        assert not cov(5)[0] and cov(2)[0] and not cov(3)[0]
+        # the line may name its year in words or in its value, or name the request by id
+        with open(os.path.join(d, "campaigns", "zz", "state", "images.md"), "a") as f:
+            f.write("- year five morning painting: approved\n- morning painting: approved for year 7\n- zz-008-morning: approved\n")
+        assert cov(5)[0] and cov(7)[0] and cov(8)[0] and not cov(6)[0]
+        # the standing play line creation-nights.md writes names every played year, within its count
+        with open(os.path.join(d, "campaigns", "zz", "state", "images.md"), "w") as f:
+            f.write("- year morning painting: approved, one per played year\n")
+        assert cov(5)[0] and cov(12)[0]
+        assert paint.year_ok(5, "year 2 morning painting", "approved") is False
+        assert paint.year_ok(None, "first morning painting", "approved") is True
+    finally:
+        shutil.rmtree(d)
+    # the sim-06 held requests for Years 5 and 6 are not approved; the Year 2 to 4 mornings still are
+    for n in (5, 6):
+        req = json.load(open(os.path.join(ROOT, "images", "held", f"sim-06-{n:03d}-morning.json")))
+        ok, why = paint.covered(req, ROOT)
+        assert not ok, why
+        assert check.held_request_approved(ROOT, os.path.join(ROOT, "images", "held", f"sim-06-{n:03d}-morning.json")) == (ok, why)
+    for n in (2, 3, 4):
+        ok, why = paint.covered({"id": f"sim-06-{n:03d}-morning"}, ROOT)
+        assert ok and why == f"year {n} morning painting: approved", why
+
+
+def test_build8_check_held_morning_of_another_year():
+    """Item 14 in check.py: a held Year 5 morning is a note, not a finding, under a Year 2 line."""
+    with tmpcopy() as repo:
+        append(repo, "campaigns/fx/player/decisions-004.md", "Go north.\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/004/year.md", "The year.\n")
+        append(repo, "campaigns/fx/releases/004/dm.md", "Release.\n")
+        append(repo, "campaigns/fx/years/005/morning-story.md", "Morning.\n")
+        append(repo, "campaigns/fx/state/images.md", "- Year 2 morning painting: approved\n")
+        append(repo, "images/held/fx-005-morning.json", '{"id": "fx-005-morning", "campaign": "fx", "prompt": "dawn"}\n')
+        with open(os.path.join(repo, "campaigns", "fx", "state", "clock.md"), "w") as f:
+            f.write("campaign: fx\nyear: 4\nstatus: open\nseason_opens: 3\n")
+        code, out, _ = run_quiet(check.main, ["fx", "4", "--root", repo, "--step", "7"])
+        assert code == 0 and "note: the morning painting request waits in images/held/fx-005-morning.json" in out, out
+        append(repo, "campaigns/fx/state/images.md", "- Year 5 morning painting: approved\n")
+        code, out, _ = run_quiet(check.main, ["fx", "4", "--root", repo, "--step", "7"])
+        assert code == 1 and "it belongs in images/requests/" in out and "(year 5 morning painting: approved)" in out, out
+
+
+def test_build8_check_transcript_append_only():
+    """Item 24: check.py fails a transcript whose `## ` count falls between commits, or that is shorter than its
+    last committed version; a fall a later commit restored is a note."""
+    import subprocess
+    with tmpcopy() as repo:
+        append(repo, "campaigns/fx/player/decisions-001.md", "Go north.\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/001/year.md", "The year.\n")
+        git = lambda *a: subprocess.run(["git", "-C", repo, "-c", "user.name=t", "-c", "user.email=t@example.com", *a],
+                                        capture_output=True, text=True, check=True)
+        git("init", "-q")
+        tp = os.path.join(repo, "campaigns", "fx", "player", "transcript-year-001.md")
+        posts = ["## DM:\n\nThe ford.\n", "## Player:\n\nI cross.\n", "## DM:\n\nThe water is cold.\n"]
+
+        def commit(text, msg):
+            open(tp, "w").write(text)
+            git("add", "-A")
+            git("commit", "-q", "-m", msg)
+        run = lambda: run_quiet(check.main, ["fx", "1", "--root", repo, "--step", "4"])
+        commit(posts[0], "one")
+        commit(posts[0] + "\n" + posts[1], "two")
+        assert "transcript" not in run()[1]
+        # overwritten at the third post: the count falls from 2 to 1
+        commit(posts[2], "three")
+        code, out, _ = run()
+        assert code == 1 and "fell from 2 to 1 `## ` sections between commits" in out and "append-only" in out, out
+        # restored from the commits, every section in order: a note, not a finding
+        commit(posts[0] + "\n" + posts[1] + "\n" + posts[2], "restored")
+        code, out, _ = run()
+        assert code == 0 and "note: transcript:" in out and "so it was restored" in out, out
+        # the working file shorter than its last committed version
+        open(tp, "w").write(posts[0])
+        code, out, _ = run()
+        assert code == 1 and "is shorter than its last committed version" in out, out
+        # outside a git repository there is nothing to compare
+        f, n = check.transcript_problems(tempfile.gettempdir(), os.path.join(tempfile.gettempdir(), "no-such-transcript.md"))
+        assert f == [] and n == []
+    assert check.sections("## DM:\n\na\n## Player:\n\nb\n") == ["## DM:\n\na", "## Player:\n\nb"]
+
+
+def test_build8_lockcheck_skips_every_year_flags_file():
+    """Item 26: every years/NNN/flags.md is the checker's file, skipped by the place scan (and every mode)."""
+    assert lockcheck.is_flags_file(os.path.join("S", "years", "004", "flags.md"))
+    assert lockcheck.is_flags_file("lock-flags-round2.md")
+    assert not lockcheck.is_flags_file(os.path.join("S", "years", "004", "year.md"))
+    assert not lockcheck.is_flags_file("flags.md") and not lockcheck.is_flags_file(os.path.join("S", "notes", "flags.md"))
+    with tmpcopy() as repo:
+        for y in ("001", "004"):
+            append(repo, f"SPOILERS_do_not_open/campaigns/fx/years/{y}/flags.md", "Flag: [painting] is quoted from a release.\n")
+        code, out, _ = lock(repo, "--places")
+        assert code == 0, out
+
+
+def test_build8_roll_help_names_the_dm_form():
+    """Item 23: roll.py --help gives --who as engine/roles/dm.md does, "<party>, rolled by the dm"."""
+    code, out, _ = run_quiet(roll.main, ["--help"])
+    assert code == 0 and "<party>, rolled by the dm" in out, out
+    assert '--who "<party>, rolled by the dm"' in roll.__doc__
+    assert '--who "<party>, rolled by the dm"' in open(os.path.join(ROOT, "engine", "roles", "dm.md")).read()
+
+
+def test_build8_travel_by_direction_and_named_ends():
+    """Item 25 (Michael, 2026-11-27 19:32, "the direction of travel matters"): a line is priced segment by segment
+    in the direction travelled, from the line's own pace data, and travel names each line's ends by their places."""
+    w = travel_world()
+    # the road climbs from Westby to the ridge at its bend, and runs level from the ridge to Eastby
+    w["features"][2]["pace"] = [{"from": 0, "to": 1, "forward": "mountain", "back": "rough"}]
+    assert mapt.check_world(w) == []
+    namer = mapt.Namer(w, None, True)
+    leg = math.dist((20, 50.2), (100, 10))
+    _, east = mapt.travel(w, "f01", "f02", "foot", ("f03",), namer, show_ids=True)
+    text, west = mapt.travel(w, "f02", "f01", "foot", ("f03",), namer, show_ids=True)
+    assert [(s["ground"], s["toward"]) for s in east["segments"]] == [("mountain", "end"), ("road", "end")]
+    assert [(s["ground"], s["toward"]) for s in west["segments"]] == [("road", "start"), ("rough", "start")]
+    assert abs(east["days"] - (leg / 8 + leg / 20)) < 0.02 and abs(west["days"] - (leg / 20 + leg / 14)) < 0.02
+    assert abs(east["miles"] - west["miles"]) < 0.01 and east["days"] > west["days"]
+    assert "toward its first point (:start), at Westby [f01], in West Plain [r01] (A3)" in text
+    assert "by the line's own data for this direction" in text
+    assert ("Ends: The Bent Road [f03] runs from its first point (:start), at Westby [f01], in West Plain [r01] (A3), "
+            "to its last point (:end), at Eastby [f02], in East Wood [r02] (E3).") in text
+    assert west["ends"]["f03"]["start"].startswith("at Westby")
+    # a horse on the same stretch takes the rows of its own table
+    _, ride = mapt.travel(w, "f01", "f02", "horse", ("f03",), namer)
+    assert [s["rate"] for s in ride["segments"]] == [10, 30]
+    # a river by boat: downstream toward its mouth, upstream toward its source, and its own data where it has it
+    w["features"][0]["coords"] = [[20, 70.3]]
+    w["features"][1]["coords"] = [[180, 69.8]]
+    _, down = mapt.travel(w, "f01", "f02", "boat", ("f04",), namer)
+    _, up = mapt.travel(w, "f02", "f01", "boat", ("f04",), namer)
+    assert [s["ground"] for s in down["segments"]] == ["river_down"] and [s["ground"] for s in up["segments"]] == ["river_up"]
+    # a walk along the bank: the river's land rows by direction, else the ground
+    w["features"][3]["pace"] = [{"from": 0, "to": 1, "back": "marsh"}]
+    _, bank_e = mapt.travel(w, "f01", "f02", "foot", ("f04",), namer)
+    _, bank_w = mapt.travel(w, "f02", "f01", "foot", ("f04",), namer)
+    assert [s["ground"] for s in bank_e["segments"]] == ["rough", "forest"] and [s["ground"] for s in bank_w["segments"]] == ["marsh", "marsh"]
+    assert [s["ground"] for s in mapt.travel(w, "f02", "f01", "boat", ("f04",), namer)[1]["segments"]] == ["river_up"]
+    # an end named as a line's :start or :end says where on the ground it lies
+    text, _ = mapt.travel(w, "f03:end", "f03:start", "foot", ("f03",), namer, show_ids=True)
+    # (the towns now stand on the river, twenty miles south of the road's ends: the nearest known place, with its bearing)
+    assert text.startswith("Travel from The Bent Road [f03]'s last point (:end), about 20 miles north of Eastby [f02], in East Wood "
+                           "[r02] (E3), to The Bent Road [f03]'s first point (:start), about 20 miles north of Westby [f01], in West "
+                           "Plain [r01] (A3), on foot"), text
+    # names as the god knows them: an unknown place is never named at a line's end
+    text, _ = mapt.travel(w, "f01", "f02", "foot", ("f03",), mapt.Namer(w, {"regions": {}, "features": {}}))
+    assert "Westby" not in text and "West Plain" not in text and "runs from its first point (:start), in a plain country (A3)" in text
+    # validate checks the form of pace
+    bad = json.loads(json.dumps(w))
+    bad["features"][2]["pace"] = [{"from": 1, "to": 0, "forward": "road"}, {"from": 0, "to": 2, "forward": "uphill"}]
+    probs = mapt.check_world(bad)
+    assert any("from and to are point indexes" in p for p in probs) and any("'uphill' is not a pace table row" in p for p in probs)
+    assert mapt.directional_pieces({"coords": [[0, 0], [10, 0]]}, 0, 10) == [(0, 10, None)]
+
+
+def test_build8_gazetteer_prices_each_way():
+    """Item 25 in the gazetteer: Travel by route gives each direction its own figure when they differ, and the
+    river's way down and up are named by the places."""
+    w = travel_world()
+    w["features"][2]["pace"] = [{"from": 0, "to": 1, "forward": "mountain", "back": "rough"}]
+    w["features"][0]["coords"] = [[20, 50.2]]
+    w["features"].append({"id": "f05", "name": "Riverby", "type": "town", "shape": "point", "coords": [[20, 70]], "regions": ["r01"]})
+    w["features"].append({"id": "f06", "name": "Mouthby", "type": "town", "shape": "point", "coords": [[180, 70]], "regions": ["r02"]})
+    seen = {"grade": "seen", "source": "walked", "year": 1, "named": True}
+    kn = {"regions": {"r01": dict(seen), "r02": dict(seen)},
+          "features": {i: dict(seen) for i in ("f01", "f02", "f03", "f05", "f06")}}
+    kn["features"]["f04"] = dict(seen)
+    d = tempfile.mkdtemp()
+    try:
+        g = open(mapt.gazetteer(w, kn, d, os.path.join(d, "map-log.md"))).read()
+        leg = math.dist((20, 50.2), (100, 10))
+        east = f"{leg / 8 + leg / 20:.1f}"
+        west = f"{leg / 20 + leg / 14:.1f}"
+        assert f"along **The Bent Road** (road): 179 miles; from Westby to Eastby {east} days on foot" in g, g
+        assert f"; from Eastby to Westby {west} days on foot" in g
+        assert ("along **The Long Water** (river): 160 miles; from Riverby to Mouthby 5.3 days by boat downstream; "
+                "from Mouthby to Riverby 13.3 days by boat upstream (seen).") in g, g
+        assert "from its source, at Riverby (A3), to its mouth, at Mouthby (E3)" in g
+    finally:
+        shutil.rmtree(d)
+
+
+def test_build8_paint_waiting_morning_needs_year_and_play_day():
+    """Agent E's note on decision 2: a further morning while the clock waits (<name>-NNN-morning-K) is approved only
+    by a line naming its year and its play day, never by the year's own line or the standing line; an id is
+    matched whole, so a line for zz-005-morning-2 does not approve zz-005-morning."""
+    import paint
+    d = tempfile.mkdtemp()
+    try:
+        os.makedirs(os.path.join(d, "campaigns", "zz", "state"))
+        md = os.path.join(d, "campaigns", "zz", "state", "images.md")
+        with open(md, "w") as f:
+            f.write("- year morning painting: approved, one per played year\n- Year 5 morning painting: approved\n")
+        cov = lambda rid: paint.covered({"id": rid}, d)[0]
+        assert cov("zz-005-morning") and cov("zz-006-morning")
+        assert not cov("zz-005-morning-2") and not cov("zz-006-morning-2")
+        with open(md, "a") as f:
+            f.write("- Year 5 morning painting, play day 2: approved\n")
+        assert cov("zz-005-morning-2") and not cov("zz-005-morning-3") and not cov("zz-006-morning-2")
+        with open(md, "w") as f:
+            f.write("- zz-005-morning-2: approved\n")
+        assert cov("zz-005-morning-2") and not cov("zz-005-morning")
+        assert paint.play_day_of("005-morning-2") == 2 and paint.play_day_of("005-morning") is None
+    finally:
+        shutil.rmtree(d)
+
+
+def test_build8_check_play_days_and_the_waiting_clock():
+    """Agent E's note on decision 1: check.py reads the clock's play_day, the K-suffixed files of a later play day,
+    the waiting morning and its request, and the timing line "clock waited"."""
+    with tmpcopy() as repo:
+        clock = os.path.join(repo, "campaigns", "fx", "state", "clock.md")
+        setclock = lambda extra="": open(clock, "w").write(f"campaign: fx\nyear: 3\nstatus: open\nseason_opens: 3\n{extra}")
+        append(repo, "campaigns/fx/player/decisions-003.md", "Go north.\n")
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/003/year.md", "The year.\n")
+        append(repo, "campaigns/fx/releases/003/dm.md", "Release.\n")
+        # play day 1 stops at a held moment: the morning is years/003/morning-story-2.md and the clock waits
+        append(repo, "campaigns/fx/years/003/morning-story-2.md", "Morning.\n")
+        append(repo, "images/held/fx-003-morning-2.json", '{"id": "fx-003-morning-2", "campaign": "fx", "prompt": "dawn"}\n')
+        setclock()
+        code, out, _ = run_quiet(check.main, ["fx", "3", "--root", repo, "--step", "7"])
+        assert code == 0 and "fx-003-morning-2.json" in out, out
+        code, out, _ = run_quiet(check.main, ["fx", "3", "--root", repo])
+        assert code == 1 and "waits on year 3 with play_day: 2" in out, out
+        setclock("play_day: 2\n")
+        code, out, _ = run_quiet(check.main, ["fx", "3", "--root", repo])
+        assert code == 0, out
+        # play day 2: its own decisions file and release, numbered
+        code, out, _ = run_quiet(check.main, ["fx", "3", "--root", repo, "--step", "4"])
+        assert code == 1 and "no player/decisions-003-2.md" in out, out
+        append(repo, "campaigns/fx/player/decisions-003-2.md", "I answer.\n")
+        assert run_quiet(check.main, ["fx", "3", "--root", repo, "--step", "4"])[0] == 0
+        code, out, _ = run_quiet(check.main, ["fx", "3", "--root", repo, "--step", "7"])
+        assert code == 1 and "releases/003/dm-2.md" in out, out
+        append(repo, "campaigns/fx/releases/003/dm-2.md", "Release two.\n")
+        append(repo, "campaigns/fx/years/004/morning-story.md", "Morning of year 4.\n")
+        append(repo, "images/requests/fx-004-morning.json", '{"id": "fx-004-morning", "campaign": "fx", "prompt": "dawn"}\n')
+        append(repo, "campaigns/fx/state/images.md", "- year morning painting: approved, one per played year\n")
+        assert run_quiet(check.main, ["fx", "3", "--root", repo, "--step", "7"])[0] == 0
+        # the thread reached the year's end: the clock advances, with no play_day line
+        open(clock, "w").write("campaign: fx\nyear: 4\nstatus: open\nseason_opens: 3\nplay_day: 2\n")
+        code, out, _ = run_quiet(check.main, ["fx", "3", "--root", repo])
+        assert code == 1 and "carries no play_day line" in out, out
+        open(clock, "w").write("campaign: fx\nyear: 4\nstatus: open\nseason_opens: 3\n")
+        code, out, _ = run_quiet(check.main, ["fx", "3", "--root", repo])
+        assert code == 0, out
+        assert check.clock_problems({"campaign": "fx", "year": "3", "status": "open", "season_opens": "3", "play_day": "1"})
+        # a request in images/requests/ that images.md does not approve is a finding
+        append(repo, "images/requests/fx-003-morning-2.json", '{"id": "fx-003-morning-2", "campaign": "fx", "prompt": "dawn"}\n')
+        os.remove(os.path.join(repo, "images", "held", "fx-003-morning-2.json"))
+        setclock("play_day: 2\n")
+        os.remove(os.path.join(repo, "campaigns", "fx", "years", "004", "morning-story.md"))
+        code, out, _ = run_quiet(check.main, ["fx", "3", "--root", repo, "--play-day", "1"])
+        assert code == 1 and "does not approve it" in out and "it belongs in images/held/" in out, out
+    d = tempfile.mkdtemp()
+    try:
+        t = os.path.join(d, "timing.md")
+        open(t, "w").write("- 2026-12-01 01:40 clock waited: year 3 open, play day 2\n2026-12-02 waited\n")
+        assert check.timing_conflicts(t) == []
+        open(t, "a").write("2026-12-01 clock advanced: year 4 open\n")
+        assert check.timing_conflicts(t) == ["timing: 2026-12-01 has both a clock-waited line and a clock advance"]
+    finally:
+        shutil.rmtree(d)
+
+
+def test_build8_climb_by_naismith_both_ways():
+    """Agent E's note on decision 3: a line that carries heights_ft prices its climb by Naismith's rule (an hour per
+    2,000 feet climbed, a tenth of a ten-hour travel day; a descent adds nothing), stated in tools/pace.py, so a
+    route takes longer uphill than down; no line without heights changes."""
+    import pace
+    assert pace.climb_days(2000) == 0.1 and pace.climb_days(-500) == 0 and pace.climb_days(2000, "river_up") == 0
+    assert "Naismith" in pace.__doc__ and "2,000 feet" in pace.__doc__
+    code, out, _ = run_quiet(pace.main, ["travel", "--mode", "walk", "--terrain", "road", "--miles", "40", "--climb", "4000"])
+    assert "2.2 days" in out and "Naismith" in out, out
+    w = travel_world()
+    namer = mapt.Namer(w, None, True)
+    _, flat = mapt.travel(w, "f03:start", "f03:end", "foot", ("f03",), namer)
+    w["features"][2]["heights_ft"] = [500, 4500, 1500]   # up 4,000 feet from the west end to the ridge, down 3,000 to the east end
+    assert mapt.check_world(w) == []
+    text, east = mapt.travel(w, "f03:start", "f03:end", "foot", ("f03",), namer, show_ids=True)
+    _, west = mapt.travel(w, "f03:end", "f03:start", "foot", ("f03",), namer)
+    assert abs(east["days"] - (flat["days"] + 0.2)) < 0.01 and abs(west["days"] - (flat["days"] + 0.15)) < 0.01
+    assert abs(east["miles"] - west["miles"]) < 0.01 and "4,000 feet climbed (0.20 days by Naismith's rule)" in text, text
+    assert [s["climb_ft"] for s in east["segments"]] == [4000.0] and [s["climb_ft"] for s in west["segments"]] == [3000.0]
+    # by boat no climb is added; a bank walk shares it by the miles
+    assert all(s["climb_ft"] == 0 for s in mapt.travel(w, "f03:start", "f03:end", "boat", ("f03",), namer)[1]["segments"])
+    bad = json.loads(json.dumps(w))
+    bad["features"][2]["heights_ft"] = [500, 4500]
+    assert any("heights_ft is a list of 3 heights" in p for p in mapt.check_world(bad))
+    assert mapt.climb_feet({"coords": [[0, 0], [10, 0]], "heights_ft": [0, 100]}, 10, 0) == 0
+    assert abs(mapt.climb_feet({"coords": [[0, 0], [10, 0]], "heights_ft": [0, 100]}, 2, 7) - 50) < 1e-9

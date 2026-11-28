@@ -56,7 +56,9 @@ def campaign_of(req, root=ROOT):
 
 
 def kind_words(rest):
-    """(words the label must hold, words it must not) for a request id less its campaign prefix."""
+    """(words the label must hold, words it must not) for a request id less its campaign prefix.
+    A play-year morning (NNN above 001) also needs its line to name its own year: see year_ok
+    (build 8, run 07 change list 14)."""
     if rest == "map-surface":
         return ["surface"], []
     if rest == "map-clouds":
@@ -64,15 +66,68 @@ def kind_words(rest):
     m = re.fullmatch(r"map-under-(\d+)", rest)
     if m:
         return ["underground", f"under-{m.group(1)}"], []
-    m = re.fullmatch(r"(\d{3})-morning", rest)
+    m = re.fullmatch(r"(\d{3})-morning(?:-(\d+))?", rest)
     if m:
-        return (["first morning"], []) if int(m.group(1)) == 1 else (["morning"], ["first"])
+        return (["first morning"], []) if int(m.group(1)) == 1 and not m.group(2) else (["morning"], ["first"])
     if re.fullmatch(r"\d{3}-request-\d+", rest):   # a painting the player asked for (house-style.md)
         return ["player-asked", "on request", "requested"], []
     return [], []
 
 
 NUM_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6}
+YEAR_RE = re.compile(r"\byears?\s+0*(\d+|one|two|three|four|five|six)\b")
+EVERY_YEAR_RE = re.compile(r"\b(?:per|each|every|a) (?:played |play )?year\b")
+
+
+PLAY_DAY_RE = re.compile(r"\bplay[\s-]*day\s+0*(\d+|one|two|three|four|five|six)\b")
+
+
+def play_year(rest):
+    """The year a play-year morning request paints (int), or None for any other id (the first morning
+    included). The id's NNN is the year whose morning it is."""
+    m = re.fullmatch(r"(\d{3})-morning(?:-(\d+))?", rest)
+    return int(m.group(1)) if m and (int(m.group(1)) > 1 or m.group(2)) else None
+
+
+def play_day_of(rest):
+    """The play day of a further morning in a waiting year, `NNN-morning-K` (K of 2 or more; engine/night/
+    night-turn.md, the clock waits), or None for a year's first morning."""
+    m = re.fullmatch(r"\d{3}-morning-(\d+)", rest)
+    return int(m.group(1)) if m else None
+
+
+def named_years(label, value):
+    """Every year number an approval line names ("Year 2 morning painting", "approved for year 5")."""
+    return {int(n) if n.isdigit() else NUM_WORDS[n] for n in YEAR_RE.findall(label + " " + value)}
+
+
+def named_days(label, value):
+    """Every play day an approval line names ("Year 5 morning painting, play day 2")."""
+    return {int(n) if n.isdigit() else NUM_WORDS[n] for n in PLAY_DAY_RE.findall(label + " " + value)}
+
+
+def day_ok(day, label, value):
+    """A further morning of a waiting year (play day K of 2 or more) is approved only by a line that names its
+    year and its play day; the year's own line and the standing line never approve it (build 8, the clock
+    waits). A year's first morning (day None) is not approved by a line naming another play day than 1."""
+    named = named_days(label, value)
+    if day is None:
+        return not named or 1 in named
+    return day in named and bool(named_years(label, value))
+
+
+def year_ok(year, label, value):
+    """Build 8 (run 07 change list 14, Michael 2026-11-27 19:32, "fix it"): a play-year morning is approved
+    only by the line that names its own year. "Year 2 morning painting: approved" covers the Year 2 morning
+    and no other. The standing play line creation-nights.md writes, "year morning painting: approved, one per
+    played year", names every played year, so it covers each one (within its count). A morning line that
+    names no year and no per-year count ("morning paintings in play: approved") covers no play-year morning."""
+    if year is None:
+        return True
+    named = named_years(label, value)
+    if named:
+        return year in named
+    return bool(EVERY_YEAR_RE.search(value) or EVERY_YEAR_RE.search(label))
 COUNT_RE = re.compile(r"\b(?:up to |at most )?(\d+|one|two|three|four|five|six) (?:a|per|each) (?:played )?(day|year)\b")
 GROUP_RE = re.compile(r"(\d{3})-(morning|request-\d+)")
 
@@ -141,16 +196,21 @@ def covered(req, root=ROOT):
     path = os.path.join(root, "campaigns", name, "state", "images.md")
     if not os.path.exists(path):
         return False, f"campaigns/{name}/state/images.md is missing"
-    want, avoid = kind_words(rid[len(name) + 1:] if rid.startswith(name + "-") else rid)
+    rest = rid[len(name) + 1:] if rid.startswith(name + "-") else rid
+    want, avoid = kind_words(rest)
+    year = play_year(rest)
+    day = play_day_of(rest)
     over = None
     for label, value in approval_lines(open(path, encoding="utf-8").read()):
         if not re.match(r"approved\b", value):
             continue
-        if rid.lower() in label:
+        if re.search(r"(?<![\w-])" + re.escape(rid.lower()) + r"(?![\w-])", label):   # the id whole, never a longer id
             return True, f"{label}: {value}"
         if "repaint" in label or not want:
             continue
         if any(w in label for w in want) and not any(w in label for w in avoid):
+            if not year_ok(year, label, value) or (year is not None and not day_ok(day, label, value)):
+                continue
             limit = line_limit(value)
             if not within_count(name, rid, limit, root):
                 over = f"campaigns/{name}/state/images.md approves {limit} for that year ({label}: {value}); this one is over the count"

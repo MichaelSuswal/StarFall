@@ -111,6 +111,18 @@ headland and describe's in-region areas past the view (44), and a line seen only
 knowledge file, the gazetteer and the sheet (61); phenomena.py's `name` and `months` fields (53, 98) and paint.py's
 note on an edited request (58).
 
+Build 8, 1.0 (run 07 change list and Michael's decisions of 2026-11-27) adds, in `test_build8_*`: in paint.py and
+check.py, a play-year morning approved only by the `images.md` line naming its own year, or by the standing
+one-per-played-year line (the sim-06 Year 5 and Year 6 held requests not approved, Years 2 to 4 still approved), a
+further morning of a waiting year (`<name>-NNN-morning-K`) only by a line naming its year and play day, and request
+ids matched whole (14); in check.py, the transcript append-only across commits (a fall between commits, or a working
+file shorter than its last commit, fails; a fall restored is a note) (24), and the clock's `play_day`, the play day's
+numbered files, the waiting morning and the timing line "clock waited" (decision 1); in lockcheck, every
+`years/NNN/flags.md` skipped (26); roll.py's `--help` giving `--who "<party>, rolled by the dm"` (23); in map.py,
+travel priced segment by segment in the direction travelled from a line's `pace` stretches and `heights_ft` (a climb
+by Naismith's rule, in pace.py's `--climb`), and each line's ends named by their places in travel and the gazetteer,
+the gazetteer's Travel by route giving each way its own figure (25).
+
 `lockcheck-sim-01.txt` records what lockcheck found on sim-01, as counts only.
 
 ## Migration from the sim-01 and dryrun formats
@@ -139,4 +151,4 @@ The tool and its rules are in the docstrings of `tools/map.py` and `tools/lockch
 
 ## Running the lockcheck before a lock
 
-Before the continuity checker writes `LOCKED.md`, run `python3 tools/lockcheck.py <campaign> --all` from the repository root (or `--places`, `--leaks`, `--releases`, `--mysteries`, `--rolls`, `--dashes` one at a time while fixing). It reads `SPOILERS_do_not_open/campaigns/<campaign>/` and `campaigns/<campaign>/`, prints one line per finding and a count line per check, and exits 1 on any failure; warnings (names written without an id, old reroll lines) do not fail but should be read. Findings name sealed terms, so the full output stays in the sealed session or the keeper log, never in a public file; for a record outside the spoiler folder use `--counts-only`. A leak hit that is an ordinary word gets a line in `SPOILERS_do_not_open/campaigns/<campaign>/leak-allow.txt` only after the checker has read the public line and agreed it reveals nothing. `--leaks` reads `S/sealed-terms.txt` (the Keeper's list) as its primary sealed list and fails a campaign without one; the older guesses from prose only warn, and a warning names a term to add to the file if it is sealed. A number-word hit near a god term that the checker has read and agreed reveals nothing is exempted by its quoted phrase in `leak-allow.txt`. `--mysteries` reads each mystery's `Answers questions: yes|no` line and requires a `Limit:` line on yes; the checker still reads every Truth and Body for a being marked no that does answer. Every mode skips the checker's own `lock-flags*.md`. Lock only when every check shows 0 failures.
+Before the continuity checker writes `LOCKED.md`, run `python3 tools/lockcheck.py <campaign> --all` from the repository root (or `--places`, `--leaks`, `--releases`, `--mysteries`, `--rolls`, `--dashes` one at a time while fixing). It reads `SPOILERS_do_not_open/campaigns/<campaign>/` and `campaigns/<campaign>/`, prints one line per finding and a count line per check, and exits 1 on any failure; warnings (names written without an id, old reroll lines) do not fail but should be read. Findings name sealed terms, so the full output stays in the sealed session or the keeper log, never in a public file; for a record outside the spoiler folder use `--counts-only`. A leak hit that is an ordinary word gets a line in `SPOILERS_do_not_open/campaigns/<campaign>/leak-allow.txt` only after the checker has read the public line and agreed it reveals nothing. `--leaks` reads `S/sealed-terms.txt` (the Keeper's list) as its primary sealed list and fails a campaign without one; the older guesses from prose only warn, and a warning names a term to add to the file if it is sealed. A number-word hit near a god term that the checker has read and agreed reveals nothing is exempted by its quoted phrase in `leak-allow.txt`. `--mysteries` reads each mystery's `Answers questions: yes|no` line and requires a `Limit:` line on yes; the checker still reads every Truth and Body for a being marked no that does answer. Every mode skips the checker's own `lock-flags*.md` and every year's `years/NNN/flags.md`. Lock only when every check shows 0 failures.

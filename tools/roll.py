@@ -42,11 +42,12 @@ at the repo root. Paths are resolved from the repository root, whatever the work
 Dice are hidden from the player; the DM reports only outcomes.
 
 The DM's open rolls (build 7, run 06 change list 62 and 70): the DM rolls in play with
-  python3 tools/roll.py --campaign NAME --public --who dm --what "..." --factor ...
-which writes the campaign's public log, campaigns/NAME/state/rolls.jsonl, never the sealed one. The
+  python3 tools/roll.py --campaign NAME --public --who "<party>, rolled by the dm" --what "..." --factor ...
+(the party is whose attempt it is: the god, a mortal by name or office, or the world for a world fact;
+plain "dm" is also accepted; engine/roles/dm.md, build 8, run 07 change list 23), which writes the campaign's public log, campaigns/NAME/state/rolls.jsonl, never the sealed one. The
 DM's open rolls stay in that public log (Michael, 2026-11-24 22:06), and their ids carry the DM's own
 prefix, dm-NNNN, numbered per log file as r-NNNN is, so the two logs never share an id. --public
-needs --campaign and a --who that names the DM ("dm", or "the Weigher (player), rolled by the dm"), and
+needs --campaign and a --who that names the DM ("<party>, rolled by the dm", or plain "dm"), and
 takes no --log. The Keeper's rolls stay sealed, r-NNNN. public_log_problems() is the check that
 tools/check.py and tools/lockcheck.py --rolls run on the public log.
 """
@@ -225,7 +226,9 @@ def chosen(band_list, roll):
 
 def main(argv=None):
     p = argparse.ArgumentParser(description="StarFall roll tool")
-    p.add_argument("--who", required=True)
+    p.add_argument("--who", required=True,
+                   help="whose roll it is: keeper, a god, or for the DM's open roll \"<party>, rolled by the dm\" "
+                        "(the god, a mortal by name or office, or the world), or plain dm")
     p.add_argument("--what", required=True)
     p.add_argument("--factor", action="append", default=[], help="name=+10 (contest mode)")
     p.add_argument("--base", type=int, default=None, help="contest base odds, default 50")
@@ -236,7 +239,7 @@ def main(argv=None):
     p.add_argument("--log", default=None, help="log file; default state/rolls.jsonl at the repo root, or the campaign's sealed state when --campaign is given")
     p.add_argument("--campaign", default=None)
     p.add_argument("--public", action="store_true",
-                   help="the DM's open roll: the campaign's public log campaigns/NAME/state/rolls.jsonl, ids dm-NNNN (needs --campaign and --who dm)")
+                   help="the DM's open roll: the campaign's public log campaigns/NAME/state/rolls.jsonl, ids dm-NNNN (needs --campaign and --who \"<party>, rolled by the dm\", or plain dm)")
     a = p.parse_args(argv)
 
     if not a.campaign and not a.log:
@@ -245,7 +248,7 @@ def main(argv=None):
         if a.log or not a.campaign:
             p.error("--public needs --campaign NAME and takes no --log: it writes the campaign's public log")
         if not is_dm(a.who):
-            p.error("--public is the DM's open roll: --who names the DM (\"dm\", or whose attempt it is and \"rolled by the dm\"); every other roll is sealed")
+            p.error("--public is the DM's open roll: --who names the DM (\"<party>, rolled by the dm\", the party whose attempt it is, or plain \"dm\"); every other roll is sealed")
     if a.die and (a.factor or a.base is not None):
         p.error("--die takes no --factor or --base; a die returns a face, not a success")
     if a.weight and (a.die or a.factor or a.base is not None):

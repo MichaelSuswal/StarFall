@@ -165,6 +165,28 @@ Build 7 (run 06 change list):
   the stretches seen ("seen in part, about 1.0 miles of it seen, from B3 to B3; its length is not known"),
   never the whole length or the far end, and the sheet draws and labels only the seen stretches.
 
+Build 8 (1.0; run 07 change list 25, Michael 2026-11-27 19:32: "the direction of travel matters. topography
+isn't uniform. the beginning could be faster or slower than the other end"):
+- travel prices a line (a road, a path, a river, a coast drawn as a line) segment by segment in the direction
+  actually travelled, so the same line can take a different time each way. A river by boat takes its
+  downstream row going toward its mouth and its upstream row going toward its source, as before. A line may
+  carry `pace` in map.json, a list of stretches by point index, each with the pace table row for each
+  direction: {"from": 0, "to": 3, "forward": "mountain", "back": "rough"}, "forward" being the way the
+  coords run (first point toward last), "back" the other way; a direction left out keeps the line's own
+  row. A row is one the pace table gives (road, rough, forest, mountain, marsh, snow; river_down, river_up,
+  sea for a boat), and is used for a means whose table has it; validate checks the form. A line may also
+  carry `heights_ft`, one height in feet for each point: the feet climbed in the direction travelled add
+  time by Naismith's rule (an hour per 2,000 feet, a tenth of a ten-hour travel day; a descent adds nothing;
+  tools/pace.py climb_days), on land, so the same road is slower uphill than down. No height is read from a
+  region's elevation, which gives a region's range, not the height where a line runs; open ground is priced
+  by its ground alone, as before.
+- travel and the gazetteer name each line's ends by their places (line_end_place): the nearest place the god
+  knows within END_PLACE_MILES, the region the end lies in and its grid cell. travel says, for every line it
+  uses or ends on, which place is its first point (`:start`, a river's source) and which its last (`:end`, a
+  river's mouth), and each segment along a line says which end it travels toward, so no agent can price
+  from the wrong end. The gazetteer's "Travel by route" gives each direction its own figure when the two
+  differ, and says "either way" when they do not.
+
 The sealed map's regions carry elevation, water, climate and neighbors ({id, days});
 the sheet carries landings (god label to region id), roads and paths (feature types, drawn
 as thin lines) and a plane section, which the drawer ignores.
@@ -782,6 +804,10 @@ def check_world(world):
             probs.append(f"feature {f['id']}: unknown type {f.get('type')!r}")
         if f.get("type") in LINE_ROUTE_TYPES and (f.get("shape") != "line" or len(f.get("coords", [])) < 2):
             probs.append(f"feature {f['id']}: a {f['type']} is a line of two or more points")
+        if "pace" in f:
+            probs += line_pace_problems(f)
+        if "heights_ft" in f:
+            probs += heights_problems(f)
         if f.get("type") == "site" and f.get("shape", "point") not in ("point", "area"):
             probs.append(f"feature {f['id']}: a site is a point or an area")
         for rid in f.get("regions", []):
@@ -2620,6 +2646,23 @@ def gazetteer(world, knowledge, out_dir, log_path):
     def hist_line(i):
         return ("; history: " + "; ".join(hist[i])) if i in hist else ""
 
+    def place_of(p):
+        """A point on a line, named by its place as the god knows it (change list 25): the nearest known place
+        within END_PLACE_MILES, else the known region it lies in, with its grid cell."""
+        near = None
+        for q in feats:
+            k = q[0]
+            if q[1] is None and k["shape"] == "point" and k["type"] in POINT_TYPES and k["grade"] != "rumored" and k["named"]:
+                d = mi(math.dist(p, k["coords"][0]))
+                if d <= END_PLACE_MILES and (near is None or d < near[0]):
+                    near = (d, k["name"])
+        cell = fmt_pt(p, painting)
+        if near:
+            return f"{'at' if near[0] <= ON_ROUTE_MILES else 'near'} {near[1]} ({cell})"
+        home = next((k for k in regions if k["grade"] != "rumored" and k.get("named") and k["polygon"]
+                     and point_in_poly(p[0], p[1], k["polygon"])), None)
+        return f"in {home['name']} ({cell})" if home else cell
+
     def alias_line(i):
         """The other names the god has for a place (92): its own, and any it has heard."""
         el = truth_by_id.get(i, (None, {}, None))[1]
@@ -2684,11 +2727,13 @@ def gazetteer(world, knowledge, out_dir, log_path):
             elif k["shape"] == "line" and k.get("parts"):
                 # seen in part: only the stretches seen, never the whole length or its far end (change list 61)
                 seen_mi = sum(mi(polyline_length(pt)) for pt in k["parts"])
-                spans = "; ".join(f"from {fmt_pt(pt[0], painting)} to {fmt_pt(pt[-1], painting)}" for pt in k["parts"])
+                spans = "; ".join(f"from {place_of(pt[0])} to {place_of(pt[-1])}" for pt in k["parts"])
                 many = f" in {len(k['parts'])} stretches" if len(k["parts"]) > 1 else ""
                 where = f"seen in part{many}, {fmt_seen_miles(seen_mi)} of it seen, {spans}; its length is not known"
             elif k["shape"] == "line":
-                where = f"{mi(polyline_length(k['coords'])):.0f} miles long, from {fmt_pt(k['coords'][0], painting)} to {fmt_pt(k['coords'][-1], painting)}"
+                ends = ("from its source, " if k["type"] == "river" else "from its first point, ") + place_of(k["coords"][0]) + \
+                       (", to its mouth, " if k["type"] == "river" else ", to its last point, ") + place_of(k["coords"][-1])
+                where = f"{mi(polyline_length(k['coords'])):.0f} miles long, {ends}"   # ends by their places (change list 25)
             else:
                 x0, y0, x1, y1 = bbox(k["coords"])
                 where = f"about {mi(x1 - x0):.0f} by {mi(y1 - y0):.0f} miles, centered {fmt_pt(centroid(k['coords']), painting)}"
@@ -2725,7 +2770,8 @@ def gazetteer(world, knowledge, out_dir, log_path):
     lines.append("")
     lines.append("Between known places that lie on a known road or river (within half a mile of it), measured along it as the god knows it, "
                  "at the pace table's rates for a fair summer day (`engine/rules/time-and-pace.md`); `tools/map.py travel` prices any other trip, "
-                 "segment by segment, by the route chosen and the ground. A reported route may be wrong.")
+                 "segment by segment, by the route chosen and the ground. Each way is priced in the direction travelled, so a river "
+                 "(downstream toward its mouth) or a climbing road may take longer one way than the other. A reported route may be wrong.")
     lines.append("")
     rates = pace_rates()
     trav = [k for k, l in surface if k["type"] in ROUTE_TYPES and k["grade"] != "rumored" and k["shape"] == "line" and len(k["coords"]) >= 2]
@@ -2742,14 +2788,34 @@ def gazetteer(world, knowledge, out_dir, log_path):
             if m <= 0:
                 continue
             grade = "seen" if r["grade"] == p["grade"] == q["grade"] == "seen" else "reported"
-            if r["type"] in LINE_ROUTE_TYPES:
-                row = rates["route"].get(r["type"], ROUTE_GROUND[r["type"]])
-                parts = [f"{m / rates[MEANS[w]][row]:.1f} days {MEANS_WORDS[w]}" for w in ("foot", "horse", "wagon")
-                         if rates[MEANS[w]].get(row)]
+            # each way priced in the direction travelled (build 8, run 07 change list 25): a river is downstream
+            # toward its mouth, and a line's own pace data may make any line slower one way than the other
+            truth = truth_by_id[r["id"]][1]
+            on_truth = r["grade"] == "seen" or part == truth.get("coords")
+            ta, tb = ((dist_to_polyline(p["coords"][0], truth["coords"])[1], dist_to_polyline(q["coords"][0], truth["coords"])[1])
+                      if on_truth else (t0, t1))
+            feat = truth if on_truth else {"id": r["id"], "type": r["type"], "coords": part}
+            means_list = ("foot", "horse", "wagon") if r["type"] in LINE_ROUTE_TYPES else ("boat",)
+
+            def way(x, y):
+                out = []
+                for w in means_list:
+                    tr = price_trip(world, [route_leg(feat, x, y)], w, rates)
+                    if tr["days"] is None:
+                        continue
+                    grounds = {sg["ground"] for sg in tr["segments"]}
+                    word = ""
+                    if w == "boat":
+                        word = " downstream" if grounds == {"river_down"} else " upstream" if grounds == {"river_up"} else ""
+                    out.append(f"{tr['days']:.1f} days {MEANS_WORDS[w]}{word}")
+                return out
+            there, back = way(ta, tb), way(tb, ta)
+            if there == back:
+                say = "either way, " + ", ".join(there)
             else:
-                parts = [f"{m / rates['boat'][g]:.1f} days by boat {word}" for g, word in (("river_down", "downstream"), ("river_up", "upstream"))
-                         if rates["boat"].get(g)]
-            lines.append(f"- **{p['name']}** to **{q['name']}** along **{r['name']}** ({r['type']}): {m:.0f} miles; " + ", ".join(parts) + f" ({grade}).")
+                say = (f"from {p['name']} to {q['name']} " + ", ".join(there or ["no passage"]) +
+                       f"; from {q['name']} to {p['name']} " + ", ".join(back or ["no passage"]))
+            lines.append(f"- **{p['name']}** to **{q['name']}** along **{r['name']}** ({r['type']}): {m:.0f} miles; {say} ({grade}).")
             any_route = True
     if not any_route:
         lines.append("No two known places on one known road or river.")
@@ -3287,6 +3353,171 @@ def plan_trip(world, a, b, vias, painting):
 
 BOAT_WALK_MILES = 10.0   # a boat trip may start or end with a walk this long to or from the water, under a day (41)
 
+# Rows a line's `pace` stretch may name (build 8, run 07 change list 25): the pace table's grounds.
+LAND_ROWS = {"road", "rough", "forest", "mountain", "marsh", "snow"}
+BOAT_ROWS = {"river_down", "river_up", "sea"}
+PACE_ROWS = LAND_ROWS | BOAT_ROWS
+END_PLACE_MILES = 3.0   # a place this near a line's end names it (as the gazetteer's rivers name their stops)
+FAR_PLACE_MILES = 40.0  # failing one, the nearest known place within this gives the end its distance and bearing
+
+
+def line_pace_problems(f):
+    """Problems in a line's `pace` (change list 25): a list of {"from": i, "to": j, "forward": row, "back": row},
+    point indexes 0 <= i < j < the number of coords, at least one of forward and back, each a pace table row
+    (PACE_ROWS); stretches do not overlap."""
+    i = f.get("id", "?")
+    pace = f.get("pace")
+    n = len(f.get("coords") or [])
+    if f.get("shape") != "line" or n < 2:
+        return [f"feature {i}: pace is for a line"]
+    if not isinstance(pace, list) or not pace:
+        return [f"feature {i}: pace is a list of stretches, {{\"from\": i, \"to\": j, \"forward\": row, \"back\": row}}"]
+    probs, spans = [], []
+    for k, e in enumerate(pace, 1):
+        if not isinstance(e, dict):
+            probs.append(f"feature {i}: pace stretch {k} is not an entry")
+            continue
+        a, b = e.get("from"), e.get("to")
+        if not all(isinstance(x, int) and not isinstance(x, bool) for x in (a, b)) or not 0 <= a < b < n:
+            probs.append(f"feature {i}: pace stretch {k}: from and to are point indexes, 0 <= from < to <= {n - 1}")
+            continue
+        if not any(e.get(d) for d in ("forward", "back")):
+            probs.append(f"feature {i}: pace stretch {k} gives no row for either direction")
+        for d in ("forward", "back"):
+            if e.get(d) is not None and e[d] not in PACE_ROWS:
+                probs.append(f"feature {i}: pace stretch {k}: {d} {e[d]!r} is not a pace table row ({', '.join(sorted(PACE_ROWS))})")
+        extra = set(e) - {"from", "to", "forward", "back", "notes"}
+        if extra:
+            probs.append(f"feature {i}: pace stretch {k} has unknown fields {', '.join(sorted(extra))}")
+        spans.append((a, b, k))
+    spans.sort()
+    for (a0, b0, k0), (a1, b1, k1) in zip(spans, spans[1:]):
+        if a1 < b0:
+            probs.append(f"feature {i}: pace stretches {k0} and {k1} overlap")
+    return probs
+
+
+def heights_problems(f):
+    """Problems in a line's `heights_ft` (change list 25): one height in feet for each point of its coords."""
+    h = f.get("heights_ft")
+    n = len(f.get("coords") or [])
+    if f.get("shape") != "line" or n < 2:
+        return [f"feature {f.get('id', '?')}: heights_ft is for a line"]
+    if not isinstance(h, list) or len(h) != n or not all(isinstance(x, (int, float)) and not isinstance(x, bool)
+                                                         and math.isfinite(x) for x in h):
+        return [f"feature {f.get('id', '?')}: heights_ft is a list of {n} heights in feet, one for each point"]
+    return []
+
+
+def climb_feet(feature, ta, tb):
+    """Feet climbed along a line from along-distance ta to tb, in that order (change list 25): the rises of its
+    `heights_ft` (one per point, interpolated between points) in the direction travelled; a fall adds nothing.
+    0 when the line carries no heights."""
+    h = feature.get("heights_ft")
+    coords = feature.get("coords") or []
+    if not isinstance(h, list) or len(h) != len(coords) or len(coords) < 2:
+        return 0.0
+    at = point_alongs(coords)
+
+    def height(t):
+        for i in range(len(at) - 1):
+            if at[i] <= t <= at[i + 1]:
+                seg = at[i + 1] - at[i]
+                return h[i] + (h[i + 1] - h[i]) * ((t - at[i]) / seg if seg else 0)
+        return h[0] if t <= 0 else h[-1]
+    lo, hi = min(ta, tb), max(ta, tb)
+    ts = [lo] + [x for x in at if lo < x < hi] + [hi]
+    if tb < ta:
+        ts.reverse()
+    hs = [height(t) for t in ts]
+    return sum(max(0.0, b - a) for a, b in zip(hs, hs[1:]))
+
+
+def point_alongs(line):
+    """The along-distance (painting pixels) of each point of a polyline."""
+    out, run = [0.0], 0.0
+    for i in range(len(line) - 1):
+        run += math.dist(line[i], line[i + 1])
+        out.append(run)
+    return out
+
+
+def directional_pieces(feature, t0, t1):
+    """The part of a line from along-distance t0 to t1, in the order travelled, cut where its `pace` stretches
+    begin and end (change list 25): [(ta, tb, row or None)], row the stretch's row for the direction travelled
+    ("forward" when t1 >= t0, the way the coords run; "back" otherwise), None where the line keeps its own."""
+    forward = t1 >= t0
+    lo, hi = min(t0, t1), max(t0, t1)
+    coords = feature.get("coords") or []
+    at = point_alongs(coords)
+    marks = []
+    for e in feature.get("pace") or []:
+        if not isinstance(e, dict) or not isinstance(e.get("from"), int) or not isinstance(e.get("to"), int):
+            continue
+        if not 0 <= e["from"] < e["to"] < len(coords):
+            continue
+        marks.append((at[e["from"]], at[e["to"]], e.get("forward" if forward else "back")))
+    cuts = sorted({lo, hi} | {x for a, b, _r in marks for x in (a, b) if lo < x < hi})
+    pieces = []
+    for a, b in zip(cuts, cuts[1:]):
+        if b - a <= 1e-9:
+            continue
+        mid = (a + b) / 2
+        row = next((r for ma, mb, r in marks if ma <= mid <= mb), None)
+        pieces.append((a, b, row))
+    if not forward:
+        pieces = [(b, a, r) for a, b, r in reversed(pieces)]
+    merged = []
+    for a, b, r in pieces:
+        if merged and merged[-1][2] == r:
+            merged[-1] = (merged[-1][0], b, r)
+        else:
+            merged.append((a, b, r))
+    return merged or [(t0, t1, None)]
+
+
+def line_end_place(world, line_el, which, namer, painting, show_ids=False):
+    """Where a line's first point (which "start") or last point ("end") lies on the ground, in words (change list
+    25): the nearest place the god knows (any place with --names) within END_PLACE_MILES ("near Westby"), else
+    the nearest within FAR_PLACE_MILES with its distance and bearing ("about 12 miles south-west of Westby"),
+    then the region the point lies in and its grid cell: "near Westby, in the West Plain (A3)"."""
+    p = tuple(line_el["coords"][0 if which == "start" else -1])
+    best, far = None, None
+    for f in world.get("features", []):
+        if f.get("id") == line_el.get("id") or f.get("shape", "point") != "point" or f.get("type") not in POINT_TYPES:
+            continue
+        if not f.get("coords") or not (namer.all or namer.graded(f["id"])):
+            continue
+        d = painting.miles(math.dist(p, f["coords"][0]))
+        if d <= END_PLACE_MILES and (best is None or d < best[0]):
+            best = (d, f["id"])
+        if d <= FAR_PLACE_MILES and (far is None or d < far[0]):
+            far = (d, f["id"], f["coords"][0])
+
+    def nm(i):
+        return f"{namer.name(i)}{f' [{i}]' if show_ids else ''}"
+    r = region_at(world, p)
+    bits = []
+    if best:
+        bits.append(f"{'at' if best[0] <= ON_ROUTE_MILES else 'near'} {nm(best[1])}")
+    elif far:
+        d, fid, q = far
+        bits.append(f"{fmt_miles(d)} {bearing_name(p[0] - q[0], p[1] - q[1])} of {nm(fid)}")
+    if r:
+        bits.append(f"in {nm(r['id'])}")
+    return (", ".join(bits) + f" ({painting.cell_of(p)})") if bits else f"at {painting.cell_of(p)}"
+
+
+def line_ends_line(world, line_el, namer, painting, show_ids=False):
+    """One sentence naming both ends of a line by their places, first point (:start) and last point (:end)."""
+    river = line_el.get("type") == "river"
+    first = "its source, the first point (:start)" if river else "its first point (:start)"
+    last = "its mouth, the last point (:end)" if river else "its last point (:end)"
+    lid = line_el["id"]
+    nm = namer.name(lid) + (f" [{lid}]" if show_ids else "")
+    return (f"{nm} runs from {first}, {line_end_place(world, line_el, 'start', namer, painting, show_ids)}, "
+            f"to {last}, {line_end_place(world, line_el, 'end', namer, painting, show_ids)}.")
+
 
 def price_trip(world, legs, means, rates=None):
     """Segments with miles, ground, rate and days for the means (foot, horse, wagon, boat), each
@@ -3304,23 +3535,34 @@ def price_trip(world, legs, means, rates=None):
     segs = []
     for li, leg in enumerate(legs):
         if leg["kind"] == "route":
+            # segment by segment in the direction travelled (build 8, run 07 change list 25): each stretch of
+            # the line takes the row its `pace` gives for that direction, else the line's own row
             f = leg["feature"]
             t = f.get("type")
-            miles = painting.miles(polyline_length(leg["pts"]))
-            if t in LINE_ROUTE_TYPES and means != "boat":
-                segs.append({"how": "route", "feature": f["id"], "type": t, "region": None,
-                             "ground": rates.get("route", {}).get(t, ROUTE_GROUND[t]), "miles": miles})
-                continue
-            if t == "river" and means == "boat":
-                segs.append({"how": "route", "feature": f["id"], "type": t, "region": None,
-                             "ground": "river_down" if leg["t1"] >= leg["t0"] else "river_up", "miles": miles})
-                continue
-            if t in LINE_ROUTE_TYPES and means == "boat":
-                segs.append({"how": "route", "feature": f["id"], "type": t, "region": None, "ground": "land", "miles": miles})
-                continue
-            for r, m in split_by_region(world, leg["pts"], painting):   # along a river's bank, by the ground
-                segs.append({"how": "bank", "feature": f["id"], "type": t, "region": r["id"] if r else None,
-                             "ground": ground_of(r), "miles": m})
+            toward = "end" if leg["t1"] >= leg["t0"] else "start"
+            for ta, tb, row in directional_pieces(f, leg["t0"], leg["t1"]):
+                pts = sub_line(f["coords"], ta, tb)
+                miles = painting.miles(polyline_length(pts))
+                climb = climb_feet(f, ta, tb) if means != "boat" else 0.0   # Naismith's rule (tools/pace.py)
+                base = {"how": "route", "feature": f["id"], "type": t, "region": None, "toward": toward,
+                        "pace_row": row, "climb_ft": climb}
+                if t in LINE_ROUTE_TYPES and means != "boat":
+                    g = row if row in LAND_ROWS and row in table else rates.get("route", {}).get(t, ROUTE_GROUND[t])
+                    segs.append({**base, "ground": g, "miles": miles})
+                    continue
+                if t == "river" and means == "boat":
+                    g = row if row in BOAT_ROWS and row in table else ("river_down" if toward == "end" else "river_up")
+                    segs.append({**base, "ground": g, "miles": miles})
+                    continue
+                if means == "boat":   # a road or path, or any other line, is land to a boat
+                    segs.append({**base, "ground": "land", "miles": miles})
+                    continue
+                runs = split_by_region(world, pts, painting)
+                total = sum(m for _r, m in runs) or 1.0
+                for r, m in runs:   # along a river's bank, by the ground; the climb shared by the miles
+                    g = row if row in LAND_ROWS and row in table else ground_of(r)
+                    segs.append({**base, "how": "bank", "region": r["id"] if r else None, "ground": g, "miles": m,
+                                 "climb_ft": climb * m / total})
             continue
         pts, around = leg["pts"], False
         if means != "boat":
@@ -3347,10 +3589,14 @@ def price_trip(world, legs, means, rates=None):
             walk_ends(leg_segs, first=li == 0, last=li == len(legs) - 1, has_water=any(l["kind"] == "route" for l in legs))
         segs += leg_segs
     total_days, blocked = 0.0, None
+    if os.path.dirname(os.path.abspath(__file__)) not in sys.path:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import pace as _pace
     for s in segs:
         rate = (rates["walk"] if s.get("on_foot") else table).get(s["ground"])
         s["rate"] = rate
-        s["days"] = s["miles"] / rate if rate else None
+        s["climb_days"] = _pace.climb_days(s.get("climb_ft") or 0, "walk" if s.get("on_foot") else MEANS[means])
+        s["days"] = s["miles"] / rate + s["climb_days"] if rate else None
         if rate is None and blocked is None:
             blocked = s
         elif rate:
@@ -3703,15 +3949,34 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
     def end_nm(e):
         i = split_end(e)[0]
         return nm(i) if i in by_id else e
-    head = f"Travel from {end_nm(start)}{' (' + a_how + ')' if a_how else ''} to " \
-           f"{end_nm(end)}{' (' + b_how + ')' if b_how else ''}, {MEANS_WORDS[means]}"
+
+    def end_words(e, how):
+        """A trip's end in words; a line's end named by its place on the ground (change list 25)."""
+        i, form = split_end(e)
+        if form in ("start", "end") and i in by_id:
+            word = how[4:] if how.startswith("its ") else how
+            return f"{end_nm(e)}'s {word} (:{form}), {line_end_place(world, by_id[i][1], form, namer, painting, show_ids)},"
+        return f"{end_nm(e)}{' (' + how + ')' if how else ''}"
+    head = f"Travel from {end_words(start, a_how)} to {end_words(end, b_how)} {MEANS_WORDS[means]}"
+    head = head.replace(f"{end_words(end, b_how)} {MEANS_WORDS[means]}",
+                        f"{end_words(end, b_how)}{'' if end_words(end, b_how).endswith(',') else ','} {MEANS_WORDS[means]}")
     head += (", by " + ", then ".join(nm(v) for v in vias)) if vias else ", over open ground (no route chosen)"
     lines = [head + ":"]
+    def toward_words(s):
+        """Which end of the line a segment travels toward, by its place (change list 25)."""
+        el = by_id[s["feature"]][1]
+        word = ("its mouth" if el.get("type") == "river" else "its last point") if s["toward"] == "end" else \
+               ("its source" if el.get("type") == "river" else "its first point")
+        return f"toward {word} (:{s['toward']}), {line_end_place(world, el, s['toward'], namer, painting, show_ids)}"
+
+    def row_words(s):
+        return ", by the line's own data for this direction" if s.get("pace_row") else ""
     for i, s in enumerate(trip["segments"], 1):
         if s["how"] == "route":
-            where = f"along {nm(s['feature'])} ({s['type']})"
+            where = f"along {nm(s['feature'])} ({s['type']}), {toward_words(s)}{row_words(s)}"
         elif s["how"] == "bank":
-            where = f"along the bank of {nm(s['feature'])}, through {nm(s['region'])}" if s["region"] else f"along {nm(s['feature'])}"
+            where = (f"along the bank of {nm(s['feature'])}, {toward_words(s)}{row_words(s)}, through {nm(s['region'])}"
+                     if s["region"] else f"along {nm(s['feature'])}, {toward_words(s)}{row_words(s)}")
         elif s["how"] == "walk":
             where = f"on foot {'to' if s.get('to_water') else 'from'} the water, through {nm(s['region'])}" if s["region"] \
                 else f"on foot {'to' if s.get('to_water') else 'from'} the water"
@@ -3722,6 +3987,8 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
         ground = GROUND_WORDS.get(s["ground"], s["ground"].replace("_", " ")) if s["ground"] != "land" else "land, which a boat cannot cross"
         if s["rate"]:
             rate_words = f"{s['rate']:g} miles a day{' on foot' if s['how'] == 'walk' else ''}"
+            if s.get("climb_days"):
+                rate_words += f", with {s['climb_ft']:,.0f} feet climbed ({s['climb_days']:.2f} days by Naismith's rule)"
             lines.append(f"{i}. {where}, {ground}: {s['miles']:.1f} miles at {rate_words}, {fmt_days(s['days'])}.")
         else:
             lines.append(f"{i}. {where}, {ground}: {s['miles']:.1f} miles, no passage {MEANS_WORDS[means]}.")
@@ -3731,6 +3998,14 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
         lines.append(f"Total: {trip['miles']:.1f} miles, {fmt_days(trip['days'])} ({math.ceil(trip['days'] - 1e-9)} full days), "
                      "at the pace table's rates for a fair summer day; season, weather, load, a group and a god's endurance "
                      "adjust it (time-and-pace.md, tools/pace.py).")
+    # every line the trip goes by or ends on, its two ends named by their places (change list 25)
+    used = []
+    for v in list(vias) + [split_end(start)[0] if split_end(start)[1] in ("start", "end") else None,
+                           split_end(end)[0] if split_end(end)[1] in ("start", "end") else None]:
+        if v and v in by_id and by_id[v][1].get("shape") == "line" and len(by_id[v][1].get("coords") or []) >= 2 and v not in used:
+            used.append(v)
+    for v in used:
+        lines.append("Ends: " + line_ends_line(world, by_id[v][1], namer, painting, show_ids))
     if not vias:
         near = [f for f in routes_near_both(world, a, b, painting)
                 if namer.all or grade_of(namer.k.get("features", {}).get(f["id"])) in ("seen", "reported")]
@@ -3748,11 +4023,18 @@ def travel(world, start, end, means, vias=(), namer=None, show_ids=False):
             "days": round(trip["days"], 3) if trip["days"] is not None else None,
             "segments": [{"how": s["how"], "route": s["feature"], "region": s["region"], "ground": s["ground"],
                           "miles": round(s["miles"], 2), "rate": s["rate"],
-                          "days": round(s["days"], 3) if s["days"] is not None else None} for s in trip["segments"]]}
+                          "days": round(s["days"], 3) if s["days"] is not None else None,
+                          "climb_ft": round(s.get("climb_ft") or 0, 1),
+                          **({"toward": s["toward"], "toward_place": line_end_place(world, by_id[s["feature"]][1], s["toward"],
+                                                                                    namer, painting, show_ids)}
+                             if s.get("toward") else {})} for s in trip["segments"]],
+            "ends": {v: {"start": line_end_place(world, by_id[v][1], "start", namer, painting, show_ids),
+                         "end": line_end_place(world, by_id[v][1], "end", namer, painting, show_ids)} for v in used}}
     if not show_ids:
         for s in data["segments"]:
             s["route"] = namer.name(s["route"]) if s["route"] else None
             s["region"] = namer.name(s["region"]) if s["region"] else None
+        data["ends"] = {namer.name(v): e for v, e in data["ends"].items()}
     return "\n".join(lines) + "\n", data
 
 
@@ -4311,7 +4593,9 @@ def main(argv=None):
             s.add_argument("--apply", action="store_true", help="write the polygons into the map file's regions of the same ids")
         if name == "travel":
             s.add_argument("start", metavar="from", help="a place: a feature id, a region id or a god's landing label; "
-                                                          "or rNN:edge, a line's fNN:start (source) or fNN:end (mouth)")
+                                                          "or rNN:edge, a line's fNN:start (its first point, a river's source) or "
+                                                          "fNN:end (its last point, a river's mouth); the output names each "
+                                                          "end by its place")
             s.add_argument("end", metavar="to", help="a place, as for from")
             s.add_argument("--by", required=True, choices=sorted(MEANS), help="the means: foot, horse, wagon or boat")
             s.add_argument("--via", default="", help="the route chosen, as ids in order: roads, rivers or places (f26,f01)")

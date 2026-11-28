@@ -9,7 +9,15 @@ Usage:
   python3 tools/pace.py work --task palisade --length 400 --workers 40 \
       [--season winter] [--god]
 
+  python3 tools/pace.py travel --mode walk --terrain road --miles 40 --climb 3000
+
 Travel modes: walk, ride, oxcart, river_down, river_up, sail, swim.
+Climbing (build 8, run 07 change list 25): --climb FEET is the height gained on the way, in the direction
+travelled. By Naismith's rule (W. W. Naismith, 1892), one hour is added for every 2,000 feet climbed;
+a descent adds nothing. A travel day is ten hours of movement (time-and-pace.md), so each 2,000 feet
+climbed adds a tenth of a day, on foot, on horse or with a cart alike, and before the god's endurance,
+laden, group, season and weather, which bend only the miles a day. The same road taken uphill takes
+longer than downhill by exactly that. tools/map.py travel applies it where a line carries `heights_ft`.
 Terrain (walk, ride, oxcart only): road, rough, forest, mountain, marsh, snow.
 Work tasks: see WORK below. --length is the number of units for the task
 (yards of wall, feet of well, acres, cubic yards, or 1 for a single item).
@@ -34,6 +42,19 @@ TRAVEL = {
 LADEN = {"walk": 0.75, "ride": 0.8, "oxcart": 1.0, "river_down": 1.0, "river_up": 1.0,
          "sail": 1.0, "swim": 1.0}
 GROUP = 0.8
+
+# Naismith's rule: hours added per foot climbed, in the direction travelled; a descent adds nothing.
+CLIMB_FEET_PER_HOUR = 2000
+DAY_HOURS = 10          # hours of movement in a travel day
+CLIMB_MODES = {"walk", "ride", "oxcart"}
+
+
+def climb_days(feet, mode="walk"):
+    """Days added for `feet` climbed (Naismith: an hour per 2,000 feet; ten hours a travel day); 0 for a descent
+    or a mode on water."""
+    if mode not in CLIMB_MODES or not feet or feet <= 0:
+        return 0.0
+    return feet / CLIMB_FEET_PER_HOUR / DAY_HOURS
 
 SEASON_TRAVEL = {"spring": 0.9, "summer": 1.0, "autumn": 0.95, "winter": 0.7}
 SEASON_WORK = {"spring": 0.9, "summer": 1.0, "autumn": 0.9, "winter": 0.6}
@@ -116,6 +137,13 @@ def travel(a):
     if a.weather != "fair":
         notes.append("%s x%.1f" % (a.weather, WEATHER_TRAVEL[a.weather]))
     days = a.miles / rate
+    if a.climb:
+        extra = climb_days(a.climb, a.mode)
+        days += extra
+        if extra:
+            notes.append("climb of %g feet, %s days by Naismith's rule (an hour per 2,000 feet)" % (a.climb, fmt2(extra)))
+        else:
+            notes.append("no time added for the climb (a descent, or on water)")
     where = (a.mode + " on " + a.terrain) if a.terrain and isinstance(base, dict) else a.mode
     print("%s, %g miles: %.1f miles a day, %s days (%d full days)." % (
         where, a.miles, rate, fmt(days), math.ceil(days)))
@@ -159,7 +187,11 @@ def fmt(x):
     return ("%.1f" % x).rstrip("0").rstrip(".")
 
 
-def main():
+def fmt2(x):
+    return ("%.2f" % x).rstrip("0").rstrip(".")
+
+
+def main(argv=None):
     p = argparse.ArgumentParser(description="StarFall pace tool")
     sub = p.add_subparsers(dest="cmd", required=True)
 
@@ -172,6 +204,9 @@ def main():
     t.add_argument("--season", default="summer", choices=sorted(SEASON_TRAVEL))
     t.add_argument("--weather", default="fair", choices=sorted(WEATHER_TRAVEL))
     t.add_argument("--god", action="store_true")
+    t.add_argument("--climb", type=float, default=0,
+                   help="feet climbed on the way, in the direction travelled: an hour per 2,000 feet (Naismith's rule); "
+                        "a descent (0 or less) adds nothing")
 
     w = sub.add_parser("work")
     w.add_argument("--task", required=True, choices=sorted(WORK))
@@ -181,7 +216,7 @@ def main():
     w.add_argument("--weather", default="fair", choices=sorted(WEATHER_WORK))
     w.add_argument("--god", action="store_true")
 
-    a = p.parse_args()
+    a = p.parse_args(argv)
     if a.cmd == "travel":
         travel(a)
     else:
