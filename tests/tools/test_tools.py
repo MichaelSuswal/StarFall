@@ -2775,3 +2775,50 @@ def test_build8_check_fixes_flags_k_and_public_who():
     finally:
         roll.ROOT = real
         shutil.rmtree(d)
+
+
+def test_new_campaign_setup_files_and_paintings():
+    """1.0 template: new_campaign.py writes the clock, models and images files a campaign needs before Day 1,
+    refuses a bad or existing name, and its images.md approves what paint.py should paint and nothing else."""
+    import new_campaign
+    import paint
+    d = tempfile.mkdtemp()
+    try:
+        code, out, err = run_quiet(new_campaign.main, ["ashfall", "--date", "2026-11-27"], root=d)
+        assert code == 0, err
+        clock = open(os.path.join(d, "campaigns", "ashfall", "state", "clock.md")).read()
+        assert clock == "campaign: ashfall\nstatus: creation\ncreation_night: 1\n"
+        models = open(os.path.join(d, "campaigns", "ashfall", "state", "models.md")).read()
+        for line in ("keeper: fable", "npc-god: sonnet", "civ: sonnet", "checker: opus", "dm: fable"):
+            assert line in models
+        code, _o, err = run_quiet(new_campaign.main, ["ashfall"], root=d)
+        assert code == 2 and "already exists" in err
+        for bad in ("Ashfall", "1ash", "ash fall", "ash/../x"):
+            code, _o, err = run_quiet(new_campaign.main, [bad], root=d)
+            assert code == 2 and "not a campaign name" in err, bad
+        code, _o, err = run_quiet(new_campaign.main, ["mapsonly", "--paintings", "maps", "--date", "2026-11-27"], root=d)
+        assert code == 0, err
+        for camp, rest, want in (("ashfall", "map-surface", True), ("ashfall", "map-clouds", True),
+                                 ("ashfall", "001-morning", True), ("ashfall", "002-morning", True),
+                                 ("ashfall", "005-morning", True), ("ashfall", "002-morning-2", False),
+                                 ("ashfall", "003-request-1", True),
+                                 ("mapsonly", "map-surface", True), ("mapsonly", "map-clouds", True),
+                                 ("mapsonly", "001-morning", False), ("mapsonly", "002-morning", False),
+                                 ("mapsonly", "003-request-1", False), ("mapsonly", "map-under-1", False)):
+            ok, why = paint.covered({"id": f"{camp}-{rest}"}, root=d)
+            assert ok == want, (camp, rest, why)
+    finally:
+        shutil.rmtree(d)
+
+
+def test_night_prompt_for_a_players_copy():
+    """1.0 template: night_prompt.py gives the scheduled-prompt.md body with the player's repository and folder."""
+    import night_prompt
+    body = night_prompt.prompt_for("seah", "StarFall-Seah")
+    assert "repository seah/StarFall-Seah on GitHub" in body
+    assert "add_repo tool for owner seah repo StarFall-Seah" in body
+    assert "git -C /home/claude/starfall-seah pull origin main" in body
+    assert "MichaelSuswal" not in body and "/home/claude/starfall " not in body
+    assert not body.startswith("#") and "---" not in body
+    code, _o, err = run_quiet(night_prompt.main, ["seah", "bad repo"])
+    assert code == 2
