@@ -137,6 +137,14 @@ Applied 2026-11-27 under Michael's go of 19:37 Pacific (`build-plan.md`), in `SP
 - "A play day covers at most one in-game year" is read with the clock waiting as never reaching past the clock's year; Agent E's `dm.md` has the same bound.
 - No campaign file was changed. sim-06's standing label allow (rule 36) is a campaign matter for its next night.
 
+### Fixes after the build check
+
+From `tests/creation-sim/run-07/build-check.md` (5ef5530), under the same go; committed as 84ee295.
+
+- Finding 7: `year-turn.md` section 1, "The clock waits", gains R8 in one sentence: a play day the player posted on without playing the held moment leaves it held, nothing past it is resolved, the clock waits again with `play_day` raised, and the next morning opens on the same board; a scene the player walked away from in play is played, its outcome what the god did.
+- Finding 15: `year-turn.md` section 1, "A second held moment": the leftover build 7 sentence "At most one untold stretch of the player's thread is open at a time" is dropped.
+- R1 and R2 (the cases never minor; the one-year play day read as never past the clock's year) were upheld and stand unchanged.
+
 ## Tools (Agent T)
 
 Applied 2026-11-27 under Michael's go of 19:37 Pacific (`build-plan.md`), with Agent E's notes for the tools. Files: `tools/paint.py`, `tools/check.py`, `tools/map.py`, `tools/pace.py`, `tools/lockcheck.py`, `tools/roll.py`, `tests/tools/test_tools.py`, `tests/tools/README.md`. Tests: `python3 tests/tools/run.py`, 96 passed, 0 failed (pytest the same), ten of them new (`test_build8_*`) and five older ones brought to the new rules.
