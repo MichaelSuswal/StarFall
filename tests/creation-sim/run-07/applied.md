@@ -72,51 +72,8 @@ Applied 2026-11-27 under Michael's go of 19:37 Pacific (`build-plan.md`). Files:
 
 ### Gaps for the build check
 
-- The pace table has no rate for a climb against a descent on the same ground, so "uphill against downhill" (decision 3, build plan part 2) changes time each way only through the ground of each segment. A rate would go in `time-and-pace.md` and `tools/pace.py` together; I did not invent one. Stated as open in `time-and-pace.md` and DESIGN 10.1.
+- Climb against descent: closed by the coordinator's instruction after Agent T's commit 38e0f70, under the same go. Naismith's rule (+1 hour per 2,000 feet climbed in the direction travelled, a tenth of a ten-hour travel day; descent +0; nothing on water), applied where a line carries `heights_ft` or a per-direction `pace`, which `map.py` reads, is now in `time-and-pace.md` (beside the table, after the route paragraph, and in the quick reference), DESIGN 10.1 and `map.md` 5.1 (which also names the two line fields). The same hour on horse and with a cart is Agent T's reading, noted as such in `time-and-pace.md`, for the build check.
 - Paintings for a further morning while the clock waits: `images.md` has no line for them, so they are held. Whether they are approved is spending, which waits for Michael.
-
-## Sealed side (Agent K)
-
-Applied 2026-11-27 under Michael's go of 19:37 Pacific (`build-plan.md`), in `SPOILERS_do_not_open/keeper/` only. Procedure only; no world content. Rulings are cited by their number in `rulings-to-rules.md` (pushed first, 8394fda).
-
-### Files changed
-
-- `year-turn.md`
-  - Head: read in full every night, with the year's own records (item 30); build 8 sources named.
-  - Section 1, decision 1: "The clock waits", in Michael's words, aligned with Agent E's `night-turn.md` (the world's year resolved once on its first night; no night resolves more than one year; `play_day` K; a night after the clock waited has no NPC god decide and writes the `-K` files). "A minor held moment": the Keeper judges and logs why before resolving; a prepared scene is never minor, nor a moment the player said it means to play, nor one a morning already told the player its story stands at; in doubt, held. "A play day covers at most one in-game year": no sheet, board or run-on reaches past it or past the clock's year. The build 7 line that the clock advances one year a night is gone; L-0056 is replaced.
-  - Section 1, L-0051's two lines reconciled (rule 11): "Only the first is boarded" replaced by "Boards": every held moment known when the sheet is written is boarded, each later one conditional on the one before; the thread still stops at the first unplayed moment; no board past the in-game year. Section 2's board line and the public template agree.
-  - Section 1, new bullets: running on past a board (item 20, rule 43); an answer given on a played day (rule 44); facts handed over from a live scene (rule 46); a roll already made stands (rule 12); asks and checker conditions past the moment wait (rule 3); a setup pass (rule 1); a campaign moved to a new build (item 7, rules 2, 4, 37 and 38, in the form `night-turn.md` gives, marking in place, the Keeper's sealed files included).
-  - Section 2: the day sheet's days are the moment's own (rule 9); a name the Keeper gives leaves `sealed-terms.txt` the night after it is said in the god's hearing (rule 8); a world question left at the close (item 11, rule 18); new paragraph "Set before play" (items 8 and 18, rules 6, 17, 28 and 61: small world facts set before the sheet, every board range set by the Keeper, the DM rolls only the player's own attempts, nothing reshaped after its roll); a board lists the readings of the god's own powers and its "If play runs on" reach (items 20 and 21); world questions on a board replaced by the player's own attempts; common talk of another people's guest (rule 58). Both templates updated (later boards conditional, readings, "To roll" for the player's attempts only, "If play runs on", the private way, the `-K` file names).
-  - Section 3.1: phenomenon months by a fixed season or month (rule 13); the telling to the god and the standing template line (item 28, rule 52); a release already read is corrected in pass two (rule 63).
-  - Section 3.2: the decide release line for a report with no telling section (rule 10).
-  - Section 5: the private way for a sealed act's result (item 17, rule 27); a setup pass carries out no act; a habit stands under `## Habit` (item 13).
-  - Section 6: no ledger id for a card entry that restates a standing term (rule 39).
-  - Section 7: a near miss is the world's question, with no sealed factor (rule 14).
-  - Section 8: a hidden power or knack met in a live scene is read by the Keeper the next night, its condition never given to the DM (item 8); standing for a year not resolved whole (rule 22).
-  - New section 9, small standing rulings: a die thrown in error (rule 19), a slip in the Keeper's release (rule 29), a factor found unsupported (rule 31), a conditional roll not made (rule 55), a random event's item (rule 51).
-- `sealed-factors.md`: a near miss takes no luck (rule 14); every board range is set by the Keeper and given by branch, the DM rolling only the player's own attempts, and no range reshaped after its roll (item 18).
-- `creation-runbook.md`
-  - Item 1: 1.4 reads the player's months from its `Waking vote:` line.
-  - Item 3: the closing release line drops the pull line; agents do not pull.
-  - Item 4: template 7.1's stance line, in the rubric's words, never a price or drawback.
-  - Item 5: the clock rule (all four starting lines, whoever makes the clock; `season_opens` written in 1.5 and confirmed in 3b.8); Night 1's Writes list and 1.5 Q3; 3b.8 confirms.
-  - Item 6: the Night 1 heading has no number word beside "gods"; the send-back bar gains the example of rule 77; a follow-up no answer could move is not asked, logged; template 7.1's Rule line writes the kind out, never a pointer.
-  - Item 13: `habit` among the kinds of `unsaid.md`, under `## Habit`.
-  - Rule 85: a test run that stops before the lock closes with the next `creation_night` recorded (the clock rule and 1.9).
-  - Decision 2: the Images standing rule, a morning painting covered only by the line naming its own morning.
-  - Decision 3: travel priced in the direction actually travelled; line ends named by the places the tool gives, never `:start` or `:end` alone; a line priced one way never reused for the other.
-- `survey-keeper-notes.md`: item 2, a first choice counts 2 and a second 1, the month with most carries, a tie by the interesting-game rule; the player's months from its `Waking vote:` line; `season_opens` written on Night 1. Item 6: a moot tie's variation roll is cast for the record. Rule 82: sub-point against extra in a vote answer. Rule 83: one body with a costly way to more counts with more than one.
-- `npc-god-rubric.md`: item 4, the three stance bands and the Clever and Freedom marks in words with no price or drawback, said to be the sheet's words so the release carries the sheet whole (rule 76 superseded); item 6 and rule 75, the two rule-lean bands write the kind out with its meaning, no pointer to the table.
-- `build7-check-sealed.md`: a closing status: both points it held as awaiting Michael were settled on 2026-11-25 and applied in build 7; nothing in it is open (rules 86 and 87).
-
-- `creation-runbook.md` 3a.5, at the coordinator's word after Agent T's tools (38e0f70): a new step, "Lines priced by direction". A river's points run source to mouth, checked and reversed if traced the other way; every road or path whose ground climbs carries `heights_ft`, one height per point, set conservatively from the painted ground and its regions' elevation ranges and logged; a stretch faster one way for a reason the pace table has a row for gets a `pace` stretch; then `map.py validate`, and each such line priced both ways.
-
-### Not applied, or left for the build check
-
-- Agent E's note for Agent K (the night after the clock waited) is applied in `year-turn.md` section 1 and the templates. Agent E's `night-turn.md` marker wording ("where it is kept") and `year-turn.md`'s ("kept where it stands") say the same under marking in place; the build check may want one wording.
-- "A minor held moment": the three cases besides a prepared scene that are never minor, and "in doubt, held", are the Keeper's procedure for the judgment Michael gave it, not his words. For the build check to confirm.
-- "A play day covers at most one in-game year" is read with the clock waiting as never reaching past the clock's year; Agent E's `dm.md` has the same bound.
-- No campaign file was changed. sim-06's standing label allow (rule 36) is a campaign matter for its next night.
 
 ## Tools (Agent T)
 
