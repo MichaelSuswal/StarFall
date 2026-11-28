@@ -184,6 +184,16 @@ Examples: a second wrong explanation proposed beside a true sighting, rejected a
 
 Fix: rework the year so the clue appears where and when the god would meet it, at ordinary weight. Nothing is withheld to pace the mystery.
 
+## 22. A result reshaped after its roll
+
+Added 2026-11-27, build 8 (run 07 item 27).
+
+**Check:** Was any condition, exception, cost or term added to an outcome, or any outcome narrowed or widened, after the die that decided it was known?
+
+Examples: a condition added to a board's answer after its roll, which the Keeper withdrew once it was flagged (run 07). A won crossing given a toll the odds never named.
+
+Fix: the result stands as rolled, with only the terms stated before the roll. Withdraw the added term and rework anything built on it. If the player has seen it, log in corrections. A genuine new case is ruled for the next roll of its kind, never for this one (`engine/rules/encounters.md` section 3).
+
 ---
 
 ## The checklist grows

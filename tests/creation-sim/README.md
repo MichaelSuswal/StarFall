@@ -14,7 +14,7 @@ Agents report process problems (unclear instructions, missing paths, contradicti
 
 ## How a run goes
 
-1. The orchestrator creates `campaigns/sim-NN/state/clock.md` with `status: creation` and `creation_night: 1`, and the test folder.
+1. The orchestrator creates `campaigns/sim-NN/state/clock.md` as `engine/night/creation-nights.md` gives it, every line included (`campaign`, `year: 0`, `status: creation`, `creation_night: 1`, `season_opens: not yet set`), and the test folder (run 07 item 5).
 2. Day 1: the stand-in answers the survey; the DM closes the day.
 3. Night 1: the Keeper runs the runbook. The orchestrator spawns the seven god agents for it, each with only its own folder and release, and relays the Keeper's stops.
 4. Day 2 and Day 3: the DM and the stand-in talk; the orchestrator relays and appends both sides to the transcript.
@@ -48,3 +48,7 @@ Campaign `sim-05`, on build 5. Test override: the first NPC god rolled is a lone
 ## Run 06 (2026-11-24)
 
 Campaign `sim-06`, on build 6. No test override. Stand-in plays a trader, standard mode. Three creation images approved (surface, clouds, first morning) and three play-year mornings (Years 2 to 4). After creation, a 3-year play test in the same world: one play day and one night turn per year.
+
+## Run 07 (2026-11-25 to 2026-11-26)
+
+The short check of build 7 (`run-07/plan.md`). Part A: a fresh campaign `sim-07`, Day 1 and Night 1 only, for the waking vote; then closed. Part B: `sim-06` reopened at Year 4 under build 7, with a setup pass, two play days and two night turns, for live scenes and held moments; then closed. No paintings. 30 findings in `run-07/changes.md`, with Michael's decisions of 2026-11-27 (the clock waits until the story catches up; a play-year morning approved only by the line naming its year; travel priced in the direction travelled). Build 8, StarFall 1.0, applies them (`run-07/build-plan.md`, `run-07/applied.md`).

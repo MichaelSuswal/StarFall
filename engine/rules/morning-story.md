@@ -1,6 +1,6 @@
 # The morning story
 
-The shape of what the DM posts at 6:30 every morning, and of the closing sequence posted with it. The morning story is written overnight (night-turn step 6) from `releases/NNN/dm.md` alone, which holds everything the player's god could know of the year and nothing else. It is saved as `years/NNN+1/morning-story.md` and posted by the 6:30 wake.
+The shape of what the DM posts at 6:30 every morning, and of the closing sequence posted with it. The morning story is written overnight (night-turn step 6) from `releases/NNN/dm.md` alone, which holds everything the player's god could know of the year and nothing else. It is saved as `years/NNN+1/morning-story.md` when the night took the player's thread to the end of year NNN, and as `years/NNN/morning-story-<K+1>.md` when the clock waits at a held moment of year NNN (`engine/night/night-turn.md` step 0); the 6:30 wake posts the morning the clock names. A morning tells at most one in-game year.
 
 The story is the default and it always comes first. Other formats (a numbered task list, a table of stores, a who's who) are given only when the player asks for them, and only after the story has been posted. The DM may learn that a player likes a list each morning; it still posts the story first and keeps the default until the player asks for a change, which then goes into the Change List.
 
@@ -20,7 +20,7 @@ A held encounter changes the ending: see below.
 
 One paragraph of prose, sometimes two, that puts the player back in the world. It carries, woven together and never as labelled fields:
 
-- The year number and the season. The whole world goes through the seasons together, and every year opens in the same waking month, decided on Night 1 (DESIGN 8.1), so the season is the same every morning; it is still named, because it is where the god is standing. When the morning first tells the tail of a held year, the return sequence opens at the held moment's own date instead.
+- The year number and the season. The whole world goes through the seasons together, and every year opens in the same waking month, decided on Night 1 (DESIGN 8.1), so the season is the same every morning; it is still named, because it is where the god is standing. When the morning tells the rest of a year after a played held moment, the return sequence opens at the held moment's own date instead.
 - The state and mood of the people: how they are faring and how they feel about it, as the god would know it from what it saw and what it was told.
 - The avatar's position and condition: where the body is, what it is doing or has just finished doing, and what shape it is in.
 - The god's own senses, wherever they occur: what the god feels in its body or through its powers at this moment. These are always reported (DESIGN 12.10). If a sense would reach the god at a particular point of the year rather than now, it belongs in the summary at that point instead.
@@ -35,7 +35,7 @@ One painting each morning, of the year's highlight. The highlight is one of thre
 
 The painting shows only what the god knows (DESIGN 14.4). If the people told the god of a thing and the god has not seen it, the painting may show the telling, or the god hearing it, but not the thing as if the god had been there.
 
-The prompt is built from `engine/style/house-style.md`: the house style block copied word for word, then the scene, with every recurring subject described from its appearance card (`engine/style/appearance-card.md`). The request is written to `images/requests/<campaign>-NNN+1-morning.json` as early in the night as the highlight is known, so the painting is back by 6:30. If `state/images.md` does not approve the morning painting, the request goes to `images/held/<campaign>-NNN+1-morning.json` instead, nothing is painted, and the morning posts without one (build check B7).
+The prompt is built from `engine/style/house-style.md`: the house style block copied word for word, then the scene, with every recurring subject described from its appearance card (`engine/style/appearance-card.md`). The request is written to `images/requests/<campaign>-NNN+1-morning.json` (for a morning while the clock waits, `<campaign>-NNN-morning-<K+1>.json`) as early in the night as the highlight is known, so the painting is back by 6:30. A play-year morning is approved only by the `state/images.md` line that names its own year (`Year N morning painting: approved`), or by the campaign's standing line `year morning painting: approved, one per played year`, which covers each year's first morning; a line for another year never approves it (Michael, 2026-11-27, run 07 item 14). A morning while the clock waits is a further morning of the same year: the standing line does not cover it, and only a line that names its year and its play day approves it. If `state/images.md` does not approve the morning painting, the request goes under the same name to `images/held/` instead, nothing is painted, and the morning posts without one (build check B7).
 
 In the post, the painting follows the return sequence with no caption and no title. If the player asks what it shows, the DM says so in prose.
 
@@ -60,7 +60,7 @@ During unplayed time the avatar runs on standing conduct, and minor encounters r
 
 When the release holds one, the morning story ends at it. The return sequence and the painting come as usual. The summary runs up to the moment of contact and stops there, with the board laid out as a scene opens: what the god can see, hear and know, and nothing resolved. Then the DM waits. No "what do you do?" The stopped story is the question.
 
-The morning tells the year only up to the first held moment. Nothing after it is told, not even what did not seem to depend on it: the year is paused there for the god. The player plays the moment live, the night after works the played answer into the rest of that year, and the next morning tells the rest, from the held moment's own date, up to the next held moment if there is one, and then the year that followed (Michael, 2026-11-25). A later held moment of the same year is never laid out beside the first. The player's thread stops at the next held moment wherever it falls, a held year's tail included: the morning then tells the tail only up to that moment, and the open year's player thread is not told, or begun, until the tail's held moments are played. At most one untold stretch of the player's thread is open at a time; the world is still resolved whole (build check B2).
+The morning tells the year only up to the first held moment. Nothing after it is told, not even what did not seem to depend on it: the year is paused there for the god. The player plays the moment live, the night after works the played answer into the rest of that year, and the next morning tells the rest, from the held moment's own date, up to the next held moment if there is one (Michael, 2026-11-25). A later held moment of the same year is never laid out beside the first. The clock waits until the story catches up (Michael, 2026-11-27): while the player's thread stands at a held moment, the clock stays in that year, and the year that follows is begun and told only after the thread has reached the year's end. A night may resolve past a minor held moment, which the Keeper judges and logs, and the morning tells it as what happened; a prepared scene is never minor (`engine/night/night-turn.md` step 0).
 
 ## When the world is taking longer
 
@@ -128,7 +128,7 @@ The story ends there, at the moment of contact. The painting is the mysterious k
 
 ## The closing sequence
 
-The closing sequence is written by the night turn from the resolved year (`years/NNN/closing.md`, night-turn.md step 6), not by the DM at 1:30, and the 6:30 wake posts it just before the morning story, as the last lines of the year that has just closed (dm.md, The day, item 6). At 1:30 the DM writes the final save, hands off `player/decisions-NNN.md`, and stops.
+The closing sequence is written by the night turn from the resolved year (`years/NNN/closing.md`, or `closing-K.md` for play day K after the clock waited, night-turn.md step 6), not by the DM at 1:30, and the 6:30 wake posts it just before the morning story, as the last lines of the year that has just closed (dm.md, The day, item 6). At 1:30 the DM writes the final save, hands off `player/decisions-NNN.md`, and stops.
 
 The closing sequence is short: two to five sentences of prose in the voice of the fiction, no (oog) unless something must be said out of game (the save failed, a scene was left mid-board). It marks the turning of the year as this god would feel it. It is unique to the player's god: built from the god's form, its senses and its way in the world, as those have shown themselves in play and in the conduct profile, so that a god of the hearth feels the year go out like a banked fire and a god of the roads feels it as distance. It is not the same words each night; it is the same god each night.
 
@@ -138,4 +138,4 @@ Example, for the Hearthmother at the end of a day spent at the ridge road:
 
 > The light goes out of the gullies and the thaw quiets with the cold. You stay where you are, with your back to the Dale and your burned hand under your cloak, and you feel the valley settle behind you, fire by fire, as the doors close. The year turns.
 
-It is written from what happened in the year, and stops where the telling stops: a year held at a moment closes at that moment.
+It is written from what happened in the year, and stops where the telling stops: a year held at a moment closes at that moment. On a night the clock waits, the year has not turned, and the closing marks the night's turn at that moment, not the year's.

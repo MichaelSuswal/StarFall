@@ -6,6 +6,8 @@ Everything in this file is a baseline for a fair day in good season. The adjustm
 
 Travel is priced by route and means (`engine/rules/map.md` section 5.1): the trip is cut into segments along the route the traveler chooses, and each segment takes the rate for its means on its ground. On foot uses section 1, on horse section 2, by wagon the ox-cart table in section 3, by boat or barge section 4. A road segment takes the good road row; a path takes the rough ground row; a river segment by boat takes downstream or upstream; a sea segment takes coastal sailing; open ground takes the row for the terrain of each region crossed. Different routes to one place give different times; `tools/map.py travel` does the segment arithmetic from the map data.
 
+Travel along a line is priced in the direction actually travelled (Michael, 2026-11-27, run 07 item 25). The stretch priced is the one between the place the traveler starts from and the place it goes to, segment by segment in that order, never the line's length from its other end. Ground is not uniform along a line, so its beginning may be faster or slower than its end, and where this table gives a rate by direction the direction travelled picks it: a river segment by boat is downstream one way and upstream the other, and a coastal leg into a headwind takes the headwind rate. The same line can therefore take a different time each way. This table has no rate for a climb against a descent on the same ground; until one is set, a slope counts only through the ground of the segments it crosses (a mountain segment at the mountain row). `tools/map.py travel` names each line's ends by their places, so no agent can price from the wrong end.
+
 Distances are in miles, time in days. A travel day is about ten hours of movement for a mortal, with the rest for camp, food and sleep. A work day is about ten hours of labor in summer, less in winter when the light is short.
 
 ---
@@ -180,7 +182,7 @@ That is a long time. Here is what fits in a year:
 
 One to three scenes are played live each year, and god-scale decisions besides. The rest of the year is not lost. Time you do not spend in scenes still passes in the world, and your god is still in it: your standing orders run, your advisors and kings do what you told them, your tasks get done and your journeys arrive. Say "I will do this then" and it is scheduled; say "see to it" and it is delegated. Long tasks resolve overnight and the morning story tells you what came of them.
 
-Where time is spent in the world and not in a scene, your god follows the conduct you set, or by default its own character, cautious and never reckless. Minor encounters resolve by that conduct. A major one is held for you, and so is a scene you prepared for: the morning story stops at the moment of contact, tells nothing of the year past it, and you play it live; the next morning tells the rest.
+Where time is spent in the world and not in a scene, your god follows the conduct you set, or by default its own character, cautious and never reckless. Minor encounters resolve by that conduct. A major one is held for you, and so is a scene you prepared for: the morning story stops at the moment of contact, tells nothing of the year past it, and you play it live; the next morning tells the rest. While a moment waits for you the clock waits too: the year does not turn past the point your story stands at, and a day of play never covers more than one year.
 
 If you want to spend the whole year in the world, working with your hands and walking your land, you may. It counts.
 
@@ -192,6 +194,7 @@ The same numbers as `tools/pace.py`. Travel in miles per day, work in worker-day
 
 ```
 Route:  road = road row; path = rough row; river = boat up or down; sea = coastal sail; open ground = each region's terrain
+Direction: priced from the start place, segment by segment in the order travelled; river by boat downstream one way, upstream the other
 Walk:   road 20, rough 14, forest 10, mountain 8, marsh 6, snow 6
 Ride:   road 30, rough 20, forest 10, mountain 10, marsh 4, snow 8
 Oxcart: road 10, rough 6, snow 3; no passage elsewhere

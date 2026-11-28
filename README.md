@@ -1,6 +1,8 @@
 # StarFall
 
-A single-player god game played in one long chat, one year of the world per real day. You fall into a world that does not know you yet, land in country suited to you, and lead whoever you find there. Other gods have fallen too. You will never be told how many.
+Version 1.0 (build 8, 2026-11-27).
+
+A single-player god game played in one long chat, at most one year of the world per real day. You fall into a world that does not know you yet, land in country suited to you, and lead whoever you find there. Other gods have fallen too. You will never be told how many.
 
 ## Starting a campaign
 
@@ -21,6 +23,7 @@ Unplayed time is delegated to your advisors or scheduled ahead. Your god keeps d
 
 - 1:30am: finish typing before this. The chat saves, the world turns overnight (your decisions, the other gods' decisions, and everything that follows from both), and a closing sequence is written for you.
 - 6:30am: the morning story posts. If the world is still turning, a short notice says so and the story follows when done.
+- When the morning stops at a moment held for you to play, the clock waits: the year does not turn past where your story stands, and you play the moment the next day. A day of play never covers more than one year.
 
 The overnight scheduled task runs with automatic approval: whoever enables it sets "Automatically approve" in its settings, so no night waits for a go.
 
