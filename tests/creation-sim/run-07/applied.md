@@ -109,6 +109,8 @@ Applied 2026-11-27 under Michael's go of 19:37 Pacific (`build-plan.md`), in `SP
 - `npc-god-rubric.md`: item 4, the three stance bands and the Clever and Freedom marks in words with no price or drawback, said to be the sheet's words so the release carries the sheet whole (rule 76 superseded); item 6 and rule 75, the two rule-lean bands write the kind out with its meaning, no pointer to the table.
 - `build7-check-sealed.md`: a closing status: both points it held as awaiting Michael were settled on 2026-11-25 and applied in build 7; nothing in it is open (rules 86 and 87).
 
+- `creation-runbook.md` 3a.5, at the coordinator's word after Agent T's tools (38e0f70): a new step, "Lines priced by direction". A river's points run source to mouth, checked and reversed if traced the other way; every road or path whose ground climbs carries `heights_ft`, one height per point, set conservatively from the painted ground and its regions' elevation ranges and logged; a stretch faster one way for a reason the pace table has a row for gets a `pace` stretch; then `map.py validate`, and each such line priced both ways.
+
 ### Not applied, or left for the build check
 
 - Agent E's note for Agent K (the night after the clock waited) is applied in `year-turn.md` section 1 and the templates. Agent E's `night-turn.md` marker wording ("where it is kept") and `year-turn.md`'s ("kept where it stands") say the same under marking in place; the build check may want one wording.
