@@ -1,6 +1,6 @@
 # The morning story
 
-The shape of what the DM posts at 6:30 every morning, and of the closing sequence posted with it. The morning story is written overnight (night-turn step 6) from `releases/NNN/dm.md` alone, which holds everything the player's god could know of the year and nothing else. It is saved as `years/NNN+1/morning-story.md` when the night took the player's thread to the end of year NNN, and as `years/NNN/morning-story-<K+1>.md` when the clock waits at a held moment of year NNN (`engine/night/night-turn.md` step 0); the 6:30 wake posts the morning the clock names. A morning tells at most one in-game year.
+The shape of what the DM posts at 6:30 every morning, and of the closing sequence posted with it. The morning story is written overnight (night-turn step 6) from `releases/NNN/dm.md` (or its play day's numbered file, `engine/night/night-turn.md`) alone, which holds everything the player's god could know of the year and nothing else. It is saved as `years/NNN+1/morning-story.md` when the night took the player's thread to the end of year NNN, and as `years/NNN/morning-story-<K+1>.md` when the clock waits at a held moment of year NNN (`engine/night/night-turn.md` step 0); the 6:30 wake posts the morning the clock names. A morning tells at most one in-game year.
 
 The story is the default and it always comes first. Other formats (a numbered task list, a table of stores, a who's who) are given only when the player asks for them, and only after the story has been posted. The DM may learn that a player likes a list each morning; it still posts the story first and keeps the default until the player asks for a change, which then goes into the Change List.
 
@@ -128,7 +128,7 @@ The story ends there, at the moment of contact. The painting is the mysterious k
 
 ## The closing sequence
 
-The closing sequence is written by the night turn from the resolved year (`years/NNN/closing.md`, or `closing-K.md` for play day K after the clock waited, night-turn.md step 6), not by the DM at 1:30, and the 6:30 wake posts it just before the morning story, as the last lines of the year that has just closed (dm.md, The day, item 6). At 1:30 the DM writes the final save, hands off `player/decisions-NNN.md`, and stops.
+The closing sequence is written by the night turn from the resolved year (`years/NNN/closing.md`, or `closing-K.md` for play day K after the clock waited, night-turn.md step 6), not by the DM at 1:30, and the 6:30 wake posts it just before the morning story, as the last lines of the year that has just closed (dm.md, The day, item 6). At 1:30 the DM writes the final save, hands off `player/decisions-NNN.md` (`decisions-NNN-K.md` on play day K), and stops.
 
 The closing sequence is short: two to five sentences of prose in the voice of the fiction, no (oog) unless something must be said out of game (the save failed, a scene was left mid-board). It marks the turning of the year as this god would feel it. It is unique to the player's god: built from the god's form, its senses and its way in the world, as those have shown themselves in play and in the conduct profile, so that a god of the hearth feels the year go out like a banked fire and a god of the roads feels it as distance. It is not the same words each night; it is the same god each night.
 

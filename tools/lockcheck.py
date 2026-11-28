@@ -110,7 +110,7 @@ layout (tests use a fixture).
                sealed folder: before Night 1 it reads the public folder alone (change list 2).
 
 Every mode skips the checker's own flags files (any lock-flags*.md, years/000/lock-flags.md
-among them, and every year's years/NNN/flags.md, build 8, run 07 change list 26): they quote what they flag.
+among them, and every year's years/NNN/flags.md and flags-K.md, build 8, run 07 change list 26): they quote what they flag.
 """
 import argparse, json, os, re, sys
 
@@ -160,11 +160,14 @@ class Report:
 
 def is_flags_file(path):
     """The checker's own flags files, which every mode skips: lock-flags.md and lock-flags*.md, and a
-    year's years/NNN/flags.md (change list 26), the night checker's file, which quotes what it flags."""
+    year's years/NNN/flags.md (change list 26) or flags-K.md (a night after the clock waited), the night checker's
+    file, which quotes what it flags."""
     if re.match(r"^lock-flags.*\.md$", os.path.basename(path)):
         return True
     parts = os.path.normpath(path).split(os.sep)
-    return len(parts) >= 3 and parts[-1] == "flags.md" and parts[-3] == "years" and re.fullmatch(r"\d{3}", parts[-2]) is not None
+    # flags.md, and flags-K.md on a night after the clock waited (engine/night/night-turn.md; build check finding 2)
+    return (len(parts) >= 3 and re.fullmatch(r"flags(?:-\d+)?\.md", parts[-1]) is not None and parts[-3] == "years"
+            and re.fullmatch(r"\d{3}", parts[-2]) is not None)
 
 
 def text_files(folder):

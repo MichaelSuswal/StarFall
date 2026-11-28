@@ -44,7 +44,8 @@ Dice are hidden from the player; the DM reports only outcomes.
 The DM's open rolls (build 7, run 06 change list 62 and 70): the DM rolls in play with
   python3 tools/roll.py --campaign NAME --public --who "<party>, rolled by the dm" --what "..." --factor ...
 (the party is whose attempt it is: the god, a mortal by name or office, or the world for a world fact;
-plain "dm" is also accepted; engine/roles/dm.md, build 8, run 07 change list 23), which writes the campaign's public log, campaigns/NAME/state/rolls.jsonl, never the sealed one. The
+plain "dm" is also accepted, and --public refuses any other form; engine/roles/dm.md, build 8, run 07 change list 23
+and the build check's finding 16), which writes the campaign's public log, campaigns/NAME/state/rolls.jsonl, never the sealed one. The
 DM's open rolls stay in that public log (Michael, 2026-11-24 22:06), and their ids carry the DM's own
 prefix, dm-NNNN, numbered per log file as r-NNNN is, so the two logs never share an id. --public
 needs --campaign and a --who that names the DM ("<party>, rolled by the dm", or plain "dm"), and
@@ -118,6 +119,15 @@ def entry_id(entry, lineno, prefix="r"):
 
 
 DM_WHO_RE = re.compile(r"\bdm\b", re.I)
+
+
+PUBLIC_WHO_RE = re.compile(r"^\s*(?:dm|[^,]*\S[^,]*,\s*rolled by the dm)\s*$", re.I)
+
+
+def public_who_ok(who):
+    """True for a --who that --public takes (engine/roles/dm.md; build 8 check, finding 16 and R6): plain "dm", or
+    "<party>, rolled by the dm" with a party before the comma, case aside. is_dm() stays for reading older lines."""
+    return bool(PUBLIC_WHO_RE.match(str(who or "")))
 
 
 def is_dm(who):
@@ -247,7 +257,7 @@ def main(argv=None):
     if a.public:
         if a.log or not a.campaign:
             p.error("--public needs --campaign NAME and takes no --log: it writes the campaign's public log")
-        if not is_dm(a.who):
+        if not public_who_ok(a.who):
             p.error("--public is the DM's open roll: --who names the DM (\"<party>, rolled by the dm\", the party whose attempt it is, or plain \"dm\"); every other roll is sealed")
     if a.die and (a.factor or a.base is not None):
         p.error("--die takes no --factor or --base; a die returns a face, not a success")

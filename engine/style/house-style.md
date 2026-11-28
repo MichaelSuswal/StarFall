@@ -66,7 +66,7 @@ One painting each morning, made overnight. During the day the player may ask for
 
 ## The request file
 
-`images/requests/<campaign>-NNN-morning.json` for the morning painting; `images/requests/<campaign>-NNN-request-1.json` and `-request-2.json` for the two on request. The file is one JSON object:
+`images/requests/<campaign>-NNN-morning.json` for the morning painting (`<campaign>-NNN-morning-K.json` for a further morning while the clock waits); `images/requests/<campaign>-NNN-request-1.json` and `-request-2.json` for the two on request. The file is one JSON object:
 
 ```
 {"id": "<campaign>-NNN-morning", "shape": "wide", "prompt": "<house style block>\n\n<scene>"}

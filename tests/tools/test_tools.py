@@ -2744,3 +2744,34 @@ def test_build8_climb_by_naismith_both_ways():
     assert any("heights_ft is a list of 3 heights" in p for p in mapt.check_world(bad))
     assert mapt.climb_feet({"coords": [[0, 0], [10, 0]], "heights_ft": [0, 100]}, 10, 0) == 0
     assert abs(mapt.climb_feet({"coords": [[0, 0], [10, 0]], "heights_ft": [0, 100]}, 2, 7) - 50) < 1e-9
+
+
+def test_build8_check_fixes_flags_k_and_public_who():
+    """Build 8 check findings 2 and 16: lockcheck skips a waiting night's years/NNN/flags-K.md as well as flags.md;
+    roll.py --public takes only "dm" or "<party>, rolled by the dm" (R6), while is_dm() still reads older lines."""
+    assert lockcheck.is_flags_file(os.path.join("S", "years", "005", "flags-2.md"))
+    assert lockcheck.is_flags_file(os.path.join("P", "years", "005", "flags-12.md"))
+    assert not lockcheck.is_flags_file(os.path.join("S", "years", "005", "flags-two.md"))
+    assert not lockcheck.is_flags_file(os.path.join("S", "years", "005", "closing-2.md"))
+    with tmpcopy() as repo:
+        append(repo, "SPOILERS_do_not_open/campaigns/fx/years/001/flags-2.md", "Flag: [painting] is quoted from a release.\n")
+        code, out, _ = lock(repo, "--places")
+        assert code == 0, out
+    for who in ("dm", "DM", "the god, rolled by the dm", "Kessan the reeve, rolled by the DM", "the world, rolled by the dm"):
+        assert roll.public_who_ok(who), who
+    for who in ("keeper for the dm", "dm keeper", ", rolled by the dm", "rolled by the dm", "the god rolled by the dm", "keeper"):
+        assert not roll.public_who_ok(who), who
+    assert roll.is_dm("dm keeper")   # older public lines are still read as the DM's
+    d = tempfile.mkdtemp()
+    real = roll.ROOT
+    try:
+        roll.ROOT = d
+        code, _out, err = run_quiet(roll.main, ["--campaign", "zz", "--public", "--who", "keeper for the dm", "--what", "x"])
+        assert code == 2 and "--public is the DM's open roll" in err, err
+        code, _out, err = run_quiet(roll.main, ["--campaign", "zz", "--public", "--who", "the god, rolled by the dm",
+                                                "--what", "the leap", "--factor", "strength=+10"])
+        assert code == 0, err
+        assert read_lines(os.path.join(d, "campaigns", "zz", "state", "rolls.jsonl"))[0]["id"] == "dm-0001"
+    finally:
+        roll.ROOT = real
+        shutil.rmtree(d)
