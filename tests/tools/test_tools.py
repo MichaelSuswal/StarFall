@@ -2467,7 +2467,10 @@ def test_build8_paint_morning_named_by_its_own_year():
         assert paint.year_ok(None, "first morning painting", "approved") is True
     finally:
         shutil.rmtree(d)
-    # the sim-06 held requests for Years 5 and 6 are not approved; the Year 2 to 4 mornings still are
+    # the sim-06 held requests for Years 5 and 6 are not approved; the Year 2 to 4 mornings still are.
+    # Workshop data only: a player's copy of the template has no sim-06, so this part is skipped there.
+    if not os.path.exists(os.path.join(ROOT, "campaigns", "sim-06")):
+        return
     for n in (5, 6):
         req = json.load(open(os.path.join(ROOT, "images", "held", f"sim-06-{n:03d}-morning.json")))
         ok, why = paint.covered(req, ROOT)
