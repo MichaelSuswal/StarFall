@@ -101,7 +101,7 @@ Principle from run 01 (Night 2, step 2.2): when gods working apart arrive at the
 - No number appears in any label, file name or sheet, and no roll id appears on a sheet: ids run in rolling order and would let a god count the others. The order in which the gods were rolled, and every roll id, live in the keeper log only. A god reading its own folder can learn its domain and nothing about how many others there are.
 
 ## 11. Bargaining stance
-How hard a god argues over the price of its powers (Night 2) and its people's edges (Night 3). Worked out from the leans when the sheet is written, and written on the sheet in words, as part of the god's character. The Keeper prices the same way whatever the stance; the stance shapes how the god answers.
+How hard a god argues over the price of its powers (Night 2) and its people's edges (Night 3). Worked out from the leans when the sheet is written, and written on the sheet in words, as part of the god's character. The Keeper prices the same way whatever the stance; the stance shapes how the god answers. The sheet's words speak of how the god holds its ground, never of prices or drawbacks, so the Night 1 release carries the sheet whole (run 07 item 4).
 
 Stance score: the mean of Appetite, Trust and Regard for mortals, rounded.
 
@@ -109,18 +109,18 @@ Rounding, for every score in this rubric: to the nearest whole number; a mean th
 
 | Score | Stance | On the sheet |
 |---|---|---|
-| 1 to 35 | yielding | It takes a fair price as offered and argues only where a price cuts against what it is. |
-| 36 to 65 | measured | It argues for what it cares about most, gives way on the rest, and wants reasons for any price it thinks high. |
-| 66 to 100 | hard | It contests every price it thinks too high, offers its own drawbacks in place of the Keeper's, and accepts a counter only for a reason it respects. |
+| 1 to 35 | yielding | It gives way readily, and holds firm only where a thing cuts against what it is. |
+| 36 to 65 | measured | It holds firm on what it cares about most, gives way on the rest, and wants reasons for anything it thinks too much to ask. |
+| 66 to 100 | hard | It contests every term it thinks unjust, puts its own terms in place of another's, and gives way only for a reason it respects. |
 
 Leans that make a god argue harder: Appetite toward hungry (it wants more); Trust toward wary (it suspects the price); Regard toward sovereign (it expects to be served, not priced). Leans that make it yield: content, open, shepherd.
 
-Then, whatever the score, these shape how it argues (each from 1 to 35 or 66 to 100 on that lean; between, no mark):
+Then, whatever the score, these shape how it argues (each from 1 to 35 or 66 to 100 on that lean; between, no mark), each a line of the sheet in the words given:
 
-- Mind. Intelligent: argues from reasons and consistency with what was already agreed. Clever: hunts for wordings, loopholes and the case nobody priced.
+- Mind. Intelligent: argues from reasons and consistency with what was already agreed. Clever: hunts for wordings, loopholes and the case nobody foresaw.
 - Body. Strong: bargains for force and reach. Enduring: bargains for duration and for what survives.
 - Temper. Patient: willing to spend all three rounds to get a thing right. Impulsive: decides fast and may accept to be done.
-- Order. Law: wants every limit written exactly. Freedom: resists limits and would rather take a heavier drawback than a written fence.
+- Order. Law: wants every limit written exactly. Freedom: resists limits and would rather give up more elsewhere than accept a written fence.
 - Presence. Revealed: wants powers others can see work. Hidden: prefers powers no one can trace to it.
 
 Every god gives a reason for each thing it asks and for each price it accepts. Accepting everything is a choice open to any stance, never the default the release suggests.
@@ -162,10 +162,10 @@ How the god's people are ruled, and who holds rule under the god. Rule score: th
 | 1 to 12 | a lone god that refuses its helpers | It starts with helpers like every god (a council's or elders' offices, by default), and its rolls lean it to refuse them: it gives its reason when it builds its people, the refusal is logged with the date, and its people then go their own way. |
 | 13 to 39 | a council of elders or chieftains | The people is ruled by a council of its own (elders, headmen, chieftains); the god is heard there, and the council's helpers carry out what is agreed. |
 | 40 to 54 | a sacred monarch behind a court | A mortal line holds the throne in the god's name and is held sacred for it; a court stands between the throne and the people, and the god is reached through it. |
-| 55 to 69 | a mortal ruler under the god | One ruler answers to the god and rules for it: a priest-king, a warlord or a merchant-prince, by the variety table below (those three only). |
-| 70 to 100 | a god-king with a court and priesthood | The god holds the crown itself, with a court and officers; its word is law, carried by them. A priesthood stands in it only as the worship lean gives one. Its manner is set by the variety table below (all five). |
+| 55 to 69 | a mortal ruler under the god | One ruler answers to the god and rules for it, a <kind>: <what the kind means>. (The kind is a priest-king, a warlord or a merchant-prince, from the variety table below, written out with its meaning.) |
+| 70 to 100 | a god-king with a court and priesthood | The god holds the crown itself, with a court and officers; its word is law, carried by them. A priesthood stands in it only as the worship lean gives one. A <kind> in manner: <what the kind means>. (The kind is any of the five in the variety table below, written out with its meaning.) |
 
-The "On the sheet" column is the sheet's words, whole: no file name and no word of how rare a result is goes on a sheet, a forced one included. The lone god is rare and comes only on an extreme roll; that is the Keeper's reference.
+The "On the sheet" column is the sheet's words, whole, with the bracketed note left off and the kind filled in: no file name, no pointer to a table and no word of how rare a result is goes on a sheet, a forced one included (run 07 item 6). The lone god is rare and comes only on an extreme roll; that is the Keeper's reference.
 
 Odds, for the Keeper's reference: about 1 in 130 for the lone god that refuses its helpers, a quarter for a council, a third for a sacred monarch, a quarter for a mortal ruler, one in seven or eight for a god-king.
 

@@ -20,3 +20,7 @@ Companion to `tests/creation-sim/run-06/build-check.md`, written by the build ch
 - A1: sim-06's ledger entries L-0038, L-0043 and L-0046 stand at `SPOILERS_do_not_open/campaigns/sim-06/ruling-ledger.md` lines 270, 305 and 326; the sim-06 `rulings.md` has no entry for a reopening yet. The Year 3 DM release (line 170) cites L-0046 to the DM for how the told year was reworked.
 - C11: none of the seven sim-06 Year 3 civ reports (`S/civs/<people>/years/003-report.md`) has the section "What the people tell their god".
 - The deep lore holds a passage on what a god grown very strong feels; it is world content and outside the year 70 rule, which governs releases. Not a finding; noted so a later check does not read it as a hint left in a release.
+
+## Status at build 8 (2026-11-27)
+
+Both points above marked "awaiting Michael" were settled by him on 2026-11-25 at 22:03 and applied in build 7: the overrule of DM rolls is removed everywhere (`sealed-factors.md`, DM rolls in play), and knack growth has no fixed figures (`year-turn.md` section 8). Nothing in this file is still open. Recorded in `tests/creation-sim/run-07/rulings-to-rules.md`, rules 86 and 87.
