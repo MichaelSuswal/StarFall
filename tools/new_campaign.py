@@ -81,7 +81,7 @@ def files_for(name, paintings, date):
     images += CREATION_FULL if paintings == "full" else CREATION_MAPS
     images += PLAY_FULL if paintings == "full" else PLAY_MAPS
     return {
-        "clock.md": f"campaign: {name}\nstatus: creation\ncreation_night: 1\n",
+        "clock.md": f"campaign: {name}\nyear: 0\nstatus: creation\ncreation_night: 1\nseason_opens: not yet set\n",
         "models.md": MODELS.format(name=name),
         "images.md": images,
     }

@@ -2790,7 +2790,7 @@ def test_new_campaign_setup_files_and_paintings():
         code, out, err = run_quiet(new_campaign.main, ["ashfall", "--date", "2026-11-27"], root=d)
         assert code == 0, err
         clock = open(os.path.join(d, "campaigns", "ashfall", "state", "clock.md")).read()
-        assert clock == "campaign: ashfall\nstatus: creation\ncreation_night: 1\n"
+        assert clock == "campaign: ashfall\nyear: 0\nstatus: creation\ncreation_night: 1\nseason_opens: not yet set\n"
         models = open(os.path.join(d, "campaigns", "ashfall", "state", "models.md")).read()
         for line in ("keeper: fable", "npc-god: sonnet", "civ: sonnet", "checker: opus", "dm: fable"):
             assert line in models
