@@ -70,3 +70,35 @@ Ruled by the judgment order in `engine/roles/keeper.md`: fairness, above all to 
 ## Can 1.0 ship
 
 Yes, once the findings are fixed. Findings 1 to 4 and 6 must be fixed first. Each bites only from a campaign's second play day in a year, or in the build record, and none touches play day 1. The minor findings go with them in the same fix pass.
+
+## Recheck
+
+2026-11-27, against 84ee295, 1023be2 and 4cc9d49, at the text and tools as they now stand. All 17 findings are fixed.
+
+- Finding 1: Agent K's section in `applied.md` matches 212ab64 lines 78 to 120 line for line (checked by diff). The only addition is K's own "Fixes after the build check" subsection after it.
+- Finding 2: `lockcheck.py` `is_flags_file()` skips `years/NNN/flags.md` and `flags-K.md` and still scans `closing-2.md`; a test covers it.
+- Finding 3: `time-and-pace.md` line 11 and the quick reference, and DESIGN 10.1, now say the climb applies where a line carries `heights_ft` and a `pace` stretch sets each direction's row, as `map.py` does.
+- Finding 4: `dm.md` line 5 names the pair play day K reads (`dm.md`/`dm-sealed.md` on play day 2, `dm-<K-1>.md`/`dm-sealed-<K-1>.md` after), and lines 13 and 53 point to it; `keeper.md` 36 and 65, `scheduled-prompt.md` 21 and `morning-story.md` 3 add the numbered file.
+- Finding 5: `civ.md` 5 and `morning-story.md` 131 name `decisions-NNN-K.md`.
+- Finding 6: `night-turn.md` line 86 carries R8.
+- Finding 7: `year-turn.md` section 1, "The clock waits", carries R8 in one sentence, agreeing with `night-turn.md`.
+- Finding 8: `night-turn.md` line 95 reads "kept where it stands" (R5), as `year-turn.md` does.
+- Finding 9: `checker.md` item 6 checks every never-minor case `year-turn.md` section 1 names.
+- Finding 10: `dm.md` item 4 says a fall a later commit restored is a note (R7), as `check.py` does.
+- Finding 11: the process note is gone; `time-and-pace.md` cites R4.
+- Finding 12: the CHANGELIST decision 3 line names the climb rule.
+- Finding 13: the DESIGN title reads "(1.0)".
+- Finding 14: `checker.md` 35 names `flags-K.md`.
+- Finding 15: the build 7 sentence is gone from `year-turn.md` line 21; no engine, tool or sealed file carries the old lag rule.
+- Finding 16: `roll.py --public` takes only `dm` or `<party>, rolled by the dm` (`public_who_ok()`), refusing "keeper for the dm", "dm keeper" and a bare ", rolled by the dm"; `is_dm()` stays for older log lines; a test covers it.
+- Finding 17: `house-style.md` 69 names `<campaign>-NNN-morning-K.json`.
+
+Each agent logs its fixes in `applied.md` under its own heading: Agent E (findings 1, 3 to 6, 8 to 14, 17), Agent K (7, 15, with R1 and R2 standing), Agent T (2, 16, with R7 standing). T's fixes were committed inside E's commit 1023be2, as T's log says. No em or en dash in the changed files.
+
+Script runs: `python3 -m pytest tests/tools -q` 97 passed; `lockcheck.py sim-06 --all` 0 failures (places 98 warnings, leaks 1, releases 8, rolls 1, unchanged); `check.py sim-06 5` 0 findings, 4 notes, unchanged.
+
+One observation, not a finding: `public_who_ok()` refuses a party that itself holds a comma ("Ada, the smith, rolled by the dm"). The refusal is loud and the DM can write the party without one, so nothing is lost.
+
+Still open, for Michael only: approving paintings for a further morning while the clock waits (spending), and updating the installed scheduled task's prompt for item 17.
+
+1.0 can ship.
