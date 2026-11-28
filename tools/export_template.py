@@ -2,7 +2,7 @@
 
 Usage: python3 tools/export_template.py <target folder>
 
-The target is a clone of github.com/MichaelSuswal/StarFallGame. Everything in it except `.git/` is
+The target is a clone of github.com/MichaelSuswal/StarFall-Game. Everything in it except `.git/` is
 replaced by the game as committed here (tracked files only), less the workshop: no campaigns, no
 test runs, no paintings, no build-check notes. `template/README.md` becomes the template's README,
 and `template/CLAUDE-preface.md` is put above this repo's CLAUDE.md. Review the result, then commit
