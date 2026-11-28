@@ -32,3 +32,9 @@
 | 28 | Part B Year 5 night | The civ's "What the people tell their god" section, copied into the next decide release, carried a figure pass two had not settled; this year every release told agents to say only that an attempt was tried. | Civ release template: keep that line standing. | proposed |
 | 29 | Run 07 | Story behind the clock: 17.5 months after the Year 4 night, 14.5 after the Year 5 night. The Keeper gives three options: the clock waits; a night may resolve past a low-weight held moment; a played day may cover more than one stretch. See item 15. | Michael's design call. | proposed |
 | 30 | Run 07 | Each Keeper read only part of its file list, by its own report; two Year 5 flags traced to that. | Keeper brief: name the files to read in full each night (the year's own records, `year-turn.md`), and allow heading reads for creation-only files. | proposed |
+
+## Michael's decisions, 2026-11-27 (Pacific)
+
+- **The story behind the clock (15, 29).** 19:32: "yes, the clock waits until the story catches up. Yes, a night may resolve past a minor held moment. a play day should not be more than one year." The clock does not advance past the year the player's story stands in; a night may resolve past a minor held moment; a play day covers at most one in-game year.
+- **The painting approval fault (14).** 19:32: "fix it". A play-year morning is approved only by the line that names its own year.
+- **Travel along a line (25).** 19:32: "the direction of travel matters. topography isn't uniform. the beginning could be faster or slower than the other end." Travel is priced segment by segment in the direction actually travelled, so the same road can take a different time each way (uphill against downhill, upstream against downstream), and the tool says plainly which end is which.
